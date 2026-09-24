@@ -1,55 +1,72 @@
 # Geopolymer Platform — HANDOFF
-Updated: 24 September 2026 • Phase 2 • Owner: Isaac Anderson
+Updated: 24 September 2026 • First website prototype • Owner: Isaac Anderson
 
 ## Goal
-Build a global geopolymer/AAM knowledge, commerce, formulation and expertise platform.
+Global geopolymer/AAM knowledge, commerce, formulation and expertise platform.
 Learn → Formulate → Buy → Test → Ask → Share.
 
 ## Now
-First-pass research and planning completed. No website code written.
-Owner requested publication to yitzhach/geopolymer, followed by building.
-GitHub is now the working source of truth; earlier document copies are snapshots.
-Owner's kickoff and handoff are the baseline. All new recommendations remain proposals.
-The owner requested this set of living files instead of one large business plan.
+First static website prototype implemented on the planning baseline ed1bdbf.
+Main was verified at ed1bdbf with 11 Markdown files before editing.
+GitHub remains the working source of truth. No hosting deployment configured.
+Temporary name: Geopolymer Platform. Production stack and hosting remain open.
 
 ## Done
-- Initial competitor and public price checks; source URLs in relevant files.
-- Naming directions and preliminary web collision checks.
-- Revenue model, candidate kits and target economics.
-- Sourcing qualification plan and shipping/safety gates.
-- Sitemap, journeys, content templates and preliminary build sequence.
+- Homepage; material, research, formulation and product indexes/details.
+- Connected journey: metakaolin → Technical Paper #26 → method → kit concept.
+- Beginner and educator entry points; evidence standards page.
+- Cross-content search with content-type filters and empty states.
+- Batch mass scaler: g/kg, as-supplied basis, positive finite input validation.
+- Separate stable IDs for materials, grades, papers, methods and products.
+- Type contracts include test records; no platform results are claimed.
+- Proposed starter/classroom/casting kits and metakaolin sample; no checkout.
+- Portable build; four dependency-free tests pass; built HTTP assets return 200.
 
 ## Decisions
-Confirmed: integrated platform; modern scientific UX; evidence provenance;
-store + education + consulting first; community later; no coding yet.
-Public MVP counts preserved in KICKOFF.md.
-Proposals: AlkaliLab / Geopolymer Works; US fulfillment first;
-one qualified metakaolin system; private pilot before full public MVP.
+Owner authorized coding now, superseding the earlier no-code planning sequence.
+Native JS modules + HTML/CSS are a reversible prototype implementation only.
+Brand tokens and structured data are separate. No production provider chosen.
+Paper record uses publisher summary only; complete method extraction is pending.
+Scaler uses neutral A/B/C components, not invented chemical recipe quantities.
+Existing price targets remain proposals. Kit chemical masses remain unqualified.
 
-## Limits
-Domain availability and trademarks NOT cleared; no domains purchased.
-No supplier quotes, partnerships, expert roster or product safety validation completed.
-Prices/margins are targets; public competitor prices are variant ranges.
-No demand forecast or market-size claim established.
+## Limits / dead ends
+No supplier quotes, safety validation, inventory, expert roster or checkout.
+No name/domain clearance or launch-geography decision.
+No independently tested or internally reproduced methods.
+Visual/browser QA NOT completed: bundled Chromium missing; replacement download
+succeeded but browser launch failed with socket() Operation not permitted.
+Do not report mobile layout, browser interactions or accessibility as verified.
+A browser smoke script is included for a browser-capable environment.
+Shell Git push has no credentials; use the connected GitHub plugin for publication.
 
 ## Next
-1. Owner chooses naming direction and initial fulfillment geography.
-2. Clear finalist names/domains; build supplier quote and landed-cost matrix.
-3. Cost and qualify first kits, including shipping and instructor/adult pilot.
-4. Approve templates, wireframes, content schema and technical platform.
-5. Follow BUILD_PLAN.md to begin a reviewable prototype with provisional branding.
+1. Run browser smoke + visual review on desktop/mobile and at 200% text size.
+2. Review the prototype with Isaac; refine navigation, density and content templates.
+3. Choose a preview hosting destination when ready; no live URL exists yet.
+4. Review full paper; extract exact recipe/basis/grades and complete editorial fields.
+5. Qualify kit masses/equipment, supplier grades, documentation and shipping.
+6. Decide final branding, commerce architecture and pilot scope.
+The full public MVP counts in KICKOFF.md are unchanged.
 
 ## Files / read map
-KICKOFF.md — consolidated owner requirements.
-DECISIONS.md — approved baseline vs open proposals; update on each decision.
-BRAND.md — naming, collisions and identity direction.
-BUSINESS.md — competitors, audiences and revenue.
-PRODUCTS.md — catalog, kits, costing, sourcing and safety gates.
-RESEARCH_STRUCTURE.md — entities, provenance and templates.
-SITE_ARCHITECTURE.md — sitemap, UX, MVP stages, tools and build readiness.
-Read only relevant files after HANDOFF; do not re-research established decisions without cause.
+Read HANDOFF.md → BUILD_PLAN.md first; load only relevant files after that.
+README.md — run/build instructions, implementation map and content boundaries.
+DECISIONS.md — baseline vs proposals and reversible implementation choices.
+src/data.js + src/schema.d.ts — entities, relationships, source and search data.
+src/app.js + src/style.css — page templates, interactions and visual tokens.
+src/scaler.js + tests/prototype.test.mjs — mass calculations and core checks.
+tests/browser-smoke.cjs — optional Playwright route/mobile/search/scaler checks.
+PRODUCTS.md — original target catalog, economics, sourcing and qualification.
+RESEARCH_STRUCTURE.md — full provenance/templates; SITE_ARCHITECTURE.md — full UX.
+KICKOFF.md — owner requirements; BUSINESS.md / BRAND.md — planning context.
+
+## Verify
+Node 18+: npm test; npm run build; npm run dev (http://localhost:4173).
+No npm install needed. Alternative preview: python3 -m http.server 4173.
+With Playwright + Chromium and server running: node tests/browser-smoke.cjs.
+Optional PLAYWRIGHT_EXECUTABLE_PATH points to an installed Chromium binary.
 
 ## Resume
-Continue Phase 2 using this read map. Preserve owner requirements and distinguish
-verified facts, assumptions and recommendations. The latest owner instruction permits
-moving toward the build; start with the prototype scope in BUILD_PLAN.md.
+Preserve implementation and business direction. Complete browser review before
+calling this visually verified. Never turn proposed products into available stock.
