@@ -1,5 +1,5 @@
 # Geopolymer Platform — HANDOFF
-Updated: 25 September 2026 • First motion/typography pass • Owner: Isaac Anderson
+Updated: 25 September 2026 • Motion pass 1 + roadmap • Owner: Isaac Anderson
 
 ## Goal
 Global geopolymer/AAM knowledge, commerce, formulation and expertise platform.
@@ -45,14 +45,24 @@ Existing price targets remain proposals. Kit chemical masses remain unqualified.
 No supplier quotes, safety validation, inventory, expert roster or checkout.
 No name/domain clearance or launch-geography decision.
 No independently tested or internally reproduced methods.
-Visual/browser QA NOT completed. Current Chromium installation download failed;
-prior session also encountered browser socket restrictions.
+Visual/browser QA NOT completed. Cloud session has Playwright+Chromium
+(global playwright; /opt/pw-browsers) — use it for M5.
 Do not report mobile layout, browser interactions or accessibility as verified.
 A browser smoke script is included for a browser-capable environment.
 Shell Git push has no credentials; use the connected GitHub plugin for publication.
 
+## Motion roadmap (modern, calm, business-pro; no libraries; reduced-motion safe)
+- M1+M2 DONE (46c1b27): hero, reveals, rules, hover, sticky header, Inter, page crossfade.
+- M3 Navigation: card→detail title morph; nav sliding underline; reading progress
+  bar on detail pages; sticky side panels.
+- M4 Interactive: scaler count-up + A/B/C proportion bar; search result stagger +
+  sliding filter pill; evidence 3-step bar.
+- M5 QA: run browser smoke, screenshots desktop/mobile, reduced-motion, CLS check.
+Avoid: scroll-jacking, horizontal scroll, custom cursor, bounce, 3D tilt, loops.
+Workflow: after each phase update HANDOFF, push to main.
+
 ## Next
-Optional later work: shared card/title transitions, progress bar, scaler animation.
+0. M5 QA first (verify pass 1), then M3, M4.
 1. Run browser smoke + visual review on desktop/mobile and at 200% text size.
 2. Review the prototype with Isaac; refine navigation, density and content templates.
 3. Retry Cloudflare deploy using npx wrangler deploy; verify the resulting live URL.
