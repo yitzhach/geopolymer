@@ -474,6 +474,42 @@ footer > a:last-child {
 .breadcrumb + .page-intro {
   padding-top: 32px;
 }
+.pathway {
+  display: block;
+  margin: 0 0 38px;
+  padding: 22px 26px 17px;
+  background: var(--soft);
+  border: 1px solid var(--line);
+}
+.pathway .eyebrow { margin-bottom: 13px; }
+.pathway ol {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0 0 10px;
+  padding: 0;
+  list-style: none;
+}
+.pathway li { min-width: 0; }
+.pathway a {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  height: 100%;
+  padding: 12px 10px;
+  border-top: 2px solid #b2c5b8;
+  border-bottom: 0;
+  white-space: normal;
+}
+.pathway a:hover, .pathway a:focus-visible, .pathway a[aria-current] {
+  border-top-color: var(--accent);
+  background: #fff;
+}
+.pathway-number { color: var(--accent); font-size: .78rem; font-weight: 600; }
+.pathway strong, .pathway small { display: block; }
+.pathway strong { line-height: 1.2; }
+.pathway small { color: var(--muted); font-size: .76rem; line-height: 1.4; margin-top: 5px; }
+.pathway .small { margin: 0; font-size: .78rem; }
 .callout {
   margin-top: 36px;
   background: var(--soft);
@@ -844,6 +880,8 @@ td {
   }
 }
 @media (max-width: 760px) {
+  .pathway { padding: 18px; }
+  .pathway ol { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   main {
     padding: 0 22px 45px;
   }
@@ -1011,6 +1049,10 @@ td {
   .home-hero .button {
     font-size: 0.85rem;
   }
+}
+@media (max-width: 420px) {
+  .pathway ol { grid-template-columns: 1fr; gap: 2px; }
+  .pathway a { padding: 9px 10px; }
 }
 @media (prefers-reduced-motion: reduce) {
   * {

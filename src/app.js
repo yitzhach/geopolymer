@@ -26,6 +26,15 @@ const crumb = (area, path) =>
   `<div class="breadcrumb"><a href="#/">Home</a> / <a href="${path}">${area}</a></div>`;
 const intro = (kicker, title, body) =>
   `<section class="page-intro"><p class="eyebrow">${kicker}</p><h1>${title}</h1><p class="lede">${body}</p></section>`;
+const pathway = (current) => {
+  const steps = [
+    ["Material", "Identify the precursor", "#/materials/metakaolin"],
+    ["Source", "Read the published summary", "#/research/mk-testing-2019"],
+    ["Method", "See what is missing", "#/formulations/metakaolin-comparison"],
+    ["Kit concept", "Review the proposed offer", "#/shop/starter-kit"],
+  ];
+  return `<nav class="pathway" aria-label="Metakaolin research to kit pathway"><p class="eyebrow">FOLLOW THE CONNECTION</p><ol>${steps.map(([name, detail, href], i) => `<li><a href="${href}"${i === current ? ' aria-current="step"' : ""}><span class="pathway-number">0${i + 1}</span><span><strong>${name}</strong><small>${detail}</small></span></a></li>`).join("")}</ol><p class="small">A research connection does not qualify the proposed kit or establish a mixing recipe.</p></nav>`;
+};
 const table = (rows) =>
   `<dl class="facts">${rows.map(([a, b]) => `<div><dt>${a}</dt><dd>${b}</dd></div>`).join("")}</dl>`;
 const list = (items) =>
@@ -66,6 +75,7 @@ function materialDetail(m) {
   return (
     crumb("Materials", "#/materials") +
     intro(`${m.category} / material record`, m.title, m.summary) +
+    (m.id === "metakaolin" ? pathway(0) : "") +
     `<div class="detail-grid"><div><h2>Grade records</h2><p>Published examples and proposed sourcing records are kept separate.</p>${gs
       .map(
         (g) =>
@@ -113,6 +123,7 @@ function researchDetail(p) {
   return (
     crumb("Research", "#/research") +
     intro("TECHNICAL PAPER / 2019", p.title, p.authors) +
+    pathway(1) +
     `<div class="detail-grid"><article>${badge("Literature-reported")}<h2>What the source covers</h2><p>${p.summary}</p><h2>Reported method</h2><p>The publisher describes sodium and potassium silicate solutions with MR = 1.7 and hardening at 80 °C. Time to peak temperature is used to compare the eleven commercial samples. The modulus definition and complete method must be checked in the full paper before use.</p><h2>Editorial interpretation</h2><p>This is a useful entry point for asking whether a proposed precursor grade has been characterized for the intended system. It is not a purchasing recommendation or a substitute for a reviewed experiment.</p><h2>Limits of this record</h2><p>${p.limitation}</p>${table(
       [
         ["Exact ingredient masses", "Not extracted"],
@@ -144,6 +155,7 @@ function formulationDetail(f) {
   return (
     crumb("Formulations", "#/formulations") +
     intro("METHOD RECORD / VERSION " + f.version, f.title, f.summary) +
+    pathway(2) +
     `<div class="detail-grid"><article>${badge(evidenceLabels[f.evidence])}<h2>Method basis</h2><p>The source reports comparing commercial metakaolin samples with silicate solutions using temperature evolution. This record identifies the method; it does not supply complete mixing or curing instructions.</p>${table(
       [
         ["Source", link("#/research/mk-testing-2019", "Technical Paper #26")],
@@ -177,6 +189,7 @@ function shop() {
 function productDetail(p) {
   return (
     crumb("Kits & materials", "#/shop") +
+    (p.id === "starter-kit" ? pathway(3) : "") +
     `<div class="product-detail"><div class="product-summary"><p class="eyebrow">${p.category}</p><h1>${p.title}</h1><p class="lede">${p.summary}</p>${badge("Proposed product · not available", "amber")}<p class="pack">${p.pack}</p><div class="price">${p.targetPrice ? `$${p.targetPrice}<span>USD target price · unconfirmed</span>` : "Price undecided"}</div><p>Under development. Not available to purchase or reserve.</p>${link(p.id === "classroom-kit" ? "#/learn/educators" : "#/formulations/metakaolin-comparison", p.id === "classroom-kit" ? "Explore the educator pathway" : "Explore the connected method", "button")}</div><div><h2>Proposed contents</h2>${list(p.included)}<h2>Required separately</h2>${list(p.required)}<h2>Qualification & availability</h2>${table(
       [
         [
@@ -398,7 +411,7 @@ function render(focus = true) {
   }
   main.innerHTML = html;
   document.title = `${title} · Geopolymer Platform`;
-  document.querySelectorAll("nav a").forEach((a) => {
+  document.querySelectorAll("header nav a").forEach((a) => {
     if (a.hash === `#/${area}${area === "learn" && id === "educators" ? "/educators" : ""}`) a.setAttribute("aria-current", "page");
     else a.removeAttribute("aria-current");
   });
