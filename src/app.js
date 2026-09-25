@@ -36,7 +36,19 @@ const productCard = (p) =>
 const researchRow = (p) =>
   `<a class="research-row" href="#/research/${p.id}"><span class="year">${p.year}</span><div><p class="eyebrow">Technical paper · publisher summary</p><h3>${p.title}</h3><p>${p.authors}</p></div><span aria-hidden="true">↗</span></a>`;
 function home() {
-  return `<section class="home-hero"><div><p class="eyebrow">THE GEOPOLYMER KNOWLEDGE & MATERIALS PLATFORM</p><h1>From material<br>to possibility.</h1><p class="lede">Understand the science. Explore formulations.<br class="desktop"> Find the materials for your next experiment.</p><div class="actions">${link("#/materials", "Explore materials", "button")}${link("#/shop", "Discover kit concepts", "button secondary")}</div><p class="hero-note">For curious makers, classrooms and material innovators.</p></div><aside class="journey-panel"><div class="panel-heading"><span class="eyebrow">FOLLOW A MATERIAL</span><span>01 / MK</span></div><h2>Metakaolin</h2><p>One material. Connected knowledge.</p><a href="#/materials/metakaolin"><span>01</span><div><strong>Understand the material</strong><small>Families, grades and specifications</small></div><span>↗</span></a><a href="#/research/mk-testing-2019"><span>02</span><div><strong>Follow the evidence</strong><small>A published grade comparison</small></div><span>↗</span></a><a href="#/formulations/metakaolin-comparison"><span>03</span><div><strong>Explore the method</strong><small>Reported conditions and open questions</small></div><span>↗</span></a><a href="#/shop/starter-kit"><span>04</span><div><strong>Preview a kit concept</strong><small>Qualification comes before availability</small></div><span>↗</span></a></aside></section><section class="entry-grid" aria-label="Choose your starting point"><a href="#/learn/beginners"><span class="eyebrow">START CURIOUS</span><h3>Your first experiment <span>↗</span></h3><p>A clear path through materials, methods and evidence.</p></a><a href="#/learn/educators"><span class="eyebrow">BRING IT TO CLASS</span><h3>For educators <span>↗</span></h3><p>Explore the proposed six-workstation classroom kit.</p></a><a href="#/research"><span class="eyebrow">GO DEEPER</span><h3>Research & development <span>↗</span></h3><p>Trace a method back to its source and exact grade.</p></a></section><section class="section"><div class="section-title"><div><p class="eyebrow">THE MATERIAL LIBRARY</p><h2>Start with the building blocks.</h2></div>${link("#/materials", "All materials")}</div><div class="grid two">${materials.map(materialCard).join("")}</div></section><section class="section"><div class="section-title"><div><p class="eyebrow">LEARNING THROUGH MAKING</p><h2>Small experiments. Better questions.</h2></div>${link("#/shop", "Explore proposed kits")}</div><div class="grid three">${products.slice(0, 3).map(productCard).join("")}</div></section><section class="evidence-band"><div><p class="eyebrow">EVIDENCE BEFORE CLAIMS</p><h2>Know what has actually been tested.</h2><p>A published result, an internal reproduction and an independent test tell different stories. We keep them separate.</p></div>${link("#/evidence", "Our evidence standards", "button secondary")}</section>`;
+  return `<section class="visual-hero"><div class="hero-copy"><h1>Explore what<br>materials can<br>become.</h1><p class="lede">Connect the science, the formulation<br>and your next experiment.</p><div class="actions">${link("#/materials", "Explore materials", "button")}${link("#/shop", "Discover kit concepts", "button secondary")}</div></div><span class="image-caption">Material study · illustrative imagery</span></section>
+  <section class="entry-grid" aria-label="Choose your starting point">${[["LEARN","Start your first experiment","Understand materials, ask better questions and record what you observe.","#/learn"],["EDUCATE","Bring it to the classroom","Resources and kit concepts for educators, students and community makers.","#/learn/educators"],["CREATE","For artists & artisans","Explore casting, sculptural surfaces, color and material expression.","#/artists"]].map(([k,t,b,u])=>`<a href="${u}"><span class="eyebrow">${k}</span><h3>${t} →</h3><p>${b}</p></a>`).join("")}</section>
+  <section class="classroom-feature"><div><h2>Bring material science<br>to the classroom.</h2><p>Build curiosity through observation, research and hands-on learning. Explore resources for your next lesson.</p>${link("#/learn/educators","Explore educator resources","button secondary")}</div></section>
+  <section class="section"><div class="section-title"><div><h2>A connected material library</h2><p>Explore starting materials and follow their connections to published methods.</p></div>${link("#/materials","View materials")}</div><div class="grid three">${materials.map(materialCard).join("")}<a class="material-card" href="#/formulations"><p class="eyebrow">FORMULATIONS</p><h3>From source to method.</h3><p>Explore source-linked methods, missing details and the questions to ask before mixing.</p><span class="text-link">Explore formulations →</span></a></div></section>
+  <section class="section"><div class="section-title"><div><h2>Kits for learning by doing.</h2><p>Proposed concepts for learning, teaching and studio exploration.</p></div>${link("#/shop","View the store")}</div><div class="grid two">${products.slice(0,2).map(productCard).join("")}</div></section>
+  <section class="artist-feature"><p class="eyebrow">THE MATERIAL STUDIO</p><h2>New possibilities for artists & artisans.</h2><p>From small cast objects to textured surfaces: explore material studies, plan a sample series and keep a record of your process.</p><div class="actions">${link("#/artists","Explore the studio","button")}${link("#/shop?audience=artists","Artist product concepts","button secondary")}</div></section>
+  <section class="section"><div class="section-title"><div><p class="eyebrow">FOLLOW THE EVIDENCE</p><h2>Research, connected to practice.</h2></div>${link("#/research","View research")}</div>${papers.map(researchRow).join("")}</section>`;
+}
+function education() {
+ return intro("EDUCATION", "A material lab for curious minds.", "Resources for classrooms, homeschool groups, workshops and independent learners.") + `<div class="grid three">${[["01 / OBSERVE","Read a surface","Compare existing cured samples or photographs. Describe texture, visible pores, edges and color. Separate what you can observe from what you would need to test."],["02 / INVESTIGATE","Ask what the source supports","Read the linked research record. Identify the material grades, measured outcome and missing information. Write one claim the source supports and one it does not."],["03 / CALCULATE","Practice batch proportions","Use the neutral-component scaler. Predict each component mass for a half-size batch, calculate it, then explain why proportions remain the same."]].map(([k,t,b])=>`<article class="record"><p class="eyebrow">${k}</p><h2>${t}</h2><p>${b}</p></article>`).join("")}</div><section class="section"><h2>A lesson you can start with.</h2><div class="record"><p class="eyebrow">30–45 MINUTES / OBSERVATION & RESEARCH</p><h3>Look. Question. Record.</h3><ol><li>Choose two photographs or existing cured samples and list five observations.</li><li>Choose one variable you would like to investigate, such as surface texture.</li><li>Read the source record and identify what is known and what remains untested.</li><li>Sketch a comparison table: sample ID, material record, variable, observation and unanswered question.</li><li>Share one finding and one next question with the group.</li></ol><p>No chemical mixing is part of this activity. Teachers can adapt the reading and arithmetic to their learners.</p><div class="actions">${link("#/research/mk-testing-2019","Open research record","button secondary")}${link("#/tools","Open batch scaler","button secondary")}</div></div></section><section class="section"><h2>Plan your classroom.</h2><p>The classroom kit concept supports six paired workstations. Hands-on chemical activities and age suitability require review before release.</p><div class="grid two">${products.filter(p=>["classroom-kit","starter-kit"].includes(p.id)).map(productCard).join("")}</div></section>`;
+}
+function artists() {
+ return intro("ARTISTS & ARTISANS", "Think through your materials.", "A studio pathway for sculpture, cast objects, textured panels and decorative surfaces.") + `<div class="grid three">${[["FORM","Casting studies","Plan small sample objects to compare shape, edge detail and surface finish. Record mold, dimensions and observations."],["SURFACE","Texture & relief","Sketch a series of relief or textured-panel studies. Keep substrate, layer thickness and finishing choices in your trial record."],["COLOR","Build a sample library","Plan labeled color and aggregate swatches. Compare under consistent light and record each material and lot."]].map(([k,t,b])=>`<article class="record"><p class="eyebrow">${k}</p><h2>${t}</h2><p>${b}</p></article>`).join("")}</div><section class="section"><h2>From idea to a documented trial.</h2><p>Define your intended use, select a reviewed material system, change one variable at a time and keep labeled samples. These are project directions; no durability, exterior-use or compatibility claims are established.</p><div class="actions">${link("#/materials","Explore material records","button")}${link("#/tools","Plan batch proportions","button secondary")}</div></section><section class="section"><div class="section-title"><h2>For your studio.</h2>${link("#/shop?audience=artists","All artist concepts")}</div><div class="grid three">${products.filter(p=>p.audience==='artists').map(productCard).join("")}</div></section>`;
 }
 function materialIndex() {
   return (
@@ -151,13 +163,14 @@ function formulationDetail(f) {
   );
 }
 function shop() {
+  const artistOnly = new URLSearchParams(location.hash.split("?")[1]).get("audience") === "artists";
   return (
     intro(
       "PROPOSED CATALOG",
       "Materials for discovery.",
       "Explore the kits and samples we are developing. Prices are design targets; products are not available to order.",
     ) +
-    `<div class="grid two">${products.map(productCard).join("")}</div><div class="callout">Exact kit masses, qualified grades, supplier relationships and shipping eligibility remain open. No checkout or inventory is active.</div>`
+    `<div class="actions shop-filters">${link("#/shop", "All concepts", "button secondary")}${link("#/shop?audience=artists", "Artists & artisans", "button secondary")}</div><div class="grid two">${products.filter(p=>!artistOnly || p.audience === "artists").map(productCard).join("")}</div><div class="callout">Exact kit masses, qualified grades, supplier relationships and shipping eligibility remain open. No checkout or inventory is active.</div>`
   );
 }
 function productDetail(p) {
@@ -361,9 +374,11 @@ function render(focus = true) {
       break;
     }
     case "learn":
-      html = learn(id);
+      html = id === "educators" ? education() : learn(id);
       title = id === "educators" ? "For educators" : "Start here";
       break;
+    case "artists":
+      html = artists(); title = "Artists & artisans"; break;
     case "evidence":
       html = evidence();
       title = "Evidence standards";
@@ -383,7 +398,7 @@ function render(focus = true) {
   main.innerHTML = html;
   document.title = `${title} · Geopolymer Platform`;
   document.querySelectorAll("nav a").forEach((a) => {
-    if (a.hash === `#/${area}`) a.setAttribute("aria-current", "page");
+    if (a.hash === `#/${area}${area === "learn" && id === "educators" ? "/educators" : ""}`) a.setAttribute("aria-current", "page");
     else a.removeAttribute("aria-current");
   });
   attach();

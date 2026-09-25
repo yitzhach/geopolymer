@@ -3,6 +3,7 @@ import { readFile } from "node:fs/promises";
 import { resolve, extname, sep } from "node:path";
 const root = resolve(process.argv.includes("--dist") ? "dist" : ".");
 const types = {
+  ".jpg": "image/jpeg",
   ".html": "text/html",
   ".js": "text/javascript",
   ".css": "text/css",

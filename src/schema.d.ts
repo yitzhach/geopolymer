@@ -47,6 +47,7 @@ export interface Formulation {
   masses: null | { label: string; grams: number }[];
 }
 export interface Product {
+  audience?: "artists";
   id: string;
   title: string;
   category: string;

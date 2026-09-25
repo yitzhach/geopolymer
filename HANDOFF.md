@@ -6,12 +6,17 @@ Global geopolymer/AAM knowledge, commerce, formulation and expertise platform.
 Learn → Formulate → Buy → Test → Ask → Share.
 
 ## Now
-First static website prototype implemented on the planning baseline ed1bdbf.
-Main was verified at ed1bdbf with 11 Markdown files before editing.
-GitHub remains the working source of truth. No hosting deployment configured.
+Selected white/green/sage design implemented; education and artist pathways expanded.
+Main verified at 1f9fdf0 before this change; existing implementation preserved.
+Owner explicitly approved publication to GitHub main after approval-review pause.
+This commit contains the completed prototype update. No hosting deployment configured.
 Temporary name: Geopolymer Platform. Production stack and hosting remain open.
 
 ## Done
+- Photo-led homepage with sage classroom feature matching owner-selected direction.
+- Education hub: observation, research and arithmetic activities; short lesson outline.
+- Artists & Artisans page plus filtered store collection and two new study kits.
+- Six product concepts total; new texture/color kit prices remain undecided.
 - Homepage; material, research, formulation and product indexes/details.
 - Connected journey: metakaolin → Technical Paper #26 → method → kit concept.
 - Beginner and educator entry points; evidence standards page.
@@ -34,8 +39,8 @@ Existing price targets remain proposals. Kit chemical masses remain unqualified.
 No supplier quotes, safety validation, inventory, expert roster or checkout.
 No name/domain clearance or launch-geography decision.
 No independently tested or internally reproduced methods.
-Visual/browser QA NOT completed: bundled Chromium missing; replacement download
-succeeded but browser launch failed with socket() Operation not permitted.
+Visual/browser QA NOT completed. Current Chromium installation download failed;
+prior session also encountered browser socket restrictions.
 Do not report mobile layout, browser interactions or accessibility as verified.
 A browser smoke script is included for a browser-capable environment.
 Shell Git push has no credentials; use the connected GitHub plugin for publication.
@@ -56,7 +61,8 @@ DECISIONS.md — baseline vs proposals and reversible implementation choices.
 src/data.js + src/schema.d.ts — entities, relationships, source and search data.
 src/app.js + src/style.css — page templates, interactions and visual tokens.
 src/scaler.js + tests/prototype.test.mjs — mass calculations and core checks.
-tests/browser-smoke.cjs — optional Playwright route/mobile/search/scaler checks.
+tests/browser-smoke.cjs — 22-route desktop/mobile/search/scaler checks (not run).
+src/assets/ — generated illustrative photograph and provenance/prompt.
 PRODUCTS.md — original target catalog, economics, sourcing and qualification.
 RESEARCH_STRUCTURE.md — full provenance/templates; SITE_ARCHITECTURE.md — full UX.
 KICKOFF.md — owner requirements; BUSINESS.md / BRAND.md — planning context.

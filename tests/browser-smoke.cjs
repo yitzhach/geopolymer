@@ -21,6 +21,10 @@ require("node:fs").mkdirSync(".qa", { recursive: true });
   await page.screenshot({ path: ".qa/home-desktop.png", fullPage: true });
   const routes = [
     "/",
+    "/artists",
+    "/shop?audience=artists",
+    "/shop/texture-study-kit",
+    "/shop/color-study-kit",
     "/materials",
     "/materials/metakaolin",
     "/materials/silicate-activators",
@@ -121,7 +125,7 @@ require("node:fs").mkdirSync(".qa", { recursive: true });
   assert.equal(await page.evaluate(() => document.activeElement.id), "main");
   assert.deepEqual(errors, []);
   console.log(
-    "PASS: 18 routes desktop/mobile, search/filter/escaping, scaler/invalid inputs, keyboard skip link; no JS errors.",
+    "PASS: 22 routes desktop/mobile, search/filter/escaping, scaler/invalid inputs, keyboard skip link; no JS errors.",
   );
   await browser.close();
 })().catch((e) => {

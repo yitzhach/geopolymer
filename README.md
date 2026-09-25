@@ -6,7 +6,8 @@ A connected knowledge, materials, formulation and commerce platform.
 ## Current prototype
 
 Responsive homepage; material, research, formulation and product indexes/details;
-beginner and educator pathways; unified search with type filters; a batch mass scaler.
+beginner and expanded educator pathways; Artists & Artisans page and store collection;
+unified search with type filters; a batch mass scaler.
 The catalog contains proposed products only. No checkout, inventory or live services.
 
 Start with [HANDOFF.md](HANDOFF.md), then [BUILD_PLAN.md](BUILD_PLAN.md).
@@ -31,11 +32,11 @@ Do not open index.html via file://; native JavaScript modules need an HTTP serve
 No hosting provider or production framework has been selected.
 
 Optional browser smoke check, with Playwright and its Chromium installed and the
-server running: `node tests/browser-smoke.cjs`. It covers all 18 routes on desktop
+server running: `node tests/browser-smoke.cjs`. It covers all 22 routes on desktop
 and mobile, search, scaler and keyboard skip navigation; screenshots go to `.qa/`.
 `PLAYWRIGHT_EXECUTABLE_PATH` can select an existing Chromium binary. This optional
 check is separate from the dependency-free Node tests. Browser QA remains outstanding:
-the current environment blocks Chromium launch with a socket permission error.
+Chromium is unavailable and its installation download failed.
 
 ## Edit map
 

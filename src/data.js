@@ -140,7 +140,8 @@ export const products = [
   {
     id: "casting-kit",
     title: "Casting & surface kit",
-    category: "Maker kit",
+    category: "Artist & artisan kit",
+    audience: "artists",
     materialId: "metakaolin",
     gradeId: "grade-proposed-mk",
     targetPrice: 69,
@@ -178,6 +179,11 @@ export const products = [
     ],
   },
 ];
+// Studio concepts share a proposed precursor only; compatibility remains unqualified.
+products.push(...[
+  {id:"texture-study-kit",title:"Texture & relief study kit",summary:"A proposed sample-making set for exploring relief, aggregate texture and small panel studies.",pack:"1 proposed studio study pack · quantities undecided",included:["Proposed: matched material system and selected texture aggregates; specifications pending.","Proposed: sample labels and a surface-study record." ]},
+  {id:"color-study-kit",title:"Color & aggregate study kit",summary:"A proposed swatch-building set for artists exploring mineral color and aggregate combinations.",pack:"1 proposed swatch study pack · quantities undecided",included:["Proposed: selected pigments, aggregates and matched base system; compatibility pending.","Proposed: swatch labels and a color-study record."]}
+].map(p=>({...p,category:"Artist & artisan kit",audience:"artists",materialId:"metakaolin",gradeId:"grade-proposed-mk",targetPrice:null,status:"concept",required:["Qualified material system, suitable molds, weighing and mixing equipment.","Product-specific handling requirements and instructions before release."]})));
 /** @type {import('./schema').Test[]} */
 export const tests = []; // No platform test records exist. Do not infer testing from literature.
 export const evidenceLabels = {
@@ -192,6 +198,7 @@ export const demoIngredients = [
   { label: "Component C", grams: 100 },
 ];
 export const searchRecords = [
+  {id:"artists",title:"Artists & artisans",summary:"Studio projects, sculpture, casting, texture, relief, pigments and color studies.",type:"Guide",href:"#/artists"},
   ...materials.map((x) => ({
     ...x,
     type: "Material",

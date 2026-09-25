@@ -39,3 +39,15 @@ Owner instructed publication to https://github.com/yitzhach/geopolymer and movin
 Brand tokens and templates can be replaced without changing content IDs. The Sites
 workflow was considered but not adopted: this is an existing GitHub project and the
 owner explicitly leaves hosting unsettled.
+
+## 24 September 2026 — selected visual direction and audience expansion
+
+- Owner selected the white/forest-green homepage with large material imagery and
+  inset sage classroom feature (reference: 3a76b268-925e-457b-8415-d4b0d861dc43.png).
+- Education is a primary navigation destination, with observation, source-reading
+  and mass-arithmetic activities plus a 30–45 minute non-mixing lesson outline.
+- Artists & Artisans is a dedicated page and store collection: casting, texture/relief
+  and color/aggregate studies. Two additional kits are proposals, with no price set.
+- Existing catalog price targets remain unchanged. No stock or checkout introduced.
+- Generated material photography is illustrative, not a tested product photograph.
+- Existing portable implementation and GitHub delivery retained; hosting stays open.
