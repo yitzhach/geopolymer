@@ -5,6 +5,25 @@ header.is-compact { padding-top: 14px; padding-bottom: 14px; background: rgba(25
 nav a { position: relative; border-bottom-color: transparent !important; }
 nav a::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px; background: var(--accent); transform: scaleX(0); transform-origin: left; transition: transform .25s var(--ease-out); }
 nav a:hover::after, nav a:focus-visible::after, nav a[aria-current]::after { transform: scaleX(1); }
+.reading-progress { position: fixed; inset: 0 auto auto 0; width: var(--reading-progress, 0%); height: 3px; background: var(--accent); z-index: 30; pointer-events: none; opacity: 0; }
+.has-detail .reading-progress { opacity: 1; }
+.proportion-bar { display: flex; width: 100%; height: 18px; margin: 24px 0; overflow: hidden; border-radius: 3px; background: var(--soft); }
+.proportion-bar span { display: block; height: 100%; }
+.portion-0 { background: #234d3c; } .portion-1 { background: #789889; } .portion-2 { background: #c5d4ca; }
+.filters button { transition: background-color .22s ease, color .22s ease, border-color .22s ease; }
+.evidence-steps .record { position: relative; border-top: 3px solid var(--accent); }
+.evidence-steps .record:nth-child(2) { border-top-color: #789889; }
+.evidence-steps .record:nth-child(3) { border-top-color: #b2c5b8; }
+@media (prefers-reduced-motion: no-preference) {
+  #results .result { animation: reveal-enter .32s var(--ease-out) both; }
+  #results .result:nth-child(2) { animation-delay: .04s; }
+  #results .result:nth-child(3) { animation-delay: .08s; }
+  #results .result:nth-child(n+4) { animation-delay: .12s; }
+}
+@media (min-width: 900px) and (min-height: 650px) {
+  .detail-grid > .side-panel { position: sticky; top: 105px; max-height: calc(100vh - 125px); overflow-y: auto; }
+  header.is-compact ~ main .detail-grid > .side-panel { top: 90px; }
+}
 .visual-hero { overflow: hidden; isolation: isolate; background-image: none; }
 .visual-hero::after { content: ''; position: absolute; inset: -24px; z-index: -2; background: url('./assets/material-study.jpg') center/cover no-repeat; transform: translateY(var(--hero-drift, 0px)); }
 .visual-hero::before { z-index: -1; }

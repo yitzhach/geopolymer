@@ -5,12 +5,17 @@ let activeTransition;
 let currentMain;
 let frame = 0;
 const header = document.querySelector('header');
+const progress = document.querySelector('.reading-progress');
 
 function updateScroll() {
   frame = 0;
   const hero = currentMain?.querySelector('.visual-hero');
   // A fixed threshold avoids feedback as the header itself becomes smaller.
   header.classList.toggle('is-compact', window.scrollY > 96);
+  if (progress && document.documentElement) {
+    const distance = document.documentElement.scrollHeight - window.innerHeight;
+    progress.style.setProperty('--reading-progress', `${distance > 0 ? Math.min(100, Math.max(0, window.scrollY / distance * 100)) : 100}%`);
+  }
   if (hero && !preference.matches) {
     hero.style.setProperty('--hero-drift', `${Math.min(window.scrollY * 0.045, 24)}px`);
   }
@@ -22,6 +27,7 @@ window.addEventListener('scroll', () => {
 export function setupMotion(main) {
   observer?.disconnect();
   currentMain = main;
+  document.body?.classList.toggle('has-detail', !!main.querySelector('.breadcrumb'));
   updateScroll();
   if (preference.matches) return;
   main.querySelector('.visual-hero')?.classList.add('hero-enter');

@@ -1,5 +1,5 @@
 # Geopolymer Platform — HANDOFF
-Updated: 25 September 2026 • Motion pass 1 + roadmap • Owner: Isaac Anderson
+Updated: 25 September 2026 • Navigation and interaction pass 2 • Owner: Isaac Anderson
 
 ## Goal
 Global geopolymer/AAM knowledge, commerce, formulation and expertise platform.
@@ -8,12 +8,15 @@ Learn → Formulate → Buy → Test → Ask → Share.
 ## Now
 Selected white/green/sage design implemented; education and artist pathways expanded.
 Motion pass based on aa63c1c; existing content and deployment configuration preserved.
+Detail pages now show reading progress and keep their related-content side panel in view on sufficiently large screens.
 Owner explicitly approved publication to GitHub main after approval-review pause.
 Cloudflare Workers deployment configured for dist/; live deployment not yet verified.
 Temporary name: Geopolymer Platform. Production stack and hosting remain open.
 
 ## Done
 - First-round motion: staged hero, zoom/parallax, reveals, drawn rules, hover polish.
+- Detail-page reading progress indicator and desktop sticky related-content panels.
+- Scaler A/B/C proportion bar, subtle search-result entrance and evidence-stage accents.
 - Native View Transitions with fallback; observer cleanup on each hash route.
 - Compact frosted sticky header; horizontally scrollable mobile navigation.
 - Inter via Google Fonts with system fallback; no frontend dependencies added.
@@ -45,24 +48,24 @@ Existing price targets remain proposals. Kit chemical masses remain unqualified.
 No supplier quotes, safety validation, inventory, expert roster or checkout.
 No name/domain clearance or launch-geography decision.
 No independently tested or internally reproduced methods.
-Visual/browser QA NOT completed. Cloud session has Playwright+Chromium
-(global playwright; /opt/pw-browsers) — use it for M5.
+Visual/browser QA NOT completed. Playwright is available here but Chromium is
+not installed; browser smoke could not launch. Use a browser-capable environment for M5.
 Do not report mobile layout, browser interactions or accessibility as verified.
 A browser smoke script is included for a browser-capable environment.
 Shell Git push has no credentials; use the connected GitHub plugin for publication.
 
 ## Motion roadmap (modern, calm, business-pro; no libraries; reduced-motion safe)
 - M1+M2 DONE (46c1b27): hero, reveals, rules, hover, sticky header, Inter, page crossfade.
-- M3 Navigation: card→detail title morph; nav sliding underline; reading progress
-  bar on detail pages; sticky side panels.
-- M4 Interactive: scaler count-up + A/B/C proportion bar; search result stagger +
-  sliding filter pill; evidence 3-step bar.
+- M3 Navigation: nav underline, reading progress and sticky side panels DONE.
+  Card→detail title morph remains optional pending browser QA.
+- M4 Interactive: A/B/C proportion bar, search result stagger and evidence-stage
+  accents DONE. Scaler count-up and sliding filter pill remain optional after QA.
 - M5 QA: run browser smoke, screenshots desktop/mobile, reduced-motion, CLS check.
 Avoid: scroll-jacking, horizontal scroll, custom cursor, bounce, 3D tilt, loops.
 Workflow: after each phase update HANDOFF, push to main.
 
 ## Next
-0. M5 QA first (verify pass 1), then M3, M4.
+0. M5 QA first (verify passes 1–2), then consider optional M3/M4 refinements.
 1. Run browser smoke + visual review on desktop/mobile and at 200% text size.
 2. Review the prototype with Isaac; refine navigation, density and content templates.
 3. Retry Cloudflare deploy using npx wrangler deploy; verify the resulting live URL.
@@ -88,6 +91,7 @@ KICKOFF.md — owner requirements; BUSINESS.md / BRAND.md — planning context.
 
 ## Verify
 Node 18+: npm test; npm run build; npm run dev (http://localhost:4173).
+On this pass: 5/5 tests pass; build passes; git diff --check passes.
 No npm install needed. Alternative preview: python3 -m http.server 4173.
 With Playwright + Chromium and server running: node tests/browser-smoke.cjs.
 Optional PLAYWRIGHT_EXECUTABLE_PATH points to an installed Chromium binary.

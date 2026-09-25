@@ -216,7 +216,7 @@ function evidence() {
       "Evidence has a scope.",
       "Every claim should tell you where it came from and what has actually been checked.",
     ) +
-    `<div class="grid three">${[
+    `<div class="grid three evidence-steps">${[
       [
         "Literature-reported",
         "Reported by an external source. Show the source, access level and limitations. It does not mean we reproduced it.",
@@ -289,7 +289,7 @@ function attach() {
         form.elements.namedItem("target").removeAttribute("aria-invalid");
         const fmt = (n) =>
           n.toLocaleString("en-US", { maximumSignificantDigits: 8 });
-        out.innerHTML = `<p class="batch-total">${fmt(result.grams)} <span>g total</span></p><p class="small">${fmt(result.factor)}× reference batch</p><div class="table-scroll"><table><thead><tr><th scope="col">Component</th><th scope="col">Mass %</th><th scope="col">Scaled mass (g)</th></tr></thead><tbody>${result.rows.map((r) => `<tr><th scope="row">${r.label}</th><td>${fmt(r.percent)}%</td><td>${fmt(r.grams)}</td></tr>`).join("")}</tbody></table></div>`;
+        out.innerHTML = `<p class="batch-total">${fmt(result.grams)} <span>g total</span></p><p class="small">${fmt(result.factor)}× reference batch</p><div class="proportion-bar" role="img" aria-label="Illustrative component proportions: ${result.rows.map(r => `${r.label} ${fmt(r.percent)} percent`).join(', ')}">${result.rows.map((r, i) => `<span style="width:${r.percent}%" class="portion-${i}"></span>`).join("")}</div><div class="table-scroll"><table><thead><tr><th scope="col">Component</th><th scope="col">Mass %</th><th scope="col">Scaled mass (g)</th></tr></thead><tbody>${result.rows.map((r) => `<tr><th scope="row">${r.label}</th><td>${fmt(r.percent)}%</td><td>${fmt(r.grams)}</td></tr>`).join("")}</tbody></table></div>`;
       } catch (e) {
         out.innerHTML = "<p>Enter a valid mass to see the scaled batch.</p>";
         err.textContent = e.message;
