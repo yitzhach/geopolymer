@@ -1,5 +1,5 @@
 # Geopolymer Platform — HANDOFF
-Updated: 25 September 2026 • Navigation and interaction pass 2 • Owner: Isaac Anderson
+Updated: 25 September 2026 • Favicon + navigation and interaction pass 2 • Owner: Isaac Anderson
 
 ## Goal
 Global geopolymer/AAM knowledge, commerce, formulation and expertise platform.
@@ -17,6 +17,8 @@ Temporary name: Geopolymer Platform. Production stack and hosting remain open.
 - First-round motion: staged hero, zoom/parallax, reveals, drawn rules, hover polish.
 - Detail-page reading progress indicator and desktop sticky related-content panels.
 - Scaler A/B/C proportion bar, subtle search-result entrance and evidence-stage accents.
+- Sage "G" favicon in SVG and 32 px PNG, plus a 180 px Apple touch icon;
+  all three are copied into dist/ by the portable build.
 - Native View Transitions with fallback; observer cleanup on each hash route.
 - Compact frosted sticky header; horizontally scrollable mobile navigation.
 - Inter via Google Fonts with system fallback; no frontend dependencies added.
@@ -85,6 +87,7 @@ tests/motion.test.mjs — observer cleanup, reduced motion and transition fallba
 src/scaler.js + tests/prototype.test.mjs — mass calculations and core checks.
 tests/browser-smoke.cjs — 22-route desktop/mobile/search/scaler checks (not run).
 src/assets/ — generated illustrative photograph and provenance/prompt.
+favicon.svg, favicon-32.png, apple-touch-icon.png — platform icon assets.
 PRODUCTS.md — original target catalog, economics, sourcing and qualification.
 RESEARCH_STRUCTURE.md — full provenance/templates; SITE_ARCHITECTURE.md — full UX.
 KICKOFF.md — owner requirements; BUSINESS.md / BRAND.md — planning context.
