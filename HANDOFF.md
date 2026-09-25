@@ -1,5 +1,5 @@
 # Geopolymer Platform — HANDOFF
-Updated: 24 September 2026 • First website prototype • Owner: Isaac Anderson
+Updated: 25 September 2026 • First motion/typography pass • Owner: Isaac Anderson
 
 ## Goal
 Global geopolymer/AAM knowledge, commerce, formulation and expertise platform.
@@ -7,12 +7,18 @@ Learn → Formulate → Buy → Test → Ask → Share.
 
 ## Now
 Selected white/green/sage design implemented; education and artist pathways expanded.
-Main verified at 1f9fdf0 before this change; existing implementation preserved.
+Motion pass based on aa63c1c; existing content and deployment configuration preserved.
 Owner explicitly approved publication to GitHub main after approval-review pause.
 Cloudflare Workers deployment configured for dist/; live deployment not yet verified.
 Temporary name: Geopolymer Platform. Production stack and hosting remain open.
 
 ## Done
+- First-round motion: staged hero, zoom/parallax, reveals, drawn rules, hover polish.
+- Native View Transitions with fallback; observer cleanup on each hash route.
+- Compact frosted sticky header; horizontally scrollable mobile navigation.
+- Inter via Google Fonts with system fallback; no frontend dependencies added.
+- Classroom duplicate photo replaced by Observe / Question / Record typography.
+- Reduced-motion, keyboard focus and print visibility fallbacks.
 - Photo-led homepage with sage classroom feature matching owner-selected direction.
 - Education hub: observation, research and arithmetic activities; short lesson outline.
 - Artists & Artisans page plus filtered store collection and two new study kits.
@@ -25,7 +31,7 @@ Temporary name: Geopolymer Platform. Production stack and hosting remain open.
 - Separate stable IDs for materials, grades, papers, methods and products.
 - Type contracts include test records; no platform results are claimed.
 - Proposed starter/classroom/casting kits and metakaolin sample; no checkout.
-- Portable build; four dependency-free tests pass; built HTTP assets return 200.
+- Portable build; five dependency-free tests pass; built HTTP assets return 200.
 
 ## Decisions
 Owner authorized coding now, superseding the earlier no-code planning sequence.
@@ -46,6 +52,7 @@ A browser smoke script is included for a browser-capable environment.
 Shell Git push has no credentials; use the connected GitHub plugin for publication.
 
 ## Next
+Optional later work: shared card/title transitions, progress bar, scaler animation.
 1. Run browser smoke + visual review on desktop/mobile and at 200% text size.
 2. Review the prototype with Isaac; refine navigation, density and content templates.
 3. Retry Cloudflare deploy using npx wrangler deploy; verify the resulting live URL.
@@ -60,6 +67,8 @@ README.md — run/build instructions, implementation map and content boundaries.
 DECISIONS.md — baseline vs proposals and reversible implementation choices.
 src/data.js + src/schema.d.ts — entities, relationships, source and search data.
 src/app.js + src/style.css — page templates, interactions and visual tokens.
+src/motion.js + src/motion.css — lifecycle, transitions and visual refinements.
+tests/motion.test.mjs — observer cleanup, reduced motion and transition fallback.
 src/scaler.js + tests/prototype.test.mjs — mass calculations and core checks.
 tests/browser-smoke.cjs — 22-route desktop/mobile/search/scaler checks (not run).
 src/assets/ — generated illustrative photograph and provenance/prompt.

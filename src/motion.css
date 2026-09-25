@@ -1,0 +1,78 @@
+/* Shared motion and typography; no animation library required. */
+:root { font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; --ease-out: cubic-bezier(.22, .68, 0, 1); }
+header { position: sticky; top: 0; z-index: 20; background: rgba(255,255,255,.97); transition: padding .25s ease, box-shadow .25s ease, background .25s ease; }
+header.is-compact { padding-top: 14px; padding-bottom: 14px; background: rgba(255,255,255,.88); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); box-shadow: 0 4px 24px #182c290a; }
+nav a { position: relative; border-bottom-color: transparent !important; }
+nav a::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px; background: var(--accent); transform: scaleX(0); transform-origin: left; transition: transform .25s var(--ease-out); }
+nav a:hover::after, nav a:focus-visible::after, nav a[aria-current]::after { transform: scaleX(1); }
+.visual-hero { overflow: hidden; isolation: isolate; background-image: none; }
+.visual-hero::after { content: ''; position: absolute; inset: -24px; z-index: -2; background: url('./assets/material-study.jpg') center/cover no-repeat; transform: translateY(var(--hero-drift, 0px)); }
+.visual-hero::before { z-index: -1; }
+.hero-line { display: block; overflow: hidden; padding-bottom: .08em; margin-bottom: -.08em; }
+.hero-line > span { display: block; }
+.classroom-feature::after { display: none; }
+.classroom-feature { justify-content: space-between; gap: 32px; }
+.classroom-steps { list-style: none; margin: 0; padding: 32px 48px 32px 0; flex: 0 0 34%; }
+.classroom-steps li { display: flex; align-items: baseline; gap: 22px; padding: 14px 0; border-top: 1px solid #234d3c30; font-size: clamp(1.5rem, 2.7vw, 2.6rem); letter-spacing: -.045em; }
+.classroom-steps li span { font-size: .75rem; letter-spacing: .04em; color: var(--accent); }
+.material-card, .product-card, .block-link { transition: transform .25s var(--ease-out), box-shadow .25s ease, outline-color .25s ease; outline: 1px solid transparent; outline-offset: -1px; }
+.card-top > span[aria-hidden], .text-link > span, .button > span { display: inline-block; transition: transform .25s var(--ease-out); }
+.material-symbol { transform-origin: left center; transition: transform .25s ease, color .25s ease, opacity .25s ease; }
+.button { background-image: linear-gradient(#ffffff12, #ffffff12); background-size: 0% 100%; background-repeat: no-repeat; transition: background-size .25s ease, color .25s ease; }
+.button.secondary { background-image: linear-gradient(#234d3c0d, #234d3c0d); }
+.button:hover { background-color: var(--accent); background-size: 100% 100%; }
+.button.secondary:hover { background-color: transparent; }
+.button:hover > span, .text-link:hover > span { transform: translate(3px, -2px); }
+.research-row { position: relative; }
+.research-row::after { content: ''; position: absolute; left: 0; top: 14px; bottom: 14px; width: 2px; background: var(--accent); transform: scaleY(0); transition: transform .25s ease; }
+.research-row .year { transition: transform .25s ease; }
+@media (hover: hover) and (pointer: fine) {
+  .material-card:hover, .product-card:hover, .block-link:hover { transform: translateY(-3px); outline-color: #789889; box-shadow: 0 12px 26px #182c290c; }
+  .material-card:hover .material-symbol { transform: scale(1.035); color: var(--accent); opacity: 1; }
+  .material-card:hover .card-top > span[aria-hidden], .product-card:hover .card-top > span[aria-hidden] { transform: translate(3px,-3px); }
+  .research-row:hover::after { transform: scaleY(1); }
+  .research-row:hover .year { transform: translateX(8px); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero-enter .hero-line > span { animation: line-enter .58s var(--ease-out) both; }
+  .hero-enter .hero-line:nth-child(2) > span { animation-delay: .09s; }
+  .hero-enter .hero-line:nth-child(3) > span { animation-delay: .18s; }
+  .hero-enter .lede { animation: reveal-enter .5s var(--ease-out) .28s both; }
+  .hero-enter .actions { animation: reveal-enter .5s var(--ease-out) .38s both; }
+  .hero-enter::after { animation: photo-settle 1.8s var(--ease-out) both; }
+  .reveal { opacity: 0; translate: 0 16px; transition: opacity .55s var(--ease-out) var(--reveal-delay, 0ms), translate .55s var(--ease-out) var(--reveal-delay, 0ms); }
+  .reveal.is-visible, .reveal:focus-within { opacity: 1; translate: 0 0; }
+  .entry-grid > a, .research-row { position: relative; }
+  .entry-grid > a::before, .research-row::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 1px; background: var(--line); transform: scaleX(0); transform-origin: left; transition: transform .7s var(--ease-out) var(--reveal-delay, 0ms); }
+  .research-row { border-top-color: transparent; }
+  .is-visible::before { transform: scaleX(1) !important; }
+  main { view-transition-name: page; }
+  ::view-transition-old(root), ::view-transition-new(root) { animation: none; }
+  ::view-transition-old(page) { animation: page-out .16s ease both; }
+  ::view-transition-new(page) { animation: reveal-enter .28s var(--ease-out) both; }
+}
+@keyframes line-enter { from { transform: translateY(110%); } to { transform: translateY(0); } }
+@keyframes reveal-enter { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes photo-settle { from { scale: 1.06; } to { scale: 1; } }
+@keyframes page-out { to { opacity: 0; } }
+@media (max-width: 760px) {
+  /* Keep the header short on phones and at browser zoom. Navigation scrolls normally. */
+  header nav { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 3px; }
+  header { gap: 12px; padding: 16px 20px; }
+  header.is-compact { padding-top: 10px; padding-bottom: 10px; }
+  .visual-hero::after { inset: 0; background-position: 65% bottom; background-size: auto 55%; }
+  .classroom-feature { display: block; }
+  .classroom-steps { padding: 0 24px 24px; }
+  .classroom-steps li { font-size: 1.5rem; padding: 10px 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  .reveal { opacity: 1; translate: none; }
+  .visual-hero::after { transform: none; }
+  .material-card:hover, .product-card:hover, .block-link:hover, .material-symbol, .card-top > span, .button > span, .text-link > span, .research-row .year { transform: none !important; }
+}
+@media print {
+  header { position: static; }
+  .reveal { opacity: 1 !important; translate: none !important; }
+  *, *::before, *::after { animation: none !important; }
+}
