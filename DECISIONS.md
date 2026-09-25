@@ -51,3 +51,10 @@ owner explicitly leaves hosting unsettled.
 - Existing catalog price targets remain unchanged. No stock or checkout introduced.
 - Generated material photography is illustrative, not a tested product photograph.
 - Existing portable implementation and GitHub delivery retained; hosting stays open.
+
+## 24 September 2026 — Cloudflare deployment fix
+
+Owner chose Cloudflare Workers. Build logs showed the repository root being used
+as assets, including a 127 MiB node_modules binary. Wrangler now builds and serves
+only dist/. Dashboard deploy command must be npx wrangler deploy, without --assets .
+Live deployment verification remains pending.

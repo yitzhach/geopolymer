@@ -60,3 +60,11 @@ qualification are still open.
 
 Planning files are mapped in HANDOFF.md. Update HANDOFF.md and DECISIONS.md whenever
 implementation or decisions change. Product concepts must never imply available stock.
+
+## Cloudflare Workers deployment
+
+Connect this repository's `main` branch. Root directory: repository root.
+Build command: `npm run build`. Deploy command: `npx wrangler deploy`.
+Do not use `--assets .`: that uploads the repository and installed dependencies.
+`wrangler.jsonc` restricts published assets to `dist/` and builds before deployment.
+The configured Worker name is `geopolymer`; match the Cloudflare project name.

@@ -1,0 +1,6 @@
+{
+  "name": "geopolymer",
+  "compatibility_date": "2026-09-24",
+  "build": { "command": "npm run build" },
+  "assets": { "directory": "./dist" }
+}

@@ -9,7 +9,7 @@ Learn → Formulate → Buy → Test → Ask → Share.
 Selected white/green/sage design implemented; education and artist pathways expanded.
 Main verified at 1f9fdf0 before this change; existing implementation preserved.
 Owner explicitly approved publication to GitHub main after approval-review pause.
-This commit contains the completed prototype update. No hosting deployment configured.
+Cloudflare Workers deployment configured for dist/; live deployment not yet verified.
 Temporary name: Geopolymer Platform. Production stack and hosting remain open.
 
 ## Done
@@ -48,7 +48,7 @@ Shell Git push has no credentials; use the connected GitHub plugin for publicati
 ## Next
 1. Run browser smoke + visual review on desktop/mobile and at 200% text size.
 2. Review the prototype with Isaac; refine navigation, density and content templates.
-3. Choose a preview hosting destination when ready; no live URL exists yet.
+3. Retry Cloudflare deploy using npx wrangler deploy; verify the resulting live URL.
 4. Review full paper; extract exact recipe/basis/grades and complete editorial fields.
 5. Qualify kit masses/equipment, supplier grades, documentation and shipping.
 6. Decide final branding, commerce architecture and pilot scope.
