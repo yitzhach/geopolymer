@@ -30,7 +30,9 @@ export function setupMotion(main) {
   document.body?.classList.toggle('has-detail', !!main.querySelector('.breadcrumb'));
   updateScroll();
   if (preference.matches) return;
-  main.querySelector('.visual-hero')?.classList.add('hero-enter');
+  // Automated previews capture immediately; never hide their primary content.
+  if (typeof navigator === 'undefined' || !navigator.webdriver)
+    main.querySelector('.visual-hero')?.classList.add('hero-enter');
   if (!('IntersectionObserver' in window)) return;
   observer = new IntersectionObserver(entries => {
     for (const entry of entries) {

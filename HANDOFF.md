@@ -26,17 +26,21 @@ Technical brief and market strategy reviewed before implementation.
 - PASS: 17 Node tests, including chemistry, saved-data errors, unique metadata,
   internal links, strict unknown-route handling and 39 pre-rendered references.
 - PASS: static production build (30 routes), JS syntax and git diff whitespace check.
-- Local browser suite BLOCKED: Chromium was downloaded, but launching it is denied
-  by this runtime's socket restrictions. Cloud browser cannot reach localhost.
-- Added GitHub Actions verification: desktop/mobile (390px), all 30 routes with and
-  without JS, legacy links, 404, keyboard/menu, reduced motion, search/scaler,
-  calculator/workspace save/reopen/download and storage failures. Coverage is not
-  a claim of execution; CI outcome will be recorded separately.
-- GitHub main published at 1ddcc2c; Cloudflare build-info.json independently confirms
-  that commit with HTTP 200. Full HTTP checks and final browser QA still in progress.
-- First GitHub browser run completed all desktop/mobile route checks; caught a menu
-  focusout race during keyboard entry. Fixed by checking relatedTarget rather than
-  transient activeElement. Subsequent CI result must be checked.
+- PASS: GitHub browser workflow 37149713012 on 77b7173. All 30 routes at
+  1440px/390px and with JS disabled; legacy hashes/queries, HTTP 404s, menu/skip
+  keyboard behavior, reduced motion, search/scaler, calculator/workspace local
+  save/reopen/download and storage failures. No JS errors.
+- PASS: 37 live Cloudflare HTTP checks: all 30 routes, sitemap/robots/llms/build info,
+  plus three invalid paths returning HTTP 404. Library HTML contains 39 references.
+  /build-info.json independently reported 77b7173bd42c1c71d71972c96010d0ecf94ae858.
+- Live cloud-browser inspection confirmed design and corrected menu keyboard focus.
+- Screenshot review found the animated hero could be captured mid-entrance. Automated
+  previews now skip that entrance; normal browsing retains it. Final CI must validate
+  this added screenshot assertion before completion.
+- Local browser launch remains restricted by runtime sockets; the successful browser
+  suite ran on GitHub, not locally. No external rich-results validator claimed.
+- GitHub main and Cloudflare delivery are verified separately; the documentation
+  follow-up commit must also be checked against build-info.json.
 
 ## Deployment
 Cloudflare build: npm run build. Deploy: npx wrangler deploy (never --assets .).
@@ -54,7 +58,7 @@ unimplemented; calculator import works. Session working-copy storage is best eff
 No external rich-results-validator or assistive-technology audit claimed.
 
 ## Next
-1. Resolve any failing browser checks and verify actual Cloudflare delivery.
+1. Keep the browser CI green and verify build-info.json after every deployment.
 2. Enrich research authors, access/license, full-text and correction/retraction checks.
 3. Structured ingredients/test results and reviewed unit/basis handling.
 4. Accounts and durable private storage/image permissions before shared publishing.

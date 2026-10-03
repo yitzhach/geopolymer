@@ -114,3 +114,9 @@ publication status must never imply platform peer review.
 Browser QA follow-up: the first CI run caught a focusout timing race in menu keyboard
 navigation after passing the desktop/mobile route sweep. Use FocusEvent.relatedTarget
 instead of reading transient document.activeElement during focus transfer.
+
+Final screenshot review: skip hero entrance when navigator.webdriver is true so
+immediate automated captures show the complete heading, lede and actions. Standard
+browsers retain entrance motion; all reveal sections remain visible in either mode.
+GitHub browser run 37149713012 passed the full suite, and 37 independent live HTTP
+checks verified Cloudflare route content, crawl files and real 404s on 77b7173.

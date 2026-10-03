@@ -27,6 +27,7 @@ fs.mkdirSync('.qa', { recursive: true });
       }
       await go('/');
       if (viewport.width === 390) assert.ok(await page.locator('main').evaluate(e => e.getBoundingClientRect().top) <= 120);
+      assert.equal(await page.locator('.hero-enter').count(), 0, 'preview hero must be visible immediately');
       await page.screenshot({path: `.qa/home-${viewport.width}.png`, fullPage:true});
     }
     // Native disclosure: keyboard entry, sequential focus, Escape restoration.
