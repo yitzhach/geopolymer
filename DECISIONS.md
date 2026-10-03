@@ -120,3 +120,10 @@ immediate automated captures show the complete heading, lede and actions. Standa
 browsers retain entrance motion; all reveal sections remain visible in either mode.
 GitHub browser run 37149713012 passed the full suite, and 37 independent live HTTP
 checks verified Cloudflare route content, crawl files and real 404s on 77b7173.
+
+Verification complete: GitHub Actions run 37149893229 passed the entire static and
+browser suite on ec043af, including the immediate hero visibility assertion.
+Cloudflare build-info.json independently confirmed that exact implementation commit;
+live route/crawl/404 verification and cloud-browser visual/menu checks completed.
+Remaining owner decisions concern custom domain, crawler dashboard policy and future
+services, not this implementation's publication or deployment status.

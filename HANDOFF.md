@@ -26,7 +26,7 @@ Technical brief and market strategy reviewed before implementation.
 - PASS: 17 Node tests, including chemistry, saved-data errors, unique metadata,
   internal links, strict unknown-route handling and 39 pre-rendered references.
 - PASS: static production build (30 routes), JS syntax and git diff whitespace check.
-- PASS: GitHub browser workflow 37149713012 on 77b7173. All 30 routes at
+- PASS: GitHub browser workflow 37149893229 on ec043af. All 30 routes at
   1440px/390px and with JS disabled; legacy hashes/queries, HTTP 404s, menu/skip
   keyboard behavior, reduced motion, search/scaler, calculator/workspace local
   save/reopen/download and storage failures. No JS errors.
@@ -35,12 +35,14 @@ Technical brief and market strategy reviewed before implementation.
   /build-info.json independently reported 77b7173bd42c1c71d71972c96010d0ecf94ae858.
 - Live cloud-browser inspection confirmed design and corrected menu keyboard focus.
 - Screenshot review found the animated hero could be captured mid-entrance. Automated
-  previews now skip that entrance; normal browsing retains it. Final CI must validate
-  this added screenshot assertion before completion.
+  previews now skip that entrance; normal browsing retains it. The final CI run passed
+  the immediate-visibility assertion and uploaded desktop/mobile screenshots.
 - Local browser launch remains restricted by runtime sockets; the successful browser
   suite ran on GitHub, not locally. No external rich-results validator claimed.
-- GitHub main and Cloudflare delivery are verified separately; the documentation
-  follow-up commit must also be checked against build-info.json.
+- GitHub implementation release: ec043afdca75d81f290efb5e599b46772d676a83.
+- Cloudflare independently served that same commit in build-info.json at 20:00 UTC
+  on 3 October 2026. Live robots.txt matches generated crawl rules; /research/
+  redirects to /research. Follow-up documentation commits do not change tested code.
 
 ## Deployment
 Cloudflare build: npm run build. Deploy: npx wrangler deploy (never --assets .).
