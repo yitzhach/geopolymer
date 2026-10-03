@@ -26,23 +26,26 @@ npm run build
 node scripts/serve.mjs --dist
 ```
 
-Alternatively, serve the repository with `python3 -m http.server 4173`.
-Do not open index.html via file://; native JavaScript modules need an HTTP server.
-`dist/` is portable static output. Hash routes work without server rewrite rules.
-No hosting provider or production framework has been selected.
+The dev command builds first and serves the same pre-rendered output as production.
+Re-run the build after editing. Do not open index.html via file:// or serve the source
+shell directly: public HTML is generated into dist/.
 
-Optional browser smoke check, with Playwright and its Chromium installed and the
-server running: `node tests/browser-smoke.cjs`. It covers all 22 routes on desktop
-and mobile, search, scaler and keyboard skip navigation; screenshots go to `.qa/`.
-`PLAYWRIGHT_EXECUTABLE_PATH` can select an existing Chromium binary. This optional
-check is separate from the dependency-free Node tests. Browser QA remains outstanding:
-Chromium is unavailable and its installation download failed.
+`npm test` runs chemistry, storage, template and static foundation checks (and builds).
+Browser QA: install Playwright, run the dist server, then
+`node tests/browser-smoke.cjs`. `BASE_URL` can target a deployed build;
+`PLAYWRIGHT_EXECUTABLE_PATH` can select an existing Chromium executable.
+The GitHub Actions workflow runs the same tests and saves desktop/mobile screenshots.
+See HANDOFF.md for actual execution results, not just test coverage.
 
 ## Edit map
 
 - `src/data.js` — structured content, stable IDs, relationships and search records.
 - `src/schema.d.ts` — content contracts, including evidence and test entities.
-- `src/app.js` — hash routing, page templates and interactions.
+- `src/app.js` — shared pure page rendering plus progressive browser interactions.
+- `src/routes.js` — complete route registry; add public pages here.
+- `src/bootstrap.js` — old hash redirects and accessible disclosure navigation.
+- `scripts/build.mjs` — 30 pre-rendered routes, metadata, sitemap, robots and 404.
+- `site.config.mjs` — canonical origin and content update date.
 - `src/scaler.js` — pure mass-scaling function; neutral demonstration components.
 - `src/style.css` — responsive design and replaceable brand tokens.
 - `index.html` — shared shell, navigation and metadata.
@@ -68,3 +71,29 @@ Build command: `npm run build`. Deploy command: `npx wrangler deploy`.
 Do not use `--assets .`: that uploads the repository and installed dependencies.
 `wrangler.jsonc` restricts published assets to `dist/` and builds before deployment.
 The configured Worker name is `geopolymer`; match the Cloudflare project name.
+
+## Foundation routing and metadata
+
+Native path navigation serves complete HTML before JavaScript. Old `/#/…` links
+use an origin-restricted redirect preserving query parameters. URL names and stable
+content IDs remain unchanged; proposed /methods and /studio renames are deferred.
+All 39 research references are present in static HTML. Filtering, calculators and
+workspace drafts remain client-side. Local save keys and JSON formats are unchanged;
+the calculator also keeps a best-effort working copy in sessionStorage for navigation.
+
+Cloudflare assets use `not_found_handling: 404-page` and
+`html_handling: drop-trailing-slash`. Unknown routes return the custom 404 with HTTP
+404, not a home-page fallback. Native links support reload, back/forward and new tabs.
+
+Set `SITE_ORIGIN` in build environment variables when a custom domain is attached.
+Until then the existing Cloudflare origin is the canonical; no new brand/domain is
+chosen. Update `contentUpdated` when public content changes. The build generates
+unique metadata, Open Graph/Twitter cards, structured data, sitemap.xml, robots.txt,
+llms.txt and build-info.json. Workspace/search are noindex and omitted from sitemap.
+Product schema has no Offer; source articles are cited without claiming authorship
+or platform review. Product concepts are not eligible for merchant rich results.
+
+GitHub publication and Cloudflare delivery are separate. Verify build-info.json's
+commit against GitHub main and check real path responses and the HTTP 404 before
+calling a release deployed. Custom domain, crawler dashboard policy, newsletter and
+commerce setup remain owner/backend work outside this foundation change.

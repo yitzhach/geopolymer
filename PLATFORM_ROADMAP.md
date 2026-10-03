@@ -45,8 +45,8 @@ No accounts, public submission, image upload, forum backend or checkout are impl
 ## Proposed backend (not yet selected or provisioned)
 Keep Cloudflare hosting. Evaluate Worker APIs + D1 for metadata and R2 for images,
 with an established identity provider and commerce provider selected for the actual
-catalog. Public content needs indexable URLs and metadata beyond current hash routes.
-Avoid moving the frontend solely to adopt a framework; migrate routes when needed.
+catalog. Public content now has pre-rendered path URLs and page metadata.
+Keep templates framework-independent until catalog/backend complexity warrants migration.
 
 ## Core records
 Person; organization; material family; supplier grade; lot; product/SKU; paper;
@@ -69,3 +69,11 @@ adds assay bookkeeping, comparison and local JSON projects. Next enrichment shou
 connect verified supplier grades, cited formulations and measured experiment results.
 Remaining gates: browser QA, live deployment verification, independent scientific
 review, durable accounts/storage and vetted supply fulfillment.
+
+## Foundation update — 3 October 2026
+30 pre-rendered path routes, legacy hash compatibility, per-page metadata, crawl files,
+custom HTTP 404, consolidated navigation and always-visible reveal sections implemented.
+Preserve the distinction between the curated source record and 39 discovery references.
+Next: complete browser/deployment checks recorded in HANDOFF.md, then research metadata
+and source enrichment. Focus commercial validation on makers and classroom modules;
+market strategy recommendations are not commitments to launch every proposed service.

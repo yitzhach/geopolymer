@@ -1,74 +1,67 @@
 # Geopolymer Platform — HANDOFF
 Updated: 3 October 2026 • Owner: Isaac Anderson
 
-## Goal
-Global research, development, education, art and materials commerce platform.
-Find studies → formulate → document trials → collaborate → source supplies.
+## Current increment
+Foundation implementation based on verified main
+8aec26b9dbb33cc62707f1956c6e79172f920264.
+Technical brief and market strategy reviewed before implementation.
 
-## Now
-Expanded from verified main 60d768c4b37db7a50b91fc730c113e62d20ae5c5.
-Existing white/green/sage design, motion and metakaolin trail preserved.
-Cloudflare Workers builds dist/. Live deployment remains unverified here.
+## Implemented
+- 30 real path routes with complete pre-rendered public HTML. All 39 library
+  references are readable without JavaScript. Existing content IDs/path names kept.
+- Existing hash links redirect to same-origin paths, preserving query parameters.
+  Native navigation supports refresh, browser back/forward and opening new tabs.
+- Unique titles/descriptions, canonical/Open Graph/Twitter metadata, 1200×630 share
+  image and scoped structured data. No invented product Offers or source authorship.
+- Generated sitemap.xml, robots.txt, llms.txt, build-info.json and custom HTTP 404.
+  Workspace/search noindex and excluded from sitemap. Cloudflare 404-page config.
+- One compact navigation header with native disclosure, no horizontally hidden menu,
+  keyboard/Escape handling and expanded state. All former routes remain accessible.
+- Always-visible reveal content and correctly sized curated research-card titles.
+- GP calculator chemistry, local save keys, JSON import/export, workspace drafts,
+  design and evidence distinctions preserved. Calculator working state retained
+  separately in sessionStorage when available during native navigation.
 
-## Done
-- GP calculator: editable assays, atomic/oxide ratios, solution water, sodium/potassium
-  hydroxide equivalents, scaling, reference comparisons and source-specific target gaps.
-- Calculator browser save/reopen and validated JSON import/export; synthetic demo only.
-- Research Library: 39 DOI-linked records, 36 from 2024–2026, searchable by title/DOI
-  and filtered by year/topic/type; linked from research, navigation and global search.
-- Existing material/research/method/product pages, education, artist pathway,
-  unified search, arithmetic batch scaler, six unavailable product concepts.
-- Research catalog search: title, author, DOI, summary; one curated source record.
-- My workspace: local experiment/formulation/submission/discussion/supply/pitch drafts.
-- Save, reopen and update drafts; download JSON. Storage errors retain form input.
-- Supply planning for samples through bulk, with explicit unqualified availability.
-- Peer-review process, community spaces and monthly magazine/podcast planned pages.
-- PLATFORM_ROADMAP.md: staged production requirements and connected data records.
+## Verification / publication status
+- PASS: 17 Node tests, including chemistry, saved-data errors, unique metadata,
+  internal links, strict unknown-route handling and 39 pre-rendered references.
+- PASS: static production build (30 routes), JS syntax and git diff whitespace check.
+- Local browser suite BLOCKED: Chromium was downloaded, but launching it is denied
+  by this runtime's socket restrictions. Cloud browser cannot reach localhost.
+- Added GitHub Actions verification: desktop/mobile (390px), all 30 routes with and
+  without JS, legacy links, 404, keyboard/menu, reduced motion, search/scaler,
+  calculator/workspace save/reopen/download and storage failures. Coverage is not
+  a claim of execution; CI outcome will be recorded separately.
+- GitHub publication and Cloudflare live verification: pending this increment's push.
 
-## Decisions
-Plain JS retained. No fabricated studies, recipes, reviews, users or inventory.
-Workspace stores drafts only in this browser; no server submission or sync.
-Image references/captions only; image uploads are a next backend task.
-Public publishing/review/forum/checkout require backend and moderation work.
-Global knowledge is intended; international shipping eligibility is not established.
+## Deployment
+Cloudflare build: npm run build. Deploy: npx wrangler deploy (never --assets .).
+SITE_ORIGIN defaults to existing Cloudflare host until a custom domain is selected.
+Set it in build variables after attaching the custom domain. No final brand chosen.
+Verify /build-info.json commit, /library HTML, robots/sitemap and unknown-route HTTP
+404 independently of GitHub main publication. No dashboard crawler policy altered.
 
-## Limits
-Browser visual QA remains outstanding; Chromium unavailable in this environment.
-No claim of tested desktop/mobile layout or accessibility.
-No active accounts, public submissions, peer reviews, media issues or episodes.
-Paper uses publisher summary only; complete paper and protocol not reviewed.
-Local storage can be cleared; export drafts. Notebook import is not implemented; calculator JSON import is implemented.
+## Scope / limits
+No accounts, shared projects, public submissions/reviews, live community, checkout,
+newsletter collection or stock claims. Products remain concepts. One curated
+publisher-summary record; 39 discovery records are not full-paper reviews.
+Local storage can be cleared. Save/export important work. Notebook import remains
+unimplemented; calculator import works. Session working-copy storage is best effort.
+No external rich-results-validator or assistive-technology audit claimed.
 
 ## Next
-1. Browser QA for existing and new routes, keyboard, mobile, reduced motion, storage
-   failures, save/reopen/download and search. Verify Cloudflare deployment URL.
-2. Enrich the 39 discovery records with authors, access/license, full-text checks and
-   correction/retraction checks. Metadata discovery is not full scientific review.
-3. Add structured ingredients, test results and reviewed unit/basis handling.
-4. Add accounts, durable private projects and permissioned image storage.
-5. Pilot moderated publication and review with real editors and reviewers.
-6. Qualify stock, pack sizes, bulk quotes and destination-specific commerce.
-7. Launch editorial issue/podcast after content and contributor arrangements.
+1. Resolve any failing browser checks and verify actual Cloudflare delivery.
+2. Enrich research authors, access/license, full-text and correction/retraction checks.
+3. Structured ingredients/test results and reviewed unit/basis handling.
+4. Accounts and durable private storage/image permissions before shared publishing.
+5. Qualify maker/classroom products, shipping and supply; no sales before qualification.
+6. Newsletter provider/domain decisions; moderation/editors before public review/media.
 
-## Files
-HANDOFF.md → PLATFORM_ROADMAP.md → BUILD_PLAN.md.
-src/platform.js — new pages, research search, local drafts and export.
-src/app.js — existing pages/router plus platform integration.
-src/data.js — current sourced records and proposed catalog.
-src/style.css / src/motion.js / src/motion.css — appearance and motion.
-DECISIONS.md — decisions; RESEARCH_STRUCTURE.md — evidence templates.
-PRODUCTS.md — original catalog qualification; README.md — commands.
-
-## Verify
-Calculator fixture tests cover molar basis, hydroxide equivalents, solution water,
-reference losses, target gaps, aggregate exclusion, scaling and invalid imports.
-Research filters and DOI uniqueness pass. npm run build succeeds with dist/ assets.
-Browser smoke routes updated for library/calculator, but execution remains blocked
-by Chromium download network restrictions. Cloudflare live deployment unverified.
-npm test passes existing tests plus workspace save/update/corruption/quota checks
-and route template checks. JS syntax checks pass. Browser QA not completed.
-Source-only incremental patch based on current main; preserve existing build/assets.
-
-## Resume
-Use current main, preserve existing work, and keep implemented functions clearly
-separate from planned public services. Do not self-award peer-review status.
+## Edit map
+README.md: run/build/deploy. DECISIONS.md: scope and implementation choices.
+PLATFORM_ROADMAP.md: staged production requirements.
+src/routes.js: public route registry. src/app.js: shared renderPage + enhancement.
+src/bootstrap.js: hash compatibility and menu. scripts/build.mjs: static HTML/SEO.
+site.config.mjs: canonical origin/update date. src/platform.js: workspace/catalog.
+src/gp-calculator.js + gp-chemistry.js: calculator. src/research-library.js: references.
+Do not weaken evidence distinctions or replace current stable IDs when expanding.

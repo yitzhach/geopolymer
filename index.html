@@ -4,35 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="theme-color" content="#123b35" />
-    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
-    <link rel="icon" href="./favicon-32.png" type="image/png" sizes="32x32" />
-    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta
       name="description"
       content="Explore connected materials, research, formulations and proposed learning kits for geopolymers and alkali-activated materials."
     />
     <title>Geopolymer Platform</title>
+    <!-- PAGE_METADATA -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./src/style.css" />
-    <link rel="stylesheet" href="./src/motion.css" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/motion.css" />
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
     <div class="notice">Prototype — product concepts only</div>
     <div class="reading-progress" aria-hidden="true"></div>
-    <header><a class="brand" href="#/">Geopolymer Platform</a><nav aria-label="Main navigation"><a href="#/learn">Learn</a><a href="#/learn/educators">Education</a><a href="#/artists">Artists & artisans</a><a href="#/materials">Materials</a><a href="#/research">Research</a><a href="#/formulations">Formulations</a><a href="#/shop">Store</a><a href="#/tools">Tools</a></nav><a class="search-link" href="#/search" aria-label="Search the platform">Search ↗</a></header>
-    <nav class="platform-nav" aria-label="Platform"><a href="#/library">Research Library</a><a href="#/calculator">GP calculator</a><a href="#/workspace">My workspace</a><a href="#/supply">Supply planning</a><a href="#/review">Peer review</a><a href="#/community">Community</a><a href="#/journal">Magazine & podcast</a></nav>
-    <main id="main" tabindex="-1"></main>
+    <header class="site-header">
+      <a class="brand" href="/">Geopolymer Platform</a>
+      <nav class="primary-nav" aria-label="Primary"><a href="/research">Research</a><a href="/learn">Learn</a><a href="/artists">Studio</a><a href="/shop">Shop</a><a href="/community">Community</a></nav>
+      <details id="site-menu" class="site-menu"><summary aria-controls="menu-links">Menu <span aria-hidden="true">☰</span></summary><nav id="menu-links" aria-label="All sections"><section><h2>Research</h2><a href="/research">Research overview</a><a href="/library">Research Library</a><a href="/discover">Curated catalog</a><a href="/materials">Materials</a><a href="/formulations">Formulations</a><a href="/evidence">Evidence standards</a></section><section><h2>Learn</h2><a href="/learn">Start here</a><a href="/learn/beginners">First experiments</a><a href="/learn/educators">For educators</a></section><section><h2>Studio</h2><a href="/artists">Artists & artisans</a></section><section><h2>Shop</h2><a href="/shop">Kit concepts</a><a href="/supply">Bulk & supply planning</a></section><section><h2>Community</h2><a href="/community">Community plans</a><a href="/review">Peer review</a><a href="/journal">Magazine & podcast</a></section><section><h2>Tools & workspace</h2><a href="/calculator">GP calculator</a><a href="/tools">Batch scaler</a><a href="/workspace">My workspace</a><a href="/search">Search</a></section></nav></details>
+    </header>
+    <main id="main" tabindex="-1"><!-- PAGE_CONTENT --></main>
     <footer>
-      <a class="footer-brand" href="#/">Geopolymer Platform</a>
+      <a class="footer-brand" href="/">Geopolymer Platform</a>
       <p>Knowledge connected to materials.</p>
       <span
         >Prototype 0.1 · Name, catalog and fulfillment under development.</span
-      ><a href="#/evidence">How we describe evidence ↗</a>
+      ><a href="/evidence">How we describe evidence ↗</a>
     </footer>
-    <script type="module" src="./src/app.js"></script>
+    <noscript><p class="callout">Pages and research references are readable without JavaScript. Enable JavaScript for filtering, calculations and browser-local drafts.</p></noscript>
+    <script type="module" src="/src/bootstrap.js"></script>
   </body>
 </html>
 

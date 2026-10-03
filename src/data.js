@@ -200,8 +200,8 @@ export const demoIngredients = [
 ];
 export const searchRecords = [
   ...library.map(r=>({...r,summary:r.journal+" · "+r.topic+" · "+r.doi,type:"Research",href:r.url})),
-  {id:'gp-calculator',title:'GP molar-ratio calculator',summary:'Oxide composition Si/Al alkali water calcium molar ratios formulations recipes and reference comparison.',type:'Tool',href:'#/calculator'},
-  {id:'research-library',title:'Research Library',summary:'Recent peer-reviewed journal articles technical reports studies topic year DOI search.',type:'Guide',href:'#/library'},
+  {id:'gp-calculator',title:'GP molar-ratio calculator',summary:'Oxide composition Si/Al alkali water calcium molar ratios formulations recipes and reference comparison.',type:'Tool',href:'/calculator'},
+  {id:'research-library',title:'Research Library',summary:'Recent peer-reviewed journal articles technical reports studies topic year DOI search.',type:'Guide',href:'/library'},
   ...[
     ['discover','Research catalog','Search studies by title author DOI and material.'],
     ['workspace','My workspace','Lab notebook experiment formulation recipe submission and discussion drafts.'],
@@ -209,27 +209,27 @@ export const searchRecords = [
     ['review','Peer review','Proposed editorial review process and research integrity.'],
     ['community','Community','Planned forum collaboration colleagues and discussions.'],
     ['journal','Magazine & podcast','Planned monthly magazine podcast articles and editorial pitches.']
-  ].map(([id,title,summary])=>({id,title,summary,type:'Guide',href:'#/'+id})),
-  {id:"artists",title:"Artists & artisans",summary:"Studio projects, sculpture, casting, texture, relief, pigments and color studies.",type:"Guide",href:"#/artists"},
+  ].map(([id,title,summary])=>({id,title,summary,type:'Guide',href:'/'+id})),
+  {id:"artists",title:"Artists & artisans",summary:"Studio projects, sculpture, casting, texture, relief, pigments and color studies.",type:"Guide",href:"/artists"},
   ...materials.map((x) => ({
     ...x,
     type: "Material",
-    href: `#/materials/${x.id}`,
+    href: `/materials/${x.id}`,
   })),
   ...papers.map((x) => ({
     ...x,
     type: "Research",
-    href: `#/research/${x.id}`,
+    href: `/research/${x.id}`,
   })),
   ...formulations.map((x) => ({
     ...x,
     type: "Formulation",
-    href: `#/formulations/${x.id}`,
+    href: `/formulations/${x.id}`,
   })),
   ...products.map((x) => ({
     ...x,
     type: "Product concept",
-    href: `#/shop/${x.id}`,
+    href: `/shop/${x.id}`,
   })),
   {
     id: "batch-scaler",
@@ -237,21 +237,21 @@ export const searchRecords = [
     summary:
       "Scale component weights in grams or kilograms while preserving mass proportions.",
     type: "Tool",
-    href: "#/tools",
+    href: "/tools",
   },
   {
     id: "educators",
     title: "For educators",
     summary: "Classroom kits, supervised students and evidence-led learning.",
     type: "Guide",
-    href: "#/learn/educators",
+    href: "/learn/educators",
   },
   {
     id: "beginners",
     title: "Your first experiment",
     summary: "Start here: materials, grades and evidence.",
     type: "Guide",
-    href: "#/learn/beginners",
+    href: "/learn/beginners",
   },
 ];
 export function search(query, type = "All") {

@@ -78,3 +78,35 @@ alkaline MK, slag blends, ash and custom assays. Other activation systems need m
 The library has 39 sourced metadata records including 36 dated 2024–2026. Publisher
 links and publication type are provided; full-paper review remains pending. Journal
 publication status must never imply platform peer review.
+
+## 3 October 2026 — public-content foundation
+
+- Reviewed the technical brief and market strategy. Keep the white/green design,
+  maker/classroom pathways and scientific evidence distinctions; this phase does not
+  introduce new markets, stock, newsletter collection, accounts or services.
+- Retain native ES modules. Share the existing pure templates between static build
+  and browser enhancement instead of migrating frameworks. Public routes are built
+  into complete HTML; ordinary document navigation gives reliable reload/history,
+  keyboard behavior, per-page metadata and genuine HTTP 404 responses.
+- Preserve existing path names and stable IDs. Convert hash paths without renaming
+  /artists, /formulations or /tools. The brief's URL renames were proposals, not a
+  prerequisite. Preserve /discover as the curated subset and /library as discovery
+  metadata; do not silently merge their different evidence scopes.
+- Canonical origin is one configurable value (SITE_ORIGIN); temporarily use the
+  current Cloudflare origin until an owner-selected custom domain is connected.
+- Generate metadata and crawl files. No Offer or external-paper citation_* tags.
+  A source ScholarlyArticle is the subject/citation of our summary, not a claim that
+  the platform published or peer-reviewed the original. Product schema deliberately
+  lacks merchant eligibility rather than fabricating availability/reviews/pricing.
+- Consolidate navigation into five primary categories and one accessible native
+  disclosure with all sections/utilities; it works without JS, exposes expanded
+  state, closes on Escape and restores toggle focus. Do not trap focus in a nonmodal
+  menu. Every former destination remains reachable within two actions.
+- Reveal styling never sets content opacity to zero. Retain hero and hover motion
+  with reduced-motion support. Fix curated research-card heading link sizing.
+- Keep saved workspace/calculator keys and export formats unchanged. Use a separate
+  best-effort sessionStorage calculator working copy for native route navigation;
+  explicit saved local projects are never overwritten by the session copy.
+- Local static tests/build passed. Browser execution is restricted in this runtime;
+  a GitHub Actions browser gate is added. Publication/deployment/QA outcomes are
+  tracked independently in HANDOFF.md and must not be inferred from a git push.

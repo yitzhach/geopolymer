@@ -1,4 +1,4 @@
-import { calculatorPage, attachCalculator, disposeCalculator } from "./gp-calculator.js";
+import { calculatorPage, attachCalculator } from "./gp-calculator.js";
 import { libraryPage, attachLibrary } from "./research-library.js";
 import { platformPage, attachPlatform } from "./platform.js";
 import {
@@ -12,8 +12,8 @@ import {
   search,
 } from "./data.js";
 import { scaleBatch } from "./scaler.js";
-import { setupMotion, changePage } from "./motion.js";
-const main = document.querySelector("main");
+import { routes } from "./routes.js";
+
 const esc = (s) =>
   String(s).replace(
     /[&<>"']/g,
@@ -26,15 +26,15 @@ const link = (href, label, cls = "text-link") =>
   `<a class="${cls}" href="${href}">${label} <span aria-hidden="true">↗</span></a>`;
 const badge = (label, cls = "") => `<span class="badge ${cls}">${label}</span>`;
 const crumb = (area, path) =>
-  `<div class="breadcrumb"><a href="#/">Home</a> / <a href="${path}">${area}</a></div>`;
+  `<div class="breadcrumb"><a href="/">Home</a> / <a href="${path}">${area}</a></div>`;
 const intro = (kicker, title, body) =>
   `<section class="page-intro"><p class="eyebrow">${kicker}</p><h1>${title}</h1><p class="lede">${body}</p></section>`;
 const pathway = (current) => {
   const steps = [
-    ["Material", "Identify the precursor", "#/materials/metakaolin"],
-    ["Source", "Read the published summary", "#/research/mk-testing-2019"],
-    ["Method", "See what is missing", "#/formulations/metakaolin-comparison"],
-    ["Kit concept", "Review the proposed offer", "#/shop/starter-kit"],
+    ["Material", "Identify the precursor", "/materials/metakaolin"],
+    ["Source", "Read the published summary", "/research/mk-testing-2019"],
+    ["Method", "See what is missing", "/formulations/metakaolin-comparison"],
+    ["Kit concept", "Review the proposed offer", "/shop/starter-kit"],
   ];
   return `<nav class="pathway" aria-label="Metakaolin research to kit pathway"><p class="eyebrow">FOLLOW THE CONNECTION</p><ol>${steps.map(([name, detail, href], i) => `<li><a href="${href}"${i === current ? ' aria-current="step"' : ""}><span class="pathway-number">0${i + 1}</span><span><strong>${name}</strong><small>${detail}</small></span></a></li>`).join("")}</ol><p class="small">A research connection does not qualify the proposed kit or establish a mixing recipe.</p></nav>`;
 };
@@ -43,25 +43,25 @@ const table = (rows) =>
 const list = (items) =>
   `<ul class="plain-list">${items.map((x) => `<li>${x}</li>`).join("")}</ul>`;
 const materialCard = (m) =>
-  `<a class="material-card" href="#/materials/${m.id}"><div class="card-top"><span class="eyebrow">${m.category}</span><span aria-hidden="true">↗</span></div><div class="material-symbol" aria-hidden="true">${m.id === "metakaolin" ? "MK" : "Si"}<span>${m.role}</span></div><h3>${m.title}</h3><p>${m.summary}</p><span class="card-bottom">${m.gradeIds.length} grade records · ${m.paperIds.length} research connection</span></a>`;
+  `<a class="material-card" href="/materials/${m.id}"><div class="card-top"><span class="eyebrow">${m.category}</span><span aria-hidden="true">↗</span></div><div class="material-symbol" aria-hidden="true">${m.id === "metakaolin" ? "MK" : "Si"}<span>${m.role}</span></div><h3>${m.title}</h3><p>${m.summary}</p><span class="card-bottom">${m.gradeIds.length} grade records · ${m.paperIds.length} research connection</span></a>`;
 const productCard = (p) =>
-  `<a class="product-card" href="#/shop/${p.id}"><div class="card-top">${badge("Proposed · not available", "amber")}<span aria-hidden="true">↗</span></div><p class="eyebrow">${p.category}</p><h3>${p.title}</h3><p>${p.summary}</p><div class="product-bottom"><span>${p.targetPrice ? `<strong>$${p.targetPrice}</strong> target price` : "Price undecided"}</span><span>${p.id === "classroom-kit" ? "12 students" : "Concept preview"}</span></div></a>`;
+  `<a class="product-card" href="/shop/${p.id}"><div class="card-top">${badge("Proposed · not available", "amber")}<span aria-hidden="true">↗</span></div><p class="eyebrow">${p.category}</p><h3>${p.title}</h3><p>${p.summary}</p><div class="product-bottom"><span>${p.targetPrice ? `<strong>$${p.targetPrice}</strong> target price` : "Price undecided"}</span><span>${p.id === "classroom-kit" ? "12 students" : "Concept preview"}</span></div></a>`;
 const researchRow = (p) =>
-  `<a class="research-row" href="#/research/${p.id}"><span class="year">${p.year}</span><div><p class="eyebrow">Technical paper · publisher summary</p><h3>${p.title}</h3><p>${p.authors}</p></div><span aria-hidden="true">↗</span></a>`;
+  `<a class="research-row" href="/research/${p.id}"><span class="year">${p.year}</span><div><p class="eyebrow">Technical paper · publisher summary</p><h3>${p.title}</h3><p>${p.authors}</p></div><span aria-hidden="true">↗</span></a>`;
 function home() {
-  return `<section class="visual-hero"><div class="hero-copy"><h1 aria-label="Explore what materials can become."><span class="hero-line" aria-hidden="true"><span>Explore what</span></span><span class="hero-line" aria-hidden="true"><span>materials can</span></span><span class="hero-line" aria-hidden="true"><span>become.</span></span></h1><p class="lede">Connect the science, the formulation<br>and your next experiment.</p><div class="actions">${link("#/materials", "Explore materials", "button")}${link("#/shop", "Discover kit concepts", "button secondary")}</div></div><span class="image-caption">Material study · illustrative imagery</span></section>
-  <section class="platform-search"><h2>Find a study. Plan your next experiment.</h2><form action="#/discover" id="home-discovery"><label class="sr-only" for="home-study-query">Search research</label><input id="home-study-query" name="q" placeholder="Search by material, author or DOI"><button class="button">Search research</button></form><p>${link("#/workspace", "Open your lab notebook")} · ${link("#/supply", "Explore supplies from sample to bulk")}</p></section><section class="entry-grid" aria-label="Choose your starting point">${[["LEARN","Start your first experiment","Understand materials, ask better questions and record what you observe.","#/learn"],["EDUCATE","Bring it to the classroom","Resources and kit concepts for educators, students and community makers.","#/learn/educators"],["CREATE","For artists & artisans","Explore casting, sculptural surfaces, color and material expression.","#/artists"]].map(([k,t,b,u])=>`<a href="${u}"><span class="eyebrow">${k}</span><h3>${t} →</h3><p>${b}</p></a>`).join("")}</section>
-  <section class="classroom-feature"><div><h2>Bring material science<br>to the classroom.</h2><p>Build curiosity through observation, research and hands-on learning. Explore resources for your next lesson.</p>${link("#/learn/educators","Explore educator resources","button secondary")}</div><ol class="classroom-steps" aria-label="A learning process"><li><span>01</span>Observe.</li><li><span>02</span>Question.</li><li><span>03</span>Record.</li></ol></section>
-  <section class="section"><div class="section-title"><div><h2>A connected material library</h2><p>Explore starting materials and follow their connections to published methods.</p></div>${link("#/materials","View materials")}</div><div class="grid three">${materials.map(materialCard).join("")}<a class="material-card" href="#/formulations"><p class="eyebrow">FORMULATIONS</p><h3>From source to method.</h3><p>Explore source-linked methods, missing details and the questions to ask before mixing.</p><span class="text-link">Explore formulations →</span></a></div></section>
-  <section class="section"><div class="section-title"><div><h2>Kits for learning by doing.</h2><p>Proposed concepts for learning, teaching and studio exploration.</p></div>${link("#/shop","View the store")}</div><div class="grid two">${products.slice(0,2).map(productCard).join("")}</div></section>
-  <section class="artist-feature"><p class="eyebrow">THE MATERIAL STUDIO</p><h2>New possibilities for artists & artisans.</h2><p>From small cast objects to textured surfaces: explore material studies, plan a sample series and keep a record of your process.</p><div class="actions">${link("#/artists","Explore the studio","button")}${link("#/shop?audience=artists","Artist product concepts","button secondary")}</div></section>
-  <section class="section"><div class="section-title"><div><p class="eyebrow">FOLLOW THE EVIDENCE</p><h2>Research, connected to practice.</h2></div>${link("#/research","View research")}</div>${papers.map(researchRow).join("")}</section>`;
+  return `<section class="visual-hero"><div class="hero-copy"><h1 aria-label="Explore what materials can become."><span class="hero-line" aria-hidden="true"><span>Explore what</span></span><span class="hero-line" aria-hidden="true"><span>materials can</span></span><span class="hero-line" aria-hidden="true"><span>become.</span></span></h1><p class="lede">Connect the science, the formulation<br>and your next experiment.</p><div class="actions">${link("/materials", "Explore materials", "button")}${link("/shop", "Discover kit concepts", "button secondary")}</div></div><span class="image-caption">Material study · illustrative imagery</span></section>
+  <section class="platform-search"><h2>Find a study. Plan your next experiment.</h2><form action="/discover" id="home-discovery"><label class="sr-only" for="home-study-query">Search research</label><input id="home-study-query" name="q" placeholder="Search by material, author or DOI"><button class="button">Search research</button></form><p>${link("/workspace", "Open your lab notebook")} · ${link("/supply", "Explore supplies from sample to bulk")}</p></section><section class="entry-grid" aria-label="Choose your starting point">${[["LEARN","Start your first experiment","Understand materials, ask better questions and record what you observe.","/learn"],["EDUCATE","Bring it to the classroom","Resources and kit concepts for educators, students and community makers.","/learn/educators"],["CREATE","For artists & artisans","Explore casting, sculptural surfaces, color and material expression.","/artists"]].map(([k,t,b,u])=>`<a href="${u}"><span class="eyebrow">${k}</span><h3>${t} →</h3><p>${b}</p></a>`).join("")}</section>
+  <section class="classroom-feature"><div><h2>Bring material science<br>to the classroom.</h2><p>Build curiosity through observation, research and hands-on learning. Explore resources for your next lesson.</p>${link("/learn/educators","Explore educator resources","button secondary")}</div><ol class="classroom-steps" aria-label="A learning process"><li><span>01</span>Observe.</li><li><span>02</span>Question.</li><li><span>03</span>Record.</li></ol></section>
+  <section class="section"><div class="section-title"><div><h2>A connected material library</h2><p>Explore starting materials and follow their connections to published methods.</p></div>${link("/materials","View materials")}</div><div class="grid three">${materials.map(materialCard).join("")}<a class="material-card" href="/formulations"><p class="eyebrow">FORMULATIONS</p><h3>From source to method.</h3><p>Explore source-linked methods, missing details and the questions to ask before mixing.</p><span class="text-link">Explore formulations →</span></a></div></section>
+  <section class="section"><div class="section-title"><div><h2>Kits for learning by doing.</h2><p>Proposed concepts for learning, teaching and studio exploration.</p></div>${link("/shop","View the store")}</div><div class="grid two">${products.slice(0,2).map(productCard).join("")}</div></section>
+  <section class="artist-feature"><p class="eyebrow">THE MATERIAL STUDIO</p><h2>New possibilities for artists & artisans.</h2><p>From small cast objects to textured surfaces: explore material studies, plan a sample series and keep a record of your process.</p><div class="actions">${link("/artists","Explore the studio","button")}${link("/shop?audience=artists","Artist product concepts","button secondary")}</div></section>
+  <section class="section"><div class="section-title"><div><p class="eyebrow">FOLLOW THE EVIDENCE</p><h2>Research, connected to practice.</h2></div>${link("/research","View research")}</div>${papers.map(researchRow).join("")}</section>`;
 }
 function education() {
- return intro("EDUCATION", "A material lab for curious minds.", "Resources for classrooms, homeschool groups, workshops and independent learners.") + `<div class="grid three">${[["01 / OBSERVE","Read a surface","Compare existing cured samples or photographs. Describe texture, visible pores, edges and color. Separate what you can observe from what you would need to test."],["02 / INVESTIGATE","Ask what the source supports","Read the linked research record. Identify the material grades, measured outcome and missing information. Write one claim the source supports and one it does not."],["03 / CALCULATE","Practice batch proportions","Use the neutral-component scaler. Predict each component mass for a half-size batch, calculate it, then explain why proportions remain the same."]].map(([k,t,b])=>`<article class="record"><p class="eyebrow">${k}</p><h2>${t}</h2><p>${b}</p></article>`).join("")}</div><section class="section"><h2>A lesson you can start with.</h2><div class="record"><p class="eyebrow">30–45 MINUTES / OBSERVATION & RESEARCH</p><h3>Look. Question. Record.</h3><ol><li>Choose two photographs or existing cured samples and list five observations.</li><li>Choose one variable you would like to investigate, such as surface texture.</li><li>Read the source record and identify what is known and what remains untested.</li><li>Sketch a comparison table: sample ID, material record, variable, observation and unanswered question.</li><li>Share one finding and one next question with the group.</li></ol><p>No chemical mixing is part of this activity. Teachers can adapt the reading and arithmetic to their learners.</p><div class="actions">${link("#/research/mk-testing-2019","Open research record","button secondary")}${link("#/tools","Open batch scaler","button secondary")}</div></div></section><section class="section"><h2>Plan your classroom.</h2><p>The classroom kit concept supports six paired workstations. Hands-on chemical activities and age suitability require review before release.</p><div class="grid two">${products.filter(p=>["classroom-kit","starter-kit"].includes(p.id)).map(productCard).join("")}</div></section>`;
+ return intro("EDUCATION", "A material lab for curious minds.", "Resources for classrooms, homeschool groups, workshops and independent learners.") + `<div class="grid three">${[["01 / OBSERVE","Read a surface","Compare existing cured samples or photographs. Describe texture, visible pores, edges and color. Separate what you can observe from what you would need to test."],["02 / INVESTIGATE","Ask what the source supports","Read the linked research record. Identify the material grades, measured outcome and missing information. Write one claim the source supports and one it does not."],["03 / CALCULATE","Practice batch proportions","Use the neutral-component scaler. Predict each component mass for a half-size batch, calculate it, then explain why proportions remain the same."]].map(([k,t,b])=>`<article class="record"><p class="eyebrow">${k}</p><h2>${t}</h2><p>${b}</p></article>`).join("")}</div><section class="section"><h2>A lesson you can start with.</h2><div class="record"><p class="eyebrow">30–45 MINUTES / OBSERVATION & RESEARCH</p><h3>Look. Question. Record.</h3><ol><li>Choose two photographs or existing cured samples and list five observations.</li><li>Choose one variable you would like to investigate, such as surface texture.</li><li>Read the source record and identify what is known and what remains untested.</li><li>Sketch a comparison table: sample ID, material record, variable, observation and unanswered question.</li><li>Share one finding and one next question with the group.</li></ol><p>No chemical mixing is part of this activity. Teachers can adapt the reading and arithmetic to their learners.</p><div class="actions">${link("/research/mk-testing-2019","Open research record","button secondary")}${link("/tools","Open batch scaler","button secondary")}</div></div></section><section class="section"><h2>Plan your classroom.</h2><p>The classroom kit concept supports six paired workstations. Hands-on chemical activities and age suitability require review before release.</p><div class="grid two">${products.filter(p=>["classroom-kit","starter-kit"].includes(p.id)).map(productCard).join("")}</div></section>`;
 }
 function artists() {
- return intro("ARTISTS & ARTISANS", "Think through your materials.", "A studio pathway for sculpture, cast objects, textured panels and decorative surfaces.") + `<div class="grid three">${[["FORM","Casting studies","Plan small sample objects to compare shape, edge detail and surface finish. Record mold, dimensions and observations."],["SURFACE","Texture & relief","Sketch a series of relief or textured-panel studies. Keep substrate, layer thickness and finishing choices in your trial record."],["COLOR","Build a sample library","Plan labeled color and aggregate swatches. Compare under consistent light and record each material and lot."]].map(([k,t,b])=>`<article class="record"><p class="eyebrow">${k}</p><h2>${t}</h2><p>${b}</p></article>`).join("")}</div><section class="section"><h2>From idea to a documented trial.</h2><p>Define your intended use, select a reviewed material system, change one variable at a time and keep labeled samples. These are project directions; no durability, exterior-use or compatibility claims are established.</p><div class="actions">${link("#/materials","Explore material records","button")}${link("#/tools","Plan batch proportions","button secondary")}</div></section><section class="section"><div class="section-title"><h2>For your studio.</h2>${link("#/shop?audience=artists","All artist concepts")}</div><div class="grid three">${products.filter(p=>p.audience==='artists').map(productCard).join("")}</div></section>`;
+ return intro("ARTISTS & ARTISANS", "Think through your materials.", "A studio pathway for sculpture, cast objects, textured panels and decorative surfaces.") + `<div class="grid three">${[["FORM","Casting studies","Plan small sample objects to compare shape, edge detail and surface finish. Record mold, dimensions and observations."],["SURFACE","Texture & relief","Sketch a series of relief or textured-panel studies. Keep substrate, layer thickness and finishing choices in your trial record."],["COLOR","Build a sample library","Plan labeled color and aggregate swatches. Compare under consistent light and record each material and lot."]].map(([k,t,b])=>`<article class="record"><p class="eyebrow">${k}</p><h2>${t}</h2><p>${b}</p></article>`).join("")}</div><section class="section"><h2>From idea to a documented trial.</h2><p>Define your intended use, select a reviewed material system, change one variable at a time and keep labeled samples. These are project directions; no durability, exterior-use or compatibility claims are established.</p><div class="actions">${link("/materials","Explore material records","button")}${link("/tools","Plan batch proportions","button secondary")}</div></section><section class="section"><div class="section-title"><h2>For your studio.</h2>${link("/shop?audience=artists","All artist concepts")}</div><div class="grid three">${products.filter(p=>p.audience==='artists').map(productCard).join("")}</div></section>`;
 }
 function materialIndex() {
   return (
@@ -76,7 +76,7 @@ function materialIndex() {
 function materialDetail(m) {
   const gs = grades.filter((g) => m.gradeIds.includes(g.id));
   return (
-    crumb("Materials", "#/materials") +
+    crumb("Materials", "/materials") +
     intro(`${m.category} / material record`, m.title, m.summary) +
     (m.id === "metakaolin" ? pathway(0) : "") +
     `<div class="detail-grid"><div><h2>Grade records</h2><p>Published examples and proposed sourcing records are kept separate.</p>${gs
@@ -89,7 +89,7 @@ function materialDetail(m) {
               [
                 "Source",
                 g.sourceId
-                  ? link("#/research/" + g.sourceId, "Published comparison")
+                  ? link("/research/" + g.sourceId, "Published comparison")
                   : "Awaiting selection",
               ],
             ],
@@ -100,11 +100,11 @@ function materialDetail(m) {
       .map(researchRow)
       .join(
         "",
-      )}<h2>Connected method</h2>${link("#/formulations/metakaolin-comparison", "Compare metakaolin grades")}<h2>Specification checklist</h2>${list(m.id === "metakaolin" ? ["Composition, particle size and variability need a grade-specific source.", "Record supplier, grade and lot for every trial.", "Generic material similarity does not establish interchangeability."] : ["Record cation, concentration, density and modulus with their definitions.", "Track solution solids and water separately when a reviewed formulation requires it.", "No concentration or compatibility is specified for the proposed activator."])}</div><aside class="side-panel"><p class="eyebrow">CONNECTED CATALOG</p><h2>Explore product concepts</h2>${products
+      )}<h2>Connected method</h2>${link("/formulations/metakaolin-comparison", "Compare metakaolin grades")}<h2>Specification checklist</h2>${list(m.id === "metakaolin" ? ["Composition, particle size and variability need a grade-specific source.", "Record supplier, grade and lot for every trial.", "Generic material similarity does not establish interchangeability."] : ["Record cation, concentration, density and modulus with their definitions.", "Track solution solids and water separately when a reviewed formulation requires it.", "No concentration or compatibility is specified for the proposed activator."])}</div><aside class="side-panel"><p class="eyebrow">CONNECTED CATALOG</p><h2>Explore product concepts</h2>${products
       .filter((p) => m.productIds.includes(p.id))
       .map(
         (p) =>
-          `<a class="side-link" href="#/shop/${p.id}"><strong>${p.title}</strong><span>Proposed · not available ↗</span></a>`,
+          `<a class="side-link" href="/shop/${p.id}"><strong>${p.title}</strong><span>Proposed · not available ↗</span></a>`,
       )
       .join(
         "",
@@ -118,13 +118,13 @@ function researchIndex() {
       "Go back to the source.",
       "Read the evidence, understand its limits and trace the connection to materials and methods.",
     ) +
-    `<div class="actions">${link("#/library", "Browse the Research Library", "button")}${link("#/calculator", "GP molar-ratio calculator", "button secondary")}</div>` + papers.map(researchRow).join("") +
+    `<div class="actions">${link("/library", "Browse the Research Library", "button")}${link("/calculator", "GP molar-ratio calculator", "button secondary")}</div>` + papers.map(researchRow).join("") +
     `<div class="callout">This section contains one annotated source record; the Research Library links to dozens of additional publications. Published findings do not validate the platform’s proposed products.</div>`
   );
 }
 function researchDetail(p) {
   return (
-    crumb("Research", "#/research") +
+    crumb("Research", "/research") +
     intro("TECHNICAL PAPER / 2019", p.title, p.authors) +
     pathway(1) +
     `<div class="detail-grid"><article>${badge("Literature-reported")}<h2>What the source covers</h2><p>${p.summary}</p><h2>Reported method</h2><p>The publisher describes sodium and potassium silicate solutions with MR = 1.7 and hardening at 80 °C. Time to peak temperature is used to compare the eleven commercial samples. The modulus definition and complete method must be checked in the full paper before use.</p><h2>Editorial interpretation</h2><p>This is a useful entry point for asking whether a proposed precursor grade has been characterized for the intended system. It is not a purchasing recommendation or a substitute for a reviewed experiment.</p><h2>Limits of this record</h2><p>${p.limitation}</p>${table(
@@ -141,7 +141,7 @@ function researchDetail(p) {
         ["Access", p.access],
         ["DOI", `<a href="https://doi.org/${p.doi}">${p.doi}</a>`],
       ],
-    )}<h3>Continue exploring</h3>${link("#/materials/metakaolin", "Metakaolin material record")}${link("#/formulations/metakaolin-comparison", "Connected method record")}</aside></div>`
+    )}<h3>Continue exploring</h3>${link("/materials/metakaolin", "Metakaolin material record")}${link("/formulations/metakaolin-comparison", "Connected method record")}</aside></div>`
   );
 }
 function formulationIndex() {
@@ -151,17 +151,17 @@ function formulationIndex() {
       "Connect the paper to the experiment.",
       "Source-linked method records make missing information visible before work begins.",
     ) +
-    `<a class="record block-link" href="#/formulations/metakaolin-comparison">${badge("Literature-reported")}<h2>Compare metakaolin grades ↗</h2><p>Published method overview · full recipe extraction pending</p></a><div class="callout">No executable chemical recipe is released in this prototype. Use the batch scaler to explore mass arithmetic with a separate illustrative example.</div>${link("#/tools", "Open batch scaler", "button")}`
+    `<a class="record block-link" href="/formulations/metakaolin-comparison">${badge("Literature-reported")}<h2>Compare metakaolin grades ↗</h2><p>Published method overview · full recipe extraction pending</p></a><div class="callout">No executable chemical recipe is released in this prototype. Use the batch scaler to explore mass arithmetic with a separate illustrative example.</div>${link("/tools", "Open batch scaler", "button")}`
   );
 }
 function formulationDetail(f) {
   return (
-    crumb("Formulations", "#/formulations") +
+    crumb("Formulations", "/formulations") +
     intro("METHOD RECORD / VERSION " + f.version, f.title, f.summary) +
     pathway(2) +
     `<div class="detail-grid"><article>${badge(evidenceLabels[f.evidence])}<h2>Method basis</h2><p>The source reports comparing commercial metakaolin samples with silicate solutions using temperature evolution. This record identifies the method; it does not supply complete mixing or curing instructions.</p>${table(
       [
-        ["Source", link("#/research/mk-testing-2019", "Technical Paper #26")],
+        ["Source", link("/research/mk-testing-2019", "Technical Paper #26")],
         ["Grade examples", "Metaver SF; Argical M1200"],
         [
           "Ingredient masses / ratios",
@@ -175,25 +175,25 @@ function formulationDetail(f) {
         ["Test results", "No platform results"],
         ["Substitutions", "Not qualified"],
       ],
-    )}<h2>Before an executable formulation</h2>${list(["Review the full source and record exact grades and masses.", "Document ratio definitions, solution solids and water accounting.", "Establish equipment, product-specific handling and disposal requirements.", "Record reproduction and independent testing separately."])}</article><aside class="side-panel"><p class="eyebrow">BATCH PLANNING</p><h2>Explore mass scaling</h2><p>Practice proportional scaling with neutral components. The example is not this published formulation.</p>${link("#/tools", "Open arithmetic example", "button")}<h3>Related product concepts</h3><p>These concepts are linked by learning intent only. Method compatibility is not established.</p>${f.productIds.map((id) => link("#/shop/" + id, products.find((x) => x.id === id).title)).join("")}</aside></div>`
+    )}<h2>Before an executable formulation</h2>${list(["Review the full source and record exact grades and masses.", "Document ratio definitions, solution solids and water accounting.", "Establish equipment, product-specific handling and disposal requirements.", "Record reproduction and independent testing separately."])}</article><aside class="side-panel"><p class="eyebrow">BATCH PLANNING</p><h2>Explore mass scaling</h2><p>Practice proportional scaling with neutral components. The example is not this published formulation.</p>${link("/tools", "Open arithmetic example", "button")}<h3>Related product concepts</h3><p>These concepts are linked by learning intent only. Method compatibility is not established.</p>${f.productIds.map((id) => link("/shop/" + id, products.find((x) => x.id === id).title)).join("")}</aside></div>`
   );
 }
-function shop() {
-  const artistOnly = new URLSearchParams(location.hash.split("?")[1]).get("audience") === "artists";
+function shop(params) {
+  const artistOnly = params.get("audience") === "artists";
   return (
     intro(
       "PROPOSED CATALOG",
       "Materials for discovery.",
       "Explore the kits and samples we are developing. Prices are design targets; products are not available to order.",
     ) +
-    `<div class="actions shop-filters">${link("#/shop", "All concepts", "button secondary")}${link("#/shop?audience=artists", "Artists & artisans", "button secondary")}</div><div class="grid two">${products.filter(p=>!artistOnly || p.audience === "artists").map(productCard).join("")}</div><div class="callout">Exact kit masses, qualified grades, supplier relationships and shipping eligibility remain open. No checkout or inventory is active.</div>`
+    `<div class="actions shop-filters">${link("/shop", "All concepts", "button secondary")}${link("/shop?audience=artists", "Artists & artisans", "button secondary")}</div><div class="grid two">${products.filter(p=>!artistOnly || p.audience === "artists").map(productCard).join("")}</div><div class="callout">Exact kit masses, qualified grades, supplier relationships and shipping eligibility remain open. No checkout or inventory is active.</div>`
   );
 }
 function productDetail(p) {
   return (
-    crumb("Kits & materials", "#/shop") +
+    crumb("Kits & materials", "/shop") +
     (p.id === "starter-kit" ? pathway(3) : "") +
-    `<div class="product-detail"><div class="product-summary"><p class="eyebrow">${p.category}</p><h1>${p.title}</h1><p class="lede">${p.summary}</p>${badge("Proposed product · not available", "amber")}<p class="pack">${p.pack}</p><div class="price">${p.targetPrice ? `$${p.targetPrice}<span>USD target price · unconfirmed</span>` : "Price undecided"}</div><p>Under development. Not available to purchase or reserve.</p>${link(p.id === "classroom-kit" ? "#/learn/educators" : "#/formulations/metakaolin-comparison", p.id === "classroom-kit" ? "Explore the educator pathway" : "Explore the connected method", "button")}</div><div><h2>Proposed contents</h2>${list(p.included)}<h2>Required separately</h2>${list(p.required)}<h2>Qualification & availability</h2>${table(
+    `<div class="product-detail"><div class="product-summary"><p class="eyebrow">${p.category}</p><h1>${p.title}</h1><p class="lede">${p.summary}</p>${badge("Proposed product · not available", "amber")}<p class="pack">${p.pack}</p><div class="price">${p.targetPrice ? `$${p.targetPrice}<span>USD target price · unconfirmed</span>` : "Price undecided"}</div><p>Under development. Not available to purchase or reserve.</p>${link(p.id === "classroom-kit" ? "/learn/educators" : "/formulations/metakaolin-comparison", p.id === "classroom-kit" ? "Explore the educator pathway" : "Explore the connected method", "button")}</div><div><h2>Proposed contents</h2>${list(p.included)}<h2>Required separately</h2>${list(p.required)}<h2>Qualification & availability</h2>${table(
       [
         [
           "Exact grade",
@@ -207,7 +207,7 @@ function productDetail(p) {
           "Undecided; no eligibility or cost established",
         ],
       ],
-    )}</div></div><section class="evidence-band"><div><p class="eyebrow">UNDERSTAND THE MATERIAL</p><h2>Follow the specification.</h2><p>See the material family and why exact grades matter.</p></div>${link("#/materials/" + p.materialId, "Explore metakaolin", "button secondary")}</section>`
+    )}</div></div><section class="evidence-band"><div><p class="eyebrow">UNDERSTAND THE MATERIAL</p><h2>Follow the specification.</h2><p>See the material family and why exact grades matter.</p></div>${link("/materials/" + p.materialId, "Explore metakaolin", "button secondary")}</section>`
   );
 }
 function learn(audience) {
@@ -217,12 +217,12 @@ function learn(audience) {
       "LEARN / " + (educator ? "EDUCATORS" : "START HERE"),
       educator
         ? "Bring material science into the classroom."
-        : "Start with a better question.",
+        : audience === "beginners" ? "Plan your first experiment." : "Start with a better question.",
       educator
         ? "A proposed pathway for trained instructors and supervised older students. Age suitability and product instructions must be reviewed before release."
-        : "Explore how material identity, published evidence and careful observation connect.",
+        : audience === "beginners" ? "Build a first experiment around material identity, source reading and a documented question before considering chemical mixing." : "Explore how material identity, published evidence and careful observation connect.",
     ) +
-    `<div class="grid three"><article class="record"><p class="eyebrow">01 / UNDERSTAND</p><h2>Meet the material</h2><p>Start with the family. Then distinguish a named grade from a qualified product.</p>${link("#/materials/metakaolin", "Explore metakaolin")}</article><article class="record"><p class="eyebrow">02 / INVESTIGATE</p><h2>Trace the evidence</h2><p>Ask what was measured, which material was used and what information is missing.</p>${link("#/research/mk-testing-2019", "Read the source record")}</article><article class="record"><p class="eyebrow">03 / PLAN</p><h2>${educator ? "Plan six workstations" : "Preview a first experiment"}</h2><p>${educator ? "The classroom concept pairs 12 students across six stations. Chemical quantities remain undecided." : "The starter concept targets 2–3 small specimens. A qualified system comes before release."}</p>${link("#/shop/" + (educator ? "classroom-kit" : "starter-kit"), "View kit concept")}</article></div><div class="callout">${educator ? "The classroom offer is still a concept, not a ready-to-teach chemical activity." : "A published method is not automatically a suitable beginner experiment."} Product-specific equipment, handling and instructions are part of qualification.</div>${link("#/tools", "Practice with the batch mass scaler")}`
+    `<div class="grid three"><article class="record"><p class="eyebrow">01 / UNDERSTAND</p><h2>Meet the material</h2><p>Start with the family. Then distinguish a named grade from a qualified product.</p>${link("/materials/metakaolin", "Explore metakaolin")}</article><article class="record"><p class="eyebrow">02 / INVESTIGATE</p><h2>Trace the evidence</h2><p>Ask what was measured, which material was used and what information is missing.</p>${link("/research/mk-testing-2019", "Read the source record")}</article><article class="record"><p class="eyebrow">03 / PLAN</p><h2>${educator ? "Plan six workstations" : "Preview a first experiment"}</h2><p>${educator ? "The classroom concept pairs 12 students across six stations. Chemical quantities remain undecided." : "The starter concept targets 2–3 small specimens. A qualified system comes before release."}</p>${link("/shop/" + (educator ? "classroom-kit" : "starter-kit"), "View kit concept")}</article></div><div class="callout">${educator ? "The classroom offer is still a concept, not a ready-to-teach chemical activity." : "A published method is not automatically a suitable beginner experiment."} Product-specific equipment, handling and instructions are part of qualification.</div>${link("/tools", "Practice with the batch mass scaler")}`
   );
 }
 function evidence() {
@@ -262,7 +262,7 @@ function toolsPage() {
       "A smaller batch. The same proportions.",
       "Scale an illustrative three-component batch in grams or kilograms.",
     ) +
-    `<div class="callout">Looking for chemical ratios? ${link("#/calculator", "Open the GP molar-ratio calculator")}</div><div class="scaler-grid"><form id="scaler" class="side-panel"><p class="eyebrow">REFERENCE BATCH</p><h2>1,000 g total</h2><p>Component A: 600 g<br>Component B (as supplied): 300 g<br>Component C: 100 g</p><label for="target">Target total batch mass</label><div class="input-pair"><input id="target" name="target" type="number" min="0.000001" step="any" value="1" inputmode="decimal" required><select id="unit" name="unit" aria-label="Target mass unit"><option value="kg">kg</option><option value="g">g</option></select></div><button class="button" type="submit">Calculate batch</button><p id="scale-error" class="error" role="alert"></p></form><section aria-label="Scaled batch"><div class="section-title"><h2>Your batch</h2>${badge("Arithmetic example", "amber")}</div><div id="scale-output" aria-live="polite"></div><p class="small">As-supplied mass basis: a solution’s mass includes its water. This tool does not calculate solids, added water, molar ratios, density or yield. Results are rounded for display.</p></section></div><div class="callout"><strong>This is not a chemical recipe.</strong> Components A, B and C are neutral placeholders. Scaling mass does not establish equivalent mixing, cure, performance or suitability at a different scale.</div>`
+    `<div class="callout">Looking for chemical ratios? ${link("/calculator", "Open the GP molar-ratio calculator")}</div><div class="scaler-grid"><form id="scaler" class="side-panel"><p class="eyebrow">REFERENCE BATCH</p><h2>1,000 g total</h2><p>Component A: 600 g<br>Component B (as supplied): 300 g<br>Component C: 100 g</p><label for="target">Target total batch mass</label><div class="input-pair"><input id="target" name="target" type="number" min="0.000001" step="any" value="1" inputmode="decimal" required><select id="unit" name="unit" aria-label="Target mass unit"><option value="kg">kg</option><option value="g">g</option></select></div><button class="button" type="submit">Calculate batch</button><p id="scale-error" class="error" role="alert"></p></form><section aria-label="Scaled batch"><div class="section-title"><h2>Your batch</h2>${badge("Arithmetic example", "amber")}</div><div id="scale-output" aria-live="polite"></div><p class="small">As-supplied mass basis: a solution’s mass includes its water. This tool does not calculate solids, added water, molar ratios, density or yield. Results are rounded for display.</p></section></div><div class="callout"><strong>This is not a chemical recipe.</strong> Components A, B and C are neutral placeholders. Scaling mass does not establish equivalent mixing, cure, performance or suitability at a different scale.</div>`
   );
 }
 function searchPage(params) {
@@ -330,7 +330,7 @@ function attach() {
       history.replaceState(
         null,
         "",
-        `#/search?q=${encodeURIComponent(q.value)}`,
+        `/search?q=${encodeURIComponent(q.value)}`,
       );
       showResults(q.value, type);
     });
@@ -346,8 +346,9 @@ function attach() {
     );
   }
 }
-function render(focus = true) {
-  const [path, query = ""] = (location.hash.slice(1) || "/").split("?");
+export function renderPage(url = "/") {
+  const [rawPath, query = ""] = url.split("?");
+  const path = rawPath.replace(/\/$/, "") || "/";
   const parts = path.split("/").filter(Boolean);
   const [area, id] = parts;
   let html,
@@ -357,7 +358,7 @@ function render(focus = true) {
       "404",
       "This page is not here.",
       "Return to the material library or search the prototype.",
-    ) + link("#/search", "Search the platform", "button");
+    ) + link("/search", "Search the platform", "button");
   switch (area) {
     case "calculator": html=calculatorPage(); title="GP calculator"; break;
     case "library": html=libraryPage(); title="Research Library"; break;
@@ -390,13 +391,13 @@ function render(focus = true) {
     }
     case "shop": {
       const item = products.find((x) => x.id === id);
-      html = id ? (item ? productDetail(item) : notFound()) : shop();
+      html = id ? (item ? productDetail(item) : notFound()) : shop(new URLSearchParams(query));
       title = item?.title || "Kits & materials";
       break;
     }
     case "learn":
       html = id === "educators" ? education() : learn(id);
-      title = id === "educators" ? "For educators" : "Start here";
+      title = id === "educators" ? "For educators" : id === "beginners" ? "First experiments" : "Learn";
       break;
     case "artists":
       html = artists(); title = "Artists & artisans"; break;
@@ -416,30 +417,26 @@ function render(focus = true) {
       html = notFound();
       title = "Page not found";
   }
-  disposeCalculator();
-  main.innerHTML = html;
-  document.title = `${title} · Geopolymer Platform`;
-  document.querySelectorAll("header nav a").forEach((a) => {
-    if (a.hash === `#/${area}${area === "learn" && id === "educators" ? "/educators" : ""}`) a.setAttribute("aria-current", "page");
-    else a.removeAttribute("aria-current");
-  });
+  if (!routes.includes(path)) { html = notFound(); title = "Page not found"; }
+  return { html, title, status: routes.includes(path) ? 200 : 404 };
+}
+
+export async function enhancePage() {
+  const main = document.querySelector("main");
+  const area = location.pathname.split("/").filter(Boolean)[0];
+  // Query-dependent views are progressive enhancements of complete base pages.
+  if (location.search && ["shop", "search"].includes(area))
+    main.innerHTML = renderPage(location.pathname + location.search).html;
+  if (!routes.includes(location.pathname.replace(/\/$/, "") || "/")) return;
   attach();
   attachPlatform(area);
-  if(area === "calculator") attachCalculator();
-  if(area === "library") attachLibrary();
-  document.querySelector("#home-discovery")?.addEventListener("submit", e => { e.preventDefault(); location.hash = "#/discover?q=" + encodeURIComponent(document.querySelector("#home-study-query").value); });
+  if (area === "calculator") attachCalculator();
+  if (area === "library") attachLibrary();
+  document.querySelectorAll('nav a').forEach(a => {
+    if (a.pathname.replace(/\/$/, '') === location.pathname.replace(/\/$/, ''))
+      a.setAttribute('aria-current', 'page');
+  });
+  const { setupMotion } = await import('./motion.js');
   setupMotion(main);
-  if (focus) {
-    main.focus({ preventScroll: true });
-    window.scrollTo(0, 0);
-  }
+  main.dataset.enhanced = "true";
 }
-window.addEventListener("hashchange", () => {
-  if (location.hash === "#main") {
-    main.focus();
-    return;
-  }
-  changePage(() => render());
-});
-render(false);
-
