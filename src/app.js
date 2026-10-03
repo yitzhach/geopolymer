@@ -1,3 +1,5 @@
+import { calculatorPage, attachCalculator, disposeCalculator } from "./gp-calculator.js";
+import { libraryPage, attachLibrary } from "./research-library.js";
 import { platformPage, attachPlatform } from "./platform.js";
 import {
   materials,
@@ -116,8 +118,8 @@ function researchIndex() {
       "Go back to the source.",
       "Read the evidence, understand its limits and trace the connection to materials and methods.",
     ) +
-    papers.map(researchRow).join("") +
-    `<div class="callout">This first prototype contains one source record. Published findings do not validate the platform’s proposed products.</div>`
+    `<div class="actions">${link("#/library", "Browse the Research Library", "button")}${link("#/calculator", "GP molar-ratio calculator", "button secondary")}</div>` + papers.map(researchRow).join("") +
+    `<div class="callout">This section contains one annotated source record; the Research Library links to dozens of additional publications. Published findings do not validate the platform’s proposed products.</div>`
   );
 }
 function researchDetail(p) {
@@ -260,7 +262,7 @@ function toolsPage() {
       "A smaller batch. The same proportions.",
       "Scale an illustrative three-component batch in grams or kilograms.",
     ) +
-    `<div class="scaler-grid"><form id="scaler" class="side-panel"><p class="eyebrow">REFERENCE BATCH</p><h2>1,000 g total</h2><p>Component A: 600 g<br>Component B (as supplied): 300 g<br>Component C: 100 g</p><label for="target">Target total batch mass</label><div class="input-pair"><input id="target" name="target" type="number" min="0.000001" step="any" value="1" inputmode="decimal" required><select id="unit" name="unit" aria-label="Target mass unit"><option value="kg">kg</option><option value="g">g</option></select></div><button class="button" type="submit">Calculate batch</button><p id="scale-error" class="error" role="alert"></p></form><section aria-label="Scaled batch"><div class="section-title"><h2>Your batch</h2>${badge("Arithmetic example", "amber")}</div><div id="scale-output" aria-live="polite"></div><p class="small">As-supplied mass basis: a solution’s mass includes its water. This tool does not calculate solids, added water, molar ratios, density or yield. Results are rounded for display.</p></section></div><div class="callout"><strong>This is not a chemical recipe.</strong> Components A, B and C are neutral placeholders. Scaling mass does not establish equivalent mixing, cure, performance or suitability at a different scale.</div>`
+    `<div class="callout">Looking for chemical ratios? ${link("#/calculator", "Open the GP molar-ratio calculator")}</div><div class="scaler-grid"><form id="scaler" class="side-panel"><p class="eyebrow">REFERENCE BATCH</p><h2>1,000 g total</h2><p>Component A: 600 g<br>Component B (as supplied): 300 g<br>Component C: 100 g</p><label for="target">Target total batch mass</label><div class="input-pair"><input id="target" name="target" type="number" min="0.000001" step="any" value="1" inputmode="decimal" required><select id="unit" name="unit" aria-label="Target mass unit"><option value="kg">kg</option><option value="g">g</option></select></div><button class="button" type="submit">Calculate batch</button><p id="scale-error" class="error" role="alert"></p></form><section aria-label="Scaled batch"><div class="section-title"><h2>Your batch</h2>${badge("Arithmetic example", "amber")}</div><div id="scale-output" aria-live="polite"></div><p class="small">As-supplied mass basis: a solution’s mass includes its water. This tool does not calculate solids, added water, molar ratios, density or yield. Results are rounded for display.</p></section></div><div class="callout"><strong>This is not a chemical recipe.</strong> Components A, B and C are neutral placeholders. Scaling mass does not establish equivalent mixing, cure, performance or suitability at a different scale.</div>`
   );
 }
 function searchPage(params) {
@@ -357,6 +359,8 @@ function render(focus = true) {
       "Return to the material library or search the prototype.",
     ) + link("#/search", "Search the platform", "button");
   switch (area) {
+    case "calculator": html=calculatorPage(); title="GP calculator"; break;
+    case "library": html=libraryPage(); title="Research Library"; break;
     case "discover": case "workspace": case "supply": case "review": case "community": case "journal":
       html = platformPage(area); title = {discover:"Research catalog",workspace:"My workspace",supply:"Supply planning",review:"Peer review",community:"Community",journal:"Magazine & podcast"}[area]; break;
     case undefined:
@@ -412,6 +416,7 @@ function render(focus = true) {
       html = notFound();
       title = "Page not found";
   }
+  disposeCalculator();
   main.innerHTML = html;
   document.title = `${title} · Geopolymer Platform`;
   document.querySelectorAll("header nav a").forEach((a) => {
@@ -420,6 +425,8 @@ function render(focus = true) {
   });
   attach();
   attachPlatform(area);
+  if(area === "calculator") attachCalculator();
+  if(area === "library") attachLibrary();
   document.querySelector("#home-discovery")?.addEventListener("submit", e => { e.preventDefault(); location.hash = "#/discover?q=" + encodeURIComponent(document.querySelector("#home-study-query").value); });
   setupMotion(main);
   if (focus) {

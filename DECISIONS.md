@@ -67,3 +67,14 @@ Implemented a searchable existing catalog and browser-local draft workspace with
 Supply quantities, review, community and editorial destinations explain their actual
 status. No shared storage, public submission, reviewer activity or available stock is
 claimed. PLATFORM_ROADMAP.md specifies staged implementation and production acceptance.
+
+## 3 October 2026 — calculator and research library
+Use assay-based oxide accounting with explicit as-supplied composition. Keep atomic
+and oxide ratios distinct, physical water separate from hydroxide-equivalent water,
+and activator-only modulus separate from binder totals. Unknown percentages are not
+inferred as water. Target gaps report elemental moles at fixed denominator, never
+recipe doses or predicted performance. Demo is synthetic; blank templates cover
+alkaline MK, slag blends, ash and custom assays. Other activation systems need models.
+The library has 39 sourced metadata records including 36 dated 2024–2026. Publisher
+links and publication type are provided; full-paper review remains pending. Journal
+publication status must never imply platform peer review.

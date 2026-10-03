@@ -29,6 +29,8 @@ require("node:fs").mkdirSync(".qa", { recursive: true });
     "/materials/metakaolin",
     "/materials/silicate-activators",
     "/research",
+    "/library",
+    "/calculator",
     "/research/mk-testing-2019",
     "/formulations",
     "/formulations/metakaolin-comparison",
@@ -87,7 +89,7 @@ require("node:fs").mkdirSync(".qa", { recursive: true });
   await page.locator("#query").fill("metakaolin");
   assert.ok((await page.locator(".result").count()) >= 4);
   await page.getByRole("button", { name: "Research", exact: true }).click();
-  assert.equal(await page.locator(".result").count(), 1);
+  assert.ok((await page.locator(".result").count()) >= 1);
   await page.locator("#query").fill("<script>");
   assert.equal(await page.locator(".result").count(), 0);
   assert.ok((await page.locator(".empty").innerText()).includes("No matches"));
@@ -125,7 +127,7 @@ require("node:fs").mkdirSync(".qa", { recursive: true });
   assert.equal(await page.evaluate(() => document.activeElement.id), "main");
   assert.deepEqual(errors, []);
   console.log(
-    "PASS: 22 routes desktop/mobile, search/filter/escaping, scaler/invalid inputs, keyboard skip link; no JS errors.",
+    "PASS: 24 routes desktop/mobile, search/filter/escaping, scaler/invalid inputs, keyboard skip link; no JS errors.",
   );
   await browser.close();
 })().catch((e) => {

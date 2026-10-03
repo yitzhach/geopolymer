@@ -6,11 +6,16 @@ Global research, development, education, art and materials commerce platform.
 Find studies → formulate → document trials → collaborate → source supplies.
 
 ## Now
-Expanded from verified main 304b8addc3e4a00ba8dbea6224b9489760466615.
+Expanded from verified main 60d768c4b37db7a50b91fc730c113e62d20ae5c5.
 Existing white/green/sage design, motion and metakaolin trail preserved.
 Cloudflare Workers builds dist/. Live deployment remains unverified here.
 
 ## Done
+- GP calculator: editable assays, atomic/oxide ratios, solution water, sodium/potassium
+  hydroxide equivalents, scaling, reference comparisons and source-specific target gaps.
+- Calculator browser save/reopen and validated JSON import/export; synthetic demo only.
+- Research Library: 39 DOI-linked records, 36 from 2024–2026, searchable by title/DOI
+  and filtered by year/topic/type; linked from research, navigation and global search.
 - Existing material/research/method/product pages, education, artist pathway,
   unified search, arithmetic batch scaler, six unavailable product concepts.
 - Research catalog search: title, author, DOI, summary; one curated source record.
@@ -32,12 +37,13 @@ Browser visual QA remains outstanding; Chromium unavailable in this environment.
 No claim of tested desktop/mobile layout or accessibility.
 No active accounts, public submissions, peer reviews, media issues or episodes.
 Paper uses publisher summary only; complete paper and protocol not reviewed.
-Local storage can be cleared; export drafts. No import UI yet.
+Local storage can be cleared; export drafts. Notebook import is not implemented; calculator JSON import is implemented.
 
 ## Next
 1. Browser QA for existing and new routes, keyboard, mobile, reduced motion, storage
    failures, save/reopen/download and search. Verify Cloudflare deployment URL.
-2. Curate 25–50 verified studies and add scientific metadata/filtering.
+2. Enrich the 39 discovery records with authors, access/license, full-text checks and
+   correction/retraction checks. Metadata discovery is not full scientific review.
 3. Add structured ingredients, test results and reviewed unit/basis handling.
 4. Add accounts, durable private projects and permissioned image storage.
 5. Pilot moderated publication and review with real editors and reviewers.
@@ -54,6 +60,11 @@ DECISIONS.md — decisions; RESEARCH_STRUCTURE.md — evidence templates.
 PRODUCTS.md — original catalog qualification; README.md — commands.
 
 ## Verify
+Calculator fixture tests cover molar basis, hydroxide equivalents, solution water,
+reference losses, target gaps, aggregate exclusion, scaling and invalid imports.
+Research filters and DOI uniqueness pass. npm run build succeeds with dist/ assets.
+Browser smoke routes updated for library/calculator, but execution remains blocked
+by Chromium download network restrictions. Cloudflare live deployment unverified.
 npm test passes existing tests plus workspace save/update/corruption/quota checks
 and route template checks. JS syntax checks pass. Browser QA not completed.
 Source-only incremental patch based on current main; preserve existing build/assets.

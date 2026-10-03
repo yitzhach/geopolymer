@@ -1,3 +1,4 @@
+import { library } from "./research-library.js";
 /** @type {import('./schema').Paper[]} */
 export const papers = [
   {
@@ -198,6 +199,9 @@ export const demoIngredients = [
   { label: "Component C", grams: 100 },
 ];
 export const searchRecords = [
+  ...library.map(r=>({...r,summary:r.journal+" · "+r.topic+" · "+r.doi,type:"Research",href:r.url})),
+  {id:'gp-calculator',title:'GP molar-ratio calculator',summary:'Oxide composition Si/Al alkali water calcium molar ratios formulations recipes and reference comparison.',type:'Tool',href:'#/calculator'},
+  {id:'research-library',title:'Research Library',summary:'Recent peer-reviewed journal articles technical reports studies topic year DOI search.',type:'Guide',href:'#/library'},
   ...[
     ['discover','Research catalog','Search studies by title author DOI and material.'],
     ['workspace','My workspace','Lab notebook experiment formulation recipe submission and discussion drafts.'],

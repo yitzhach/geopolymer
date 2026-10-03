@@ -62,3 +62,10 @@ Do not optimize for a large count of low-quality studies or unreviewed recipes.
 ## Next concrete implementation
 Research catalog enrichment and structured ingredient/test records, followed by
 accounts and durable image storage. Review visual QA before expanding navigation.
+
+## Implemented update — 3 October 2026
+Research discovery now includes 39 DOI-linked records and filters. GP calculator
+adds assay bookkeeping, comparison and local JSON projects. Next enrichment should
+connect verified supplier grades, cited formulations and measured experiment results.
+Remaining gates: browser QA, live deployment verification, independent scientific
+review, durable accounts/storage and vetted supply fulfillment.
