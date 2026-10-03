@@ -1,3 +1,4 @@
+import { platformPage, attachPlatform } from "./platform.js";
 import {
   materials,
   papers,
@@ -47,7 +48,7 @@ const researchRow = (p) =>
   `<a class="research-row" href="#/research/${p.id}"><span class="year">${p.year}</span><div><p class="eyebrow">Technical paper · publisher summary</p><h3>${p.title}</h3><p>${p.authors}</p></div><span aria-hidden="true">↗</span></a>`;
 function home() {
   return `<section class="visual-hero"><div class="hero-copy"><h1 aria-label="Explore what materials can become."><span class="hero-line" aria-hidden="true"><span>Explore what</span></span><span class="hero-line" aria-hidden="true"><span>materials can</span></span><span class="hero-line" aria-hidden="true"><span>become.</span></span></h1><p class="lede">Connect the science, the formulation<br>and your next experiment.</p><div class="actions">${link("#/materials", "Explore materials", "button")}${link("#/shop", "Discover kit concepts", "button secondary")}</div></div><span class="image-caption">Material study · illustrative imagery</span></section>
-  <section class="entry-grid" aria-label="Choose your starting point">${[["LEARN","Start your first experiment","Understand materials, ask better questions and record what you observe.","#/learn"],["EDUCATE","Bring it to the classroom","Resources and kit concepts for educators, students and community makers.","#/learn/educators"],["CREATE","For artists & artisans","Explore casting, sculptural surfaces, color and material expression.","#/artists"]].map(([k,t,b,u])=>`<a href="${u}"><span class="eyebrow">${k}</span><h3>${t} →</h3><p>${b}</p></a>`).join("")}</section>
+  <section class="platform-search"><h2>Find a study. Plan your next experiment.</h2><form action="#/discover" id="home-discovery"><label class="sr-only" for="home-study-query">Search research</label><input id="home-study-query" name="q" placeholder="Search by material, author or DOI"><button class="button">Search research</button></form><p>${link("#/workspace", "Open your lab notebook")} · ${link("#/supply", "Explore supplies from sample to bulk")}</p></section><section class="entry-grid" aria-label="Choose your starting point">${[["LEARN","Start your first experiment","Understand materials, ask better questions and record what you observe.","#/learn"],["EDUCATE","Bring it to the classroom","Resources and kit concepts for educators, students and community makers.","#/learn/educators"],["CREATE","For artists & artisans","Explore casting, sculptural surfaces, color and material expression.","#/artists"]].map(([k,t,b,u])=>`<a href="${u}"><span class="eyebrow">${k}</span><h3>${t} →</h3><p>${b}</p></a>`).join("")}</section>
   <section class="classroom-feature"><div><h2>Bring material science<br>to the classroom.</h2><p>Build curiosity through observation, research and hands-on learning. Explore resources for your next lesson.</p>${link("#/learn/educators","Explore educator resources","button secondary")}</div><ol class="classroom-steps" aria-label="A learning process"><li><span>01</span>Observe.</li><li><span>02</span>Question.</li><li><span>03</span>Record.</li></ol></section>
   <section class="section"><div class="section-title"><div><h2>A connected material library</h2><p>Explore starting materials and follow their connections to published methods.</p></div>${link("#/materials","View materials")}</div><div class="grid three">${materials.map(materialCard).join("")}<a class="material-card" href="#/formulations"><p class="eyebrow">FORMULATIONS</p><h3>From source to method.</h3><p>Explore source-linked methods, missing details and the questions to ask before mixing.</p><span class="text-link">Explore formulations →</span></a></div></section>
   <section class="section"><div class="section-title"><div><h2>Kits for learning by doing.</h2><p>Proposed concepts for learning, teaching and studio exploration.</p></div>${link("#/shop","View the store")}</div><div class="grid two">${products.slice(0,2).map(productCard).join("")}</div></section>
@@ -356,6 +357,8 @@ function render(focus = true) {
       "Return to the material library or search the prototype.",
     ) + link("#/search", "Search the platform", "button");
   switch (area) {
+    case "discover": case "workspace": case "supply": case "review": case "community": case "journal":
+      html = platformPage(area); title = {discover:"Research catalog",workspace:"My workspace",supply:"Supply planning",review:"Peer review",community:"Community",journal:"Magazine & podcast"}[area]; break;
     case undefined:
       html = home();
       break;
@@ -416,6 +419,8 @@ function render(focus = true) {
     else a.removeAttribute("aria-current");
   });
   attach();
+  attachPlatform(area);
+  document.querySelector("#home-discovery")?.addEventListener("submit", e => { e.preventDefault(); location.hash = "#/discover?q=" + encodeURIComponent(document.querySelector("#home-study-query").value); });
   setupMotion(main);
   if (focus) {
     main.focus({ preventScroll: true });
@@ -430,3 +435,4 @@ window.addEventListener("hashchange", () => {
   changePage(() => render());
 });
 render(false);
+

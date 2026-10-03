@@ -198,6 +198,14 @@ export const demoIngredients = [
   { label: "Component C", grams: 100 },
 ];
 export const searchRecords = [
+  ...[
+    ['discover','Research catalog','Search studies by title author DOI and material.'],
+    ['workspace','My workspace','Lab notebook experiment formulation recipe submission and discussion drafts.'],
+    ['supply','Supply planning','Samples small quantities bags pallets bulk and freight supply requests.'],
+    ['review','Peer review','Proposed editorial review process and research integrity.'],
+    ['community','Community','Planned forum collaboration colleagues and discussions.'],
+    ['journal','Magazine & podcast','Planned monthly magazine podcast articles and editorial pitches.']
+  ].map(([id,title,summary])=>({id,title,summary,type:'Guide',href:'#/'+id})),
   {id:"artists",title:"Artists & artisans",summary:"Studio projects, sculpture, casting, texture, relief, pigments and color studies.",type:"Guide",href:"#/artists"},
   ...materials.map((x) => ({
     ...x,
@@ -254,3 +262,4 @@ export function search(query, type = "All") {
       ),
   );
 }
+

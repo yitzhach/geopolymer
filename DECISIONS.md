@@ -58,3 +58,12 @@ Owner chose Cloudflare Workers. Build logs showed the repository root being used
 as assets, including a 127 MiB node_modules binary. Wrangler now builds and serves
 only dist/. Dashboard deploy command must be npx wrangler deploy, without --assets .
 Live deployment verification remains pending.
+
+
+## 3 October 2026 — connected platform expansion
+Owner requested a global research/development, education, artist and supply platform,
+including user studies, peer review, forums, images/recipes, monthly magazine and podcast.
+Implemented a searchable existing catalog and browser-local draft workspace with export.
+Supply quantities, review, community and editorial destinations explain their actual
+status. No shared storage, public submission, reviewer activity or available stock is
+claimed. PLATFORM_ROADMAP.md specifies staged implementation and production acceptance.
