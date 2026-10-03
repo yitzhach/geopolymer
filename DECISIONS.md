@@ -110,3 +110,7 @@ publication status must never imply platform peer review.
 - Local static tests/build passed. Browser execution is restricted in this runtime;
   a GitHub Actions browser gate is added. Publication/deployment/QA outcomes are
   tracked independently in HANDOFF.md and must not be inferred from a git push.
+
+Browser QA follow-up: the first CI run caught a focusout timing race in menu keyboard
+navigation after passing the desktop/mobile route sweep. Use FocusEvent.relatedTarget
+instead of reading transient document.activeElement during focus transfer.

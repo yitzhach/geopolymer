@@ -29,10 +29,9 @@ if (destination) {
   document.addEventListener('click', event => {
     if (menu.open && !menu.contains(event.target)) { menu.open = false; sync(); }
   });
-  menu.addEventListener('focusout', () => {
-    queueMicrotask(() => {
-      if (!menu.contains(document.activeElement)) { menu.open = false; sync(); }
-    });
+  menu.addEventListener('focusout', event => {
+    // activeElement can temporarily be body during focusout; use the destination.
+    if (event.relatedTarget && !menu.contains(event.relatedTarget)) { menu.open = false; sync(); }
   });
   import('./app.js').then(({ enhancePage }) => enhancePage()).catch(error => {
     console.error('Interactive tools could not start', error);

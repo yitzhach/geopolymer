@@ -32,7 +32,11 @@ Technical brief and market strategy reviewed before implementation.
   without JS, legacy links, 404, keyboard/menu, reduced motion, search/scaler,
   calculator/workspace save/reopen/download and storage failures. Coverage is not
   a claim of execution; CI outcome will be recorded separately.
-- GitHub publication and Cloudflare live verification: pending this increment's push.
+- GitHub main published at 1ddcc2c; Cloudflare build-info.json independently confirms
+  that commit with HTTP 200. Full HTTP checks and final browser QA still in progress.
+- First GitHub browser run completed all desktop/mobile route checks; caught a menu
+  focusout race during keyboard entry. Fixed by checking relatedTarget rather than
+  transient activeElement. Subsequent CI result must be checked.
 
 ## Deployment
 Cloudflare build: npm run build. Deploy: npx wrangler deploy (never --assets .).
