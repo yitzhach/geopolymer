@@ -1086,3 +1086,15 @@ main{max-width:1440px;padding:0 32px 64px}
 #gp-study label { display:grid; gap:.4rem; }
 #gp-audit th small { display:block; font-weight:400; min-width:12rem; max-width:22rem; overflow-wrap:anywhere; }
 #gp-study { margin-block:2rem; }
+
+.recipe-builder { margin:2rem 0; background:#f1f5ef; }
+.recipe-builder label { display:grid; gap:.4rem; margin-block:.75rem; min-width:0; }
+.recipe-builder input:not([type=checkbox]),.recipe-builder select { width:100%; min-width:0; padding:.65rem; font:inherit; color:var(--ink); background:white; border:1px solid #a8b5ab; }
+.recipe-builder .builder-ack { display:flex; align-items:flex-start; gap:.7rem; }
+.builder-ack input { flex:none; width:1.2rem; height:1.2rem; }
+.builder-assay { min-width:0; padding:1rem; border:1px solid var(--line); background:white; margin-block:1rem; }
+.builder-assay summary { cursor:pointer; font-weight:500; }
+.builder-assay a { overflow-wrap:anywhere; }
+.recipe-builder [hidden] { display:none !important; }
+#builder-preview { margin-block:1rem; }
+#builder-preview table { min-width:540px; }

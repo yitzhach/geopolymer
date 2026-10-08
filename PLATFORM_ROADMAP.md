@@ -84,3 +84,10 @@ linking delivered. Study notes record adaptations, source location, curing, resu
 and target definitions; all persist in local save/export/import. Next: multi-trial
 notebook and structured measured test records; these free-text study notes do not
 replace that phase. Full-paper curation and independent scientific review remain open.
+
+## Supplier builder update — 8 October 2026
+Delivered supplier profiles, custom assays, gram proportioning and constrained
+sodium/potassium target solving. Next qualification work: lot COAs, current regional
+supplier grades, full-paper validated formulations and independent scientific review.
+Phosphate activation needs a separately specified model. Experiment notebook remains
+next product phase; no account, shared storage or commerce infrastructure added here.

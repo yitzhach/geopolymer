@@ -26,7 +26,7 @@ export function normalizeRecipe(input){
   if(!r||!ROLES.includes(r.role)||typeof r.include!=='boolean')throw Error('Invalid ingredient role or chemistry scope.');
   const comp={};for(const k of SPECIES)comp[k]=num(r.comp?.[k]??0,`${r.name||'Row '+(i+1)} ${k} percentage`,100);
   if(SPECIES.reduce((n,k)=>n+comp[k],0)>100.000001)throw Error((r.name||'Row '+(i+1))+': composition exceeds 100%. Do not enter hydroxide and its oxide equivalent twice.');
-  return {id:String(i),name:text(r.name,160)||'Unnamed ingredient',role:r.role,include:r.include,mass:num(r.mass,'Ingredient mass'),source:text(r.source,500),provenance:{kind:['unknown','assumption','supplier','paper','measured'].includes(r.provenance?.kind)?r.provenance.kind:'unknown',supplier:text(r.provenance?.supplier,160),lot:text(r.provenance?.lot,160),basis:text(r.provenance?.basis,500)},comp};
+  return {id:String(i),name:text(r.name,160)||'Unnamed ingredient',role:r.role,include:r.include,mass:num(r.mass,'Ingredient mass'),catalogId:text(r.catalogId,100),density:r.density==null||r.density===''?null:num(r.density,'Liquid density',10)||null,source:text(r.source,500),provenance:{kind:['unknown','assumption','supplier','paper','measured'].includes(r.provenance?.kind)?r.provenance.kind:'unknown',supplier:text(r.provenance?.supplier,160),lot:text(r.provenance?.lot,160),basis:text(r.provenance?.basis,500)},comp};
  });
  return {name:text(input.name,180)||'Untitled mix',rows};
 }

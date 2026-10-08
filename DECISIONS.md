@@ -141,3 +141,16 @@ are separate. Full paper extraction and the multi-trial notebook remain later wo
 Publication follow-up: owner explicitly approved pushing on 8 October 2026.
 Implementation 8d8c157 passed GitHub browser run 37803313759 and Cloudflare build.
 Live build record and eight HTTP/content checks independently verified deployment.
+
+## 8 October 2026 — supplier grades and gram recipe builder
+Owner requested metakaolin and PQ sodium/potassium product selection with gram
+recipes. Start with seven traceable published profiles and custom overrides.
+Keep typical, midpoint, dry-basis and aqueous-water assumptions explicit. Do not
+substitute historic literature assays for a current MetaMax grade COA. Additional
+supplier grades can be added when source data is reviewed.
+Builder is constrained mass/oxide accounting, not a performance optimizer. User
+proportions or sourced/exploratory targets supply the recipe objective. Reject
+negative silica/alkali/water requirements; do not silently clamp infeasible solutions.
+Hydroxide feed purity and physical water are explicit. All targets are bulk-input
+ratios, not reactive gel ratios. Phosphate activation remains outside this model.
+Preserve preview/apply separation and keep previous ingredients as the comparison.

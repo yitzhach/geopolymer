@@ -1,3 +1,30 @@
+# Supplier recipe builder — 8 October 2026
+Built on verified GitHub main 56f3626. Existing GitHub/Cloudflare hosting retained.
+
+- Seven sourced planning profiles: R-E-D Dynapoz 110 CR, ACT PowerPozz White,
+  PQ N/RU/D sodium silicates, PQ KASIL 1/6 potassium silicates. Custom assays supported.
+- Supplier picker also adds profiles directly to the workbench at zero mass.
+- Two builder modes: entered mass proportions; explicit target solve for atomic
+  Si/Al, atomic (Na+K)/Al and physical water/non-water binder mass. Total wet grams
+  set batch size. Target solve adds matching NaOH/KOH feed only as calculated;
+  actual hydroxide and water percentages are required. No recommended ratios assumed.
+- Preview before transfer; transfer captures current ingredients as reference and
+  retains notes. Catalog ID/density extend v1 JSON without changing storage keys.
+- Liquid volume = grams/density, approximate and per ingredient, never summed.
+  No powder-volume estimate; composition edits clear density to avoid stale volume.
+- TDS values are not lot assays. Dynapoz XRF basis is unconfirmed (dry-powder
+  planning assumption). PowerPozz uses labeled range midpoints. PQ historic typical
+  tables use an explicitly disclosed aqueous water-balance assumption. Missing powder
+  chemistry stays unknown. All copied profiles are assumption-labeled until reviewed.
+- Phosphoric-acid activation is visibly deferred and rejected by the builder model.
+- PASS locally: 24 tests, 30-route production build, JS syntax and whitespace checks.
+- Browser CI, publication and independent live verification pending for this phase.
+  Earlier verification below belongs to the preceding release.
+- Source and equation details: SUPPLIER_DATA.md. No compatibility/strength/cure claim,
+  automatic universal recipe, validated mixing procedure or current stock implied.
+
+---
+
 # Current phase — 8 October 2026
 Calculator transparency and research-linked formulations implemented on verified
 main 7ed8c8b. Existing Cloudflare/GitHub hosting retained; no Sites migration.
