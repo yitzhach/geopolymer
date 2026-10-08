@@ -137,3 +137,7 @@ Link library citations to the current study only after replacement-free confirma
 Do not auto-populate assays, targets, curing or performance from discovery metadata.
 Keep source notes and personal results unreviewed; source publication and replication
 are separate. Full paper extraction and the multi-trial notebook remain later work.
+
+Publication follow-up: owner explicitly approved pushing on 8 October 2026.
+Implementation 8d8c157 passed GitHub browser run 37803313759 and Cloudflare build.
+Live build record and eight HTTP/content checks independently verified deployment.

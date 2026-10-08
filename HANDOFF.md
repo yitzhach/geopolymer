@@ -15,11 +15,17 @@ main 7ed8c8b. Existing Cloudflare/GitHub hosting retained; no Sites migration.
   empty/unknown. New optional fields are included in v1 exports. Older site versions
   may discard new metadata if used to re-save a new export.
 - PASS locally: 19 Node tests, 30-route production build, syntax and diff checks.
-- Owner explicitly approved publication on 8 October 2026. GitHub upload and
-  deployment verification in progress.
-- Browser CI and live Cloudflare verification: pending for this increment. Historical
-  verification below concerns the previous foundation release only. Local browser QA
-  skipped under managed Sites guidance: control-browser capability is unavailable.
+- Published to GitHub main: 8d8c157dc8ece86f0f3feeff81630d4a3123bcf2.
+- PASS: GitHub browser run 37803313759, including desktop/mobile/JS-disabled
+  foundation checks and new source-link, provenance and study-note persistence tests.
+- PASS: Cloudflare Workers Builds check. Live build-info.json independently confirms
+  8d8c157 with build timestamp 2026-10-08T15:45:56.005Z. Eight live HTTP checks passed:
+  build record, calculator, library, connected method, chemistry JS, sitemap, robots
+  and a genuine unknown-route 404. Changed content verified, not just HTTP status.
+- Local browser QA was skipped under managed Sites guidance; browser suite ran in
+  GitHub Actions. No new manual visual or scientific review is claimed.
+- This verification follow-up changes documentation only; implementation tested and
+  independently verified on Cloudflare is 8d8c157.
 - Next phase: experiment notebook with multiple saved trials, structured measured
   test records, one-variable duplication and image support. Current study notes are
   not that full notebook; public executable formulations still need source extraction.
