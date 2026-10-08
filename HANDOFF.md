@@ -1,3 +1,31 @@
+# Current phase — 8 October 2026
+Calculator transparency and research-linked formulations implemented on verified
+main 7ed8c8b. Existing Cloudflare/GitHub hosting retained; no Sites migration.
+
+- Per-ingredient evidence category, supplier/grade, lot/date and assay-basis notes.
+  Missing/assumed provenance and undocumented basis surfaced as warnings.
+- Contribution audit shows individual oxide equivalents, physical water, unknown
+  mass and included/excluded scope, alongside existing live ratios.
+- All 39 library entries link citations to current calculator studies with explicit
+  confirmation, preserving ingredients and notes. No paper recipe data is invented.
+- Citation locator, adaptations, curing, results and target-definition notes save,
+  reopen, export/import and survive native navigation. Evidence remains unreviewed;
+  alternative activation sources explicitly remain outside model scope.
+- Existing v1 files and local/session keys retained; absent new fields normalize to
+  empty/unknown. New optional fields are included in v1 exports. Older site versions
+  may discard new metadata if used to re-save a new export.
+- PASS locally: 19 Node tests, 30-route production build, syntax and diff checks.
+- Owner explicitly approved publication on 8 October 2026. GitHub upload and
+  deployment verification in progress.
+- Browser CI and live Cloudflare verification: pending for this increment. Historical
+  verification below concerns the previous foundation release only. Local browser QA
+  skipped under managed Sites guidance: control-browser capability is unavailable.
+- Next phase: experiment notebook with multiple saved trials, structured measured
+  test records, one-variable duplication and image support. Current study notes are
+  not that full notebook; public executable formulations still need source extraction.
+
+---
+
 # Geopolymer Platform — HANDOFF
 Updated: 3 October 2026 • Owner: Isaac Anderson
 

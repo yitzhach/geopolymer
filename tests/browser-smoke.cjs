@@ -98,6 +98,26 @@ fs.mkdirSync('.qa', { recursive: true });
     const calcDownload = page.waitForEvent('download');
     await page.locator('#gp-export').click();
     assert.match((await calcDownload).suggestedFilename(),/\.json$/);
+    // Source linking retains existing ingredients; provenance and study notes roundtrip.
+    const massBefore = await page.locator('[data-field=mass]').first().inputValue();
+    await go('/calculator?source=library-39');
+    assert.equal(await page.locator('[data-field=mass]').first().inputValue(),massBefore);
+    assert.match(await page.locator('#gp-source-link').innerText(),/Standardized Method/);
+    await page.locator('[data-study=curing]').fill('23 C; sealed; 7 days — personal trial');
+    await page.locator('[data-row]').first().locator('summary').click();
+    await page.locator('[data-provenance=kind]').first().selectOption('supplier');
+    await page.locator('[data-provenance=lot]').first().fill('QA lot 12');
+    await page.locator('#gp-save').click();
+    await go('/materials'); await go('/calculator');
+    assert.match(await page.locator('[data-study=curing]').inputValue(),/personal trial/);
+    assert.equal(await page.locator('[data-provenance=lot]').first().inputValue(),'QA lot 12');
+    assert.match(await page.locator('#gp-audit').innerText(),/QA|supplier/);
+    await page.screenshot({path:'.qa/calculator-provenance-mobile.png',fullPage:true});
+    await page.locator('#gp-unlink').click();
+    assert.match(await page.locator('#gp-source-link').innerText(),/No library reference/);
+    assert.match(await page.locator('[data-study=curing]').inputValue(),/personal trial/);
+    await go('/calculator?source=not-a-record');
+    assert.match(await page.locator('#gp-status').innerText(),/Unknown library reference/);
     // Actual browser storage failures keep entered workspace text.
     await page.context().addInitScript(() => { Storage.prototype.setItem = () => { throw new Error('QA quota'); }; });
     await go('/workspace');

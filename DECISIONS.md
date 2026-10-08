@@ -127,3 +127,13 @@ Cloudflare build-info.json independently confirmed that exact implementation com
 live route/crawl/404 verification and cloud-browser visual/menu checks completed.
 Remaining owner decisions concern custom domain, crawler dashboard policy and future
 services, not this implementation's publication or deployment status.
+
+## 8 October 2026 — traceable formulation workbench
+Keep existing GitHub/Cloudflare hosting and native modules. Add optional provenance
+and study fields to v1 calculator files without changing storage keys or arithmetic.
+Unknown legacy evidence stays unknown; user-entered supplier/paper/measured labels
+never confer platform verification. Assay basis is documented, not auto-converted.
+Link library citations to the current study only after replacement-free confirmation.
+Do not auto-populate assays, targets, curing or performance from discovery metadata.
+Keep source notes and personal results unreviewed; source publication and replication
+are separate. Full paper extraction and the multi-trial notebook remain later work.

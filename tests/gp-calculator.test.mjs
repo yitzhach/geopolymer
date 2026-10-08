@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {calculate,template,targetGap,scaleRecipe,parseProject,MW,OXIDES} from '../src/gp-chemistry.js';
+import {normalizeRecipe,calculate,template,targetGap,scaleRecipe,parseProject,MW,OXIDES} from '../src/gp-chemistry.js';
 import {library,filterLibrary} from '../src/research-library.js';
 const close=(a,b,t=1e-8)=>assert.ok(Math.abs(a-b)<t,`${a} != ${b}`);
 const row=(name,mass,comp,role='precursor',include=true)=>({name,mass,comp,role,include,source:'Test fixture'});
@@ -34,11 +34,28 @@ test('invalid masses, composition totals and unsafe imported structures rejected
  assert.throws(()=>scaleRecipe(template('custom'),100));
  assert.throws(()=>parseProject({version:2,recipe:template()}));
  assert.throws(()=>parseProject({version:1,recipe:template(),targets:{siAl:-1}}));
- const p={version:1,recipe:template(),baseline:template(),targets:{siAl:2,alkaliAl:1,caSi:''}};assert.deepEqual(parseProject(JSON.parse(JSON.stringify(p))),p);
+ const p={version:1,recipe:template(),baseline:template(),targets:{siAl:2,alkaliAl:1,caSi:''}};const migrated=parseProject(JSON.parse(JSON.stringify(p)));assert.deepEqual({...migrated,study:undefined},{...p,study:undefined});assert.equal(migrated.study.citation,'');
  assert.throws(()=>parseProject({version:1,recipe:{rows:Array.from({length:51},()=>row('x',1,{}))}}));
 });
 test('library has dozens of distinct publisher DOI links and functional filters',()=>{
  assert.equal(library.length,39);assert.equal(new Set(library.map(r=>r.doi.toLowerCase())).size,39);assert.equal(library.filter(r=>r.year>=2024).length,36);
  for(const r of library){assert.match(r.url,/^https:\/\/doi.org\/10\./);assert.ok(r.year<=2026);assert.ok(r.title&&r.journal&&r.topic);}
  assert.ok(filterLibrary('coffee').length===2);assert.ok(filterLibrary('','2024','3D printing').length>=4);assert.equal(filterLibrary('','all','all','Technical report').length,1);assert.equal(filterLibrary('nothing-matches-xyz').length,0);assert.equal(filterLibrary('10.3390/ma18163864').length,1);
+});
+
+test('provenance and linked study survive save/import, scaling and baseline roundtrips',()=>{
+ const recipe=template();recipe.rows[0].provenance={kind:'supplier',supplier:'Test grade',lot:'Lot 12',basis:'As supplied'};
+ const study={sourceId:'library-39',citation:'Source DOI',locator:'Table 2',adaptations:'Changed grade',curing:'Not extracted',results:'No measured results',targetBasis:'Source table definition'};
+ const saved=parseProject({version:1,recipe,baseline:recipe,study});
+ const reopened=parseProject(JSON.parse(JSON.stringify(saved)));
+ assert.deepEqual(reopened,saved);assert.deepEqual(scaleRecipe(recipe,1000).rows[0].provenance,recipe.rows[0].provenance);
+ assert.equal(reopened.baseline.rows[0].provenance.lot,'Lot 12');
+ const imported=parseProject({version:1,recipe,study:{citation:'x'.repeat(3000)}});
+ assert.equal(imported.study.citation.length,2000);
+ recipe.rows[0].provenance.kind='platform-verified';assert.equal(normalizeRecipe(recipe).rows[0].provenance.kind,'unknown');
+});
+test('ingredient audit adds to chemistry totals while excluded mass remains separate',()=>{
+ const recipe=template();recipe.rows.push(row('Excluded silica',30,{SiO2:100},'aggregate',false));
+ const result=calculate(recipe);
+ for(const k of ['SiO2','Al2O3','Na2O'])assert.ok(Math.abs(result.contributions.filter(c=>c.include).reduce((sum,c)=>sum+c.grams[k],0)-result.grams[k])<1e-9);
 });

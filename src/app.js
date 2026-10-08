@@ -151,7 +151,7 @@ function formulationIndex() {
       "Connect the paper to the experiment.",
       "Source-linked method records make missing information visible before work begins.",
     ) +
-    `<a class="record block-link" href="/formulations/metakaolin-comparison">${badge("Literature-reported")}<h2>Compare metakaolin grades ↗</h2><p>Published method overview · full recipe extraction pending</p></a><div class="callout">No executable chemical recipe is released in this prototype. Use the batch scaler to explore mass arithmetic with a separate illustrative example.</div>${link("/tools", "Open batch scaler", "button")}`
+    `<a class="record block-link" href="/formulations/metakaolin-comparison">${badge("Literature-reported")}<h2>Compare metakaolin grades ↗</h2><p>Published method overview · full recipe extraction pending</p></a><div class="callout">No executable chemical recipe is released in this prototype. Use the batch scaler to explore mass arithmetic with a separate illustrative example.</div>${link("/calculator", "Open formulation workbench", "button")}${link("/library", "Find a research source", "button secondary")}`
   );
 }
 function formulationDetail(f) {
@@ -175,7 +175,7 @@ function formulationDetail(f) {
         ["Test results", "No platform results"],
         ["Substitutions", "Not qualified"],
       ],
-    )}<h2>Before an executable formulation</h2>${list(["Review the full source and record exact grades and masses.", "Document ratio definitions, solution solids and water accounting.", "Establish equipment, product-specific handling and disposal requirements.", "Record reproduction and independent testing separately."])}</article><aside class="side-panel"><p class="eyebrow">BATCH PLANNING</p><h2>Explore mass scaling</h2><p>Practice proportional scaling with neutral components. The example is not this published formulation.</p>${link("/tools", "Open arithmetic example", "button")}<h3>Related product concepts</h3><p>These concepts are linked by learning intent only. Method compatibility is not established.</p>${f.productIds.map((id) => link("/shop/" + id, products.find((x) => x.id === id).title)).join("")}</aside></div>`
+    )}<h2>Before an executable formulation</h2>${list(["Review the full source and record exact grades and masses.", "Document ratio definitions, solution solids and water accounting.", "Establish equipment, product-specific handling and disposal requirements.", "Record reproduction and independent testing separately."])}</article><aside class="side-panel"><p class="eyebrow">BATCH PLANNING</p><h2>Explore mass scaling</h2><p>Practice proportional scaling with neutral components. The example is not this published formulation.</p>${link("/tools", "Open arithmetic example", "button")}${link("/calculator?source=library-39", "Link source to a formulation study", "button secondary")}<h3>Related product concepts</h3><p>These concepts are linked by learning intent only. Method compatibility is not established.</p>${f.productIds.map((id) => link("/shop/" + id, products.find((x) => x.id === id).title)).join("")}</aside></div>`
   );
 }
 function shop(params) {

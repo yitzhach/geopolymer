@@ -77,3 +77,10 @@ Preserve the distinction between the curated source record and 39 discovery refe
 Next: complete browser/deployment checks recorded in HANDOFF.md, then research metadata
 and source enrichment. Focus commercial validation on makers and classroom modules;
 market strategy recommendations are not commitments to launch every proposed service.
+
+## Workbench update — 8 October 2026
+Calculator input provenance, ingredient contribution audit and research citation
+linking delivered. Study notes record adaptations, source location, curing, results
+and target definitions; all persist in local save/export/import. Next: multi-trial
+notebook and structured measured test records; these free-text study notes do not
+replace that phase. Full-paper curation and independent scientific review remain open.

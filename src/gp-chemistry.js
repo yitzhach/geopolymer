@@ -26,7 +26,7 @@ export function normalizeRecipe(input){
   if(!r||!ROLES.includes(r.role)||typeof r.include!=='boolean')throw Error('Invalid ingredient role or chemistry scope.');
   const comp={};for(const k of SPECIES)comp[k]=num(r.comp?.[k]??0,`${r.name||'Row '+(i+1)} ${k} percentage`,100);
   if(SPECIES.reduce((n,k)=>n+comp[k],0)>100.000001)throw Error((r.name||'Row '+(i+1))+': composition exceeds 100%. Do not enter hydroxide and its oxide equivalent twice.');
-  return {id:String(i),name:text(r.name,160)||'Unnamed ingredient',role:r.role,include:r.include,mass:num(r.mass,'Ingredient mass'),source:text(r.source,500),comp};
+  return {id:String(i),name:text(r.name,160)||'Unnamed ingredient',role:r.role,include:r.include,mass:num(r.mass,'Ingredient mass'),source:text(r.source,500),provenance:{kind:['unknown','assumption','supplier','paper','measured'].includes(r.provenance?.kind)?r.provenance.kind:'unknown',supplier:text(r.provenance?.supplier,160),lot:text(r.provenance?.lot,160),basis:text(r.provenance?.basis,500)},comp};
  });
  return {name:text(input.name,180)||'Untitled mix',rows};
 }
@@ -48,6 +48,8 @@ export function calculate(input){
   if(row.role==='precursor')precursorDry+=row.mass-physical;
   for(const k of Object.keys(g)){grams[k]+=g[k];if(row.role==='activator')activator[k]+=g[k];}
   if(sum<99.999)warnings.push(`${row.name}: ${(100-sum).toFixed(2)}% unassigned. Ratios are partial until composition is complete; do not fill unknown chemistry with guessed water.`);
+  if(row.provenance.kind==='unknown'||row.provenance.kind==='assumption')warnings.push(`${row.name}: composition evidence is ${row.provenance.kind}; these ratios are input accounting, not verified material chemistry.`);
+  if(!row.provenance.basis.trim())warnings.push(`${row.name}: original assay basis / conversion not documented. Confirm percentages are as supplied.`);
   if(!row.source.trim())warnings.push(`${row.name}: no assay/source note supplied.`);
   if(row.role==='aggregate')warnings.push(`${row.name}: aggregate included in chemistry by your selection. Bulk mineral Si/Al does not imply reactive Si/Al.`);
  }
@@ -80,5 +82,6 @@ export function parseProject(data){
  if(!data||data.version!==1)throw Error('Unsupported calculator file version.');
  const recipe=normalizeRecipe(data.recipe),baseline=data.baseline?normalizeRecipe(data.baseline):null,targets={};
  for(const k of ['siAl','alkaliAl','caSi']){const v=data.targets?.[k];targets[k]=v==null||v===''?'':num(v,'Target',1000);if(targets[k]===0)throw Error('Targets must be greater than zero or blank.');}
- return {version:1,recipe,baseline,targets};
+ const study={}; for(const key of ['sourceId','citation','locator','adaptations','curing','results','targetBasis']) study[key]=text(data.study?.[key],key==='sourceId'?80:2000);
+ return {version:1,recipe,baseline,targets,study};
 }
