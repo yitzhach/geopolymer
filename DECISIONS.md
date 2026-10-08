@@ -154,3 +154,7 @@ negative silica/alkali/water requirements; do not silently clamp infeasible solu
 Hydroxide feed purity and physical water are explicit. All targets are bulk-input
 ratios, not reactive gel ratios. Phosphate activation remains outside this model.
 Preserve preview/apply separation and keep previous ingredients as the comparison.
+
+Supplier builder release 734cdac passed 24 Node tests and GitHub browser run
+37811000782. Cloudflare independently served that commit, confirmed by build-info
+and seven live HTTP/content checks. Documentation follow-up records these outcomes.

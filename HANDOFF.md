@@ -18,8 +18,15 @@ Built on verified GitHub main 56f3626. Existing GitHub/Cloudflare hosting retain
   chemistry stays unknown. All copied profiles are assumption-labeled until reviewed.
 - Phosphoric-acid activation is visibly deferred and rejected by the builder model.
 - PASS locally: 24 tests, 30-route production build, JS syntax and whitespace checks.
-- Browser CI, publication and independent live verification pending for this phase.
-  Earlier verification below belongs to the preceding release.
+- Published implementation: 734cdac0edb36daec03c4c4e82f0068b320d95bd.
+- PASS: GitHub browser run 37811000782, including supplier selection, preview
+  invalidation, potassium target solving, infeasible water handling, transfer,
+  previous-reference retention, save/navigation persistence and zero-mass grade add.
+- PASS: Cloudflare build check and seven independent live HTTP/content checks.
+  build-info.json confirms 734cdac with build time 2026-10-08T16:43:38.737Z;
+  calculator, both new modules, library, sitemap and real 404 verified.
+- This follow-up changes documentation only. No new manual visual inspection or
+  independent experimental/scientific validation is claimed.
 - Source and equation details: SUPPLIER_DATA.md. No compatibility/strength/cure claim,
   automatic universal recipe, validated mixing procedure or current stock implied.
 
