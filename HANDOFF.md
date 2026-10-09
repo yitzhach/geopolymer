@@ -1,3 +1,66 @@
+# START HERE — new-chat handoff, 8 October 2026 (Eastern)
+
+## Resume without replaying this conversation
+- Canonical repository: https://github.com/yitzhach/geopolymer, branch `main`.
+- Live: https://geopolymer.bobdylan2000.workers.dev
+- Workbench: /calculator#recipe-builder. Research discovery: /library.
+- Read this section, README.md, DECISIONS.md, SUPPLIER_DATA.md and
+  PLATFORM_ROADMAP.md from current main before editing.
+- Last implementation: `734cdac0edb36daec03c4c4e82f0068b320d95bd`.
+  Latest main before this documentation update: `865615dbeb4090f22e41fc2229489c6c2f9586ac`.
+- Completed: public-content foundation; transparent calculator with research-linked
+  notes; supplier-grade picker and gram recipe builder. Do not rebuild these phases.
+- Verified implementation: 24 Node tests, 30-route build, GitHub browser workflow
+  37811000782 and independent live Cloudflare HTTP/content checks. Details below.
+- At this handoff, live build-info.json also confirmed documentation release
+  `865615dbeb4090f22e41fc2229489c6c2f9586ac`, built 2026-10-08T16:45:54.750Z.
+- No unfinished code changes at handoff. This request is documentation-only.
+
+## Recommended next phase (not yet authorized for implementation)
+Build the experiment notebook around the existing calculator:
+1. Multiple named trials, each retaining an immutable formulation/assay snapshot.
+2. Duplicate a trial, record the changed variable, and compare with its parent.
+3. Structured curing and measured test records: value, unit, specimen, age,
+   method, source and observations; separate literature results from own tests.
+4. Safe export/import, draft recovery and migration that preserves existing saves.
+5. Design attachment/image storage separately; do not imply accounts, sync or
+   durable cloud storage until an authorized backend is implemented.
+Confirm this next phase with the owner unless their new-chat request authorizes it.
+Alternative priorities: manual desktop/mobile visual review of the new builder,
+current lot COAs and source-reviewed executable formulations. Phosphate activation
+requires a separate model and remains deferred, not a silicate substitution.
+
+## Guardrails and edit map
+- Preserve white/forest-green design, real paths, static content and accessibility.
+- Preserve `geopolymer.calculator.v1`, `geopolymer.calculator.session.v1`, existing
+  workspace keys and v1 JSON compatibility. New fields are optional snapshots.
+- Typical supplier values, range midpoints and water/basis assumptions must stay
+  visible. No default ideal targets, validated strength, safe mixing procedure,
+  platform peer-review badge, qualified compatibility or stock claim is established.
+- src/supplier-grades.js: seven sourced profiles; SUPPLIER_DATA.md: provenance/math.
+- src/recipe-builder.js: mass-proportion and target-solving UI/model.
+- src/gp-chemistry.js: oxide bookkeeping/normalization; src/gp-calculator.js: workbench.
+- src/platform.js: existing local draft workspace; src/research-library.js: 39 sources.
+- tests/recipe-builder.test.mjs and tests/browser-smoke.cjs cover the latest phase.
+- Run npm test, npm run build, syntax/diff checks. Browser CI runs on GitHub.
+  Previous managed runtime lacked supported local browser QA; do not claim visual QA.
+- GitHub publication and Cloudflare verification are separate. Check /build-info.json
+  and changed live content after releases. Cloudflare: npm run build, npx wrangler
+  deploy; never deploy repository root with --assets .
+- This session used GitHub connector commits, so local `delivered-main` commit IDs
+  differ from remote despite matching content. Start a fresh checkout of current
+  remote main, not a force-push of the old local branch. Never overwrite newer work.
+
+## Suggested new-chat request
+Continue yitzhach/geopolymer from current GitHub main. Read HANDOFF.md, README.md,
+DECISIONS.md, SUPPLIER_DATA.md and PLATFORM_ROADMAP.md. The supplier recipe builder
+is complete and deployed. Propose the smallest useful experiment-notebook phase
+with multiple saved trials, one-variable duplication and structured test results;
+preserve the calculator, existing saves and evidence distinctions. Confirm scope
+before implementing.
+
+---
+
 # Supplier recipe builder — 8 October 2026
 Built on verified GitHub main 56f3626. Existing GitHub/Cloudflare hosting retained.
 
