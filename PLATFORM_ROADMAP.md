@@ -93,11 +93,11 @@ Phosphate activation needs a separately specified model. Experiment notebook rem
 next product phase; no account, shared storage or commerce infrastructure added here.
 
 
-## Experiment notebook — prepared 8 October 2026, not yet published
+## Experiment notebook — review branch published 8 October 2026
 Browser-local experiments and immutable formulation trials, gram variations,
 structured curing/specimens/observations/results, parent comparison and portable
 backup/import are implemented on a review branch. Existing general drafts remain.
-Next gate: complete authorized review-branch publication, pass GitHub browser QA and inspect
-screenshots. Later: lot/assay changes through richer variation editing, explicit
+GitHub browser QA passed (37873602855). Next gate: inspect generated screenshots
+(artifact download was blocked here), then authorize merge/release. Later: lot/assay changes through richer variation editing, explicit
 record revision history, then accounts, permissions and durable image storage.
 Do not describe this browser-local increment as the durable private lab backend.

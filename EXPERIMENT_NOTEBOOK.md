@@ -1,7 +1,9 @@
 # Experiment notebook v1
 
-Status: implemented on `codex/experiment-notebook`; owner approved review-branch
-publication and browser checks. See HANDOFF.md for verification status.
+Status: published on `codex/experiment-notebook`, draft PR #1. GitHub browser
+workflow 37873602855 passed on implementation 93ae031. Main/live unchanged.
+Screenshot inspection is pending because artifact download returned HTTP 403.
+See HANDOFF.md for verification details.
 
 ## Workflow
 1. Build or reopen a calculator formulation and choose Save recipe as notebook trial.

@@ -1,9 +1,11 @@
-# Experiment notebook — implementation ready for review, 8 October 2026 (Eastern)
+# Experiment notebook — review branch published and browser checks passed, 8 October 2026 (Eastern)
 
-- Owner approved the proposed notebook scope with “Continue.” Implemented locally
-  on `codex/experiment-notebook`, based on remote main `80315cf`.
-- Owner explicitly approved review-branch publication and browser checks.
-  Main and Cloudflare have NOT been changed. Publication/CI verification in progress.
+- Owner approved implementation, then explicitly approved review-branch publication
+  and browser checks. Branch: `codex/experiment-notebook`, based on main `80315cf`.
+- Published implementation: `93ae031876793d5b559ef0160d60ae90b50cce0f`.
+- Draft PR: https://github.com/yitzhach/geopolymer/pull/1.
+- Main and Cloudflare have NOT been changed. Review branch only; merge/deployment
+  is a separate next action.
 - Added `/workspace#notebook` alongside existing general drafts. Calculator action
   “Save recipe as notebook trial” captures the full v1 formulation/assay snapshot.
 - Named experiments, locked saved recipes, gram-change duplication with parent
@@ -22,11 +24,17 @@
 - PASS: local happy-dom integration of capture/save, records, variation, comparison,
   refresh recovery, portable incomplete draft restoration and copy imports. This is
   DOM behavior verification only, not browser rendering or visual QA.
-- Browser QA: new `tests/notebook-browser.cjs` added to existing GitHub workflow.
-  Local Chromium absent; browser download failed. GitHub browser workflow is pending
-  review-branch publication. No visual QA or deployment claimed.
-- Next: publish the authorized review branch, run browser CI, inspect
-  desktop/mobile screenshots and resolve findings before any main release.
+- PASS: GitHub browser workflow 37873602855 on `93ae031`, including both the
+  existing 30-route desktop/mobile/JS-disabled suite and the new notebook suite.
+  Logs confirm capture, snapshots, actual quantities, records, variation, recovery,
+  portable draft/backup imports, legacy preservation and quota failure checks.
+- Browser screenshots generated in browser-qa artifact 11591396763. Download to
+  this runtime returned HTTP 403, so no manual screenshot/visual review is claimed.
+  Local Chromium is unavailable. Inspect the artifact before a main release.
+- Connector publication uses different commit IDs than the original local branch.
+  Fetch remote review branch before continuing; never force-push the local history.
+- Next: inspect screenshots, then merge/release when authorized and independently
+  verify Cloudflare build-info.json and changed content.
 - Edit map: `src/experiment-notebook.js` (model/storage), `src/notebook-ui.js`
   (workspace UI), calculator/platform integration, schema, CSS, tests.
 - Design and data notes: `EXPERIMENT_NOTEBOOK.md`. Earlier sections below describe
