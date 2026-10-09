@@ -18,6 +18,7 @@ jobs:
           node scripts/serve.mjs --dist > /tmp/geopolymer-server.log 2>&1 &
           for attempt in {1..20}; do curl --fail --silent http://localhost:4173/ > /dev/null && break; sleep 1; done
           node tests/browser-smoke.cjs
+          node tests/notebook-browser.cjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:

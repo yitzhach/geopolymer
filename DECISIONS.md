@@ -158,3 +158,25 @@ Preserve preview/apply separation and keep previous ingredients as the compariso
 Supplier builder release 734cdac passed 24 Node tests and GitHub browser run
 37811000782. Cloudflare independently served that commit, confirmed by build-info
 and seven live HTTP/content checks. Documentation follow-up records these outcomes.
+
+
+## 8 October 2026 — experiment notebook (review branch, not production)
+Owner approved the smallest useful browser-local notebook scope. Keep the existing
+workspace and general drafts; add experiments/trials alongside them. A calculator
+snapshot becomes immutable when a trial is saved. Duplicate it to vary planned
+mass; actual weighed masses and preparation deviations never rewrite the recipe.
+Supplier assumptions, assays, lot fields and source notes are captured, not looked
+up again. Legacy free-text results stay unclassified snapshot notes.
+Own measurements and literature results use separate source labels. Unknown age
+and missing actual mass are null, never silently zero. No unit conversion, test
+ranking, performance prediction or validation badges are introduced.
+Use separate notebook/recovery keys, versioned JSON, validation and append-as-copy
+imports. Portable recovery exports include notebook context. Do not migrate or
+rewrite older calculator/workspace saves. Local storage failure keeps inputs in
+memory for download; it cannot guarantee recovery after closing a failed-save tab.
+Attachments remain URL/caption references; durable cloud storage/accounts remain a
+separate phase. Owner subsequently explicitly approved review-branch publication and browser checks. See HANDOFF.md for QA status.
+
+Review branch published as 93ae031; draft PR #1. GitHub browser workflow
+37873602855 passed both suites. Screenshot artifacts were generated but could not
+be downloaded for manual review (HTTP 403). Main/live remain unchanged.

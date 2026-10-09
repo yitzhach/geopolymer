@@ -1098,3 +1098,28 @@ main{max-width:1440px;padding:0 32px 64px}
 .recipe-builder [hidden] { display:none !important; }
 #builder-preview { margin-block:1rem; }
 #builder-preview table { min-width:540px; }
+
+/* Experiment notebook: local records, with distinct planned and measured values. */
+.notebook { padding:28px; background:#f1f5ef; border:1px solid var(--line); }
+.notebook-layout { display:grid; grid-template-columns:minmax(180px,1fr) minmax(0,3fr); gap:26px; margin-top:26px; }
+.notebook-layout>* { min-width:0; }
+.notebook h3 { font-size:1.25rem; letter-spacing:-.02em; }
+.notebook h4 { margin-bottom:8px; }
+.notebook .nb-experiment { margin-bottom:28px; }
+.notebook .draft-item[aria-current] { border-left:3px solid var(--ink); padding-left:12px; }
+.notebook label { display:block; font-size:.9rem; min-width:0; }
+.notebook input:not([type=file]),.notebook select,.notebook textarea { display:block; width:100%; min-width:0; max-width:100%; padding:10px; margin:6px 0 16px; color:var(--ink); background:white; border:1px solid #9baa9e; font:inherit; }
+.notebook .nb-fields { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+.nb-section { margin:30px 0; border-top:1px solid var(--line); padding-top:22px; }
+.nb-entry { min-width:0; margin:18px 0; padding:18px; border:1px solid #9baa9e; background:#fff; }
+.nb-entry legend { padding:0 8px; font-weight:600; }
+.notebook .table-scroll { margin:18px 0; }
+.notebook table { min-width:520px; }
+.notebook td { white-space:pre-wrap; overflow-wrap:anywhere; max-width:330px; }
+.notebook th small { display:block; font-weight:400; }
+.notebook caption { text-align:left; padding:12px 0; font-weight:600; }
+.notebook summary { cursor:pointer; padding:12px 0; }
+.nb-snapshot { white-space:pre-wrap; overflow-wrap:anywhere; font-size:.8rem; max-height:400px; overflow:auto; padding:16px; background:white; }
+#nb-status { min-height:1.5em; margin-top:16px; }
+#nb-new-experiment[hidden] { display:none; }
+@media(max-width:900px){.notebook-layout{grid-template-columns:1fr}.notebook{padding:18px}.notebook .nb-fields{grid-template-columns:1fr}.notebook .actions{align-items:stretch}}
