@@ -97,3 +97,17 @@ GitHub publication and Cloudflare delivery are separate. Verify build-info.json'
 commit against GitHub main and check real path responses and the HTTP 404 before
 calling a release deployed. Custom domain, crawler dashboard policy, newsletter and
 commerce setup remain owner/backend work outside this foundation change.
+
+
+## Experiment notebook (review branch)
+From the calculator, choose **Save recipe as notebook trial**, name an experiment
+and save. Reopen trials at `/workspace#notebook`; duplicate a saved trial to vary
+planned grams. Enter actual quantities, preparation, specimens, curing,
+observations and results separately. Original supplier assays and assumptions stay
+in the locked snapshot. Existing general workspace drafts remain below it.
+Download notebook JSON for saved records, or Download draft for incomplete edits
+plus the saved context. Imports create new copies instead of overwriting trials.
+Everything is browser-local; no account, synchronization or image upload is implied.
+See EXPERIMENT_NOTEBOOK.md for storage, validation and limits. Browser integration
+coverage: `node tests/notebook-browser.cjs` with the same server/setup as the smoke
+suite. Actual QA and publication status are recorded in HANDOFF.md.
