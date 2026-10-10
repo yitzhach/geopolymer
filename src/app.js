@@ -1,3 +1,5 @@
+import { journalArticles } from './journal-data.js';
+import { journalPage,journalDetail,attachJournal } from './journal.js';
 import {literatureMixes} from './literature-mixes.js';
 import {mixCards,mixDetail,attachMix} from './literature-ui.js';
 import { calculatorPage, attachCalculator } from "./gp-calculator.js";
@@ -364,7 +366,8 @@ export function renderPage(url = "/") {
   switch (area) {
     case "calculator": html=calculatorPage(); title="GP calculator"; break;
     case "library": html=libraryPage(); title="Research Library"; break;
-    case "discover": case "workspace": case "supply": case "review": case "community": case "journal":
+    case "journal": { const article=journalArticles.find(p=>p.id===id); html=id?(article?journalDetail(article):notFound()):journalPage(); title=article?.title||"GP Journal · Magazine & podcast"; break; }
+    case "discover": case "workspace": case "supply": case "review": case "community":
       html = platformPage(area); title = {discover:"Research catalog",workspace:"My workspace",supply:"Supply planning",review:"Peer review",community:"Community",journal:"Magazine & podcast"}[area]; break;
     case undefined:
       html = home();
@@ -436,6 +439,7 @@ export async function enhancePage() {
   attachPlatform(area);
   if (area === "calculator") attachCalculator();
   if (area === "library") attachLibrary();
+  if (area === "journal") attachJournal();
   if (area === "formulations") attachMix();
   document.querySelectorAll('nav a').forEach(a => {
     if (a.pathname.replace(/\/$/, '') === location.pathname.replace(/\/$/, ''))

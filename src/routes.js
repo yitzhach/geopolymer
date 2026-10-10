@@ -1,3 +1,4 @@
+import {journalArticles} from './journal-data.js';
 import {literatureMixes} from './literature-mixes.js';
 import { materials, papers, formulations, products } from './data.js';
 
@@ -7,6 +8,7 @@ export const routes = [
   '/materials', '/research', '/discover', '/library', '/formulations',
   '/shop', '/tools', '/calculator', '/workspace', '/supply', '/review',
   '/community', '/journal', '/search', '/evidence',
+  ...journalArticles.map(p => '/journal/'+p.id),
   ...materials.map(x => '/materials/' + x.id),
   ...papers.map(x => '/research/' + x.id),
   ...literatureMixes.map(x => "/formulations/" + x.id),

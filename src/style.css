@@ -1140,3 +1140,16 @@ main{max-width:1440px;padding:0 32px 64px}
 #requirements-result { margin:1.5rem 0; }
 .mix-facts + h2 { margin-top:2rem; }
 [hidden] { display:none !important; }
+
+/* Research records and journal notes remain readable at narrow widths. */
+.library-card, .journal-card { min-width: 0; overflow-wrap: anywhere; }
+.library-card details { border-top: 1px solid var(--line); padding-top: 14px; margin: 18px 0; }
+.library-card summary { cursor: pointer; font-weight: 600; }
+.library-card details li { margin: 9px 0; }
+.library-summary { color: var(--ink); }
+.journal-card h2 a { color: inherit; text-decoration: none; }
+.journal-card h2 a:hover { text-decoration: underline; }
+.journal-body { max-width: 780px; margin: 0 auto; }
+.journal-body > p { font-size: 1.1rem; line-height: 1.8; margin-bottom: 24px; }
+.journal-body .record, .journal-watch .record { overflow-wrap: anywhere; }
+.journal-article .page-intro { max-width: 960px; }

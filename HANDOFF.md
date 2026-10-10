@@ -1,3 +1,16 @@
+# Current release — 10 October 2026 (Eastern)
+
+Owner explicitly requested “push everything to main when done.” PR #2 now includes
+15 recipe records (10 new), 59 research references (20 new), four GP Journal
+articles, searchable summaries/highlights, database JSON and RSS/JSON feeds.
+Read RESEARCH_PUBLISHING.md and RECIPE_DATABASE.md for scope and maintenance.
+All 37 Node tests and 49-route production build pass locally. Full browser CI
+is the remaining publication gate; merge main and verify live build-info.json.
+The release fixes mobile recipe-table overflow by allowing grid children to
+shrink, and waits for calculator enhancement before reading transferred values
+in the browser regression test. Existing local feature history is preserved.
+Recipe AI predictions and podcast audio are not implemented or claimed.
+
 # Release in progress — 10 October 2026 (Eastern)
 
 Owner explicitly authorized pushing to main and making the site live. Earlier
