@@ -1,3 +1,5 @@
+import {literatureMixes} from './literature-mixes.js';
+import {mixCards,mixDetail,attachMix} from './literature-ui.js';
 import { calculatorPage, attachCalculator } from "./gp-calculator.js";
 import { libraryPage, attachLibrary } from "./research-library.js";
 import { platformPage, attachPlatform } from "./platform.js";
@@ -147,11 +149,11 @@ function researchDetail(p) {
 function formulationIndex() {
   return (
     intro(
-      "FORMULATIONS & METHODS",
-      "Connect the paper to the experiment.",
-      "Source-linked method records make missing information visible before work begins.",
+      "RECIPES & METHODS",
+      "A starting point for your next mix.",
+      "Search published recipes, compare measured results and plan your own variations.",
     ) +
-    `<a class="record block-link" href="/formulations/metakaolin-comparison">${badge("Literature-reported")}<h2>Compare metakaolin grades ↗</h2><p>Published method overview · full recipe extraction pending</p></a><div class="callout">No executable chemical recipe is released in this prototype. Use the batch scaler to explore mass arithmetic with a separate illustrative example.</div>${link("/calculator", "Open formulation workbench", "button")}${link("/library", "Find a research source", "button secondary")}`
+    mixCards() + `<a class="record block-link" href="/formulations/metakaolin-comparison">${badge("Literature-reported")}<h2>Compare metakaolin grades ↗</h2><p>Published method overview · full recipe extraction pending</p></a><div class="callout">Published proportions are available above where source quantities permit. Review missing assays and test conditions before planning a trial.</div>${link("/calculator", "Open formulation workbench", "button")}${link("/library", "Find a research source", "button secondary")}`
   );
 }
 function formulationDetail(f) {
@@ -380,6 +382,8 @@ export function renderPage(url = "/") {
       break;
     }
     case "formulations": {
+      const published = literatureMixes.find(x=>x.id===id);
+      if(published){html=mixDetail(published);title=published.title;break;}
       const item = formulations.find((x) => x.id === id);
       html = id
         ? item
@@ -432,6 +436,7 @@ export async function enhancePage() {
   attachPlatform(area);
   if (area === "calculator") attachCalculator();
   if (area === "library") attachLibrary();
+  if (area === "formulations") attachMix();
   document.querySelectorAll('nav a').forEach(a => {
     if (a.pathname.replace(/\/$/, '') === location.pathname.replace(/\/$/, ''))
       a.setAttribute('aria-current', 'page');

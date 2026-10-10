@@ -1,3 +1,4 @@
+import {literatureMixes} from './literature-mixes.js';
 import { library } from "./research-library.js";
 /** @type {import('./schema').Paper[]} */
 export const papers = [
@@ -199,6 +200,7 @@ export const demoIngredients = [
   { label: "Component C", grams: 100 },
 ];
 export const searchRecords = [
+  ...literatureMixes.map(m=>({id:m.id,title:m.title,summary:m.authors+" "+m.system+" "+(m.strength===null?"strength not extracted":m.strength+" MPa")+" "+m.status,type:"Formulation",href:"/formulations/"+m.id})),
   ...library.map(r=>({...r,summary:r.journal+" · "+r.topic+" · "+r.doi,type:"Research",href:r.url})),
   {id:'gp-calculator',title:'GP molar-ratio calculator',summary:'Oxide composition Si/Al alkali water calcium molar ratios formulations recipes and reference comparison.',type:'Tool',href:'/calculator'},
   {id:'research-library',title:'Research Library',summary:'Recent peer-reviewed journal articles technical reports studies topic year DOI search.',type:'Guide',href:'/library'},

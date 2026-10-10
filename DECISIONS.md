@@ -180,3 +180,18 @@ separate phase. Owner subsequently explicitly approved review-branch publication
 Review branch published as 93ae031; draft PR #1. GitHub browser workflow
 37873602855 passed both suites. Screenshot artifacts were generated but could not
 be downloaded for manual review (HTTP 403). Main/live remain unchanged.
+
+## 9 October 2026 — potassium literature collection
+Owner requested Davidovits and other researchers’ potassium-silicate designs,
+prioritizing high compressive strength. Add five individually sourced records,
+with three scalable mass-proportion records and two clearly incomplete references.
+Do not solve absent quantities or hide contradictory source statements. Strength
+remains literature context in study notes, never a generated performance target
+or an own-test result. Missing assays stay unknown. See LITERATURE_MIXES.md.
+
+## 9 October 2026 — recipe database and AI direction
+15 curated literature records and an experiment-goal planner are implemented locally.
+Exact-age source observations are not performance predictions. No live AI model,
+backend or cloud database is claimed. RECIPE_DATABASE.md defines the next stages:
+complete assay/test data, retrieval advisor, held-out validated predictors and
+uncertainty-aware recipe variations. HANDOFF.md is authoritative for release status.
