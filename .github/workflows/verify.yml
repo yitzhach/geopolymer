@@ -19,6 +19,8 @@ jobs:
           for attempt in {1..20}; do curl --fail --silent http://localhost:4173/ > /dev/null && break; sleep 1; done
           node tests/browser-smoke.cjs
           node tests/notebook-browser.cjs
+          node tests/literature-browser.cjs
+          node tests/research-browser.cjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:

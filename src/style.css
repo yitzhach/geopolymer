@@ -524,6 +524,9 @@ footer > a:last-child {
   gap: 65px;
   align-items: start;
 }
+.detail-grid > * {
+  min-width: 0;
+}
 .detail-grid article > h2,
 .detail-grid > div > h2 {
   margin-top: 38px;
@@ -1123,3 +1126,30 @@ main{max-width:1440px;padding:0 32px 64px}
 #nb-status { min-height:1.5em; margin-top:16px; }
 #nb-new-experiment[hidden] { display:none; }
 @media(max-width:900px){.notebook-layout{grid-template-columns:1fr}.notebook{padding:18px}.notebook .nb-fields{grid-template-columns:1fr}.notebook .actions{align-items:stretch}}
+
+/* Published literature designs */
+.mix-strength{font-size:2.2rem;font-weight:650;color:var(--green,#245743);margin:.5rem 0}.mix-strength small{font-size:1rem}.mix-facts dt{font-weight:700;margin-top:1rem}.mix-facts dd{margin:.25rem 0 1rem}.record[data-mix] input{max-width:12rem;margin:.5rem}a[aria-disabled="true"]{opacity:.5;cursor:not-allowed}.side-panel a{overflow-wrap:anywhere}
+
+/* Recipe database and experiment requirements */
+.recipe-controls { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr)); gap:1rem; margin:1.5rem 0; }
+.recipe-controls label { display:flex; flex-direction:column; gap:.5rem; font-weight:600; }
+.recipe-controls input,.recipe-controls select,#requirements-form textarea { width:100%; min-width:0; padding:.8rem; border:1px solid var(--line,#ccd3cb); border-radius:4px; background:var(--paper,#fff); color:inherit; font:inherit; }
+#requirements-form textarea { display:block; min-height:90px; margin:.5rem 0 1rem; }
+#recipe-cards { margin-top:1.5rem; }
+#recipe-planner { margin-top:3rem; }
+#requirements-result { margin:1.5rem 0; }
+.mix-facts + h2 { margin-top:2rem; }
+[hidden] { display:none !important; }
+
+/* Research records and journal notes remain readable at narrow widths. */
+.library-card, .journal-card { min-width: 0; overflow-wrap: anywhere; }
+.library-card details { border-top: 1px solid var(--line); padding-top: 14px; margin: 18px 0; }
+.library-card summary { cursor: pointer; font-weight: 600; }
+.library-card details li { margin: 9px 0; }
+.library-summary { color: var(--ink); }
+.journal-card h2 a { color: inherit; text-decoration: none; }
+.journal-card h2 a:hover { text-decoration: underline; }
+.journal-body { max-width: 780px; margin: 0 auto; }
+.journal-body > p { font-size: 1.1rem; line-height: 1.8; margin-bottom: 24px; }
+.journal-body .record, .journal-watch .record { overflow-wrap: anywhere; }
+.journal-article .page-intro { max-width: 960px; }

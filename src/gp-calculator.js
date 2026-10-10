@@ -1,3 +1,4 @@
+import {mixProject} from './literature-mixes.js';
 import {DRAFT_KEY,newTrial,makeDraft,writeDraft} from './experiment-notebook.js';
 import {builderPage,attachBuilder} from './recipe-builder.js';
 import {supplierGrades,gradeIngredient} from './supplier-grades.js';
@@ -59,5 +60,7 @@ export function attachCalculator(){
  const sourceId=new URLSearchParams(location.search).get('source');
  const source=library.find(r=>r.id===sourceId);
  if(source&&model.study.sourceId!==source.id&&confirm('Attach this research citation to your current study? Ingredients and notes will be retained.')){model.study.sourceId=source.id;model.study.citation=[model.study.citation,`${source.title} (${source.year}). ${source.journal}. DOI: ${source.doi}`].filter(Boolean).join('\n').slice(0,2000);}
+ const mixParams=new URLSearchParams(location.search), mixId=mixParams.get('mix');
+ if(mixId){try{const candidate=mixProject(mixId,mixParams.get('mass')??1000);if(confirm('Load these published mass proportions? This replaces the current study and keeps its ingredients as a comparison reference. Save or download first to keep your complete study. Missing assays remain unknown and literature strength is not a prediction.')){candidate.baseline=model.recipe;model=candidate;}}catch(e){renderRows();update();tell('Mix not loaded: '+e.message);return;}}
  renderRows();update();tell(sourceId&&!source?'Unknown library reference; working study retained.':'Working study is retained in this tab when browser storage permits. Save or download a durable copy.');
 }

@@ -101,3 +101,17 @@ GitHub browser QA passed (37873602855). Next gate: inspect generated screenshots
 (artifact download was blocked here), then authorize merge/release. Later: lot/assay changes through richer variation editing, explicit
 record revision history, then accounts, permissions and durable image storage.
 Do not describe this browser-local increment as the durable private lab backend.
+
+## Potassium literature collection — 9 October 2026
+Five source-linked mix design records implemented locally. Three Davidovits
+proportion sets scale to grams and connect to the calculator/notebook. Alameri
+T2M9 and Kohout GS-1.0 remain partial/ratio references; source details and gaps
+are visible. Next: permission to publish and browser CI, then resolve source gaps
+and add further complete K-metakaolin designs. See HANDOFF.md for actual status.
+
+## 9 October 2026 — recipe database and AI direction
+15 curated literature records and an experiment-goal planner are implemented locally.
+Exact-age source observations are not performance predictions. No live AI model,
+backend or cloud database is claimed. RECIPE_DATABASE.md defines the next stages:
+complete assay/test data, retrieval advisor, held-out validated predictors and
+uncertainty-aware recipe variations. HANDOFF.md is authoritative for release status.

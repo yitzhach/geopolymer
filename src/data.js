@@ -1,3 +1,5 @@
+import {journalArticles} from './journal-data.js';
+import {literatureMixes} from './literature-mixes.js';
 import { library } from "./research-library.js";
 /** @type {import('./schema').Paper[]} */
 export const papers = [
@@ -199,7 +201,9 @@ export const demoIngredients = [
   { label: "Component C", grams: 100 },
 ];
 export const searchRecords = [
-  ...library.map(r=>({...r,summary:r.journal+" · "+r.topic+" · "+r.doi,type:"Research",href:r.url})),
+  ...journalArticles.map(p=>({id:p.id,title:p.title,summary:p.summary+" "+p.topic,type:"Journal",href:"/journal/"+p.id})),
+  ...literatureMixes.map(m=>({id:m.id,title:m.title,summary:m.authors+" "+m.system+" "+(m.strength===null?"strength not extracted":m.strength+" MPa")+" "+m.status,type:"Formulation",href:"/formulations/"+m.id})),
+  ...library.map(r=>({...r,summary:[r.journal,r.topic,r.doi,r.authors,r.summary,...(r.highlights||[])].filter(Boolean).join(" · "),type:"Research",href:r.url})),
   {id:'gp-calculator',title:'GP molar-ratio calculator',summary:'Oxide composition Si/Al alkali water calcium molar ratios formulations recipes and reference comparison.',type:'Tool',href:'/calculator'},
   {id:'research-library',title:'Research Library',summary:'Recent peer-reviewed journal articles technical reports studies topic year DOI search.',type:'Guide',href:'/library'},
   ...[
@@ -208,7 +212,7 @@ export const searchRecords = [
     ['supply','Supply planning','Samples small quantities bags pallets bulk and freight supply requests.'],
     ['review','Peer review','Proposed editorial review process and research integrity.'],
     ['community','Community','Planned forum collaboration colleagues and discussions.'],
-    ['journal','Magazine & podcast','Planned monthly magazine podcast articles and editorial pitches.']
+    ['journal','Magazine & podcast','Research briefings, GP news feed, magazine articles and podcast reading notes.']
   ].map(([id,title,summary])=>({id,title,summary,type:'Guide',href:'/'+id})),
   {id:"artists",title:"Artists & artisans",summary:"Studio projects, sculpture, casting, texture, relief, pigments and color studies.",type:"Guide",href:"/artists"},
   ...materials.map((x) => ({

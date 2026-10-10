@@ -38,7 +38,7 @@ test('invalid masses, composition totals and unsafe imported structures rejected
  assert.throws(()=>parseProject({version:1,recipe:{rows:Array.from({length:51},()=>row('x',1,{}))}}));
 });
 test('library has dozens of distinct publisher DOI links and functional filters',()=>{
- assert.equal(library.length,39);assert.equal(new Set(library.map(r=>r.doi.toLowerCase())).size,39);assert.equal(library.filter(r=>r.year>=2024).length,36);
+ assert.equal(library.length,59);assert.equal(new Set(library.map(r=>r.doi.toLowerCase())).size,59);assert.equal(library.filter(r=>r.year>=2024).length,56);
  for(const r of library){assert.match(r.url,/^https:\/\/doi.org\/10\./);assert.ok(r.year<=2026);assert.ok(r.title&&r.journal&&r.topic);}
  assert.ok(filterLibrary('coffee').length===2);assert.ok(filterLibrary('','2024','3D printing').length>=4);assert.equal(filterLibrary('','all','all','Technical report').length,1);assert.equal(filterLibrary('nothing-matches-xyz').length,0);assert.equal(filterLibrary('10.3390/ma18163864').length,1);
 });

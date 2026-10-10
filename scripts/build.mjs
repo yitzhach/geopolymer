@@ -1,3 +1,5 @@
+import {journalFeed,journalRSS,researchDatabase} from '../src/research-feeds.js';
+import {journalArticles} from '../src/journal-data.js';
 import { cp, mkdir, rm, readFile, writeFile } from 'node:fs/promises';
 import { execFileSync } from 'node:child_process';
 import { renderPage } from '../src/app.js';
@@ -42,10 +44,12 @@ for (const path of [...routes, '/404']) {
     graph[0].citation = article.url;
     graph.push(article);
   }
+  const post=journalArticles.find(p=>path==='/journal/'+p.id);
+  if(post) graph.push({'@type':'BlogPosting',headline:post.title,datePublished:post.date,description:post.summary,url,author:{'@type':'Organization',name:'Geopolymer Platform'},creativeWorkStatus:'AI-assisted editorial briefing'});
   const product = products.find(p => path === '/shop/' + p.id);
   if (product) graph.push({ '@type': 'Product', name: product.title, description: 'Proposed concept; not available to order. ' + product.summary, url });
   const noindex = ['/workspace', '/search', '/404'].includes(path);
-  const metadata = `${noindex ? '<meta name="robots" content="noindex,follow">' : ''}
+  const metadata = `<link rel="alternate" type="application/rss+xml" title="GP Journal" href="${siteOrigin}/journal/feed.xml">${noindex ? '<meta name="robots" content="noindex,follow">' : ''}
     ${path === '/404' ? '' : `<link rel="canonical" href="${esc(url)}">`}
     <meta property="og:type" content="website">
     <meta property="og:title" content="${esc(title)}">
@@ -69,6 +73,9 @@ for (const path of [...routes, '/404']) {
 await writeFile('dist/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${routes.filter(p => !['/workspace','/search'].includes(p)).map(p => `<url><loc>${esc(siteOrigin + p)}</loc><lastmod>${contentUpdated}</lastmod></url>`).join('')}</urlset>\n`);
 await writeFile('dist/robots.txt', `User-agent: *\nAllow: /\nDisallow: /workspace\nDisallow: /search?\n\nSitemap: ${siteOrigin}/sitemap.xml\n`);
 await writeFile('dist/llms.txt', `# Geopolymer Platform\n\nConnected geopolymer research, learning, studio work and proposed materials. Journal publication, platform review, internal reproduction and independent testing are distinct. Products are concepts, not available stock.\n\n${['research','library','materials','formulations','learn','artists','calculator','evidence'].map(p => `- [${renderPage('/'+p).title}](${siteOrigin}/${p})`).join('\n')}\n`);
+await writeFile('dist/research-library.json',JSON.stringify(researchDatabase(),null,2)+'\n');
+await writeFile('dist/journal/feed.json',JSON.stringify(journalFeed(siteOrigin),null,2)+'\n');
+await writeFile('dist/journal/feed.xml',journalRSS(siteOrigin));
 await writeFile('dist/_headers', '/src/*\n  Cache-Control: public, max-age=0, must-revalidate\n');
 let commit = 'unknown';
 try { commit = execFileSync('git', ['rev-parse', 'HEAD'], { encoding: 'utf8' }).trim(); } catch {}

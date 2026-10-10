@@ -173,7 +173,7 @@ fs.mkdirSync('.qa', { recursive: true });
       assert.ok((await noJS.locator('main').innerText()).length>150,route);
     }
     await noJS.goto(base+'/library');
-    assert.equal(await noJS.locator('.library-card').count(),39);
+    assert.equal(await noJS.locator('.library-card').count(),59);
     await noJS.locator('#site-menu summary').click();
     assert.equal(await noJS.getByRole('link',{name:'GP calculator',exact:true}).isVisible(),true);
     for (const path of ['/missing','/learn/missing','/calculator/extra']) {

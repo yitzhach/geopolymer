@@ -1,3 +1,105 @@
+# Current release — 10 October 2026 (Eastern)
+
+Owner explicitly requested “push everything to main when done.” PR #2 now includes
+15 recipe records (10 new), 59 research references (20 new), four GP Journal
+articles, searchable summaries/highlights, database JSON and RSS/JSON feeds.
+Read RESEARCH_PUBLISHING.md and RECIPE_DATABASE.md for scope and maintenance.
+All 37 Node tests and 49-route production build pass locally. Full browser CI
+is the remaining publication gate; merge main and verify live build-info.json.
+The release fixes mobile recipe-table overflow by allowing grid children to
+shrink, and waits for calculator enhancement before reading transferred values
+in the browser regression test. Existing local feature history is preserved.
+Recipe AI predictions and podcast audio are not implemented or claimed.
+
+# Release in progress — 10 October 2026 (Eastern)
+
+Owner explicitly authorized pushing to main and making the site live. Earlier
+publication-permission blocks below are superseded. Publishing through the
+connected GitHub integration because shell Git has no push credentials.
+Local completed implementation: 6c236e2; remote publication may have a different
+commit ID with the same source tree. Browser CI and live verification are pending.
+
+# START HERE — recipe database, 9 October 2026 (Eastern)
+
+- Added 10 published formulations to the previous five (15 total), on local
+  branch codex/potassium-literature-mixes. Includes study variants; no claim of
+  ten independent replications. Six new K-based and four new Na-based records.
+- /formulations: recipe search, activation/evidence filters, public JSON export,
+  proportional gram scaling, source-linked adjustment ideas and measured-age
+  tables (1h, 4h, 24h, 72h, 1w, 2w, 28d). Unknown results remain unknown.
+- New experiment-requirements planner accepts compression/flexure/shear/bond/thin
+  goals, target, thickness and notes; exact age/property literature lookup plus
+  downloadable brief. This is NOT AI or a virtual strength prediction model.
+- Read RECIPE_DATABASE.md for source map, limitations and staged AI advisor plan.
+  Backend, accounts, model/provider, training and calibrated predictions are future.
+- PASS: 35 Node tests and 45-route production build; whitespace/syntax checks.
+  Browser run blocked at launch: required Playwright Chromium executable missing.
+  Updated browser assertions are committed for CI but have not run. No visual QA.
+- Publication remains pending explicit authorization after the earlier automatic
+  review block. No push, merge or deployment performed in this increment.
+- Next: publish review branch when authorized, run browser CI and inspect desktop/
+  mobile screenshots, then release. Further science curation: complete assays,
+  grades, preparation, replicates and numerical K-KA20-2.5 figure extraction.
+- Narrow edit map: recipe-additions.js, recipe-planner.js, literature-mixes.js,
+  literature-ui.js, tests/recipe-catalog.test.mjs and literature-browser.cjs.
+
+Earlier handoffs below are historical; this section supersedes their counts/status.
+
+---
+
+# START HERE — Pyrament research follow-up, 9 October 2026 (Eastern)
+
+- Recovered existing work on clean local branch codex/potassium-literature-mixes;
+  implementation 1b90f4c and prior handoff ffe04d2 are preserved. Fetch confirmed
+  origin/main remains d3292b9. No GitHub push or deployment performed this turn.
+- Owner's follow-up asks to examine Pyrament and newer/better designs. Read
+  PYRAMENT_RESEARCH.md: historical heat-cure distinction, later ambient-cured
+  potassium dry-blend reference, current commercial comparator and research gaps.
+- Research only this increment; no additional public formulation or supplier
+  substitution implemented. Newer potassium superiority is not established.
+- Rechecked existing implementation: all 32 Node tests and 35-route build PASS.
+  Browser verification remains pending; earlier publication approval block remains.
+- Next: obtain explicit publication authorization for the completed five-design
+  branch, run browser CI, then release if checks pass. For Pyrament development,
+  review powder/solution basis before adding a historical reference or adapted trial.
+
+# Potassium literature designs, 9 October 2026 (Eastern)
+
+- Canonical repo: yitzhach/geopolymer; existing GitHub/Cloudflare hosting retained.
+- Correction to historical entries below: notebook PR #1 WAS merged as d3292b9;
+  live build-info.json independently confirmed that commit in this session.
+- Owner requested Davidovits and other scientists’ mix designs, prioritizing
+  potassium silicate and high MPa, and a completed handoff update.
+- Implemented five source-linked designs: Davidovits MK/slag (70 MPa), patent
+  Examples 3/5 (80/70 MPa), Alameri T2M9 (126 MPa), Kohout GS-1.0 (95.2 MPa).
+- Three Davidovits proportion sets support wet-batch gram preview, calculator JSON
+  and confirmed calculator transfer; source/cure/results remain in study snapshots.
+- Alameri and Kohout remain read-only references: unresolved water/activator and
+  source discrepancy in the former, no extracted gram batch in the latter.
+- Every MPa value is literature-reported with age/cure/test context; no platform
+  testing, independent reproduction, commercial substitution or performance guarantee.
+- Read LITERATURE_MIXES.md for extraction checks, source discrepancies and next work.
+- Edit map: src/literature-mixes.js (records/model), src/literature-ui.js (views),
+  routes/app/data/calculator integration; tests/literature-*. Source pages are
+  pre-rendered and searchable. Existing save keys and legacy routes are preserved.
+- PASS locally: 32 Node tests, 35-route build, git diff checks. Local Chromium
+  crashed on launch (SIGSEGV), so browser checks must run in GitHub CI.
+- Local implementation commit: 1b90f4cd1b8058d010df48f44668dd6542cc71dd,
+  branch codex/potassium-literature-mixes. Follow-up docs record publication block.
+- NOT PUBLISHED: automatic approval review rejected git push because the owner
+  requested implementation/handoff but did not explicitly authorize publication.
+  Ask for approval to push this branch to yitzhach/geopolymer and run GitHub CI;
+  do not bypass the block using connector publication. No new remote/live claim.
+- Browser suite tests/literature-browser.cjs is added to CI but has NOT run yet.
+  Local browser launch failed before any browser assertions; no visual QA claimed.
+- Next: reconcile Alameri recipe details, extract further mass-ready K-metakaolin
+  studies, then explicit supplier/lot adaptation. Accounts and durable images
+  remain a separate backend phase.
+
+Historical handoffs follow (their pending-release claims are superseded above).
+
+---
+
 # Experiment notebook — review branch published and browser checks passed, 8 October 2026 (Eastern)
 
 - Owner approved implementation, then explicitly approved review-branch publication

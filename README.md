@@ -111,3 +111,14 @@ Everything is browser-local; no account, synchronization or image upload is impl
 See EXPERIMENT_NOTEBOOK.md for storage, validation and limits. Browser integration
 coverage: `node tests/notebook-browser.cjs` with the same server/setup as the smoke
 suite. Actual QA and publication status are recorded in HANDOFF.md.
+
+## Published potassium mix designs
+Open /formulations for five source-linked records. Three Davidovits references
+include gram scaling and calculator JSON/transfer; two journal records retain
+partial/ratio designs with explicit missing data. Strength, curing, specimen and
+source details are displayed together. See LITERATURE_MIXES.md; verification is
+in HANDOFF.md. Additional browser suite: node tests/literature-browser.cjs.
+
+Recipe database: /formulations now includes 15 source-linked records, filters,
+JSON export and an experiment-requirements planner. See RECIPE_DATABASE.md for
+source details and the future AI advisor plan. No prediction model is active.
