@@ -524,6 +524,9 @@ footer > a:last-child {
   gap: 65px;
   align-items: start;
 }
+.detail-grid > * {
+  min-width: 0;
+}
 .detail-grid article > h2,
 .detail-grid > div > h2 {
   margin-top: 38px;
