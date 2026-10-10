@@ -1,354 +1,83 @@
-# Current release — 10 October 2026 (Eastern)
+# Geopolymer — current handoff
+Updated 10 October 2026 (Eastern).
 
-Owner explicitly requested “push everything to main when done.” PR #2 now includes
-15 recipe records (10 new), 59 research references (20 new), four GP Journal
-articles, searchable summaries/highlights, database JSON and RSS/JSON feeds.
-Read RESEARCH_PUBLISHING.md and RECIPE_DATABASE.md for scope and maintenance.
-All 37 Node tests and 49-route production build pass locally. Full browser CI
-is the remaining publication gate; merge main and verify live build-info.json.
-The release fixes mobile recipe-table overflow by allowing grid children to
-shrink, and waits for calculator enhancement before reading transferred values
-in the browser regression test. Existing local feature history is preserved.
-Recipe AI predictions and podcast audio are not implemented or claimed.
-
-# Release in progress — 10 October 2026 (Eastern)
-
-Owner explicitly authorized pushing to main and making the site live. Earlier
-publication-permission blocks below are superseded. Publishing through the
-connected GitHub integration because shell Git has no push credentials.
-Local completed implementation: 6c236e2; remote publication may have a different
-commit ID with the same source tree. Browser CI and live verification are pending.
-
-# START HERE — recipe database, 9 October 2026 (Eastern)
-
-- Added 10 published formulations to the previous five (15 total), on local
-  branch codex/potassium-literature-mixes. Includes study variants; no claim of
-  ten independent replications. Six new K-based and four new Na-based records.
-- /formulations: recipe search, activation/evidence filters, public JSON export,
-  proportional gram scaling, source-linked adjustment ideas and measured-age
-  tables (1h, 4h, 24h, 72h, 1w, 2w, 28d). Unknown results remain unknown.
-- New experiment-requirements planner accepts compression/flexure/shear/bond/thin
-  goals, target, thickness and notes; exact age/property literature lookup plus
-  downloadable brief. This is NOT AI or a virtual strength prediction model.
-- Read RECIPE_DATABASE.md for source map, limitations and staged AI advisor plan.
-  Backend, accounts, model/provider, training and calibrated predictions are future.
-- PASS: 35 Node tests and 45-route production build; whitespace/syntax checks.
-  Browser run blocked at launch: required Playwright Chromium executable missing.
-  Updated browser assertions are committed for CI but have not run. No visual QA.
-- Publication remains pending explicit authorization after the earlier automatic
-  review block. No push, merge or deployment performed in this increment.
-- Next: publish review branch when authorized, run browser CI and inspect desktop/
-  mobile screenshots, then release. Further science curation: complete assays,
-  grades, preparation, replicates and numerical K-KA20-2.5 figure extraction.
-- Narrow edit map: recipe-additions.js, recipe-planner.js, literature-mixes.js,
-  literature-ui.js, tests/recipe-catalog.test.mjs and literature-browser.cjs.
-
-Earlier handoffs below are historical; this section supersedes their counts/status.
-
----
-
-# START HERE — Pyrament research follow-up, 9 October 2026 (Eastern)
-
-- Recovered existing work on clean local branch codex/potassium-literature-mixes;
-  implementation 1b90f4c and prior handoff ffe04d2 are preserved. Fetch confirmed
-  origin/main remains d3292b9. No GitHub push or deployment performed this turn.
-- Owner's follow-up asks to examine Pyrament and newer/better designs. Read
-  PYRAMENT_RESEARCH.md: historical heat-cure distinction, later ambient-cured
-  potassium dry-blend reference, current commercial comparator and research gaps.
-- Research only this increment; no additional public formulation or supplier
-  substitution implemented. Newer potassium superiority is not established.
-- Rechecked existing implementation: all 32 Node tests and 35-route build PASS.
-  Browser verification remains pending; earlier publication approval block remains.
-- Next: obtain explicit publication authorization for the completed five-design
-  branch, run browser CI, then release if checks pass. For Pyrament development,
-  review powder/solution basis before adding a historical reference or adapted trial.
-
-# Potassium literature designs, 9 October 2026 (Eastern)
-
-- Canonical repo: yitzhach/geopolymer; existing GitHub/Cloudflare hosting retained.
-- Correction to historical entries below: notebook PR #1 WAS merged as d3292b9;
-  live build-info.json independently confirmed that commit in this session.
-- Owner requested Davidovits and other scientists’ mix designs, prioritizing
-  potassium silicate and high MPa, and a completed handoff update.
-- Implemented five source-linked designs: Davidovits MK/slag (70 MPa), patent
-  Examples 3/5 (80/70 MPa), Alameri T2M9 (126 MPa), Kohout GS-1.0 (95.2 MPa).
-- Three Davidovits proportion sets support wet-batch gram preview, calculator JSON
-  and confirmed calculator transfer; source/cure/results remain in study snapshots.
-- Alameri and Kohout remain read-only references: unresolved water/activator and
-  source discrepancy in the former, no extracted gram batch in the latter.
-- Every MPa value is literature-reported with age/cure/test context; no platform
-  testing, independent reproduction, commercial substitution or performance guarantee.
-- Read LITERATURE_MIXES.md for extraction checks, source discrepancies and next work.
-- Edit map: src/literature-mixes.js (records/model), src/literature-ui.js (views),
-  routes/app/data/calculator integration; tests/literature-*. Source pages are
-  pre-rendered and searchable. Existing save keys and legacy routes are preserved.
-- PASS locally: 32 Node tests, 35-route build, git diff checks. Local Chromium
-  crashed on launch (SIGSEGV), so browser checks must run in GitHub CI.
-- Local implementation commit: 1b90f4cd1b8058d010df48f44668dd6542cc71dd,
-  branch codex/potassium-literature-mixes. Follow-up docs record publication block.
-- NOT PUBLISHED: automatic approval review rejected git push because the owner
-  requested implementation/handoff but did not explicitly authorize publication.
-  Ask for approval to push this branch to yitzhach/geopolymer and run GitHub CI;
-  do not bypass the block using connector publication. No new remote/live claim.
-- Browser suite tests/literature-browser.cjs is added to CI but has NOT run yet.
-  Local browser launch failed before any browser assertions; no visual QA claimed.
-- Next: reconcile Alameri recipe details, extract further mass-ready K-metakaolin
-  studies, then explicit supplier/lot adaptation. Accounts and durable images
-  remain a separate backend phase.
-
-Historical handoffs follow (their pending-release claims are superseded above).
-
----
-
-# Experiment notebook — review branch published and browser checks passed, 8 October 2026 (Eastern)
-
-- Owner approved implementation, then explicitly approved review-branch publication
-  and browser checks. Branch: `codex/experiment-notebook`, based on main `80315cf`.
-- Published implementation: `93ae031876793d5b559ef0160d60ae90b50cce0f`.
-- Draft PR: https://github.com/yitzhach/geopolymer/pull/1.
-- Main and Cloudflare have NOT been changed. Review branch only; merge/deployment
-  is a separate next action.
-- Added `/workspace#notebook` alongside existing general drafts. Calculator action
-  “Save recipe as notebook trial” captures the full v1 formulation/assay snapshot.
-- Named experiments, locked saved recipes, gram-change duplication with parent
-  links, actual weighed grams, preparation, specimens, curing stages, dated
-  observations and structured own/literature results. No automatic validation badge.
-- Parent comparison includes every recipe/target/study field difference, input
-  ratios, actual quantities, preparation, curing and separately labeled results.
-- Separate keys: `geopolymer.notebook.v1` and `geopolymer.notebook.draft.v1`.
-  Existing calculator/session/workspace keys and v1 files remain untouched.
-- Incomplete drafts recover independently from saved trials. Notebook imports make
-  copies and remap relationships. Portable draft downloads include saved notebook
-  context so a parent-linked unfinished trial can be restored on another browser.
-- Browser storage only; no cloud durability, accounts, sync or image uploads.
-  Image URLs/captions are recorded without automatically loading external images.
-- PASS: 30 Node tests, 30-route production build, JS syntax and diff checks.
-- PASS: local happy-dom integration of capture/save, records, variation, comparison,
-  refresh recovery, portable incomplete draft restoration and copy imports. This is
-  DOM behavior verification only, not browser rendering or visual QA.
-- PASS: GitHub browser workflow 37873602855 on `93ae031`, including both the
-  existing 30-route desktop/mobile/JS-disabled suite and the new notebook suite.
-  Logs confirm capture, snapshots, actual quantities, records, variation, recovery,
-  portable draft/backup imports, legacy preservation and quota failure checks.
-- Browser screenshots generated in browser-qa artifact 11591396763. Download to
-  this runtime returned HTTP 403, so no manual screenshot/visual review is claimed.
-  Local Chromium is unavailable. Inspect the artifact before a main release.
-- Connector publication uses different commit IDs than the original local branch.
-  Fetch remote review branch before continuing; never force-push the local history.
-- Next: inspect screenshots, then merge/release when authorized and independently
-  verify Cloudflare build-info.json and changed content.
-- Edit map: `src/experiment-notebook.js` (model/storage), `src/notebook-ui.js`
-  (workspace UI), calculator/platform integration, schema, CSS, tests.
-- Design and data notes: `EXPERIMENT_NOTEBOOK.md`. Earlier sections below describe
-  the current main release and the completed supplier builder.
-
----
-
-# START HERE — new-chat handoff, 8 October 2026 (Eastern)
-
-## Resume without replaying this conversation
-- Canonical repository: https://github.com/yitzhach/geopolymer, branch `main`.
+## Release status
+- Repository: https://github.com/yitzhach/geopolymer
 - Live: https://geopolymer.bobdylan2000.workers.dev
-- Workbench: /calculator#recipe-builder. Research discovery: /library.
-- Read this section, README.md, DECISIONS.md, SUPPLIER_DATA.md and
-  PLATFORM_ROADMAP.md from current main before editing.
-- Last implementation: `734cdac0edb36daec03c4c4e82f0068b320d95bd`.
-  Latest main before this documentation update: `865615dbeb4090f22e41fc2229489c6c2f9586ac`.
-- Completed: public-content foundation; transparent calculator with research-linked
-  notes; supplier-grade picker and gram recipe builder. Do not rebuild these phases.
-- Verified implementation: 24 Node tests, 30-route build, GitHub browser workflow
-  37811000782 and independent live Cloudflare HTTP/content checks. Details below.
-- At this handoff, live build-info.json also confirmed documentation release
-  `865615dbeb4090f22e41fc2229489c6c2f9586ac`, built 2026-10-08T16:45:54.750Z.
-- No unfinished code changes at handoff. This request is documentation-only.
+- PR #2 merged to main as 60306e1e30d198843c77e900c566376e46ce4781.
+  Previous main: d3292b9. Feature head: 720f773.
+- Independently verified live /build-info.json reports 60306e1, build time
+  2026-10-10T20:21:46.546Z, 49 routes. Live research JSON contains 59 records;
+  live journal JSON feed contains four articles.
+- This handoff is a subsequent documentation-only commit. Earlier publication
+  blocks are superseded by the owner's explicit authorization; release is complete.
+- Remote feature branches and original local history are preserved. No force pushes.
 
-## Recommended next phase (not yet authorized for implementation)
-Build the experiment notebook around the existing calculator:
-1. Multiple named trials, each retaining an immutable formulation/assay snapshot.
-2. Duplicate a trial, record the changed variable, and compare with its parent.
-3. Structured curing and measured test records: value, unit, specimen, age,
-   method, source and observations; separate literature results from own tests.
-4. Safe export/import, draft recovery and migration that preserves existing saves.
-5. Design attachment/image storage separately; do not imply accounts, sync or
-   durable cloud storage until an authorized backend is implemented.
-Confirm this next phase with the owner unless their new-chat request authorizes it.
-Alternative priorities: manual desktop/mobile visual review of the new builder,
-current lot COAs and source-reviewed executable formulations. Phosphate activation
-requires a separate model and remains deferred, not a silicate substitution.
+## Completed and live
+- Fifteen source-linked formulations, including ten additions: potassium/sodium
+  search, evidence filters, gram scaling where source quantities allow it,
+  calculator transfer, database export, source/cure/method details and tweak ideas.
+- Literature measurements at 1h, 4h, 24h, 72h, 1w, 2w and 28d where reported.
+  Missing measurements stay unknown; no invented curves or strength guarantees.
+- Goal planner for compression, flexure, shear, bond and thin applications.
+  Matching uses exact measured property/age; this is not an AI prediction tool.
+- Twenty recent publications added to the original 39: searchable brief original
+  summaries, highlights, dates, DOI/publisher links and publication status.
+- Four source-linked GP Journal articles and RSS/JSON feeds. Podcast material is
+  reading notes; no recordings are claimed.
+- Prior calculator, supplier builder and experiment notebook remain available.
+- Mobile recipe-table overflow and calculator browser-test timing were fixed.
 
-## Guardrails and edit map
-- Preserve white/forest-green design, real paths, static content and accessibility.
-- Preserve `geopolymer.calculator.v1`, `geopolymer.calculator.session.v1`, existing
-  workspace keys and v1 JSON compatibility. New fields are optional snapshots.
-- Typical supplier values, range midpoints and water/basis assumptions must stay
-  visible. No default ideal targets, validated strength, safe mixing procedure,
-  platform peer-review badge, qualified compatibility or stock claim is established.
-- src/supplier-grades.js: seven sourced profiles; SUPPLIER_DATA.md: provenance/math.
-- src/recipe-builder.js: mass-proportion and target-solving UI/model.
-- src/gp-chemistry.js: oxide bookkeeping/normalization; src/gp-calculator.js: workbench.
-- src/platform.js: existing local draft workspace; src/research-library.js: 39 sources.
-- tests/recipe-builder.test.mjs and tests/browser-smoke.cjs cover the latest phase.
-- Run npm test, npm run build, syntax/diff checks. Browser CI runs on GitHub.
-  Previous managed runtime lacked supported local browser QA; do not claim visual QA.
-- GitHub publication and Cloudflare verification are separate. Check /build-info.json
-  and changed live content after releases. Cloudflare: npm run build, npx wrangler
-  deploy; never deploy repository root with --assets .
-- This session used GitHub connector commits, so local `delivered-main` commit IDs
-  differ from remote despite matching content. Start a fresh checkout of current
-  remote main, not a force-push of the old local branch. Never overwrite newer work.
+## Verification
+- Rechecked locally: all 37 Node tests pass; production build creates 49 routes.
+- GitHub Actions run 38023955457 on feature head 720f773 passed all steps,
+  including desktop/mobile, notebook, literature and research browser suites.
+- Browser QA screenshots were uploaded by CI; no fresh manual screenshot review
+  was performed in this recovery session.
+- Live build identity and JSON record/feed counts verified after merge.
+- Commands: npm test; npm run build. Browser workflow: .github/workflows/verify.yml.
+  Hosting builds from main; never deploy the repository root using --assets .
 
-## Suggested new-chat request
-Continue yitzhach/geopolymer from current GitHub main. Read HANDOFF.md, README.md,
-DECISIONS.md, SUPPLIER_DATA.md and PLATFORM_ROADMAP.md. The supplier recipe builder
-is complete and deployed. Propose the smallest useful experiment-notebook phase
-with multiple saved trials, one-variable duplication and structured test results;
-preserve the calculator, existing saves and evidence distinctions. Confirm scope
-before implementing.
+## Remaining / next actions
+1. Review draft PR #3 (codex/daily-research-draft, 11d7464). It contains
+   research-drafts/2026-10-10.json: two additional studies and one briefing.
+   These are editorial drafts, NOT part of the 59 live references or four articles.
+   Review sources, append approved records to src/research-updates.js and
+   src/journal-data.js, adapt count assertions, run build/browser checks, then publish.
+   Do not merge the draft alone and describe it as a live content update.
+2. Verify the existing daily research automation configuration before creating any
+   new schedule; the earlier session produced PR #3. This recovery did not inspect
+   or change its schedule. Draft production is not unattended public publishing.
+3. Enrich recipe evidence: complete assays, material grades, preparation, replicates,
+   test methods and source discrepancies. See the recipe documents below.
+4. Next substantial product phase: choose accounts/cloud storage and image-upload
+   architecture, or implement the cited retrieval advisor from RECIPE_DATABASE.md.
+   AI strength prediction remains future work requiring validated data/models,
+   domain checks and uncertainty intervals, separately for each property/age.
 
----
+## Limits and preservation
+Notebook saves are browser-local unless exported; no accounts/cloud sync or image
+uploads. Static Git-backed catalogs, no public CMS. No validated virtual test,
+podcast audio, commerce or guaranteed material compatibility.
+Preserve calculator v1 and notebook storage keys, import/export compatibility,
+stable route/record IDs, source evidence labels, unknown values and the current
+white/forest-green design. Literature results must never become own measurements.
+No silicate powder/liquid or supplier substitution without explicit basis checks.
 
-# Supplier recipe builder — 8 October 2026
-Built on verified GitHub main 56f3626. Existing GitHub/Cloudflare hosting retained.
+## Narrow read map
+- RESEARCH_PUBLISHING.md: research schema, original-summary policy, feeds/workflow.
+- RECIPE_DATABASE.md: 15 recipes, extraction map, goal planner and future AI plan.
+- LITERATURE_MIXES.md and PYRAMENT_RESEARCH.md: provenance and unresolved caveats.
+- EXPERIMENT_NOTEBOOK.md and SUPPLIER_DATA.md: saved data and supplier assumptions.
+- README.md, DECISIONS.md, PLATFORM_ROADMAP.md: architecture and wider scope.
+- src/research-updates.js, research-library.js, journal-data.js, journal.js,
+  research-feeds.js: research and editorial content.
+- src/literature-mixes.js, recipe-additions.js, literature-ui.js, recipe-planner.js:
+  recipe catalog and goals.
+- src/routes.js and scripts/build.mjs: routes/static output; tests/: regressions.
 
-- Seven sourced planning profiles: R-E-D Dynapoz 110 CR, ACT PowerPozz White,
-  PQ N/RU/D sodium silicates, PQ KASIL 1/6 potassium silicates. Custom assays supported.
-- Supplier picker also adds profiles directly to the workbench at zero mass.
-- Two builder modes: entered mass proportions; explicit target solve for atomic
-  Si/Al, atomic (Na+K)/Al and physical water/non-water binder mass. Total wet grams
-  set batch size. Target solve adds matching NaOH/KOH feed only as calculated;
-  actual hydroxide and water percentages are required. No recommended ratios assumed.
-- Preview before transfer; transfer captures current ingredients as reference and
-  retains notes. Catalog ID/density extend v1 JSON without changing storage keys.
-- Liquid volume = grams/density, approximate and per ingredient, never summed.
-  No powder-volume estimate; composition edits clear density to avoid stale volume.
-- TDS values are not lot assays. Dynapoz XRF basis is unconfirmed (dry-powder
-  planning assumption). PowerPozz uses labeled range midpoints. PQ historic typical
-  tables use an explicitly disclosed aqueous water-balance assumption. Missing powder
-  chemistry stays unknown. All copied profiles are assumption-labeled until reviewed.
-- Phosphoric-acid activation is visibly deferred and rejected by the builder model.
-- PASS locally: 24 tests, 30-route production build, JS syntax and whitespace checks.
-- Published implementation: 734cdac0edb36daec03c4c4e82f0068b320d95bd.
-- PASS: GitHub browser run 37811000782, including supplier selection, preview
-  invalidation, potassium target solving, infeasible water handling, transfer,
-  previous-reference retention, save/navigation persistence and zero-mass grade add.
-- PASS: Cloudflare build check and seven independent live HTTP/content checks.
-  build-info.json confirms 734cdac with build time 2026-10-08T16:43:38.737Z;
-  calculator, both new modules, library, sitemap and real 404 verified.
-- This follow-up changes documentation only. No new manual visual inspection or
-  independent experimental/scientific validation is claimed.
-- Source and equation details: SUPPLIER_DATA.md. No compatibility/strength/cure claim,
-  automatic universal recipe, validated mixing procedure or current stock implied.
-
----
-
-# Current phase — 8 October 2026
-Calculator transparency and research-linked formulations implemented on verified
-main 7ed8c8b. Existing Cloudflare/GitHub hosting retained; no Sites migration.
-
-- Per-ingredient evidence category, supplier/grade, lot/date and assay-basis notes.
-  Missing/assumed provenance and undocumented basis surfaced as warnings.
-- Contribution audit shows individual oxide equivalents, physical water, unknown
-  mass and included/excluded scope, alongside existing live ratios.
-- All 39 library entries link citations to current calculator studies with explicit
-  confirmation, preserving ingredients and notes. No paper recipe data is invented.
-- Citation locator, adaptations, curing, results and target-definition notes save,
-  reopen, export/import and survive native navigation. Evidence remains unreviewed;
-  alternative activation sources explicitly remain outside model scope.
-- Existing v1 files and local/session keys retained; absent new fields normalize to
-  empty/unknown. New optional fields are included in v1 exports. Older site versions
-  may discard new metadata if used to re-save a new export.
-- PASS locally: 19 Node tests, 30-route production build, syntax and diff checks.
-- Published to GitHub main: 8d8c157dc8ece86f0f3feeff81630d4a3123bcf2.
-- PASS: GitHub browser run 37803313759, including desktop/mobile/JS-disabled
-  foundation checks and new source-link, provenance and study-note persistence tests.
-- PASS: Cloudflare Workers Builds check. Live build-info.json independently confirms
-  8d8c157 with build timestamp 2026-10-08T15:45:56.005Z. Eight live HTTP checks passed:
-  build record, calculator, library, connected method, chemistry JS, sitemap, robots
-  and a genuine unknown-route 404. Changed content verified, not just HTTP status.
-- Local browser QA was skipped under managed Sites guidance; browser suite ran in
-  GitHub Actions. No new manual visual or scientific review is claimed.
-- This verification follow-up changes documentation only; implementation tested and
-  independently verified on Cloudflare is 8d8c157.
-- Next phase: experiment notebook with multiple saved trials, structured measured
-  test records, one-variable duplication and image support. Current study notes are
-  not that full notebook; public executable formulations still need source extraction.
-
----
-
-# Geopolymer Platform — HANDOFF
-Updated: 3 October 2026 • Owner: Isaac Anderson
-
-## Current increment
-Foundation implementation based on verified main
-8aec26b9dbb33cc62707f1956c6e79172f920264.
-Technical brief and market strategy reviewed before implementation.
-
-## Implemented
-- 30 real path routes with complete pre-rendered public HTML. All 39 library
-  references are readable without JavaScript. Existing content IDs/path names kept.
-- Existing hash links redirect to same-origin paths, preserving query parameters.
-  Native navigation supports refresh, browser back/forward and opening new tabs.
-- Unique titles/descriptions, canonical/Open Graph/Twitter metadata, 1200×630 share
-  image and scoped structured data. No invented product Offers or source authorship.
-- Generated sitemap.xml, robots.txt, llms.txt, build-info.json and custom HTTP 404.
-  Workspace/search noindex and excluded from sitemap. Cloudflare 404-page config.
-- One compact navigation header with native disclosure, no horizontally hidden menu,
-  keyboard/Escape handling and expanded state. All former routes remain accessible.
-- Always-visible reveal content and correctly sized curated research-card titles.
-- GP calculator chemistry, local save keys, JSON import/export, workspace drafts,
-  design and evidence distinctions preserved. Calculator working state retained
-  separately in sessionStorage when available during native navigation.
-
-## Verification / publication status
-- PASS: 17 Node tests, including chemistry, saved-data errors, unique metadata,
-  internal links, strict unknown-route handling and 39 pre-rendered references.
-- PASS: static production build (30 routes), JS syntax and git diff whitespace check.
-- PASS: GitHub browser workflow 37149893229 on ec043af. All 30 routes at
-  1440px/390px and with JS disabled; legacy hashes/queries, HTTP 404s, menu/skip
-  keyboard behavior, reduced motion, search/scaler, calculator/workspace local
-  save/reopen/download and storage failures. No JS errors.
-- PASS: 37 live Cloudflare HTTP checks: all 30 routes, sitemap/robots/llms/build info,
-  plus three invalid paths returning HTTP 404. Library HTML contains 39 references.
-  /build-info.json independently reported 77b7173bd42c1c71d71972c96010d0ecf94ae858.
-- Live cloud-browser inspection confirmed design and corrected menu keyboard focus.
-- Screenshot review found the animated hero could be captured mid-entrance. Automated
-  previews now skip that entrance; normal browsing retains it. The final CI run passed
-  the immediate-visibility assertion and uploaded desktop/mobile screenshots.
-- Local browser launch remains restricted by runtime sockets; the successful browser
-  suite ran on GitHub, not locally. No external rich-results validator claimed.
-- GitHub implementation release: ec043afdca75d81f290efb5e599b46772d676a83.
-- Cloudflare independently served that same commit in build-info.json at 20:00 UTC
-  on 3 October 2026. Live robots.txt matches generated crawl rules; /research/
-  redirects to /research. Follow-up documentation commits do not change tested code.
-
-## Deployment
-Cloudflare build: npm run build. Deploy: npx wrangler deploy (never --assets .).
-SITE_ORIGIN defaults to existing Cloudflare host until a custom domain is selected.
-Set it in build variables after attaching the custom domain. No final brand chosen.
-Verify /build-info.json commit, /library HTML, robots/sitemap and unknown-route HTTP
-404 independently of GitHub main publication. No dashboard crawler policy altered.
-
-## Scope / limits
-No accounts, shared projects, public submissions/reviews, live community, checkout,
-newsletter collection or stock claims. Products remain concepts. One curated
-publisher-summary record; 39 discovery records are not full-paper reviews.
-Local storage can be cleared. Save/export important work. Notebook import remains
-unimplemented; calculator import works. Session working-copy storage is best effort.
-No external rich-results-validator or assistive-technology audit claimed.
-
-## Next
-1. Keep the browser CI green and verify build-info.json after every deployment.
-2. Enrich research authors, access/license, full-text and correction/retraction checks.
-3. Structured ingredients/test results and reviewed unit/basis handling.
-4. Accounts and durable private storage/image permissions before shared publishing.
-5. Qualify maker/classroom products, shipping and supply; no sales before qualification.
-6. Newsletter provider/domain decisions; moderation/editors before public review/media.
-
-## Edit map
-README.md: run/build/deploy. DECISIONS.md: scope and implementation choices.
-PLATFORM_ROADMAP.md: staged production requirements.
-src/routes.js: public route registry. src/app.js: shared renderPage + enhancement.
-src/bootstrap.js: hash compatibility and menu. scripts/build.mjs: static HTML/SEO.
-site.config.mjs: canonical origin/update date. src/platform.js: workspace/catalog.
-src/gp-calculator.js + gp-chemistry.js: calculator. src/research-library.js: references.
-Do not weaken evidence distinctions or replace current stable IDs when expanding.
+## New-chat prompt
+Continue yitzhach/geopolymer from current main. Read HANDOFF.md and its narrow
+read map. The recipe/research/journal release is deployed. Review and integrate
+the two studies and briefing in draft PR #3, preserving evidence distinctions,
+then run checks and update the handoff. Do not rebuild completed features.
