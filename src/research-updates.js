@@ -67,3 +67,55 @@ export const researchUpdates = records.map(([slug,published,title,doi,journal,to
  url:'https://doi.org/'+doi,checked:'2026-10-10',added:'2026-10-10',summaryBasis:'Publisher abstract or indexed publisher overview; full methods not audited',
  access:'Read the source for full methods, current version and access terms',summaryAuthor:'Geopolymer Platform · AI-assisted discovery note'
 }));
+
+// Reviewed daily additions; original draft retained in research-drafts for provenance.
+researchUpdates.push({
+  "year": 2026,
+  "dateBasis": "Publisher version-of-record publication date",
+  "type": "Research article",
+  "publicationStatus": "Published; version of record",
+  "checked": "2026-10-10",
+  "added": "2026-10-10",
+  "summaryBasis": "Publisher abstract and landing-page metadata; full methods not audited",
+  "access": "Abstract-level evidence; dose, test methods and transferability require full-paper review. Not a universal finding about silanes.",
+  "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
+  "id": "research-silane-ternary",
+  "published": "2026-10-07",
+  "title": "Impact of Silane Coupling Agent on the Basic Properties and Durability of Ternary Composite Geopolymer",
+  "doi": "10.1007/s12633-026-03820-2",
+  "journal": "Silicon",
+  "topic": "Durability",
+  "publisherUrl": "https://link.springer.com/article/10.1007/s12633-026-03820-2",
+  "authors": "Jiesheng Liu, Taojie Song, Shengkun Tang, Yanxin Xiang and Ruijun Tang",
+  "summary": "A slag, fly ash and metakaolin study finds that KH-560 changes workability while weakening the tested hardened material.",
+  "highlights": [
+    "Longer setting and greater fluidity accompanied the additive in this system.",
+    "Higher additions reduced reported 28-day mechanical strength and resistance to freeze–thaw and sulfate exposure."
+  ],
+  "url": "https://doi.org/10.1007/s12633-026-03820-2"
+},
+{
+  "year": 2026,
+  "dateBasis": "Publisher version-of-record publication date",
+  "type": "Research article",
+  "publicationStatus": "Published; version of record",
+  "checked": "2026-10-10",
+  "added": "2026-10-10",
+  "summaryBasis": "Publisher abstract and landing-page metadata; full methods not audited",
+  "access": "Open access. Source-specific laboratory findings; no independent replication, unreported-age prediction or general environmental qualification established.",
+  "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
+  "id": "research-treated-incinerator-bottom-ash",
+  "published": "2026-10-03",
+  "title": "Mechanical and microstructural properties of pre-treated incinerator bottom ash as fly ash replacement in alkali-activated materials",
+  "doi": "10.1617/s11527-026-03289-w",
+  "journal": "Materials and Structures",
+  "topic": "Waste & biomass",
+  "publisherUrl": "https://link.springer.com/article/10.1617/s11527-026-03289-w",
+  "authors": "Muhammad Riaz Ahmad, Ahmed Mohamed Abbass, Jian-Guo Dai, Zhen Leng and Yanshuai Wang",
+  "summary": "Water pretreatment changes the performance of incinerator bottom ash used to replace fly ash in an alkali-activated binder.",
+  "highlights": [
+    "The study compares untreated ash with ash immersed for ten days.",
+    "At 20% fly-ash replacement, the treated-ash mixture retained control-level 28-day compressive strength."
+  ],
+  "url": "https://doi.org/10.1617/s11527-026-03289-w"
+});

@@ -39,12 +39,12 @@ Updated 10 October 2026 (Eastern).
   Hosting builds from main; never deploy the repository root using --assets .
 
 ## Remaining / next actions
-1. Review draft PR #3 (codex/daily-research-draft, 11d7464). It contains
-   research-drafts/2026-10-10.json: two additional studies and one briefing.
-   These are editorial drafts, NOT part of the 59 live references or four articles.
-   Review sources, append approved records to src/research-updates.js and
-   src/journal-data.js, adapt count assertions, run build/browser checks, then publish.
-   Do not merge the draft alone and describe it as a live content update.
+1. PR #3 source review and catalog integration are complete in this branch: two
+   additional studies and one briefing, now 61 references, five articles, 50 routes.
+   Original draft retained for provenance. Both publisher records were rechecked;
+   summary-level evidence and stable IDs preserved. All 37 Node tests and build pass.
+   Local browser launch unavailable (Chromium absent); GitHub browser gate pending.
+   Publication/live verification pending; prior release status above remains live.
 2. Verify the existing daily research automation configuration before creating any
    new schedule; the earlier session produced PR #3. This recovery did not inspect
    or change its schedule. Draft production is not unattended public publishing.
@@ -78,6 +78,6 @@ No silicate powder/liquid or supplier substitution without explicit basis checks
 
 ## New-chat prompt
 Continue yitzhach/geopolymer from current main. Read HANDOFF.md and its narrow
-read map. The recipe/research/journal release is deployed. Review and integrate
-the two studies and briefing in draft PR #3, preserving evidence distinctions,
-then run checks and update the handoff. Do not rebuild completed features.
+read map. The daily research integration is implemented; check release verification above.
+Next verify the existing daily research automation configuration before creating
+any schedule. Do not rebuild completed features.

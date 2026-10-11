@@ -35,7 +35,7 @@ test('unknown and malformed nested routes are 404 rather than existing page fall
 });
 test('library is rendered in HTML, crawl exclusions and evidence boundaries are retained', async () => {
   const html = await readFile('dist/library/index.html','utf8');
-  assert.equal((html.match(/class="record library-card"/g)||[]).length,59);
+  assert.equal((html.match(/class="record library-card"/g)||[]).length,61);
   assert.match(html,/Journal publication is not platform peer review/);
   const sitemap=await readFile('dist/sitemap.xml','utf8');
   assert.ok(!sitemap.includes('/workspace')); assert.ok(!sitemap.includes('/search'));
