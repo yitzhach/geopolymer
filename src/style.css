@@ -1162,8 +1162,8 @@ main{max-width:1440px;padding:0 32px 64px}
 #ra-launch.ra-active { outline:3px solid #cadd8c; outline-offset:3px; }
 #ra-selection { z-index:60; right:auto; left:50%; transform:translateX(-50%); bottom:84px; max-width:calc(100vw - 24px); width:max-content; background:#cadd8c; color:#123b35; border-color:#123b35; font-weight:700; }
 #ra-panel { position:fixed; z-index:50; right:18px; bottom:80px; width:460px; max-width:calc(100vw - 36px); height: min(790px,calc(100dvh - 104px)); background:#fff; border:1px solid var(--line); box-shadow:0 12px 65px #182c2930; display:flex; flex-direction:column; border-radius:10px; overflow:hidden; }
-.ra-header { padding:18px 20px; background:var(--accent); color:white; display:flex; align-items:center; justify-content:space-between; gap:12px; flex-shrink:0; }
-.ra-kicker { font-size:9px; letter-spacing:.16em; margin:0 0 5px; }
+.ra-header { width:100%; max-width:none; margin:0; flex-wrap:nowrap; padding:18px 20px; background:var(--accent); color:white; display:flex; align-items:center; justify-content:space-between; gap:12px; flex-shrink:0; }
+.ra-kicker { font-size:9px; letter-spacing:.16em; margin:0 0 5px; color:#dce7dc; }
 #ra-title { font-size:20px; font-weight:500; margin:0; letter-spacing:-.03em; }
 #ra-close { border:0; background:transparent; color:white; padding:9px; font-size:20px!important; }
 .ra-scroll { padding:18px 20px 24px; overflow:auto; overscroll-behavior:contain; min-height:0; }

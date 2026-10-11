@@ -11,6 +11,7 @@ const base=process.env.BASE_URL||'http://localhost:4173';
   await page.locator('#ra-selection').click();assert.match(await page.locator('#ra-excerpt').inputValue(),/Silane/);
   await page.locator('[data-prompt="Deep dive into this text"]').click();await page.locator('.ra-source').first().waitFor();
   assert.match(await page.locator('#ra-messages').innerText(),/KH-560/);
+  fs.mkdirSync('.qa',{recursive:true});await page.locator('#ra-panel').screenshot({path:`.qa/assistant-response-${width}.png`});
   await page.locator('#ra-question').fill('What about metakaolin products?');await page.locator('#ra-ask').click();
   await page.waitForFunction(()=>document.querySelectorAll('.ra-message').length===4);
   assert.match(await page.locator('#ra-messages').innerText(),/not available to order/);
