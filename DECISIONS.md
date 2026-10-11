@@ -195,3 +195,10 @@ Exact-age source observations are not performance predictions. No live AI model,
 backend or cloud database is claimed. RECIPE_DATABASE.md defines the next stages:
 complete assay/test data, retrieval advisor, held-out validated predictors and
 uncertainty-aware recipe variations. HANDOFF.md is authoritative for release status.
+
+## 10 October 2026 — daily research editorial integration
+
+Reviewed PR #3 against both primary publisher records and integrated two studies
+and one original briefing into the existing catalogs. Preserve the archived draft,
+source IDs, abstract-level evidence limits and separate publication/source dates.
+No schedule changes or unattended publishing added. See HANDOFF.md for verification.

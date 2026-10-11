@@ -1,7 +1,9 @@
 # Research database and GP Journal
 
 Updated 10 October 2026. This release adds 20 dated journal publications to the
-existing 39 references, plus four original AI-assisted editorial articles.
+existing 39 references, plus four original AI-assisted editorial articles. The reviewed PR #3 additions
+bring the current totals to 61 references (22 with discovery summaries) and five
+journal articles.
 The new selection covers 7 September–9 October 2026. It is a recent verified
 selection, not a claim to exhaustively rank the world's newest 20 papers.
 
@@ -60,3 +62,13 @@ references, routes and feed membership, along with calculator and notebook
 regressions. Browser CI exercises filtered search, reset, reading notes, article
 navigation, JSON/RSS endpoints and desktop/mobile page width. Existing browser
 checks also cover recipe scaling, calculator transfer and notebook preservation.
+
+## 10 October daily draft review
+
+Integrated both records and the briefing from PR #3 (11d7464), preserving IDs.
+Rechecked publisher titles, authors, version-of-record dates and abstract claims
+for DOI 10.1007/s12633-026-03820-2 and 10.1617/s11527-026-03289-w.
+Summaries remain abstract-level discovery notes; no full methods audit or
+independent replication is claimed. Removed the briefing’s pending-review text.
+The JSON in research-drafts remains the original historical submission, not a
+runtime content source. Its integration instructions describe the earlier main.

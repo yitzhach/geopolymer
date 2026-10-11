@@ -1,0 +1,81 @@
+{
+  "status": "Editorial draft only; not connected to site rendering",
+  "checked": "2026-10-10",
+  "window": "2026-10-03 through 2026-10-10; publisher date granularity",
+  "baseMain": "d3292b9f566c11aad076f1095414ddf3d23124f4",
+  "deduplication": "Checked 39 main catalog records and all 20 additional records in open release PR #2 at 720f77329f74340acf7c10ac412f6d840d88fe13. No open daily research draft existed.",
+  "integration": "RESEARCH_PUBLISHING.md, src/research-updates.js and src/journal-data.js are absent on main. After PR #2 lands, append these objects to the corresponding collections, retain IDs and run build/tests. Existing source schema preserved; limitations are in access/summaryBasis.",
+  "corrections": "Targeted publisher searches found no verified substantive correction or retraction published within this window. This is a bounded search, not an exhaustive integrity audit.",
+  "researchUpdates": [
+    {
+      "year": 2026,
+      "dateBasis": "Publisher version-of-record publication date",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "checked": "2026-10-10",
+      "added": "2026-10-10",
+      "summaryBasis": "Publisher abstract and landing-page metadata; full methods not audited",
+      "access": "Abstract-level evidence; dose, test methods and transferability require full-paper review. Not a universal finding about silanes.",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
+      "id": "research-silane-ternary",
+      "published": "2026-10-07",
+      "title": "Impact of Silane Coupling Agent on the Basic Properties and Durability of Ternary Composite Geopolymer",
+      "doi": "10.1007/s12633-026-03820-2",
+      "journal": "Silicon",
+      "topic": "Durability",
+      "publisherUrl": "https://link.springer.com/article/10.1007/s12633-026-03820-2",
+      "authors": "Jiesheng Liu, Taojie Song, Shengkun Tang, Yanxin Xiang and Ruijun Tang",
+      "summary": "A slag, fly ash and metakaolin study finds that KH-560 changes workability while weakening the tested hardened material.",
+      "highlights": [
+        "Longer setting and greater fluidity accompanied the additive in this system.",
+        "Higher additions reduced reported 28-day mechanical strength and resistance to freeze–thaw and sulfate exposure."
+      ],
+      "url": "https://doi.org/10.1007/s12633-026-03820-2"
+    },
+    {
+      "year": 2026,
+      "dateBasis": "Publisher version-of-record publication date",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "checked": "2026-10-10",
+      "added": "2026-10-10",
+      "summaryBasis": "Publisher abstract and landing-page metadata; full methods not audited",
+      "access": "Open access. Source-specific laboratory findings; no independent replication, unreported-age prediction or general environmental qualification established.",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
+      "id": "research-treated-incinerator-bottom-ash",
+      "published": "2026-10-03",
+      "title": "Mechanical and microstructural properties of pre-treated incinerator bottom ash as fly ash replacement in alkali-activated materials",
+      "doi": "10.1617/s11527-026-03289-w",
+      "journal": "Materials and Structures",
+      "topic": "Waste & biomass",
+      "publisherUrl": "https://link.springer.com/article/10.1617/s11527-026-03289-w",
+      "authors": "Muhammad Riaz Ahmad, Ahmed Mohamed Abbass, Jian-Guo Dai, Zhen Leng and Yanshuai Wang",
+      "summary": "Water pretreatment changes the performance of incinerator bottom ash used to replace fly ash in an alkali-activated binder.",
+      "highlights": [
+        "The study compares untreated ash with ash immersed for ten days.",
+        "At 20% fly-ash replacement, the treated-ash mixture retained control-level 28-day compressive strength."
+      ],
+      "url": "https://doi.org/10.1617/s11527-026-03289-w"
+    }
+  ],
+  "journalArticles": [
+    {
+      "id": "admixtures-and-precursors-need-controls",
+      "date": "2026-10-10",
+      "category": "Research briefing",
+      "topic": "Mix design & chemistry",
+      "title": "Before calling an addition an improvement, keep the control",
+      "summary": "Two new studies illustrate why workability and precursor treatment belong beside strength in a formulation record.",
+      "sources": [
+        "research-silane-ternary",
+        "research-treated-incinerator-bottom-ash"
+      ],
+      "paragraphs": [
+        "AI-assisted research briefing; editorial review pending.",
+        "Liu and colleagues report that KH-560 improved flow-related behavior in their ternary binder while reducing hardened performance. Easier placement alone therefore did not identify the better material in that study.",
+        "Ahmad and colleagues compare untreated and water-treated incinerator bottom ash. Their findings make preparation history an essential part of the material description, rather than treating every ash with the same name as interchangeable.",
+        "For our future formulation advisor, the editorial lesson is to retain a control, specify the desired property, and record precursor treatment and additive dose. Neither paper independently validates a user's recipe. This briefing supplies no strength timeline, flexural estimate or shear prediction."
+      ]
+    }
+  ]
+}

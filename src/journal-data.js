@@ -1,6 +1,23 @@
 // Original editorial notes; source papers remain with their publishers.
 export const journalArticles = [
  {
+  "id": "admixtures-and-precursors-need-controls",
+  "date": "2026-10-10",
+  "category": "Research briefing",
+  "topic": "Mix design & chemistry",
+  "title": "Before calling an addition an improvement, keep the control",
+  "summary": "Two new studies illustrate why workability and precursor treatment belong beside strength in a formulation record.",
+  "sources": [
+    "research-silane-ternary",
+    "research-treated-incinerator-bottom-ash"
+  ],
+  "paragraphs": [
+    "Liu and colleagues report that KH-560 improved flow-related behavior in their ternary binder while reducing hardened performance. Easier placement alone therefore did not identify the better material in that study.",
+    "Ahmad and colleagues compare untreated and water-treated incinerator bottom ash. Their findings make preparation history an essential part of the material description, rather than treating every ash with the same name as interchangeable.",
+    "For our future formulation advisor, the editorial lesson is to retain a control, specify the desired property, and record precursor treatment and additive dose. Neither paper independently validates a user's recipe. This briefing supplies no strength timeline, flexural estimate or shear prediction."
+  ]
+},
+ {
  id:'strength-is-not-one-number',date:'2026-10-10',category:'Research briefing',topic:'AI & modeling',title:'A virtual test needs more than one strength number',
  summary:'New modeling papers show why compressive strength, flexure and stiffness need separate evidence.',
  sources:['research-nano-models','research-hsom-strength','research-fem-review'],
