@@ -202,3 +202,14 @@ Reviewed PR #3 against both primary publisher records and integrated two studies
 and one original briefing into the existing catalogs. Preserve the archived draft,
 source IDs, abstract-level evidence limits and separate publication/source dates.
 No schedule changes or unattended publishing added. See HANDOFF.md for verification.
+
+## 10 October 2026 — research assistant test release
+
+Owner requested a working live assistant before providing API details. Add a
+site-wide nonmodal selection/research panel with deterministic catalog retrieval,
+follow-up questions, product-concept links and browser-local research folders.
+Label test mode explicitly: no connected LLM, live web search, purchase capability
+or performance predictions. Keep source summaries and evidence labels intact.
+Use separate versioned storage and portable backups; no cloud persistence implied.
+Future API keys belong in server secrets. See RESEARCH_ASSISTANT.md for the flow,
+data contract, failure behavior and provider integration plan.

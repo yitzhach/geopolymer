@@ -41,4 +41,7 @@ if (destination) {
     status.textContent = 'Interactive tools could not start. Reload to try again; the page content is still available.';
     document.querySelector('main').prepend(status);
   });
+  import('./research-assistant.js').then(({ mountAssistant }) => mountAssistant()).catch(error => {
+    console.error('Research assistant could not start', error);
+  });
 }

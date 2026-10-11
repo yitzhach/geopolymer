@@ -1,6 +1,15 @@
 # Geopolymer — current handoff
 Updated 10 October 2026 (Eastern).
 
+## Assistant implementation — pending release
+Owner requested a working live research assistant before API credentials exist.
+Implemented site-wide highlight assist, selected-text capture, catalog-backed
+research follow-ups, product-concept links, local folders/notes/conversations and
+JSON backups. Explicit test mode; no LLM or live web search.
+All 39 Node tests pass; build creates 50 routes. Browser CI and publication pending.
+Local Chromium installation failed; use GitHub Actions browser verification.
+See RESEARCH_ASSISTANT.md for UI, storage and future server-side API integration.
+
 ## Release status
 - Repository: https://github.com/yitzhach/geopolymer
 - Live: https://geopolymer.bobdylan2000.workers.dev
@@ -66,6 +75,7 @@ white/forest-green design. Literature results must never become own measurements
 No silicate powder/liquid or supplier substitution without explicit basis checks.
 
 ## Narrow read map
+- RESEARCH_ASSISTANT.md and src/assistant-core.js, research-assistant.js: test assistant.
 - RESEARCH_PUBLISHING.md: research schema, original-summary policy, feeds/workflow.
 - RECIPE_DATABASE.md: 15 recipes, extraction map, goal planner and future AI plan.
 - LITERATURE_MIXES.md and PYRAMENT_RESEARCH.md: provenance and unresolved caveats.
@@ -78,7 +88,7 @@ No silicate powder/liquid or supplier substitution without explicit basis checks
 - src/routes.js and scripts/build.mjs: routes/static output; tests/: regressions.
 
 ## New-chat prompt
-Continue yitzhach/geopolymer from current main. Read HANDOFF.md and its narrow
-read map. The daily research integration is implemented; check release verification above.
-Next verify the existing daily research automation configuration before creating
-any schedule. Do not rebuild completed features.
+Continue yitzhach/geopolymer from current main. Read HANDOFF.md and
+RESEARCH_ASSISTANT.md. Check release status, then connect the research assistant
+to a server-side provider when the owner supplies API details. Preserve catalog
+citations, test-mode fallback, local research folders and existing notebook keys.
