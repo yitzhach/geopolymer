@@ -1,25 +1,31 @@
 # Geopolymer — current handoff
-Updated 10 October 2026 (Eastern).
-
-## Assistant implementation — pending release
-Owner requested a working live research assistant before API credentials exist.
-Implemented site-wide highlight assist, selected-text capture, catalog-backed
-research follow-ups, product-concept links, local folders/notes/conversations and
-JSON backups. Explicit test mode; no LLM or live web search.
-All 39 Node tests pass; build creates 50 routes. Browser CI and publication pending.
-Local Chromium installation failed; use GitHub Actions browser verification.
-See RESEARCH_ASSISTANT.md for UI, storage and future server-side API integration.
+Updated 11 October 2026 (Eastern).
 
 ## Release status
-- Repository: https://github.com/yitzhach/geopolymer
 - Live: https://geopolymer.bobdylan2000.workers.dev
-- PR #3 merged to main as 6a5986bfcbb5a6c4fb11dbc6810ccefd5a2c5b2c.
-  Reviewed feature head: c13627a. Previous main: 14e0a68.
-- Independently verified live build-info.json reports 6a5986b, build time
-  2026-10-11T02:21:43.415Z, 50 routes. Cache-busted live checks confirm
-  61 research records, both new IDs, five JSON/RSS articles and the new briefing.
+- Repository: https://github.com/yitzhach/geopolymer
+- PR #4 merged as 4a7b8e4940013cf448d9dbe2a7b6e84636a3af2c.
+  Feature head: 28e9056. Previous main: fac389b.
+- Independently verified live build-info.json reports 4a7b8e4, build time
+  2026-10-11T03:06:56.524Z, 50 routes. Rechecked on 11 October (Eastern).
+- Live bootstrap loads the assistant; assistant UI/core modules and corrected
+  header CSS all return successfully with the expected feature code.
 - This handoff is a subsequent documentation-only commit. Release is complete.
-- Remote branches and original draft preserved. No force pushes.
+
+## Research assistant — completed and live
+- Site-wide Research assistant launcher and nonmodal panel. Enable Highlight
+  assist mode, close the panel, select page text and click Research selected text.
+  Pasting a topic and asking a question also work.
+- Catalog-based test responses, follow-up searches, source links with existing
+  summaries/evidence limits, and clearly unavailable product-concept links.
+- Browser-local folders save excerpts, page references, notes and conversations.
+  Updates, reopening, deletion, JSON export/import-as-copy and session recovery.
+- Separate versioned storage; existing notebook/calculator keys are unchanged.
+  Invalid imports are rejected. Storage errors and cross-tab conflicts retain
+  work in memory for export rather than claiming it was saved.
+- Explicit test mode: no connected AI model, live web search, cloud sync or
+  checkout. Product matches are concepts, not compatibility recommendations.
+- See RESEARCH_ASSISTANT.md for the flow and future server-side API boundary.
 
 ## Completed and live
 - Fifteen source-linked formulations, including ten additions: potassium/sodium
@@ -37,15 +43,17 @@ See RESEARCH_ASSISTANT.md for UI, storage and future server-side API integration
 - Mobile recipe-table overflow and calculator browser-test timing were fixed.
 
 ## Verification
-- All 37 Node tests pass; production build creates 50 routes.
-- GitHub Actions run 38104805366 on feature head c13627a passed all steps,
-  including desktop/mobile, notebook, literature and research browser suites.
-- Research browser coverage includes the new briefing at desktop/mobile widths.
-  CI uploaded screenshots; no manual screenshot review performed in this session.
-- Local browser launch was unavailable because Chromium was not installed.
-- Live build identity, database IDs/count, JSON/RSS counts and new article verified.
-- Commands: npm test; npm run build. Browser workflow: .github/workflows/verify.yml.
-  Hosting builds from main; never deploy the repository root using --assets .
+- All 39 Node tests pass; production build creates 50 routes.
+- GitHub Actions run 38107206079 on 28e9056 passed all existing browser suites
+  and the new assistant desktop/mobile suite: selection, follow-ups, products,
+  folders, updates, navigation recovery, export/import, markup escaping,
+  keyboard close, cross-tab conflicts and storage quota failure.
+- Downloaded and visually reviewed desktop/mobile assistant screenshots.
+  Fixed inherited header margins; reviewed the corrected response screenshots.
+- Local Chromium installation failed; browser execution was through GitHub CI.
+- Live build identity and assistant assets verified separately after deployment.
+- Commands: npm test; npm run build; node tests/assistant-browser.cjs.
+  CI: .github/workflows/verify.yml. Never deploy repository root with --assets .
 
 ## Daily draft review completed
 PR #3's two studies and briefing are integrated and live. Publisher authors,
@@ -55,12 +63,17 @@ replication is claimed. The original research-drafts/2026-10-10.json is an archi
 whose pending status describes its original submission, not current deployment.
 
 ## Remaining / next actions
-1. Verify the existing daily research automation configuration before creating any
+1. Connect the assistant to a server-side AI provider when the owner supplies API
+   details. Decide model, request/spend limits, data disclosure and retention.
+   Keep citations and working catalog fallback. API keys must stay server-side.
+   Extend response-mode validation and UI labels together when adding real AI;
+   never label generated replies as catalog tests. See RESEARCH_ASSISTANT.md.
+2. Verify the existing daily research automation configuration before creating any
    new schedule; the earlier session produced PR #3. This session did not inspect
    or change its schedule. Draft production is not unattended public publishing.
-2. Enrich recipe evidence: complete assays, material grades, preparation, replicates,
+3. Enrich recipe evidence: complete assays, material grades, preparation, replicates,
    test methods and source discrepancies. See the recipe documents below.
-3. Next substantial product phase: choose accounts/cloud storage and image-upload
+4. Next substantial product phase: choose accounts/cloud storage and image-upload
    architecture, or implement the cited retrieval advisor from RECIPE_DATABASE.md.
    AI strength prediction remains future work requiring validated data/models,
    domain checks and uncertainty intervals, separately for each property/age.
@@ -89,6 +102,6 @@ No silicate powder/liquid or supplier substitution without explicit basis checks
 
 ## New-chat prompt
 Continue yitzhach/geopolymer from current main. Read HANDOFF.md and
-RESEARCH_ASSISTANT.md. Check release status, then connect the research assistant
+RESEARCH_ASSISTANT.md. The assistant test release is verified live. Connect the research assistant
 to a server-side provider when the owner supplies API details. Preserve catalog
 citations, test-mode fallback, local research folders and existing notebook keys.
