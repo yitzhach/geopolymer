@@ -213,3 +213,20 @@ or performance predictions. Keep source summaries and evidence labels intact.
 Use separate versioned storage and portable backups; no cloud persistence implied.
 Future API keys belong in server secrets. See RESEARCH_ASSISTANT.md for the flow,
 data contract, failure behavior and provider integration plan.
+
+
+## 11 October 2026 — scientific knowledge engine planning
+
+Owner requested consolidation of two detailed prompts into a repository master
+prompt before implementation in a new chat. KNOWLEDGE_ENGINE_MASTER_PROMPT.md is
+the canonical plan for this phase: hundreds of references, granular study evidence,
+original encyclopedia pages, success/failure relationships, materials and suppliers.
+Start with a 25-reference/5-paper pilot, then grow toward 300 and 500 publications
+with separate extraction-depth milestones. Preserve existing IDs and local data.
+Use the existing Git-backed foundation when backend/AI credentials are absent;
+D1/vector infrastructure is staged rather than a prerequisite. Permissions are
+operation-specific; numeric queries must match conditions within the same mix.
+Review coverage, AI/source checks, human review and scientific replication remain
+separate concepts. Commercial leads never imply compatibility or available stock.
+This is documentation only, not implementation or new research ingestion. No live
+feature, reference-count or deployment-verification change is claimed here.
