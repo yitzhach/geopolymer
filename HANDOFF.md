@@ -62,7 +62,30 @@ Stable IDs and abstract-level limitations remain; no methods audit or independen
 replication is claimed. The original research-drafts/2026-10-10.json is an archive
 whose pending status describes its original submission, not current deployment.
 
+## Knowledge engine — next implementation priority
+Owner requested a much deeper library with hundreds of publications, original
+encyclopedia pages, granular experimental evidence, failed/null outcomes, material
+identities and supplier sourcing. The two supplied prompts are consolidated into
+[KNOWLEDGE_ENGINE_MASTER_PROMPT.md](KNOWLEDGE_ENGINE_MASTER_PROMPT.md).
+
+Documentation only: no new references, database services, AI connection or website
+features were implemented in this planning session. The release/test evidence above
+belongs to the previous assistant release and was not rerun for these docs.
+
+In the next chat, execute Phase A: audit current main and reconcile existing IDs;
+build a reusable rights-aware schema/import/search foundation; target 25 new
+verified references and deep extraction of 5 suitable experimental papers, with
+study pages, structured measurements and exact provenance. Preserve the 61-reference
+and 15-formulation planning baseline, verifying actual counts before migration.
+Use the existing Git-backed data path if backend/AI credentials are absent.
+Subsequent batches target 300 then 500 total references, 25 then 100 deeply extracted
+papers, linked encyclopedia topics and documented material/supplier records.
+Counts are targets, not claims of completion. See the master prompt for acceptance
+gates, failure evidence, same-mix search joins, review labels and resumable batches.
+
 ## Remaining / next actions
+0. Execute the knowledge-engine pilot above when the owner launches the next chat.
+   This is the next product priority; API connection can follow when details arrive.
 1. Connect the assistant to a server-side AI provider when the owner supplies API
    details. Decide model, request/spend limits, data disclosure and retention.
    Keep citations and working catalog fallback. API keys must stay server-side.
@@ -101,7 +124,4 @@ No silicate powder/liquid or supplier substitution without explicit basis checks
 - src/routes.js and scripts/build.mjs: routes/static output; tests/: regressions.
 
 ## New-chat prompt
-Continue yitzhach/geopolymer from current main. Read HANDOFF.md and
-RESEARCH_ASSISTANT.md. The assistant test release is verified live. Connect the research assistant
-to a server-side provider when the owner supplies API details. Preserve catalog
-citations, test-mode fallback, local research folders and existing notebook keys.
+Continue yitzhach/geopolymer from current main. Read HANDOFF.md and KNOWLEDGE_ENGINE_MASTER_PROMPT.md, then the supporting documents they identify. Execute Phase A of the master prompt: audit the current catalog, implement a reusable permissions-aware scientific data/import/search foundation, preserve the existing references and stable IDs, add an initial batch of 25 verified relevant unique references, and deeply extract 5 suitable experimental papers with formulations, results, failures and precise provenance. Add linked study details and useful structured search to the existing site. Use the working Git-backed path if backend or AI credentials are absent; do not block useful progress on those credentials. Do not claim later phases are complete. Verify the existing daily automation before adding schedules. Run relevant tests/build/browser checks, follow the session's publication authorization, and update handoff with exact counts, blockers and the next resumable batch. Work toward 300, then 500 references through subsequent verified batches.
