@@ -1,3 +1,5 @@
+import {knowledgeReferences} from './knowledge-references.js';
+import {knowledgePage,studyPage,attachKnowledge} from './knowledge-ui.js';
 import { journalArticles } from './journal-data.js';
 import { journalPage,journalDetail,attachJournal } from './journal.js';
 import {literatureMixes} from './literature-mixes.js';
@@ -364,6 +366,8 @@ export function renderPage(url = "/") {
       "Return to the material library or search the prototype.",
     ) + link("/search", "Search the platform", "button");
   switch (area) {
+    case "knowledge": html=knowledgePage(); title="Experimental evidence search"; break;
+    case "studies": {const p=knowledgeReferences.find(p=>p.id===id); html=p?studyPage(p):notFound();title=p?.title||"Study not found";break;}
     case "calculator": html=calculatorPage(); title="GP calculator"; break;
     case "library": html=libraryPage(); title="Research Library"; break;
     case "journal": { const article=journalArticles.find(p=>p.id===id); html=id?(article?journalDetail(article):notFound()):journalPage(); title=article?.title||"GP Journal · Magazine & podcast"; break; }
@@ -439,6 +443,7 @@ export async function enhancePage() {
   attachPlatform(area);
   if (area === "calculator") attachCalculator();
   if (area === "library") attachLibrary();
+  if (["knowledge","studies"].includes(area)) attachKnowledge();
   if (area === "journal") attachJournal();
   if (area === "formulations") attachMix();
   document.querySelectorAll('nav a').forEach(a => {

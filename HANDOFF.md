@@ -1,6 +1,113 @@
 # Geopolymer — current handoff
-Updated 11 October 2026 (Eastern).
+Updated 12 October 2026 (Eastern).
 
+## Phase A implementation — review branch, not deployed
+- Base: main `a1dd73c`. Published review branch: `codex/knowledge-engine-phase-a`.
+- Draft PR #6: https://github.com/yitzhach/geopolymer/pull/6. Owner approved
+  branch publication and browser QA on 12 October; no merge/deploy requested.
+- Follow-up implementation `568d4e62452df88d5c04926196e52744074c1715`.
+  Earlier verified implementation `8eaf0f244a8faa575e5a9ad4c64982c0b6fc64c7`;
+  initial implementation `a97a00e`, navigation/count fix `ace84d7`, mobile title
+  wrapping fix `93c4e1b`, saved-folder browser assertion fix `8eaf0f2`.
+  Git trees matched the prepared local implementation; GitHub connector was used
+  because command-line Git had no push credentials.
+- Baseline verified: 61 unique library DOIs and 15 curated literature formulations.
+  Final library: 86 unique DOIs, 25 additions, no merges/deletions; stable IDs kept.
+- Five full texts have detailed **partial** extraction: 62 mix variants, 255 result
+  cells (252 numeric + 3 below detection), 27 transcribed tables, 53 figure entries,
+  12 unfavorable/null/mixed findings, 18 historical research material identities.
+  Five study dataset families; variants are not independent replication.
+- Twenty new records are metadata-only; five are authorized full-text partial
+  records. Of the legacy 61, 22 have discovery summaries and 39 have metadata.
+  Do not call all 86 newly source audited, or all five fully extracted.
+- Added reusable versioned validation/import/rights/search modules; 25 study
+  routes; structured same-mix search, explicit partial matches, pagination,
+  shareable filters, study-condition comparison, JSON/BibTeX/RIS exports,
+  observation/study saves through existing assistant folders.
+- Calculator links are citation-only unless an existing curated recipe already
+  has its own preview/scaling flow. No guessed mass transfers, assays or strength
+  predictions. Calculator/notebook/research folder storage keys remain unchanged.
+- Assistant still catalog-test mode. Deep-dive retrieval up to 10 references;
+  paginated numeric evidence is in /knowledge. No model, paid service or schedule
+  added. Existing daily automation was not inspected or changed in this phase.
+- Read KNOWLEDGE_ENGINE.md for architecture, rights policy, importer and limits;
+  research/batches/phase-a-2026-10-12.json and phase-a-source-audit.json for evidence.
+
+## Verification for this branch
+- 51 Node tests pass after the follow-up, including source-label and aggregate checks.
+- Initial source audit checks 182 observation cells, 27 table
+  transcriptions and original HTML hashes; same-agent AI second pass checked
+  extreme values, failures, methods, units and conversions. No human/domain review.
+- Production build creates 76 routes. Local Playwright browser installation failed
+  with an invalid/truncated download. GitHub run 38252231782 passed all 49 Node
+  tests and all six browser suites on implementation `8eaf0f2`:
+  https://github.com/yitzhach/geopolymer/actions/runs/38252231782.
+  Suites: route smoke (76 routes), notebook, literature, research, assistant,
+  knowledge. Desktop/mobile checks include filters, abstention, pagination,
+  shared URLs, censored results, saving and exports.
+  Visually reviewed six 1440px/390px viewport screenshots for /knowledge and
+  studies ke-5396/ke-2957 from artifact 11748471985: readable responsive titles,
+  controls and partial-extraction notices. These are viewport, not full-page,
+  screenshots; automated route checks cover horizontal overflow.
+  A pre-QA review corrected the no-JavaScript catalog count (86) and prevented
+  initial evidence rendering from changing canonical/legacy-hash URLs.
+- Synthetic scale benchmark: 500 / 1,000 metadata records; p95 search 1.55 / 2.49 ms;
+  JSON payload 590,031 / 1,180,391 bytes (gzip 14,312 / 24,573). Fixtures are not in
+  the public scientific catalog. These figures do not benchmark 1,000 full papers.
+- Production output: 2,604,967 bytes at the follow-up local build.
+- Actual importer CLI ran twice against the same 25-record input: atomic
+  checkpoint retained exactly 25 records and 25 acceptance events.
+- No live deployment or new build identity verified for this branch.
+
+## Remaining acceptance work and next resumable batch
+1. Browser QA and screenshot review are complete for `568d4e6`. PR #6 remains
+   draft because scientific extraction acceptance is incomplete. Main/live have
+   not changed. Resume from `codex/knowledge-engine-phase-a` / PR #6, not main;
+   no merge or deployment was requested. This handoff update is documentation only.
+2. Five full-paper inventories remain partial: graph-only series, analytical
+   profiles and some method details need reviewed extraction/digitization or
+   underlying source data. No estimated graph values are in exact numeric search.
+   Phase A breadth target is met; complete extraction acceptance is **not** claimed.
+3. Preserve unresolved issues on study pages: humidity conflict and misordered
+   relative comparisons in ma15082944; slag fraction wording versus mass table in
+   ma15010211; unquantified laboratory temperature and mixed Na/K in ma15082957.
+4. Status follow-up checked the five PMC experimental article copies; no notices
+   found. Publisher requests returned HTTP 429 and PubMed browser challenges, so
+   those checks remain unresolved. The other twenty additions have only their
+   Crossref check. No absent notice proves a clean status.
+5. Finish the pilot before breadth expansion: ma12060902 Figure 9 needs calibrated
+   shape-retention extraction; ma15010211 Figures 1–2 require resolving displayed
+   replicate points; ma15082944 shrinkage curves need sign/baseline-aware
+   digitization; ma14185396 analytical profiles include unprinted data. Preserve
+   missing uncertainty and all source conflicts. Then a <=25-reference batch should broaden beyond the pilot's shrinkage/MK/slag
+   citation chain to coffee char versus ash, coating adhesion, failed setting,
+   other publishers and material supply routes. Full-text operations for the
+   twenty metadata additions remain unassessed. No encyclopedia pages or current
+   supplier offerings have been created; those are subsequent phases.
+
+## Follow-up checkpoint — 12 October 2026
+- Added 73 exact reported values: 69 printed figure labels and four previously
+  missed validation results; two additional validation mixtures. Totals above
+  supersede the first QA run's 60 mixes / 182 observations.
+- All additions have source locators, two-pass same-agent review and an audit
+  manifest. No graph-estimated values introduced. Figure-only curves and error
+  magnitudes still pending; five full-text records remain partial.
+- Recomputed all 216 K/k/R factor summaries in ma15082957; 18 disagreements with
+  primary tables retained and disclosed. No unsupported correction or optimum.
+- Expanded methods for all five papers; fixed acid-test initial cure to 28 days;
+  preserved shared-tank and omitted-profile limitations. Added two failure/mixed
+  findings (12 total). Schema/foreign-key validation and 76-route build pass.
+- Follow-up implementation `568d4e62452df88d5c04926196e52744074c1715` passes
+  all 51 Node tests and all six browser suites in run 38319716460:
+  https://github.com/yitzhach/geopolymer/actions/runs/38319716460.
+  Artifact 11778690860 contains desktop/mobile screenshots. Visually reviewed
+  four viewports: knowledge at 1440/390 px, ke-2957 at 390 px and ke-5396 at
+  1440 px; counts, wrapping and partial/source-status disclosures are readable.
+  This final handoff/documentation update does not change the verified code.
+- Read phase-a-followup-source-audit.json, phase-a-factor-audit.json and
+  phase-a-status-followup.json. Resume on PR #6; not merged or deployed.
+
+## Previous production release (historical evidence, unchanged)
 ## Release status
 - Live: https://geopolymer.bobdylan2000.workers.dev
 - Repository: https://github.com/yitzhach/geopolymer

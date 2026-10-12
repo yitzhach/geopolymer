@@ -1,0 +1,2 @@
+{"fixture":"synthetic metadata; no fabricated research in public catalog","records":500,"importMs":71.54044800000001,"p95SearchMs":1.5477949999999794,"jsonBytes":590031,"gzipBytes":14312}
+{"fixture":"synthetic metadata; no fabricated research in public catalog","records":1000,"importMs":197.45586299999997,"p95SearchMs":2.494042000000036,"jsonBytes":1180391,"gzipBytes":24573}

@@ -1,0 +1,3970 @@
+{
+  "schemaVersion": 1,
+  "publicationId": "ke-2957",
+  "checked": "2026-10-12",
+  "basis": "Tables 3–4 measurements versus Tables 5–8 author sums, means and ranges",
+  "reviewer": "deterministic arithmetic plus Codex AI source review; no human/domain review",
+  "policy": "Preserve source cells. Disputed aggregates are not observations and must not drive a numeric recommendation. No inference about which source input is wrong.",
+  "checks": [
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "K1",
+      "sourceText": "77.51",
+      "calculated": 77.51,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-1",
+        "2957-obs-5",
+        "2957-obs-9",
+        "2957-obs-13"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "K2",
+      "sourceText": "145.20",
+      "calculated": 145.2,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-17",
+        "2957-obs-21",
+        "2957-obs-25",
+        "2957-obs-29"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "K3",
+      "sourceText": "195.50",
+      "calculated": 195.5,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-33",
+        "2957-obs-37",
+        "2957-obs-41",
+        "2957-obs-45"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "K4",
+      "sourceText": "198.33",
+      "calculated": 198.33,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-49",
+        "2957-obs-53",
+        "2957-obs-57",
+        "2957-obs-61"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "k1",
+      "sourceText": "19.38",
+      "calculated": 19.3775,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-1",
+        "2957-obs-5",
+        "2957-obs-9",
+        "2957-obs-13"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "k2",
+      "sourceText": "36.30",
+      "calculated": 36.3,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-17",
+        "2957-obs-21",
+        "2957-obs-25",
+        "2957-obs-29"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "k3",
+      "sourceText": "48.88",
+      "calculated": 48.875,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-33",
+        "2957-obs-37",
+        "2957-obs-41",
+        "2957-obs-45"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "k4",
+      "sourceText": "49.58",
+      "calculated": 49.5825,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-49",
+        "2957-obs-53",
+        "2957-obs-57",
+        "2957-obs-61"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "R",
+      "sourceText": "30.21",
+      "calculated": 30.205,
+      "tolerance": 0.02,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-1",
+        "2957-obs-5",
+        "2957-obs-9",
+        "2957-obs-13",
+        "2957-obs-17",
+        "2957-obs-21",
+        "2957-obs-25",
+        "2957-obs-29",
+        "2957-obs-33",
+        "2957-obs-37",
+        "2957-obs-41",
+        "2957-obs-45",
+        "2957-obs-49",
+        "2957-obs-53",
+        "2957-obs-57",
+        "2957-obs-61"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "K1",
+      "sourceText": "140.99",
+      "calculated": 140.99,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-1",
+        "2957-obs-17",
+        "2957-obs-33",
+        "2957-obs-49"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "K2",
+      "sourceText": "162.19",
+      "calculated": 162.19,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-5",
+        "2957-obs-21",
+        "2957-obs-37",
+        "2957-obs-53"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "K3",
+      "sourceText": "181.48",
+      "calculated": 181.48,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-9",
+        "2957-obs-25",
+        "2957-obs-41",
+        "2957-obs-57"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "K4",
+      "sourceText": "131.88",
+      "calculated": 131.88,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-13",
+        "2957-obs-29",
+        "2957-obs-45",
+        "2957-obs-61"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "k1",
+      "sourceText": "35.25",
+      "calculated": 35.2475,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-1",
+        "2957-obs-17",
+        "2957-obs-33",
+        "2957-obs-49"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "k2",
+      "sourceText": "40.55",
+      "calculated": 40.5475,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-5",
+        "2957-obs-21",
+        "2957-obs-37",
+        "2957-obs-53"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "k3",
+      "sourceText": "45.37",
+      "calculated": 45.37,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-9",
+        "2957-obs-25",
+        "2957-obs-41",
+        "2957-obs-57"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "k4",
+      "sourceText": "32.97",
+      "calculated": 32.97,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-13",
+        "2957-obs-29",
+        "2957-obs-45",
+        "2957-obs-61"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "R",
+      "sourceText": "12.40",
+      "calculated": 12.4,
+      "tolerance": 0.02,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-1",
+        "2957-obs-17",
+        "2957-obs-33",
+        "2957-obs-49",
+        "2957-obs-5",
+        "2957-obs-21",
+        "2957-obs-37",
+        "2957-obs-53",
+        "2957-obs-9",
+        "2957-obs-25",
+        "2957-obs-41",
+        "2957-obs-57",
+        "2957-obs-13",
+        "2957-obs-29",
+        "2957-obs-45",
+        "2957-obs-61"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "K1",
+      "sourceText": "159.59",
+      "calculated": 159.59,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-1",
+        "2957-obs-21",
+        "2957-obs-41",
+        "2957-obs-61"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "K2",
+      "sourceText": "150.42",
+      "calculated": 150.42,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-5",
+        "2957-obs-17",
+        "2957-obs-45",
+        "2957-obs-57"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "K3",
+      "sourceText": "151.73",
+      "calculated": 151.73,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-9",
+        "2957-obs-29",
+        "2957-obs-33",
+        "2957-obs-53"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "K4",
+      "sourceText": "154.80",
+      "calculated": 154.8,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-13",
+        "2957-obs-25",
+        "2957-obs-37",
+        "2957-obs-49"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "k1",
+      "sourceText": "39.90",
+      "calculated": 39.8975,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-1",
+        "2957-obs-21",
+        "2957-obs-41",
+        "2957-obs-61"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "k2",
+      "sourceText": "37.61",
+      "calculated": 37.605,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-5",
+        "2957-obs-17",
+        "2957-obs-45",
+        "2957-obs-57"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "k3",
+      "sourceText": "37.93",
+      "calculated": 37.9325,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-9",
+        "2957-obs-29",
+        "2957-obs-33",
+        "2957-obs-53"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "k4",
+      "sourceText": "38.70",
+      "calculated": 38.7,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-13",
+        "2957-obs-25",
+        "2957-obs-37",
+        "2957-obs-49"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "R",
+      "sourceText": "2.29",
+      "calculated": 2.2925,
+      "tolerance": 0.02,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-1",
+        "2957-obs-21",
+        "2957-obs-41",
+        "2957-obs-61",
+        "2957-obs-5",
+        "2957-obs-17",
+        "2957-obs-45",
+        "2957-obs-57",
+        "2957-obs-9",
+        "2957-obs-29",
+        "2957-obs-33",
+        "2957-obs-53",
+        "2957-obs-13",
+        "2957-obs-25",
+        "2957-obs-37",
+        "2957-obs-49"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "K1",
+      "sourceText": "15.47",
+      "calculated": 15.47,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-3",
+        "2957-obs-7",
+        "2957-obs-11",
+        "2957-obs-15"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "K2",
+      "sourceText": "23.51",
+      "calculated": 23.51,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-19",
+        "2957-obs-23",
+        "2957-obs-27",
+        "2957-obs-31"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "K3",
+      "sourceText": "22.57",
+      "calculated": 22.57,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-35",
+        "2957-obs-39",
+        "2957-obs-43",
+        "2957-obs-47"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "K4",
+      "sourceText": "25.77",
+      "calculated": 25.77,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-51",
+        "2957-obs-55",
+        "2957-obs-59",
+        "2957-obs-63"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "k1",
+      "sourceText": "3.87",
+      "calculated": 3.8675,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-3",
+        "2957-obs-7",
+        "2957-obs-11",
+        "2957-obs-15"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "k2",
+      "sourceText": "5.88",
+      "calculated": 5.8775,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-19",
+        "2957-obs-23",
+        "2957-obs-27",
+        "2957-obs-31"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "k3",
+      "sourceText": "5.64",
+      "calculated": 5.6425,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-35",
+        "2957-obs-39",
+        "2957-obs-43",
+        "2957-obs-47"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "k4",
+      "sourceText": "6.44",
+      "calculated": 6.4425,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-51",
+        "2957-obs-55",
+        "2957-obs-59",
+        "2957-obs-63"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "R",
+      "sourceText": "2.58",
+      "calculated": 2.575,
+      "tolerance": 0.02,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-3",
+        "2957-obs-7",
+        "2957-obs-11",
+        "2957-obs-15",
+        "2957-obs-19",
+        "2957-obs-23",
+        "2957-obs-27",
+        "2957-obs-31",
+        "2957-obs-35",
+        "2957-obs-39",
+        "2957-obs-43",
+        "2957-obs-47",
+        "2957-obs-51",
+        "2957-obs-55",
+        "2957-obs-59",
+        "2957-obs-63"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "K1",
+      "sourceText": "21.53",
+      "calculated": 21.53,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-3",
+        "2957-obs-19",
+        "2957-obs-35",
+        "2957-obs-51"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "K2",
+      "sourceText": "24.67",
+      "calculated": 24.67,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-7",
+        "2957-obs-23",
+        "2957-obs-39",
+        "2957-obs-55"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "K3",
+      "sourceText": "24.82",
+      "calculated": 24.82,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-11",
+        "2957-obs-27",
+        "2957-obs-43",
+        "2957-obs-59"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "K4",
+      "sourceText": "16.30",
+      "calculated": 16.3,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-15",
+        "2957-obs-31",
+        "2957-obs-47",
+        "2957-obs-63"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "k1",
+      "sourceText": "5.38",
+      "calculated": 5.3825,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-3",
+        "2957-obs-19",
+        "2957-obs-35",
+        "2957-obs-51"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "k2",
+      "sourceText": "6.17",
+      "calculated": 6.1675,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-7",
+        "2957-obs-23",
+        "2957-obs-39",
+        "2957-obs-55"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "k3",
+      "sourceText": "6.21",
+      "calculated": 6.205,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-11",
+        "2957-obs-27",
+        "2957-obs-43",
+        "2957-obs-59"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "k4",
+      "sourceText": "4.08",
+      "calculated": 4.075,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-15",
+        "2957-obs-31",
+        "2957-obs-47",
+        "2957-obs-63"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "R",
+      "sourceText": "2.13",
+      "calculated": 2.13,
+      "tolerance": 0.02,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-3",
+        "2957-obs-19",
+        "2957-obs-35",
+        "2957-obs-51",
+        "2957-obs-7",
+        "2957-obs-23",
+        "2957-obs-39",
+        "2957-obs-55",
+        "2957-obs-11",
+        "2957-obs-27",
+        "2957-obs-43",
+        "2957-obs-59",
+        "2957-obs-15",
+        "2957-obs-31",
+        "2957-obs-47",
+        "2957-obs-63"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "K1",
+      "sourceText": "22.98",
+      "calculated": 22.98,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-3",
+        "2957-obs-23",
+        "2957-obs-43",
+        "2957-obs-63"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "K2",
+      "sourceText": "23.22",
+      "calculated": 23.22,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-7",
+        "2957-obs-19",
+        "2957-obs-47",
+        "2957-obs-59"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "K3",
+      "sourceText": "22.89",
+      "calculated": 22.89,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-11",
+        "2957-obs-31",
+        "2957-obs-35",
+        "2957-obs-55"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "K4",
+      "sourceText": "18.23",
+      "calculated": 18.23,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-15",
+        "2957-obs-27",
+        "2957-obs-39",
+        "2957-obs-51"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "k1",
+      "sourceText": "5.75",
+      "calculated": 5.745,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-3",
+        "2957-obs-23",
+        "2957-obs-43",
+        "2957-obs-63"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "k2",
+      "sourceText": "5.81",
+      "calculated": 5.805,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-7",
+        "2957-obs-19",
+        "2957-obs-47",
+        "2957-obs-59"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "k3",
+      "sourceText": "5.72",
+      "calculated": 5.7225,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-11",
+        "2957-obs-31",
+        "2957-obs-35",
+        "2957-obs-55"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "k4",
+      "sourceText": "4.56",
+      "calculated": 4.5575,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-15",
+        "2957-obs-27",
+        "2957-obs-39",
+        "2957-obs-51"
+      ]
+    },
+    {
+      "table": "Table 5",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "R",
+      "sourceText": "1.25",
+      "calculated": 1.2475,
+      "tolerance": 0.02,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-3",
+        "2957-obs-23",
+        "2957-obs-43",
+        "2957-obs-63",
+        "2957-obs-7",
+        "2957-obs-19",
+        "2957-obs-47",
+        "2957-obs-59",
+        "2957-obs-11",
+        "2957-obs-31",
+        "2957-obs-35",
+        "2957-obs-55",
+        "2957-obs-15",
+        "2957-obs-27",
+        "2957-obs-39",
+        "2957-obs-51"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "K1",
+      "sourceText": "130.53",
+      "calculated": 130.53,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-2",
+        "2957-obs-6",
+        "2957-obs-10",
+        "2957-obs-14"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "K2",
+      "sourceText": "200.66",
+      "calculated": 200.66,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-18",
+        "2957-obs-22",
+        "2957-obs-26",
+        "2957-obs-30"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "K3",
+      "sourceText": "231.30",
+      "calculated": 231.3,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-34",
+        "2957-obs-38",
+        "2957-obs-42",
+        "2957-obs-46"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "K4",
+      "sourceText": "233.31",
+      "calculated": 233.31,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-50",
+        "2957-obs-54",
+        "2957-obs-58",
+        "2957-obs-62"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "k1",
+      "sourceText": "32.63",
+      "calculated": 32.6325,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-2",
+        "2957-obs-6",
+        "2957-obs-10",
+        "2957-obs-14"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "k2",
+      "sourceText": "50.17",
+      "calculated": 50.165,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-18",
+        "2957-obs-22",
+        "2957-obs-26",
+        "2957-obs-30"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "k3",
+      "sourceText": "57.83",
+      "calculated": 57.825,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-34",
+        "2957-obs-38",
+        "2957-obs-42",
+        "2957-obs-46"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "k4",
+      "sourceText": "58.33",
+      "calculated": 58.3275,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-50",
+        "2957-obs-54",
+        "2957-obs-58",
+        "2957-obs-62"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "R",
+      "sourceText": "25.70",
+      "calculated": 25.695,
+      "tolerance": 0.02,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-2",
+        "2957-obs-6",
+        "2957-obs-10",
+        "2957-obs-14",
+        "2957-obs-18",
+        "2957-obs-22",
+        "2957-obs-26",
+        "2957-obs-30",
+        "2957-obs-34",
+        "2957-obs-38",
+        "2957-obs-42",
+        "2957-obs-46",
+        "2957-obs-50",
+        "2957-obs-54",
+        "2957-obs-58",
+        "2957-obs-62"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "K1",
+      "sourceText": "177.49",
+      "calculated": 177.49,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-2",
+        "2957-obs-18",
+        "2957-obs-34",
+        "2957-obs-50"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "K2",
+      "sourceText": "212.78",
+      "calculated": 212.78,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-6",
+        "2957-obs-22",
+        "2957-obs-38",
+        "2957-obs-54"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "K3",
+      "sourceText": "222.44",
+      "calculated": 222.44,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-10",
+        "2957-obs-26",
+        "2957-obs-42",
+        "2957-obs-58"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "K4",
+      "sourceText": "183.09",
+      "calculated": 183.09,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-14",
+        "2957-obs-30",
+        "2957-obs-46",
+        "2957-obs-62"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "k1",
+      "sourceText": "44.37",
+      "calculated": 44.3725,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-2",
+        "2957-obs-18",
+        "2957-obs-34",
+        "2957-obs-50"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "k2",
+      "sourceText": "53.20",
+      "calculated": 53.195,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-6",
+        "2957-obs-22",
+        "2957-obs-38",
+        "2957-obs-54"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "k3",
+      "sourceText": "55.61",
+      "calculated": 55.61,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-10",
+        "2957-obs-26",
+        "2957-obs-42",
+        "2957-obs-58"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "k4",
+      "sourceText": "45.77",
+      "calculated": 45.7725,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-14",
+        "2957-obs-30",
+        "2957-obs-46",
+        "2957-obs-62"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "R",
+      "sourceText": "11.24",
+      "calculated": 11.2375,
+      "tolerance": 0.02,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-2",
+        "2957-obs-18",
+        "2957-obs-34",
+        "2957-obs-50",
+        "2957-obs-6",
+        "2957-obs-22",
+        "2957-obs-38",
+        "2957-obs-54",
+        "2957-obs-10",
+        "2957-obs-26",
+        "2957-obs-42",
+        "2957-obs-58",
+        "2957-obs-14",
+        "2957-obs-30",
+        "2957-obs-46",
+        "2957-obs-62"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "K1",
+      "sourceText": "206.04",
+      "calculated": 206.04,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-2",
+        "2957-obs-22",
+        "2957-obs-42",
+        "2957-obs-62"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "K2",
+      "sourceText": "190.12",
+      "calculated": 190.12,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-6",
+        "2957-obs-18",
+        "2957-obs-46",
+        "2957-obs-58"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "K3",
+      "sourceText": "195.36",
+      "calculated": 195.36,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-10",
+        "2957-obs-30",
+        "2957-obs-34",
+        "2957-obs-54"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "K4",
+      "sourceText": "204.28",
+      "calculated": 204.28,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-14",
+        "2957-obs-26",
+        "2957-obs-38",
+        "2957-obs-50"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "k1",
+      "sourceText": "51.51",
+      "calculated": 51.51,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-2",
+        "2957-obs-22",
+        "2957-obs-42",
+        "2957-obs-62"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "k2",
+      "sourceText": "47.53",
+      "calculated": 47.53,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-6",
+        "2957-obs-18",
+        "2957-obs-46",
+        "2957-obs-58"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "k3",
+      "sourceText": "48.84",
+      "calculated": 48.84,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-10",
+        "2957-obs-30",
+        "2957-obs-34",
+        "2957-obs-54"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "k4",
+      "sourceText": "51.07",
+      "calculated": 51.07,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-14",
+        "2957-obs-26",
+        "2957-obs-38",
+        "2957-obs-50"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "R",
+      "sourceText": "3.98",
+      "calculated": 3.98,
+      "tolerance": 0.02,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-2",
+        "2957-obs-22",
+        "2957-obs-42",
+        "2957-obs-62",
+        "2957-obs-6",
+        "2957-obs-18",
+        "2957-obs-46",
+        "2957-obs-58",
+        "2957-obs-10",
+        "2957-obs-30",
+        "2957-obs-34",
+        "2957-obs-54",
+        "2957-obs-14",
+        "2957-obs-26",
+        "2957-obs-38",
+        "2957-obs-50"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "K1",
+      "sourceText": "19.85",
+      "calculated": 19.85,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-4",
+        "2957-obs-8",
+        "2957-obs-12",
+        "2957-obs-16"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "K2",
+      "sourceText": "26.02",
+      "calculated": 26.02,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-20",
+        "2957-obs-24",
+        "2957-obs-28",
+        "2957-obs-32"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "K3",
+      "sourceText": "25.56",
+      "calculated": 25.56,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-36",
+        "2957-obs-40",
+        "2957-obs-44",
+        "2957-obs-48"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "K4",
+      "sourceText": "28.96",
+      "calculated": 28.53,
+      "tolerance": 0.03,
+      "status": "disagreement",
+      "inputObservationIds": [
+        "2957-obs-52",
+        "2957-obs-56",
+        "2957-obs-60",
+        "2957-obs-64"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "k1",
+      "sourceText": "4.96",
+      "calculated": 4.9625,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-4",
+        "2957-obs-8",
+        "2957-obs-12",
+        "2957-obs-16"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "k2",
+      "sourceText": "6.51",
+      "calculated": 6.505,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-20",
+        "2957-obs-24",
+        "2957-obs-28",
+        "2957-obs-32"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "k3",
+      "sourceText": "6.39",
+      "calculated": 6.39,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-36",
+        "2957-obs-40",
+        "2957-obs-44",
+        "2957-obs-48"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "k4",
+      "sourceText": "7.24",
+      "calculated": 7.1325,
+      "tolerance": 0.011,
+      "status": "disagreement",
+      "inputObservationIds": [
+        "2957-obs-52",
+        "2957-obs-56",
+        "2957-obs-60",
+        "2957-obs-64"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "R",
+      "sourceText": "2.28",
+      "calculated": 2.17,
+      "tolerance": 0.02,
+      "status": "disagreement",
+      "inputObservationIds": [
+        "2957-obs-4",
+        "2957-obs-8",
+        "2957-obs-12",
+        "2957-obs-16",
+        "2957-obs-20",
+        "2957-obs-24",
+        "2957-obs-28",
+        "2957-obs-32",
+        "2957-obs-36",
+        "2957-obs-40",
+        "2957-obs-44",
+        "2957-obs-48",
+        "2957-obs-52",
+        "2957-obs-56",
+        "2957-obs-60",
+        "2957-obs-64"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "K1",
+      "sourceText": "24.59",
+      "calculated": 24.59,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-4",
+        "2957-obs-20",
+        "2957-obs-36",
+        "2957-obs-52"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "K2",
+      "sourceText": "28.18",
+      "calculated": 28.18,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-8",
+        "2957-obs-24",
+        "2957-obs-40",
+        "2957-obs-56"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "K3",
+      "sourceText": "28.71",
+      "calculated": 28.28,
+      "tolerance": 0.03,
+      "status": "disagreement",
+      "inputObservationIds": [
+        "2957-obs-12",
+        "2957-obs-28",
+        "2957-obs-44",
+        "2957-obs-60"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "K4",
+      "sourceText": "18.91",
+      "calculated": 18.91,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-16",
+        "2957-obs-32",
+        "2957-obs-48",
+        "2957-obs-64"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "k1",
+      "sourceText": "6.15",
+      "calculated": 6.1475,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-4",
+        "2957-obs-20",
+        "2957-obs-36",
+        "2957-obs-52"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "k2",
+      "sourceText": "7.05",
+      "calculated": 7.045,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-8",
+        "2957-obs-24",
+        "2957-obs-40",
+        "2957-obs-56"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "k3",
+      "sourceText": "7.18",
+      "calculated": 7.07,
+      "tolerance": 0.011,
+      "status": "disagreement",
+      "inputObservationIds": [
+        "2957-obs-12",
+        "2957-obs-28",
+        "2957-obs-44",
+        "2957-obs-60"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "k4",
+      "sourceText": "4.73",
+      "calculated": 4.7275,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-16",
+        "2957-obs-32",
+        "2957-obs-48",
+        "2957-obs-64"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "R",
+      "sourceText": "2.45",
+      "calculated": 2.3425,
+      "tolerance": 0.02,
+      "status": "disagreement",
+      "inputObservationIds": [
+        "2957-obs-4",
+        "2957-obs-20",
+        "2957-obs-36",
+        "2957-obs-52",
+        "2957-obs-8",
+        "2957-obs-24",
+        "2957-obs-40",
+        "2957-obs-56",
+        "2957-obs-12",
+        "2957-obs-28",
+        "2957-obs-44",
+        "2957-obs-60",
+        "2957-obs-16",
+        "2957-obs-32",
+        "2957-obs-48",
+        "2957-obs-64"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "K1",
+      "sourceText": "25.86",
+      "calculated": 25.86,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-4",
+        "2957-obs-24",
+        "2957-obs-44",
+        "2957-obs-64"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "K2",
+      "sourceText": "27.03",
+      "calculated": 26.6,
+      "tolerance": 0.03,
+      "status": "disagreement",
+      "inputObservationIds": [
+        "2957-obs-8",
+        "2957-obs-20",
+        "2957-obs-48",
+        "2957-obs-60"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "K3",
+      "sourceText": "25.98",
+      "calculated": 25.98,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-12",
+        "2957-obs-32",
+        "2957-obs-36",
+        "2957-obs-56"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "K4",
+      "sourceText": "21.52",
+      "calculated": 21.52,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-16",
+        "2957-obs-28",
+        "2957-obs-40",
+        "2957-obs-52"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "k1",
+      "sourceText": "6.47",
+      "calculated": 6.465,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-4",
+        "2957-obs-24",
+        "2957-obs-44",
+        "2957-obs-64"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "k2",
+      "sourceText": "6.76",
+      "calculated": 6.65,
+      "tolerance": 0.011,
+      "status": "disagreement",
+      "inputObservationIds": [
+        "2957-obs-8",
+        "2957-obs-20",
+        "2957-obs-48",
+        "2957-obs-60"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "k3",
+      "sourceText": "6.50",
+      "calculated": 6.495,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-12",
+        "2957-obs-32",
+        "2957-obs-36",
+        "2957-obs-56"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "k4",
+      "sourceText": "5.38",
+      "calculated": 5.38,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-16",
+        "2957-obs-28",
+        "2957-obs-40",
+        "2957-obs-52"
+      ]
+    },
+    {
+      "table": "Table 6",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "R",
+      "sourceText": "1.38",
+      "calculated": 1.27,
+      "tolerance": 0.02,
+      "status": "disagreement",
+      "inputObservationIds": [
+        "2957-obs-4",
+        "2957-obs-24",
+        "2957-obs-44",
+        "2957-obs-64",
+        "2957-obs-8",
+        "2957-obs-20",
+        "2957-obs-48",
+        "2957-obs-60",
+        "2957-obs-12",
+        "2957-obs-32",
+        "2957-obs-36",
+        "2957-obs-56",
+        "2957-obs-16",
+        "2957-obs-28",
+        "2957-obs-40",
+        "2957-obs-52"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "K1",
+      "sourceText": "96.33",
+      "calculated": 96.33,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-65",
+        "2957-obs-69",
+        "2957-obs-73",
+        "2957-obs-77"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "K2",
+      "sourceText": "202.08",
+      "calculated": 202.08,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-81",
+        "2957-obs-85",
+        "2957-obs-89",
+        "2957-obs-93"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "K3",
+      "sourceText": "237.37",
+      "calculated": 237.37,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-97",
+        "2957-obs-101",
+        "2957-obs-105",
+        "2957-obs-109"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "K4",
+      "sourceText": "230.74",
+      "calculated": 230.74,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-113",
+        "2957-obs-117",
+        "2957-obs-121",
+        "2957-obs-125"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "k1",
+      "sourceText": "24.08",
+      "calculated": 24.0825,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-65",
+        "2957-obs-69",
+        "2957-obs-73",
+        "2957-obs-77"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "k2",
+      "sourceText": "50.52",
+      "calculated": 50.52,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-81",
+        "2957-obs-85",
+        "2957-obs-89",
+        "2957-obs-93"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "k3",
+      "sourceText": "59.34",
+      "calculated": 59.3425,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-97",
+        "2957-obs-101",
+        "2957-obs-105",
+        "2957-obs-109"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "k4",
+      "sourceText": "57.69",
+      "calculated": 57.685,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-113",
+        "2957-obs-117",
+        "2957-obs-121",
+        "2957-obs-125"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "R",
+      "sourceText": "35.26",
+      "calculated": 35.26,
+      "tolerance": 0.02,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-65",
+        "2957-obs-69",
+        "2957-obs-73",
+        "2957-obs-77",
+        "2957-obs-81",
+        "2957-obs-85",
+        "2957-obs-89",
+        "2957-obs-93",
+        "2957-obs-97",
+        "2957-obs-101",
+        "2957-obs-105",
+        "2957-obs-109",
+        "2957-obs-113",
+        "2957-obs-117",
+        "2957-obs-121",
+        "2957-obs-125"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "K1",
+      "sourceText": "185.24",
+      "calculated": 185.24,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-65",
+        "2957-obs-81",
+        "2957-obs-97",
+        "2957-obs-113"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "K2",
+      "sourceText": "202.54",
+      "calculated": 202.54,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-69",
+        "2957-obs-85",
+        "2957-obs-101",
+        "2957-obs-117"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "K3",
+      "sourceText": "183.93",
+      "calculated": 183.93,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-73",
+        "2957-obs-89",
+        "2957-obs-105",
+        "2957-obs-121"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "K4",
+      "sourceText": "194.81",
+      "calculated": 194.81,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-77",
+        "2957-obs-93",
+        "2957-obs-109",
+        "2957-obs-125"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "k1",
+      "sourceText": "46.31",
+      "calculated": 46.31,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-65",
+        "2957-obs-81",
+        "2957-obs-97",
+        "2957-obs-113"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "k2",
+      "sourceText": "50.64",
+      "calculated": 50.635,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-69",
+        "2957-obs-85",
+        "2957-obs-101",
+        "2957-obs-117"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "k3",
+      "sourceText": "45.98",
+      "calculated": 45.9825,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-73",
+        "2957-obs-89",
+        "2957-obs-105",
+        "2957-obs-121"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "k4",
+      "sourceText": "48.70",
+      "calculated": 48.7025,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-77",
+        "2957-obs-93",
+        "2957-obs-109",
+        "2957-obs-125"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "R",
+      "sourceText": "4.65",
+      "calculated": 4.6525,
+      "tolerance": 0.02,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-65",
+        "2957-obs-81",
+        "2957-obs-97",
+        "2957-obs-113",
+        "2957-obs-69",
+        "2957-obs-85",
+        "2957-obs-101",
+        "2957-obs-117",
+        "2957-obs-73",
+        "2957-obs-89",
+        "2957-obs-105",
+        "2957-obs-121",
+        "2957-obs-77",
+        "2957-obs-93",
+        "2957-obs-109",
+        "2957-obs-125"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "K1",
+      "sourceText": "184.50",
+      "calculated": 184.5,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-65",
+        "2957-obs-85",
+        "2957-obs-105",
+        "2957-obs-125"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "K2",
+      "sourceText": "167.79",
+      "calculated": 167.79,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-69",
+        "2957-obs-81",
+        "2957-obs-109",
+        "2957-obs-121"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "K3",
+      "sourceText": "189.37",
+      "calculated": 189.37,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-73",
+        "2957-obs-93",
+        "2957-obs-97",
+        "2957-obs-117"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "K4",
+      "sourceText": "224.86",
+      "calculated": 224.86,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-77",
+        "2957-obs-89",
+        "2957-obs-101",
+        "2957-obs-113"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "k1",
+      "sourceText": "46.13",
+      "calculated": 46.125,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-65",
+        "2957-obs-85",
+        "2957-obs-105",
+        "2957-obs-125"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "k2",
+      "sourceText": "41.95",
+      "calculated": 41.9475,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-69",
+        "2957-obs-81",
+        "2957-obs-109",
+        "2957-obs-121"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "k3",
+      "sourceText": "47.34",
+      "calculated": 47.3425,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-73",
+        "2957-obs-93",
+        "2957-obs-97",
+        "2957-obs-117"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "k4",
+      "sourceText": "56.22",
+      "calculated": 56.215,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-77",
+        "2957-obs-89",
+        "2957-obs-101",
+        "2957-obs-113"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "compression",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "R",
+      "sourceText": "14.27",
+      "calculated": 14.2675,
+      "tolerance": 0.02,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-65",
+        "2957-obs-85",
+        "2957-obs-105",
+        "2957-obs-125",
+        "2957-obs-69",
+        "2957-obs-81",
+        "2957-obs-109",
+        "2957-obs-121",
+        "2957-obs-73",
+        "2957-obs-93",
+        "2957-obs-97",
+        "2957-obs-117",
+        "2957-obs-77",
+        "2957-obs-89",
+        "2957-obs-101",
+        "2957-obs-113"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "K1",
+      "sourceText": "17.57",
+      "calculated": 17.57,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-67",
+        "2957-obs-71",
+        "2957-obs-75",
+        "2957-obs-79"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "K2",
+      "sourceText": "22.86",
+      "calculated": 22.86,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-83",
+        "2957-obs-87",
+        "2957-obs-91",
+        "2957-obs-95"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "K3",
+      "sourceText": "24.54",
+      "calculated": 24.54,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-99",
+        "2957-obs-103",
+        "2957-obs-107",
+        "2957-obs-111"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "K4",
+      "sourceText": "25.78",
+      "calculated": 25.78,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-115",
+        "2957-obs-119",
+        "2957-obs-123",
+        "2957-obs-127"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "k1",
+      "sourceText": "4.39",
+      "calculated": 4.3925,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-67",
+        "2957-obs-71",
+        "2957-obs-75",
+        "2957-obs-79"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "k2",
+      "sourceText": "5.72",
+      "calculated": 5.715,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-83",
+        "2957-obs-87",
+        "2957-obs-91",
+        "2957-obs-95"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "k3",
+      "sourceText": "6.14",
+      "calculated": 6.135,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-99",
+        "2957-obs-103",
+        "2957-obs-107",
+        "2957-obs-111"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "k4",
+      "sourceText": "6.45",
+      "calculated": 6.445,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-115",
+        "2957-obs-119",
+        "2957-obs-123",
+        "2957-obs-127"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "A",
+      "row": "R",
+      "sourceText": "2.05",
+      "calculated": 2.0525,
+      "tolerance": 0.02,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-67",
+        "2957-obs-71",
+        "2957-obs-75",
+        "2957-obs-79",
+        "2957-obs-83",
+        "2957-obs-87",
+        "2957-obs-91",
+        "2957-obs-95",
+        "2957-obs-99",
+        "2957-obs-103",
+        "2957-obs-107",
+        "2957-obs-111",
+        "2957-obs-115",
+        "2957-obs-119",
+        "2957-obs-123",
+        "2957-obs-127"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "K1",
+      "sourceText": "28.23",
+      "calculated": 28.23,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-67",
+        "2957-obs-83",
+        "2957-obs-99",
+        "2957-obs-115"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "K2",
+      "sourceText": "27.08",
+      "calculated": 27.08,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-71",
+        "2957-obs-87",
+        "2957-obs-103",
+        "2957-obs-119"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "K3",
+      "sourceText": "21.15",
+      "calculated": 21.15,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-75",
+        "2957-obs-91",
+        "2957-obs-107",
+        "2957-obs-123"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "K4",
+      "sourceText": "14.29",
+      "calculated": 14.29,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-79",
+        "2957-obs-95",
+        "2957-obs-111",
+        "2957-obs-127"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "k1",
+      "sourceText": "7.06",
+      "calculated": 7.0575,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-67",
+        "2957-obs-83",
+        "2957-obs-99",
+        "2957-obs-115"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "k2",
+      "sourceText": "6.77",
+      "calculated": 6.77,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-71",
+        "2957-obs-87",
+        "2957-obs-103",
+        "2957-obs-119"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "k3",
+      "sourceText": "5.29",
+      "calculated": 5.2875,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-75",
+        "2957-obs-91",
+        "2957-obs-107",
+        "2957-obs-123"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "k4",
+      "sourceText": "3.57",
+      "calculated": 3.5725,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-79",
+        "2957-obs-95",
+        "2957-obs-111",
+        "2957-obs-127"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "B",
+      "row": "R",
+      "sourceText": "3.49",
+      "calculated": 3.485,
+      "tolerance": 0.02,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-67",
+        "2957-obs-83",
+        "2957-obs-99",
+        "2957-obs-115",
+        "2957-obs-71",
+        "2957-obs-87",
+        "2957-obs-103",
+        "2957-obs-119",
+        "2957-obs-75",
+        "2957-obs-91",
+        "2957-obs-107",
+        "2957-obs-123",
+        "2957-obs-79",
+        "2957-obs-95",
+        "2957-obs-111",
+        "2957-obs-127"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "K1",
+      "sourceText": "22.11",
+      "calculated": 22.11,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-67",
+        "2957-obs-87",
+        "2957-obs-107",
+        "2957-obs-127"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "K2",
+      "sourceText": "23.76",
+      "calculated": 23.76,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-71",
+        "2957-obs-83",
+        "2957-obs-111",
+        "2957-obs-123"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "K3",
+      "sourceText": "24.69",
+      "calculated": 24.69,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-75",
+        "2957-obs-95",
+        "2957-obs-99",
+        "2957-obs-119"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "K4",
+      "sourceText": "20.19",
+      "calculated": 20.19,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-79",
+        "2957-obs-91",
+        "2957-obs-103",
+        "2957-obs-115"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "k1",
+      "sourceText": "5.53",
+      "calculated": 5.5275,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-67",
+        "2957-obs-87",
+        "2957-obs-107",
+        "2957-obs-127"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "k2",
+      "sourceText": "5.94",
+      "calculated": 5.94,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-71",
+        "2957-obs-83",
+        "2957-obs-111",
+        "2957-obs-123"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "k3",
+      "sourceText": "6.17",
+      "calculated": 6.1725,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-75",
+        "2957-obs-95",
+        "2957-obs-99",
+        "2957-obs-119"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "k4",
+      "sourceText": "5.05",
+      "calculated": 5.0475,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-79",
+        "2957-obs-91",
+        "2957-obs-103",
+        "2957-obs-115"
+      ]
+    },
+    {
+      "table": "Table 7",
+      "property": "flexure",
+      "ageDays": 7,
+      "factor": "C",
+      "row": "R",
+      "sourceText": "1.13",
+      "calculated": 1.125,
+      "tolerance": 0.02,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-67",
+        "2957-obs-87",
+        "2957-obs-107",
+        "2957-obs-127",
+        "2957-obs-71",
+        "2957-obs-83",
+        "2957-obs-111",
+        "2957-obs-123",
+        "2957-obs-75",
+        "2957-obs-95",
+        "2957-obs-99",
+        "2957-obs-119",
+        "2957-obs-79",
+        "2957-obs-91",
+        "2957-obs-103",
+        "2957-obs-115"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "K1",
+      "sourceText": "158.67",
+      "calculated": 158.67,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-66",
+        "2957-obs-70",
+        "2957-obs-74",
+        "2957-obs-78"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "K2",
+      "sourceText": "224.52",
+      "calculated": 224.52,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-82",
+        "2957-obs-86",
+        "2957-obs-90",
+        "2957-obs-94"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "K3",
+      "sourceText": "262.58",
+      "calculated": 261.37,
+      "tolerance": 0.03,
+      "status": "disagreement",
+      "inputObservationIds": [
+        "2957-obs-98",
+        "2957-obs-102",
+        "2957-obs-106",
+        "2957-obs-110"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "K4",
+      "sourceText": "252.55",
+      "calculated": 252.55,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-114",
+        "2957-obs-118",
+        "2957-obs-122",
+        "2957-obs-126"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "k1",
+      "sourceText": "39.67",
+      "calculated": 39.6675,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-66",
+        "2957-obs-70",
+        "2957-obs-74",
+        "2957-obs-78"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "k2",
+      "sourceText": "56.13",
+      "calculated": 56.13,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-82",
+        "2957-obs-86",
+        "2957-obs-90",
+        "2957-obs-94"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "k3",
+      "sourceText": "65.65",
+      "calculated": 65.3425,
+      "tolerance": 0.011,
+      "status": "disagreement",
+      "inputObservationIds": [
+        "2957-obs-98",
+        "2957-obs-102",
+        "2957-obs-106",
+        "2957-obs-110"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "k4",
+      "sourceText": "63.14",
+      "calculated": 63.1375,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-114",
+        "2957-obs-118",
+        "2957-obs-122",
+        "2957-obs-126"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "R",
+      "sourceText": "25.98",
+      "calculated": 25.675,
+      "tolerance": 0.02,
+      "status": "disagreement",
+      "inputObservationIds": [
+        "2957-obs-66",
+        "2957-obs-70",
+        "2957-obs-74",
+        "2957-obs-78",
+        "2957-obs-82",
+        "2957-obs-86",
+        "2957-obs-90",
+        "2957-obs-94",
+        "2957-obs-98",
+        "2957-obs-102",
+        "2957-obs-106",
+        "2957-obs-110",
+        "2957-obs-114",
+        "2957-obs-118",
+        "2957-obs-122",
+        "2957-obs-126"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "K1",
+      "sourceText": "213.57",
+      "calculated": 213.57,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-66",
+        "2957-obs-82",
+        "2957-obs-98",
+        "2957-obs-114"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "K2",
+      "sourceText": "241.58",
+      "calculated": 240.37,
+      "tolerance": 0.03,
+      "status": "disagreement",
+      "inputObservationIds": [
+        "2957-obs-70",
+        "2957-obs-86",
+        "2957-obs-102",
+        "2957-obs-118"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "K3",
+      "sourceText": "227.77",
+      "calculated": 227.77,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-74",
+        "2957-obs-90",
+        "2957-obs-106",
+        "2957-obs-122"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "K4",
+      "sourceText": "215.40",
+      "calculated": 215.4,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-78",
+        "2957-obs-94",
+        "2957-obs-110",
+        "2957-obs-126"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "k1",
+      "sourceText": "53.39",
+      "calculated": 53.3925,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-66",
+        "2957-obs-82",
+        "2957-obs-98",
+        "2957-obs-114"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "k2",
+      "sourceText": "60.40",
+      "calculated": 60.0925,
+      "tolerance": 0.011,
+      "status": "disagreement",
+      "inputObservationIds": [
+        "2957-obs-70",
+        "2957-obs-86",
+        "2957-obs-102",
+        "2957-obs-118"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "k3",
+      "sourceText": "56.94",
+      "calculated": 56.9425,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-74",
+        "2957-obs-90",
+        "2957-obs-106",
+        "2957-obs-122"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "k4",
+      "sourceText": "53.85",
+      "calculated": 53.85,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-78",
+        "2957-obs-94",
+        "2957-obs-110",
+        "2957-obs-126"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "R",
+      "sourceText": "7.01",
+      "calculated": 6.7,
+      "tolerance": 0.02,
+      "status": "disagreement",
+      "inputObservationIds": [
+        "2957-obs-66",
+        "2957-obs-82",
+        "2957-obs-98",
+        "2957-obs-114",
+        "2957-obs-70",
+        "2957-obs-86",
+        "2957-obs-102",
+        "2957-obs-118",
+        "2957-obs-74",
+        "2957-obs-90",
+        "2957-obs-106",
+        "2957-obs-122",
+        "2957-obs-78",
+        "2957-obs-94",
+        "2957-obs-110",
+        "2957-obs-126"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "K1",
+      "sourceText": "214.50",
+      "calculated": 214.5,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-66",
+        "2957-obs-86",
+        "2957-obs-106",
+        "2957-obs-126"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "K2",
+      "sourceText": "209.18",
+      "calculated": 209.18,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-70",
+        "2957-obs-82",
+        "2957-obs-110",
+        "2957-obs-122"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "K3",
+      "sourceText": "227.69",
+      "calculated": 227.69,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-74",
+        "2957-obs-94",
+        "2957-obs-98",
+        "2957-obs-118"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "K4",
+      "sourceText": "246.95",
+      "calculated": 245.74,
+      "tolerance": 0.03,
+      "status": "disagreement",
+      "inputObservationIds": [
+        "2957-obs-78",
+        "2957-obs-90",
+        "2957-obs-102",
+        "2957-obs-114"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "k1",
+      "sourceText": "53.63",
+      "calculated": 53.625,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-66",
+        "2957-obs-86",
+        "2957-obs-106",
+        "2957-obs-126"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "k2",
+      "sourceText": "52.30",
+      "calculated": 52.295,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-70",
+        "2957-obs-82",
+        "2957-obs-110",
+        "2957-obs-122"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "k3",
+      "sourceText": "56.92",
+      "calculated": 56.9225,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-74",
+        "2957-obs-94",
+        "2957-obs-98",
+        "2957-obs-118"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "k4",
+      "sourceText": "61.74",
+      "calculated": 61.435,
+      "tolerance": 0.011,
+      "status": "disagreement",
+      "inputObservationIds": [
+        "2957-obs-78",
+        "2957-obs-90",
+        "2957-obs-102",
+        "2957-obs-114"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "compression",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "R",
+      "sourceText": "9.44",
+      "calculated": 9.14,
+      "tolerance": 0.02,
+      "status": "disagreement",
+      "inputObservationIds": [
+        "2957-obs-66",
+        "2957-obs-86",
+        "2957-obs-106",
+        "2957-obs-126",
+        "2957-obs-70",
+        "2957-obs-82",
+        "2957-obs-110",
+        "2957-obs-122",
+        "2957-obs-74",
+        "2957-obs-94",
+        "2957-obs-98",
+        "2957-obs-118",
+        "2957-obs-78",
+        "2957-obs-90",
+        "2957-obs-102",
+        "2957-obs-114"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "K1",
+      "sourceText": "21.23",
+      "calculated": 21.23,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-68",
+        "2957-obs-72",
+        "2957-obs-76",
+        "2957-obs-80"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "K2",
+      "sourceText": "26.43",
+      "calculated": 26.43,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-84",
+        "2957-obs-88",
+        "2957-obs-92",
+        "2957-obs-96"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "K3",
+      "sourceText": "28.31",
+      "calculated": 28.31,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-100",
+        "2957-obs-104",
+        "2957-obs-108",
+        "2957-obs-112"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "K4",
+      "sourceText": "29.4",
+      "calculated": 29.4,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-116",
+        "2957-obs-120",
+        "2957-obs-124",
+        "2957-obs-128"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "k1",
+      "sourceText": "5.31",
+      "calculated": 5.3075,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-68",
+        "2957-obs-72",
+        "2957-obs-76",
+        "2957-obs-80"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "k2",
+      "sourceText": "6.61",
+      "calculated": 6.6075,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-84",
+        "2957-obs-88",
+        "2957-obs-92",
+        "2957-obs-96"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "k3",
+      "sourceText": "7.08",
+      "calculated": 7.0775,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-100",
+        "2957-obs-104",
+        "2957-obs-108",
+        "2957-obs-112"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "k4",
+      "sourceText": "7.35",
+      "calculated": 7.35,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-116",
+        "2957-obs-120",
+        "2957-obs-124",
+        "2957-obs-128"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "A",
+      "row": "R",
+      "sourceText": "2.04",
+      "calculated": 2.0425,
+      "tolerance": 0.02,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-68",
+        "2957-obs-72",
+        "2957-obs-76",
+        "2957-obs-80",
+        "2957-obs-84",
+        "2957-obs-88",
+        "2957-obs-92",
+        "2957-obs-96",
+        "2957-obs-100",
+        "2957-obs-104",
+        "2957-obs-108",
+        "2957-obs-112",
+        "2957-obs-116",
+        "2957-obs-120",
+        "2957-obs-124",
+        "2957-obs-128"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "K1",
+      "sourceText": "31.34",
+      "calculated": 31.34,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-68",
+        "2957-obs-84",
+        "2957-obs-100",
+        "2957-obs-116"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "K2",
+      "sourceText": "30.59",
+      "calculated": 30.59,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-72",
+        "2957-obs-88",
+        "2957-obs-104",
+        "2957-obs-120"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "K3",
+      "sourceText": "24.83",
+      "calculated": 24.83,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-76",
+        "2957-obs-92",
+        "2957-obs-108",
+        "2957-obs-124"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "K4",
+      "sourceText": "18.61",
+      "calculated": 18.61,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-80",
+        "2957-obs-96",
+        "2957-obs-112",
+        "2957-obs-128"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "k1",
+      "sourceText": "7.84",
+      "calculated": 7.835,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-68",
+        "2957-obs-84",
+        "2957-obs-100",
+        "2957-obs-116"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "k2",
+      "sourceText": "7.65",
+      "calculated": 7.6475,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-72",
+        "2957-obs-88",
+        "2957-obs-104",
+        "2957-obs-120"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "k3",
+      "sourceText": "6.21",
+      "calculated": 6.2075,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-76",
+        "2957-obs-92",
+        "2957-obs-108",
+        "2957-obs-124"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "k4",
+      "sourceText": "4.65",
+      "calculated": 4.6525,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-80",
+        "2957-obs-96",
+        "2957-obs-112",
+        "2957-obs-128"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "B",
+      "row": "R",
+      "sourceText": "3.18",
+      "calculated": 3.1825,
+      "tolerance": 0.02,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-68",
+        "2957-obs-84",
+        "2957-obs-100",
+        "2957-obs-116",
+        "2957-obs-72",
+        "2957-obs-88",
+        "2957-obs-104",
+        "2957-obs-120",
+        "2957-obs-76",
+        "2957-obs-92",
+        "2957-obs-108",
+        "2957-obs-124",
+        "2957-obs-80",
+        "2957-obs-96",
+        "2957-obs-112",
+        "2957-obs-128"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "K1",
+      "sourceText": "26.63",
+      "calculated": 26.63,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-68",
+        "2957-obs-88",
+        "2957-obs-108",
+        "2957-obs-128"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "K2",
+      "sourceText": "27.55",
+      "calculated": 27.55,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-72",
+        "2957-obs-84",
+        "2957-obs-112",
+        "2957-obs-124"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "K3",
+      "sourceText": "27.67",
+      "calculated": 27.67,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-76",
+        "2957-obs-96",
+        "2957-obs-100",
+        "2957-obs-120"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "K4",
+      "sourceText": "23.52",
+      "calculated": 23.52,
+      "tolerance": 0.03,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-80",
+        "2957-obs-92",
+        "2957-obs-104",
+        "2957-obs-116"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "k1",
+      "sourceText": "6.66",
+      "calculated": 6.6575,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-68",
+        "2957-obs-88",
+        "2957-obs-108",
+        "2957-obs-128"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "k2",
+      "sourceText": "6.89",
+      "calculated": 6.8875,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-72",
+        "2957-obs-84",
+        "2957-obs-112",
+        "2957-obs-124"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "k3",
+      "sourceText": "6.92",
+      "calculated": 6.9175,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-76",
+        "2957-obs-96",
+        "2957-obs-100",
+        "2957-obs-120"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "k4",
+      "sourceText": "5.88",
+      "calculated": 5.88,
+      "tolerance": 0.011,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-80",
+        "2957-obs-92",
+        "2957-obs-104",
+        "2957-obs-116"
+      ]
+    },
+    {
+      "table": "Table 8",
+      "property": "flexure",
+      "ageDays": 28,
+      "factor": "C",
+      "row": "R",
+      "sourceText": "1.04",
+      "calculated": 1.0375,
+      "tolerance": 0.02,
+      "status": "consistent-with-rounding",
+      "inputObservationIds": [
+        "2957-obs-68",
+        "2957-obs-88",
+        "2957-obs-108",
+        "2957-obs-128",
+        "2957-obs-72",
+        "2957-obs-84",
+        "2957-obs-112",
+        "2957-obs-124",
+        "2957-obs-76",
+        "2957-obs-96",
+        "2957-obs-100",
+        "2957-obs-120",
+        "2957-obs-80",
+        "2957-obs-92",
+        "2957-obs-104",
+        "2957-obs-116"
+      ]
+    }
+  ]
+}

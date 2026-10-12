@@ -1,0 +1,1319 @@
+{
+  "schemaVersion": 1,
+  "batchId": "phase-a-followup-2026-10-12",
+  "checked": "2026-10-12",
+  "reviewer": "Codex AI visual/source review plus same-agent second pass; no independent or human/domain review",
+  "baseline": {
+    "mixes": 60,
+    "observations": 182
+  },
+  "final": {
+    "mixes": 62,
+    "observations": 255
+  },
+  "addedObservations": 73,
+  "newMixIds": [
+    "2957-N-validation",
+    "2957-K-validation"
+  ],
+  "method": "Direct transcription of 69 printed figure labels and four narrative values. No bar-height estimation or digitized curve points. All 73 additions checked for mix/property/unit/age/direction; existing duplicate S50-10 56-day strength and repeated S30-10 panels not duplicated. OCR attempts did not reliably read chart labels and were not accepted as verification.",
+  "sourceImages": [
+    {
+      "publicationId": "ke-2944",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1fb0/9032675/dd3f74481435/materials-15-02944-g003.jpg",
+      "sha256": "e3804244aab7ea103d2156bf2dd1ae2ada2e0c601e66f4abfe60602db6e1f25e",
+      "bytes": 104006,
+      "rightsBasis": "Article-specific CC BY 4.0; own numbered figure, no separate third-party credit identified in inspected caption."
+    },
+    {
+      "publicationId": "ke-902",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/2c940eff4ab7/materials-12-00902-g008.jpg",
+      "sha256": "fa616f4336e54fd57b5435df00fbdf24121a2c9132f99a40183f73fc0b95ed63",
+      "bytes": 116197,
+      "rightsBasis": "Article-specific CC BY 4.0; own numbered figure, no separate third-party credit identified in inspected caption."
+    },
+    {
+      "publicationId": "ke-902",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/4b0d85860b82/materials-12-00902-g010.jpg",
+      "sha256": "2e2747642137ab07a3b2906de6e27e730663bb03a7c4c56799ed4f5422d91b62",
+      "bytes": 81063,
+      "rightsBasis": "Article-specific CC BY 4.0; own numbered figure, no separate third-party credit identified in inspected caption."
+    },
+    {
+      "publicationId": "ke-902",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/83b4a252488d/materials-12-00902-g011.jpg",
+      "sha256": "be6fcc40076b34973d9bfd7eebf8c3a5cd94d64b70b38e72ed82916d2ffcf9ea",
+      "bytes": 46507,
+      "rightsBasis": "Article-specific CC BY 4.0; own numbered figure, no separate third-party credit identified in inspected caption."
+    },
+    {
+      "publicationId": "ke-902",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/143a86cdc8fc/materials-12-00902-g012.jpg",
+      "sha256": "d765d52d16c06e76e81e29b25cd9a49428afe5faf7c9e862fcbcb5387babdd0c",
+      "bytes": 94091,
+      "rightsBasis": "Article-specific CC BY 4.0; own numbered figure, no separate third-party credit identified in inspected caption."
+    },
+    {
+      "publicationId": "ke-2957",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/947e/9030422/ea75156c14aa/materials-15-02957-g003.jpg",
+      "sha256": "f15e8b5f726078bf2a5eb03c46c3f80b75a5448baaf9685728c6aae2c9c13add",
+      "bytes": 112926,
+      "rightsBasis": "Article-specific CC BY 4.0; own numbered figure, no separate third-party credit identified in inspected caption."
+    }
+  ],
+  "checkedValues": [
+    {
+      "id": "2944-obs-19",
+      "mixId": "2944-S0-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "63.3",
+      "value": 63.3,
+      "unit": "MPa",
+      "ageDays": 3,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S0-10, 3-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-20",
+      "mixId": "2944-S0-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "67.4",
+      "value": 67.4,
+      "unit": "MPa",
+      "ageDays": 7,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S0-10, 7-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-21",
+      "mixId": "2944-S0-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "69.7",
+      "value": 69.7,
+      "unit": "MPa",
+      "ageDays": 28,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S0-10, 28-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-22",
+      "mixId": "2944-S0-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "70.1",
+      "value": 70.1,
+      "unit": "MPa",
+      "ageDays": 56,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S0-10, 56-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-23",
+      "mixId": "2944-S10-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "68.3",
+      "value": 68.3,
+      "unit": "MPa",
+      "ageDays": 3,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S10-10, 3-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-24",
+      "mixId": "2944-S10-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "70.0",
+      "value": 70,
+      "unit": "MPa",
+      "ageDays": 7,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S10-10, 7-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-25",
+      "mixId": "2944-S10-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "72.7",
+      "value": 72.7,
+      "unit": "MPa",
+      "ageDays": 28,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S10-10, 28-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-26",
+      "mixId": "2944-S10-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "75.4",
+      "value": 75.4,
+      "unit": "MPa",
+      "ageDays": 56,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S10-10, 56-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-27",
+      "mixId": "2944-S30-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "73.9",
+      "value": 73.9,
+      "unit": "MPa",
+      "ageDays": 3,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S30-10, 3-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-28",
+      "mixId": "2944-S30-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "75.1",
+      "value": 75.1,
+      "unit": "MPa",
+      "ageDays": 7,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S30-10, 7-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-29",
+      "mixId": "2944-S30-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "80.7",
+      "value": 80.7,
+      "unit": "MPa",
+      "ageDays": 28,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S30-10, 28-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-30",
+      "mixId": "2944-S30-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "85.5",
+      "value": 85.5,
+      "unit": "MPa",
+      "ageDays": 56,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S30-10, 56-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-31",
+      "mixId": "2944-S50-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "74.1",
+      "value": 74.1,
+      "unit": "MPa",
+      "ageDays": 3,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S50-10, 3-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-32",
+      "mixId": "2944-S50-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "76.5",
+      "value": 76.5,
+      "unit": "MPa",
+      "ageDays": 7,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S50-10, 7-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-33",
+      "mixId": "2944-S50-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "82.4",
+      "value": 82.4,
+      "unit": "MPa",
+      "ageDays": 28,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S50-10, 28-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-34",
+      "mixId": "2944-S30-8",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "43.5",
+      "value": 43.5,
+      "unit": "MPa",
+      "ageDays": 3,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3b, S30-8, 3-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-35",
+      "mixId": "2944-S30-8",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "46.9",
+      "value": 46.9,
+      "unit": "MPa",
+      "ageDays": 7,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3b, S30-8, 7-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-36",
+      "mixId": "2944-S30-8",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "58.9",
+      "value": 58.9,
+      "unit": "MPa",
+      "ageDays": 28,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3b, S30-8, 28-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-37",
+      "mixId": "2944-S30-8",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "62.5",
+      "value": 62.5,
+      "unit": "MPa",
+      "ageDays": 56,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3b, S30-8, 56-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-38",
+      "mixId": "2944-S30-12",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "79.4",
+      "value": 79.4,
+      "unit": "MPa",
+      "ageDays": 3,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3b, S30-12, 3-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-39",
+      "mixId": "2944-S30-12",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "82.5",
+      "value": 82.5,
+      "unit": "MPa",
+      "ageDays": 7,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3b, S30-12, 7-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-40",
+      "mixId": "2944-S30-12",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "85.3",
+      "value": 85.3,
+      "unit": "MPa",
+      "ageDays": 28,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3b, S30-12, 28-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-41",
+      "mixId": "2944-S30-12",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "89.0",
+      "value": 89,
+      "unit": "MPa",
+      "ageDays": 56,
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3b, S30-12, 56-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2957-obs-129",
+      "mixId": "2957-N-validation",
+      "testId": "2957-compression-validation",
+      "property": "compression",
+      "originalText": "61.97",
+      "value": 61.97,
+      "unit": "MPa",
+      "ageDays": 7,
+      "provenance": {
+        "assetId": "asset-2957",
+        "locator": "§3.1 final paragraph, A4B3C1 sodium compression, 7 days",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2957-obs-130",
+      "mixId": "2957-N-validation",
+      "testId": "2957-compression-validation",
+      "property": "compression",
+      "originalText": "65.79",
+      "value": 65.79,
+      "unit": "MPa",
+      "ageDays": 28,
+      "provenance": {
+        "assetId": "asset-2957",
+        "locator": "§3.1 final paragraph, A4B3C1 sodium compression, 28 days",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2957-obs-131",
+      "mixId": "2957-K-validation",
+      "testId": "2957-flexure-validation",
+      "property": "flexure",
+      "originalText": "8.63",
+      "value": 8.63,
+      "unit": "MPa",
+      "ageDays": 7,
+      "provenance": {
+        "assetId": "asset-2957",
+        "locator": "§3.1 final paragraph, A4B1C3 mixed Na/K flexure, 7 days",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2957-obs-132",
+      "mixId": "2957-K-validation",
+      "testId": "2957-flexure-validation",
+      "property": "flexure",
+      "originalText": "9.37",
+      "value": 9.37,
+      "unit": "MPa",
+      "ageDays": 28,
+      "provenance": {
+        "assetId": "asset-2957",
+        "locator": "§3.1 final paragraph, A4B1C3 mixed Na/K flexure, 28 days",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-3",
+      "mixId": "902-Na-D-1.5",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "14.0",
+      "value": 14,
+      "unit": "MPa",
+      "ageDays": 3,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10a, Na-D-1.5, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-4",
+      "mixId": "902-Na-D-2.5",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "15.5",
+      "value": 15.5,
+      "unit": "MPa",
+      "ageDays": 3,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10a, Na-D-2.5, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-5",
+      "mixId": "902-Na-D-3.0",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "16.6",
+      "value": 16.6,
+      "unit": "MPa",
+      "ageDays": 3,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10a, Na-D-3.0, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-6",
+      "mixId": "902-Na-N-1.5",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "10.7",
+      "value": 10.7,
+      "unit": "MPa",
+      "ageDays": 3,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10a, Na-N-1.5, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-7",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "14.9",
+      "value": 14.9,
+      "unit": "MPa",
+      "ageDays": 3,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10a, Na-N-2.5, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-8",
+      "mixId": "902-Na-N-3.0",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "13.7",
+      "value": 13.7,
+      "unit": "MPa",
+      "ageDays": 3,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10a, Na-N-3.0, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-9",
+      "mixId": "902-K-KA20-1.5",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "8.5",
+      "value": 8.5,
+      "unit": "MPa",
+      "ageDays": 3,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10b, K-KA20-1.5, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-10",
+      "mixId": "902-K-KA20-2.5",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "11.9",
+      "value": 11.9,
+      "unit": "MPa",
+      "ageDays": 3,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10b, K-KA20-2.5, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-11",
+      "mixId": "902-K-KA20-3.0",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "13.2",
+      "value": 13.2,
+      "unit": "MPa",
+      "ageDays": 3,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10b, K-KA20-3.0, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-12",
+      "mixId": "902-K-KA22-1.5",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "9.4",
+      "value": 9.4,
+      "unit": "MPa",
+      "ageDays": 3,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10b, K-KA22-1.5, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-13",
+      "mixId": "902-K-KA22-2.5",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "9.6",
+      "value": 9.6,
+      "unit": "MPa",
+      "ageDays": 3,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10b, K-KA22-2.5, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-14",
+      "mixId": "902-K-KA22-3.0",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "8.5",
+      "value": 8.5,
+      "unit": "MPa",
+      "ageDays": 3,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10b, K-KA22-3.0, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-15",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-compression-perpendicular",
+      "property": "compression",
+      "originalText": "16.5",
+      "value": 16.5,
+      "unit": "MPa",
+      "ageDays": 7,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 11, perpendicular, 7 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-16",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-compression-perpendicular",
+      "property": "compression",
+      "originalText": "26.1",
+      "value": 26.1,
+      "unit": "MPa",
+      "ageDays": 28,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 11, perpendicular, 28 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-17",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-compression-lateral",
+      "property": "compression",
+      "originalText": "13.1",
+      "value": 13.1,
+      "unit": "MPa",
+      "ageDays": 7,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 11, lateral, 7 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-18",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-compression-lateral",
+      "property": "compression",
+      "originalText": "19.8",
+      "value": 19.8,
+      "unit": "MPa",
+      "ageDays": 28,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 11, lateral, 28 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-19",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-compression-longitudinal",
+      "property": "compression",
+      "originalText": "21.1",
+      "value": 21.1,
+      "unit": "MPa",
+      "ageDays": 7,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 11, longitudinal, 7 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-20",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-compression-longitudinal",
+      "property": "compression",
+      "originalText": "34.0",
+      "value": 34,
+      "unit": "MPa",
+      "ageDays": 28,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 11, longitudinal, 28 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-21",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-flexure-perpendicular",
+      "property": "flexure",
+      "originalText": "5.8",
+      "value": 5.8,
+      "unit": "MPa",
+      "ageDays": 7,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 12a, perpendicular, 7 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-22",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-flexure-perpendicular",
+      "property": "flexure",
+      "originalText": "7.1",
+      "value": 7.1,
+      "unit": "MPa",
+      "ageDays": 28,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 12a, perpendicular, 28 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-23",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-flexure-lateral",
+      "property": "flexure",
+      "originalText": "4.4",
+      "value": 4.4,
+      "unit": "MPa",
+      "ageDays": 7,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 12a, lateral, 7 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-24",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-flexure-lateral",
+      "property": "flexure",
+      "originalText": "6.3",
+      "value": 6.3,
+      "unit": "MPa",
+      "ageDays": 28,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 12a, lateral, 28 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-25",
+      "mixId": "902-Na-D-1.5",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "101",
+      "value": 101,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-D-1.5, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-26",
+      "mixId": "902-Na-D-2.5",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "115",
+      "value": 115,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-D-2.5, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-27",
+      "mixId": "902-Na-D-3.0",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "133",
+      "value": 133,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-D-3.0, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-28",
+      "mixId": "902-Na-N-1.5",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "100",
+      "value": 100,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-N-1.5, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-29",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "101",
+      "value": 101,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-N-2.5, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-30",
+      "mixId": "902-Na-N-3.0",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "100",
+      "value": 100,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-N-3.0, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-31",
+      "mixId": "902-K-KA20-1.5",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "103",
+      "value": 103,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA20-1.5, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-32",
+      "mixId": "902-K-KA20-2.5",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "100",
+      "value": 100,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA20-2.5, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-33",
+      "mixId": "902-K-KA20-3.0",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "100",
+      "value": 100,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA20-3.0, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-34",
+      "mixId": "902-K-KA22-1.5",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "100",
+      "value": 100,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA22-1.5, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-35",
+      "mixId": "902-K-KA22-2.5",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "100",
+      "value": 100,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA22-2.5, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-36",
+      "mixId": "902-K-KA22-3.0",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "100",
+      "value": 100,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA22-3.0, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-37",
+      "mixId": "902-Na-D-1.5",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "117",
+      "value": 117,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-D-1.5, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-38",
+      "mixId": "902-Na-D-2.5",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "148",
+      "value": 148,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-D-2.5, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-39",
+      "mixId": "902-Na-D-3.0",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "160",
+      "value": 160,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-D-3.0, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-40",
+      "mixId": "902-Na-N-1.5",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "116",
+      "value": 116,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-N-1.5, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-41",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "126",
+      "value": 126,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-N-2.5, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-42",
+      "mixId": "902-Na-N-3.0",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "122",
+      "value": 122,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-N-3.0, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-43",
+      "mixId": "902-K-KA20-1.5",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "115",
+      "value": 115,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA20-1.5, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-44",
+      "mixId": "902-K-KA20-2.5",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "108",
+      "value": 108,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA20-2.5, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-45",
+      "mixId": "902-K-KA20-3.0",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "108",
+      "value": 108,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA20-3.0, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-46",
+      "mixId": "902-K-KA22-1.5",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "116",
+      "value": 116,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA22-1.5, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-47",
+      "mixId": "902-K-KA22-2.5",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "106",
+      "value": 106,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA22-2.5, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-48",
+      "mixId": "902-K-KA22-3.0",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "105",
+      "value": 105,
+      "unit": "mm",
+      "ageDays": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA22-3.0, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    }
+  ],
+  "checks": [
+    "Two validation formulations confirmed against §3.1 and Table 2, with platform-generated names and unknown validation replicate counts.",
+    "Fresh spread before/after flow-table drop is not cured performance; age and n remain null.",
+    "All 216 author K/k/R aggregates recomputed from original 32 design mixes only; 18 disagreements preserved in phase-a-factor-audit.json.",
+    "All five method sections reread; preparation/instrument settings expanded. Acid pre-exposure cure corrected from null to 28 days, separately from exposure.",
+    "Figure 3 of ma15082957 uses K2SiO3 in axis labels despite sodium silicate in methods; source conflict disclosed.",
+    "Figure 13 of ma14185396 omits 14-day depth curves and point error bars, so digitization cannot recover those data."
+  ],
+  "remaining": [
+    "Unlabelled curve series and error-bar magnitudes; no full-paper completion claimed.",
+    "Publisher and PubMed checks blocked as separately logged; absent PMC notice is not a clean-status certification."
+  ]
+}

@@ -230,3 +230,27 @@ Review coverage, AI/source checks, human review and scientific replication remai
 separate concepts. Commercial leads never imply compatibility or available stock.
 This is documentation only, not implementation or new research ingestion. No live
 feature, reference-count or deployment-verification change is claimed here.
+
+
+## 12 October 2026 — knowledge-engine Phase A review branch
+Keep native Git-backed data. Add 25 verified DOI references to the existing library,
+five explicitly partial experimental extractions and operation-specific rights.
+Numerical filters join the same formulation, test and observation. Unknowns cannot
+pass exact conditions; censored readings are not zeros. Retain original table
+precision and separate test age from exposure. Mixed Na/K activation is explicit.
+Historical material grades are research identities, not current store offerings.
+No graph digitization, expert review, AI prediction, paid ingestion or production
+release is implied. Metadata imports are offline, bounded and checkpointed; remote
+provider ingestion and full extraction are future acceptance work. See
+KNOWLEDGE_ENGINE.md and HANDOFF.md for actual verification and release status.
+
+
+## 12 October 2026 — Phase A evidence follow-up
+Printed numeric chart labels are direct reported values, distinct from graph
+estimates; keep locators and image checksums in the review manifest. Add missed
+validation experiments separately from the orthogonal array, without inflating
+independent dataset counts. Recompute author aggregates for consistency but do
+not repair primary measurements by inference. Disputed summary aggregates remain
+outside numerical observation search. Fresh-state spread has unknown elapsed
+age and no curing stage. Record blocked status checks as unresolved, separately
+from successful PMC notice checks. Full-paper extraction remains partial.
