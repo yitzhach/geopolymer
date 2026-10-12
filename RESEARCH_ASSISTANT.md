@@ -63,3 +63,11 @@ qualified grades and checkout; current concept status must remain visible.
 links, folders, navigation recovery, updates, backup import/export, escaped text,
 keyboard close, cross-tab conflicts and storage quota failure. It runs in the
 existing GitHub verification workflow. See HANDOFF.md for executed results.
+
+## Phase A review-branch integration
+Study and observation buttons load source identity, locators and page links into
+the existing working thread for explicit local folder save. Deep-dive requests
+retrieve up to 10 catalog sources; other requests retain four. Responses state
+corpus size and link study pages. /knowledge provides explicit same-mix numeric
+filters, exclusions and pagination. Still no real model or web search. Structured
+numeric answers are not inferred from free-text questions.

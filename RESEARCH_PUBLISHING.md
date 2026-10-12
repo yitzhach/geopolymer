@@ -72,3 +72,10 @@ Summaries remain abstract-level discovery notes; no full methods audit or
 independent replication is claimed. Removed the briefing’s pending-review text.
 The JSON in research-drafts remains the original historical submission, not a
 runtime content source. Its integration instructions describe the earlier main.
+
+## Phase A review-branch extension — 12 October 2026
+Library now has 86 records: original 61 plus 25 DOI-verified additions. The first
+five additions have rights-recorded partial experimental extractions; the other
+20 are metadata-only. New study routes and /knowledge connect to the existing
+catalog. Public numerical data, review manifests and conservative reuse policy
+are documented in KNOWLEDGE_ENGINE.md. HANDOFF.md tracks tests and publication.

@@ -124,3 +124,10 @@ src/literature-ui.js: filters, age tables, scaling and experiment brief UI.
 tests/recipe-catalog.test.mjs: mass/provenance preservation, exact age/property
 matching, missing values, filters and export. Browser coverage is included in
 literature-browser.cjs for the next authorized CI run.
+
+## Phase A knowledge links
+Five detailed partial experimental records link back to existing curated recipes
+by DOI. This adds 60 indexed study mix variants, not 60 newly qualified executable
+recipes. The curated recipe count remains 15. Unknown activator splits, ratio
+bases and assays block new automatic mass transfers. Study pages also offer a
+citation-only calculator link, which does not apply source quantities.

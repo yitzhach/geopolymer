@@ -10,12 +10,12 @@ function words(text) {
   const aliases = { fibres:'fiber',fibers:'fiber',fibre:'fiber',coatings:'coating',coated:'coating',silane:'silane',casting:'cast',castings:'cast',pigments:'color',colours:'color',colors:'color',students:'classroom',student:'classroom',teaching:'classroom',teacher:'classroom' };
   return [...new Set(tokens.filter(w => w.length > 2 && !stop.has(w)).map(w => aliases[w] || w))];
 }
-function ranked(items, query, context, describe) {
+function ranked(items, query, context, describe, limit=4) {
   const wanted = words(query), background = words(context);
   return items.map(item => {
     const hay = new Set(words(describe(item)));
     return { item, score: wanted.reduce((n,w)=>n+(hay.has(w)?4:0),0) + background.reduce((n,w)=>n+(hay.has(w)?1:0),0) };
-  }).filter(x=>x.score>0).sort((a,b)=>b.score-a.score).slice(0,4).map(x=>x.item);
+  }).filter(x=>x.score>0).sort((a,b)=>b.score-a.score).slice(0,limit).map(x=>x.item);
 }
 
 // Provider boundary: a future server-side provider must return this same structured
@@ -33,11 +33,11 @@ export async function answerResearch({ excerpt = '', question = '', history = []
       questions:['What material, quantity and application do you need?','Which grade, assay and handling requirements must be confirmed before purchase?'],
     };
   }
-  const matches = ranked(library,question,context,p=>`${p.title} ${p.topic} ${p.doi} ${p.authors||''} ${p.summary||''} ${(p.highlights||[]).join(' ')}`);
+  const matches = ranked(library.filter(p=>!['retracted','withdrawn','update-requires-review'].includes(p.sourceStatus?.state)),question,context,p=>`${p.title} ${p.topic} ${p.doi} ${p.authors||''} ${p.summary||''} ${(p.highlights||[]).join(' ')}`, /deep dive/i.test(question)?10:4);
   return {
     role:'assistant', mode:'catalog-test', title: /\b(plan|test|next)\b/i.test(question) ? 'A research plan to work through' : 'Follow the evidence',
-    text: matches.length ? 'I matched your excerpt and question to the site’s research catalog. The notes below describe the linked records; they do not establish that your excerpt is correct. Open the original studies to investigate the claim.' : 'No matching source was found in the site catalog. This test assistant cannot search the web or answer from a language model. Try a specific material, property or DOI, or use the excerpt to start a saved research note.',
-    sources: matches.map(p=>({id:p.id,title:p.title,url:p.publisherUrl||p.url,summary:p.summary||'Metadata only; no findings have been extracted for this record.',evidence:p.summaryBasis||'Title and publication metadata only; full paper not reviewed'})),
+    text: matches.length ? `Searched ${library.length} indexed references; up to ${/deep dive/i.test(question)?10:4} matches shown. Use /knowledge for numeric conditions and paginated evidence. I matched your excerpt and question to the site’s research catalog. The notes below describe the linked records; they do not establish that your excerpt is correct. Open the original studies to investigate the claim.` : 'No matching source was found in the site catalog. This test assistant cannot search the web or answer from a language model. Try a specific material, property or DOI, or use the excerpt to start a saved research note.',
+    sources: matches.map(p=>({id:p.id,title:p.title,url:p.id.startsWith('ke-')?'/studies/'+p.id:p.publisherUrl||p.url,summary:p.summary||(p.extraction==='partial'?'Partial structured extraction is available on the study page; inspect mix conditions and source locators.':'Metadata only; no findings have been extracted for this record.'),evidence:p.summaryBasis||p.access||'Title and publication metadata only; full paper not reviewed'})),
     questions:['Define the claim: which material, property and application are being discussed?','Compare the source’s material grade, activator, preparation, curing and test age with your intended use.','Record the control mixture, test method, replicates and missing evidence before drawing a conclusion.'],
   };
 }

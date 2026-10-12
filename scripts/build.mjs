@@ -1,3 +1,6 @@
+import {pilot} from '../src/knowledge-pilot.js';
+import {knowledgeReferences} from '../src/knowledge-references.js';
+import {publicKnowledge,validateKnowledge} from '../src/knowledge-core.js';
 import {journalFeed,journalRSS,researchDatabase} from '../src/research-feeds.js';
 import {journalArticles} from '../src/journal-data.js';
 import { cp, mkdir, rm, readFile, writeFile } from 'node:fs/promises';
@@ -8,6 +11,8 @@ import { papers, products } from '../src/data.js';
 import { siteOrigin, contentUpdated } from '../site.config.mjs';
 const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const plain = html => html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+// src/ is public: refuse to build if a private/unassessed asset enters it.
+if(pilot.assets.some(a=>a.operations.publicDisplay.decision!=='allowed'||a.operations.export.decision!=='allowed'))throw new Error('Restricted evidence must stay outside public src/; resolve rights before build');
 const shell = await readFile('index.html', 'utf8');
 await rm('dist', { recursive: true, force: true });
 await mkdir('dist');
@@ -73,6 +78,12 @@ for (const path of [...routes, '/404']) {
 await writeFile('dist/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${routes.filter(p => !['/workspace','/search'].includes(p)).map(p => `<url><loc>${esc(siteOrigin + p)}</loc><lastmod>${contentUpdated}</lastmod></url>`).join('')}</urlset>\n`);
 await writeFile('dist/robots.txt', `User-agent: *\nAllow: /\nDisallow: /workspace\nDisallow: /search?\n\nSitemap: ${siteOrigin}/sitemap.xml\n`);
 await writeFile('dist/llms.txt', `# Geopolymer Platform\n\nConnected geopolymer research, learning, studio work and proposed materials. Journal publication, platform review, internal reproduction and independent testing are distinct. Products are concepts, not available stock.\n\n${['research','library','materials','formulations','learn','artists','calculator','evidence'].map(p => `- [${renderPage('/'+p).title}](${siteOrigin}/${p})`).join('\n')}\n`);
+const knowledgeErrors=validateKnowledge(pilot,knowledgeReferences);
+if(knowledgeErrors.length)throw new Error(knowledgeErrors.join('\n'));
+await writeFile('dist/knowledge.json',JSON.stringify(publicKnowledge(pilot,knowledgeReferences),null,2)+'\n');
+const bibSafe=s=>String(s).replace(/[{}\\]/g,'');
+await writeFile('dist/knowledge.bib',knowledgeReferences.map(p=>`@article{${p.id},\n  title={${bibSafe(p.title)}},\n  author={${bibSafe(p.authors.replaceAll('; ',' and '))}},\n  year={${p.year}},\n  journal={${bibSafe(p.journal)}},\n  doi={${p.doi}}\n}`).join('\n\n'));
+await writeFile('dist/knowledge.ris',knowledgeReferences.map(p=>`TY  - JOUR\nTI  - ${p.title}\n${p.authors.split('; ').map(a=>'AU  - '+a).join('\n')}\nPY  - ${p.year}\nJO  - ${p.journal}\nDO  - ${p.doi}\nUR  - ${p.url}\nER  -`).join('\n\n'));
 await writeFile('dist/research-library.json',JSON.stringify(researchDatabase(),null,2)+'\n');
 await writeFile('dist/journal/feed.json',JSON.stringify(journalFeed(siteOrigin),null,2)+'\n');
 await writeFile('dist/journal/feed.xml',journalRSS(siteOrigin));

@@ -1212,3 +1212,6 @@ body { padding-bottom:78px; }
   .ra-header { padding:14px; }
   #ra-selection { bottom:78px; }
 }
+
+/* Scientific evidence tables keep their own scroll area on small screens. */
+.ke-controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;margin:2rem 0}.ke-controls label{display:grid;gap:.35rem;min-width:0}.ke-controls input,.ke-controls select{width:100%;min-width:0;padding:.65rem;border:1px solid #ccd5cd;background:white}.ke-scroll{overflow:auto;max-width:100%;margin:1rem 0}.ke-table{border-collapse:collapse;min-width:650px;width:100%;font-size:.9rem}.ke-table th,.ke-table td{padding:.7rem;border-bottom:1px solid #d5ded6;text-align:left;vertical-align:top}.ke-table th{background:#edf2eb}.ke-scroll:focus-visible{outline:2px solid #23523e}.ke-table small{overflow-wrap:anywhere}.record:has(.ke-table){min-width:0}details.record{margin:.5rem 0;padding:1rem}#ke-results .record{margin:1rem 0}#ke-results h2{font-size:1.15rem}

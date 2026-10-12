@@ -1,6 +1,67 @@
 # Geopolymer — current handoff
-Updated 11 October 2026 (Eastern).
+Updated 12 October 2026 (Eastern).
 
+## Phase A implementation — review branch, not deployed
+- Base: current main `a1dd73c`. Work branch: `codex/knowledge-engine-phase-a`.
+- Baseline verified: 61 unique library DOIs and 15 curated literature formulations.
+  Final library: 86 unique DOIs, 25 additions, no merges/deletions; stable IDs kept.
+- Five full texts have detailed **partial** extraction: 60 mix variants, 182 result
+  cells (179 numeric + 3 below detection), 27 transcribed tables, 53 figure entries,
+  10 unfavorable/null/mixed findings, 18 historical research material identities.
+  Five study dataset families; variants are not independent replication.
+- Twenty new records are metadata-only; five are authorized full-text partial
+  records. Of the legacy 61, 22 have discovery summaries and 39 have metadata.
+  Do not call all 86 newly source audited, or all five fully extracted.
+- Added reusable versioned validation/import/rights/search modules; 25 study
+  routes; structured same-mix search, explicit partial matches, pagination,
+  shareable filters, study-condition comparison, JSON/BibTeX/RIS exports,
+  observation/study saves through existing assistant folders.
+- Calculator links are citation-only unless an existing curated recipe already
+  has its own preview/scaling flow. No guessed mass transfers, assays or strength
+  predictions. Calculator/notebook/research folder storage keys remain unchanged.
+- Assistant still catalog-test mode. Deep-dive retrieval up to 10 references;
+  paginated numeric evidence is in /knowledge. No model, paid service or schedule
+  added. Existing daily automation was not inspected or changed in this phase.
+- Read KNOWLEDGE_ENGINE.md for architecture, rights policy, importer and limits;
+  research/batches/phase-a-2026-10-12.json and phase-a-source-audit.json for evidence.
+
+## Verification for this branch
+- 49 Node tests pass, including 10 scientific search/import/rights benchmarks.
+- Deterministic source audit checks all 182 observation cells, 27 table
+  transcriptions and original HTML hashes; same-agent AI second pass checked
+  extreme values, failures, methods, units and conversions. No human/domain review.
+- Production build creates 76 routes. Local Playwright browser installation failed
+  with an invalid/truncated download. Automatic approval review blocked the branch
+  push (explicit publication authorization required); GitHub browser QA not run.
+  Local implementation commit: `ce2b961`; follow-up documentation fixes follow it.
+  No PR exists and the branch has not been pushed.
+- Synthetic scale benchmark: 500 / 1,000 metadata records; p95 search 1.55 / 2.49 ms;
+  JSON payload 590,031 / 1,180,391 bytes (gzip 14,312 / 24,573). Fixtures are not in
+  the public scientific catalog. These figures do not benchmark 1,000 full papers.
+- Production output: 2,375,427 bytes at the final local build.
+- Actual importer CLI ran twice against the same 25-record input: atomic
+  checkpoint retained exactly 25 records and 25 acceptance events.
+- No live deployment or new build identity verified for this branch.
+
+## Remaining acceptance work and next resumable batch
+1. Finish GitHub desktop/mobile checks and inspect screenshots; record exact
+   commit/PR/check results before release. Main/live are not changed by this file.
+2. Five full-paper inventories remain partial: graph-only series, analytical
+   profiles and some method details need reviewed extraction/digitization or
+   underlying source data. No estimated graph values are in exact numeric search.
+   Phase A breadth target is met; complete extraction acceptance is **not** claimed.
+3. Preserve unresolved issues on study pages: humidity conflict and misordered
+   relative comparisons in ma15082944; slag fraction wording versus mass table in
+   ma15010211; unquantified laboratory temperature and mixed Na/K in ma15082957.
+4. Current source-status checks are limited to Crossref deposited updates; perform
+   wider correction/retraction checks. No absent notice proves a clean status.
+5. Next <=25-reference batch should broaden beyond the pilot's shrinkage/MK/slag
+   citation chain to coffee char versus ash, coating adhesion, failed setting,
+   other publishers and material supply routes. Full-text operations for the
+   twenty metadata additions remain unassessed. No encyclopedia pages or current
+   supplier offerings have been created; those are subsequent phases.
+
+## Previous production release (historical evidence, unchanged)
 ## Release status
 - Live: https://geopolymer.bobdylan2000.workers.dev
 - Repository: https://github.com/yitzhach/geopolymer

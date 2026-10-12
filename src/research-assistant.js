@@ -103,6 +103,13 @@ export function mountAssistant() {
     const selection=selected;thread={...fresh(),...selection};remember();renderThread();open();
     status('Excerpt captured. Choose Deep dive, ask a question or save it to a folder.');
   };
+  document.addEventListener('gp-research-source',e=>{
+    const d=e.detail;
+    if(!d||typeof d.excerpt!=='string'||typeof d.title!=='string'||!safeLink(d.url))return;
+    if((thread.excerpt||thread.messages.length||thread.notes)&&!confirm('Research this evidence? Save or export the current thread first to keep unsaved changes.'))return;
+    thread={...fresh(),excerpt:d.excerpt.slice(0,5000),title:d.title.slice(0,300),url:d.url};
+    remember();renderThread();open();status('Source loaded. Choose a folder and Save to keep it.');
+  });
   q('#ra-excerpt').oninput=()=>{thread.excerpt=q('#ra-excerpt').value;remember();};
   q('#ra-notes').oninput=()=>{thread.notes=q('#ra-notes').value;remember();};
   q('#ra-new').onclick=()=>{if((thread.excerpt||thread.messages.length||thread.notes)&&!confirm('Start a new working thread? Save or download this one first if you want to keep its latest changes.'))return;thread=fresh();renderThread();remember();status('New thread started.');q('#ra-excerpt').focus();};

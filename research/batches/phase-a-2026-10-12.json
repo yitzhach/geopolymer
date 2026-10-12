@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "phase-a-2026-10-12",
+  "baseCommit": "a1dd73c",
+  "baseline": {
+    "libraryPublications": 61,
+    "curatedFormulations": 15
+  },
+  "strategyVersion": 1,
+  "strategy": [
+    {
+      "provider": "web search / publisher discovery",
+      "queries": [
+        "site.mdpi.com metakaolin slag geopolymer compressive strength open access",
+        "site.mdpi.com geopolymer potassium sodium experimental strength shrinkage"
+      ],
+      "date": "2026-10-12",
+      "window": "all years",
+      "rationale": "Find accessible experimental sources covering MK/slag, Na/K, shrinkage and printing"
+    },
+    {
+      "provider": "Crossref REST",
+      "query": "exact DOI lookup; citation chain from 10.3390/ma15082944",
+      "date": "2026-10-12",
+      "window": "all years",
+      "rationale": "Foundational primary studies and unfavorable outcomes; no recency or citation-count quality inference"
+    }
+  ],
+  "discoveredDoiCandidates": null,
+  "accepted": 25,
+  "duplicateAdditions": 0,
+  "excludedRationale": "Portland/CSA-only references omitted; stop at 25 verified unique additions. Remaining chain candidates are unprocessed, not rejected.",
+  "checkpoint": {
+    "acceptedIds": [
+      "ke-2944",
+      "ke-211",
+      "ke-5396",
+      "ke-902",
+      "ke-2957",
+      "ke-006",
+      "ke-007",
+      "ke-008",
+      "ke-009",
+      "ke-010",
+      "ke-011",
+      "ke-012",
+      "ke-013",
+      "ke-014",
+      "ke-015",
+      "ke-016",
+      "ke-017",
+      "ke-018",
+      "ke-019",
+      "ke-020",
+      "ke-021",
+      "ke-022",
+      "ke-023",
+      "ke-024",
+      "ke-025"
+    ],
+    "next": "Complete figure-only datasets and source-status review before scaling breadth"
+  },
+  "limits": {
+    "concurrency": 1,
+    "requestTimeoutSeconds": 25,
+    "metadataRecords": 25,
+    "fullTextPapers": 5,
+    "paidJobsEnabled": false
+  },
+  "cost": "No paid API or model ingestion enabled; platform tool usage not metered here",
+  "review": "Codex AI source checks; no human/domain review or independent replication",
+  "rightsPolicy": "gp-rights-1",
+  "sourceAccess": "Crossref bibliographic fields only; article-specific PMC CC BY 4.0 notices for five extractions",
+  "coverageBias": "Citation-chain pilot is concentrated in shrinkage and MK/slag; not a representative sample of geopolymer research.",
+  "discoveredCountReason": "Complete discovery result list was not retained; 25 accepted DOI records verified. Do not infer total search recall from this batch."
+}

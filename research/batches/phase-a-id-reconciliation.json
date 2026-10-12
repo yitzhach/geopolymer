@@ -1,0 +1,407 @@
+{
+  "baseCommit": "a1dd73c",
+  "preserved": [
+    {
+      "id": "library-1",
+      "doi": "10.3390/coatings16070752"
+    },
+    {
+      "id": "library-2",
+      "doi": "10.3390/coatings16070825"
+    },
+    {
+      "id": "library-3",
+      "doi": "10.3390/su18104754"
+    },
+    {
+      "id": "library-4",
+      "doi": "10.3390/ceramics9070071"
+    },
+    {
+      "id": "library-5",
+      "doi": "10.3390/ma19010012"
+    },
+    {
+      "id": "library-6",
+      "doi": "10.1016/j.susmat.2026.e01875"
+    },
+    {
+      "id": "library-7",
+      "doi": "10.1016/j.conbuildmat.2026.145501"
+    },
+    {
+      "id": "library-8",
+      "doi": "10.1111/jace.71116"
+    },
+    {
+      "id": "library-9",
+      "doi": "10.58845/jstt.utt.2026.en.6.2.187-205"
+    },
+    {
+      "id": "library-10",
+      "doi": "10.1080/19648189.2025.2594582"
+    },
+    {
+      "id": "library-11",
+      "doi": "10.1016/j.rineng.2026.111040"
+    },
+    {
+      "id": "library-12",
+      "doi": "10.3390/su17020468"
+    },
+    {
+      "id": "library-13",
+      "doi": "10.3390/ma18163864"
+    },
+    {
+      "id": "library-14",
+      "doi": "10.3390/jne6030034"
+    },
+    {
+      "id": "library-15",
+      "doi": "10.3390/buildings15101650"
+    },
+    {
+      "id": "library-16",
+      "doi": "10.1016/j.jeurceramsoc.2025.117191"
+    },
+    {
+      "id": "library-17",
+      "doi": "10.1016/j.clay.2025.108106"
+    },
+    {
+      "id": "library-18",
+      "doi": "10.1016/j.jssc.2025.125607"
+    },
+    {
+      "id": "library-19",
+      "doi": "10.1016/j.clay.2025.108055"
+    },
+    {
+      "id": "library-20",
+      "doi": "10.1016/j.rser.2025.116157"
+    },
+    {
+      "id": "library-21",
+      "doi": "10.1016/j.rineng.2025.105788"
+    },
+    {
+      "id": "library-22",
+      "doi": "10.1617/s11527-025-02670-5"
+    },
+    {
+      "id": "library-23",
+      "doi": "10.3390/polym17172358"
+    },
+    {
+      "id": "library-24",
+      "doi": "10.1002/suco.70093"
+    },
+    {
+      "id": "library-25",
+      "doi": "10.3390/ma18092093"
+    },
+    {
+      "id": "library-26",
+      "doi": "10.1016/j.cscm.2025.e04669"
+    },
+    {
+      "id": "library-27",
+      "doi": "10.1016/j.susmat.2024.e00882"
+    },
+    {
+      "id": "library-28",
+      "doi": "10.1016/j.conbuildmat.2024.135609"
+    },
+    {
+      "id": "library-29",
+      "doi": "10.1016/j.jenvman.2024.120226"
+    },
+    {
+      "id": "library-30",
+      "doi": "10.1016/j.conbuildmat.2024.136197"
+    },
+    {
+      "id": "library-31",
+      "doi": "10.1016/j.conbuildmat.2024.136013"
+    },
+    {
+      "id": "library-32",
+      "doi": "10.3390/ma17225581"
+    },
+    {
+      "id": "library-33",
+      "doi": "10.3390/su16083328"
+    },
+    {
+      "id": "library-34",
+      "doi": "10.3390/ceramics7040087"
+    },
+    {
+      "id": "library-35",
+      "doi": "10.1016/j.conbuildmat.2024.136439"
+    },
+    {
+      "id": "library-36",
+      "doi": "10.1016/j.conbuildmat.2024.136449"
+    },
+    {
+      "id": "library-37",
+      "doi": "10.1016/j.ceramint.2017.06.006"
+    },
+    {
+      "id": "library-38",
+      "doi": "10.1039/B212629J"
+    },
+    {
+      "id": "library-39",
+      "doi": "10.13140/RG.2.2.18109.10727/1"
+    },
+    {
+      "id": "research-pp-impact",
+      "doi": "10.3390/ma19204263"
+    },
+    {
+      "id": "research-nickel-carbon",
+      "doi": "10.3390/polym18192448"
+    },
+    {
+      "id": "research-soft-clay",
+      "doi": "10.1038/s41598-026-73492-w"
+    },
+    {
+      "id": "research-brick-sand",
+      "doi": "10.1007/s44290-026-00639-z"
+    },
+    {
+      "id": "research-tensile-curing",
+      "doi": "10.3390/civileng7040066"
+    },
+    {
+      "id": "research-nano-models",
+      "doi": "10.1007/s44290-026-00622-8"
+    },
+    {
+      "id": "research-mgo-phosphate",
+      "doi": "10.1016/j.jobe.2026.117456"
+    },
+    {
+      "id": "research-ceramic-activator",
+      "doi": "10.3390/buildings16193834"
+    },
+    {
+      "id": "research-volcanic-graphene",
+      "doi": "10.3390/polym18192322"
+    },
+    {
+      "id": "research-coupled-durability",
+      "doi": "10.3390/ma19194050"
+    },
+    {
+      "id": "research-red-mud-composites",
+      "doi": "10.3390/polym18182271"
+    },
+    {
+      "id": "research-red-mud-rice",
+      "doi": "10.3389/fmech.2026.1946182"
+    },
+    {
+      "id": "research-mineralogy-wastes",
+      "doi": "10.3390/min16090936"
+    },
+    {
+      "id": "research-brick-thermal",
+      "doi": "10.3390/ma19183890"
+    },
+    {
+      "id": "research-sensor-bricks",
+      "doi": "10.1007/s43939-026-00911-0"
+    },
+    {
+      "id": "research-co2-aggregate",
+      "doi": "10.1016/j.rineng.2026.112967"
+    },
+    {
+      "id": "research-hsom-strength",
+      "doi": "10.1038/s41598-026-68752-8"
+    },
+    {
+      "id": "research-fem-review",
+      "doi": "10.1007/s43939-026-00764-7"
+    },
+    {
+      "id": "research-pumice-thermal",
+      "doi": "10.3390/ma19183819"
+    },
+    {
+      "id": "research-cao-onepart",
+      "doi": "10.3390/molecules31173132"
+    },
+    {
+      "id": "research-silane-ternary",
+      "doi": "10.1007/s12633-026-03820-2"
+    },
+    {
+      "id": "research-treated-incinerator-bottom-ash",
+      "doi": "10.1617/s11527-026-03289-w"
+    }
+  ],
+  "additions": [
+    {
+      "id": "ke-2944",
+      "doi": "10.3390/ma15082944",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-211",
+      "doi": "10.3390/ma15010211",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-5396",
+      "doi": "10.3390/ma14185396",
+      "linkedCuratedRecipes": [
+        "vogt-gp0",
+        "vogt-gp6",
+        "vogt-gp75"
+      ]
+    },
+    {
+      "id": "ke-902",
+      "doi": "10.3390/ma12060902",
+      "linkedCuratedRecipes": [
+        "bong-na-n-25",
+        "bong-k-ka20-25"
+      ]
+    },
+    {
+      "id": "ke-2957",
+      "doi": "10.3390/ma15082957",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-006",
+      "doi": "10.1007/bf01912193",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-007",
+      "doi": "10.1016/j.conbuildmat.2019.07.112",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-008",
+      "doi": "10.1016/j.cemconres.2004.10.042",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-009",
+      "doi": "10.1016/j.conbuildmat.2009.02.022",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-010",
+      "doi": "10.1016/j.cemconcomp.2016.11.010",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-011",
+      "doi": "10.1007/s10853-009-3790-3",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-012",
+      "doi": "10.1016/j.conbuildmat.2012.04.005",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-013",
+      "doi": "10.1016/j.conbuildmat.2017.05.067",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-014",
+      "doi": "10.3390/su14063141",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-015",
+      "doi": "10.3390/ma14226962",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-016",
+      "doi": "10.1016/j.jclepro.2019.118502",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-017",
+      "doi": "10.1016/j.matchemphys.2021.124655",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-018",
+      "doi": "10.3390/ma15010202",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-019",
+      "doi": "10.1617/s11527-015-0599-1",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-020",
+      "doi": "10.1016/j.cemconres.2006.11.021",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-021",
+      "doi": "10.1016/j.conbuildmat.2014.05.085",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-022",
+      "doi": "10.1016/j.conbuildmat.2018.03.155",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-023",
+      "doi": "10.1016/j.cemconcomp.2016.04.008",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-024",
+      "doi": "10.1016/j.compositesb.2013.10.001",
+      "linkedCuratedRecipes": []
+    },
+    {
+      "id": "ke-025",
+      "doi": "10.1016/j.cemconres.2016.07.001",
+      "linkedCuratedRecipes": []
+    }
+  ],
+  "curatedRecipeIds": [
+    "davidovits-mk-slag",
+    "davidovits-fly-ash-80",
+    "davidovits-fly-ash-70",
+    "alameri-t2m9",
+    "kohout-gs-1",
+    "vogt-gp0",
+    "vogt-gp6",
+    "vogt-gp75",
+    "bong-na-n-25",
+    "bong-k-ka20-25",
+    "davidovits-dry-ex6",
+    "davidovits-czech-ex2",
+    "curtin-gc1-2",
+    "curtin-gc1-3",
+    "curtin-gc1-4"
+  ],
+  "counts": {
+    "baseline": 61,
+    "additions": 25,
+    "final": 86,
+    "curatedRecipes": 15,
+    "merges": 0
+  }
+}
