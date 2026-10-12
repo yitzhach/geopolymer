@@ -7,19 +7,21 @@ import {validateKnowledge,searchEvidence,publicKnowledge,reconcileBatch,normaliz
 const find=q=>searchEvidence(pilot,refs,{...q,pageSize:50});
 test('phase A identity, FK and source audit; preserve 61 stable IDs and 15 curated recipes',()=>{
  assert.equal(library.length,86);assert.equal(refs.length,25);assert.equal(library.filter(p=>!p.id.startsWith('ke-')).length,61);
- assert.deepEqual(validateKnowledge(pilot,library),[]);assert.equal(pilot.mixes.length,60);assert.equal(pilot.observations.length,182);
+ assert.deepEqual(validateKnowledge(pilot,library),[]);assert.equal(pilot.mixes.length,62);assert.equal(pilot.observations.length,255);
  const bad=structuredClone(pilot);bad.observations[0].mixId='211-M50-K';assert.ok(validateKnowledge(bad,library).length);
  assert.equal(normalizeDoi('https://doi.org/10.1039/B212629J'),'10.1039/b212629j');
 });
-test('gold: MK/slag ambient 28-day >60 MPa abstains; 56-day 50% slag exact source result',()=>{
- assert.equal(find({binder:'metakaolin-slag',minSlag:20,maxSlag:40,property:'compression',unit:'MPa',min:60,ageDays:28,cure:'ambient'}).total,0);
+test('gold: MK/slag 28-day figure labels supply same-mix matches; 56-day source result',()=>{
+ const matches=find({binder:'metakaolin-slag',minSlag:20,maxSlag:40,property:'compression',unit:'MPa',min:60,ageDays:28,cure:'ambient'});
+ assert.deepEqual(matches.exact.map(x=>[x.mix.originalId,x.observation.value]),[['S30-10',80.7],['S30-12',85.3]]);
+ assert.equal(find({binder:'metakaolin-slag',minSlag:20,maxSlag:40,property:'compression',unit:'MPa',min:100,ageDays:28}).total,0);
  const r=find({binder:'metakaolin-slag',minSlag:50,maxSlag:50,property:'compression',unit:'MPa',ageDays:56});assert.equal(r.total,1);assert.equal(r.exact[0].observation.value,86.1);assert.equal(r.exact[0].mix.originalId,'S50-10');
 });
 test('gold: missing cure temperature is partial; criteria may not join across different mixes',()=>{
  const r=find({binder:'metakaolin',property:'compression',unit:'MPa',min:70,ageDays:28,temperatureC:20});assert.equal(r.total,0);assert.ok(r.partialTotal>0);
  // Synthetic mutation adversary, explicitly not part of the scientific catalog.
- const d=structuredClone(pilot);const o=d.observations.find(o=>o.id==='2944-obs-1');o.ageDays=28;
- const r2=searchEvidence(d,refs,{binder:'metakaolin-slag',minSlag:20,maxSlag:40,property:'compression',unit:'MPa',min:60,ageDays:28});assert.equal(r2.total,0);
+ const d=structuredClone(pilot);const o=d.observations.find(o=>o.id==='2944-obs-1');o.ageDays=28;o.mixId='2944-S0-10';o.value=110;
+ const r2=searchEvidence(d,refs,{binder:'metakaolin-slag',minSlag:20,maxSlag:40,property:'compression',unit:'MPa',min:100,ageDays:28});assert.equal(r2.total,0);
 });
 test('gold: sodium, potassium and mixed Na/K remain distinct; no cross-property substitutes',()=>{
  const r=find({activation:'mixed-na-k',property:'compression',unit:'MPa',min:70,ageDays:28});assert.equal(r.total,1);assert.equal(r.exact[0].mix.originalId,'K10');assert.equal(r.exact[0].observation.value,72.72);
@@ -60,4 +62,18 @@ test('source table gold extremes and erosion exposure age are preserved',()=>{
  const e=pilot.observations.find(o=>o.mixId==='5396-GP0'&&o.exposureDays===84);assert.equal(e.value,1.07);assert.equal(e.ageDays,112);
  assert.equal(pilot.observations.find(o=>o.mixId==='5396-GP0'&&o.ageDays===1).value,60.8);
  assert.equal(pilot.observations.find(o=>o.mixId==='5396-GP0'&&o.ageDays===7).value,53.6);
+});
+
+test('follow-up: validation mixtures are separate; printed figures preserve direction and fresh age unknowns',()=>{
+ const v=pilot.mixes.filter(m=>m.id.endsWith('-validation'));assert.equal(v.length,2);
+ assert.deepEqual(pilot.observations.filter(o=>o.mixId==='2957-N-validation').map(o=>o.value),[61.97,65.79]);
+ assert.deepEqual(pilot.observations.filter(o=>o.mixId==='2957-K-validation').map(o=>o.value),[8.63,9.37]);
+ assert.equal(pilot.mixes.find(m=>m.id==='2957-K-validation').activation,'mixed-na-k');
+ assert.equal(pilot.tests.find(t=>t.id==='2957-flexure-validation').n,null);
+ const longitudinal=find({q:'Na-N-2.5',property:'compression',unit:'MPa',direction:'longitudinal',ageDays:28});
+ assert.equal(longitudinal.total,1);assert.equal(longitudinal.exact[0].observation.value,34);assert.equal(longitudinal.exact[0].test.n,3);
+ const spread=find({property:'fresh-spread-after-drop',unit:'mm',min:150});assert.equal(spread.total,1);assert.equal(spread.exact[0].mix.originalId,'Na-D-3.0');
+ assert.equal(find({property:'fresh-spread-after-drop',unit:'mm',ageDays:0}).total,0);
+ assert.equal(find({property:'fresh-spread-after-drop',unit:'mm',cure:'ambient'}).total,0);
+ assert.equal(pilot.tests.find(t=>t.id==='5396-erosion').cure.durationDays,28);
 });

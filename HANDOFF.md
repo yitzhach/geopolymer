@@ -12,9 +12,9 @@ Updated 12 October 2026 (Eastern).
   because command-line Git had no push credentials.
 - Baseline verified: 61 unique library DOIs and 15 curated literature formulations.
   Final library: 86 unique DOIs, 25 additions, no merges/deletions; stable IDs kept.
-- Five full texts have detailed **partial** extraction: 60 mix variants, 182 result
-  cells (179 numeric + 3 below detection), 27 transcribed tables, 53 figure entries,
-  10 unfavorable/null/mixed findings, 18 historical research material identities.
+- Five full texts have detailed **partial** extraction: 62 mix variants, 255 result
+  cells (252 numeric + 3 below detection), 27 transcribed tables, 53 figure entries,
+  12 unfavorable/null/mixed findings, 18 historical research material identities.
   Five study dataset families; variants are not independent replication.
 - Twenty new records are metadata-only; five are authorized full-text partial
   records. Of the legacy 61, 22 have discovery summaries and 39 have metadata.
@@ -33,8 +33,8 @@ Updated 12 October 2026 (Eastern).
   research/batches/phase-a-2026-10-12.json and phase-a-source-audit.json for evidence.
 
 ## Verification for this branch
-- 49 Node tests pass, including 10 scientific search/import/rights benchmarks.
-- Deterministic source audit checks all 182 observation cells, 27 table
+- 51 Node tests pass after the follow-up, including source-label and aggregate checks.
+- Initial source audit checks 182 observation cells, 27 table
   transcriptions and original HTML hashes; same-agent AI second pass checked
   extreme values, failures, methods, units and conversions. No human/domain review.
 - Production build creates 76 routes. Local Playwright browser installation failed
@@ -70,13 +70,32 @@ Updated 12 October 2026 (Eastern).
 3. Preserve unresolved issues on study pages: humidity conflict and misordered
    relative comparisons in ma15082944; slag fraction wording versus mass table in
    ma15010211; unquantified laboratory temperature and mixed Na/K in ma15082957.
-4. Current source-status checks are limited to Crossref deposited updates; perform
-   wider correction/retraction checks. No absent notice proves a clean status.
+4. Status follow-up checked the five PMC experimental article copies; no notices
+   found. Publisher requests returned HTTP 429 and PubMed browser challenges, so
+   those checks remain unresolved. The other twenty additions have only their
+   Crossref check. No absent notice proves a clean status.
 5. Next <=25-reference batch should broaden beyond the pilot's shrinkage/MK/slag
    citation chain to coffee char versus ash, coating adhesion, failed setting,
    other publishers and material supply routes. Full-text operations for the
    twenty metadata additions remain unassessed. No encyclopedia pages or current
    supplier offerings have been created; those are subsequent phases.
+
+## Follow-up checkpoint — 12 October 2026
+- Added 73 exact reported values: 69 printed figure labels and four previously
+  missed validation results; two additional validation mixtures. Totals above
+  supersede the first QA run's 60 mixes / 182 observations.
+- All additions have source locators, two-pass same-agent review and an audit
+  manifest. No graph-estimated values introduced. Figure-only curves and error
+  magnitudes still pending; five full-text records remain partial.
+- Recomputed all 216 K/k/R factor summaries in ma15082957; 18 disagreements with
+  primary tables retained and disclosed. No unsupported correction or optimum.
+- Expanded methods for all five papers; fixed acid-test initial cure to 28 days;
+  preserved shared-tank and omitted-profile limitations. Added two failure/mixed
+  findings (12 total). Schema/foreign-key validation and 76-route build pass.
+- Current follow-up browser QA pending; preceding 8eaf0f2 run remains historical
+  verification, not a claim about this new data revision.
+- Read phase-a-followup-source-audit.json, phase-a-factor-audit.json and
+  phase-a-status-followup.json. Resume on PR #6; not merged or deployed.
 
 ## Previous production release (historical evidence, unchanged)
 ## Release status

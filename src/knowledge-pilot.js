@@ -253,7 +253,7 @@ export const pilot = {
       "extraction": "partial",
       "verification": "source-checked-ai",
       "editorial": "approved",
-      "methods": "Dry blend 1 min; activator mixing 2 min; sand mixing 2 min. Activator prepared 24 h earlier. Strength samples demolded at 24 h; wet cure at 20 ±2 °C. Drying shrinkage uses 25 °C/80% RH; chemical shrinkage 23 °C water bath; autogenous shrinkage sealed bellows 23 ±1 °C. FTIR, SEM and MIP characterize the paste.",
+      "methods": "Dry blend 1 min; activator mixing 2 min; sand mixing 2 min. Activator prepared 24 h earlier. Strength samples demolded at 24 h; wet cure at 20 ±2 °C. Drying shrinkage uses 25 °C/80% RH; chemical shrinkage 23 °C water bath; autogenous shrinkage sealed bellows 23 ±1 °C. FTIR, SEM and MIP characterize the paste. Microstructure preparation: ethanol immersion for 3 days, then vacuum drying at 60 °C for 24 h. FTIR: Tensor 27, 4000–400 cm−1, 2 cm−1 resolution. MIP: AutoPore IV 9510, 5 nm–0.34 mm range. SEM: Quanta 200, reported 5 nm resolution and 20–10,000×. Drying shrinkage averages three specimens. Autogenous shrinkage uses sealed 29 mm × 430 mm bellows, three parallel samples and 1-minute sampling. Chemical shrinkage uses a 250 mL bottle, approximately 2 cm paste depth and a 2 mL capillary range.",
       "methodProvenance": {
         "assetId": "asset-2944",
         "locator": "§2–3",
@@ -301,8 +301,8 @@ export const pilot = {
         {
           "locator": "materials-15-02944-f003",
           "kind": "figure",
-          "state": "not-yet-extracted",
-          "note": "Compressive strength of the alkali-activated metakaolin-based geopolymer specimens according to the ( a ) slag and ( b ) Na 2 O content.; no graph digitization claimed"
+          "state": "ambiguous",
+          "note": "All 24 unique strength labels transcribed; one existing narrative result retained without duplication. S30-10 repeated across panels is one dataset. Growth-rate curve not digitized."
         },
         {
           "locator": "materials-15-02944-f004",
@@ -669,7 +669,7 @@ export const pilot = {
         }
       ],
       "sourceHash": "def358e843b55bd0069f48043f274c1c545aa612734b3a08070a6ee16e750001",
-      "coverageNote": "All article tables transcribed; all design mixes indexed. Exact numeric table/narrative measurements checked. Figure-only datasets are inventoried but not digitized; full-paper extraction remains partial."
+      "coverageNote": "All article tables transcribed; design mixes indexed, including subsequent validation mixes where reported. Exact table, narrative and selected printed figure-label values source checked. Unlabelled graph series and quantitative uncertainty remain incomplete; full-paper extraction is partial."
     },
     {
       "publicationId": "ke-211",
@@ -679,7 +679,7 @@ export const pilot = {
       "extraction": "partial",
       "verification": "source-checked-ai",
       "editorial": "approved",
-      "methods": "Dilute silicate with added water; mix fly ash 10 min, slag 5 min, scrape 1 min, add sand over 3 min. Cast/shake prisms, cover; demold at 24 h; 18 ±2 °C/75% RH, protected by plastic. Bending and compression at 3/7/14/28 d; SEM/EDS and MIP at 28 d.",
+      "methods": "Dilute silicate with added water; mix fly ash 10 min, slag 5 min, scrape 1 min, add sand over 3 min. Cast/shake prisms, cover; demold at 24 h; 18 ±2 °C/75% RH, protected by plastic. Bending and compression at 3/7/14/28 d; SEM/EDS and MIP at 28 d. Flexure uses two prisms per age at 50 N/s; compression uses the broken prisms at 2400 N/s, with the number of compression readings not explicitly stated. SEM (Zeiss EVO-MA 10), EDS and MIP (PoreMaster 33) apply to M50-Na and M50-K at 28 days, not all six mixtures. Water/binder 0.30 includes solution water; the binder is fly ash plus slag. Manufacturer-supplied slag/silicate compositions are distinct from the fly-ash XRF measurement.",
       "methodProvenance": {
         "assetId": "asset-211",
         "locator": "§2–3",
@@ -1143,7 +1143,7 @@ export const pilot = {
         }
       ],
       "sourceHash": "0825e1ea6f761a7cd4f750939bf4bba9be1271ec1ecb09ce5389c3584c041563",
-      "coverageNote": "All article tables transcribed; all design mixes indexed. Exact numeric table/narrative measurements checked. Figure-only datasets are inventoried but not digitized; full-paper extraction remains partial."
+      "coverageNote": "All article tables transcribed; design mixes indexed, including subsequent validation mixes where reported. Exact table, narrative and selected printed figure-label values source checked. Unlabelled graph series and quantitative uncertainty remain incomplete; full-paper extraction is partial."
     },
     {
       "publicationId": "ke-5396",
@@ -1153,7 +1153,7 @@ export const pilot = {
       "extraction": "partial",
       "verification": "source-checked-ai",
       "editorial": "approved",
-      "methods": "Premix silica fume with potassium silicate under rotation for 24 h to address hydrogen-related foaming, then mix with metakaolin 10 min. Cast/vibrate; cure sealed at 21 °C/50% RH. Strength uses six half prisms. Acid specimens cure 28 d; epoxy isolates one exposed face; acid pH ≈1 maintained daily for 84 d. Characterization includes XRD, FTIR, SEM-EDX, MIP and ICP-OES.",
+      "methods": "Premix silica fume with potassium silicate under rotation for 24 h to address hydrogen-related foaming, then mix with metakaolin 10 min. Cast/vibrate; cure sealed at 21 °C/50% RH. Strength uses six half prisms. Acid specimens cure 28 d; epoxy isolates one exposed face; acid pH ≈1 maintained daily for 84 d. Characterization includes XRD, FTIR, SEM-EDX, MIP and ICP-OES. Acid specimens are epoxy-coated at day 26 and cut at day 28, exposing 6.16 cm²; solution volume/exposed-area ratio is 9.7 dm³/dm². All mixtures share one tank: ICP-OES concentrations cannot be assigned to an individual formulation. Solution is not replaced; gentle manual stirring precedes daily pH readings. SEM samples dry at 40 °C to constant mass, are cut, epoxy-impregnated and polished. MIP preparation uses liquid nitrogen and freeze drying to ≤0.2% mass change per 24 h; contact angle 125°, surface tension 0.48 N/m. XRD: 3–70° 2θ, 0.02° steps, 2 s/step; Rietveld uses 10% corundum. FTIR: 650–4000 cm−1, 4 cm−1 resolution, eight scans. SEM-EDX: 15 keV, 2.0 nA, 10 Pa, 512 × 400 pixels over 3.0 × 2.4 mm; 500 µs dwell and 128 frames. Depth-profile bins are 100 µm; large voids/cracks are manually excluded. Internal-standard EDX is semi-quantitative; three unexposed mappings define the reference. ICP-OES averages two measurements at exposure days 28/56/84.",
       "methodProvenance": {
         "assetId": "asset-5396",
         "locator": "§2–3",
@@ -1165,7 +1165,8 @@ export const pilot = {
         "Strength and acid exposure are separate tests; erosion exposure days are not specimen age.",
         "Reported zero erosion is a caliper result, not zero elemental leaching or zero corrosion.",
         "Three early strength cells below detection have unknown numerical limits.",
-        "Graph-only chemical depth profiles and porosimetry remain unquantified."
+        "Graph-only chemical depth profiles and porosimetry remain unquantified.",
+        "All formulations shared one acid tank; solution ICP-OES data cannot be assigned to separate mixtures. Figure 13 discussion says 14-day depth profiles and per-point error bars were omitted; these cannot be recovered by digitizing the published plots."
       ],
       "inventory": [
         {
@@ -1758,7 +1759,7 @@ export const pilot = {
         }
       ],
       "sourceHash": "dab920fd5d2f9487fc2b4a1d706aa7f24222b06c56a7baffe839e90aeeb45de2",
-      "coverageNote": "All article tables transcribed; all design mixes indexed. Exact numeric table/narrative measurements checked. Figure-only datasets are inventoried but not digitized; full-paper extraction remains partial."
+      "coverageNote": "All article tables transcribed; design mixes indexed, including subsequent validation mixes where reported. Exact table, narrative and selected printed figure-label values source checked. Unlabelled graph series and quantitative uncertainty remain incomplete; full-paper extraction is partial."
     },
     {
       "publicationId": "ke-902",
@@ -1768,7 +1769,7 @@ export const pilot = {
       "extraction": "partial",
       "verification": "source-checked-ai",
       "editorial": "approved",
-      "methods": "Dry mix precursors, borax and sands 3 min; add activator and mix 7 min; add CMC and mix 5 min. Print through 30 ×15 mm nozzle. Seal at 23 ±3 °C. Twelve single-layer designs tested at 3 d; selected Na-N-2.5 two-layer design at 7/28 d, layer delay 2 min. Compression and flexure depend on print direction; interlayer tension has five replicates.",
+      "methods": "Dry mix precursors, borax and sands 3 min; add activator and mix 7 min; add CMC and mix 5 min. Print through 30 ×15 mm nozzle. Seal at 23 ±3 °C. Twelve single-layer designs tested at 3 d; selected Na-N-2.5 two-layer design at 7/28 d, layer delay 2 min. Compression and flexure depend on print direction; interlayer tension has five replicates. Extrudability requires all four 250 mm filaments to print without blockage, tearing, segregation or bleeding. Shape-retention ratio is 30 mm nozzle width divided by filament bottom width, averaging at least six sections; calliper accuracy is 0.01 mm. Single-layer compression averages six specimens at 3 days; two-layer compression averages three cubes per direction/age at 7 and 28 days. Flexure uses three prisms per direction, a 150 mm span and 1.0 mm/min displacement. Compression loading is 0.33 MPa/s. Bond specimens attach to metallic T-sections using epoxy, with interface notches and uniaxial tension at 1 mm/min. Flow-table spread is a fresh-state measurement; elapsed time and replicate count are not reported.",
       "methodProvenance": {
         "assetId": "asset-902",
         "locator": "§2–4",
@@ -1846,8 +1847,8 @@ export const pilot = {
         {
           "locator": "materials-12-00902-f008",
           "kind": "figure",
-          "state": "not-yet-extracted",
-          "note": "Workability test results of the 3D printable geopolymers with ( a ) Na-based activators and ( b ) K-based activators.; no graph digitization claimed"
+          "state": "ambiguous",
+          "note": "All 24 printed spread labels transcribed. Fresh-state before/after flow-table drop are distinct properties; elapsed time and n unknown."
         },
         {
           "locator": "materials-12-00902-f009",
@@ -1858,20 +1859,20 @@ export const pilot = {
         {
           "locator": "materials-12-00902-f010",
           "kind": "figure",
-          "state": "not-yet-extracted",
-          "note": "Compressive strength of 3D printed geopolymers with ( a ) Na-based activators and ( b ) K-based activators.; no graph digitization claimed"
+          "state": "ambiguous",
+          "note": "All 12 printed 3-day mean labels transcribed. Error-bar magnitudes not extracted."
         },
         {
           "locator": "materials-12-00902-f011",
           "kind": "figure",
-          "state": "not-yet-extracted",
-          "note": "Compressive strength of Na-N-2.5 (the optimum 3D printable mixture) in different directions.; no graph digitization claimed"
+          "state": "ambiguous",
+          "note": "All six printed directional strength means transcribed. Error-bar magnitudes not extracted."
         },
         {
           "locator": "materials-12-00902-f012",
           "kind": "figure",
-          "state": "not-yet-extracted",
-          "note": "( a ) Flexural strength of Na-N-2.5 (the optimum 3D printable mixture) in different directions. ( b ) Side view of the fractured surfaces.; no graph digitization claimed"
+          "state": "ambiguous",
+          "note": "All four printed flexural means transcribed. Error bars remain unquantified; panel b is a failure photograph."
         },
         {
           "locator": "materials-12-00902-f013",
@@ -2251,7 +2252,7 @@ export const pilot = {
         }
       ],
       "sourceHash": "45eddf281408d23c5e42b36f686aec3b1e2ca19496094c6984721cadf85bed58",
-      "coverageNote": "All article tables transcribed; all design mixes indexed. Exact numeric table/narrative measurements checked. Figure-only datasets are inventoried but not digitized; full-paper extraction remains partial."
+      "coverageNote": "All article tables transcribed; design mixes indexed, including subsequent validation mixes where reported. Exact table, narrative and selected printed figure-label values source checked. Unlabelled graph series and quantitative uncertainty remain incomplete; full-paper extraction is partial."
     },
     {
       "publicationId": "ke-2957",
@@ -2261,7 +2262,7 @@ export const pilot = {
       "extraction": "partial",
       "verification": "source-checked-ai",
       "editorial": "approved",
-      "methods": "Two 16-run orthogonal series vary hydroxide molarity, activator/MK mass and sodium-silicate/hydroxide-solution mass. Mix slowly 1 min then quickly 2 min; vibrate 1 min; cover 24 h then demold and store in laboratory. Three specimens per strength mean; cube compression and three-point prism flexure at 7/28 d. XRD and SEM inspect selected variants.",
+      "methods": "Two 16-run orthogonal series vary hydroxide molarity, activator/MK mass and sodium-silicate/hydroxide-solution mass. Mix slowly 1 min then quickly 2 min; vibrate 1 min; cover 24 h then demold and store in laboratory. Three specimens per strength mean; cube compression and three-point prism flexure at 7/28 d. XRD and SEM inspect selected variants. Compression loading is 2.4 kN/s; flexure is 50 N/s (GB/T 17671-1999). At 28 days, selected N1/N2/N7/N14 and K2/K3/K5/K7/K9/K15 undergo XRD, SEM and FTIR. XRD ranges are 5–85° and 5–90°, with reported steps 0.0065651 and 0.02; instrument-to-series assignment is unclear. FTIR uses a Nicolet iN10, described as ART in the source. SEM uses an EM-30 plus at 1–30 kV and 2000×/5000×; these are reported settings, not measured particle dimensions.",
       "methodProvenance": {
         "assetId": "asset-2957",
         "locator": "§2–3",
@@ -2273,7 +2274,10 @@ export const pilot = {
         "K-series uses KOH PLUS sodium silicate: mixed Na/K, not potassium-only activation.",
         "Laboratory temperature and humidity are not quantified; ambient descriptor alone cannot satisfy a numeric temperature filter.",
         "Factor-level K/k aggregates in Tables 5–8 are author calculations, not additional experimental replicates.",
-        "Source molarity preparation depends on stated purity; no solution density is supplied for calculator transfer."
+        "Source molarity preparation depends on stated purity; no solution density is supplied for calculator transfer.",
+        "Tables 6 and 8 contain 18 sum/mean/range disagreements with Tables 3–4 beyond rounding tolerance. Example: Na 28-day flexural factor A4 sum is printed 28.96, while its four reported observations total 28.53 MPa. Mixed Na/K 28-day compression A3 sum is printed 262.58 versus 261.37 MPa. Original measurements and source cells are preserved; disputed aggregates and Figure 3 are not independent observations or a validated optimum. See phase-a-factor-audit.json.",
+        "Two subsequent validation schemes are reported in §3.1, outside the 32-run array. Their four values are indexed separately; other properties and replicate counts are not assumed.",
+        "Figure 3 labels the K-series silicate as K2SiO3, conflicting with §2.1.2 sodium silicate. Activation remains mixed Na/K based on the preparation method."
       ],
       "inventory": [
         {
@@ -2339,8 +2343,8 @@ export const pilot = {
         {
           "locator": "materials-15-02957-f003",
           "kind": "figure",
-          "state": "not-yet-extracted",
-          "note": "Factorial diagrams of the main parameters: ( a ) factorial diagrams of the main parameters that affected the compressive strength of the Na-based geopolymer samples, ( b ) factorial diagrams of the main parameters that a; no graph digitization claimed"
+          "state": "ambiguous",
+          "note": "Visual/source review: factor means repeat Tables 5–8; 18 table aggregate disagreements identified. K2SiO3 axis label conflicts with sodium silicate in §2.1.2. No extra experiments inferred."
         },
         {
           "locator": "materials-15-02957-f004",
@@ -2431,6 +2435,12 @@ export const pilot = {
           "kind": "supplements",
           "state": "not-reported",
           "note": "No separately linked experimental supplement located in retrieved article HTML; linked third-party assets not licensed by inference."
+        },
+        {
+          "locator": "§3.1 final paragraph: A4B3C1 / A4B1C3 subsequent tests",
+          "kind": "method",
+          "state": "extracted",
+          "note": "Two additional validation formulations and four strength values. General mechanical method applies; validation replicate count is not separately reported."
         }
       ],
       "tables": [
@@ -3418,7 +3428,7 @@ export const pilot = {
         }
       ],
       "sourceHash": "3bc24a4b1ca1aaf6d4b85c0d6714873c5f2d5bd8dc3ac049970f51c94e9b61ac",
-      "coverageNote": "All article tables transcribed; all design mixes indexed. Exact numeric table/narrative measurements checked. Figure-only datasets are inventoried but not digitized; full-paper extraction remains partial."
+      "coverageNote": "All article tables transcribed; design mixes indexed, including subsequent validation mixes where reported. Exact table, narrative and selected printed figure-label values source checked. Unlabelled graph series and quantitative uncertainty remain incomplete; full-paper extraction is partial."
     }
   ],
   "mixes": [
@@ -6809,6 +6819,98 @@ export const pilot = {
         "902-material-slag",
         "902-material-k22"
       ]
+    },
+    {
+      "id": "2957-N-validation",
+      "publicationId": "ke-2957",
+      "originalId": "A4B3C1 validation (platform label)",
+      "datasetFamilyId": "dataset-2957",
+      "binder": "metakaolin",
+      "activation": "sodium",
+      "slagPercent": 0,
+      "slagBasis": "mass of precursor binder",
+      "quantities": [
+        {
+          "material": "hydroxide concentration",
+          "originalText": "14",
+          "value": 14,
+          "unit": "mol/L",
+          "basis": "hydroxide solution"
+        },
+        {
+          "material": "activator / metakaolin",
+          "originalText": "0.9",
+          "value": 0.9,
+          "unit": "ratio",
+          "basis": "as-supplied mass"
+        },
+        {
+          "material": "sodium silicate solution / hydroxide solution",
+          "originalText": "1.5",
+          "value": 1.5,
+          "unit": "ratio",
+          "basis": "as-supplied mass"
+        }
+      ],
+      "provenance": {
+        "assetId": "asset-2957",
+        "locator": "§3.1 final paragraph; validation scheme; Table 2 factor levels",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      },
+      "calculatorEligible": false,
+      "calculatorBlocker": "Review original quantity bases and missing inputs; use linked curated recipe where available.",
+      "materialIds": [
+        "2957-material-mk",
+        "2957-material-silicate"
+      ]
+    },
+    {
+      "id": "2957-K-validation",
+      "publicationId": "ke-2957",
+      "originalId": "A4B1C3 validation (platform label)",
+      "datasetFamilyId": "dataset-2957",
+      "binder": "metakaolin",
+      "activation": "mixed-na-k",
+      "slagPercent": 0,
+      "slagBasis": "mass of precursor binder",
+      "quantities": [
+        {
+          "material": "hydroxide concentration",
+          "originalText": "14",
+          "value": 14,
+          "unit": "mol/L",
+          "basis": "hydroxide solution"
+        },
+        {
+          "material": "activator / metakaolin",
+          "originalText": "0.7",
+          "value": 0.7,
+          "unit": "ratio",
+          "basis": "as-supplied mass"
+        },
+        {
+          "material": "sodium silicate solution / hydroxide solution",
+          "originalText": "2.5",
+          "value": 2.5,
+          "unit": "ratio",
+          "basis": "as-supplied mass"
+        }
+      ],
+      "provenance": {
+        "assetId": "asset-2957",
+        "locator": "§3.1 final paragraph; validation scheme; Table 2 factor levels",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      },
+      "calculatorEligible": false,
+      "calculatorBlocker": "Review original quantity bases and missing inputs; use linked curated recipe where available.",
+      "materialIds": [
+        "2957-material-mk",
+        "2957-material-silicate"
+      ]
     }
   ],
   "tests": [
@@ -6901,9 +7003,9 @@ export const pilot = {
         "temperatureC": 21,
         "humidityPercent": 50,
         "sealed": true,
-        "durationDays": null,
-        "durationReason": "until test; see preparation",
-        "preconditioning": null
+        "durationDays": 28,
+        "durationReason": "initial sealed cure before acid exposure",
+        "preconditioning": "epoxy coating at day 26; cut exposed face at day 28 (§2.4)"
       },
       "n": null,
       "direction": null,
@@ -7067,6 +7169,266 @@ export const pilot = {
       "provenance": {
         "assetId": "asset-902",
         "locator": "§3.2–3.3",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2957-compression-validation",
+      "publicationId": "ke-2957",
+      "property": "compression",
+      "geometry": "40 mm cube",
+      "method": "GB/T 17671-1999; 2.4 kN/s; subsequent validation tests: replicate count not separately restated",
+      "cure": {
+        "category": "ambient",
+        "temperatureC": null,
+        "humidityPercent": null,
+        "sealed": null,
+        "durationDays": null,
+        "durationReason": "until test; see preparation",
+        "preconditioning": null
+      },
+      "n": null,
+      "direction": null,
+      "substrate": null,
+      "provenance": {
+        "assetId": "asset-2957",
+        "locator": "§2.4.1 general method; §3.1 final paragraph validation tests",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2957-flexure-validation",
+      "publicationId": "ke-2957",
+      "property": "flexure",
+      "geometry": "40 × 40 × 160 mm prism; three-point",
+      "method": "GB/T 17671-1999; 50 N/s; subsequent validation tests: replicate count not separately restated",
+      "cure": {
+        "category": "ambient",
+        "temperatureC": null,
+        "humidityPercent": null,
+        "sealed": null,
+        "durationDays": null,
+        "durationReason": "until test; see preparation",
+        "preconditioning": null
+      },
+      "n": null,
+      "direction": null,
+      "substrate": null,
+      "provenance": {
+        "assetId": "asset-2957",
+        "locator": "§2.4.1 general method; §3.1 final paragraph validation tests",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-compression-single",
+      "publicationId": "ke-902",
+      "property": "compression",
+      "geometry": "60 × 30 × 15 mm; one printed layer",
+      "method": "Uniaxial compression; 0.33 MPa/s; surfaces ground",
+      "cure": {
+        "category": "ambient",
+        "temperatureC": 23,
+        "humidityPercent": null,
+        "sealed": true,
+        "durationDays": null,
+        "durationReason": "until test; see preparation",
+        "preconditioning": null
+      },
+      "n": 6,
+      "direction": "longitudinal",
+      "substrate": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "§3.2, §3.3.4; Figure 10",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-compression-perpendicular",
+      "publicationId": "ke-902",
+      "property": "compression",
+      "geometry": "30 mm cube; two printed layers",
+      "method": "Uniaxial compression; 0.33 MPa/s; layer delay 2 min; surfaces ground",
+      "cure": {
+        "category": "ambient",
+        "temperatureC": 23,
+        "humidityPercent": null,
+        "sealed": true,
+        "durationDays": null,
+        "durationReason": "until test; see preparation",
+        "preconditioning": null
+      },
+      "n": 3,
+      "direction": "perpendicular",
+      "substrate": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "§3.2, §3.3.4; Figure 11",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-compression-lateral",
+      "publicationId": "ke-902",
+      "property": "compression",
+      "geometry": "30 mm cube; two printed layers",
+      "method": "Uniaxial compression; 0.33 MPa/s; layer delay 2 min; surfaces ground",
+      "cure": {
+        "category": "ambient",
+        "temperatureC": 23,
+        "humidityPercent": null,
+        "sealed": true,
+        "durationDays": null,
+        "durationReason": "until test; see preparation",
+        "preconditioning": null
+      },
+      "n": 3,
+      "direction": "lateral",
+      "substrate": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "§3.2, §3.3.4; Figure 11",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-compression-longitudinal",
+      "publicationId": "ke-902",
+      "property": "compression",
+      "geometry": "30 mm cube; two printed layers",
+      "method": "Uniaxial compression; 0.33 MPa/s; layer delay 2 min; surfaces ground",
+      "cure": {
+        "category": "ambient",
+        "temperatureC": 23,
+        "humidityPercent": null,
+        "sealed": true,
+        "durationDays": null,
+        "durationReason": "until test; see preparation",
+        "preconditioning": null
+      },
+      "n": 3,
+      "direction": "longitudinal",
+      "substrate": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "§3.2, §3.3.4; Figure 11",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-flexure-perpendicular",
+      "publicationId": "ke-902",
+      "property": "flexure",
+      "geometry": "250 × 30 × 30 mm prism; two printed layers; 150 mm span",
+      "method": "Three-point bending; displacement 1.0 mm/min; layer delay 2 min; surfaces ground",
+      "cure": {
+        "category": "ambient",
+        "temperatureC": 23,
+        "humidityPercent": null,
+        "sealed": true,
+        "durationDays": null,
+        "durationReason": "until test; see preparation",
+        "preconditioning": null
+      },
+      "n": 3,
+      "direction": "perpendicular",
+      "substrate": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "§3.2, §3.3.5; Figure 12a",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-flexure-lateral",
+      "publicationId": "ke-902",
+      "property": "flexure",
+      "geometry": "250 × 30 × 30 mm prism; two printed layers; 150 mm span",
+      "method": "Three-point bending; displacement 1.0 mm/min; layer delay 2 min; surfaces ground",
+      "cure": {
+        "category": "ambient",
+        "temperatureC": 23,
+        "humidityPercent": null,
+        "sealed": true,
+        "durationDays": null,
+        "durationReason": "until test; see preparation",
+        "preconditioning": null
+      },
+      "n": 3,
+      "direction": "lateral",
+      "substrate": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "§3.2, §3.3.5; Figure 12a",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-fresh-spread-before-drop",
+      "publicationId": "ke-902",
+      "property": "fresh-spread-before-drop",
+      "geometry": "mini-slump cone; 100 mm base diameter",
+      "method": "ASTM C1437 as cited; before flow-table drop; drop count not reported",
+      "cure": {
+        "category": "not-applicable",
+        "temperatureC": null,
+        "humidityPercent": null,
+        "sealed": null,
+        "durationDays": null,
+        "durationReason": "fresh test; no curing stage",
+        "preconditioning": null
+      },
+      "n": null,
+      "direction": null,
+      "substrate": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "§3.3.1, §4.1.2; Figure 8",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-fresh-spread-after-drop",
+      "publicationId": "ke-902",
+      "property": "fresh-spread-after-drop",
+      "geometry": "mini-slump cone; 100 mm base diameter",
+      "method": "ASTM C1437 as cited; after flow-table drop; drop count not reported",
+      "cure": {
+        "category": "not-applicable",
+        "temperatureC": null,
+        "humidityPercent": null,
+        "sealed": null,
+        "durationDays": null,
+        "durationReason": "fresh test; no curing stage",
+        "preconditioning": null
+      },
+      "n": null,
+      "direction": null,
+      "substrate": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "§3.3.1, §4.1.2; Figure 8",
         "basis": "article narrative",
         "checkedBy": "Codex AI source check",
         "checkedAt": "2026-10-12"
@@ -11803,6 +12165,1831 @@ export const pilot = {
         "checkedBy": "Codex AI source check",
         "checkedAt": "2026-10-12"
       }
+    },
+    {
+      "id": "2944-obs-19",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S0-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "63.3",
+      "value": 63.3,
+      "unit": "MPa",
+      "ageDays": 3,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S0-10, 3-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-20",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S0-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "67.4",
+      "value": 67.4,
+      "unit": "MPa",
+      "ageDays": 7,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S0-10, 7-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-21",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S0-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "69.7",
+      "value": 69.7,
+      "unit": "MPa",
+      "ageDays": 28,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S0-10, 28-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-22",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S0-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "70.1",
+      "value": 70.1,
+      "unit": "MPa",
+      "ageDays": 56,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S0-10, 56-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-23",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S10-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "68.3",
+      "value": 68.3,
+      "unit": "MPa",
+      "ageDays": 3,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S10-10, 3-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-24",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S10-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "70.0",
+      "value": 70,
+      "unit": "MPa",
+      "ageDays": 7,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S10-10, 7-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-25",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S10-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "72.7",
+      "value": 72.7,
+      "unit": "MPa",
+      "ageDays": 28,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S10-10, 28-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-26",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S10-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "75.4",
+      "value": 75.4,
+      "unit": "MPa",
+      "ageDays": 56,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S10-10, 56-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-27",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S30-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "73.9",
+      "value": 73.9,
+      "unit": "MPa",
+      "ageDays": 3,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S30-10, 3-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-28",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S30-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "75.1",
+      "value": 75.1,
+      "unit": "MPa",
+      "ageDays": 7,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S30-10, 7-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-29",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S30-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "80.7",
+      "value": 80.7,
+      "unit": "MPa",
+      "ageDays": 28,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S30-10, 28-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-30",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S30-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "85.5",
+      "value": 85.5,
+      "unit": "MPa",
+      "ageDays": 56,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S30-10, 56-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-31",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S50-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "74.1",
+      "value": 74.1,
+      "unit": "MPa",
+      "ageDays": 3,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S50-10, 3-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-32",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S50-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "76.5",
+      "value": 76.5,
+      "unit": "MPa",
+      "ageDays": 7,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S50-10, 7-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-33",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S50-10",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "82.4",
+      "value": 82.4,
+      "unit": "MPa",
+      "ageDays": 28,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3a, S50-10, 28-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-34",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S30-8",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "43.5",
+      "value": 43.5,
+      "unit": "MPa",
+      "ageDays": 3,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3b, S30-8, 3-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-35",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S30-8",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "46.9",
+      "value": 46.9,
+      "unit": "MPa",
+      "ageDays": 7,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3b, S30-8, 7-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-36",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S30-8",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "58.9",
+      "value": 58.9,
+      "unit": "MPa",
+      "ageDays": 28,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3b, S30-8, 28-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-37",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S30-8",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "62.5",
+      "value": 62.5,
+      "unit": "MPa",
+      "ageDays": 56,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3b, S30-8, 56-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-38",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S30-12",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "79.4",
+      "value": 79.4,
+      "unit": "MPa",
+      "ageDays": 3,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3b, S30-12, 3-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-39",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S30-12",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "82.5",
+      "value": 82.5,
+      "unit": "MPa",
+      "ageDays": 7,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3b, S30-12, 7-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-40",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S30-12",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "85.3",
+      "value": 85.3,
+      "unit": "MPa",
+      "ageDays": 28,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3b, S30-12, 28-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2944-obs-41",
+      "publicationId": "ke-2944",
+      "mixId": "2944-S30-12",
+      "testId": "2944-compression",
+      "property": "compression",
+      "originalText": "89.0",
+      "value": 89,
+      "unit": "MPa",
+      "ageDays": 56,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2944",
+        "locator": "Figure 3b, S30-12, 56-day bar label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2957-obs-129",
+      "publicationId": "ke-2957",
+      "mixId": "2957-N-validation",
+      "testId": "2957-compression-validation",
+      "property": "compression",
+      "originalText": "61.97",
+      "value": 61.97,
+      "unit": "MPa",
+      "ageDays": 7,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "not reported with this value",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2957",
+        "locator": "§3.1 final paragraph, A4B3C1 sodium compression, 7 days",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2957-obs-130",
+      "publicationId": "ke-2957",
+      "mixId": "2957-N-validation",
+      "testId": "2957-compression-validation",
+      "property": "compression",
+      "originalText": "65.79",
+      "value": 65.79,
+      "unit": "MPa",
+      "ageDays": 28,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "not reported with this value",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2957",
+        "locator": "§3.1 final paragraph, A4B3C1 sodium compression, 28 days",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2957-obs-131",
+      "publicationId": "ke-2957",
+      "mixId": "2957-K-validation",
+      "testId": "2957-flexure-validation",
+      "property": "flexure",
+      "originalText": "8.63",
+      "value": 8.63,
+      "unit": "MPa",
+      "ageDays": 7,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "not reported with this value",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2957",
+        "locator": "§3.1 final paragraph, A4B1C3 mixed Na/K flexure, 7 days",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "2957-obs-132",
+      "publicationId": "ke-2957",
+      "mixId": "2957-K-validation",
+      "testId": "2957-flexure-validation",
+      "property": "flexure",
+      "originalText": "9.37",
+      "value": 9.37,
+      "unit": "MPa",
+      "ageDays": 28,
+      "ageOrigin": "reported curing/aging duration; zero event not explicitly defined",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "not reported with this value",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2957",
+        "locator": "§3.1 final paragraph, A4B1C3 mixed Na/K flexure, 28 days",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-3",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-D-1.5",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "14.0",
+      "value": 14,
+      "unit": "MPa",
+      "ageDays": 3,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10a, Na-D-1.5, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-4",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-D-2.5",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "15.5",
+      "value": 15.5,
+      "unit": "MPa",
+      "ageDays": 3,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10a, Na-D-2.5, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-5",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-D-3.0",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "16.6",
+      "value": 16.6,
+      "unit": "MPa",
+      "ageDays": 3,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10a, Na-D-3.0, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-6",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-1.5",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "10.7",
+      "value": 10.7,
+      "unit": "MPa",
+      "ageDays": 3,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10a, Na-N-1.5, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-7",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "14.9",
+      "value": 14.9,
+      "unit": "MPa",
+      "ageDays": 3,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10a, Na-N-2.5, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-8",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-3.0",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "13.7",
+      "value": 13.7,
+      "unit": "MPa",
+      "ageDays": 3,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10a, Na-N-3.0, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-9",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA20-1.5",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "8.5",
+      "value": 8.5,
+      "unit": "MPa",
+      "ageDays": 3,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10b, K-KA20-1.5, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-10",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA20-2.5",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "11.9",
+      "value": 11.9,
+      "unit": "MPa",
+      "ageDays": 3,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10b, K-KA20-2.5, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-11",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA20-3.0",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "13.2",
+      "value": 13.2,
+      "unit": "MPa",
+      "ageDays": 3,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10b, K-KA20-3.0, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-12",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA22-1.5",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "9.4",
+      "value": 9.4,
+      "unit": "MPa",
+      "ageDays": 3,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10b, K-KA22-1.5, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-13",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA22-2.5",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "9.6",
+      "value": 9.6,
+      "unit": "MPa",
+      "ageDays": 3,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10b, K-KA22-2.5, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-14",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA22-3.0",
+      "testId": "902-compression-single",
+      "property": "compression",
+      "originalText": "8.5",
+      "value": 8.5,
+      "unit": "MPa",
+      "ageDays": 3,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 10b, K-KA22-3.0, printed mean label; §3.2 establishes 3 days",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-15",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-compression-perpendicular",
+      "property": "compression",
+      "originalText": "16.5",
+      "value": 16.5,
+      "unit": "MPa",
+      "ageDays": 7,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 11, perpendicular, 7 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-16",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-compression-perpendicular",
+      "property": "compression",
+      "originalText": "26.1",
+      "value": 26.1,
+      "unit": "MPa",
+      "ageDays": 28,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 11, perpendicular, 28 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-17",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-compression-lateral",
+      "property": "compression",
+      "originalText": "13.1",
+      "value": 13.1,
+      "unit": "MPa",
+      "ageDays": 7,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 11, lateral, 7 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-18",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-compression-lateral",
+      "property": "compression",
+      "originalText": "19.8",
+      "value": 19.8,
+      "unit": "MPa",
+      "ageDays": 28,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 11, lateral, 28 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-19",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-compression-longitudinal",
+      "property": "compression",
+      "originalText": "21.1",
+      "value": 21.1,
+      "unit": "MPa",
+      "ageDays": 7,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 11, longitudinal, 7 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-20",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-compression-longitudinal",
+      "property": "compression",
+      "originalText": "34.0",
+      "value": 34,
+      "unit": "MPa",
+      "ageDays": 28,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 11, longitudinal, 28 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-21",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-flexure-perpendicular",
+      "property": "flexure",
+      "originalText": "5.8",
+      "value": 5.8,
+      "unit": "MPa",
+      "ageDays": 7,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 12a, perpendicular, 7 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-22",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-flexure-perpendicular",
+      "property": "flexure",
+      "originalText": "7.1",
+      "value": 7.1,
+      "unit": "MPa",
+      "ageDays": 28,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 12a, perpendicular, 28 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-23",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-flexure-lateral",
+      "property": "flexure",
+      "originalText": "4.4",
+      "value": 4.4,
+      "unit": "MPa",
+      "ageDays": 7,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 12a, lateral, 7 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-24",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-flexure-lateral",
+      "property": "flexure",
+      "originalText": "6.3",
+      "value": 6.3,
+      "unit": "MPa",
+      "ageDays": 28,
+      "ageOrigin": "days after printing",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 12a, lateral, 28 days, printed mean label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-25",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-D-1.5",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "101",
+      "value": 101,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-D-1.5, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-26",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-D-2.5",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "115",
+      "value": 115,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-D-2.5, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-27",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-D-3.0",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "133",
+      "value": 133,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-D-3.0, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-28",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-1.5",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "100",
+      "value": 100,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-N-1.5, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-29",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "101",
+      "value": 101,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-N-2.5, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-30",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-3.0",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "100",
+      "value": 100,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-N-3.0, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-31",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA20-1.5",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "103",
+      "value": 103,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA20-1.5, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-32",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA20-2.5",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "100",
+      "value": 100,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA20-2.5, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-33",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA20-3.0",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "100",
+      "value": 100,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA20-3.0, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-34",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA22-1.5",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "100",
+      "value": 100,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA22-1.5, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-35",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA22-2.5",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "100",
+      "value": 100,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA22-2.5, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-36",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA22-3.0",
+      "testId": "902-fresh-spread-before-drop",
+      "property": "fresh-spread-before-drop",
+      "originalText": "100",
+      "value": 100,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA22-3.0, before flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-37",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-D-1.5",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "117",
+      "value": 117,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-D-1.5, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-38",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-D-2.5",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "148",
+      "value": 148,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-D-2.5, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-39",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-D-3.0",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "160",
+      "value": 160,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-D-3.0, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-40",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-1.5",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "116",
+      "value": 116,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-N-1.5, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-41",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "126",
+      "value": 126,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-N-2.5, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-42",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-3.0",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "122",
+      "value": 122,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8a, Na-N-3.0, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-43",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA20-1.5",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "115",
+      "value": 115,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA20-1.5, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-44",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA20-2.5",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "108",
+      "value": 108,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA20-2.5, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-45",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA20-3.0",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "108",
+      "value": 108,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA20-3.0, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-46",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA22-1.5",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "116",
+      "value": 116,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA22-1.5, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-47",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA22-2.5",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "106",
+      "value": 106,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA22-2.5, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-obs-48",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA22-3.0",
+      "testId": "902-fresh-spread-after-drop",
+      "property": "fresh-spread-after-drop",
+      "originalText": "105",
+      "value": 105,
+      "unit": "mm",
+      "ageDays": null,
+      "ageOrigin": "fresh state; elapsed time after mixing not reported",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Error magnitude not numerically extracted; printed mean/value only, no zero uncertainty assumed",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 8b, K-KA22-3.0, after flow-table drop, printed label",
+        "basis": "figure printed numeric label",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
     }
   ],
   "findings": [
@@ -12003,6 +14190,43 @@ export const pilot = {
         "assetId": "asset-2957",
         "locator": "Tables 3–4",
         "basis": "HTML table",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "finding-11",
+      "publicationId": "ke-5396",
+      "mixIds": [
+        "5396-GP9.0"
+      ],
+      "direction": "failure-mode",
+      "text": "Authors interpret the anomalous GP9.0 mercury-intrusion curve as possible structural damage during the test. Its pore distribution should not be treated as an undisturbed material measurement.",
+      "claimType": "original summary of author interpretation; not independently established",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-5396",
+        "locator": "§3.2.2 / Figure 6b",
+        "basis": "article narrative / reported table cells",
+        "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "finding-12",
+      "publicationId": "ke-2957",
+      "mixIds": [
+        "2957-N7",
+        "2957-K7"
+      ],
+      "direction": "mixed",
+      "text": "For matched factor combination A2B3C4 at 28 days, reported compression means are 57.81 MPa for N7 and 57.20 MPa for K7. The broad preference for the K-series does not mean every matched mean is higher. No statistical significance or equivalence is inferred; K-series includes sodium silicate.",
+      "claimType": "platform comparison of reported means; not a significance test",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-2957",
+        "locator": "Tables 3–4, rows N7/K7, 28-day compression",
+        "basis": "article narrative / reported table cells",
         "checkedBy": "Codex AI source check",
         "checkedAt": "2026-10-12"
       }

@@ -26,11 +26,32 @@ export const knowledgeReferences = [
       "basis": "Crossref journal-article type; no platform peer review"
     },
     "sourceStatus": {
-      "state": "no-update-in-checked-metadata",
+      "state": "no-notice-in-checked-sources",
       "checked": "2026-10-12",
-      "basis": "Crossref update-to and relation inspected; absence does not prove no correction/retraction",
+      "basis": "Crossref deposited updates plus retrieved PMC article checked. Publisher retrieval was rate-limited; PubMed returned a browser challenge. These unresolved checks prevent a comprehensive status claim; absence of notice is not proof of no correction/retraction.",
       "updates": [],
-      "relations": {}
+      "relations": {},
+      "checks": [
+        {
+          "provider": "PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9032675/",
+          "sha256": "9c713c9859589297b2d299df3339d98a794893832f8816f32058b8907831b5c1",
+          "result": "no-notice-found-in-retrieved-article",
+          "scope": "Article headers and linked notice text inspected. Retraction, erratum, corrigendum, expression-of-concern and correction search; correction mentions in 5396 are analytical procedures, not publication notices."
+        },
+        {
+          "provider": "publisher",
+          "url": "https://www.mdpi.com/1996-1944/15/8/2944",
+          "result": "unresolved-http-429",
+          "scope": "Tool retrieval rate-limited; no claim about current publisher status."
+        },
+        {
+          "provider": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35454637/",
+          "result": "unresolved-browser-challenge",
+          "scope": "Retrieved browser challenge, not article metadata; not counted as a successful check."
+        }
+      ]
     }
   },
   {
@@ -59,11 +80,32 @@ export const knowledgeReferences = [
       "basis": "Crossref journal-article type; no platform peer review"
     },
     "sourceStatus": {
-      "state": "no-update-in-checked-metadata",
+      "state": "no-notice-in-checked-sources",
       "checked": "2026-10-12",
-      "basis": "Crossref update-to and relation inspected; absence does not prove no correction/retraction",
+      "basis": "Crossref deposited updates plus retrieved PMC article checked. Publisher retrieval was rate-limited; PubMed returned a browser challenge. These unresolved checks prevent a comprehensive status claim; absence of notice is not proof of no correction/retraction.",
       "updates": [],
-      "relations": {}
+      "relations": {},
+      "checks": [
+        {
+          "provider": "PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8745972/",
+          "sha256": "241ebc5d2afc224be33fd73b4d4c2a7cbf038efa3b8656c233edd9bbdce90a4c",
+          "result": "no-notice-found-in-retrieved-article",
+          "scope": "Article headers and linked notice text inspected. Retraction, erratum, corrigendum, expression-of-concern and correction search; correction mentions in 5396 are analytical procedures, not publication notices."
+        },
+        {
+          "provider": "publisher",
+          "url": "https://www.mdpi.com/1996-1944/15/1/211",
+          "result": "unresolved-http-429",
+          "scope": "Tool retrieval rate-limited; no claim about current publisher status."
+        },
+        {
+          "provider": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35009357/",
+          "result": "unresolved-browser-challenge",
+          "scope": "Retrieved browser challenge, not article metadata; not counted as a successful check."
+        }
+      ]
     }
   },
   {
@@ -92,11 +134,32 @@ export const knowledgeReferences = [
       "basis": "Crossref journal-article type; no platform peer review"
     },
     "sourceStatus": {
-      "state": "no-update-in-checked-metadata",
+      "state": "no-notice-in-checked-sources",
       "checked": "2026-10-12",
-      "basis": "Crossref update-to and relation inspected; absence does not prove no correction/retraction",
+      "basis": "Crossref deposited updates plus retrieved PMC article checked. Publisher retrieval was rate-limited; PubMed returned a browser challenge. These unresolved checks prevent a comprehensive status claim; absence of notice is not proof of no correction/retraction.",
       "updates": [],
-      "relations": {}
+      "relations": {},
+      "checks": [
+        {
+          "provider": "PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8465688/",
+          "sha256": "1c67d83fa7e73e330c734a41f46d385f16064e27d022d1c012baaa57095d6ba4",
+          "result": "no-notice-found-in-retrieved-article",
+          "scope": "Article headers and linked notice text inspected. Retraction, erratum, corrigendum, expression-of-concern and correction search; correction mentions in 5396 are analytical procedures, not publication notices."
+        },
+        {
+          "provider": "publisher",
+          "url": "https://www.mdpi.com/1996-1944/14/18/5396",
+          "result": "unresolved-http-429",
+          "scope": "Tool retrieval rate-limited; no claim about current publisher status."
+        },
+        {
+          "provider": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34576620/",
+          "result": "unresolved-browser-challenge",
+          "scope": "Retrieved browser challenge, not article metadata; not counted as a successful check."
+        }
+      ]
     }
   },
   {
@@ -125,11 +188,32 @@ export const knowledgeReferences = [
       "basis": "Crossref journal-article type; no platform peer review"
     },
     "sourceStatus": {
-      "state": "no-update-in-checked-metadata",
+      "state": "no-notice-in-checked-sources",
       "checked": "2026-10-12",
-      "basis": "Crossref update-to and relation inspected; absence does not prove no correction/retraction",
+      "basis": "Crossref deposited updates plus retrieved PMC article checked. Publisher retrieval was rate-limited; PubMed returned a browser challenge. These unresolved checks prevent a comprehensive status claim; absence of notice is not proof of no correction/retraction.",
       "updates": [],
-      "relations": {}
+      "relations": {},
+      "checks": [
+        {
+          "provider": "PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6470972/",
+          "sha256": "5c9d1f5bc8170510aa6b07b048c25cacb9351d975b8fcb175940bdd90f7a6bbd",
+          "result": "no-notice-found-in-retrieved-article",
+          "scope": "Article headers and linked notice text inspected. Retraction, erratum, corrigendum, expression-of-concern and correction search; correction mentions in 5396 are analytical procedures, not publication notices."
+        },
+        {
+          "provider": "publisher",
+          "url": "https://www.mdpi.com/1996-1944/12/6/902",
+          "result": "unresolved-http-429",
+          "scope": "Tool retrieval rate-limited; no claim about current publisher status."
+        },
+        {
+          "provider": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30889855/",
+          "result": "unresolved-browser-challenge",
+          "scope": "Retrieved browser challenge, not article metadata; not counted as a successful check."
+        }
+      ]
     }
   },
   {
@@ -158,11 +242,32 @@ export const knowledgeReferences = [
       "basis": "Crossref journal-article type; no platform peer review"
     },
     "sourceStatus": {
-      "state": "no-update-in-checked-metadata",
+      "state": "no-notice-in-checked-sources",
       "checked": "2026-10-12",
-      "basis": "Crossref update-to and relation inspected; absence does not prove no correction/retraction",
+      "basis": "Crossref deposited updates plus retrieved PMC article checked. Publisher retrieval was rate-limited; PubMed returned a browser challenge. These unresolved checks prevent a comprehensive status claim; absence of notice is not proof of no correction/retraction.",
       "updates": [],
-      "relations": {}
+      "relations": {},
+      "checks": [
+        {
+          "provider": "PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9030422/",
+          "sha256": "c42f4a95e6ff3abb07e383eebcc79e4b7b90a9892e066fd1a2c05952754420c7",
+          "result": "no-notice-found-in-retrieved-article",
+          "scope": "Article headers and linked notice text inspected. Retraction, erratum, corrigendum, expression-of-concern and correction search; correction mentions in 5396 are analytical procedures, not publication notices."
+        },
+        {
+          "provider": "publisher",
+          "url": "https://www.mdpi.com/1996-1944/15/8/2957",
+          "result": "unresolved-http-429",
+          "scope": "Tool retrieval rate-limited; no claim about current publisher status."
+        },
+        {
+          "provider": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35454650/",
+          "result": "unresolved-browser-challenge",
+          "scope": "Retrieved browser challenge, not article metadata; not counted as a successful check."
+        }
+      ]
     }
   },
   {

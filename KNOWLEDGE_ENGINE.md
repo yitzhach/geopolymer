@@ -30,13 +30,14 @@ fly-ash/slag Na/K comparison (10.3390/ma15010211), Vogt (10.3390/ma14185396), Bo
 the orthogonal-test paper (10.3390/ma15082957). Bibliographic records, not this
 shorthand, are authoritative for authorship.
 
-- 60 mix variants: 6 + 6 + 4 + 12 + 32, representing five study datasets,
+- 62 mix variants: 6 + 6 + 4 + 12 + 34, representing five study datasets,
   not 60 independent replications.
-- 182 result cells: 179 numeric and three below-detection nulls. All public
-  numerical observations were checked against exact table cells or narrative
-  locations and methods. No graph estimates are introduced.
-- 27 source tables transcribed, 53 figures inventoried but not digitized,
-  10 unfavorable/null/mixed findings, 18 research material identities.
+- 255 result cells: 252 numeric and three below-detection nulls. All public
+  numerical observations were checked against exact table cells, narrative
+  locations or printed figure labels and methods. No graph estimates are introduced.
+- 27 source tables transcribed, 53 figures inventoried; five figures now have
+  their printed numeric labels extracted (uncertainty remains incomplete).
+  12 unfavorable/null/mixed findings, 18 research material identities.
 - Table 3/4 orthogonal strength data include every mix and both properties/ages.
   Potassium-hydroxide + sodium-silicate mixes are `mixed-na-k`.
 - Acid erosion records separate initial 28-day cure, exposure and total test age.
@@ -127,3 +128,32 @@ calibrated/reviewed figure digitization; keep provisional points out of exact
 filters. Normalize analytical tables into typed assay/result entities as needed.
 Then a new <=25-reference batch should deliberately broaden to coffee char/ash,
 coating/substrate adhesion, failed setting, non-MDPI sources and US sourcing.
+
+## 12 October follow-up: missing experiments and figure labels
+
+The first pilot missed two validation schemes outside the orthogonal array.
+They now have distinct platform labels, two new mixes and four narrative strength
+values. Validation n remains unknown; they are not additional factorial runs.
+Sixty-nine additional exact values came from printed chart labels: 23 new
+MK/slag compression cells (one duplicate already existed), 22 directional/3-day
+printing strength cells and 24 before/after flow-table spread cells. Fresh spread
+age remains null; it is not a day-zero cured result. All 73 additions received
+same-agent source rechecks. See phase-a-followup-source-audit.json.
+
+The 216 sums/means/ranges in ma15082957 were recalculated from its 32 original
+mixes: 18 disagree beyond rounding tolerance. Preserve the primary observations
+and original summary cells; no inferred repair or optimized recommendation.
+Reproduce with `node scripts/audit-factor-summaries.mjs`; the versioned report
+links every calculation to its observation inputs. Figure 3 also mislabels the
+K-series silicate; methods define sodium silicate and mixed Na/K remains correct.
+
+All five method sections were reread and extended. The acid-test initial cure is
+now explicitly 28 days; shared-tank leachate cannot be assigned to a single mix.
+Omitted 14-day EDX profiles/error bars require underlying data, not digitization.
+
+The five experimental PMC records were checked for publication notices. No
+notice was found in those retrieved copies. Publisher requests were rate-limited
+and PubMed returned browser challenges; these are unresolved checks, not negative
+results. See phase-a-status-followup.json and the study-page check scope. The
+other twenty additions still have only the prior Crossref check. Full extraction
+acceptance remains incomplete; no release or human review is implied.
