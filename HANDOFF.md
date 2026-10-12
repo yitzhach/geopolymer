@@ -2,7 +2,14 @@
 Updated 12 October 2026 (Eastern).
 
 ## Phase A implementation — review branch, not deployed
-- Base: current main `a1dd73c`. Work branch: `codex/knowledge-engine-phase-a`.
+- Base: main `a1dd73c`. Published review branch: `codex/knowledge-engine-phase-a`.
+- Draft PR #6: https://github.com/yitzhach/geopolymer/pull/6. Owner approved
+  branch publication and browser QA on 12 October; no merge/deploy requested.
+- Verified implementation `8eaf0f244a8faa575e5a9ad4c64982c0b6fc64c7`;
+  initial implementation `a97a00e`, navigation/count fix `ace84d7`, mobile title
+  wrapping fix `93c4e1b`, saved-folder browser assertion fix `8eaf0f2`.
+  Git trees matched the prepared local implementation; GitHub connector was used
+  because command-line Git had no push credentials.
 - Baseline verified: 61 unique library DOIs and 15 curated literature formulations.
   Final library: 86 unique DOIs, 25 additions, no merges/deletions; stable IDs kept.
 - Five full texts have detailed **partial** extraction: 60 mix variants, 182 result
@@ -31,10 +38,18 @@ Updated 12 October 2026 (Eastern).
   transcriptions and original HTML hashes; same-agent AI second pass checked
   extreme values, failures, methods, units and conversions. No human/domain review.
 - Production build creates 76 routes. Local Playwright browser installation failed
-  with an invalid/truncated download. Automatic approval review blocked the branch
-  push (explicit publication authorization required); GitHub browser QA not run.
-  Local implementation commit: `ce2b961`; follow-up documentation fixes follow it.
-  No PR exists and the branch has not been pushed.
+  with an invalid/truncated download. GitHub run 38252231782 passed all 49 Node
+  tests and all six browser suites on implementation `8eaf0f2`:
+  https://github.com/yitzhach/geopolymer/actions/runs/38252231782.
+  Suites: route smoke (76 routes), notebook, literature, research, assistant,
+  knowledge. Desktop/mobile checks include filters, abstention, pagination,
+  shared URLs, censored results, saving and exports.
+  Visually reviewed six 1440px/390px viewport screenshots for /knowledge and
+  studies ke-5396/ke-2957 from artifact 11748471985: readable responsive titles,
+  controls and partial-extraction notices. These are viewport, not full-page,
+  screenshots; automated route checks cover horizontal overflow.
+  A pre-QA review corrected the no-JavaScript catalog count (86) and prevented
+  initial evidence rendering from changing canonical/legacy-hash URLs.
 - Synthetic scale benchmark: 500 / 1,000 metadata records; p95 search 1.55 / 2.49 ms;
   JSON payload 590,031 / 1,180,391 bytes (gzip 14,312 / 24,573). Fixtures are not in
   the public scientific catalog. These figures do not benchmark 1,000 full papers.
@@ -44,8 +59,10 @@ Updated 12 October 2026 (Eastern).
 - No live deployment or new build identity verified for this branch.
 
 ## Remaining acceptance work and next resumable batch
-1. Finish GitHub desktop/mobile checks and inspect screenshots; record exact
-   commit/PR/check results before release. Main/live are not changed by this file.
+1. Browser QA and screenshot review are complete for `8eaf0f2`. PR #6 remains
+   draft because scientific extraction acceptance is incomplete. Main/live have
+   not changed. Resume from `codex/knowledge-engine-phase-a` / PR #6, not main;
+   no merge or deployment was requested. This handoff update is documentation only.
 2. Five full-paper inventories remain partial: graph-only series, analytical
    profiles and some method details need reviewed extraction/digitization or
    underlying source data. No estimated graph values are in exact numeric search.
