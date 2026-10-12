@@ -10,7 +10,7 @@ const base=process.env.BASE_URL||'http://localhost:4173';
  await go('/knowledge?binder=metakaolin-slag&property=compression&unit=MPa&minSlag=20&maxSlag=40&ageDays=28&min=60');assert.match(await page.locator('#ke-count').innerText(),/^0 exact/);
  await go('/studies/ke-5396');assert.match(await page.locator('main').innerText(),/below instrument detection/);
  await page.locator('[data-ke-save="5396-obs-1"]').click();await page.locator('#ra-panel').waitFor({state:'visible'});assert.match(await page.locator('#ra-excerpt').inputValue(),/5396-obs-1/);
- await page.locator('#ra-save').click();assert.match(await page.locator('#ra-saved').innerText(),/5396-obs-1/);await page.keyboard.press('Escape');
+ await page.locator('#ra-save').click();await page.locator('#ra-folders summary').click();assert.match(await page.locator('#ra-saved').innerText(),/5396-obs-1/);await page.keyboard.press('Escape');
  const exported=await (await page.request.get(base+'/knowledge.json')).json();assert.equal(exported.observations.length,182);assert.ok(!JSON.stringify(exported).includes('rawText'));
  await go('/studies/ke-006');assert.match(await page.locator('main').innerText(),/No extracted experiment/);
  fs.mkdirSync('.qa',{recursive:true});for(const width of [1440,390]){await page.setViewportSize({width,height:1000});for(const path of ['/knowledge','/studies/ke-2957','/studies/ke-5396']){await go(path);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'overflow '+path);await page.screenshot({path:'.qa/knowledge-'+width+'-'+path.split('/').pop()+'.png',fullPage:false});}}
