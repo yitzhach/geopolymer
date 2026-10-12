@@ -1779,7 +1779,7 @@ export const pilot = {
       },
       "limitations": [
         "Admixture dosages change alongside activation, confounding simple sodium/potassium attribution.",
-        "Figures 8–13 contain results not digitized; only exact narrative bond values are numeric-search eligible.",
+        "Figures 8 and 10–12 printed means are transcribed. Figure 9 means are provisional graph estimates, excluded from exact-value search; plotted experimental standard deviations remain unextracted. Figure 13 exact narrative bond means are indexed; other graphical evidence is incomplete.",
         "No bulk NaOH/KOH solution density inferred from molarity.",
         "Historic PQ Australia silicate grades are not automatically equivalent to current US products."
       ],
@@ -1853,8 +1853,8 @@ export const pilot = {
         {
           "locator": "materials-12-00902-f009",
           "kind": "figure",
-          "state": "not-yet-extracted",
-          "note": "Shape retention ratios of 3D printable geopolymers with ( a ) Na-based activators and ( b ) K-based activators.; no graph digitization claimed"
+          "state": "ambiguous",
+          "note": "All 12 mean markers digitized with linear axis calibration, ±0.003 graph-reading allowance and separate same-agent AI visual check. Experimental standard deviations not extracted. Estimates excluded from exact search."
         },
         {
           "locator": "materials-12-00902-f010",
@@ -2252,7 +2252,7 @@ export const pilot = {
         }
       ],
       "sourceHash": "45eddf281408d23c5e42b36f686aec3b1e2ca19496094c6984721cadf85bed58",
-      "coverageNote": "All article tables transcribed; design mixes indexed, including subsequent validation mixes where reported. Exact table, narrative and selected printed figure-label values source checked. Unlabelled graph series and quantitative uncertainty remain incomplete; full-paper extraction is partial."
+      "coverageNote": "All article tables transcribed; design mixes indexed, including subsequent validation mixes where reported. Exact table, narrative and selected printed figure-label values source checked. Unlabelled graph series and quantitative uncertainty remain incomplete; full-paper extraction is partial. Figure 9 adds 12 provisional calibrated graph estimates, excluded from exact search. Experimental error bars remain unextracted."
     },
     {
       "publicationId": "ke-2957",
@@ -7431,6 +7431,32 @@ export const pilot = {
         "locator": "§3.3.1, §4.1.2; Figure 8",
         "basis": "article narrative",
         "checkedBy": "Codex AI source check",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-shape-retention",
+      "publicationId": "ke-902",
+      "property": "shape-retention-ratio",
+      "geometry": "60 × 30 × 15 mm sawn section from single printed layer",
+      "method": "SRR = 30 mm nozzle width / filament bottom width; digital Vernier calliper accuracy 0.01 mm; at least six specimens per mix (exact n unknown)",
+      "cure": {
+        "category": "ambient",
+        "temperatureC": 23,
+        "humidityPercent": null,
+        "sealed": true,
+        "durationDays": 3,
+        "durationReason": "§3.2: part I testing three days after printing",
+        "preconditioning": null
+      },
+      "n": null,
+      "direction": null,
+      "substrate": null,
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "§3.2–3.3.3; Figure 9",
+        "basis": "article narrative",
+        "checkedBy": "Codex AI extraction and separate same-agent visual second pass; no human review",
         "checkedAt": "2026-10-12"
       }
     }
@@ -13989,6 +14015,690 @@ export const pilot = {
         "basis": "figure printed numeric label",
         "checkedBy": "Codex AI source check",
         "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "902-srr-Na-D-1.5",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-D-1.5",
+      "testId": "902-shape-retention",
+      "property": "shape-retention-ratio",
+      "originalText": "Unlabelled mean marker; Figure 9a",
+      "value": 0.862,
+      "unit": "ratio",
+      "ageDays": 3,
+      "ageOrigin": "after printing; §3.2 part I",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "estimated",
+      "uncertainty": null,
+      "uncertaintyReason": "Experimental standard deviation is plotted but not extracted. Graph-reading allowance is separate and is not a confidence interval.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 9a, Na-D-1.5, mean marker; §3.2–3.3.3",
+        "basis": "calibrated graph estimate",
+        "checkedBy": "Codex AI extraction and separate same-agent visual second pass; no human review",
+        "checkedAt": "2026-10-12"
+      },
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "a",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 48,
+            "value": 1
+          },
+          {
+            "pixelY": 420,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 209,
+          "pixelY": 254
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 254,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "902-srr-Na-D-2.5",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-D-2.5",
+      "testId": "902-shape-retention",
+      "property": "shape-retention-ratio",
+      "originalText": "Unlabelled mean marker; Figure 9a",
+      "value": 0.807,
+      "unit": "ratio",
+      "ageDays": 3,
+      "ageOrigin": "after printing; §3.2 part I",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "estimated",
+      "uncertainty": null,
+      "uncertaintyReason": "Experimental standard deviation is plotted but not extracted. Graph-reading allowance is separate and is not a confidence interval.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 9a, Na-D-2.5, mean marker; §3.2–3.3.3",
+        "basis": "calibrated graph estimate",
+        "checkedBy": "Codex AI extraction and separate same-agent visual second pass; no human review",
+        "checkedAt": "2026-10-12"
+      },
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "a",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 48,
+            "value": 1
+          },
+          {
+            "pixelY": 420,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 314,
+          "pixelY": 334.5
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 335,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "902-srr-Na-D-3.0",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-D-3.0",
+      "testId": "902-shape-retention",
+      "property": "shape-retention-ratio",
+      "originalText": "Unlabelled mean marker; Figure 9a",
+      "value": 0.831,
+      "unit": "ratio",
+      "ageDays": 3,
+      "ageOrigin": "after printing; §3.2 part I",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "estimated",
+      "uncertainty": null,
+      "uncertaintyReason": "Experimental standard deviation is plotted but not extracted. Graph-reading allowance is separate and is not a confidence interval.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 9a, Na-D-3.0, mean marker; §3.2–3.3.3",
+        "basis": "calibrated graph estimate",
+        "checkedBy": "Codex AI extraction and separate same-agent visual second pass; no human review",
+        "checkedAt": "2026-10-12"
+      },
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "a",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 48,
+            "value": 1
+          },
+          {
+            "pixelY": 420,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 418,
+          "pixelY": 299
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 299,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "902-srr-Na-N-1.5",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-1.5",
+      "testId": "902-shape-retention",
+      "property": "shape-retention-ratio",
+      "originalText": "Unlabelled mean marker; Figure 9a",
+      "value": 0.894,
+      "unit": "ratio",
+      "ageDays": 3,
+      "ageOrigin": "after printing; §3.2 part I",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "estimated",
+      "uncertainty": null,
+      "uncertaintyReason": "Experimental standard deviation is plotted but not extracted. Graph-reading allowance is separate and is not a confidence interval.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 9a, Na-N-1.5, mean marker; §3.2–3.3.3",
+        "basis": "calibrated graph estimate",
+        "checkedBy": "Codex AI extraction and separate same-agent visual second pass; no human review",
+        "checkedAt": "2026-10-12"
+      },
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "a",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 48,
+            "value": 1
+          },
+          {
+            "pixelY": 420,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 523,
+          "pixelY": 205.5
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 206,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "902-srr-Na-N-2.5",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-2.5",
+      "testId": "902-shape-retention",
+      "property": "shape-retention-ratio",
+      "originalText": "Unlabelled mean marker; Figure 9a",
+      "value": 0.934,
+      "unit": "ratio",
+      "ageDays": 3,
+      "ageOrigin": "after printing; §3.2 part I",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "estimated",
+      "uncertainty": null,
+      "uncertaintyReason": "Experimental standard deviation is plotted but not extracted. Graph-reading allowance is separate and is not a confidence interval.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 9a, Na-N-2.5, mean marker; §3.2–3.3.3",
+        "basis": "calibrated graph estimate",
+        "checkedBy": "Codex AI extraction and separate same-agent visual second pass; no human review",
+        "checkedAt": "2026-10-12"
+      },
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "a",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 48,
+            "value": 1
+          },
+          {
+            "pixelY": 420,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 628,
+          "pixelY": 145.5
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 146,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "902-srr-Na-N-3.0",
+      "publicationId": "ke-902",
+      "mixId": "902-Na-N-3.0",
+      "testId": "902-shape-retention",
+      "property": "shape-retention-ratio",
+      "originalText": "Unlabelled mean marker; Figure 9a",
+      "value": 0.918,
+      "unit": "ratio",
+      "ageDays": 3,
+      "ageOrigin": "after printing; §3.2 part I",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "estimated",
+      "uncertainty": null,
+      "uncertaintyReason": "Experimental standard deviation is plotted but not extracted. Graph-reading allowance is separate and is not a confidence interval.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 9a, Na-N-3.0, mean marker; §3.2–3.3.3",
+        "basis": "calibrated graph estimate",
+        "checkedBy": "Codex AI extraction and separate same-agent visual second pass; no human review",
+        "checkedAt": "2026-10-12"
+      },
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "a",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 48,
+            "value": 1
+          },
+          {
+            "pixelY": 420,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 732,
+          "pixelY": 169.5
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 170,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "902-srr-K-KA20-1.5",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA20-1.5",
+      "testId": "902-shape-retention",
+      "property": "shape-retention-ratio",
+      "originalText": "Unlabelled mean marker; Figure 9b",
+      "value": 0.928,
+      "unit": "ratio",
+      "ageDays": 3,
+      "ageOrigin": "after printing; §3.2 part I",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "estimated",
+      "uncertainty": null,
+      "uncertaintyReason": "Experimental standard deviation is plotted but not extracted. Graph-reading allowance is separate and is not a confidence interval.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 9b, K-KA20-1.5, mean marker; §3.2–3.3.3",
+        "basis": "calibrated graph estimate",
+        "checkedBy": "Codex AI extraction and separate same-agent visual second pass; no human review",
+        "checkedAt": "2026-10-12"
+      },
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "b",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 593,
+            "value": 1
+          },
+          {
+            "pixelY": 966,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 207,
+          "pixelY": 700.5
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 701,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "902-srr-K-KA20-2.5",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA20-2.5",
+      "testId": "902-shape-retention",
+      "property": "shape-retention-ratio",
+      "originalText": "Unlabelled mean marker; Figure 9b",
+      "value": 0.945,
+      "unit": "ratio",
+      "ageDays": 3,
+      "ageOrigin": "after printing; §3.2 part I",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "estimated",
+      "uncertainty": null,
+      "uncertaintyReason": "Experimental standard deviation is plotted but not extracted. Graph-reading allowance is separate and is not a confidence interval.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 9b, K-KA20-2.5, mean marker; §3.2–3.3.3",
+        "basis": "calibrated graph estimate",
+        "checkedBy": "Codex AI extraction and separate same-agent visual second pass; no human review",
+        "checkedAt": "2026-10-12"
+      },
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "b",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 593,
+            "value": 1
+          },
+          {
+            "pixelY": 966,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 312,
+          "pixelY": 675
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 676,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "902-srr-K-KA20-3.0",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA20-3.0",
+      "testId": "902-shape-retention",
+      "property": "shape-retention-ratio",
+      "originalText": "Unlabelled mean marker; Figure 9b",
+      "value": 0.919,
+      "unit": "ratio",
+      "ageDays": 3,
+      "ageOrigin": "after printing; §3.2 part I",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "estimated",
+      "uncertainty": null,
+      "uncertaintyReason": "Experimental standard deviation is plotted but not extracted. Graph-reading allowance is separate and is not a confidence interval.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 9b, K-KA20-3.0, mean marker; §3.2–3.3.3",
+        "basis": "calibrated graph estimate",
+        "checkedBy": "Codex AI extraction and separate same-agent visual second pass; no human review",
+        "checkedAt": "2026-10-12"
+      },
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "b",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 593,
+            "value": 1
+          },
+          {
+            "pixelY": 966,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 417,
+          "pixelY": 714
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 715,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "902-srr-K-KA22-1.5",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA22-1.5",
+      "testId": "902-shape-retention",
+      "property": "shape-retention-ratio",
+      "originalText": "Unlabelled mean marker; Figure 9b",
+      "value": 0.851,
+      "unit": "ratio",
+      "ageDays": 3,
+      "ageOrigin": "after printing; §3.2 part I",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "estimated",
+      "uncertainty": null,
+      "uncertaintyReason": "Experimental standard deviation is plotted but not extracted. Graph-reading allowance is separate and is not a confidence interval.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 9b, K-KA22-1.5, mean marker; §3.2–3.3.3",
+        "basis": "calibrated graph estimate",
+        "checkedBy": "Codex AI extraction and separate same-agent visual second pass; no human review",
+        "checkedAt": "2026-10-12"
+      },
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "b",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 593,
+            "value": 1
+          },
+          {
+            "pixelY": 966,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 522,
+          "pixelY": 815.5
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 816,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "902-srr-K-KA22-2.5",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA22-2.5",
+      "testId": "902-shape-retention",
+      "property": "shape-retention-ratio",
+      "originalText": "Unlabelled mean marker; Figure 9b",
+      "value": 0.941,
+      "unit": "ratio",
+      "ageDays": 3,
+      "ageOrigin": "after printing; §3.2 part I",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "estimated",
+      "uncertainty": null,
+      "uncertaintyReason": "Experimental standard deviation is plotted but not extracted. Graph-reading allowance is separate and is not a confidence interval.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 9b, K-KA22-2.5, mean marker; §3.2–3.3.3",
+        "basis": "calibrated graph estimate",
+        "checkedBy": "Codex AI extraction and separate same-agent visual second pass; no human review",
+        "checkedAt": "2026-10-12"
+      },
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "b",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 593,
+            "value": 1
+          },
+          {
+            "pixelY": 966,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 626,
+          "pixelY": 681.5
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 682,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "902-srr-K-KA22-3.0",
+      "publicationId": "ke-902",
+      "mixId": "902-K-KA22-3.0",
+      "testId": "902-shape-retention",
+      "property": "shape-retention-ratio",
+      "originalText": "Unlabelled mean marker; Figure 9b",
+      "value": 0.969,
+      "unit": "ratio",
+      "ageDays": 3,
+      "ageOrigin": "after printing; §3.2 part I",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "estimated",
+      "uncertainty": null,
+      "uncertaintyReason": "Experimental standard deviation is plotted but not extracted. Graph-reading allowance is separate and is not a confidence interval.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-902",
+        "locator": "Figure 9b, K-KA22-3.0, mean marker; §3.2–3.3.3",
+        "basis": "calibrated graph estimate",
+        "checkedBy": "Codex AI extraction and separate same-agent visual second pass; no human review",
+        "checkedAt": "2026-10-12"
+      },
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "b",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 593,
+            "value": 1
+          },
+          {
+            "pixelY": 966,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 731,
+          "pixelY": 639.5
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 640,
+          "status": "checked"
+        }
       }
     }
   ],

@@ -23,6 +23,14 @@ export interface Observation {
  ageOrigin:string; exposureDays:number|null; missingReason:string|null;
  qualifier:'reported'|'below-detection'|'estimated'|'less-than'|'greater-than';
  uncertainty:number|null; uncertaintyReason:string; verification:Review; provenance:Provenance;
+ digitization?:Digitization;
+}
+export interface Digitization {
+ imageUrl:string; imageSha256:string; imageWidth:number; imageHeight:number;
+ panel:string; axisScale:'linear'; axis:[{pixelY:number;value:number},{pixelY:number;value:number}];
+ point:{pixelX:number;pixelY:number}; markerAllowancePixels:number; axisAllowancePixels:number;
+ roundingDecimals:number; readingAllowance:number;
+ review:{checkedBy:string;checkedAt:string;secondPixelY:number;status:'checked'};
 }
 export interface InventoryItem {
  locator:string;kind:'table'|'figure'|'method'|'supplements';

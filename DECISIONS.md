@@ -254,3 +254,14 @@ not repair primary measurements by inference. Disputed summary aggregates remain
 outside numerical observation search. Fresh-state spread has unknown elapsed
 age and no curing stage. Record blocked status checks as unresolved, separately
 from successful PMC notice checks. Full-paper extraction remains partial.
+
+## 12 October 2026 — main merge and provisional graph evidence
+
+Owner authorized merging the tested Phase A foundation and continuing research.
+PR #6 merged as 1f873e4. Publication of partial evidence does not assert full
+Phase A extraction acceptance. Continue in codex/phase-a-graph-review.
+
+Figure-digitized means are explicitly estimated, with reproducible calibration,
+image identity and a separate same-agent AI visual check. Store graph-reading
+allowances separately from experimental variability; exclude estimates from exact
+numeric search and retain their label in study tables, exports and saved excerpts.
