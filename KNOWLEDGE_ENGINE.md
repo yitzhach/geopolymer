@@ -31,7 +31,7 @@ the orthogonal-test paper (10.3390/ma15082957). Bibliographic records, not this
 shorthand, are authoritative for authorship.
 
 - 62 mix variants: 6 + 6 + 4 + 12 + 34, representing five study datasets,
-  not 60 independent replications.
+  not 62 independent replications.
 - 255 result cells: 252 numeric and three below-detection nulls. All public
   numerical observations were checked against exact table cells, narrative
   locations or printed figure labels and methods. No graph estimates are introduced.
@@ -113,7 +113,7 @@ second pass including extremes, failures, both main strength tables, unknowns,
 age conversion and source conflicts. This is same-agent AI checking plus software,
 not an independent researcher or human review.
 
-`tests/knowledge.test.mjs`: 10 gold/adversarial tests; actual source numbers plus
+`tests/knowledge.test.mjs` and `tests/knowledge-audit.test.mjs`: 12 gold/adversarial tests; actual source numbers plus
 explicitly synthetic cross-mix/retraction/rights mutations. Some benchmark cases
 (coffee char, substrate adhesion, Dynapoz equivalence) deliberately abstain because
 the pilot has no sufficient data. Passing abstentions is not domain coverage.

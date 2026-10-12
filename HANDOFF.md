@@ -5,7 +5,8 @@ Updated 12 October 2026 (Eastern).
 - Base: main `a1dd73c`. Published review branch: `codex/knowledge-engine-phase-a`.
 - Draft PR #6: https://github.com/yitzhach/geopolymer/pull/6. Owner approved
   branch publication and browser QA on 12 October; no merge/deploy requested.
-- Verified implementation `8eaf0f244a8faa575e5a9ad4c64982c0b6fc64c7`;
+- Follow-up implementation `568d4e62452df88d5c04926196e52744074c1715`.
+  Earlier verified implementation `8eaf0f244a8faa575e5a9ad4c64982c0b6fc64c7`;
   initial implementation `a97a00e`, navigation/count fix `ace84d7`, mobile title
   wrapping fix `93c4e1b`, saved-folder browser assertion fix `8eaf0f2`.
   Git trees matched the prepared local implementation; GitHub connector was used
@@ -53,13 +54,13 @@ Updated 12 October 2026 (Eastern).
 - Synthetic scale benchmark: 500 / 1,000 metadata records; p95 search 1.55 / 2.49 ms;
   JSON payload 590,031 / 1,180,391 bytes (gzip 14,312 / 24,573). Fixtures are not in
   the public scientific catalog. These figures do not benchmark 1,000 full papers.
-- Production output: 2,375,427 bytes at the final local build.
+- Production output: 2,604,967 bytes at the follow-up local build.
 - Actual importer CLI ran twice against the same 25-record input: atomic
   checkpoint retained exactly 25 records and 25 acceptance events.
 - No live deployment or new build identity verified for this branch.
 
 ## Remaining acceptance work and next resumable batch
-1. Browser QA and screenshot review are complete for `8eaf0f2`. PR #6 remains
+1. Browser QA and screenshot review are complete for `568d4e6`. PR #6 remains
    draft because scientific extraction acceptance is incomplete. Main/live have
    not changed. Resume from `codex/knowledge-engine-phase-a` / PR #6, not main;
    no merge or deployment was requested. This handoff update is documentation only.
@@ -74,7 +75,11 @@ Updated 12 October 2026 (Eastern).
    found. Publisher requests returned HTTP 429 and PubMed browser challenges, so
    those checks remain unresolved. The other twenty additions have only their
    Crossref check. No absent notice proves a clean status.
-5. Next <=25-reference batch should broaden beyond the pilot's shrinkage/MK/slag
+5. Finish the pilot before breadth expansion: ma12060902 Figure 9 needs calibrated
+   shape-retention extraction; ma15010211 Figures 1–2 require resolving displayed
+   replicate points; ma15082944 shrinkage curves need sign/baseline-aware
+   digitization; ma14185396 analytical profiles include unprinted data. Preserve
+   missing uncertainty and all source conflicts. Then a <=25-reference batch should broaden beyond the pilot's shrinkage/MK/slag
    citation chain to coffee char versus ash, coating adhesion, failed setting,
    other publishers and material supply routes. Full-text operations for the
    twenty metadata additions remain unassessed. No encyclopedia pages or current
@@ -92,8 +97,13 @@ Updated 12 October 2026 (Eastern).
 - Expanded methods for all five papers; fixed acid-test initial cure to 28 days;
   preserved shared-tank and omitted-profile limitations. Added two failure/mixed
   findings (12 total). Schema/foreign-key validation and 76-route build pass.
-- Current follow-up browser QA pending; preceding 8eaf0f2 run remains historical
-  verification, not a claim about this new data revision.
+- Follow-up implementation `568d4e62452df88d5c04926196e52744074c1715` passes
+  all 51 Node tests and all six browser suites in run 38319716460:
+  https://github.com/yitzhach/geopolymer/actions/runs/38319716460.
+  Artifact 11778690860 contains desktop/mobile screenshots. Visually reviewed
+  four viewports: knowledge at 1440/390 px, ke-2957 at 390 px and ke-5396 at
+  1440 px; counts, wrapping and partial/source-status disclosures are readable.
+  This final handoff/documentation update does not change the verified code.
 - Read phase-a-followup-source-audit.json, phase-a-factor-audit.json and
   phase-a-status-followup.json. Resume on PR #6; not merged or deployed.
 
