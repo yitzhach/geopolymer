@@ -7,6 +7,9 @@ Updated 12 October 2026 (Eastern).
   https://github.com/yitzhach/geopolymer/pull/6. Final pre-merge head `7156e57`
   passed Foundation verification run 38320017366. No new live deployment verified.
 - Active follow-up branch: `codex/phase-a-graph-review`, based on that merged main.
+  Draft PR #7: https://github.com/yitzhach/geopolymer/pull/7.
+  Graph implementation: `e255757e35998e067e66e3237c8e8975b8d77888`;
+  verified browser-test fix: `017b4e8eacdd7dcfc9e0cea5ddcd0b2e16f77333`.
 - Follow-up implementation `568d4e62452df88d5c04926196e52744074c1715`.
   Earlier verified implementation `8eaf0f244a8faa575e5a9ad4c64982c0b6fc64c7`;
   initial implementation `a97a00e`, navigation/count fix `ace84d7`, mobile title
@@ -36,7 +39,8 @@ Updated 12 October 2026 (Eastern).
   research/batches/phase-a-2026-10-12.json and phase-a-source-audit.json for evidence.
 
 ## Verification for this branch
-- 51 Node tests pass after the follow-up, including source-label and aggregate checks.
+- 53 Node tests pass after the graph batch, including calibration/review guards.
+  The earlier exact-value follow-up passed 51 tests.
 - Initial source audit checks 182 observation cells, 27 table
   transcriptions and original HTML hashes; same-agent AI second pass checked
   extreme values, failures, methods, units and conversions. No human/domain review.
@@ -56,15 +60,25 @@ Updated 12 October 2026 (Eastern).
 - Synthetic scale benchmark: 500 / 1,000 metadata records; p95 search 1.55 / 2.49 ms;
   JSON payload 590,031 / 1,180,391 bytes (gzip 14,312 / 24,573). Fixtures are not in
   the public scientific catalog. These figures do not benchmark 1,000 full papers.
-- Production output: 2,604,967 bytes at the follow-up local build.
+- Production output: 2,667,788 bytes at the graph-batch local build.
+- Graph implementation `017b4e8` passes all 53 tests and six browser suites:
+  https://github.com/yitzhach/geopolymer/actions/runs/38321300599.
+  Artifact 11778309305: reviewed the graph rows at 1440/390 px and knowledge
+  overview at 390 px. Estimate labels and reading allowances are visible;
+  tables use horizontal scrolling on mobile. The first browser run dismissed
+  the existing replacement-confirmation prompt; the test now accepts it before
+  checking the saved excerpt. Application confirmation behavior is unchanged.
 - Actual importer CLI ran twice against the same 25-record input: atomic
   checkpoint retained exactly 25 records and 25 acceptance events.
 - No live deployment or new build identity verified for this branch.
+  A 12 October request to the live build-info endpoint returned HTTP 403.
 
 ## Remaining acceptance work and next resumable batch
 1. PR #6 is merged. Continue from `codex/phase-a-graph-review`, which adds twelve
    Figure 9 shape-retention estimates and calibration validation. Local 53-test
-   suite, schema validation and 76-route build pass; follow-up browser QA pending.
+   suite, schema validation and 76-route build pass. All six browser suites pass
+   on `017b4e8` in run 38321300599; screenshots reviewed. PR #7 remains a draft
+   follow-up, not merged. Scientific Phase A acceptance is still incomplete.
 2. Five full-paper inventories remain partial: graph-only series, analytical
    profiles and some method details need reviewed extraction/digitization or
    underlying source data. No estimated graph values are in exact numeric search.
