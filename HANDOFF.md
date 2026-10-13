@@ -24,8 +24,15 @@ Updated 13 October 2026 (Eastern).
   version review; see `correction-followup-2026-10-13.json`.
 - Pilot extraction remains partial; next depth task is ma15082944 Figures 4–6,
   as scoped in `phase-a-gap-scope-2026-10-13.json`. No new figure extraction claimed.
-- Branch `codex/research-plus-50`, based on main `95db366`. Publication and browser
-  verification pending. No deployment claim at this checkpoint.
+- Recovered open PR #9 (`e1a585a`) from `codex/research-plus-50`, based on main
+  `95db366`. Its run 38351237103 passed all 56 tests and six browser suites.
+  Fresh local checks confirm 56 tests, schema validation and 151-route build.
+- Follow-up exposes dated correction-review scope on cards/study pages, retaining
+  both assistant holds. Reattempted pilot sources: MDPI 429 and PMC challenge;
+  no digitization. Supplemental audit: correction-access-review-2026-10-13.json.
+- PR #10 was a parallel continuation from stale main; its useful review notes
+  are consolidated here, preserving this batch and its original audit. PR #10
+  is superseded. Publication and final browser CI pending; no live claim yet.
 
 ## Current checkpoint — 13 October 2026 breadth and agent policy
 - Owner reports the prior build appears live and requested 25 additional references.

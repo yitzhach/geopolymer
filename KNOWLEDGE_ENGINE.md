@@ -222,3 +222,9 @@ to fibers/repair, precursors, efflorescence/acid exposure and phosphate systems.
 No full-text extraction, numerical performance, human review or supplier claims.
 Five pilot papers remain partial. Correction follow-up records partial progress
 and retained assistant holds. HANDOFF.md records current QA/publication status.
+
+## Recovery follow-up, 13 October 2026
+Recovered PR #9 and its successful browser run 38351237103. Expose correction
+review scope on cards/study pages while retaining both assistant holds. No new
+scientific results or full-text rights upgrades. Pilot access remains blocked.
+See HANDOFF.md for publication state and the supplemental access-review audit.
