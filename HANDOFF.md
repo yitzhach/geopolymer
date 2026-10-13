@@ -6,10 +6,11 @@ Updated 13 October 2026 (Eastern).
   after owner authorized pushing to main and continuing Phase A on 12 October.
   https://github.com/yitzhach/geopolymer/pull/6. Final pre-merge head `7156e57`
   passed Foundation verification run 38320017366. No new live deployment verified.
-- Active follow-up branch: `codex/phase-a-graph-review`, based on that merged main.
-  Draft PR #7: https://github.com/yitzhach/geopolymer/pull/7.
-  Graph implementation: `e255757e35998e067e66e3237c8e8975b8d77888`;
-  verified browser-test fix: `017b4e8eacdd7dcfc9e0cea5ddcd0b2e16f77333`.
+- PR #7 merged to main as `7c08fc33d158470cec5cef3bb4a29e56b4e5cf69`:
+  https://github.com/yitzhach/geopolymer/pull/7. Resume from current main.
+  Verified implementation `8e919d60ae141375ba6a4e0bdde0a4788ae5fb83` includes
+  twelve graph estimates and eight specimen-level MIP cells. All 54 Node tests
+  and six browser suites passed run 38347215725. No live deployment verified.
 - Follow-up implementation `568d4e62452df88d5c04926196e52744074c1715`.
   Earlier verified implementation `8eaf0f244a8faa575e5a9ad4c64982c0b6fc64c7`;
   initial implementation `a97a00e`, navigation/count fix `ace84d7`, mobile title
@@ -39,8 +40,8 @@ Updated 13 October 2026 (Eastern).
   research/batches/phase-a-2026-10-12.json and phase-a-source-audit.json for evidence.
 
 ## Verification for this branch
-- 53 Node tests pass after the graph batch, including calibration/review guards.
-  The earlier exact-value follow-up passed 51 tests.
+- 54 Node tests pass after the specimen batch, including calibration, specimen
+  identity and same-mix numerical filters. Earlier batches passed 51/53 tests.
 - Initial source audit checks 182 observation cells, 27 table
   transcriptions and original HTML hashes; same-agent AI second pass checked
   extreme values, failures, methods, units and conversions. No human/domain review.
@@ -60,7 +61,11 @@ Updated 13 October 2026 (Eastern).
 - Synthetic scale benchmark: 500 / 1,000 metadata records; p95 search 1.55 / 2.49 ms;
   JSON payload 590,031 / 1,180,391 bytes (gzip 14,312 / 24,573). Fixtures are not in
   the public scientific catalog. These figures do not benchmark 1,000 full papers.
-- Production output: 2,667,788 bytes at the graph-batch local build.
+- Production output: 2,698,432 bytes at the specimen-batch local build.
+- Implementation `8e919d6` passes all 54 tests and six browser suites:
+  https://github.com/yitzhach/geopolymer/actions/runs/38347215725.
+  Browser checks cover the percent-unit query and individual-specimen label,
+  plus the existing graph-excerpt, export and desktop/mobile regressions.
 - Graph implementation `017b4e8` passes all 53 tests and six browser suites:
   https://github.com/yitzhach/geopolymer/actions/runs/38321300599.
   Artifact 11778309305: reviewed the graph rows at 1440/390 px and knowledge
@@ -74,11 +79,9 @@ Updated 13 October 2026 (Eastern).
   A 12 October request to the live build-info endpoint returned HTTP 403.
 
 ## Remaining acceptance work and next resumable batch
-1. PR #6 is merged. Continue from `codex/phase-a-graph-review`, which adds twelve
-   Figure 9 shape-retention estimates and calibration validation. Local 53-test
-   suite, schema validation and 76-route build pass. All six browser suites pass
-   on `017b4e8` in run 38321300599; screenshots reviewed. PR #7 remains a draft
-   follow-up, not merged. Scientific Phase A acceptance is still incomplete.
+1. PR #6 and PR #7 are merged. Resume from current main (`7c08fc3` merge plus
+   this documentation checkpoint). Both source batches and browser verification
+   are published. Scientific Phase A acceptance remains incomplete.
 2. Five full-paper inventories remain partial: graph-only series, analytical
    profiles and some method details need reviewed extraction/digitization or
    underlying source data. No estimated graph values are in exact numeric search.
@@ -133,8 +136,9 @@ Updated 13 October 2026 (Eastern).
   MIP preconditioning, dimensions and repeat-reading uncertainty remain unknown.
 - Added specimen labels to study/search tables, saved excerpts and JSON exports;
   added % and nm search units. All five papers remain partial.
-- See research/batches/phase-a-mip-audit.json. Local tests/build and browser CI
-  verification for this follow-up are recorded below when complete.
+- See research/batches/phase-a-mip-audit.json. All 54 tests, schema validation,
+  76-route build and six browser suites passed on `8e919d6` (run 38347215725).
+  Merged through PR #7. No new live identity verified.
 
 ## Graph-estimate checkpoint — 12 October 2026 (Eastern)
 - Twelve Figure 9 mean markers in ma12060902 are now provisional graph estimates.
@@ -214,7 +218,7 @@ Stable IDs and abstract-level limitations remain; no methods audit or independen
 replication is claimed. The original research-drafts/2026-10-10.json is an archive
 whose pending status describes its original submission, not current deployment.
 
-## Knowledge engine — next implementation priority
+## Knowledge engine — original planning checkpoint (historical)
 Owner requested a much deeper library with hundreds of publications, original
 encyclopedia pages, granular experimental evidence, failed/null outcomes, material
 identities and supplier sourcing. The two supplied prompts are consolidated into
@@ -236,8 +240,9 @@ Counts are targets, not claims of completion. See the master prompt for acceptan
 gates, failure evidence, same-mix search joins, review labels and resumable batches.
 
 ## Remaining / next actions
-0. Execute the knowledge-engine pilot above when the owner launches the next chat.
-   This is the next product priority; API connection can follow when details arrive.
+0. Continue the unfinished pilot extraction from the current status at the top.
+   Foundation and 25-reference breadth target are implemented; deep extraction
+   remains partial. API connection can follow when details arrive.
 1. Connect the assistant to a server-side AI provider when the owner supplies API
    details. Decide model, request/spend limits, data disclosure and retention.
    Keep citations and working catalog fallback. API keys must stay server-side.

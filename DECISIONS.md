@@ -272,3 +272,7 @@ Table 7 MIP results in ma15010211 retain specimen labels in observations and
 exports, rather than becoming extra formulations or inferred means. Hold the
 strength plots from numerical extraction because overlapping points and undefined
 line statistics prevent assigning defensible averages.
+
+PR #7 merged on 13 October as 7c08fc3 after 54 tests and all six browser suites
+passed on 8e919d6. Both provisional graph evidence and specimen-level MIP results
+are now on main. This does not assert complete Phase A extraction or deployment.
