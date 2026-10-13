@@ -1,6 +1,23 @@
 # Geopolymer — current handoff
 Updated 13 October 2026 (Eastern).
 
+## Database foundation checkpoint — 13 October 2026
+- Added a derived, rebuildable SQLite database: `database/schema.sql`,
+  `scripts/build-database.mjs` (`npm run db:build`), `tests/database.test.mjs`
+  and `DATABASE.md`. Output goes to `data/geopolymer.sqlite`, which is git-ignored.
+- The JavaScript sources stay canonical. The build validates first, loads in one
+  transaction, checks foreign keys, integrity and each table's row count.
+- Counts from the build: 161 publications, 5 assets, 5 studies, 18 materials,
+  62 mixes, 23 tests, 275 observations (260 exact numeric, 12 graph estimates,
+  3 censored), 12 findings, 1 relationship.
+- Verification: `npm test` 62/62 (56 existing + 6 new); validator clean; production
+  build 151 routes with no database file in `dist/`.
+- Not done: no D1 loader or live D1 test; no change to pilot or bibliography
+  content; no public exposure. Rights and correction holds still apply only in
+  `publicKnowledge()`.
+- Repo connection: `origin` is `github.com/yitzhach/geopolymer`. No Google Drive
+  folder for the project was found, so no separate folder was connected.
+
 ## Latest checkpoint — 50-reference expansion, 13 October 2026
 - Owner requested 50 more references while minimizing usage. Added two bounded
   25-record batches: 111 → 136 → 161 unique publications, no merges/deletions.
