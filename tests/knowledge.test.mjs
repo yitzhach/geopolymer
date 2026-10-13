@@ -6,7 +6,7 @@ import {library} from '../src/research-library.js';
 import {validateKnowledge,searchEvidence,publicKnowledge,reconcileBatch,normalizeDoi,textMatches,affectedEvidence} from '../src/knowledge-core.js';
 const find=q=>searchEvidence(pilot,refs,{...q,pageSize:50});
 test('phase A identity, FK and source audit; preserve 61 stable IDs and 15 curated recipes',()=>{
- assert.equal(library.length,86);assert.equal(refs.length,25);assert.equal(library.filter(p=>!p.id.startsWith('ke-')).length,61);
+ assert.equal(library.length,111);assert.equal(refs.length,50);assert.equal(library.filter(p=>!p.id.startsWith('ke-')).length,61);
  assert.deepEqual(validateKnowledge(pilot,library),[]);assert.equal(pilot.mixes.length,62);assert.equal(pilot.observations.length,275);
  const bad=structuredClone(pilot);bad.observations[0].mixId='211-M50-K';assert.ok(validateKnowledge(bad,library).length);
  assert.equal(normalizeDoi('https://doi.org/10.1039/B212629J'),'10.1039/b212629j');
@@ -52,8 +52,8 @@ test('gold: denied or unknown asset rights excluded from exports and model conte
  assert.equal(publicKnowledge(pilot,refs,'aiTransmission').observations.length,0);
 });
 test('gold: batch interruption, repeat and duplicate DOI/version are idempotent and reviewable',()=>{
- const a=reconcileBatch([],refs,{limit:10});assert.equal(a.cursor,10);const b=reconcileBatch(a.records,refs,{cursor:a.cursor,limit:25});assert.equal(b.records.length,25);
- const c=reconcileBatch(b.records,refs);assert.equal(c.records.length,25);assert.ok(c.events.every(x=>x.status==='unchanged'));
+ const batch=refs.slice(0,25);const a=reconcileBatch([],batch,{limit:10});assert.equal(a.cursor,10);const b=reconcileBatch(a.records,batch,{cursor:a.cursor,limit:25});assert.equal(b.records.length,25);
+ const c=reconcileBatch(b.records,batch);assert.equal(c.records.length,25);assert.ok(c.events.every(x=>x.status==='unchanged'));
  const changed=reconcileBatch(b.records,[{...refs[0],title:'Changed title'}]);assert.equal(changed.events[0].status,'changed-record-review');assert.equal(changed.records[0].title,refs[0].title);
  const d=reconcileBatch(b.records,[{...refs[0],id:'another-version'}]);assert.equal(d.events[0].status,'duplicate-doi-review');
 });

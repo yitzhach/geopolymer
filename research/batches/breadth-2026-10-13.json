@@ -1,0 +1,1838 @@
+{
+  "schemaVersion": 1,
+  "id": "breadth-2026-10-13",
+  "baseCommit": "140faf4",
+  "checked": "2026-10-13",
+  "baseline": 86,
+  "final": 111,
+  "accepted": 25,
+  "duplicates": 0,
+  "merges": 0,
+  "deletions": 0,
+  "newFullTextExtractions": 0,
+  "newObservations": 0,
+  "metadataOnlyAdditions": 25,
+  "correctionFlaggedIds": [
+    "ke-b02-009",
+    "ke-b02-021"
+  ],
+  "strategy": {
+    "version": 2,
+    "window": "all years",
+    "queries": [
+      "spent coffee grounds geopolymer ash biochar",
+      "geopolymer coating substrate adhesion efflorescence durability",
+      "geopolymer one part natural pozzolan calcined clay low grade setting time"
+    ],
+    "providers": [
+      "publisher-indexed web discovery",
+      "Crossref exact DOI REST lookup"
+    ],
+    "doiCandidates": 25,
+    "accepted": 25,
+    "scope": "Nine coffee-material references (eight geopolymer/AAM/stabilized-fill and one adjacent Portland-cement biochar); ten coating/efflorescence references; six clay/pozzolan/one-part references. The one-part item is a review.",
+    "exclusions": "Two existing coffee records excluded before candidate selection. No claims of exhaustive search recall or independent dataset counts."
+  },
+  "rights": {
+    "policy": "gp-rights-1",
+    "termsChecked": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+    "checked": "2026-10-13",
+    "basis": "Whitelisted bibliographic facts only. No abstracts, source articles, graphics or supplements retained. Full-text operations unassessed; external AI transmission and embeddings not enabled."
+  },
+  "limits": {
+    "concurrency": 1,
+    "intervalMs": 1000,
+    "timeoutMs": 25000,
+    "paidIngestion": false
+  },
+  "review": {
+    "candidateGathering": "Two explicitly selected gpt-6-luna agents, low reasoning, fresh context, no delegation or repository edits",
+    "primaryReview": "Primary agent exact DOI/title/author/journal/date/status checks and integration. No human/domain review.",
+    "scientificLimits": "Metadata discovery only. No positive, negative or optimal performance conclusion inferred from titles. Raw coffee, pyrolysis biochar and combustion ash are distinct. Publication families are identity placeholders; overlapping datasets remain unassessed."
+  },
+  "pilot": "Still partial; see phase-a-gap-scope-2026-10-13.json. Owner requested parallel breadth on 13 October; this is not a Phase A acceptance waiver.",
+  "records": [
+    {
+      "id": "ke-b02-001",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2016.04.021",
+      "checked": "2026-10-13T04:50:46.207Z",
+      "inclusion": "Untreated spent coffee grounds; geopolymer-stabilized material",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2016.04.021",
+        "title": [
+          "Strength assessment of spent coffee grounds-geopolymer cement utilizing slag and fly ash precursors"
+        ],
+        "author": [
+          {
+            "given": "Teck-Ang",
+            "family": "Kua"
+          },
+          {
+            "given": "Arul",
+            "family": "Arulrajah"
+          },
+          {
+            "given": "Suksun",
+            "family": "Horpibulsuk"
+          },
+          {
+            "given": "Yan-Jun",
+            "family": "Du"
+          },
+          {
+            "given": "Shui-Long",
+            "family": "Shen"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              7
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2016.04.021",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061816305578"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-002",
+      "source": "https://api.crossref.org/works/10.1061%2F(ASCE)MT.1943-5533.0001496",
+      "checked": "2026-10-13T04:50:47.325Z",
+      "inclusion": "Untreated spent coffee grounds; geopolymer-stabilized fill",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1061/(asce)mt.1943-5533.0001496",
+        "title": [
+          "Spent Coffee Grounds–Fly Ash Geopolymer Used as an Embankment Structural Fill Material"
+        ],
+        "author": [
+          {
+            "given": "Arul",
+            "family": "Arulrajah"
+          },
+          {
+            "given": "Teck-Ang",
+            "family": "Kua"
+          },
+          {
+            "given": "Chayakrit",
+            "family": "Phetchuay"
+          },
+          {
+            "given": "Suksun",
+            "family": "Horpibulsuk"
+          },
+          {
+            "given": "Farshid",
+            "family": "Mahghoolpilehrood"
+          },
+          {
+            "given": "Mahdi Miri",
+            "family": "Disfani"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              5
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Materials in Civil Engineering"
+        ],
+        "publisher": "American Society of Civil Engineers (ASCE)",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1061/(asce)mt.1943-5533.0001496",
+        "resource": {
+          "primary": {
+            "URL": "https://ascelibrary.org/doi/10.1061/%28ASCE%29MT.1943-5533.0001496"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-003",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.jclepro.2017.06.171",
+      "checked": "2026-10-13T04:50:48.460Z",
+      "inclusion": "Untreated coffee grounds with bagasse ash and slag; bagasse ash is not coffee ash",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1016/j.jclepro.2017.06.171",
+        "title": [
+          "Compressive strength and microstructural properties of spent coffee grounds-bagasse ash based geopolymers with slag supplements"
+        ],
+        "author": [
+          {
+            "given": "Arul",
+            "family": "Arulrajah"
+          },
+          {
+            "given": "Teck-Ang",
+            "family": "Kua"
+          },
+          {
+            "given": "Cherdsak",
+            "family": "Suksiripattanapong"
+          },
+          {
+            "given": "Suksun",
+            "family": "Horpibulsuk"
+          },
+          {
+            "given": "Jack Shuilong",
+            "family": "Shen"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              9
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Cleaner Production"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.jclepro.2017.06.171",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0959652617313410"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-004",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2017.04.103",
+      "checked": "2026-10-13T04:50:49.578Z",
+      "inclusion": "Untreated coffee grounds with rice husk ash and slag; rice husk ash is not coffee ash",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2017.04.103",
+        "title": [
+          "Strength and microstructure properties of spent coffee grounds stabilized with rice husk ash and slag geopolymers"
+        ],
+        "author": [
+          {
+            "given": "Cherdsak",
+            "family": "Suksiripattanapong"
+          },
+          {
+            "given": "Teck-Ang",
+            "family": "Kua"
+          },
+          {
+            "given": "Arul",
+            "family": "Arulrajah"
+          },
+          {
+            "given": "Farshid",
+            "family": "Maghool"
+          },
+          {
+            "given": "Suksun",
+            "family": "Horpibulsuk"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2017.04.103",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061817307535"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-005",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2017.01.082",
+      "checked": "2026-10-13T04:50:50.700Z",
+      "inclusion": "Spent coffee grounds geopolymer-stabilized material",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2017.01.082",
+        "title": [
+          "Stiffness and deformation properties of spent coffee grounds based geopolymers"
+        ],
+        "author": [
+          {
+            "given": "Teck-Ang",
+            "family": "Kua"
+          },
+          {
+            "given": "Arul",
+            "family": "Arulrajah"
+          },
+          {
+            "given": "Alireza",
+            "family": "Mohammadinia"
+          },
+          {
+            "given": "Suksun",
+            "family": "Horpibulsuk"
+          },
+          {
+            "given": "Mehdi",
+            "family": "Mirzababaei"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              5
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2017.01.082",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061817301186"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-006",
+      "source": "https://api.crossref.org/works/10.1080%2F14680629.2017.1408483",
+      "checked": "2026-10-13T04:50:51.818Z",
+      "inclusion": "Spent coffee grounds and recycled glass geopolymer-stabilized material",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1080/14680629.2017.1408483",
+        "title": [
+          "Stiffness and strength properties of spent coffee grounds-recycled glass geopolymers"
+        ],
+        "author": [
+          {
+            "given": "Arul",
+            "family": "Arulrajah"
+          },
+          {
+            "given": "Teck-Ang",
+            "family": "Kua"
+          },
+          {
+            "given": "Cherdsak",
+            "family": "Suksiripattanapong"
+          },
+          {
+            "given": "Suksun",
+            "family": "Horpibulsuk"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              30
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              30
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              4,
+              3
+            ]
+          ]
+        },
+        "container-title": [
+          "Road Materials and Pavement Design"
+        ],
+        "publisher": "Informa UK Limited",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1080/14680629.2017.1408483",
+        "resource": {
+          "primary": {
+            "URL": "https://www.tandfonline.com/doi/full/10.1080/14680629.2017.1408483"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-007",
+      "source": "https://api.crossref.org/works/10.1186%2Fs40712-025-00331-7",
+      "checked": "2026-10-13T04:50:52.946Z",
+      "inclusion": "Spent coffee grounds; alkali-hydroxide-free geopolymer concrete",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1186/s40712-025-00331-7",
+        "title": [
+          "Spent coffee grounds enhanced strength of alkali-hydroxide-free geopolymer concrete: an optimization study"
+        ],
+        "author": [
+          {
+            "given": "Sheh Ching",
+            "family": "Khong"
+          },
+          {
+            "given": "Jia Jun",
+            "family": "Yee"
+          },
+          {
+            "given": "Jolius",
+            "family": "Gimbun"
+          },
+          {
+            "given": "Kong Fah",
+            "family": "Tee"
+          },
+          {
+            "given": "Siew Choo",
+            "family": "Chin"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              1
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Materials Science: Materials in Engineering"
+        ],
+        "publisher": "Springer Science and Business Media LLC",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1186/s40712-025-00331-7",
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1186/s40712-025-00331-7"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-008",
+      "source": "https://api.crossref.org/works/10.1038%2Fs41598-026-65786-w",
+      "checked": "2026-10-13T04:50:54.066Z",
+      "inclusion": "Spent coffee grounds ash; alkali-activated mortar",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1038/s41598-026-65786-w",
+        "title": [
+          "Spent coffee grounds ash as a potential sustainable binder for mechanical and microstructural enhancement of alkali-activated mortars"
+        ],
+        "author": [
+          {
+            "given": "Shayan",
+            "family": "Mohammadalizadeh"
+          },
+          {
+            "given": "Hadi",
+            "family": "Nazarpour"
+          },
+          {
+            "given": "Seyed Sina",
+            "family": "Mousavi"
+          },
+          {
+            "given": "Mehdi",
+            "family": "Dehestani"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              22
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              22
+            ]
+          ]
+        },
+        "container-title": [
+          "Scientific Reports"
+        ],
+        "publisher": "Springer Science and Business Media LLC",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1038/s41598-026-65786-w",
+        "resource": {
+          "primary": {
+            "URL": "https://www.nature.com/articles/s41598-026-65786-w"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-009",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.jclepro.2023.138205",
+      "checked": "2026-10-13T04:50:55.185Z",
+      "inclusion": "Adjacent Portland-cement concrete; coffee pyrolysis biochar, not combustion ash. No performance transfer to geopolymers",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1016/j.jclepro.2023.138205",
+        "title": [
+          "Transforming spent coffee grounds into a valuable resource for the enhancement of concrete strength"
+        ],
+        "author": [
+          {
+            "given": "Rajeev",
+            "family": "Roychand"
+          },
+          {
+            "given": "Shannon",
+            "family": "Kilmartin-Lynch"
+          },
+          {
+            "given": "Mohammad",
+            "family": "Saberian"
+          },
+          {
+            "given": "Jie",
+            "family": "Li"
+          },
+          {
+            "given": "Guomin",
+            "family": "Zhang"
+          },
+          {
+            "given": "Chun Qing",
+            "family": "Li"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Cleaner Production"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.jclepro.2023.138205",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0959652623023636"
+          }
+        },
+        "updated-by": [
+          {
+            "DOI": "10.1016/j.jclepro.2023.139246",
+            "type": "erratum",
+            "label": "Erratum",
+            "source": "publisher",
+            "updated": {
+              "date-parts": [
+                [
+                  2023,
+                  11,
+                  15
+                ]
+              ],
+              "date-time": "2023-11-15T00:00:00Z",
+              "timestamp": 1700006400000
+            }
+          }
+        ],
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-010",
+      "source": "https://api.crossref.org/works/10.1021%2Facsomega.2c00170",
+      "checked": "2026-10-13T04:50:56.312Z",
+      "inclusion": "Geopolymer coating substrate adhesion",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1021/acsomega.2c00170",
+        "title": [
+          "Effects of Substrate Surface Characteristics on the Adhesion Properties of Geopolymer Coatings"
+        ],
+        "author": [
+          {
+            "given": "Zhixin",
+            "family": "Wang"
+          },
+          {
+            "given": "Xian",
+            "family": "Rong"
+          },
+          {
+            "given": "Lei",
+            "family": "Zhao"
+          },
+          {
+            "given": "Xueyang",
+            "family": "Xing"
+          },
+          {
+            "given": "Hui",
+            "family": "Ma"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              30
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              30
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              12
+            ]
+          ]
+        },
+        "container-title": [
+          "ACS Omega"
+        ],
+        "publisher": "American Chemical Society (ACS)",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1021/acsomega.2c00170",
+        "resource": {
+          "primary": {
+            "URL": "https://pubs.acs.org/doi/10.1021/acsomega.2c00170"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-011",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.clay.2009.08.015",
+      "checked": "2026-10-13T04:50:57.429Z",
+      "inclusion": "Metakaolin coating on metal; thermal barriers",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1016/j.clay.2009.08.015",
+        "title": [
+          "Preparation of metakaolin based geopolymer coatings on metal substrates as thermal barriers"
+        ],
+        "author": [
+          {
+            "given": "Jadambaa",
+            "family": "Temuujin"
+          },
+          {
+            "given": "Amgalan",
+            "family": "Minjigmaa"
+          },
+          {
+            "given": "William",
+            "family": "Rickard"
+          },
+          {
+            "given": "Melissa",
+            "family": "Lee"
+          },
+          {
+            "given": "Iestyn",
+            "family": "Williams"
+          },
+          {
+            "given": "Arie",
+            "family": "van Riessen"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2009,
+              11
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2009,
+              11
+            ]
+          ]
+        },
+        "container-title": [
+          "Applied Clay Science"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.clay.2009.08.015",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0169131709002014"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-012",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.jhazmat.2010.04.121",
+      "checked": "2026-10-13T04:50:58.546Z",
+      "inclusion": "Fly ash geopolymer thin coating on metal",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1016/j.jhazmat.2010.04.121",
+        "title": [
+          "Fly ash based geopolymer thin coatings on metal substrates and its thermal evaluation"
+        ],
+        "author": [
+          {
+            "given": "Jadambaa",
+            "family": "Temuujin"
+          },
+          {
+            "given": "Amgalan",
+            "family": "Minjigmaa"
+          },
+          {
+            "given": "William",
+            "family": "Rickard"
+          },
+          {
+            "given": "Melissa",
+            "family": "Lee"
+          },
+          {
+            "given": "Iestyn",
+            "family": "Williams"
+          },
+          {
+            "given": "Arie",
+            "family": "van Riessen"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              8,
+              15
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2010,
+              8,
+              15
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Hazardous Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.jhazmat.2010.04.121",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0304389410005832"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-013",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.clay.2010.01.014",
+      "checked": "2026-10-13T04:50:59.658Z",
+      "inclusion": "Geopolymer coating for marine concrete protection",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1016/j.clay.2010.01.014",
+        "title": [
+          "Potential application of geopolymers as protection coatings for marine concreteI. Basic properties"
+        ],
+        "author": [
+          {
+            "given": "Zuhua",
+            "family": "Zhang"
+          },
+          {
+            "given": "Xiao",
+            "family": "Yao"
+          },
+          {
+            "given": "Huajun",
+            "family": "Zhu"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2010,
+              6
+            ]
+          ]
+        },
+        "container-title": [
+          "Applied Clay Science"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.clay.2010.01.014",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0169131710000281"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-014",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.ceramint.2014.10.099",
+      "checked": "2026-10-13T04:51:00.774Z",
+      "inclusion": "Sodium-silicate-free geopolymer coating adhesion",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1016/j.ceramint.2014.10.099",
+        "title": [
+          "Sodium silicate-free geopolymers as coating materials: Effects of Na/Al and water/solid ratios on adhesion strength"
+        ],
+        "author": [
+          {
+            "given": "M.",
+            "family": "Irfan Khan"
+          },
+          {
+            "given": "Khairun",
+            "family": "Azizli"
+          },
+          {
+            "given": "Suriati",
+            "family": "Sufian"
+          },
+          {
+            "given": "Zakaria",
+            "family": "Man"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              3
+            ]
+          ]
+        },
+        "container-title": [
+          "Ceramics International"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.ceramint.2014.10.099",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0272884214016460"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-015",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2017.05.070",
+      "checked": "2026-10-13T04:51:01.957Z",
+      "inclusion": "Aluminosilicate coating for concrete",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2017.05.070",
+        "title": [
+          "Property and microstructure of aluminosilicate inorganic coating for concrete: Role of water to solid ratio"
+        ],
+        "author": [
+          {
+            "given": "Song",
+            "family": "Mu"
+          },
+          {
+            "given": "Jiaping",
+            "family": "Liu"
+          },
+          {
+            "given": "Wei",
+            "family": "Lin"
+          },
+          {
+            "given": "Yaocheng",
+            "family": "Wang"
+          },
+          {
+            "given": "Jianzhong",
+            "family": "Liu"
+          },
+          {
+            "given": "Liang",
+            "family": "Shi"
+          },
+          {
+            "given": "Qian",
+            "family": "Jiang"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              9
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2017.05.070",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S095006181730956X"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-016",
+      "source": "https://api.crossref.org/works/10.1021%2Facsomega.0c01919",
+      "checked": "2026-10-13T04:51:03.072Z",
+      "inclusion": "Efflorescence in sodium-based geopolymer coating",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1021/acsomega.0c01919",
+        "title": [
+          "Inhibition of Efflorescence in Na-Based Geopolymer Inorganic Coating"
+        ],
+        "author": [
+          {
+            "given": "Xue-sen",
+            "family": "Lv"
+          },
+          {
+            "given": "Yao",
+            "family": "Qin"
+          },
+          {
+            "given": "Zhao-xu",
+            "family": "Lin"
+          },
+          {
+            "given": "Zhen-kun",
+            "family": "Tian"
+          },
+          {
+            "given": "Xue-min",
+            "family": "Cui"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              9
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              23
+            ]
+          ]
+        },
+        "container-title": [
+          "ACS Omega"
+        ],
+        "publisher": "American Chemical Society (ACS)",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1021/acsomega.0c01919",
+        "resource": {
+          "primary": {
+            "URL": "https://pubs.acs.org/doi/10.1021/acsomega.0c01919"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-017",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.cemconcomp.2022.104495",
+      "checked": "2026-10-13T04:51:04.189Z",
+      "inclusion": "Organic-modified geopolymer coating for marine concrete",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1016/j.cemconcomp.2022.104495",
+        "title": [
+          "Coating performance, durability and anti-corrosion mechanism of organic modified geopolymer composite for marine concrete protection"
+        ],
+        "author": [
+          {
+            "given": "Mo",
+            "family": "Zhang"
+          },
+          {
+            "given": "Hongyan",
+            "family": "Xu"
+          },
+          {
+            "given": "Armande Loraine",
+            "family": "Phalé Zeze"
+          },
+          {
+            "given": "Xiongfei",
+            "family": "Liu"
+          },
+          {
+            "given": "Mingjiang",
+            "family": "Tao"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              5
+            ]
+          ]
+        },
+        "container-title": [
+          "Cement and Concrete Composites"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.cemconcomp.2022.104495",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0958946522000907"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-018",
+      "source": "https://api.crossref.org/works/10.1111%2Fjace.19830",
+      "checked": "2026-10-13T04:51:05.302Z",
+      "inclusion": "Geopolymer efflorescence durability problems",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1111/jace.19830",
+        "title": [
+          "Investigation of geopolymer efflorescence durability problems: Causes and possible solutions"
+        ],
+        "author": [
+          {
+            "given": "Pozhhan",
+            "family": "Mokhtari"
+          },
+          {
+            "given": "Ali",
+            "family": "Ozer"
+          },
+          {
+            "given": "Ruy Alexandre",
+            "family": "de Sá Ribeiro"
+          },
+          {
+            "given": "Devon",
+            "family": "Samuel"
+          },
+          {
+            "given": "Waltraud M.",
+            "family": "Kriven"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              26
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              26
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of the American Ceramic Society"
+        ],
+        "publisher": "Wiley",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1111/jace.19830",
+        "resource": {
+          "primary": {
+            "URL": "https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.19830"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-019",
+      "source": "https://api.crossref.org/works/10.1007%2Fs10853-022-07767-8",
+      "checked": "2026-10-13T04:51:06.436Z",
+      "inclusion": "Geopolymer coating on titanium alloy; not building-wall adhesion evidence",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1007/s10853-022-07767-8",
+        "title": [
+          "Mechanical and antibacterial behavior of multilayered geopolymer coatings on Ti6Al4V alloys"
+        ],
+        "author": [
+          {
+            "given": "Alfredo",
+            "family": "Rondinella"
+          },
+          {
+            "given": "Erika",
+            "family": "Furlani"
+          },
+          {
+            "given": "Lorenzo",
+            "family": "Dell’Antone"
+          },
+          {
+            "given": "Elia",
+            "family": "Marin"
+          },
+          {
+            "given": "Francesco",
+            "family": "Boschetto"
+          },
+          {
+            "given": "Francesco",
+            "family": "Sordetti"
+          },
+          {
+            "given": "Alex",
+            "family": "Lanzutti"
+          },
+          {
+            "given": "Francesco",
+            "family": "Andreatta"
+          },
+          {
+            "given": "Lorenzo",
+            "family": "Fedrizzi"
+          },
+          {
+            "given": "Stefano",
+            "family": "Maschio"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              10
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              10
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Materials Science"
+        ],
+        "publisher": "Springer Science and Business Media LLC",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1007/s10853-022-07767-8",
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/s10853-022-07767-8"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-020",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2020.121066",
+      "checked": "2026-10-13T04:51:07.608Z",
+      "inclusion": "Low-grade clay precursor",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2020.121066",
+        "title": [
+          "Geopolymer synthesis using low-grade clays"
+        ],
+        "author": [
+          {
+            "given": "Morteza",
+            "family": "Tahmasebi Yamchelou"
+          },
+          {
+            "given": "David",
+            "family": "Law"
+          },
+          {
+            "given": "Robert",
+            "family": "Brkljača"
+          },
+          {
+            "given": "Chamila",
+            "family": "Gunasekara"
+          },
+          {
+            "given": "Jie",
+            "family": "Li"
+          },
+          {
+            "given": "Indubhushan",
+            "family": "Patnaikuni"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              1
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2020.121066",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061820330701"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-021",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2026.146544",
+      "checked": "2026-10-13T04:51:08.724Z",
+      "inclusion": "Calcined-clay precursor selection",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2026.146544",
+        "title": [
+          "Characterisation and selection criteria of clays for calcined clay based geopolymer"
+        ],
+        "author": [
+          {
+            "given": "Melanie",
+            "family": "Langlois"
+          },
+          {
+            "given": "Rackel",
+            "family": "San Nicolas"
+          },
+          {
+            "given": "Jay",
+            "family": "Sanjayan"
+          },
+          {
+            "given": "Christian",
+            "family": "Cremona"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2026.146544",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061826014509"
+          }
+        },
+        "updated-by": [
+          {
+            "DOI": "10.1016/j.conbuildmat.2026.146724",
+            "type": "erratum",
+            "label": "Erratum",
+            "source": "publisher",
+            "updated": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  21
+                ]
+              ],
+              "date-time": "2026-05-21T00:00:00Z",
+              "timestamp": 1779321600000
+            }
+          },
+          {
+            "DOI": "10.1016/j.conbuildmat.2026.146724",
+            "type": "erratum",
+            "label": "Erratum",
+            "source": "publisher",
+            "updated": {
+              "date-parts": [
+                [
+                  2026,
+                  8,
+                  8
+                ]
+              ],
+              "date-time": "2026-08-08T00:00:00Z",
+              "timestamp": 1786147200000
+            }
+          }
+        ],
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-022",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.ceramint.2026.03.008",
+      "checked": "2026-10-13T04:51:09.853Z",
+      "inclusion": "Waste ceramic powder and low-grade calcined clay",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1016/j.ceramint.2026.03.008",
+        "title": [
+          "Synergetic effects of waste ceramic powder and low-grade calcined clay as precursors for the development of sustainable geopolymer binders"
+        ],
+        "author": [
+          {
+            "given": "Jan",
+            "family": "Fořt"
+          },
+          {
+            "given": "Martin",
+            "family": "Mildner"
+          },
+          {
+            "given": "Petr",
+            "family": "Hotěk"
+          },
+          {
+            "given": "Robert",
+            "family": "Černý"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        },
+        "container-title": [
+          "Ceramics International"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.ceramint.2026.03.008",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0272884226010369"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-023",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2010.12.031",
+      "checked": "2026-10-13T04:51:10.960Z",
+      "inclusion": "Alkali-activated natural pozzolan with mineral additives",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2010.12.031",
+        "title": [
+          "Effect of adding mineral additives to alkali-activated natural pozzolan paste"
+        ],
+        "author": [
+          {
+            "given": "Dali",
+            "family": "Bondar"
+          },
+          {
+            "given": "C.J.",
+            "family": "Lynsdale"
+          },
+          {
+            "given": "N.B.",
+            "family": "Milestone"
+          },
+          {
+            "given": "N.",
+            "family": "Hassani"
+          },
+          {
+            "given": "A.A.",
+            "family": "Ramezanianpour"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              6
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2010.12.031",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061810007099"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-024",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.cemconres.2017.10.001",
+      "checked": "2026-10-13T04:51:12.086Z",
+      "inclusion": "One-part alkali-activated materials; review, not an independent experiment",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.1016/j.cemconres.2017.10.001",
+        "title": [
+          "One-part alkali-activated materials: A review"
+        ],
+        "author": [
+          {
+            "given": "Tero",
+            "family": "Luukkonen"
+          },
+          {
+            "given": "Zahra",
+            "family": "Abdollahnejad"
+          },
+          {
+            "given": "Juho",
+            "family": "Yliniemi"
+          },
+          {
+            "given": "Paivo",
+            "family": "Kinnunen"
+          },
+          {
+            "given": "Mirja",
+            "family": "Illikainen"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              1
+            ]
+          ]
+        },
+        "container-title": [
+          "Cement and Concrete Research"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.cemconres.2017.10.001",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0008884617306877"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b02-025",
+      "source": "https://api.crossref.org/works/10.3390%2Fsu151813556",
+      "checked": "2026-10-13T04:51:13.210Z",
+      "inclusion": "Low-reactivity calcined clay in fly ash geopolymer mortar",
+      "rateLimit": {
+        "limit": "5",
+        "interval": "1s"
+      },
+      "metadata": {
+        "DOI": "10.3390/su151813556",
+        "title": [
+          "Impact of Low-Reactivity Calcined Clay on the Performance of Fly Ash-Based Geopolymer Mortar"
+        ],
+        "author": [
+          {
+            "given": "Kwabena",
+            "family": "Boakye"
+          },
+          {
+            "given": "Morteza",
+            "family": "Khorami"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              11
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              11
+            ]
+          ]
+        },
+        "container-title": [
+          "Sustainability"
+        ],
+        "publisher": "MDPI AG",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.3390/su151813556",
+        "resource": {
+          "primary": {
+            "URL": "https://www.mdpi.com/2071-1050/15/18/13556"
+          }
+        },
+        "relation": {}
+      }
+    }
+  ],
+  "importer": {
+    "inputSha256": "df618053cba189417b51c880ae5b917e4084dfcfb068fb3180c33bac89f8e507",
+    "seedRecords": 86,
+    "finalRecords": 111,
+    "cursor": 25,
+    "acceptedEvents": 25,
+    "runs": 2,
+    "repeatAddedRecords": 0
+  }
+}

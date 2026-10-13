@@ -178,3 +178,36 @@ mean. MIP porosity (%) and critical pore diameter (nm) have separate properties
 and tests; preconditioning, sample dimensions and repeat-reading uncertainty are
 unknown. Figure 1–2 marker/line statistics remain ambiguous, so those graph
 means are held out pending underlying values or clarification.
+
+## 13 October breadth batch and scoped pilot backlog
+
+Owner requested parallel bibliography expansion while retaining the pilot limits.
+The canonical bibliography now has 50 additions to the unchanged 61-record legacy
+catalog: **111 unique publications**. New batch: 25 metadata-only records; nine
+coffee-material references (including one explicitly adjacent Portland-cement
+biochar paper), ten coating/efflorescence records and six precursor/one-part
+records. One addition is a review. Publisher diversity increases, but the batch
+is still selected discovery, not a systematic review or 25 independent datasets.
+
+All 25 identities were checked via exact Crossref DOI lookups; only bibliographic
+fields retained, no abstracts/full texts. Scope notes distinguish untreated
+coffee, combustion ash and pyrolysis char, as well as substrate/application limits.
+Crossref `updated-by` identified two linked errata/corrections. Their discovery
+records expose correction links and remain excluded from assistant evidence until
+review. Status checks are not comprehensive publisher clearance. Full-text rights
+remain unassessed for all 25 additions. See `breadth-2026-10-13.json` for dated
+metadata evidence, provider limits, DOI candidates, inclusion scope and importer
+replay (seed 86, final 111, exactly 25 acceptance events after two invocations).
+
+No new numerical extraction is claimed: five partial papers, 62 variants, 275
+cells, 12 failure/null/mixed findings and 18 research material identities remain.
+`phase-a-gap-scope-2026-10-13.json` snapshots every remaining inventory entry with
+study-specific next actions and closure requirements. Source-statistic disputes,
+omitted data and experimental uncertainty remain unresolved. Fresh ma15082944
+access returned a PMC browser challenge and publisher HTTP 429. Next digitization
+is Figures 4–6, with signed-axis/time-origin/baseline checks; blocked data must not
+be guessed. Phase A complete acceptance remains incomplete.
+
+Root `AGENTS.md` requires `SUBAGENT_POLICY.md`: explicitly selected lightweight
+agents only, narrow read-only tasks, depth one, normally at most three concurrent;
+all implementation and final validation stay with the Primary Agent.

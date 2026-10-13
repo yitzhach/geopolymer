@@ -276,3 +276,19 @@ line statistics prevent assigning defensible averages.
 PR #7 merged on 13 October as 7c08fc3 after 54 tests and all six browser suites
 passed on 8e919d6. Both provisional graph evidence and specimen-level MIP results
 are now on main. This does not assert complete Phase A extraction or deployment.
+
+## 13 October 2026 — bounded breadth and delegation policy
+
+Owner explicitly requested 25 more references and a durable lightweight-subagent
+policy. Expand breadth in parallel with the scoped pilot backlog; do not relabel
+partial papers as complete. Root AGENTS.md makes SUBAGENT_POLICY.md discoverable
+for future sessions. This session used two explicit gpt-6-luna, low-reasoning,
+fresh-context reference searches; no agent edits, recursion or delegated final QA.
+
+Add 25 metadata-only records, 86 → 111 unique DOI records. Preserve all earlier
+identities and observations. Display research-system scope, including the one
+adjacent Portland-cement biochar record. Two Crossref updated-by notices are
+visible with correction links and held out of assistant evidence. No conclusions
+are inferred from article titles or correction metadata. Current supplier offers,
+full-text rights and independent dataset overlap are unassessed. No API provider,
+paid service, schedule or automated publication workflow was added.

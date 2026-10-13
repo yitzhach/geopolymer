@@ -79,3 +79,15 @@ five additions have rights-recorded partial experimental extractions; the other
 20 are metadata-only. New study routes and /knowledge connect to the existing
 catalog. Public numerical data, review manifests and conservative reuse policy
 are documented in KNOWLEDGE_ENGINE.md. HANDOFF.md tracks tests and publication.
+
+## 13 October 2026 bibliography extension
+
+Current library: 111 unique references; 25 new metadata-only additions are recorded
+in `research/batches/breadth-2026-10-13.json`. The earlier 22 discovery summaries and
+five GP Journal articles are unchanged. Five experimental papers remain partially
+extracted. Per-record check dates and scope notes govern evidence depth; the
+feed's checked date identifies the catalog update, not a re-audit of all records.
+Two new references have Crossref correction links, visible on their cards/study
+pages and excluded from assistant evidence pending review. No full-text operation
+is authorized by a metadata record alone. See KNOWLEDGE_ENGINE.md for current
+counts and HANDOFF.md for verification/publication.
