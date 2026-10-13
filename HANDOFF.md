@@ -3,8 +3,23 @@ Updated 13 October 2026 (Eastern).
 
 ## Current checkpoint — 13 October 2026 breadth and agent policy
 - Owner reports the prior build appears live and requested 25 additional references.
-- Implementation branch: `codex/research-batch-25-policy`, based on main `140faf4`.
-  Publication/browser QA pending at this checkpoint; do not infer deployment.
+- PR #8 merged to main as `f705238e09e45776a7202cc5c4af1e063df49c41`.
+  https://github.com/yitzhach/geopolymer/pull/8. Verified implementation
+  `5c76aec55f9c00f63b3397ec0c4a7501c28bc315` passed all 55 Node tests and all six
+  browser suites in run 38349819822; local schema validation and 101-route build pass.
+  https://github.com/yitzhach/geopolymer/actions/runs/38349819822.
+- Initial browser run failed on stale coffee/no-JavaScript catalog counts (2/86);
+  fixed to 11/111. No application failure was found in that run. Final tests cover
+  correction links, assistant exclusion, catalog filters/exports and desktop/mobile.
+- Reviewed artifact 11790990429: /library and /studies/ke-b02-009 at 1440/390 px,
+  top 1700px crops. Readable wrapping, scope/correction notices and counts.
+- Live deployment independently verified: build-info.json reports `f705238`,
+  built 2026-10-13T05:11:01.400Z, 101 routes. Live JSON has 111 records including
+  all 25 new IDs; library and representative new study routes return successfully.
+- Owner's supplied failure screenshot is GitHub run #69 (38348887849), not a
+  Cloudflare build log. The failure was the stale count assertion fixed above;
+  replacement run #71 passed. No separate Cloudflare failure is established.
+- This handoff checkpoint changes documentation only, not the verified code.
 - Library grows **86 → 111 unique DOI records**: exactly 25 metadata-only additions,
   no merges/deletions, all 86 prior IDs retained. New records are `ke-b02-001`–025.
 - Coverage: nine coffee-material references (eight GP/AAM/fill and one adjacent
@@ -29,7 +44,7 @@ Updated 13 October 2026 (Eastern).
   `research/batches/breadth-2026-10-13.json`, gap-scope manifest, then relevant source
   audit only. Do not restart Phase A or re-add the previous 25 records.
 
-## Phase A implementation — foundation merged; extraction continues
+## Previous Phase A foundation checkpoints — historical counts below
 - PR #6 merged to main as `1f873e492e24e81784cb46d64e3b386e7d9af846`
   after owner authorized pushing to main and continuing Phase A on 12 October.
   https://github.com/yitzhach/geopolymer/pull/6. Final pre-merge head `7156e57`

@@ -292,3 +292,9 @@ visible with correction links and held out of assistant evidence. No conclusions
 are inferred from article titles or correction metadata. Current supplier offers,
 full-text rights and independent dataset overlap are unassessed. No API provider,
 paid service, schedule or automated publication workflow was added.
+
+Publication: PR #8 merged as f705238 after all 55 tests and six browser suites
+passed on 5c76aec (run 38349819822). Reviewed desktop/mobile library and correction
+page screenshots. The owner's failure screenshot identified the superseded GitHub run #69;
+replacement #71 passed. Cloudflare live build f705238 was independently verified
+with 101 routes and 111 catalog records. See HANDOFF.md for exact release evidence.
