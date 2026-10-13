@@ -1,6 +1,34 @@
 # Geopolymer — current handoff
 Updated 13 October 2026 (Eastern).
 
+## Current checkpoint — 13 October 2026 breadth and agent policy
+- Owner reports the prior build appears live and requested 25 additional references.
+- Implementation branch: `codex/research-batch-25-policy`, based on main `140faf4`.
+  Publication/browser QA pending at this checkpoint; do not infer deployment.
+- Library grows **86 → 111 unique DOI records**: exactly 25 metadata-only additions,
+  no merges/deletions, all 86 prior IDs retained. New records are `ke-b02-001`–025.
+- Coverage: nine coffee-material references (eight GP/AAM/fill and one adjacent
+  Portland-cement biochar paper), ten coating/efflorescence, six clay/pozzolan/one-part.
+  One new item is a review. No new extracted experiments or performance claims.
+- Exact Crossref DOI identities checked, no abstracts retained. `updated-by` found
+  corrections on `ke-b02-009` and `ke-b02-021`; card/study correction links are visible
+  and assistant evidence excludes both pending review. Other new records have only
+  metadata status checks, not exhaustive publisher clearance.
+- Overall depth: 84 metadata-only, 22 discovery-summary, five partial-full-text
+  records. Five studies / 62 variants / 275 cells / 12 unfavorable/null/mixed
+  findings / 18 historical materials unchanged. No encyclopedia or supplier additions.
+- Added root AGENTS.md and SUBAGENT_POLICY.md. Two explicitly selected Luna agents
+  gathered references read-only; Primary Agent verified, integrated and tested.
+- Pilot gaps are scoped entry-by-entry in `phase-a-gap-scope-2026-10-13.json`.
+  All five papers remain partial; no Phase A complete-acceptance claim. Fresh
+  ma15082944 retrieval was blocked by PMC challenge / publisher HTTP 429.
+- Next depth work: ma15082944 Figures 4–6 with authorized figure access and
+  signed/baseline-aware calibration. Review two linked corrections before using
+  those new records as assistant evidence. New full-text rights remain unassessed.
+- Narrow read map: AGENTS.md, SUBAGENT_POLICY.md, KNOWLEDGE_ENGINE.md,
+  `research/batches/breadth-2026-10-13.json`, gap-scope manifest, then relevant source
+  audit only. Do not restart Phase A or re-add the previous 25 records.
+
 ## Phase A implementation — foundation merged; extraction continues
 - PR #6 merged to main as `1f873e492e24e81784cb46d64e3b386e7d9af846`
   after owner authorized pushing to main and continuing Phase A on 12 October.

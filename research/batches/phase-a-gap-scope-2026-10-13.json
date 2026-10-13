@@ -1,0 +1,409 @@
+{
+  "schemaVersion": 1,
+  "id": "phase-a-gap-scope-2026-10-13",
+  "reviewBasis": "Primary-agent review of existing source-checked inventory and audit manifests; not a fresh full-text extraction or completion certificate.",
+  "acceptance": "incomplete; all five studies remain partial",
+  "breadthDecision": "Owner explicitly requested another 25 references on 13 October 2026. Breadth proceeds in parallel without relaxing extraction or rights gates.",
+  "newNumericObservations": 0,
+  "freshAccessAttempts": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9032675/",
+      "result": "browser challenge; no article retrieved"
+    },
+    {
+      "url": "https://www.mdpi.com/1996-1944/15/8/2944",
+      "result": "HTTP 429; no article retrieved"
+    }
+  ],
+  "nextAction": "Begin ma15082944 Figures 4–6 with authorized high-resolution figure access and signed/baseline-aware calibration. If unavailable, preserve blocker. Do not invent graph points.",
+  "studies": [
+    {
+      "publicationId": "ke-2944",
+      "extraction": "partial",
+      "remainingInventory": [
+        {
+          "locator": "materials-15-02944-f001",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Cumulative particle size distribution of the metakaolin and slag used in this study.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-15-02944-f002",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Test process flowchart.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-15-02944-f003",
+          "kind": "figure",
+          "state": "ambiguous",
+          "note": "All 24 unique strength labels transcribed; one existing narrative result retained without duplication. S30-10 repeated across panels is one dataset. Growth-rate curve not digitized."
+        },
+        {
+          "locator": "materials-15-02944-f004",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Drying shrinkage of the alkali-activated metakaolin-based geopolymers specimens according to the ( a ) slag and ( b ) Na 2 O content.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-15-02944-f005",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Autogenous shrinkage of the alkali-activated metakaolin-based geopolymer specimens according to the ( a ) slag and ( b ) Na 2 O content.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-15-02944-f006",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Chemical shrinkage of the alkali-activated metakaolin-based geopolymer specimens according to the ( a ) slag and ( b ) Na 2 O content. The insets show the chemical shrinkage in the first 24 h.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-15-02944-f007",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "FT-IR spectra of the alkali-activated metakaolin-based geopolymer specimens according to the ( a ) slag and ( b ) Na 2 O content.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-15-02944-f008",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "SEM images of the alkali-activated metakaolin-based geopolymer specimens with a slag content of ( a ) 0 mass% and ( b ) 50 mass%.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-15-02944-f009",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "MIP spectra of the alkali-activated metakaolin-based geopolymer specimens according to the ( a ) slag and ( b ) Na 2 O content.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-15-02944-f010",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Drying shrinkage and pore structure parameters of the alkali-activated metakaolin-based geopolymers according to the ( a ) slag and ( b ) Na 2 O content.; no graph digitization claimed"
+        },
+        {
+          "locator": "Supplementary/associated data",
+          "kind": "supplements",
+          "state": "not-reported",
+          "note": "No separately linked experimental supplement located in retrieved article HTML; linked third-party assets not licensed by inference."
+        }
+      ],
+      "nextActions": "Figures 4–6: digitize with signed y-axis calibration, explicit time origin and baseline; retain chemical-shrinkage unit separately. Figures 1/7/9–10: analytical series need typed PSD/FTIR/MIP representation. Figure 2/8: qualitative method/image review. Figure 3: do not add derived growth curves as independent experiments. Preserve humidity/relative-comparison disputes.",
+      "completionGate": "Each remaining entry needs a source-grounded result or explicit justified non-extractable disposition, separate verification, and preserved missing uncertainty; qualitative figures do not become numerical data."
+    },
+    {
+      "publicationId": "ke-211",
+      "extraction": "partial",
+      "remainingInventory": [
+        {
+          "locator": "materials-15-00211-f001",
+          "kind": "figure",
+          "state": "ambiguous",
+          "note": "Multiple unlabelled markers occur at each test age. §2.3 specifies two bending specimens but does not identify all displayed points or define the connecting line statistic; compression reading count is unspecified. No graph means or origin-at-zero observations inferred. Underlying values/figure-statistic clarification required."
+        },
+        {
+          "locator": "materials-15-00211-f002",
+          "kind": "figure",
+          "state": "ambiguous",
+          "note": "Multiple unlabelled markers occur at each test age. §2.3 specifies two bending specimens but does not identify all displayed points or define the connecting line statistic; compression reading count is unspecified. No graph means or origin-at-zero observations inferred. Underlying values/figure-statistic clarification required."
+        },
+        {
+          "locator": "materials-15-00211-f003",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "SEM images of geopolymer mortars ( a ) M50-K and ( b ) M50-Na.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-15-00211-f004",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "The cumulative pore volume and pore size distribution for binder containing 50% FA and 50% of GGBFS.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-15-00211-f005",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Comparison of critical pore diameter for M50-K and M50-Na materials.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-15-00211-f006",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Types of pores (micro-, meso-, macro-) for M50-K and M50-Na materials.; no graph digitization claimed"
+        },
+        {
+          "locator": "Supplementary/associated data",
+          "kind": "supplements",
+          "state": "not-reported",
+          "note": "No separately linked experimental supplement located in retrieved article HTML; linked third-party assets not licensed by inference."
+        }
+      ],
+      "nextActions": "Figures 1–2: blocked pending marker identity and line-statistic clarification or underlying values. Figures 4–6: pore-distribution classification/axis review; Table 7 cells already captured, do not double count. Figure 3: qualitative microstructure review. Preserve slag wording/mass-table conflict.",
+      "completionGate": "Each remaining entry needs a source-grounded result or explicit justified non-extractable disposition, separate verification, and preserved missing uncertainty; qualitative figures do not become numerical data."
+    },
+    {
+      "publicationId": "ke-5396",
+      "extraction": "partial",
+      "remainingInventory": [
+        {
+          "locator": "materials-14-05396-f001",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Epoxy-embedded geopolymer specimen for sulfuric acid exposure before ( A ) and after saw cut ( B ) as well as geopolymers GP7.5 (( C ), top row) and GP9.0 (( C ), lower row) after one day in sulfuric acid (pH 1).; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-14-05396-f002",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Direction of EDX-mappings, position of 1st 100 µm segment of EDX-mapping and depth profile of EDX mole fractions, exemplified for silicon.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-14-05396-f003",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "SEM-EDX mapping image of corroded geopolymer specimen. Illustration of complete 100 µm segment (including epoxy resin-filled air pores and cracks) and reduced 100 µm segment, to avoid the influence of epoxy resin and cra; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-14-05396-f004",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "XRD spectra of metakaolin and silica fume (Q: quartz; Co: Corundum; Ca: Calcit).; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-14-05396-f005",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "FTIR spectra of metakaolin and silica fume.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-14-05396-f006",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Pore size distribution of geopolymers after 28 days of curing ( A ) and pressure-dependent mercury volume in sample for intrusion and extrusion of GP9.0 after 28 days of curing ( B ).; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-14-05396-f007",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "FTIR spectra of metakaolin and geopolymers after 28 days of curing. Full ( A ) and partial spectra ( B ).; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-14-05396-f008",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "pH of sulfuric acid solution over the course of exposure and volume of additional H 2 SO 4 .; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-14-05396-f009",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Potassium, silicon and aluminum concentration in sulfuric acid solution after 28, 56 and 84 days of exposure.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-14-05396-f010",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Geopolymer specimens immediately after removal from sulfuric acid, after 7 and 84 days of exposure.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-14-05396-f011",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "FTIR-spectra of geopolymers GP0, GP6.0, GP7.5 and GP9.0 before (ref) and after exposure to sulfuric acid (7, 14, 28, 56, 84).; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-14-05396-f012",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "XRD spectra of geopolymers GP0 ( A ) and GP7.5 ( B ). Geopolymers before exposure to sulfuric acid (GP0(ref), GP7.5(ref)) and corroded layer after 14 days (GP0(14), GP7.5(14)) and 84 days of exposure (GP0(84), GP7.5(84)); no graph digitization claimed"
+        },
+        {
+          "locator": "materials-14-05396-f013",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "SEM-EDX mole fractions of carbon, silicon, aluminum and potassium of geopolymer GP0. Mole fractions before (ref) and after (7, 28, 56, 84) exposure to sulfuric acid. Exemplary marking of corrosion progress (carbon), dens; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-14-05396-f014",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "SEM-EDX mole fractions of carbon and silicon of geopolymer GP6.0. Mole fractions before (ref) and after (7, 28, 56, 84) exposure to sulfuric acid.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-14-05396-f015",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "SEM-EDX mole fractions of carbon and silicon of geopolymer GP7.5. Mole fractions before (ref) and after (7, 28, 56, 84) exposure to sulfuric acid.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-14-05396-f016",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "SEM-EDX mole fractions of carbon and silicon of geopolymer GP9.0. Mole fractions before (ref) and after (7, 28, 56, 84) exposure to sulfuric acid.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-14-05396-f017",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Silicon, aluminum and potassium mole fractions of geopolymers GP0 and GP9.0 before exposure to sulfuric acid. Calculated mole fractions of geopolymer composition (Mix) and mole fractions determined by EDX elemental mappi; no graph digitization claimed"
+        },
+        {
+          "locator": "Supplementary/associated data",
+          "kind": "supplements",
+          "state": "not-reported",
+          "note": "No separately linked experimental supplement located in retrieved article HTML; linked third-party assets not licensed by inference."
+        }
+      ],
+      "nextActions": "Separate qualitative specimen/method images (Figures 1–3/10) from analytical profiles (4–9/11–17). Need typed spectral/depth/exposure series and calibrated digitization for published profiles. Figure 9 acid-tank chemistry is shared across mixes and must not be assigned per formulation. Omitted 14-day EDX profiles/error bars require source data; published curves cannot recover them.",
+      "completionGate": "Each remaining entry needs a source-grounded result or explicit justified non-extractable disposition, separate verification, and preserved missing uncertainty; qualitative figures do not become numerical data."
+    },
+    {
+      "publicationId": "ke-902",
+      "extraction": "partial",
+      "remainingInventory": [
+        {
+          "locator": "materials-12-00902-f001",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Particle size distributions of the fly ash, slag, fine sand (FS) and coarser sand (CS).; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-12-00902-f002",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Schematic drawing of the custom-made 3D printing apparatus.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-12-00902-f003",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "( a ) One layer of 3D printed geopolymer filament. ( b ) Two layers of 3D printed geopolymer filament.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-12-00902-f004",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Dimensions and testing directions for the compression test of ( a ) the 3D printed one-layer specimen and ( b ) the 3D printed two-layer specimen.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-12-00902-f005",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Testing directions for the flexural test of the two-layer optimum 3D printed geopolymer mix.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-12-00902-f006",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "( a ) Specimen prepared for interlayer bond test. ( b ) Test setup for interlayer bond tests.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-12-00902-f007",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Four 250 mm printed filaments of the “Na-N-2.5” mixture.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-12-00902-f008",
+          "kind": "figure",
+          "state": "ambiguous",
+          "note": "All 24 printed spread labels transcribed. Fresh-state before/after flow-table drop are distinct properties; elapsed time and n unknown."
+        },
+        {
+          "locator": "materials-12-00902-f009",
+          "kind": "figure",
+          "state": "ambiguous",
+          "note": "All 12 mean markers digitized with linear axis calibration, ±0.003 graph-reading allowance and separate same-agent AI visual check. Experimental standard deviations not extracted. Estimates excluded from exact search."
+        },
+        {
+          "locator": "materials-12-00902-f010",
+          "kind": "figure",
+          "state": "ambiguous",
+          "note": "All 12 printed 3-day mean labels transcribed. Error-bar magnitudes not extracted."
+        },
+        {
+          "locator": "materials-12-00902-f011",
+          "kind": "figure",
+          "state": "ambiguous",
+          "note": "All six printed directional strength means transcribed. Error-bar magnitudes not extracted."
+        },
+        {
+          "locator": "materials-12-00902-f012",
+          "kind": "figure",
+          "state": "ambiguous",
+          "note": "All four printed flexural means transcribed. Error bars remain unquantified; panel b is a failure photograph."
+        },
+        {
+          "locator": "materials-12-00902-f013",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "( a ) Interlayer bond strength of Na-N-2.5 (the optimum 3D printable mixture). ( b ) Failure mode of a tested specimen.; no graph digitization claimed"
+        },
+        {
+          "locator": "Supplementary/associated data",
+          "kind": "supplements",
+          "state": "not-reported",
+          "note": "No separately linked experimental supplement located in retrieved article HTML; linked third-party assets not licensed by inference."
+        }
+      ],
+      "nextActions": "Figures 8–12: retain reported means/provisional shape-retention estimates; SD/error bars and exact shape-retention replicate count remain unknown. Figure 13: review mean/uncertainty separately, preserve interlayer tension identity. Figures 1–7: PSD and qualitative apparatus/specimen/direction inventory; not additional strength cells.",
+      "completionGate": "Each remaining entry needs a source-grounded result or explicit justified non-extractable disposition, separate verification, and preserved missing uncertainty; qualitative figures do not become numerical data."
+    },
+    {
+      "publicationId": "ke-2957",
+      "extraction": "partial",
+      "remainingInventory": [
+        {
+          "locator": "materials-15-02957-f001",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Raw materials and phase composition: ( a ) metakaolin and ( b ) XRD analysis of metakaolin.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-15-02957-f002",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "Mechanical properties test chart of a sample.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-15-02957-f003",
+          "kind": "figure",
+          "state": "ambiguous",
+          "note": "Visual/source review: factor means repeat Tables 5–8; 18 table aggregate disagreements identified. K2SiO3 axis label conflicts with sodium silicate in §2.1.2. No extra experiments inferred."
+        },
+        {
+          "locator": "materials-15-02957-f004",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "The 28-day XRD patterns of geopolymers: ( a ) XRD pattern of Na-based geopolymers and ( b ) XRD pattern of K-based geopolymers.; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-15-02957-f005",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "The 28-day SEM microscopic morphology of Na-based geopolymers (N1, N2, N7, and N14 in ( a – d ), respectively).; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-15-02957-f006",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "The 28-day SEM micromorphology of K-based geopolymers (K2, K3, K5, K7, K9, and K15 in ( a – f ), respectively).; no graph digitization claimed"
+        },
+        {
+          "locator": "materials-15-02957-f007",
+          "kind": "figure",
+          "state": "not-yet-extracted",
+          "note": "The 28-day FTIR spectra of geopolymers: ( a ) FTIR spectrum of Na−based geopolymers and ( b ) FTIR spectra of K−based geopolymers.; no graph digitization claimed"
+        },
+        {
+          "locator": "Supplementary/associated data",
+          "kind": "supplements",
+          "state": "not-reported",
+          "note": "No separately linked experimental supplement located in retrieved article HTML; linked third-party assets not licensed by inference."
+        }
+      ],
+      "nextActions": "Figure 3: disputed author factor aggregates, not extra experiments; requires correction/clarification, preserve all 18 disagreements. Figures 1/4/7: typed XRD/FTIR analytical profile work. Figures 2/5/6: qualitative testing/microstructure review. Numeric laboratory temperature/RH and validation replicate counts require source clarification.",
+      "completionGate": "Each remaining entry needs a source-grounded result or explicit justified non-extractable disposition, separate verification, and preserved missing uncertainty; qualitative figures do not become numerical data."
+    }
+  ]
+}

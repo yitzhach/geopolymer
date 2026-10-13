@@ -71,3 +71,11 @@ retrieve up to 10 catalog sources; other requests retain four. Responses state
 corpus size and link study pages. /knowledge provides explicit same-mix numeric
 filters, exclusions and pagination. Still no real model or web search. Structured
 numeric answers are not inferred from free-text questions.
+
+## 13 October 2026 catalog breadth
+
+Catalog expanded to 111 references. Scope notes are searchable and retained in
+assistant evidence labels; metadata-only records do not become extracted findings.
+Two newly indexed records with correction notices are excluded through the existing
+`update-requires-review` gate. They remain discoverable in the library with visible
+correction links. Retrieval is still catalog-test mode with no connected AI API.
