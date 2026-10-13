@@ -211,3 +211,14 @@ be guessed. Phase A complete acceptance remains incomplete.
 Root `AGENTS.md` requires `SUBAGENT_POLICY.md`: explicitly selected lightweight
 agents only, narrow read-only tasks, depth one, normally at most three concurrent;
 all implementation and final validation stay with the Primary Agent.
+
+## 13 October — two further breadth batches
+
+Library now contains 161 unique DOI records (50 new metadata-only additions).
+All prior IDs and 275 experimental cells remain unchanged. See batch manifests
+`research/batches/breadth-3-2026-10-13.json` and `breadth-4-2026-10-13.json` for
+exact metadata, source dates, scope and idempotent importer results. Topics broaden
+to fibers/repair, precursors, efflorescence/acid exposure and phosphate systems.
+No full-text extraction, numerical performance, human review or supplier claims.
+Five pilot papers remain partial. Correction follow-up records partial progress
+and retained assistant holds. HANDOFF.md records current QA/publication status.

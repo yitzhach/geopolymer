@@ -1,6 +1,32 @@
 # Geopolymer — current handoff
 Updated 13 October 2026 (Eastern).
 
+## Latest checkpoint — 50-reference expansion, 13 October 2026
+- Owner requested 50 more references while minimizing usage. Added two bounded
+  25-record batches: 111 → 136 → 161 unique publications, no merges/deletions.
+  IDs `ke-b03-001`–025 and `ke-b04-001`–025. All 111 prior records preserved.
+- All 50 are Crossref-verified bibliography only. Depth: 134 metadata-only,
+  22 discovery-summary, five partial-full-text records. Existing 62 variants,
+  275 cells, 12 unfavorable/null/mixed findings and 18 material identities unchanged.
+- Topics: fibers/mechanics 15; durability 15; mix chemistry 9; waste-derived
+  materials 5; phosphate activation 4; characterization 1; thermal 1.
+  No new performance conclusions, supplier qualification or calculator recipes.
+- Three explicit Luna/low agents gathered candidates read-only, no recursion;
+  Primary Agent verified 54 DOI candidates, selected 50, integrated and ran QA.
+  Four valid candidates deferred at the batch cap; no scientific rejection claimed.
+- Bibliographic audit manifests: `breadth-3-2026-10-13.json` and
+  `breadth-4-2026-10-13.json`. Each importer ran twice with exactly 25 acceptance
+  events and no duplicate additions. Original XML title styling retained in audit,
+  stripped from display titles. No abstracts/full text retained.
+- Correction follow-up: institutional coffee-paper correction identifies a
+  background production-statistic change. Clay-paper correction remains blocked
+  by publisher HTTP 403. Both prior assistant holds retained pending publisher/
+  version review; see `correction-followup-2026-10-13.json`.
+- Pilot extraction remains partial; next depth task is ma15082944 Figures 4–6,
+  as scoped in `phase-a-gap-scope-2026-10-13.json`. No new figure extraction claimed.
+- Branch `codex/research-plus-50`, based on main `95db366`. Publication and browser
+  verification pending. No deployment claim at this checkpoint.
+
 ## Current checkpoint — 13 October 2026 breadth and agent policy
 - Owner reports the prior build appears live and requested 25 additional references.
 - PR #8 merged to main as `f705238e09e45776a7202cc5c4af1e063df49c41`.

@@ -298,3 +298,12 @@ passed on 5c76aec (run 38349819822). Reviewed desktop/mobile library and correct
 page screenshots. The owner's failure screenshot identified the superseded GitHub run #69;
 replacement #71 passed. Cloudflare live build f705238 was independently verified
 with 101 routes and 111 catalog records. See HANDOFF.md for exact release evidence.
+
+## 13 October — owner-requested 50-reference expansion
+
+Proceed with two <=25-reference metadata batches while retaining unresolved pilot
+limits. Use three lightweight read-only searches, Primary Agent integration and
+final QA. Respect the owner's usage request: concise outputs, no further delegation
+or repeated broad reads. 111 → 161 references; exact Crossref identities/status
+fields checked. Four excess candidates deferred. No full-text rights inferred,
+no paid services/schedules or numerical predictions added.
