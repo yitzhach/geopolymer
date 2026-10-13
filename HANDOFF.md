@@ -32,7 +32,22 @@ Updated 13 October 2026 (Eastern).
   no digitization. Supplemental audit: correction-access-review-2026-10-13.json.
 - PR #10 was a parallel continuation from stale main; its useful review notes
   are consolidated here, preserving this batch and its original audit. PR #10
-  is superseded. Publication and final browser CI pending; no live claim yet.
+  is superseded; its branch is preserved.
+- PR #9 merged to main as `06a6ab8c1a67975677b55185879186e4f48ffaae`.
+  Final implementation `a6d8c82` passed all 56 Node tests and six browser suites:
+  https://github.com/yitzhach/geopolymer/actions/runs/38406268795.
+  One preceding run failed an overly broad correction-link count assertion;
+  scoped it to the reader notice because audit details also link the same DOI.
+- Reviewed artifact 11818748374: 390px library and 1440px coffee correction page,
+  top 1600px crops. Counts, wrapping and correction scope are readable.
+- Live verified: build-info reports `06a6ab8`, built 2026-10-13T13:39:55.548Z,
+  151 routes. Live catalog contains 161 records and all 50 b03/b04 IDs;
+  /studies/ke-b04-025 returns successfully. Python urllib returned 403; curl
+  retrieved the same public resources successfully. No access bypass used.
+- This subsequent documentation checkpoint does not alter verified application
+  code. Continue from current main; do not re-add these 50 records.
+- Narrow read map: AGENTS.md, SUBAGENT_POLICY.md, KNOWLEDGE_ENGINE.md, the two
+  breadth manifests and correction-access-review audit, then the pilot gap scope.
 
 ## Current checkpoint — 13 October 2026 breadth and agent policy
 - Owner reports the prior build appears live and requested 25 additional references.

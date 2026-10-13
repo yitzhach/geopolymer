@@ -313,3 +313,7 @@ Recovered PR #9 and its successful browser run 38351237103. Expose correction
 review scope on cards/study pages while retaining both assistant holds. No new
 scientific results or full-text rights upgrades. Pilot access remains blocked.
 See HANDOFF.md for publication state and the supplemental access-review audit.
+
+Release verified: PR #9 merged as 06a6ab8 after final run 38406268795 passed
+56 tests and all six browser suites. Cloudflare build 06a6ab8 and 161 live catalog
+records, including all 50 new IDs, independently checked. See HANDOFF.md.
