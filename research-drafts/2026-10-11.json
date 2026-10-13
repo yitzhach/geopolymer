@@ -1,9 +1,9 @@
 {
   "date": "2026-10-11",
-  "status": "Draft for editorial review; not integrated or published",
+  "status": "Draft refreshed 2026-10-13 for editorial review; not integrated or published",
   "window": {
-    "from": "2026-10-04",
-    "through": "2026-10-11"
+    "from": "2026-10-06",
+    "through": "2026-10-13"
   },
   "researchUpdates": [
     {
@@ -11,7 +11,7 @@
       "dateBasis": "Publisher publication date",
       "type": "Research article",
       "publicationStatus": "Published; version of record",
-      "checked": "2026-10-11",
+      "checked": "2026-10-13",
       "added": "2026-10-11",
       "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
       "id": "research-basalt-crystallinity",
@@ -36,7 +36,7 @@
       "dateBasis": "Publisher publication date",
       "type": "Research article",
       "publicationStatus": "Published; version of record",
-      "checked": "2026-10-11",
+      "checked": "2026-10-13",
       "added": "2026-10-11",
       "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
       "id": "research-coal-overburden-aggregate",
@@ -75,10 +75,10 @@
     ]
   },
   "reviewNotes": {
-    "deduplication": "Checked all 61 current catalog entries in main; GitHub search returned no open PRs.",
-    "corrections": "No eligible substantive correction or retraction verified in the search window. Search coverage is not exhaustive.",
+    "deduplication": "Checked all 111 records on current main plus the 50 metadata-only records in open PR #9 (161 proposed unique DOIs total); neither draft DOI is present. PR #5 remains the single open daily research draft and was updated instead of creating a duplicate.",
+    "corrections": "No substantive correction or retraction newly published from 6–13 October 2026 was verified in the publisher search. This targeted search is not exhaustive; previously published retractions are outside this update window.",
     "integration": "Append researchUpdates to src/research-updates.js and journalArticle to src/journal-data.js after editorial review, preserving IDs and existing content. Run npm test, npm run build and browser CI before any separately authorized release.",
-    "verification": "Validated required fields, unique DOI/IDs, source references and date window. Application build/browser checks not run for this staged JSON-only draft.",
-    "excluded": "Already cataloged recent studies excluded. Issue-only dates were not used as proof of eligibility."
+    "verification": "Refreshed 13 October 2026. Validated required fields, stable IDs, unique DOI/IDs, source references and date window. The two records retain publisher publication dates of 7–8 October. Application integration, npm/build and browser checks were not run because this remains a staged JSON-only draft.",
+    "excluded": "Already cataloged studies were excluded. Several newer-looking publisher listings were not added because an exact publisher online/publication date could not be verified; issue-only, search-crawl and news-post dates were not substituted."
   }
 }
