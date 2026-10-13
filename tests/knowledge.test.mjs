@@ -7,7 +7,7 @@ import {validateKnowledge,searchEvidence,publicKnowledge,reconcileBatch,normaliz
 const find=q=>searchEvidence(pilot,refs,{...q,pageSize:50});
 test('phase A identity, FK and source audit; preserve 61 stable IDs and 15 curated recipes',()=>{
  assert.equal(library.length,86);assert.equal(refs.length,25);assert.equal(library.filter(p=>!p.id.startsWith('ke-')).length,61);
- assert.deepEqual(validateKnowledge(pilot,library),[]);assert.equal(pilot.mixes.length,62);assert.equal(pilot.observations.length,255);
+ assert.deepEqual(validateKnowledge(pilot,library),[]);assert.equal(pilot.mixes.length,62);assert.equal(pilot.observations.length,275);
  const bad=structuredClone(pilot);bad.observations[0].mixId='211-M50-K';assert.ok(validateKnowledge(bad,library).length);
  assert.equal(normalizeDoi('https://doi.org/10.1039/B212629J'),'10.1039/b212629j');
 });

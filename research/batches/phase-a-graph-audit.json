@@ -1,0 +1,493 @@
+{
+  "batchId": "phase-a-graph-review-2026-10-12",
+  "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6470972/",
+  "sourceHtmlSha256": "8dc32f3d81006c1b70571ee4baaee811fee8f8af44f8aac8d9256b65afcc9e6e",
+  "rightsBasis": "Article CC BY 4.0, asset-902; Figure 9 is an original experimental plot with no separate third-party credit. Only factual coordinates and adaptations committed, no raw image.",
+  "method": "Top-left image origin, y increases downward. Blue marker vertical bounding-box midpoint extracted in a ±10 px window around visually identified x positions; separate visual pass checked labels, panel, axes, marker center and extrema. Linear y interpolation; round to 0.001. Conservative reading allowance 0.003 = round upward of (2 marker px + 1 axis px) × 0.25 / panel height + 0.0005 rounding. This is an operational reading bound, not experimental variability or statistical coverage.",
+  "axisCrosscheck": {
+    "a": [
+      {
+        "pixelY": 123,
+        "value": 0.95
+      },
+      {
+        "pixelY": 197,
+        "value": 0.9
+      },
+      {
+        "pixelY": 271,
+        "value": 0.85
+      },
+      {
+        "pixelY": 346,
+        "value": 0.8
+      }
+    ],
+    "b": [
+      {
+        "pixelY": 668,
+        "value": 0.95
+      },
+      {
+        "pixelY": 742,
+        "value": 0.9
+      },
+      {
+        "pixelY": 817,
+        "value": 0.85
+      },
+      {
+        "pixelY": 892,
+        "value": 0.8
+      }
+    ]
+  },
+  "review": "Same-agent AI second visual pass; all 12 marker centers agree within 1 px. No independent human/domain review. Na-N-2.5 highest Na mean, K-KA22-1.5 lowest K mean agree with §4.1.3. No claim of statistical difference.",
+  "remaining": "Experimental SD error bars unextracted; five papers remain partial.",
+  "checks": [
+    {
+      "observationId": "902-srr-Na-D-1.5",
+      "mix": "Na-D-1.5",
+      "value": 0.862,
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "a",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 48,
+            "value": 1
+          },
+          {
+            "pixelY": 420,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 209,
+          "pixelY": 254
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 254,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "observationId": "902-srr-Na-D-2.5",
+      "mix": "Na-D-2.5",
+      "value": 0.807,
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "a",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 48,
+            "value": 1
+          },
+          {
+            "pixelY": 420,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 314,
+          "pixelY": 334.5
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 335,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "observationId": "902-srr-Na-D-3.0",
+      "mix": "Na-D-3.0",
+      "value": 0.831,
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "a",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 48,
+            "value": 1
+          },
+          {
+            "pixelY": 420,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 418,
+          "pixelY": 299
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 299,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "observationId": "902-srr-Na-N-1.5",
+      "mix": "Na-N-1.5",
+      "value": 0.894,
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "a",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 48,
+            "value": 1
+          },
+          {
+            "pixelY": 420,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 523,
+          "pixelY": 205.5
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 206,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "observationId": "902-srr-Na-N-2.5",
+      "mix": "Na-N-2.5",
+      "value": 0.934,
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "a",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 48,
+            "value": 1
+          },
+          {
+            "pixelY": 420,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 628,
+          "pixelY": 145.5
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 146,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "observationId": "902-srr-Na-N-3.0",
+      "mix": "Na-N-3.0",
+      "value": 0.918,
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "a",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 48,
+            "value": 1
+          },
+          {
+            "pixelY": 420,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 732,
+          "pixelY": 169.5
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 170,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "observationId": "902-srr-K-KA20-1.5",
+      "mix": "K-KA20-1.5",
+      "value": 0.928,
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "b",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 593,
+            "value": 1
+          },
+          {
+            "pixelY": 966,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 207,
+          "pixelY": 700.5
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 701,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "observationId": "902-srr-K-KA20-2.5",
+      "mix": "K-KA20-2.5",
+      "value": 0.945,
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "b",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 593,
+            "value": 1
+          },
+          {
+            "pixelY": 966,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 312,
+          "pixelY": 675
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 676,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "observationId": "902-srr-K-KA20-3.0",
+      "mix": "K-KA20-3.0",
+      "value": 0.919,
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "b",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 593,
+            "value": 1
+          },
+          {
+            "pixelY": 966,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 417,
+          "pixelY": 714
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 715,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "observationId": "902-srr-K-KA22-1.5",
+      "mix": "K-KA22-1.5",
+      "value": 0.851,
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "b",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 593,
+            "value": 1
+          },
+          {
+            "pixelY": 966,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 522,
+          "pixelY": 815.5
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 816,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "observationId": "902-srr-K-KA22-2.5",
+      "mix": "K-KA22-2.5",
+      "value": 0.941,
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "b",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 593,
+            "value": 1
+          },
+          {
+            "pixelY": 966,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 626,
+          "pixelY": 681.5
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 682,
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "observationId": "902-srr-K-KA22-3.0",
+      "mix": "K-KA22-3.0",
+      "value": 0.969,
+      "digitization": {
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c8c1/6470972/a5dc5c90f3eb/materials-12-00902-g009.jpg",
+        "imageSha256": "df2fda7549b451d501840b69944d1e1099df6e7a159670c56d07308f1649c3f4",
+        "imageWidth": 796,
+        "imageHeight": 1139,
+        "panel": "b",
+        "axisScale": "linear",
+        "axis": [
+          {
+            "pixelY": 593,
+            "value": 1
+          },
+          {
+            "pixelY": 966,
+            "value": 0.75
+          }
+        ],
+        "point": {
+          "pixelX": 731,
+          "pixelY": 639.5
+        },
+        "markerAllowancePixels": 2,
+        "axisAllowancePixels": 1,
+        "roundingDecimals": 3,
+        "readingAllowance": 0.003,
+        "review": {
+          "checkedBy": "Codex AI same-agent second visual pass (not independent review)",
+          "checkedAt": "2026-10-12",
+          "secondPixelY": 640,
+          "status": "checked"
+        }
+      }
+    }
+  ]
+}

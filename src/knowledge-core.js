@@ -1,4 +1,5 @@
 // Pure versioned adapter: no storage, network or model side effects.
+import {validDigitization} from './knowledge-digitization.js';
 export const SCHEMA_VERSION = 1;
 export const normalizeDoi = value => String(value || '').trim().replace(/^https?:\/\/(?:dx\.)?doi\.org\//i,'').replace(/^doi:\s*/i,'').toLowerCase();
 const safeURL = value => typeof value==='string' && /^https:\/\/[^\s<>"\\]+$/.test(value);
@@ -51,6 +52,8 @@ export function validateKnowledge(data, publications) {
   if(o.ageDays!==null&&(!Number.isFinite(o.ageDays)||o.ageDays<0))fail('Invalid age: '+o.id);
   if(o.ageDays===null&&!o.ageOrigin)fail('Missing age reason: '+o.id);
   if(o.exposureDays!==null && (!Number.isFinite(o.exposureDays)||o.exposureDays<0||o.ageDays<o.exposureDays))fail('Invalid exposure: '+o.id);
+  if(o.qualifier==='estimated'&&!validDigitization(o))fail('Invalid graph calibration/review: '+o.id);
+  if(o.digitization&&o.qualifier!=='estimated')fail('Graph estimate mislabeled as reported: '+o.id);
  }
  for(const f of data.findings){provenance(f);for(const id of f.mixIds)if(maps.mixes.get(id)?.publicationId!==f.publicationId)fail('Invalid finding mix: '+f.id);}
  return errors;
@@ -91,7 +94,7 @@ export function publicKnowledge(data,publications,operation='export') {
  publications:publications.filter(p=>assets.some(a=>a.publicationId===p.id)).map(p=>fields(p,['id','title','authors','doi','year','url','sourceStatus'])),
  mixes:data.mixes.filter(keep).map(r=>fields(r,['id','publicationId','originalId','binder','activation','slagPercent','slagBasis','quantities','provenance','derivation','materialIds'])),
  tests:data.tests.filter(keep).map(r=>fields(r,['id','publicationId','property','geometry','method','cure','n','direction','substrate','provenance'])),
- observations:data.observations.filter(keep).map(r=>fields(r,['id','publicationId','mixId','testId','property','originalText','value','unit','ageDays','ageOrigin','ageDerivation','exposureDays','missingReason','qualifier','uncertainty','uncertaintyReason','verification','provenance'])),
+ observations:data.observations.filter(keep).map(r=>fields(r,['id','publicationId','mixId','specimenId','testId','property','originalText','value','unit','ageDays','ageOrigin','ageDerivation','exposureDays','missingReason','qualifier','uncertainty','uncertaintyReason','verification','provenance','digitization'])),
  materials:data.materials.filter(keep).map(r=>fields(r,['id','publicationId','family','source','grade','lot','lotMissingReason','recordType','qualification','provenance'])),
  findings:data.findings.filter(keep).map(r=>fields(r,['id','publicationId','mixIds','direction','text','claimType','verification','provenance']))};
 }

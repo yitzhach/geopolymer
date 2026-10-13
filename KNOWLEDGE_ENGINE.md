@@ -32,9 +32,9 @@ shorthand, are authoritative for authorship.
 
 - 62 mix variants: 6 + 6 + 4 + 12 + 34, representing five study datasets,
   not 62 independent replications.
-- 255 result cells: 252 numeric and three below-detection nulls. All public
-  numerical observations were checked against exact table cells, narrative
-  locations or printed figure labels and methods. No graph estimates are introduced.
+- 275 result cells: 260 exact numeric, three below-detection nulls and twelve
+  provisional Figure 9 shape-retention graph estimates. Exact search excludes
+  graph estimates. Source checks are AI-assisted, not human/domain review.
 - 27 source tables transcribed, 53 figures inventoried; five figures now have
   their printed numeric labels extracted (uncertainty remains incomplete).
   12 unfavorable/null/mixed findings, 18 research material identities.
@@ -157,3 +157,24 @@ and PubMed returned browser challenges; these are unresolved checks, not negativ
 results. See phase-a-status-followup.json and the study-page check scope. The
 other twenty additions still have only the prior Crossref check. Full extraction
 acceptance remains incomplete; no release or human review is implied.
+
+## Calibrated graph batch, 12 October 2026
+
+Figure 9 of ma12060902 supplies twelve provisional means. `digitization` stores
+source-image URL/hash, image dimensions, linear axis points, marker coordinates,
+rounding, reading allowance and a separate same-agent visual second check.
+`knowledge-digitization.js` validates calibration and reproducibility. The ±0.003
+reading allowance covers pixel placement and rounding, not experimental SD/SE/CI.
+Experimental SD is still null, with a missing reason. Exports and saved excerpts
+retain the estimate label. Numerical search continues to exclude estimates.
+`phase-a-graph-audit.json` records method, interior tick checks and all 12 checks.
+This does not complete the five full-paper inventories.
+
+## Individual MIP specimens, 13 October 2026
+
+Eight Table 7 values in ma15010211 retain four original `specimenId` labels under
+two existing formulations. Each cell is one individual reading, not a two-specimen
+mean. MIP porosity (%) and critical pore diameter (nm) have separate properties
+and tests; preconditioning, sample dimensions and repeat-reading uncertainty are
+unknown. Figure 1–2 marker/line statistics remain ambiguous, so those graph
+means are held out pending underlying values or clarification.
