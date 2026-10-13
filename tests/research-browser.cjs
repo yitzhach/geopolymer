@@ -11,7 +11,7 @@ const base=process.env.BASE_URL||'http://localhost:4173';
  await page.locator('#lib-clear').click();assert.equal(await page.locator('.library-card').count(),161);
  await page.locator('#lib-topic').selectOption('AI & modeling');assert.equal(await page.locator('.library-card').count(),3);
  await page.locator('#lib-clear').click();await page.locator('#lib-query').fill('10.1016/j.jclepro.2023.138205');assert.equal(await page.locator('.library-card').count(),1);assert.match(await page.locator('.library-card').innerText(),/Adjacent Portland-cement/);assert.match(await page.locator('.library-card').innerText(),/Correction linked; review pending/);
- await page.locator('.library-card a[href="/studies/ke-b02-009"]').click();await page.locator('main[data-enhanced=true]').waitFor();assert.match(await page.locator('main').innerText(),/No extracted experiment/);assert.equal(await page.locator('a[href="https://doi.org/10.1016/j.jclepro.2023.139246"]').count(),1);
+ await page.locator('.library-card a[href="/studies/ke-b02-009"]').click();await page.locator('main[data-enhanced=true]').waitFor();assert.match(await page.locator('main').innerText(),/No extracted experiment/);assert.equal(await page.locator('.callout a[href="https://doi.org/10.1016/j.jclepro.2023.139246"]').count(),1);
  await go('/studies/ke-b04-022');assert.match(await page.locator('main').innerText(),/outside the alkaline calculator model/);
  const data=await (await page.request.get(base+'/research-library.json')).json();assert.equal(data.records.length,161);
  await go('/journal');assert.equal(await page.locator('.journal-card').count(),5);
