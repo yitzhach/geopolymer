@@ -12,7 +12,7 @@ import {reconcileBatch} from '../src/knowledge-core.js';
 import fs from 'node:fs';
 test('breadth batch preserves identities, metadata limits and correction exclusions',async()=>{
  const additions=knowledgeReferences.filter(p=>p.id.startsWith('ke-b02-'));
- const baseline=library.filter(p=>!p.id.startsWith('ke-b02-'));
+ const baseline=library.filter(p=>!/^ke-b0[234]-/.test(p.id));
  assert.equal(additions.length,25);assert.equal(baseline.length,86);
  assert.ok(additions.every(p=>p.extraction==='unstarted'&&p.datasetFamilyId===null&&!p.summary));
  const a=reconcileBatch(baseline,additions);assert.equal(a.records.length,111);
@@ -31,8 +31,8 @@ test('breadth batch preserves identities, metadata limits and correction exclusi
  for(const p of additions){const m=audit.records.find(r=>r.id===p.id).metadata;assert.equal(p.doi,m.DOI.toLowerCase());assert.equal(p.title,m.title[0]);assert.equal(p.journal,m['container-title'][0]);assert.ok(!('abstract' in m));}
 });
 test('new literature is dated, deduplicated and searchable through original summaries',()=>{
- assert.equal(researchUpdates.length,22);assert.equal(library.length,111);
- assert.equal(new Set(library.map(p=>p.id)).size,111);assert.equal(new Set(library.map(p=>p.doi.toLowerCase())).size,111);
+ assert.equal(researchUpdates.length,22);assert.equal(library.length,161);
+ assert.equal(new Set(library.map(p=>p.id)).size,161);assert.equal(new Set(library.map(p=>p.doi.toLowerCase())).size,161);
  assert.equal(library.find(p=>p.id==='library-39').year,2019);
  for(const p of researchUpdates){assert.ok(p.published>='2026-09-01'&&p.published<='2026-10-10');assert.match(p.publisherUrl,/^https:\/\//);assert.equal(p.highlights.length,2);assert.ok(p.summary.length>60&&p.summary.length<350);assert.ok(p.summaryBasis&&p.publicationStatus);}
  assert.equal(filterLibrary()[0].id,'research-pp-impact');
@@ -48,7 +48,21 @@ test('journal articles, feeds and source references resolve without inventing po
  assert.equal(filterJournal('no-article-xyz').length,0);
  assert.ok(filterJournal('18 distinct').length);
  const feed=journalFeed('https://example.test');assert.equal(new Set(feed.items.map(i=>i.id)).size,journalArticles.length);
- assert.equal(researchDatabase().records.length,111);
+ assert.equal(researchDatabase().records.length,161);
  const rss=journalRSS('https://example.test');assert.equal((rss.match(/<item>/g)||[]).length,journalArticles.length);assert.ok(rss.includes('Fibers, curing'));
  assert.match(renderPage('/journal/inside-the-material-lab-reading-notes').html,/no recording/);
+});
+
+test('two new bounded batches preserve metadata provenance and all previous identities',()=>{
+ const baseline=library.filter(p=>!/^ke-b0[34]-/.test(p.id));assert.equal(baseline.length,111);
+ let imported=baseline;
+ for(const batch of [3,4]){
+  const additions=knowledgeReferences.filter(p=>p.id.startsWith('ke-b0'+batch+'-'));assert.equal(additions.length,25);
+  const audit=JSON.parse(fs.readFileSync(new URL('../research/batches/breadth-'+batch+'-2026-10-13.json',import.meta.url)));
+  assert.deepEqual(additions.map(p=>p.id),audit.records.map(r=>r.id));
+  for(const p of additions){const m=audit.records.find(r=>r.id===p.id).metadata;assert.equal(p.doi,m.DOI.toLowerCase());assert.equal(p.title,m.title[0].replace(/<[^>]+>/g,''));assert.equal(p.extraction,'unstarted');assert.equal(p.datasetFamilyId,null);assert.ok(!p.summary&&!m.abstract);assert.equal(renderPage('/studies/'+p.id).status,200);}
+  imported=reconcileBatch(imported,additions).records;assert.ok(reconcileBatch(imported,additions).events.every(e=>e.status==='unchanged'));
+ }
+ assert.equal(imported.length,161);assert.deepEqual(imported.slice(0,111),baseline);
+ assert.match(renderPage('/studies/ke-b04-022').html,/outside the alkaline calculator model/);
 });

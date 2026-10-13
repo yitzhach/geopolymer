@@ -1,0 +1,1592 @@
+{
+  "schemaVersion": 1,
+  "id": "breadth-3-2026-10-13",
+  "baseCommit": "95db366",
+  "checked": "2026-10-13",
+  "baseline": 111,
+  "final": 136,
+  "accepted": 25,
+  "merges": 0,
+  "deletions": 0,
+  "newObservations": 0,
+  "metadataOnlyAdditions": 25,
+  "strategy": {
+    "version": 3,
+    "window": "all years",
+    "provider": "Publisher/institutional discovery then exact Crossref DOI lookup",
+    "queries": [
+      "geopolymer fiber flexural toughness shrinkage repair mortar",
+      "alkali activated natural pozzolan volcanic ash clay glass one part activator",
+      "geopolymer efflorescence acid durability foam phosphate activation"
+    ],
+    "candidatePool": 54,
+    "deferredDois": [
+      "10.1016/j.ceramint.2011.05.002",
+      "10.1016/j.ceramint.2012.06.021",
+      "10.1016/j.matlet.2016.11.103",
+      "10.1002/mawe.202200303"
+    ],
+    "deferReason": "Valid discovery candidates deferred at the owner-requested 50-reference limit; not scientific rejection."
+  },
+  "limits": {
+    "concurrency": 1,
+    "intervalMs": 1000,
+    "timeoutMs": 25000,
+    "paidIngestion": false
+  },
+  "rights": {
+    "policy": "gp-rights-1",
+    "termsChecked": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+    "date": "2026-10-13",
+    "basis": "Bibliographic facts only; no abstracts, full texts or graphics retained. Full-text operations unassessed; no external AI transmission or embeddings."
+  },
+  "review": "Three explicitly selected low-reasoning gpt-6-luna read-only candidate searches. Primary Agent verifies metadata, integrates and validates. No human/domain review; no independent dataset count claimed.",
+  "records": [
+    {
+      "id": "ke-b03-001",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2024.135086",
+      "checked": "2026-10-13T05:21:07.397Z",
+      "inclusion": "Microfiber-reinforced one-part geopolymer repair mortar",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2024.135086",
+        "title": [
+          "Performance characteristics of micro fiber-reinforced ambient cured one-part geopolymer mortar for repairing"
+        ],
+        "author": [
+          {
+            "given": "Ke-yu",
+            "family": "Chen"
+          },
+          {
+            "given": "Yu-qing",
+            "family": "Wang"
+          },
+          {
+            "given": "Wan-lin",
+            "family": "Min"
+          },
+          {
+            "given": "Jie-jing",
+            "family": "Chen"
+          },
+          {
+            "given": "Ren-jie",
+            "family": "Wu"
+          },
+          {
+            "given": "Yu",
+            "family": "Peng"
+          },
+          {
+            "given": "Yu-xi",
+            "family": "Zhao"
+          },
+          {
+            "given": "Jin",
+            "family": "Xia"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2024.135086",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061824002277"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-002",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2019.04.210",
+      "checked": "2026-10-13T05:21:08.532Z",
+      "inclusion": "Microfiber-reinforced geopolymer repair mortar",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2019.04.210",
+        "title": [
+          "Performance characteristics of micro fiber-reinforced geopolymer mortars for repair"
+        ],
+        "author": [
+          {
+            "given": "Aamer",
+            "family": "Bhutta"
+          },
+          {
+            "given": "Mohammed",
+            "family": "Farooq"
+          },
+          {
+            "given": "Nemkumar",
+            "family": "Banthia"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2019.04.210",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061819310992"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-003",
+      "source": "https://api.crossref.org/works/10.1080%2F21650373.2025.2514650",
+      "checked": "2026-10-13T05:21:09.682Z",
+      "inclusion": "Fiber-reinforced geopolymer composites; flexural toughness",
+      "metadata": {
+        "DOI": "10.1080/21650373.2025.2514650",
+        "title": [
+          "Flexural properties of fiber reinforced geopolymer composites: experimental investigation and toughness evaluation"
+        ],
+        "author": [
+          {
+            "given": "Tao",
+            "family": "Wang"
+          },
+          {
+            "given": "Xiangqian",
+            "family": "Fan"
+          },
+          {
+            "given": "Changsheng",
+            "family": "Gao"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              6
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              3
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Sustainable Cement-Based Materials"
+        ],
+        "publisher": "Informa UK Limited",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1080/21650373.2025.2514650",
+        "resource": {
+          "primary": {
+            "URL": "https://www.tandfonline.com/doi/full/10.1080/21650373.2025.2514650"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-004",
+      "source": "https://api.crossref.org/works/10.1002%2Fsuco.202200503",
+      "checked": "2026-10-13T05:21:10.848Z",
+      "inclusion": "Fiber selection and flexural properties in geopolymer concrete",
+      "metadata": {
+        "DOI": "10.1002/suco.202200503",
+        "title": [
+          "Study on the flexural properties and fiber‐selection method of fiber‐reinforced geopolymer concrete"
+        ],
+        "author": [
+          {
+            "given": "Chenggong",
+            "family": "Zhao"
+          },
+          {
+            "given": "Zhiyuan",
+            "family": "Wang"
+          },
+          {
+            "given": "Xinrui",
+            "family": "Wu"
+          },
+          {
+            "given": "Xianshuai",
+            "family": "Zeng"
+          },
+          {
+            "given": "Zhenyu",
+            "family": "Zhu"
+          },
+          {
+            "given": "Qiuyu",
+            "family": "Guo"
+          },
+          {
+            "given": "Renda",
+            "family": "Zhao"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              15
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              15
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              2
+            ]
+          ]
+        },
+        "container-title": [
+          "Structural Concrete"
+        ],
+        "publisher": "Wiley",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1002/suco.202200503",
+        "resource": {
+          "primary": {
+            "URL": "https://onlinelibrary.wiley.com/doi/10.1002/suco.202200503"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-005",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2020.121284",
+      "checked": "2026-10-13T05:21:11.992Z",
+      "inclusion": "Basalt and polypropylene fibers in alkali-activated slag concrete",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2020.121284",
+        "title": [
+          "Mechanical properties of basalt and polypropylene fibre-reinforced alkali-activated slag concrete"
+        ],
+        "author": [
+          {
+            "given": "Xianyu",
+            "family": "Zhou"
+          },
+          {
+            "given": "Yusheng",
+            "family": "Zeng"
+          },
+          {
+            "given": "Pang",
+            "family": "Chen"
+          },
+          {
+            "given": "Zhenzhen",
+            "family": "Jiao"
+          },
+          {
+            "given": "Wenzhong",
+            "family": "Zheng"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              2
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              2
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2020.121284",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061820332888"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-006",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2018.07.110",
+      "checked": "2026-10-13T05:21:13.182Z",
+      "inclusion": "Synthetic fibers in geopolymer concrete; flexural performance",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2018.07.110",
+        "title": [
+          "Mechanical and flexural performance of synthetic fibre reinforced geopolymer concrete"
+        ],
+        "author": [
+          {
+            "given": "Amin",
+            "family": "Noushini"
+          },
+          {
+            "given": "Max",
+            "family": "Hastings"
+          },
+          {
+            "given": "Arnaud",
+            "family": "Castel"
+          },
+          {
+            "given": "Farhad",
+            "family": "Aslani"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              10
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2018.07.110",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061818317823"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-007",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2022.126634",
+      "checked": "2026-10-13T05:21:14.331Z",
+      "inclusion": "Steel and macro polypropylene fibers in reinforced alkali-activated concrete beams; structural testing is not paste testing",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2022.126634",
+        "title": [
+          "Flexural performance of reinforced Alkali-activated concrete beams incorporating steel and structural Macro synthetic polypropylene fiber"
+        ],
+        "author": [
+          {
+            "given": "Nancy",
+            "family": "Hammad"
+          },
+          {
+            "given": "Amr Maher",
+            "family": "ElNemr"
+          },
+          {
+            "given": "Hossam El-Deen",
+            "family": "Hassan"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              3
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2022.126634",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061822003257"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-008",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.matdes.2023.112280",
+      "checked": "2026-10-13T05:21:15.484Z",
+      "inclusion": "Nano-calcium carbonate and fiber synergy; combined modeling and geopolymer-composite experiments",
+      "metadata": {
+        "DOI": "10.1016/j.matdes.2023.112280",
+        "title": [
+          "Multiscale ab-initio modeling and experiment of nano-CaCO3 and fiber synergy on toughening low-carbon geopolymer composites"
+        ],
+        "author": [
+          {
+            "given": "Li",
+            "family": "Li"
+          },
+          {
+            "given": "Zhili",
+            "family": "Ma"
+          },
+          {
+            "given": "Xing",
+            "family": "Ming"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "container-title": [
+          "Materials &amp; Design"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.matdes.2023.112280",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0264127523006950"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-009",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.jmrt.2023.03.035",
+      "checked": "2026-10-13T05:21:16.619Z",
+      "inclusion": "Polypropylene-fiber geopolymer; flexural fracture parameters",
+      "metadata": {
+        "DOI": "10.1016/j.jmrt.2023.03.035",
+        "title": [
+          "Flexural fracture parameters of polypropylene fiber reinforced geopolymer"
+        ],
+        "author": [
+          {
+            "given": "Li",
+            "family": "Li"
+          },
+          {
+            "given": "Chenyu",
+            "family": "Yan"
+          },
+          {
+            "given": "Ning",
+            "family": "Zhang"
+          },
+          {
+            "given": "Muhammad Usman",
+            "family": "Farooqi"
+          },
+          {
+            "given": "Shilang",
+            "family": "Xu"
+          },
+          {
+            "given": "Ahmed Farouk",
+            "family": "Deifalla"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              5
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Materials Research and Technology"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.jmrt.2023.03.035",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2238785423004970"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-010",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2020.119697",
+      "checked": "2026-10-13T05:21:17.814Z",
+      "inclusion": "Natural-fiber and construction-waste geopolymer composites",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2020.119697",
+        "title": [
+          "Optimization of a reinforced geopolymer composite using natural fibers and construction wastes"
+        ],
+        "author": [
+          {
+            "given": "Guido",
+            "family": "Silva"
+          },
+          {
+            "given": "Suyeon",
+            "family": "Kim"
+          },
+          {
+            "given": "Bruno",
+            "family": "Bertolotti"
+          },
+          {
+            "given": "Javier",
+            "family": "Nakamatsu"
+          },
+          {
+            "given": "Rafael",
+            "family": "Aguilar"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              10
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2020.119697",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061820317025"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-011",
+      "source": "https://api.crossref.org/works/10.1111%2Fjace.19105",
+      "checked": "2026-10-13T05:21:18.931Z",
+      "inclusion": "Auxetic-fabric reinforcement in metakaolin geopolymer composites",
+      "metadata": {
+        "DOI": "10.1111/jace.19105",
+        "title": [
+          "Fabrication and mechanical properties of metakaolin‐based geopolymer composites reinforced with auxetic fabrics"
+        ],
+        "author": [
+          {
+            "given": "Ana Carolina",
+            "family": "Constâncio Trindade"
+          },
+          {
+            "given": "Kaushik",
+            "family": "Sankar"
+          },
+          {
+            "given": "Flávio",
+            "family": "de Andrade Silva"
+          },
+          {
+            "given": "Waltraud M.",
+            "family": "Kriven"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              4,
+              7
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              4,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of the American Ceramic Society"
+        ],
+        "publisher": "Wiley",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1111/jace.19105",
+        "resource": {
+          "primary": {
+            "URL": "https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.19105"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-012",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.compositesb.2017.06.001",
+      "checked": "2026-10-13T05:21:20.046Z",
+      "inclusion": "Short hybrid polymeric fibers; experimental and numerical flexure study",
+      "metadata": {
+        "DOI": "10.1016/j.compositesb.2017.06.001",
+        "title": [
+          "Experimental and numerical investigations on the flexural performance of geopolymers reinforced with short hybrid polymeric fibres"
+        ],
+        "author": [
+          {
+            "given": "M.",
+            "family": "Kheradmand"
+          },
+          {
+            "given": "M.",
+            "family": "Mastali"
+          },
+          {
+            "given": "Z.",
+            "family": "Abdollahnejad"
+          },
+          {
+            "given": "F.",
+            "family": "Pacheco-Torgal"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              10
+            ]
+          ]
+        },
+        "container-title": [
+          "Composites Part B: Engineering"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.compositesb.2017.06.001",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1359836816331900"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-013",
+      "source": "https://api.crossref.org/works/10.1002%2Fsuco.202100061",
+      "checked": "2026-10-13T05:21:21.169Z",
+      "inclusion": "Fiber type/content and shrinkage in alkali-activated kaolin",
+      "metadata": {
+        "DOI": "10.1002/suco.202100061",
+        "title": [
+          "Effect of fiber type and content on the mechanical properties and shrinkage characteristics of <scp>alkali‐activated</scp> kaolin"
+        ],
+        "author": [
+          {
+            "given": "Faris",
+            "family": "Matalkah"
+          },
+          {
+            "given": "Ayman",
+            "family": "Ababneh"
+          },
+          {
+            "given": "Ruba",
+            "family": "Aqel"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              30
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              30
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              2
+            ]
+          ]
+        },
+        "container-title": [
+          "Structural Concrete"
+        ],
+        "publisher": "Wiley",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1002/suco.202100061",
+        "resource": {
+          "primary": {
+            "URL": "https://onlinelibrary.wiley.com/doi/10.1002/suco.202100061"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-014",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2021.124002",
+      "checked": "2026-10-13T05:21:22.336Z",
+      "inclusion": "Aggregate/fiber effects in alkali-activated slag mortar; drying shrinkage",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2021.124002",
+        "title": [
+          "Role of aggregate and fibre in strength and drying shrinkage of alkali-activated slag mortar"
+        ],
+        "author": [
+          {
+            "given": "Weiwei",
+            "family": "Chen"
+          },
+          {
+            "given": "Yu",
+            "family": "Xie"
+          },
+          {
+            "given": "Binxu",
+            "family": "Li"
+          },
+          {
+            "given": "Bo",
+            "family": "Li"
+          },
+          {
+            "given": "Juan",
+            "family": "Wang"
+          },
+          {
+            "given": "Nicholas",
+            "family": "Thom"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              9
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2021.124002",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061821017621"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-015",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2020.122109",
+      "checked": "2026-10-13T05:21:23.461Z",
+      "inclusion": "Metakaolin/blast-furnace-slag repair mortar; free and restrained shrinkage",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2020.122109",
+        "title": [
+          "On the development of MK/BFS alkali-activated materials as repair mortars: Performance under free and restrained shrinkage tests"
+        ],
+        "author": [
+          {
+            "given": "Mariana",
+            "family": "Rezende Schuab"
+          },
+          {
+            "given": "White",
+            "family": "José dos Santos"
+          },
+          {
+            "given": "Paulo",
+            "family": "Henrique Ribeiro Borges"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2020.122109",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S095006182034112X"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-016",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2025.144469",
+      "checked": "2026-10-13T05:21:24.619Z",
+      "inclusion": "Surface-modified basalt fiber and cracking tendency in alkali-activated mortar",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2025.144469",
+        "title": [
+          "Effect of surface-modified basalt fibers on cracking tendency in alkali-activated mortars"
+        ],
+        "author": [
+          {
+            "given": "Dunwen",
+            "family": "Huang"
+          },
+          {
+            "given": "Hao",
+            "family": "Chen"
+          },
+          {
+            "given": "Xiao",
+            "family": "Luo"
+          },
+          {
+            "given": "Lipeng",
+            "family": "Xia"
+          },
+          {
+            "given": "Jinbin",
+            "family": "Zhu"
+          },
+          {
+            "given": "Hui",
+            "family": "Peng"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2025.144469",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061825046215"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-017",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2023.134485",
+      "checked": "2026-10-13T05:21:25.794Z",
+      "inclusion": "Hybrid polypropylene fibers; mechanical and shrinkage behavior in alkali-activated slag concrete",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2023.134485",
+        "title": [
+          "Effect of hybrid polypropylene fibers on mechanical and shrinkage behavior of alkali-activated slag concrete"
+        ],
+        "author": [
+          {
+            "given": "Amr",
+            "family": "Hassan"
+          },
+          {
+            "given": "Amr",
+            "family": "ElNemr"
+          },
+          {
+            "given": "Luise",
+            "family": "Goebel"
+          },
+          {
+            "given": "Carsten",
+            "family": "Koenke"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              1
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2023.134485",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061823042046"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-018",
+      "source": "https://api.crossref.org/works/10.3989%2Fmc.2006.v56.i283.10",
+      "checked": "2026-10-13T05:21:26.918Z",
+      "inclusion": "Alkali-resistant glass fiber in alkali-activated slag mortar",
+      "metadata": {
+        "DOI": "10.3989/mc.2006.v56.i283.10",
+        "title": [
+          "Alkali-activated slag mortars reinforced with ar glassfibre. Performance and properties"
+        ],
+        "author": [
+          {
+            "given": "F.",
+            "family": "Puertas"
+          },
+          {
+            "given": "A.",
+            "family": "Gil-Maroto"
+          },
+          {
+            "given": "M.",
+            "family": "Palacios"
+          },
+          {
+            "given": "T.",
+            "family": "Amat"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2006,
+              9,
+              30
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2006,
+              9,
+              30
+            ]
+          ]
+        },
+        "container-title": [
+          "Materiales de Construcción"
+        ],
+        "publisher": "Editorial CSIC",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.3989/mc.2006.v56.i283.10",
+        "resource": {
+          "primary": {
+            "URL": "https://materconstrucc.revistas.csic.es/index.php/materconstrucc/article/view/10"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-019",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2017.04.163",
+      "checked": "2026-10-13T05:21:28.041Z",
+      "inclusion": "Natural-pozzolan alkali-activated concrete; activator and binder-content variables",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2017.04.163",
+        "title": [
+          "Effect of alkaline activators and binder content on the properties of natural pozzolan-based alkali activated concrete"
+        ],
+        "author": [
+          {
+            "given": "Mohammed",
+            "family": "Ibrahim"
+          },
+          {
+            "given": "Megat Azmi",
+            "family": "Megat Johari"
+          },
+          {
+            "given": "Muhammed Kalimur",
+            "family": "Rahman"
+          },
+          {
+            "given": "Mohammed",
+            "family": "Maslehuddin"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2017.04.163",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061817308218"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-020",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2019.02.107",
+      "checked": "2026-10-13T05:21:29.205Z",
+      "inclusion": "Natural-pozzolan/slag blended alkali-activated concrete",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2019.02.107",
+        "title": [
+          "Engineering properties of natural pozzolan/slag based alkali-activated concrete"
+        ],
+        "author": [
+          {
+            "given": "Meysam",
+            "family": "Najimi"
+          },
+          {
+            "given": "Nader",
+            "family": "Ghafoori"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              5
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2019.02.107",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061819304027"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-021",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2020.121530",
+      "checked": "2026-10-13T05:21:30.332Z",
+      "inclusion": "Sodium hydroxide activation of natural-pozzolan/limestone mortar",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2020.121530",
+        "title": [
+          "Effect of sodium hydroxide concentration on strength and microstructure of alkali-activated natural pozzolan and limestone powder mortar"
+        ],
+        "author": [
+          {
+            "given": "Adeshina Adewale",
+            "family": "Adewumi"
+          },
+          {
+            "given": "Mohd Azreen Mohd",
+            "family": "Ariffin"
+          },
+          {
+            "given": "Moruf Olalekan",
+            "family": "Yusuf"
+          },
+          {
+            "given": "Mohammed",
+            "family": "Maslehuddin"
+          },
+          {
+            "given": "Mohammad",
+            "family": "Ismail"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              2
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              2
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2020.121530",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061820335340"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-022",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2017.12.222",
+      "checked": "2026-10-13T05:21:31.476Z",
+      "inclusion": "Natural-pozzolan/slag alkali-activated mortar; parametric mixture study",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2017.12.222",
+        "title": [
+          "Alkali-activated natural pozzolan/slag mortars: A parametric study"
+        ],
+        "author": [
+          {
+            "given": "Meysam",
+            "family": "Najimi"
+          },
+          {
+            "given": "Nader",
+            "family": "Ghafoori"
+          },
+          {
+            "given": "Mohammadreza",
+            "family": "Sharbaf"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              3
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2017.12.222",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061817326272"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-023",
+      "source": "https://api.crossref.org/works/10.1061%2F(ASCE)MT.1943-5533.0002306",
+      "checked": "2026-10-13T05:21:32.639Z",
+      "inclusion": "Comparison of natural-pozzolan and fly-ash alkali-activated mortars",
+      "metadata": {
+        "DOI": "10.1061/(asce)mt.1943-5533.0002306",
+        "title": [
+          "Comparative Study of Alkali-Activated Natural Pozzolan and Fly Ash Mortars"
+        ],
+        "author": [
+          {
+            "given": "Meysam",
+            "family": "Najimi"
+          },
+          {
+            "given": "Nader",
+            "family": "Ghafoori"
+          },
+          {
+            "given": "Brittany",
+            "family": "Radke"
+          },
+          {
+            "given": "Kimberly",
+            "family": "Sierra"
+          },
+          {
+            "given": "MohammadReza",
+            "family": "Sharbaf"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              6
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Materials in Civil Engineering"
+        ],
+        "publisher": "American Society of Civil Engineers (ASCE)",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1061/(asce)mt.1943-5533.0002306",
+        "resource": {
+          "primary": {
+            "URL": "https://ascelibrary.org/doi/10.1061/%28ASCE%29MT.1943-5533.0002306"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-024",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.jobe.2023.106623",
+      "checked": "2026-10-13T05:21:33.814Z",
+      "inclusion": "Pyroclastic volcanic ash as alkali-activated binder precursor",
+      "metadata": {
+        "DOI": "10.1016/j.jobe.2023.106623",
+        "title": [
+          "Pyroclastic volcanic ash as a potential precursor of alkali-activated binders – A case study from Tajogaite (La Palma, Canary Islands) volcano eruption"
+        ],
+        "author": [
+          {
+            "given": "Jofre",
+            "family": "Mañosa"
+          },
+          {
+            "given": "Jesús",
+            "family": "Serrano-Conte"
+          },
+          {
+            "given": "Alex",
+            "family": "Maldonado-Alameda"
+          },
+          {
+            "given": "Meritxell",
+            "family": "Aulinas"
+          },
+          {
+            "given": "Josep M.",
+            "family": "Chimenos"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Building Engineering"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.jobe.2023.106623",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2352710223008021"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b03-025",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2022.129540",
+      "checked": "2026-10-13T05:21:34.986Z",
+      "inclusion": "Volcanic ash/discarded glass alkali-activated material",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2022.129540",
+        "title": [
+          "Double-life sustainable construction materials from alkali activation of volcanic ash/discarded glass mixture"
+        ],
+        "author": [
+          {
+            "given": "Enrico",
+            "family": "Bernardo"
+          },
+          {
+            "given": "Hamada",
+            "family": "Elsayed"
+          },
+          {
+            "given": "Anna",
+            "family": "Mazzi"
+          },
+          {
+            "given": "Giulia",
+            "family": "Tameni"
+          },
+          {
+            "given": "Salvatore",
+            "family": "Gazzo"
+          },
+          {
+            "given": "Loredana",
+            "family": "Contrafatto"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              12
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2022.129540",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061822031968"
+          }
+        },
+        "relation": {}
+      }
+    }
+  ],
+  "importer": {
+    "inputSha256": "2b26d3e61de3810322df570e11033c070f4c220fda1f5a7bf25dbb4c5d085033",
+    "runs": 2,
+    "seedRecords": 111,
+    "finalRecords": 136,
+    "acceptedEvents": 25,
+    "repeatAddedRecords": 0
+  },
+  "titleNormalization": "Strip publisher XML styling tags only; original deposited title retained in this manifest."
+}

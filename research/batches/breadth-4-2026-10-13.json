@@ -1,0 +1,1583 @@
+{
+  "schemaVersion": 1,
+  "id": "breadth-4-2026-10-13",
+  "baseCommit": "95db366",
+  "checked": "2026-10-13",
+  "baseline": 136,
+  "final": 161,
+  "accepted": 25,
+  "merges": 0,
+  "deletions": 0,
+  "newObservations": 0,
+  "metadataOnlyAdditions": 25,
+  "strategy": {
+    "version": 3,
+    "window": "all years",
+    "provider": "Publisher/institutional discovery then exact Crossref DOI lookup",
+    "queries": [
+      "geopolymer fiber flexural toughness shrinkage repair mortar",
+      "alkali activated natural pozzolan volcanic ash clay glass one part activator",
+      "geopolymer efflorescence acid durability foam phosphate activation"
+    ],
+    "candidatePool": 54,
+    "deferredDois": [
+      "10.1016/j.ceramint.2011.05.002",
+      "10.1016/j.ceramint.2012.06.021",
+      "10.1016/j.matlet.2016.11.103",
+      "10.1002/mawe.202200303"
+    ],
+    "deferReason": "Valid discovery candidates deferred at the owner-requested 50-reference limit; not scientific rejection."
+  },
+  "limits": {
+    "concurrency": 1,
+    "intervalMs": 1000,
+    "timeoutMs": 25000,
+    "paidIngestion": false
+  },
+  "rights": {
+    "policy": "gp-rights-1",
+    "termsChecked": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+    "date": "2026-10-13",
+    "basis": "Bibliographic facts only; no abstracts, full texts or graphics retained. Full-text operations unassessed; no external AI transmission or embeddings."
+  },
+  "review": "Three explicitly selected low-reasoning gpt-6-luna read-only candidate searches. Primary Agent verifies metadata, integrates and validates. No human/domain review; no independent dataset count claimed.",
+  "records": [
+    {
+      "id": "ke-b04-001",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2023.133702",
+      "checked": "2026-10-13T05:21:38.459Z",
+      "inclusion": "Sodium/potassium volcanic-ash alkali-activated materials at high temperature",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2023.133702",
+        "title": [
+          "High temperature behavior of sodium and potassium volcanic ashes-based alkali-activated materials (Mt. Etna, Italy)"
+        ],
+        "author": [
+          {
+            "given": "Paolo",
+            "family": "Scanferla"
+          },
+          {
+            "given": "Claudio",
+            "family": "Finocchiaro"
+          },
+          {
+            "given": "Ameni",
+            "family": "Gharzouni"
+          },
+          {
+            "given": "Germana",
+            "family": "Barone"
+          },
+          {
+            "given": "Paolo",
+            "family": "Mazzoleni"
+          },
+          {
+            "given": "Sylvie",
+            "family": "Rossignol"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2023.133702",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061823034207"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-002",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2010.12.055",
+      "checked": "2026-10-13T05:21:39.643Z",
+      "inclusion": "Kaolinite calcination temperature and geopolymer cement properties",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2010.12.055",
+        "title": [
+          "Effects of calcination temperature of kaolinite clays on the properties of geopolymer cements"
+        ],
+        "author": [
+          {
+            "given": "A.",
+            "family": "Elimbi"
+          },
+          {
+            "given": "H.K.",
+            "family": "Tchakoute"
+          },
+          {
+            "given": "D.",
+            "family": "Njopwouo"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              6
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2010.12.055",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061810007476"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-003",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.clay.2017.06.019",
+      "checked": "2026-10-13T05:21:40.772Z",
+      "inclusion": "Metakaolin addition to natural kaolinitic-clay geopolymer",
+      "metadata": {
+        "DOI": "10.1016/j.clay.2017.06.019",
+        "title": [
+          "Effects of metakaolin addition on geopolymer prepared from natural kaolinitic clay"
+        ],
+        "author": [
+          {
+            "given": "Samira",
+            "family": "Selmani"
+          },
+          {
+            "given": "Ali",
+            "family": "Sdiri"
+          },
+          {
+            "given": "Samir",
+            "family": "Bouaziz"
+          },
+          {
+            "given": "Emmanuel",
+            "family": "Joussein"
+          },
+          {
+            "given": "Sylvie",
+            "family": "Rossignol"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              9
+            ]
+          ]
+        },
+        "container-title": [
+          "Applied Clay Science"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.clay.2017.06.019",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S016913171730279X"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-004",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.clay.2024.107259",
+      "checked": "2026-10-13T05:21:41.903Z",
+      "inclusion": "Different calcined-clay precursors; geopolymer micromechanics",
+      "metadata": {
+        "DOI": "10.1016/j.clay.2024.107259",
+        "title": [
+          "Micromechanical properties of geopolymers with different calcined clay precursors"
+        ],
+        "author": [
+          {
+            "given": "N.",
+            "family": "Werling"
+          },
+          {
+            "given": "R.",
+            "family": "Schwaiger"
+          },
+          {
+            "given": "F.",
+            "family": "Dathe"
+          },
+          {
+            "given": "F.",
+            "family": "Dehn"
+          },
+          {
+            "given": "K.",
+            "family": "Emmerich"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        },
+        "container-title": [
+          "Applied Clay Science"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.clay.2024.107259",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0169131724000061"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-005",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2020.121306",
+      "checked": "2026-10-13T05:21:43.028Z",
+      "inclusion": "One-part alkali-activated materials from kaolin, fly ash and ceramic waste",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2020.121306",
+        "title": [
+          "Kaolin, fly-ash and ceramic waste based alkali-activated materials production by the “one-part” method"
+        ],
+        "author": [
+          {
+            "given": "Adriano",
+            "family": "Galvão Souza Azevedo"
+          },
+          {
+            "given": "Kurt",
+            "family": "Strecker"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              2
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              2
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2020.121306",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061820333109"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-006",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.wasman.2021.04.060",
+      "checked": "2026-10-13T05:21:44.150Z",
+      "inclusion": "Waste glass in one-part alkali-activated materials",
+      "metadata": {
+        "DOI": "10.1016/j.wasman.2021.04.060",
+        "title": [
+          "Extensive use of waste glass in one-part alkali-activated materials: Towards sustainable construction practices"
+        ],
+        "author": [
+          {
+            "given": "M.H.",
+            "family": "Samarakoon"
+          },
+          {
+            "given": "P.G.",
+            "family": "Ranjith"
+          },
+          {
+            "given": "Wen",
+            "family": "Hui Duan"
+          },
+          {
+            "given": "Asadul",
+            "family": "Haque"
+          },
+          {
+            "given": "Bernard K.",
+            "family": "Chen"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              7
+            ]
+          ]
+        },
+        "container-title": [
+          "Waste Management"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.wasman.2021.04.060",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0956053X21002609"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-007",
+      "source": "https://api.crossref.org/works/10.1061%2F(ASCE)MT.1943-5533.0004532",
+      "checked": "2026-10-13T05:21:45.329Z",
+      "inclusion": "Waste-glass powder in one-part slag/fly-ash alkali-activated mortar",
+      "metadata": {
+        "DOI": "10.1061/(asce)mt.1943-5533.0004532",
+        "title": [
+          "Evaluation of One-Part Slag–Fly-Ash Alkali-Activated Mortars Incorporating Waste Glass Powder"
+        ],
+        "author": [
+          {
+            "given": "D. V.",
+            "family": "Bompa"
+          },
+          {
+            "given": "B.",
+            "family": "Xu"
+          },
+          {
+            "given": "O.",
+            "family": "Corbu"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              12
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Materials in Civil Engineering"
+        ],
+        "publisher": "American Society of Civil Engineers (ASCE)",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1061/(asce)mt.1943-5533.0004532",
+        "resource": {
+          "primary": {
+            "URL": "https://ascelibrary.org/doi/10.1061/%28ASCE%29MT.1943-5533.0004532"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-008",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.jclepro.2024.144229",
+      "checked": "2026-10-13T05:21:46.479Z",
+      "inclusion": "Pulverized concrete precursor and glass-derived sodium silicate in one-part alkaline cement",
+      "metadata": {
+        "DOI": "10.1016/j.jclepro.2024.144229",
+        "title": [
+          "Recycling pulverized concrete as cementitious precursor in alkaline one-part cements, with a waste glass-based sodium silicate"
+        ],
+        "author": [
+          {
+            "given": "Juliana",
+            "family": "Rodriguez-Morales"
+          },
+          {
+            "given": "J Ivan",
+            "family": "Escalante-Garcia"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Cleaner Production"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.jclepro.2024.144229",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0959652624036783"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-009",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2021.124880",
+      "checked": "2026-10-13T05:21:47.610Z",
+      "inclusion": "Hybrid activators in one-part geopolymer paste; early-age properties",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2021.124880",
+        "title": [
+          "Roles of hybrid activators in improving the early-age properties of one-part geopolymer pastes"
+        ],
+        "author": [
+          {
+            "given": "Yan-Shuai",
+            "family": "Wang"
+          },
+          {
+            "given": "Yazan",
+            "family": "Alrefaei"
+          },
+          {
+            "given": "Jian-Guo",
+            "family": "Dai"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              11
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              11
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2021.124880",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061821026313"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-010",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2024.139057",
+      "checked": "2026-10-13T05:21:48.736Z",
+      "inclusion": "Burnt-coal-cinder geopolymer; activator-dependent efflorescence",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2024.139057",
+        "title": [
+          "Efflorescence behavior and mechanism of burnt coal cinder-based geopolymers under different alkali activators"
+        ],
+        "author": [
+          {
+            "given": "Muyang",
+            "family": "Huang"
+          },
+          {
+            "given": "Shenxu",
+            "family": "Bao"
+          },
+          {
+            "given": "Yimin",
+            "family": "Zhang"
+          },
+          {
+            "given": "Zichen",
+            "family": "Zhou"
+          },
+          {
+            "given": "Xiangke",
+            "family": "Jiao"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2024.139057",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061824041990"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-011",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2024.137869",
+      "checked": "2026-10-13T05:21:49.887Z",
+      "inclusion": "Red mud/fly ash/phosphogypsum geopolymer; efflorescence",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2024.137869",
+        "title": [
+          "Efflorescence and mitigation of red mud–fly ash–phosphogypsum multicomponent geopolymer"
+        ],
+        "author": [
+          {
+            "given": "Jun",
+            "family": "Liu"
+          },
+          {
+            "given": "Yuanrui",
+            "family": "Ren"
+          },
+          {
+            "given": "Zhenlin",
+            "family": "Li"
+          },
+          {
+            "given": "Renjie",
+            "family": "Niu"
+          },
+          {
+            "given": "Guangming",
+            "family": "Xie"
+          },
+          {
+            "given": "Weizhuo",
+            "family": "Zhang"
+          },
+          {
+            "given": "Feng",
+            "family": "Xing"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2024.137869",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061824030113"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-012",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.mtcomm.2024.108778",
+      "checked": "2026-10-13T05:21:51.023Z",
+      "inclusion": "Fly-ash geopolymer mortar; efflorescence, curing and ion transport",
+      "metadata": {
+        "DOI": "10.1016/j.mtcomm.2024.108778",
+        "title": [
+          "Efflorescence of fly ash-based geopolymer mortars under quasinatural conditions: The relationship between curing temperature, ion transport, and compressive strength"
+        ],
+        "author": [
+          {
+            "given": "Jiankang",
+            "family": "Xu"
+          },
+          {
+            "given": "Kehong",
+            "family": "Zhou"
+          },
+          {
+            "given": "Bo",
+            "family": "Wu"
+          },
+          {
+            "given": "Yi",
+            "family": "Xiang"
+          },
+          {
+            "given": "Yuxiang",
+            "family": "Li"
+          },
+          {
+            "given": "Laibao",
+            "family": "Liu"
+          },
+          {
+            "given": "Xue",
+            "family": "Ma"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        },
+        "container-title": [
+          "Materials Today Communications"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.mtcomm.2024.108778",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2352492824007591"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-013",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.ceramint.2024.09.202",
+      "checked": "2026-10-13T05:21:52.168Z",
+      "inclusion": "Fly ash/slag/steel slag geopolymer; efflorescence mitigation",
+      "metadata": {
+        "DOI": "10.1016/j.ceramint.2024.09.202",
+        "title": [
+          "Inhibition of efflorescence for fly ash-slag-steel slag based geopolymer: Pore network optimization and free alkali stabilization"
+        ],
+        "author": [
+          {
+            "given": "Mo",
+            "family": "Zhang"
+          },
+          {
+            "given": "Meng",
+            "family": "He"
+          },
+          {
+            "given": "Zhu",
+            "family": "Pan"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              11
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              11
+            ]
+          ]
+        },
+        "container-title": [
+          "Ceramics International"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.ceramint.2024.09.202",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S027288422404210X"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-014",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2024.137216",
+      "checked": "2026-10-13T05:21:53.291Z",
+      "inclusion": "Fly ash/slag geopolymer; efflorescence, precursor proportions and admixtures",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2024.137216",
+        "title": [
+          "Efflorescence mitigation in fly ash/slag-based geopolymers: The role of precursor composition and proportions, and admixtures"
+        ],
+        "author": [
+          {
+            "given": "Mingzhe",
+            "family": "Zhang"
+          },
+          {
+            "given": "Yixin",
+            "family": "Zhao"
+          },
+          {
+            "given": "Bing",
+            "family": "Chen"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2024.137216",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061824023584"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-015",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.compositesb.2019.107671",
+      "checked": "2026-10-13T05:21:54.434Z",
+      "inclusion": "Metakaolin-geopolymer formulation and efflorescence",
+      "metadata": {
+        "DOI": "10.1016/j.compositesb.2019.107671",
+        "title": [
+          "Metakaolin-based geopolymers: Relation between formulation, physicochemical properties and efflorescence formation"
+        ],
+        "author": [
+          {
+            "given": "Márlon A.",
+            "family": "Longhi"
+          },
+          {
+            "given": "Erich D.",
+            "family": "Rodríguez"
+          },
+          {
+            "given": "Brant",
+            "family": "Walkley"
+          },
+          {
+            "given": "Zuhua",
+            "family": "Zhang"
+          },
+          {
+            "given": "Ana Paula",
+            "family": "Kirchheim"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              2
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              2
+            ]
+          ]
+        },
+        "container-title": [
+          "Composites Part B: Engineering"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.compositesb.2019.107671",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1359836819344014"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-016",
+      "source": "https://api.crossref.org/works/10.1007%2Fs11356-024-33958-8",
+      "checked": "2026-10-13T05:21:55.553Z",
+      "inclusion": "Discarded-cork geopolymer composites; long-term durability",
+      "metadata": {
+        "DOI": "10.1007/s11356-024-33958-8",
+        "title": [
+          "Long-term durability of discarded cork-based composites obtained by geopolymerization"
+        ],
+        "author": [
+          {
+            "given": "Giovanni Dal",
+            "family": "Poggetto"
+          },
+          {
+            "given": "Luisa",
+            "family": "Barbieri"
+          },
+          {
+            "given": "Antonio",
+            "family": "D’Angelo"
+          },
+          {
+            "given": "Alfonso",
+            "family": "Zambon"
+          },
+          {
+            "given": "Paolo",
+            "family": "Zardi"
+          },
+          {
+            "given": "Cristina",
+            "family": "Leonelli"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              12
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              12
+            ]
+          ]
+        },
+        "container-title": [
+          "Environmental Science and Pollution Research"
+        ],
+        "publisher": "Springer Science and Business Media LLC",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1007/s11356-024-33958-8",
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/s11356-024-33958-8"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-017",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.cemconres.2004.06.005",
+      "checked": "2026-10-13T05:21:56.685Z",
+      "inclusion": "Geopolymer acid attack; exposure conditions require full-text review",
+      "metadata": {
+        "DOI": "10.1016/j.cemconres.2004.06.005",
+        "title": [
+          "Resistance of geopolymer materials to acid attack"
+        ],
+        "author": [
+          {
+            "given": "T.",
+            "family": "Bakharev"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2005,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2005,
+              4
+            ]
+          ]
+        },
+        "container-title": [
+          "Cement and Concrete Research"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.cemconres.2004.06.005",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0008884604002595"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-018",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.cemconres.2018.04.009",
+      "checked": "2026-10-13T05:21:57.836Z",
+      "inclusion": "One-part alkali-activated mortar; sulfuric acid exposure",
+      "metadata": {
+        "DOI": "10.1016/j.cemconres.2018.04.009",
+        "title": [
+          "Sulfuric acid resistance of one-part alkali-activated mortars"
+        ],
+        "author": [
+          {
+            "given": "P.",
+            "family": "Sturm"
+          },
+          {
+            "given": "G.J.G.",
+            "family": "Gluth"
+          },
+          {
+            "given": "C.",
+            "family": "Jäger"
+          },
+          {
+            "given": "H.J.H.",
+            "family": "Brouwers"
+          },
+          {
+            "given": "H.-C.",
+            "family": "Kühne"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              7
+            ]
+          ]
+        },
+        "container-title": [
+          "Cement and Concrete Research"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.cemconres.2018.04.009",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0008884618302217"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-019",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.cemconres.2018.06.011",
+      "checked": "2026-10-13T05:21:58.966Z",
+      "inclusion": "Fly-ash geopolymer; slag/activator variables in sulfuric acid exposure",
+      "metadata": {
+        "DOI": "10.1016/j.cemconres.2018.06.011",
+        "title": [
+          "Effect of slag content and activator dosage on the resistance of fly ash geopolymer binders to sulfuric acid attack"
+        ],
+        "author": [
+          {
+            "given": "Timothy A.",
+            "family": "Aiken"
+          },
+          {
+            "given": "Jacek",
+            "family": "Kwasny"
+          },
+          {
+            "given": "Wei",
+            "family": "Sha"
+          },
+          {
+            "given": "Marios N.",
+            "family": "Soutsos"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              9
+            ]
+          ]
+        },
+        "container-title": [
+          "Cement and Concrete Research"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.cemconres.2018.06.011",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0008884618303909"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-020",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2022.129889",
+      "checked": "2026-10-13T05:22:00.085Z",
+      "inclusion": "Meta-illite/metakaolin geopolymer comparison under sulfuric acid exposure",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2022.129889",
+        "title": [
+          "Behavior of calcined clay based geopolymers under sulfuric acid attack: Meta-illite and metakaolin"
+        ],
+        "author": [
+          {
+            "given": "Laura",
+            "family": "Diaz Caselles"
+          },
+          {
+            "given": "Bastien",
+            "family": "Balsamo"
+          },
+          {
+            "given": "Virginie",
+            "family": "Benavent"
+          },
+          {
+            "given": "Vincent",
+            "family": "Trincal"
+          },
+          {
+            "given": "Hugo",
+            "family": "Lahalle"
+          },
+          {
+            "given": "Cédric",
+            "family": "Patapy"
+          },
+          {
+            "given": "Valérie",
+            "family": "Montouillout"
+          },
+          {
+            "given": "Martin",
+            "family": "Cyr"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              1
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2022.129889",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061822035450"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-021",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.cemconres.2024.107436",
+      "checked": "2026-10-13T05:22:01.243Z",
+      "inclusion": "Low-calcium fly-ash geopolymer mortar under sulfuric acid corrosion",
+      "metadata": {
+        "DOI": "10.1016/j.cemconres.2024.107436",
+        "title": [
+          "Macro and microstructural evolution of low-calcium fly ash-based geopolymer mortar exposed to sulphuric acid corrosion"
+        ],
+        "author": [
+          {
+            "given": "Piumika W.",
+            "family": "Ariyadasa"
+          },
+          {
+            "given": "Allan C.",
+            "family": "Manalo"
+          },
+          {
+            "given": "Weena",
+            "family": "Lokuge"
+          },
+          {
+            "given": "Vasantha",
+            "family": "Aravinthan"
+          },
+          {
+            "given": "Andreas",
+            "family": "Gerdes"
+          },
+          {
+            "given": "Jonas",
+            "family": "Kaltenbach"
+          },
+          {
+            "given": "Beatriz Arevalo",
+            "family": "Galvan"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              4
+            ]
+          ]
+        },
+        "container-title": [
+          "Cement and Concrete Research"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.cemconres.2024.107436",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0008884624000176"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-022",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2023.132406",
+      "checked": "2026-10-13T05:22:02.504Z",
+      "inclusion": "Phosphoric-acid geopolymer foam; outside the alkaline calculator model",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2023.132406",
+        "title": [
+          "Insulating phosphoric acid-based geopolymer foams with water and high temperature resistance"
+        ],
+        "author": [
+          {
+            "given": "J.",
+            "family": "Jouin"
+          },
+          {
+            "given": "J.N.",
+            "family": "Nouping Fekoua"
+          },
+          {
+            "given": "L.",
+            "family": "Ouamara"
+          },
+          {
+            "given": "E.",
+            "family": "Piolet"
+          },
+          {
+            "given": "A.",
+            "family": "Gharzouni"
+          },
+          {
+            "given": "S.",
+            "family": "Rossignol"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2023.132406",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061823021220"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-023",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.conbuildmat.2023.133486",
+      "checked": "2026-10-13T05:22:03.699Z",
+      "inclusion": "Phosphate-washing sludge in acid-based porous geopolymers; outside the alkaline calculator model",
+      "metadata": {
+        "DOI": "10.1016/j.conbuildmat.2023.133486",
+        "title": [
+          "Enhancing thermal insulation with phosphate washing sludge waste as an inorganic foaming agent in porous acid-based geopolymers: Formulation and processing optimization"
+        ],
+        "author": [
+          {
+            "given": "H.",
+            "family": "Majdoubi"
+          },
+          {
+            "given": "Y.",
+            "family": "Haddaji"
+          },
+          {
+            "given": "O.",
+            "family": "Bourzik"
+          },
+          {
+            "given": "M.",
+            "family": "Nadi"
+          },
+          {
+            "given": "J.",
+            "family": "Ziraoui"
+          },
+          {
+            "given": "T.S.",
+            "family": "Alomayri"
+          },
+          {
+            "given": "M.",
+            "family": "Oumam"
+          },
+          {
+            "given": "B.",
+            "family": "Manoun"
+          },
+          {
+            "given": "J.",
+            "family": "Alami"
+          },
+          {
+            "given": "Y.",
+            "family": "Tamraoui"
+          },
+          {
+            "given": "H.",
+            "family": "Hannache"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        },
+        "container-title": [
+          "Construction and Building Materials"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.conbuildmat.2023.133486",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061823032038"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-024",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.matlet.2017.01.022",
+      "checked": "2026-10-13T05:22:06.038Z",
+      "inclusion": "Phosphate geopolymer formation and thermal stability; outside the alkaline calculator model",
+      "metadata": {
+        "DOI": "10.1016/j.matlet.2017.01.022",
+        "title": [
+          "Phosphate-based geopolymer: Formation mechanism and thermal stability"
+        ],
+        "author": [
+          {
+            "given": "Yan-Shuai",
+            "family": "Wang"
+          },
+          {
+            "given": "Jian-Guo",
+            "family": "Dai"
+          },
+          {
+            "given": "Zhu",
+            "family": "Ding"
+          },
+          {
+            "given": "Wei-Ting",
+            "family": "Xu"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              3
+            ]
+          ]
+        },
+        "container-title": [
+          "Materials Letters"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.matlet.2017.01.022",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0167577X17300228"
+          }
+        },
+        "relation": {}
+      }
+    },
+    {
+      "id": "ke-b04-025",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.jeurceramsoc.2015.04.030",
+      "checked": "2026-10-13T05:22:07.195Z",
+      "inclusion": "Limestone-pore-former phosphoric-acid geopolymer foam; outside the alkaline calculator model",
+      "metadata": {
+        "DOI": "10.1016/j.jeurceramsoc.2015.04.030",
+        "title": [
+          "Preparation of phosphoric acid-based geopolymer foams using limestone as pore forming agent – Thermal properties by in situ XRPD and Rietveld refinements"
+        ],
+        "author": [
+          {
+            "given": "Magdalena",
+            "family": "Lassinantti Gualtieri"
+          },
+          {
+            "given": "Marcello",
+            "family": "Romagnoli"
+          },
+          {
+            "given": "Alessandro F.",
+            "family": "Gualtieri"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              10
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of the European Ceramic Society"
+        ],
+        "publisher": "Elsevier BV",
+        "type": "journal-article",
+        "URL": "https://doi.org/10.1016/j.jeurceramsoc.2015.04.030",
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0955221915001934"
+          }
+        },
+        "relation": {}
+      }
+    }
+  ],
+  "importer": {
+    "inputSha256": "b7455164806974ca691a93bffc83946a856348a06b13c91940832e24abedf1c8",
+    "runs": 2,
+    "seedRecords": 136,
+    "finalRecords": 161,
+    "acceptedEvents": 25,
+    "repeatAddedRecords": 0
+  },
+  "titleNormalization": "Strip publisher XML styling tags only; original deposited title retained in this manifest."
+}

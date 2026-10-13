@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-13",
+  "review": "Primary-agent source check; no human/domain review.",
+  "records": [
+    {
+      "doi": "10.1016/j.jclepro.2023.139246",
+      "source": "https://api.crossref.org/works/10.1016/j.jclepro.2023.139246",
+      "checked": "2026-10-13",
+      "title": [
+        "Corrigendum to “Transforming spent coffee grounds into a valuable resource for the enhancement of concrete strength” [J. Clean. Prod. 419 (2023) 138205]"
+      ],
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0959652623034042"
+        }
+      },
+      "updates": [
+        {
+          "DOI": "10.1016/j.jclepro.2023.138205",
+          "type": "erratum",
+          "label": "Erratum",
+          "source": "publisher",
+          "updated": {
+            "date-parts": [
+              [
+                2023,
+                11,
+                15
+              ]
+            ],
+            "date-time": "2023-11-15T00:00:00Z",
+            "timestamp": 1700006400000
+          }
+        }
+      ],
+      "relations": {}
+    },
+    {
+      "doi": "10.1016/j.conbuildmat.2026.146724",
+      "source": "https://api.crossref.org/works/10.1016/j.conbuildmat.2026.146724",
+      "checked": "2026-10-13",
+      "title": [
+        "Corrigendum to ”Characterisation and selection criteria of clays for calcined clay based geopolymer” [J. Constr. Build. Eng. 530 (2026) 146544]"
+      ],
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061826016302"
+        }
+      },
+      "updates": [
+        {
+          "DOI": "10.1016/j.conbuildmat.2026.146544",
+          "type": "erratum",
+          "label": "Erratum",
+          "source": "publisher",
+          "updated": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                8
+              ]
+            ],
+            "date-time": "2026-08-08T00:00:00Z",
+            "timestamp": 1786147200000
+          }
+        }
+      ],
+      "relations": {}
+    }
+  ],
+  "notes": [
+    {
+      "publicationId": "ke-b02-009",
+      "source": "https://research.monash.edu/en/publications/corrigendum-to-transforming-spent-coffee-grounds-into-a-valuable-/",
+      "result": "Institutional correction record identifies a change to the Australian concrete-production background statistic, not an extracted experimental result. Original article remains metadata-only. Conservative assistant hold retained pending publisher/version review.",
+      "locator": "Correction record, abstract; no source text retained."
+    },
+    {
+      "publicationId": "ke-b02-021",
+      "source": "https://www.sciencedirect.com/science/article/pii/S0950061826016302",
+      "result": "Crossref confirms the correction-to-original link; publisher page returned HTTP 403. Correction scope unresolved; assistant hold retained."
+    }
+  ],
+  "pilot": "No new figure access or digitization performed in this breadth batch. Prior source-access blockers and partial extraction states remain."
+}
