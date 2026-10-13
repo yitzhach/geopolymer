@@ -20,7 +20,7 @@ test('calibrated figure means have reproducible coordinates, second checks and s
 });
 test('estimates never enter exact search but exports preserve graph status and uncertainty',()=>{
  assert.equal(searchEvidence(pilot,library,{property:'shape-retention-ratio',unit:'ratio'}).total,0);
- assert.equal(searchEvidence(pilot,library,{}).total,252);
+ assert.equal(searchEvidence(pilot,library,{}).total,260);
  const out=publicKnowledge(pilot,library).observations.filter(o=>o.qualifier==='estimated');assert.deepEqual(out,estimated);
  for(const mutation of [o=>delete o.digitization,o=>o.digitization.axis[1].pixelY=o.digitization.axis[0].pixelY,o=>o.digitization.readingAllowance=0,o=>o.digitization.review.secondPixelY+=10,o=>o.value+=.01,o=>o.qualifier='reported']){
   const d=structuredClone(pilot),o=d.observations.find(o=>o.qualifier==='estimated');mutation(o);

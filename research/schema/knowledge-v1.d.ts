@@ -23,6 +23,7 @@ export interface Observation {
  ageOrigin:string; exposureDays:number|null; missingReason:string|null;
  qualifier:'reported'|'below-detection'|'estimated'|'less-than'|'greater-than';
  uncertainty:number|null; uncertaintyReason:string; verification:Review; provenance:Provenance;
+ specimenId?:string;
  digitization?:Digitization;
 }
 export interface Digitization {

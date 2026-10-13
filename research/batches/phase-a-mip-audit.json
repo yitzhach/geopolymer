@@ -1,0 +1,107 @@
+{
+  "batchId": "phase-a-mip-2026-10-13",
+  "publicationId": "ke-211",
+  "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8745972/",
+  "sourceHtmlSha256": "7ac8dea6b8cff74cb3398f532406ab5715a1edd097d0a891832f277dfdadb777",
+  "checks": [
+    {
+      "observationId": "211-mip-porosity-M50-Na-1",
+      "sourceRow": "Porosity (%)",
+      "sourceColumn": "M50-Na-1",
+      "originalText": "14.9",
+      "unit": "%",
+      "mixId": "211-M50-Na",
+      "ageDays": 28,
+      "review": "AI same-agent second source check; no human/domain review"
+    },
+    {
+      "observationId": "211-mip-porosity-M50-Na-2",
+      "sourceRow": "Porosity (%)",
+      "sourceColumn": "M50-Na-2",
+      "originalText": "13.4",
+      "unit": "%",
+      "mixId": "211-M50-Na",
+      "ageDays": 28,
+      "review": "AI same-agent second source check; no human/domain review"
+    },
+    {
+      "observationId": "211-mip-porosity-M50-K-1",
+      "sourceRow": "Porosity (%)",
+      "sourceColumn": "M50-K-1",
+      "originalText": "15.8",
+      "unit": "%",
+      "mixId": "211-M50-K",
+      "ageDays": 28,
+      "review": "AI same-agent second source check; no human/domain review"
+    },
+    {
+      "observationId": "211-mip-porosity-M50-K-2",
+      "sourceRow": "Porosity (%)",
+      "sourceColumn": "M50-K-2",
+      "originalText": "16.0",
+      "unit": "%",
+      "mixId": "211-M50-K",
+      "ageDays": 28,
+      "review": "AI same-agent second source check; no human/domain review"
+    },
+    {
+      "observationId": "211-mip-critical-pore-diameter-M50-Na-1",
+      "sourceRow": "Critical pore diameter (nm)",
+      "sourceColumn": "M50-Na-1",
+      "originalText": "580.7",
+      "unit": "nm",
+      "mixId": "211-M50-Na",
+      "ageDays": 28,
+      "review": "AI same-agent second source check; no human/domain review"
+    },
+    {
+      "observationId": "211-mip-critical-pore-diameter-M50-Na-2",
+      "sourceRow": "Critical pore diameter (nm)",
+      "sourceColumn": "M50-Na-2",
+      "originalText": "589.3",
+      "unit": "nm",
+      "mixId": "211-M50-Na",
+      "ageDays": 28,
+      "review": "AI same-agent second source check; no human/domain review"
+    },
+    {
+      "observationId": "211-mip-critical-pore-diameter-M50-K-1",
+      "sourceRow": "Critical pore diameter (nm)",
+      "sourceColumn": "M50-K-1",
+      "originalText": "2095.0",
+      "unit": "nm",
+      "mixId": "211-M50-K",
+      "ageDays": 28,
+      "review": "AI same-agent second source check; no human/domain review"
+    },
+    {
+      "observationId": "211-mip-critical-pore-diameter-M50-K-2",
+      "sourceRow": "Critical pore diameter (nm)",
+      "sourceColumn": "M50-K-2",
+      "originalText": "1999.0",
+      "unit": "nm",
+      "mixId": "211-M50-K",
+      "ageDays": 28,
+      "review": "AI same-agent second source check; no human/domain review"
+    }
+  ],
+  "figureReview": {
+    "Figure 1": {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7884/8745972/b2eb619ba91f/materials-15-00211-g001.jpg",
+      "sha256": "ac3f45ff97cae12d662a7a3035e13f484dbb5b9e85ccbb0cf5c5f84bcb3ccad9"
+    },
+    "Figure 2": {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7884/8745972/21daac786507/materials-15-00211-g002.jpg",
+      "sha256": "46ca72ef1799fc8c54cefd3f9e79640f1262a30fb920406104b8083147234f97"
+    },
+    "decision": "Hold graph numeric extraction: multiple/overlapping markers, unspecified compression readings, undefined connecting-line statistic. Age-zero origins not treated as tested observations."
+  },
+  "verification": "Eight table values matched against refreshed HTML and prior transcription, all cells checked in a separate same-agent AI pass. No human/domain review.",
+  "counts": {
+    "newObservations": 8,
+    "newMixes": 0,
+    "specimens": 4,
+    "independentStudyFamiliesAdded": 0
+  },
+  "next": "Resolve strength graph statistics using underlying values/author clarification; MIP curves and EDS detail remain incomplete."
+}

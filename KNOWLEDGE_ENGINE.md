@@ -32,7 +32,7 @@ shorthand, are authoritative for authorship.
 
 - 62 mix variants: 6 + 6 + 4 + 12 + 34, representing five study datasets,
   not 62 independent replications.
-- 267 result cells: 252 exact numeric, three below-detection nulls and twelve
+- 275 result cells: 260 exact numeric, three below-detection nulls and twelve
   provisional Figure 9 shape-retention graph estimates. Exact search excludes
   graph estimates. Source checks are AI-assisted, not human/domain review.
 - 27 source tables transcribed, 53 figures inventoried; five figures now have
@@ -169,3 +169,12 @@ Experimental SD is still null, with a missing reason. Exports and saved excerpts
 retain the estimate label. Numerical search continues to exclude estimates.
 `phase-a-graph-audit.json` records method, interior tick checks and all 12 checks.
 This does not complete the five full-paper inventories.
+
+## Individual MIP specimens, 13 October 2026
+
+Eight Table 7 values in ma15010211 retain four original `specimenId` labels under
+two existing formulations. Each cell is one individual reading, not a two-specimen
+mean. MIP porosity (%) and critical pore diameter (nm) have separate properties
+and tests; preconditioning, sample dimensions and repeat-reading uncertainty are
+unknown. Figure 1–2 marker/line statistics remain ambiguous, so those graph
+means are held out pending underlying values or clarification.

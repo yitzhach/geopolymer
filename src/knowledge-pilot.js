@@ -691,7 +691,9 @@ export const pilot = {
         "Prose says slag percentages of FA; Table 5 masses instead correspond approximately to binder replacement percentages. Derived fractions explicitly use Table 5.",
         "Table 5 combines silicate solution and additional water; no automatic calculator split.",
         "Most strength values are graph-only; no invented digitization.",
-        "Named silicates are historical manufacturer specifications, not current supplier-qualified offerings."
+        "Named silicates are historical manufacturer specifications, not current supplier-qualified offerings.",
+        "Figures 1–2 have overlapping specimen-like points and undefined connecting-line statistics; neither points nor lines are indexed as verified means. Underlying values or author clarification needed.",
+        "MIP values are method-specific open-pore measurements. Four labelled specimens in Table 7 are not four independent studies; drying/preconditioning, sample dimensions and repeat-reading uncertainty are not reported."
       ],
       "inventory": [
         {
@@ -734,19 +736,19 @@ export const pilot = {
           "locator": "Table 7",
           "kind": "table",
           "state": "extracted",
-          "note": "Original cell strings retained; normalized numeric observations are separately verified."
+          "note": "All eight specimen-specific porosity and critical-pore-diameter cells source-checked and indexed. Four specimen labels preserved across two formulations; no averaging or independent dataset inflation."
         },
         {
           "locator": "materials-15-00211-f001",
           "kind": "figure",
-          "state": "not-yet-extracted",
-          "note": "Flexural tensile strength developmnt with curing time, K-Sil and Na-Sil.; no graph digitization claimed"
+          "state": "ambiguous",
+          "note": "Multiple unlabelled markers occur at each test age. §2.3 specifies two bending specimens but does not identify all displayed points or define the connecting line statistic; compression reading count is unspecified. No graph means or origin-at-zero observations inferred. Underlying values/figure-statistic clarification required."
         },
         {
           "locator": "materials-15-00211-f002",
           "kind": "figure",
-          "state": "not-yet-extracted",
-          "note": "Compressive strength development with curing time, K-Sil and Na-Sil.; no graph digitization claimed"
+          "state": "ambiguous",
+          "note": "Multiple unlabelled markers occur at each test age. §2.3 specifies two bending specimens but does not identify all displayed points or define the connecting line statistic; compression reading count is unspecified. No graph means or origin-at-zero observations inferred. Underlying values/figure-statistic clarification required."
         },
         {
           "locator": "materials-15-00211-f003",
@@ -1143,7 +1145,7 @@ export const pilot = {
         }
       ],
       "sourceHash": "0825e1ea6f761a7cd4f750939bf4bba9be1271ec1ecb09ce5389c3584c041563",
-      "coverageNote": "All article tables transcribed; design mixes indexed, including subsequent validation mixes where reported. Exact table, narrative and selected printed figure-label values source checked. Unlabelled graph series and quantitative uncertainty remain incomplete; full-paper extraction is partial."
+      "coverageNote": "All article tables transcribed; design mixes indexed, including subsequent validation mixes where reported. Exact table, narrative and selected printed figure-label values source checked. Unlabelled graph series and quantitative uncertainty remain incomplete; full-paper extraction is partial. Table 7 adds eight individual-specimen MIP values; strength-plot marker/line statistics remain ambiguous."
     },
     {
       "publicationId": "ke-5396",
@@ -7458,6 +7460,58 @@ export const pilot = {
         "basis": "article narrative",
         "checkedBy": "Codex AI extraction and separate same-agent visual second pass; no human review",
         "checkedAt": "2026-10-12"
+      }
+    },
+    {
+      "id": "211-mip-porosity",
+      "publicationId": "ke-211",
+      "property": "mip-porosity",
+      "geometry": "Mortar sample; MIP sample dimensions and preconditioning not reported",
+      "method": "PoreMaster 33 mercury intrusion porosimetry; open-pore detection 3.5 nm–500 μm. One specimen per reported cell, two separately labelled specimens per mix. No averaged result or bulk/closed porosity inferred.",
+      "cure": {
+        "category": "ambient",
+        "temperatureC": 18,
+        "humidityPercent": 75,
+        "sealed": true,
+        "durationDays": 28,
+        "durationReason": "§2.4: MIP after 28 days curing",
+        "preconditioning": null
+      },
+      "n": 1,
+      "direction": null,
+      "substrate": null,
+      "provenance": {
+        "assetId": "asset-211",
+        "locator": "Table 7; §2.2, §2.4 and §3.3",
+        "basis": "HTML table, specimen column and property row",
+        "checkedBy": "Codex AI table extraction and separate same-agent second source check",
+        "checkedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "211-mip-critical-pore-diameter",
+      "publicationId": "ke-211",
+      "property": "mip-critical-pore-diameter",
+      "geometry": "Mortar sample; MIP sample dimensions and preconditioning not reported",
+      "method": "PoreMaster 33 mercury intrusion porosimetry; open-pore detection 3.5 nm–500 μm. One specimen per reported cell, two separately labelled specimens per mix. No averaged result or bulk/closed porosity inferred.",
+      "cure": {
+        "category": "ambient",
+        "temperatureC": 18,
+        "humidityPercent": 75,
+        "sealed": true,
+        "durationDays": 28,
+        "durationReason": "§2.4: MIP after 28 days curing",
+        "preconditioning": null
+      },
+      "n": 1,
+      "direction": null,
+      "substrate": null,
+      "provenance": {
+        "assetId": "asset-211",
+        "locator": "Table 7; §2.2, §2.4 and §3.3",
+        "basis": "HTML table, specimen column and property row",
+        "checkedBy": "Codex AI table extraction and separate same-agent second source check",
+        "checkedAt": "2026-10-13"
       }
     }
   ],
@@ -14699,6 +14753,214 @@ export const pilot = {
           "secondPixelY": 640,
           "status": "checked"
         }
+      }
+    },
+    {
+      "id": "211-mip-porosity-M50-Na-1",
+      "publicationId": "ke-211",
+      "mixId": "211-M50-Na",
+      "specimenId": "M50-Na-1",
+      "testId": "211-mip-porosity",
+      "property": "mip-porosity",
+      "originalText": "14.9",
+      "value": 14.9,
+      "unit": "%",
+      "ageDays": 28,
+      "ageOrigin": "casting; §2.2 and §2.4",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Individual specimen result; repeat-reading uncertainty not reported. Two specimen results per mix are retained separately, not averaged.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-211",
+        "locator": "Table 7, row Porosity (%), column M50-Na-1; §2.4",
+        "basis": "HTML table, specimen column and property row",
+        "checkedBy": "Codex AI table extraction and separate same-agent second source check",
+        "checkedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "211-mip-porosity-M50-Na-2",
+      "publicationId": "ke-211",
+      "mixId": "211-M50-Na",
+      "specimenId": "M50-Na-2",
+      "testId": "211-mip-porosity",
+      "property": "mip-porosity",
+      "originalText": "13.4",
+      "value": 13.4,
+      "unit": "%",
+      "ageDays": 28,
+      "ageOrigin": "casting; §2.2 and §2.4",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Individual specimen result; repeat-reading uncertainty not reported. Two specimen results per mix are retained separately, not averaged.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-211",
+        "locator": "Table 7, row Porosity (%), column M50-Na-2; §2.4",
+        "basis": "HTML table, specimen column and property row",
+        "checkedBy": "Codex AI table extraction and separate same-agent second source check",
+        "checkedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "211-mip-porosity-M50-K-1",
+      "publicationId": "ke-211",
+      "mixId": "211-M50-K",
+      "specimenId": "M50-K-1",
+      "testId": "211-mip-porosity",
+      "property": "mip-porosity",
+      "originalText": "15.8",
+      "value": 15.8,
+      "unit": "%",
+      "ageDays": 28,
+      "ageOrigin": "casting; §2.2 and §2.4",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Individual specimen result; repeat-reading uncertainty not reported. Two specimen results per mix are retained separately, not averaged.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-211",
+        "locator": "Table 7, row Porosity (%), column M50-K-1; §2.4",
+        "basis": "HTML table, specimen column and property row",
+        "checkedBy": "Codex AI table extraction and separate same-agent second source check",
+        "checkedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "211-mip-porosity-M50-K-2",
+      "publicationId": "ke-211",
+      "mixId": "211-M50-K",
+      "specimenId": "M50-K-2",
+      "testId": "211-mip-porosity",
+      "property": "mip-porosity",
+      "originalText": "16.0",
+      "value": 16.0,
+      "unit": "%",
+      "ageDays": 28,
+      "ageOrigin": "casting; §2.2 and §2.4",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Individual specimen result; repeat-reading uncertainty not reported. Two specimen results per mix are retained separately, not averaged.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-211",
+        "locator": "Table 7, row Porosity (%), column M50-K-2; §2.4",
+        "basis": "HTML table, specimen column and property row",
+        "checkedBy": "Codex AI table extraction and separate same-agent second source check",
+        "checkedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "211-mip-critical-pore-diameter-M50-Na-1",
+      "publicationId": "ke-211",
+      "mixId": "211-M50-Na",
+      "specimenId": "M50-Na-1",
+      "testId": "211-mip-critical-pore-diameter",
+      "property": "mip-critical-pore-diameter",
+      "originalText": "580.7",
+      "value": 580.7,
+      "unit": "nm",
+      "ageDays": 28,
+      "ageOrigin": "casting; §2.2 and §2.4",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Individual specimen result; repeat-reading uncertainty not reported. Two specimen results per mix are retained separately, not averaged.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-211",
+        "locator": "Table 7, row Critical pore diameter (nm), column M50-Na-1; §2.4",
+        "basis": "HTML table, specimen column and property row",
+        "checkedBy": "Codex AI table extraction and separate same-agent second source check",
+        "checkedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "211-mip-critical-pore-diameter-M50-Na-2",
+      "publicationId": "ke-211",
+      "mixId": "211-M50-Na",
+      "specimenId": "M50-Na-2",
+      "testId": "211-mip-critical-pore-diameter",
+      "property": "mip-critical-pore-diameter",
+      "originalText": "589.3",
+      "value": 589.3,
+      "unit": "nm",
+      "ageDays": 28,
+      "ageOrigin": "casting; §2.2 and §2.4",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Individual specimen result; repeat-reading uncertainty not reported. Two specimen results per mix are retained separately, not averaged.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-211",
+        "locator": "Table 7, row Critical pore diameter (nm), column M50-Na-2; §2.4",
+        "basis": "HTML table, specimen column and property row",
+        "checkedBy": "Codex AI table extraction and separate same-agent second source check",
+        "checkedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "211-mip-critical-pore-diameter-M50-K-1",
+      "publicationId": "ke-211",
+      "mixId": "211-M50-K",
+      "specimenId": "M50-K-1",
+      "testId": "211-mip-critical-pore-diameter",
+      "property": "mip-critical-pore-diameter",
+      "originalText": "2095.0",
+      "value": 2095.0,
+      "unit": "nm",
+      "ageDays": 28,
+      "ageOrigin": "casting; §2.2 and §2.4",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Individual specimen result; repeat-reading uncertainty not reported. Two specimen results per mix are retained separately, not averaged.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-211",
+        "locator": "Table 7, row Critical pore diameter (nm), column M50-K-1; §2.4",
+        "basis": "HTML table, specimen column and property row",
+        "checkedBy": "Codex AI table extraction and separate same-agent second source check",
+        "checkedAt": "2026-10-13"
+      }
+    },
+    {
+      "id": "211-mip-critical-pore-diameter-M50-K-2",
+      "publicationId": "ke-211",
+      "mixId": "211-M50-K",
+      "specimenId": "M50-K-2",
+      "testId": "211-mip-critical-pore-diameter",
+      "property": "mip-critical-pore-diameter",
+      "originalText": "1999.0",
+      "value": 1999.0,
+      "unit": "nm",
+      "ageDays": 28,
+      "ageOrigin": "casting; §2.2 and §2.4",
+      "exposureDays": null,
+      "missingReason": null,
+      "qualifier": "reported",
+      "uncertainty": null,
+      "uncertaintyReason": "Individual specimen result; repeat-reading uncertainty not reported. Two specimen results per mix are retained separately, not averaged.",
+      "verification": "source-checked-ai",
+      "provenance": {
+        "assetId": "asset-211",
+        "locator": "Table 7, row Critical pore diameter (nm), column M50-K-2; §2.4",
+        "basis": "HTML table, specimen column and property row",
+        "checkedBy": "Codex AI table extraction and separate same-agent second source check",
+        "checkedAt": "2026-10-13"
       }
     }
   ],

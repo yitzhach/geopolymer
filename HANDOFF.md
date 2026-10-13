@@ -1,5 +1,5 @@
 # Geopolymer — current handoff
-Updated 12 October 2026 (Eastern).
+Updated 13 October 2026 (Eastern).
 
 ## Phase A implementation — foundation merged; extraction continues
 - PR #6 merged to main as `1f873e492e24e81784cb46d64e3b386e7d9af846`
@@ -18,8 +18,8 @@ Updated 12 October 2026 (Eastern).
   because command-line Git had no push credentials.
 - Baseline verified: 61 unique library DOIs and 15 curated literature formulations.
   Final library: 86 unique DOIs, 25 additions, no merges/deletions; stable IDs kept.
-- Five full texts have detailed **partial** extraction: 62 mix variants, 267 result
-  cells (252 exact numeric + 3 below detection + 12 provisional graph estimates), 27 transcribed tables, 53 figure entries,
+- Five full texts have detailed **partial** extraction: 62 mix variants, 275 result
+  cells (260 exact numeric + 3 below detection + 12 provisional graph estimates), 27 transcribed tables, 53 figure entries,
   12 unfavorable/null/mixed findings, 18 historical research material identities.
   Five study dataset families; variants are not independent replication.
 - Twenty new records are metadata-only; five are authorized full-text partial
@@ -91,8 +91,8 @@ Updated 12 October 2026 (Eastern).
    those checks remain unresolved. The other twenty additions have only their
    Crossref check. No absent notice proves a clean status.
 5. Finish the pilot before breadth expansion: ma12060902 Figure 9 means now have calibrated
-   provisional extraction; experimental standard deviations remain pending; ma15010211 Figures 1–2 require resolving displayed
-   replicate points; ma15082944 shrinkage curves need sign/baseline-aware
+   provisional extraction; experimental standard deviations remain pending; ma15010211 Figures 1–2 remain blocked by undefined
+   marker/connecting-line statistics; underlying values or clarification required; ma15082944 shrinkage curves need sign/baseline-aware
    digitization; ma14185396 analytical profiles include unprinted data. Preserve
    missing uncertainty and all source conflicts. Then a <=25-reference batch should broaden beyond the pilot's shrinkage/MK/slag
    citation chain to coffee char versus ash, coating adhesion, failed setting,
@@ -121,6 +121,20 @@ Updated 12 October 2026 (Eastern).
   This final handoff/documentation update does not change the verified code.
 - Read phase-a-followup-source-audit.json, phase-a-factor-audit.json and
   phase-a-status-followup.json. PR #6 subsequently merged as recorded above; no new live identity verified.
+
+## Specimen-level MIP checkpoint — 13 October 2026 (Eastern)
+- Reviewed refreshed ma15010211 HTML and Figures 1–2. Multiple overlapping
+  markers and undefined line statistics prevent defensible graph-mean extraction.
+  Two bending specimens are specified; compression reading count is not. Marked
+  both figures ambiguous; no synthetic means or age-zero results entered.
+- Added all eight exact Table 7 MIP cells (porosity and critical pore diameter).
+  Four original specimen labels remain linked to two existing formulations;
+  each result is an individual specimen, n=1, not an average or new dataset.
+  MIP preconditioning, dimensions and repeat-reading uncertainty remain unknown.
+- Added specimen labels to study/search tables, saved excerpts and JSON exports;
+  added % and nm search units. All five papers remain partial.
+- See research/batches/phase-a-mip-audit.json. Local tests/build and browser CI
+  verification for this follow-up are recorded below when complete.
 
 ## Graph-estimate checkpoint — 12 October 2026 (Eastern)
 - Twelve Figure 9 mean markers in ma12060902 are now provisional graph estimates.

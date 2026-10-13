@@ -94,7 +94,7 @@ export function publicKnowledge(data,publications,operation='export') {
  publications:publications.filter(p=>assets.some(a=>a.publicationId===p.id)).map(p=>fields(p,['id','title','authors','doi','year','url','sourceStatus'])),
  mixes:data.mixes.filter(keep).map(r=>fields(r,['id','publicationId','originalId','binder','activation','slagPercent','slagBasis','quantities','provenance','derivation','materialIds'])),
  tests:data.tests.filter(keep).map(r=>fields(r,['id','publicationId','property','geometry','method','cure','n','direction','substrate','provenance'])),
- observations:data.observations.filter(keep).map(r=>fields(r,['id','publicationId','mixId','testId','property','originalText','value','unit','ageDays','ageOrigin','ageDerivation','exposureDays','missingReason','qualifier','uncertainty','uncertaintyReason','verification','provenance','digitization'])),
+ observations:data.observations.filter(keep).map(r=>fields(r,['id','publicationId','mixId','specimenId','testId','property','originalText','value','unit','ageDays','ageOrigin','ageDerivation','exposureDays','missingReason','qualifier','uncertainty','uncertaintyReason','verification','provenance','digitization'])),
  materials:data.materials.filter(keep).map(r=>fields(r,['id','publicationId','family','source','grade','lot','lotMissingReason','recordType','qualification','provenance'])),
  findings:data.findings.filter(keep).map(r=>fields(r,['id','publicationId','mixIds','direction','text','claimType','verification','provenance']))};
 }
