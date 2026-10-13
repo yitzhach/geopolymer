@@ -298,3 +298,13 @@ passed on 5c76aec (run 38349819822). Reviewed desktop/mobile library and correct
 page screenshots. The owner's failure screenshot identified the superseded GitHub run #69;
 replacement #71 passed. Cloudflare live build f705238 was independently verified
 with 101 routes and 111 catalog records. See HANDOFF.md for exact release evidence.
+
+## 13 October 2026 — correction review continuation
+
+Source-status notes now expose the actual review scope on library cards and study
+pages. The coffee notice's institutional record concerns a background statistic;
+this does not validate its experiments. Publisher verification is unresolved, and
+the clay notice is inaccessible. Keep both assistant exclusions. No source text,
+full-text rights upgrades, new references or numeric observations were introduced.
+Pilot figure access remains blocked. See correction-followup-2026-10-13.json and
+HANDOFF.md for checks and next actions.

@@ -211,3 +211,13 @@ be guessed. Phase A complete acceptance remains incomplete.
 Root `AGENTS.md` requires `SUBAGENT_POLICY.md`: explicitly selected lightweight
 agents only, narrow read-only tasks, depth one, normally at most three concurrent;
 all implementation and final validation stay with the Primary Agent.
+
+## 13 October 2026 — correction review continuation
+
+Source-status notes now expose the actual review scope on library cards and study
+pages. The coffee notice's institutional record concerns a background statistic;
+this does not validate its experiments. Publisher verification is unresolved, and
+the clay notice is inaccessible. Keep both assistant exclusions. No source text,
+full-text rights upgrades, new references or numeric observations were introduced.
+Pilot figure access remains blocked. See correction-followup-2026-10-13.json and
+HANDOFF.md for checks and next actions.

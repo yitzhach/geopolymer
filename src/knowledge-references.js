@@ -1258,7 +1258,7 @@ export const knowledgeReferences = [
     "sourceStatus": {
       "state": "update-requires-review",
       "checked": "2026-10-13",
-      "basis": "Crossref deposited correction/erratum link found; retain discovery record and correction link, exclude from assistant evidence pending correction review.",
+      "basis": "Institutional correction record reviewed: the notice concerns a background Australian concrete-production statistic. Original experimental results were not re-audited; publisher notice access remains unresolved. Assistant exclusion is retained pending final correction review.",
       "updates": [
         {
           "DOI": "10.1016/j.jclepro.2023.139246",
@@ -1278,7 +1278,21 @@ export const knowledgeReferences = [
           }
         }
       ],
-      "relations": {}
+      "relations": {},
+      "checks": [
+        {
+          "provider": "Monash University research record",
+          "url": "https://research.monash.edu/en/publications/corrigendum-to-transforming-spent-coffee-grounds-into-a-valuable-/",
+          "result": "Correction scope checked by AI on 2026-10-13",
+          "scope": "Notice DOI and original-paper DOI match. The correction concerns a background production statistic, not an extracted platform observation. This limited notice review does not validate experimental results or establish full-text reuse rights."
+        },
+        {
+          "provider": "Publisher DOI",
+          "url": "https://doi.org/10.1016/j.jclepro.2023.139246",
+          "result": "Not accessible through retrieval tool on 2026-10-13",
+          "scope": "Publisher notice verification unresolved; exclusion retained."
+        }
+      ]
     }
   },
   {
@@ -1720,7 +1734,7 @@ export const knowledgeReferences = [
     "sourceStatus": {
       "state": "update-requires-review",
       "checked": "2026-10-13",
-      "basis": "Crossref deposited correction/erratum link found; retain discovery record and correction link, exclude from assistant evidence pending correction review.",
+      "basis": "Correction identity located, but publisher notice retrieval returned HTTP 403 on 2026-10-13. Correction contents and effect remain unresolved; assistant exclusion is retained.",
       "updates": [
         {
           "DOI": "10.1016/j.conbuildmat.2026.146724",
@@ -1757,7 +1771,15 @@ export const knowledgeReferences = [
           }
         }
       ],
-      "relations": {}
+      "relations": {},
+      "checks": [
+        {
+          "provider": "ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0950061826016302",
+          "result": "HTTP 403 on 2026-10-13",
+          "scope": "Search located the matching notice identity only. An incomplete snippet is insufficient to determine what changed. Two deposited update dates refer to the same correction DOI; they are not two independent corrections."
+        }
+      ]
     }
   },
   {

@@ -1,6 +1,23 @@
 # Geopolymer — current handoff
 Updated 13 October 2026 (Eastern).
 
+## Latest continuation — 13 October 2026 correction review
+- Resumed from main `95db366`; 111 references and all prior evidence retained.
+- Added source-linked correction-review scope to library cards and study pages.
+  Coffee notice: institutional record identifies a background production-statistic
+  correction; original experiments were not re-audited. Clay notice: publisher
+  returned HTTP 403; contents remain unresolved. Both assistant exclusions remain.
+- Reattempted the next pilot paper once: publisher HTTP 429; PMC browser challenge.
+  No figure points guessed and no access controls bypassed. All five studies remain
+  partial: 62 variants, 275 cells, 12 unfavorable/null/mixed findings.
+- Audit: `research/batches/correction-followup-2026-10-13.json`.
+- Local verification: 55 tests pass, knowledge validation passes, 101-route build
+  passes. Browser CI and deployment verification pending for this continuation.
+- Next: authorized ma15082944 Figures 4–6 plus methods for baseline/sign calibration;
+  finish publisher correction review when accessible. Avoid repeatedly retrying
+  blocked sources. Earlier request for 50 more references is not fulfilled by this
+  correction batch; current main contains the prior 25-record expansion only.
+
 ## Current checkpoint — 13 October 2026 breadth and agent policy
 - Owner reports the prior build appears live and requested 25 additional references.
 - PR #8 merged to main as `f705238e09e45776a7202cc5c4af1e063df49c41`.

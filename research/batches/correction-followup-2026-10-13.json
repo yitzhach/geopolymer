@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "correction-followup-2026-10-13",
+  "checked": "2026-10-13",
+  "reviewer": "Primary agent; AI source check, not human/domain review",
+  "records": [
+    {
+      "publicationId": "ke-b02-009",
+      "sourceStatus": {
+        "state": "update-requires-review",
+        "checked": "2026-10-13",
+        "basis": "Institutional correction record reviewed: the notice concerns a background Australian concrete-production statistic. Original experimental results were not re-audited; publisher notice access remains unresolved. Assistant exclusion is retained pending final correction review.",
+        "updates": [
+          {
+            "DOI": "10.1016/j.jclepro.2023.139246",
+            "type": "erratum",
+            "label": "Erratum",
+            "source": "publisher",
+            "updated": {
+              "date-parts": [
+                [
+                  2023,
+                  11,
+                  15
+                ]
+              ],
+              "date-time": "2023-11-15T00:00:00Z",
+              "timestamp": 1700006400000
+            }
+          }
+        ],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Monash University research record",
+            "url": "https://research.monash.edu/en/publications/corrigendum-to-transforming-spent-coffee-grounds-into-a-valuable-/",
+            "result": "Correction scope checked by AI on 2026-10-13",
+            "scope": "Notice DOI and original-paper DOI match. The correction concerns a background production statistic, not an extracted platform observation. This limited notice review does not validate experimental results or establish full-text reuse rights."
+          },
+          {
+            "provider": "Publisher DOI",
+            "url": "https://doi.org/10.1016/j.jclepro.2023.139246",
+            "result": "Not accessible through retrieval tool on 2026-10-13",
+            "scope": "Publisher notice verification unresolved; exclusion retained."
+          }
+        ]
+      },
+      "affectedEvidence": {
+        "mixes": [],
+        "observations": [],
+        "findings": []
+      }
+    },
+    {
+      "publicationId": "ke-b02-021",
+      "sourceStatus": {
+        "state": "update-requires-review",
+        "checked": "2026-10-13",
+        "basis": "Correction identity located, but publisher notice retrieval returned HTTP 403 on 2026-10-13. Correction contents and effect remain unresolved; assistant exclusion is retained.",
+        "updates": [
+          {
+            "DOI": "10.1016/j.conbuildmat.2026.146724",
+            "type": "erratum",
+            "label": "Erratum",
+            "source": "publisher",
+            "updated": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  21
+                ]
+              ],
+              "date-time": "2026-05-21T00:00:00Z",
+              "timestamp": 1779321600000
+            }
+          },
+          {
+            "DOI": "10.1016/j.conbuildmat.2026.146724",
+            "type": "erratum",
+            "label": "Erratum",
+            "source": "publisher",
+            "updated": {
+              "date-parts": [
+                [
+                  2026,
+                  8,
+                  8
+                ]
+              ],
+              "date-time": "2026-08-08T00:00:00Z",
+              "timestamp": 1786147200000
+            }
+          }
+        ],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "ScienceDirect",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0950061826016302",
+            "result": "HTTP 403 on 2026-10-13",
+            "scope": "Search located the matching notice identity only. An incomplete snippet is insufficient to determine what changed. Two deposited update dates refer to the same correction DOI; they are not two independent corrections."
+          }
+        ]
+      },
+      "affectedEvidence": {
+        "mixes": [],
+        "observations": [],
+        "findings": []
+      }
+    }
+  ],
+  "rights": "Brief original review notes and source links only; no notice text, abstracts or full texts retained. No full-text permissions upgraded.",
+  "pilotAccess": [
+    {
+      "url": "https://www.mdpi.com/1996-1944/15/8/2944",
+      "result": "HTTP 429; stopped without retry loop"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9032675/",
+      "result": "Browser challenge; no bypass attempted"
+    }
+  ],
+  "counts": {
+    "publications": 111,
+    "addedPublications": 0,
+    "newObservations": 0,
+    "partialStudies": 5,
+    "variants": 62,
+    "observationCells": 275
+  },
+  "next": "Obtain authorized ma15082944 Figures 4–6 and method context for signed/baseline-aware calibration; complete publisher correction review when accessible. Do not retry blocked sources repeatedly or infer missing correction text."
+}
