@@ -102,3 +102,11 @@ to fibers/repair, precursors, efflorescence/acid exposure and phosphate systems.
 No full-text extraction, numerical performance, human review or supplier claims.
 Five pilot papers remain partial. Correction follow-up records partial progress
 and retained assistant holds. HANDOFF.md records current QA/publication status.
+
+## OpenAlex discovery milestone — 14 October 2026
+
+A private discovery adapter and resumable review queue now precede editorial
+integration. See OPENALEX_PIPELINE.md. Synthetic-response tests pass; live API
+access remains blocked by environment configuration. Queued/accepted candidates
+are not published or source-verified records. All existing scientific counts and
+partial-extraction limits remain unchanged. No schedule or AI provider was added.

@@ -1,11 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { execFileSync } from 'node:child_process';
 import { routes } from '../src/routes.js';
 import { renderPage } from '../src/app.js';
 
-execFileSync(process.execPath, ['scripts/build.mjs']);
+// Run the identical build without requiring subprocess execution permission.
+await import('../scripts/build.mjs');
 test('every registered route has complete, unique, crawlable HTML and metadata', async () => {
   const titles = new Set(), descriptions = new Set();
   for (const path of routes) {

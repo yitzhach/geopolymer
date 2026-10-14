@@ -1,5 +1,28 @@
 # Geopolymer — current handoff
-Updated 13 October 2026 (Eastern).
+Updated 14 October 2026 (Eastern).
+
+## Latest checkpoint — offline-tested OpenAlex pipeline, 14 October 2026
+- Implemented private OpenAlex discovery adapter and CLI review queue. See
+  OPENALEX_PIPELINE.md for commands, bounds, security and remaining integration.
+- New candidates stay in gitignored work/; no public catalog or evidence changes.
+  Catalog validated at 161 publications, five studies, 62 mixes, 275 observations.
+- DOI/catalog and batch deduplication, title-conflict flags, per-page atomic
+  checkpoints, cursor recovery, bounded retries and append-only review history.
+- 25-candidate / 10-page limits. No abstracts/full text retained; OA is only a hint.
+  No model, schedule, paid purchase, publication or extraction was performed.
+- Thirteen focused tests pass using synthetic API responses and injected transport;
+  existing npm test, knowledge validation and 151-route production build pass.
+  Foundation test now imports the same build in-process because this runtime
+  returned EPERM for its old subprocess call. All 16 test files pass.
+  No browser tests rerun: no browser/site behavior changed. No live API success,
+  proxy credential substitution or updated deployment is claimed.
+- Owner saved a personal-vault key but environment Edit fails in the UI. Runtime
+  reports no secret binding and enforced networking excludes api.openalex.org.
+  Do not ask for the key in chat or attempt to bypass the network policy.
+- Next: repair environment editing, bind OPENALEX_API_KEY and allow the endpoint,
+  publish/use new task, run a small live batch and check real API/usage behavior.
+  Accepted candidates still require primary-source identity/status/editorial review.
+  Scientific pilot gaps below remain unchanged.
 
 ## Latest checkpoint — 50-reference expansion, 13 October 2026
 - Owner requested 50 more references while minimizing usage. Added two bounded

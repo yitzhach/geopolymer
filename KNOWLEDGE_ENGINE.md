@@ -228,3 +228,11 @@ Recovered PR #9 and its successful browser run 38351237103. Expose correction
 review scope on cards/study pages while retaining both assistant holds. No new
 scientific results or full-text rights upgrades. Pilot access remains blocked.
 See HANDOFF.md for publication state and the supplemental access-review audit.
+
+## OpenAlex discovery milestone — 14 October 2026
+
+A private discovery adapter and resumable review queue now precede editorial
+integration. See OPENALEX_PIPELINE.md. Synthetic-response tests pass; live API
+access remains blocked by environment configuration. Queued/accepted candidates
+are not published or source-verified records. All existing scientific counts and
+partial-extraction limits remain unchanged. No schedule or AI provider was added.

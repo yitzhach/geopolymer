@@ -317,3 +317,17 @@ See HANDOFF.md for publication state and the supplemental access-review audit.
 Release verified: PR #9 merged as 06a6ab8 after final run 38406268795 passed
 56 tests and all six browser suites. Cloudflare build 06a6ab8 and 161 live catalog
 records, including all 50 new IDs, independently checked. See HANDOFF.md.
+
+## 14 October — OpenAlex discovery without live credentials
+
+Implement and test the bounded discovery/review workflow while environment editing
+is unavailable. Use the canonical catalog for DOI reconciliation and keep staging
+outside public builds. Prefer curl for inherited managed-proxy/CA support; pass
+credentials on stdin in a header, never argv or URLs. OA and license metadata do
+not grant extraction rights. Review acceptance does not publish a candidate or
+establish verification. No new services, subscriptions or schedules. Live API and
+proxy substitution remain untested; see OPENALEX_PIPELINE.md and HANDOFF.md.
+
+The existing foundation test now runs the same build through an in-process import;
+its child-process launch reported EPERM in this managed runtime. All route, metadata
+and evidence-boundary assertions remain intact. All 16 test files pass.
