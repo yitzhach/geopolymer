@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-14",
+  "channel": "session web search/open tools; not cloud HTTP transport",
+  "scope": "Three-paper access and relevance spot check, not full extraction or correction clearance",
+  "catalogBefore": 161,
+  "catalogAfter": 161,
+  "records": [
+    {
+      "doi": "10.1038/s41598-026-49264-x",
+      "existingId": null,
+      "title": "Effect of mineralogical composition on the compressive strength and microstructure of metakaolin geopolymer",
+      "sourceUrl": "https://www.nature.com/articles/s41598-026-49264-x",
+      "access": "full-text-observed",
+      "observedSections": [
+        "Experimental mix preparation",
+        "Results and discussion"
+      ],
+      "limitation": "Subsequent page request returned a tool error; repeatability not established. License terms not captured in inspected output.",
+      "relevance": "Compare mineralogical differences and activation conditions rather than treating bulk oxide ratios as sufficient material identity.",
+      "rights": "unassessed",
+      "extraction": "unstarted",
+      "statusCheck": "unassessed"
+    },
+    {
+      "doi": "10.1186/s40712-025-00331-7",
+      "existingId": "ke-b02-007",
+      "title": "Spent coffee grounds enhanced strength of alkali-hydroxide-free geopolymer concrete: an optimization study",
+      "sourceUrl": "https://link.springer.com/article/10.1186/s40712-025-00331-7",
+      "access": "full-text-observed",
+      "observedSections": [
+        "Methodology / Materials",
+        "Preparation of geopolymer samples",
+        "Rights and permissions"
+      ],
+      "reportedLicense": "CC BY 4.0; publisher rights section observed",
+      "relevance": "Dried and milled coffee grounds in a fly-ash/sodium-silicate system; distinguish from biochar and ash.",
+      "limitation": "This is an access/depth lead for an existing record; assays, mixture accounting and numeric results require separate source review.",
+      "rights": "asset and operation decisions pending; no download retained",
+      "extraction": "unstarted",
+      "statusCheck": "unassessed"
+    },
+    {
+      "doi": "10.1021/acsomega.2c00170",
+      "existingId": "ke-b02-010",
+      "title": "Effects of Substrate Surface Characteristics on the Adhesion Properties of Geopolymer Coatings",
+      "sourceUrl": "https://pubs.acs.org/doi/10.1021/acsomega.2c00170",
+      "alternateUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9016865/",
+      "access": "blocked-in-this-check",
+      "attempts": [
+        {
+          "url": "https://pubs.acs.org/doi/10.1021/acsomega.2c00170",
+          "result": "tool-error"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9016865/",
+          "result": "browser-challenge"
+        }
+      ],
+      "relevance": "Candidate for coating/substrate comparison; relevance comes from indexed metadata only.",
+      "limitation": "No paywall inferred from these failures.",
+      "rights": "unassessed",
+      "extraction": "unstarted",
+      "statusCheck": "unassessed"
+    }
+  ]
+}

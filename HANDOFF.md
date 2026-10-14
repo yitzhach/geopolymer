@@ -1,6 +1,28 @@
 # Geopolymer — current handoff
 Updated 14 October 2026 (Eastern).
 
+## Latest checkpoint — accessible sources and materials scout, 14 October 2026
+- Owner wants accessible papers plus innovative material/property discovery and
+  cross-study hypotheses for different outcomes. RESEARCH_SCOUT.md defines the
+  interactive agent workflow; research/scout-searches.json has nine search families.
+- Discovery supports --oa, alternate repository/publisher and cached-content links,
+  version/license hints, citation leads and access leads for existing catalog DOIs.
+  Locations remain unchecked and rights unassessed. No downloader or synthesis
+  service is deployed. Never describe related-work links as scientific support.
+- Three-paper web-tool spot check: new metakaolin-mineralogy candidate full text
+  observed (later tool access failed); existing coffee-ground paper ke-b02-007
+  full text and CC BY 4.0 rights section observed; existing coating paper
+  ke-b02-010 blocked by publisher tool error / PMC challenge. No paywall inferred.
+  See research/batches/scout-access-2026-10-14.json. No full extraction or source
+  correction clearance claimed; public catalog remains 161 records.
+- Workflow separates material/grade/processing, dose and water basis, cure/method,
+  observed outcomes, author interpretations and untested combinations. No invented
+  mix ratios, compatibility, performance predictions or independent replication.
+- Verification: all 17 test files pass, including six new source-lead tests;
+  schema validation and 151-route build pass. No browser behavior changed.
+- Cloud OpenAlex secret binding and network access still absent. Interactive
+  browser research works independently; automated cloud retrieval remains untested.
+
 ## Latest checkpoint — offline-tested OpenAlex pipeline, 14 October 2026
 - Implemented private OpenAlex discovery adapter and CLI review queue. See
   OPENALEX_PIPELINE.md for commands, bounds, security and remaining integration.

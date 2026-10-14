@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Search ideas, not performance or compatibility claims",
+  "perRun": {
+    "maxNewCandidates": 25,
+    "maxToolCalls": 40,
+    "maxFullPapers": 5,
+    "families": {
+      "focused": 2,
+      "exploratory": 1,
+      "failures": 1
+    }
+  },
+  "families": [
+    {
+      "id": "ambient-casting",
+      "queries": [
+        "geopolymer metakaolin slag ambient curing workability",
+        "alkali activated binder ambient curing setting time"
+      ],
+      "outcomes": [
+        "early strength",
+        "working time",
+        "shrinkage"
+      ]
+    },
+    {
+      "id": "thin-coatings",
+      "queries": [
+        "metakaolin geopolymer coating adhesion substrate roughness",
+        "geopolymer coating cracking efflorescence"
+      ],
+      "outcomes": [
+        "bond on named substrate",
+        "thin-layer integrity"
+      ]
+    },
+    {
+      "id": "coffee-materials",
+      "queries": [
+        "geopolymer spent coffee grounds biochar",
+        "alkali activated mortar coffee ash"
+      ],
+      "outcomes": [
+        "shrinkage",
+        "density",
+        "strength"
+      ]
+    },
+    {
+      "id": "reactive-precursors",
+      "queries": [
+        "geopolymer calcined clay mineralogy reactivity",
+        "alkali activated volcanic ash mine tailings glass powder"
+      ],
+      "outcomes": [
+        "precursor substitution",
+        "reactivity",
+        "leaching"
+      ]
+    },
+    {
+      "id": "reinforcement",
+      "queries": [
+        "geopolymer basalt cellulose fiber flexural toughness",
+        "geopolymer fiber alkaline degradation durability"
+      ],
+      "outcomes": [
+        "flexure",
+        "toughness",
+        "durability"
+      ]
+    },
+    {
+      "id": "thermal-lightweight",
+      "queries": [
+        "geopolymer expanded perlite aerogel thermal conductivity",
+        "geopolymer biochar foamed density thermal insulation"
+      ],
+      "outcomes": [
+        "insulation",
+        "density-strength tradeoff"
+      ]
+    },
+    {
+      "id": "activator-chemistry",
+      "queries": [
+        "geopolymer sodium potassium silicate shrinkage",
+        "one part alkali activated carbonate silicate ambient curing"
+      ],
+      "outcomes": [
+        "setting",
+        "efflorescence",
+        "strength"
+      ]
+    },
+    {
+      "id": "exploratory-materials",
+      "queries": [
+        "geopolymer nanocellulose recycled glass novel composite",
+        "phosphate activated metakaolin coating adhesion"
+      ],
+      "outcomes": [
+        "new-to-catalog materials",
+        "chemistry boundaries"
+      ]
+    },
+    {
+      "id": "failures",
+      "queries": [
+        "geopolymer failed setting shrinkage cracking",
+        "alkali activated additive incompatibility leaching strength loss"
+      ],
+      "outcomes": [
+        "unfavorable and null findings"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 // Private ingestion code: never imported by the public site.
 import {createHash} from 'node:crypto';
 import {spawn} from 'node:child_process';
+import {accessLeads,researchLinks} from './open-access-leads.mjs';
 import {normalizeDoi} from '../../src/knowledge-core.js';
 const digest = value => createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const clean = (value, max=2000) => typeof value === 'string' ? value.replace(/[\u0000-\u001f]/g,' ').slice(0,max) : '';
@@ -14,6 +15,8 @@ export function createQueue(query,catalog,now=new Date().toISOString()) {
 export function validateQueue(state,catalog) {
  if(state?.schemaVersion!==1||state.provider!=='openalex'||state.catalogHash!==catalogHash(catalog))throw Error('Checkpoint schema or catalog changed; start a new queue');
  if(typeof state.query!=='string'||!state.query.trim()||state.query.length>500||!['pending','exhausted','capped'].includes(state.status)||!Number.isInteger(state.pages)||state.pages<0||state.pages>10||state.limits?.candidates!==25||state.limits?.pages!==10||!Array.isArray(state.candidates)||state.candidates.length>25||!Array.isArray(state.seen)||state.seen.length>250||!Array.isArray(state.events)||!Array.isArray(state.reviews)||!(state.cursor===null||typeof state.cursor==='string'&&state.cursor.length<=4096))throw Error('Invalid discovery checkpoint');
+ if(state.openAccessOnly!==undefined&&typeof state.openAccessOnly!=='boolean')throw Error('Invalid OA search mode');
+ if(state.accessLeads!==undefined&&(!Array.isArray(state.accessLeads)||state.accessLeads.length>25))throw Error('Invalid access-lead checkpoint');
  if(state.status==='pending'&&(state.pages>=10||state.candidates.length>=25||!state.cursor))throw Error('Invalid pending checkpoint');
  if(new Set(state.candidates.map(p=>p.id)).size!==state.candidates.length||state.candidates.some(p=>!/^oa-W\d{1,20}$/.test(p.id)||!['pending','accepted','rejected'].includes(p.review?.state)))throw Error('Invalid candidate identities or decisions');
 }
@@ -21,7 +24,8 @@ export function requestURL(state) {
  const url=new URL('https://api.openalex.org/works');
  url.searchParams.set('search',state.query);url.searchParams.set('cursor',state.cursor);
  url.searchParams.set('per_page',String(25-state.candidates.length));
- url.searchParams.set('select','id,doi,title,publication_year,publication_date,type,authorships,primary_location,open_access,is_retracted');
+ if(state.openAccessOnly)url.searchParams.set('filter','open_access.is_oa:true');
+ url.searchParams.set('select','id,doi,title,publication_year,publication_date,type,authorships,primary_location,open_access,is_retracted,best_oa_location,locations,has_content,content_urls,referenced_works,related_works');
  return url.href;
 }
 export function applyPage(state,page,catalog,now=new Date().toISOString()) {
@@ -40,12 +44,16 @@ export function applyPage(state,page,catalog,now=new Date().toISOString()) {
   else if(doi&&knownDois.has(doi)){reason='existing-catalog-doi';existingId=knownDois.get(doi);}
   else if(doi&&next.candidates.some(p=>p.doi===doi))reason='duplicate-batch-doi';
   if(id&&!next.seen.includes(id))next.seen.push(id);
+  if(reason==='existing-catalog-doi'){
+   next.accessLeads??=[];
+   if(next.accessLeads.length<25&&!next.accessLeads.some(p=>p.existingId===existingId))next.accessLeads.push({existingId,doi,openalexId:row.id,retrieved:now,locations:accessLeads(row),researchLinks:researchLinks(row)});
+  }
   if(reason){next.events.push({at:now,id,doi,reason,existingId});continue;}
   const flags=[];
   if(!doi)flags.push('missing-or-invalid-doi');
   if(knownTitles.has(titleKey(title))||next.candidates.some(p=>titleKey(p.title)===titleKey(title)))flags.push('title-match-needs-review');
   if(row.is_retracted===true)flags.push('provider-retraction-flag');
-  next.candidates.push({id,openalexId:row.id,doi,title,year:Number.isInteger(row.publication_year)?row.publication_year:null,published:clean(row.publication_date,20),type:clean(row.type,100),authors:(Array.isArray(row.authorships)?row.authorships:[]).slice(0,500).map(a=>clean(a.author?.display_name,200)).filter(Boolean),journal:clean(row.primary_location?.source?.display_name,300),discovery:{provider:'openalex',retrieved:now,query:state.query,reportedOpenAccess:typeof row.open_access?.is_oa==='boolean'?row.open_access.is_oa:null,reportedLicense:clean(row.primary_location?.license,100)||null},rights:{fullText:'unassessed',aiTransmission:'unassessed'},extraction:'unstarted',verification:'unverified-provider-metadata',flags,review:{state:'pending'}});
+  next.candidates.push({id,openalexId:row.id,doi,title,year:Number.isInteger(row.publication_year)?row.publication_year:null,published:clean(row.publication_date,20),type:clean(row.type,100),authors:(Array.isArray(row.authorships)?row.authorships:[]).slice(0,500).map(a=>clean(a.author?.display_name,200)).filter(Boolean),journal:clean(row.primary_location?.source?.display_name,300),discovery:{provider:'openalex',retrieved:now,query:state.query,reportedOpenAccess:typeof row.open_access?.is_oa==='boolean'?row.open_access.is_oa:null,reportedLicense:clean(row.primary_location?.license,100)||null},accessLeads:accessLeads(row),researchLinks:researchLinks(row),rights:{fullText:'unassessed',aiTransmission:'unassessed'},extraction:'unstarted',verification:'unverified-provider-metadata',flags,review:{state:'pending'}});
  }
  next.pages++;next.cursor=page.meta.next_cursor;next.updated=now;next.lastError=null;
  next.status=!page.results.length||next.cursor===null?'exhausted':next.candidates.length>=25||next.pages>=10?'capped':'pending';

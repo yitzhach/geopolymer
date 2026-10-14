@@ -331,3 +331,15 @@ proxy substitution remain untested; see OPENALEX_PIPELINE.md and HANDOFF.md.
 The existing foundation test now runs the same build through an in-process import;
 its child-process launch reported EPERM in this managed runtime. All route, metadata
 and evidence-boundary assertions remain intact. All 16 test files pass.
+
+## 14 October — accessible-source and materials research scout
+
+Extend discovery with OA-only searches, alternate location/version/license hints,
+citation leads and existing-record access enrichment. All links remain unchecked;
+no full-text fetcher or permission upgrade. RESEARCH_SCOUT.md defines interactive
+materials comparisons, contradictory-evidence searches and hypothesis/test planning,
+with nine search families and explicit grade/processing/method boundaries. Current
+OpenAlex guidance says Unpaywall uses the same underlying data; it is not independent
+OA verification. Google Scholar remains a manual seed source. Three web-tool access
+checks are recorded in research/batches/scout-access-2026-10-14.json. Catalog and
+measurements unchanged; cloud API and unattended synthesis remain unconfigured.

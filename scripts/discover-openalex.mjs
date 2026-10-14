@@ -22,15 +22,16 @@ async function main(){
    finally{await unlink(temporary).catch(e=>{if(e.code!=='ENOENT')throw e;});}
   };
   if(command==='run'){
-   if(args.length!==1)throw Error('Supply one quoted search query');
-   if(!state){state=createQueue(args[0],library);await save(state);}
-   if(state.query!==args[0].trim())throw Error('Query changed; use a new queue file');
+   if(args.length<1||args.length>2||(args[1]&&args[1]!=='--oa'))throw Error('Supply one quoted search query and optional --oa');
+   const openAccessOnly=args[1]==='--oa';
+   if(!state){state=createQueue(args[0],library);state.openAccessOnly=openAccessOnly;await save(state);}
+   if(state.query!==args[0].trim()||Boolean(state.openAccessOnly)!==openAccessOnly)throw Error('Query changed; use a new queue file');
    state=await discover(state,library,{save,apiKey:process.env.OPENALEX_API_KEY||''});
   }else{
    if(!state)throw Error('Queue not found');validateQueue(state,library);
    if(command==='review'){if(args.length!==4)throw Error('Supply ID, decision, reason and reviewer');state=reviewCandidate(state,...args);await save(state);}
   }
-  console.log(JSON.stringify({status:state.status,pages:state.pages,candidates:state.candidates.length,decisions:state.candidates.reduce((a,p)=>(a[p.review.state]++,a),{pending:0,accepted:0,rejected:0}),lastError:state.lastError}));
+  console.log(JSON.stringify({status:state.status,pages:state.pages,candidates:state.candidates.length,existingAccessLeads:state.accessLeads?.length||0,decisions:state.candidates.reduce((a,p)=>(a[p.review.state]++,a),{pending:0,accepted:0,rejected:0}),lastError:state.lastError}));
   if(state.lastError)process.exitCode=1;
  }finally{await lock.close();await unlink(output+'.lock');}
 }

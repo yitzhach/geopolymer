@@ -69,7 +69,8 @@ errors. Error messages report only controlled HTTP codes or generic failure stat
   dollar-budget guarantee; if an account has prepaid credit, the provider may draw
   from it. Check its usage settings before live operation.
 - Only selected bibliographic fields are requested/retained. Abstracts, PDFs, full
-  text, figures and provider-supplied download URLs are not stored or fetched.
+  text, figures and raw source content is not stored or fetched. Alternate source URLs are retained
+  only as unchecked discovery leads (see the update below).
 - OA/license fields and retraction flags are provider hints. Full-text operations
   and AI transmission remain unassessed. Absence of a retraction flag is not clearance.
 - Queues live under gitignored `work/`, outside public `src/` and the build. They
@@ -97,3 +98,30 @@ Provider references checked in this conversation on 14 October 2026:
 - https://help.openalex.org/access/pricing/
 The current help permits limited anonymous use and offers a free key budget;
 older announcements differ. Recheck terms/quotas before live or scheduled operation.
+
+## Accessible-source and materials scout update — 14 October 2026
+
+Use `--oa` to request papers for which OpenAlex reports an open-access location:
+
+```sh
+npm run discover:openalex -- run work/coatings-oa.json "geopolymer coating adhesion" --oa
+```
+
+Search mode is part of the checkpoint identity. Repeat the same option on resume;
+changing it requires a new queue file. Existing broad-search checkpoints remain
+valid. OpenAlex's OA filter is not a reachability or reuse-permission guarantee.
+
+Candidates now retain up to 20 unchecked alternate source locations, including
+version/license hints and exact matching cached-content URLs, and up to 20 links
+in each citation/related-work list. Existing catalog DOI matches also retain up
+to 25 access-lead records per queue, without creating duplicate publications.
+URLs containing credentials or sensitive query parameters are discarded. These
+checks do not authorize requests: no URL fetcher, DNS/redirect validation pipeline
+or full-text download has been added. Cached content needs content.openalex.org
+access separately; never forward the OpenAlex key to third-party hosts.
+
+RESEARCH_SCOUT.md defines the interactive research and materials-synthesis workflow;
+research/scout-searches.json provides nine outcome/material search families. The
+three-paper spot check in research/batches/scout-access-2026-10-14.json records
+actual web-tool access outcomes, separately from the blocked cloud transport.
+No new public papers, extracted measurements or material recommendations were added.
