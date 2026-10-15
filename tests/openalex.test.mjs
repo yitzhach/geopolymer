@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {mkdtemp,readFile,rm,writeFile} from 'node:fs/promises';
+import {mkdir,mkdtemp,readFile,rm,writeFile} from 'node:fs/promises';
 import {spawnSync} from 'node:child_process';
 import {createQueue,applyPage,discover,reviewCandidate,requestURL,validateQueue,fetchPage} from '../scripts/lib/openalex.mjs';
 import {library} from '../src/research-library.js';
@@ -62,6 +62,7 @@ test('API URL contains only fixed endpoint and selected fields; no credentials',
  assert.throws(()=>fetchPage('https://example.com/works'));assert.throws(()=>fetchPage(url.href,{apiKey:'bad\nheader'}));
 });
 test('CLI status and review persist, reject query changes, and enforce locks',async()=>{
+ await mkdir(new URL('../work/',import.meta.url),{recursive:true});
  const folder=await mkdtemp(new URL('../work/queue-test-',import.meta.url));const file=folder+'/queue.json';
  const run=(...args)=>spawnSync(process.execPath,['scripts/discover-openalex.mjs',...args],{encoding:'utf8'});
  try{

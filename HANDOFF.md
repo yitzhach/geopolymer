@@ -19,7 +19,13 @@ Updated 15 October 2026 (Eastern).
   pass. All six browser suites pass using installed Chromium; final recipe suite
   rerun after sticky-heading fix also passes. Desktop novel section and mobile
   fiber page visually reviewed. Three browser scripts now honor the same optional
-  executable override as the existing suites. No deployment identity claimed yet.
+  executable override as the existing suites.
+- Implementation 84a6abd was pushed to main. CI run 38681167197 exposed an OpenAlex
+  test setup assumption: ignored work/ was absent on a clean checkout. The test
+  now creates its parent directory; all 17 test files pass in a fresh temporary
+  checkout without preexisting work/, dist/ or dependencies.
+- Live web-tool checks could not retrieve build-info or the new route; updated
+  deployment identity remains unverified.
 
 ## Latest checkpoint — immediate materials scout, 15 October 2026
 - Owner requested research now; disabled the 3:48 a.m. one-off continuation
