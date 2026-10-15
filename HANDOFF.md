@@ -1,6 +1,28 @@
 # Geopolymer — current handoff
 Updated 15 October 2026 (Eastern).
 
+## Latest checkpoint — ten fiber recipes, 15 October 2026
+- Owner requested ten more published recipes. Added ten designs from two papers:
+  three mortar matrices, two carbon-textile assemblies and five hemp/basalt foams.
+  Total 30 curated recipes; 18 support proportional mass scaling.
+- Six compression/flexure observations belong only to matrix specimens. Reported
+  ± values retain unresolved spread type in pages, JSON and notebook source notes.
+  No matrix strength is inherited by textile assemblies; seven new designs stay
+  read-only. Foam batch, identifier and test-age gaps prevent numeric assignment.
+- Added novel groups and five lightweight-scope references. These focus labels
+  mean study scope, not a verified benefit. Full titles and rights-evidence links
+  appear beside new sources. CC BY 4.0 evidence recorded for both papers.
+- Public library/pilot unchanged: 161 publications / 5 studies / 62 mixes /
+  275 observations. Recipe observations are separate from canonical pilot data.
+- Audit: research/batches/recipes-fibers-2026-10-15.json. Two biochar sources were
+  deferred after bounded access failures; no recipe made from indexed abstracts.
+- All 17 Node test files and knowledge validation pass; build covers 166 routes.
+  Focused recipe browser QA passes, including new scaling, read-only designs,
+  filters, exports and desktop/mobile layouts. Mobile foam and desktop matrix
+  screenshots reviewed. Main/CI state is recorded after publication.
+- Next: resolve foam formulation/result mapping, qualify carbon-textile quantities,
+  and obtain accessible biochar methods. Continue remaining source inventories.
+
 ## Latest checkpoint — hemp, basalt and carbon scout, 15 October 2026
 - Owner requested several studies on hemp, basalt, carbon/biochar and unique additions.
 - Saved ten selected studies: seven new staged candidates and three prior leads;

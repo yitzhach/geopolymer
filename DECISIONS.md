@@ -373,3 +373,13 @@ coupled CMC changes visible. Existing authorization covers the follow-up push.
 Fix OpenAlex test setup to create ignored work/ in a fresh checkout; GitHub run
 38718555127 confirms the repair. Continue lightweight research without promoting
 an inaccessible abstract to a verified recipe.
+
+## 15 October 2026 — fiber recipe evidence boundaries
+
+- Ten published designs can share two experimental papers; counts distinguish
+  recipes from publications and independent datasets.
+- Matrix, textile assembly and foam records retain separate identities and results.
+  Mass-ready matrices scale; geometric assemblies and incomplete foams do not.
+- Reported ± values travel with source notes; unresolved spread type remains labeled.
+- Lightweight is a study-focus filter, not a numeric density or thermal guarantee.
+- Two inaccessible biochar papers remain deferred; access errors are not paywalls.

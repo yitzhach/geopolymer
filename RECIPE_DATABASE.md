@@ -1,5 +1,24 @@
 # Recipe database and future formulation advisor
 
+## 15 October 2026 — ten hemp, basalt and carbon-textile designs
+
+30 recipes total; 18 scalable. Ten additions represent variants in two studies,
+not ten independent experiments. src/fiber-recipes.js holds three scalable
+matrix mixes, two read-only textile assemblies, and five read-only foam designs.
+Six matrix observations preserve their reported spread, age, specimen scope and
+locators. The source's ± type is unresolved; it is not labeled SD or confidence.
+Fiber quantities are explicitly derived from geopaste mass, not total mortar.
+Foam molar design does not become an invented ingredient batch. Source naming,
+foamer basis and testing gaps remain visible. Lightweight filters now return
+five study-scope designs; no numerical thermal values are assigned.
+
+Attribution includes source titles, authors, license and rights-evidence links.
+The audit in research/batches/recipes-fibers-2026-10-15.json records source access,
+partial inventories, conversion basis and deferred biochar work. Canonical
+library/pilot counts are unchanged. Local Node checks and validation pass; build
+has 166 routes. Browser and remote verification are recorded in HANDOFF.
+
+
 ## 15 October 2026 — polypropylene comparison
 
 Current total: 20 references; 15 support proportional scaling. PP0 adds a printing

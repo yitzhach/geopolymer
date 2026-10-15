@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-15",
+  "channel": "session web tools; not live OpenAlex or automated Google Scholar",
+  "scope": "Ten selected published designs, not ten papers or complete study extraction",
+  "recipesBefore": 20,
+  "recipesAfter": 30,
+  "scalableBefore": 15,
+  "scalableAfter": 18,
+  "publicLibrary": 161,
+  "canonicalPilot": {
+    "studies": 5,
+    "mixes": 62,
+    "observations": 275
+  },
+  "newRecipeObservations": 6,
+  "review": "Partial AI source review and software checks; no human/domain review or independent replication",
+  "sources": [
+    {
+      "doi": "10.3390/polym13050751",
+      "access": "full-text-observed",
+      "inspectedUrl": "https://pdfs.semanticscholar.org/9828/de233e60ca20ada95dd8648c207ba4c8dbe1.pdf",
+      "identity": "PDF title, authors, DOI and year match publisher-indexed identity",
+      "versionCaveat": "Parsed PDF contains duplicate FOR PEER REVIEW headers. Selected tables and methods inspected as text; no visual PDF QA claimed. Publisher/PMC indexed Table 2 corroborates the base mass ratios. Repository Table 3 supplies the selected measurements.",
+      "rights": {
+        "license": "CC BY 4.0",
+        "evidence": "PDF page 1 copyright/license notice",
+        "evidenceUrl": "https://pdfs.semanticscholar.org/9828/de233e60ca20ada95dd8648c207ba4c8dbe1.pdf",
+        "allowedOperations": [
+          "access inspected copy",
+          "selected factual extraction",
+          "public display/export of attributed selected facts"
+        ],
+        "notPerformed": [
+          "raw retention",
+          "figure reproduction",
+          "embedding",
+          "external AI-provider transmission"
+        ],
+        "attribution": "Authors, source title, DOI, source locator, license and modifications note in recipe page/export"
+      },
+      "inventory": {
+        "matrix": "Table 3 has eleven matrix variants; three selected. Other eight remain unextracted.",
+        "textile": "Tables 4–5 and figures contain textile/impact results; no numerical textile extraction in this batch. Two §2.2 assembly designs selected.",
+        "materials": "Tables 1–2 and §§2.1–2.3 reviewed only for selected recipe fields",
+        "figures": "No digitization",
+        "supplements": "Not established"
+      },
+      "derivation": {
+        "operation": "Fiber mass parts = (cement mass parts + activator mass parts) × source dose / 100",
+        "basisLocator": "Table 2 footnote; §2.2 defines geopaste before sands, silica fume and fibers",
+        "restrictions": "Matrix mass scaling only. Carbon textile excluded from matrix; assembly scaling blocked."
+      },
+      "statusCheck": "Exact DOI correction/retraction search returned no notice; not exhaustive clearance"
+    },
+    {
+      "doi": "10.1111/jace.70158",
+      "access": "full-text-observed",
+      "inspectedUrl": "https://ceramics.onlinelibrary.wiley.com/doi/full/10.1111/jace.70158",
+      "identity": "Publisher full HTML and Illinois institutional record agree on authors, DOI and first publication date",
+      "rights": {
+        "license": "CC BY 4.0",
+        "evidence": "Illinois Experts Online availability links DOI to CC BY; followed license link to version 4.0",
+        "evidenceUrl": "https://experts.illinois.edu/en/publications/sodium-based-geopolymer-foamed-composites-reinforced-with-phospha-2/",
+        "allowedOperations": [
+          "access inspected copy",
+          "selected factual extraction",
+          "public display/export of attributed selected facts"
+        ],
+        "notPerformed": [
+          "raw retention",
+          "figure reproduction",
+          "embedding",
+          "external AI-provider transmission"
+        ],
+        "attribution": "Authors, source title, DOI, source locator, license and modifications note in recipe page/export"
+      },
+      "inventory": {
+        "methods": "§§2.1–2.3; selected zero-WP control and four fiber designs",
+        "table3": "Twenty rows; no numerical ingestion because S1 versus WP identifiers unresolved",
+        "figures": "Mechanical and microstructure figures not digitized",
+        "supplements": "Table S1 drying data linked but not inspected"
+      },
+      "unresolved": [
+        "Activator/MK mass split",
+        "Foamer denominator wording differs between §§2.1.1 and 2.2",
+        "Table 3 identifiers differ from methods",
+        "Exact test age"
+      ],
+      "statusCheck": "Targeted DOI correction/retraction search returned no notice; not exhaustive clearance"
+    }
+  ],
+  "records": [
+    {
+      "id": "le-matrix-control",
+      "doi": "10.3390/polym13050751",
+      "sourceLocator": "Table 2 and footnote; Table 3 / 0.00 control; §2.2",
+      "scalable": true,
+      "properties": [
+        {
+          "property": "compressive",
+          "locator": "Table 3 / 0.00 control",
+          "ageHours": 672
+        },
+        {
+          "property": "flexural",
+          "locator": "Table 3 / 0.00 control",
+          "ageHours": 672
+        }
+      ],
+      "missing": "Assay and detailed matrix test-method qualification"
+    },
+    {
+      "id": "le-matrix-6mm-050",
+      "doi": "10.3390/polym13050751",
+      "sourceLocator": "Table 2 and footnote; Table 3 / 6 mm, 0.5 wt%; §2.2",
+      "scalable": true,
+      "properties": [
+        {
+          "property": "compressive",
+          "locator": "Table 3 / 6 mm / 0.5 wt%",
+          "ageHours": 672
+        },
+        {
+          "property": "flexural",
+          "locator": "Table 3 / 6 mm / 0.5 wt%",
+          "ageHours": 672
+        }
+      ],
+      "missing": "Assay and detailed matrix test-method qualification"
+    },
+    {
+      "id": "le-matrix-24mm-075",
+      "doi": "10.3390/polym13050751",
+      "sourceLocator": "Table 2 and footnote; Table 3 / 24 mm, 0.75 wt%; §2.2",
+      "scalable": true,
+      "properties": [
+        {
+          "property": "compressive",
+          "locator": "Table 3 / 24 mm / 0.75 wt%",
+          "ageHours": 672
+        },
+        {
+          "property": "flexural",
+          "locator": "Table 3 / 24 mm / 0.75 wt%",
+          "ageHours": 672
+        }
+      ],
+      "missing": "Assay and detailed matrix test-method qualification"
+    },
+    {
+      "id": "le-textile-control",
+      "doi": "10.3390/polym13050751",
+      "sourceLocator": "§2.2 / TRG preparation; Tables 1–2; §2.3",
+      "scalable": false,
+      "properties": [],
+      "missing": "See recipe limitations; no generated batch or borrowed result"
+    },
+    {
+      "id": "le-textile-6mm-050",
+      "doi": "10.3390/polym13050751",
+      "sourceLocator": "§2.2 / TRG preparation; Tables 1–2; §2.3",
+      "scalable": false,
+      "properties": [],
+      "missing": "See recipe limitations; no generated batch or borrowed result"
+    },
+    {
+      "id": "sbi-foam-control",
+      "doi": "10.1111/jace.70158",
+      "sourceLocator": "§§2.1.1, 2.1.3, 2.2–2.3; zero-WP series",
+      "scalable": false,
+      "properties": [],
+      "missing": "See recipe limitations; no generated batch or borrowed result"
+    },
+    {
+      "id": "sbi-foam-1hf",
+      "doi": "10.1111/jace.70158",
+      "sourceLocator": "§§2.1.1, 2.1.3, 2.2–2.3; zero-WP series",
+      "scalable": false,
+      "properties": [],
+      "missing": "See recipe limitations; no generated batch or borrowed result"
+    },
+    {
+      "id": "sbi-foam-5hf",
+      "doi": "10.1111/jace.70158",
+      "sourceLocator": "§§2.1.1, 2.1.3, 2.2–2.3; zero-WP series",
+      "scalable": false,
+      "properties": [],
+      "missing": "See recipe limitations; no generated batch or borrowed result"
+    },
+    {
+      "id": "sbi-foam-1bf",
+      "doi": "10.1111/jace.70158",
+      "sourceLocator": "§§2.1.1, 2.1.3, 2.2–2.3; zero-WP series",
+      "scalable": false,
+      "properties": [],
+      "missing": "See recipe limitations; no generated batch or borrowed result"
+    },
+    {
+      "id": "sbi-foam-5bf",
+      "doi": "10.1111/jace.70158",
+      "sourceLocator": "§§2.1.1, 2.1.3, 2.2–2.3; zero-WP series",
+      "scalable": false,
+      "properties": [],
+      "missing": "See recipe limitations; no generated batch or borrowed result"
+    }
+  ],
+  "queries": [
+    "\"Effects of Biochar Addition on the Properties of Alkali-Activated Materials\"",
+    "\"10.1111/jace.70158\" \"license\"",
+    "\"ma18030486\" \"Table 2\"",
+    "\"polym13050751\" \"Table 2\" \"0.8\"",
+    "\"Lightweight, Heat-Insulating, Alkali-Activated Slag Composites\" \"doi\"",
+    "\"polym13050751\" \"Geocement\" \"0.8\" \"0.2\"",
+    "\"jace.70158\" \"GPF-0WP\" correction retraction",
+    "site.mdpi.com/2073-4360/13/5/751 \"1\" \"0.8\" \"1.5\" \"0.2\" \"0.1\"",
+    "\"10.3390/polym13050751\" retraction correction",
+    "site.mdpi.com/2073-4360/13/5/751 \"Geocement Activator\" \"0.8\"",
+    "site.mdpi.com/2073-4360/13/5/751 \"79.56\" \"80.05\" \"77.01\"",
+    "site.mdpi.com/2073-4360/13/5/751 \"78.51\" \"14.10\""
+  ],
+  "deferred": [
+    {
+      "doi": "10.3390/ma18030486",
+      "reason": "Three authorized locations attempted; full methods not observed",
+      "attempts": [
+        {
+          "url": "https://www.mdpi.com/1996-1944/18/3/486",
+          "state": "tool-error"
+        },
+        {
+          "url": "https://cris.unibo.it/retrieve/handle/11585/1009660/18a88cc9-e847-4171-b93c-8b7d2c5eae67/materials-18-00486.pdf",
+          "state": "tool-error"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11818575/",
+          "state": "browser-challenge"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma19020277",
+      "reason": "Three authorized locations attempted; full methods not observed",
+      "attempts": [
+        {
+          "url": "https://www.mdpi.com/1996-1944/19/2/277",
+          "state": "tool-error"
+        },
+        {
+          "url": "https://epubl.ktu.edu/object/elaba:271767901/index.html",
+          "state": "metadata-only"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12842667/",
+          "state": "browser-challenge"
+        }
+      ]
+    }
+  ],
+  "next": [
+    "Review source PDF version/layout and remaining matrix rows",
+    "Resolve foam batch denominators, result IDs and test ages before scaling or numerical indexing",
+    "Retrieve authorized biochar methods when access changes; do not repeat challenges",
+    "Complete public library ingestion separately from curated recipes"
+  ]
+}

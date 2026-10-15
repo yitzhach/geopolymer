@@ -1,3 +1,4 @@
+import {fiberRecipes} from './fiber-recipes.js';
 import {polypropyleneRecipes} from './polypropylene-recipes.js';
 import {novelRecipeAdditions} from './novel-recipes.js';
 import {recipeAdditions} from './recipe-additions.js';
@@ -26,7 +27,7 @@ export const literatureMixes=[
   summary:'GS-1.0 composite tested at laboratory temperature; not the separate 1000 °C in-situ result.',basis:'Binder molar ratios and composite filler volume; no directly extracted gram batch.',ingredients:[],
   parameters:[['Precursor','Mefisto L05 calcined claystone'],['Binder Si/Al; K/Al','1.5; 1.0 (molar atomic ratios)'],['Total binder water','30% by mass, including activator water'],['Chamotte','65% by volume of composite']],curing:'Sealed at 60 °C for 4 h; demolded, then laboratory cure at 20 °C for 7 days as described in §2.2.',method:'30 × 30 × 64 mm prisms; six specimens; 0.5 MPa/s. Paper cites ISO 1920-10 for compression/modulus measurements.',limitations:'Volume fraction cannot become filler grams without density and basis checks. Curing narrative and test-age wording retained separately. No automatic transfer of targets to another metakaolin.',scalable:false}
 ];
-literatureMixes.push(...recipeAdditions,...novelRecipeAdditions,...polypropyleneRecipes);
+literatureMixes.push(...recipeAdditions,...novelRecipeAdditions,...polypropyleneRecipes,...fiberRecipes);
 for (const m of literatureMixes) {
  m.revision=1;
  m.activation ||= 'potassium';
@@ -36,7 +37,7 @@ for (const m of literatureMixes) {
  if(m.id==='alameri-t2m9')m.results.unshift({property:'compressive',ageHours:168,value:98,unit:'MPa',kind:'source-reported',context:m.method});
  m.tweaks ||= [{kind:'Proposed experiment',text:'Duplicate this reference in the notebook, change one variable and measure the result. Do not carry the literature strength over to an adapted recipe.'}];
 }
-export function resultNotes(m){return m.results.length?m.results.map(r=>`${r.property}: ${r.value} ${r.unit} at ${r.ageHours} hours${r.context?' ('+r.context+')':''}`).join('; '):'Numerical results not extracted; consult source.';}
+export function resultNotes(m){return m.results.length?m.results.map(r=>`${r.property}: ${r.value}${r.spread!==undefined?' ± '+r.spread+' ('+r.spreadKind+')':''} ${r.unit} at ${r.ageHours} hours${r.context?' ('+r.context+')':''}`).join('; '):'Numerical results not extracted; consult source.';}
 export function mixProject(id,total){
  const m=literatureMixes.find(x=>x.id===id);if(!m?.scalable)throw Error('This record has no complete mass proportions to scale.');
  let recipe={name:m.title+' — literature starting point',rows:m.ingredients.map(r=>({...r,comp:{...r.comp},source:m.url,provenance:{kind:'assumption',basis:'Mass proportions from source; only stated water retained. Other chemistry unassigned. '+m.basis}}))};
