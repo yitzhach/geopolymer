@@ -1,6 +1,37 @@
 # Geopolymer — current handoff
 Updated 15 October 2026 (Eastern).
 
+## Latest checkpoint — hemp, basalt and carbon scout, 15 October 2026
+- Owner requested several studies on hemp, basalt, carbon/biochar and unique additions.
+- Saved ten selected studies: seven new staged candidates and three prior leads;
+  no duplicates in the 161-record public catalog. Three full texts partly inspected.
+- See research/briefings/fibers-carbon-2026-10-15.md and matching batch JSON.
+  Full-text priorities: hemp/basalt/phosphate-waste foam, then basalt/carbon textile.
+  Hemp fabric source has preparation/test inconsistencies; hold recipe conversion.
+- Evidence separates fabric, chopped fiber, modified nanofiber, graphite and biochar.
+  Three research questions retain controls, tradeoffs and source-access gaps.
+- These are staged research records; no new public recipes from this scout.
+  The separately completed PP comparison brings public recipes to 20 (15 scalable).
+- Local checks: all 17 Node test files, knowledge validation and recipe browser QA
+  pass. Main publication and remote CI are checked after commit.
+
+## Latest checkpoint — polypropylene comparison and CI repair, 15 October 2026
+- Main repair dd9e87f passes GitHub run 38718555127 after creating the ignored
+  test workspace on clean checkout. All 76 CI Node tests and browser QA pass.
+- Continued recipe research: 18 → 20 references; 15 support proportional scaling.
+  Added Nematollahi PP0 control and PP1.00 fiber design. The latter is read-only:
+  fiber volume is not a mass fraction. Activator solution split is explicitly derived.
+- Ingredient captions now preserve source units for mixed-basis references.
+  No new strength numbers; CMC confounding, heat cure and bond/shear distinction
+  retained. Library/pilot counts remain 161 / 5 / 62 / 275.
+- Audit: research/batches/recipes-polypropylene-2026-10-15.json. Hemp/perlite source
+  deferred after methods retrieval failed; retracted printing lead excluded.
+- Local Node suite and validation pass; focused browser QA passed for recipes.
+  Final publication/CI state is recorded below when available.
+- Next: complete lightweight-source access and numerical/method extraction;
+  qualify fiber mass conversion before enabling scaling. Do not turn snippets into
+  recipes. OpenAlex/real AI integration still pending runtime configuration.
+
 ## Latest checkpoint — published recipe expansion, 15 October 2026
 - User authorized push to main and continued published/novel recipe expansion.
 - Curated recipes: 15 → 18. Added Vogt GP9.0 from existing pilot evidence and

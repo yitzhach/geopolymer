@@ -363,3 +363,13 @@ a curated collection, not first invention. Full-batch and age uncertainties bloc
 unsupported calculator transfer and numeric matches. Preserve the 161-record
 library and existing pilot observations; recipe-source citation is not automatic
 bibliographic ingestion. Add no unverified shear or lightweight formulation.
+
+## 15 October 2026 — PP mass/volume boundary and clean checkout
+
+The new printing control may scale its published mass proportions; its fiber
+comparison may not convert vol% to grams without a qualified yield basis.
+Displayed source units take precedence over generic quantity captions. Keep
+coupled CMC changes visible. Existing authorization covers the follow-up push.
+Fix OpenAlex test setup to create ignored work/ in a fresh checkout; GitHub run
+38718555127 confirms the repair. Continue lightweight research without promoting
+an inaccessible abstract to a verified recipe.

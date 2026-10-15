@@ -6,7 +6,7 @@ import {selectRecipes,planRequirements,catalogExport,testAges} from '../src/reci
 import {mixDetail} from '../src/literature-ui.js';
 import {newTrial} from '../src/experiment-notebook.js';
 test('mass-proportion source records scale without altering source results or notebook measurements',()=>{
- assert.equal(recipeAdditions.length,11);assert.equal(literatureMixes.length,18);assert.equal(new Set(literatureMixes.map(m=>m.id)).size,18);
+ assert.equal(recipeAdditions.length,11);assert.equal(literatureMixes.length,20);assert.equal(new Set(literatureMixes.map(m=>m.id)).size,20);
  const before=JSON.stringify(literatureMixes);
  for(const m of recipeAdditions){const p=mixProject(m.id,2000);assert.ok(Math.abs(p.recipe.rows.reduce((s,r)=>s+r.mass,0)-2000)<1e-8);assert.ok(m.url.startsWith('https://'));assert.ok(m.locator);assert.ok(m.method);assert.ok(m.curing);assert.equal(newTrial(p).results.length,0);}
  assert.equal(JSON.stringify(literatureMixes),before);
@@ -24,7 +24,7 @@ test('catalog filters and export preserve references and unknown results',()=>{
  assert.equal(selectRecipes({query:'xyz-no-match'}).length,0);assert.ok(selectRecipes({activation:'sodium'}).every(m=>m.activation==='sodium'));
  assert.equal(selectRecipes({query:'KASIL 2040'}).length,1);
  const k=literatureMixes.find(m=>m.id==='bong-k-ka20-25');assert.equal(k.strength,null);assert.deepEqual(k.results,[]);assert.doesNotMatch(mixDetail(k),/null MPa/);assert.match(mixDetail(k),/Not recorded/);
- assert.equal(JSON.parse(JSON.stringify(catalogExport())).records.length,18);
+ assert.equal(JSON.parse(JSON.stringify(catalogExport())).records.length,20);
 });
 
 test('novel collection preserves dosage bases, age boundaries and non-scalable partial recipes',()=>{
@@ -36,10 +36,23 @@ test('novel collection preserves dosage bases, age boundaries and non-scalable p
  assert.ok(selectRecipes({collection:'novel',query:'PVA',activation:'sodium'}).every(m=>m.id.startsWith('meng-')));
  assert.equal(selectRecipes({collection:'novel',query:'PVA'}).length,2);
  assert.equal(selectRecipes({focus:'shear'}).length,0);assert.equal(selectRecipes({focus:'lightweight'}).length,0);
- assert.deepEqual(selectRecipes({focus:'bond'}).map(m=>m.id),['bong-na-n-25']);
+ assert.deepEqual(selectRecipes({focus:'bond'}).map(m=>m.id),['bong-na-n-25','nematollahi-pp0','nematollahi-pp1']);
  assert.ok(selectRecipes({focus:'flexural'}).some(m=>m.id==='meng-pt5'));
  assert.ok(!planRequirements({property:'flexural',target:1}).matches.some(m=>m.id.startsWith('meng-')));
  const gp9=literatureMixes.find(m=>m.id==='vogt-gp9');assert.equal(gp9.results.length,1);assert.equal(gp9.results[0].ageHours,672);
  assert.match(mixDetail(gp9),/Below detection; limit not reported/);
  assert.deepEqual(mixProject('vogt-gp9',100).recipe.rows.map(r=>r.mass),[58.98,5.83,35.19]);
+});
+
+test('PP recipe keeps volume fibers out of mass scaling and preserves activator solution ratio',()=>{
+ const control=literatureMixes.find(m=>m.id==='nematollahi-pp0');
+ const fiber=literatureMixes.find(m=>m.id==='nematollahi-pp1');
+ const batch=mixProject(control.id,3007);
+ assert.ok(Math.abs(batch.recipe.rows.reduce((sum,r)=>sum+r.mass,0)-3007)<1e-8);
+ assert.ok(Math.abs(batch.recipe.rows[2].mass/batch.recipe.rows[1].mass-2.5)<1e-10);
+ assert.equal(control.ingredients.at(-1).mass,0.040);assert.equal(fiber.ingredients.at(-1).mass,0.004);
+ assert.equal(fiber.parameters[0][1],'1 vol%');assert.throws(()=>mixProject(fiber.id,1000));
+ assert.match(mixDetail(fiber),/Mass parts per fly ash; excludes separately stated fiber/);
+ assert.doesNotMatch(mixDetail(fiber),/Source quantities .kg\/m³; incomplete batch/);
+ assert.ok(!planRequirements({property:'bond',target:0.1,ageHours:24}).matches.some(m=>m.id.startsWith('nematollahi')));
 });

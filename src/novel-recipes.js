@@ -18,11 +18,13 @@ export const novelRecipeAdditions=[
 ];
 // These labels indicate study scope, never a guaranteed benefit.
 export const recipeFocus={
+ 'nematollahi-pp0':['compressive','flexural','bond','workability'], 'nematollahi-pp1':['compressive','flexural','bond','workability'],
  'vogt-gp0':['compressive'], 'vogt-gp6':['compressive'], 'vogt-gp75':['compressive'], 'vogt-gp9':['compressive'],
  'bong-na-n-25':['compressive','flexural','bond','workability'], 'bong-k-ka20-25':['compressive','workability'],
  'alameri-t2m9':['compressive'], 'meng-pt5':['compressive','flexural'], 'meng-pt6':['compressive']
 };
 export const novelRecipeGroups=[
+ {id:'polypropylene',title:'Polypropylene + cellulose modifier',focus:'Bending behavior, printability and interlayer bond',recipes:['nematollahi-pp0','nematollahi-pp1'],note:'Control proportions can scale. The fiber design keeps its volume basis and cannot yet transfer to a gram batch. Both fiber and CMC change.'},
  {id:'hybrid-fibers',title:'PVA fibers + carbon nanotubes',focus:'Compression; flexure needs further extraction',recipes:['meng-pt5','meng-pt6'],note:'Partial published designs. Compare only the stated ages; neither is a complete mass recipe.'},
  {id:'silica-fume',title:'Silica fume additions',focus:'Compression and early-age tradeoffs',recipes:['vogt-gp0','vogt-gp6','vogt-gp75','vogt-gp9'],note:'One study with a control. More additive is not a guarantee of better performance.'},
  {id:'printing-admixes',title:'Borax + cellulose modifier',focus:'Printability, flexure and interlayer bond',recipes:['bong-na-n-25','bong-k-ka20-25'],note:'Printed interlayer tension is different from shear or adhesion to an existing substrate.'},

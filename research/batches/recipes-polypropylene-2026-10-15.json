@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-15",
+  "recipesBefore": 18,
+  "recipesAfter": 20,
+  "scalableAfter": 15,
+  "libraryBefore": 161,
+  "libraryAfter": 161,
+  "source": {
+    "doi": "10.3390/ma11122352",
+    "title": "Effect of Polypropylene Fibre Addition on Properties of Geopolymers Made by 3D Printing for Digital Construction",
+    "publisherUrl": "https://www.mdpi.com/1996-1944/11/12/2352",
+    "inspectedUrl": "https://pdfs.semanticscholar.org/95d9/13e9485891c93605cb6f84df43b12c435179.pdf",
+    "access": "full-text-observed",
+    "channel": "session web tools",
+    "identity": "PDF title, authors, DOI and publication date match publisher index",
+    "versionCaveat": "Parsed PDF includes duplicated text and FOR PEER REVIEW headers. Selected quantities separately cross-checked against publisher-indexed Table 2. No visual PDF QA: screenshot calls did not expose usable image content.",
+    "rights": {
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "basis": "PDF final-page copyright and publisher-indexed notice",
+      "selectedFactsAndPublicExport": "allowed with attribution; authors/source/license displayed",
+      "rawRetention": "not performed",
+      "figures": "not reproduced or digitized"
+    },
+    "statusCheck": "Bounded exact-DOI correction/retraction search found no notice; not comprehensive clearance"
+  },
+  "inventory": {
+    "Table1": "Fiber characteristics; no full extraction",
+    "Table2": "Five variants; selected PP0 and PP1.00 only",
+    "Table3": "Flow results; not integrated as numerical strength",
+    "Figures1to12": "Not digitized; no graph values inferred",
+    "methods": "Sections 2.1–2.5 inspected for relevant quantities, cure and test scope",
+    "supplements": "Not established"
+  },
+  "records": [
+    {
+      "id": "nematollahi-pp0",
+      "sourceMix": "PP0",
+      "locators": ["Table 2 / PP0", "Section 2.1 / activator", "Section 2.3 / curing"],
+      "scaling": "Allowed for stated mass proportions only; chemistry remains unassigned except documented silicate water",
+      "derivation": {
+        "operation": "Split combined activator solution by stated silicate-to-hydroxide solution mass ratio",
+        "hydroxideSolution": "0.467 / (1 + 2.5)",
+        "silicateSolution": "0.467 * 2.5 / (1 + 2.5)",
+        "basis": "mass relative to fly ash; solutions are as supplied, not dry solids",
+        "check": "Sum reproduces 0.467; ratio reproduces 2.5"
+      }
+    },
+    {
+      "id": "nematollahi-pp1",
+      "sourceMix": "PP1.00",
+      "locators": ["Table 2 / PP1.00 and footnote", "Section 2.1 / activator", "Section 2.3 / curing"],
+      "scaling": "Blocked: fiber volume fraction cannot be silently treated as mass parts",
+      "missing": "Verified total batch/yield basis for fiber mass conversion"
+    }
+  ],
+  "crossStudyLimits": [
+    "Same publication and experiment family, not two replications",
+    "CMC varies with fiber dose; comparison does not isolate fiber alone",
+    "Section 3.4 reports an interlayer-bond tradeoff; no substrate adhesion or shear inference",
+    "Heat cure cannot establish ambient performance",
+    "No new numerical strength observations or complete-paper extraction claimed"
+  ],
+  "deferred": [
+    {
+      "doi": "10.3390/polym18050653",
+      "title": "Hemp Fiber and Expanded Perlite-Incorporated Lightweight Inorganic Polymer Mortars",
+      "access": "abstract-and-rights-observed; methods not inspected",
+      "attempts": [
+        {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12986801/", "result": "initial article landing/abstract; later browser-challenge"},
+        {"url": "https://www.mdpi.com/2073-4360/18/5/653", "result": "tool-error"},
+        {"url": "https://avesis.erciyes.edu.tr/yayin/2cc04930-5e0a-4a1b-9bb9-0300f3ffb331/hemp-fiber-and-expanded-perlite-incorporated-lightweight-inorganic-polymer-mortars-mechanical-thermal-insulation-high-temperature-resistance-microstructural-characteristics-and-life-cycle-assessment", "result": "institutional metadata/abstract; no full-text link observed"}
+      ],
+      "decision": "No recipe or numerical performance added; heat-cured system is not an ambient precedent"
+    },
+    {
+      "doi": "10.3390/buildings14072068",
+      "url": "https://www.mdpi.com/2075-5309/14/7/2068",
+      "decision": "Excluded: publisher-indexed title marked RETRACTED. Not present in canonical library."
+    }
+  ],
+  "queries": [
+    "\"geopolymer\" \"expanded perlite\" \"mix proportions\" open access recipe",
+    "\"geopolymer\" \"polypropylene\" \"2352\" \"Table 2\"",
+    "\"polym18050653\" pdf",
+    "\"Hemp Fiber and Expanded Perlite\" \"Table 3\"",
+    "\"Hemp Fiber and Expanded Perlite\" \"Table 2\"",
+    "\"10.3390/ma11122352\" retraction correction",
+    "site.mdpi.com/1996-1944/11/12/2352 \"PP0\" \"0.467\""
+  ],
+  "review": "AI source review and automated checks only; no human/domain review",
+  "resume": "Seek authorized lightweight full text; resolve fiber volume/mass bases and review further strength figures separately. Preserve heat-cure and interlayer distinctions."
+}

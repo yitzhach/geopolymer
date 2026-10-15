@@ -1,5 +1,14 @@
 # Recipe database and future formulation advisor
 
+## 15 October 2026 — polypropylene comparison
+
+Current total: 20 references; 15 support proportional scaling. PP0 adds a printing
+control with a derived activator-solution split; PP1.00 retains the fiber volume
+basis and blocks mass scaling. Both belong to one study and vary CMC as well as
+fiber content. No numeric strength is inferred from graphs. Source-unit captions
+and calculator restrictions are tested. See the polypropylene batch audit for
+rights, exact locators, derivation and deferred lightweight research.
+
 ## 15 October 2026 — novel admixtures and fibers
 
 Published recipes now has 18 records (15 preserved + 3 additions). New GP9.0
