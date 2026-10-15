@@ -13,7 +13,9 @@ Updated 15 October 2026 (Eastern).
 - These are staged research records; no new public recipes from this scout.
   The separately completed PP comparison brings public recipes to 20 (15 scalable).
 - Local checks: all 17 Node test files, knowledge validation and recipe browser QA
-  pass. Main publication and remote CI are checked after commit.
+  pass. Implementation/research commit b0f6d55 is pushed to main. GitHub run
+  38719953377 passed Node tests and all six browser suites.
+  Live deployment remains unverified; this checkpoint is repository/CI evidence.
 
 ## Latest checkpoint — polypropylene comparison and CI repair, 15 October 2026
 - Main repair dd9e87f passes GitHub run 38718555127 after creating the ignored
@@ -27,7 +29,7 @@ Updated 15 October 2026 (Eastern).
 - Audit: research/batches/recipes-polypropylene-2026-10-15.json. Hemp/perlite source
   deferred after methods retrieval failed; retracted printing lead excluded.
 - Local Node suite and validation pass; focused browser QA passed for recipes.
-  Final publication/CI state is recorded below when available.
+  Published in b0f6d55; GitHub run 38719953377 passed.
 - Next: complete lightweight-source access and numerical/method extraction;
   qualify fiber mass conversion before enabling scaling. Do not turn snippets into
   recipes. OpenAlex/real AI integration still pending runtime configuration.
