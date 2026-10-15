@@ -343,3 +343,23 @@ OpenAlex guidance says Unpaywall uses the same underlying data; it is not indepe
 OA verification. Google Scholar remains a manual seed source. Three web-tool access
 checks are recorded in research/batches/scout-access-2026-10-14.json. Catalog and
 measurements unchanged; cloud API and unattended synthesis remain unconfigured.
+
+## 15 October 2026 — immediate research batch
+
+Run the authorized interactive scout now and disable only the delayed one-off
+continuation. Stage new discoveries with source access and evidence-depth labels;
+keep the canonical public catalog unchanged until review is complete. Six new
+candidates and one existing follow-up yielded one partially inspected full text.
+Three proposed experiment questions are hypotheses, not validated formulations.
+See research/briefings/materials-scout-2026-10-15.md for the comparison and resume
+point. Publisher/tool access failures are not evidence of paywalls.
+
+## 15 October 2026 — published recipes and novel materials
+
+Owner authorized pushing completed work to main. Expand to 18 recipe records;
+keep partial hybrid-fiber designs read-only, retain censored early-age results,
+and distinguish study scope from verified gains in property filters. Novel means
+a curated collection, not first invention. Full-batch and age uncertainties block
+unsupported calculator transfer and numeric matches. Preserve the 161-record
+library and existing pilot observations; recipe-source citation is not automatic
+bibliographic ingestion. Add no unverified shear or lightweight formulation.

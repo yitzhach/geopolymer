@@ -1,9 +1,10 @@
 import {literatureMixes} from './literature-mixes.js';
+import {focusOf,novelRecipeIds} from './novel-recipes.js';
 export const testAges=[1,4,24,72,168,336,672];
 export const ageLabels=['1 hour','4 hours','24 hours','72 hours','1 week','2 weeks','28 days'];
-export function selectRecipes({query='',activation='',evidence=''}={}){
+export function selectRecipes({query='',activation='',evidence='',focus='',collection=''}={}){
  const q=query.trim().toLowerCase();
- return literatureMixes.filter(m=>(!activation||m.activation===activation)&&(!evidence||m.type===evidence)&&(!q||[m.title,m.authors,m.system,m.family,m.summary,...m.ingredients.map(r=>r.name)].join(' ').toLowerCase().includes(q)));
+ return literatureMixes.filter(m=>(!focus||focusOf(m).includes(focus))&&(!collection||collection==='novel'&&novelRecipeIds.has(m.id))&&(!activation||m.activation===activation)&&(!evidence||m.type===evidence)&&(!q||[m.title,m.authors,m.system,m.family,m.summary,...m.parameters.flat(),...m.ingredients.map(r=>r.name)].join(' ').toLowerCase().includes(q)));
 }
 export function planRequirements({property='compressive',target='',ageHours=672,thickness='',notes=''}={}){
  if(!['compressive','flexural','shear','bond','thin'].includes(property))throw Error('Choose a supported goal.');

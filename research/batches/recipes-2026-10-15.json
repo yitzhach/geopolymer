@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-15",
+  "scope": "Three curated recipe additions and novel-material navigation; partial extraction",
+  "recipesBefore": 15,
+  "recipesAfter": 18,
+  "libraryBefore": 161,
+  "libraryAfter": 161,
+  "records": [
+    {
+      "recipeId": "vogt-gp9",
+      "doi": "10.3390/ma14185396",
+      "existingPublicationId": "ke-5396",
+      "sourceMixId": "5396-GP9.0",
+      "sourceObservationIds": ["5396-obs-10", "5396-obs-11", "5396-obs-12"],
+      "basis": "Existing AI-source-checked pilot records; not a new web extraction",
+      "locators": ["Table 2, GP9.0", "Table 4, GP9.0", "Section 3.2.1"],
+      "review": "Checked quantity total and mass basis; retained below-detection states and unknown detection limits",
+      "calculator": "Proportional scaling only, on the same basis as existing curated Vogt variants; no inferred assays or performance",
+      "rights": "Existing asset-5396 rights record retained"
+    },
+    {
+      "recipeIds": ["meng-pt5", "meng-pt6"],
+      "doi": "10.3389/fmats.2021.773103",
+      "url": "https://www.frontiersin.org/journals/materials/articles/10.3389/fmats.2021.773103/full",
+      "existingPublicationId": null,
+      "bibliographicScope": "Recipe citations added; canonical library addition deferred to a separate bibliography batch",
+      "access": "full-text-observed",
+      "channel": "session web tool",
+      "inventory": {
+        "materials": "Tables 1–2; not fully extracted",
+        "formulations": "Table 3; selected rows only",
+        "methods": "Raw Materials; Mix Proportions and Curing Methods; Mechanical Properties",
+        "mechanicalFigures": "Figures 1–4; no digitization",
+        "otherFigures": "Figures 5–11; not extracted",
+        "poreResults": "Table 4; not extracted",
+        "supplements": "Not established"
+      },
+      "selectedLocators": ["Table 3, PT5 and PT6", "Mix Proportions and Curing Methods", "Single-doped CNT discussion (metakaolin mass basis)", "Mixed-group Compressive Strength discussion, Figure 4 narrative"],
+      "extraction": "Partial AI source check; two compression results only",
+      "calculator": "Blocked: complete batch quantities unresolved",
+      "unresolved": ["Do not assign an age to the separate flexural values without resolving source context", "No graph estimates", "No independent replication", "No universal improvement claim: the paper also reports unfavorable hybrid variants"],
+      "statusReview": {
+        "query": "\"10.3389/fmats.2021.773103\" correction retraction",
+        "result": "No correction/retraction notice located in bounded publisher/search inspection; not an exhaustive Crossmark review"
+      },
+      "rights": {
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "evidence": "Publisher copyright section and its license link inspected",
+        "attribution": "Authors, source and license displayed on each recipe; selected facts reformatted",
+        "operations": {"access": "allowed", "selectedFactualExtraction": "allowed", "publicSelectedFacts": "allowed", "publicJSONExport": "allowed", "rawRetention": "not performed", "thirdPartyFigures": "not used", "externalModelTransmission": "not assessed"}
+      }
+    }
+  ],
+  "verification": "Software checks and AI source review only; no human/domain review",
+  "discoveryQueries": ["site.frontiersin.org geopolymer fibers mixture Table PVA flexural", "site.mdpi.com geopolymer polypropylene fiber mix proportions Table 2 ambient lightweight"],
+  "failedAccess": [
+    {"url": "https://www.mdpi.com/1996-1944/11/12/2352", "result": "tool-error"},
+    {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6316904/", "result": "browser-challenge"},
+    {"url": "https://www.mdpi.com/2073-4360/18/7/873", "result": "tool-error"}
+  ],
+  "next": "Resolve full fiber batch and flexural ages; continue lightweight and shear sources; do not convert discovery snippets into recipes"
+}

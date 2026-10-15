@@ -1,5 +1,29 @@
 # Recipe database and future formulation advisor
 
+## 15 October 2026 — novel admixtures and fibers
+
+Published recipes now has 18 records (15 preserved + 3 additions). New GP9.0
+uses the existing source-checked pilot extraction and supports proportional mass
+scaling. Two Meng PVA/CNT designs retain distinct dose bases and ages; their full
+batch is unresolved, so calculator transfer is disabled. License and dated source
+review appear on their pages. One paper supplies both designs, not two independent
+replications. Numerical flexural values with unresolved age are not searchable.
+
+The novel-recipes section groups silica fume, printing modifiers, steel fibers and
+PVA/CNT designs. Collection and study-focus filters are combinable with existing
+search/activation/evidence filters. Focus means studied scope, not guaranteed gain.
+Shear and lightweight gaps are explicit; perlite is only a linked research lead.
+GP9.0 preserves below-detection early-age results without turning them into zero.
+Existing storage, scaling, planner property/age joins and source IDs are retained.
+See research/batches/recipes-2026-10-15.json for rights, locators and remaining gaps.
+
+Verification: all 17 Node test files, schema validation, 154-route production
+build and all six browser suites pass. Final recipe checks include combined
+filters, jump-link visibility, missing values, partial-transfer blocking, export
+and desktop/mobile layout.
+
+The earlier implementation notes below describe the 15-record baseline.
+
 Implemented 9 October 2026 on codex/potassium-literature-mixes.
 
 ## Current deliverable

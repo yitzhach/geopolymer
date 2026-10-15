@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-15",
+  "scope": "Bounded research scout; staged candidates and targeted qualitative notes, not complete extraction or public ingestion",
+  "channel": "session web search/open tools; not OpenAlex API or cloud HTTP transport",
+  "googleScholar": "No automated Scholar retrieval performed; publisher, institutional repository and indexed discovery used",
+  "catalogBefore": 161,
+  "catalogAfter": 161,
+  "counts": {
+    "newDoiCandidates": 6,
+    "existingRecordFollowups": 1,
+    "fullTextsObserved": 1,
+    "completeExtractions": 0,
+    "publicAdditions": 0
+  },
+  "queries": [
+    "geopolymer ambient curing shrinkage biochar internal curing open access experimental",
+    "geopolymer metakaolin coating adhesion substrate roughness full text",
+    "geopolymer cellulose nanofiber shrinkage workability open access",
+    "geopolymer waste glass perlite ambient curing thermal conductivity open access",
+    "geopolymer nanocellulose fibers shrinkage open access experimental",
+    "geopolymer expanded perlite waste glass thermal conductivity open access",
+    "\"Effects of biochar on the shrinkage\" \"doi\"",
+    "\"Scale-up experiments of expanded perlite-geopolymer\" pdf",
+    "\"geopolymer\" \"biochar\" \"141973\" inhibition",
+    "\"Scale-up experiments\" \"140166\"",
+    "\"Effects of biochar\" \"100345\"",
+    "\"geopolymer\" \"2704381\"",
+    "\"nanocellulose\" \"136421\" pdf"
+  ],
+  "searchScope": {
+    "dateFilter": null,
+    "focused": [
+      "shrinkage and rheology",
+      "coating adhesion"
+    ],
+    "exploratory": "lightweight/perlite/waste materials",
+    "opposing": "biochar inhibition and water-related deterioration"
+  },
+  "records": [
+    {
+      "id": "scout-2026-10-15-coatings",
+      "doi": "10.3389/fceng.2021.667982",
+      "title": "Geopolymer Composite Coatings Based on Moroccan Clay and Sands for Restoration Application",
+      "existingId": null,
+      "sourceUrl": "https://www.frontiersin.org/journals/chemical-engineering/articles/10.3389/fceng.2021.667982/full",
+      "access": "full-text-observed",
+      "identityBasis": "publisher title/DOI and methods/results observed",
+      "reportedLicense": "CC BY; article copyright section observed",
+      "extraction": "partial",
+      "notes": [
+        {
+          "locator": "Materials and Methods / Raw Materials; Coating Process",
+          "finding": "Potassium-silicate activation with metakaolin/calcined Moroccan clays; coatings consolidated for 72 hours before controlled-humidity or outdoor storage.",
+          "kind": "reported-method"
+        },
+        {
+          "locator": "Results / Figure 6 discussion",
+          "finding": "Limestone adhesion decreased at higher humidity; substrate-specific behavior prevents a universal bond-strength ranking.",
+          "kind": "reported-outcome"
+        },
+        {
+          "locator": "Results / viscosity discussion before Table 2",
+          "finding": "Two clay-only formulations were rejected for spray application because consolidation was too slow or too fast.",
+          "kind": "unfavorable-outcome"
+        },
+        {
+          "locator": "Results / substrate paragraph and Table 1 / Concrete / Ra",
+          "finding": "Concrete roughness conflicts: narrative 8.5 µm; Table 1 7 µm. Hold numerical comparison pending resolution.",
+          "kind": "source-conflict"
+        }
+      ],
+      "checkedDate": "2026-10-15",
+      "statusCheck": "unassessed; correction/retraction review pending",
+      "editorial": "draft",
+      "verification": "AI source review only; no human/domain review",
+      "rights": {
+        "originalBrief": "original limited factual notes with source attribution",
+        "rawRetention": "not retained",
+        "publicNumericExport": "not approved",
+        "externalModelTransmission": "not assessed"
+      },
+      "nextAction": "Inventory complete paper and resolve discrepancies before structured numeric extraction",
+      "accessAttempts": [
+        {
+          "url": "https://www.frontiersin.org/journals/chemical-engineering/articles/10.3389/fceng.2021.667982/full",
+          "result": "full-text-observed",
+          "sections": [
+            "Materials and Methods",
+            "Results",
+            "Copyright"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scout-2026-10-15-nanocellulose-mgo",
+      "doi": "10.1016/j.conbuildmat.2024.136421",
+      "title": "Rheology control and shrinkage mitigation of 3D printed geopolymer concrete using nanocellulose and magnesium oxide",
+      "existingId": null,
+      "sourceUrl": "https://research.tue.nl/en/publications/rheology-control-and-shrinkage-mitigation-of-3d-printed-geopolyme/",
+      "access": "metadata-only",
+      "identityBasis": "institutional repository title/DOI observed",
+      "reportedLicense": "Repository labels final published PDF CC BY; PDF not inspected",
+      "extraction": "unstarted",
+      "notes": [
+        {
+          "locator": "Repository abstract",
+          "finding": "Authors report testing nanofibrillated cellulose with an MgO expansive agent for printing rheology and shrinkage. Exact formulations, cure, dose bases and numerical effects remain unverified.",
+          "kind": "abstract-only-lead"
+        }
+      ],
+      "checkedDate": "2026-10-15",
+      "statusCheck": "unassessed; correction/retraction review pending",
+      "editorial": "draft",
+      "verification": "AI source review only; no human/domain review",
+      "rights": {
+        "originalBrief": "original limited factual notes with source attribution",
+        "rawRetention": "not retained",
+        "publicNumericExport": "not approved",
+        "externalModelTransmission": "not assessed"
+      },
+      "nextAction": "Retrieve authorized full text; verify identity, version, rights, methods and results before extraction",
+      "accessAttempts": [
+        {
+          "url": "https://research.tue.nl/en/publications/rheology-control-and-shrinkage-mitigation-of-3d-printed-geopolyme/",
+          "result": "metadata-only"
+        },
+        {
+          "url": "https://research.tue.nl/en/publications/rheology-control-and-shrinkage-mitigation-of-3d-printed-geopolyme/",
+          "linkLabel": "pdf / Final published version",
+          "result": "tool-error"
+        },
+        {
+          "url": "https://files.core.ac.uk/download/613216276.pdf",
+          "result": "tool-error",
+          "detail": "403"
+        }
+      ]
+    },
+    {
+      "id": "scout-2026-10-15-bamboo-silane",
+      "doi": "10.1016/j.cemconcomp.2026.106672",
+      "title": "Shrinkage mitigation of 3D printed geopolymer concrete through rheology control by synergistic silane and bamboo fibers",
+      "existingId": null,
+      "sourceUrl": "https://scholars.cityu.edu.hk/en/publications/shrinkage-mitigation-of-3d-printed-geopolymer-concrete-through-rh/",
+      "access": "metadata-only",
+      "identityBasis": "institutional repository title/DOI observed",
+      "reportedLicense": "Repository copyright statement identifies CC BY 4.0 final version; PDF not inspected",
+      "extraction": "unstarted",
+      "notes": [
+        {
+          "locator": "Repository abstract",
+          "finding": "Bamboo fibers and isooctyltriethoxysilane are investigated together in printed geopolymer concrete. Authors describe property-dependent optima; transfer to cast specimens or coatings is untested here.",
+          "kind": "abstract-only-lead"
+        }
+      ],
+      "checkedDate": "2026-10-15",
+      "statusCheck": "unassessed; correction/retraction review pending",
+      "editorial": "draft",
+      "verification": "AI source review only; no human/domain review",
+      "rights": {
+        "originalBrief": "original limited factual notes with source attribution",
+        "rawRetention": "not retained",
+        "publicNumericExport": "not approved",
+        "externalModelTransmission": "not assessed"
+      },
+      "nextAction": "Retrieve authorized full text; verify identity, version, rights, methods and results before extraction",
+      "accessAttempts": [
+        {
+          "url": "https://scholars.cityu.edu.hk/en/publications/shrinkage-mitigation-of-3d-printed-geopolymer-concrete-through-rh/",
+          "result": "metadata-only"
+        },
+        {
+          "url": "https://scholars.cityu.edu.hk/en/publications/shrinkage-mitigation-of-3d-printed-geopolymer-concrete-through-rh/",
+          "linkLabel": "491112620.pdf / Final Published version",
+          "result": "tool-error"
+        }
+      ]
+    },
+    {
+      "id": "scout-2026-10-15-biochar-processing",
+      "doi": "10.1016/j.clema.2025.100345",
+      "title": "Effects of biochar on the shrinkage and mechanical properties of sustainable engineered geopolymer composites: A comparative study between biochar sources, pyrolysis temperatures, and particle sizes",
+      "existingId": null,
+      "sourceUrl": "https://doaj.org/article/73dfa817ff674a4abdfdfb8b0c276fcb",
+      "access": "metadata-only",
+      "identityBasis": "DOAJ indexed title/DOI; primary bibliographic confirmation pending",
+      "reportedLicense": "unassessed",
+      "extraction": "unstarted",
+      "notes": [
+        {
+          "locator": "DOAJ indexed abstract",
+          "finding": "Compares biochar feedstock, pyrolysis conditions and particle size. Useful material-identity lead; no extracted effects or recommended dose.",
+          "kind": "indexed-discovery-lead"
+        }
+      ],
+      "checkedDate": "2026-10-15",
+      "statusCheck": "unassessed; correction/retraction review pending",
+      "editorial": "draft",
+      "verification": "AI source review only; no human/domain review",
+      "rights": {
+        "originalBrief": "original limited factual notes with source attribution",
+        "rawRetention": "not retained",
+        "publicNumericExport": "not approved",
+        "externalModelTransmission": "not assessed"
+      },
+      "nextAction": "Retrieve authorized full text; verify identity, version, rights, methods and results before extraction",
+      "accessAttempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2772397625000541",
+          "result": "tool-error"
+        },
+        {
+          "url": "https://doaj.org/article/73dfa817ff674a4abdfdfb8b0c276fcb",
+          "result": "metadata-only",
+          "detail": "Initial landing response; later request returned 403. DOI confirmed through indexed DOAJ result."
+        }
+      ]
+    },
+    {
+      "id": "scout-2026-10-15-biochar-slag",
+      "doi": "10.1016/j.conbuildmat.2025.141973",
+      "title": "Application of biochar to mitigate the autogenous shrinkage and improve mechanical performance of engineered geopolymer composites prepared with different ground granulated blast-furnace slag contents",
+      "existingId": null,
+      "sourceUrl": "https://www.sciencedirect.com/science/article/pii/S0950061825021245",
+      "access": "tool-error",
+      "identityBasis": "publisher-indexed title/DOI; direct page failed",
+      "reportedLicense": "unassessed",
+      "extraction": "unstarted",
+      "notes": [
+        {
+          "locator": "Publisher indexed discussion excerpt",
+          "finding": "Reaction inhibition at larger biochar quantities is an opposing lead to simple internal-curing benefit claims. Full methods/results needed before assigning causal effects or thresholds.",
+          "kind": "indexed-discovery-lead"
+        }
+      ],
+      "checkedDate": "2026-10-15",
+      "statusCheck": "unassessed; correction/retraction review pending",
+      "editorial": "draft",
+      "verification": "AI source review only; no human/domain review",
+      "rights": {
+        "originalBrief": "original limited factual notes with source attribution",
+        "rawRetention": "not retained",
+        "publicNumericExport": "not approved",
+        "externalModelTransmission": "not assessed"
+      },
+      "nextAction": "Retrieve authorized full text; verify identity, version, rights, methods and results before extraction",
+      "accessAttempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0950061825021245",
+          "result": "tool-error"
+        }
+      ]
+    },
+    {
+      "id": "scout-2026-10-15-perlite-water",
+      "doi": "10.1016/j.conbuildmat.2025.140166",
+      "title": "Scale-up experiments of expanded perlite-geopolymer composite block with special regard to the effect of water",
+      "existingId": null,
+      "sourceUrl": "https://www.sciencedirect.com/science/article/pii/S0950061825003149",
+      "access": "tool-error",
+      "identityBasis": "publisher-indexed title/DOI; direct page failed",
+      "reportedLicense": "Publisher index reports Creative Commons/open access; exact license unverified",
+      "extraction": "unstarted",
+      "notes": [
+        {
+          "locator": "Publisher indexed highlights",
+          "finding": "Water exposure and strength loss are relevant durability leads for lightweight perlite composites. Thermal performance and ambient curing have not been verified.",
+          "kind": "indexed-discovery-lead"
+        }
+      ],
+      "checkedDate": "2026-10-15",
+      "statusCheck": "unassessed; correction/retraction review pending",
+      "editorial": "draft",
+      "verification": "AI source review only; no human/domain review",
+      "rights": {
+        "originalBrief": "original limited factual notes with source attribution",
+        "rawRetention": "not retained",
+        "publicNumericExport": "not approved",
+        "externalModelTransmission": "not assessed"
+      },
+      "nextAction": "Retrieve authorized full text; verify identity, version, rights, methods and results before extraction",
+      "accessAttempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0950061825003149",
+          "result": "tool-error"
+        }
+      ]
+    },
+    {
+      "id": "scout-2026-10-15-existing-coating",
+      "doi": "10.3390/coatings16070825",
+      "title": "Activator-to-Binder Ratio–Driven Microstructural and Interfacial Performance Optimization of Metakaolin-Based Geopolymer Coatings",
+      "existingId": "library-2",
+      "sourceUrl": "https://www.mdpi.com/2079-6412/16/7/825",
+      "access": "tool-error",
+      "identityBasis": "existing canonical library identity reconciled",
+      "reportedLicense": "unassessed",
+      "extraction": "unstarted",
+      "notes": [
+        {
+          "locator": "Publisher search excerpt; full text unavailable",
+          "finding": "Retain as a coating-method follow-up, including pull-off failure location. No new verified observations.",
+          "kind": "indexed-discovery-lead"
+        }
+      ],
+      "checkedDate": "2026-10-15",
+      "statusCheck": "unassessed; correction/retraction review pending",
+      "editorial": "draft",
+      "verification": "AI source review only; no human/domain review",
+      "rights": {
+        "originalBrief": "original limited factual notes with source attribution",
+        "rawRetention": "not retained",
+        "publicNumericExport": "not approved",
+        "externalModelTransmission": "not assessed"
+      },
+      "nextAction": "Retrieve authorized full text; verify identity, version, rights, methods and results before extraction",
+      "accessAttempts": [
+        {
+          "url": "https://www.mdpi.com/2079-6412/16/7/825",
+          "result": "tool-error"
+        }
+      ]
+    }
+  ],
+  "deferred": [
+    {
+      "title": "Influence of Ambient Relative Humidity on the Shrinkage Strain of Engineered Geopolymer Composites Based on Orthogonal Experimental Design",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11396547/",
+      "access": "browser-challenge",
+      "reason": "No full text inspected; identity/DOI reconciliation deferred"
+    },
+    {
+      "title": "Application of waste Eucalyptus-derived biochar for sustainable low-carbon and carbon-negative geopolymer",
+      "doi": "10.1016/j.powtec.2025.121677",
+      "reason": "Discovery-only; indexed heat-curing conditions are not direct ambient-cure evidence; full review deferred"
+    },
+    {
+      "title": "Effect of shrinkage-reducing admixtures on drying shrinkage, strength and sorptivity of ambient-cured geopolymer mortars",
+      "doi": "10.1080/14488353.2026.2704381",
+      "reason": "Publisher tool failure; identity/status review deferred"
+    }
+  ],
+  "limitations": [
+    "No source declared paywalled solely on a tool failure.",
+    "No independent datasets counted: overlap review incomplete.",
+    "Full paper inventories, exact dose/water accounting, status checks and numeric verification are outstanding.",
+    "No raw papers, abstracts or tables retained; notes are original and limited."
+  ],
+  "nextCheckpoint": "Prioritize complete coating inventory, then authorized NFC/MgO and bamboo/silane full texts. Retain failure evidence and existing catalog IDs."
+}

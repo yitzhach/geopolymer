@@ -1,5 +1,45 @@
 # Geopolymer — current handoff
-Updated 14 October 2026 (Eastern).
+Updated 15 October 2026 (Eastern).
+
+## Latest checkpoint — published recipe expansion, 15 October 2026
+- User authorized push to main and continued published/novel recipe expansion.
+- Curated recipes: 15 → 18. Added Vogt GP9.0 from existing pilot evidence and
+  Meng PT5/PT6 hybrid PVA/CNT designs from inspected CC BY 4.0 publisher text.
+- GP9.0 supports proportional scaling; below-detection early-age values remain
+  nonnumeric. Meng records remain read-only because batch quantities are incomplete.
+  Their compression ages differ; unresolved flexural age prevents numeric matching.
+- Added novel-recipes section and combined collection/property-scope filters.
+  Shear and lightweight gaps remain explicit; no invented recipes or predictions.
+- Library/pilot counts unchanged (161 / 5 / 62 / 275). Three new formulation routes.
+- Recipe audit: research/batches/recipes-2026-10-15.json. Next: fiber-batch quantities,
+  flexural age review, lightweight and shear sources, remaining pilot extraction.
+- Owner clarified fallback interval as 4 hours 45 minutes if usage is exhausted.
+  No automatic usage-reset detection or restart guarantee is available.
+- Local Node suite passes all 17 files; knowledge validation and 154-route build
+  pass. All six browser suites pass using installed Chromium; final recipe suite
+  rerun after sticky-heading fix also passes. Desktop novel section and mobile
+  fiber page visually reviewed. Three browser scripts now honor the same optional
+  executable override as the existing suites. No deployment identity claimed yet.
+
+## Latest checkpoint — immediate materials scout, 15 October 2026
+- Owner requested research now; disabled the 3:48 a.m. one-off continuation
+  (6ad04cf6affc8191b4803bb7e037f51c), leaving the existing daily schedule unchanged.
+- Staged six new DOI candidates and one existing-record follow-up (library-2).
+  See research/batches/scout-materials-2026-10-15.json and the matching brief in
+  research/briefings/. These are review records, not public catalog additions.
+- One full text observed: Moroccan-clay coating paper. Targeted qualitative notes
+  include unfavorable setting behavior and a text/table roughness discrepancy.
+  No complete inventory/extraction or new verified numerical observations.
+- Two university repositories list licensed versions for NFC/MgO and bamboo/silane
+  studies; PDF retrieval failed. Biochar/perlite leads remain discovery-only.
+  Access errors are not labeled paywalls. No raw papers or abstracts retained.
+- Three experiment questions preserve conditions, controls and uncertainty; no
+  claimed cross-study compatibility, optimum dosage or independent replication.
+- Public data remains 161 publications, five partial studies, 62 mixes and 275
+  observations. AI and live OpenAlex remain unconnected; runtime check still
+  reports no secret bindings and restricted network policy.
+- Resume: full coating inventory/status review, then university full-text access.
+  Existing pilot figure gaps remain open. Local research checkpoint only.
 
 ## Latest checkpoint — accessible sources and materials scout, 14 October 2026
 - Owner wants accessible papers plus innovative material/property discovery and

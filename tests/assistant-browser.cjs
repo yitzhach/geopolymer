@@ -1,7 +1,7 @@
 const {chromium}=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES?process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright':'playwright');
 const assert=require('node:assert/strict');const fs=require('node:fs');
 const base=process.env.BASE_URL||'http://localhost:4173';
-(async()=>{const browser=await chromium.launch({headless:true});try{
+(async()=>{const browser=await chromium.launch({headless:true,...(process.env.PLAYWRIGHT_EXECUTABLE_PATH?{executablePath:process.env.PLAYWRIGHT_EXECUTABLE_PATH}:{})});try{
  for(const width of [1440,390]){
   const context=await browser.newContext({viewport:{width,height:900},acceptDownloads:true});const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('dialog',d=>d.accept());
   await page.goto(base+'/library');await page.locator('#ra-launch').click();

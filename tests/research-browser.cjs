@@ -1,7 +1,7 @@
 const {chromium}=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES?process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright':'playwright');
 const assert=require('node:assert/strict');const fs=require('node:fs');
 const base=process.env.BASE_URL||'http://localhost:4173';
-(async()=>{const browser=await chromium.launch({headless:true});try{
+(async()=>{const browser=await chromium.launch({headless:true,...(process.env.PLAYWRIGHT_EXECUTABLE_PATH?{executablePath:process.env.PLAYWRIGHT_EXECUTABLE_PATH}:{})});try{
  const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
  const go=async path=>{await page.goto(base+path);await page.locator('main[data-enhanced=true]').waitFor();};
  await go('/library');assert.equal(await page.locator('.library-card').count(),161);

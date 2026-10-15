@@ -1218,3 +1218,6 @@ body { padding-bottom:78px; }
 
 /* Long scientific compound names must wrap within narrow study headings. */
 .page-intro h1{overflow-wrap:anywhere}
+
+/* Keep the novel-recipes heading visible below the sticky site navigation. */
+#novel-recipes { scroll-margin-top: 7rem; }

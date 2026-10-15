@@ -248,3 +248,11 @@ OpenAlex guidance says Unpaywall uses the same underlying data; it is not indepe
 OA verification. Google Scholar remains a manual seed source. Three web-tool access
 checks are recorded in research/batches/scout-access-2026-10-14.json. Catalog and
 measurements unchanged; cloud API and unattended synthesis remain unconfigured.
+
+## 15 October 2026 — materials scout evidence checkpoint
+
+The interactive workflow produced research/batches/scout-materials-2026-10-15.json
+and research/briefings/materials-scout-2026-10-15.md: six new candidates, one existing
+record follow-up, one partial full-text review and three experimental questions.
+No canonical scientific records or public routes changed. Publisher/repository
+search was used; this does not demonstrate live OpenAlex or deployed AI operation.
