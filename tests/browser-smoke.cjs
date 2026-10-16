@@ -14,7 +14,8 @@ fs.mkdirSync('.qa', { recursive: true });
     const go = async path => {
       const response = await page.goto(base + path);
       assert.equal(response.status(), 200, path);
-      await page.locator('main[data-enhanced="true"]').waitFor();
+      try { await page.locator('main[data-enhanced="true"]').waitFor(); }
+      catch (error) { throw new Error(`Initialization failed on ${path}; page errors: ${errors.join('; ')}`, {cause:error}); }
     };
     for (const viewport of [{width:1440,height:1100},{width:390,height:844}]) {
       await page.setViewportSize(viewport);

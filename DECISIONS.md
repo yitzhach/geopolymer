@@ -427,3 +427,15 @@ capillary uptake; dynamic modulus is distinct from static modulus. Unresolved
 spread type prevents statistical ranking. Catalog remains 43 recipes, 31 scalable;
 canonical library/pilot stays 161/5/62/275. Partial paper/assay/figure gaps remain.
 Audit: research/batches/recipes-biochar-properties-2026-10-16.json.
+
+
+## 16 October 2026 — hemp research and reusable topic pages
+
+Owner requested continued extraction, hempcrete-style integration, other hemp
+fiber research and useful code/process improvements; OpenAlex remains on hold.
+Publish source-linked topic notes separately from canonical numerical evidence.
+Use one topic data source for pages, search and JSON, validated at build time.
+Hemp shiv, bast fibers and textiles retain separate roles. Do not promote abstract
+leads into calculator recipes, silently resolve source unit/ID conflicts, or
+count thesis-associated papers as independent datasets. Existing partial pilot
+and assay gaps remain explicit in the batch audit.

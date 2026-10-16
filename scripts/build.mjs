@@ -1,4 +1,6 @@
 import {pilot} from '../src/knowledge-pilot.js';
+import {researchTopics} from '../src/research-topics.js';
+import {validateResearchTopics} from '../src/research-topic-core.js';
 import {knowledgeReferences} from '../src/knowledge-references.js';
 import {publicKnowledge,validateKnowledge} from '../src/knowledge-core.js';
 import {journalFeed,journalRSS,researchDatabase} from '../src/research-feeds.js';
@@ -14,6 +16,7 @@ const plain = html => html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
 // src/ is public: refuse to build if a private/unassessed asset enters it.
 if(pilot.assets.some(a=>a.operations.publicDisplay.decision!=='allowed'||a.operations.export.decision!=='allowed'))throw new Error('Restricted evidence must stay outside public src/; resolve rights before build');
 const shell = await readFile('index.html', 'utf8');
+validateResearchTopics(researchTopics);
 await rm('dist', { recursive: true, force: true });
 await mkdir('dist');
 for (const file of ['favicon.svg', 'favicon-32.png', 'apple-touch-icon.png', 'share-card.png', 'src'])
@@ -85,6 +88,8 @@ const bibSafe=s=>String(s).replace(/[{}\\]/g,'');
 await writeFile('dist/knowledge.bib',knowledgeReferences.map(p=>`@article{${p.id},\n  title={${bibSafe(p.title)}},\n  author={${bibSafe(p.authors.replaceAll('; ',' and '))}},\n  year={${p.year}},\n  journal={${bibSafe(p.journal)}},\n  doi={${p.doi}}\n}`).join('\n\n'));
 await writeFile('dist/knowledge.ris',knowledgeReferences.map(p=>`TY  - JOUR\nTI  - ${p.title}\n${p.authors.split('; ').map(a=>'AU  - '+a).join('\n')}\nPY  - ${p.year}\nJO  - ${p.journal}\nDO  - ${p.doi}\nUR  - ${p.url}\nER  -`).join('\n\n'));
 await writeFile('dist/research-library.json',JSON.stringify(researchDatabase(),null,2)+'\n');
+await mkdir('dist/research-topics', {recursive:true});
+for(const topic of researchTopics) await writeFile(`dist/research-topics/${topic.id}.json`,JSON.stringify({schemaVersion:1,evidenceScope:'Editorial research leads and proposals; not verified numeric evidence',...topic},null,2)+'\n');
 await writeFile('dist/journal/feed.json',JSON.stringify(journalFeed(siteOrigin),null,2)+'\n');
 await writeFile('dist/journal/feed.xml',journalRSS(siteOrigin));
 await writeFile('dist/_headers', '/src/*\n  Cache-Control: public, max-age=0, must-revalidate\n');

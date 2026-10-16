@@ -14,6 +14,11 @@ const base=process.env.BASE_URL||'http://localhost:4173';
  await page.locator('.library-card a[href="/studies/ke-b02-009"]').click();await page.locator('main[data-enhanced=true]').waitFor();assert.match(await page.locator('main').innerText(),/No extracted experiment/);assert.equal(await page.locator('.callout a[href="https://doi.org/10.1016/j.jclepro.2023.139246"]').count(),1);
  await go('/studies/ke-b04-022');assert.match(await page.locator('main').innerText(),/outside the alkaline calculator model/);
  const data=await (await page.request.get(base+'/research-library.json')).json();assert.equal(data.records.length,161);
+ await go('/research');await page.locator('a[href="/research/hemp-geopolymers"]').click();await page.locator('main[data-enhanced=true]').waitFor();
+ assert.equal(await page.locator('article[id^="source-"]').count(),8);
+ await page.locator('#source-hempcrete summary').click();assert.match(await page.locator('#source-hempcrete details').innerText(),/Review pending/);
+ const notes=await (await page.request.get(base+'/research-topics/hemp-geopolymers.json')).json();assert.equal(notes.sources.length,8);assert.match(notes.evidenceScope,/not verified numeric/);
+ await page.locator('a[href="#sources"]').click();assert.equal(await page.locator('#sources').count(),1);
  await go('/journal');assert.equal(await page.locator('.journal-card').count(),5);
  await page.locator('#journal-category').selectOption('Podcast reading notes');assert.equal(await page.locator('.journal-card').count(),1);
  await page.locator('.journal-card h2 a').click();await page.waitForURL('**/journal/inside-the-material-lab-reading-notes');await page.locator('main[data-enhanced=true]').waitFor();assert.match(await page.locator('.journal-body').innerText(),/no recording/);
@@ -21,6 +26,6 @@ const base=process.env.BASE_URL||'http://localhost:4173';
  const feed=await (await page.request.get(base+'/journal/feed.json')).json();assert.equal(feed.items.length,5);
  const rss=await (await page.request.get(base+'/journal/feed.xml')).text();assert.equal((rss.match(/<item>/g)||[]).length,5);
  fs.mkdirSync('.qa',{recursive:true});
- for(const width of [1440,390]){await page.setViewportSize({width,height:1000});for(const path of ['/library','/journal','/journal/admixtures-and-precursors-need-controls','/studies/ke-b02-009','/studies/ke-b04-022']){await go(path);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'overflow '+path);await page.screenshot({path:'.qa/research-'+width+'-'+path.split('/').pop()+'.png',fullPage:true});}}
+ for(const width of [1440,390]){await page.setViewportSize({width,height:1000});for(const path of ['/research/hemp-geopolymers','/library','/journal','/journal/admixtures-and-precursors-need-controls','/studies/ke-b02-009','/studies/ke-b04-022']){await go(path);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'overflow '+path);await page.screenshot({path:'.qa/research-'+width+'-'+path.split('/').pop()+'.png',fullPage:true});}}
  assert.deepEqual(errors,[]);console.log('PASS research: searchable summaries, filters, reset, article routes, database export, RSS/JSON, desktop/mobile');
 }finally{await browser.close();}})().catch(e=>{console.error(e);process.exit(1);});

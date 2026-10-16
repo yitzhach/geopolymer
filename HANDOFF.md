@@ -1,6 +1,33 @@
 # Geopolymer — current handoff
 Updated 16 October 2026 (Eastern).
 
+## Latest checkpoint — hemp integration and research topic page, 16 October 2026
+- Owner requested continued source extraction, hempcrete-style integration, hemp
+  fiber research and useful website/process improvements. OpenAlex stays on hold.
+- Preserved completed d9efdb0 before comparing main; remote main matched it.
+  New batch: research/batches/hemp-integration-2026-10-16.json and matching brief.
+- Eight hemp leads: six newly staged, two earlier leads revisited. Three direct
+  shiv/binder precedents; fiber durability/treatment and thesis dataset-overlap
+  leads. No new numerical observations or complete extractions. Canonical counts
+  remain 161 / 5 partial studies / 62 mixes / 275 observations; recipes 43/31 scalable.
+- Rechecked foam methods/Table 3: S1/WP mapping, foamer basis and full batch still
+  unresolved. Newly flagged heat-capacity unit/quantity conflict. Biochar shrinkage
+  method recovered; figure screenshots timed out. Assays require references 33/41
+  and lot/version checks. Pilot figure access again challenged; no invented points.
+- New /research/hemp-geopolymers page separates shiv, bast fiber and fabric;
+  source access depth, next checks and three proposed experiments are visible.
+  Linked from research/library/site search; JSON export shares the same records.
+- Reusable build validator checks topic/source identity, required provenance,
+  evidence states, source URLs and question citations; lead records cannot carry
+  numeric datasets/raw-source fields. Structural validation is not scientific QA.
+- Local 19 Node test files and knowledge validation pass; build has 180 routes.
+  Focused research browser suite passes; reviewed 1440/390px page crops. Full
+  route/browser CI and publication status will be recorded after verification.
+- Next source acquisition: shiv and hornification methods; thesis/paper overlap;
+  foam supplement/units; legible biochar and pilot figures. New red-mud publisher
+  PDF lead saved for the next batch after three failed copies. Do not repeat them.
+- No AI-service configuration or automation changes. No complete pilot claim.
+
 ## Latest checkpoint — biochar physical/exposure batch, 16 October 2026
 - Started from GitHub-confirmed main 5e8c6ff. Prior local branch and its
   unpublished documentation are preserved; recovered its next-experiment brief

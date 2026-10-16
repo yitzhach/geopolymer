@@ -1,10 +1,12 @@
 import {knowledgeReferences} from './knowledge-references.js';
+import {researchTopics} from './research-topics.js';
 import {journalArticles} from './journal-data.js';
 import {literatureMixes} from './literature-mixes.js';
 import { materials, papers, formulations, products } from './data.js';
 
 // Public URL names and record IDs are stable. Add each public route here.
 export const routes = [
+  ...researchTopics.map(t=>'/research/'+t.id),
   '/knowledge', ...knowledgeReferences.map(p=>'/studies/'+p.id),
   '/', '/learn', '/learn/beginners', '/learn/educators', '/artists',
   '/materials', '/research', '/discover', '/library', '/formulations',
