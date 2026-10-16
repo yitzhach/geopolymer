@@ -383,3 +383,27 @@ an inaccessible abstract to a verified recipe.
 - Reported ± values travel with source notes; unresolved spread type remains labeled.
 - Lightweight is a study-focus filter, not a numeric density or thermal guarantee.
 - Two inaccessible biochar papers remain deferred; access errors are not paywalls.
+
+## 15 October 2026 — complete basalt matrix comparison
+
+Added the remaining eight Le et al. matrix variants: 38 curated recipes, 26
+scalable. All 11 Table 3 matrix rows now have 22 means with their reported spreads;
+16 measurements are new. Source page 5 was visually checked after text extraction.
+Recipe pages compare the full same-study matrix series and expose mixing order
+and sand grading. Textile assemblies remain separate and read-only; manufacturer
+areal mass does not establish a complete assembly batch. Foam methods retain the
+identifier, batch, test-age and loading-geometry uncertainties. The canonical
+library/pilot remains 161 publications / 5 partial studies / 62 mixes / 275 cells.
+See research/batches/recipes-matrix-complete-2026-10-15.json. These are selected
+licensed facts and AI source checks, not full-paper extraction or replication.
+
+## 15 October 2026 — hardwood biochar formulations
+
+A corrected University of Bologna PDF URL made Saccani et al. accessible. Add all
+five Table 2 recipes and 15 Table 4 initial compression mean/spread pairs. Catalog
+now has 43 recipes, 31 scalable; canonical library/pilot counts remain unchanged.
+Source pages 7 and 12 visually checked. Solution masses scale without inventing
+NaOH solution water content or oxide assays; dose is replacement of original MK,
+not percent of the wet batch. Forty-day exposure results and physical/shrinkage
+results remain pending. Hardwood biochar is not coffee ash or untreated grounds.
+Audit: research/batches/recipes-biochar-2026-10-15.json. Same-agent AI review only.

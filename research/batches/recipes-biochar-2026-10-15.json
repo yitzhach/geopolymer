@@ -1,0 +1,521 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-15",
+  "scope": "Five published hardwood-biochar paste designs; selected extraction, not complete paper",
+  "recipesBefore": 38,
+  "recipesAfter": 43,
+  "scalableBefore": 26,
+  "scalableAfter": 31,
+  "newRecipeObservations": 15,
+  "canonicalLibrary": 161,
+  "canonicalPilot": {
+    "studies": 5,
+    "mixes": 62,
+    "observations": 275
+  },
+  "source": {
+    "doi": "10.3390/ma18030486",
+    "url": "https://cris.unibo.it/retrieve/18a88cc9-e847-4171-b93c-8b7d2c5eae67/materials-18-00486.pdf",
+    "sha256": "fc73003792a33e17c12be14a6c26eb8c541f48f764630c0593c80edb2ba404c1",
+    "access": "full-text-observed",
+    "license": "CC BY 4.0",
+    "rightsEvidence": "PDF page 1 copyright/license statement",
+    "allowedOperations": [
+      "temporary local processing",
+      "attributed selected fact extraction",
+      "public display/export of selected adaptations"
+    ],
+    "notPerformed": [
+      "public raw retention",
+      "figure reproduction",
+      "embedding",
+      "external AI-provider transmission"
+    ],
+    "version": "Publisher-formatted university repository PDF. Overlapping review/final text on some pages; selected table pages visually legible."
+  },
+  "discovery": {
+    "provider": "web search system2, then exact-source access; system1 status search",
+    "queries": [
+      "\"geopolymer\" \"biochar\" \"mix proportions\" open access",
+      "\"geopolymer\" \"biochar\" \"strength\" \"decreased\"",
+      "\"alkali activated\" \"rice husk\" \"biochar\" mix design",
+      "\"geopolymer\" \"waste glass\" \"ambient\" mix design open access",
+      "\"10.3390/ma18030486\" correction retraction"
+    ],
+    "accessChange": "Search returned a corrected direct university PDF path without the obsolete /handle/ segment. Prior failed URLs/challenges were not retried.",
+    "statusCheck": "Exact DOI correction/retraction search returned no results; not comprehensive clearance.",
+    "deduplication": "Prior deferred candidate, now selected recipe source; no new canonical publication claimed."
+  },
+  "inventory": {
+    "tables": [
+      {
+        "id": 1,
+        "scope": "Review of other literature",
+        "state": "not extracted; not original experiment data"
+      },
+      {
+        "id": 2,
+        "scope": "Five recipe rows",
+        "state": "5/5 visually source-checked; 25 mass cells"
+      },
+      {
+        "id": 3,
+        "scope": "Fresh consistency, density and water absorption",
+        "state": "inventoried, not extracted"
+      },
+      {
+        "id": 4,
+        "scope": "15 initial compression results plus 5 dynamic modulus values",
+        "state": "15/15 compression mean/spread pairs checked; 5 modulus results pending"
+      },
+      {
+        "id": 5,
+        "scope": "After capillary exposure and drying; total age 40 days",
+        "state": "pending; not ordinary age progression"
+      }
+    ],
+    "figures": [
+      {
+        "id": "1",
+        "scope": "biochar SEM",
+        "state": "not extracted/digitized"
+      },
+      {
+        "id": "2",
+        "scope": "biochar XRD",
+        "state": "not extracted/digitized"
+      },
+      {
+        "id": "3",
+        "scope": "biochar TGA",
+        "state": "not extracted/digitized"
+      },
+      {
+        "id": "4",
+        "scope": "workflow",
+        "state": "not extracted/digitized"
+      },
+      {
+        "id": "5",
+        "scope": "28-day strength/modulus; table duplicate",
+        "state": "not extracted/digitized"
+      },
+      {
+        "id": "6",
+        "scope": "hardened XRD",
+        "state": "not extracted/digitized"
+      },
+      {
+        "id": "7",
+        "scope": "fracture SEM",
+        "state": "not extracted/digitized"
+      },
+      {
+        "id": "8",
+        "scope": "MIP",
+        "state": "not extracted/digitized"
+      },
+      {
+        "id": "9",
+        "scope": "capillary absorption",
+        "state": "not extracted/digitized"
+      },
+      {
+        "id": "10",
+        "scope": "efflorescence images",
+        "state": "not extracted/digitized"
+      },
+      {
+        "id": "11",
+        "scope": "post-exposure mechanics; table duplicate",
+        "state": "not extracted/digitized"
+      },
+      {
+        "id": "12",
+        "scope": "dimensional change",
+        "state": "not extracted/digitized"
+      }
+    ],
+    "methods": "Selected materials, preparation, initial compression and exposure sequence reviewed; full-paper inventory remains partial",
+    "supplements": "No separate supplement established; availability statement says data available, no underlying dataset inspected"
+  },
+  "review": {
+    "firstPass": "Parsed Tables 2 and 4 plus source methods",
+    "secondPass": "Same-agent visual comparison of rendered PDF pages 7 and 12, all selected cells, headings, row IDs and units",
+    "humanReview": false,
+    "independentReplication": false,
+    "unknowns": [
+      "spread type",
+      "initial compression n per age",
+      "exact room temperature",
+      "NaOH solution water fraction/density",
+      "qualified oxide assays",
+      "silicate ratio basis"
+    ],
+    "bounds": [
+      "Mass scaling preserves 100% wet batch; NaOH and silicate are solutions",
+      "1/2/5/8% describes replacement of original metakaolin, not wet-batch percentages",
+      "Initial strengths stay at 7/14/28 days; no early-age inference",
+      "40-day values require separate exposure/test record",
+      "No ash/coffee-feedstock substitution"
+    ]
+  },
+  "records": [
+    {
+      "id": "saccani-mh0",
+      "locator": "Table 2, p. 7; Table 4, p. 12 / MH-0; §§2.1–2.3.4",
+      "ingredients": [
+        {
+          "name": "Argicem metakaolin",
+          "original": "56.02",
+          "unit": "wt% total wet batch"
+        },
+        {
+          "name": "Reoflux B sodium silicate solution",
+          "original": "21.29",
+          "unit": "wt% total wet batch"
+        },
+        {
+          "name": "8 M sodium hydroxide solution",
+          "original": "21.29",
+          "unit": "wt% total wet batch"
+        },
+        {
+          "name": "Added water",
+          "original": "1.40",
+          "unit": "wt% total wet batch"
+        }
+      ],
+      "results": [
+        {
+          "property": "compressive",
+          "value": 23.6,
+          "spread": 3,
+          "original": "23.6 ± 3.0",
+          "spreadKind": "reported ±; type unresolved",
+          "unit": "MPa",
+          "ageHours": 168,
+          "kind": "source-reported",
+          "context": "Initial cured cylinders; not post-capillary exposure",
+          "locator": "Table 4, p. 12 / MH-0 / 7 days"
+        },
+        {
+          "property": "compressive",
+          "value": 26.6,
+          "spread": 2.9,
+          "original": "26.6 ± 2.9",
+          "spreadKind": "reported ±; type unresolved",
+          "unit": "MPa",
+          "ageHours": 336,
+          "kind": "source-reported",
+          "context": "Initial cured cylinders; not post-capillary exposure",
+          "locator": "Table 4, p. 12 / MH-0 / 14 days"
+        },
+        {
+          "property": "compressive",
+          "value": 25.7,
+          "spread": 2.7,
+          "original": "25.7 ± 2.7",
+          "spreadKind": "reported ±; type unresolved",
+          "unit": "MPa",
+          "ageHours": 672,
+          "kind": "source-reported",
+          "context": "Initial cured cylinders; not post-capillary exposure",
+          "locator": "Table 4, p. 12 / MH-0 / 28 days"
+        }
+      ]
+    },
+    {
+      "id": "saccani-mh1",
+      "locator": "Table 2, p. 7; Table 4, p. 12 / MH-1; §§2.1–2.3.4",
+      "ingredients": [
+        {
+          "name": "Argicem metakaolin",
+          "original": "55.46",
+          "unit": "wt% total wet batch"
+        },
+        {
+          "name": "Prepared hardwood biochar",
+          "original": "0.56",
+          "unit": "wt% total wet batch"
+        },
+        {
+          "name": "Reoflux B sodium silicate solution",
+          "original": "21.29",
+          "unit": "wt% total wet batch"
+        },
+        {
+          "name": "8 M sodium hydroxide solution",
+          "original": "21.29",
+          "unit": "wt% total wet batch"
+        },
+        {
+          "name": "Added water",
+          "original": "1.40",
+          "unit": "wt% total wet batch"
+        }
+      ],
+      "results": [
+        {
+          "property": "compressive",
+          "value": 28.3,
+          "spread": 3,
+          "original": "28.3 ± 3.0",
+          "spreadKind": "reported ±; type unresolved",
+          "unit": "MPa",
+          "ageHours": 168,
+          "kind": "source-reported",
+          "context": "Initial cured cylinders; not post-capillary exposure",
+          "locator": "Table 4, p. 12 / MH-1 / 7 days"
+        },
+        {
+          "property": "compressive",
+          "value": 30,
+          "spread": 2.4,
+          "original": "30.0 ± 2.4",
+          "spreadKind": "reported ±; type unresolved",
+          "unit": "MPa",
+          "ageHours": 336,
+          "kind": "source-reported",
+          "context": "Initial cured cylinders; not post-capillary exposure",
+          "locator": "Table 4, p. 12 / MH-1 / 14 days"
+        },
+        {
+          "property": "compressive",
+          "value": 29.6,
+          "spread": 2.8,
+          "original": "29.6 ± 2.8",
+          "spreadKind": "reported ±; type unresolved",
+          "unit": "MPa",
+          "ageHours": 672,
+          "kind": "source-reported",
+          "context": "Initial cured cylinders; not post-capillary exposure",
+          "locator": "Table 4, p. 12 / MH-1 / 28 days"
+        }
+      ]
+    },
+    {
+      "id": "saccani-mh2",
+      "locator": "Table 2, p. 7; Table 4, p. 12 / MH-2; §§2.1–2.3.4",
+      "ingredients": [
+        {
+          "name": "Argicem metakaolin",
+          "original": "54.90",
+          "unit": "wt% total wet batch"
+        },
+        {
+          "name": "Prepared hardwood biochar",
+          "original": "1.12",
+          "unit": "wt% total wet batch"
+        },
+        {
+          "name": "Reoflux B sodium silicate solution",
+          "original": "21.29",
+          "unit": "wt% total wet batch"
+        },
+        {
+          "name": "8 M sodium hydroxide solution",
+          "original": "21.29",
+          "unit": "wt% total wet batch"
+        },
+        {
+          "name": "Added water",
+          "original": "1.40",
+          "unit": "wt% total wet batch"
+        }
+      ],
+      "results": [
+        {
+          "property": "compressive",
+          "value": 27.6,
+          "spread": 2.8,
+          "original": "27.6 ± 2.8",
+          "spreadKind": "reported ±; type unresolved",
+          "unit": "MPa",
+          "ageHours": 168,
+          "kind": "source-reported",
+          "context": "Initial cured cylinders; not post-capillary exposure",
+          "locator": "Table 4, p. 12 / MH-2 / 7 days"
+        },
+        {
+          "property": "compressive",
+          "value": 30.4,
+          "spread": 2.8,
+          "original": "30.4 ± 2.8",
+          "spreadKind": "reported ±; type unresolved",
+          "unit": "MPa",
+          "ageHours": 336,
+          "kind": "source-reported",
+          "context": "Initial cured cylinders; not post-capillary exposure",
+          "locator": "Table 4, p. 12 / MH-2 / 14 days"
+        },
+        {
+          "property": "compressive",
+          "value": 28.9,
+          "spread": 2.9,
+          "original": "28.9 ± 2.9",
+          "spreadKind": "reported ±; type unresolved",
+          "unit": "MPa",
+          "ageHours": 672,
+          "kind": "source-reported",
+          "context": "Initial cured cylinders; not post-capillary exposure",
+          "locator": "Table 4, p. 12 / MH-2 / 28 days"
+        }
+      ]
+    },
+    {
+      "id": "saccani-mh5",
+      "locator": "Table 2, p. 7; Table 4, p. 12 / MH-5; §§2.1–2.3.4",
+      "ingredients": [
+        {
+          "name": "Argicem metakaolin",
+          "original": "53.22",
+          "unit": "wt% total wet batch"
+        },
+        {
+          "name": "Prepared hardwood biochar",
+          "original": "2.80",
+          "unit": "wt% total wet batch"
+        },
+        {
+          "name": "Reoflux B sodium silicate solution",
+          "original": "21.29",
+          "unit": "wt% total wet batch"
+        },
+        {
+          "name": "8 M sodium hydroxide solution",
+          "original": "21.29",
+          "unit": "wt% total wet batch"
+        },
+        {
+          "name": "Added water",
+          "original": "1.40",
+          "unit": "wt% total wet batch"
+        }
+      ],
+      "results": [
+        {
+          "property": "compressive",
+          "value": 21.1,
+          "spread": 2.8,
+          "original": "21.1 ± 2.8",
+          "spreadKind": "reported ±; type unresolved",
+          "unit": "MPa",
+          "ageHours": 168,
+          "kind": "source-reported",
+          "context": "Initial cured cylinders; not post-capillary exposure",
+          "locator": "Table 4, p. 12 / MH-5 / 7 days"
+        },
+        {
+          "property": "compressive",
+          "value": 23.6,
+          "spread": 2.2,
+          "original": "23.6 ± 2.2",
+          "spreadKind": "reported ±; type unresolved",
+          "unit": "MPa",
+          "ageHours": 336,
+          "kind": "source-reported",
+          "context": "Initial cured cylinders; not post-capillary exposure",
+          "locator": "Table 4, p. 12 / MH-5 / 14 days"
+        },
+        {
+          "property": "compressive",
+          "value": 24.2,
+          "spread": 2,
+          "original": "24.2 ± 2.0",
+          "spreadKind": "reported ±; type unresolved",
+          "unit": "MPa",
+          "ageHours": 672,
+          "kind": "source-reported",
+          "context": "Initial cured cylinders; not post-capillary exposure",
+          "locator": "Table 4, p. 12 / MH-5 / 28 days"
+        }
+      ]
+    },
+    {
+      "id": "saccani-mh8",
+      "locator": "Table 2, p. 7; Table 4, p. 12 / MH-8; §§2.1–2.3.4",
+      "ingredients": [
+        {
+          "name": "Argicem metakaolin",
+          "original": "51.54",
+          "unit": "wt% total wet batch"
+        },
+        {
+          "name": "Prepared hardwood biochar",
+          "original": "4.48",
+          "unit": "wt% total wet batch"
+        },
+        {
+          "name": "Reoflux B sodium silicate solution",
+          "original": "21.29",
+          "unit": "wt% total wet batch"
+        },
+        {
+          "name": "8 M sodium hydroxide solution",
+          "original": "21.29",
+          "unit": "wt% total wet batch"
+        },
+        {
+          "name": "Added water",
+          "original": "1.40",
+          "unit": "wt% total wet batch"
+        }
+      ],
+      "results": [
+        {
+          "property": "compressive",
+          "value": 18.2,
+          "spread": 2.6,
+          "original": "18.2 ± 2.6",
+          "spreadKind": "reported ±; type unresolved",
+          "unit": "MPa",
+          "ageHours": 168,
+          "kind": "source-reported",
+          "context": "Initial cured cylinders; not post-capillary exposure",
+          "locator": "Table 4, p. 12 / MH-8 / 7 days"
+        },
+        {
+          "property": "compressive",
+          "value": 19.2,
+          "spread": 2.5,
+          "original": "19.2 ± 2.5",
+          "spreadKind": "reported ±; type unresolved",
+          "unit": "MPa",
+          "ageHours": 336,
+          "kind": "source-reported",
+          "context": "Initial cured cylinders; not post-capillary exposure",
+          "locator": "Table 4, p. 12 / MH-8 / 14 days"
+        },
+        {
+          "property": "compressive",
+          "value": 20.1,
+          "spread": 2.7,
+          "original": "20.1 ± 2.7",
+          "spreadKind": "reported ±; type unresolved",
+          "unit": "MPa",
+          "ageHours": 672,
+          "kind": "source-reported",
+          "context": "Initial cured cylinders; not post-capillary exposure",
+          "locator": "Table 4, p. 12 / MH-8 / 28 days"
+        }
+      ]
+    }
+  ],
+  "deferredAccess": [
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2772397625000541",
+      "state": "tool-error"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950061823001988",
+      "state": "tool-error"
+    }
+  ],
+  "next": [
+    "Complete physical-property and post-exposure table extraction with correct methods",
+    "Resolve PDF version layers and uncertainty definitions",
+    "Calibrated graph extraction for shrinkage/MIP only if adequate",
+    "Ingest verified bibliography separately; recipes do not change canonical counts"
+  ]
+}

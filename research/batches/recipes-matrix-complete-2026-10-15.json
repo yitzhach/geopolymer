@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-15",
+  "scope": "Complete Le Table 3 matrix series; partial paper extraction, not independent replication",
+  "baseline": {
+    "recipes": 30,
+    "scalable": 18
+  },
+  "final": {
+    "recipes": 38,
+    "scalable": 26
+  },
+  "newRecipeObservations": 16,
+  "unchangedCanonicalPilot": {
+    "publications": 161,
+    "studies": 5,
+    "mixes": 62,
+    "observations": 275
+  },
+  "doi": "10.3390/polym13050751",
+  "source": {
+    "url": "https://pdfs.semanticscholar.org/9828/de233e60ca20ada95dd8648c207ba4c8dbe1.pdf",
+    "sha256": "67cae3ff7614b5899787673a02745f22f6c2baad4e1e76e0036e3fa593604bdc",
+    "license": "CC BY 4.0",
+    "rightsEvidence": "PDF page 1, copyright/license notice; version 4.0 URL",
+    "access": "full-text-observed",
+    "operations": [
+      "authorized temporary local PDF processing",
+      "attributed selected numerical extraction",
+      "public display and export of selected adaptations"
+    ],
+    "notPerformed": [
+      "public raw retention",
+      "figure reproduction",
+      "embedding",
+      "external AI-provider transmission"
+    ],
+    "versionCaveat": "Page 5 renders clearly with final article header; other pages contain overlapping review/final text layers. Whole-copy version issue remains."
+  },
+  "review": {
+    "firstPass": "Parsed Table 3 values, row groups, column headings and units",
+    "secondPass": "Same-agent visual inspection of PDF page 5 rendered at 1600 pixels; all 11 rows, 22 means and 22 spreads checked",
+    "humanReview": false,
+    "independentScientificReview": false,
+    "age": "Table 3 heading: 28 days; 672 hours derived as 28 × 24",
+    "spreadKind": "reported ±; type unresolved",
+    "matrixReplicates": null,
+    "checks": [
+      "control and extrema",
+      "compression/flexure column ordering",
+      "6/12/24 mm group boundaries",
+      "all doses including 6 mm 1.00%",
+      "existing three records unchanged numerically",
+      "fiber mass dose uses geopaste (geocement + activator), not whole mortar"
+    ]
+  },
+  "rows": [
+    {
+      "recipeId": "le-matrix-control",
+      "sourceLocator": "Table 3, page 5 / control",
+      "doseOriginal": "0.00",
+      "flexuralOriginal": "11.78 ± 0.48",
+      "compressiveOriginal": "79.56 ± 3.32",
+      "unit": "MPa",
+      "check": "parsed and visually checked"
+    },
+    {
+      "recipeId": "le-matrix-6mm-025",
+      "sourceLocator": "Table 3, page 5 / 6mm-025",
+      "doseOriginal": "0.25",
+      "flexuralOriginal": "11.96 ± 0.27",
+      "compressiveOriginal": "80.05 ± 5.67",
+      "unit": "MPa",
+      "check": "parsed and visually checked"
+    },
+    {
+      "recipeId": "le-matrix-6mm-050",
+      "sourceLocator": "Table 3, page 5 / 6mm-050",
+      "doseOriginal": "0.50",
+      "flexuralOriginal": "13.43 ± 0.85",
+      "compressiveOriginal": "77.01 ± 3.13",
+      "unit": "MPa",
+      "check": "parsed and visually checked"
+    },
+    {
+      "recipeId": "le-matrix-6mm-075",
+      "sourceLocator": "Table 3, page 5 / 6mm-075",
+      "doseOriginal": "0.75",
+      "flexuralOriginal": "12.28 ± 0.33",
+      "compressiveOriginal": "76.56 ± 4.68",
+      "unit": "MPa",
+      "check": "parsed and visually checked"
+    },
+    {
+      "recipeId": "le-matrix-6mm-100",
+      "sourceLocator": "Table 3, page 5 / 6mm-100",
+      "doseOriginal": "1.00",
+      "flexuralOriginal": "13.33 ± 0.56",
+      "compressiveOriginal": "75.24 ± 4.01",
+      "unit": "MPa",
+      "check": "parsed and visually checked"
+    },
+    {
+      "recipeId": "le-matrix-12mm-025",
+      "sourceLocator": "Table 3, page 5 / 12mm-025",
+      "doseOriginal": "0.25",
+      "flexuralOriginal": "12.96 ± 0.50",
+      "compressiveOriginal": "77.18 ± 1.27",
+      "unit": "MPa",
+      "check": "parsed and visually checked"
+    },
+    {
+      "recipeId": "le-matrix-12mm-050",
+      "sourceLocator": "Table 3, page 5 / 12mm-050",
+      "doseOriginal": "0.50",
+      "flexuralOriginal": "11.85 ± 0.13",
+      "compressiveOriginal": "83.37 ± 1.31",
+      "unit": "MPa",
+      "check": "parsed and visually checked"
+    },
+    {
+      "recipeId": "le-matrix-12mm-075",
+      "sourceLocator": "Table 3, page 5 / 12mm-075",
+      "doseOriginal": "0.75",
+      "flexuralOriginal": "12.65 ± 0.15",
+      "compressiveOriginal": "83.77 ± 1.06",
+      "unit": "MPa",
+      "check": "parsed and visually checked"
+    },
+    {
+      "recipeId": "le-matrix-24mm-025",
+      "sourceLocator": "Table 3, page 5 / 24mm-025",
+      "doseOriginal": "0.25",
+      "flexuralOriginal": "12.25 ± 0.78",
+      "compressiveOriginal": "81.82 ± 1.08",
+      "unit": "MPa",
+      "check": "parsed and visually checked"
+    },
+    {
+      "recipeId": "le-matrix-24mm-050",
+      "sourceLocator": "Table 3, page 5 / 24mm-050",
+      "doseOriginal": "0.50",
+      "flexuralOriginal": "13.05 ± 0.65",
+      "compressiveOriginal": "82.47 ± 3.10",
+      "unit": "MPa",
+      "check": "parsed and visually checked"
+    },
+    {
+      "recipeId": "le-matrix-24mm-075",
+      "sourceLocator": "Table 3, page 5 / 24mm-075",
+      "doseOriginal": "0.75",
+      "flexuralOriginal": "14.10 ± 0.77",
+      "compressiveOriginal": "78.51 ± 2.25",
+      "unit": "MPa",
+      "check": "parsed and visually checked"
+    }
+  ],
+  "inventory": {
+    "Table3": "11/11 matrix variants, 22/22 means and 22/22 spreads checked; spread type unresolved",
+    "Table2": "existing mass proportions retained",
+    "Table1": "textile areal mass added as manufacturer specification; no full assembly yield",
+    "methods": "selected §§2.1–2.2 mixing/grading details",
+    "remaining": "Tables 4–5, figures and full material/assay qualification remain partial; no complete paper claim"
+  },
+  "statusCheck": {
+    "query": "\"10.3390/polym13050751\" correction retraction",
+    "provider": "web search system1",
+    "result": "No results returned; not exhaustive clearance",
+    "publisherAccess": "429; no repeated publisher attempts"
+  },
+  "foamFollowup": {
+    "doi": "10.1111/jace.70158",
+    "url": "https://ceramics.onlinelibrary.wiley.com/doi/full/10.1111/jace.70158",
+    "inspected": "§§2.2–2.3 and Table 3",
+    "outcome": "Retain mapping/batch/test-age holds. Added source-specific method and repeat-reading distinction; no new foam numbers indexed. C78 designation and stated three-point geometry require review."
+  },
+  "next": [
+    "Qualify source-specific assays without normalizing unknown residuals or maxima",
+    "Obtain foam author clarification or an unambiguous source for identifiers and batch split",
+    "Continue authorized biochar source retrieval; prior challenges remain blocked",
+    "Complete remaining pilot inventories"
+  ]
+}

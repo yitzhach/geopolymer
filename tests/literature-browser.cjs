@@ -5,7 +5,7 @@ const base=process.env.BASE_URL||'http://localhost:4173';
 (async()=>{const browser=await chromium.launch({headless:true,...(process.env.PLAYWRIGHT_EXECUTABLE_PATH?{executablePath:process.env.PLAYWRIGHT_EXECUTABLE_PATH}:{})});try{
 fs.mkdirSync('.qa',{recursive:true});const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));let accept=true;page.on('dialog',d=>accept?d.accept():d.dismiss());
 const go=async path=>{await page.goto(base+path);await page.locator('main[data-enhanced=true]').waitFor();};
-await go('/formulations');assert.equal(await page.locator('#recipe-cards > a').count(),30);
+await go('/formulations');assert.equal(await page.locator('#recipe-cards > a').count(),43);
 assert.match(await page.locator('#novel-recipes').innerText(),/PVA fibers/);
 await page.locator('a[href="#novel-recipes"]').click();await page.waitForFunction(()=>document.querySelector('#novel-heading').getBoundingClientRect().top>=document.querySelector('header').getBoundingClientRect().bottom);
 await page.locator('#recipe-query').scrollIntoViewIfNeeded();
@@ -16,10 +16,12 @@ await page.locator('#recipe-focus').selectOption('');await page.locator('#recipe
 await page.locator('#recipe-query').fill('');await page.locator('#recipe-collection').selectOption('');
 await page.locator('#recipe-query').fill('KASIL 2040');assert.equal(await page.locator('#recipe-cards > a').count(),1);
 await page.locator('#recipe-query').fill('no-recipe-xyz');assert.match(await page.locator('#recipe-count').innerText(),/0 recipes/);
-await page.locator('#recipe-query').fill('');await page.locator('#recipe-activation').selectOption('sodium');assert.equal(await page.locator('#recipe-cards > a').count(),18);
+await page.locator('#recipe-query').fill('');await page.locator('#recipe-activation').selectOption('sodium');assert.equal(await page.locator('#recipe-cards > a').count(),31);
 await page.locator('[name=target]').fill('15');await page.locator('[name=ageHours]').selectOption('4');await page.locator('#requirements-form button').click();assert.match(await page.locator('#requirements-result').innerText(),/rapid dry-blend/);
 await page.locator('[name=property]').selectOption('shear');assert.equal(await page.locator('#requirements-download').isDisabled(),true);await page.locator('#requirements-form button').click();assert.match(await page.locator('#requirements-result').innerText(),/No matching measurements/);
-const [catalogDownload]=await Promise.all([page.waitForEvent('download'),page.locator('#catalog-download').click()]);const catalog=JSON.parse(fs.readFileSync(await catalogDownload.path(),'utf8'));assert.equal(catalog.records.length,30);
+const [catalogDownload]=await Promise.all([page.waitForEvent('download'),page.locator('#catalog-download').click()]);const catalog=JSON.parse(fs.readFileSync(await catalogDownload.path(),'utf8'));assert.equal(catalog.records.length,43);
+await go('/formulations/saccani-mh1');assert.match(await page.locator('main').innerText(),/29.6 ± 2.8/);assert.match(await page.locator('#mix-preview').innerText(),/Prepared hardwood biochar\s+5.6/);
+await go('/formulations/le-matrix-6mm-100');assert.equal(await page.locator('#source-comparison tbody tr').count(),11);assert.match(await page.locator('#source-comparison tr[aria-current=true]').innerText(),/75.24 ± 4.01/);
 await go('/formulations/le-matrix-6mm-050');assert.match(await page.locator('main').innerText(),/77.01 ± 3.13/);
 await page.locator('#mix-mass').fill('3609');await page.locator('#mix-scale').click();assert.match(await page.locator('#mix-preview').innerText(),/Chopped basalt fiber\s+9/);
 await go('/formulations/le-textile-6mm-050');assert.equal(await page.locator('#mix-open').count(),0);assert.match(await page.locator('main').innerText(),/excludes carbon textile/);assert.doesNotMatch(await page.locator('main').innerText(),/77.01/);
@@ -36,6 +38,6 @@ await page.locator('#gp-notebook').click();await page.waitForURL('**/workspace#n
 await go('/calculator');const name=await page.locator('#gp-name').inputValue();accept=false;await go('/calculator?mix=davidovits-mk-slag&mass=1000');assert.equal(await page.locator('#gp-name').inputValue(),name);accept=true;
 await go('/calculator?mix=alameri-t2m9&mass=1000');assert.equal(await page.locator('#gp-name').inputValue(),name);
 await go('/formulations/davidovits-fly-ash-80');await page.locator('#mix-mass').fill('-1');await page.locator('#mix-scale').click();assert.equal(await page.locator('#mix-open').getAttribute('href'),null);assert.equal(await page.locator('#mix-download').isDisabled(),true);
-for(const width of [1440,390]){await page.setViewportSize({width,height:1000});for(const path of ['/formulations','/formulations/alameri-t2m9','/formulations/davidovits-fly-ash-80','/formulations/meng-pt5','/formulations/vogt-gp9','/formulations/nematollahi-pp1','/formulations/le-matrix-6mm-050','/formulations/le-textile-6mm-050','/formulations/sbi-foam-5hf']){await go(path);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);await page.screenshot({path:'.qa/mixes-'+width+'-'+path.split('/').pop()+'.png',fullPage:true});}}
+for(const width of [1440,390]){await page.setViewportSize({width,height:1000});for(const path of ['/formulations','/formulations/alameri-t2m9','/formulations/davidovits-fly-ash-80','/formulations/meng-pt5','/formulations/vogt-gp9','/formulations/nematollahi-pp1','/formulations/le-matrix-6mm-050','/formulations/le-textile-6mm-050','/formulations/sbi-foam-5hf','/formulations/saccani-mh1']){await go(path);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);await page.screenshot({path:'.qa/mixes-'+width+'-'+path.split('/').pop()+'.png',fullPage:true});}}
 assert.deepEqual(errors,[]);console.log('PASS literature: scaling, invalidation, export, transfer, cancel, partial blocking, notebook source preservation, desktop/mobile');
 }finally{await browser.close();}})().catch(e=>{console.error(e);process.exit(1);});

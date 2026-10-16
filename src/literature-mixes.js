@@ -1,3 +1,4 @@
+import {biocharRecipes} from './biochar-recipes.js';
 import {fiberRecipes} from './fiber-recipes.js';
 import {polypropyleneRecipes} from './polypropylene-recipes.js';
 import {novelRecipeAdditions} from './novel-recipes.js';
@@ -27,7 +28,7 @@ export const literatureMixes=[
   summary:'GS-1.0 composite tested at laboratory temperature; not the separate 1000 °C in-situ result.',basis:'Binder molar ratios and composite filler volume; no directly extracted gram batch.',ingredients:[],
   parameters:[['Precursor','Mefisto L05 calcined claystone'],['Binder Si/Al; K/Al','1.5; 1.0 (molar atomic ratios)'],['Total binder water','30% by mass, including activator water'],['Chamotte','65% by volume of composite']],curing:'Sealed at 60 °C for 4 h; demolded, then laboratory cure at 20 °C for 7 days as described in §2.2.',method:'30 × 30 × 64 mm prisms; six specimens; 0.5 MPa/s. Paper cites ISO 1920-10 for compression/modulus measurements.',limitations:'Volume fraction cannot become filler grams without density and basis checks. Curing narrative and test-age wording retained separately. No automatic transfer of targets to another metakaolin.',scalable:false}
 ];
-literatureMixes.push(...recipeAdditions,...novelRecipeAdditions,...polypropyleneRecipes,...fiberRecipes);
+literatureMixes.push(...recipeAdditions,...novelRecipeAdditions,...polypropyleneRecipes,...fiberRecipes,...biocharRecipes);
 for (const m of literatureMixes) {
  m.revision=1;
  m.activation ||= 'potassium';

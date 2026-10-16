@@ -1,3 +1,4 @@
+import {biocharRecipes} from './biochar-recipes.js';
 import {basaltMatrixRecipes,carbonTextileRecipes,hempBasaltFoamRecipes} from './fiber-recipes.js';
 // Published design references. These two variants are one study, not replications.
 const source='https://www.frontiersin.org/journals/materials/articles/10.3389/fmats.2021.773103/full';
@@ -19,6 +20,7 @@ export const novelRecipeAdditions=[
 ];
 // These labels indicate study scope, never a guaranteed benefit.
 export const recipeFocus={
+ ...Object.fromEntries(biocharRecipes.map(m=>[m.id,['compressive','workability']])),
  ...Object.fromEntries(basaltMatrixRecipes.map(m=>[m.id,['compressive','flexural','workability']])),
  ...Object.fromEntries(carbonTextileRecipes.map(m=>[m.id,['flexural','workability']])),
  ...Object.fromEntries(hempBasaltFoamRecipes.map(m=>[m.id,['flexural','lightweight']])),
@@ -28,8 +30,9 @@ export const recipeFocus={
  'alameri-t2m9':['compressive'], 'meng-pt5':['compressive','flexural'], 'meng-pt6':['compressive']
 };
 export const novelRecipeGroups=[
+ {id:'hardwood-biochar',title:'Hardwood biochar + metakaolin',focus:'Compression and workability',recipes:biocharRecipes.map(m=>m.id),note:'Five same-study doses, including the control. Solution masses scale; unknown NaOH water content limits chemistry calculations. Higher dose is not automatically better.'},
  {id:'hemp-basalt-foam',title:'Hemp & basalt foams',focus:'Bending and thermal-insulation study',recipes:hempBasaltFoamRecipes.map(m=>m.id),note:'Five same-study designs. Batch and numerical-result mapping remain unresolved; scaling is disabled.'},
- {id:'basalt-mortar',title:'Chopped basalt in mortar',focus:'Compression, flexure and workability',recipes:basaltMatrixRecipes.map(m=>m.id),note:'Three matrix variants with mass scaling. Fiber dose is relative to geopaste; these results do not describe carbon-textile plates.'},
+ {id:'basalt-mortar',title:'Chopped basalt in mortar',focus:'Compression, flexure and workability',recipes:basaltMatrixRecipes.map(m=>m.id),note:'Eleven matrix variants with mass scaling. Fiber dose is relative to geopaste; these results do not describe carbon-textile plates.'},
  {id:'carbon-textile',title:'Carbon textile + basalt',focus:'Textile assembly and bending behavior',recipes:carbonTextileRecipes.map(m=>m.id),note:'Two geometry-dependent assemblies. Textile quantity is unresolved; no matrix strength is copied to the plate.'},
  {id:'polypropylene',title:'Polypropylene + cellulose modifier',focus:'Bending behavior, printability and interlayer bond',recipes:['nematollahi-pp0','nematollahi-pp1'],note:'Control proportions can scale. The fiber design keeps its volume basis and cannot yet transfer to a gram batch. Both fiber and CMC change.'},
  {id:'hybrid-fibers',title:'PVA fibers + carbon nanotubes',focus:'Compression; flexure needs further extraction',recipes:['meng-pt5','meng-pt6'],note:'Partial published designs. Compare only the stated ages; neither is a complete mass recipe.'},
