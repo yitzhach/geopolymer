@@ -19,7 +19,9 @@ Updated 15 October 2026 (Eastern).
 - All 17 Node test files and knowledge validation pass; build covers 166 routes.
   Focused recipe browser QA passes, including new scaling, read-only designs,
   filters, exports and desktop/mobile layouts. Mobile foam and desktop matrix
-  screenshots reviewed. Main/CI state is recorded after publication.
+  screenshots reviewed. Implementation 19f6b30 is pushed to main. GitHub run
+  38735047883 passed Node tests and all six browser suites. Live deployment
+  remains unverified; this records repository and CI completion.
 - Next: resolve foam formulation/result mapping, qualify carbon-textile quantities,
   and obtain accessible biochar methods. Continue remaining source inventories.
 
