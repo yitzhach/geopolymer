@@ -207,3 +207,23 @@ NaOH solution water content or oxide assays; dose is replacement of original MK,
 not percent of the wet batch. Forty-day exposure results and physical/shrinkage
 results remain pending. Hardwood biochar is not coffee ash or untreated grounds.
 Audit: research/batches/recipes-biochar-2026-10-15.json. Same-agent AI review only.
+
+## 16 October 2026 — biochar physical and exposure evidence
+
+Extended the existing five Saccani recipes with 40 selected result cells from
+Tables 3–5: 30 source-reported measured quantities and 10 author-calculated
+consistency/change values. Reported spreads and original precision remain intact.
+Two same-study comparison tables separate fresh/physical/initial dynamic modulus
+from 40-day capillary-exposure/drying results. These secondary records are in
+`characterization`, outside ordinary strength matching; JSON exports retain full
+conditions, methods, sample-count qualification and locators. Calculator/notebook
+v1 retains concise literature-only notes within its existing 3,000-character cap;
+new personal results remain empty. No storage migration or new prediction model.
+
+Physical testing follows a 28-day cure plus immersion/drying conditioning; do not
+label its total test age 28 days. Exposure chronology is 28+8+4 days, with heating
+and no matched unexposed 40-day control. Atmospheric absorption is distinct from
+capillary uptake; dynamic modulus is distinct from static modulus. Unresolved
+spread type prevents statistical ranking. Catalog remains 43 recipes, 31 scalable;
+canonical library/pilot stays 161/5/62/275. Partial paper/assay/figure gaps remain.
+Audit: research/batches/recipes-biochar-properties-2026-10-16.json.

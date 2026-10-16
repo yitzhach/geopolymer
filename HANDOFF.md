@@ -1,5 +1,33 @@
 # Geopolymer — current handoff
-Updated 15 October 2026 (Eastern).
+Updated 16 October 2026 (Eastern).
+
+## Latest checkpoint — biochar physical/exposure batch, 16 October 2026
+- Started from GitHub-confirmed main 5e8c6ff. Prior local branch and its
+  unpublished documentation are preserved; recovered its next-experiment brief
+  into this batch. Earlier PR #11 implementation is on main; previous handoff
+  CI/publication wording was stale. No prior live identity has been verified.
+- Added 40 characterization cells to the five existing Saccani biochar recipes:
+  Table 3 all 20 quantities, Table 4 five dynamic moduli, Table 5 all 15 values.
+  Thirty source-reported measured quantities; ten author-calculated consistency/
+  signed-change values. Spreads preserve unresolved type and original precision.
+  All checked against rendered source pages 11/12/15; same-agent AI review only.
+- Added two responsive same-study comparisons. Physical conditioning after
+  28-day cure differs from capillary testing; exposed age is 28+8+4=40 days.
+  Method-specified specimen counts and unknown valid-result counts stay distinct.
+  No unexposed 40-day control; no causal durability/heating benefit inferred.
+- Secondary characterization stays outside ordinary strength matching. Full JSON
+  retains methods/chronology; concise calculator/notebook notes fit the existing
+  3,000-character limit. New personal trial results remain empty.
+- Counts unchanged: 43 recipes, 31 scalable; canonical library/pilot 161/5/62/275.
+  Forty new recipe characterization cells are separate from canonical pilot data.
+- Audit: research/batches/recipes-biochar-properties-2026-10-16.json, superseding
+  prior pending Table 3/4/5 states. Figures, assays and other methods remain partial.
+- Local tests, knowledge validation and 179-route build pass. Local Chromium
+  download failed (truncated archive); browser CI/publication pending below.
+- Next: qualify assays and source layers; inspect remaining biochar analytical/
+  dimensional-change figures without inventing points; resolve foam IDs, dose
+  bases and full batches. Do not repeat completed table/recipe additions.
+- Existing daily automation unchanged. No new continuation schedule created.
 
 ## Latest checkpoint — hardwood biochar batch, 15 October 2026
 - Corrected university PDF path succeeds for 10.3390/ma18030486. Five source
