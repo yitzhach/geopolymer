@@ -5,7 +5,8 @@ Updated 16 October 2026 (Eastern).
 - Started from GitHub-confirmed main 5e8c6ff. Prior local branch and its
   unpublished documentation are preserved; recovered its next-experiment brief
   into this batch. Earlier PR #11 implementation is on main; previous handoff
-  CI/publication wording was stale. No prior live identity has been verified.
+  CI/publication wording was stale. Prior live build 5e8c6ff was independently
+  verified during this run before the new release.
 - Added 40 characterization cells to the five existing Saccani biochar recipes:
   Table 3 all 20 quantities, Table 4 five dynamic moduli, Table 5 all 15 values.
   Thirty source-reported measured quantities; ten author-calculated consistency/
@@ -22,8 +23,19 @@ Updated 16 October 2026 (Eastern).
   Forty new recipe characterization cells are separate from canonical pilot data.
 - Audit: research/batches/recipes-biochar-properties-2026-10-16.json, superseding
   prior pending Table 3/4/5 states. Figures, assays and other methods remain partial.
-- Local tests, knowledge validation and 179-route build pass. Local Chromium
-  download failed (truncated archive); browser CI/publication pending below.
+- Verification: all 83 Node tests, knowledge validation and 179-route build pass.
+  GitHub run 38865675499 on 99f7dfd passed all six browser suites. Reviewed
+  1440/390px recipe screenshots and full-resolution comparison crops from
+  artifact 12031107364; responsive text is readable, wide tables scroll.
+  Local Chromium download failed; GitHub CI supplied browser verification.
+- PR #12 merged to main as 6212cd72c1401eab44b905383912504516853290.
+  Live build-info independently reports that exact commit, builtAt
+  2026-10-16T07:16:04.364Z and 179 routes. Live recipe page contains both
+  comparison tables and condition boundaries; characterization module matches
+  the verified source byte-for-byte. This follow-up is documentation only.
+- Status review remains bounded: exact-DOI/publisher search found no specific
+  notice; publisher version-notes retrieval returned HTTP 429. No clean-status
+  guarantee or human/domain verification is claimed.
 - Next: qualify assays and source layers; inspect remaining biochar analytical/
   dimensional-change figures without inventing points; resolve foam IDs, dose
   bases and full batches. Do not repeat completed table/recipe additions.
