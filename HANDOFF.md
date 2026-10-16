@@ -1,6 +1,21 @@
 # Geopolymer — current handoff
 Updated 15 October 2026 (Eastern).
 
+## Latest checkpoint — hardwood biochar batch, 15 October 2026
+- Corrected university PDF path succeeds for 10.3390/ma18030486. Five source
+  recipes plus 15 initial compression measurements added after visual checks of
+  Tables 2 and 4. Recipes 38 → 43; scalable 26 → 31. Includes unfavorable doses.
+- Actual hardwood preparation and solution-mass/replacement bases preserved.
+  NaOH water fraction, assay qualification, spread type and per-age n unknown.
+  Forty-day post-exposure results are not ordinary curing-age data. No new
+  canonical bibliography/pilot counts: still 161 / 5 / 62 / 275.
+- Audit: research/batches/recipes-biochar-2026-10-15.json; inventories track
+  remaining physical-property tables, post-exposure tests and figures.
+- Local 80 Node tests pass. Final build and CI/publication checks pending below.
+- Continue with the two batch audits above; do not re-add these 13 recipes.
+  Next depth: biochar Tables 3/5 with their distinct methods, qualified assays,
+  and unresolved foam formulation/results. Keep source ambiguity visible.
+
 ## Latest checkpoint — complete basalt matrix series, 15 October 2026
 - Read current main ca586f1 and research rules. Added eight source-checked matrix
   variants: recipes 30 → 38, scalable 18 → 26. All 11 Le Table 3 rows now appear

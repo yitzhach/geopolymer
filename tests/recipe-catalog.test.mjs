@@ -6,7 +6,7 @@ import {selectRecipes,planRequirements,catalogExport,testAges} from '../src/reci
 import {mixDetail,sourceComparison} from '../src/literature-ui.js';
 import {newTrial} from '../src/experiment-notebook.js';
 test('mass-proportion source records scale without altering source results or notebook measurements',()=>{
- assert.equal(recipeAdditions.length,11);assert.equal(literatureMixes.length,38);assert.equal(new Set(literatureMixes.map(m=>m.id)).size,38);
+ assert.equal(recipeAdditions.length,11);assert.equal(literatureMixes.length,43);assert.equal(new Set(literatureMixes.map(m=>m.id)).size,43);
  const before=JSON.stringify(literatureMixes);
  for(const m of recipeAdditions){const p=mixProject(m.id,2000);assert.ok(Math.abs(p.recipe.rows.reduce((s,r)=>s+r.mass,0)-2000)<1e-8);assert.ok(m.url.startsWith('https://'));assert.ok(m.locator);assert.ok(m.method);assert.ok(m.curing);assert.equal(newTrial(p).results.length,0);}
  assert.equal(JSON.stringify(literatureMixes),before);
@@ -24,7 +24,7 @@ test('catalog filters and export preserve references and unknown results',()=>{
  assert.equal(selectRecipes({query:'xyz-no-match'}).length,0);assert.ok(selectRecipes({activation:'sodium'}).every(m=>m.activation==='sodium'));
  assert.equal(selectRecipes({query:'KASIL 2040'}).length,1);
  const k=literatureMixes.find(m=>m.id==='bong-k-ka20-25');assert.equal(k.strength,null);assert.deepEqual(k.results,[]);assert.doesNotMatch(mixDetail(k),/null MPa/);assert.match(mixDetail(k),/Not recorded/);
- assert.equal(JSON.parse(JSON.stringify(catalogExport())).records.length,38);
+ assert.equal(JSON.parse(JSON.stringify(catalogExport())).records.length,43);
 });
 
 test('novel collection preserves dosage bases, age boundaries and non-scalable partial recipes',()=>{
@@ -95,4 +95,16 @@ test('fiber batch scales geopaste-based doses and keeps specimen results separat
  assert.match(html,/75.24 ± 4.01/);assert.doesNotMatch(html,/le-textile-/);
  assert.equal(sourceComparison({...highDose,comparisonIds:['le-textile-control']}),'');
  for(const m of rows){const p=mixProject(m.id,1200);assert.ok(Math.abs(p.recipe.rows.reduce((sum,r)=>sum+r.mass,0)-1200)<1e-8);assert.equal(newTrial(p).results.length,0);}
+ });
+
+ test('biochar wet mass and replacement bases stay distinct and measured ages stay exact',()=>{
+ const m=literatureMixes.find(r=>r.id==='saccani-mh1');
+ const p=mixProject(m.id,1000);assert.deepEqual(p.recipe.rows.map(r=>Math.round(r.mass*10)/10),[554.6,5.6,212.9,212.9,14]);
+ assert.equal(m.results.length,3);assert.deepEqual(m.results.map(r=>r.ageHours),[168,336,672]);
+ assert.equal(m.results[1].original,'30.0 ± 2.4');assert.deepEqual(m.ingredients[3].comp,{});
+ assert.equal(literatureMixes.find(r=>r.id==='saccani-mh8').strength,20.1);
+ assert.equal(newTrial(p).results.length,0);
+ assert.equal(selectRecipes({query:'biochar',collection:'novel'}).length,5);
+ assert.ok(!planRequirements({property:'compressive',target:1,ageHours:24}).matches.some(r=>r.id.startsWith('saccani')));
+ assert.ok(!planRequirements({property:'flexural',target:1}).matches.some(r=>r.id.startsWith('saccani')));
  });
