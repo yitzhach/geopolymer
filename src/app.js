@@ -6,6 +6,8 @@ import {literatureMixes} from './literature-mixes.js';
 import {mixCards,mixDetail,attachMix} from './literature-ui.js';
 import { calculatorPage, attachCalculator } from "./gp-calculator.js";
 import { libraryPage, attachLibrary } from "./research-library.js";
+import {researchTopics} from './research-topics.js';
+import {researchTopicPage} from './research-topic-ui.js';
 import { platformPage, attachPlatform } from "./platform.js";
 import {
   materials,
@@ -125,7 +127,7 @@ function researchIndex() {
       "Read the evidence, understand its limits and trace the connection to materials and methods.",
     ) +
     `<div class="actions">${link("/library", "Browse the Research Library", "button")}${link("/calculator", "GP molar-ratio calculator", "button secondary")}</div>` + papers.map(researchRow).join("") +
-    `<div class="callout">This section contains one annotated source record; the Research Library links to dozens of additional publications. Published findings do not validate the platform’s proposed products.</div>`
+    `<section class="section"><h2>Explore a research topic.</h2><div class="grid two">${researchTopics.map(t=>`<article class="record"><h3>${link('/research/'+t.id,esc(t.title))}</h3><p>${esc(t.summary)}</p><p class="small">Research leads and proposed experiments; review depth is labeled.</p></article>`).join('')}</div></section><div class="callout">The Research Library and experimental evidence search retain their own source and review records. Published findings do not validate the platform’s proposed products.</div>`
   );
 }
 function researchDetail(p) {
@@ -383,6 +385,8 @@ export function renderPage(url = "/") {
       break;
     }
     case "research": {
+      const topic = researchTopics.find(t=>t.id===id);
+      if(topic){html=researchTopicPage(topic);title=topic.title;break;}
       const item = papers.find((x) => x.id === id);
       html = id ? (item ? researchDetail(item) : notFound()) : researchIndex();
       title = item?.title || "Research";

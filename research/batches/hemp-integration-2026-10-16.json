@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "id": "hemp-integration-2026-10-16",
+  "checkedDate": "2026-10-16",
+  "baseCommit": "d9efdb055ee86726760014fdc8f02019bedf3dde",
+  "provider": "Session web search; OpenAlex explicitly on hold",
+  "scope": "Bounded hemp integration scout plus existing foam/biochar/pilot follow-up",
+  "review": "Same-agent AI review; no human/domain verification or independent replication",
+  "queries": [
+    "hemp shiv geopolymer binder hempcrete alkali activated composite",
+    "hemp fiber geopolymer durability alkaline degradation strength",
+    "\"10.1111/jace.70158\" full text",
+    "\"Impact of hemp shiv content and binder type\" doi",
+    "\"Thermal and mechanical characterization\" \"hemp shiv\" 2022 doi pdf",
+    "\"Hemp Fiber Reinforced Red Mud\" full text",
+    "\"10.3390/ma18112536\" pdf",
+    "\"10.1016/j.conbuildmat.2025.141297\" hemp",
+    "\"hemp\" \"geopolymer\" \"hornification\" Poletanovic doi",
+    "\"10.1080/19648189.2026.2695372\" correction retraction",
+    "\"Hemp Fiber Reinforced Red Mud\" \"10.3390/ma14030511\""
+  ],
+  "counts": {
+    "topicSources": 8,
+    "newStagedCandidates": 6,
+    "priorStagedFollowups": 2,
+    "canonicalBefore": 161,
+    "canonicalAfter": 161,
+    "recipesBefore": 43,
+    "recipesAfter": 43,
+    "scalable": 31,
+    "studies": 5,
+    "mixes": 62,
+    "observations": 275,
+    "newNumericObservations": 0,
+    "completeExtractions": 0
+  },
+  "records": [
+    {
+      "id": "shiv-binders",
+      "doi": "10.1016/j.conbuildmat.2025.141297",
+      "title": "Impact of hemp shiv content and binder type on the thermal and mechanical properties of geopolymer composites",
+      "year": 2025,
+      "material": "Shiv / lightweight aggregate",
+      "access": "indexed-lead",
+      "sourceUrl": "https://www.sciencedirect.com/science/article/pii/S095006182501445X",
+      "locator": "Publisher-indexed identity; full retrieval failed",
+      "note": "A direct shiv/binder comparison to investigate.",
+      "next": "Recover full methods and mass/volume bases.",
+      "checked": "2026-10-16",
+      "status": "Review pending; no comprehensive correction clearance",
+      "rights": "Linked source only; no source text or figures redistributed",
+      "canonicalId": null,
+      "priorBatchMentions": []
+    },
+    {
+      "id": "treated-shiv",
+      "doi": "10.1016/j.conbuildmat.2022.127206",
+      "title": "Thermal and mechanical characterization of fly ash geopolymer with aluminium chloride and potassium hydroxide treated hemp shiv lightweight aggregate",
+      "year": 2022,
+      "material": "Shiv / lightweight aggregate",
+      "access": "indexed-lead",
+      "sourceUrl": "https://www.sciencedirect.com/science/article/pii/S0950061822008868",
+      "locator": "Publisher-indexed identity; full retrieval returned 403",
+      "note": "A treated-shiv precedent; treatment compatibility is system-specific.",
+      "next": "Check treatment, washing, moisture and cure before recipe transfer.",
+      "checked": "2026-10-16",
+      "status": "Review pending; no comprehensive correction clearance",
+      "rights": "Linked source only; no source text or figures redistributed",
+      "canonicalId": null,
+      "priorBatchMentions": []
+    },
+    {
+      "id": "hempcrete",
+      "doi": "10.1080/19648189.2026.2695372",
+      "title": "Alkali-activated geopolymer hempcrete: thermal and mechanical performance with energy and environmental assessment",
+      "year": 2026,
+      "material": "Shiv / lightweight aggregate",
+      "access": "abstract-reviewed",
+      "sourceUrl": "https://pure.kfupm.edu.sa/en/publications/alkali-activated-geopolymer-hempcrete-thermal-and-mechanical-perf/",
+      "locator": "Institutional record and abstract",
+      "note": "Fly ash/metakaolin hempcrete lead; moisture and modelling assumptions need review.",
+      "next": "Obtain full methods; do not infer building compliance from the abstract.",
+      "checked": "2026-10-16",
+      "status": "Review pending; no comprehensive correction clearance",
+      "rights": "Linked source only; no source text or figures redistributed",
+      "canonicalId": null,
+      "priorBatchMentions": []
+    },
+    {
+      "id": "hornification",
+      "doi": "10.1016/j.conbuildmat.2024.137957",
+      "title": "Fibre hornification improves the long-term properties of hemp fibre-reinforced fly ash-based geopolymer mortar",
+      "year": 2024,
+      "material": "Bast fiber / reinforcement",
+      "access": "abstract-reviewed",
+      "sourceUrl": "https://repositum.tuwien.at/handle/20.500.12708/204863",
+      "locator": "Institutional record and abstract",
+      "note": "Ageing conditions can affect strength and energy absorption differently.",
+      "next": "Inspect the protocol and match laboratory and accelerated-age controls.",
+      "checked": "2026-10-16",
+      "status": "Review pending; no comprehensive correction clearance",
+      "rights": "Linked source only; no source text or figures redistributed",
+      "canonicalId": null,
+      "priorBatchMentions": []
+    },
+    {
+      "id": "durability-thesis",
+      "doi": "10.34726/hss.2025.136875",
+      "title": "Durability of hemp fibre-reinforced fly ash-based geopolymers",
+      "year": 2025,
+      "material": "Bast fiber / reinforcement",
+      "access": "abstract-reviewed",
+      "sourceUrl": "https://repositum.tuwien.at/handle/20.500.12708/220431",
+      "locator": "Repository record and abstract; dissertation",
+      "note": "Publication map for treatment and carbonation studies; related papers may share datasets.",
+      "next": "Reconcile datasets before counting corroboration; thesis marked In Copyright.",
+      "checked": "2026-10-16",
+      "status": "Review pending; no comprehensive correction clearance",
+      "rights": "Linked source only; no source text or figures redistributed",
+      "canonicalId": null,
+      "priorBatchMentions": []
+    },
+    {
+      "id": "red-mud",
+      "doi": "10.3390/ma14030511",
+      "title": "Hemp Fiber Reinforced Red Mud/Fly Ash Geopolymer Composite Materials: Effect of Fiber Content on Mechanical Strength",
+      "year": 2021,
+      "material": "Bast fiber / reinforcement",
+      "access": "indexed-lead",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/33494326/",
+      "locator": "Indexed bibliographic lead; attempted copies did not yield methods",
+      "note": "A different binder-family lead for the next extraction batch.",
+      "next": "Retrieve an authorized usable full text and qualify the red-mud source.",
+      "checked": "2026-10-16",
+      "status": "Review pending; no comprehensive correction clearance",
+      "rights": "Linked source only; no source text or figures redistributed",
+      "canonicalId": null,
+      "priorBatchMentions": []
+    },
+    {
+      "id": "insulation",
+      "doi": "10.3390/ma18112536",
+      "title": "Physical Structural Mechanical and Thermal Insulation Properties of Hemp Fiber-Substituted Geopolymer Composites",
+      "year": 2025,
+      "material": "Hemp / form requires methods review",
+      "access": "indexed-lead",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/40508539/",
+      "locator": "Indexed bibliographic lead; publisher failed and PMC challenged access",
+      "note": "Previously staged insulation study; methods remain uninspected.",
+      "next": "Resolve fiber form, dose basis and moisture-conditioned thermal tests.",
+      "checked": "2026-10-16",
+      "status": "Review pending; no comprehensive correction clearance",
+      "rights": "Linked source only; no source text or figures redistributed",
+      "canonicalId": null,
+      "priorBatchMentions": [
+        "scout-fibers-carbon-2026-10-15.json"
+      ]
+    },
+    {
+      "id": "foam",
+      "doi": "10.1111/jace.70158",
+      "title": "Sodium-based, geopolymer foamed composites reinforced with phosphate mine waste particulates and hemp/basalt fibers",
+      "year": 2025,
+      "material": "Bast fiber / foamed matrix",
+      "access": "full-text-partial",
+      "sourceUrl": "https://ceramics.onlinelibrary.wiley.com/doi/full/10.1111/jace.70158",
+      "locator": "\u00a7\u00a72.2\u20132.3, \u00a73.3 and Table 3",
+      "note": "Inspected methods; mix-ID and heat-capacity-unit conflicts prevent numerical mapping.",
+      "next": "Resolve S1/WP IDs and supplement; published designs remain unscalable.",
+      "checked": "2026-10-16",
+      "status": "Review pending; no comprehensive correction clearance",
+      "rights": "Linked source only; no source text or figures redistributed",
+      "canonicalId": null,
+      "priorBatchMentions": [
+        "recipes-fibers-2026-10-15.json",
+        "recipes-matrix-complete-2026-10-15.json",
+        "scout-fibers-carbon-2026-10-15.json"
+      ]
+    }
+  ],
+  "accessAttempts": [
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S095006182501445X",
+      "state": "tool-error",
+      "detail": "403; no paywall inferred"
+    },
+    {
+      "url": "https://hal.science/hal-05758829",
+      "state": "tool-error"
+    },
+    {
+      "url": "https://mcd.univ-gustave-eiffel.fr/projet-de-type-a-1/articles-dans-une-revue",
+      "state": "tool-error"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950061822008868",
+      "state": "tool-error",
+      "detail": "403; no paywall inferred"
+    },
+    {
+      "url": "https://ceramics.onlinelibrary.wiley.com/doi/full/10.1111/jace.70158",
+      "state": "full-text-observed",
+      "detail": "Selected methods and Table 3 reviewed; supplement click failed; current HTML did not expose CC notice. Earlier rights evidence remains historical."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12156192/",
+      "state": "browser-challenge"
+    },
+    {
+      "url": "https://www.mdpi.com/1996-1944/18/11/2536",
+      "state": "tool-error"
+    },
+    {
+      "url": "https://open.fau.de/bitstreams/163db259-3390-43ba-914d-57fd97c398b6/download",
+      "state": "tool-error",
+      "detail": "HTML shell, not usable PDF"
+    },
+    {
+      "url": "https://www.mdpi.com/1996-1944/14/3/511",
+      "state": "tool-error"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7865735/",
+      "state": "browser-challenge"
+    },
+    {
+      "url": "https://cris.unibo.it/retrieve/18a88cc9-e847-4171-b93c-8b7d2c5eae67/materials-18-00486.pdf",
+      "state": "full-text-observed",
+      "detail": "Text locators reviewed; screenshots of pages 6 and 16 timed out; no visual confirmation or digitization"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9032675/",
+      "state": "browser-challenge",
+      "detail": "Initial article document returned; targeted figure follow-up challenged. No fresh figure review."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33494326/",
+      "state": "browser-challenge",
+      "detail": "Indexed search verifies exact DOI/title; direct record challenged."
+    }
+  ],
+  "gapUpdates": [
+    {
+      "doi": "10.1111/jace.70158",
+      "locator": "Table 3 / Specific Heat header versus \u00a73.3",
+      "state": "ambiguous",
+      "issue": "Area-based printed unit versus volumetric quantity; retain original until resolved. S1/WP mapping and complete batches remain held."
+    },
+    {
+      "doi": "10.3390/ma18030486",
+      "locator": "\u00a72.3.6 / Figure 12",
+      "state": "methods-reviewed-figure-pending",
+      "issue": "No digitization without legible figure/calibration. Assay dependencies: references 33 and 41; supplier/lot correspondence unqualified."
+    },
+    {
+      "doi": "10.3390/ma15082944",
+      "locator": "Figures 4\u20136",
+      "state": "access-blocked",
+      "issue": "Preserve prior baseline/sign/humidity issues; no extraction added."
+    }
+  ],
+  "rights": {
+    "publicContent": "Original short editorial notes and bibliographic links only",
+    "rawSourceRetained": false,
+    "figuresReproduced": false,
+    "fullTablesReproduced": false,
+    "numericTransfer": false
+  },
+  "statusCheck": "Exact DOI notice search for the 2026 hempcrete lead found no specific notice; not clearance. Other sources retain pending status.",
+  "next": [
+    "Acquire shiv and hornification full methods and version-specific rights",
+    "Reconcile thesis/article dataset overlap",
+    "Resolve foam Table 3 units and S1/WP IDs",
+    "Obtain visually legible biochar and pilot figures"
+  ],
+  "verification": {
+    "node": "19 test files pass",
+    "knowledge": "161/5/62/275",
+    "build": "180 routes",
+    "browser": "Focused research suite passes locally with system Chromium; 1440/390px page crops visually reviewed. Full route suite pending."
+  },
+  "nextAccessLeads": [
+    {
+      "doi": "10.3390/ma14030511",
+      "url": "https://mdpi-res.com/d_attachment/materials/materials-14-00511/article_deploy/materials-14-00511-v3.pdf",
+      "state": "OA-reported-link-unchecked",
+      "note": "Found after three attempted copies; defer retrieval to next batch. Indexed copyright notice is not a full-paper methods check."
+    }
+  ]
+}

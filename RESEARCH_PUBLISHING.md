@@ -122,3 +122,20 @@ OpenAlex guidance says Unpaywall uses the same underlying data; it is not indepe
 OA verification. Google Scholar remains a manual seed source. Three web-tool access
 checks are recorded in research/batches/scout-access-2026-10-14.json. Catalog and
 measurements unchanged; cloud API and unattended synthesis remain unconfigured.
+
+
+## 16 October 2026 — research topic notes
+
+`src/research-topics.js` supplies `/research/hemp-geopolymers`, linked from research,
+library and site search. Eight leads are separate from the 161 canonical library
+records and from numeric evidence. Source cards retain access depth, scope,
+rights limits, next checks and unresolved status. Proposed experiments reference
+stable source IDs. The build validates records before replacing dist and writes
+`/research-topics/hemp-geopolymers.json` from the same data.
+
+`src/research-topic-core.js` rejects duplicate IDs/DOIs, missing provenance,
+unsupported evidence states, unsafe source links, unresolved question citations
+and numeric/raw-source fields in lead records. This checks structure, not truth,
+rights clearance or scientific validity. New topics use this contract and still
+require source review. No additional library, assistant evidence, recipe,
+OpenAlex integration or automation is implied by a topic publication.
