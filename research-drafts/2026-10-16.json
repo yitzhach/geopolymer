@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-16",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-09",
+    "through": "2026-10-16"
+  },
+  "researchUpdates": [
+    {
+      "year": 2026,
+      "dateBasis": "Publisher-listed publication date",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "published": "2026-10-10",
+      "checked": "2026-10-16",
+      "added": "2026-10-16",
+      "journal": "Construction and Building Materials",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
+      "summaryBasis": "Primary publisher metadata and indexed abstract-level text; full methods not audited",
+      "id": "research-gpa-uhpc-self-healing",
+      "title": "Geopolymer artificial aggregates enhance self-healing in ultra-high-performance concrete (UHPC) exposed to chloride solution",
+      "doi": "10.1016/j.conbuildmat.2026.148082",
+      "topic": "Durability",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0950061826029910",
+      "authors": "Mamiantsa Jeiela Randriamianosoa, Yu-Lei Bai, Lan-Ping Qian and Jian-Guo Dai",
+      "summary": "Geopolymer artificial aggregate replaces quartz sand in a UHPC system studied for crack recovery during chloride-solution immersion.",
+      "highlights": [
+        "The aggregate is treated as an active component of the healing environment rather than only as inert filler.",
+        "Recovery measurements are tied to the tested crack widths, immersion condition and UHPC formulation."
+      ],
+      "access": "Publisher abstract-level evidence. Chloride immersion is a defined laboratory exposure; the study does not establish general marine durability, field service life or independent replication.",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2026.148082"
+    },
+    {
+      "year": 2026,
+      "dateBasis": "Publisher-listed publication date",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "published": "2026-10-10",
+      "checked": "2026-10-16",
+      "added": "2026-10-16",
+      "journal": "Construction and Building Materials",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
+      "summaryBasis": "Primary publisher metadata and indexed abstract-level text; full methods not audited",
+      "id": "research-red-mud-mswi-solidification",
+      "title": "Red mud as alkali substitute and aluminum source: A dual functional strategy for hazardous ion solidification in MSWI FA geopolymer",
+      "doi": "10.1016/j.conbuildmat.2026.148089",
+      "topic": "Waste & biomass",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0950061826029983",
+      "authors": "Yaguang Wang, Fei Xie, Yuan Liang, Wei Zhang, Shizhen Zhao, Fengli Liu and Xiaoming Liu",
+      "summary": "Red mud is evaluated as both a partial alkali source and a reactive aluminum contributor in a municipal-incinerator-fly-ash/slag binder.",
+      "highlights": [
+        "The experiment links activator reduction with changes in matrix chemistry and hazardous-ion retention.",
+        "The reported optimum belongs to one red-mud, ash and slag combination and should not be transferred by percentage alone."
+      ],
+      "access": "Publisher abstract-level evidence. Source chemistry, leaching protocol and regulatory context govern interpretation; no universal waste-safety or mix-design qualification is established.",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2026.148089"
+    },
+    {
+      "year": 2026,
+      "dateBasis": "Publisher-listed publication date",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "published": "2026-10-10",
+      "checked": "2026-10-16",
+      "added": "2026-10-16",
+      "journal": "Construction and Building Materials",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
+      "summaryBasis": "Primary publisher metadata and indexed abstract-level text; full methods not audited",
+      "id": "research-ceramic-waste-egc",
+      "title": "Insights into the effects of ceramic waste powder as a precursor and alkali-activators on engineering performance of high ductility engineered geopolymer composites",
+      "doi": "10.1016/j.conbuildmat.2026.148122",
+      "topic": "Fibers & mechanics",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S095006182603031X",
+      "authors": "Huixia Wu, Shifeng Li, Dingyi Yang, Chaofeng Liang and Zhiming Ma",
+      "summary": "Ceramic waste powder and activator variables are compared in fiber-reinforced geopolymer composites designed for tensile deformation.",
+      "highlights": [
+        "The study separates fresh-state flow constraints from tensile strength and strain-capacity measurements.",
+        "Ceramic-powder replacement and activator settings interact, so the reported mixtures are study variants rather than independent replications."
+      ],
+      "access": "Publisher abstract-level evidence. Tensile results do not establish shear, bond or compressive performance at unreported ages; fiber system, curing and specimen method limit transfer.",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2026.148122"
+    },
+    {
+      "year": 2026,
+      "dateBasis": "Publisher-listed publication date",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "published": "2026-10-10",
+      "checked": "2026-10-16",
+      "added": "2026-10-16",
+      "journal": "Construction and Building Materials",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
+      "summaryBasis": "Primary publisher metadata and indexed abstract-level text; full methods not audited",
+      "id": "research-pam-aas-fa-slurry",
+      "title": "Study on the effects of polyacrylamide on the rheological properties and hardening characteristics of alkali-activated slag-fly ash slurry",
+      "doi": "10.1016/j.conbuildmat.2026.147967",
+      "topic": "Mix design & chemistry",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S095006182602876X",
+      "authors": "Yachao Guo, Junmeng Li, Yanli Huang, Jiachen Liu, Yingshun Li and Zuo Sun",
+      "summary": "Polyacrylamide dosage is studied in sodium-hydroxide/sodium-silicate activated slag–fly-ash slurry intended for dynamic-water grouting.",
+      "highlights": [
+        "The work treats anti-dispersion and rheology as application requirements alongside hardening behavior.",
+        "Polymer effects are evaluated in a grouting slurry and should not be generalized to thin coatings or cast concrete without testing."
+      ],
+      "access": "Publisher abstract-level evidence. Polymer grade, dosage, activator chemistry and dynamic-water test conditions are system-specific; no unreported strength timeline is supplied.",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2026.147967"
+    },
+    {
+      "year": 2026,
+      "dateBasis": "Publisher-listed publication date",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "published": "2026-10-10",
+      "checked": "2026-10-16",
+      "added": "2026-10-16",
+      "journal": "Construction and Building Materials",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
+      "summaryBasis": "Primary publisher metadata and indexed abstract-level text; full methods not audited",
+      "id": "research-geopolymer-structural-electrolyte",
+      "title": "Carbon/polymer-modified fly ash-slag geopolymers as high-performance electrolytes for structural supercapacitors",
+      "doi": "10.1016/j.conbuildmat.2026.147923",
+      "topic": "Functional materials",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0950061826028321",
+      "authors": "Qin He, Wujian Long, Ganlin Feng, Zicong Liang, Yifan Pan, Haodao Li, Qiling Luo and Chuanglian Luo",
+      "summary": "Carbon- and polymer-modified fly-ash/slag geopolymer electrolytes are compared for structural-supercapacitor performance.",
+      "highlights": [
+        "The study considers electrochemical function and cementitious structure together rather than optimizing strength alone.",
+        "Carbon and polymer additions play different roles, making additive identity and electrode configuration essential metadata."
+      ],
+      "access": "Publisher abstract-level evidence. Electrochemical and mechanical results are device- and formulation-specific; the work does not validate a general construction mix or independent replication.",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2026.147923"
+    }
+  ],
+  "journalArticle": {
+    "id": "application-boundaries-belong-in-the-database",
+    "date": "2026-10-16",
+    "category": "Research briefing",
+    "topic": "Evidence & formulation",
+    "title": "The application belongs beside the ingredient list",
+    "summary": "Five new studies show why a useful formulation database must retain exposure, loading and function—not only proportions.",
+    "sources": [
+      "research-gpa-uhpc-self-healing",
+      "research-red-mud-mswi-solidification",
+      "research-ceramic-waste-egc",
+      "research-pam-aas-fa-slurry",
+      "research-geopolymer-structural-electrolyte"
+    ],
+    "paragraphs": [
+      "Recent work spans chloride-assisted self-healing, hazardous-ion retention, tensile composites, dynamic-water grout and structural energy storage. All involve geopolymer or alkali-activated chemistry, but each asks a different performance question.",
+      "That distinction matters for a future formulation advisor. A tensile result cannot silently become a shear prediction; a grout rheology modifier cannot become a universal coating additive; an electrochemical electrolyte cannot be ranked by compressive strength alone.",
+      "The database should therefore retain intended application, test method, exposure, age, curing and specimen alongside every measured value. These discovery records do not validate user recipes or supply results at unreported ages."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "All five DOIs are absent from 161 records on current main and the four previously staged discovery records in open daily draft PR #5. Existing draft files and stable IDs are preserved.",
+    "dates": "ScienceDirect publisher listings identify 10 October 2026 for all five records. Future issue dates were not used.",
+    "corrections": "No new substantive geopolymer/AAM correction or retraction with a publisher-verified publication date in 9–16 October was confirmed. The previously documented retraction candidate 10.1016/j.conbuildmat.2026.147674 remains excluded because an exact online date could not be verified through the publisher.",
+    "verification": "Validated required fields, five unique IDs and DOIs, exactly two original highlights per record, date-window membership and briefing source references. Summaries are original and abstract-level. The publisher pages returned indexed metadata but direct opens were access-restricted; no full-method audit is claimed.",
+    "integration": "After editorial review, append approved records to src/research-updates.js and the briefing to src/journal-data.js, preserving IDs. Run application tests, production build and browser CI before any separately authorized publication."
+  }
+}
