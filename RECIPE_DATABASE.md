@@ -183,3 +183,16 @@ by DOI. This adds 60 indexed study mix variants, not 60 newly qualified executab
 recipes. The curated recipe count remains 15. Unknown activator splits, ratio
 bases and assays block new automatic mass transfers. Study pages also offer a
 citation-only calculator link, which does not apply source quantities.
+
+## 15 October 2026 — complete basalt matrix comparison
+
+Added the remaining eight Le et al. matrix variants: 38 curated recipes, 26
+scalable. All 11 Table 3 matrix rows now have 22 means with their reported spreads;
+16 measurements are new. Source page 5 was visually checked after text extraction.
+Recipe pages compare the full same-study matrix series and expose mixing order
+and sand grading. Textile assemblies remain separate and read-only; manufacturer
+areal mass does not establish a complete assembly batch. Foam methods retain the
+identifier, batch, test-age and loading-geometry uncertainties. The canonical
+library/pilot remains 161 publications / 5 partial studies / 62 mixes / 275 cells.
+See research/batches/recipes-matrix-complete-2026-10-15.json. These are selected
+licensed facts and AI source checks, not full-paper extraction or replication.

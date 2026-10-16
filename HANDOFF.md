@@ -1,6 +1,26 @@
 # Geopolymer — current handoff
 Updated 15 October 2026 (Eastern).
 
+## Latest checkpoint — complete basalt matrix series, 15 October 2026
+- Read current main ca586f1 and research rules. Added eight source-checked matrix
+  variants: recipes 30 → 38, scalable 18 → 26. All 11 Le Table 3 rows now appear
+  in a same-study comparison with 22 mean/spread pairs (16 new measurements).
+- Reviewed PDF page 5 visually; compression/flexure columns, doses and extrema
+  match. Preserve unknown spread type, replicate count and other-page PDF layers.
+- Added mixing sequence/sand grading and textile specification/yarn layout. No
+  textile mass scaling. Foam recheck retains unresolved IDs, dose basis and age;
+  method notes distinguish repeated readings from independent specimens.
+- Canonical library/pilot unchanged: 161 publications / 5 partial studies /
+  62 mixes / 275 observations. Recipe observations remain a separate catalog.
+- Audit: research/batches/recipes-matrix-complete-2026-10-15.json.
+- Local checks: 79 Node tests, knowledge validation and 174-route build pass.
+  Browser validation/publication status will be recorded after verification.
+- Scheduled one-time continuation for 16 October about 03:07 Eastern (requested
+  5 h 10 min delay); existing daily research draft schedule unchanged. Usage
+  reset detection is unavailable; this is a scheduled run, not a reset guarantee.
+- Next: complete remaining source inventories; qualify assay fields, foam mapping
+  and full batches; pursue accessible biochar methods without repeating challenges.
+
 ## Latest checkpoint — ten fiber recipes, 15 October 2026
 - Owner requested ten more published recipes. Added ten designs from two papers:
   three mortar matrices, two carbon-textile assemblies and five hemp/basalt foams.
