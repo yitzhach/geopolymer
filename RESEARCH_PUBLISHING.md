@@ -155,3 +155,9 @@ Two source-linked, partly reviewed papers extend the hemp topic to ten leads.
 Binder-ratio disagreement, additional pre-wetting water and possible dataset
 overlap remain explicit. No recipe or numeric evidence was added. See
 research/batches/hemp-clay-slag-2026-10-16.json.
+
+## Offline finding search — 17 October 2026
+The research queue searches source notes and locators and carries dated note,
+review status and rights alongside each access context. Queries such as acoustic
+and hot-water now find relevant leads. It remains an offline planning queue,
+not verified evidence retrieval or automatic ingestion.
