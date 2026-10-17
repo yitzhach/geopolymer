@@ -8,6 +8,7 @@
     "build": "node scripts/build.mjs",
     "test": "node --test tests/*.test.mjs",
     "validate:knowledge": "node scripts/validate-knowledge.mjs",
+    "research:queue": "node scripts/research-queue.mjs",
     "discover:openalex": "node scripts/discover-openalex.mjs"
   },
   "engines": {

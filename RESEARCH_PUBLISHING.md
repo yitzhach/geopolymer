@@ -139,3 +139,13 @@ and numeric/raw-source fields in lead records. This checks structure, not truth,
 rights clearance or scientific validity. New topics use this contract and still
 require source review. No additional library, assistant evidence, recipe,
 OpenAlex integration or automation is implied by a topic publication.
+
+
+### Offline continuation queue
+
+`npm run research:queue -- hemp` lists DOI-deduplicated topic leads and next
+checks; `npm run --silent research:queue -- --json hemp` emits machine-readable
+JSON. It joins canonical IDs and retains multiple dated source contexts rather
+than promoting the strongest label or silently overwriting a conflict. This
+queue covers topic records only, not every historical batch or pilot gap. It
+makes no network calls and does not run OpenAlex or ingest candidates.

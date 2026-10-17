@@ -105,3 +105,16 @@ until identity, rights, status and numerical checks support ingestion. Canonical
 counts stay 161 publications, five partial studies, 62 mixes, 275 observations;
 recipes stay 43, of which 31 scale by mass. No OpenAlex or AI-service setup,
 automation changes, or new personal trial measurements were performed.
+
+
+## Follow-up — publisher PDF recovered, 16 October (Eastern)
+
+The red-mud/hemp [publisher PDF](https://mdpi-res.com/d_attachment/materials/materials-14-00511/article_deploy/materials-14-00511-v3.pdf)
+now yields methods/results, superseding the failed-copy state above. Its first
+page states CC BY 4.0. Sections 2.1–2.4 distinguish solid-volume fiber doses and
+compression from Brazilian tension. Cure conditions and tensile test age remain
+unresolved; overlapping review/final text layers need visual reconciliation.
+No graph values, numerical recipes or new pilot observations were added. The
+hornification publisher attempt returned 403; its abstract-only state remains.
+The topic queue is available offline with `npm run research:queue -- hemp`;
+`--json` exports next checks without fetching or ingesting sources.
