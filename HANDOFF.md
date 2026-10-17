@@ -1,6 +1,21 @@
 # Geopolymer — current handoff
 Updated 17 October 2026; research checks span 16–17 October Eastern.
 
+## GGBS experiment deep dive — 17 October 2026
+- New `/deep-dives` section and `/deep-dives/ggbs-taguchi-mortar`, linked from
+  research, search and existing T2M9 formulation. Includes highlights, sourced
+  materials/ratios/procedure, conditional arithmetic and nine planning steps.
+- DOI 10.1080/13287982.2024.2375468 already exists as alameri-t2m9; no duplicate
+  study, canonical observations or scalable recipes added. Counts unchanged.
+- Publisher returned 403; university PDF text accessible, CC BY 4.0 p.95.
+  Audit: research/batches/deep-dive-ggbs-2026-10-17.json. Partial AI text review.
+- T2M9 versus zero-SiC recommendation conflict remains. SP solids basis is an
+  inference. Complete activator composition/free water and uncertainty unresolved.
+- Shared renderer/build validation and tests added. Browser coverage includes
+  navigation, nine steps and desktop/mobile overflow; publication CI pending.
+- Local HEAD still 79f41c5; prior staged work preserved. Do not reset to main.
+  OpenAlex remains on hold and daily automation unchanged.
+
 ## Queue finding search — 17 October 2026
 - Offline queue now searches editorial findings and source locators alongside its
   existing title/DOI/material/next-check fields. Each context exports its note,

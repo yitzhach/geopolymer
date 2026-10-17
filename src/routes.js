@@ -1,3 +1,4 @@
+import {deepDives} from './deep-dives.js';
 import {knowledgeReferences} from './knowledge-references.js';
 import {researchTopics} from './research-topics.js';
 import {journalArticles} from './journal-data.js';
@@ -6,6 +7,7 @@ import { materials, papers, formulations, products } from './data.js';
 
 // Public URL names and record IDs are stable. Add each public route here.
 export const routes = [
+  '/deep-dives', ...deepDives.map(d=>'/deep-dives/'+d.id),
   ...researchTopics.map(t=>'/research/'+t.id),
   '/knowledge', ...knowledgeReferences.map(p=>'/studies/'+p.id),
   '/', '/learn', '/learn/beginners', '/learn/educators', '/artists',

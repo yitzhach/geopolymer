@@ -1,0 +1,24 @@
+{
+  "id": "deep-dive-ggbs-2026-10-17",
+  "date": "2026-10-17",
+  "scope": "One user-supplied DOI; editorial deep dive. No canonical ingestion or recipe promotion.",
+  "openAlex": "on hold; not used",
+  "doi": "10.1080/13287982.2024.2375468",
+  "deduplication": "Already represented by src/literature-mixes.js alameri-t2m9. Link that record; do not count as a second study.",
+  "sources": [
+    {"url": "https://www.tandfonline.com/doi/full/10.1080/13287982.2024.2375468#d1e755", "outcome": "Publisher direct access returned 403; indexed identity available."},
+    {"url": "https://digital.library.adelaide.edu.au/server/api/core/bitstreams/f9cdc382-4b62-414d-8035-1b16b5e1aa17/content", "outcome": "University-hosted full-text PDF inspected as text, 17 PDF pages including cover.", "rights": "CC BY 4.0 on printed p.95 (PDF page index 1). Brief attributed facts and original editorial adaptation; no full figure/table republication."},
+    {"url": "https://digital.library.adelaide.edu.au/items/b2b3769f-464a-494d-a367-c3b5a4ed1759", "outcome": "Institutional identity and copy provenance."},
+    {"url": "https://research-repository.uwa.edu.au/en/publications/optimising-ggbs-based-ultra-high-performance-geopolymer-mortar-an/", "outcome": "Institutional publication identity."}
+  ],
+  "locators": {"materials": "section 3.2, printed p.97", "design": "section 3.3, Tables 3-5", "procedure": "section 3.4, Figure 3, printed p.100", "testedRow": "Table 5, printed p.101", "strengthIdentity": "section 4.1", "claimedOptimum": "abstract and conclusion, printed p.108", "license": "printed p.95"},
+  "review": "Partial AI text review only; not human/domain or visual figure review. Exact-DOI correction/retraction search yielded no specific notice, not comprehensive clearance.",
+  "findings": [
+    "T2M9 has SiC in Table 5 while the recommended combination has zero SiC. Preserve tested-row versus recommendation identity.",
+    "Derived binder sum 786.3 kg/m3; listed SP multiplied by 0.417 solids gives approximately 2% of that sum. This is an inferred explanation, not a confirmed dose-basis correction.",
+    "Water/binder includes solution and admixture water. Complete activator composition and free-water quantity remain unresolved.",
+    "Step-by-step replication planning is original guidance and labeled separately from the reported method. No new graph points, uncertainty estimates or recipe quantities invented."
+  ],
+  "remaining": ["Visual check and full table/figure inventory", "Resolve zero-SiC recommendation versus T2M9", "Confirm binder and SP/solution ratio bases", "Qualify activator water fractions, moisture correction and free water", "Find replicate counts, uncertainty and independent confirmation results", "Investigate SiC material identity against the characterization table"],
+  "countsChanged": false
+}
