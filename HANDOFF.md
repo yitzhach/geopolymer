@@ -1,5 +1,5 @@
 # Geopolymer — current handoff
-Updated 17 October 2026 (UTC); research checked 16 October Eastern.
+Updated 17 October 2026; research checks span 16–17 October Eastern.
 
 ## Queue finding search — 17 October 2026
 - Offline queue now searches editorial findings and source locators alongside its
@@ -10,7 +10,37 @@ Updated 17 October 2026 (UTC); research checked 16 October Eastern.
   No network access, source promotion or canonical ingestion added.
 - Sand-replacement clean-copy attempts: publisher HTML tool error; PMC browser
   challenge. Do not retry these or import from overlapping PDF text layers.
-- Publication/CI checkpoint pending for this queue-only follow-up.
+- GitHub CI 39017806531 passed all checks on 553f96707469758d24945bb3f21a4df21c597cf1.
+  PR #16 merged as 710b8710b7ee3d0d4e83fd72f81174b360d3d48a.
+- Current local HEAD is still 79f41c5. Staged tree 07e612484c6d935eb3bbca931e6ece712e260785
+  matches feature 553f967; HANDOFF.md also contains this newer unstaged checkpoint.
+  Preserve both before synchronization. No retry of the approval-blocked fetch.
+- Live deployment identity remains unverified; no schedule changes or OpenAlex use.
+
+## Biochar provenance follow-up — 17 October 2026
+- Saccani DOI 10.3390/ma18030486 §2.1 and references identify the next sources:
+  ref. 33 is Sorrenti et al., Biochar physico-chemical properties as affected by
+  environmental exposure (2016); ref. 41 is Manzi et al., Geopolymeric Composites
+  Containing Industrial Waste Reinforced with Arundo donax Fibers (2024).
+- Ref. 33 is cited for biochar elemental composition; ref. 41 for metakaolin XRD.
+  Neither citation alone establishes a matched lot oxide assay. Qualify material
+  identity and exposure state before chemistry transfer. No new assays imported.
+- Source: https://cris.unibo.it/retrieve/18a88cc9-e847-4171-b93c-8b7d2c5eae67/materials-18-00486.pdf
+  CC BY 4.0. Existing dimensional-change figures remain undigitized. Five paper
+  texts have been inspected/revisited in this bounded continuation; open a new
+  batch before examining further full papers.
+
+## Foam consistency follow-up — 17 October 2026
+- Re-read Wiley HTML Table 3 for 10.1111/jace.70158. Dimensional calculation
+  conductivity/diffusivity yields volumetric heat capacity, not the printed
+  area-based unit. Nineteen of 20 rows agree within 1%; GPF-5S1-1HF differs
+  by approximately 4.11% relative to its printed heat capacity. Arithmetic-only
+  comparison; rounding/averaging and original data still require investigation.
+  No source correction, mix-ID mapping or numeric ingestion is authorized by this.
+- Supporting asset listed as jace70158-sup-0001-SuppMat.docx (28.5 KB).
+  Prior retrieval failed; not retried. Dose, S1/WP and batch gaps remain.
+- Source: https://ceramics.onlinelibrary.wiley.com/doi/full/10.1111/jace.70158
+  Only original brief notes retained; no source table/figures reproduced.
 
 ## Continued checkpoint — clay/slag hempcrete source pair
 - Added two partially reviewed source cards to the hemp topic (10 total) and its
@@ -29,7 +59,8 @@ Updated 17 October 2026 (UTC); research checked 16 October Eastern.
   PR #15 merged as dece55681f54ba83ca403c7db3bc2af1151a8462.
   Local full-sweep process result could not be recovered (unknown process ID);
   full-browser verification is from CI, not an assumed local pass.
-- Local HEAD remains 79f41c5 with staged tree dbe4a479 matching cb99c0c.
+- At the PR #15 checkpoint, local HEAD was 79f41c5 with staged tree dbe4a479
+  matching cb99c0c; current staged state is recorded at the top.
   Final fetch/synchronization was blocked by automatic approval review usage
   failure (not an unsafe-action finding). Preserve staged files before resuming.
   Live identity remains unverified; runtime policy excludes the live host.
@@ -58,9 +89,9 @@ Updated 17 October 2026 (UTC); research checked 16 October Eastern.
   do not upgrade access from search snippets. OpenAlex remains on hold.
 
 ## Next extraction checkpoint — direct calcined-clay/slag hempcrete
-- New candidate DOI 10.1108/BEPAM-03-2024-0056, Nair et al.,
+- Topic source DOI 10.1108/BEPAM-03-2024-0056, Nair et al.,
   “Suitability of calcined clay and ground granulated blast furnace slag
-  geopolymer binder for hempcrete applications”. No match in src/research searches.
+  geopolymer binder for hempcrete applications”. Added through PR #15.
 - Author-hosted full text observed through session web tool:
   https://drgan.net/files/pubs/169_BEPAM_2025.pdf ; institutional identity:
   https://opus.lib.uts.edu.au/handle/10453/185061 . PDF page 1 states CC BY 4.0.
@@ -104,7 +135,7 @@ Updated 17 October 2026 (UTC); research checked 16 October Eastern.
   OpenAlex remains on hold. Keep existing daily automation and confirmed one-time
   4:30 a.m. Eastern October 17 continuation unchanged.
 - Recover local work before switching to main. Preserve
-  recovery/completed-biochar-d9efdb0. PRs #12–15 are merged; exact verification and local state above.
+  recovery/completed-biochar-d9efdb0. PRs #12–16 are merged; exact verification and local state above.
 - Current canonical totals: 161 publications, five partial studies, 62 mixes,
   275 observations. Recipe catalog: 43 designs, 31 scalable. Do not combine the
   recipe characterization cells with canonical pilot counts.
