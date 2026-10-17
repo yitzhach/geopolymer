@@ -453,3 +453,9 @@ Two source-linked, partly reviewed papers extend the hemp topic to ten leads.
 Binder-ratio disagreement, additional pre-wetting water and possible dataset
 overlap remain explicit. No recipe or numeric evidence was added. See
 research/batches/hemp-clay-slag-2026-10-16.json.
+
+Legacy navigation follow-up: prevent startup and queued hashchange events from
+requesting the same redirect twice. A VM regression reproduces three calls in
+the prior implementation and one after the fix. CI initially aborted a legacy
+hemp-route navigation; full browser verification remains required. Historical
+handoff entries moved intact to research/handoffs/history-through-2026-10-16.md.
