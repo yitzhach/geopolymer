@@ -21,12 +21,19 @@ Updated 16 October 2026 (Eastern).
   evidence states, source URLs and question citations; lead records cannot carry
   numeric datasets/raw-source fields. Structural validation is not scientific QA.
 - Local 19 Node test files and knowledge validation pass; build has 180 routes.
-  Focused research browser suite passes; reviewed 1440/390px page crops. Full
-  route/browser CI and publication status will be recorded after verification.
+  Focused research browser suite and full 180-route desktop/mobile sweep pass;
+  reviewed 1440/390px page crops. GitHub run 38918445235 on ebc42adc passed
+  Node and all six browser suites. PR #13 merged as d72c674a7df373bd7671c78ae6a2d3f45c1166e8.
+  Live deployment remains unverified: build-info returned HTTP 403; web tool
+  also could not retrieve it. Final shell synchronization was not executed:
+  automatic approval review failed on a usage limit, not an unsafe-action finding.
 - Next source acquisition: shiv and hornification methods; thesis/paper overlap;
   foam supplement/units; legible biochar and pilot figures. New red-mud publisher
   PDF lead saved for the next batch after three failed copies. Do not repeat them.
-- No AI-service configuration or automation changes. No complete pilot claim.
+- Owner subsequently requested continued work and a one-time restart at 4:30 a.m.
+  Eastern on 17 October. Continuation scheduled and confirmed; existing daily
+  draft automation unchanged. Usage-reset detection is unavailable. OpenAlex
+  remains on hold. No complete pilot claim.
 
 ## Latest checkpoint — biochar physical/exposure batch, 16 October 2026
 - Started from GitHub-confirmed main 5e8c6ff. Prior local branch and its
