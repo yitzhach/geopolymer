@@ -1,6 +1,28 @@
 # Geopolymer — current handoff
 Updated 16 October 2026 (Eastern).
 
+## Next extraction checkpoint — direct calcined-clay/slag hempcrete
+- New candidate DOI 10.1108/BEPAM-03-2024-0056, Nair et al.,
+  “Suitability of calcined clay and ground granulated blast furnace slag
+  geopolymer binder for hempcrete applications”. No match in src/research searches.
+- Author-hosted full text observed through session web tool:
+  https://drgan.net/files/pubs/169_BEPAM_2025.pdf ; institutional identity:
+  https://opus.lib.uts.edu.au/handle/10453/185061 . PDF page 1 states CC BY 4.0.
+  Exact publication/version date remains to reconcile; acceptance is not publication.
+- Partial AI text review only. Table 1 lists three mixes; §§2.3–3 give preparation,
+  ambient curing and tests. Pre-wetting water is additional to listed free water.
+  Preserve this distinction before any calculator transfer. No numeric ingestion.
+- Inventory next: Table 1; Figures 1–2 hurd characterization, Figure 3 earlier
+  mortar dataset (not hempcrete), Figures 4–8 outcomes/relationships, Plate 1 setup.
+  No visual inspection or digitization yet. Check conditioning, uncertainty,
+  material assays, complete water accounting and version identity.
+- Hold structural/LCA generalizations: application framing and later structural
+  language conflict; full LCA and long-term durability are future work.
+- Related lead https://drgan.net/files/pubs/174_MS_2025.pdf remains unreviewed;
+  check shared datasets before counting independent evidence.
+- Follow-up institutional/status web request returned tool error; correction
+  clearance remains unknown. OpenAlex not used. No raw source retained.
+
 ## Latest checkpoint — hemp methods and offline queue, 16 October 2026
 - Continued after the owner's evening request. Publisher red-mud/hemp v3 PDF is
   accessible; topic source upgraded to partial full-text review. See the new
@@ -13,7 +35,9 @@ Updated 16 October 2026 (Eastern).
   joins canonical IDs and retains all dated contexts/next checks without picking
   the strongest evidence label. No network calls or ingestion; not the whole backlog.
 - Local 20 Node test files, 180-route build and focused desktop/mobile research
-  browser suite pass. Full CI/publication pending. Shell synchronization succeeded
+  browser suite pass. GitHub CI 38995418584 passed all checks on f2b2fb0.
+  PR #14 merged as ca543bd7402004835d49729e77581d7ceb1b31bd.
+  Live deployment identity still requires verification. Shell synchronization succeeded
   on retry after the
   reported reset time; completed release and new work are preserved locally.
 - One-time 4:30 a.m. Eastern October 17 continuation confirmed. Existing daily
