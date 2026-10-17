@@ -1,6 +1,24 @@
 # Geopolymer — current handoff
 Updated 16 October 2026 (Eastern).
 
+## Latest checkpoint — hemp methods and offline queue, 16 October 2026
+- Continued after the owner's evening request. Publisher red-mud/hemp v3 PDF is
+  accessible; topic source upgraded to partial full-text review. See the new
+  hemp-methods-followup audit. No new recipes or numerical observations.
+- Preserve solid-volume fiber basis, unresolved curing/tensile age and PDF-layer
+  conflicts. Compression is separate from Brazilian tension. Screenshot tool
+  returned placeholders only; no visual or graph verification is claimed.
+- Added `npm run research:queue -- hemp`; JSON via
+  `npm run --silent research:queue -- --json hemp`. It deduplicates topic DOIs,
+  joins canonical IDs and retains all dated contexts/next checks without picking
+  the strongest evidence label. No network calls or ingestion; not the whole backlog.
+- Local 20 Node test files, 180-route build and focused desktop/mobile research
+  browser suite pass. Full CI/publication pending. Shell synchronization succeeded
+  on retry after the
+  reported reset time; completed release and new work are preserved locally.
+- One-time 4:30 a.m. Eastern October 17 continuation confirmed. Existing daily
+  draft automation unchanged; OpenAlex remains on hold. No reset guarantee.
+
 ## Latest checkpoint — hemp integration and research topic page, 16 October 2026
 - Owner requested continued source extraction, hempcrete-style integration, hemp
   fiber research and useful website/process improvements. OpenAlex stays on hold.

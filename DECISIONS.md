@@ -439,3 +439,11 @@ Hemp shiv, bast fibers and textiles retain separate roles. Do not promote abstra
 leads into calculator recipes, silently resolve source unit/ID conflicts, or
 count thesis-associated papers as independent datasets. Existing partial pilot
 and assay gaps remain explicit in the batch audit.
+
+
+### Offline continuation support
+
+Keep the research queue read-only and deterministic. Group duplicate topic DOIs
+but retain separate dated evidence contexts; do not use an optimistic access
+status as a substitute for extraction. Current source upgrades need explicit
+method inspection, and numerical ingestion remains a separate review step.

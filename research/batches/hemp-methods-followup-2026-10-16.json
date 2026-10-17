@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "hemp-methods-followup-2026-10-16",
+  "checkedDate": "2026-10-16",
+  "baseCommit": "5652e287ce11624941e4409f49bf00d6ec51c66c",
+  "scope": "One newly accessible previously staged paper; no new bibliography or numerical recipes",
+  "provider": "Session web tools; OpenAlex on hold",
+  "source": {
+    "id": "red-mud",
+    "doi": "10.3390/ma14030511",
+    "title": "Hemp Fiber Reinforced Red Mud/Fly Ash Geopolymer Composite Materials: Effect of Fiber Content on Mechanical Strength",
+    "year": 2021,
+    "material": "Bast fiber / reinforcement",
+    "access": "full-text-partial",
+    "sourceUrl": "https://mdpi-res.com/d_attachment/materials/materials-14-00511/article_deploy/materials-14-00511-v3.pdf",
+    "locator": "Publisher PDF \u00a7\u00a72.1\u20132.4 and \u00a7\u00a73.1\u20133.2; CC BY 4.0 on page 1",
+    "note": "Hot-water-washed chopped fibers are dosed by solid volume. Compression and Brazilian tension are distinct tests; higher fiber content can reduce workability.",
+    "next": "Resolve cure conditions, tensile test age and overlapping PDF layers before numeric transfer; volume fractions cannot be scaled as grams.",
+    "checked": "2026-10-16",
+    "status": "Review pending; no comprehensive correction clearance",
+    "rights": "Linked source only; no source text or figures redistributed"
+  },
+  "rights": {
+    "license": "CC BY 4.0",
+    "evidence": "Publisher PDF page 1",
+    "url": "https://mdpi-res.com/d_attachment/materials/materials-14-00511/article_deploy/materials-14-00511-v3.pdf",
+    "operations": [
+      "read selected methods",
+      "original attributed short editorial notes"
+    ],
+    "rawRetention": false,
+    "figureReproduction": false,
+    "tableReproduction": false
+  },
+  "review": {
+    "kind": "same-agent AI text review",
+    "visual": false,
+    "human": false,
+    "domain": false,
+    "note": "Screenshot calls returned only ImageDisplayed placeholders to the agent; no visual verification claimed"
+  },
+  "inventory": [
+    {
+      "locator": "Table 1",
+      "category": "raw-material composition",
+      "state": "not-extracted"
+    },
+    {
+      "locator": "\u00a7\u00a72\u20132.1",
+      "category": "materials and preparation",
+      "state": "partly-reviewed"
+    },
+    {
+      "locator": "\u00a7\u00a72.2,2.4",
+      "category": "mechanical test methods",
+      "state": "partly-reviewed"
+    },
+    {
+      "locator": "Figure 1",
+      "category": "specimen photograph",
+      "state": "not-visually-reviewed"
+    },
+    {
+      "locator": "Figure 2",
+      "category": "compression versus fiber content",
+      "state": "not-digitized"
+    },
+    {
+      "locator": "Figure 3",
+      "category": "Brazilian tensile versus fiber content",
+      "state": "not-digitized"
+    },
+    {
+      "locator": "Figure 4",
+      "category": "typical load-displacement curves",
+      "state": "not-digitized"
+    },
+    {
+      "locator": "Figure 5",
+      "category": "SEM",
+      "state": "not-visually-reviewed"
+    }
+  ],
+  "holds": [
+    "Curing regime and tensile test age unresolved",
+    "Activator split ratio basis not explicitly qualified for calculator transfer",
+    "Fiber volume cannot become a mass dose without complete volume/density accounting",
+    "Review/final PDF text layers overlap",
+    "Graph uncertainty and valid per-result replicate counts unextracted",
+    "Durability/leaching qualification not established"
+  ],
+  "statusReview": {
+    "query": "\"10.3390/ma14030511\" correction retraction",
+    "result": "No specific notice found; not comprehensive clearance"
+  },
+  "otherAccess": [
+    {
+      "doi": "10.1016/j.conbuildmat.2024.137957",
+      "url": "https://www.sciencedirect.com/science/article/pii/S095006182403099X",
+      "state": "tool-error",
+      "http": 403
+    }
+  ],
+  "counts": {
+    "canonical": 161,
+    "studies": 5,
+    "mixes": 62,
+    "observations": 275,
+    "recipes": 43,
+    "scalable": 31,
+    "newNumericObservations": 0,
+    "newRecipes": 0,
+    "newPublications": 0
+  },
+  "software": {
+    "change": "Offline deduplicated topic queue preserving separate evidence contexts and canonical links",
+    "node": "20 test files pass",
+    "buildRoutes": 180,
+    "browser": "Focused research suite passes locally at desktop/mobile sizes; full CI pending"
+  },
+  "next": [
+    "Recover a clean visual source version before graph extraction",
+    "Qualify remaining mix/cure details before recipe conversion",
+    "Obtain direct-shiv and hornification full methods"
+  ]
+}
