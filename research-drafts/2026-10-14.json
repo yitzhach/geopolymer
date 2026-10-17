@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-14",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-07",
+    "through": "2026-10-14"
+  },
+  "researchUpdates": [
+    {
+      "year": 2026,
+      "dateBasis": "Publisher version-of-record publication date",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "checked": "2026-10-14",
+      "added": "2026-10-14",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
+      "summaryBasis": "Primary publisher metadata, abstract and selected methods/results; full methods not audited",
+      "id": "research-acid-copper-slag",
+      "published": "2026-10-09",
+      "title": "Acid-Activated Copper Slag as a Cementless Binder: Microstructural Densification and Strength Development",
+      "doi": "10.1186/s40069-026-00977-3",
+      "journal": "International Journal of Concrete Structures and Materials",
+      "topic": "Alternative activation",
+      "publisherUrl": "https://link.springer.com/article/10.1186/s40069-026-00977-3",
+      "authors": "Kyungcheol Jang, Sungwon Sim, Juan Yu, Haemin Song, Seung Cho and Jae Eun Oh",
+      "summary": "Hydrochloric-acid treatment hardens iron-rich copper slag, linking pore refinement with compressive performance.",
+      "highlights": [
+        "This exploratory binder uses acid activation rather than conventional alkaline geopolymer chemistry.",
+        "The study's 50°C cure and chloride-related reinforcement limitations belong beside its strength findings."
+      ],
+      "access": "Open access. Source-specific proof of concept; not an independently replicated recipe, ambient-cure claim or structural qualification. No unreported-age, flexural or shear estimates.",
+      "url": "https://doi.org/10.1186/s40069-026-00977-3"
+    },
+    {
+      "year": 2026,
+      "dateBasis": "Publisher version-of-record publication date",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "checked": "2026-10-14",
+      "added": "2026-10-14",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
+      "summaryBasis": "Primary publisher metadata, abstract and selected methods/results; full methods not audited",
+      "id": "research-aam-leachate-zebrafish",
+      "published": "2026-10-07",
+      "title": "Ecotoxicological Assessment of Leachates from Waste-Derived Alkali-Activated Cements using Zebrafish Embryos",
+      "doi": "10.1007/s11270-026-10042-0",
+      "journal": "Water, Air, & Soil Pollution",
+      "topic": "Sustainability",
+      "publisherUrl": "https://link.springer.com/article/10.1007/s11270-026-10042-0",
+      "authors": "Mariana Krogel, Aline Pompermaier, Flavia Bernardo Chagas, William Mateus Kubiaki Levandoski, Carolina Menegolla, Marilia Hartmann and Eduardo Pavan Korf",
+      "summary": "A photovoltaic-glass and oyster-shell-lime binder is assessed through chemical leaching and zebrafish bioassays.",
+      "highlights": [
+        "Extraction medium changes the exposure scenario and observed biological response.",
+        "Water-extracted leachates altered spontaneous movement even without a significant survival effect."
+      ],
+      "access": "Open access. Water extraction tested the selected seven-day mixture; bioassay pH was adjusted. These laboratory endpoints do not establish field safety, human toxicity or all-geopolymer behavior.",
+      "url": "https://doi.org/10.1007/s11270-026-10042-0"
+    }
+  ],
+  "journalArticle": {
+    "id": "performance-needs-exposure-context",
+    "date": "2026-10-14",
+    "category": "Research briefing",
+    "topic": "Durability",
+    "title": "A useful result still needs an exposure boundary",
+    "summary": "AI-assisted editorial note: mechanical promise and environmental suitability require different evidence.",
+    "sources": [
+      "research-acid-copper-slag",
+      "research-aam-leachate-zebrafish"
+    ],
+    "paragraphs": [
+      "Jang and colleagues investigate an acid-activated copper-slag binder, with chloride content limiting how its compressive performance should be interpreted for reinforced applications.",
+      "Krogel and colleagues pair chemical leaching with biological assays. Their water-extraction results illustrate why one chemical classification cannot answer every environmental question.",
+      "Our editorial takeaway is to retain activation route, cure, exposure medium and application constraints in the database. Neither study validates a user's recipe or supplies a virtual strength timeline."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "Both DOIs are absent from all 161 records on current main and the two existing records in open daily draft PR #5. Prior draft and stable IDs preserved.",
+    "corrections": "No eligible substantive correction or retraction with verified publisher online date in 7–14 October was confirmed in targeted searches. A copper-slag-related geopolymer retraction listing (10.1016/j.conbuildmat.2026.147674) was not included: publisher retrieval failed and exact online date could not be established. Search is not exhaustive; existing catalog holds remain unchanged.",
+    "excluded": "Elsevier issue-date listings were not substituted for verified online dates. Existing draft papers were not reissued.",
+    "integration": "Review all research-drafts JSON additions, append approved records to src/research-updates.js and approved journal articles to src/journal-data.js preserving IDs. Run tests, build and browser CI before separately authorized publication.",
+    "verification": "JSON structure, required fields, date window, two highlights, unique IDs/DOIs and briefing source references validated. Staged data only; no application integration, build/browser verification or deployment claimed. Existing PR #5 reports a failed preview build; its cause was not diagnosed in this research run."
+  }
+}
