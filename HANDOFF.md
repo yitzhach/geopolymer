@@ -1,6 +1,17 @@
 # Geopolymer — current handoff
 Updated 17 October 2026 (UTC); research checked 16 October Eastern.
 
+## Queue finding search — 17 October 2026
+- Offline queue now searches editorial findings and source locators alongside its
+  existing title/DOI/material/next-check fields. Each context exports its note,
+  review status and rights statement; CLI output displays them with the date.
+- Regression tests and CLI probes pass for acoustic and hot-water searches;
+  unrelated source terms cannot combine into a match across different papers.
+  No network access, source promotion or canonical ingestion added.
+- Sand-replacement clean-copy attempts: publisher HTML tool error; PMC browser
+  challenge. Do not retry these or import from overlapping PDF text layers.
+- Publication/CI checkpoint pending for this queue-only follow-up.
+
 ## Continued checkpoint — clay/slag hempcrete source pair
 - Added two partially reviewed source cards to the hemp topic (10 total) and its
   existing offline queue/export. Canonical data and recipes remain unchanged.

@@ -459,3 +459,9 @@ requesting the same redirect twice. A VM regression reproduces three calls in
 the prior implementation and one after the fix. CI initially aborted a legacy
 hemp-route navigation; full browser verification remains required. Historical
 handoff entries moved intact to research/handoffs/history-through-2026-10-16.md.
+
+## Offline finding search — 17 October 2026
+The research queue searches source notes and locators and carries dated note,
+review status and rights alongside each access context. Queries such as acoustic
+and hot-water now find relevant leads. It remains an offline planning queue,
+not verified evidence retrieval or automatic ingestion.
