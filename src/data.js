@@ -1,3 +1,4 @@
+import {deepDives} from './deep-dives.js';
 import {journalArticles} from './journal-data.js';
 import {researchTopics} from './research-topics.js';
 import {literatureMixes} from './literature-mixes.js';
@@ -202,6 +203,7 @@ export const demoIngredients = [
   { label: "Component C", grams: 100 },
 ];
 export const searchRecords = [
+  ...deepDives.map(d=>({id:d.id,title:d.title,summary:d.summary+' '+d.doi+' GGBS Taguchi experimental methods ratios.',type:'Guide',href:'/deep-dives/'+d.id})),
   ...researchTopics.map(t=>({id:t.id,title:t.title,summary:t.summary+' Hempcrete, hurd, fiber treatment and durability. Research leads; not verified numerical evidence.',type:'Guide',href:'/research/'+t.id})),
   ...journalArticles.map(p=>({id:p.id,title:p.title,summary:p.summary+" "+p.topic,type:"Journal",href:"/journal/"+p.id})),
   ...literatureMixes.map(m=>({id:m.id,title:m.title,summary:m.authors+" "+m.system+" "+(m.strength===null?"strength not extracted":m.strength+" MPa")+" "+m.status,type:"Formulation",href:"/formulations/"+m.id})),

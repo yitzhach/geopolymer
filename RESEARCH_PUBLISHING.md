@@ -161,3 +161,11 @@ The research queue searches source notes and locators and carries dated note,
 review status and rights alongside each access context. Queries such as acoustic
 and hot-water now find relevant leads. It remains an offline planning queue,
 not verified evidence retrieval or automatic ingestion.
+
+## Experiment deep dives
+`/deep-dives` contains editorial articles with separately labeled source facts,
+conditional arithmetic and original replication planning. Add records in
+`src/deep-dives.js`; the shared renderer, routes and search discover them.
+Build validation requires unique DOI/ID, source locators, rights and unresolved
+holds. Link existing formulation records instead of duplicating study counts.
+The first article covers 10.1080/13287982.2024.2375468; see its dated batch audit.

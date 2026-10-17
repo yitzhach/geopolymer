@@ -1,3 +1,5 @@
+import {deepDives} from '../src/deep-dives.js';
+import {validateDeepDives} from '../src/deep-dive-core.js';
 import {pilot} from '../src/knowledge-pilot.js';
 import {researchTopics} from '../src/research-topics.js';
 import {validateResearchTopics} from '../src/research-topic-core.js';
@@ -17,6 +19,7 @@ const plain = html => html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
 if(pilot.assets.some(a=>a.operations.publicDisplay.decision!=='allowed'||a.operations.export.decision!=='allowed'))throw new Error('Restricted evidence must stay outside public src/; resolve rights before build');
 const shell = await readFile('index.html', 'utf8');
 validateResearchTopics(researchTopics);
+validateDeepDives(deepDives);
 await rm('dist', { recursive: true, force: true });
 await mkdir('dist');
 for (const file of ['favicon.svg', 'favicon-32.png', 'apple-touch-icon.png', 'share-card.png', 'src'])

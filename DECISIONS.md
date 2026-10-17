@@ -465,3 +465,9 @@ The research queue searches source notes and locators and carries dated note,
 review status and rights alongside each access context. Queries such as acoustic
 and hot-water now find relevant leads. It remains an offline planning queue,
 not verified evidence retrieval or automatic ingestion.
+
+## 2026-10-17 — Editorial experiment deep dives
+Add a reusable deep-dive section for the owner's selected GGBS Taguchi paper.
+Keep reported facts, derived arithmetic and proposed laboratory planning distinct.
+Existing T2M9 remains non-scalable: source identity conflict and free-water gaps
+are not resolved by explanatory prose. Validate article provenance at build time.
