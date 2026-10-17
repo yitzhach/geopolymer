@@ -1,5 +1,5 @@
 # Geopolymer — current handoff
-Updated 16 October 2026 (Eastern).
+Updated 17 October 2026 (UTC); research checked 16 October Eastern.
 
 ## Continued checkpoint — clay/slag hempcrete source pair
 - Added two partially reviewed source cards to the hemp topic (10 total) and its
@@ -13,7 +13,15 @@ Updated 16 October 2026 (Eastern).
   suite pass. PR #15 initial feature 79f41c5 failed CI 38997242719 during legacy navigation
   (ERR_ABORTED). Startup and hashchange could request duplicate redirects;
   idempotent redirect fix has a regression test (old code issues three calls).
-  Updated 21-file Node suite passes; full route/CI recheck pending.
+  Updated 21-file Node suite passes. GitHub CI 38997464444 passed on
+  cb99c0cdbc3e5de9d6e3be492acca1ad2fef1a3c, including all six browser suites.
+  PR #15 merged as dece55681f54ba83ca403c7db3bc2af1151a8462.
+  Local full-sweep process result could not be recovered (unknown process ID);
+  full-browser verification is from CI, not an assumed local pass.
+- Local HEAD remains 79f41c5 with staged tree dbe4a479 matching cb99c0c.
+  Final fetch/synchronization was blocked by automatic approval review usage
+  failure (not an unsafe-action finding). Preserve staged files before resuming.
+  Live identity remains unverified; runtime policy excludes the live host.
 - Follow-up: second DOI publisher record gives 21 July 2025 publication/version
   date (https://link.springer.com/article/10.1617/s11527-025-02729-3).
   Exact-DOI correction search found no specific notice; not comprehensive clearance.
@@ -55,7 +63,7 @@ Updated 16 October 2026 (Eastern).
   material assays, complete water accounting and version identity.
 - Hold structural/LCA generalizations: application framing and later structural
   language conflict; full LCA and long-term durability are future work.
-- Related lead https://drgan.net/files/pubs/174_MS_2025.pdf remains unreviewed;
+- Related source https://drgan.net/files/pubs/174_MS_2025.pdf now partly reviewed;
   check shared datasets before counting independent evidence.
 - Follow-up institutional/status web request returned tool error; correction
   clearance remains unknown. OpenAlex not used. No raw source retained.
@@ -85,7 +93,7 @@ Updated 16 October 2026 (Eastern).
   OpenAlex remains on hold. Keep existing daily automation and confirmed one-time
   4:30 a.m. Eastern October 17 continuation unchanged.
 - Recover local work before switching to main. Preserve
-  recovery/completed-biochar-d9efdb0. PRs #12–14 are merged; #15 status above.
+  recovery/completed-biochar-d9efdb0. PRs #12–15 are merged; exact verification and local state above.
 - Current canonical totals: 161 publications, five partial studies, 62 mixes,
   275 observations. Recipe catalog: 43 designs, 31 scalable. Do not combine the
   recipe characterization cells with canonical pilot counts.
