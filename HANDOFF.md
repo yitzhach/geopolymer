@@ -1,6 +1,16 @@
 # Geopolymer — current handoff
 Updated 16 October 2026 (Eastern).
 
+## Continued checkpoint — clay/slag hempcrete source pair
+- Added two partially reviewed source cards to the hemp topic (10 total) and its
+  existing offline queue/export. Canonical data and recipes remain unchanged.
+- Audit: research/batches/hemp-clay-slag-2026-10-16.json. Binder/hurd ratios
+  disagree across papers; preserve additional pre-wetting water and investigate
+  dataset overlap. No numerical recipe transfer or independent replication claim.
+- Related Materials and Structures paper now partly inspected; earlier “unreviewed”
+  wording below is historical. Complete inventory, visual review and status remain.
+- Focused Node tests/build pass; browser/CI/publication checkpoint pending.
+
 ## Next extraction checkpoint — direct calcined-clay/slag hempcrete
 - New candidate DOI 10.1108/BEPAM-03-2024-0056, Nair et al.,
   “Suitability of calcined clay and ground granulated blast furnace slag

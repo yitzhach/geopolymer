@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "hemp-clay-slag-2026-10-16",
+  "checkedDate": "2026-10-16",
+  "provider": "Session web tools; OpenAlex on hold",
+  "scope": "Two new topic leads; partial text review, no numerical ingestion",
+  "queries": [
+    "\"10.1108/BEPAM-03-2024-0056\" correction retraction"
+  ],
+  "sources": [
+    {
+      "doi": "10.1108/BEPAM-03-2024-0056",
+      "url": "https://drgan.net/files/pubs/169_BEPAM_2025.pdf",
+      "identity": "https://opus.lib.uts.edu.au/handle/10453/185061",
+      "year": 2025,
+      "dateNote": "Institutional year corroborated by UNSW; exact online date unresolved. UTS date equals PDF acceptance date. ScienceDirect index gives conflicting 2024 date.",
+      "license": "CC BY 4.0, PDF page 1; UTS explicit license field agrees despite stale restrictedAccess field",
+      "inventory": [
+        "Table 1: mixtures",
+        "Figures 1\u20132: hurd characteristics",
+        "Figure 3: earlier mortar data, not hempcrete",
+        "Figures 4\u20138: outcomes/relationships",
+        "Plate 1: setup"
+      ],
+      "review": "Text partly inspected; no visual or graph verification"
+    },
+    {
+      "doi": "10.1617/s11527-025-02729-3",
+      "url": "https://drgan.net/files/pubs/174_MS_2025.pdf",
+      "year": 2025,
+      "license": "CC BY 4.0, page 17",
+      "inventory": [
+        "Table 1: chemistry",
+        "Table 2: density",
+        "Section 2.3: mixture and preparation",
+        "Table 4: surface bond",
+        "Remaining figures/tables: inventory pending"
+      ],
+      "review": "Selected methods and discussion inspected; no visual or graph verification"
+    }
+  ],
+  "holds": [
+    "Binder/hurd mass basis differs: earlier Table 1 totals 11.76 kg precursor per 5 kg hurd (derived 2.352); related paper \u00a72.3 reports binder/hurd 1.8. Do not silently reconcile or transfer quantities.",
+    "Pre-wetting water is additional to free water; actual moisture basis needs qualification.",
+    "Dataset overlap unknown; two publications do not establish independent replication.",
+    "Surface test failure location and method need review before interpreting skin/core adhesion.",
+    "Correction search found no specific notice for first DOI; not comprehensive clearance; second status check pending."
+  ],
+  "rightsOperations": [
+    "Read selected text",
+    "Original attributed notes and links"
+  ],
+  "rawRetention": false,
+  "figureReproduction": false,
+  "reviewer": "Same-agent AI; no human/domain review",
+  "counts": {
+    "topicSourcesBefore": 8,
+    "topicSourcesAfter": 10,
+    "canonical": 161,
+    "studies": 5,
+    "mixes": 62,
+    "observations": 275,
+    "recipes": 43,
+    "scalable": 31,
+    "newNumericObservations": 0
+  },
+  "next": [
+    "Inspect source tables visually and reconcile binder ratios",
+    "Finish second source inventory and dataset-family review",
+    "Review surface-test geometry, failure locus and conditioning"
+  ]
+}

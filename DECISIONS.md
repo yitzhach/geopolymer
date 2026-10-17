@@ -447,3 +447,9 @@ Keep the research queue read-only and deterministic. Group duplicate topic DOIs
 but retain separate dated evidence contexts; do not use an optimistic access
 status as a substitute for extraction. Current source upgrades need explicit
 method inspection, and numerical ingestion remains a separate review step.
+
+## Clay/slag hempcrete follow-up — 16 October 2026
+Two source-linked, partly reviewed papers extend the hemp topic to ten leads.
+Binder-ratio disagreement, additional pre-wetting water and possible dataset
+overlap remain explicit. No recipe or numeric evidence was added. See
+research/batches/hemp-clay-slag-2026-10-16.json.
