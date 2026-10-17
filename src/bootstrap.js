@@ -5,13 +5,20 @@ export function legacyDestination(hash) {
   if (url.origin !== location.origin) return null;
   return url.pathname + url.search + url.hash;
 }
-window.addEventListener("hashchange", () => {
+// Startup and hashchange can both run before navigation commits.
+let legacyRedirectStarted = false;
+function redirectLegacy() {
   const target = legacyDestination(location.hash);
-  if (target) location.replace(target);
-});
-const destination = legacyDestination(location.hash);
-if (destination) {
-  location.replace(destination);
+  if (!target) return false;
+  if (!legacyRedirectStarted) {
+    legacyRedirectStarted = true;
+    location.replace(target);
+  }
+  return true;
+}
+window.addEventListener("hashchange", redirectLegacy);
+if (redirectLegacy()) {
+  // Let the destination document initialize its own tools.
 } else {
   // Native details remains a usable menu when JavaScript is unavailable.
   const menu = document.querySelector('#site-menu');

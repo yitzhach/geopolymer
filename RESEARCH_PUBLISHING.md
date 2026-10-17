@@ -149,3 +149,9 @@ JSON. It joins canonical IDs and retains multiple dated source contexts rather
 than promoting the strongest label or silently overwriting a conflict. This
 queue covers topic records only, not every historical batch or pilot gap. It
 makes no network calls and does not run OpenAlex or ingest candidates.
+
+## Clay/slag hempcrete follow-up — 16 October 2026
+Two source-linked, partly reviewed papers extend the hemp topic to ten leads.
+Binder-ratio disagreement, additional pre-wetting water and possible dataset
+overlap remain explicit. No recipe or numeric evidence was added. See
+research/batches/hemp-clay-slag-2026-10-16.json.
