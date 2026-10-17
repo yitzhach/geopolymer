@@ -12,7 +12,14 @@ Updated 17 October 2026; research checks span 16–17 October Eastern.
 - T2M9 versus zero-SiC recommendation conflict remains. SP solids basis is an
   inference. Complete activator composition/free water and uncertainty unresolved.
 - Shared renderer/build validation and tests added. Browser coverage includes
-  navigation, nine steps and desktop/mobile overflow; publication CI pending.
+  navigation, nine steps and desktop/mobile overflow. All 22 Node test files and
+  the 182-route build pass. GitHub CI 39062454346 passed all six browser suites
+  on feature 5503ad54246896d99cf6c261f22db484ad7a1831.
+- PR #17 merged as c7016831fd37cf705258b4a08e47045d34783b84.
+- Local staged tree 20c36ed2f94ef4cfdcbc326ab114a5a7c1ee0e0e matches the feature;
+  this final HANDOFF update is newer unstaged content. Preserve both.
+- Live build-info remained inaccessible through the web tool on this check;
+  deployment identity is unverified, not inferred from successful CI.
 - Local HEAD still 79f41c5; prior staged work preserved. Do not reset to main.
   OpenAlex remains on hold and daily automation unchanged.
 
