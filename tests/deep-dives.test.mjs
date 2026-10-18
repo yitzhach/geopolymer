@@ -21,9 +21,16 @@ test('shared template escapes article-specific prose and calculations',()=>{
 });
 
 test('each deep dive resolves its formulation and uses its own glossary',()=>{
- assert.equal(deepDives.length,3);
- for(const d of deepDives){assert.equal(renderPage(d.relatedRecipe).status,200);const page=renderPage('/deep-dives/'+d.id);assert.equal(page.status,200);assert.ok(page.html.includes(d.glossary));assert.ok(search(d.doi).some(r=>r.href==='/deep-dives/'+d.id));}
+ assert.equal(deepDives.length,4);
+ for(const d of deepDives){assert.equal(renderPage(d.relatedRecipe||d.relatedStudy).status,200);const page=renderPage('/deep-dives/'+d.id);assert.equal(page.status,200);assert.ok(page.html.includes(d.glossary));assert.ok(search(d.doi).some(r=>r.href==='/deep-dives/'+d.id));}
  const biochar=renderPage('/deep-dives/biochar-replacement-and-exposure').html;
  assert.match(biochar,/age-matched/);assert.doesNotMatch(biochar,/PS\/PH/);
  assert.match(renderPage('/deep-dives/basalt-fiber-carbon-textile').html,/0.249%/);
+});
+
+test('hemp editorial notes link a publication without inventing a recipe',()=>{
+ const d=deepDives.find(x=>x.doi==='10.3390/polym18111288');assert.ok(d.relatedStudy);assert.equal(d.relatedRecipe,undefined);
+ const html=deepDivePage(d);for(const term of ['Read the source article','Related publication record','Source conflict','indexed publisher/PMC','F=pB/(1−p)'])assert.ok(html.includes(term),term);
+ assert.doesNotMatch(html,/Related formulation record|href="undefined"|Read the source PDF/);
+ for(const field of ['relatedStudy','licenseUrl']){const copy=structuredClone(d);copy[field]='javascript:alert(1)';assert.throws(()=>validateDeepDives([copy]));}
 });

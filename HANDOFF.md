@@ -1,5 +1,34 @@
 # Geopolymer — current handoff
-Updated 17 October 2026; research checks span 16–17 October Eastern.
+Updated 18 October 2026; dates use Eastern time.
+
+## Forty-nine-paper expansion and hemp nanofiber deep dive — 18 October 2026
+- Confirmed published baseline: PR #18, 201 publications and three deep dives.
+  Added 49 unique DOIs in batches 7 (25) and 8 (24): local total 250; all prior
+  201 IDs/DOIs/titles preserved. Canonical module: knowledge-expansion-next.js.
+- Fourth deep dive: /deep-dives/bn-hemp-nanofiber-slag, requested Polymers DOI
+  10.3390/polym18111288. Indexed primary text gives the final-mixture denominator;
+  original algebra and nine replication-planning steps distinguish facts from
+  proposed controls. Missing mass ledger and conflicting residual-strength claims
+  prevent a complete executable recipe. Hybrid reinforcement is not hemp shiv.
+- Partial AI source review only. MDPI 429, PMC browser challenge and PDF retrieval
+  failure recorded; indexed PMC states CC BY but exact license version unresolved.
+  No raw paper, copied figures, graph points or new canonical measurements.
+- Renderer supports publication links without fabricated formulation links, article
+  source labels, access notes and explicit optional license URLs; build validates
+  publication/formulation and HTTPS license links. Existing notes keep their licenses.
+- Primary DOI checks corrected a candidate ScienceDirect PII. Historical journal
+  names and issue years retained; no independent dataset claim. Metadata-only
+  rights/status limits remain visible. OpenAlex remains on hold; no key received.
+- All 24 Node test files and 274-route build passed locally. Browser CI/publication
+  pending at this checkpoint; live deployment identity unverified.
+- Five partial pilot studies, 62 mixes, 275 observations, 43 recipes/31 scalable
+  unchanged. Foam mix-ID/dose/unit gaps, biochar assay/figure gaps and complete
+  hemp extraction remain pending; do not repeat failed access routes without cause.
+- Daily draft automation unchanged. This scheduled attempt does not detect a reset;
+  the requested +49 is implemented locally, so do not repeat it in a future run.
+- Local HEAD remains 79f41c5. Prior staged PR #18 tree and new working changes
+  preserved; no reset, main checkout or retry of approval-blocked fetch.
+- Remote main parent: cf772942d11f3682dee94ea9391039b2990512c7.
 
 ## Forty-paper expansion and two new deep dives — 17 October 2026
 - Local target reached: 201 unique publications, +40 metadata-only records in
