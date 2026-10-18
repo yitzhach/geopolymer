@@ -19,7 +19,12 @@ Updated 17 October 2026; research checks span 16–17 October Eastern.
   integration (including JCEMS 2020, one-part mortar 2021, SN Applied Sciences).
   Author lists transcribed only where observed; status/rights remain unassessed
   for this metadata batch. No OpenAlex calls or key received/configured.
-- Local verification/publication checkpoint in progress; do not claim live identity.
+- All 23 Node test files and 224-route build passed. GitHub CI 39092913920
+  passed on 16d1b7ee042c67273c41fd7b164ad2e16e87c5bf, including all six browser
+  suites. PR #18 merged as c3f20df7744afb4ef23efaebe31abec9422617c2.
+- Staged tree 332b2a80fe9ca333be07425a5afa21a751f24c53 matches that feature;
+  final HANDOFF text is newer unstaged work. Preserve both before synchronization.
+  Live identity remains unverified.
 - Owner requested a separate +49 after five hours. One-time task confirmed for
   18 October 2026 04:12 Eastern (08:12 UTC), automation
   6ad4392c2a088191a2dc6a8bdc519597. It targets 250 only after confirming this
