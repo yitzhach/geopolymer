@@ -180,3 +180,13 @@ Three editorial deep dives now cover GGBS Taguchi mortar, hardwood biochar paste
 and basalt/carbon-textile composites. The shared renderer uses article-specific
 glossaries and exports attributed notes at `/deep-dives.json`. Deep dives remain
 separate from canonical experimental observations and link existing recipes.
+
+## 18 October 2026 — 250-publication catalog
+
+Added 49 bibliographic records after the published 201 baseline in batches 7/8
+(25/24). DOI deduplication and frozen baseline checks preserve every prior identity.
+Four editorial deep dives now include the requested BN/PVA/hemp nanofiber study.
+Its indexed-source access limits, ratio denominator, conflicting strength claims
+and incomplete replication ledger remain explicit. No canonical experimental
+observations or recipes added; five pilot studies remain partial. OpenAlex on hold.
+See HANDOFF.md and research/batches/*2026-10-18* for evidence and publication status.

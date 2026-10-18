@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-dive-hemp-2026-10-18",
+  "doi": "10.3390/polym18111288",
+  "checked": "2026-10-18",
+  "batchBounds": {"fullPapersInspected": 1, "maximumFullPapers": 5, "maximumDiscoveryRetrievalCalls": 40},
+  "review": "Partial AI review of indexed primary-source text; not complete extraction, visual verification, human review or replication",
+  "source": "https://www.mdpi.com/2073-4360/18/11/1288",
+  "alternate": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13259237/",
+  "metadataCrossCheck": "https://pubmed.ncbi.nlm.nih.gov/42280501/",
+  "queries": ["\"polym18111288\" \"mixtures\"", "\"Boron Nitride-Modified Hemp\" \"electrospinning\" \"2.2\"", "\"polym18111288\" \"2.3\"", "\"PMC13259237\" \"Creative Commons\"", "\"polym18111288\" \"curing\"", "\"polym18111288\" \"2.3.1\"", "\"polym18111288\" \"creativecommons.org/licenses\"", "\"polym18111288\" \"retraction\" correction"],
+  "accessFailures": ["Direct MDPI landing page returned 429", "Direct PMC returned browser challenge", "mdpi-res publisher PDF inaccessible through web tool", "Initial section-specific MDPI search returned unrelated papers; excluded"],
+  "rights": {
+    "holder": "Authors, 2026",
+    "evidence": "Indexed PMC Copyright and License information states CC BY; license version/URL unresolved in retrieved excerpt",
+    "evidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13259237/",
+    "policy": "KNOWLEDGE_ENGINE_MASTER_PROMPT.md section 5",
+    "operations": {"indexedTextInspection": "performed through session web tool", "download": "not completed", "rawRetention": "not performed", "embedding": "not performed", "figureReuse": "not performed", "publicDisplay": "selected bibliographic facts and original brief factual notes with attribution", "export": "original editorial notes and attribution only"}
+  },
+  "sourceInventory": [
+    {"locator":"§2.1/Table 1", "state":"selected identity facts checked; full material chemistry not extracted"},
+    {"locator":"§2.2", "state":"total-mixture denominator checked; complete chemical protocol and recovered composition unresolved"},
+    {"locator":"§2.3.1/Table 2", "state":"selected ratios checked; solids basis and slag:sand mass ratio unresolved"},
+    {"locator":"§2.3.2/§2.4.2", "state":"selected specimen, curing and replicate details checked"},
+    {"locator":"§3.2.4/§5 and abstract", "state":"unfavorable outcome and conflicting comparison captured; no numeric results imported"},
+    {"locator":"Figures 1–17 observed in indexed excerpts; remaining figures and supplements", "state":"inventory incomplete; not visually inspected or digitized"}
+  ],
+  "arithmetic": {"basis":"Editorial algebra only", "expression":"F/(B+F)=p => F=pB/(1-p)", "assumptions":"B excludes reinforcement; p is fraction of final wet mixture; recovered hybrid composition unknown", "observationsAdded":0},
+  "status": "Exact-DOI status search found no specific correction notice; not comprehensive clearance",
+  "overlap": "Preliminary optimization and nanofiber control matrices differ; do not pool results or count them as independent replication",
+  "openAlex": "on hold; no calls, credentials or authorization",
+  "remaining": ["Resolve strength comparison conflict", "Obtain complete mass/water ledger and treatment doses", "Complete figure/table/supplement inventory", "Verify license version and source version", "Qualify dispersion and thermal ramp/cooling"]
+}

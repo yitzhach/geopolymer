@@ -266,3 +266,13 @@ manifests preserve source URLs, dates, rights limits, unknown authors and identi
 corrections. A frozen 161-record ID/DOI/title baseline checks preservation and
 idempotent import tests protect against duplicate additions. Study metadata now
 uses article titles in descriptions to avoid collisions when authors are unknown.
+
+## 18 October 2026 — 250-publication catalog
+
+Added 49 bibliographic records after the published 201 baseline in batches 7/8
+(25/24). DOI deduplication and frozen baseline checks preserve every prior identity.
+Four editorial deep dives now include the requested BN/PVA/hemp nanofiber study.
+Its indexed-source access limits, ratio denominator, conflicting strength claims
+and incomplete replication ledger remain explicit. No canonical experimental
+observations or recipes added; five pilot studies remain partial. OpenAlex on hold.
+See HANDOFF.md and research/batches/*2026-10-18* for evidence and publication status.

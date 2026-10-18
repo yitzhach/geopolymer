@@ -6,7 +6,10 @@ export function validateDeepDives(records){
   for(const key of ['id','title','summary','sourceTitle','doi','checked','citation','source','license','glossary'])required(d[key],key);
   if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(d.id)||ids.has(d.id))throw new Error('Deep dive: invalid/duplicate id');ids.add(d.id);
   const doi=d.doi.toLowerCase();if(!/^10\.\d{4,9}\/\S+$/.test(doi)||dois.has(doi))throw new Error('Deep dive: invalid/duplicate DOI');dois.add(doi);
-  if(!/^\/formulations\/[a-z0-9-]+$/.test(d.relatedRecipe||''))throw new Error('Deep dive: invalid related recipe');
+  if(d.relatedRecipe && !/^\/formulations\/[a-z0-9-]+$/.test(d.relatedRecipe))throw new Error('Deep dive: invalid related recipe');
+  if(d.relatedStudy && !/^\/studies\/[a-z0-9-]+$/.test(d.relatedStudy))throw new Error('Deep dive: invalid related study');
+  if(!d.relatedRecipe&&!d.relatedStudy)throw new Error('Deep dive: related record required');
+  if(d.licenseUrl && new URL(d.licenseUrl).protocol!=='https:')throw new Error('Deep dive: HTTPS license required');
   if(new URL(d.source).protocol!=='https:')throw new Error('Deep dive: HTTPS source required');
   for(const key of ['facts','highlights','checklist','holds'])if(!Array.isArray(d[key])||!d[key].length)throw new Error(`Deep dive: missing ${key}`);
   for(const f of d.facts)for(const key of ['title','text','locator'])required(f[key],`fact ${key}`);
