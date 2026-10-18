@@ -1,6 +1,32 @@
 # Geopolymer — current handoff
 Updated 17 October 2026; research checks span 16–17 October Eastern.
 
+## Forty-paper expansion and two new deep dives — 17 October 2026
+- Local target reached: 201 unique publications, +40 metadata-only records in
+  breadth-5 and breadth-6 batches. All 161 prior IDs/DOIs/titles preserved.
+  Five partial pilot studies, 62 mixes, 275 observations, 43 recipes/31 scalable
+  unchanged. Canonical bibliography joins src/knowledge-expansion.js.
+- Added `/deep-dives/biochar-replacement-and-exposure` and
+  `/deep-dives/basalt-fiber-carbon-textile`; three deep dives total. Linked existing
+  recipes; no duplicate dataset, new measurement or full-extraction claim.
+- Audit research/batches/deep-dives-2026-10-17.json records methods, conditional
+  arithmetic, source rights and unresolved fields. Hempcrete PDF follow-up failed;
+  no new claims from that attempt. Figures/assays remain pending.
+- JSON export `/deep-dives.json`; article-specific glossary and study/deep-dive
+  links. Metadata provenance label no longer incorrectly assumes Crossref.
+  Study descriptions include title to avoid collisions for untranscribed authors.
+- Primary exact-DOI checks corrected candidate year/title/journal errors before
+  integration (including JCEMS 2020, one-part mortar 2021, SN Applied Sciences).
+  Author lists transcribed only where observed; status/rights remain unassessed
+  for this metadata batch. No OpenAlex calls or key received/configured.
+- Local verification/publication checkpoint in progress; do not claim live identity.
+- Owner requested a separate +49 after five hours. One-time task confirmed for
+  18 October 2026 04:12 Eastern (08:12 UTC), automation
+  6ad4392c2a088191a2dc6a8bdc519597. It targets 250 only after confirming this
+  201 baseline; preserve existing daily draft automation. No usage-reset detection.
+- Current local HEAD remains 79f41c5 with completed staged work; preserve before
+  synchronization. Remote parent before this batch: f2f497350f712064a028e995040b6f82b093d098.
+
 ## GGBS experiment deep dive — 17 October 2026
 - New `/deep-dives` section and `/deep-dives/ggbs-taguchi-mortar`, linked from
   research, search and existing T2M9 formulation. Includes highlights, sourced

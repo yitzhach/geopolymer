@@ -169,3 +169,14 @@ conditional arithmetic and original replication planning. Add records in
 Build validation requires unique DOI/ID, source locators, rights and unresolved
 holds. Link existing formulation records instead of duplicating study counts.
 The first article covers 10.1080/13287982.2024.2375468; see its dated batch audit.
+
+## 17 October — 40 references and two experiment deep dives
+The library now has 201 unique publications: 40 metadata-only additions in two
+20-record batches (breadth-5 and breadth-6). All 161 existing identities remain
+intact. Exact DOI/source checks corrected candidate issue years and journal
+naming; untranscribed authors remain explicitly unknown. No comprehensive
+correction/retraction clearance or full-text rights are inferred from metadata.
+Three editorial deep dives now cover GGBS Taguchi mortar, hardwood biochar paste,
+and basalt/carbon-textile composites. The shared renderer uses article-specific
+glossaries and exports attributed notes at `/deep-dives.json`. Deep dives remain
+separate from canonical experimental observations and link existing recipes.

@@ -1,7 +1,9 @@
+import {deepDiveAdditions} from './deep-dive-additions.js';
 // Original editorial synthesis; published facts and proposed replication steps stay separate.
 export const deepDives = [{
  id:'ggbs-taguchi-mortar', title:'GGBS mortar: from Taguchi screening to a reproducible experiment',
  summary:'Read the reported method, inspect the mix arithmetic and separate a tested formulation from a statistical recommendation.',
+ glossary:'B = binder; GGBS = ground granulated blast-furnace slag; SiC = silicon carbide; SP = superplasticizer; AAS = alkaline activator solution; PS/PH = potassium silicate/potassium hydroxide ratio; W/B = total water/binder.',
  relatedRecipe:'/formulations/alameri-t2m9',
  sourceTitle:'Optimising GGBS-based ultra high-performance geopolymer mortar: an orthogonal array approach',
  doi:'10.1080/13287982.2024.2375468', checked:'2026-10-17',
@@ -40,3 +42,5 @@ export const deepDives = [{
   'Partial AI text review, not human/domain review. Exact-DOI status search found no specific correction notice; this is not comprehensive clearance. Publisher page returned 403; the university copy supplied the methods.',
  ],
 }];
+
+deepDives.push(...deepDiveAdditions);
