@@ -3,7 +3,7 @@ Updated 18 October 2026; dates use Eastern time.
 
 ## Forty-nine-paper expansion and hemp nanofiber deep dive — 18 October 2026
 - Confirmed published baseline: PR #18, 201 publications and three deep dives.
-  Added 49 unique DOIs in batches 7 (25) and 8 (24): local total 250; all prior
+  Added 49 unique DOIs in batches 7 (25) and 8 (24): published total 250; all prior
   201 IDs/DOIs/titles preserved. Canonical module: knowledge-expansion-next.js.
 - Fourth deep dive: /deep-dives/bn-hemp-nanofiber-slag, requested Polymers DOI
   10.3390/polym18111288. Indexed primary text gives the final-mixture denominator;
@@ -19,14 +19,19 @@ Updated 18 October 2026; dates use Eastern time.
 - Primary DOI checks corrected a candidate ScienceDirect PII. Historical journal
   names and issue years retained; no independent dataset claim. Metadata-only
   rights/status limits remain visible. OpenAlex remains on hold; no key received.
-- All 24 Node test files and 274-route build passed locally. Browser CI/publication
-  pending at this checkpoint; live deployment identity unverified.
+- All 24 Node test files and 274-route build passed locally. GitHub CI
+  39111116677 passed on c2e0434c8646603e1b3ddf0eff6250f17d6a188b, including
+  all six browser suites. PR #19 merged as a561ef9fc84d66e953d4abe531e6e3e67e7b7e04.
+  Live build-info and new deep-dive route remain inaccessible through the web
+  tool; deployment identity unverified.
+- Local staged tree 566acc7544edd09fb17213c59c2076556745feb6 matches the
+  tested feature. This final HANDOFF update is newer unstaged content; preserve both.
 - Five partial pilot studies, 62 mixes, 275 observations, 43 recipes/31 scalable
   unchanged. Foam mix-ID/dose/unit gaps, biochar assay/figure gaps and complete
   hemp extraction remain pending; do not repeat failed access routes without cause.
 - Daily draft automation unchanged. This scheduled attempt does not detect a reset;
-  the requested +49 is implemented locally, so do not repeat it in a future run.
-- Local HEAD remains 79f41c5. Prior staged PR #18 tree and new working changes
+  the requested +49 is merged, so do not repeat it in a future run.
+- Local HEAD remains 79f41c5. Completed PR #19 work is staged; newer handoff
   preserved; no reset, main checkout or retry of approval-blocked fetch.
 - Remote main parent: cf772942d11f3682dee94ea9391039b2990512c7.
 
@@ -218,7 +223,7 @@ Updated 18 October 2026; dates use Eastern time.
   4:30 a.m. Eastern October 17 continuation unchanged.
 - Recover local work before switching to main. Preserve
   recovery/completed-biochar-d9efdb0. PRs #12–16 are merged; exact verification and local state above.
-- Current canonical totals: 161 publications, five partial studies, 62 mixes,
+- Current canonical totals: 250 publications, five partial studies, 62 mixes,
   275 observations. Recipe catalog: 43 designs, 31 scalable. Do not combine the
   recipe characterization cells with canonical pilot counts.
 - Remaining pilot/recipe work: source-qualified biochar assays and figures; foam
