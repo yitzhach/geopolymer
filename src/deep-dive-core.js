@@ -3,7 +3,7 @@ export function validateDeepDives(records){
  const ids=new Set(),dois=new Set();
  const required=(value,label)=>{if(typeof value!=='string'||!value.trim())throw new Error(`Deep dive: missing ${label}`);};
  for(const d of records){
-  for(const key of ['id','title','summary','sourceTitle','doi','checked','citation','source','license'])required(d[key],key);
+  for(const key of ['id','title','summary','sourceTitle','doi','checked','citation','source','license','glossary'])required(d[key],key);
   if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(d.id)||ids.has(d.id))throw new Error('Deep dive: invalid/duplicate id');ids.add(d.id);
   const doi=d.doi.toLowerCase();if(!/^10\.\d{4,9}\/\S+$/.test(doi)||dois.has(doi))throw new Error('Deep dive: invalid/duplicate DOI');dois.add(doi);
   if(!/^\/formulations\/[a-z0-9-]+$/.test(d.relatedRecipe||''))throw new Error('Deep dive: invalid related recipe');

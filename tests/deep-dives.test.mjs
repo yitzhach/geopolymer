@@ -19,3 +19,11 @@ test('shared template escapes article-specific prose and calculations',()=>{
  const d=structuredClone(deepDives[0]);d.arithmetic.rows[0][1]='<img src=x onerror=alert(1)>';d.facts[0].text='<script>alert(1)</script>';
  const html=deepDivePage(d);assert.ok(!html.includes('<img'));assert.ok(!html.includes('<script>'));assert.match(html,/&lt;img/);
 });
+
+test('each deep dive resolves its formulation and uses its own glossary',()=>{
+ assert.equal(deepDives.length,3);
+ for(const d of deepDives){assert.equal(renderPage(d.relatedRecipe).status,200);const page=renderPage('/deep-dives/'+d.id);assert.equal(page.status,200);assert.ok(page.html.includes(d.glossary));assert.ok(search(d.doi).some(r=>r.href==='/deep-dives/'+d.id));}
+ const biochar=renderPage('/deep-dives/biochar-replacement-and-exposure').html;
+ assert.match(biochar,/age-matched/);assert.doesNotMatch(biochar,/PS\/PH/);
+ assert.match(renderPage('/deep-dives/basalt-fiber-carbon-textile').html,/0.249%/);
+});

@@ -471,3 +471,10 @@ Add a reusable deep-dive section for the owner's selected GGBS Taguchi paper.
 Keep reported facts, derived arithmetic and proposed laboratory planning distinct.
 Existing T2M9 remains non-scalable: source identity conflict and free-water gaps
 are not resolved by explanatory prose. Validate article provenance at build time.
+
+## 2026-10-17 — Broaden bibliography without upgrading evidence depth
+Add 40 DOI-deduplicated metadata records in two batches and two source-linked
+editorial deep dives. Keep publication, dataset and numeric-extraction counts
+separate. Source-specific glossary and related links replace GGBS-only template
+text; JSON export preserves context and attribution. Unknown metadata stays
+explicit. The next 49-paper request is scheduled separately, after this batch.

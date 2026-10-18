@@ -1,0 +1,1037 @@
+{
+  "schemaVersion": 1,
+  "id": "breadth-6-2026-10-17",
+  "checked": "2026-10-17",
+  "baseline": 181,
+  "final": 201,
+  "accepted": 20,
+  "newObservations": 0,
+  "metadataOnlyAdditions": 20,
+  "merges": 0,
+  "deletions": 0,
+  "openAlex": "on hold; not used",
+  "review": "Read-only low-reasoning gpt-6-luna candidate research; primary-agent DOI/source checks and integration. AI metadata check, not human/domain review.",
+  "strategy": {
+    "provider": "Session web search of exact DOIs and publisher/institutional metadata; no API ingestion",
+    "queries": [
+      "\"10.1111/j.1551-2916.2012.05380.x\"",
+      "\"10.1016/j.cemconres.2021.106431\"",
+      "\"10.1016/j.ceramint.2021.09.313\"",
+      "\"10.1061/jmcee7.mteng-14989\"",
+      "\"10.1007/s42452-022-05167-w\"",
+      "\"10.1111/jace.19450\"",
+      "\"10.1016/j.cemconres.2022.106993\"",
+      "\"10.1016/j.matlet.2024.136270\"",
+      "\"10.1016/j.conbuildmat.2018.05.172\"",
+      "\"10.1016/j.conbuildmat.2023.134856\"",
+      "\"10.1016/j.jmrt.2023.12.094\"",
+      "\"10.1016/j.ceramint.2021.11.129\"",
+      "\"10.3390/ma16227243\"",
+      "\"10.3390/app10165610\"",
+      "\"10.1016/j.conbuildmat.2024.138258\"",
+      "\"10.1016/j.conbuildmat.2020.121973\"",
+      "\"10.1111/jace.16835\"",
+      "\"10.1016/j.ceramint.2016.07.139\"",
+      "\"10.1016/j.ceramint.2011.05.002\"",
+      "\"10.1016/j.ceramint.2012.06.021\""
+    ],
+    "window": "all years",
+    "limit": 20
+  },
+  "rights": {
+    "basis": "Bibliographic facts only; no abstracts/full texts/figures retained. Per-record full-text rights unassessed."
+  },
+  "records": [
+    {
+      "id": "ke-b06-001",
+      "doi": "10.1111/j.1551-2916.2012.05380.x",
+      "originalDoi": "10.1111/j.1551-2916.2012.05380.x",
+      "title": "Ambient Temperature Drying Shrinkage and Cracking in Metakaolin-Based Geopolymers",
+      "authors": "Carsten Kuenzel; Luc J. Vandeperre; Shane Donatello; Aldo R. Boccaccini; Chris Cheeseman",
+      "year": 2012,
+      "published": "2012",
+      "journal": "Journal of the American Ceramic Society",
+      "type": "Journal article",
+      "topic": "Durability",
+      "url": "https://doi.org/10.1111/j.1551-2916.2012.05380.x",
+      "publisherUrl": "https://ceramics.onlinelibrary.wiley.com/doi/10.1111/j.1551-2916.2012.05380.x",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://ceramics.onlinelibrary.wiley.com/doi/10.1111/j.1551-2916.2012.05380.x",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-001",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for durability. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://ceramics.onlinelibrary.wiley.com/doi/10.1111/j.1551-2916.2012.05380.x",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references."
+    },
+    {
+      "id": "ke-b06-002",
+      "doi": "10.1016/j.cemconres.2021.106431",
+      "originalDoi": "10.1016/j.cemconres.2021.106431",
+      "title": "Strategies for control and mitigation of efflorescence in metakaolin-based geopolymers",
+      "authors": "Márlon A. Longhi; Zuhua Zhang; Brant Walkley; Erich D. Rodríguez; Ana Paula Kirchheim",
+      "year": 2021,
+      "published": "2021",
+      "journal": "Cement and Concrete Research",
+      "type": "Journal article",
+      "topic": "Durability",
+      "url": "https://doi.org/10.1016/j.cemconres.2021.106431",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0008884621000806",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/abs/pii/S0008884621000806",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-002",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for durability. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0008884621000806",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references."
+    },
+    {
+      "id": "ke-b06-003",
+      "doi": "10.1016/j.ceramint.2021.09.313",
+      "originalDoi": "10.1016/j.ceramint.2021.09.313",
+      "title": "Metakaolin-based geopolymers: Efflorescence and its effect on microstructure and mechanical properties",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2022,
+      "published": "2022",
+      "journal": "Ceramics International",
+      "type": "Journal article",
+      "topic": "Durability",
+      "url": "https://doi.org/10.1016/j.ceramint.2021.09.313",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0272884221031230",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/abs/pii/S0272884221031230",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-003",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for durability. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0272884221031230",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references."
+    },
+    {
+      "id": "ke-b06-004",
+      "doi": "10.1061/jmcee7.mteng-14989",
+      "originalDoi": "10.1061/jmcee7.mteng-14989",
+      "title": "Theoretical and Experimental Strategy for the Control and Mitigation of Efflorescence in Metakaolin-Based Geopolymer",
+      "authors": "Henrique A. Santana; Nilson S. Amorim Júnior; Daniel V. Ribeiro; Marcelo S. Cilla; Cleber M. R. Dias",
+      "year": 2023,
+      "published": "2023",
+      "journal": "Journal of Materials in Civil Engineering",
+      "type": "Journal article",
+      "topic": "Durability",
+      "url": "https://doi.org/10.1061/jmcee7.mteng-14989",
+      "publisherUrl": "https://ascelibrary.org/doi/10.1061/JMCEE7.MTENG-14989",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://ascelibrary.org/doi/10.1061/JMCEE7.MTENG-14989",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-004",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for durability. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://ascelibrary.org/doi/10.1061/JMCEE7.MTENG-14989",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references."
+    },
+    {
+      "id": "ke-b06-005",
+      "doi": "10.1007/s42452-022-05167-w",
+      "originalDoi": "10.1007/s42452-022-05167-w",
+      "title": "Influence of sodium-based activators and water content on the fresh and hardened properties of metakaolin geopolymers",
+      "authors": "Isabel Pol Segura; Peter Arendt Jensen; Anne Juul Damø; Navid Ranjbar; Lars Skaarup Jensen; Mariana Canut",
+      "year": 2022,
+      "published": "2022",
+      "journal": "SN Applied Sciences",
+      "type": "Journal article",
+      "topic": "Mix design & chemistry",
+      "url": "https://doi.org/10.1007/s42452-022-05167-w",
+      "publisherUrl": "https://link.springer.com/article/10.1007/s42452-022-05167-w",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://link.springer.com/article/10.1007/s42452-022-05167-w",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-005",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for mix design & chemistry. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://link.springer.com/article/10.1007/s42452-022-05167-w",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Historical citation is SN Applied Sciences; current publisher masthead says Discover Applied Sciences."
+    },
+    {
+      "id": "ke-b06-006",
+      "doi": "10.1111/jace.19450",
+      "originalDoi": "10.1111/jace.19450",
+      "title": "Depth dependence of hardness and reaction in metakaolin-based geopolymers cured at low humidity",
+      "authors": "Devon Samuel; Waltraud M. Kriven",
+      "year": 2024,
+      "published": "2024",
+      "journal": "Journal of the American Ceramic Society",
+      "type": "Journal article",
+      "topic": "Durability",
+      "url": "https://doi.org/10.1111/jace.19450",
+      "publisherUrl": "https://ceramics.onlinelibrary.wiley.com/doi/abs/10.1111/jace.19450",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://ceramics.onlinelibrary.wiley.com/doi/abs/10.1111/jace.19450",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-006",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for durability. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://ceramics.onlinelibrary.wiley.com/doi/abs/10.1111/jace.19450",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Issue citation2024; first online7September2023. Source author is Devon Samuel, correcting the candidate expansion of initials."
+    },
+    {
+      "id": "ke-b06-007",
+      "doi": "10.1016/j.cemconres.2022.106993",
+      "originalDoi": "10.1016/j.cemconres.2022.106993",
+      "title": "Shrinkage mitigation of metakaolin-based geopolymer activated by sodium silicate solution",
+      "authors": "Vincent Trincal; Stéphane Multon; Virginie Benavent; Hugo Lahalle; Bastien Balsamo; Amélie Caron; Raphaël Bucher; Laura Diaz Caselles; Martin Cyr",
+      "year": 2022,
+      "published": "2022",
+      "journal": "Cement and Concrete Research",
+      "type": "Journal article",
+      "topic": "Durability",
+      "url": "https://doi.org/10.1016/j.cemconres.2022.106993",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S000888462200285X",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S000888462200285X",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-007",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for durability. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S000888462200285X",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references."
+    },
+    {
+      "id": "ke-b06-008",
+      "doi": "10.1016/j.matlet.2024.136270",
+      "originalDoi": "10.1016/j.matlet.2024.136270",
+      "title": "Novel alkaline solid reagent for the preparation of one-part metakaolin-based geopolymers",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2024,
+      "published": "2024",
+      "journal": "Materials Letters",
+      "type": "Journal article",
+      "topic": "Mix design & chemistry",
+      "url": "https://doi.org/10.1016/j.matlet.2024.136270",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0167577X24004087",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/abs/pii/S0167577X24004087",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-008",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for mix design & chemistry. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167577X24004087",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references."
+    },
+    {
+      "id": "ke-b06-009",
+      "doi": "10.1016/j.conbuildmat.2018.05.172",
+      "originalDoi": "10.1016/j.conbuildmat.2018.05.172",
+      "title": "Metakaolin-based geopolymer mortars with different alkaline activators (Na+ and K+)",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2018,
+      "published": "2018",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Mix design & chemistry",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2018.05.172",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0950061818312480",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0950061818312480",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-009",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for mix design & chemistry. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0950061818312480",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references."
+    },
+    {
+      "id": "ke-b06-010",
+      "doi": "10.1016/j.conbuildmat.2023.134856",
+      "originalDoi": "10.1016/j.conbuildmat.2023.134856",
+      "title": "Characterization and fractal analysis of drying shrinkage of metakaolin-based geopolymers under gradually-decreasing humidity",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2024,
+      "published": "2024",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Durability",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2023.134856",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0950061823045774",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/abs/pii/S0950061823045774",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-010",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for durability. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0950061823045774",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references."
+    },
+    {
+      "id": "ke-b06-011",
+      "doi": "10.1016/j.jmrt.2023.12.094",
+      "originalDoi": "10.1016/j.jmrt.2023.12.094",
+      "title": "Drying shrinkage inhibition effect and mechanism of polyol shrinkagex reducing admixture on the metakaolin-based geopolymer",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2024,
+      "published": "2024",
+      "journal": "Journal of Materials Research and Technology",
+      "type": "Journal article",
+      "topic": "Durability",
+      "url": "https://doi.org/10.1016/j.jmrt.2023.12.094",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S2238785423031587",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S2238785423031587",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-011",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for durability. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2238785423031587",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Publisher indexed heading contains shrinkagex. Retained source spelling; normalized author version/title remains to reconcile."
+    },
+    {
+      "id": "ke-b06-012",
+      "doi": "10.1016/j.ceramint.2021.11.129",
+      "originalDoi": "10.1016/j.ceramint.2021.11.129",
+      "title": "Pressing metakaolin-based one-part geopolymers: Influence of the mix design on microstructural and physical properties",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2022,
+      "published": "2022",
+      "journal": "Ceramics International",
+      "type": "Journal article",
+      "topic": "Mix design & chemistry",
+      "url": "https://doi.org/10.1016/j.ceramint.2021.11.129",
+      "publisherUrl": "https://cris.unibo.it/handle/11585/869083",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://cris.unibo.it/handle/11585/869083",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-012",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for mix design & chemistry. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://cris.unibo.it/handle/11585/869083",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references."
+    },
+    {
+      "id": "ke-b06-013",
+      "doi": "10.3390/ma16227243",
+      "originalDoi": "10.3390/ma16227243",
+      "title": "Microstructure and Efflorescence Resistance of Metakaolin Geopolymer Modified by 5A Zeolite",
+      "authors": "Yuwei Lu; Luxia Song; Yuan Xu; Ping Duan; Xiaoming Wang",
+      "year": 2023,
+      "published": "2023",
+      "journal": "Materials",
+      "type": "Journal article",
+      "topic": "Durability",
+      "url": "https://doi.org/10.3390/ma16227243",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/16/22/7243",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.mdpi.com/1996-1944/16/22/7243",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-013",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for durability. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.mdpi.com/1996-1944/16/22/7243",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references."
+    },
+    {
+      "id": "ke-b06-014",
+      "doi": "10.3390/app10165610",
+      "originalDoi": "10.3390/app10165610",
+      "title": "One-Part Alkali-Activated Pastes and Mortars Prepared with Metakaolin and Biomass Ash",
+      "authors": "Alessandra Mobili; Francesca Tittarelli; Hubert Rahier",
+      "year": 2020,
+      "published": "2020",
+      "journal": "Applied Sciences",
+      "type": "Journal article",
+      "topic": "Mix design & chemistry",
+      "url": "https://doi.org/10.3390/app10165610",
+      "publisherUrl": "https://www.mdpi.com/2076-3417/10/16/5610",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.mdpi.com/2076-3417/10/16/5610",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-014",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for mix design & chemistry. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.mdpi.com/2076-3417/10/16/5610",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references."
+    },
+    {
+      "id": "ke-b06-015",
+      "doi": "10.1016/j.conbuildmat.2024.138258",
+      "originalDoi": "10.1016/j.conbuildmat.2024.138258",
+      "title": "Role of modified calcium montmorillonite and 5 A zeolite in microstructure and efflorescence formation of metakaolin-based geopolymer",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2024,
+      "published": "2024",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Durability",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2024.138258",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0950061824034007",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/abs/pii/S0950061824034007",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-015",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for durability. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0950061824034007",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references."
+    },
+    {
+      "id": "ke-b06-016",
+      "doi": "10.1016/j.conbuildmat.2020.121973",
+      "originalDoi": "10.1016/j.conbuildmat.2020.121973",
+      "title": "Mechanical properties and reaction mechanism of one-part geopolymer mortars",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2021,
+      "published": "2021",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Mix design & chemistry",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2020.121973",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0950061820339775",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0950061820339775",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-016",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for mix design & chemistry. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0950061820339775",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Publisher volume273 dated1March2021; title uses singular mechanism. Corrected candidate year/title before ingestion."
+    },
+    {
+      "id": "ke-b06-017",
+      "doi": "10.1111/jace.16835",
+      "originalDoi": "10.1111/jace.16835",
+      "title": "Preparation of one-part geopolymeric precursors using vanadium tailing by thermal activation",
+      "authors": "Yongpeng Luo; Shenxu Bao; Yimin Zhang",
+      "year": 2020,
+      "published": "2020",
+      "journal": "Journal of the American Ceramic Society",
+      "type": "Journal article",
+      "topic": "Mix design & chemistry",
+      "url": "https://doi.org/10.1111/jace.16835",
+      "publisherUrl": "https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.16835",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.16835",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-017",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for mix design & chemistry. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://ceramics.onlinelibrary.wiley.com/doi/10.1111/jace.16835",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Issue citation2020; first online6October2019."
+    },
+    {
+      "id": "ke-b06-018",
+      "doi": "10.1016/j.ceramint.2016.07.139",
+      "originalDoi": "10.1016/j.ceramint.2016.07.139",
+      "title": "Effect of curing temperature and SiO2/K2O molar ratio on the performance of metakaolin-based geopolymers",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2016,
+      "published": "2016",
+      "journal": "Ceramics International",
+      "type": "Journal article",
+      "topic": "Mix design & chemistry",
+      "url": "https://doi.org/10.1016/j.ceramint.2016.07.139",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0272884216312172",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0272884216312172",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-018",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for mix design & chemistry. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0272884216312172",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references."
+    },
+    {
+      "id": "ke-b06-019",
+      "doi": "10.1016/j.ceramint.2011.05.002",
+      "originalDoi": "10.1016/j.ceramint.2011.05.002",
+      "title": "Synthesis and thermal properties of inorganic polymers (geopolymers) for structural and refractory applications from volcanic ash",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2011,
+      "published": "2011",
+      "journal": "Ceramics International",
+      "type": "Journal article",
+      "topic": "Mix design & chemistry",
+      "url": "https://doi.org/10.1016/j.ceramint.2011.05.002",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0272884211003737",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0272884211003737",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-019",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for mix design & chemistry. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0272884211003737",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references."
+    },
+    {
+      "id": "ke-b06-020",
+      "doi": "10.1016/j.ceramint.2012.06.021",
+      "originalDoi": "10.1016/j.ceramint.2012.06.021",
+      "title": "Synthesis of geopolymers from volcanic ash via the alkaline fusion method: Effect of Al2O3/Na2O molar ratio of soda–volcanic ash",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2013,
+      "published": "2013",
+      "journal": "Ceramics International",
+      "type": "Journal article",
+      "topic": "Mix design & chemistry",
+      "url": "https://doi.org/10.1016/j.ceramint.2012.06.021",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0272884212005470",
+      "checked": "2026-10-17",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/abs/pii/S0272884212005470",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b06-020",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for mix design & chemistry. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-17",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0272884212005470",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references."
+    }
+  ],
+  "accessFailures": [
+    "Crossref API was inaccessible through session web tool; no API fetch or OpenAlex used.",
+    "Some direct publisher requests returned 403/429; indexed primary and institutional metadata used with no full-text review claim."
+  ],
+  "candidateCorrections": [
+    {
+      "doi": "10.1007/s42452-022-05167-w",
+      "note": "Historical citation is SN Applied Sciences; current publisher masthead says Discover Applied Sciences."
+    },
+    {
+      "doi": "10.1111/jace.19450",
+      "note": "Issue citation2024; first online7September2023. Source author is Devon Samuel, correcting the candidate expansion of initials."
+    },
+    {
+      "doi": "10.1016/j.jmrt.2023.12.094",
+      "note": "Publisher indexed heading contains shrinkagex. Retained source spelling; normalized author version/title remains to reconcile."
+    },
+    {
+      "doi": "10.1016/j.conbuildmat.2020.121973",
+      "note": "Publisher volume273 dated1March2021; title uses singular mechanism. Corrected candidate year/title before ingestion."
+    },
+    {
+      "doi": "10.1111/jace.16835",
+      "note": "Issue citation2020; first online6October2019."
+    }
+  ]
+}

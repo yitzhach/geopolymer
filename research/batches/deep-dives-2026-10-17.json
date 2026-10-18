@@ -1,0 +1,38 @@
+{
+  "id": "deep-dives-2026-10-17",
+  "checked": "2026-10-17",
+  "scope": "Two new editorial deep dives from existing source-qualified recipe studies; one failed hempcrete follow-up. No canonical experimental extraction or new recipe.",
+  "openAlex": "on hold; not used",
+  "before": 1,
+  "after": 3,
+  "review": "Primary-agent AI text checks of methods, selected ratios and rights. No new visual/graph review, human/domain review or independent replication.",
+  "sources": [
+    {
+      "doi": "10.3390/ma18030486",
+      "url": "https://cris.unibo.it/retrieve/18a88cc9-e847-4171-b93c-8b7d2c5eae67/materials-18-00486.pdf",
+      "rights": "CC BY 4.0, page 1; attributed brief facts and original editorial adaptation permitted. No raw retention, figure republication or embeddings performed.",
+      "locators": ["section 2.1, p.5", "section 2.2 and Table 2, p.7", "sections 2.3.2-2.3.4, p.10", "section 2.3.6, p.11", "Figure 12 caption/discussion, p.16"],
+      "priorAudit": "research/batches/recipes-biochar-properties-2026-10-16.json",
+      "inventory": "Existing Table 2-5 data and selected methods reused; no new structured numerical evidence. Figure 12 remains undigitized; biochar assay remains unqualified.",
+      "derived": ["MH-1 listed percentages sum to 100", "0.56/56.02*100 approximately 1% original MK replacement", "1kg wet-batch masses derived by multiplying percentages by 10g", "Known water subtotal 212.9g silicate solution*0.56 +14g added water =133.224g, explicitly incomplete"],
+      "limits": "Overlapping draft/final PDF layers; missing solution water/assay and uncertainty semantics; no matched unexposed 40-day control. Proposed extra controls are labeled original guidance."
+    },
+    {
+      "doi": "10.3390/polym13050751",
+      "url": "https://pdfs.semanticscholar.org/9828/de233e60ca20ada95dd8648c207ba4c8dbe1.pdf",
+      "rights": "CC BY 4.0, page 1; attributed brief facts and original editorial adaptation permitted. No raw retention, figure republication or embeddings performed.",
+      "locators": ["section 2.1, p.3", "section 2.2 and Table 2, p.4", "section 2.2 and Table 3, p.5", "abstract"],
+      "priorAudit": "research/batches/recipes-matrix-complete-2026-10-15.json",
+      "inventory": "Existing matrix quantities/results referenced; methods distinguish prisms and textile plates. No new textile/impact data, assays or graph extraction.",
+      "derived": ["Geopaste mass parts=1+0.8=1.8", "0.5% geopaste dose=0.009 mass parts", "9g basalt/3609g proposed mortar=approximately0.249% total mass"],
+      "limits": "Overlapping PDF layers; unquantified textile pretension and matrix protocol/uncertainty gaps; prior-publication dataset overlap unresolved."
+    },
+    {
+      "doi": "10.1108/BEPAM-03-2024-0056",
+      "url": "https://drgan.net/files/pubs/169_BEPAM_2025.pdf",
+      "outcome": "Initial open returned document identity; line follow-up returned internal error and Table 1 find returned no matching text. Stopped; no new deep dive or extraction from this attempt. Existing partial review remains unchanged."
+    }
+  ],
+  "rightsOperations": {"access": "authorized public copies", "AIProcessing": "selected facts via session web tool under source CC BY", "publicDisplay": "attributed original notes and selected facts", "export": "same original notes/selected facts with attribution", "rawRetention": "not performed", "embedding": "not performed"},
+  "next": ["Resolve biochar assay and dimensional-change figure gaps", "Qualify matrix test methods and textile pretension", "Review additional detailed papers in a fresh bounded batch", "Do not claim automatic usage-reset detection or unattended resumption"]
+}

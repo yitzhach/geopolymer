@@ -100,3 +100,5 @@ let commit = 'unknown';
 try { commit = execFileSync('git', ['rev-parse', 'HEAD'], { encoding: 'utf8' }).trim(); } catch {}
 await writeFile('dist/build-info.json', JSON.stringify({ commit, builtAt: new Date().toISOString(), routes: routes.length, foundation: 1 }) + '\n');
 console.log(`Pre-rendered ${routes.length} routes, 404, metadata and crawl files in dist/`);
+
+await writeFile('dist/deep-dives.json',JSON.stringify({format:'geopolymer-deep-dives-v1',notice:'Editorial analysis: reported facts, conditional arithmetic and proposed experiments are separate. Partial AI review; not verified numerical evidence.',articles:deepDives},null,2)+'\n');

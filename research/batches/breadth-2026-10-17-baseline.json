@@ -1,0 +1,807 @@
+[
+  {
+    "id": "library-1",
+    "doi": "10.3390/coatings16070752",
+    "title": "Preparation and Anti-Corrosion Properties of Hydrophobic Geopolymer Coatings"
+  },
+  {
+    "id": "library-2",
+    "doi": "10.3390/coatings16070825",
+    "title": "Activator-to-Binder Ratio–Driven Microstructural and Interfacial Performance Optimization of Metakaolin-Based Geopolymer Coatings"
+  },
+  {
+    "id": "library-3",
+    "doi": "10.3390/su18104754",
+    "title": "Rapidly Synthesized Microwave-Sintered Geopolymer Foam Utilizing Granite Waste: A Sustainable Approach for High-Performance Construction Materials"
+  },
+  {
+    "id": "library-4",
+    "doi": "10.3390/ceramics9070071",
+    "title": "Phosphate-Activated Fayalite-Based Geopolymer Foam"
+  },
+  {
+    "id": "library-5",
+    "doi": "10.3390/ma19010012",
+    "title": "Thermal Insulation and Compressive Strength of Lightweight Geopolymer Foam Concrete Exposed to Accelerated Weathering by Carbonation, Salt Fog and UV Light"
+  },
+  {
+    "id": "library-6",
+    "doi": "10.1016/j.susmat.2026.e01875",
+    "title": "Synthesis and characterization of geopolymer foam based on construction and demolition waste"
+  },
+  {
+    "id": "library-7",
+    "doi": "10.1016/j.conbuildmat.2026.145501",
+    "title": "Experimental study on multi-objective performance of geopolymer foam building insulation material using a novel industrial-scale fabrication method"
+  },
+  {
+    "id": "library-8",
+    "doi": "10.1111/jace.71116",
+    "title": "Unveiling the Coating Effect of Magnesium-Bearing Precipitates on the Rheology of Metakaolin-Based Geopolymer"
+  },
+  {
+    "id": "library-9",
+    "doi": "10.58845/jstt.utt.2026.en.6.2.187-205",
+    "title": "Used Coffee Grounds as Fine Aggregate in Lightweight Geopolymer Composites: Influence on Engineering Properties and Microstructures"
+  },
+  {
+    "id": "library-10",
+    "doi": "10.1080/19648189.2025.2594582",
+    "title": "Upcycling spent coffee grounds into biochar-reinforced geopolymer mortars: sustainable structural materials with enhanced mechanical performance"
+  },
+  {
+    "id": "library-11",
+    "doi": "10.1016/j.rineng.2026.111040",
+    "title": "Geopolymerization: A novel method for manufacturing tiles from copper mine tailings"
+  },
+  {
+    "id": "library-12",
+    "doi": "10.3390/su17020468",
+    "title": "Degradation Potential of Metakaolin-Based Geopolymer Composites Immersed in Real and Simulated Acidic Environments"
+  },
+  {
+    "id": "library-13",
+    "doi": "10.3390/ma18163864",
+    "title": "Effects of EOGO in Metakaolin-Based Geopolymer"
+  },
+  {
+    "id": "library-14",
+    "doi": "10.3390/jne6030034",
+    "title": "Characterization and Selection of Metakaolin for Reproducible Geopolymer Matrices: A Thermal Evolution Approach"
+  },
+  {
+    "id": "library-15",
+    "doi": "10.3390/buildings15101650",
+    "title": "Improving Drying Shrinkage Performance of Metakaolin-Based Geopolymers by Adding Cement"
+  },
+  {
+    "id": "library-16",
+    "doi": "10.1016/j.jeurceramsoc.2025.117191",
+    "title": "Development of lightweight architecture of geopolymer via extrusion-based 3D printing for CO2 capture"
+  },
+  {
+    "id": "library-17",
+    "doi": "10.1016/j.clay.2025.108106",
+    "title": "Impact of different mixing temperature on the microstructural evolution and properties of metakaolin-based geopolymers"
+  },
+  {
+    "id": "library-18",
+    "doi": "10.1016/j.jssc.2025.125607",
+    "title": "Exploring the formation of phosphoric acid-based metakaolin geopolymer and underlying mechanisms under various Liquid-to-Solid ratios"
+  },
+  {
+    "id": "library-19",
+    "doi": "10.1016/j.clay.2025.108055",
+    "title": "Metakaolin-based single-step engineered geopolymer composites: Design and performance characterization"
+  },
+  {
+    "id": "library-20",
+    "doi": "10.1016/j.rser.2025.116157",
+    "title": "Geopolymers as a sustainable alternative to Portland cement: Synthesis, durability, applications, environmental impacts, and cost analysis"
+  },
+  {
+    "id": "library-21",
+    "doi": "10.1016/j.rineng.2025.105788",
+    "title": "Mechanical and durability performance of metakaolin and fly ash-based geopolymers compared to cement systems"
+  },
+  {
+    "id": "library-22",
+    "doi": "10.1617/s11527-025-02670-5",
+    "title": "Metakaolin-based geopolymer matrix formulations for higher strength and thermal stability"
+  },
+  {
+    "id": "library-23",
+    "doi": "10.3390/polym17172358",
+    "title": "Structural Study of Metakaolin-Phosphate Geopolymers Prepared with Wide Range of Al/P Molar Ratios"
+  },
+  {
+    "id": "library-24",
+    "doi": "10.1002/suco.70093",
+    "title": "Development of cost-effective geopolymer mortars from low-grade metakaolin and bottom ash for 3D construction printing"
+  },
+  {
+    "id": "library-25",
+    "doi": "10.3390/ma18092093",
+    "title": "Using XRD to Assess the Strength of Fly-Ash- and Metakaolin-Based Geopolymers"
+  },
+  {
+    "id": "library-26",
+    "doi": "10.1016/j.cscm.2025.e04669",
+    "title": "Advances and developments in high strength geopolymer concrete for sustainable construction – A review"
+  },
+  {
+    "id": "library-27",
+    "doi": "10.1016/j.susmat.2024.e00882",
+    "title": "Durability of low-carbon geopolymer concrete: A critical review"
+  },
+  {
+    "id": "library-28",
+    "doi": "10.1016/j.conbuildmat.2024.135609",
+    "title": "A critical review of the advancements in acid-activated metakaolin geopolymers"
+  },
+  {
+    "id": "library-29",
+    "doi": "10.1016/j.jenvman.2024.120226",
+    "title": "Preparation of functional geopolymers from municipal solid waste incineration fly ash: An approach combining experimental and computational simulation studies"
+  },
+  {
+    "id": "library-30",
+    "doi": "10.1016/j.conbuildmat.2024.136197",
+    "title": "Durability and microstructural evolution of high-performance ecological geopolymer concrete under low-pressure–salt-erosion–freeze–thaw cycling conditions"
+  },
+  {
+    "id": "library-31",
+    "doi": "10.1016/j.conbuildmat.2024.136013",
+    "title": "Multi-performance optimization of low-carbon geopolymer considering mechanical, cost, and CO2 emission based on experiment and interpretable learning"
+  },
+  {
+    "id": "library-32",
+    "doi": "10.3390/ma17225581",
+    "title": "Upscaling of Copper Slag-Based Geopolymer to 3D Printing Technology"
+  },
+  {
+    "id": "library-33",
+    "doi": "10.3390/su16083328",
+    "title": "Towards Sustainable Material: Optimizing Geopolymer Mortar Formulations for 3D Printing: A Life Cycle Assessment Approach"
+  },
+  {
+    "id": "library-34",
+    "doi": "10.3390/ceramics7040087",
+    "title": "Advanced Refinement of Geopolymer Composites for Enhanced 3D Printing via In-Depth Rheological Insights"
+  },
+  {
+    "id": "library-35",
+    "doi": "10.1016/j.conbuildmat.2024.136439",
+    "title": "Printhead mixing of geopolymer and OPC slurries for hybrid alkali-activated cement in 3D concrete printing"
+  },
+  {
+    "id": "library-36",
+    "doi": "10.1016/j.conbuildmat.2024.136449",
+    "title": "Performance modulation and optimization of PE fiber reinforced 3D-printed geopolymer"
+  },
+  {
+    "id": "library-37",
+    "doi": "10.1016/j.ceramint.2017.06.006",
+    "title": "Mix design factors and strength prediction of metakaolin-based geopolymer"
+  },
+  {
+    "id": "library-38",
+    "doi": "10.1039/B212629J",
+    "title": "Chemical optimisation of the compressive strength of aluminosilicate geopolymers synthesised by sodium silicate activation of metakaolinite"
+  },
+  {
+    "id": "library-39",
+    "doi": "10.13140/RG.2.2.18109.10727/1",
+    "title": "Standardized Method in Testing Commercial Metakaolins for Geopolymer Formulations"
+  },
+  {
+    "id": "research-pp-impact",
+    "doi": "10.3390/ma19204263",
+    "title": "Dynamic Compressive Behavior and Internal Damage Evolution of Polypropylene Fiber-Reinforced Alkali-Activated Slag Geopolymer Mortar"
+  },
+  {
+    "id": "research-nickel-carbon",
+    "doi": "10.3390/polym18192448",
+    "title": "Geopolymer-Derived Aluminosilicate Matrix Composites Reinforced with Continuous Nickel-Coated Carbon Fibers: Tensile Properties and Thermo-Oxidative Behavior"
+  },
+  {
+    "id": "research-soft-clay",
+    "doi": "10.1038/s41598-026-73492-w",
+    "title": "Strength and stiffness development of one-part fly ash-bottom ash geopolymer stabilized soft clay"
+  },
+  {
+    "id": "research-brick-sand",
+    "doi": "10.1007/s44290-026-00639-z",
+    "title": "Synergistic effect of silica sand particle size on the compressive strength and pore structure of geopolymers prepared from recycled fired clay brick waste"
+  },
+  {
+    "id": "research-tensile-curing",
+    "doi": "10.3390/civileng7040066",
+    "title": "The Preparation of the Engineered Geopolymer Composites and Their Tensile Strain Capacity Research"
+  },
+  {
+    "id": "research-nano-models",
+    "doi": "10.1007/s44290-026-00622-8",
+    "title": "Quantitative analysis and modeling of mechanical properties of geopolymer concrete incorporating nanomaterials"
+  },
+  {
+    "id": "research-mgo-phosphate",
+    "doi": "10.1016/j.jobe.2026.117456",
+    "title": "Preparation and Reaction Mechanism of Ambient-Cured Silico-Aluminate Phosphate Geopolymer Modified by Magnesium Oxide"
+  },
+  {
+    "id": "research-ceramic-activator",
+    "doi": "10.3390/buildings16193834",
+    "title": "Ceramic Waste Powder-Derived Dry Activator for Sustainable One-Part Fly Ash-Based Geopolymer Mortars"
+  },
+  {
+    "id": "research-volcanic-graphene",
+    "doi": "10.3390/polym18192322",
+    "title": "Sustainable Graphene-Reinforced Geopolymer Composites Derived from Recycled Volcanic Ash: Matrix Optimization, Characterization, and Photoluminescent Proof-of-Concept"
+  },
+  {
+    "id": "research-coupled-durability",
+    "doi": "10.3390/ma19194050",
+    "title": "Durability Degradation Mechanisms and Coupled Deterioration Behaviors of Geopolymer Concrete Under Multi-Hazard Service Environments: A Critical Review"
+  },
+  {
+    "id": "research-red-mud-composites",
+    "doi": "10.3390/polym18182271",
+    "title": "A Study on the Mechanical Properties of Engineered Geopolymer Composites Based on Red Mud, Fly Ash, and Slag"
+  },
+  {
+    "id": "research-red-mud-rice",
+    "doi": "10.3389/fmech.2026.1946182",
+    "title": "Reaction mechanism and compressive strength of geopolymer based on the synergistic excitation of red mud and rice husk ash"
+  },
+  {
+    "id": "research-mineralogy-wastes",
+    "doi": "10.3390/min16090936",
+    "title": "Mineralogy-Guided Processing of Mining and Metallurgical Wastes into Geopolymeric and Alkali-Activated Materials"
+  },
+  {
+    "id": "research-brick-thermal",
+    "doi": "10.3390/ma19183890",
+    "title": "High-Temperature Behavior and Mechanical Performance of Ceramic Brick and Metakaolin Waste Based-Geopolymer Binder"
+  },
+  {
+    "id": "research-sensor-bricks",
+    "doi": "10.1007/s43939-026-00911-0",
+    "title": "Development and performance evaluation of wollastonite–fly ash geopolymer bricks with embedded IoT sensors for strength monitoring"
+  },
+  {
+    "id": "research-co2-aggregate",
+    "doi": "10.1016/j.rineng.2026.112967",
+    "title": "Sustainable valorization of CO₂-treated recycled fine aggregates in one-part geopolymer mortars: Mechanical, thermal, and durability performance"
+  },
+  {
+    "id": "research-hsom-strength",
+    "doi": "10.1038/s41598-026-68752-8",
+    "title": "A simulation of hierarchical self organizing maps to predict the compressive strength of fly ash-based geopolymers"
+  },
+  {
+    "id": "research-fem-review",
+    "doi": "10.1007/s43939-026-00764-7",
+    "title": "A systematic review of finite element modeling of geopolymer and alkali activated cement systems for sustainable structural design"
+  },
+  {
+    "id": "research-pumice-thermal",
+    "doi": "10.3390/ma19183819",
+    "title": "High-Temperature Performance of Metakaolin-Based Geopolymer Recycled Mortar with Pumice Powder"
+  },
+  {
+    "id": "research-cao-onepart",
+    "doi": "10.3390/molecules31173132",
+    "title": "Effect of Calcium Oxide on the Mechanical and Structural Properties of Metakaolin-Based One-Part Geopolymer"
+  },
+  {
+    "id": "research-silane-ternary",
+    "doi": "10.1007/s12633-026-03820-2",
+    "title": "Impact of Silane Coupling Agent on the Basic Properties and Durability of Ternary Composite Geopolymer"
+  },
+  {
+    "id": "research-treated-incinerator-bottom-ash",
+    "doi": "10.1617/s11527-026-03289-w",
+    "title": "Mechanical and microstructural properties of pre-treated incinerator bottom ash as fly ash replacement in alkali-activated materials"
+  },
+  {
+    "id": "ke-2944",
+    "doi": "10.3390/ma15082944",
+    "title": "Effect of Slag on the Strength and Shrinkage Properties of Metakaolin-Based Geopolymers"
+  },
+  {
+    "id": "ke-211",
+    "doi": "10.3390/ma15010211",
+    "title": "Strength and Microstructure Characteristics of Blended Fly Ash and Ground Granulated Blast Furnace Slag Geopolymer Mortars with Na and K Silicate Solution"
+  },
+  {
+    "id": "ke-5396",
+    "doi": "10.3390/ma14185396",
+    "title": "Effect of Silica Fume on Metakaolin Geopolymers’ Sulfuric Acid Resistance"
+  },
+  {
+    "id": "ke-902",
+    "doi": "10.3390/ma12060902",
+    "title": "Method of Optimisation for Ambient Temperature Cured Sustainable Geopolymers for 3D Printing Construction Applications"
+  },
+  {
+    "id": "ke-2957",
+    "doi": "10.3390/ma15082957",
+    "title": "Mechanical Properties and Microstructural Characterization of Metakaolin Geopolymers Based on Orthogonal Tests"
+  },
+  {
+    "id": "ke-006",
+    "doi": "10.1007/bf01912193",
+    "title": "Geopolymers"
+  },
+  {
+    "id": "ke-007",
+    "doi": "10.1016/j.conbuildmat.2019.07.112",
+    "title": "Geopolymer, green alkali activated cementitious material: Synthesis, applications and challenges"
+  },
+  {
+    "id": "ke-008",
+    "doi": "10.1016/j.cemconres.2004.10.042",
+    "title": "The coexistence of geopolymeric gel and calcium silicate hydrate at the early stage of alkaline activation"
+  },
+  {
+    "id": "ke-009",
+    "doi": "10.1016/j.conbuildmat.2009.02.022",
+    "title": "Mechanical and microstructural characterization of an alkali-activated slag/limestone fine aggregate concrete"
+  },
+  {
+    "id": "ke-010",
+    "doi": "10.1016/j.cemconcomp.2016.11.010",
+    "title": "Understanding the drying shrinkage performance of alkali-activated slag mortars"
+  },
+  {
+    "id": "ke-011",
+    "doi": "10.1007/s10853-009-3790-3",
+    "title": "Reaction progress of alkaline-activated metakaolin-ground granulated blast furnace slag blends"
+  },
+  {
+    "id": "ke-012",
+    "doi": "10.1016/j.conbuildmat.2012.04.005",
+    "title": "Effects of dosage of alkali-activated solution and curing conditions on the properties and durability of alkali-activated slag concrete"
+  },
+  {
+    "id": "ke-013",
+    "doi": "10.1016/j.conbuildmat.2017.05.067",
+    "title": "Influence of fly ash on the pore structure and shrinkage characteristics of metakaolin-based geopolymer pastes and mortars"
+  },
+  {
+    "id": "ke-014",
+    "doi": "10.3390/su14063141",
+    "title": "Strength and Microstructure Characteristics of Metakaolin-Based Geopolymer Mortars with High Water-to-Binder Ratios"
+  },
+  {
+    "id": "ke-015",
+    "doi": "10.3390/ma14226962",
+    "title": "Understanding the Role of Metakaolin towards Mitigating the Shrinkage Behavior of Alkali-Activated Slag"
+  },
+  {
+    "id": "ke-016",
+    "doi": "10.1016/j.jclepro.2019.118502",
+    "title": "Mechanical property, nanopore structure and drying shrinkage of metakaolin-based geopolymer with waste glass powder"
+  },
+  {
+    "id": "ke-017",
+    "doi": "10.1016/j.matchemphys.2021.124655",
+    "title": "Thermal properties of metakaolin-based geopolymer modified by the silane coupling agent"
+  },
+  {
+    "id": "ke-018",
+    "doi": "10.3390/ma15010202",
+    "title": "XRD and TG-DTA Study of New Phosphate-Based Geopolymers with Coal Ash or Metakaolin as Aluminosilicate Source and Mine Tailings Addition"
+  },
+  {
+    "id": "ke-019",
+    "doi": "10.1617/s11527-015-0599-1",
+    "title": "Creep and drying shrinkage of a blended slag and low calcium fly ash geopolymer Concrete"
+  },
+  {
+    "id": "ke-020",
+    "doi": "10.1016/j.cemconres.2006.11.021",
+    "title": "Effect of shrinkage-reducing admixtures on the properties of alkali-activated slag mortars and pastes"
+  },
+  {
+    "id": "ke-021",
+    "doi": "10.1016/j.conbuildmat.2014.05.085",
+    "title": "Shrinkage compensation of alkali-activated slag concrete and microstructural analysis"
+  },
+  {
+    "id": "ke-022",
+    "doi": "10.1016/j.conbuildmat.2018.03.155",
+    "title": "Mechanisms of autogenous shrinkage of alkali-activated fly ash-slag pastes cured at ambient temperature within 24 h"
+  },
+  {
+    "id": "ke-023",
+    "doi": "10.1016/j.cemconcomp.2016.04.008",
+    "title": "Performance of blended metakaolin/blastfurnace slag alkali-activated mortars"
+  },
+  {
+    "id": "ke-024",
+    "doi": "10.1016/j.compositesb.2013.10.001",
+    "title": "Effect of activator type and content on properties of alkali-activated slag mortars"
+  },
+  {
+    "id": "ke-025",
+    "doi": "10.1016/j.cemconres.2016.07.001",
+    "title": "Shrinkage mechanisms of alkali-activated slag"
+  },
+  {
+    "id": "ke-b02-001",
+    "doi": "10.1016/j.conbuildmat.2016.04.021",
+    "title": "Strength assessment of spent coffee grounds-geopolymer cement utilizing slag and fly ash precursors"
+  },
+  {
+    "id": "ke-b02-002",
+    "doi": "10.1061/(asce)mt.1943-5533.0001496",
+    "title": "Spent Coffee Grounds–Fly Ash Geopolymer Used as an Embankment Structural Fill Material"
+  },
+  {
+    "id": "ke-b02-003",
+    "doi": "10.1016/j.jclepro.2017.06.171",
+    "title": "Compressive strength and microstructural properties of spent coffee grounds-bagasse ash based geopolymers with slag supplements"
+  },
+  {
+    "id": "ke-b02-004",
+    "doi": "10.1016/j.conbuildmat.2017.04.103",
+    "title": "Strength and microstructure properties of spent coffee grounds stabilized with rice husk ash and slag geopolymers"
+  },
+  {
+    "id": "ke-b02-005",
+    "doi": "10.1016/j.conbuildmat.2017.01.082",
+    "title": "Stiffness and deformation properties of spent coffee grounds based geopolymers"
+  },
+  {
+    "id": "ke-b02-006",
+    "doi": "10.1080/14680629.2017.1408483",
+    "title": "Stiffness and strength properties of spent coffee grounds-recycled glass geopolymers"
+  },
+  {
+    "id": "ke-b02-007",
+    "doi": "10.1186/s40712-025-00331-7",
+    "title": "Spent coffee grounds enhanced strength of alkali-hydroxide-free geopolymer concrete: an optimization study"
+  },
+  {
+    "id": "ke-b02-008",
+    "doi": "10.1038/s41598-026-65786-w",
+    "title": "Spent coffee grounds ash as a potential sustainable binder for mechanical and microstructural enhancement of alkali-activated mortars"
+  },
+  {
+    "id": "ke-b02-009",
+    "doi": "10.1016/j.jclepro.2023.138205",
+    "title": "Transforming spent coffee grounds into a valuable resource for the enhancement of concrete strength"
+  },
+  {
+    "id": "ke-b02-010",
+    "doi": "10.1021/acsomega.2c00170",
+    "title": "Effects of Substrate Surface Characteristics on the Adhesion Properties of Geopolymer Coatings"
+  },
+  {
+    "id": "ke-b02-011",
+    "doi": "10.1016/j.clay.2009.08.015",
+    "title": "Preparation of metakaolin based geopolymer coatings on metal substrates as thermal barriers"
+  },
+  {
+    "id": "ke-b02-012",
+    "doi": "10.1016/j.jhazmat.2010.04.121",
+    "title": "Fly ash based geopolymer thin coatings on metal substrates and its thermal evaluation"
+  },
+  {
+    "id": "ke-b02-013",
+    "doi": "10.1016/j.clay.2010.01.014",
+    "title": "Potential application of geopolymers as protection coatings for marine concreteI. Basic properties"
+  },
+  {
+    "id": "ke-b02-014",
+    "doi": "10.1016/j.ceramint.2014.10.099",
+    "title": "Sodium silicate-free geopolymers as coating materials: Effects of Na/Al and water/solid ratios on adhesion strength"
+  },
+  {
+    "id": "ke-b02-015",
+    "doi": "10.1016/j.conbuildmat.2017.05.070",
+    "title": "Property and microstructure of aluminosilicate inorganic coating for concrete: Role of water to solid ratio"
+  },
+  {
+    "id": "ke-b02-016",
+    "doi": "10.1021/acsomega.0c01919",
+    "title": "Inhibition of Efflorescence in Na-Based Geopolymer Inorganic Coating"
+  },
+  {
+    "id": "ke-b02-017",
+    "doi": "10.1016/j.cemconcomp.2022.104495",
+    "title": "Coating performance, durability and anti-corrosion mechanism of organic modified geopolymer composite for marine concrete protection"
+  },
+  {
+    "id": "ke-b02-018",
+    "doi": "10.1111/jace.19830",
+    "title": "Investigation of geopolymer efflorescence durability problems: Causes and possible solutions"
+  },
+  {
+    "id": "ke-b02-019",
+    "doi": "10.1007/s10853-022-07767-8",
+    "title": "Mechanical and antibacterial behavior of multilayered geopolymer coatings on Ti6Al4V alloys"
+  },
+  {
+    "id": "ke-b02-020",
+    "doi": "10.1016/j.conbuildmat.2020.121066",
+    "title": "Geopolymer synthesis using low-grade clays"
+  },
+  {
+    "id": "ke-b02-021",
+    "doi": "10.1016/j.conbuildmat.2026.146544",
+    "title": "Characterisation and selection criteria of clays for calcined clay based geopolymer"
+  },
+  {
+    "id": "ke-b02-022",
+    "doi": "10.1016/j.ceramint.2026.03.008",
+    "title": "Synergetic effects of waste ceramic powder and low-grade calcined clay as precursors for the development of sustainable geopolymer binders"
+  },
+  {
+    "id": "ke-b02-023",
+    "doi": "10.1016/j.conbuildmat.2010.12.031",
+    "title": "Effect of adding mineral additives to alkali-activated natural pozzolan paste"
+  },
+  {
+    "id": "ke-b02-024",
+    "doi": "10.1016/j.cemconres.2017.10.001",
+    "title": "One-part alkali-activated materials: A review"
+  },
+  {
+    "id": "ke-b02-025",
+    "doi": "10.3390/su151813556",
+    "title": "Impact of Low-Reactivity Calcined Clay on the Performance of Fly Ash-Based Geopolymer Mortar"
+  },
+  {
+    "id": "ke-b03-001",
+    "doi": "10.1016/j.conbuildmat.2024.135086",
+    "title": "Performance characteristics of micro fiber-reinforced ambient cured one-part geopolymer mortar for repairing"
+  },
+  {
+    "id": "ke-b03-002",
+    "doi": "10.1016/j.conbuildmat.2019.04.210",
+    "title": "Performance characteristics of micro fiber-reinforced geopolymer mortars for repair"
+  },
+  {
+    "id": "ke-b03-003",
+    "doi": "10.1080/21650373.2025.2514650",
+    "title": "Flexural properties of fiber reinforced geopolymer composites: experimental investigation and toughness evaluation"
+  },
+  {
+    "id": "ke-b03-004",
+    "doi": "10.1002/suco.202200503",
+    "title": "Study on the flexural properties and fiber‐selection method of fiber‐reinforced geopolymer concrete"
+  },
+  {
+    "id": "ke-b03-005",
+    "doi": "10.1016/j.conbuildmat.2020.121284",
+    "title": "Mechanical properties of basalt and polypropylene fibre-reinforced alkali-activated slag concrete"
+  },
+  {
+    "id": "ke-b03-006",
+    "doi": "10.1016/j.conbuildmat.2018.07.110",
+    "title": "Mechanical and flexural performance of synthetic fibre reinforced geopolymer concrete"
+  },
+  {
+    "id": "ke-b03-007",
+    "doi": "10.1016/j.conbuildmat.2022.126634",
+    "title": "Flexural performance of reinforced Alkali-activated concrete beams incorporating steel and structural Macro synthetic polypropylene fiber"
+  },
+  {
+    "id": "ke-b03-008",
+    "doi": "10.1016/j.matdes.2023.112280",
+    "title": "Multiscale ab-initio modeling and experiment of nano-CaCO3 and fiber synergy on toughening low-carbon geopolymer composites"
+  },
+  {
+    "id": "ke-b03-009",
+    "doi": "10.1016/j.jmrt.2023.03.035",
+    "title": "Flexural fracture parameters of polypropylene fiber reinforced geopolymer"
+  },
+  {
+    "id": "ke-b03-010",
+    "doi": "10.1016/j.conbuildmat.2020.119697",
+    "title": "Optimization of a reinforced geopolymer composite using natural fibers and construction wastes"
+  },
+  {
+    "id": "ke-b03-011",
+    "doi": "10.1111/jace.19105",
+    "title": "Fabrication and mechanical properties of metakaolin‐based geopolymer composites reinforced with auxetic fabrics"
+  },
+  {
+    "id": "ke-b03-012",
+    "doi": "10.1016/j.compositesb.2017.06.001",
+    "title": "Experimental and numerical investigations on the flexural performance of geopolymers reinforced with short hybrid polymeric fibres"
+  },
+  {
+    "id": "ke-b03-013",
+    "doi": "10.1002/suco.202100061",
+    "title": "Effect of fiber type and content on the mechanical properties and shrinkage characteristics of alkali‐activated kaolin"
+  },
+  {
+    "id": "ke-b03-014",
+    "doi": "10.1016/j.conbuildmat.2021.124002",
+    "title": "Role of aggregate and fibre in strength and drying shrinkage of alkali-activated slag mortar"
+  },
+  {
+    "id": "ke-b03-015",
+    "doi": "10.1016/j.conbuildmat.2020.122109",
+    "title": "On the development of MK/BFS alkali-activated materials as repair mortars: Performance under free and restrained shrinkage tests"
+  },
+  {
+    "id": "ke-b03-016",
+    "doi": "10.1016/j.conbuildmat.2025.144469",
+    "title": "Effect of surface-modified basalt fibers on cracking tendency in alkali-activated mortars"
+  },
+  {
+    "id": "ke-b03-017",
+    "doi": "10.1016/j.conbuildmat.2023.134485",
+    "title": "Effect of hybrid polypropylene fibers on mechanical and shrinkage behavior of alkali-activated slag concrete"
+  },
+  {
+    "id": "ke-b03-018",
+    "doi": "10.3989/mc.2006.v56.i283.10",
+    "title": "Alkali-activated slag mortars reinforced with ar glassfibre. Performance and properties"
+  },
+  {
+    "id": "ke-b03-019",
+    "doi": "10.1016/j.conbuildmat.2017.04.163",
+    "title": "Effect of alkaline activators and binder content on the properties of natural pozzolan-based alkali activated concrete"
+  },
+  {
+    "id": "ke-b03-020",
+    "doi": "10.1016/j.conbuildmat.2019.02.107",
+    "title": "Engineering properties of natural pozzolan/slag based alkali-activated concrete"
+  },
+  {
+    "id": "ke-b03-021",
+    "doi": "10.1016/j.conbuildmat.2020.121530",
+    "title": "Effect of sodium hydroxide concentration on strength and microstructure of alkali-activated natural pozzolan and limestone powder mortar"
+  },
+  {
+    "id": "ke-b03-022",
+    "doi": "10.1016/j.conbuildmat.2017.12.222",
+    "title": "Alkali-activated natural pozzolan/slag mortars: A parametric study"
+  },
+  {
+    "id": "ke-b03-023",
+    "doi": "10.1061/(asce)mt.1943-5533.0002306",
+    "title": "Comparative Study of Alkali-Activated Natural Pozzolan and Fly Ash Mortars"
+  },
+  {
+    "id": "ke-b03-024",
+    "doi": "10.1016/j.jobe.2023.106623",
+    "title": "Pyroclastic volcanic ash as a potential precursor of alkali-activated binders – A case study from Tajogaite (La Palma, Canary Islands) volcano eruption"
+  },
+  {
+    "id": "ke-b03-025",
+    "doi": "10.1016/j.conbuildmat.2022.129540",
+    "title": "Double-life sustainable construction materials from alkali activation of volcanic ash/discarded glass mixture"
+  },
+  {
+    "id": "ke-b04-001",
+    "doi": "10.1016/j.conbuildmat.2023.133702",
+    "title": "High temperature behavior of sodium and potassium volcanic ashes-based alkali-activated materials (Mt. Etna, Italy)"
+  },
+  {
+    "id": "ke-b04-002",
+    "doi": "10.1016/j.conbuildmat.2010.12.055",
+    "title": "Effects of calcination temperature of kaolinite clays on the properties of geopolymer cements"
+  },
+  {
+    "id": "ke-b04-003",
+    "doi": "10.1016/j.clay.2017.06.019",
+    "title": "Effects of metakaolin addition on geopolymer prepared from natural kaolinitic clay"
+  },
+  {
+    "id": "ke-b04-004",
+    "doi": "10.1016/j.clay.2024.107259",
+    "title": "Micromechanical properties of geopolymers with different calcined clay precursors"
+  },
+  {
+    "id": "ke-b04-005",
+    "doi": "10.1016/j.conbuildmat.2020.121306",
+    "title": "Kaolin, fly-ash and ceramic waste based alkali-activated materials production by the “one-part” method"
+  },
+  {
+    "id": "ke-b04-006",
+    "doi": "10.1016/j.wasman.2021.04.060",
+    "title": "Extensive use of waste glass in one-part alkali-activated materials: Towards sustainable construction practices"
+  },
+  {
+    "id": "ke-b04-007",
+    "doi": "10.1061/(asce)mt.1943-5533.0004532",
+    "title": "Evaluation of One-Part Slag–Fly-Ash Alkali-Activated Mortars Incorporating Waste Glass Powder"
+  },
+  {
+    "id": "ke-b04-008",
+    "doi": "10.1016/j.jclepro.2024.144229",
+    "title": "Recycling pulverized concrete as cementitious precursor in alkaline one-part cements, with a waste glass-based sodium silicate"
+  },
+  {
+    "id": "ke-b04-009",
+    "doi": "10.1016/j.conbuildmat.2021.124880",
+    "title": "Roles of hybrid activators in improving the early-age properties of one-part geopolymer pastes"
+  },
+  {
+    "id": "ke-b04-010",
+    "doi": "10.1016/j.conbuildmat.2024.139057",
+    "title": "Efflorescence behavior and mechanism of burnt coal cinder-based geopolymers under different alkali activators"
+  },
+  {
+    "id": "ke-b04-011",
+    "doi": "10.1016/j.conbuildmat.2024.137869",
+    "title": "Efflorescence and mitigation of red mud–fly ash–phosphogypsum multicomponent geopolymer"
+  },
+  {
+    "id": "ke-b04-012",
+    "doi": "10.1016/j.mtcomm.2024.108778",
+    "title": "Efflorescence of fly ash-based geopolymer mortars under quasinatural conditions: The relationship between curing temperature, ion transport, and compressive strength"
+  },
+  {
+    "id": "ke-b04-013",
+    "doi": "10.1016/j.ceramint.2024.09.202",
+    "title": "Inhibition of efflorescence for fly ash-slag-steel slag based geopolymer: Pore network optimization and free alkali stabilization"
+  },
+  {
+    "id": "ke-b04-014",
+    "doi": "10.1016/j.conbuildmat.2024.137216",
+    "title": "Efflorescence mitigation in fly ash/slag-based geopolymers: The role of precursor composition and proportions, and admixtures"
+  },
+  {
+    "id": "ke-b04-015",
+    "doi": "10.1016/j.compositesb.2019.107671",
+    "title": "Metakaolin-based geopolymers: Relation between formulation, physicochemical properties and efflorescence formation"
+  },
+  {
+    "id": "ke-b04-016",
+    "doi": "10.1007/s11356-024-33958-8",
+    "title": "Long-term durability of discarded cork-based composites obtained by geopolymerization"
+  },
+  {
+    "id": "ke-b04-017",
+    "doi": "10.1016/j.cemconres.2004.06.005",
+    "title": "Resistance of geopolymer materials to acid attack"
+  },
+  {
+    "id": "ke-b04-018",
+    "doi": "10.1016/j.cemconres.2018.04.009",
+    "title": "Sulfuric acid resistance of one-part alkali-activated mortars"
+  },
+  {
+    "id": "ke-b04-019",
+    "doi": "10.1016/j.cemconres.2018.06.011",
+    "title": "Effect of slag content and activator dosage on the resistance of fly ash geopolymer binders to sulfuric acid attack"
+  },
+  {
+    "id": "ke-b04-020",
+    "doi": "10.1016/j.conbuildmat.2022.129889",
+    "title": "Behavior of calcined clay based geopolymers under sulfuric acid attack: Meta-illite and metakaolin"
+  },
+  {
+    "id": "ke-b04-021",
+    "doi": "10.1016/j.cemconres.2024.107436",
+    "title": "Macro and microstructural evolution of low-calcium fly ash-based geopolymer mortar exposed to sulphuric acid corrosion"
+  },
+  {
+    "id": "ke-b04-022",
+    "doi": "10.1016/j.conbuildmat.2023.132406",
+    "title": "Insulating phosphoric acid-based geopolymer foams with water and high temperature resistance"
+  },
+  {
+    "id": "ke-b04-023",
+    "doi": "10.1016/j.conbuildmat.2023.133486",
+    "title": "Enhancing thermal insulation with phosphate washing sludge waste as an inorganic foaming agent in porous acid-based geopolymers: Formulation and processing optimization"
+  },
+  {
+    "id": "ke-b04-024",
+    "doi": "10.1016/j.matlet.2017.01.022",
+    "title": "Phosphate-based geopolymer: Formation mechanism and thermal stability"
+  },
+  {
+    "id": "ke-b04-025",
+    "doi": "10.1016/j.jeurceramsoc.2015.04.030",
+    "title": "Preparation of phosphoric acid-based geopolymer foams using limestone as pore forming agent – Thermal properties by in situ XRPD and Rietveld refinements"
+  }
+]

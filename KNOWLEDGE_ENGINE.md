@@ -256,3 +256,13 @@ and research/briefings/materials-scout-2026-10-15.md: six new candidates, one ex
 record follow-up, one partial full-text review and three experimental questions.
 No canonical scientific records or public routes changed. Publisher/repository
 search was used; this does not demonstrate live OpenAlex or deployed AI operation.
+
+## 17 October 2026 expansion
+201 unique publications (40 new metadata-only records), five partial pilot
+studies, 62 mixes and 275 observations. The recipe catalog remains 43 designs,
+31 scalable. Three editorial deep dives are not three newly extracted studies.
+`src/knowledge-expansion.js` joins the existing canonical references; batch
+manifests preserve source URLs, dates, rights limits, unknown authors and identity
+corrections. A frozen 161-record ID/DOI/title baseline checks preservation and
+idempotent import tests protect against duplicate additions. Study metadata now
+uses article titles in descriptions to avoid collisions when authors are unknown.
