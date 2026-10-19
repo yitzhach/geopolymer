@@ -1,3 +1,4 @@
+import {knowledgeExpansion300} from './knowledge-expansion-300.js';
 import {knowledgeExpansionNext} from './knowledge-expansion-next.js';
 import {knowledgeExpansion} from './knowledge-expansion.js';
 // Canonical bibliography: per-record check dates; no abstracts retained.
@@ -3737,3 +3738,5 @@ export const knowledgeReferences = [
 knowledgeReferences.push(...knowledgeExpansion);
 
 knowledgeReferences.push(...knowledgeExpansionNext);
+
+knowledgeReferences.push(...knowledgeExpansion300);

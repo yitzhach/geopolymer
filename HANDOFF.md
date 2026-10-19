@@ -1,5 +1,29 @@
 # Geopolymer — current handoff
-Updated 18 October 2026; dates use Eastern time.
+Updated 19 October 2026; dates use Eastern time.
+
+## Fifty-paper expansion and two control-method deep dives — 19 October 2026
+- Confirmed published baseline 250 / four deep dives at main fe1ab160e011de9756480de249384e8b02cf8427.
+  Added 50 unique DOI records in bounded batches 9 and 10 (25 each): total 300.
+  Preserved all prior 250 IDs/DOIs/titles; new module knowledge-expansion-300.js.
+- Added partial editorial deep dives on MK/slag shrinkage controls and MK paste
+  water/starting temperature: six total. Ratio denominators, derived arithmetic,
+  methods, unfavorable outcomes, source locators and replication holds are explicit.
+  These are not complete extractions or qualified ready-to-run recipes.
+- Publisher title-only correction for ma17051181 documented. Catalog cards now
+  show escaped source notes. An unexplained secondary withdrawal label for
+  cemconcomp.2024.105811 was not confirmed at publisher/institution; held from
+  assistant evidence pending review. Catalog presence is not status clearance.
+- Rejected existing DOI clay.2025.108055 during deduplication; final replacement
+  mawe.70103 verified at Wiley. Corrected clay.2020.105968 to cited issue year 2021.
+- Audits: breadth-9/10-2026-10-19, frozen 250 baseline, deep-dives-controls-2026-10-19.
+  Indexed primary text supports partial methods; publisher 429/PDF failures recorded.
+  No graph points or raw papers retained. OpenAlex remains on hold.
+- Canonical pilots unchanged: five partial studies, 62 mixes, 275 observations;
+  recipe catalog 43 / 31 scalable. Daily draft automation unchanged.
+- Local 25 Node test files and 326-route build pass. Local browser server denied
+  socket bind (EPERM); six-suite GitHub browser CI and publication pending.
+- Preserve accumulated staged work and newer unstaged files; HEAD remains 79f41c5.
+  Do not reset to main. Final release identity and live check to be recorded here.
 
 ## Hemp test-method follow-up — 18 October 2026
 - One-paper, five-query batch located mechanical loading rates and thermal
@@ -241,7 +265,7 @@ Updated 18 October 2026; dates use Eastern time.
   4:30 a.m. Eastern October 17 continuation unchanged.
 - Recover local work before switching to main. Preserve
   recovery/completed-biochar-d9efdb0. PRs #12–16 are merged; exact verification and local state above.
-- Current canonical totals: 250 publications, five partial studies, 62 mixes,
+- Current canonical totals: 300 publications, five partial studies, 62 mixes,
   275 observations. Recipe catalog: 43 designs, 31 scalable. Do not combine the
   recipe characterization cells with canonical pilot counts.
 - Remaining pilot/recipe work: source-qualified biochar assays and figures; foam

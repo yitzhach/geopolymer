@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-dives-controls-2026-10-19",
+  "checked": "2026-10-19",
+  "review": "Partial AI editorial methods review; not complete experimental extraction or human/domain review.",
+  "openAlex": "on hold; not used",
+  "bounds": {
+    "targetPapers": 2,
+    "maximumFullPapers": 5,
+    "maximumRequests": 40,
+    "requests": 31,
+    "requestCountBasis": "Queries and individual URL retrievals; selected follow-ups for methods, license and source status. Initial two nonmatching searches yielded no accepted evidence."
+  },
+  "accessFailures": [
+    "Both direct MDPI landing pages returned 429. Both PDF retrieval attempts failed. Continued with indexed primary text; no retry loop."
+  ],
+  "newPublications": 0,
+  "newObservations": 0,
+  "newRecipes": 0,
+  "rights": "Article-specific CC BY 4.0 evidence; original editorial adaptation only. No raw papers, full tables, figures or abstracts retained.",
+  "records": [
+    {
+      "doi": "10.3390/ma17051181",
+      "id": "metakaolin-slag-shrinkage-controls",
+      "source": "https://www.mdpi.com/1996-1944/17/5/1181",
+      "sourceVersion": "Partial AI review of indexed publisher/PMC methods and selected results. Direct publisher request returned 429; PDF retrieval failed. No visual figure verification. Publisher Correction Statement records a title-only correction and says scientific content is unaffected; PMC retains “Base” in its title.",
+      "rights": "Authors © 2024; CC BY 4.0 in the PMC article-specific copyright notice. Original editorial adaptation with selected facts; no complete tables or figures reproduced.",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "locators": [
+        "§2.2; §3.2/Table 2",
+        "§3.1; Table 3",
+        "§3.3",
+        "§3.1",
+        "Abstract; Table 3"
+      ],
+      "inventory": {
+        "methods": "partial source-checked AI notes",
+        "materials": "incomplete assay and grade ledger",
+        "tables": "selected facts only; complete inventory pending",
+        "figures": "not visually inspected or digitized",
+        "supplements": "not fully assessed",
+        "uncertainty": "replicate and variability audit incomplete"
+      },
+      "outcomes": "Tradeoffs and unfavorable directions retained; no pooled rankings or independent dataset claims.",
+      "holds": [
+        "Complete activator component masses, ratio basis and material specifications must be reconciled before batch transfer.",
+        "Full table/figure inventory and uncertainty audit are incomplete; no new canonical observations or scalable recipe.",
+        "Title-only correction is documented, not a comprehensive source-status clearance. Verify exact version when retrieving a full copy."
+      ]
+    },
+    {
+      "doi": "10.3390/su12198216",
+      "id": "metakaolin-water-temperature",
+      "source": "https://www.mdpi.com/2071-1050/12/19/8216",
+      "sourceVersion": "Partial AI review of indexed publisher methods. Publisher landing page returned 429 and publisher PDF was inaccessible. Article-specific license checked at https://research.rtu.lv/en/publications/the-impact-of-the-amount-of-water-used-in-activation-solution-and/ . No visual or graph extraction.",
+      "rights": "Authors © 2020; Riga Technical University’s article record links this DOI to CC BY 4.0. Original editorial adaptation and selected factual notes; no complete tables or figures reproduced.",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "locators": [
+        "§2.1",
+        "§2.2; Table 1",
+        "§2.2",
+        "§2.2",
+        "Conclusions"
+      ],
+      "inventory": {
+        "methods": "partial source-checked AI notes",
+        "materials": "incomplete assay and grade ledger",
+        "tables": "selected facts only; complete inventory pending",
+        "figures": "not visually inspected or digitized",
+        "supplements": "not fully assessed",
+        "uncertainty": "replicate and variability audit incomplete"
+      },
+      "outcomes": "Tradeoffs and unfavorable directions retained; no pooled rankings or independent dataset claims.",
+      "holds": [
+        "Full instrument procedures, complete outcome inventory and uncertainty/replicate audit remain incomplete. No graph values or canonical measurements added.",
+        "Stock density and complete water accounting are required for molar or oxide calculations; no ready-to-run activator preparation is supplied.",
+        "A heat-cured result does not establish ambient-only performance. Source-status search found no specific notice, not comprehensive clearance."
+      ]
+    }
+  ],
+  "additionalSources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10934342/",
+    "https://research.rtu.lv/en/publications/the-impact-of-the-amount-of-water-used-in-activation-solution-and/"
+  ],
+  "arithmetic": "Original conditional calculations; no invented stock density, dose or graph coordinates.",
+  "next": "Complete material/activator specifications, inventories and uncertainty audit before any numerical ingestion or calculator transfer."
+}

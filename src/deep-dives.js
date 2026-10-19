@@ -1,3 +1,4 @@
+import {controlDeepDives} from './deep-dive-controls.js';
 import {hempDeepDive} from './deep-dive-hemp.js';
 import {deepDiveAdditions} from './deep-dive-additions.js';
 // Original editorial synthesis; published facts and proposed replication steps stay separate.
@@ -49,3 +50,5 @@ deepDives.push(...deepDiveAdditions);
 deepDives.push(hempDeepDive);
 
 for(const d of deepDives)if(d.relatedRecipe)d.licenseUrl="https://creativecommons.org/licenses/by/4.0/";
+
+deepDives.push(...controlDeepDives);

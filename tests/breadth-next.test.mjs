@@ -8,8 +8,8 @@ const read=name=>JSON.parse(fs.readFileSync(new URL('../research/batches/'+name,
 test('49 additions preserve the published 201 identities and reconcile idempotently',()=>{
  const baseline=read('breadth-2026-10-18-baseline.json');assert.equal(baseline.length,201);
  assert.deepEqual(library.slice(0,201).map(({id,doi,title})=>({id,doi,title})),baseline);
- assert.equal(knowledgeExpansionNext.length,49);assert.equal(library.length,250);
- assert.equal(new Set(library.map(p=>p.doi.toLowerCase())).size,250);
+ assert.equal(knowledgeExpansionNext.length,49);assert.equal(library.length,300);
+ assert.equal(new Set(library.map(p=>p.doi.toLowerCase())).size,300);
  let records=library.slice(0,201);
  for(const [n,count] of [[7,25],[8,24]]){const audit=read(`breadth-${n}-2026-10-18.json`);assert.equal(audit.records.length,count);records=reconcileBatch(records,audit.records).records;assert.equal(records.length,audit.final);assert.ok(reconcileBatch(records,audit.records).events.every(e=>e.status==='unchanged'));}
  for(const p of knowledgeExpansionNext){assert.equal(p.extraction,'unstarted');assert.equal(p.datasetFamilyId,null);assert.ok(!p.abstract&&!p.summary&&!p.observations);assert.match(p.metadataSource,/^https:/);}
