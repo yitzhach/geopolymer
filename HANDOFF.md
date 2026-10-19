@@ -18,8 +18,14 @@ Updated 19 October 2026; dates use Eastern time.
 - Counts: five partial pilot studies, 62 mixes, 275 observations, 43 recipes /
   31 scalable remain unchanged. Metadata additions are not new experimental data.
 - OpenAlex remains on hold. Daily research draft automation unchanged.
-- All 26 Node test files pass; build produces 428 routes. Browser checks and
-  publication pending. Local HEAD remains 79f41c5; preserve accumulated staged work.
+- All 26 Node test files pass; build produces 428 routes. All six browser suites
+  passed GitHub run 39235734379 on cadc0a3feb276ca7d94af76574a3cff730278a6a.
+  PR #22 merged as 958f8d8868b46dbb2420d6f424a1f014fd503711.
+- Local staged tree 55c2719d9c8d3972c565772d5fb9fcd0fd4457cf exactly matches
+  the tested feature. This final handoff is newer unstaged work. HEAD remains
+  79f41c5; preserve both and do not reset to main.
+- Post-merge build-info was inaccessible via the web tool. Live deployment identity
+  remains unverified; no access bypass or repeated request loop.
 - Next: recover activator/exposure details for moisture/efflorescence, mixed Na/K
   durability and one-part admixture guides; finish new guide inventories and
   existing hemp/foam/biochar pilot gaps. No additional breadth quota assumed.
