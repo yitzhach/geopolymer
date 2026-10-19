@@ -190,3 +190,8 @@ Its indexed-source access limits, ratio denominator, conflicting strength claims
 and incomplete replication ledger remain explicit. No canonical experimental
 observations or recipes added; five pilot studies remain partial. OpenAlex on hold.
 See HANDOFF.md and research/batches/*2026-10-18* for evidence and publication status.
+
+## 18 October — hemp methods follow-up
+The existing hemp deep dive now cites §§2.4.2/2.4.4 for mechanical loading and
+thermal exposure, with a separate explanation of comparison denominators. Source
+conflicts remain unresolved. See hemp-methods-continuation-2026-10-18.json.

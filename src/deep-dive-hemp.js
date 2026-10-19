@@ -24,6 +24,9 @@ export const hempDeepDive = {
   {title:'Activator and mixing',locator:'§2.3.1',text:'12 M NaOH; activator/solid 0.8; silicate/NaOH 2.25. Dry-blend slag/sand, then mechanically mix with activator. Ratio bases need clarification.'},
   {title:'Nanofiber processing',locator:'§2.2',text:'Chemical modification precedes electrospinning: 15 kV, 15 cm, 1 mL/h; heat treatment 80°C for 135 minutes.'},
   {title:'Specimens and cure',locator:'§2.3.2; §2.4.2',text:'40×40×160 mm prisms; 50 mm thermal-test cubes. Oven cure 80/110°C, 24 h; room-temperature storage; tests at 7/28 days; three replicates, mean ± SD.'},
+  {title:'Mechanical loading',locator:'§2.4.2',text:'Three-point bending at 50 N/s; compression of broken half-prisms at 2.4 kN/s; TS EN 196-1.'},
+  {title:'Thermal exposure procedure',locator:'§2.4.4',text:'50 mm cubes heated from approximately 23 ± 2°C at 5°C/min; one-hour target dwell; natural cooling inside the furnace. This is a laboratory exposure, not a standard building fire curve.'},
+  {title:'Limits of mechanism evidence',locator:'§3.2.3 and Table 3',text:'Compression and ultrasonic velocity decline with reinforcement. Quantitative dispersion and porosity measurements were outside scope; proposed agglomeration/porosity mechanisms remain indirect interpretations.'},
   {title:'Unfavorable thermal outcome',locator:'§3.2.4',text:'After 28 days, thermal exposures lasted one hour. At 1200°C all specimens collapsed; subsequent strength testing was impossible.'}
  ],
  arithmetic:{
@@ -36,6 +39,7 @@ export const hempDeepDive = {
   ],
   notes:[
    'A solution-to-solution mass ratio cannot be substituted for an oxide ratio or a volume ratio. Define every numerator and denominator before allocating grams.',
+   'Residual-strength comparisons need two denominators: exposed strength divided by the same mix’s unheated strength measures retention; reinforced exposed strength divided by unreinforced exposed strength compares load capacity after exposure. Better retention can coexist with lower exposed strength. This mathematical possibility does not resolve the paper’s conflict. Match geometry, cure and age before calculating either ratio.',
    'Molarity is moles per litre of final solution. Record concentration, solution temperature, density, preparation history and water separately; this page is not an activator preparation instruction.'
   ]
  },
@@ -47,11 +51,11 @@ export const hempDeepDive = {
   ['Design controls that can answer the question','Keep a matrix-only control. If attributing a benefit to BN or hemp, propose PVA-only and appropriate component controls, with consistent total reinforcement and processing. These are proposed experiments, not reported source groups.'],
   ['Run a pilot mixing trial','Once source gaps are resolved, document addition order, mixer geometry, speed, time, temperature and elapsed time to casting. Measure flow and density; log visible clumping, entrained air and rejected batches. Keep mixing changes explicit instead of silently changing water.'],
   ['Track each specimen history','Assign batch, mold, cure and exposure IDs. Specify sealing, demolding time, storage humidity and test-age origin. Randomize positions and test order where feasible; distinguish separate batches from multiple specimens cast from one batch.'],
-  ['Compare unheated and exposed specimens','Use matched geometry, age and conditioning for thermal and unheated controls. Define furnace ramp, dwell start, cooling and weighing procedures before testing. Record collapse as an untestable outcome with its reason, never as an invented zero-MPa measurement.'],
+  ['Compare unheated and exposed specimens','Use matched geometry, age and conditioning for thermal and unheated controls. Use the sourced thermal schedule above for a reproduction and document actual temperature history, dwell start and weighing procedures. Keep thermal cubes separate from broken mechanical-test prisms. Record collapse as an untestable outcome with its reason, never as an invented zero-MPa measurement.'],
   ['Evaluate tradeoffs and repeat','Publish individual results and variability alongside means. Check workability, density, strength and residual integrity together. Confirm any selected composition in independent fresh batches; do not infer field service limits from a short furnace exposure.']
  ],
  holds:[
-  'Unresolved: slag:sand mass ratio, precise “solid” basis, addition/dispersion details, complete chemical modification charges and furnace ramp/cooling.',
+  'Unresolved: slag:sand mass ratio, precise “solid” basis, addition/dispersion details, complete chemical modification charges. Furnace ramp/cooling are now located in §2.4.4.',
   'Source conflict: abstract suggests improved residual strength; §3.2.4 describes lower strength with increasing reinforcement. Resolve by mix, temperature and cure before recommending a dose.',
   'Preliminary optimization and G0 have different matrices (§5); do not pool their strengths.',
   'Tables, figures, supplements and status review remain incomplete. No graph points, canonical measurements or scalable formulation added.'
