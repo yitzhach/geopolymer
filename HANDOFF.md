@@ -12,6 +12,11 @@ Updated 19 October 2026; dates use Eastern time.
 - 105 Node test cases, 431-route build and all six browser suites pass locally.
 - Counts: 400 publications; pilot/recipe counts unchanged; no canonical observations added.
 - Network: phone app cannot edit environment network access; owner PDF upload is the working route.
+- PR #24 (https://github.com/yitzhach/geopolymer/pull/24) carries both this and the inventory
+  work below; merged to main once GitHub CI passed. Resume from current main.
+- Next: hemp/foam/biochar pilot gaps need source PDFs; ask the owner to upload
+  10.1111/jace.70158 (foam), 10.3390/ma18030486 (biochar), 10.3390/polym18111288 (hemp).
+  Then move guide inventory rows to extracted with locators. OpenAlex still on hold.
 
 ## Guide source inventories; deferred durability methods still blocked — 19 October 2026
 - Worked from 6bf1dad (400 publications / eight deep dives) on branch
