@@ -1,0 +1,1 @@
+Placeholder cached text. In a real project this folder is gitignored and holds one <source-id>.txt per source for the overlap check. The effect was largest in the first week for all three mixes tested here.

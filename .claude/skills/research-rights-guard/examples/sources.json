@@ -1,0 +1,22 @@
+[
+  {
+    "id": "example-open-study",
+    "title": "Example open-access study (placeholder)",
+    "authors": "A. Author, B. Author",
+    "url": "https://example.org/articles/open-study",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsEvidence": "License statement on the article page (placeholder)",
+    "checked": "2026-10-19",
+    "access": "open-full-text"
+  },
+  {
+    "id": "example-paywalled-study",
+    "title": "Example subscription study (placeholder)",
+    "authors": "C. Author",
+    "doi": "10.0000/example",
+    "license": "unknown",
+    "checked": "2026-10-19",
+    "access": "abstract"
+  }
+]

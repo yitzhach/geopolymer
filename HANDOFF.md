@@ -1,6 +1,23 @@
 # Geopolymer — current handoff
 Updated 19 October 2026; dates use Eastern time.
 
+## Research rights guard skill — 19 October 2026
+- Added portable project skill `.claude/skills/research-rights-guard/` (SKILL.md,
+  references, dependency-free checker, example bundle, unit tests). Reusable in
+  other repos by copying the folder and adding a `rights-guard.config.json`.
+- `scripts/rights-adapter.mjs` maps deep dives, journal briefings and library
+  summaries into the checker; `npm test` now fails on rights errors
+  (`npm run check:rights` prints the report). Current result: 35 items,
+  403 sources, 0 errors, 1 warning (bn-hemp-nanofiber-slag CC BY version
+  unverified, matching its existing record note).
+- Wording-overlap check needs a private source-text cache in gitignored
+  `work/rights-cache/`; none exists, so overlap was exercised by unit tests only.
+  Europe PMC was blocked by this environment's network policy; not bypassed.
+- E-books default to commercial and require a person's `rightsReview` before
+  release. Checks are policy aids, not legal clearance; IP counsel review is
+  recommended before any sale. Topic leads, recipes and knowledge records are
+  not yet mapped into the checker.
+
 ## Hundred-paper expansion and durability deep dives — 19 October 2026
 - Published baseline 300 publications / six deep dives confirmed at main
   03976b67daa72683ad4884e0e31bdac9f2c51b8f. Added 100 unique DOI records
