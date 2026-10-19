@@ -10,7 +10,12 @@ Updated 18 October 2026; dates use Eastern time.
   Quantitative porosity/dispersion were outside the source study's scope.
 - Indexed primary text only; no direct-access retries, graph extraction or new
   canonical measurements. Audit: hemp-methods-continuation-2026-10-18.json.
-- All 24 Node test files and 274-route build pass; browser CI/publication pending.
+- All 24 Node test files and 274-route build pass. CI 39184384317 passed all
+  six browser suites on 9c7fbef2a04a56e729245ebfbd6f9c04e3c733f7. PR #20
+  merged as d19bdeccbbfc07a4bf109dc511fa8ff608e0f05c.
+- Staged tree e8c51d6e98f3d3f255e5abd2129eb3a4ee8829a5 matches that feature;
+  final handoff is newer unstaged work. Local HEAD remains 79f41c5; preserve both.
+  Live build-info recheck remained inaccessible; deployment identity unverified.
   Counts remain 250 publications, four deep dives and five partial pilot studies.
   OpenAlex on hold; daily draft automation unchanged. Prior local work preserved.
 
