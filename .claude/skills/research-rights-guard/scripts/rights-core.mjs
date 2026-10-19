@@ -86,11 +86,29 @@ export function sharedRuns(text, source, minRun) {
 }
 
 // Quoted passages in prose: “…” or "…" (single quotes collide with apostrophes).
+// Straight quotes count only when they open after a space/bracket and close before
+// punctuation or a space, so inch marks (5") are not paired with later quotes.
 export function findQuotedRuns(text, minWords) {
   const out = [];
-  for (const m of String(text || '').matchAll(/[“"]([^“”"]{1,3000})[”"]/g))
-    if (tokenize(m[1]).length >= minWords) out.push(m[1]);
-  return out;
+  const t = String(text || '');
+  for (const m of t.matchAll(/“([^“”]{1,3000})”/g)) out.push(m[1]);
+  for (const m of t.matchAll(/(?:^|[\s(\[])"([^"]{1,3000})"(?=[\s.,;:!?)\]]|$)/g)) out.push(m[1]);
+  return out.filter(r => tokenize(r).length >= minWords);
+}
+
+// Text segments left after removing each quote's exact word sequence.
+export function withoutQuotes(text, quotes) {
+  const words = tokenize(text);
+  const removed = new Array(words.length).fill(false);
+  for (const q of quotes) {
+    const qw = tokenize(q);
+    if (!qw.length) continue;
+    for (let i = 0; i + qw.length <= words.length; i++)
+      if (qw.every((w, j) => words[i + j] === w)) for (let j = 0; j < qw.length; j++) removed[i + j] = true;
+  }
+  const segments = [[]];
+  words.forEach((w, i) => removed[i] ? segments.push([]) : segments[segments.length - 1].push(w));
+  return segments.filter(x => x.length).map(x => x.join(' '));
 }
 
 const norm = s => tokenize(s).join(' ');
@@ -133,12 +151,15 @@ export function checkBundle(bundle, options = {}, sourceTextFor = () => null) {
     if (s.license && !t.known) add('error', 'SRC_LICENSE', `Unrecognized license "${s.license}"`, ref);
     if (t.known && !t.versioned) add('warning', 'SRC_LICENSE_VERSION', `${s.license} has no version; record the exact license version and URL`, ref);
     const urlLicense = licenseFromUrl(s.licenseUrl);
-    if (urlLicense && t.known && urlLicense !== s.license && !(t.open && !t.versioned && urlLicense.startsWith(`${s.license}-`)))
+    const sameFamily = t.open && !t.versioned && new RegExp(`^${s.license}-\\d\\.\\d$`).test(urlLicense || '');
+    const sameStatus = s.license === 'public-domain' && urlLicense === 'CC0-1.0';
+    if (urlLicense && t.known && urlLicense !== s.license && !sameFamily && !sameStatus)
       add('error', 'SRC_LICENSE_MISMATCH', `license ${s.license} disagrees with licenseUrl (${urlLicense}); record what the rights evidence actually states`, ref);
     if (s.operations) for (const [op, v] of Object.entries(s.operations)) {
       if (!OPERATIONS.includes(op)) add('error', 'SRC_OPERATION', `Unknown operation "${op}" (use ${OPERATIONS.join(', ')})`, ref);
       else if (!['allowed', 'denied', 'unknown'].includes(v?.decision)) add('error', 'SRC_OPERATION', `Operation ${op} needs decision allowed|denied|unknown`, ref);
     }
+    for (const k of RAW_KEYS) if (k in s) add('error', 'SRC_RAW_TEXT', `Ledger field "${k}" stores source text; keep it out of the bundle and any public build`, ref);
     if (t.open && !nonEmpty(s.rightsEvidence)) add('error', 'SRC_EVIDENCE', `License ${s.license} is relied on but rightsEvidence (where it is stated) is missing`, ref);
     if (s.permission) {
       for (const k of ['grantedBy', 'date', 'evidence']) if (!nonEmpty(s.permission[k])) add('error', 'SRC_PERMISSION', `Permission missing ${k}`, ref);
@@ -199,6 +220,7 @@ export function checkBundle(bundle, options = {}, sourceTextFor = () => null) {
       perSource.set(q.source, (perSource.get(q.source) || 0) + 1);
       if (n > o.quote.maxWords) add('error', 'QUOTE_LONG', `Quote of ${n} words from ${q.source} exceeds ${o.quote.maxWords}`, ref);
       if (!nonEmpty(q.locator)) add('error', 'QUOTE_LOCATOR', `Quote from ${q.source} has no locator`, ref);
+      if (ledger.get(q.source).access === 'metadata-only') add('error', 'QUOTE_ACCESS', `Quote from ${q.source}, which is metadata-only; its wording was not read`, ref);
       if (!norm(text).includes(norm(q.text))) add('warning', 'QUOTE_ABSENT', `Declared quote from ${q.source} does not appear in the text`, ref);
     }
     for (const [id, n] of perSource) if (n > o.quote.maxPerSourcePerItem) add('warning', 'QUOTE_MANY', `${n} quotes from ${id}; keep quoting to what the point needs`, ref);
@@ -255,6 +277,7 @@ export function checkBundle(bundle, options = {}, sourceTextFor = () => null) {
         add(draft ? 'warning' : 'error', 'HUMAN_REVIEW', `${commercial ? 'Commercial' : 'E-book'} item needs rightsReview {by, date} from a person before release`, ref);
     }
     if (item.type === 'ebook') {
+      if (!commercial) add('warning', 'EBOOK_NONCOMMERCIAL', 'E-book declared non-commercial; recheck NC/ND material and rightsReview before any sale', ref);
       if (cited.length < o.ebook.minSources) add('warning', 'EBOOK_FEW_SOURCES', `E-book cites ${cited.length} sources; build on cross-study synthesis, not one paper`, ref);
       const total = [...claimCounts.values()].reduce((a, b) => a + b, 0);
       for (const [id, n] of claimCounts) if (total >= 5 && n / total > o.ebook.maxSourceShare)
@@ -262,13 +285,13 @@ export function checkBundle(bundle, options = {}, sourceTextFor = () => null) {
     }
 
     // Wording overlap against privately cached source text.
-    let stripped = text;
-    for (const q of quotes) if (nonEmpty(q.text)) stripped = stripped.split(q.text).join(' ');
+    // Remove declared quotes as whole-word sequences, then check each remaining segment separately.
+    const segments = withoutQuotes(text, quotes.map(q => q.text));
     for (const id of cited) {
       const sourceText = ledger.has(id) ? sourceTextFor(id) : null;
       if (!sourceText) { stats.overlapNoCache++; continue; }
       stats.overlapChecked++;
-      for (const run of sharedRuns(stripped, sourceText, o.overlap.warnRun)) {
+      for (const run of segments.flatMap(seg => sharedRuns(seg, sourceText, o.overlap.warnRun))) {
         const level = run.length >= o.overlap.errorRun ? 'error' : 'warning';
         add(level, 'OVERLAP', `${run.length} consecutive words match ${id}: “${run.text.slice(0, 100)}${run.text.length > 100 ? '…' : ''}” — rewrite in your own words or declare a short quote`, ref);
       }

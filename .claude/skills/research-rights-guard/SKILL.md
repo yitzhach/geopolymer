@@ -70,6 +70,8 @@ a qualified IP lawyer before selling long-form products.
 
 ```bash
 node .claude/skills/research-rights-guard/scripts/check-rights.mjs --config rights-guard.config.json
+# installed for every project instead:
+node ~/.claude/skills/research-rights-guard/scripts/check-rights.mjs --config rights-guard.config.json
 #   --json     machine-readable report
 #   --strict   fail on warnings too (use before releasing an e-book)
 #   --quiet    print errors only

@@ -1,5 +1,5 @@
 // Source transcriptions; adjacent variants belong to the same study, not independent replications.
-// checkedAt 2026-10-09 = documented extraction/visual check date of the 15-record baseline (LITERATURE_MIXES.md, RECIPE_DATABASE.md).
+// checkedAt 2026-10-09: RECIPE_DATABASE.md records the 15-record baseline (these ten plus five) as "Implemented 9 October 2026".
 const row=(name,mass,role='precursor',comp={})=>({name,mass,role,include:role!=='aggregate',comp});
 const result=(ageHours,value,property='compressive',context='')=>({ageHours,value,property,unit:'MPa',context,kind:'source-reported'});
 const base={checkedAt:'2026-10-09',scalable:true,status:'Published mass proportions',basis:'Source mass proportions; scaling preserves proportions, not performance.',limitations:'Source-specific materials. Substitutions and proposed adjustments require new trials. Unentered assays remain unknown.',parameters:[]};

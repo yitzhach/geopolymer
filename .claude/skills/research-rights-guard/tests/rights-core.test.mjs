@@ -116,3 +116,20 @@ test('per-operation decisions gate public display', () => {
 test('null or missing options fall back to defaults', () => {
   assert.equal(checkBundle({ sources: [src()], items: [item()] }, null).errors, 0);
 });
+
+test('review regressions: license family, junk quotes, quote access, inch marks, CC0, raw ledger text', () => {
+  const nc = 'https://creativecommons.org/licenses/by-nc/4.0/';
+  assert.ok(codes({ sources: [src({ license: 'CC-BY', licenseUrl: nc })], items: [] }).includes('SRC_LICENSE_MISMATCH'));
+  assert.ok(!codes({ sources: [src({ license: 'public-domain', licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/' })], items: [] }).includes('SRC_LICENSE_MISMATCH'));
+  const source = 'The specimens were cured at sixty degrees for twenty four hours before demoulding and testing in compression.';
+  const copy = item({ text: 'Specimens were cured at sixty degrees for twenty four hours before demoulding and testing in compression.', quotes: [{ text: 'e', source: 's1', locator: 'p. 1' }] });
+  assert.ok(checkBundle({ sources: [src()], items: [copy] }, { quote: { maxShare: 1 } }, () => source).findings.some(f => f.code === 'OVERLAP'));
+  const q = { text: 'the binder failed in every single wet cycle test', source: 's1', locator: 'Abstract' };
+  assert.ok(codes({ sources: [src({ access: 'metadata-only' })], items: [item({ text: `They wrote “${q.text}”.`, quotes: [q] })] }, { quote: { maxShare: 1 } }).includes('QUOTE_ACCESS'));
+  assert.deepEqual(findQuotedRuns('The 5" column was cured for seven days and the "control" set stayed dry', 6), []);
+  assert.ok(codes({ sources: [src({ abstract: 'Publisher abstract text.' })], items: [] }).includes('SRC_RAW_TEXT'));
+});
+
+test('ebook non-commercial override is surfaced', () => {
+  assert.ok(codes({ sources: [src()], items: [item({ type: 'ebook', commercial: false })] }).includes('EBOOK_NONCOMMERCIAL'));
+});

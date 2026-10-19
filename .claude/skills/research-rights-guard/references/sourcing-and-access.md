@@ -39,20 +39,23 @@ separate risks. Respecting one doesn't cover the other.
 | `checked` | Date you verified it; licenses are irrevocable for copies obtained under them, but keep the dated evidence |
 | `access` | `metadata-only`, `abstract`, `open-full-text`, `licensed-full-text` — what you actually read |
 | `permission` | Written permission, if any, with scope |
-| `operations` | Optional allowed/denied/unknown decision per operation (access, download, processing, rawRetention, aiTransmission, embedding, publicDisplay, export). Public display and AI transmission are separate questions: an article you may display may still be one you must not send to an AI provider |
+| `operations` | Optional allowed/denied/unknown decision per operation (access, download, processing, rawRetention, aiTransmission, embedding, publicDisplay, export). Public display and AI transmission are separate questions: an article you may display may still be one you must not send to an AI provider. The checker enforces `publicDisplay`; other decisions are recorded for your process (it cannot tell from `aiAssisted` whether source text was transmitted) |
 
 ## Jurisdiction notes (orientation only, not advice)
 
 - **US**: facts and ideas aren't protected (Feist v. Rural, 1991); fair use
   weighs purpose (commercial vs. transformative), nature of the work, amount
-  used and market effect. Breaching website terms alone is generally not a
-  federal computer crime after Van Buren (2021), but breach of contract and
-  access-control circumvention remain real risks.
-- **EU**: the DSM Directive allows text and data mining for research
-  organisations (Art. 3) and, more broadly, unless the rights holder has
-  opted out in machine-readable form (Art. 4). Database rights can protect
-  substantial extraction from databases.
-- **UK**: a TDM exception covers non-commercial research only.
+  used and market effect. Van Buren (2021) narrowed the federal computer-crime
+  statute's "exceeds authorized access" to areas you are not entitled to
+  enter; how it applies to terms-of-service breaches still varies by court.
+  Breach of contract and access-control circumvention remain real risks.
+- **EU**: the DSM Directive allows text and data mining by research
+  organisations and cultural heritage institutions (Art. 3) and, more broadly,
+  unless the rights holder has opted out in machine-readable form (Art. 4).
+  Both require lawful access, and each member state implements them in its
+  own law. Database rights can protect substantial extraction from databases.
+- **UK**: the TDM exception covers computational analysis for non-commercial
+  research by someone with lawful access.
 
 These exceptions cover *mining to find facts*. Publishing outputs is a
 separate question governed by the rules in this skill.

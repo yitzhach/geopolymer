@@ -65,6 +65,11 @@ JSON files or from an adapter module (`export default async ({root, config})
 | SRC_OPERATION | error | Unknown operation key or decision value |
 | SRC_OPERATION_DENIED | error | A public item draws on a source whose `publicDisplay` is denied |
 | FIG_OPERATION / TABLE_OPERATION | error | Reproducing/adapting from a source with operations recorded but `publicDisplay` not allowed |
+| SRC_ID / SRC_DUPLICATE / ITEM_ID / ITEM_DUPLICATE / ITEM_TYPE | error | Missing or duplicate ids; unknown item type |
+| SRC_RAW_TEXT | error | Ledger entry carries `abstract`, `fullText`, `sourceText`, `rawText`, `pdf` or `html` |
+| QUOTE_ACCESS | error | Quote from a metadata-only source |
+| FIG_RIGHTS_STALE | warning | Figure reuse relies on rights checked more than `maxRightsAgeDays` (400) ago |
+| EBOOK_NONCOMMERCIAL | warning | E-book overrides the commercial default |
 | SRC_EVIDENCE | error | Open license relied on without saying where it is stated |
 | SRC_PERMISSION | error | Incomplete permission record |
 | ITEM_TEXT / ITEM_AI_LABEL / ITEM_RIGHTS_NOTE / ITEM_NO_SOURCES | error | Missing required item fields |
@@ -81,3 +86,16 @@ JSON files or from an adapter module (`export default async ({root, config})
 | HUMAN_REVIEW | error (warning for drafts) | Commercial/e-book item without a person's rights review |
 | EBOOK_FEW_SOURCES / EBOOK_CONCENTRATION | warning | E-book leans on too few sources |
 | OVERLAP | error ≥ 12 words, warning ≥ 8 | Shared consecutive words with cached source text |
+
+## Options (defaults)
+
+`quote.maxWords` 40 · `quote.maxPerSourcePerItem` 3 · `quote.maxShare` 0.1 ·
+`quote.detectMinWords` 6 (shorter quoted passages are not flagged) ·
+`overlap.warnRun` 8 · `overlap.errorRun` 12 · `ebook.minSources` 3 ·
+`ebook.maxSourceShare` 0.4 (checked once an e-book has ≥ 5 claims) ·
+`maxRightsAgeDays` 400 · `commercialDefault` false.
+
+Straight double quotes count as quotation marks only when they open after a
+space or bracket and close before punctuation or a space, so inch marks are
+ignored. Declared quotes are removed as whole-word sequences before the
+overlap check.

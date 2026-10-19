@@ -11,10 +11,12 @@ Updated 19 October 2026; dates use Eastern time.
   formulation and the five knowledge-pilot study pages (with their
   per-operation rights ledger and transcribed tables). `npm test` fails on
   rights errors; `npm run check:rights` prints the report. Current result:
-  409 items, 415 sources, 0 errors, 1 warning (bn-hemp-nanofiber-slag CC BY
-  version unverified, matching its existing record note).
+  409 items, 415 sources, 0 errors, 1 warning (SRC_LICENSE_VERSION on ke-b07-025,
+  the source of the bn-hemp-nanofiber-slag deep dive: CC BY version unverified,
+  matching that record's note).
 - Checker additions: license statement vs licenseUrl mismatch, per-operation
-  decisions (publicDisplay denied/unknown blocks display or table/figure reuse),
+  decisions (publicDisplay denied blocks any public item; anything but allowed
+  blocks table/figure reuse when operations are recorded),
   protocols need located claims. `src/deep-dives.js:53` still assigns the CC BY
   4.0 URL to every deep dive with a related recipe; today all three state CC BY
   4.0 in their own license text, and the mismatch check now guards future ones.
@@ -30,6 +32,14 @@ Updated 19 October 2026; dates use Eastern time.
 - Self-review fixes: empty/partial declared quotes no longer mask undeclared
   quoted passages; CLI runs through a symlinked skill folder (previously exited
   0 unchecked); `--config` without a value exits 2.
+- Review fixes (lightweight-model review, each verified): unversioned license
+  vs different-variant URL now errors; junk declared quotes no longer hide
+  copying (word-bounded removal); quotes from metadata-only sources error;
+  inch marks no longer pair as quotes; public-domain/CC0 accepted; raw text on
+  ledger entries errors; e-book non-commercial override warns; adapter parses
+  CC BY-NC/-SA/-ND variants, keeps document titles, includes recipe
+  characterization and study mix/observation prose. aiTransmission decisions
+  are recorded but not enforced (pilot reason: no external pipeline configured).
 - Status: PR #23 open from `claude/epic-brown-5qchns` (head 4003f42 or later).
   `npm test` 116/116, build 428 routes, all six browser suites pass locally,
   CI `verify` green. A lightweight-model review of the diff was still running at

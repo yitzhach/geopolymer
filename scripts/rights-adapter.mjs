@@ -14,7 +14,7 @@ import {licenseFromUrl} from '../.claude/skills/research-rights-guard/scripts/ri
 
 // The written rights statement is the evidence; licenseUrl is carried separately so the
 // checker can catch a link that disagrees with it. Anything not stated stays unknown.
-const licenseFromText=text=>{const m=/\bCC BY(?: (\d\.\d))?\b/.exec(text||'');if(m)return m[1]?`CC-BY-${m[1]}`:'CC-BY';return /\bIn Copyright\b/.test(text||'')?'all-rights-reserved':'unknown';};
+const licenseFromText=text=>{const m=/\bCC[ -]BY((?:-NC)?(?:-ND|-SA)?)(?:[ -](\d\.\d))?(?![\w-])/.exec(text||'');if(m)return `CC-BY${m[1]}${m[2]?`-${m[2]}`:''}`;return /\bIn Copyright\b/.test(text||'')?'all-rights-reserved':'unknown';};
 const text=parts=>parts.flat(Infinity).filter(x=>typeof x==='string').join('\n');
 const depth={'metadata-only':0,abstract:1,'open-full-text':2,'licensed-full-text':2};
 
@@ -26,7 +26,8 @@ export default function collect(){
  const source=(doi,url,fields)=>{
   const k=key(doi,url);let s=byKey.get(k);
   if(!s){s={id:fields.id||k,doi,url,license:'unknown',access:'metadata-only'};byKey.set(k,s);sources.set(s.id,s);}
-  const {id,access,license,checked,...rest}=fields;
+  const {id,access,license,checked,title,...rest}=fields;
+  if(title&&(!s.title||fields.documentTitle))s.title=title;
   for(const [f,v] of Object.entries(rest))if(v!==undefined&&v!==null&&v!=='')s[f]=v;
   if(checked&&!(s.checked>checked))s.checked=checked;
   if(access&&depth[access]>=depth[s.access])s.access=access;
@@ -38,7 +39,9 @@ export default function collect(){
 
  const items=[];
  for(const d of deepDives){
-  const s=source(d.doi,d.source,{title:d.sourceTitle,authors:d.citation,url:d.source,license:licenseFromText(d.license),
+  const s=source(d.doi,d.source,{title:d.sourceTitle,documentTitle:true,authors:d.citation,url:d.source,license:licenseFromText(d.license),
+   // Deep-dive facts carry section/table locators read from an open copy (PMC, repository or
+   // institutional PDF); accessNote records where the publisher's own page was blocked.
    licenseUrl:d.licenseUrl,rightsEvidence:d.license,checked:d.checked,access:'open-full-text'});
   items.push({id:`deep-dive:${d.id}`,type:'deep-dive',aiAssisted:true,sources:[s.id],
    text:text([d.title,d.summary,d.glossary,d.highlights,d.facts.map(f=>[f.title,f.text]),d.checklist,d.arithmetic.intro,d.arithmetic.rows,d.arithmetic.notes,d.holds]),
@@ -72,7 +75,7 @@ export default function collect(){
  const recipeSource=new Map();
  for(const m of literatureMixes){
   const lic=m.license;
-  const s=source(m.doi,m.url,{title:m.sourceTitle||m.title,authors:m.authors,checked:m.checkedAt,
+  const s=source(m.doi,m.url,{title:m.sourceTitle||`${m.authors} (${m.year}) · ${m.type}`,documentTitle:Boolean(m.sourceTitle),authors:m.authors,checked:m.checkedAt,
    license:lic?licenseFromText(lic.label):'unknown',licenseUrl:lic?.url,
    rightsEvidence:lic?`${lic.label}. ${lic.notice} Evidence: ${lic.evidenceUrl||lic.url}`:undefined,
    // Every published recipe locates its quantities in a table, section, page or example of the document.
@@ -81,7 +84,8 @@ export default function collect(){
   const locators=[m.locator,...(m.results||[]).map(r=>r.locator),...(m.characterization||[]).map(c=>c.table&&`Table ${c.table}${c.page?`, p. ${c.page}`:''}`)].filter(Boolean);
   items.push({id:`recipe:${m.id}`,type:'protocol',aiAssisted:true,sources:[s.id],
    text:text([m.title,m.summary,m.basis,m.ingredients.map(i=>i.name),m.parameters,m.preparation,m.curing,m.method,m.limitations,
-    (m.results||[]).map(r=>r.context),(m.tweaks||[]).map(x=>x.text),m.evidenceLimits]),
+    (m.results||[]).map(r=>r.context),(m.tweaks||[]).map(x=>x.text),m.evidenceLimits,
+    (m.characterization||[]).map(c=>[c.label,c.calculation,c.context&&Object.values(c.context)])]),
    claims:[...new Set(locators)].map(locator=>({source:s.id,locator})),
    rightsNote:lic?`${lic.label}. ${lic.notice} ${m.evidenceLimits||''}`.trim()
     :`No reuse license recorded; selected facts only (proportions, conditions, reported values) located at ${m.locator}. No source text, tables or figures reproduced.`});
@@ -110,10 +114,12 @@ export default function collect(){
  for(const st of pilot.studies){
   const pub=st.publicationId,own=rows=>rows.filter(r=>r.publicationId===pub),id=studySource.get(pub);
   const rel=own(pilot.relationships);
-  items.push({id:`study:${pub}`,type:'deep-dive',aiAssisted:/ai/.test(st.verification),
+  items.push({id:`study:${pub}`,type:'deep-dive',aiAssisted:/(^|-)ai($|-)/i.test(st.verification),
    sources:[...new Set([id,...rel.map(r=>studySource.get(r.relatedPublicationId))])],
    text:text([st.methods,st.limitations,st.coverageNote,st.inventory.map(i=>i.note),own(pilot.findings).map(f=>f.text),
-    own(pilot.tests).map(t=>[t.geometry,t.method]),own(pilot.materials).map(m=>[m.source,m.qualification]),rel.map(r=>r.scope)]),
+    own(pilot.tests).map(t=>[t.geometry,t.method]),own(pilot.materials).map(m=>[m.source,m.qualification]),rel.map(r=>r.scope),
+    own(pilot.mixes).map(m=>[m.calculatorBlocker,m.quantities.map(q=>[q.material,q.basis])]),
+    own(pilot.observations).map(o=>[o.missingReason,o.uncertaintyReason,o.ageOrigin])]),
    claims:[...new Set([st.methodProvenance.locator,...located([...own(pilot.mixes),...own(pilot.tests),...own(pilot.observations),...own(pilot.findings),...own(pilot.materials)])])]
     .map(locator=>({source:id,locator})),
    // Full transcriptions of source tables are reproductions under the asset's license.

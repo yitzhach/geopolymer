@@ -1,8 +1,11 @@
 # Rules per content type
 
 Risk rises with length, closeness to a single source, and commercial sale.
-Set `type` on every item; the checker applies the stricter rules
-automatically.
+Set `type` on every item. Lengths and per-type limits in the table are
+editorial guidance; the checker enforces the global quote limits, protocol
+locators, and the e-book rules (commercial by default, human review,
+source concentration). Run `--strict` before releasing an e-book: drafts
+only warn about a missing review.
 
 | Type | Typical length | Sources | Quotes | Figures | Extra requirements |
 |---|---|---|---|---|---|
