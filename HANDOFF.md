@@ -1,6 +1,44 @@
 # Geopolymer — current handoff
 Updated 19 October 2026; dates use Eastern time.
 
+## Three owner-PDF durability guides — 19 October 2026
+- Owner uploaded the three deferred MDPI PDFs. Added /deep-dives/fly-ash-slag-efflorescence-moisture,
+  /deep-dives/one-part-admixture-compatibility and /deep-dives/metakaolin-slag-potassium-durability
+  (src/deep-dive-owner-pdfs.js): eleven guides, each with the seven-area inventory.
+- Conflicts kept visible: efflorescence cylinder size (100×200 vs 50×100 mm); K/Na paper's
+  "metasilicate" listed near modulus 3.2 and ambiguous KOH entry basis. Admixture W/GP-solids
+  0.367 reproduced from bound water. Admixture study is 60 °C heat-cured, not ambient.
+- Audit: research/batches/deep-dives-owner-pdfs-2026-10-19.json. PDFs not committed.
+- 105 Node test cases, 431-route build and all six browser suites pass locally.
+- Counts: 400 publications; pilot/recipe counts unchanged; no canonical observations added.
+- Network: phone app cannot edit environment network access; owner PDF upload is the working route.
+- PR #24 (https://github.com/yitzhach/geopolymer/pull/24) carries both this and the inventory
+  work below; merged to main once GitHub CI passed. Resume from current main.
+- Next: hemp/foam/biochar pilot gaps need source PDFs; ask the owner to upload
+  10.1111/jace.70158 (foam), 10.3390/ma18030486 (biochar), 10.3390/polym18111288 (hemp).
+  Then move guide inventory rows to extracted with locators. OpenAlex still on hold.
+
+## Guide source inventories; deferred durability methods still blocked — 19 October 2026
+- Worked from 6bf1dad (400 publications / eight deep dives) on branch
+  claude/keen-bardeen-c34ppt in a cloud session. Not merged; live identity unverified.
+- First "Next" item blocked: methods for ma13235550 (moisture/efflorescence),
+  min14080776 (mixed K/Na) and ma12203410 (one-part admixtures) not recovered.
+  Shell egress refuses research hosts (Europe PMC REST tried, a new route); URL-fetch
+  tool failed DNS for every host; 16 searches returned abstracts/introductions only.
+  Abstract-level leads recorded but not integrated. All three stay deferred.
+- Built: fixed seven-area source inventory (methods, materials, mix ledger, results,
+  figures, supplements, uncertainty) for all eight guides in src/deep-dive-inventory.js.
+  Restated from existing holds/audits only; no new facts. Rendered on every guide and
+  exported in /deep-dives.json. No area is extracted/verified; no coverage percentage.
+  Build validation rejects missing areas, unknown states, empty locators and percentages.
+- Audit: research/batches/deep-dives-inventory-2026-10-19.json (queries, routes, leads).
+- All 26 Node test files (104 cases) and 428-route build pass. All six browser suites pass
+  locally with pre-installed Chromium and Playwright 1.63.0; CI not yet run on this branch.
+- Counts unchanged: 400 publications, eight deep dives, five partial pilot studies,
+  62 mixes, 275 observations, 43 recipes / 31 scalable. OpenAlex on hold; automation unchanged.
+- Superseded: the three deferred papers were resolved from owner PDFs (see top). Next: move
+  guide inventory rows from partial/not yet extracted to extracted with locators. Hemp/foam/biochar pilot gaps remain as below.
+
 ## Hundred-paper expansion and durability deep dives — 19 October 2026
 - Published baseline 300 publications / six deep dives confirmed at main
   03976b67daa72683ad4884e0e31bdac9f2c51b8f. Added 100 unique DOI records

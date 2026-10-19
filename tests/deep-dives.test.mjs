@@ -21,7 +21,7 @@ test('shared template escapes article-specific prose and calculations',()=>{
 });
 
 test('each deep dive resolves its formulation and uses its own glossary',()=>{
- assert.equal(deepDives.length,8);
+ assert.equal(deepDives.length,11);
  for(const d of deepDives){assert.equal(renderPage(d.relatedRecipe||d.relatedStudy).status,200);const page=renderPage('/deep-dives/'+d.id);assert.equal(page.status,200);assert.ok(page.html.includes(d.glossary));assert.ok(search(d.doi).some(r=>r.href==='/deep-dives/'+d.id));}
  const biochar=renderPage('/deep-dives/biochar-replacement-and-exposure').html;
  assert.match(biochar,/age-matched/);assert.doesNotMatch(biochar,/PS\/PH/);
@@ -40,4 +40,22 @@ test('control deep dives preserve denominator and replication limitations',()=>{
  for(const term of ['110 ± 5%','Assumes a mass ratio','title-only correction','immediately after demolding'])assert.ok(shrink.includes(term),term);
  const water=renderPage('/deep-dives/metakaolin-water-temperature').html;
  for(const term of ['250 g stock solution','150 g added water','MK0.6/MK1.0/MK1.4','not total water/binder','No graph values'])assert.ok(water.includes(term),term);
+});
+
+test('every guide shows a fixed-area source inventory without coverage percentages',()=>{
+ for(const d of deepDives){
+  assert.deepEqual(d.inventory.map(r=>r.area),['Methods','Materials','Mix ledger','Results','Figures','Supplements','Uncertainty']);
+  assert.ok(!d.inventory.some(r=>['extracted','verified'].includes(r.state)),d.id);
+  const html=renderPage('/deep-dives/'+d.id).html;assert.match(html,/id="inventory"/);assert.match(html,/no coverage percentage is given/);
+ }
+ assert.match(deepDivePage(deepDives.find(d=>d.id==='metakaolin-freeze-thaw-design')),/Mass units and exact binder\/water denominator unresolved/);
+ for(const change of [r=>r[0].inventory.pop(),r=>r[0].inventory[0].state='complete',r=>r[0].inventory[0].note='80% covered',r=>r[0].inventory[1].locator='']){const r=structuredClone(deepDives);change(r);assert.throws(()=>validateDeepDives(r));}
+});
+
+test('owner-PDF guides keep source conflicts and ratio checks visible',()=>{
+ const html=id=>renderPage('/deep-dives/'+id).html;
+ const eff=html('fly-ash-slag-efflorescence-moisture');for(const t of ['Specimen geometry conflict','2 ± 0.5 mm','24.7 / 34.5'])assert.ok(eff.includes(t),t);
+ const adm=html('one-part-admixture-compatibility');for(const t of ['403 / 1097','397 / 1082','Not an ambient-only cure'])assert.ok(adm.includes(t),t);
+ const k=html('metakaolin-slag-potassium-durability');for(const t of ['≈ 3.24 molar','KOH entry basis','Higher GGBFS lowered strength'])assert.ok(k.includes(t),t);
+ for(const id of ['ke-b14-002','ke-b14-005','ke-b14-017'])assert.match(renderPage('/studies/'+id).html,/Read the experiment deep dive/);
 });

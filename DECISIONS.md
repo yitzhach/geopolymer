@@ -504,3 +504,19 @@ denominators, unfavorable outcomes and unresolved reproduction details remain
 visible. Canonical pilot data and recipes are unchanged. Source correction and
 access limitations are recorded in the batch audits; OpenAlex stays on hold.
 The daily research draft automation is unchanged.
+
+## 19 October 2026 — deep-dive source inventories
+
+Every guide now carries the same seven inventory areas with a controlled state
+vocabulary from the master prompt. Areas are fixed so an unreviewed category stays
+visible. States restate existing audits; none is upgraded without a new source read.
+No coverage percentage is shown until a paper's full table/figure list is enumerated.
+Three durability candidates stay deferred because methods were unreachable; abstract
+leads are kept in the audit, not published.
+
+## 19 October 2026 — owner-supplied PDFs as a source route
+
+When session network access cannot reach publishers, the owner may upload open-access
+PDFs. They are read for editorial guides only and are never committed. Overlapping
+PDF text layers are checked against page images. Three durability guides were added
+this way; source conflicts stay in holds rather than being resolved by assumption.
