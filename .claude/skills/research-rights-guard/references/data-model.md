@@ -20,7 +20,11 @@ JSON files or from an adapter module (`export default async ({root, config})
   "checked": "2026-10-19",                  // required
   "access": "open-full-text",               // required: metadata-only | abstract |
                                             //   open-full-text | licensed-full-text
-  "permission": { "grantedBy": "…", "date": "…", "evidence": "…", "scope": ["reproduce","adapt","commercial"] }
+  "permission": { "grantedBy": "…", "date": "…", "evidence": "…", "scope": ["reproduce","adapt","commercial"] },
+  "operations": {                          // optional per-operation decisions: allowed | denied | unknown
+    "publicDisplay": { "decision": "allowed", "reason": "CC BY 4.0 notice checked" },
+    "aiTransmission": { "decision": "denied", "reason": "…" }
+  }   // keys: access, download, processing, rawRetention, aiTransmission, embedding, publicDisplay, export
 }
 ```
 
@@ -29,7 +33,7 @@ JSON files or from an adapter module (`export default async ({root, config})
 ```jsonc
 {
   "id": "mk-freeze-thaw",                   // required, unique
-  "type": "deep-dive",                      // card | summary | deep-dive | article | ebook
+  "type": "deep-dive",                      // card | summary | deep-dive | article | protocol | ebook
   "status": "published",                    // "draft" downgrades the human-review error
   "commercial": false,                      // default false; ebooks default true
   "aiAssisted": true,                       // required boolean
@@ -57,6 +61,10 @@ JSON files or from an adapter module (`export default async ({root, config})
 | SRC_FIELD / SRC_URL / SRC_ACCESS / SRC_CHECKED | error | Incomplete or invalid ledger entry |
 | SRC_LICENSE | error | Unrecognized license identifier |
 | SRC_LICENSE_VERSION | warning | CC license without version |
+| SRC_LICENSE_MISMATCH | error | `licenseUrl` names a different license than `license` |
+| SRC_OPERATION | error | Unknown operation key or decision value |
+| SRC_OPERATION_DENIED | error | A public item draws on a source whose `publicDisplay` is denied |
+| FIG_OPERATION / TABLE_OPERATION | error | Reproducing/adapting from a source with operations recorded but `publicDisplay` not allowed |
 | SRC_EVIDENCE | error | Open license relied on without saying where it is stated |
 | SRC_PERMISSION | error | Incomplete permission record |
 | ITEM_TEXT / ITEM_AI_LABEL / ITEM_RIGHTS_NOTE / ITEM_NO_SOURCES | error | Missing required item fields |
@@ -64,6 +72,7 @@ JSON files or from an adapter module (`export default async ({root, config})
 | ITEM_UNKNOWN_SOURCE | error | Reference not in the ledger |
 | ITEM_UNCITED_SOURCE | warning | Used in a claim/quote/figure but not listed in `sources` |
 | CLAIM_LOCATOR / CLAIM_ACCESS | error | Claim without locator, or locator into a metadata-only source |
+| PROTOCOL_LOCATOR | error | Protocol cites a source without any located claim |
 | QUOTE_LONG / QUOTE_LOCATOR / QUOTE_SHARE / QUOTE_UNDECLARED | error | Quote rules |
 | QUOTE_MANY / QUOTE_ABSENT | warning | Many quotes from one source; declared quote not found in text |
 | FIG_* / TABLE_* | error/warning | Mode, attribution, locator and license-matrix checks |

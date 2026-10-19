@@ -1,6 +1,6 @@
 ---
 name: research-rights-guard
-description: Copyright and source-rights guardrails for turning research papers, datasets and web sources into published summaries, deep dives, articles, e-books, charts or tables. Use whenever writing, editing or reviewing content derived from someone else's research; whenever quoting, reusing or redrawing a figure, chart, graph or table; whenever pulling papers or web text (APIs, scraping, PDFs); and before publishing or selling long-form work. Enforces original writing, short attributed quotes, license-aware figure/table reuse, a per-source rights ledger and a build-time checker. Not legal advice.
+description: Copyright and source-rights guardrails for turning research papers, patents, datasets and web sources into published summaries, deep dives, articles, recipes/protocols, e-books, charts or tables. Use whenever writing, editing or reviewing content derived from someone else's research; whenever quoting, reusing or redrawing a figure, chart, graph or table; whenever pulling papers or web text (APIs, scraping, PDFs); and before publishing or selling long-form work. Enforces original writing, short attributed quotes, license-aware figure/table reuse, a per-source rights ledger and a build-time checker. Not legal advice.
 ---
 
 # Research rights guard
@@ -43,7 +43,7 @@ a qualified IP lawyer before selling long-form products.
    section you could not read is a false claim.
 3. **Write** original prose from the notes. Rules per format are in
    `references/content-types.md` (cards, summaries, deep dives, articles,
-   e-books).
+   protocols/recipes, e-books).
 4. **Quote sparingly.** Only when the exact wording matters. Short (default
    ≤ 40 words), in quotation marks, with author and locator, declared in the
    item's `quotes` list, ≤ 10% of the item.

@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { fileURLToPath } from 'node:url';
-import { checkBundle, reuseDecision, sharedRuns, licenseTerms, findQuotedRuns } from '../scripts/rights-core.mjs';
+import { checkBundle, reuseDecision, sharedRuns, licenseTerms, findQuotedRuns, licenseFromUrl } from '../scripts/rights-core.mjs';
 import { run } from '../scripts/check-rights.mjs';
 
 const src = (over = {}) => ({ id: 's1', title: 'T', url: 'https://example.org/a', license: 'CC-BY-4.0',
@@ -84,4 +84,28 @@ test('overlap detection flags copied wording but not declared quotes', () => {
   assert.ok(!checkBundle({ sources: [src()], items: [quoted] }, {}, () => source).findings.some(f => f.code === 'OVERLAP'));
   const own = item({ text: 'Heat curing for a day at 60 °C preceded the compression tests.' });
   assert.equal(checkBundle({ sources: [src()], items: [own] }, {}, () => source).errors, 0);
+});
+
+test('protocols need a located claim for every source', () => {
+  const proto = item({ type: 'protocol', text: 'Mix 80 parts metakaolin with 20 parts slag, then cure sealed at room temperature.' });
+  assert.ok(codes({ sources: [src()], items: [proto] }).includes('PROTOCOL_LOCATOR'));
+  assert.ok(!codes({ sources: [src()], items: [{ ...proto, claims: [{ source: 's1', locator: 'Example 3; Table 5' }] }] }).includes('PROTOCOL_LOCATOR'));
+});
+
+test('license URL must agree with the recorded license', () => {
+  assert.equal(licenseFromUrl('https://creativecommons.org/licenses/by-nc-nd/4.0/'), 'CC-BY-NC-ND-4.0');
+  const url = 'https://creativecommons.org/licenses/by/4.0/';
+  assert.ok(codes({ sources: [src({ license: 'CC-BY-NC-4.0', licenseUrl: url })], items: [] }).includes('SRC_LICENSE_MISMATCH'));
+  assert.ok(codes({ sources: [src({ license: 'unknown', licenseUrl: url, rightsEvidence: undefined })], items: [] }).includes('SRC_LICENSE_MISMATCH'));
+  assert.ok(!codes({ sources: [src({ licenseUrl: url })], items: [] }).includes('SRC_LICENSE_MISMATCH'));
+  assert.ok(!codes({ sources: [src({ license: 'CC-BY', licenseUrl: url })], items: [] }).includes('SRC_LICENSE_MISMATCH'));
+});
+
+test('per-operation decisions gate public display', () => {
+  const ops = d => ({ operations: { publicDisplay: { decision: d, reason: 'r' } } });
+  assert.ok(codes({ sources: [src(ops('denied'))], items: [item()] }).includes('SRC_OPERATION_DENIED'));
+  const table = { tables: [{ id: 't', mode: 'reproduced', source: 's1', locator: 'Table 1' }] };
+  assert.ok(codes({ sources: [src(ops('unknown'))], items: [item(table)] }).includes('TABLE_OPERATION'));
+  assert.deepEqual(codes({ sources: [src(ops('allowed'))], items: [item(table)] }), []);
+  assert.ok(codes({ sources: [src({ operations: { publish: { decision: 'allowed' } } })], items: [] }).includes('SRC_OPERATION'));
 });

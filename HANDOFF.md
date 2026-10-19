@@ -5,18 +5,28 @@ Updated 19 October 2026; dates use Eastern time.
 - Added portable project skill `.claude/skills/research-rights-guard/` (SKILL.md,
   references, dependency-free checker, example bundle, unit tests). Reusable in
   other repos by copying the folder and adding a `rights-guard.config.json`.
-- `scripts/rights-adapter.mjs` maps deep dives, journal briefings and library
-  summaries into the checker; `npm test` now fails on rights errors
-  (`npm run check:rights` prints the report). Current result: 35 items,
-  403 sources, 0 errors, 1 warning (bn-hemp-nanofiber-slag CC BY version
-  unverified, matching its existing record note).
+- `scripts/rights-adapter.mjs` maps deep dives, journal briefings, library
+  cards (summary/scope/metadata notes), the hemp research topic, all 43
+  published recipes (new `protocol` type), novel-recipe groups, the house
+  formulation and the five knowledge-pilot study pages (with their
+  per-operation rights ledger and transcribed tables). `npm test` fails on
+  rights errors; `npm run check:rights` prints the report. Current result:
+  409 items, 415 sources, 0 errors, 1 warning (bn-hemp-nanofiber-slag CC BY
+  version unverified, matching its existing record note).
+- Checker additions: license statement vs licenseUrl mismatch, per-operation
+  decisions (publicDisplay denied/unknown blocks display or table/figure reuse),
+  protocols need located claims. `src/deep-dives.js:53` still assigns the CC BY
+  4.0 URL to every deep dive with a related recipe; today all three state CC BY
+  4.0 in their own license text, and the mismatch check now guards future ones.
+- The 15 baseline recipes lacked `checkedAt` (UI showed a 2026-10-09 fallback);
+  the documented extraction date 2026-10-09 is now explicit on those records.
 - Wording-overlap check needs a private source-text cache in gitignored
   `work/rights-cache/`; none exists, so overlap was exercised by unit tests only.
   Europe PMC was blocked by this environment's network policy; not bypassed.
 - E-books default to commercial and require a person's `rightsReview` before
   release. Checks are policy aids, not legal clearance; IP counsel review is
-  recommended before any sale. Topic leads, recipes and knowledge records are
-  not yet mapped into the checker.
+  recommended before any sale. Not yet mapped or reviewed for source-derived
+  text: assistant answer templates, supplier/product copy, hard-coded page prose.
 
 ## Hundred-paper expansion and durability deep dives — 19 October 2026
 - Published baseline 300 publications / six deep dives confirmed at main

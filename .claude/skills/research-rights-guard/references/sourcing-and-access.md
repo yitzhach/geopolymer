@@ -39,6 +39,7 @@ separate risks. Respecting one doesn't cover the other.
 | `checked` | Date you verified it; licenses are irrevocable for copies obtained under them, but keep the dated evidence |
 | `access` | `metadata-only`, `abstract`, `open-full-text`, `licensed-full-text` — what you actually read |
 | `permission` | Written permission, if any, with scope |
+| `operations` | Optional allowed/denied/unknown decision per operation (access, download, processing, rawRetention, aiTransmission, embedding, publicDisplay, export). Public display and AI transmission are separate questions: an article you may display may still be one you must not send to an AI provider |
 
 ## Jurisdiction notes (orientation only, not advice)
 

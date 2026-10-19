@@ -10,6 +10,7 @@ automatically.
 | `summary` | ≤ ~300 words | 1 | rare, ≤ 1 | link, don't embed | Selective: what matters to your reader, not every section |
 | `deep-dive` | 800–3,000 words | 1–3 | ≤ 3 per source | licensed or original-from-data | Facts carry locators; your own analysis, arithmetic and caveats lead |
 | `article` | any | 2+ | ≤ 3 per source | licensed or original-from-data | Cross-study argument, structured by your question |
+| `protocol` | recipe, method or procedure | 1+ | none needed | original-from-data | Quantities/conditions carry locators; step wording is your own; safety and evidence limits stated |
 | `ebook` | long | many | ≤ 3 per source, ≤ 10% overall | licensed for commercial use, or original | Treated as commercial by default; human `rightsReview` before release; `--strict` run |
 
 ## Cards and summaries
@@ -31,6 +32,17 @@ automatically.
 
 - Organize by question, not by paper. Paragraphs should combine sources.
 - When sources disagree, say so and explain possible reasons.
+
+## Protocols (recipes, methods, procedures)
+
+- Ingredient lists, proportions, temperatures and times are facts; record
+  each with a locator (table, section, example number). The checker requires
+  at least one located claim per source.
+- Write method steps in your own words and order them for your reader. Don't
+  copy a paper's methods section or a patent example's prose.
+- Say what the source did not report (unknown assays, unspecified mixing)
+  rather than filling gaps silently, and keep safety notes current.
+- Proposed changes are experiments, not recipes with established results.
 
 ## E-books
 

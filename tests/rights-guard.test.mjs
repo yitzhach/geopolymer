@@ -8,5 +8,12 @@ test('published editorial content passes the research rights guard',async()=>{
   const report=checkBundle(bundle,config.options,sourceTextFor);
   const errors=report.findings.filter(f=>f.level==='error');
   assert.deepEqual(errors,[],errors.map(f=>`${f.code} ${f.item||f.source}: ${f.message}`).join('\n'));
-  assert.ok(bundle.items.some(i=>i.type==='deep-dive')&&bundle.items.some(i=>i.type==='article')&&bundle.items.some(i=>i.type==='card'));
+  const {literatureMixes}=await import('../src/literature-mixes.js');
+  const {researchTopics}=await import('../src/research-topics.js');
+  const count=prefix=>bundle.items.filter(i=>i.id.startsWith(prefix)).length;
+  assert.equal(count('recipe:'),literatureMixes.length);
+  assert.equal(count('topic:'),researchTopics.length);
+  const {pilot}=await import('../src/knowledge-pilot.js');
+  assert.equal(count('study:'),pilot.studies.length);
+  assert.ok(count('deep-dive:')&&count('journal:')&&count('library:')&&count('recipe-group:')&&count('formulation:'));
 });

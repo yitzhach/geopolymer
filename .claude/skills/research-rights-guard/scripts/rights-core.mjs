@@ -13,7 +13,7 @@ export const DEFAULTS = {
 };
 
 export const ACCESS = ['metadata-only', 'abstract', 'open-full-text', 'licensed-full-text'];
-export const ITEM_TYPES = ['card', 'summary', 'deep-dive', 'article', 'ebook'];
+export const ITEM_TYPES = ['card', 'summary', 'deep-dive', 'article', 'protocol', 'ebook'];
 export const FIGURE_MODES = ['reproduced', 'adapted', 'original-from-data'];
 export const TABLE_MODES = ['selected-values', 'reproduced', 'adapted'];
 // Item keys that would publish source text rather than original writing.
@@ -31,6 +31,17 @@ export function licenseTerms(license) {
   if (!m) return { known: false, open: false };
   return { known: true, open: true, versioned: Boolean(m[3]), attribution: true, nc: Boolean(m[1]), nd: m[2] === '-ND', sa: m[2] === '-SA' };
 }
+
+// Identifier implied by a creativecommons.org license URL, or null.
+export function licenseFromUrl(url) {
+  if (/creativecommons\.org\/publicdomain\/zero\/1\.0/.test(url || '')) return 'CC0-1.0';
+  const m = /creativecommons\.org\/licenses\/(by(?:-nc)?(?:-nd|-sa)?)\/(\d\.\d)/.exec(url || '');
+  return m ? `CC-${m[1].toUpperCase()}-${m[2]}` : null;
+}
+
+// Per-operation rights decisions a ledger may record (allowed | denied | unknown).
+export const OPERATIONS = ['access', 'download', 'processing', 'rawRetention', 'aiTransmission', 'embedding', 'publicDisplay', 'export'];
+const decision = (s, op) => s?.operations?.[op]?.decision;
 
 const PERMISSION_SCOPES = ['reproduce', 'adapt', 'commercial'];
 function permissionCovers(permission, use, commercial) {
@@ -120,6 +131,13 @@ export function checkBundle(bundle, options = {}, sourceTextFor = () => null) {
     const t = licenseTerms(s.license);
     if (s.license && !t.known) add('error', 'SRC_LICENSE', `Unrecognized license "${s.license}"`, ref);
     if (t.known && !t.versioned) add('warning', 'SRC_LICENSE_VERSION', `${s.license} has no version; record the exact license version and URL`, ref);
+    const urlLicense = licenseFromUrl(s.licenseUrl);
+    if (urlLicense && t.known && urlLicense !== s.license && !(t.open && !t.versioned && urlLicense.startsWith(`${s.license}-`)))
+      add('error', 'SRC_LICENSE_MISMATCH', `license ${s.license} disagrees with licenseUrl (${urlLicense}); record what the rights evidence actually states`, ref);
+    if (s.operations) for (const [op, v] of Object.entries(s.operations)) {
+      if (!OPERATIONS.includes(op)) add('error', 'SRC_OPERATION', `Unknown operation "${op}" (use ${OPERATIONS.join(', ')})`, ref);
+      else if (!['allowed', 'denied', 'unknown'].includes(v?.decision)) add('error', 'SRC_OPERATION', `Operation ${op} needs decision allowed|denied|unknown`, ref);
+    }
     if (t.open && !nonEmpty(s.rightsEvidence)) add('error', 'SRC_EVIDENCE', `License ${s.license} is relied on but rightsEvidence (where it is stated) is missing`, ref);
     if (s.permission) {
       for (const k of ['grantedBy', 'date', 'evidence']) if (!nonEmpty(s.permission[k])) add('error', 'SRC_PERMISSION', `Permission missing ${k}`, ref);
@@ -148,6 +166,8 @@ export function checkBundle(bundle, options = {}, sourceTextFor = () => null) {
     const cited = Array.isArray(item.sources) ? item.sources : [];
     if (!cited.length) add('error', 'ITEM_NO_SOURCES', 'Item cites no sources', ref);
     for (const id of cited) if (!ledger.has(id)) add('error', 'ITEM_UNKNOWN_SOURCE', `Cites ${id}, which is not in the rights ledger`, ref);
+    for (const id of cited) if (decision(ledger.get(id), 'publicDisplay') === 'denied')
+      add('error', 'SRC_OPERATION_DENIED', `${id} records publicDisplay: denied, but this public item draws on it`, ref);
     const known = id => {
       if (!ledger.has(id)) { add('error', 'ITEM_UNKNOWN_SOURCE', `References ${id}, which is not in the rights ledger`, ref); return null; }
       if (!cited.includes(id)) add('warning', 'ITEM_UNCITED_SOURCE', `${id} is used but not listed in item.sources`, ref);
@@ -163,6 +183,9 @@ export function checkBundle(bundle, options = {}, sourceTextFor = () => null) {
       if (!nonEmpty(c.locator)) add('error', 'CLAIM_LOCATOR', `Claim from ${c.source} has no locator (section/page/table/figure)`, ref);
       else if (s.access === 'metadata-only') add('error', 'CLAIM_ACCESS', `Claim locator "${c.locator}" cites ${c.source}, which is metadata-only; nothing beyond bibliographic facts was read`, ref);
     }
+    // Protocols (recipes, methods) publish quantities and conditions: each source needs a locator.
+    if (item.type === 'protocol') for (const id of cited)
+      if (ledger.has(id) && !claimCounts.has(id)) add('error', 'PROTOCOL_LOCATOR', `Protocol uses ${id} without a located claim (table/section/example) for its quantities`, ref);
 
     // Quotes: short, attributed, located and declared.
     const quotes = item.quotes || [];
@@ -201,6 +224,8 @@ export function checkBundle(bundle, options = {}, sourceTextFor = () => null) {
       }
       const use = f.mode === 'reproduced' ? 'reproduce' : 'adapt';
       for (const s of srcs) {
+        if (s.operations && decision(s, 'publicDisplay') !== 'allowed')
+          add('error', 'FIG_OPERATION', `${label}: ${s.id} does not record publicDisplay: allowed`, ref);
         const lic = f.license || s.license;
         if (!f.license) add('warning', 'FIG_RIGHTS_INHERITED', `${label}: rights assumed to match ${s.id}; check the caption for third-party credit and set figure.license`, ref);
         const d = reuseDecision(lic, use, commercial, f.permission || s.permission);
@@ -215,6 +240,8 @@ export function checkBundle(bundle, options = {}, sourceTextFor = () => null) {
       const s = known(tb.source);
       if (!nonEmpty(tb.locator)) add('error', 'TABLE_LOCATOR', `${label}: locator required`, ref);
       if (!s || tb.mode === 'selected-values') continue;
+      if (s.operations && decision(s, 'publicDisplay') !== 'allowed')
+        add('error', 'TABLE_OPERATION', `${label}: ${s.id} does not record publicDisplay: allowed`, ref);
       const d = reuseDecision(tb.license || s.license, tb.mode === 'reproduced' ? 'reproduce' : 'adapt', commercial, tb.permission || s.permission);
       if (d.level) add(d.level, 'TABLE_LICENSE', `${label} (${tb.mode}): ${d.reason}`, ref);
     }
