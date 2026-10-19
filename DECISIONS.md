@@ -484,3 +484,13 @@ The hemp deep dive now distinguishes within-mix strength retention from exposed
 strength relative to a control. This is editorial methodology, not a resolution
 of contradictory source claims. Newly located heating/cooling and loading rates
 replace missing-method labels; no canonical observations are promoted.
+
+## 19 October 2026 — 300 publications, six editorial deep dives
+Two 25-record batches preserve the prior 250 identities and add metadata only.
+Two partial methods deep dives explain MK/slag shrinkage controls and MK paste
+water/temperature design, with source locators, ratio bases, conditional arithmetic,
+rights evidence and explicit replication gaps. Canonical pilot observations and
+recipes are unchanged. Source notes are visible in catalog cards and escaped.
+The unexplained secondary status flag on DOI 10.1016/j.cemconcomp.2024.105811
+is held for review and excluded from assistant evidence. OpenAlex stays on hold;
+daily draft automation is unchanged. Exact audits and release status: HANDOFF.md.

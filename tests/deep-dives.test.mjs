@@ -21,7 +21,7 @@ test('shared template escapes article-specific prose and calculations',()=>{
 });
 
 test('each deep dive resolves its formulation and uses its own glossary',()=>{
- assert.equal(deepDives.length,4);
+ assert.equal(deepDives.length,6);
  for(const d of deepDives){assert.equal(renderPage(d.relatedRecipe||d.relatedStudy).status,200);const page=renderPage('/deep-dives/'+d.id);assert.equal(page.status,200);assert.ok(page.html.includes(d.glossary));assert.ok(search(d.doi).some(r=>r.href==='/deep-dives/'+d.id));}
  const biochar=renderPage('/deep-dives/biochar-replacement-and-exposure').html;
  assert.match(biochar,/age-matched/);assert.doesNotMatch(biochar,/PS\/PH/);
@@ -33,4 +33,11 @@ test('hemp editorial notes link a publication without inventing a recipe',()=>{
  const html=deepDivePage(d);for(const term of ['Read the source article','Related publication record','Source conflict','indexed publisher/PMC','F=pB/(1−p)'])assert.ok(html.includes(term),term);
  assert.doesNotMatch(html,/Related formulation record|href="undefined"|Read the source PDF/);
  for(const field of ['relatedStudy','licenseUrl']){const copy=structuredClone(d);copy[field]='javascript:alert(1)';assert.throws(()=>validateDeepDives([copy]));}
+});
+
+test('control deep dives preserve denominator and replication limitations',()=>{
+ const shrink=renderPage('/deep-dives/metakaolin-slag-shrinkage-controls').html;
+ for(const term of ['110 ± 5%','Assumes a mass ratio','title-only correction','immediately after demolding'])assert.ok(shrink.includes(term),term);
+ const water=renderPage('/deep-dives/metakaolin-water-temperature').html;
+ for(const term of ['250 g stock solution','150 g added water','MK0.6/MK1.0/MK1.4','not total water/binder','No graph values'])assert.ok(water.includes(term),term);
 });

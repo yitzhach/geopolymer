@@ -1990,8 +1990,8 @@ export const knowledgeExpansionNext = [
     },
     "sourceStatus": {
       "state": "not-assessed",
-      "checked": "2026-10-18",
-      "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+      "checked": "2026-10-19",
+      "basis": "Publisher Correction Statement: title-only correction; scientific content unaffected according to publisher. Current publisher title retained; PMC still uses “Base”. Partial editorial methods review available; canonical extraction remains unstarted. Not comprehensive source-status clearance.",
       "updates": [],
       "relations": {},
       "checks": [
@@ -2000,6 +2000,12 @@ export const knowledgeExpansionNext = [
           "url": "https://www.mdpi.com/1996-1944/17/5/1181",
           "result": "bibliographic-identity-checked",
           "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+        },
+        {
+          "provider": "Indexed publisher Correction Statement",
+          "url": "https://www.mdpi.com/1996-1944/17/5/1181",
+          "result": "title-only-correction-reviewed-ai",
+          "scope": "Title wording only; scientific content stated unaffected. No human/domain review."
         }
       ]
     },
@@ -2007,7 +2013,7 @@ export const knowledgeExpansionNext = [
       "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
     },
     "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
-    "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    "metadataNote": "Publisher Correction Statement: title-only correction; scientific content unaffected according to publisher. Current publisher title retained; PMC still uses “Base”. Partial editorial methods review available; canonical extraction remains unstarted."
   },
   {
     "id": "ke-b08-017",
