@@ -34,11 +34,14 @@ Updated 19 October 2026; dates use Eastern time.
   `npm test` 116/116, build 428 routes, all six browser suites pass locally,
   CI `verify` green. A lightweight-model review of the diff was still running at
   handoff; treat any of its findings as unverified leads.
-- Cloudflare `Workers Builds: geopolymer` fails in ~0 s with no output on this PR
-  and on merged PR #22; not caused by repo code. Owner should read the build log
-  in the Cloudflare dashboard and confirm production deploys from `main`.
-- Next steps (owner priority order): (1) fix Cloudflare builds and verify the
-  live site; (2) merge PR #23; (3) add a public safety page and per-recipe
+- Cloudflare `Workers Builds: geopolymer` fails in ~0 s with no output on PR
+  branches (this PR and #22). Production is fine: the live
+  /build-info.json reported commit 958f8d8 (PR #22 merge) built 2026-10-19
+  10:18 UTC. Only preview (non-production branch) builds fail; the cause
+  is visible only in Cloudflare build logs (Settings > Build > Branch control /
+  Preview command). Cloudflare introduced Worker Previews on 2026-09-22
+  (default preview command `npx wrangler preview`, Wrangler >= 4.135.0).
+- Next steps (owner priority order): (1) owner fixes or disables Cloudflare preview builds; (2) merge PR #23; (3) add a public safety page and per-recipe
   hazard boxes (alkali activators are corrosive/eye-damaging; cite each
   product's SDS); (4) author give-back: notify featured authors, "cite this"
   plus versioned dataset DOI (Zenodo), report-an-error links, author
