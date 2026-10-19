@@ -1,0 +1,22 @@
+[
+  {
+    "id": "example-synthesis",
+    "type": "article",
+    "aiAssisted": true,
+    "text": "Two studies point the same way: curing temperature mattered more than the extra additive. The open study describes the effect as “largest in the first week” and reports it for three mixes. The subscription study's abstract agrees at the level of direction only. Our chart combines the reported values in our own layout.",
+    "sources": ["example-open-study", "example-paywalled-study"],
+    "claims": [
+      { "source": "example-open-study", "locator": "§3.2; Table 2" },
+      { "source": "example-paywalled-study", "locator": "Abstract" }
+    ],
+    "quotes": [{ "text": "largest in the first week", "source": "example-open-study", "locator": "§3.2" }],
+    "figures": [{
+      "id": "curing-vs-strength",
+      "mode": "original-from-data",
+      "sources": ["example-open-study", "example-paywalled-study"],
+      "dataLocator": "Open study Table 2; subscription study abstract (direction only, not plotted)",
+      "attribution": "Chart by the site from values reported in A. Author et al., Table 2."
+    }],
+    "rightsNote": "Original synthesis of 2 sources. Facts from §3.2/Table 2 of the open study and the abstract of the second; one short quotation with locator. Figure: original chart from reported values. AI-assisted: yes."
+  }
+]

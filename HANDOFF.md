@@ -1,6 +1,67 @@
 # Geopolymer — current handoff
 Updated 19 October 2026; dates use Eastern time.
 
+## Research rights guard skill — 19 October 2026
+- Added portable project skill `.claude/skills/research-rights-guard/` (SKILL.md,
+  references, dependency-free checker, example bundle, unit tests). Reusable in
+  other repos by copying the folder and adding a `rights-guard.config.json`.
+- `scripts/rights-adapter.mjs` maps deep dives, journal briefings, library
+  cards (summary/scope/metadata notes), the hemp research topic, all 43
+  published recipes (new `protocol` type), novel-recipe groups, the house
+  formulation and the five knowledge-pilot study pages (with their
+  per-operation rights ledger and transcribed tables). `npm test` fails on
+  rights errors; `npm run check:rights` prints the report. Current result:
+  409 items, 415 sources, 0 errors, 1 warning (SRC_LICENSE_VERSION on ke-b07-025,
+  the source of the bn-hemp-nanofiber-slag deep dive: CC BY version unverified,
+  matching that record's note).
+- Checker additions: license statement vs licenseUrl mismatch, per-operation
+  decisions (publicDisplay denied blocks any public item; anything but allowed
+  blocks table/figure reuse when operations are recorded),
+  protocols need located claims. `src/deep-dives.js:53` still assigns the CC BY
+  4.0 URL to every deep dive with a related recipe; today all three state CC BY
+  4.0 in their own license text, and the mismatch check now guards future ones.
+- The 15 baseline recipes lacked `checkedAt` (UI showed a 2026-10-09 fallback);
+  the documented extraction date 2026-10-09 is now explicit on those records.
+- Wording-overlap check needs a private source-text cache in gitignored
+  `work/rights-cache/`; none exists, so overlap was exercised by unit tests only.
+  Europe PMC was blocked by this environment's network policy; not bypassed.
+- E-books default to commercial and require a person's `rightsReview` before
+  release. Checks are policy aids, not legal clearance; IP counsel review is
+  recommended before any sale. Not yet mapped or reviewed for source-derived
+  text: assistant answer templates, supplier/product copy, hard-coded page prose.
+- Self-review fixes: empty/partial declared quotes no longer mask undeclared
+  quoted passages; CLI runs through a symlinked skill folder (previously exited
+  0 unchecked); `--config` without a value exits 2.
+- Review fixes (lightweight-model review, each verified): unversioned license
+  vs different-variant URL now errors; junk declared quotes no longer hide
+  copying (word-bounded removal); quotes from metadata-only sources error;
+  inch marks no longer pair as quotes; public-domain/CC0 accepted; raw text on
+  ledger entries errors; e-book non-commercial override warns; adapter parses
+  CC BY-NC/-SA/-ND variants, keeps document titles, includes recipe
+  characterization and study mix/observation prose. aiTransmission decisions
+  are recorded but not enforced (pilot reason: no external pipeline configured).
+- Status: PR #23 open from `claude/epic-brown-5qchns` (head 4003f42 or later).
+  `npm test` 116/116, build 428 routes, all six browser suites pass locally,
+  CI `verify` green. A lightweight-model review of the diff was still running at
+  handoff; treat any of its findings as unverified leads.
+- Cloudflare `Workers Builds: geopolymer` fails in ~0 s with no output on PR
+  branches (this PR and #22). Production is fine: the live
+  /build-info.json reported commit 958f8d8 (PR #22 merge) built 2026-10-19
+  10:18 UTC. Only preview (non-production branch) builds fail; the cause
+  is visible only in Cloudflare build logs (Settings > Build > Branch control /
+  Preview command). Cloudflare introduced Worker Previews on 2026-09-22
+  (default preview command `npx wrangler preview`, Wrangler >= 4.135.0).
+- Next steps (owner priority order): (1) owner fixes or disables Cloudflare preview builds; (2) merge PR #23; (3) add a public safety page and per-recipe
+  hazard boxes (alkali activators are corrosive/eye-damaging; cite each
+  product's SDS); (4) author give-back: notify featured authors, "cite this"
+  plus versioned dataset DOI (Zenodo), report-an-error links, author
+  correction/claim flow; (5) Retraction Watch data via Crossref for automatic
+  correction flags; (6) before any user content: contributor terms, DMCA agent
+  registration, moderation; (7) later: ORCID sign-in (public API terms are
+  non-commercial; check membership), replication reports, expert consults,
+  creator sales via a merchant of record. Stale counts remain in
+  RECIPE_DATABASE.md and LITERATURE_MIXES.md (code has 43 recipes/31 scalable).
+
 ## Hundred-paper expansion and durability deep dives — 19 October 2026
 - Published baseline 300 publications / six deep dives confirmed at main
   03976b67daa72683ad4884e0e31bdac9f2c51b8f. Added 100 unique DOI records

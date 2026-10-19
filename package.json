@@ -6,10 +6,11 @@
   "scripts": {
     "dev": "node scripts/serve.mjs",
     "build": "node scripts/build.mjs",
-    "test": "node --test tests/*.test.mjs",
+    "test": "node --test tests/*.test.mjs .claude/skills/research-rights-guard/tests/*.test.mjs",
     "validate:knowledge": "node scripts/validate-knowledge.mjs",
     "research:queue": "node scripts/research-queue.mjs",
-    "discover:openalex": "node scripts/discover-openalex.mjs"
+    "discover:openalex": "node scripts/discover-openalex.mjs",
+    "check:rights": "node .claude/skills/research-rights-guard/scripts/check-rights.mjs"
   },
   "engines": {
     "node": ">=18"

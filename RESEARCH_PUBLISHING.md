@@ -23,6 +23,8 @@ selection, not a claim to exhaustively rank the world's newest 20 papers.
 
 ## Editorial policy
 
+Follow `.claude/skills/research-rights-guard/SKILL.md` for summaries, deep
+dives, articles, e-books, quotes, figures and tables; `npm test` runs its checker.
 Use brief original factual summaries and links, not copied abstracts, publisher
 highlights, figures or full papers. Distinguish research, reviews, accepted early
 access and journal pre-proofs. Do not turn a study summary into an executable

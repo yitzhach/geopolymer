@@ -1,0 +1,6 @@
+{
+  "sources": "sources.json",
+  "items": "items.json",
+  "cacheDir": "cache",
+  "options": { "commercialDefault": false }
+}
