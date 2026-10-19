@@ -1,0 +1,1278 @@
+{
+  "schemaVersion": 1,
+  "id": "breadth-13-2026-10-19",
+  "checked": "2026-10-19",
+  "baseline": 350,
+  "final": 375,
+  "accepted": 25,
+  "metadataOnlyAdditions": 25,
+  "newObservations": 0,
+  "merges": 0,
+  "deletions": 0,
+  "openAlex": "on hold; not used",
+  "review": "AI bibliographic checks, not human/domain review. Delegated discovery treated only as leads.",
+  "strategy": {
+    "queries": [
+      "\"10.1016/j.cscm.2025.e04252\"",
+      "\"10.1016/j.conbuildmat.2023.132252\"",
+      "\"10.1016/j.conbuildmat.2022.127942\"",
+      "\"10.1016/j.conbuildmat.2025.143201\"",
+      "\"10.1002/cepa.2769\"",
+      "\"10.21062/mft.2023.024\"",
+      "\"10.3390/eng3010005\"",
+      "\"10.15587/2312-8372.2016.76515\"",
+      "\"10.1016/j.conbuildmat.2025.142749\"",
+      "\"10.1016/j.conbuildmat.2025.140871\"",
+      "\"10.1016/j.conbuildmat.2026.147071\"",
+      "\"10.1016/j.cscm.2026.e06045\"",
+      "\"10.1111/jace.19081\"",
+      "\"10.1016/j.conbuildmat.2021.123145\"",
+      "\"10.1016/j.cemconres.2021.106498\"",
+      "\"10.1016/j.matlet.2021.129680\"",
+      "\"10.1016/j.cscm.2024.e03407\"",
+      "\"10.1016/j.conbuildmat.2024.135819\"",
+      "\"10.1016/j.cemconcomp.2022.104891\"",
+      "\"10.1016/j.ceramint.2018.03.031\"",
+      "\"10.1016/j.conbuildmat.2020.121268\"",
+      "\"10.1016/j.conbuildmat.2020.121168\"",
+      "\"10.1016/j.conbuildmat.2012.04.122\"",
+      "\"10.1016/j.jnoncrysol.2011.07.013\"",
+      "\"10.1016/j.cemconres.2024.107482\""
+    ],
+    "bounds": "25 accepted metadata records per batch; discovery and primary verification each bounded at 40 retrieval/search operations.",
+    "primaryVerification": 32,
+    "queryLogNote": "Exact DOI query strategy listed here; supplemental query and failed-access logs in breadth-400-verification-log.json. Replaced duplicate fiber DOI was queried during discovery."
+  },
+  "rights": "Bibliographic facts only. Full-text rights unassessed in metadata stage; no abstracts, paper copies or figures retained.",
+  "limitations": [
+    "Dataset independence unresolved; related articles and theses are not counted as independent experiments.",
+    "Indexed metadata checks do not constitute comprehensive correction/retraction clearance."
+  ],
+  "records": [
+    {
+      "id": "ke-b13-001",
+      "doi": "10.1016/j.cscm.2025.e04252",
+      "originalDoi": "10.1016/j.cscm.2025.e04252",
+      "title": "Epoxy emulsion modified geopolymer coating for long-term corrosion protection of steel",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2025,
+      "published": "2025",
+      "journal": "Case Studies in Construction Materials",
+      "type": "Journal article",
+      "topic": "Coatings",
+      "url": "https://doi.org/10.1016/j.cscm.2025.e04252",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S2214509525000518",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S2214509525000518",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-001",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for coatings. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2214509525000518",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-002",
+      "doi": "10.1016/j.conbuildmat.2023.132252",
+      "originalDoi": "10.1016/j.conbuildmat.2023.132252",
+      "title": "TiO2-geopolymer based novel corrosion protective micro-coatings to emaciate mild steel oxidation in severe environments",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2023,
+      "published": "2023",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Coatings",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2023.132252",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0950061823019682",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/abs/pii/S0950061823019682",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-002",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for coatings. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0950061823019682",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-003",
+      "doi": "10.1016/j.conbuildmat.2022.127942",
+      "originalDoi": "10.1016/j.conbuildmat.2022.127942",
+      "title": "Geopolymer coating modified with reduced graphene oxide for improving steel corrosion resistance",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2022,
+      "published": "2022",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Coatings",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2022.127942",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0950061822016129",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/abs/pii/S0950061822016129",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-003",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for coatings. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0950061822016129",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-004",
+      "doi": "10.1016/j.conbuildmat.2025.143201",
+      "originalDoi": "10.1016/j.conbuildmat.2025.143201",
+      "title": "Understanding the new-to-old interfacial bonding mechanism of geopolymer for concrete repair: Insight into effects of surface moisture of substrate",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2025,
+      "published": "2025",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Coatings",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2025.143201",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0950061825033525",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0950061825033525",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-004",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for coatings. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0950061825033525",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-005",
+      "doi": "10.1002/cepa.2769",
+      "originalDoi": "10.1002/cepa.2769",
+      "title": "The early bonding performance of geopolymer for repair: Effect of mix proportion of cement substrate",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2023,
+      "published": "2023",
+      "journal": "ce/papers",
+      "type": "Conference paper",
+      "topic": "Coatings",
+      "url": "https://doi.org/10.1002/cepa.2769",
+      "publisherUrl": "https://onlinelibrary.wiley.com/doi/abs/10.1002/cepa.2769",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://onlinelibrary.wiley.com/doi/abs/10.1002/cepa.2769",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-005",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for coatings. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Conference proceedings; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/cepa.2769",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-006",
+      "doi": "10.21062/mft.2023.024",
+      "originalDoi": "10.21062/mft.2023.024",
+      "title": "Adhesion of Various Geopolymers Coatings on Metal Substrates",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2023,
+      "published": "2023",
+      "journal": "Manufacturing Technology",
+      "type": "Journal article",
+      "topic": "Coatings",
+      "url": "https://doi.org/10.21062/mft.2023.024",
+      "publisherUrl": "https://www.journalmt.com/artkey/mft-202301-0013_adhesion-of-various-geopolymers-coatings-on-metal-substrates.php",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.journalmt.com/artkey/mft-202301-0013_adhesion-of-various-geopolymers-coatings-on-metal-substrates.php",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-006",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for coatings. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.journalmt.com/artkey/mft-202301-0013_adhesion-of-various-geopolymers-coatings-on-metal-substrates.php",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-007",
+      "doi": "10.3390/eng3010005",
+      "originalDoi": "10.3390/eng3010005",
+      "title": "Assessment of Adhesion of Geopolymer and Varnished Coatings by the Pull-Off Method",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2022,
+      "published": "2022",
+      "journal": "Eng",
+      "type": "Journal article",
+      "topic": "Coatings",
+      "url": "https://doi.org/10.3390/eng3010005",
+      "publisherUrl": "https://www.mdpi.com/2673-4117/3/1/5",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.mdpi.com/2673-4117/3/1/5",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-007",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for coatings. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.mdpi.com/2673-4117/3/1/5",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-008",
+      "doi": "10.15587/2312-8372.2016.76515",
+      "originalDoi": "10.15587/2312-8372.2016.76515",
+      "title": "Investigation of adhesive properties of barrier-type geocement-based coatings",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2016,
+      "published": "2016",
+      "journal": "Technology audit and production reserves",
+      "type": "Journal article",
+      "topic": "Coatings",
+      "url": "https://doi.org/10.15587/2312-8372.2016.76515",
+      "publisherUrl": "https://doi.org/10.15587/2312-8372.2016.76515",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://doi.org/10.15587/2312-8372.2016.76515",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-008",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for coatings. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://doi.org/10.15587/2312-8372.2016.76515",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-009",
+      "doi": "10.1016/j.conbuildmat.2025.142749",
+      "originalDoi": "10.1016/j.conbuildmat.2025.142749",
+      "title": "Comprehensive research on high performance graphene oxide-geopolymer anticorrosive coating: Material design and corrosion resistance",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2025,
+      "published": "2025",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Coatings",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2025.142749",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0950061825029009",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0950061825029009",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-009",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for coatings. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0950061825029009",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-010",
+      "doi": "10.1016/j.conbuildmat.2025.140871",
+      "originalDoi": "10.1016/j.conbuildmat.2025.140871",
+      "title": "Performance evaluation of geopolymer anti-corrosion coatings: Synergistic effect of graphene oxide and polydimethylsiloxane",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2025,
+      "published": "2025",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Coatings",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2025.140871",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0950061825010190",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/abs/pii/S0950061825010190",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-010",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for coatings. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0950061825010190",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-011",
+      "doi": "10.1016/j.conbuildmat.2026.147071",
+      "originalDoi": "10.1016/j.conbuildmat.2026.147071",
+      "title": "GO-PDMS synergistically modified geopolymer coatings for suppressing under-film corrosion propagation of steel",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2026,
+      "published": "2026",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Coatings",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2026.147071",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0950061826019793",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0950061826019793",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-011",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for coatings. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0950061826019793",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-012",
+      "doi": "10.1016/j.cscm.2026.e06045",
+      "originalDoi": "10.1016/j.cscm.2026.e06045",
+      "title": "Long-term performance and protective mechanism of graphene oxide-geopolymer anticorrosive coatings: Molecular dynamics simulation and exposure experiment",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2026,
+      "published": "2026",
+      "journal": "Case Studies in Construction Materials",
+      "type": "Journal article",
+      "topic": "Coatings",
+      "url": "https://doi.org/10.1016/j.cscm.2026.e06045",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S2214509526002962",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S2214509526002962",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-012",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for coatings. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2214509526002962",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-013",
+      "doi": "10.1111/jace.19081",
+      "originalDoi": "10.1111/jace.19081",
+      "title": "Rheological assessment of metakaolin-based geopolymer composites through squeeze flow",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2023,
+      "published": "2023",
+      "journal": "Journal of the American Ceramic Society",
+      "type": "Journal article",
+      "topic": "Rheology",
+      "url": "https://doi.org/10.1111/jace.19081",
+      "publisherUrl": "https://ceramics.onlinelibrary.wiley.com/doi/full/10.1111/jace.19081",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://ceramics.onlinelibrary.wiley.com/doi/full/10.1111/jace.19081",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-013",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for rheology. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://ceramics.onlinelibrary.wiley.com/doi/full/10.1111/jace.19081",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-014",
+      "doi": "10.1016/j.conbuildmat.2021.123145",
+      "originalDoi": "10.1016/j.conbuildmat.2021.123145",
+      "title": "Temporal dynamics of rheological properties of metakaolin-based geopolymers: Effects of synthesis parameters",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2021,
+      "published": "2021",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Rheology",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2021.123145",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0950061821009053",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/abs/pii/S0950061821009053",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-014",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for rheology. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0950061821009053",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-015",
+      "doi": "10.1016/j.cemconres.2021.106498",
+      "originalDoi": "10.1016/j.cemconres.2021.106498",
+      "title": "Rheological characterization of 3D printable geopolymers",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2021,
+      "published": "2021",
+      "journal": "Cement and Concrete Research",
+      "type": "Journal article",
+      "topic": "Printing",
+      "url": "https://doi.org/10.1016/j.cemconres.2021.106498",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0008884621001472",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0008884621001472",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-015",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for printing. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0008884621001472",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-016",
+      "doi": "10.1016/j.matlet.2021.129680",
+      "originalDoi": "10.1016/j.matlet.2021.129680",
+      "title": "Role of temperature in 3D printed geopolymers: Evaluating rheology and buildability",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2021,
+      "published": "2021",
+      "journal": "Materials Letters",
+      "type": "Journal article",
+      "topic": "Printing",
+      "url": "https://doi.org/10.1016/j.matlet.2021.129680",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0167577X21003761",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0167577X21003761",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-016",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for printing. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0167577X21003761",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-017",
+      "doi": "10.1016/j.cscm.2024.e03407",
+      "originalDoi": "10.1016/j.cscm.2024.e03407",
+      "title": "The development of a fly ash-based geopolymer for extrusion-based 3D printing, along with a printability prediction method",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2024,
+      "published": "2024",
+      "journal": "Case Studies in Construction Materials",
+      "type": "Journal article",
+      "topic": "Printing",
+      "url": "https://doi.org/10.1016/j.cscm.2024.e03407",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S2214509524005588",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S2214509524005588",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-017",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for printing. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2214509524005588",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-018",
+      "doi": "10.1016/j.conbuildmat.2024.135819",
+      "originalDoi": "10.1016/j.conbuildmat.2024.135819",
+      "title": "Rheological properties and shootability of sprayable geopolymer mortar",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2024,
+      "published": "2024",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Rheology",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2024.135819",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0950061824009607",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0950061824009607",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-018",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for rheology. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0950061824009607",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-019",
+      "doi": "10.1016/j.cemconcomp.2022.104891",
+      "originalDoi": "10.1016/j.cemconcomp.2022.104891",
+      "title": "Rheological property and extrudability performance assessment of construction and demolition waste-based geopolymer mortars with varied testing protocols",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2023,
+      "published": "2023",
+      "journal": "Cement and Concrete Composites",
+      "type": "Journal article",
+      "topic": "Printing",
+      "url": "https://doi.org/10.1016/j.cemconcomp.2022.104891",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S095894652200484X",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/abs/pii/S095894652200484X",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-019",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for printing. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S095894652200484X",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-020",
+      "doi": "10.1016/j.ceramint.2018.03.031",
+      "originalDoi": "10.1016/j.ceramint.2018.03.031",
+      "title": "Experimental study on mix proportion and fresh properties of fly-ash-based geopolymer for 3D concrete printing",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2018,
+      "published": "2018",
+      "journal": "Ceramics International",
+      "type": "Journal article",
+      "topic": "Printing",
+      "url": "https://doi.org/10.1016/j.ceramint.2018.03.031",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0272884218305819",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0272884218305819",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-020",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for printing. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0272884218305819",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-021",
+      "doi": "10.1016/j.conbuildmat.2020.121268",
+      "originalDoi": "10.1016/j.conbuildmat.2020.121268",
+      "title": "Rheokinetics and fluidity modification of alkali activated ultrafine metakaolin based geopolymers",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2021,
+      "published": "2021",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Rheology",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2020.121268",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0950061820332724",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/abs/pii/S0950061820332724",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-021",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for rheology. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0950061820332724",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-022",
+      "doi": "10.1016/j.conbuildmat.2020.121168",
+      "originalDoi": "10.1016/j.conbuildmat.2020.121168",
+      "title": "Extensive evaluation on the effect of glass powder on the rheology, strength, and microstructure of metakaolin-based geopolymer binders",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2021,
+      "published": "2021",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Rheology",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2020.121168",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S095006182033172X",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/abs/pii/S095006182033172X",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-022",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for rheology. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S095006182033172X",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-023",
+      "doi": "10.1016/j.conbuildmat.2012.04.122",
+      "originalDoi": "10.1016/j.conbuildmat.2012.04.122",
+      "title": "Rheology of geopolymer by DOE approach",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2012,
+      "published": "2012",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Rheology",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2012.04.122",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0950061812003261",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/abs/pii/S0950061812003261",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-023",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for rheology. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0950061812003261",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-024",
+      "doi": "10.1016/j.jnoncrysol.2011.07.013",
+      "originalDoi": "10.1016/j.jnoncrysol.2011.07.013",
+      "title": "Rheological behavior of alkali-activated metakaolin during geopolymerization",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2011,
+      "published": "2011",
+      "journal": "Journal of Non-Crystalline Solids",
+      "type": "Journal article",
+      "topic": "Rheology",
+      "url": "https://doi.org/10.1016/j.jnoncrysol.2011.07.013",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0022309311004698",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0022309311004698",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-024",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for rheology. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0022309311004698",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b13-025",
+      "doi": "10.1016/j.cemconres.2024.107482",
+      "originalDoi": "10.1016/j.cemconres.2024.107482",
+      "title": "Effect of maximum packing fraction of powders on the rheology of metakaolin-based geopolymer pastes",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2024,
+      "published": "2024",
+      "journal": "Cement and Concrete Research",
+      "type": "Journal article",
+      "topic": "Rheology",
+      "url": "https://doi.org/10.1016/j.cemconres.2024.107482",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0008884624000632",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/abs/pii/S0008884624000632",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b13-025",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for rheology. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0008884624000632",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    }
+  ]
+}

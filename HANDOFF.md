@@ -1,6 +1,29 @@
 # Geopolymer — current handoff
 Updated 19 October 2026; dates use Eastern time.
 
+## Hundred-paper expansion and durability deep dives — 19 October 2026
+- Published baseline 300 publications / six deep dives confirmed at main
+  03976b67daa72683ad4884e0e31bdac9f2c51b8f. Added 100 unique DOI records
+  in batches 11–14 (25 each): 400 publications, eight editorial deep dives.
+- Added freeze–thaw MK and carbonate/hydroxide slag experimental guides with
+  source locators, ratio arithmetic, stepwise planning and explicit reproduction holds.
+  Five-paper extraction batch stopped at 40 operations; three method-poor candidates
+  deferred in deep-dives-durability-2026-10-19.json. No invented graph values.
+- Preserved all prior 300 identities; corrected issue years, replaced duplicate
+  oceram.2021.100065 with soil-burial jute paper s41062-020-00441-5.
+  Flax eti.2020.101105 is corroborated by a publisher-hosted reference list;
+  original article heading inaccessible. This exception is visible on its record.
+- Carbonation conbuildmat.2023.133403 has linked corrigendum 134686; unresolved
+  interpretation/caption changes flagged and excluded from assistant evidence.
+- Counts: five partial pilot studies, 62 mixes, 275 observations, 43 recipes /
+  31 scalable remain unchanged. Metadata additions are not new experimental data.
+- OpenAlex remains on hold. Daily research draft automation unchanged.
+- All 26 Node test files pass; build produces 428 routes. Browser checks and
+  publication pending. Local HEAD remains 79f41c5; preserve accumulated staged work.
+- Next: recover activator/exposure details for moisture/efflorescence, mixed Na/K
+  durability and one-part admixture guides; finish new guide inventories and
+  existing hemp/foam/biochar pilot gaps. No additional breadth quota assumed.
+
 ## Fifty-paper expansion and two control-method deep dives — 19 October 2026
 - Confirmed published baseline 250 / four deep dives at main fe1ab160e011de9756480de249384e8b02cf8427.
   Added 50 unique DOI records in bounded batches 9 and 10 (25 each): total 300.

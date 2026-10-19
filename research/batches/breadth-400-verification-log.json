@@ -1,0 +1,96 @@
+{
+  "checked": "2026-10-19",
+  "openAlex": "on hold",
+  "supplementalQueries": {
+    "400fiberfollowqueries": [
+      "\"Experimental Investigations on Strength\" \"00341\"",
+      "\"10.1016/j.eti.2020.101105\" site:sciencedirect.com",
+      "\"10.3390/molecules28207189\" site:mdpi.com/1420-3049/28/20/7189",
+      "\"10.3390/molecules29102401\" \"Sisal\"",
+      "\"Synthesis and Characterization of Date Palm\" geopolymer DOI",
+      "\"19386362.2018.1464272\" \"2021\""
+    ],
+    "400foamfollowqueries": [
+      "\"10.1016/j.cemconcomp.2020.103886\" \"Volume\"",
+      "\"10.1021/acsomega.4c06227\" \"2025\"",
+      "\"10.1111/jace.18591\" \"2022\"",
+      "\"10.2298/CICEQ211007003B\" \"2023\"",
+      "\"Influence of precast foam on the pore structure\" site:sciencedirect.com",
+      "\"Hybrid Fly Ash-Based Geopolymeric Foams\" site:mdpi.com",
+      "\"Microstructure, Compressive Strength and Sound Insulation\" site:mdpi.com",
+      "\"Fly Ash Particle Size Effect\" site:onlinelibrary.wiley.com"
+    ],
+    "400coatfollowqueries": [
+      "\"10.1016/j.conbuildmat.2020.121268\" \"Volume\"",
+      "\"10.1016/j.conbuildmat.2020.121168\" \"Volume\"",
+      "\"10.1016/j.cemconcomp.2022.104891\" \"Volume\"",
+      "\"Adhesion of Various Geopolymers Coatings\" site:journalmt.com",
+      "\"Assessment of Adhesion of Geopolymer and Varnished\" site:mdpi.com",
+      "\"10.1002/cepa.2769\" \"conference\""
+    ],
+    "400finalmetaqueries": [
+      "\"10.1016/j.cemconcomp.2020.103886\" \"2021\"",
+      "\"Foamed geopolymer with customized pore structure\" \"2023\"",
+      "\"Effect of pre-treatment of flax tows\" site:sciencedirect.com",
+      "\"10.1002/cepa.2769\" \"Volume\""
+    ],
+    "400rootqueries": [
+      "site.mdpi.com geopolymer potassium sodium efflorescence shrinkage durability Materials",
+      "site.sciencedirect.com geopolymer metakaolin potassium sodium carbonate durability curing",
+      "site.mdpi.com geopolymer freeze thaw acid resistance metakaolin sodium potassium",
+      "site.mdpi.com geopolymer sodium carbonate slag setting shrinkage",
+      "site.mdpi.com geopolymer curing efflorescence calcium hydroxide"
+    ],
+    "400divequeries": [
+      "site:pmc.ncbi.nlm.nih.gov/articles/PMC8911503 \"2.2\" \"Table 1\"",
+      "site:pmc.ncbi.nlm.nih.gov/articles/PMC7372425 \"2.2\" \"Table 2\"",
+      "site:pmc.ncbi.nlm.nih.gov/articles/PMC7731037 \"2.2\" \"Table 2\"",
+      "site:mdpi.com/2075-163X/14/8/776 \"2.2\" \"Table 2\"",
+      "site:pmc.ncbi.nlm.nih.gov/articles/PMC6829244 \"2.2\" \"Table 2\"",
+      "\"10.3390/ma15051687\" \"2.2\"",
+      "\"10.3390/ma13235550\" \"2.2\"",
+      "\"10.3390/min14080776\" \"Materials and Methods\"",
+      "\"10.3390/ma12203410\" \"2.2\"",
+      "\"Properties and Microstructure\" \"Na2CO3\" \"water\" \"mixed\"",
+      "\"Relationship between Moisture Transportation\" \"Preparation\"",
+      "\"Durability of Non-Heat-Cured\" \"2.2\"",
+      "\"Efficiency of Different Superplasticizers\" \"Mixture\" \"water\"",
+      "\"geopolymer\" \"1687\" \"2.2. Preparation\"",
+      "\"geopolymer\" \"5550\" \"2.2\" \"80\"",
+      "\"geopolymer\" \"3410\" \"0.4\"",
+      "\"geopolymer\" \"776\" \"2.2. Mixture\"",
+      "\"Properties and Microstructure of Na2CO3\" \"ratio\" \"Table 1\"",
+      "\"Relationship between Moisture Transportation\" \"2. Materials\"",
+      "\"Efficiency of Different Superplasticizers\" \"2. Materials\"",
+      "\"Durability of Non-Heat-Cured\" \"2.2.\"",
+      "\"ma15051687\" \"mixing\"",
+      "\"ma13235550\" \"curing\" \"mm\"",
+      "\"ma12203410\" \"2.1\" \"0.4\"",
+      "\"min14080776\" \"mixtures\" \"Table 5\"",
+      "\"ma15051687\" \"20\" \"curing\"",
+      "\"ma13235550\" \"2.2. Sample\"",
+      "\"ma12203410\" \"water-to\""
+    ]
+  },
+  "failures": [
+    "Flax original publisher page inaccessible; bibliographic facts corroborated in Wiley reference 113.",
+    "Carbonate, moisture and admixture PMC pages returned browser challenges; no bypass.",
+    "Three MDPI landing pages returned 429; four PDF retrievals failed.",
+    "One invalid open schema did not execute."
+  ],
+  "metadataStageCounts": {
+    "fibers": 37,
+    "foams": 40,
+    "coatings": 32,
+    "root": 31
+  },
+  "extraction": {
+    "papers": 5,
+    "operations": 40,
+    "newCanonicalMeasurements": 0
+  },
+  "dedupRejected": [
+    "10.1016/j.oceram.2021.100065",
+    "10.3390/ma15082944"
+  ]
+}

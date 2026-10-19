@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-dives-durability-2026-10-19",
+  "checked": "2026-10-19",
+  "openAlex": "on hold",
+  "review": "Partial AI source review; original editorial guides, not complete extraction.",
+  "bounds": {
+    "targetPapers": 5,
+    "maximumFullPapers": 5,
+    "maximumRequests": 40,
+    "requests": 40
+  },
+  "queries": [
+    "site:pmc.ncbi.nlm.nih.gov/articles/PMC8911503 \"2.2\" \"Table 1\"",
+    "site:pmc.ncbi.nlm.nih.gov/articles/PMC7372425 \"2.2\" \"Table 2\"",
+    "site:pmc.ncbi.nlm.nih.gov/articles/PMC7731037 \"2.2\" \"Table 2\"",
+    "site:mdpi.com/2075-163X/14/8/776 \"2.2\" \"Table 2\"",
+    "site:pmc.ncbi.nlm.nih.gov/articles/PMC6829244 \"2.2\" \"Table 2\"",
+    "\"10.3390/ma15051687\" \"2.2\"",
+    "\"10.3390/ma13235550\" \"2.2\"",
+    "\"10.3390/min14080776\" \"Materials and Methods\"",
+    "\"10.3390/ma12203410\" \"2.2\"",
+    "\"Properties and Microstructure\" \"Na2CO3\" \"water\" \"mixed\"",
+    "\"Relationship between Moisture Transportation\" \"Preparation\"",
+    "\"Durability of Non-Heat-Cured\" \"2.2\"",
+    "\"Efficiency of Different Superplasticizers\" \"Mixture\" \"water\"",
+    "\"geopolymer\" \"1687\" \"2.2. Preparation\"",
+    "\"geopolymer\" \"5550\" \"2.2\" \"80\"",
+    "\"geopolymer\" \"3410\" \"0.4\"",
+    "\"geopolymer\" \"776\" \"2.2. Mixture\"",
+    "\"Properties and Microstructure of Na2CO3\" \"ratio\" \"Table 1\"",
+    "\"Relationship between Moisture Transportation\" \"2. Materials\"",
+    "\"Efficiency of Different Superplasticizers\" \"2. Materials\"",
+    "\"Durability of Non-Heat-Cured\" \"2.2.\"",
+    "\"ma15051687\" \"mixing\"",
+    "\"ma13235550\" \"curing\" \"mm\"",
+    "\"ma12203410\" \"2.1\" \"0.4\"",
+    "\"min14080776\" \"mixtures\" \"Table 5\"",
+    "\"ma15051687\" \"20\" \"curing\"",
+    "\"ma13235550\" \"2.2. Sample\"",
+    "\"ma12203410\" \"water-to\""
+  ],
+  "retrievalUrls": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8911503/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7372425/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7731037/",
+    "https://www.mdpi.com/2075-163X/14/8/776",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6829244/"
+  ],
+  "pdfAttempts": [
+    "https://mdpi-res.com/d_attachment/materials/materials-15-01687/article_deploy/materials-15-01687.pdf",
+    "https://mdpi-res.com/d_attachment/materials/materials-13-05550/article_deploy/materials-13-05550.pdf",
+    "https://mdpi-res.com/d_attachment/materials/materials-12-03410/article_deploy/materials-12-03410.pdf",
+    "https://mdpi-res.com/d_attachment/minerals/minerals-14-00776/article_deploy/minerals-14-00776.pdf"
+  ],
+  "newPublications": 0,
+  "newObservations": 0,
+  "newRecipes": 0,
+  "accessFailures": [
+    "PMC challenges for carbonate, moisture and admixtures; no bypass.",
+    "Three MDPI landing pages returned 429; four PDF attempts inaccessible."
+  ],
+  "published": [
+    {
+      "doi": "10.3390/ma13132973",
+      "id": "metakaolin-freeze-thaw-design",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7372425/",
+      "rights": "Article-specific CC BY 4.0 notice",
+      "locators": [
+        "§2.1; Tables 1–2",
+        "§§2.2.1–2.2.3"
+      ],
+      "holds": [
+        "Table 2 units and exact binder denominator",
+        "Complete outcome and figure inventory"
+      ]
+    },
+    {
+      "doi": "10.3390/ma15051687",
+      "id": "carbonate-slag-hydroxide-balance",
+      "source": "https://www.mdpi.com/1996-1944/15/5/1687",
+      "rights": "Indexed PMC article-specific CC BY 4.0 notice",
+      "locators": [
+        "Methods; Table 1",
+        "Abstract and conclusions"
+      ],
+      "holds": [
+        "Specimen geometry/demolding",
+        "Shrinkage protocol and complete outcome inventory"
+      ]
+    }
+  ],
+  "deferred": [
+    {
+      "doi": "10.3390/ma13235550",
+      "reason": "Partial composition/exposure found; activator dose, geometry and cure incomplete."
+    },
+    {
+      "doi": "10.3390/min14080776",
+      "reason": "Mixed Na/K activators identified; exact mix ledger and license check incomplete."
+    },
+    {
+      "doi": "10.3390/ma12203410",
+      "reason": "Admixture compatibility findings found; exact doses and complete activator system unresolved."
+    }
+  ],
+  "retention": "No raw full papers, abstracts, figures or complete tables retained. No graph points inferred."
+}
