@@ -203,9 +203,10 @@ export function checkBundle(bundle, options = {}, sourceTextFor = () => null) {
     for (const [id, n] of perSource) if (n > o.quote.maxPerSourcePerItem) add('warning', 'QUOTE_MANY', `${n} quotes from ${id}; keep quoting to what the point needs`, ref);
     if (textWords && quoteWords / textWords > o.quote.maxShare)
       add('error', 'QUOTE_SHARE', `Quotes are ${Math.round(100 * quoteWords / textWords)}% of the text (limit ${Math.round(100 * o.quote.maxShare)}%)`, ref);
-    const declared = quotes.map(q => norm(q.text));
+    // A quoted passage is declared only when a declared quote covers all of it.
+    const declared = quotes.map(q => norm(q.text)).filter(Boolean);
     for (const run of findQuotedRuns(text, o.quote.detectMinWords))
-      if (!declared.some(d => d.includes(norm(run)) || norm(run).includes(d)))
+      if (!declared.some(d => d.includes(norm(run))))
         add('error', 'QUOTE_UNDECLARED', `Quoted passage not declared in item.quotes: “${run.slice(0, 80)}${run.length > 80 ? '…' : ''}”`, ref);
 
     // Figures and tables.

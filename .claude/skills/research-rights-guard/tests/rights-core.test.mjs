@@ -14,6 +14,7 @@ test('clean bundle passes; example project passes through the CLI', async () => 
   assert.deepEqual(codes({ sources: [src()], items: [item()] }), []);
   const config = fileURLToPath(new URL('../examples/rights-guard.config.json', import.meta.url));
   assert.equal(await run(['--config', config, '--quiet'], () => {}), 0);
+  assert.equal(await run(['--config'], () => {}), 2);
 });
 
 test('license parsing and reuse matrix', () => {
@@ -52,6 +53,8 @@ test('quote rules: undeclared, long, unlocated, share', () => {
   const c = codes({ sources: [src()], items: [item({ text: `Intro “${long}” end.`, quotes: [{ text: long, source: 's1' }] })] });
   for (const k of ['QUOTE_LONG', 'QUOTE_LOCATOR', 'QUOTE_SHARE']) assert.ok(c.includes(k), k);
   assert.equal(findQuotedRuns('a "short one" b', 6).length, 0);
+  const masked = item({ text: 'They wrote “the binder failed in every single wet cycle test” here.', quotes: [{ text: '', source: 's1', locator: 'p. 1' }, { text: 'binder', source: 's1', locator: 'p. 1' }] });
+  assert.ok(codes({ sources: [src()], items: [masked] }).includes('QUOTE_UNDECLARED'), 'empty or partial declared quotes must not mask a longer quoted passage');
 });
 
 test('figures follow the license matrix and commercial status', () => {

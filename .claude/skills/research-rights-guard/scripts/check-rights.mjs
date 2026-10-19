@@ -3,9 +3,9 @@
 //   node check-rights.mjs [--config rights-guard.config.json] [--json] [--strict] [--quiet]
 // Exit codes: 0 clean, 1 errors (or warnings with --strict), 2 configuration problem.
 import { readFile, access } from 'node:fs/promises';
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, existsSync, realpathSync } from 'node:fs';
 import { resolve, dirname, join } from 'node:path';
-import { pathToFileURL } from 'node:url';
+import { pathToFileURL, fileURLToPath } from 'node:url';
 import { checkBundle, cacheName } from './rights-core.mjs';
 
 export async function loadBundle(configPath) {
@@ -33,6 +33,7 @@ export async function loadBundle(configPath) {
 export async function run(argv = process.argv.slice(2), log = console.log) {
   const flag = f => argv.includes(f);
   const i = argv.indexOf('--config');
+  if (i >= 0 && (!argv[i + 1] || argv[i + 1].startsWith('--'))) { log('rights-guard: --config needs a path'); return 2; }
   const configPath = resolve(i >= 0 ? argv[i + 1] : 'rights-guard.config.json');
   try { await access(configPath); } catch { log(`rights-guard: no config at ${configPath}`); return 2; }
   let loaded;
@@ -52,4 +53,6 @@ export async function run(argv = process.argv.slice(2), log = console.log) {
   return failed ? 1 : 0;
 }
 
-if (import.meta.url === pathToFileURL(process.argv[1] || '').href) process.exitCode = await run();
+// Compare real paths so a symlinked skill folder (e.g. ~/.claude/skills) still runs the CLI.
+const real = p => { try { return realpathSync(p); } catch { return p; } };
+if (process.argv[1] && real(fileURLToPath(import.meta.url)) === real(resolve(process.argv[1]))) process.exitCode = await run();
