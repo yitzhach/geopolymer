@@ -27,6 +27,27 @@ Updated 19 October 2026; dates use Eastern time.
   release. Checks are policy aids, not legal clearance; IP counsel review is
   recommended before any sale. Not yet mapped or reviewed for source-derived
   text: assistant answer templates, supplier/product copy, hard-coded page prose.
+- Self-review fixes: empty/partial declared quotes no longer mask undeclared
+  quoted passages; CLI runs through a symlinked skill folder (previously exited
+  0 unchecked); `--config` without a value exits 2.
+- Status: PR #23 open from `claude/epic-brown-5qchns` (head 4003f42 or later).
+  `npm test` 116/116, build 428 routes, all six browser suites pass locally,
+  CI `verify` green. A lightweight-model review of the diff was still running at
+  handoff; treat any of its findings as unverified leads.
+- Cloudflare `Workers Builds: geopolymer` fails in ~0 s with no output on this PR
+  and on merged PR #22; not caused by repo code. Owner should read the build log
+  in the Cloudflare dashboard and confirm production deploys from `main`.
+- Next steps (owner priority order): (1) fix Cloudflare builds and verify the
+  live site; (2) merge PR #23; (3) add a public safety page and per-recipe
+  hazard boxes (alkali activators are corrosive/eye-damaging; cite each
+  product's SDS); (4) author give-back: notify featured authors, "cite this"
+  plus versioned dataset DOI (Zenodo), report-an-error links, author
+  correction/claim flow; (5) Retraction Watch data via Crossref for automatic
+  correction flags; (6) before any user content: contributor terms, DMCA agent
+  registration, moderation; (7) later: ORCID sign-in (public API terms are
+  non-commercial; check membership), replication reports, expert consults,
+  creator sales via a merchant of record. Stale counts remain in
+  RECIPE_DATABASE.md and LITERATURE_MIXES.md (code has 43 recipes/31 scalable).
 
 ## Hundred-paper expansion and durability deep dives — 19 October 2026
 - Published baseline 300 publications / six deep dives confirmed at main
