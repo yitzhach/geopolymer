@@ -1,0 +1,17 @@
+{
+ "id":"hemp-methods-continuation-2026-10-18",
+ "checked":"2026-10-18",
+ "doi":"10.3390/polym18111288",
+ "batch":{"papersInspected":1,"searchQueries":5,"webCalls":2,"fullPaperLimit":5,"retrievalLimit":40},
+ "queries":["\"polym18111288\" \"2.4.3\"","\"polym18111288\" \"3.2.3\"","\"polym18111288\" \"sand\" \"ratio\"","\"polym18111288\" \"3.2.3\" \"40.22\"","\"polym18111288\" \"residual\" \"Table 3\""],
+ "sources":["https://www.mdpi.com/2073-4360/18/11/1288","https://pmc.ncbi.nlm.nih.gov/articles/PMC13259237/"],
+ "access":"Indexed primary text only; previously failed direct routes not retried. No raw source retention, download, embeddings or figure reproduction.",
+ "rights":"Same source-specific basis as deep-dive-hemp-2026-10-18.json: indexed PMC states author-held CC BY; version/link unresolved. Selected original factual notes with attribution and original methodological explanation only.",
+ "resolved":[{"locator":"§2.4.2","finding":"Mechanical loading rates and half-prism compression procedure located"},{"locator":"§2.4.4","finding":"Thermal ramp, starting temperature, dwell and furnace cooling located"}],
+ "unfavorableEvidence":{"locator":"§3.2.3/Table 3","finding":"Declining compression and UPV with reinforcement; quantitative porosity and dispersion not assessed. Do not promote indirect mechanism interpretations to direct measurements."},
+ "comparisonGuidance":"Original explanation distinguishes within-mix strength retention from between-mix exposed strength. It is a possible explanation to investigate, not a resolution or extracted numerical result.",
+ "inventoryProgress":"Selected Table 3 trend and methods read; figure captions through Figure 25 observed. Entire table/figure/supplement inventory still incomplete; no images inspected or graph points digitized.",
+ "remaining":["Slag:sand ratio and solids denominator","Complete chemical modification and dispersion protocol","Mix/cure/age/geometry-qualified thermal comparisons","License version and complete source inventory"],
+ "counts":{"publications":250,"deepDives":4,"newObservations":0,"newRecipes":0},
+ "openAlex":"on hold; not used"
+}

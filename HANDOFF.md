@@ -1,6 +1,19 @@
 # Geopolymer — current handoff
 Updated 18 October 2026; dates use Eastern time.
 
+## Hemp test-method follow-up — 18 October 2026
+- One-paper, five-query batch located mechanical loading rates and thermal
+  ramp/dwell/cooling in §§2.4.2/2.4.4 of DOI 10.3390/polym18111288.
+  Updated the existing deep dive and removed the obsolete ramp/cooling hold.
+- Added original explanation of within-mix strength retention versus between-mix
+  exposed strength. This does not resolve the paper's conflicting thermal claims.
+  Quantitative porosity/dispersion were outside the source study's scope.
+- Indexed primary text only; no direct-access retries, graph extraction or new
+  canonical measurements. Audit: hemp-methods-continuation-2026-10-18.json.
+- All 24 Node test files and 274-route build pass; browser CI/publication pending.
+  Counts remain 250 publications, four deep dives and five partial pilot studies.
+  OpenAlex on hold; daily draft automation unchanged. Prior local work preserved.
+
 ## Forty-nine-paper expansion and hemp nanofiber deep dive — 18 October 2026
 - Confirmed published baseline: PR #18, 201 publications and three deep dives.
   Added 49 unique DOIs in batches 7 (25) and 8 (24): published total 250; all prior

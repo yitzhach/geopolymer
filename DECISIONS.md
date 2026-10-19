@@ -478,3 +478,9 @@ editorial deep dives. Keep publication, dataset and numeric-extraction counts
 separate. Source-specific glossary and related links replace GGBS-only template
 text; JSON export preserves context and attribution. Unknown metadata stays
 explicit. The next 49-paper request is scheduled separately, after this batch.
+
+## 18 October — thermal comparison denominators
+The hemp deep dive now distinguishes within-mix strength retention from exposed
+strength relative to a control. This is editorial methodology, not a resolution
+of contradictory source claims. Newly located heating/cooling and loading rates
+replace missing-method labels; no canonical observations are promoted.
