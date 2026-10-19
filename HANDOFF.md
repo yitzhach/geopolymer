@@ -21,9 +21,17 @@ Updated 19 October 2026; dates use Eastern time.
 - Canonical pilots unchanged: five partial studies, 62 mixes, 275 observations;
   recipe catalog 43 / 31 scalable. Daily draft automation unchanged.
 - Local 25 Node test files and 326-route build pass. Local browser server denied
-  socket bind (EPERM); six-suite GitHub browser CI and publication pending.
-- Preserve accumulated staged work and newer unstaged files; HEAD remains 79f41c5.
-  Do not reset to main. Final release identity and live check to be recorded here.
+  socket bind (EPERM); all six browser suites passed GitHub run 39216232493.
+  Verified feature 493749bae634651f86ddc7d72b933256f0bd3e57; PR #21 merged
+  as 29de5eab4e7f9d7ca82a518291abb3eb7e8bf0c3.
+- Local staged tree 71a2cfe07242956853fde7c3006353f1ff2db196 exactly matches
+  the tested feature. This final handoff is newer unstaged work; HEAD remains
+  79f41c5. Preserve both and do not reset to main.
+- Post-merge live build-info request was inaccessible via the web tool; deployment
+  identity remains unverified. No approval bypass or repeated access attempts.
+- Next: complete the two new deep-dive inventories/activator ledgers; investigate
+  the secondary source-status flag; resume hemp shiv/fiber durability and existing
+  foam/biochar pilot gaps from their audits. No further breadth quota is assumed.
 
 ## Hemp test-method follow-up — 18 October 2026
 - One-paper, five-query batch located mechanical loading rates and thermal
