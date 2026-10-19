@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-dives-inventory-2026-10-19",
+  "checked": "2026-10-19",
+  "openAlex": "on hold; not used",
+  "review": "Primary-agent AI work only. No human/domain review, new extraction or replication.",
+  "part1": {
+    "task": "Recover activator/exposure methods for the three durability candidates deferred in deep-dives-durability-2026-10-19.json.",
+    "bounds": {"maximumRequests": 25, "searchQueries": 16, "urlRetrievalAttempts": 9},
+    "routes": [
+      "Shell HTTPS to www.ebi.ac.uk (Europe PMC REST full-text XML, a route not tried before): egress proxy refused the connection; research hosts are not allowed from the shell.",
+      "Session URL-fetch tool: DNS resolution failed for every host tried (www.ebi.ac.uk, www.mdpi.com, doi.org, en.wikipedia.org). Fetching was unavailable, not refused by publishers.",
+      "Session web search: indexed text for all three papers covered abstract and introduction only; no Methods section text was returned."
+    ],
+    "queries": [
+      "\"Relationship between Moisture Transportation, Efflorescence and Structure Degradation in Fly Ash/Slag Geopolymer\" activator modulus curing specimens",
+      "site:mdpi.com/1996-1944/13/23/5550 \"2.1\" \"Materials\" fly ash slag NaOH sodium silicate modulus water",
+      "site:pmc.ncbi.nlm.nih.gov PMC7731037 efflorescence fly ash slag geopolymer specimens cylinder curing \"Na2O\" activator",
+      "\"Relationship between Moisture Transportation\" geopolymer \"sodium silicate\" \"modulus\" \"Na2O\" \"water/binder\" cylinder \"curing\"",
+      "\"Efficiency of Different Superplasticizers\" alkali-activated Materials 2019 12 3410 superplasticizer dosage activator",
+      "Bong Nematollahi 2019 one-part fly ash slag superplasticizers retarders sodium metasilicate dosage results",
+      "Minerals 2024 14(8) 776 geopolymer sodium potassium mixed activator durability",
+      "\"One-Part\" Fly Ash-Slag Blended Geopolymers \"mix proportions\" \"GD\" activator flow table Vicat cube",
+      "\"Durability of Non-Heat-Cured Geopolymer Mortars Containing Metakaolin\" KOH molarity Table mix proportions freeze-thaw MgSO4",
+      "Zhou 2020 Materials 13 5550 efflorescence cylinder partially immersed water depth relative humidity",
+      "\"Moisture Transportation, Efflorescence\" \"8 mol/L\" NaOH liquid/binder cylinder cured 28 days",
+      "Işıkdağ Mutlu 2024 Minerals KOH molarity Na2SiO3/KOH binder sand freeze cycles sulfate HCl",
+      "Bong Nematollahi Nazari Xia Sanjayan 2019 water/binder superplasticizer retarder dosage by weight of binder",
+      "site:mdpi.com \"Durability of Non-Heat-Cured Geopolymer Mortars\" \"Materials and Methods\" KOH specimen curing",
+      "\"Efficiency of Different Superplasticizers and Retarders\" PMC6829244 Table 2/3 PC1 PC2 PC3 N1 N2 sucrose borax dosage",
+      "Natural-language questions for mix/activator/exposure parameters of 10.3390/ma12203410 and 10.3390/ma13235550"
+    ],
+    "leadsNotIntegrated": [
+      {"doi": "10.3390/ma12203410", "lead": "Full title includes 'and Retarders' and 'One-Part'; abstract-level snippets name five superplasticizers (three polycarboxylate, two naphthalene), three retarders (sucrose, anhydrous borax, one commercial) and two solid activators (anhydrous sodium metasilicate, GD grade sodium silicate) with different silica/soda ratios.", "status": "Search-summary lead; not checked against primary text. Doses, precursor ratio, water and methods still missing."},
+      {"doi": "10.3390/min14080776", "lead": "Activation is KOH with sodium silicate (mixed K/Na source), metakaolin/GGBFS blends, CEN sand, ambient (non-heat) curing; exposures include freeze–thaw, high temperature, wear, MgSO4, Na2SO4 and HCl.", "status": "Search-summary lead; concentrations, durations, KOH molarity and the mix ledger were not returned. Exposure concentrations seen only in model summaries are not recorded as facts."},
+      {"doi": "10.3390/ma13235550", "lead": "NaOH- and sodium silicate-activated fly ash/slag cylinders, with and without plastic film on the curved surface; deposits reported as sodium carbonate hydrates.", "status": "Abstract-level lead; activator dose, water/binder, cylinder size, cure and exposure protocol still missing."}
+    ],
+    "outcome": "No new guide published. All three candidates stay deferred; the deferral reasons in deep-dives-durability-2026-10-19.json still hold.",
+    "nextAccess": "Needs a session where the URL-fetch tool resolves hosts, or allowlisted shell egress to www.ebi.ac.uk / www.mdpi.com. Do not repeat these search queries; they reach only abstracts."
+  },
+  "part2": {
+    "task": "Structured source inventories for all eight published deep dives.",
+    "module": "src/deep-dive-inventory.js",
+    "areas": ["Methods", "Materials", "Mix ledger", "Results", "Figures", "Supplements", "Uncertainty"],
+    "states": ["not yet extracted", "partial", "ambiguous", "not reported", "not applicable", "extracted", "verified"],
+    "basis": "Restated from existing guide holds/access notes and these audits: deep-dive-ggbs-2026-10-17, deep-dives-2026-10-17, deep-dive-hemp-2026-10-18, hemp-methods-continuation-2026-10-18, deep-dives-controls-2026-10-19, deep-dives-durability-2026-10-19. No source was re-read and no new fact added. Locators are null where no prior audit recorded one.",
+    "result": "No area is in the extracted or verified state for any guide. No coverage percentage is published because no guide has an enumerated full-paper table/figure/supplement denominator.",
+    "validation": "Build fails if a guide lacks any area, uses an unknown state, has an empty locator string or states a percentage in an inventory note."
+  },
+  "newPublications": 0,
+  "newObservations": 0,
+  "newRecipes": 0,
+  "retention": "No raw papers, abstracts, figures or tables retained."
+}

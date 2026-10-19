@@ -41,3 +41,13 @@ test('control deep dives preserve denominator and replication limitations',()=>{
  const water=renderPage('/deep-dives/metakaolin-water-temperature').html;
  for(const term of ['250 g stock solution','150 g added water','MK0.6/MK1.0/MK1.4','not total water/binder','No graph values'])assert.ok(water.includes(term),term);
 });
+
+test('every guide shows a fixed-area source inventory without coverage percentages',()=>{
+ for(const d of deepDives){
+  assert.deepEqual(d.inventory.map(r=>r.area),['Methods','Materials','Mix ledger','Results','Figures','Supplements','Uncertainty']);
+  assert.ok(!d.inventory.some(r=>['extracted','verified'].includes(r.state)),d.id);
+  const html=renderPage('/deep-dives/'+d.id).html;assert.match(html,/id="inventory"/);assert.match(html,/no coverage percentage is given/);
+ }
+ assert.match(deepDivePage(deepDives.find(d=>d.id==='metakaolin-freeze-thaw-design')),/Mass units and exact binder\/water denominator unresolved/);
+ for(const change of [r=>r[0].inventory.pop(),r=>r[0].inventory[0].state='complete',r=>r[0].inventory[0].note='80% covered',r=>r[0].inventory[1].locator='']){const r=structuredClone(deepDives);change(r);assert.throws(()=>validateDeepDives(r));}
+});

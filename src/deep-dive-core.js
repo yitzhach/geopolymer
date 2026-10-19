@@ -1,3 +1,4 @@
+import {inventoryAreas,inventoryStates} from './deep-dive-inventory.js';
 // Fail publication when an editorial record loses its identity or provenance.
 export function validateDeepDives(records){
  const ids=new Set(),dois=new Set();
@@ -19,6 +20,12 @@ export function validateDeepDives(records){
   if(!d.arithmetic.rows?.length||!d.arithmetic.notes?.length)throw new Error('Deep dive: arithmetic notes required');
   for(const row of d.arithmetic.rows){if(row.length!==3)throw new Error('Deep dive: invalid arithmetic row');row.forEach(x=>required(x,'arithmetic cell'));}
   d.arithmetic.notes.forEach(x=>required(x,'arithmetic note'));
+  if(!Array.isArray(d.inventory)||d.inventory.map(r=>r.area).join('|')!==inventoryAreas.join('|'))throw new Error(`Deep dive: inventory areas required (${d.id})`);
+  for(const r of d.inventory){
+   if(!inventoryStates.includes(r.state))throw new Error(`Deep dive: invalid inventory state (${d.id})`);
+   required(r.note,'inventory note');if(r.locator!==null)required(r.locator,'inventory locator');
+   if(/%/.test(r.note))throw new Error('Deep dive: inventory must not state coverage percentages');
+  }
  }
  return true;
 }

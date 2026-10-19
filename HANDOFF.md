@@ -1,6 +1,28 @@
 # Geopolymer — current handoff
 Updated 19 October 2026; dates use Eastern time.
 
+## Guide source inventories; deferred durability methods still blocked — 19 October 2026
+- Worked from 6bf1dad (400 publications / eight deep dives) on branch
+  claude/keen-bardeen-c34ppt in a cloud session. Not merged; live identity unverified.
+- First "Next" item blocked: methods for ma13235550 (moisture/efflorescence),
+  min14080776 (mixed K/Na) and ma12203410 (one-part admixtures) not recovered.
+  Shell egress refuses research hosts (Europe PMC REST tried, a new route); URL-fetch
+  tool failed DNS for every host; 16 searches returned abstracts/introductions only.
+  Abstract-level leads recorded but not integrated. All three stay deferred.
+- Built: fixed seven-area source inventory (methods, materials, mix ledger, results,
+  figures, supplements, uncertainty) for all eight guides in src/deep-dive-inventory.js.
+  Restated from existing holds/audits only; no new facts. Rendered on every guide and
+  exported in /deep-dives.json. No area is extracted/verified; no coverage percentage.
+  Build validation rejects missing areas, unknown states, empty locators and percentages.
+- Audit: research/batches/deep-dives-inventory-2026-10-19.json (queries, routes, leads).
+- All 26 Node test files (104 cases) and 428-route build pass. All six browser suites pass
+  locally with pre-installed Chromium and Playwright 1.63.0; CI not yet run on this branch.
+- Counts unchanged: 400 publications, eight deep dives, five partial pilot studies,
+  62 mixes, 275 observations, 43 recipes / 31 scalable. OpenAlex on hold; automation unchanged.
+- Next: retry the three deferred papers only where URL fetch or shell egress reaches
+  www.mdpi.com, PMC or Europe PMC; then move guide inventory rows from partial/not yet
+  extracted to extracted with locators. Hemp/foam/biochar pilot gaps remain as below.
+
 ## Hundred-paper expansion and durability deep dives — 19 October 2026
 - Published baseline 300 publications / six deep dives confirmed at main
   03976b67daa72683ad4884e0e31bdac9f2c51b8f. Added 100 unique DOI records
