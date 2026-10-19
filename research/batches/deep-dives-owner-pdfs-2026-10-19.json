@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-dives-owner-pdfs-2026-10-19",
+  "checked": "2026-10-19",
+  "openAlex": "on hold; not used",
+  "review": "Primary-agent AI reading of owner-supplied publisher PDFs (text layer plus page images). Not human/domain review or replication.",
+  "access": "Owner downloaded the three MDPI PDFs and uploaded them to the session after network access to research hosts was unavailable. PDFs are not committed or retained in the repository.",
+  "resolves": "The three deferrals in deep-dives-durability-2026-10-19.json and part1 of deep-dives-inventory-2026-10-19.json.",
+  "records": [
+    {"doi": "10.3390/ma13235550", "id": "fly-ash-slag-efflorescence-moisture", "relatedStudy": "ke-b14-002",
+     "rights": "© 2020 by the authors, CC BY 4.0 stated in the PDF footer (creativecommons.org/licenses/by/4.0/).",
+     "pdfNote": "Version marked v2 has overlapping text layers; methods checked against page images (pp. 2–5, 7–9, 13–14).",
+     "conflicts": ["§2.2 states 100 mm diameter × 200 mm cylinders; Figure 3 and §2.3 describe 50 mm × 100 mm with three 32 mm slices."],
+     "gaps": ["Mixing time/speed/consolidation not stated", "Graph values not digitized"]},
+    {"doi": "10.3390/ma12203410", "id": "one-part-admixture-compatibility", "relatedStudy": "ke-b14-017",
+     "rights": "© 2019 by the authors, CC BY 4.0 stated in the PDF.",
+     "checks": ["W/GP-solids 0.367 reproduced for AN and GD from Table 2 bound water and Table 5 ratios", "Table 7 means reproduce the text percentages (+139–141% initial set, +90–95% final set, −16%/−26% strength)"],
+     "gaps": ["Combined-admixture doses not restated in §4.3", "SP solids contents not reported", "Heat-cured (60 °C, 24 h) 3-day results only"]},
+    {"doi": "10.3390/min14080776", "id": "metakaolin-slag-potassium-durability", "relatedStudy": "ke-b14-005",
+     "rights": "© 2024 by the authors, CC BY 4.0 stated in the PDF.",
+     "pdfNote": "Overlapping text layers; methods checked against page images (pp. 3–6).",
+     "conflicts": ["Silicate named sodium metasilicate but Table 3 lists SiO2 27.43% / Na2O 8.75% (molar modulus ≈ 3.24)", "Molarity (0.65 M, 8 M) given for solutions whose recipes are not stated"],
+     "gaps": ["Table 5 KOH entry basis (solid or solution)", "Curing temperature/RH not stated", "Replicate counts per test", "Tables 6–7 values not extracted"]}
+  ],
+  "newPublications": 0,
+  "newObservations": 0,
+  "newRecipes": 0,
+  "deepDives": {"before": 8, "after": 11},
+  "retention": "No raw papers, figures or complete tables retained. Text-stated values used only inside editorial guides."
+}

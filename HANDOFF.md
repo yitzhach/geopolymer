@@ -1,6 +1,18 @@
 # Geopolymer — current handoff
 Updated 19 October 2026; dates use Eastern time.
 
+## Three owner-PDF durability guides — 19 October 2026
+- Owner uploaded the three deferred MDPI PDFs. Added /deep-dives/fly-ash-slag-efflorescence-moisture,
+  /deep-dives/one-part-admixture-compatibility and /deep-dives/metakaolin-slag-potassium-durability
+  (src/deep-dive-owner-pdfs.js): eleven guides, each with the seven-area inventory.
+- Conflicts kept visible: efflorescence cylinder size (100×200 vs 50×100 mm); K/Na paper's
+  "metasilicate" listed near modulus 3.2 and ambiguous KOH entry basis. Admixture W/GP-solids
+  0.367 reproduced from bound water. Admixture study is 60 °C heat-cured, not ambient.
+- Audit: research/batches/deep-dives-owner-pdfs-2026-10-19.json. PDFs not committed.
+- 105 Node test cases, 431-route build and all six browser suites pass locally.
+- Counts: 400 publications; pilot/recipe counts unchanged; no canonical observations added.
+- Network: phone app cannot edit environment network access; owner PDF upload is the working route.
+
 ## Guide source inventories; deferred durability methods still blocked — 19 October 2026
 - Worked from 6bf1dad (400 publications / eight deep dives) on branch
   claude/keen-bardeen-c34ppt in a cloud session. Not merged; live identity unverified.
@@ -19,9 +31,8 @@ Updated 19 October 2026; dates use Eastern time.
   locally with pre-installed Chromium and Playwright 1.63.0; CI not yet run on this branch.
 - Counts unchanged: 400 publications, eight deep dives, five partial pilot studies,
   62 mixes, 275 observations, 43 recipes / 31 scalable. OpenAlex on hold; automation unchanged.
-- Next: retry the three deferred papers only where URL fetch or shell egress reaches
-  www.mdpi.com, PMC or Europe PMC; then move guide inventory rows from partial/not yet
-  extracted to extracted with locators. Hemp/foam/biochar pilot gaps remain as below.
+- Superseded: the three deferred papers were resolved from owner PDFs (see top). Next: move
+  guide inventory rows from partial/not yet extracted to extracted with locators. Hemp/foam/biochar pilot gaps remain as below.
 
 ## Hundred-paper expansion and durability deep dives — 19 October 2026
 - Published baseline 300 publications / six deep dives confirmed at main

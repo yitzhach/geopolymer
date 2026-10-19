@@ -68,6 +68,33 @@ export const deepDiveInventories={
   notAssessed,
   row('Uncertainty','partial','§§2.2.1–2.2.3','Six-specimen compression average and one MIP test per mortar recorded; uncertainty audit incomplete.')
  ],
+ 'fly-ash-slag-efflorescence-moisture':[
+  row('Methods','partial','§§2.2–2.3; Figures 2–3','Cure, ageing, slicing and test procedures read; mixing time, speed and consolidation not stated.'),
+  row('Materials','partial','§2.1; Table 1','Source, XRF oxides with LOI and D50 recorded in the source; not transcribed as canonical material records.'),
+  row('Mix ledger','ambiguous','§§2.1–2.2','Blend, L/S and activator chemistry stated; specimen size conflicts between §2.2 and Figure 3.'),
+  row('Results','partial','§3.2.1; §4','Text-stated strength values and outcome directions used; part-level figure values not extracted.'),
+  row('Figures','not yet extracted','Figures 4–11','Page images viewed for methods; no graph digitization.'),
+  notAssessed,
+  row('Uncertainty','partial','§§2.2–2.3','Three replicate cylinders per regime and three strength replicates per part recorded; error-bar type not checked.')
+ ],
+ 'one-part-admixture-compatibility':[
+  row('Methods','partial','§3.2','Mixing sequence, fresh tests, cure and loading recorded.'),
+  row('Materials','partial','§§2.1–2.3; Tables 1–4','Precursor sources, activator specifications and admixture identities recorded; SP solids contents not reported.'),
+  row('Mix ledger','partial','§3.1; Table 5','All 18 single-admixture mixes defined by ratio; combined-admixture doses not restated in §4.3.'),
+  row('Results','partial','§§4.1–4.3; Table 7; §5','Table 7 and text-stated percentages used; Table 6 and figure series not extracted.'),
+  row('Figures','not yet extracted','Figures 1–4','No graph digitization.'),
+  notAssessed,
+  row('Uncertainty','partial','§3.2; Table 7','Six cubes per mix and Table 7 ± values noted; ± type not checked.')
+ ],
+ 'metakaolin-slag-potassium-durability':[
+  row('Methods','partial','§§2.2–2.3','Exposure, freeze–thaw, furnace and abrasion procedures recorded; curing temperature and RH not stated.'),
+  row('Materials','ambiguous','§2.1; Tables 1–4','Silicate named metasilicate but listed near modulus 3.2; supplier data, not lot assays.'),
+  row('Mix ledger','ambiguous','§2.2; Table 5','Mix percentages recorded; KOH solid versus solution basis and water correction unresolved.'),
+  row('Results','partial','Abstract; §4','Outcome directions recorded; Tables 6–7 and strength values not extracted.'),
+  row('Figures','not yet extracted',null,'Strength, weight and microstructure figures not digitized.'),
+  notAssessed,
+  row('Uncertainty','not yet extracted',null,'Replicate counts per test not recovered.')
+ ],
  'carbonate-slag-hydroxide-balance':[
   row('Methods','partial','Methods','Mixing sequence, chamber conditions and strength ages recorded; specimen geometry, demolding and shrinkage protocol not recovered.'),
   row('Materials','not yet extracted',null,'Slag provenance, fineness and reagent purity not recovered in this review.'),
