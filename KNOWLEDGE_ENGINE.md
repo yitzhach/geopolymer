@@ -286,3 +286,13 @@ recipes are unchanged. Source notes are visible in catalog cards and escaped.
 The unexplained secondary status flag on DOI 10.1016/j.cemconcomp.2024.105811
 is held for review and excluded from assistant evidence. OpenAlex stays on hold;
 daily draft automation is unchanged. Exact audits and release status: HANDOFF.md.
+
+## 19 October 2026 — 400-publication checkpoint
+
+Added 100 DOI-deduplicated metadata records in four 25-record batches, preserving
+all prior 300 identities. Eight editorial deep dives now include MK freeze–thaw
+and carbonate/hydroxide activation of slag. Partial review, explicit ratio
+denominators, unfavorable outcomes and unresolved reproduction details remain
+visible. Canonical pilot data and recipes are unchanged. Source correction and
+access limitations are recorded in the batch audits; OpenAlex stays on hold.
+The daily research draft automation is unchanged.

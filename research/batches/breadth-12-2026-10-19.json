@@ -1,0 +1,1278 @@
+{
+  "schemaVersion": 1,
+  "id": "breadth-12-2026-10-19",
+  "checked": "2026-10-19",
+  "baseline": 325,
+  "final": 350,
+  "accepted": 25,
+  "metadataOnlyAdditions": 25,
+  "newObservations": 0,
+  "merges": 0,
+  "deletions": 0,
+  "openAlex": "on hold; not used",
+  "review": "AI bibliographic checks, not human/domain review. Delegated discovery treated only as leads.",
+  "strategy": {
+    "queries": [
+      "\"10.1016/j.conbuildmat.2023.131190\"",
+      "\"10.1016/j.conbuildmat.2020.118641\"",
+      "\"10.1016/j.conbuildmat.2018.07.077\"",
+      "\"10.1111/ijac.14442\"",
+      "\"10.1016/j.matdes.2014.09.024\"",
+      "\"10.1016/j.ceramint.2013.11.011\"",
+      "\"10.1016/j.conbuildmat.2020.119410\"",
+      "\"10.3390/ma15031008\"",
+      "\"10.3390/ma13143215\"",
+      "\"10.3390/ma13071750\"",
+      "\"10.3390/ma13132919\"",
+      "\"10.3390/ma13040841\"",
+      "\"10.1111/jace.18591\"",
+      "\"10.1111/ijac.14848\"",
+      "\"10.1016/j.ceramint.2024.02.270\"",
+      "\"10.1080/21870764.2021.1873482\"",
+      "\"10.2298/ciceq211007003b\"",
+      "\"10.1155/2019/1098027\"",
+      "\"10.3390/ma14133568\"",
+      "\"10.1016/j.pmatsci.2019.100621\"",
+      "\"10.1016/j.cemconcomp.2020.103886\"",
+      "\"10.1016/j.jeurceramsoc.2014.04.001\"",
+      "\"10.1021/acsomega.4c06227\"",
+      "\"10.1016/j.conbuildmat.2022.127064\"",
+      "\"10.1111/ijac.14028\""
+    ],
+    "bounds": "25 accepted metadata records per batch; discovery and primary verification each bounded at 40 retrieval/search operations.",
+    "primaryVerification": 40,
+    "queryLogNote": "Exact DOI query strategy listed here; supplemental query and failed-access logs in breadth-400-verification-log.json. Replaced duplicate fiber DOI was queried during discovery."
+  },
+  "rights": "Bibliographic facts only. Full-text rights unassessed in metadata stage; no abstracts, paper copies or figures retained.",
+  "limitations": [
+    "Dataset independence unresolved; related articles and theses are not counted as independent experiments.",
+    "Indexed metadata checks do not constitute comprehensive correction/retraction clearance."
+  ],
+  "records": [
+    {
+      "id": "ke-b12-001",
+      "doi": "10.1016/j.conbuildmat.2023.131190",
+      "originalDoi": "10.1016/j.conbuildmat.2023.131190",
+      "title": "Preparation of eco-friendly porous ceramic with low thermal conductivity by high-temperature treatment of foamed solid waste based geopolymer with cenospheres",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2023,
+      "published": "2023",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2023.131190",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0950061823009029",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0950061823009029",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-001",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0950061823009029",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-002",
+      "doi": "10.1016/j.conbuildmat.2020.118641",
+      "originalDoi": "10.1016/j.conbuildmat.2020.118641",
+      "title": "Correlation between pore structure, compressive strength and thermal conductivity of porous metakaolin geopolymer",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2020,
+      "published": "2020",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2020.118641",
+      "publisherUrl": "https://doi.org/10.1016/j.conbuildmat.2020.118641",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://doi.org/10.1016/j.conbuildmat.2020.118641",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-002",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://doi.org/10.1016/j.conbuildmat.2020.118641",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-003",
+      "doi": "10.1016/j.conbuildmat.2018.07.077",
+      "originalDoi": "10.1016/j.conbuildmat.2018.07.077",
+      "title": "Fabrication of hollow microspheres filled fly ash based foam geopolymers with ultra-low thermal conductivity and relative high strength",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2018,
+      "published": "2018",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2018.07.077",
+      "publisherUrl": "https://doi.org/10.1016/j.conbuildmat.2018.07.077",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://doi.org/10.1016/j.conbuildmat.2018.07.077",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-003",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://doi.org/10.1016/j.conbuildmat.2018.07.077",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-004",
+      "doi": "10.1111/ijac.14442",
+      "originalDoi": "10.1111/ijac.14442",
+      "title": "Investigation on pore properties, thermal conductivity, and compressive behavior of fly ash/slag-based geopolymer foam",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2023,
+      "published": "2023",
+      "journal": "International Journal of Applied Ceramic Technology",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.1111/ijac.14442",
+      "publisherUrl": "https://ceramics.onlinelibrary.wiley.com/doi/full/10.1111/ijac.14442",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://ceramics.onlinelibrary.wiley.com/doi/full/10.1111/ijac.14442",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-004",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://ceramics.onlinelibrary.wiley.com/doi/full/10.1111/ijac.14442",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-005",
+      "doi": "10.1016/j.matdes.2014.09.024",
+      "originalDoi": "10.1016/j.matdes.2014.09.024",
+      "title": "Development of porous fly ash-based geopolymer with low thermal conductivity",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2015,
+      "published": "2015",
+      "journal": "Materials & Design",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.1016/j.matdes.2014.09.024",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0261306914007146",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0261306914007146",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-005",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0261306914007146",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-006",
+      "doi": "10.1016/j.ceramint.2013.11.011",
+      "originalDoi": "10.1016/j.ceramint.2013.11.011",
+      "title": "Geopolymer foams by gelcasting",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2014,
+      "published": "2014",
+      "journal": "Ceramics International",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.1016/j.ceramint.2013.11.011",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0272884213014429",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/abs/pii/S0272884213014429",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-006",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0272884213014429",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-007",
+      "doi": "10.1016/j.conbuildmat.2020.119410",
+      "originalDoi": "10.1016/j.conbuildmat.2020.119410",
+      "title": "Influence of precast foam on the pore structure and properties of fly ash-based geopolymer foams",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2020,
+      "published": "2020",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2020.119410",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S095006182031415X",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/abs/pii/S095006182031415X",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-007",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S095006182031415X",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-008",
+      "doi": "10.3390/ma15031008",
+      "originalDoi": "10.3390/ma15031008",
+      "title": "K2O-Metakaolin-Based Geopolymer Foams: Production, Porosity Characterization and Permeability Test",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2022,
+      "published": "2022",
+      "journal": "Materials",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.3390/ma15031008",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/15/3/1008",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.mdpi.com/1996-1944/15/3/1008",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-008",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.mdpi.com/1996-1944/15/3/1008",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-009",
+      "doi": "10.3390/ma13143215",
+      "originalDoi": "10.3390/ma13143215",
+      "title": "Microstructure, Compressive Strength and Sound Insulation Property of Fly Ash-Based Geopolymeric Foams with Silica Fume as Foaming Agent",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2020,
+      "published": "2020",
+      "journal": "Materials",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.3390/ma13143215",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/13/14/3215",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.mdpi.com/1996-1944/13/14/3215",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-009",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.mdpi.com/1996-1944/13/14/3215",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-010",
+      "doi": "10.3390/ma13071750",
+      "originalDoi": "10.3390/ma13071750",
+      "title": "Fabrication and Fireproofing Performance of the Coal Fly Ash-Metakaolin-Based Geopolymer Foams",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2020,
+      "published": "2020",
+      "journal": "Materials",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.3390/ma13071750",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/13/7/1750",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.mdpi.com/1996-1944/13/7/1750",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-010",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.mdpi.com/1996-1944/13/7/1750",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-011",
+      "doi": "10.3390/ma13132919",
+      "originalDoi": "10.3390/ma13132919",
+      "title": "Hybrid Fly Ash-Based Geopolymeric Foams: Microstructural, Thermal and Mechanical Properties",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2020,
+      "published": "2020",
+      "journal": "Materials",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.3390/ma13132919",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/13/13/2919",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.mdpi.com/1996-1944/13/13/2919",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-011",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.mdpi.com/1996-1944/13/13/2919",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-012",
+      "doi": "10.3390/ma13040841",
+      "originalDoi": "10.3390/ma13040841",
+      "title": "Preparation and Performance of a Low-Carbon Foam Material of Fly-Ash-Based Foamed Geopolymer for the Goaf Filling",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2020,
+      "published": "2020",
+      "journal": "Materials",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.3390/ma13040841",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/13/4/841",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.mdpi.com/1996-1944/13/4/841",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-012",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.mdpi.com/1996-1944/13/4/841",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-013",
+      "doi": "10.1111/jace.18591",
+      "originalDoi": "10.1111/jace.18591",
+      "title": "Bubble behaviors in chemical direct foaming process and effects on pore structures of geopolymer foams",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2022,
+      "published": "2022",
+      "journal": "Journal of the American Ceramic Society",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.1111/jace.18591",
+      "publisherUrl": "https://ceramics.onlinelibrary.wiley.com/doi/abs/10.1111/jace.18591",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://ceramics.onlinelibrary.wiley.com/doi/abs/10.1111/jace.18591",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-013",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://ceramics.onlinelibrary.wiley.com/doi/abs/10.1111/jace.18591",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-014",
+      "doi": "10.1111/ijac.14848",
+      "originalDoi": "10.1111/ijac.14848",
+      "title": "Influence of direct foaming methods on the early performance and microstructure of metakaolin-based foam geopolymers",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2025,
+      "published": "2025",
+      "journal": "International Journal of Applied Ceramic Technology",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.1111/ijac.14848",
+      "publisherUrl": "https://ceramics.onlinelibrary.wiley.com/doi/10.1111/ijac.14848",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://ceramics.onlinelibrary.wiley.com/doi/10.1111/ijac.14848",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-014",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://ceramics.onlinelibrary.wiley.com/doi/10.1111/ijac.14848",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-015",
+      "doi": "10.1016/j.ceramint.2024.02.270",
+      "originalDoi": "10.1016/j.ceramint.2024.02.270",
+      "title": "A comparative study of porous geopolymers synthesized by pre-foaming and H2O2 foaming methods: Strength and pore structure characteristics",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2024,
+      "published": "2024",
+      "journal": "Ceramics International",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.1016/j.ceramint.2024.02.270",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0272884224007727",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/abs/pii/S0272884224007727",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-015",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0272884224007727",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-016",
+      "doi": "10.1080/21870764.2021.1873482",
+      "originalDoi": "10.1080/21870764.2021.1873482",
+      "title": "Effects of surfactants/stabilizing agents on the microstructure and properties of porous geopolymers by direct foaming",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2021,
+      "published": "2021",
+      "journal": "Journal of Asian Ceramic Societies",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.1080/21870764.2021.1873482",
+      "publisherUrl": "https://www.tandfonline.com/doi/full/10.1080/21870764.2021.1873482",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.tandfonline.com/doi/full/10.1080/21870764.2021.1873482",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-016",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.tandfonline.com/doi/full/10.1080/21870764.2021.1873482",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-017",
+      "doi": "10.2298/ciceq211007003b",
+      "originalDoi": "10.2298/ciceq211007003b",
+      "title": "Foamed geopolymer with customized pore structure",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2022,
+      "published": "2022",
+      "journal": "Chemical Industry and Chemical Engineering Quarterly",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.2298/ciceq211007003b",
+      "publisherUrl": "https://doiserbia.nb.rs/Article.aspx?id=1451-93722200003B",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://doiserbia.nb.rs/Article.aspx?id=1451-93722200003B",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-017",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://doiserbia.nb.rs/Article.aspx?id=1451-93722200003B",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-018",
+      "doi": "10.1155/2019/1098027",
+      "originalDoi": "10.1155/2019/1098027",
+      "title": "Fly Ash Particle Size Effect on Pore Structure and Strength of Fly Ash Foamed Geopolymer",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2019,
+      "published": "2019",
+      "journal": "Advances in Polymer Technology",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.1155/2019/1098027",
+      "publisherUrl": "https://onlinelibrary.wiley.com/doi/10.1155/2019/1098027",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://onlinelibrary.wiley.com/doi/10.1155/2019/1098027",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-018",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1155/2019/1098027",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-019",
+      "doi": "10.3390/ma14133568",
+      "originalDoi": "10.3390/ma14133568",
+      "title": "Geopolymer Foams—Will They Ever Become a Viable Alternative to Popular Insulation Materials?—A Critical Opinion",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2021,
+      "published": "2021",
+      "journal": "Materials",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.3390/ma14133568",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/14/13/3568",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.mdpi.com/1996-1944/14/13/3568",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-019",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.mdpi.com/1996-1944/14/13/3568",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-020",
+      "doi": "10.1016/j.pmatsci.2019.100621",
+      "originalDoi": "10.1016/j.pmatsci.2019.100621",
+      "title": "Geopolymer foams: An overview of recent advancements",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2020,
+      "published": "2020",
+      "journal": "Progress in Materials Science",
+      "type": "Review",
+      "topic": "Foams",
+      "url": "https://doi.org/10.1016/j.pmatsci.2019.100621",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0079642519301033",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0079642519301033",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-020",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0079642519301033",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-021",
+      "doi": "10.1016/j.cemconcomp.2020.103886",
+      "originalDoi": "10.1016/j.cemconcomp.2020.103886",
+      "title": "Progress, current thinking and challenges in geopolymer foam concrete technology",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2021,
+      "published": "2021",
+      "journal": "Cement and Concrete Composites",
+      "type": "Review",
+      "topic": "Foams",
+      "url": "https://doi.org/10.1016/j.cemconcomp.2020.103886",
+      "publisherUrl": "https://doi.org/10.1016/j.cemconcomp.2020.103886",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://doi.org/10.1016/j.cemconcomp.2020.103886",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-021",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://doi.org/10.1016/j.cemconcomp.2020.103886",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-022",
+      "doi": "10.1016/j.jeurceramsoc.2014.04.001",
+      "originalDoi": "10.1016/j.jeurceramsoc.2014.04.001",
+      "title": "Open cell geopolymer foams by a novel saponification/peroxide/gelcasting combined route",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2014,
+      "published": "2014",
+      "journal": "Journal of the European Ceramic Society",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.1016/j.jeurceramsoc.2014.04.001",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0955221914001897",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0955221914001897",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-022",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0955221914001897",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-023",
+      "doi": "10.1021/acsomega.4c06227",
+      "originalDoi": "10.1021/acsomega.4c06227",
+      "title": "Energy-Efficient Insulating Geopolymer Foams with the Addition of Phase Change Materials",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2025,
+      "published": "2025",
+      "journal": "ACS Omega",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.1021/acsomega.4c06227",
+      "publisherUrl": "https://pubs.acs.org/doi/10.1021/acsomega.4c06227",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://pubs.acs.org/doi/10.1021/acsomega.4c06227",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-023",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://pubs.acs.org/doi/10.1021/acsomega.4c06227",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-024",
+      "doi": "10.1016/j.conbuildmat.2022.127064",
+      "originalDoi": "10.1016/j.conbuildmat.2022.127064",
+      "title": "Pore structure of geopolymer materials and its correlations to engineering properties: A review",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2022,
+      "published": "2022",
+      "journal": "Construction and Building Materials",
+      "type": "Review",
+      "topic": "Foams",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2022.127064",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0950061822007474",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/abs/pii/S0950061822007474",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-024",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0950061822007474",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b12-025",
+      "doi": "10.1111/ijac.14028",
+      "originalDoi": "10.1111/ijac.14028",
+      "title": "A review on the porous geopolymer preparation for structural and functional materials applications",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2022,
+      "published": "2022",
+      "journal": "International Journal of Applied Ceramic Technology",
+      "type": "Review",
+      "topic": "Foams",
+      "url": "https://doi.org/10.1111/ijac.14028",
+      "publisherUrl": "https://ceramics.onlinelibrary.wiley.com/doi/10.1111/ijac.14028",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://ceramics.onlinelibrary.wiley.com/doi/10.1111/ijac.14028",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b12-025",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for foams. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://ceramics.onlinelibrary.wiley.com/doi/10.1111/ijac.14028",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    }
+  ]
+}

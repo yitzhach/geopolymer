@@ -1,0 +1,1278 @@
+{
+  "schemaVersion": 1,
+  "id": "breadth-11-2026-10-19",
+  "checked": "2026-10-19",
+  "baseline": 300,
+  "final": 325,
+  "accepted": 25,
+  "metadataOnlyAdditions": 25,
+  "newObservations": 0,
+  "merges": 0,
+  "deletions": 0,
+  "openAlex": "on hold; not used",
+  "review": "AI bibliographic checks, not human/domain review. Delegated discovery treated only as leads.",
+  "strategy": {
+    "queries": [
+      "\"10.1016/j.conbuildmat.2024.137957\"",
+      "\"10.1016/j.conbuildmat.2023.131714\"",
+      "\"10.1016/j.conbuildmat.2022.127206\"",
+      "\"10.1007/s40891-021-00341-3\"",
+      "\"10.3390/molecules28041868\"",
+      "\"10.3390/molecules27030796\"",
+      "\"10.1155/2022/1981755\"",
+      "\"10.3390/molecules28207189\"",
+      "\"10.1016/j.conbuildmat.2023.131666\"",
+      "\"10.1002/eng2.12708\"",
+      "\"10.1016/j.ceramint.2020.01.184\"",
+      "\"10.1016/j.eti.2020.101105\"",
+      "\"10.3390/app112211026\"",
+      "\"10.3390/app112110443\"",
+      "\"10.3390/polym13152493\"",
+      "\"10.3390/molecules29102401\"",
+      "\"10.3390/app14219787\"",
+      "\"10.3390/su12010118\"",
+      "\"10.3390/ma12091459\"",
+      "\"10.1007/s13369-021-06378-w\"",
+      "\"10.1016/j.clay.2019.105333\"",
+      "\"10.1007/s40145-015-0161-1\"",
+      "\"10.1016/j.cscm.2022.e00894\"",
+      "\"10.1080/19386362.2018.1464272\"",
+      "\"10.1007/s41062-020-00441-5\""
+    ],
+    "bounds": "25 accepted metadata records per batch; discovery and primary verification each bounded at 40 retrieval/search operations.",
+    "primaryVerification": 37,
+    "queryLogNote": "Exact DOI query strategy listed here; supplemental query and failed-access logs in breadth-400-verification-log.json. Replaced duplicate fiber DOI was queried during discovery."
+  },
+  "rights": "Bibliographic facts only. Full-text rights unassessed in metadata stage; no abstracts, paper copies or figures retained.",
+  "limitations": [
+    "Dataset independence unresolved; related articles and theses are not counted as independent experiments.",
+    "Indexed metadata checks do not constitute comprehensive correction/retraction clearance."
+  ],
+  "records": [
+    {
+      "id": "ke-b11-001",
+      "doi": "10.1016/j.conbuildmat.2024.137957",
+      "originalDoi": "10.1016/j.conbuildmat.2024.137957",
+      "title": "Fibre hornification improves the long-term properties of hemp fibre-reinforced fly ash-based geopolymer mortar",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2024,
+      "published": "2024",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2024.137957",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S095006182403099X",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S095006182403099X",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-001",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S095006182403099X",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-002",
+      "doi": "10.1016/j.conbuildmat.2023.131714",
+      "originalDoi": "10.1016/j.conbuildmat.2023.131714",
+      "title": "Effect of magnesium sulfate on properties of low calcium fly ash based-geopolymer-treated hemp shiv bio-concrete",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2023,
+      "published": "2023",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Hemp shiv",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2023.131714",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0950061823014277",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0950061823014277",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-002",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for hemp shiv. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0950061823014277",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-003",
+      "doi": "10.1016/j.conbuildmat.2022.127206",
+      "originalDoi": "10.1016/j.conbuildmat.2022.127206",
+      "title": "Thermal and mechanical characterization of fly ash geopolymer with aluminium chloride and potassium hydroxide treated hemp shiv lightweight aggregate",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2022,
+      "published": "2022",
+      "journal": "Construction and Building Materials",
+      "type": "Journal article",
+      "topic": "Hemp shiv",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2022.127206",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0950061822008868",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0950061822008868",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-003",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for hemp shiv. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0950061822008868",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-004",
+      "doi": "10.1007/s40891-021-00341-3",
+      "originalDoi": "10.1007/s40891-021-00341-3",
+      "title": "Experimental Investigations on Strength and Durability of Alkali Activated Binder Treated Natural Jute Geotextile",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2021,
+      "published": "2021",
+      "journal": "International Journal of Geosynthetics and Ground Engineering",
+      "type": "Journal article",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.1007/s40891-021-00341-3",
+      "publisherUrl": "https://link.springer.com/article/10.1007/s40891-021-00341-3",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://link.springer.com/article/10.1007/s40891-021-00341-3",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-004",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://link.springer.com/article/10.1007/s40891-021-00341-3",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-005",
+      "doi": "10.3390/molecules28041868",
+      "originalDoi": "10.3390/molecules28041868",
+      "title": "Alkaline Degradation of Plant Fiber Reinforcements in Geopolymer: A Review",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2023,
+      "published": "2023",
+      "journal": "Molecules",
+      "type": "Review",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.3390/molecules28041868",
+      "publisherUrl": "https://www.mdpi.com/1420-3049/28/4/1868",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.mdpi.com/1420-3049/28/4/1868",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-005",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.mdpi.com/1420-3049/28/4/1868",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-006",
+      "doi": "10.3390/molecules27030796",
+      "originalDoi": "10.3390/molecules27030796",
+      "title": "Durability of Cellulosic-Fiber-Reinforced Geopolymers: A Review",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2022,
+      "published": "2022",
+      "journal": "Molecules",
+      "type": "Review",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.3390/molecules27030796",
+      "publisherUrl": "https://www.mdpi.com/1420-3049/27/3/796",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.mdpi.com/1420-3049/27/3/796",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-006",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.mdpi.com/1420-3049/27/3/796",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-007",
+      "doi": "10.1155/2022/1981755",
+      "originalDoi": "10.1155/2022/1981755",
+      "title": "Degradation Kinetics and Durability Enhancement Strategies of Cellulosic Fiber-Reinforced Geopolymers and Cement Composites",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2022,
+      "published": "2022",
+      "journal": "Advances in Materials Science and Engineering",
+      "type": "Journal article",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.1155/2022/1981755",
+      "publisherUrl": "https://onlinelibrary.wiley.com/doi/10.1155/2022/1981755",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://onlinelibrary.wiley.com/doi/10.1155/2022/1981755",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-007",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/1981755",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-008",
+      "doi": "10.3390/molecules28207189",
+      "originalDoi": "10.3390/molecules28207189",
+      "title": "Effect of Wet–Dry Cycling on Properties of Natural-Cellulose-Fiber-Reinforced Geopolymers: A Short Review",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2023,
+      "published": "2023",
+      "journal": "Molecules",
+      "type": "Review",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.3390/molecules28207189",
+      "publisherUrl": "https://www.mdpi.com/1420-3049/28/20/7189",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.mdpi.com/1420-3049/28/20/7189",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-008",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.mdpi.com/1420-3049/28/20/7189",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-009",
+      "doi": "10.1016/j.conbuildmat.2023.131666",
+      "originalDoi": "10.1016/j.conbuildmat.2023.131666",
+      "title": "Geopolymer composites reinforced with natural fibers: A review of recent advances in processing and properties",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2023,
+      "published": "2023",
+      "journal": "Construction and Building Materials",
+      "type": "Review",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2023.131666",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S095006182301379X",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S095006182301379X",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-009",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S095006182301379X",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-010",
+      "doi": "10.1002/eng2.12708",
+      "originalDoi": "10.1002/eng2.12708",
+      "title": "Mechanical properties and durability of fiber reinforced geopolymer composites: A review on recent progress",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2023,
+      "published": "2023",
+      "journal": "Engineering Reports",
+      "type": "Review",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.1002/eng2.12708",
+      "publisherUrl": "https://onlinelibrary.wiley.com/doi/10.1002/eng2.12708",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://onlinelibrary.wiley.com/doi/10.1002/eng2.12708",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-010",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/eng2.12708",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-011",
+      "doi": "10.1016/j.ceramint.2020.01.184",
+      "originalDoi": "10.1016/j.ceramint.2020.01.184",
+      "title": "Sustainable geopolymer composites reinforced with flax tows",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2020,
+      "published": "2020",
+      "journal": "Ceramics International",
+      "type": "Journal article",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.1016/j.ceramint.2020.01.184",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0272884220301887",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0272884220301887",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-011",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0272884220301887",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-012",
+      "doi": "10.1016/j.eti.2020.101105",
+      "originalDoi": "10.1016/j.eti.2020.101105",
+      "title": "Effect of pre-treatment of flax tows on mechanical properties and microstructure of natural fiber reinforced geopolymer composites",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2020,
+      "published": "2020",
+      "journal": "Environmental Technology & Innovation",
+      "type": "Journal article",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.1016/j.eti.2020.101105",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S2352186420302844",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://onlinelibrary.wiley.com/doi/10.1155/2022/1981755",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-012",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/1981755",
+            "result": "bibliographic-identity-checked",
+            "scope": "Reference 113 in the linked Wiley review; title, DOI, journal, volume and year corroborated. Original publisher page inaccessible."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Reference 113 in the linked Wiley review; title, DOI, journal, volume and year corroborated. Original publisher page inaccessible.",
+      "metadataNote": "Bibliographic identity corroborated through a publisher-hosted reference list; original article heading was not accessible. Full text and experimental claims remain unreviewed."
+    },
+    {
+      "id": "ke-b11-013",
+      "doi": "10.3390/app112211026",
+      "originalDoi": "10.3390/app112211026",
+      "title": "Geopolymers Reinforced with Natural Fibers: A Comparison among Different Sources",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2021,
+      "published": "2021",
+      "journal": "Applied Sciences",
+      "type": "Journal article",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.3390/app112211026",
+      "publisherUrl": "https://www.mdpi.com/2076-3417/11/22/11026",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.mdpi.com/2076-3417/11/22/11026",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-013",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.mdpi.com/2076-3417/11/22/11026",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-014",
+      "doi": "10.3390/app112110443",
+      "originalDoi": "10.3390/app112110443",
+      "title": "Effect of Fiber Reinforcement on the Compression and Flexural Strength of Fiber-Reinforced Geopolymers",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2021,
+      "published": "2021",
+      "journal": "Applied Sciences",
+      "type": "Journal article",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.3390/app112110443",
+      "publisherUrl": "https://www.mdpi.com/2076-3417/11/21/10443",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.mdpi.com/2076-3417/11/21/10443",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-014",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.mdpi.com/2076-3417/11/21/10443",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-015",
+      "doi": "10.3390/polym13152493",
+      "originalDoi": "10.3390/polym13152493",
+      "title": "Natural Fibers as an Alternative to Synthetic Fibers in Reinforcement of Geopolymer Matrices: A Comparative Review",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2021,
+      "published": "2021",
+      "journal": "Polymers",
+      "type": "Review",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.3390/polym13152493",
+      "publisherUrl": "https://www.mdpi.com/2073-4360/13/15/2493",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.mdpi.com/2073-4360/13/15/2493",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-015",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.mdpi.com/2073-4360/13/15/2493",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-016",
+      "doi": "10.3390/molecules29102401",
+      "originalDoi": "10.3390/molecules29102401",
+      "title": "A Review of Sisal Fiber-Reinforced Geopolymers: Preparation, Microstructure, and Mechanical Properties",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2024,
+      "published": "2024",
+      "journal": "Molecules",
+      "type": "Review",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.3390/molecules29102401",
+      "publisherUrl": "https://www.mdpi.com/1420-3049/29/10/2401",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.mdpi.com/1420-3049/29/10/2401",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-016",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.mdpi.com/1420-3049/29/10/2401",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-017",
+      "doi": "10.3390/app14219787",
+      "originalDoi": "10.3390/app14219787",
+      "title": "Hybrid Geopolymer Composites Based on Fly Ash Reinforced with Glass and Flax Fibers",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2024,
+      "published": "2024",
+      "journal": "Applied Sciences",
+      "type": "Journal article",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.3390/app14219787",
+      "publisherUrl": "https://www.mdpi.com/2076-3417/14/21/9787",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.mdpi.com/2076-3417/14/21/9787",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-017",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.mdpi.com/2076-3417/14/21/9787",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-018",
+      "doi": "10.3390/su12010118",
+      "originalDoi": "10.3390/su12010118",
+      "title": "Impact of Flax and Basalt Fibre Reinforcement on Selected Properties of Geopolymer Composites",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2020,
+      "published": "2020",
+      "journal": "Sustainability",
+      "type": "Journal article",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.3390/su12010118",
+      "publisherUrl": "https://www.mdpi.com/2071-1050/12/1/118",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.mdpi.com/2071-1050/12/1/118",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-018",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.mdpi.com/2071-1050/12/1/118",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-019",
+      "doi": "10.3390/ma12091459",
+      "originalDoi": "10.3390/ma12091459",
+      "title": "Influence of Nano Silica Particles on Durability of Flax Fabric Reinforced Geopolymer Composites",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2019,
+      "published": "2019",
+      "journal": "Materials",
+      "type": "Journal article",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.3390/ma12091459",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/12/9/1459",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.mdpi.com/1996-1944/12/9/1459",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-019",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.mdpi.com/1996-1944/12/9/1459",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-020",
+      "doi": "10.1007/s13369-021-06378-w",
+      "originalDoi": "10.1007/s13369-021-06378-w",
+      "title": "Synthesis and Characterization of Date Palm Fiber-Reinforced Geopolymer Composite",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2022,
+      "published": "2022",
+      "journal": "Arabian Journal for Science and Engineering",
+      "type": "Journal article",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.1007/s13369-021-06378-w",
+      "publisherUrl": "https://link.springer.com/article/10.1007/s13369-021-06378-w",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://researchportal.vub.be/en/publications/synthesis-and-characterization-of-date-palm-fiber-reinforced-geop/",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-020",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://researchportal.vub.be/en/publications/synthesis-and-characterization-of-date-palm-fiber-reinforced-geop/",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-021",
+      "doi": "10.1016/j.clay.2019.105333",
+      "originalDoi": "10.1016/j.clay.2019.105333",
+      "title": "Iron-rich laterite-bagasse fibers based geopolymer composite: Mechanical, durability and insulating properties",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2019,
+      "published": "2019",
+      "journal": "Applied Clay Science",
+      "type": "Journal article",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.1016/j.clay.2019.105333",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0169131719303916",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S0169131719303916",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-021",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0169131719303916",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-022",
+      "doi": "10.1007/s40145-015-0161-1",
+      "originalDoi": "10.1007/s40145-015-0161-1",
+      "title": "Characterisation of mechanical and thermal properties in flax fabric reinforced geopolymer composites",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2015,
+      "published": "2015",
+      "journal": "Journal of Advanced Ceramics",
+      "type": "Journal article",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.1007/s40145-015-0161-1",
+      "publisherUrl": "https://link.springer.com/article/10.1007/s40145-015-0161-1",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://link.springer.com/article/10.1007/s40145-015-0161-1",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-022",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://link.springer.com/article/10.1007/s40145-015-0161-1",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-023",
+      "doi": "10.1016/j.cscm.2022.e00894",
+      "originalDoi": "10.1016/j.cscm.2022.e00894",
+      "title": "Eco-friendly fibre reinforced geopolymer concrete: A critical review on the microstructure and long-term durability properties",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2022,
+      "published": "2022",
+      "journal": "Case Studies in Construction Materials",
+      "type": "Review",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.1016/j.cscm.2022.e00894",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S2214509522007462",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.sciencedirect.com/science/article/pii/S2214509522000262",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-023",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2214509522000262",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    },
+    {
+      "id": "ke-b11-024",
+      "doi": "10.1080/19386362.2018.1464272",
+      "originalDoi": "10.1080/19386362.2018.1464272",
+      "title": "Performance of alkali-activated binder-treated jute geotextile as reinforcement for subgrade stabilization",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2021,
+      "published": "2021",
+      "journal": "International Journal of Geotechnical Engineering",
+      "type": "Journal article",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.1080/19386362.2018.1464272",
+      "publisherUrl": "https://www.tandfonline.com/doi/abs/10.1080/19386362.2018.1464272",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://www.tandfonline.com/doi/abs/10.1080/19386362.2018.1464272",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-024",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/19386362.2018.1464272",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "2021 issue year; first online in 2018. Metadata only."
+    },
+    {
+      "id": "ke-b11-025",
+      "doi": "10.1007/s41062-020-00441-5",
+      "originalDoi": "10.1007/s41062-020-00441-5",
+      "title": "Effect of soil burial exposure on durability of alkali-activated binder-treated jute geotextile",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2021,
+      "published": "2021",
+      "journal": "Innovative Infrastructure Solutions",
+      "type": "Journal article",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.1007/s41062-020-00441-5",
+      "publisherUrl": "https://link.springer.com/article/10.1007/s41062-020-00441-5",
+      "checked": "2026-10-19",
+      "access": "Bibliographic metadata checked; no full-text extraction in this catalog batch",
+      "metadataSource": "https://link.springer.com/article/10.1007/s41062-020-00441-5",
+      "metadataProvider": "Publisher or institutional indexed record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b11-025",
+      "datasetFamilyId": null,
+      "scope": "Bibliographic discovery for fibers. Publication identity does not establish independent data or numerical performance.",
+      "dateBasis": "Cited publication/issue year; exact first-online date not normalized in this batch",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher/institutional publication record; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Bibliographic identity checked against indexed publisher/institutional records. No comprehensive correction/retraction check; inaccessible publisher pages and incomplete full-text rights remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Publisher or institutional indexed record",
+            "url": "https://link.springer.com/article/10.1007/s41062-020-00441-5",
+            "result": "bibliographic-identity-checked",
+            "scope": "Title, DOI, cited year and journal checked; authors transcribed only where available in inspected source. Full-text license and correction status not assessed."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope note only. Full-text operations, raw retention, embeddings and figure reuse are unassessed and not performed."
+      },
+      "metadataLocator": "Publication heading, DOI and citation/issue metadata in indexed source; not linked recommendations or references.",
+      "metadataNote": "Cited issue/publication year retained; DOI year is not used as a date inference. Metadata only; see source for complete authorship."
+    }
+  ]
+}

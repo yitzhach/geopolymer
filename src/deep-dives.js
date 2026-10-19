@@ -1,3 +1,4 @@
+import {durabilityDeepDives} from './deep-dive-durability.js';
 import {controlDeepDives} from './deep-dive-controls.js';
 import {hempDeepDive} from './deep-dive-hemp.js';
 import {deepDiveAdditions} from './deep-dive-additions.js';
@@ -52,3 +53,5 @@ deepDives.push(hempDeepDive);
 for(const d of deepDives)if(d.relatedRecipe)d.licenseUrl="https://creativecommons.org/licenses/by/4.0/";
 
 deepDives.push(...controlDeepDives);
+
+deepDives.push(...durabilityDeepDives);
