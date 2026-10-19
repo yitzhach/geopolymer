@@ -112,3 +112,7 @@ test('per-operation decisions gate public display', () => {
   assert.deepEqual(codes({ sources: [src(ops('allowed'))], items: [item(table)] }), []);
   assert.ok(codes({ sources: [src({ operations: { publish: { decision: 'allowed' } } })], items: [] }).includes('SRC_OPERATION'));
 });
+
+test('null or missing options fall back to defaults', () => {
+  assert.equal(checkBundle({ sources: [src()], items: [item()] }, null).errors, 0);
+});

@@ -98,7 +98,8 @@ const nonEmpty = v => typeof v === 'string' && v.trim().length > 0;
 const words = s => tokenize(s).length;
 const daysBetween = (a, b) => Math.floor((Date.parse(b) - Date.parse(a)) / 86400000);
 
-export function mergeOptions(options = {}) {
+export function mergeOptions(options) {
+  options = options || {};
   return {
     ...DEFAULTS, ...options,
     quote: { ...DEFAULTS.quote, ...options.quote },
