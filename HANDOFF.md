@@ -1,6 +1,15 @@
 # Geopolymer — current handoff
 Updated 20 October 2026; dates use Eastern time.
 
+## Deep-dive menu link — 20 October 2026
+- Owner requested the direct deep-dive URL and a menu entry. Added “Experiment
+  deep dives” under Research, directly after Research Library, in index.html.
+- Destination: /deep-dives. Production build passes (1,094 routes). Focused browser
+  checks pass at desktop/mobile widths, with and without JavaScript; all 74 guide
+  cards render and the destination has no horizontal overflow.
+- Publish with this session's standing main-push authorization. Live deployment
+  identity remains separate from local validation and Git publication.
+
 ## 1,000-publication expansion — 20 October 2026
 - Owner requested 200 more after the completed 800 checkpoint, plus more deep
   dives. Standing authorization to push completed tested work to main continues.
