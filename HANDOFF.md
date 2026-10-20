@@ -44,11 +44,13 @@ Updated 20 October 2026; dates use Eastern time.
 - A local warm Node filtering microbenchmark (500/1,000 actual catalog prefixes,
   140 measured calls each) and payload/build sizes are recorded in the performance
   audit. It is not a browser, network, production or universal performance claim.
-- A single owner-authorized five-hour continuation was rescheduled for this target;
-  it must verify counts/handoff before doing work and avoid duplicate additions.
+- The single owner-authorized five-hour continuation was paused after successful
+  completion and verified main publication, preventing duplicate additions.
   Existing daily automation unchanged. OpenAlex remains on hold.
-- Validation complete; main publication is the final release action. Remote CI
-  and live deployment remain unverified. Next after release: inspect full PDFs
+- Published implementation f76afa106d8a712eb6e36f929f93df010006d9e3 to main;
+  git ls-remote confirmed that exact SHA after push. This publication-status note
+  follows in a documentation commit. Remote CI and live deployment remain
+  unverified. Next research: inspect full PDFs
   and supplements for selected guides, reconcile the existing MgO erratum and new
   chemistry/method holds, and resolve existing pilot gaps. No quota beyond 1,000
   is assumed.
