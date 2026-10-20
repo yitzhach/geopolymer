@@ -26,7 +26,17 @@ Updated 19 October 2026; dates use Eastern time.
   43 recipes / 31 scalable. No new numerical extraction or automatic transfer.
 - Validation: 111 Node cases pass; schema validation and 869-route build pass.
   Five feature browser suites and focused checks of all 38 new guides pass at
-  desktop/mobile widths. Full route sweep is running; final publication pending.
+  desktop/mobile widths. All 869 routes pass desktop/mobile, legacy-hash and
+  no-JavaScript checks. Large smoke coverage was split into the desktop/mobile
+  route pass, four concurrent legacy-route workers, and the remaining interaction/
+  no-JavaScript pass. The serial run was stopped after its mobile sweep to avoid
+  repeating legacy coverage. No browser page errors were observed.
+- Final metadata cleanup removed publisher navigation text from ke-b24-017's
+  title. The affected build files were safely refreshed without deleting preview
+  paths; targeted identity tests and browser study/export checks pass afterward.
+- Release implementation: 295870e, following 500 checkpoint 625a6db. Push to main
+  is the final release action; do not infer remote CI or live deployment from local
+  checks. GitHub Actions API access via gh returned Forbidden.
 - An early browser attempt overlapped a test-triggered dist rebuild, interrupting
   the preview. The final browser runs use the completed stable build.
 - Backup five-hour continuation already targets 800; no duplicate is needed.
