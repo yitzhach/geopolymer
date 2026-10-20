@@ -1,5 +1,17 @@
 # Geopolymer Platform — Decisions
 
+## 20 October 2026 — source-backed reading previews and fifteen more guides
+
+Owner approved richer previews for the 73 catalog-backed deep dives and further
+guides within the existing library. Added 15 partial guides in three five-paper
+review batches; 89 guides total, 88 matched to the unchanged 1,000-paper catalog.
+All 88 matched papers have three-paragraph previews, takeaways, limitations,
+intended readers and original/deep-dive links. Ten older outcome gaps received
+selected primary-text followups; one quantitative fire result stays unresolved.
+This editorial layer does not upgrade canonical extraction, clear correction holds
+or add recipes/measurements. Publish under the standing main-push authorization.
+
+
 ## 20 October 2026 — owner expansion to 1,000 publications
 
 Owner requested 200 more after the completed 800 checkpoint and further deep

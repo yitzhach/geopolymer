@@ -1,5 +1,15 @@
 # Recipe database and future formulation advisor
 
+## 20 October 2026 — summaries and more guides, unchanged formulations
+
+Added richer previews for 88 catalog-backed guides, including 15 new source reviews.
+They distinguish reported results, editorial arithmetic and proposed laboratory
+planning. No guide or summary auto-populates ingredient quantities. Recipe counts
+remain 43 / 31 scalable and pilot evidence remains five studies / 62 mixes / 275
+observations. Source-specific dose, specimen, exposure and model-domain limits
+remain necessary before transferring any formulation.
+
+
 ## 20 October 2026 — breadth milestone, unchanged recipe evidence
 
 The library reaches 1,000 publications and 74 partial editorial guides after a

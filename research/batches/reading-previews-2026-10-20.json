@@ -1,0 +1,2646 @@
+{
+  "checked": "2026-10-20",
+  "libraryPublications": 1000,
+  "existingGuideBackedPreviews": 73,
+  "newGuideBackedPreviews": 15,
+  "totalPreviews": 88,
+  "method": "Editorial reading questions and intended readers authored per guide. Ten missing outcome accounts received additional indexed primary-text checks, with separate provenance and date; the aluminum-foam quantitative fire result remains unresolved. Three paragraphs allocate identified source-note facts to scope, methods and findings/interpretation. Missing outcome inventories remain explicitly labeled; no numerical inference from titles. Definitions and explicit reproduction gaps provide paragraph context; an editorial interpretation check is labeled separately from reported findings. Takeaways and holds reuse original reviewed editorial notes. This is not a new full-paper, human or domain review.",
+  "rights": "Original editorial summaries; no raw papers, abstracts, complete source tables or figures retained.",
+  "canonicalObservationsAdded": 0,
+  "records": [
+    {
+      "doi": "10.3390/ma18030486",
+      "publicationId": "ke-b27-020",
+      "deepDiveId": "biochar-replacement-and-exposure",
+      "findingsCoverage": "selected-findings-from-indexed-primary-text",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "source": "https://doi.org/10.3390/ma18030486",
+          "locator": "Mechanical-properties discussion; Figure 5 text",
+          "checked": "2026-10-20",
+          "scope": "Additional selected primary-text findings check"
+        },
+        {
+          "guideFactIndex": 0,
+          "title": "Material identity",
+          "locator": "§2.1, p.5",
+          "source": "https://cris.unibo.it/retrieve/18a88cc9-e847-4171-b93c-8b7d2c5eae67/materials-18-00486.pdf"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Selected MH-1 batch",
+          "locator": "Table 2, p.7",
+          "source": "https://cris.unibo.it/retrieve/18a88cc9-e847-4171-b93c-8b7d2c5eae67/materials-18-00486.pdf"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Preparation and cure",
+          "locator": "§2.2, p.7",
+          "source": "https://cris.unibo.it/retrieve/18a88cc9-e847-4171-b93c-8b7d2c5eae67/materials-18-00486.pdf"
+        },
+        {
+          "guideFactIndex": 3,
+          "title": "Compression and exposure",
+          "locator": "§2.3.4, p.10",
+          "source": "https://cris.unibo.it/retrieve/18a88cc9-e847-4171-b93c-8b7d2c5eae67/materials-18-00486.pdf"
+        },
+        {
+          "guideFactIndex": 4,
+          "title": "Length-change method",
+          "locator": "§2.3.6, p.11; Figure 12, p.16",
+          "source": "https://cris.unibo.it/retrieve/18a88cc9-e847-4171-b93c-8b7d2c5eae67/materials-18-00486.pdf"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/polym13050751",
+      "publicationId": "ke-b32-017",
+      "deepDiveId": "basalt-fiber-carbon-textile",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Materials and base proportions",
+          "locator": "§2.1 and Table 2, pp.3–4",
+          "source": "https://pdfs.semanticscholar.org/9828/de233e60ca20ada95dd8648c207ba4c8dbe1.pdf"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Mixing order",
+          "locator": "§2.2, p.4",
+          "source": "https://pdfs.semanticscholar.org/9828/de233e60ca20ada95dd8648c207ba4c8dbe1.pdf"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Separate specimen families",
+          "locator": "§2.2, pp.4–5",
+          "source": "https://pdfs.semanticscholar.org/9828/de233e60ca20ada95dd8648c207ba4c8dbe1.pdf"
+        },
+        {
+          "guideFactIndex": 4,
+          "title": "Textile preparation detail",
+          "locator": "§2.2, pp.4–5",
+          "source": "https://pdfs.semanticscholar.org/9828/de233e60ca20ada95dd8648c207ba4c8dbe1.pdf"
+        },
+        {
+          "guideFactIndex": 3,
+          "title": "Mixed outcomes",
+          "locator": "Abstract; Table 3, p.5",
+          "source": "https://pdfs.semanticscholar.org/9828/de233e60ca20ada95dd8648c207ba4c8dbe1.pdf"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/polym18111288",
+      "publicationId": "ke-b07-025",
+      "deepDiveId": "bn-hemp-nanofiber-slag",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material system",
+          "locator": "§2.1 and Table 1",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13259237/"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Dose denominator",
+          "locator": "§2.2, paragraph defining total mixture weight",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13259237/"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Activator and mixing",
+          "locator": "§2.3.1",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13259237/"
+        },
+        {
+          "guideFactIndex": 3,
+          "title": "Nanofiber processing",
+          "locator": "§2.2",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13259237/"
+        },
+        {
+          "guideFactIndex": 4,
+          "title": "Specimens and cure",
+          "locator": "§2.3.2; §2.4.2",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13259237/"
+        },
+        {
+          "guideFactIndex": 5,
+          "title": "Mechanical loading",
+          "locator": "§2.4.2",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13259237/"
+        },
+        {
+          "guideFactIndex": 6,
+          "title": "Thermal exposure procedure",
+          "locator": "§2.4.4",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13259237/"
+        },
+        {
+          "guideFactIndex": 7,
+          "title": "Limits of mechanism evidence",
+          "locator": "§3.2.3 and Table 3",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13259237/"
+        },
+        {
+          "guideFactIndex": 8,
+          "title": "Unfavorable thermal outcome",
+          "locator": "§3.2.4",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13259237/"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma17051181",
+      "publicationId": "ke-b08-016",
+      "deepDiveId": "metakaolin-slag-shrinkage-controls",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design and activator",
+          "locator": "§2.2; §3.2/Table 2",
+          "source": "https://www.mdpi.com/1996-1944/17/5/1181"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Flow constraint",
+          "locator": "§3.1; Table 3",
+          "source": "https://www.mdpi.com/1996-1944/17/5/1181"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Preparation and exposure",
+          "locator": "§3.3",
+          "source": "https://www.mdpi.com/1996-1944/17/5/1181"
+        },
+        {
+          "guideFactIndex": 3,
+          "title": "Tests and reference time",
+          "locator": "§3.1",
+          "source": "https://www.mdpi.com/1996-1944/17/5/1181"
+        },
+        {
+          "guideFactIndex": 4,
+          "title": "Tradeoff",
+          "locator": "Abstract; Table 3",
+          "source": "https://www.mdpi.com/1996-1944/17/5/1181"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/su12198216",
+      "publicationId": "ke-b08-008",
+      "deepDiveId": "metakaolin-water-temperature",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Precursor and stock solution",
+          "locator": "§2.1",
+          "source": "https://www.mdpi.com/2071-1050/12/19/8216"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Mass proportions",
+          "locator": "§2.2; Table 1",
+          "source": "https://www.mdpi.com/2071-1050/12/19/8216"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Preparation temperatures",
+          "locator": "§2.2",
+          "source": "https://www.mdpi.com/2071-1050/12/19/8216"
+        },
+        {
+          "guideFactIndex": 3,
+          "title": "Cure and test schedule",
+          "locator": "§2.2",
+          "source": "https://www.mdpi.com/2071-1050/12/19/8216"
+        },
+        {
+          "guideFactIndex": 4,
+          "title": "Unfavorable direction",
+          "locator": "Conclusions",
+          "source": "https://www.mdpi.com/2071-1050/12/19/8216"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma13132973",
+      "publicationId": "ke-b14-004",
+      "deepDiveId": "metakaolin-freeze-thaw-design",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Materials and design",
+          "locator": "§2.1; Tables 1–2",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7372425/"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Mixing and curing",
+          "locator": "§2.1",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7372425/"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Exposure",
+          "locator": "§2.2.2",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7372425/"
+        },
+        {
+          "guideFactIndex": 3,
+          "title": "Failure and sampling",
+          "locator": "§§2.2.1–2.2.3",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7372425/"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma15051687",
+      "publicationId": "ke-b14-025",
+      "deepDiveId": "carbonate-slag-hydroxide-balance",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Component basis",
+          "locator": "Methods; Table 1",
+          "source": "https://www.mdpi.com/1996-1944/15/5/1687"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and tests",
+          "locator": "Methods",
+          "source": "https://www.mdpi.com/1996-1944/15/5/1687"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Unfavorable tradeoff",
+          "locator": "Abstract and conclusions",
+          "source": "https://www.mdpi.com/1996-1944/15/5/1687"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma13235550",
+      "publicationId": "ke-b14-002",
+      "deepDiveId": "fly-ash-slag-efflorescence-moisture",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Materials",
+          "locator": "§2.1; Table 1",
+          "source": "https://www.mdpi.com/1996-1944/13/23/5550"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Activators",
+          "locator": "§2.1",
+          "source": "https://www.mdpi.com/1996-1944/13/23/5550"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Paste and cure",
+          "locator": "§2.2",
+          "source": "https://www.mdpi.com/1996-1944/13/23/5550"
+        },
+        {
+          "guideFactIndex": 3,
+          "title": "Efflorescence ageing",
+          "locator": "§2.2; Figure 2",
+          "source": "https://www.mdpi.com/1996-1944/13/23/5550"
+        },
+        {
+          "guideFactIndex": 4,
+          "title": "Slicing and tests",
+          "locator": "§2.3; Figure 3",
+          "source": "https://www.mdpi.com/1996-1944/13/23/5550"
+        },
+        {
+          "guideFactIndex": 5,
+          "title": "Unfavorable outcomes",
+          "locator": "§3.2.1; §4",
+          "source": "https://www.mdpi.com/1996-1944/13/23/5550"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma12203410",
+      "publicationId": "ke-b14-017",
+      "deepDiveId": "one-part-admixture-compatibility",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Precursors and activators",
+          "locator": "§§2.1–2.2; Tables 1–2",
+          "source": "https://www.mdpi.com/1996-1944/12/20/3410"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Admixtures",
+          "locator": "§2.3; Tables 3–4",
+          "source": "https://www.mdpi.com/1996-1944/12/20/3410"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Mix design",
+          "locator": "§3.1; Table 5",
+          "source": "https://www.mdpi.com/1996-1944/12/20/3410"
+        },
+        {
+          "guideFactIndex": 3,
+          "title": "Mixing and tests",
+          "locator": "§3.2",
+          "source": "https://www.mdpi.com/1996-1944/12/20/3410"
+        },
+        {
+          "guideFactIndex": 4,
+          "title": "Cure and age",
+          "locator": "§3.2",
+          "source": "https://www.mdpi.com/1996-1944/12/20/3410"
+        },
+        {
+          "guideFactIndex": 5,
+          "title": "Combined admixtures",
+          "locator": "§4.3; Table 7",
+          "source": "https://www.mdpi.com/1996-1944/12/20/3410"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/min14080776",
+      "publicationId": "ke-b14-005",
+      "deepDiveId": "metakaolin-slag-potassium-durability",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Materials",
+          "locator": "§2.1; Tables 1–4",
+          "source": "https://www.mdpi.com/2075-163X/14/8/776"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Mixes",
+          "locator": "§2.2; Table 5",
+          "source": "https://www.mdpi.com/2075-163X/14/8/776"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Activator preparation",
+          "locator": "§§2.1–2.2",
+          "source": "https://www.mdpi.com/2075-163X/14/8/776"
+        },
+        {
+          "guideFactIndex": 3,
+          "title": "Specimens and cure",
+          "locator": "§2.2",
+          "source": "https://www.mdpi.com/2075-163X/14/8/776"
+        },
+        {
+          "guideFactIndex": 4,
+          "title": "Exposures",
+          "locator": "§§2.3; 3",
+          "source": "https://www.mdpi.com/2075-163X/14/8/776"
+        },
+        {
+          "guideFactIndex": 5,
+          "title": "Outcomes",
+          "locator": "Abstract; §4",
+          "source": "https://www.mdpi.com/2075-163X/14/8/776"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma12060923",
+      "publicationId": "ke-b15-005",
+      "deepDiveId": "ambient-fly-ash-coating-process",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Scope",
+          "locator": "Introduction, four stated contributions",
+          "source": "https://www.mdpi.com/1996-1944/12/6/923"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Processing comparison",
+          "locator": "Discussion/conclusions, passage comparing one hour with ten minutes",
+          "source": "https://www.mdpi.com/1996-1944/12/6/923"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Practical constraints",
+          "locator": "Discussion of development challenges",
+          "source": "https://www.mdpi.com/1996-1944/12/6/923"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma15113767",
+      "publicationId": "ke-b15-002",
+      "deepDiveId": "coating-wetting-versus-bond",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Experimental design; Table 2",
+          "source": "https://www.mdpi.com/1996-1944/15/11/3767"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Surface modifications",
+          "locator": "Surface-modification procedure; reference sample W/S = 0.4",
+          "source": "https://www.mdpi.com/1996-1944/15/11/3767"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Readouts",
+          "locator": "§§2.3–2.4; surface-energy discussion",
+          "source": "https://www.mdpi.com/1996-1944/15/11/3767"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/app112210945",
+      "publicationId": "ke-b15-003",
+      "deepDiveId": "biochar-bottom-ash-pore-evolution",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Materials",
+          "locator": "Preparation passage naming MK, biochar, IBA and activators",
+          "source": "https://www.mdpi.com/2076-3417/11/22/10945"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Characterization",
+          "locator": "Raw-material chemical analysis and BET methods",
+          "source": "https://www.mdpi.com/2076-3417/11/22/10945"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Aging direction",
+          "locator": "Porosimetry discussion, 28- and 90-day high-biochar comparison",
+          "source": "https://www.mdpi.com/2076-3417/11/22/10945"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma17122856",
+      "publicationId": "ke-b15-014",
+      "deepDiveId": "phosphate-polymer-rheology",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Chemistry",
+          "locator": "Formulation passage specifying Si:Al:P and acid concentration",
+          "source": "https://www.mdpi.com/1996-1944/17/12/2856"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Polymer series",
+          "locator": "Abstract and formulation description",
+          "source": "https://www.mdpi.com/1996-1944/17/12/2856"
+        },
+        {
+          "guideFactIndex": 3,
+          "title": "Supplement lead",
+          "locator": "Supplementary Materials, Figure S1 description",
+          "source": "https://www.mdpi.com/1996-1944/17/12/2856"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Outcome and conditioning",
+          "locator": "Conclusions; §2.3.6, nitrogen adsorption",
+          "source": "https://www.mdpi.com/1996-1944/17/12/2856"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma16237460",
+      "publicationId": "ke-b17-018",
+      "deepDiveId": "metakaolin-curing-temperature-grade",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Precursor identity",
+          "locator": "Table 3, elemental analysis",
+          "source": "https://www.mdpi.com/1996-1944/16/23/7460"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Temperature history",
+          "locator": "Preparation passage; introductory study-temperature list",
+          "source": "https://www.mdpi.com/1996-1944/16/23/7460"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Specimen history",
+          "locator": "Preparation passage; Appendix Tables A1–A4",
+          "source": "https://www.mdpi.com/1996-1944/16/23/7460"
+        },
+        {
+          "guideFactIndex": 3,
+          "title": "Method limitation",
+          "locator": "§4.4, loading-rate comparison",
+          "source": "https://www.mdpi.com/1996-1944/16/23/7460"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/eng6120366",
+      "publicationId": "ke-b16-013",
+      "deepDiveId": "starch-borax-retarder-screening",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 1,
+          "title": "Design",
+          "locator": "Mix-design discussion and comparisons",
+          "source": "https://www.mdpi.com/2673-4117/6/12/366"
+        },
+        {
+          "guideFactIndex": 0,
+          "title": "Activator preparation",
+          "locator": "Experimental passage, activators mixed before casting",
+          "source": "https://www.mdpi.com/2673-4117/6/12/366"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Measurement",
+          "locator": "Setting and compressive-testing methods",
+          "source": "https://www.mdpi.com/2673-4117/6/12/366"
+        },
+        {
+          "guideFactIndex": 3,
+          "title": "Source recommendation",
+          "locator": "Conclusions, retarder-combination comparison",
+          "source": "https://www.mdpi.com/2673-4117/6/12/366"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma17246143",
+      "publicationId": "ke-b16-014",
+      "deepDiveId": "waste-foam-precursor-foamer",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material scope",
+          "locator": "Materials and Methods, precursor list",
+          "source": "https://www.mdpi.com/1996-1944/17/24/6143"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Foaming routes",
+          "locator": "Foaming-method description",
+          "source": "https://www.mdpi.com/1996-1944/17/24/6143"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Characterization",
+          "locator": "Materials and Methods, XRD and SEM/EDS descriptions",
+          "source": "https://www.mdpi.com/1996-1944/17/24/6143"
+        },
+        {
+          "guideFactIndex": 3,
+          "title": "Thermal direction",
+          "locator": "Results/conclusions comparing foaming agents",
+          "source": "https://www.mdpi.com/1996-1944/17/24/6143"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/polym16121685",
+      "publicationId": "ke-b16-012",
+      "deepDiveId": "pva-egc-tension-versus-model",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Mix-proportion discussion; seven groups",
+          "source": "https://www.mdpi.com/2073-4360/16/12/1685"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Specimen history",
+          "locator": "Preparation and strength-development discussion",
+          "source": "https://www.mdpi.com/2073-4360/16/12/1685"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Tests and model",
+          "locator": "Abstract; stress–strain modeling discussion",
+          "source": "https://www.mdpi.com/2073-4360/16/12/1685"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/buildings14030586",
+      "publicationId": "ke-b17-014",
+      "deepDiveId": "epoxy-silane-shrinkage-bases",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 1,
+          "title": "Reported combination",
+          "locator": "Abstract, combined-modifier result",
+          "source": "https://www.mdpi.com/2075-5309/14/3/586"
+        },
+        {
+          "guideFactIndex": 0,
+          "title": "Modifier preparation",
+          "locator": "Preparation passage naming Q17 and E51; Table 2",
+          "source": "https://www.mdpi.com/2075-5309/14/3/586"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Mechanism boundary",
+          "locator": "Discussion of early shrinkage",
+          "source": "https://www.mdpi.com/2075-5309/14/3/586"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma16062305",
+      "publicationId": "ke-b17-022",
+      "deepDiveId": "calcium-hydroxide-carbonation-tradeoff",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Mixtures",
+          "locator": "§§2.1–2.2; Table 2",
+          "source": "https://www.mdpi.com/1996-1944/16/6/2305"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation",
+          "locator": "§2.2",
+          "source": "https://www.mdpi.com/1996-1944/16/6/2305"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Exposure",
+          "locator": "§2.3",
+          "source": "https://www.mdpi.com/1996-1944/16/6/2305"
+        },
+        {
+          "guideFactIndex": 3,
+          "title": "Unfavorable outcome",
+          "locator": "Conclusions (1)–(3)",
+          "source": "https://www.mdpi.com/1996-1944/16/6/2305"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma14164758",
+      "publicationId": "ke-b15-015",
+      "deepDiveId": "printing-side-stream-process-window",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material selection",
+          "locator": "Materials discussion, fly ash/bark-boiler ash correction",
+          "source": "https://www.mdpi.com/1996-1944/14/16/4758"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Development route",
+          "locator": "Mixture-development description",
+          "source": "https://www.mdpi.com/1996-1944/14/16/4758"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Process result",
+          "locator": "Printability discussion; Table 6, test-method inventory",
+          "source": "https://www.mdpi.com/1996-1944/14/16/4758"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/gels8020130",
+      "publicationId": "ke-b16-004",
+      "deepDiveId": "sfcc-phosphate-acid-window",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Precursor",
+          "locator": "Materials characterization; Figure 1; Table 1",
+          "source": "https://www.mdpi.com/2310-2861/8/2/130"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Experimental variable",
+          "locator": "Abstract and acid-concentration discussion",
+          "source": "https://www.mdpi.com/2310-2861/8/2/130"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Cure",
+          "locator": "Specimen preparation, indexed publisher passage",
+          "source": "https://www.mdpi.com/2310-2861/8/2/130"
+        },
+        {
+          "guideFactIndex": 3,
+          "title": "Tradeoff",
+          "locator": "Acid-concentration discussion",
+          "source": "https://www.mdpi.com/2310-2861/8/2/130"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/polym14101945",
+      "publicationId": "ke-b16-025",
+      "deepDiveId": "foam-polystyrene-fire-assembly",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 1,
+          "title": "Activator caution",
+          "locator": "Same experimental mixing passage",
+          "source": "https://www.mdpi.com/2073-4360/14/10/1945"
+        },
+        {
+          "guideFactIndex": 0,
+          "title": "Mixing sequence",
+          "locator": "Experimental mixing passage",
+          "source": "https://www.mdpi.com/2073-4360/14/10/1945"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Assembly exposure",
+          "locator": "Fire-test procedure",
+          "source": "https://www.mdpi.com/2073-4360/14/10/1945"
+        },
+        {
+          "guideFactIndex": 3,
+          "title": "Reported scope and inconsistency",
+          "locator": "Conclusions; physical-property summary",
+          "source": "https://www.mdpi.com/2073-4360/14/10/1945"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma12213485",
+      "publicationId": "ke-b15-012",
+      "deepDiveId": "metakaolin-fly-ash-liquid-definition",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design and basis",
+          "locator": "Mixture-design description, 18 paste types",
+          "source": "https://www.mdpi.com/1996-1944/12/21/3485"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Testing",
+          "locator": "Compression method, DIN EN 196-1 passage",
+          "source": "https://www.mdpi.com/1996-1944/12/21/3485"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Tradeoff",
+          "locator": "Setting discussion, l/s 0.49 comparison",
+          "source": "https://www.mdpi.com/1996-1944/12/21/3485"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/polym15041017",
+      "publicationId": "ke-b16-018",
+      "deepDiveId": "masonry-fiber-material-versus-structure",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Fiber scope",
+          "locator": "Introduction and experimental scope",
+          "source": "https://www.mdpi.com/2073-4360/15/4/1017"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Activator history",
+          "locator": "Table 2; activator-preparation passage",
+          "source": "https://www.mdpi.com/2073-4360/15/4/1017"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Recommendation boundary",
+          "locator": "Conclusions",
+          "source": "https://www.mdpi.com/2073-4360/15/4/1017"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma13245784",
+      "publicationId": "ke-b19-002",
+      "deepDiveId": "metakaolin-gel-amount-versus-composition",
+      "findingsCoverage": "selected-findings-from-indexed-primary-text",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "source": "https://doi.org/10.3390/ma13245784",
+          "locator": "Reaction-degree/strength discussion; calcium comparison",
+          "checked": "2026-10-20",
+          "scope": "Additional selected primary-text findings check"
+        },
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Abstract and study-objective passage",
+          "source": "https://www.mdpi.com/1996-1944/13/24/5784"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Activator",
+          "locator": "Materials and Methods, solution composition",
+          "source": "https://www.mdpi.com/1996-1944/13/24/5784"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Measurements",
+          "locator": "NMR/chemical-extraction methods; compression method",
+          "source": "https://www.mdpi.com/1996-1944/13/24/5784"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma17020367",
+      "publicationId": "ke-b19-004",
+      "deepDiveId": "metakaolin-reactivity-and-liquid-volume",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Materials comparison",
+          "locator": "Discussion of calcined kaolins and active aluminum",
+          "source": "https://www.mdpi.com/1996-1944/17/2/367"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Mixture basis",
+          "locator": "Preparation passage specifying liquid–solid ratio",
+          "source": "https://www.mdpi.com/1996-1944/17/2/367"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Cure and interpretation",
+          "locator": "Specimen preparation; mechanical/kinetics discussion",
+          "source": "https://www.mdpi.com/1996-1944/17/2/367"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma15238600",
+      "publicationId": "ke-b20-022",
+      "deepDiveId": "ceramic-waste-artistic-restoration",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Waste identity",
+          "locator": "Materials and specimen-preparation passages",
+          "source": "https://www.mdpi.com/1996-1944/15/23/8600"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Formulation objective",
+          "locator": "Table 2; MIX-MK discussion",
+          "source": "https://www.mdpi.com/1996-1944/15/23/8600"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Application boundary",
+          "locator": "Application discussion; cured-composition passage",
+          "source": "https://www.mdpi.com/1996-1944/15/23/8600"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/coatings11010087",
+      "publicationId": "ke-b23-024",
+      "deepDiveId": "aluminum-foam-coating-ratio-conflict",
+      "findingsCoverage": "selected-comparison-with-unresolved-result",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "source": "https://doi.org/10.3390/coatings11010087",
+          "locator": "Fire-resistance temperature–time curve description; original guide ratio-conflict note",
+          "checked": "2026-10-20",
+          "scope": "Additional selected primary-text findings check"
+        },
+        {
+          "guideFactIndex": 0,
+          "title": "Source conflict",
+          "locator": "Abstract versus experimental mixing description",
+          "source": "https://www.mdpi.com/2079-6412/11/1/87"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Sequence",
+          "locator": "Experimental mixing passage",
+          "source": "https://www.mdpi.com/2079-6412/11/1/87"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Curing and assembly",
+          "locator": "Curing discussion; fire-test temperature–time captions",
+          "source": "https://www.mdpi.com/2079-6412/11/1/87"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma16155369",
+      "publicationId": "ke-b23-006",
+      "deepDiveId": "pce-alkali-stability-versus-flow",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Study objective; activator-exposure methods",
+          "source": "https://www.mdpi.com/1996-1944/16/15/5369"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Dose basis",
+          "locator": "Geopolymer-paste concentration passage",
+          "source": "https://www.mdpi.com/1996-1944/16/15/5369"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Analytical versus fresh response",
+          "locator": "Table 2; Conclusions",
+          "source": "https://www.mdpi.com/1996-1944/16/15/5369"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma9070586",
+      "publicationId": "ke-b22-022",
+      "deepDiveId": "ambient-fly-ash-superplasticizer",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "System",
+          "locator": "Preparation passage",
+          "source": "https://www.mdpi.com/1996-1944/9/7/586"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Processing",
+          "locator": "Mixing passage",
+          "source": "https://www.mdpi.com/1996-1944/9/7/586"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Reported result",
+          "locator": "Abstract/conclusions, PCE comparison",
+          "source": "https://www.mdpi.com/1996-1944/9/7/586"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma14247614",
+      "publicationId": "ke-b23-004",
+      "deepDiveId": "superplasticizer-flow-air-long-term",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Abstract; experimental overview",
+          "source": "https://www.mdpi.com/1996-1944/14/24/7614"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Mechanical chronology",
+          "locator": "Strength-testing description",
+          "source": "https://www.mdpi.com/1996-1944/14/24/7614"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Tradeoff",
+          "locator": "Abstract/conclusions; §3.3",
+          "source": "https://www.mdpi.com/1996-1944/14/24/7614"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/buildings15193621",
+      "publicationId": "ke-b22-011",
+      "deepDiveId": "hpmc-vae-workability-durability",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Preparation",
+          "locator": "Materials and activator passage",
+          "source": "https://www.mdpi.com/2075-5309/15/19/3621"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Responses",
+          "locator": "Study scope and testing overview",
+          "source": "https://www.mdpi.com/2075-5309/15/19/3621"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Unfavorable direction",
+          "locator": "Durability discussion and microstructural interpretation",
+          "source": "https://www.mdpi.com/2075-5309/15/19/3621"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/polym14163386",
+      "publicationId": "ke-b23-001",
+      "deepDiveId": "mgo-shrinkage-curing-demolding",
+      "findingsCoverage": "selected-findings-from-indexed-primary-text",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "source": "https://doi.org/10.3390/polym14163386",
+          "locator": "Conclusions; statistical and machine-learning interpretation",
+          "checked": "2026-10-20",
+          "scope": "Additional selected primary-text findings check"
+        },
+        {
+          "guideFactIndex": 0,
+          "title": "Activator",
+          "locator": "Materials passage",
+          "source": "https://www.mdpi.com/2073-4360/14/16/3386"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Timing design",
+          "locator": "Tables 4–5 discussion",
+          "source": "https://www.mdpi.com/2073-4360/14/16/3386"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Environment",
+          "locator": "Cure-comparison discussion",
+          "source": "https://www.mdpi.com/2073-4360/14/16/3386"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/app10093321",
+      "publicationId": "ke-b22-004",
+      "deepDiveId": "fly-ash-opc-slant-shear-bond",
+      "findingsCoverage": "selected-findings-from-indexed-primary-text",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "source": "https://doi.org/10.3390/app10093321",
+          "locator": "NaOH-concentration comparison of compression and slant-shear bond",
+          "checked": "2026-10-20",
+          "scope": "Additional selected primary-text findings check"
+        },
+        {
+          "guideFactIndex": 0,
+          "title": "Activator variables",
+          "locator": "Activator-preparation passage",
+          "source": "https://www.mdpi.com/2076-3417/10/9/3321"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Substrate history",
+          "locator": "Substrate preparation",
+          "source": "https://www.mdpi.com/2076-3417/10/9/3321"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Bond method",
+          "locator": "Bond-test passage citing ASTM C882",
+          "source": "https://www.mdpi.com/2076-3417/10/9/3321"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/buildings14030652",
+      "publicationId": "ke-b19-016",
+      "deepDiveId": "slag-fly-ash-red-mud-interface",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Study design",
+          "locator": "Experimental overview",
+          "source": "https://www.mdpi.com/2075-5309/14/3/652"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Substrate and tests",
+          "locator": "§2.2; Figure 2",
+          "source": "https://www.mdpi.com/2075-5309/14/3/652"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Surface preparation",
+          "locator": "Interface roughening description",
+          "source": "https://www.mdpi.com/2075-5309/14/3/652"
+        },
+        {
+          "guideFactIndex": 3,
+          "title": "Reported selection",
+          "locator": "Results summary",
+          "source": "https://www.mdpi.com/2075-5309/14/3/652"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/app11114886",
+      "publicationId": "ke-b23-015",
+      "deepDiveId": "pp-foam-volume-versus-fiber-dose",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Materials and mixing",
+          "locator": "Preparation passage",
+          "source": "https://www.mdpi.com/2076-3417/11/11/4886"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Foam generation",
+          "locator": "Foam-preparation passage",
+          "source": "https://www.mdpi.com/2076-3417/11/11/4886"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Design and result",
+          "locator": "Abstract; thermal-conductivity discussion",
+          "source": "https://www.mdpi.com/2076-3417/11/11/4886"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/polym12122994",
+      "publicationId": "ke-b24-008",
+      "deepDiveId": "metakaolin-foam-thermal-versus-fire",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "System",
+          "locator": "Materials and preparation",
+          "source": "https://www.mdpi.com/2073-4360/12/12/2994"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Sequence",
+          "locator": "Three-step preparation passage",
+          "source": "https://www.mdpi.com/2073-4360/12/12/2994"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Evidence scope",
+          "locator": "Study objective and characterization description",
+          "source": "https://www.mdpi.com/2073-4360/12/12/2994"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/polym13091493",
+      "publicationId": "ke-b20-023",
+      "deepDiveId": "waste-glass-replacement-and-bioassays",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Mix and basis",
+          "locator": "§§2.1–2.2",
+          "source": "https://www.mdpi.com/2073-4360/13/9/1493"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Specimens and cure",
+          "locator": "§2.2",
+          "source": "https://www.mdpi.com/2073-4360/13/9/1493"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Multiple evidence types",
+          "locator": "Study scope and conclusions",
+          "source": "https://www.mdpi.com/2073-4360/13/9/1493"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma13040901",
+      "publicationId": "ke-b21-013",
+      "deepDiveId": "olive-pine-ash-precursor-boundary",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Replacement design",
+          "locator": "Study objective and mix series",
+          "source": "https://www.mdpi.com/1996-1944/13/4/901"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Activator and cure",
+          "locator": "Preparation and curing passages",
+          "source": "https://www.mdpi.com/1996-1944/13/4/901"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Unfavorable direction",
+          "locator": "Strength/microstructure discussion",
+          "source": "https://www.mdpi.com/1996-1944/13/4/901"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/min13040564",
+      "publicationId": "ke-b24-006",
+      "deepDiveId": "nickel-slag-phosphate-foamer",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Materials",
+          "locator": "Preparation overview",
+          "source": "https://www.mdpi.com/2075-163X/13/4/564"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Early evidence",
+          "locator": "Three-day peroxide-series strength discussion",
+          "source": "https://www.mdpi.com/2075-163X/13/4/564"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Mechanistic interpretation",
+          "locator": "Foamer-form and reaction discussion",
+          "source": "https://www.mdpi.com/2075-163X/13/4/564"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/app14031207",
+      "publicationId": "ke-b24-007",
+      "deepDiveId": "acoustic-foam-architecture-versus-material",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material",
+          "locator": "Study description",
+          "source": "https://www.mdpi.com/2076-3417/14/3/1207"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Architecture comparison",
+          "locator": "Figure 11 discussion",
+          "source": "https://www.mdpi.com/2076-3417/14/3/1207"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Measurement scope",
+          "locator": "Acoustic and dynamic-mechanical methods",
+          "source": "https://www.mdpi.com/2076-3417/14/3/1207"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/app12136624",
+      "publicationId": "ke-b24-013",
+      "deepDiveId": "carbon-textile-thermal-directions",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Fabrication",
+          "locator": "§2.2; Figure 5 description",
+          "source": "https://www.mdpi.com/2076-3417/12/13/6624"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Thermal model",
+          "locator": "Thermal-conductivity equation and unit definitions",
+          "source": "https://www.mdpi.com/2076-3417/12/13/6624"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Architecture scope",
+          "locator": "Study objective and thermal interpretation",
+          "source": "https://www.mdpi.com/2076-3417/12/13/6624"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/polym14194214",
+      "publicationId": "ke-b19-009",
+      "deepDiveId": "organic-slag-model-gel-versus-paste",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Experimental scope",
+          "locator": "Study objective and preparation description",
+          "source": "https://www.mdpi.com/2073-4360/14/19/4214"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Model system",
+          "locator": "Synthetic-gel preparation passage",
+          "source": "https://www.mdpi.com/2073-4360/14/19/4214"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Interpretation",
+          "locator": "Spectroscopy/toughening discussion",
+          "source": "https://www.mdpi.com/2073-4360/14/19/4214"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma17030734",
+      "publicationId": "ke-b19-015",
+      "deepDiveId": "hydrophilic-polymers-slag-processing",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Matrix screening",
+          "locator": "§3.1; Table 2 discussion",
+          "source": "https://www.mdpi.com/1996-1944/17/3/734"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Polymer and process series",
+          "locator": "Abstract and preparation overview",
+          "source": "https://www.mdpi.com/1996-1944/17/3/734"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Mechanism limits",
+          "locator": "Spectral discussion for 2.0% PVA",
+          "source": "https://www.mdpi.com/1996-1944/17/3/734"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/buildings16040707",
+      "publicationId": "ke-b19-010",
+      "deepDiveId": "one-part-batch-reproducibility",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Objective",
+          "locator": "Introduction, three underexplored aspects",
+          "source": "https://www.mdpi.com/2075-5309/16/4/707"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Process evidence",
+          "locator": "Figures 5–6 description",
+          "source": "https://www.mdpi.com/2075-5309/16/4/707"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Comparison limit",
+          "locator": "Table 14 discussion",
+          "source": "https://www.mdpi.com/2075-5309/16/4/707"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma17081740",
+      "publicationId": "ke-b20-024",
+      "deepDiveId": "ceramic-fines-conditioning-and-absorption",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and liquid basis",
+          "locator": "Materials/preparation passage",
+          "source": "https://www.mdpi.com/1996-1944/17/8/1740"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Geometry and mechanics",
+          "locator": "§2.2",
+          "source": "https://www.mdpi.com/1996-1944/17/8/1740"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Absorption conditioning",
+          "locator": "§2.2, water absorbability",
+          "source": "https://www.mdpi.com/1996-1944/17/8/1740"
+        },
+        {
+          "guideFactIndex": 3,
+          "title": "Selected result",
+          "locator": "Porosity discussion",
+          "source": "https://www.mdpi.com/1996-1944/17/8/1740"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma12030526",
+      "publicationId": "ke-b23-013",
+      "deepDiveId": "reactive-mgo-dose-and-erratum",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "update-requires-review",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Dose basis",
+          "locator": "§2.2; Table 3",
+          "source": "https://www.mdpi.com/1996-1944/12/3/526"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Methods",
+          "locator": "§2.2",
+          "source": "https://www.mdpi.com/1996-1944/12/3/526"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Source-status hold",
+          "locator": "Publisher notice; erratum DOI 10.3390/ma12091388",
+          "source": "https://www.mdpi.com/1996-1944/12/3/526"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma16206619",
+      "publicationId": "ke-b31-001",
+      "deepDiveId": "tuff-brick-restoration-water-transport",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Materials",
+          "locator": "Raw Materials and Preparation of the Geocomposites",
+          "source": "https://www.mdpi.com/1996-1944/16/20/6619"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation",
+          "locator": "Raw Materials and Preparation of the Geocomposites",
+          "source": "https://www.mdpi.com/1996-1944/16/20/6619"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Results",
+          "locator": "Water absorption/open-porosity discussion",
+          "source": "https://www.mdpi.com/1996-1944/16/20/6619"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma18214947",
+      "publicationId": "ke-b31-002",
+      "deepDiveId": "ceramic-brick-metakaolin-ratio-denominators",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Materials",
+          "locator": "Precursor characterization; Rietveld discussion",
+          "source": "https://www.mdpi.com/1996-1944/18/21/4947"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation",
+          "locator": "Mixing procedure; Figure 1 description",
+          "source": "https://www.mdpi.com/1996-1944/18/21/4947"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Tradeoff",
+          "locator": "Discussion of AS/P and W/S",
+          "source": "https://www.mdpi.com/1996-1944/18/21/4947"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma16062400",
+      "publicationId": "ke-b31-003",
+      "deepDiveId": "silica-fume-activator-volume-versus-mass",
+      "findingsCoverage": "selected-findings-from-indexed-primary-text",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "source": "https://doi.org/10.3390/ma16062400",
+          "locator": "Compression-results discussion; GC2 comparison",
+          "checked": "2026-10-20",
+          "scope": "Additional selected primary-text findings check"
+        },
+        {
+          "guideFactIndex": 0,
+          "title": "Design and basis",
+          "locator": "Mixture design for GC0 and OPC control",
+          "source": "https://www.mdpi.com/1996-1944/16/6/2400"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation",
+          "locator": "Preparation of Geopolymer Concrete Specimens and Testing Methods",
+          "source": "https://www.mdpi.com/1996-1944/16/6/2400"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Measurements",
+          "locator": "Curing/testing passage",
+          "source": "https://www.mdpi.com/1996-1944/16/6/2400"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma17020463",
+      "publicationId": "ke-b31-005",
+      "deepDiveId": "microwave-curing-precursor-energy-boundary",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Study scope; activator composition",
+          "source": "https://www.mdpi.com/1996-1944/17/2/463"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Procedure",
+          "locator": "§3.1 Temperature Development under Microwave Treatment",
+          "source": "https://www.mdpi.com/1996-1944/17/2/463"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Unfavorable direction",
+          "locator": "Seven-day compression discussion; Figure 8a description",
+          "source": "https://www.mdpi.com/1996-1944/17/2/463"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/min8040162",
+      "publicationId": "ke-b31-006",
+      "deepDiveId": "coating-modulus-setting-adhesion-tradeoff",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Study objective; abstract",
+          "source": "https://www.mdpi.com/2075-163X/8/4/162"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Methods",
+          "locator": "Solution preparation; reaction heat method",
+          "source": "https://www.mdpi.com/2075-163X/8/4/162"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Tradeoff",
+          "locator": "Conclusions; setting/microstructure discussion",
+          "source": "https://www.mdpi.com/2075-163X/8/4/162"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma15062050",
+      "publicationId": "ke-b31-007",
+      "deepDiveId": "mineral-wool-leaching-test-boundaries",
+      "findingsCoverage": "selected-findings-from-indexed-primary-text",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "source": "https://doi.org/10.3390/ma15062050",
+          "locator": "Tables 7–8 discussion; leaching-results interpretation",
+          "checked": "2026-10-20",
+          "scope": "Additional selected primary-text findings check"
+        },
+        {
+          "guideFactIndex": 0,
+          "title": "Materials",
+          "locator": "Research procedure and water-extract methods",
+          "source": "https://www.mdpi.com/1996-1944/15/6/2050"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Test boundary",
+          "locator": "Waste rock-wool leaching discussion",
+          "source": "https://www.mdpi.com/1996-1944/15/6/2050"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Measurements",
+          "locator": "Trace-element methods",
+          "source": "https://www.mdpi.com/1996-1944/15/6/2050"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma15113936",
+      "publicationId": "ke-b31-022",
+      "deepDiveId": "walnut-shell-lightweight-water-uptake",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 1,
+          "title": "Design and basis",
+          "locator": "50WS composition; water-absorption discussion",
+          "source": "https://www.mdpi.com/1996-1944/15/11/3936"
+        },
+        {
+          "guideFactIndex": 0,
+          "title": "Preparation",
+          "locator": "Sample preparation",
+          "source": "https://www.mdpi.com/1996-1944/15/11/3936"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Unfavorable result",
+          "locator": "Day-28 absorption comparison",
+          "source": "https://www.mdpi.com/1996-1944/15/11/3936"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/polym13071149",
+      "publicationId": "ke-b32-005",
+      "deepDiveId": "crt-glass-coupled-activator-comparisons",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design limitation",
+          "locator": "Mixture-series discussion",
+          "source": "https://www.mdpi.com/2073-4360/13/7/1149"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Measurements",
+          "locator": "Atomic absorption specimen preparation",
+          "source": "https://www.mdpi.com/2073-4360/13/7/1149"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Results",
+          "locator": "Flexural-results discussion",
+          "source": "https://www.mdpi.com/2073-4360/13/7/1149"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma16052044",
+      "publicationId": "ke-b32-007",
+      "deepDiveId": "glass-particle-size-foam-density",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Study scope; Samples Preparation",
+          "source": "https://www.mdpi.com/1996-1944/16/5/2044"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Scope",
+          "locator": "Methods; Supplementary Materials",
+          "source": "https://www.mdpi.com/1996-1944/16/5/2044"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Measurement",
+          "locator": "§3.2 Properties of Produced Geopolymers",
+          "source": "https://www.mdpi.com/1996-1944/16/5/2044"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/polym17091155",
+      "publicationId": "ke-b31-011",
+      "deepDiveId": "zeolite-pvac-membrane-lead-mass-balance",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Preparation",
+          "locator": "Zeolite Geopolymer Membrane Preparation (ZGM)",
+          "source": "https://www.mdpi.com/2073-4360/17/9/1155"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Test chemistry",
+          "locator": "Pb(II) filtration procedure",
+          "source": "https://www.mdpi.com/2073-4360/17/9/1155"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Pore development",
+          "locator": "Textural-properties discussion",
+          "source": "https://www.mdpi.com/2073-4360/17/9/1155"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/infrastructures5110096",
+      "publicationId": "ke-b33-002",
+      "deepDiveId": "asr-pore-solution-versus-total-alkali",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Methods",
+          "locator": "Concrete prism test discussion",
+          "source": "https://www.mdpi.com/2412-3811/5/11/96"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Chronology",
+          "locator": "Prism preparation and length measurements",
+          "source": "https://www.mdpi.com/2412-3811/5/11/96"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Interpretation",
+          "locator": "Pore-solution composition discussion",
+          "source": "https://www.mdpi.com/2412-3811/5/11/96"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma13225200",
+      "publicationId": "ke-b34-003",
+      "deepDiveId": "slag-softening-inverse-analysis-limits",
+      "findingsCoverage": "selected-findings-from-indexed-primary-text",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "source": "https://doi.org/10.3390/ma13225200",
+          "locator": "Abstract; cohesive-toughness comparison and conclusions",
+          "checked": "2026-10-20",
+          "scope": "Additional selected primary-text findings check"
+        },
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Study objective and TPB discussion",
+          "source": "https://www.mdpi.com/1996-1944/13/22/5200"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Cure",
+          "locator": "Specimen Preparation",
+          "source": "https://www.mdpi.com/1996-1944/13/22/5200"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Definitions",
+          "locator": "Mixture-table note; model comparison",
+          "source": "https://www.mdpi.com/1996-1944/13/22/5200"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma11081445",
+      "publicationId": "ke-b34-005",
+      "deepDiveId": "steel-fiber-fracture-energy-test-boundary",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Preparation",
+          "locator": "Sample Preparation",
+          "source": "https://www.mdpi.com/1996-1944/11/8/1445"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Measurements",
+          "locator": "Testing methods",
+          "source": "https://www.mdpi.com/1996-1944/11/8/1445"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Results",
+          "locator": "Mechanical and fracture discussion",
+          "source": "https://www.mdpi.com/1996-1944/11/8/1445"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/polym14142920",
+      "publicationId": "ke-b34-010",
+      "deepDiveId": "rice-husk-silicate-extraction-basis",
+      "findingsCoverage": "selected-findings-from-indexed-primary-text",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "source": "https://doi.org/10.3390/polym14142920",
+          "locator": "Abstract; §3.1 mechanical-properties discussion",
+          "checked": "2026-10-20",
+          "scope": "Additional selected primary-text findings check"
+        },
+        {
+          "guideFactIndex": 0,
+          "title": "Preparation",
+          "locator": "Sodium silicate synthesis passage",
+          "source": "https://www.mdpi.com/2073-4360/14/14/2920"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Cure",
+          "locator": "Geopolymer specimen preparation",
+          "source": "https://www.mdpi.com/2073-4360/14/14/2920"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Measurements",
+          "locator": "§2.5.2 Flexural Strength and Fracture Toughness",
+          "source": "https://www.mdpi.com/2073-4360/14/14/2920"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma14154160",
+      "publicationId": "ke-b34-017",
+      "deepDiveId": "one-part-activator-dose-long-term-age",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design and basis",
+          "locator": "Abstract; mixture-design discussion",
+          "source": "https://www.mdpi.com/1996-1944/14/15/4160"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Measurements",
+          "locator": "Hardened-cube testing passage",
+          "source": "https://www.mdpi.com/1996-1944/14/15/4160"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Tradeoff",
+          "locator": "Water-absorption and long-term strength discussion",
+          "source": "https://www.mdpi.com/1996-1944/14/15/4160"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma14164350",
+      "publicationId": "ke-b34-019",
+      "deepDiveId": "carbon-black-self-sensing-load-levels",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Study scope; electrical methods",
+          "source": "https://www.mdpi.com/1996-1944/14/16/4350"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation",
+          "locator": "General preparation procedure",
+          "source": "https://www.mdpi.com/1996-1944/14/16/4350"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Confounding factor",
+          "locator": "Loading-method passage in indexed XML",
+          "source": "https://www.mdpi.com/1996-1944/14/16/4350"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma15207086",
+      "publicationId": "ke-b34-021",
+      "deepDiveId": "thermal-storage-prototype-cycle-boundary",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Prototype preparation and embedded-tube description",
+          "source": "https://www.mdpi.com/1996-1944/15/20/7086"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Methods",
+          "locator": "Thermal-cycle test description",
+          "source": "https://www.mdpi.com/1996-1944/15/20/7086"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Interpretation",
+          "locator": "High-temperature comparison; Table 5 discussion",
+          "source": "https://www.mdpi.com/1996-1944/15/20/7086"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma12101697",
+      "publicationId": "ke-b35-014",
+      "deepDiveId": "repair-bond-acoustic-emission-boundary",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Materials",
+          "locator": "Materials description",
+          "source": "https://www.mdpi.com/1996-1944/12/10/1697"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Substrate and methods",
+          "locator": "Specimen preparation; bond-test references",
+          "source": "https://www.mdpi.com/1996-1944/12/10/1697"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Measurements",
+          "locator": "Split-tensile AE discussion",
+          "source": "https://www.mdpi.com/1996-1944/12/10/1697"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/min12070821",
+      "publicationId": "ke-b35-025",
+      "deepDiveId": "peroxide-sds-foam-pore-definitions",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Abstract; foaming discussion",
+          "source": "https://www.mdpi.com/2075-163X/12/7/821"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Ambiguity",
+          "locator": "Abstract porosity statements; Supplementary Materials",
+          "source": "https://www.mdpi.com/2075-163X/12/7/821"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Results",
+          "locator": "Abstract; pore-analysis discussion",
+          "source": "https://www.mdpi.com/2075-163X/12/7/821"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma15217486",
+      "publicationId": "ke-b36-007",
+      "deepDiveId": "surfactant-charge-dose-aluminum-foams",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Study objective; indexed XML surfactant list",
+          "source": "https://www.mdpi.com/1996-1944/15/21/7486"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Measurements",
+          "locator": "Study scope",
+          "source": "https://www.mdpi.com/1996-1944/15/21/7486"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Interpretation",
+          "locator": "Porosity and compression discussion",
+          "source": "https://www.mdpi.com/1996-1944/15/21/7486"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma17081798",
+      "publicationId": "ke-b36-015",
+      "deepDiveId": "lightweight-aggregate-absorption-activator-budget",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Study objective; Mixing and Curing",
+          "source": "https://www.mdpi.com/1996-1944/17/8/1798"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Measurements",
+          "locator": "Compression-test age and conditioning discussion",
+          "source": "https://www.mdpi.com/1996-1944/17/8/1798"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Limitation",
+          "locator": "SSD interpretation and conclusions",
+          "source": "https://www.mdpi.com/1996-1944/17/8/1798"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma17112516",
+      "publicationId": "ke-b36-019",
+      "deepDiveId": "diatomite-sag-setting-water-retention",
+      "findingsCoverage": "selected-findings-from-indexed-primary-text",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "source": "https://doi.org/10.3390/ma17112516",
+          "locator": "§4 Conclusions, items 1–2",
+          "checked": "2026-10-20",
+          "scope": "Additional selected primary-text findings check"
+        },
+        {
+          "guideFactIndex": 0,
+          "title": "Preparation",
+          "locator": "Mixture Proportions and Preparation Processes",
+          "source": "https://www.mdpi.com/1996-1944/17/11/2516"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Measurements",
+          "locator": "Water retention and drying methods",
+          "source": "https://www.mdpi.com/1996-1944/17/11/2516"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Age boundary",
+          "locator": "Hardness-test description; Figure 10 discussion",
+          "source": "https://www.mdpi.com/1996-1944/17/11/2516"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma16083010",
+      "publicationId": "ke-b37-001",
+      "deepDiveId": "slag-retarders-hydrate-basis-strength",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Materials and test scope",
+          "source": "https://www.mdpi.com/1996-1944/16/8/3010"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Methods",
+          "locator": "Mortar preparation and testing",
+          "source": "https://www.mdpi.com/1996-1944/16/8/3010"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Results",
+          "locator": "Abstract and setting discussion",
+          "source": "https://www.mdpi.com/1996-1944/16/8/3010"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma16031096",
+      "publicationId": "ke-b37-023",
+      "deepDiveId": "ten-year-fly-ash-age-and-assay-boundaries",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Study objective; sample-preparation discussion",
+          "source": "https://www.mdpi.com/1996-1944/16/3/1096"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Chemistry",
+          "locator": "Activator materials passage",
+          "source": "https://www.mdpi.com/1996-1944/16/3/1096"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Scope",
+          "locator": "Characterization methods",
+          "source": "https://www.mdpi.com/1996-1944/16/3/1096"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma13153437",
+      "publicationId": "ke-b38-021",
+      "deepDiveId": "bagasse-mixed-alkali-cement-hybrid",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design and basis",
+          "locator": "Abstract; testing-program Phase 2",
+          "source": "https://www.mdpi.com/1996-1944/13/15/3437"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Activator design",
+          "locator": "Abstract; §2.1.5 NaOH and KOH Activator",
+          "source": "https://www.mdpi.com/1996-1944/13/15/3437"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Measurements",
+          "locator": "Testing program; absorption discussion",
+          "source": "https://www.mdpi.com/1996-1944/13/15/3437"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/jcs10010022",
+      "publicationId": "ke-b31-004",
+      "deepDiveId": "fly-ash-silica-fume-activator-cost-boundary",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Materials and mix-design discussion",
+          "source": "https://www.mdpi.com/2504-477X/10/1/22"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Methods",
+          "locator": "Preparation of Geopolymer Mortar Specimens, Curing and Testing Methods",
+          "source": "https://www.mdpi.com/2504-477X/10/1/22"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Findings",
+          "locator": "Conclusions; cost limitations",
+          "source": "https://www.mdpi.com/2504-477X/10/1/22"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma18245648",
+      "publicationId": "ke-b31-008",
+      "deepDiveId": "early-strength-paste-mortar-concrete-scale",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Abstract and study objective",
+          "source": "https://www.mdpi.com/1996-1944/18/24/5648"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Methods",
+          "locator": "Specimen Preparation and Curing",
+          "source": "https://www.mdpi.com/1996-1944/18/24/5648"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Findings",
+          "locator": "Results and conclusions",
+          "source": "https://www.mdpi.com/1996-1944/18/24/5648"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma15103458",
+      "publicationId": "ke-b37-022",
+      "deepDiveId": "fly-ash-pavement-optimization-exposure-clock",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Materials and Method; study objective",
+          "source": "https://www.mdpi.com/1996-1944/15/10/3458"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Methods",
+          "locator": "Acid-exposure discussion; Figure 13 description",
+          "source": "https://www.mdpi.com/1996-1944/15/10/3458"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Findings",
+          "locator": "Abstract and conclusions",
+          "source": "https://www.mdpi.com/1996-1944/15/10/3458"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma15082736",
+      "publicationId": "ke-b37-024",
+      "deepDiveId": "lime-pozzolan-hybrid-age-comparison",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Abstract and binder description",
+          "source": "https://www.mdpi.com/1996-1944/15/8/2736"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Methods",
+          "locator": "Hybrid mortar binder composition",
+          "source": "https://www.mdpi.com/1996-1944/15/8/2736"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Findings",
+          "locator": "Age-dependent compression discussion",
+          "source": "https://www.mdpi.com/1996-1944/15/8/2736"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma13102395",
+      "publicationId": "ke-b32-016",
+      "deepDiveId": "filler-hot-versus-residual-strength",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Materials",
+          "locator": "Binder preparation",
+          "source": "https://www.mdpi.com/1996-1944/13/10/2395"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Methods",
+          "locator": "Curing and thermal exposure",
+          "source": "https://www.mdpi.com/1996-1944/13/10/2395"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Findings",
+          "locator": "Abstract and thermo-mechanical discussion",
+          "source": "https://www.mdpi.com/1996-1944/13/10/2395"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/app13031804",
+      "publicationId": "ke-b38-024",
+      "deepDiveId": "cork-water-demand-insulation-tradeoff",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Mixture composition",
+          "source": "https://www.mdpi.com/2076-3417/13/3/1804"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Methods",
+          "locator": "Preparation and thermal testing",
+          "source": "https://www.mdpi.com/2076-3417/13/3/1804"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Findings",
+          "locator": "Thermal-results discussion and conclusions",
+          "source": "https://www.mdpi.com/2076-3417/13/3/1804"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma14164599",
+      "publicationId": "ke-b38-022",
+      "deepDiveId": "coir-glass-carbon-fiber-mixing-failure",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Study objective",
+          "source": "https://www.mdpi.com/1996-1944/14/16/4599"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Methods",
+          "locator": "Preparation and cure",
+          "source": "https://www.mdpi.com/1996-1944/14/16/4599"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Unfavorable result",
+          "locator": "Specimen-production limitation",
+          "source": "https://www.mdpi.com/1996-1944/14/16/4599"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma9060461",
+      "publicationId": "ke-b37-025",
+      "deepDiveId": "epoxy-geopolymer-co-reticulation-timing",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Synthetic-method discussion",
+          "source": "https://www.mdpi.com/1996-1944/9/6/461"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Methods",
+          "locator": "Specimen preparation and cure",
+          "source": "https://www.mdpi.com/1996-1944/9/6/461"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Findings",
+          "locator": "Conclusions",
+          "source": "https://www.mdpi.com/1996-1944/9/6/461"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma17061249",
+      "publicationId": "ke-b35-001",
+      "deepDiveId": "steel-slag-red-mud-calcium-coupled-effects",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Study objective and conclusions",
+          "source": "https://www.mdpi.com/1996-1944/17/6/1249"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Methods",
+          "locator": "Specimen preparation",
+          "source": "https://www.mdpi.com/1996-1944/17/6/1249"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Findings",
+          "locator": "Conclusions",
+          "source": "https://www.mdpi.com/1996-1944/17/6/1249"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/min13020186",
+      "publicationId": "ke-b28-013",
+      "deepDiveId": "seashell-limestone-replacement-versus-dilution",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Abstract and study objective",
+          "source": "https://www.mdpi.com/2075-163X/13/2/186"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Methods",
+          "locator": "Comparative mixture description",
+          "source": "https://www.mdpi.com/2075-163X/13/2/186"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Findings",
+          "locator": "Abstract and mechanical-results discussion",
+          "source": "https://www.mdpi.com/2075-163X/13/2/186"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma14112911",
+      "publicationId": "ke-b38-003",
+      "deepDiveId": "one-part-waste-sand-water-demand",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Abstract; study objective",
+          "source": "https://www.mdpi.com/1996-1944/14/11/2911"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Methods",
+          "locator": "Water-demand discussion",
+          "source": "https://www.mdpi.com/1996-1944/14/11/2911"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Findings",
+          "locator": "Abstract; Table 6 discussion",
+          "source": "https://www.mdpi.com/1996-1944/14/11/2911"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma13163644",
+      "publicationId": "ke-b38-015",
+      "deepDiveId": "rap-geopolymer-grout-versus-composite",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Conclusions; grout-selection discussion",
+          "source": "https://www.mdpi.com/1996-1944/13/16/3644"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Methods",
+          "locator": "Manufacturing steps; specimen description",
+          "source": "https://www.mdpi.com/1996-1944/13/16/3644"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Findings",
+          "locator": "Conclusions",
+          "source": "https://www.mdpi.com/1996-1944/13/16/3644"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma18040915",
+      "publicationId": "ke-b36-014",
+      "deepDiveId": "ceramsite-treatment-shrinkage-model-domain",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "§2.1 Mixture Design",
+          "source": "https://www.mdpi.com/1996-1944/18/4/915"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Methods",
+          "locator": "Group 1 and shrinkage measurements",
+          "source": "https://www.mdpi.com/1996-1944/18/4/915"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Findings",
+          "locator": "Group 1 conclusions; model limitations",
+          "source": "https://www.mdpi.com/1996-1944/18/4/915"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/coatings15060734",
+      "publicationId": "ke-b36-020",
+      "deepDiveId": "activator-corrosion-electrochemical-boundary",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Abstract and activator matrix",
+          "source": "https://www.mdpi.com/2079-6412/15/6/734"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Methods",
+          "locator": "Electrochemical methods",
+          "source": "https://www.mdpi.com/2079-6412/15/6/734"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Findings",
+          "locator": "Abstract and conclusions",
+          "source": "https://www.mdpi.com/2079-6412/15/6/734"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/min14050516",
+      "publicationId": "ke-b36-009",
+      "deepDiveId": "foam-nmr-acquisition-time-versus-kinetics",
+      "findingsCoverage": "selected-findings-or-interpretation",
+      "sourceStatus": "not-assessed",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Design",
+          "locator": "Study objective",
+          "source": "https://www.mdpi.com/2075-163X/14/5/516"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Methods",
+          "locator": "Conclusions; acquisition limitation",
+          "source": "https://www.mdpi.com/2075-163X/14/5/516"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Findings",
+          "locator": "Conclusions",
+          "source": "https://www.mdpi.com/2075-163X/14/5/516"
+        }
+      ]
+    }
+  ]
+}

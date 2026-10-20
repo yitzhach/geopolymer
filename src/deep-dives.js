@@ -1,3 +1,4 @@
+import {readingExpansionDeepDives} from './deep-dive-reading-expansion.js';
 import {expansion1000DeepDives} from './deep-dive-expansion-1000.js';
 import {expansion800DeepDives} from './deep-dive-expansion-800.js';
 import {expansion500DeepDives} from './deep-dive-expansion-500.js';
@@ -67,3 +68,5 @@ for(const d of deepDives)d.inventory=deepDiveInventories[d.id];
 deepDives.push(...expansion500DeepDives);
 deepDives.push(...expansion800DeepDives);
 deepDives.push(...expansion1000DeepDives);
+
+deepDives.push(...readingExpansionDeepDives);

@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-dives-reading-a-2026-10-20",
+  "checked": "2026-10-20",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "review": "Selected indexed primary passages only. No complete PDF, visual, human/domain or independent replication claim.",
+  "sourceAccess": "A session direct publisher fetch returned HTTP 429. This batch uses indexed publisher/PMC article passages; no raw paper or supplement retained.",
+  "deferred": [],
+  "queries": [
+    {
+      "doi": "10.3390/jcs10010022",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Materials and mix-design discussion",
+        "Preparation of Geopolymer Mortar Specimens, Curing and Testing Methods",
+        "Conclusions; cost limitations"
+      ]
+    },
+    {
+      "doi": "10.3390/ma18245648",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Abstract and study objective",
+        "Specimen Preparation and Curing",
+        "Results and conclusions"
+      ]
+    },
+    {
+      "doi": "10.3390/ma15103458",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Materials and Method; study objective",
+        "Acid-exposure discussion; Figure 13 description",
+        "Abstract and conclusions"
+      ]
+    },
+    {
+      "doi": "10.3390/ma15082736",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Abstract and binder description",
+        "Hybrid mortar binder composition",
+        "Age-dependent compression discussion"
+      ]
+    },
+    {
+      "doi": "10.3390/ma13102395",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Binder preparation",
+        "Curing and thermal exposure",
+        "Abstract and thermo-mechanical discussion"
+      ]
+    }
+  ],
+  "rights": {
+    "access": "Indexed primary text through session web search",
+    "processing": "Selected factual analysis and original editorial planning",
+    "rawRetention": "No raw paper, abstracts, source tables or figures retained",
+    "aiTransmission": "No external model service; only text exposed by session search",
+    "embedding": "not performed",
+    "display": "Original selected factual notes and conditional calculations, not reconstructed source tables or figures",
+    "export": "Same original public fields as displayed",
+    "license": "Exact full-text licenses remain unassessed in this batch; original factual notes and independent planning only."
+  },
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "id": "fly-ash-silica-fume-activator-cost-boundary",
+      "doi": "10.3390/jcs10010022",
+      "relatedStudy": "/studies/ke-b31-004",
+      "source": "https://www.mdpi.com/2504-477X/10/1/22",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Materials and mix-design discussion"
+        },
+        {
+          "title": "Methods",
+          "locator": "Preparation of Geopolymer Mortar Specimens, Curing and Testing Methods"
+        },
+        {
+          "title": "Findings",
+          "locator": "Conclusions; cost limitations"
+        }
+      ],
+      "holds": [
+        "Complete mass ledger, synthesis energy, test ages and uncertainty remain unextracted.",
+        "Long-term stabilization is discussed as future work, not a measured durability guarantee.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "early-strength-paste-mortar-concrete-scale",
+      "doi": "10.3390/ma18245648",
+      "relatedStudy": "/studies/ke-b31-008",
+      "source": "https://www.mdpi.com/1996-1944/18/24/5648",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Abstract and study objective"
+        },
+        {
+          "title": "Methods",
+          "locator": "Specimen Preparation and Curing"
+        },
+        {
+          "title": "Findings",
+          "locator": "Results and conclusions"
+        }
+      ],
+      "holds": [
+        "Full curing matrix, concentration basis, individual results and model validation remain incomplete.",
+        "No universal paste-to-concrete strength conversion or optimum activator is established.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "fly-ash-pavement-optimization-exposure-clock",
+      "doi": "10.3390/ma15103458",
+      "relatedStudy": "/studies/ke-b37-022",
+      "source": "https://www.mdpi.com/1996-1944/15/10/3458",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Materials and Method; study objective"
+        },
+        {
+          "title": "Methods",
+          "locator": "Acid-exposure discussion; Figure 13 description"
+        },
+        {
+          "title": "Findings",
+          "locator": "Abstract and conclusions"
+        }
+      ],
+      "holds": [
+        "The complete mixture ledger, maximum-strength test age and replicate uncertainty remain unextracted.",
+        "A laboratory strength maximum does not certify pavement durability or field service life.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "lime-pozzolan-hybrid-age-comparison",
+      "doi": "10.3390/ma15082736",
+      "relatedStudy": "/studies/ke-b37-024",
+      "source": "https://www.mdpi.com/1996-1944/15/8/2736",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Abstract and binder description"
+        },
+        {
+          "title": "Methods",
+          "locator": "Hybrid mortar binder composition"
+        },
+        {
+          "title": "Findings",
+          "locator": "Age-dependent compression discussion"
+        }
+      ],
+      "holds": [
+        "Complete cure, full mass ledger, durability tests and uncertainty remain unextracted.",
+        "The early-strength comparison does not establish universal compatibility or a complete executable mortar recipe.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "filler-hot-versus-residual-strength",
+      "doi": "10.3390/ma13102395",
+      "relatedStudy": "/studies/ke-b32-016",
+      "source": "https://www.mdpi.com/1996-1944/13/10/2395",
+      "evidenceLocators": [
+        {
+          "title": "Materials",
+          "locator": "Binder preparation"
+        },
+        {
+          "title": "Methods",
+          "locator": "Curing and thermal exposure"
+        },
+        {
+          "title": "Findings",
+          "locator": "Abstract and thermo-mechanical discussion"
+        }
+      ],
+      "holds": [
+        "Complete filler doses, heating rates, hot-test details and per-condition uncertainty remain incomplete.",
+        "No universal temperature rating or structural design strength is established.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ],
+  "exactQueries": [
+    "\"10.3390/jcs10010022\" preparation mixing curing methods",
+    "\"10.3390/ma18245648\" preparation mixing curing methods",
+    "\"10.3390/ma15103458\" preparation mixing curing methods",
+    "\"10.3390/ma15082736\" preparation mixing curing methods",
+    "\"10.3390/ma13102395\" preparation mixing curing methods",
+    "\"10.3390/jcs10010022\" main results conclusions strength limitations",
+    "\"10.3390/ma18245648\" main results conclusions strength limitations",
+    "\"10.3390/ma15103458\" main results conclusions strength limitations",
+    "\"10.3390/ma15082736\" main results conclusions strength limitations",
+    "\"10.3390/ma13102395\" main results conclusions strength limitations",
+    "\"10.3390/ma15082736\" \"lime\" \"strength\" \"curing\"",
+    "\"10.3390/ma18245648\" \"Conclusions\" \"concentration\"",
+    "\"10.3390/ma15082736\" \"hybrid\" \"FCC\" \"Conclusions\"",
+    "\"10.3390/ma15082736\" \"Preparation\" \"curing\" \"lime\"",
+    "\"10.3390/ma15082736\" \"hybrid\" \"strength\" \"90\"",
+    "\"10.3390/ma15082736\" \"curing conditions\""
+  ],
+  "operationCount": 17,
+  "directFetches": [
+    {
+      "url": "https://www.mdpi.com/1996-1944/15/8/2736",
+      "result": "HTTP 429; no repeat loop"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-dives-reading-c-2026-10-20",
+  "checked": "2026-10-20",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "review": "Selected indexed primary passages only. No complete PDF, visual, human/domain or independent replication claim.",
+  "sourceAccess": "A session direct publisher fetch returned HTTP 429. This batch uses indexed publisher/PMC article passages; no raw paper or supplement retained.",
+  "deferred": [],
+  "queries": [
+    {
+      "doi": "10.3390/ma14112911",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Abstract; study objective",
+        "Water-demand discussion",
+        "Abstract; Table 6 discussion"
+      ]
+    },
+    {
+      "doi": "10.3390/ma13163644",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Conclusions; grout-selection discussion",
+        "Manufacturing steps; specimen description",
+        "Conclusions"
+      ]
+    },
+    {
+      "doi": "10.3390/ma18040915",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "§2.1 Mixture Design",
+        "Group 1 and shrinkage measurements",
+        "Group 1 conclusions; model limitations"
+      ]
+    },
+    {
+      "doi": "10.3390/coatings15060734",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Abstract and activator matrix",
+        "Electrochemical methods",
+        "Abstract and conclusions"
+      ]
+    },
+    {
+      "doi": "10.3390/min14050516",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Study objective",
+        "Conclusions; acquisition limitation",
+        "Conclusions"
+      ]
+    }
+  ],
+  "rights": {
+    "access": "Indexed primary text through session web search",
+    "processing": "Selected factual analysis and original editorial planning",
+    "rawRetention": "No raw paper, abstracts, source tables or figures retained",
+    "aiTransmission": "No external model service; only text exposed by session search",
+    "embedding": "not performed",
+    "display": "Original selected factual notes and conditional calculations, not reconstructed source tables or figures",
+    "export": "Same original public fields as displayed",
+    "license": "Exact full-text licenses remain unassessed in this batch; original factual notes and independent planning only."
+  },
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "id": "one-part-waste-sand-water-demand",
+      "doi": "10.3390/ma14112911",
+      "relatedStudy": "/studies/ke-b38-003",
+      "source": "https://www.mdpi.com/1996-1944/14/11/2911",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Abstract; study objective"
+        },
+        {
+          "title": "Methods",
+          "locator": "Water-demand discussion"
+        },
+        {
+          "title": "Findings",
+          "locator": "Abstract; Table 6 discussion"
+        }
+      ],
+      "holds": [
+        "Complete water adjustments, activator denominator and raw-result uncertainty remain incomplete.",
+        "The selected strengths do not establish equivalent performance for unqualified boiler sands.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "rap-geopolymer-grout-versus-composite",
+      "doi": "10.3390/ma13163644",
+      "relatedStudy": "/studies/ke-b38-015",
+      "source": "https://www.mdpi.com/1996-1944/13/16/3644",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Conclusions; grout-selection discussion"
+        },
+        {
+          "title": "Methods",
+          "locator": "Manufacturing steps; specimen description"
+        },
+        {
+          "title": "Findings",
+          "locator": "Conclusions"
+        }
+      ],
+      "holds": [
+        "Complete cure, infiltration distribution, raw results and long-term exposure remain unextracted.",
+        "No field pavement lifetime or independently validated UPV strength predictor is established.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "ceramsite-treatment-shrinkage-model-domain",
+      "doi": "10.3390/ma18040915",
+      "relatedStudy": "/studies/ke-b36-014",
+      "source": "https://www.mdpi.com/1996-1944/18/4/915",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "§2.1 Mixture Design"
+        },
+        {
+          "title": "Methods",
+          "locator": "Group 1 and shrinkage measurements"
+        },
+        {
+          "title": "Findings",
+          "locator": "Group 1 conclusions; model limitations"
+        }
+      ],
+      "holds": [
+        "Full 6% dose denominator, curing and drying chronology, raw series and uncertainty remain incomplete.",
+        "No general resin-treatment optimum or validated extrapolation to other lightweight aggregates is supplied.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "activator-corrosion-electrochemical-boundary",
+      "doi": "10.3390/coatings15060734",
+      "relatedStudy": "/studies/ke-b36-020",
+      "source": "https://www.mdpi.com/2079-6412/15/6/734",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Abstract and activator matrix"
+        },
+        {
+          "title": "Methods",
+          "locator": "Electrochemical methods"
+        },
+        {
+          "title": "Findings",
+          "locator": "Abstract and conclusions"
+        }
+      ],
+      "holds": [
+        "Full exposure schedule, ratio basis, steel geometry and electrochemical uncertainty remain incomplete.",
+        "The selected current density does not establish corrosion immunity or a universal field service life.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "foam-nmr-acquisition-time-versus-kinetics",
+      "doi": "10.3390/min14050516",
+      "relatedStudy": "/studies/ke-b36-009",
+      "source": "https://www.mdpi.com/2075-163X/14/5/516",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Study objective"
+        },
+        {
+          "title": "Methods",
+          "locator": "Conclusions; acquisition limitation"
+        },
+        {
+          "title": "Findings",
+          "locator": "Conclusions"
+        }
+      ],
+      "holds": [
+        "Full dose ledger, sample quenching/preservation and spectral uncertainty remain unextracted.",
+        "No complete early-time kinetic curve or universally preferred foaming agent is inferred.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ],
+  "exactQueries": [
+    "\"10.3390/ma14112911\" preparation mixing curing methods",
+    "\"10.3390/ma13163644\" preparation mixing curing methods",
+    "\"10.3390/ma18040915\" preparation mixing curing methods",
+    "\"10.3390/coatings15060734\" preparation mixing curing methods",
+    "\"10.3390/min14050516\" preparation mixing curing methods",
+    "\"10.3390/ma14112911\" main results conclusions strength limitations",
+    "\"10.3390/ma13163644\" main results conclusions strength limitations",
+    "\"10.3390/ma18040915\" main results conclusions strength limitations",
+    "\"10.3390/coatings15060734\" main results conclusions strength limitations",
+    "\"10.3390/min14050516\" main results conclusions strength limitations",
+    "\"10.3390/min14050516\" \"zinc\" \"NMR\" \"later\"",
+    "\"10.3390/ma14112911\" \"water\" \"sand\" \"strength\"",
+    "\"10.3390/min14050516\" \"zinc\" \"delayed\"",
+    "\"10.3390/ma13163644\" \"Conclusions\" \"strength\""
+  ],
+  "operationCount": 14,
+  "directFetches": []
+}

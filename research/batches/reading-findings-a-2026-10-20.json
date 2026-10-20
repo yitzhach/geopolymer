@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "reading-findings-a-2026-10-20",
+  "checked": "2026-10-20",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "exactQueries": [
+    "\"10.3390/ma18030486\" abstract conclusions main findings results",
+    "\"10.3390/ma13245784\" abstract conclusions main findings results",
+    "\"10.3390/coatings11010087\" abstract conclusions main findings results",
+    "\"10.3390/polym14163386\" abstract conclusions main findings results",
+    "\"10.3390/app10093321\" abstract conclusions main findings results",
+    "\"10.3390/ma18030486\" \"biochar\" \"shrinkage\" \"strength\"",
+    "\"10.3390/ma13245784\" \"linear\" \"calcium\" \"strength\"",
+    "\"10.3390/coatings11010087\" \"Conclusions\" \"fire\" \"curing\"",
+    "\"10.3390/app10093321\" \"bond\" \"ratio\" \"compressive\"",
+    "\"10.3390/coatings11010087\" \"strength\" \"curing\" \"optimal\""
+  ],
+  "review": "Selected indexed publisher/PMC passages to enrich missing preview outcomes; not complete PDF/visual/human/domain review.",
+  "rawRetention": "No raw paper, abstract, source table or figure retained.",
+  "records": [
+    {
+      "doi": "10.3390/ma18030486",
+      "deepDiveId": "biochar-replacement-and-exposure",
+      "decision": "Selected finding summarized with source locator in reading-preview provenance"
+    },
+    {
+      "doi": "10.3390/ma13245784",
+      "deepDiveId": "metakaolin-gel-amount-versus-composition",
+      "decision": "Selected finding summarized with source locator in reading-preview provenance"
+    },
+    {
+      "doi": "10.3390/coatings11010087",
+      "deepDiveId": "aluminum-foam-coating-ratio-conflict",
+      "decision": "Assembly comparison described; quantitative fire outcome remains unresolved"
+    },
+    {
+      "doi": "10.3390/polym14163386",
+      "deepDiveId": "mgo-shrinkage-curing-demolding",
+      "decision": "Selected finding summarized with source locator in reading-preview provenance"
+    },
+    {
+      "doi": "10.3390/app10093321",
+      "deepDiveId": "fly-ash-opc-slant-shear-bond",
+      "decision": "Selected finding summarized with source locator in reading-preview provenance"
+    }
+  ],
+  "operationCount": 10
+}

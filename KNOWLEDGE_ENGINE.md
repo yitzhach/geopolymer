@@ -1,5 +1,28 @@
 # Knowledge engine Phase A implementation
 
+## 20 October 2026 — reading-preview layer
+
+`src/paper-reading-previews.js` contains 88 original previews joined by DOI to
+existing publications: 73 prior guides plus 15 new guides. The bibliography remains
+1,000 records. `paper-reading-ui.js` renders native expandable summaries on library
+cards and full summary sections on study pages. Paragraphs cover the reading
+question/scope, selected materials/methods and findings/interpretation. Takeaways,
+limitations, intended readers, source-check dates and links remain explicit.
+`paper-reading-core.js` validates identity, three paragraphs, provenance, links
+and correction holds at build time. Search includes preview text; separate filters
+show detailed summaries or papers with deep dives. The legacy 22 brief summaries
+keep their existing filter. The database JSON adds an optional `readingPreview`
+object to matching records; canonical experimental fields remain unchanged.
+
+The 15 new sources are in three five-paper audits. Ten additional outcome checks
+are in two five-paper audits. Indexed primary text was used; no complete PDF,
+visual, human/domain review or comprehensive source-status clearance is claimed.
+The fire-coating preview expressly leaves quantitative performance unresolved.
+The reactive-MgO correction remains visible and excluded from assistant evidence.
+Future edits must reconcile the preview when source identity/status changes and
+keep calculated/planned quantities separate from measured literature observations.
+
+
 ## 20 October 2026 — 1,000-publication milestone
 
 The library has 1,000 unique DOI records and 74 editorial deep dives. The latest

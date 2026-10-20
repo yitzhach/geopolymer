@@ -1,5 +1,34 @@
 # Research database and GP Journal
 
+## 20 October 2026 — 88 detailed previews and 89 guides
+
+The owner approved 2–3 paragraph reading summaries with takeaways, limitations,
+intended readers and original/deep-dive links for all 73 catalog-backed guides,
+plus further deep dives within the 1,000 existing papers. Added 15 guides covering
+activator endpoint/cost boundaries, cross-scale early strength, pavement exposure,
+lime–pozzolan hybrids, hot versus residual strength, cork/fiber/epoxy composites,
+calcium sources, seashell fillers, waste-sand one-part mortar, RAP composites,
+ceramsite shrinkage, rebar electrochemistry and foam NMR acquisition limits.
+All 88 catalog-backed guides now have detailed previews; the unmatched Taguchi
+recipe guide stays outside the 1,000-record bibliography. No bibliography added.
+
+Previews adapt reviewed editorial notes with explicitly allocated source facts;
+questions and intended readers are editorial guidance. Ten missing outcome accounts
+received additional selected publisher/PMC checks. The fire-coating preview retains
+its unresolved quantitative outcome and ratio conflict. No title-derived findings,
+raw articles, abstracts, source figures or complete source tables are retained.
+Exact full-text licenses remain unassessed for the 15 new guides. Direct publisher
+access returned HTTP 429 once; no repeat loop or access bypass was attempted.
+Three new-guide and two findings-followup audits retain bounded query logs. The
+preview audit preserves a frozen list of the original 73 and per-record provenance.
+
+Native expandable summaries work without JavaScript; dynamic filters/search use
+the same renderer. Study records and JSON export expose the same summaries. Review
+coverage/date and correction notices remain visible. Bibliographic status and
+canonical extraction depth are not silently upgraded. HANDOFF.md records tests
+and publication separately from live deployment identity.
+
+
 ## 20 October 2026 — 1,000 publications and 74 deep dives
 
 The owner requested another 200 papers after the published 800 checkpoint. Batches

@@ -1,5 +1,16 @@
 # Research assistant — working test feature
 
+## 20 October 2026 — editorial previews remain separate from numerical evidence
+
+The unchanged 1,000-paper catalog now has 88 detailed reading previews and 89
+partial editorial guides (one guide is tied only to a curated recipe). Previews
+are discoverable in library search and exported as optional reading-preview
+objects. They are not canonical observations, full-paper verification or a
+prediction layer. Existing source-status exclusions remain active; the reactive-MgO
+preview explicitly repeats its unresolved correction hold. The assistant's
+experimental corpus remains five partial studies / 62 mixes / 275 observations.
+
+
 ## 20 October 2026 — 1,000-paper discovery catalog
 
 The assistant's linked catalog now contains 1,000 publications and 74 partial

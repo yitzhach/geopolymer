@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-dives-reading-b-2026-10-20",
+  "checked": "2026-10-20",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "review": "Selected indexed primary passages only. No complete PDF, visual, human/domain or independent replication claim.",
+  "sourceAccess": "A session direct publisher fetch returned HTTP 429. This batch uses indexed publisher/PMC article passages; no raw paper or supplement retained.",
+  "deferred": [],
+  "queries": [
+    {
+      "doi": "10.3390/app13031804",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Mixture composition",
+        "Preparation and thermal testing",
+        "Thermal-results discussion and conclusions"
+      ]
+    },
+    {
+      "doi": "10.3390/ma14164599",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Study objective",
+        "Preparation and cure",
+        "Specimen-production limitation"
+      ]
+    },
+    {
+      "doi": "10.3390/ma9060461",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Synthetic-method discussion",
+        "Specimen preparation and cure",
+        "Conclusions"
+      ]
+    },
+    {
+      "doi": "10.3390/ma17061249",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Study objective and conclusions",
+        "Specimen preparation",
+        "Conclusions"
+      ]
+    },
+    {
+      "doi": "10.3390/min13020186",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Abstract and study objective",
+        "Comparative mixture description",
+        "Abstract and mechanical-results discussion"
+      ]
+    }
+  ],
+  "rights": {
+    "access": "Indexed primary text through session web search",
+    "processing": "Selected factual analysis and original editorial planning",
+    "rawRetention": "No raw paper, abstracts, source tables or figures retained",
+    "aiTransmission": "No external model service; only text exposed by session search",
+    "embedding": "not performed",
+    "display": "Original selected factual notes and conditional calculations, not reconstructed source tables or figures",
+    "export": "Same original public fields as displayed",
+    "license": "Exact full-text licenses remain unassessed in this batch; original factual notes and independent planning only."
+  },
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "id": "cork-water-demand-insulation-tradeoff",
+      "doi": "10.3390/app13031804",
+      "relatedStudy": "/studies/ke-b38-024",
+      "source": "https://www.mdpi.com/2076-3417/13/3/1804",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Mixture composition"
+        },
+        {
+          "title": "Methods",
+          "locator": "Preparation and thermal testing"
+        },
+        {
+          "title": "Findings",
+          "locator": "Thermal-results discussion and conclusions"
+        }
+      ],
+      "holds": [
+        "Full liquid ledger, conductivity specimen conditions and statistical spread remain incomplete.",
+        "The selected conductivity does not establish a finished insulation-product rating.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "coir-glass-carbon-fiber-mixing-failure",
+      "doi": "10.3390/ma14164599",
+      "relatedStudy": "/studies/ke-b38-022",
+      "source": "https://www.mdpi.com/1996-1944/14/16/4599",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Study objective"
+        },
+        {
+          "title": "Methods",
+          "locator": "Preparation and cure"
+        },
+        {
+          "title": "Unfavorable result",
+          "locator": "Specimen-production limitation"
+        }
+      ],
+      "holds": [
+        "Complete dose definitions, mixture ledger and individual-result uncertainty remain unextracted.",
+        "No interchangeable coir/glass/carbon dose or universal mechanical improvement is claimed.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "epoxy-geopolymer-co-reticulation-timing",
+      "doi": "10.3390/ma9060461",
+      "relatedStudy": "/studies/ke-b37-025",
+      "source": "https://www.mdpi.com/1996-1944/9/6/461",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Synthetic-method discussion"
+        },
+        {
+          "title": "Methods",
+          "locator": "Specimen preparation and cure"
+        },
+        {
+          "title": "Findings",
+          "locator": "Conclusions"
+        }
+      ],
+      "holds": [
+        "Complete polymer fractions, addition timing, interfacial proof and uncertainty remain incomplete.",
+        "No verified life-cycle advantage or substitute resin qualification is inferred.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "steel-slag-red-mud-calcium-coupled-effects",
+      "doi": "10.3390/ma17061249",
+      "relatedStudy": "/studies/ke-b35-001",
+      "source": "https://www.mdpi.com/1996-1944/17/6/1249",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Study objective and conclusions"
+        },
+        {
+          "title": "Methods",
+          "locator": "Specimen preparation"
+        },
+        {
+          "title": "Findings",
+          "locator": "Conclusions"
+        }
+      ],
+      "holds": [
+        "Full Ca(OH)₂ denominator, curing environment, precursor assays and uncertainty remain unextracted.",
+        "The reported combination is study-specific and does not qualify arbitrary steel slag or red mud.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "seashell-limestone-replacement-versus-dilution",
+      "doi": "10.3390/min13020186",
+      "relatedStudy": "/studies/ke-b28-013",
+      "source": "https://www.mdpi.com/2075-163X/13/2/186",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Abstract and study objective"
+        },
+        {
+          "title": "Methods",
+          "locator": "Comparative mixture description"
+        },
+        {
+          "title": "Findings",
+          "locator": "Abstract and mechanical-results discussion"
+        }
+      ],
+      "holds": [
+        "Complete grading, activator ledger, substrate preparation and uncertainty remain unextracted.",
+        "No blanket masonry-standard compliance or universal energy advantage is established.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ],
+  "exactQueries": [
+    "\"10.3390/app13031804\" preparation mixing curing methods",
+    "\"10.3390/ma14164599\" preparation mixing curing methods",
+    "\"10.3390/ma9060461\" preparation mixing curing methods",
+    "\"10.3390/ma17061249\" preparation mixing curing methods",
+    "\"10.3390/min13020186\" preparation mixing curing methods",
+    "\"10.3390/app13031804\" main results conclusions strength limitations",
+    "\"10.3390/ma14164599\" main results conclusions strength limitations",
+    "\"10.3390/ma9060461\" main results conclusions strength limitations",
+    "\"10.3390/ma17061249\" main results conclusions strength limitations",
+    "\"10.3390/min13020186\" main results conclusions strength limitations",
+    "\"10.3390/ma17061249\" \"Specimen\" \"curing\""
+  ],
+  "operationCount": 11,
+  "directFetches": []
+}

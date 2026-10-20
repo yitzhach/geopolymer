@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "reading-findings-b-2026-10-20",
+  "checked": "2026-10-20",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "exactQueries": [
+    "\"10.3390/ma16062400\" abstract conclusions main findings results",
+    "\"10.3390/ma15062050\" abstract conclusions main findings results",
+    "\"10.3390/ma13225200\" abstract conclusions main findings results",
+    "\"10.3390/polym14142920\" abstract conclusions main findings results",
+    "\"10.3390/ma17112516\" abstract conclusions main findings results",
+    "\"10.3390/ma16062400\" \"GC2\" \"62.6\"",
+    "\"10.3390/polym14142920\" \"10 M\" \"12 M\" \"strength\""
+  ],
+  "review": "Selected indexed publisher/PMC passages to enrich missing preview outcomes; not complete PDF/visual/human/domain review.",
+  "rawRetention": "No raw paper, abstract, source table or figure retained.",
+  "records": [
+    {
+      "doi": "10.3390/ma16062400",
+      "deepDiveId": "silica-fume-activator-volume-versus-mass",
+      "decision": "Selected finding summarized with source locator in reading-preview provenance"
+    },
+    {
+      "doi": "10.3390/ma15062050",
+      "deepDiveId": "mineral-wool-leaching-test-boundaries",
+      "decision": "Selected finding summarized with source locator in reading-preview provenance"
+    },
+    {
+      "doi": "10.3390/ma13225200",
+      "deepDiveId": "slag-softening-inverse-analysis-limits",
+      "decision": "Selected finding summarized with source locator in reading-preview provenance"
+    },
+    {
+      "doi": "10.3390/polym14142920",
+      "deepDiveId": "rice-husk-silicate-extraction-basis",
+      "decision": "Selected finding summarized with source locator in reading-preview provenance"
+    },
+    {
+      "doi": "10.3390/ma17112516",
+      "deepDiveId": "diatomite-sag-setting-water-retention",
+      "decision": "Selected finding summarized with source locator in reading-preview provenance"
+    }
+  ],
+  "operationCount": 7
+}

@@ -1,0 +1,14 @@
+{
+  "checked": "2026-10-20",
+  "scope": "One warm local Node filtering run with 1000 papers and 88 reading previews. Not browser rendering, network latency, production behavior or an SLO.",
+  "runtime": "v24.19.0",
+  "calls": 100,
+  "medianMs": 1.07,
+  "p95Ms": 1.252,
+  "uncompressedBytes": {
+    "readingPreviewModule": 322325,
+    "libraryHTML": 1460667,
+    "libraryExport": 2807548
+  },
+  "previousRelease": "library-performance-1000-2026-10-20.json measures the earlier release before reading previews, and is retained as historical evidence."
+}

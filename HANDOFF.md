@@ -1,6 +1,59 @@
 # Geopolymer — current handoff
 Updated 20 October 2026; dates use Eastern time.
 
+## Rich reading previews and further deep dives — 20 October 2026
+- Owner approved previews for all 73 catalog-backed papers and more deep dives
+  within the existing 1,000 papers. Implemented 88 previews (73 + 15) and 89 total
+  guides. The unmatched Taguchi recipe guide is still outside the bibliography.
+  No publications were added or deleted; stable IDs/DOIs/titles remain intact.
+- Native “Read paper summary” disclosures on library cards contain three labeled
+  paragraphs, key takeaways, limitations, intended readers and source/deep-dive
+  links. Study pages expose the same summary. Library filters distinguish detailed
+  reading summaries (88), papers with guides (88), and legacy brief summaries (22).
+  Preview text participates in library search; database JSON has an optional
+  readingPreview object for the same 88 records.
+- Modules: paper-reading-previews.js (static original editorial data),
+  paper-reading-ui.js (shared rendering/search), paper-reading-core.js (build
+  validation), deep-dive-reading-expansion.js (15 new guides). Preview identity,
+  source locators, links and correction holds are validated before public build.
+- New guides cover alternative activators, cross-scale strength, pavement and
+  lime–pozzolan systems, thermal fillers, cork/fiber/epoxy composites, calcium,
+  seashells, waste-sand mortar, RAP grout, ceramsite, corrosion and foam NMR.
+  Three five-paper source-review audits retain actual queries and operation counts.
+- Existing notes were explicitly allocated to question/method/findings paragraphs.
+  Ten missing outcome accounts received indexed primary-text followups in two
+  five-paper batches. The aluminum fire-coating preview still labels its
+  quantitative outcome unresolved; no rating or numerical ranking was invented.
+  Existing MgO correction hold remains visible and excluded from assistant evidence.
+- Source scope: selected indexed primary passages, not complete PDF/figure review,
+  human/domain review or comprehensive status clearance. Direct publisher fetch
+  returned HTTP 429 once. No repeat loop, raw paper/abstract/table/figure retention
+  or inferred numerical corrections. New guide licenses remain unassessed.
+- Canonical data unchanged: five partial studies / 62 mixes / 275 observations;
+  43 recipes / 31 scalable. Editorial previews add no measured observations.
+- Validation complete: all 118 Node cases, schema validation and 1,109-route build
+  pass. Dedicated UI checks pass all 88 previews, JS filters/search, expansion,
+  links, correction hold and export at desktop/mobile. Native disclosures and links
+  also pass without JavaScript. All five existing feature suites pass. Smoke checks
+  cover all 103 affected study/guide routes at desktop/mobile, without JavaScript,
+  and via legacy hashes, plus existing core interactions and storage-failure paths.
+- A final readability pass adds term definitions, source-specific methods gaps and
+  explicitly editorial interpretation checks. Paragraph totals are 114–331 words,
+  before bullet lists. Full Node/build and dedicated UI checks pass again afterward;
+  no application logic changed in that prose pass. Final mobile screenshot inspected.
+  The reading browser suite is included in CI. All 1,109 routes are built/static
+  checked; the older unchanged route corpus was not exhaustively re-swept in-browser.
+- A warm local Node filtering/payload measurement is recorded in
+  reading-preview-performance-2026-10-20.json. It is not production/browser latency;
+  the prior 1,000-paper performance file remains historical pre-preview evidence.
+- A single owner-authorized five-hour backup continuation targets this task, checks
+  counts/handoff before resuming, and must avoid duplicate work. Daily automation
+  unchanged; OpenAlex on hold. All checks complete; main publication is next.
+  Remote CI and live deployment identity remain unverified.
+- Next research: deepen complete source inventories, reconcile remaining correction
+  and method holds, and expand source-backed summaries in bounded batches. No
+  claim that all 1,000 papers have full-text reviews or rich summaries.
+
 ## Paper-to-deep-dive links — 20 October 2026
 - Owner asked whether library papers link to connected guides. Study pages already
   link by DOI; library cards previously did not. Added DOI-matched deep-dive links

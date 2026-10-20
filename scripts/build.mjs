@@ -1,3 +1,6 @@
+import {paperReadingPreviews} from '../src/paper-reading-previews.js';
+import {validateReadingPreviews} from '../src/paper-reading-core.js';
+import {library} from '../src/research-library.js';
 import {deepDives} from '../src/deep-dives.js';
 import {validateDeepDives} from '../src/deep-dive-core.js';
 import {pilot} from '../src/knowledge-pilot.js';
@@ -20,6 +23,7 @@ if(pilot.assets.some(a=>a.operations.publicDisplay.decision!=='allowed'||a.opera
 const shell = await readFile('index.html', 'utf8');
 validateResearchTopics(researchTopics);
 validateDeepDives(deepDives);
+validateReadingPreviews(paperReadingPreviews,library,deepDives);
 await rm('dist', { recursive: true, force: true });
 await mkdir('dist');
 for (const file of ['favicon.svg', 'favicon-32.png', 'apple-touch-icon.png', 'share-card.png', 'src'])
