@@ -46,10 +46,11 @@ Updated 20 October 2026; dates use Eastern time.
 - A warm local Node filtering/payload measurement is recorded in
   reading-preview-performance-2026-10-20.json. It is not production/browser latency;
   the prior 1,000-paper performance file remains historical pre-preview evidence.
-- A single owner-authorized five-hour backup continuation targets this task, checks
-  counts/handoff before resuming, and must avoid duplicate work. Daily automation
-  unchanged; OpenAlex on hold. All checks complete; main publication is next.
-  Remote CI and live deployment identity remain unverified.
+- Published implementation ba38ae77f16e25bc16fbbfaa09c9231016f5aca4 to main;
+  git ls-remote confirmed that exact SHA after push. This publication-status note
+  follows in a documentation commit. The one-time five-hour backup continuation
+  was paused after completion to prevent duplicate work. Daily automation is
+  unchanged; OpenAlex stays on hold. Remote CI/live deployment remain unverified.
 - Next research: deepen complete source inventories, reconcile remaining correction
   and method holds, and expand source-backed summaries in bounded batches. No
   claim that all 1,000 papers have full-text reviews or rich summaries.
