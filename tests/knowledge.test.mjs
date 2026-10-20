@@ -6,7 +6,7 @@ import {library} from '../src/research-library.js';
 import {validateKnowledge,searchEvidence,publicKnowledge,reconcileBatch,normalizeDoi,textMatches,affectedEvidence} from '../src/knowledge-core.js';
 const find=q=>searchEvidence(pilot,refs,{...q,pageSize:50});
 test('phase A identity, FK and source audit; preserve 61 stable library IDs and pilot observations',()=>{
- assert.equal(library.length,800);assert.equal(refs.length,739);assert.equal(library.filter(p=>!p.id.startsWith('ke-')).length,61);
+ assert.equal(library.length,1000);assert.equal(refs.length,939);assert.equal(library.filter(p=>!p.id.startsWith('ke-')).length,61);
  assert.deepEqual(validateKnowledge(pilot,library),[]);assert.equal(pilot.mixes.length,62);assert.equal(pilot.observations.length,275);
  const bad=structuredClone(pilot);bad.observations[0].mixId='211-M50-K';assert.ok(validateKnowledge(bad,library).length);
  assert.equal(normalizeDoi('https://doi.org/10.1039/B212629J'),'10.1039/b212629j');

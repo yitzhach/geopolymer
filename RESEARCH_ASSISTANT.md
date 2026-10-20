@@ -1,5 +1,17 @@
 # Research assistant — working test feature
 
+## 20 October 2026 — 1,000-paper discovery catalog
+
+The assistant's linked catalog now contains 1,000 publications and 74 partial
+editorial guides. The latest 200 metadata additions and 25 guides add no canonical
+observations or executable recipes. Guides distinguish source facts, conditional
+arithmetic and proposed experiments. An explicitly retracted new candidate was
+excluded; the pre-existing reactive-MgO correction hold remains unchanged and is
+still excluded from assistant evidence. Bibliographic identity checks do not
+establish full-text extraction, independent experimental evidence or status
+clearance. See HANDOFF.md for release validation.
+
+
 ## Latest catalog — 800 publications
 
 The further 300-record expansion brings the catalog to 800 and editorial guides

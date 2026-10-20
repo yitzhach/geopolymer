@@ -1,0 +1,861 @@
+{
+  "checked": "2026-10-20",
+  "baseline": 800,
+  "target": 1000,
+  "accepted": 200,
+  "scopedCandidates": 299,
+  "primaryChecked": 216,
+  "verifiedIdentity": 205,
+  "preparatoryExactQueries": 20,
+  "classificationFollowupQueries": [
+    "10.3390/buildings14010226",
+    "10.3390/jcs10060327",
+    "10.3390/ma14112911",
+    "10.3390/coatings15060734"
+  ],
+  "discoveryQueries": [
+    "site.mdpi.com geopolymer potassium silicate sodium silicate curing clay experimental",
+    "site.mdpi.com geopolymer rock wool mineral wool volcanic tuff brick waste",
+    "site:mdpi.com geopolymer aerogel freeze drying thermal conductivity",
+    "site:mdpi.com geopolymer magnetite microwave absorption",
+    "site:mdpi.com geopolymer zeolite membrane water purification",
+    "site:mdpi.com geopolymer 3D printed catalyst photocatalytic",
+    "site:mdpi.com geopolymer rice straw corn cob walnut shell",
+    "site:mdpi.com geopolymer lithium slag spodumene lepidolite",
+    "site:mdpi.com geopolymer mine tailings gold copper tungsten",
+    "site:mdpi.com geopolymer wastewater sludge sewage sludge",
+    "site:mdpi.com geopolymer recycled glass aggregate lead immobilization",
+    "site:mdpi.com geopolymer magnesium phosphate phosphoric acid iron",
+    "site:mdpi.com geopolymer potassium sodium thermal cycling",
+    "site:mdpi.com geopolymer low grade kaolin calcined illite",
+    "site:mdpi.com geopolymer granite sawdust marble dolomite",
+    "site:mdpi.com geopolymer recycled brick roof tile terracotta",
+    "site:mdpi.com geopolymer bamboo hemp flax jute",
+    "site:mdpi.com geopolymer basalt carbon textile hybrid",
+    "site:mdpi.com geopolymer steel fiber impact blast ballistic",
+    "site:mdpi.com geopolymer strain hardening tensile PVA PE",
+    "site:mdpi.com geopolymer alkali silica reaction expansion",
+    "site:mdpi.com geopolymer sulfate sulfuric acid hydrochloric acid",
+    "site:mdpi.com geopolymer efflorescence permeability moisture transport",
+    "site:mdpi.com geopolymer drying autogenous shrinkage internal curing",
+    "site:mdpi.com geopolymer creep relaxation fracture energy",
+    "site:mdpi.com geopolymer curing microwave ultrasound magnetic",
+    "site:mdpi.com geopolymer silicate waste glass rice husk activator",
+    "site:mdpi.com geopolymer one part solid activator sodium carbonate",
+    "site:mdpi.com geopolymer carbonation recycled concrete aggregates",
+    "site:mdpi.com geopolymer phosphogypsum red gypsum",
+    "site:mdpi.com geopolymer drilling mud oil shale residue",
+    "site:mdpi.com geopolymer bauxite residue steel slag refractory",
+    "site:mdpi.com geopolymer thermal energy storage phase change",
+    "site:mdpi.com geopolymer electrical resistivity self sensing",
+    "site:mdpi.com geopolymer underwater bond repair concrete",
+    "site:mdpi.com geopolymer coatings wood fire protection steel",
+    "site:mdpi.com geopolymer rheology thixotropy extrusion printing",
+    "site:mdpi.com geopolymer lignin lignosulfonate retardation",
+    "site:mdpi.com geopolymer foaming hydrogen peroxide surfactant",
+    "site:mdpi.com geopolymer porous foamed aluminum powder zinc",
+    "site:mdpi.com geopolymer life cycle environmental activator",
+    "site:mdpi.com geopolymer natural pozzolan volcanic pumice",
+    "site:mdpi.com geopolymer tannery leather textile waste",
+    "site:mdpi.com geopolymer metakaolin ceramsite lightweight aggregate",
+    "site:mdpi.com geopolymer perlite vermiculite diatomite",
+    "site:mdpi.com geopolymer silica aerogel expanded glass",
+    "site:mdpi.com geopolymer chloride binding corrosion reinforcement",
+    "site:mdpi.com geopolymer freeze thaw salt scaling",
+    "site:mdpi.com geopolymer rheology borax sucrose citric acid",
+    "site:mdpi.com geopolymer barium strontium cesium immobilization",
+    "site:mdpi.com geopolymer additive manufacturing interlayer anisotropy",
+    "site:mdpi.com geopolymer nanoclay nano silica graphene oxide",
+    "site:mdpi.com geopolymer reactivity milling mechanochemical",
+    "site:mdpi.com geopolymer recycled porcelain sanitary ware",
+    "site:mdpi.com geopolymer fly ash cenosphere cenospheres",
+    "site:mdpi.com geopolymer magnesium potassium volcanic ash",
+    "site:mdpi.com geopolymer coal gangue circulating fluidized bed",
+    "site:mdpi.com geopolymer foundry sand spent catalyst",
+    "site:mdpi.com geopolymer coffee husk sugarcane bagasse palm oil",
+    "site:mdpi.com geopolymer date palm cork wood sawdust",
+    "site:mdpi.com geopolymer mechanical fiber optical transparent",
+    "site:mdpi.com geopolymer recycled asphalt pavement",
+    "site:mdpi.com geopolymer heat curing sealed ambient humidity",
+    "site:mdpi.com geopolymer lime limestone filler calcium carbonate",
+    "site:mdpi.com geopolymer ceramic pigment color artwork",
+    "site:mdpi.com geopolymer recycled rubber tire crumb",
+    "site:mdpi.com geopolymer iron ore tailings ferronickel slag",
+    "site:mdpi.com geopolymer boron waste borogypsum",
+    "site:mdpi.com geopolymer dredged sediment marine clay",
+    "site:mdpi.com geopolymer silica fume metakaolin potassium",
+    "site:mdpi.com geopolymer paper sludge waste lime",
+    "site:mdpi.com geopolymer geothermal sludge geothermal silica",
+    "site:mdpi.com geopolymer phosphate metakaolin magnesium oxide",
+    "site:mdpi.com geopolymer alkali activated ground glass powder",
+    "site:mdpi.com carbonation mechanism alkali activated",
+    "site:mdpi.com sodium carbonate activated slag",
+    "site:mdpi.com sodium sulfate activated slag",
+    "site:mdpi.com alkali activated bauxite residue",
+    "site:mdpi.com geopolymer ceramic waste thermal shock",
+    "site:mdpi.com geopolymer freeze drying porous",
+    "site:mdpi.com geopolymer waste glass coating",
+    "site:mdpi.com geopolymer potassium metakaolin kinetics",
+    "site:mdpi.com geopolymer rice husk ash silica activator",
+    "site:mdpi.com geopolymer sediment calcination",
+    "site:mdpi.com geopolymer durability biological acid",
+    "site:mdpi.com geopolymer mine tailings immobilization",
+    "site:mdpi.com geopolymer aramid fiber",
+    "site:mdpi.com geopolymer basalt wool fibers",
+    "site:mdpi.com geopolymer superplasticizer molecular weight",
+    "site:mdpi.com geopolymer municipal incineration ash"
+  ],
+  "exactDoiQueries": [
+    "\"10.3390/ma16206619\" site:mdpi.com",
+    "\"10.3390/ma18214947\" site:mdpi.com",
+    "\"10.3390/ma16062400\" site:mdpi.com",
+    "\"10.3390/jcs10010022\" site:mdpi.com",
+    "\"10.3390/ma17020463\" site:mdpi.com",
+    "\"10.3390/min8040162\" site:mdpi.com",
+    "\"10.3390/ma15062050\" site:mdpi.com",
+    "\"10.3390/ma18245648\" site:mdpi.com",
+    "\"10.3390/molecules27154805\" site:mdpi.com",
+    "\"10.3390/gels8120792\" site:mdpi.com",
+    "\"10.3390/ma17020483\" site:mdpi.com",
+    "\"10.3390/polym17091155\" site:mdpi.com",
+    "\"10.3390/ma19153251\" site:mdpi.com",
+    "\"10.3390/polym18091110\" site:mdpi.com",
+    "\"10.3390/ma17071585\" site:mdpi.com",
+    "\"10.3390/molecules25184218\" site:mdpi.com",
+    "\"10.3390/su15054523\" site:mdpi.com",
+    "\"10.3390/min13020232\" site:mdpi.com",
+    "\"10.3390/fibers5040047\" site:mdpi.com",
+    "\"10.3390/ma17010142\" site:mdpi.com",
+    "\"10.3390/ma13143146\" site:mdpi.com",
+    "\"10.3390/min15030297\" site:mdpi.com",
+    "\"10.3390/ma9080633\" site:mdpi.com",
+    "\"10.3390/ma15113936\" site:mdpi.com",
+    "\"10.3390/ma18163823\" site:mdpi.com",
+    "\"10.3390/buildings16153136\" site:mdpi.com",
+    "\"10.3390/su15129846\" site:mdpi.com",
+    "\"10.3390/min14080763\" site:mdpi.com",
+    "\"10.3390/ma14206184\" site:mdpi.com",
+    "\"10.3390/su172210180\" site:mdpi.com",
+    "\"10.3390/ma16176054\" site:mdpi.com",
+    "\"10.3390/ma15175961\" site:mdpi.com",
+    "\"10.3390/polym13071149\" site:mdpi.com",
+    "\"10.3390/buildings13030586\" site:mdpi.com",
+    "\"10.3390/ma16052044\" site:mdpi.com",
+    "\"10.3390/polym18121470\" site:mdpi.com",
+    "\"10.3390/ma14010214\" site:mdpi.com",
+    "\"10.3390/app14083439\" site:mdpi.com",
+    "\"10.3390/polym13132071\" site:mdpi.com",
+    "\"10.3390/ma18235275\" site:mdpi.com",
+    "\"10.3390/polym13172970\" site:mdpi.com",
+    "\"10.3390/molecules25122839\" site:mdpi.com",
+    "\"10.3390/buildings16020327\" site:mdpi.com",
+    "\"10.3390/ma13102395\" site:mdpi.com",
+    "\"10.3390/polym13050751\" site:mdpi.com",
+    "\"10.3390/fibers9040023\" site:mdpi.com",
+    "\"10.3390/fibers7070063\" site:mdpi.com",
+    "\"10.3390/ma13204603\" site:mdpi.com",
+    "\"10.3390/fibers6040087\" site:mdpi.com",
+    "\"10.3390/app10082865\" site:mdpi.com",
+    "\"10.3390/ma18010103\" site:mdpi.com",
+    "\"10.3390/jcs6100292\" site:mdpi.com",
+    "\"10.3390/polym12091924\" site:mdpi.com",
+    "\"10.3390/polym14020306\" site:mdpi.com",
+    "\"10.3390/jcs6070191\" site:mdpi.com",
+    "\"10.3390/coatings16030328\" site:mdpi.com",
+    "\"10.3390/polym13223935\" site:mdpi.com",
+    "\"10.3390/infrastructures5110096\" site:mdpi.com",
+    "\"10.3390/su152416934\" site:mdpi.com",
+    "\"10.3390/buildings16152982\" site:mdpi.com",
+    "\"10.3390/su13020873\" site:mdpi.com",
+    "\"10.3390/fibers12050040\" site:mdpi.com",
+    "\"10.3390/buildings15162974\" site:mdpi.com",
+    "\"10.3390/buildings15203792\" site:mdpi.com",
+    "\"10.3390/ma16145077\" site:mdpi.com",
+    "\"10.3390/buildings14071986\" site:mdpi.com",
+    "\"10.3390/su14052652\" site:mdpi.com",
+    "\"10.3390/polym15163440\" site:mdpi.com",
+    "\"10.3390/pr14101607\" site:mdpi.com",
+    "\"10.3390/su12125002\" site:mdpi.com",
+    "\"10.3390/polym14050917\" site:mdpi.com",
+    "\"10.3390/infrastructures10090241\" site:mdpi.com",
+    "\"10.3390/buildings16091721\" site:mdpi.com",
+    "\"10.3390/buildings12112010\" site:mdpi.com",
+    "\"10.3390/buildings14051438\" site:mdpi.com",
+    "\"10.3390/buildings14010136\" site:mdpi.com",
+    "\"10.3390/ma18194528\" site:mdpi.com",
+    "\"10.3390/buildings16122306\" site:mdpi.com",
+    "\"10.3390/ma18194607\" site:mdpi.com",
+    "\"10.3390/buildings16193876\" site:mdpi.com",
+    "\"10.3390/jcs9020069\" site:mdpi.com",
+    "\"10.3390/gels11070507\" site:mdpi.com",
+    "\"10.3390/ma15238626\" site:mdpi.com",
+    "\"10.3390/ma19122474\" site:mdpi.com",
+    "\"10.3390/buildings14123918\" site:mdpi.com",
+    "\"10.3390/ma16186128\" site:mdpi.com",
+    "\"10.3390/ma13225200\" site:mdpi.com",
+    "\"10.3390/jcs8120492\" site:mdpi.com",
+    "\"10.3390/ma11081445\" site:mdpi.com",
+    "\"10.3390/buildings16091800\" site:mdpi.com",
+    "\"10.3390/buildings14123723\" site:mdpi.com",
+    "\"10.3390/polym17172432\" site:mdpi.com",
+    "\"10.3390/su141710948\" site:mdpi.com",
+    "\"10.3390/polym14142920\" site:mdpi.com",
+    "\"10.3390/buildings14010226\" site:mdpi.com",
+    "\"10.3390/buildings15203661\" site:mdpi.com",
+    "\"10.3390/pr13010097\" site:mdpi.com",
+    "\"10.3390/buildings12112025\" site:mdpi.com",
+    "\"10.3390/ma13184202\" site:mdpi.com",
+    "\"10.3390/ma19153347\" site:mdpi.com",
+    "\"10.3390/ma17092169\" site:mdpi.com",
+    "\"10.3390/ma14154160\" site:mdpi.com",
+    "\"10.3390/ma16237304\" site:mdpi.com",
+    "\"10.3390/ma18194512\" site:mdpi.com",
+    "\"10.3390/ma14164350\" site:mdpi.com",
+    "\"10.3390/ma18020257\" site:mdpi.com",
+    "\"10.3390/ma15207086\" site:mdpi.com",
+    "\"10.3390/ma18040750\" site:mdpi.com",
+    "\"10.3390/ma18174087\" site:mdpi.com",
+    "\"10.3390/ma14206044\" site:mdpi.com",
+    "\"10.3390/polym18141723\" site:mdpi.com",
+    "\"10.3390/ma17061249\" site:mdpi.com",
+    "\"10.3390/ma12101616\" site:mdpi.com",
+    "\"10.3390/ma15103543\" site:mdpi.com",
+    "\"10.3390/min11070732\" site:mdpi.com",
+    "\"10.3390/en18123107\" site:mdpi.com",
+    "\"10.3390/ma18071552\" site:mdpi.com",
+    "\"10.3390/min11060593\" site:mdpi.com",
+    "\"10.3390/buildings14020463\" site:mdpi.com",
+    "\"10.3390/ma14092213\" site:mdpi.com",
+    "\"10.3390/ma18163853\" site:mdpi.com",
+    "\"10.3390/ma15093189\" site:mdpi.com",
+    "\"10.3390/min15070735\" site:mdpi.com",
+    "\"10.3390/polym13213747\" site:mdpi.com",
+    "\"10.3390/ma12101697\" site:mdpi.com",
+    "\"10.3390/su17062617\" site:mdpi.com",
+    "\"10.3390/ma8095294\" site:mdpi.com",
+    "\"10.3390/app12063116\" site:mdpi.com",
+    "\"10.3390/ma14010056\" site:mdpi.com",
+    "\"10.3390/app10217838\" site:mdpi.com",
+    "\"10.3390/ma18102272\" site:mdpi.com",
+    "\"10.3390/c11030055\" site:mdpi.com",
+    "\"10.3390/ma14237375\" site:mdpi.com",
+    "\"10.3390/su132011167\" site:mdpi.com",
+    "\"10.3390/jcs5040109\" site:mdpi.com",
+    "\"10.3390/min12070821\" site:mdpi.com",
+    "\"10.3390/buildings15132251\" site:mdpi.com",
+    "\"10.3390/app122111205\" site:mdpi.com",
+    "\"10.3390/su14094942\" site:mdpi.com",
+    "\"10.3390/su15097718\" site:mdpi.com",
+    "\"10.3390/ma18133150\" site:mdpi.com",
+    "\"10.3390/buildings16163244\" site:mdpi.com",
+    "\"10.3390/ma15217486\" site:mdpi.com",
+    "\"10.3390/infrastructures11010028\" site:mdpi.com",
+    "\"10.3390/min14050516\" site:mdpi.com",
+    "\"10.3390/su15042966\" site:mdpi.com",
+    "\"10.3390/buildings15101703\" site:mdpi.com",
+    "\"10.3390/ma17071696\" site:mdpi.com",
+    "\"10.3390/ma17225670\" site:mdpi.com",
+    "\"10.3390/ma18040915\" site:mdpi.com",
+    "\"10.3390/ma17081798\" site:mdpi.com",
+    "\"10.3390/ma15207130\" site:mdpi.com",
+    "\"10.3390/buildings14041060\" site:mdpi.com",
+    "\"10.3390/ma17102399\" site:mdpi.com",
+    "\"10.3390/ma17112516\" site:mdpi.com",
+    "\"10.3390/coatings15060734\" site:mdpi.com",
+    "\"10.3390/ma11091521\" site:mdpi.com",
+    "\"10.3390/app16031623\" site:mdpi.com",
+    "\"10.3390/jcs10060327\" site:mdpi.com",
+    "\"10.3390/ma15030876\" site:mdpi.com",
+    "\"10.3390/su17041756\" site:mdpi.com",
+    "\"10.3390/ma16083010\" site:mdpi.com",
+    "\"10.3390/su16188200\" site:mdpi.com",
+    "\"10.3390/ma19143058\" site:mdpi.com",
+    "\"10.3390/app11094054\" site:mdpi.com",
+    "\"10.3390/ma19153176\" site:mdpi.com",
+    "\"10.3390/ma19173750\" site:mdpi.com",
+    "\"10.3390/app152011196\" site:mdpi.com",
+    "\"10.3390/polym14020262\" site:mdpi.com",
+    "\"10.3390/buildings15152805\" site:mdpi.com",
+    "\"10.3390/ma19112214\" site:mdpi.com",
+    "\"10.3390/min11070700\" site:mdpi.com",
+    "\"10.3390/polym14183861\" site:mdpi.com",
+    "\"10.3390/buildings15183303\" site:mdpi.com",
+    "\"10.3390/min13040490\" site:mdpi.com",
+    "\"10.3390/app8030365\" site:mdpi.com",
+    "\"10.3390/min14070726\" site:mdpi.com",
+    "\"10.3390/buildings12081066\" site:mdpi.com",
+    "\"10.3390/buildings13030693\" site:mdpi.com",
+    "\"10.3390/ma19061095\" site:mdpi.com",
+    "\"10.3390/ma18153457\" site:mdpi.com",
+    "\"10.3390/min8080337\" site:mdpi.com",
+    "\"10.3390/ma18194488\" site:mdpi.com",
+    "\"10.3390/ma15103458\" site:mdpi.com",
+    "\"10.3390/ma16031096\" site:mdpi.com",
+    "\"10.3390/ma15082736\" site:mdpi.com",
+    "\"10.3390/ma9060461\" site:mdpi.com",
+    "\"10.3390/app13085166\" site:mdpi.com",
+    "\"10.3390/app10134577\" site:mdpi.com",
+    "\"10.3390/ma14112911\" site:mdpi.com",
+    "\"10.3390/su132313455\" site:mdpi.com",
+    "\"10.3390/buildings12111932\" site:mdpi.com",
+    "\"10.3390/polym14235091\" site:mdpi.com",
+    "\"10.3390/ma15207098\" site:mdpi.com",
+    "\"10.3390/en13102504\" site:mdpi.com",
+    "\"10.3390/ma17225433\" site:mdpi.com",
+    "\"10.3390/polym13234160\" site:mdpi.com",
+    "\"10.3390/ma19153229\" site:mdpi.com",
+    "\"10.3390/ma14112935\" site:mdpi.com",
+    "\"10.3390/ma14185204\" site:mdpi.com",
+    "\"10.3390/su13063330\" site:mdpi.com",
+    "\"10.3390/ma13163644\" site:mdpi.com",
+    "\"10.3390/polym15143077\" site:mdpi.com",
+    "\"10.3390/coatings15080935\" site:mdpi.com",
+    "\"10.3390/infrastructures7090117\" site:mdpi.com",
+    "\"10.3390/ma18040778\" site:mdpi.com",
+    "\"10.3390/su12145666\" site:mdpi.com",
+    "\"10.3390/ma13153437\" site:mdpi.com",
+    "\"10.3390/ma14164599\" site:mdpi.com",
+    "\"10.3390/polym14061140\" site:mdpi.com",
+    "\"10.3390/app13031804\" site:mdpi.com",
+    "\"10.3390/cryst11101167\" site:mdpi.com",
+    "\"10.3390/polym14163380\" site:mdpi.com",
+    "\"10.3390/ma9050392\" site:mdpi.com",
+    "\"10.3390/polym17172310\" site:mdpi.com",
+    "\"10.3390/ma18163815\" site:mdpi.com"
+  ],
+  "reservedOrRejected": [
+    {
+      "doi": "10.3390/ma17020483",
+      "title": "The Effect of Mineral Wool Fiber Additive on Several Mechanical Properties and Thermal Conductivity in Geopolymer Binder",
+      "url": "https://www.mdpi.com/1996-1944/17/2/483",
+      "decision": "not-accepted",
+      "reason": "Matched primary heading, DOI and explicit cited journal year not all established"
+    },
+    {
+      "doi": "10.3390/fibers5040047",
+      "title": "Enhancement Experiment on Cementitious Activity of Copper-Mine Tailings in a Geopolymer System",
+      "url": "https://www.mdpi.com/2079-6439/5/4/47",
+      "decision": "not-accepted",
+      "reason": "Matched primary heading, DOI and explicit cited journal year not all established"
+    },
+    {
+      "doi": "10.3390/ma14206184",
+      "title": "Retention of Pollutants Elements from Mine Tailings of Lead in Geopolymers for Construction",
+      "url": "https://www.mdpi.com/1996-1944/14/20/6184",
+      "decision": "not-accepted",
+      "reason": "Matched primary heading, DOI and explicit cited journal year not all established"
+    },
+    {
+      "doi": "10.3390/fibers9040023",
+      "title": "An Application Review of Fiber-Reinforced Geopolymer Composite",
+      "url": "https://www.mdpi.com/2079-6439/9/4/23",
+      "decision": "not-accepted",
+      "reason": "Matched primary heading, DOI and explicit cited journal year not all established"
+    },
+    {
+      "doi": "10.3390/fibers7070063",
+      "title": "Composite Performance Evaluation of Basalt Textile-Reinforced Geopolymer Mortar",
+      "url": "https://www.mdpi.com/2079-6439/7/7/63",
+      "decision": "not-accepted",
+      "reason": "Matched primary heading, DOI and explicit cited journal year not all established"
+    },
+    {
+      "doi": "10.3390/fibers6040087",
+      "title": "Flexural Behavior of Carbon Textile-Reinforced Geopolymer Composite Thin Plate",
+      "url": "https://www.mdpi.com/2079-6439/6/4/87",
+      "decision": "not-accepted",
+      "reason": "Matched primary heading, DOI and explicit cited journal year not all established"
+    },
+    {
+      "doi": "10.3390/fibers12050040",
+      "title": "Acid Resistance of Metakaolin-Based Geopolymers and Geopolymeric Mortars Reinforced with Coconut Fibers",
+      "url": "https://www.mdpi.com/2079-6439/12/5/40",
+      "decision": "not-accepted",
+      "reason": "Matched primary heading, DOI and explicit cited journal year not all established"
+    },
+    {
+      "doi": "10.3390/ma16145077",
+      "title": "The Strength and Fracture Characteristics of One-Part Strain-Hardening Green Alkali-Activated Engineered Composites",
+      "url": "https://www.mdpi.com/1996-1944/16/14/5077",
+      "decision": "not-accepted",
+      "reason": "Matched primary heading, DOI and explicit cited journal year not all established"
+    },
+    {
+      "doi": "10.3390/ma15238626",
+      "title": "Study of Metakaolinite Geopolymeric Mortar with Plastic Waste Replacing the Sand: Effects on the Mechanical Properties, Microstructure, and Efflorescence",
+      "url": "https://www.mdpi.com/1996-1944/15/23/8626",
+      "decision": "not-accepted",
+      "reason": "Matched primary heading, DOI and explicit cited journal year not all established"
+    },
+    {
+      "doi": "10.3390/ma13184202",
+      "title": "Formation of Geopolymers Using Sodium Silicate Solution and Aluminum Orthophosphate",
+      "url": "https://www.mdpi.com/1996-1944/13/18/4202",
+      "decision": "not-accepted",
+      "reason": "Matched primary heading, DOI and explicit cited journal year not all established"
+    },
+    {
+      "doi": "10.3390/ma16237304",
+      "title": "Formulating Geopolymer Mortars through Construction and Demolition Waste (CDW) Recycling: A Comprehensive Case Study",
+      "url": "https://www.mdpi.com/1996-1944/16/23/7304",
+      "decision": "not-accepted",
+      "reason": "Matched primary heading, DOI and explicit cited journal year not all established"
+    },
+    {
+      "doi": "10.3390/buildings12081066",
+      "title": "RETRACTED: A Study on the Properties of Geopolymer Concrete Modified with Nano Graphene Oxide",
+      "url": "https://www.mdpi.com/2075-5309/12/8/1066",
+      "decision": "excluded",
+      "reason": "Publisher heading explicitly marks retraction; excluded from accepted additions."
+    },
+    {
+      "doi": "10.3390/polym14163380",
+      "title": "Characterisation of White Metakaolin-Based Geopolymers Doped with Synthetic Organic Dyes",
+      "url": "https://www.mdpi.com/2073-4360/14/16/3380",
+      "decision": "verified-reserve",
+      "reason": "Beyond the requested 200 additions"
+    },
+    {
+      "doi": "10.3390/ma9050392",
+      "title": "Optimising Ambient Setting Bayer Derived Fly Ash Geopolymers",
+      "url": "https://www.mdpi.com/1996-1944/9/5/392",
+      "decision": "verified-reserve",
+      "reason": "Beyond the requested 200 additions"
+    },
+    {
+      "doi": "10.3390/polym17172310",
+      "title": "Durability and Microstructural Evaluation of Geopolymer Mortars Exposed to Sulphuric Acid Using Industrial By-Product Fillers",
+      "url": "https://www.mdpi.com/2073-4360/17/17/2310",
+      "decision": "verified-reserve",
+      "reason": "Beyond the requested 200 additions"
+    },
+    {
+      "doi": "10.3390/ma18163815",
+      "title": "Green Low-Temperature Activation and Curing for High-Toughness Geopolymer Binders from Diabase Tailings",
+      "url": "https://www.mdpi.com/1996-1944/18/16/3815",
+      "decision": "verified-reserve",
+      "reason": "Beyond the requested 200 additions"
+    }
+  ],
+  "deferredUnchecked": [
+    {
+      "doi": "10.3390/ma13102284",
+      "title": "Role of Natural Stone Wastes and Minerals in the Alkali Activation Process: A Review",
+      "url": "https://www.mdpi.com/1996-1944/13/10/2284"
+    },
+    {
+      "doi": "10.3390/ma15196623",
+      "title": "Optimized Alkali-Activated Slag-Based Concrete Reinforced with Recycled Tire Steel Fiber",
+      "url": "https://www.mdpi.com/1996-1944/15/19/6623"
+    },
+    {
+      "doi": "10.3390/buildings15122010",
+      "title": "Durability and Mechanical Analysis of Basalt Fiber Reinforced Metakaolin–Red Mud-Based Geopolymer Composites",
+      "url": "https://www.mdpi.com/2075-5309/15/12/2010"
+    },
+    {
+      "doi": "10.3390/min10090827",
+      "title": "Synthesis of Fly Ash-Based Geopolymers: Effect of Calcite Addition and Mechanical Activation",
+      "url": "https://www.mdpi.com/2075-163X/10/9/827"
+    },
+    {
+      "doi": "10.3390/nano11082007",
+      "title": "Geopolymers vs. Cement Matrix Materials: How Nanofiller Can Help a Sustainability Approach for Smart Construction Applications—A Review",
+      "url": "https://www.mdpi.com/2079-4991/11/8/2007"
+    },
+    {
+      "doi": "10.3390/su122410495",
+      "title": "Sustainability Benefits Assessment of Metakaolin-Based Geopolymer Treatment of High Plasticity Clay",
+      "url": "https://www.mdpi.com/2071-1050/12/24/10495"
+    },
+    {
+      "doi": "10.3390/ma17122975",
+      "title": "Synergistic Effect of Blended Precursors and Silica Fume on Strength and High Temperature Resistance of Geopolymer",
+      "url": "https://www.mdpi.com/1996-1944/17/12/2975"
+    },
+    {
+      "doi": "10.3390/ma14216534",
+      "title": "Preparation of Cement Clinker from Geopolymer-Based Wastes",
+      "url": "https://www.mdpi.com/1996-1944/14/21/6534"
+    },
+    {
+      "doi": "10.3390/ma7085603",
+      "title": "Recycling of Clay Sediments for Geopolymer Binder Production. A New Perspective for Reservoir Management in the Framework of Italian Legislation: The Occhito Reservoir Case Study",
+      "url": "https://www.mdpi.com/1996-1944/7/8/5603"
+    },
+    {
+      "doi": "10.3390/buildings13071750",
+      "title": "Experimental Study on Mechanical Properties and Drying Shrinkage Compensation of Solidified Ultra-Fine Dredged Sand Blocks Made with GGBS-Based Geopolymer",
+      "url": "https://www.mdpi.com/2075-5309/13/7/1750"
+    },
+    {
+      "doi": "10.3390/jcs6050147",
+      "title": "Valorization of a Highly Organic Sediment: From Conventional Binders to a Geopolymer Approach",
+      "url": "https://www.mdpi.com/2504-477X/6/5/147"
+    },
+    {
+      "doi": "10.3390/ma18143408",
+      "title": "Alkali-Activated Dredged-Sediment-Based Fluidized Solidified Soil: Early-Age Engineering Performance and Microstructural Mechanisms",
+      "url": "https://www.mdpi.com/1996-1944/18/14/3408"
+    },
+    {
+      "doi": "10.3390/app16136430",
+      "title": "Evaluation of Durability of Clay Stabilized with Philippine Quarry Dust-Based Geopolymer",
+      "url": "https://www.mdpi.com/2076-3417/16/13/6430"
+    },
+    {
+      "doi": "10.3390/su14063158",
+      "title": "Compressed Earth Blocks Using Sediments and Alkali-Activated Byproducts",
+      "url": "https://www.mdpi.com/2071-1050/14/6/3158"
+    },
+    {
+      "doi": "10.3390/molecules31050823",
+      "title": "Behaviors and Mechanism of Visible-Light-Assisted PMS Activation by Porous Iron Tailing-Based Geopolymer for Methylene Blue Degradation",
+      "url": "https://www.mdpi.com/1420-3049/31/5/823"
+    },
+    {
+      "doi": "10.3390/buildings15060886",
+      "title": "Effect of Mix Design Parameters on the Properties of Dam Sediment/Slag-Based Geopolymer Mortars",
+      "url": "https://www.mdpi.com/2075-5309/15/6/886"
+    },
+    {
+      "doi": "10.3390/polym15122696",
+      "title": "The Synergistic Mechanism and Stability Evaluation of Phosphogypsum and Recycled Fine Powder-Based Multi-Source Solid Waste Geopolymer",
+      "url": "https://www.mdpi.com/2073-4360/15/12/2696"
+    },
+    {
+      "doi": "10.3390/ma18235256",
+      "title": "Development and Performance Evaluation of Geopolymer-Based Fluidized Solidified Soil Using Phosphogypsum and Slag Powder for Road Backfilling",
+      "url": "https://www.mdpi.com/1996-1944/18/23/5256"
+    },
+    {
+      "doi": "10.3390/ma13245604",
+      "title": "Performance Optimization and Characterization of Soda Residue-Fly Ash Geopolymer Paste for Goaf Backfill: Beta-Hemihydrate Gypsum Alternative to Sodium Silicate",
+      "url": "https://www.mdpi.com/1996-1944/13/24/5604"
+    },
+    {
+      "doi": "10.3390/ma15134379",
+      "title": "Optimal Design of Ferronickel Slag Alkali-Activated Material for High Thermal Load Applications Developed by Design of Experiment",
+      "url": "https://www.mdpi.com/1996-1944/15/13/4379"
+    },
+    {
+      "doi": "10.3390/ma17194939",
+      "title": "Performance-Based Design of Ferronickel Slag Alkali-Activated Concrete for High Thermal Load Applications",
+      "url": "https://www.mdpi.com/1996-1944/17/19/4939"
+    },
+    {
+      "doi": "10.3390/gels8040233",
+      "title": "Circular Economy of Coal Fly Ash and Silica Geothermal for Green Geopolymer: Characteristic and Kinetic Study",
+      "url": "https://www.mdpi.com/2310-2861/8/4/233"
+    },
+    {
+      "doi": "10.3390/ma12030442",
+      "title": "Metakaolinite Phosphate Cementitious Matrix: Inorganic Polymer Obtained by Acidic Activation",
+      "url": "https://www.mdpi.com/1996-1944/12/3/442"
+    },
+    {
+      "doi": "10.3390/polym13162750",
+      "title": "Optimisation of GBFS, Fly Ash, and Nano-Silica Contents in Alkali-Activated Mortars",
+      "url": "https://www.mdpi.com/2073-4360/13/16/2750"
+    },
+    {
+      "doi": "10.3390/app16063080",
+      "title": "Geopolymer Based on Municipal Solid Waste Incineration Fly Ash, Waste Glass Powder, and Metakaolin: Compressive Strength and Microstructure of Mortar and Application in Pavement Concrete Bricks",
+      "url": "https://www.mdpi.com/2076-3417/16/6/3080"
+    },
+    {
+      "doi": "10.3390/app15137495",
+      "title": "Physico-Mechanical Properties of Geopolymers Based on Fly Ashes and Waste Broken Glass",
+      "url": "https://www.mdpi.com/2076-3417/15/13/7495"
+    },
+    {
+      "doi": "10.3390/ma13173906",
+      "title": "Incorporation of Waste Glass as an Activator in Class-C Fly Ash/GGBS Based Alkali Activated Material",
+      "url": "https://www.mdpi.com/1996-1944/13/17/3906"
+    },
+    {
+      "doi": "10.3390/ma19204369",
+      "title": "Effect of Material Composition and Alkali Activator Modulus on Mechanical Properties and Reaction Process of Coal-Based Solid Waste Geopolymer",
+      "url": "https://www.mdpi.com/1996-1944/19/20/4369"
+    },
+    {
+      "doi": "10.3390/ma17215164",
+      "title": "Cold Consolidation of Pharmaceutical Waste Glass Powders Through Alkali Activation and Binder Jet 3D Printing",
+      "url": "https://www.mdpi.com/1996-1944/17/21/5164"
+    },
+    {
+      "doi": "10.3390/cryst11050502",
+      "title": "Mechanical Properties of Glass-Based Geopolymers Affected by Activator and Curing Conditions under Optimal Aging Conditions",
+      "url": "https://www.mdpi.com/2073-4352/11/5/502"
+    },
+    {
+      "doi": "10.3390/ma9090767",
+      "title": "Preparation and Properties of Alkali Activated Metakaolin-Based Geopolymer",
+      "url": "https://www.mdpi.com/1996-1944/9/9/767"
+    },
+    {
+      "doi": "10.3390/ma16124406",
+      "title": "Incorporating Industrial By-Products into Geopolymer Mortar: Effects on Strength and Durability",
+      "url": "https://www.mdpi.com/1996-1944/16/12/4406"
+    },
+    {
+      "doi": "10.3390/ma13092203",
+      "title": "Influence of SiC Sludge on the Microstructure of Geopolymers",
+      "url": "https://www.mdpi.com/1996-1944/13/9/2203"
+    },
+    {
+      "doi": "10.3390/su12187333",
+      "title": "Utilization of Silicon Carbide Sludge as Metakaolin-Based Geopolymer Materials",
+      "url": "https://www.mdpi.com/2071-1050/12/18/7333"
+    },
+    {
+      "doi": "10.3390/ma16083086",
+      "title": "Carbonation of Alkali-Activated Materials: A Review",
+      "url": "https://www.mdpi.com/1996-1944/16/8/3086"
+    },
+    {
+      "doi": "10.3390/molecules25215074",
+      "title": "Carbonation and Chloride Ions’ Penetration of Alkali-Activated Materials: A Review",
+      "url": "https://www.mdpi.com/1420-3049/25/21/5074"
+    },
+    {
+      "doi": "10.3390/ma19102177",
+      "title": "Alkalinity-Dependent Dual Role of Sodium Sulfate in Alkali-Activated Slag: From Synergistic Activation to Competitive Inhibition",
+      "url": "https://www.mdpi.com/1996-1944/19/10/2177"
+    },
+    {
+      "doi": "10.3390/pr12010184",
+      "title": "Effect of Slaked Lime on the Properties of Sodium Sulfate-Activated Alkali-Activated Slag Cement",
+      "url": "https://www.mdpi.com/2227-9717/12/1/184"
+    },
+    {
+      "doi": "10.3390/buildings16020309",
+      "title": "Alkali-Activated Materials and CDW for the Development of Sustainable Building Materials: A Review with a Special Focus on Their Mechanical Properties",
+      "url": "https://www.mdpi.com/2075-5309/16/2/309"
+    },
+    {
+      "doi": "10.3390/buildings16071396",
+      "title": "Experimental Study on CO2 Foamed Concrete Prepared from Alkali-Activated High-Fluidity Pipe-Jacking Spoil in Water-Rich Sandy Strata",
+      "url": "https://www.mdpi.com/2075-5309/16/7/1396"
+    },
+    {
+      "doi": "10.3390/polym13040671",
+      "title": "Physical and Chemical Relationships in Accelerated Carbonation Conditions of Alkali-Activated Cement Based on Type of Binder and Alkali Activator",
+      "url": "https://www.mdpi.com/2073-4360/13/4/671"
+    },
+    {
+      "doi": "10.3390/buildings16061179",
+      "title": "Toward Carbon-Negative Construction Materials: CO2-Storing Alkali-Activated Waste-Based Binder",
+      "url": "https://www.mdpi.com/2075-5309/16/6/1179"
+    },
+    {
+      "doi": "10.3390/su132011298",
+      "title": "Red Mud-Blast Furnace Slag-Based Alkali-Activated Materials",
+      "url": "https://www.mdpi.com/2071-1050/13/20/11298"
+    },
+    {
+      "doi": "10.3390/ma12050776",
+      "title": "Aggregates Obtained by Alkali Activation of Fly Ash: The Effect of Granulation, Pelletization Methods and Curing Regimes",
+      "url": "https://www.mdpi.com/1996-1944/12/5/776"
+    },
+    {
+      "doi": "10.3390/buildings16010008",
+      "title": "Modeling Carbonation Depth in Hardened Alkali-Activated Slag Under Accelerated Curing: A Multi-Physics Finite Element Approach",
+      "url": "https://www.mdpi.com/2075-5309/16/1/8"
+    },
+    {
+      "doi": "10.3390/cryst14100847",
+      "title": "Evaluating Alkali Activation in Magnesium Slag Carbonization and Its Mechanism",
+      "url": "https://www.mdpi.com/2073-4352/14/10/847"
+    },
+    {
+      "doi": "10.3390/buildings15040565",
+      "title": "Experimental Study of Alkali-Activated Cementitious Materials Using Thermally Activated Red Mud: Effect of the Si/Al Ratio on Fresh and Mechanical Properties",
+      "url": "https://www.mdpi.com/2075-5309/15/4/565"
+    },
+    {
+      "doi": "10.3390/su18125981",
+      "title": "Thermochemical Activation of Lightweight Slag–Perlite Alkali-Activated Slag (AAS): Overcoming Aggregate Brittleness and Sulfate Degradation",
+      "url": "https://www.mdpi.com/2071-1050/18/12/5981"
+    },
+    {
+      "doi": "10.3390/app10249088",
+      "title": "Formulation of Alkali-Activated Slag Binder Destined for Use in Developing Countries",
+      "url": "https://www.mdpi.com/2076-3417/10/24/9088"
+    },
+    {
+      "doi": "10.3390/buildings12020094",
+      "title": "External Sulphate Attack on Alkali-Activated Slag and Slag/Fly Ash Concrete",
+      "url": "https://www.mdpi.com/2075-5309/12/2/94"
+    },
+    {
+      "doi": "10.3390/ma14030639",
+      "title": "Alkali Activation of Metallurgical Slags: Reactivity, Chemical Behavior, and Environmental Assessment",
+      "url": "https://www.mdpi.com/1996-1944/14/3/639"
+    },
+    {
+      "doi": "10.3390/ma17205065",
+      "title": "A Review on Research Progress of Corrosion Resistance of Alkali-Activated Slag Cement Concrete",
+      "url": "https://www.mdpi.com/1996-1944/17/20/5065"
+    },
+    {
+      "doi": "10.3390/ma12203447",
+      "title": "Effects of Fineness and Chemical Composition of Blast Furnace Slag on Properties of Alkali-Activated Binder",
+      "url": "https://www.mdpi.com/1996-1944/12/20/3447"
+    },
+    {
+      "doi": "10.3390/ma12172812",
+      "title": "Effect of Carbonation on Abrasion Resistance of Alkali-Activated Slag with Various Activators",
+      "url": "https://www.mdpi.com/1996-1944/12/17/2812"
+    },
+    {
+      "doi": "10.3390/ma12081198",
+      "title": "A Review of Durability and Strength Characteristics of Alkali-Activated Slag Concrete",
+      "url": "https://www.mdpi.com/1996-1944/12/8/1198"
+    },
+    {
+      "doi": "10.3390/min10080672",
+      "title": "Valorization of Brick and Glass CDWs for the Development of Geopolymers Containing More Than 80% of Wastes",
+      "url": "https://www.mdpi.com/2075-163X/10/8/672"
+    },
+    {
+      "doi": "10.3390/min13070925",
+      "title": "Doping Silica Fume Enhances the Mechanical Strength of Slag/Fly Ash Geopolymer Paste under Frost Attack",
+      "url": "https://www.mdpi.com/2075-163X/13/7/925"
+    },
+    {
+      "doi": "10.3390/ma16155392",
+      "title": "Properties of Geopolymers Based on Metakaolin and Soda-Lime Waste Glass",
+      "url": "https://www.mdpi.com/1996-1944/16/15/5392"
+    },
+    {
+      "doi": "10.3390/polym18162005",
+      "title": "Structure–Property Relationships in Metakaolin Geopolymers Modified with Shell-Derived Calcium Particles for Multifunctional Wastewater Treatment",
+      "url": "https://www.mdpi.com/2073-4360/18/16/2005"
+    },
+    {
+      "doi": "10.3390/ma16176011",
+      "title": "Influence of Waste Glass Addition on the Fire Resistance, Microstructure and Mechanical Properties of Geopolymer Composites",
+      "url": "https://www.mdpi.com/1996-1944/16/17/6011"
+    },
+    {
+      "doi": "10.3390/polym14224838",
+      "title": "Effect of Different Types of Aluminosilicates on the Thermo-Mechanical Properties of Metakaolinite-Based Geopolymer Composites",
+      "url": "https://www.mdpi.com/2073-4360/14/22/4838"
+    },
+    {
+      "doi": "10.3390/buildings16081554",
+      "title": "Durability and Microstructural Evolution of Class C/Class F Fly Ash Geopolymer Mortars with Different Ash-to-Sand Ratios Under Combined Freeze–Thaw and MgSO4",
+      "url": "https://www.mdpi.com/2075-5309/16/8/1554"
+    },
+    {
+      "doi": "10.3390/ma15238387",
+      "title": "Impedance Spectroscopy as a Methodology to Evaluate the Reactivity of Metakaolin Based Geopolymers",
+      "url": "https://www.mdpi.com/1996-1944/15/23/8387"
+    },
+    {
+      "doi": "10.3390/su18115668",
+      "title": "Preliminary Investigation on Ceramic Waste Aggregate in Fly Ash-Based Geopolymer Concrete",
+      "url": "https://www.mdpi.com/2071-1050/18/11/5668"
+    },
+    {
+      "doi": "10.3390/ma16103706",
+      "title": "The Effect of Oyster Shell Powder on the High-Temperature-Properties of Slag-Ceramic Powder-Based Geopolymer",
+      "url": "https://www.mdpi.com/1996-1944/16/10/3706"
+    },
+    {
+      "doi": "10.3390/polym13213797",
+      "title": "Effect of Waste Ceramic Powder on the Properties of Alkali–Activated Slag and Fly Ash Pastes Exposed to High Temperature",
+      "url": "https://www.mdpi.com/2073-4360/13/21/3797"
+    },
+    {
+      "doi": "10.3390/ma19040748",
+      "title": "Degradation of Geopolymers by Oxalic Acid: A Kinetic Study",
+      "url": "https://www.mdpi.com/1996-1944/19/4/748"
+    },
+    {
+      "doi": "10.3390/ma14175102",
+      "title": "Thermally Treated Waste Silt as Filler in Geopolymer Cement",
+      "url": "https://www.mdpi.com/1996-1944/14/17/5102"
+    },
+    {
+      "doi": "10.3390/ma18174154",
+      "title": "Interaction of PCE and Chemically Modified Starch Admixtures with Metakaolin-Based Geopolymers—The Role of Activator Type and Concentration",
+      "url": "https://www.mdpi.com/1996-1944/18/17/4154"
+    },
+    {
+      "doi": "10.3390/ma19143037",
+      "title": "Study on Basalt Fiber-Reinforced Lunar Regolith Simulant Geopolymer: Experiment and Constitutive Model",
+      "url": "https://www.mdpi.com/1996-1944/19/14/3037"
+    },
+    {
+      "doi": "10.3390/ma14185183",
+      "title": "Mechanical and Fracture Properties of Long Fiber Reinforced Geopolymer Composites",
+      "url": "https://www.mdpi.com/1996-1944/14/18/5183"
+    },
+    {
+      "doi": "10.3390/ma19173730",
+      "title": "Use of Municipal Solid Waste Incinerator Fly Ash in Coal Fly Ash-Based Geopolymer Matrix: Mechanical Performance and Heavy Metals Immobilization",
+      "url": "https://www.mdpi.com/1996-1944/19/17/3730"
+    },
+    {
+      "doi": "10.3390/ma6083420",
+      "title": "Recycling of Pre-Washed Municipal Solid Waste Incinerator Fly Ash in the Manufacturing of Low Temperature Setting Geopolymer Materials",
+      "url": "https://www.mdpi.com/1996-1944/6/8/3420"
+    },
+    {
+      "doi": "10.3390/ma17184609",
+      "title": "Utilization of Municipal Solid Waste Incineration (MSWIFA) in Geopolymer Concrete: A Study on Compressive Strength and Leaching Characteristics",
+      "url": "https://www.mdpi.com/1996-1944/17/18/4609"
+    },
+    {
+      "doi": "10.3390/infrastructures11030084",
+      "title": "Shear Performance of Sustainable Self-Compacting Geopolymer RC Beams: Experimental and Numerical Study",
+      "url": "https://www.mdpi.com/2412-3811/11/3/84"
+    },
+    {
+      "doi": "10.3390/ma15238689",
+      "title": "Use of Municipal Solid Waste Incineration Fly Ash in Geopolymer Masonry Mortar Manufacturing",
+      "url": "https://www.mdpi.com/1996-1944/15/23/8689"
+    },
+    {
+      "doi": "10.3390/ma18102239",
+      "title": "Tailoring the Molecular Weight of APEG-Based Polycarboxylate Superplasticizers: Mechanistic Insights into the Workability and Compressive Strength of Alkali-Activated Circulating Fluidized Bed Fly Ash Materials",
+      "url": "https://www.mdpi.com/1996-1944/18/10/2239"
+    },
+    {
+      "doi": "10.3390/jcs9060264",
+      "title": "Rheological and Mechanical Properties of Self-Compacting Geopolymer Concrete Reinforced with Short Basalt Fibres",
+      "url": "https://www.mdpi.com/2504-477X/9/6/264"
+    },
+    {
+      "doi": "10.3390/ma18153572",
+      "title": "Residual Flexural Behavior of Hybrid Fiber-Reinforced Geopolymer After High Temperature Exposure",
+      "url": "https://www.mdpi.com/1996-1944/18/15/3572"
+    },
+    {
+      "doi": "10.3390/ma13235548",
+      "title": "Evaluation of Hybrid Melamine and Steel Fiber Reinforced Geopolymers Composites",
+      "url": "https://www.mdpi.com/1996-1944/13/23/5548"
+    },
+    {
+      "doi": "10.3390/polym14101954",
+      "title": "Development of Geopolymers Based on Fly Ashes from Different Combustion Processes",
+      "url": "https://www.mdpi.com/2073-4360/14/10/1954"
+    },
+    {
+      "doi": "10.3390/buildings12081083",
+      "title": "MSWIBA Formation and Geopolymerisation to Meet the United Nations Sustainable Development Goals (SDGs) and Climate Mitigation",
+      "url": "https://www.mdpi.com/2075-5309/12/8/1083"
+    },
+    {
+      "doi": "10.3390/polym17121704",
+      "title": "Development and Mechanical Analysis of Geopolymers Formed with Mining Residue and Fly Ash from Municipal Solid Waste Incineration Obtained After the Neutralisation Stage",
+      "url": "https://www.mdpi.com/2073-4360/17/12/1704"
+    }
+  ],
+  "reviewTypeCount": 28,
+  "statusFinding": "10.3390/buildings12081066 explicitly marked RETRACTED in publisher heading, with 9 April 2026 retraction date; excluded from all additions and guides. This does not establish comprehensive clearance of accepted sources.",
+  "method": "URL-derived DOI strings were discovery leads only. Require matching primary article heading, exact DOI and explicit cited journal year; normalize DOI/title against all prior 800 and accepted additions. Preparatory checks and classification followups are separately counted. No OpenAlex calls.",
+  "rights": "Bibliographic facts and original notes only; full-paper operations need source-specific assessment."
+}

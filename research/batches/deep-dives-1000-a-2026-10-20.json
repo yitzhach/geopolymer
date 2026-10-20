@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-dives-1000-a-2026-10-20",
+  "checked": "2026-10-20",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "review": "Selected indexed primary passages only. No complete PDF, visual, human/domain or independent replication claim.",
+  "sourceAccess": "A session direct publisher fetch returned HTTP 429. This batch uses indexed publisher/PMC article passages; no raw paper or supplement retained.",
+  "deferred": [],
+  "queries": [
+    {
+      "doi": "10.3390/ma16206619",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Raw Materials and Preparation of the Geocomposites",
+        "Raw Materials and Preparation of the Geocomposites",
+        "Water absorption/open-porosity discussion"
+      ]
+    },
+    {
+      "doi": "10.3390/ma18214947",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Precursor characterization; Rietveld discussion",
+        "Mixing procedure; Figure 1 description",
+        "Discussion of AS/P and W/S"
+      ]
+    },
+    {
+      "doi": "10.3390/ma16062400",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Mixture design for GC0 and OPC control",
+        "Preparation of Geopolymer Concrete Specimens and Testing Methods",
+        "Curing/testing passage"
+      ]
+    },
+    {
+      "doi": "10.3390/ma17020463",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Study scope; activator composition",
+        "§3.1 Temperature Development under Microwave Treatment",
+        "Seven-day compression discussion; Figure 8a description"
+      ]
+    },
+    {
+      "doi": "10.3390/min8040162",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Study objective; abstract",
+        "Solution preparation; reaction heat method",
+        "Conclusions; setting/microstructure discussion"
+      ]
+    }
+  ],
+  "rights": {
+    "access": "Indexed primary text through session web search",
+    "processing": "Selected factual analysis and original editorial planning",
+    "rawRetention": "No raw paper, abstracts, source tables or figures retained",
+    "aiTransmission": "No external model service; only text exposed by session search",
+    "embedding": "not performed",
+    "display": "Original selected factual notes and conditional calculations, not reconstructed source tables or figures",
+    "export": "Same original public fields as displayed",
+    "license": "Exact full-text licenses remain unassessed in this batch; original factual notes and independent planning only."
+  },
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "id": "tuff-brick-restoration-water-transport",
+      "doi": "10.3390/ma16206619",
+      "relatedStudy": "/studies/ke-b31-001",
+      "source": "https://www.mdpi.com/1996-1944/16/20/6619",
+      "evidenceLocators": [
+        {
+          "title": "Materials",
+          "locator": "Raw Materials and Preparation of the Geocomposites"
+        },
+        {
+          "title": "Preparation",
+          "locator": "Raw Materials and Preparation of the Geocomposites"
+        },
+        {
+          "title": "Results",
+          "locator": "Water absorption/open-porosity discussion"
+        }
+      ],
+      "holds": [
+        "The full mixture table, initial cure schedule and uncertainty denominators remain unextracted.",
+        "Laboratory transport compatibility does not establish reversible or acceptable treatment of a heritage object.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "ceramic-brick-metakaolin-ratio-denominators",
+      "doi": "10.3390/ma18214947",
+      "relatedStudy": "/studies/ke-b31-002",
+      "source": "https://www.mdpi.com/1996-1944/18/21/4947",
+      "evidenceLocators": [
+        {
+          "title": "Materials",
+          "locator": "Precursor characterization; Rietveld discussion"
+        },
+        {
+          "title": "Preparation",
+          "locator": "Mixing procedure; Figure 1 description"
+        },
+        {
+          "title": "Tradeoff",
+          "locator": "Discussion of AS/P and W/S"
+        }
+      ],
+      "holds": [
+        "Full AS/P and W/S definitions, stock compositions and rest-period details need source reconciliation.",
+        "Neither the reported ratio ranking nor a compression result qualifies durability or a ready-to-run formulation.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "silica-fume-activator-volume-versus-mass",
+      "doi": "10.3390/ma16062400",
+      "relatedStudy": "/studies/ke-b31-003",
+      "source": "https://www.mdpi.com/1996-1944/16/6/2400",
+      "evidenceLocators": [
+        {
+          "title": "Design and basis",
+          "locator": "Mixture design for GC0 and OPC control"
+        },
+        {
+          "title": "Preparation",
+          "locator": "Preparation of Geopolymer Concrete Specimens and Testing Methods"
+        },
+        {
+          "title": "Measurements",
+          "locator": "Curing/testing passage"
+        }
+      ],
+      "holds": [
+        "The full synthesized-silicate procedure, component ledger and per-condition spread remain incomplete.",
+        "The indexed claim of superiority over OPC is limited to the tested designs and cure, not universal binder performance.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "microwave-curing-precursor-energy-boundary",
+      "doi": "10.3390/ma17020463",
+      "relatedStudy": "/studies/ke-b31-005",
+      "source": "https://www.mdpi.com/1996-1944/17/2/463",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Study scope; activator composition"
+        },
+        {
+          "title": "Procedure",
+          "locator": "§3.1 Temperature Development under Microwave Treatment"
+        },
+        {
+          "title": "Unfavorable direction",
+          "locator": "Seven-day compression discussion; Figure 8a description"
+        }
+      ],
+      "holds": [
+        "Complete specimen preparation, microwave calibration, uncertainty and dose-response data remain unextracted.",
+        "No domestic-microwave protocol or general strength/energy optimum is established.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "coating-modulus-setting-adhesion-tradeoff",
+      "doi": "10.3390/min8040162",
+      "relatedStudy": "/studies/ke-b31-006",
+      "source": "https://www.mdpi.com/2075-163X/8/4/162",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Study objective; abstract"
+        },
+        {
+          "title": "Methods",
+          "locator": "Solution preparation; reaction heat method"
+        },
+        {
+          "title": "Tradeoff",
+          "locator": "Conclusions; setting/microstructure discussion"
+        }
+      ],
+      "holds": [
+        "Complete mass ledger, coating thickness, bond geometry and uncertainty remain incomplete.",
+        "The study-specific ratio of 1.0 is not an optimum for every precursor, substrate or application.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ],
+  "exactQueries": [
+    "\"10.3390/ma16206619\" preparation mixing curing methods results",
+    "\"10.3390/ma18214947\" preparation mixing curing methods results",
+    "\"10.3390/ma16062400\" preparation mixing curing methods results",
+    "\"10.3390/ma17020463\" preparation mixing curing methods results",
+    "\"10.3390/min8040162\" preparation coating molar ratio methods results",
+    "\"10.3390/ma16206619\" water ratio mixing curing specimens strength porosity",
+    "\"10.3390/ma18214947\" water ratio mixing curing specimens strength porosity",
+    "\"10.3390/ma16062400\" water ratio mixing curing specimens strength porosity",
+    "\"10.3390/ma17020463\" microwave power time temperature molar ratio water coating adhesion",
+    "\"10.3390/min8040162\" microwave power time temperature molar ratio water coating adhesion"
+  ],
+  "operationCount": 11,
+  "directFetches": [
+    {
+      "url": "https://www.mdpi.com/1996-1944/16/20/6619",
+      "result": "HTTP 429; no repeat loop"
+    }
+  ]
+}

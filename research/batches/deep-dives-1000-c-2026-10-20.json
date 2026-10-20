@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-dives-1000-c-2026-10-20",
+  "checked": "2026-10-20",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "review": "Selected indexed primary passages only. No complete PDF, visual, human/domain or independent replication claim.",
+  "sourceAccess": "A session direct publisher fetch returned HTTP 429. This batch uses indexed publisher/PMC article passages; no raw paper or supplement retained.",
+  "deferred": [],
+  "queries": [
+    {
+      "doi": "10.3390/infrastructures5110096",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Concrete prism test discussion",
+        "Prism preparation and length measurements",
+        "Pore-solution composition discussion"
+      ]
+    },
+    {
+      "doi": "10.3390/ma13225200",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Study objective and TPB discussion",
+        "Specimen Preparation",
+        "Mixture-table note; model comparison"
+      ]
+    },
+    {
+      "doi": "10.3390/ma11081445",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Sample Preparation",
+        "Testing methods",
+        "Mechanical and fracture discussion"
+      ]
+    },
+    {
+      "doi": "10.3390/polym14142920",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Sodium silicate synthesis passage",
+        "Geopolymer specimen preparation",
+        "§2.5.2 Flexural Strength and Fracture Toughness"
+      ]
+    },
+    {
+      "doi": "10.3390/ma14154160",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Abstract; mixture-design discussion",
+        "Hardened-cube testing passage",
+        "Water-absorption and long-term strength discussion"
+      ]
+    }
+  ],
+  "rights": {
+    "access": "Indexed primary text through session web search",
+    "processing": "Selected factual analysis and original editorial planning",
+    "rawRetention": "No raw paper, abstracts, source tables or figures retained",
+    "aiTransmission": "No external model service; only text exposed by session search",
+    "embedding": "not performed",
+    "display": "Original selected factual notes and conditional calculations, not reconstructed source tables or figures",
+    "export": "Same original public fields as displayed",
+    "license": "Exact full-text licenses remain unassessed in this batch; original factual notes and independent planning only."
+  },
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "id": "asr-pore-solution-versus-total-alkali",
+      "doi": "10.3390/infrastructures5110096",
+      "relatedStudy": "/studies/ke-b33-002",
+      "source": "https://www.mdpi.com/2412-3811/5/11/96",
+      "evidenceLocators": [
+        {
+          "title": "Methods",
+          "locator": "Concrete prism test discussion"
+        },
+        {
+          "title": "Chronology",
+          "locator": "Prism preparation and length measurements"
+        },
+        {
+          "title": "Interpretation",
+          "locator": "Pore-solution composition discussion"
+        }
+      ],
+      "holds": [
+        "Exact mixture, storage temperature, extraction recovery and complete expansion series remain unextracted.",
+        "The test-method discussion does not establish immunity to ASR for every geopolymer or aggregate.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "slag-softening-inverse-analysis-limits",
+      "doi": "10.3390/ma13225200",
+      "relatedStudy": "/studies/ke-b34-003",
+      "source": "https://www.mdpi.com/1996-1944/13/22/5200",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Study objective and TPB discussion"
+        },
+        {
+          "title": "Cure",
+          "locator": "Specimen Preparation"
+        },
+        {
+          "title": "Definitions",
+          "locator": "Mixture-table note; model comparison"
+        }
+      ],
+      "holds": [
+        "Full raw curves, inverse-analysis settings and uncertainty propagation remain unextracted.",
+        "Reported analytical agreement does not establish a universal material law or a validated design model.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "steel-fiber-fracture-energy-test-boundary",
+      "doi": "10.3390/ma11081445",
+      "relatedStudy": "/studies/ke-b34-005",
+      "source": "https://www.mdpi.com/1996-1944/11/8/1445",
+      "evidenceLocators": [
+        {
+          "title": "Preparation",
+          "locator": "Sample Preparation"
+        },
+        {
+          "title": "Measurements",
+          "locator": "Testing methods"
+        },
+        {
+          "title": "Results",
+          "locator": "Mechanical and fracture discussion"
+        }
+      ],
+      "holds": [
+        "Complete dose table, fracture curves, geometry and spread definitions remain unextracted.",
+        "The selected improvements do not supply an interchangeable fiber dosage or structural design value.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "rice-husk-silicate-extraction-basis",
+      "doi": "10.3390/polym14142920",
+      "relatedStudy": "/studies/ke-b34-010",
+      "source": "https://www.mdpi.com/2073-4360/14/14/2920",
+      "evidenceLocators": [
+        {
+          "title": "Preparation",
+          "locator": "Sodium silicate synthesis passage"
+        },
+        {
+          "title": "Cure",
+          "locator": "Geopolymer specimen preparation"
+        },
+        {
+          "title": "Measurements",
+          "locator": "§2.5.2 Flexural Strength and Fracture Toughness"
+        }
+      ],
+      "holds": [
+        "Extraction temperature/time, solution recovery, complete batch ledger and uncertainty remain unresolved.",
+        "The source-specific response does not establish equivalence to a commercial silicate or a universally valid toughness method.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "one-part-activator-dose-long-term-age",
+      "doi": "10.3390/ma14154160",
+      "relatedStudy": "/studies/ke-b34-017",
+      "source": "https://www.mdpi.com/1996-1944/14/15/4160",
+      "evidenceLocators": [
+        {
+          "title": "Design and basis",
+          "locator": "Abstract; mixture-design discussion"
+        },
+        {
+          "title": "Measurements",
+          "locator": "Hardened-cube testing passage"
+        },
+        {
+          "title": "Tradeoff",
+          "locator": "Water-absorption and long-term strength discussion"
+        }
+      ],
+      "holds": [
+        "Full water ledger, ambient humidity, raw strength series and between-batch variability remain unextracted.",
+        "The inspected plateau statements do not establish an optimum dose or guaranteed one-year field durability.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ],
+  "exactQueries": [
+    "\"10.3390/infrastructures5110096\" methods specimen preparation curing test",
+    "\"10.3390/ma13225200\" methods specimen preparation curing test",
+    "\"10.3390/ma11081445\" methods specimen preparation curing test",
+    "\"10.3390/polym14142920\" methods specimen preparation curing test",
+    "\"10.3390/ma14154160\" methods specimen preparation curing test",
+    "\"10.3390/infrastructures5110096\" results ratio pore solution fracture notch strength age",
+    "\"10.3390/ma13225200\" results ratio pore solution fracture notch strength age",
+    "\"10.3390/ma11081445\" results ratio pore solution fracture notch strength age",
+    "\"10.3390/polym14142920\" results ratio pore solution fracture notch strength age",
+    "\"10.3390/ma14154160\" results ratio pore solution fracture notch strength age",
+    "\"10.3390/ma14154160\" \"365\" \"water\" \"activator\""
+  ],
+  "operationCount": 11,
+  "directFetches": []
+}

@@ -1,0 +1,47 @@
+{
+  "checked": "2026-10-20",
+  "scope": "Single local Node process microbenchmark of actual catalog prefixes, 500 vs 1000 records. No synthetic scientific records added. Warm-up excluded; timings are not browser latency, production measurements or an SLO.",
+  "runtime": "v24.19.0",
+  "measurements": [
+    {
+      "records": 500,
+      "queries": [
+        "metakaolin",
+        "coating",
+        "foam",
+        "potassium",
+        "fly ash",
+        "10.3390/ma13153437",
+        "nonmatching-benchmark-query"
+      ],
+      "measuredCalls": 140,
+      "medianMs": 0.352,
+      "p95Ms": 0.66,
+      "renderedLibraryRecordsBytes": 575722
+    },
+    {
+      "records": 1000,
+      "queries": [
+        "metakaolin",
+        "coating",
+        "foam",
+        "potassium",
+        "fly ash",
+        "10.3390/ma13153437",
+        "nonmatching-benchmark-query"
+      ],
+      "measuredCalls": 140,
+      "medianMs": 0.752,
+      "p95Ms": 5.349,
+      "renderedLibraryRecordsBytes": 1191767
+    }
+  ],
+  "finalBuild": {
+    "routes": 1094,
+    "files": 1174,
+    "uncompressedBytes": 19386078,
+    "libraryExportBytes": 2461878,
+    "deepDiveExportBytes": 580482
+  },
+  "limitations": "One machine and run; warm caches, no network or browser rendering, no concurrency stress. Static pages and the full library payload continue to grow with catalog size."
+}

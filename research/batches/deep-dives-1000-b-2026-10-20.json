@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-dives-1000-b-2026-10-20",
+  "checked": "2026-10-20",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "review": "Selected indexed primary passages only. No complete PDF, visual, human/domain or independent replication claim.",
+  "sourceAccess": "A session direct publisher fetch returned HTTP 429. This batch uses indexed publisher/PMC article passages; no raw paper or supplement retained.",
+  "deferred": [],
+  "queries": [
+    {
+      "doi": "10.3390/ma15062050",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Research procedure and water-extract methods",
+        "Waste rock-wool leaching discussion",
+        "Trace-element methods"
+      ]
+    },
+    {
+      "doi": "10.3390/ma15113936",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Sample preparation",
+        "50WS composition; water-absorption discussion",
+        "Day-28 absorption comparison"
+      ]
+    },
+    {
+      "doi": "10.3390/polym13071149",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Mixture-series discussion",
+        "Atomic absorption specimen preparation",
+        "Flexural-results discussion"
+      ]
+    },
+    {
+      "doi": "10.3390/ma16052044",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Study scope; Samples Preparation",
+        "§3.2 Properties of Produced Geopolymers",
+        "Methods; Supplementary Materials"
+      ]
+    },
+    {
+      "doi": "10.3390/polym17091155",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Zeolite Geopolymer Membrane Preparation (ZGM)",
+        "Textural-properties discussion",
+        "Pb(II) filtration procedure"
+      ]
+    }
+  ],
+  "rights": {
+    "access": "Indexed primary text through session web search",
+    "processing": "Selected factual analysis and original editorial planning",
+    "rawRetention": "No raw paper, abstracts, source tables or figures retained",
+    "aiTransmission": "No external model service; only text exposed by session search",
+    "embedding": "not performed",
+    "display": "Original selected factual notes and conditional calculations, not reconstructed source tables or figures",
+    "export": "Same original public fields as displayed",
+    "license": "Exact full-text licenses remain unassessed in this batch; original factual notes and independent planning only."
+  },
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "id": "mineral-wool-leaching-test-boundaries",
+      "doi": "10.3390/ma15062050",
+      "relatedStudy": "/studies/ke-b31-007",
+      "source": "https://www.mdpi.com/1996-1944/15/6/2050",
+      "evidenceLocators": [
+        {
+          "title": "Materials",
+          "locator": "Research procedure and water-extract methods"
+        },
+        {
+          "title": "Test boundary",
+          "locator": "Waste rock-wool leaching discussion"
+        },
+        {
+          "title": "Measurements",
+          "locator": "Trace-element methods"
+        }
+      ],
+      "holds": [
+        "Complete geopolymer mix, cure, analyte recovery and regulatory comparison remain unextracted.",
+        "Passing one extraction test does not establish safe use across all exposures or lower life-cycle impact.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "walnut-shell-lightweight-water-uptake",
+      "doi": "10.3390/ma15113936",
+      "relatedStudy": "/studies/ke-b31-022",
+      "source": "https://www.mdpi.com/1996-1944/15/11/3936",
+      "evidenceLocators": [
+        {
+          "title": "Preparation",
+          "locator": "Sample preparation"
+        },
+        {
+          "title": "Design and basis",
+          "locator": "50WS composition; water-absorption discussion"
+        },
+        {
+          "title": "Unfavorable result",
+          "locator": "Day-28 absorption comparison"
+        }
+      ],
+      "holds": [
+        "Exact shell percentage basis, full cure and individual-result variability need full-source reconciliation.",
+        "The inspected relative absorption increase is not an intrinsic value for all walnut-shell formulations.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "crt-glass-coupled-activator-comparisons",
+      "doi": "10.3390/polym13071149",
+      "relatedStudy": "/studies/ke-b32-005",
+      "source": "https://www.mdpi.com/2073-4360/13/7/1149",
+      "evidenceLocators": [
+        {
+          "title": "Design limitation",
+          "locator": "Mixture-series discussion"
+        },
+        {
+          "title": "Measurements",
+          "locator": "Atomic absorption specimen preparation"
+        },
+        {
+          "title": "Results",
+          "locator": "Flexural-results discussion"
+        }
+      ],
+      "holds": [
+        "Full activator ledger, source glass identity, cure and metal-release conditions remain incomplete.",
+        "No general CRT-glass replacement optimum or unrestricted reuse claim follows from the selected results.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "glass-particle-size-foam-density",
+      "doi": "10.3390/ma16052044",
+      "relatedStudy": "/studies/ke-b32-007",
+      "source": "https://www.mdpi.com/1996-1944/16/5/2044",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Study scope; Samples Preparation"
+        },
+        {
+          "title": "Measurement",
+          "locator": "§3.2 Properties of Produced Geopolymers"
+        },
+        {
+          "title": "Scope",
+          "locator": "Methods; Supplementary Materials"
+        }
+      ],
+      "holds": [
+        "Full activator ratio order, foamer ledger, cure and spread definitions remain unextracted.",
+        "The supplement listing establishes existence, not permission, completeness or verified figure values.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "zeolite-pvac-membrane-lead-mass-balance",
+      "doi": "10.3390/polym17091155",
+      "relatedStudy": "/studies/ke-b31-011",
+      "source": "https://www.mdpi.com/2073-4360/17/9/1155",
+      "evidenceLocators": [
+        {
+          "title": "Preparation",
+          "locator": "Zeolite Geopolymer Membrane Preparation (ZGM)"
+        },
+        {
+          "title": "Pore development",
+          "locator": "Textural-properties discussion"
+        },
+        {
+          "title": "Test chemistry",
+          "locator": "Pb(II) filtration procedure"
+        }
+      ],
+      "holds": [
+        "Full polymer-removal protocol, filtration boundary, lifetime and uncertainty remain unextracted.",
+        "A selected lead-removal experiment is not potable-water certification or evidence for all contaminants.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ],
+  "exactQueries": [
+    "\"10.3390/ma15062050\" methods preparation mixing cure specimens",
+    "\"10.3390/ma15113936\" methods preparation mixing cure specimens",
+    "\"10.3390/polym13071149\" methods preparation mixing cure specimens",
+    "\"10.3390/ma16052044\" methods preparation mixing cure specimens",
+    "\"10.3390/polym17091155\" methods preparation mixing cure specimens",
+    "\"10.3390/ma15062050\" results density porosity ratio absorption limitations",
+    "\"10.3390/ma15113936\" results density porosity ratio absorption limitations",
+    "\"10.3390/polym13071149\" results density porosity ratio absorption limitations",
+    "\"10.3390/ma16052044\" results density porosity ratio absorption limitations",
+    "\"10.3390/polym17091155\" results density porosity ratio absorption limitations",
+    "\"10.3390/polym17091155\" \"Pb\" \"pH\" \"removal\""
+  ],
+  "operationCount": 11,
+  "directFetches": []
+}

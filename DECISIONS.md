@@ -1,5 +1,17 @@
 # Geopolymer Platform — Decisions
 
+## 20 October 2026 — owner expansion to 1,000 publications
+
+Owner requested 200 more after the completed 800 checkpoint and further deep
+dives, continuing the standing authorization to push completed tested work to
+main. Batches 31–38 add 200 unique metadata records, preserving all prior 800
+identities. Twenty-five additional partial editorial guides bring the total to
+74. One explicitly retracted candidate was excluded; two further records were
+confirmed as reviews. No new canonical observations or scalable recipes were
+inferred. OpenAlex remains on hold and the daily draft schedule is unchanged.
+HANDOFF.md records validation and publication status.
+
+
 ## 19 October 2026 — owner expanded the target to 800
 
 Owner requested 300 more publications after the 500 checkpoint, with the same

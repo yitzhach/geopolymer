@@ -1,5 +1,31 @@
 # Knowledge engine Phase A implementation
 
+## 20 October 2026 — 1,000-publication milestone
+
+The library has 1,000 unique DOI records and 74 editorial deep dives. The latest
+200 records are in `src/knowledge-expansion-1000.js`, with eight 25-record audit
+manifests and a frozen prior-800 baseline. Exact primary-metadata checks covered
+216 scoped candidates; 205 identities were verified, including one explicitly
+retracted source that was excluded. Selected 200; four other verified candidates
+remain reserves. Another 83 scoped leads remain unchecked. Discovery favors MDPI
+and is not a systematic coverage claim. The additions include 28 reviews and 172
+other journal articles; complete authorship and first-online dates remain linked
+where not transcribed.
+
+Twenty-five guides in `src/deep-dive-expansion-1000.js` retain seven-area source
+inventories, condition boundaries, conditional arithmetic and proposed experiments.
+Five source-review batches each inspect five papers; exact query logs and operation
+counts are retained. These remain selected indexed-primary-text AI reviews, with
+no complete PDF/visual review, human/domain verification or numerical ingestion.
+Canonical evidence remains five partial pilots / 62 mixes / 275 observations.
+
+A local 500-versus-1,000 prefix microbenchmark is recorded in
+`research/batches/library-performance-1000-2026-10-20.json`. It measures warm Node
+filtering and payload/build sizes, not browser or production latency. Existing
+static architecture remains in use. HANDOFF.md records release checks and main
+publication separately.
+
+
 ## Latest checkpoint — 800 publications, 49 guides
 
 Owner requested another 300 papers after the implemented 500 checkpoint. Batches

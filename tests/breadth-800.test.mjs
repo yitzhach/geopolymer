@@ -10,9 +10,9 @@ import {answerResearch} from '../src/assistant-core.js';
 const read=n=>JSON.parse(fs.readFileSync(new URL('../research/batches/'+n,import.meta.url)));
 test('800 milestone preserves all 500 identities and twelve import batches remain idempotent',()=>{
  assert.deepEqual(library.slice(0,500).map(({id,doi,title})=>({id,doi,title})),read('breadth-800-2026-10-19-baseline.json'));
- assert.equal(library.length,800);assert.equal(knowledgeExpansion800.length,300);
- assert.equal(new Set(library.map(p=>p.doi.toLowerCase())).size,800);
- const norm=s=>s.toLowerCase().replace(/[^a-z0-9]/g,'');assert.equal(new Set(library.map(p=>norm(p.title))).size,800);
+ assert.equal(library.length,1000);assert.equal(knowledgeExpansion800.length,300);
+ assert.equal(new Set(library.map(p=>p.doi.toLowerCase())).size,1000);
+ const norm=s=>s.toLowerCase().replace(/[^a-z0-9]/g,'');assert.equal(new Set(library.map(p=>norm(p.title))).size,1000);
  let rows=library.slice(0,500);
  for(let n=19;n<=30;n++){const a=read(`breadth-${n}-2026-10-19.json`);assert.equal(a.records.length,25);assert.ok(a.strategy.primaryVerification<=40);assert.deepEqual(a.records,knowledgeExpansion800.filter(p=>p.id.startsWith(`ke-b${n}-`)));rows=reconcileBatch(rows,a.records).records;assert.equal(rows.length,a.final);assert.ok(reconcileBatch(rows,a.records).events.every(e=>e.status==='unchanged'));}
  for(const p of knowledgeExpansion800){assert.doesNotMatch(p.title,/Free Full.Text|\| Notes|\| Abstract/i);assert.equal(p.extraction,'unstarted');assert.equal(p.datasetFamilyId,null);assert.ok(!p.abstract&&!p.summary&&!p.observations);assert.ok(p.metadataSource&&p.metadataLocator&&p.rights.basis);assert.equal(filterLibrary(p.doi).length,1);assert.equal(renderPage('/studies/'+p.id).status,200);}

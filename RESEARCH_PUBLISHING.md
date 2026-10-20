@@ -1,5 +1,34 @@
 # Research database and GP Journal
 
+## 20 October 2026 — 1,000 publications and 74 deep dives
+
+The owner requested another 200 papers after the published 800 checkpoint. Batches
+31–38 add 25 each without changing prior IDs, DOIs or titles. Primary identity
+verification covered 216 scoped candidates; 205 passed identity gates. The
+publisher explicitly labels `10.3390/buildings12081066` RETRACTED (9 April 2026),
+so it is excluded from additions and guides. Of the remaining identities, 200 are
+selected and four are reserves. Comprehensive status clearance remains unassessed
+for the accepted records. Two additional syntheses were confirmed as Review:
+`10.3390/buildings14010226` and `10.3390/jcs10060327`. Total additions: 28 reviews,
+172 other journal articles. No experimental guide was invented from either review.
+
+Twenty-five new partial guides cover restoration water transport, activator
+mass/volume bases, microwave curing, leaching, glass/biomass foams, membranes, ASR,
+fracture models, one-part activation, sensing, thermal storage, repair interfaces,
+aggregate absorption, retarders and long-term aging. Source traps remain visible:
+CRT glass and activator co-vary; a source gives inconsistent modulus/assay context;
+the mixed-alkali bagasse study contains Portland cement; 48-day measurements stay
+48-day measurements. Conditional arithmetic is not a new published measurement.
+
+A direct publisher fetch returned HTTP 429 and was not repeatedly retried. Guides
+use selected indexed primary passages. Exact full-text licenses remain unassessed
+in this batch. No raw articles, abstracts, complete source tables, figures or
+supplements are retained or reproduced; supplement listings establish existence
+only. Five bounded five-paper audits retain actual queries, locators and holds.
+OpenAlex stays on hold. Daily automation is unchanged. HANDOFF.md governs exact
+verification and publication status.
+
+
 ## 19 October 2026 — current 800-publication checkpoint
 
 The owner expanded the request by another 300 papers after the 500 checkpoint.

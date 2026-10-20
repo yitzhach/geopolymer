@@ -1,5 +1,57 @@
 # Geopolymer — current handoff
-Updated 19 October 2026; dates use Eastern time.
+Updated 20 October 2026; dates use Eastern time.
+
+## 1,000-publication expansion — 20 October 2026
+- Owner requested 200 more after the completed 800 checkpoint, plus more deep
+  dives. Standing authorization to push completed tested work to main continues.
+- Baseline main a841cbbcca24dc47657dd3e93209a2ea34848754, clean working tree.
+  Added 200 metadata records in batches 31–38, preserving all prior 800 identities.
+  Total 1,000 publications: the latest additions contain 28 reviews / 172 other
+  journal articles. New module src/knowledge-expansion-1000.js.
+- Discovery: 90 queries, 299 scoped DOI-deduplicated leads. Checked 216 using exact
+  DOI/publisher searches (plus 20 preparatory and four classification followups).
+  Verified 205 identities, excluded one publisher-marked RETRACTED paper
+  (10.3390/buildings12081066), selected 200 and retained four verified reserves.
+  Remaining 83 leads are unchecked, not accepted. Selection favors MDPI; no
+  systematic or publisher-balanced coverage claim. Full authorship and exact
+  first-online dates remain linked where not transcribed.
+- Twenty-five new partial guides, 74 total, in src/deep-dive-expansion-1000.js.
+  Five five-paper audits A–E retain actual queries, locators and operation counts.
+  Methods, materials, ledger, results, visuals, supplements and uncertainty remain
+  explicit inventory areas. No complete full-PDF/visual/human/domain review claim.
+- Preserve key holds: mixed volume/mass ratios, 48-day endpoints, co-varying CRT
+  glass/activator, ambiguous pore definitions, an unresolved silicate assay/modulus
+  context, and substantial Portland cement in the SCBA mixed-alkali source.
+  No inferred source corrections or new canonical numbers.
+- Direct publisher fetch returned HTTP 429; no repeated-open loop. Selected indexed
+  primary text only. All new guide licenses remain unassessed. No raw papers,
+  abstracts, complete source tables/figures or supplements retained or reproduced.
+- Canonical data unchanged: five partial studies / 62 mixes / 275 observations;
+  43 recipes / 31 scalable. Existing reactive-MgO correction exclusion preserved.
+- Validation so far: all 114 Node cases, schema validation and 1,094-route build
+  pass. All five feature browser suites pass (research, notebook, literature,
+  assistant, knowledge). All 225 NEW routes pass desktop/mobile, no-JavaScript
+  and legacy-hash checks, plus core interactions, 404s, keyboard behavior and
+  storage-failure recovery. All 25 guides pass focused desktop/mobile source-link,
+  inventory, walkthrough and overflow checks; mobile screenshot inspected.
+  This release did not repeat the earlier 869-route browser sweep; all 1,094
+  routes are statically built and checked by the Node foundation suite.
+- The first research browser attempt timed out taking a full-page screenshot of
+  the 1,000-record library. The listing screenshot is now viewport-bounded;
+  record-count and whole-document overflow assertions remain, and the full
+  research suite passes on rerun. No application behavior was weakened.
+  Production content date updated to 20 October 2026 for generated crawl metadata.
+- A local warm Node filtering microbenchmark (500/1,000 actual catalog prefixes,
+  140 measured calls each) and payload/build sizes are recorded in the performance
+  audit. It is not a browser, network, production or universal performance claim.
+- A single owner-authorized five-hour continuation was rescheduled for this target;
+  it must verify counts/handoff before doing work and avoid duplicate additions.
+  Existing daily automation unchanged. OpenAlex remains on hold.
+- Validation complete; main publication is the final release action. Remote CI
+  and live deployment remain unverified. Next after release: inspect full PDFs
+  and supplements for selected guides, reconcile the existing MgO erratum and new
+  chemistry/method holds, and resolve existing pilot gaps. No quota beyond 1,000
+  is assumed.
 
 ## 800-publication release — 19 October 2026
 - Owner requested 300 MORE after the 500 checkpoint, plus additional substantive

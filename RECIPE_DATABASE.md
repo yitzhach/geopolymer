@@ -1,5 +1,15 @@
 # Recipe database and future formulation advisor
 
+## 20 October 2026 — breadth milestone, unchanged recipe evidence
+
+The library reaches 1,000 publications and 74 partial editorial guides after a
+further 200 metadata records and 25 guides. Recipe counts remain 43 / 31 scalable;
+canonical pilots remain five partial studies / 62 mixes / 275 observations. New
+guides retain volume/mass, hydrated-salt, hybrid-cement, age and solution-volume
+boundaries. They do not auto-populate a calculator recipe or convert incomplete
+methods into a runnable formulation. See HANDOFF.md for release validation.
+
+
 ## Latest bibliography checkpoint — 800 publications
 
 The owner's further 300 papers and 23 editorial guides bring the library/guide
