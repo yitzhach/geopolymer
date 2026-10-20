@@ -1,6 +1,24 @@
 # Geopolymer — current handoff
 Updated 20 October 2026; dates use Eastern time.
 
+## Paper-to-deep-dive links — 20 October 2026
+- Owner asked whether library papers link to connected guides. Study pages already
+  link by DOI; library cards previously did not. Added DOI-matched deep-dive links
+  to libraryResults, including dynamically filtered cards and no-JavaScript HTML.
+- All 73 catalog-matched guides link from their library cards. The 74th guide,
+  ggbs-taguchi-mortar (10.1080/13287982.2024.2375468), connects to a curated recipe
+  but has no paper in the current 1,000-record library. No new paper was invented
+  or automatically added to hide that distinction.
+- Production build passes. Fifteen relevant regression cases passed before adding
+  the relationship regression; the final nine-case deep-dive suite passes with
+  that new regression. Browser checks verify all 73 card links, filtered navigation,
+  destination, desktop/mobile and JavaScript/no-JavaScript behavior.
+- Owner also asked about richer multi-paragraph/bullet summaries. Current library
+  has 22 brief-summary records. Recommended first enriching the 73 guide-backed
+  papers from reviewed source notes, then bounded source-review batches for the
+  remaining metadata-only records. No bulk summary backfill was performed or
+  inferred from titles; source coverage and correction holds must remain visible.
+
 ## Deep-dive menu link — 20 October 2026
 - Owner requested the direct deep-dive URL and a menu entry. Added “Experiment
   deep dives” under Research, directly after Research Library, in index.html.

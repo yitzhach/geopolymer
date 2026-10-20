@@ -5,6 +5,18 @@ import {validateDeepDives} from '../src/deep-dive-core.js';
 import {deepDivePage} from '../src/deep-dive-ui.js';
 import {renderPage} from '../src/app.js';
 import {search} from '../src/data.js';
+import {library,libraryResults} from '../src/research-library.js';
+test('library cards link every matching deep dive without inventing links for other papers',()=>{
+ let linked=0;
+ for(const p of library){
+  const expected=deepDives.filter(d=>d.doi.toLowerCase()===p.doi.toLowerCase());
+  const html=libraryResults([p]);
+  for(const d of expected){assert.ok(html.includes(`href="/deep-dives/${d.id}"`),p.id);linked++;}
+  if(!expected.length)assert.ok(!html.includes('href="/deep-dives/'),p.id);
+ }
+ assert.equal(linked,deepDives.filter(d=>library.some(p=>p.doi.toLowerCase()===d.doi.toLowerCase())).length);
+ assert.ok(linked>0);
+});
 test('deep dives are discoverable with unresolved replication gaps visible',()=>{
  assert.equal(validateDeepDives(deepDives),true);
  assert.ok(search(deepDives[0].doi).some(x=>x.href==='/deep-dives/ggbs-taguchi-mortar'));
