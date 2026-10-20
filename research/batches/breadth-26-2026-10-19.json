@@ -1,0 +1,1323 @@
+{
+  "schemaVersion": 1,
+  "id": "breadth-26-2026-10-19",
+  "checked": "2026-10-19",
+  "baseline": 675,
+  "final": 700,
+  "accepted": 25,
+  "metadataOnlyAdditions": 25,
+  "newObservations": 0,
+  "merges": 0,
+  "deletions": 0,
+  "openAlex": "on hold; not used",
+  "review": "AI bibliographic checks, not human/domain review",
+  "strategy": {
+    "queries": [
+      "\"10.3390/ma16217035\"",
+      "\"10.3390/ma9060445\"",
+      "\"10.3390/ma15020482\"",
+      "\"10.3390/ma13030535\"",
+      "\"10.3390/buildings13102444\"",
+      "\"10.3390/su14031937\"",
+      "\"10.3390/ma18174132\"",
+      "\"10.3390/ma12050740\"",
+      "\"10.3390/ma12050796\"",
+      "\"10.3390/ma18184419\"",
+      "\"10.3390/app9153138\"",
+      "\"10.3390/polym14153191\"",
+      "\"10.3390/jcs5100269\"",
+      "\"10.3390/min12111367\"",
+      "\"10.3390/polym14102009\"",
+      "\"10.3390/buildings16071387\"",
+      "\"10.3390/polym18050606\"",
+      "\"10.3390/ma17122992\"",
+      "\"10.3390/buildings14072068\"",
+      "\"10.3390/ma18133181\"",
+      "\"10.3390/ma17061340\"",
+      "\"10.3390/recycling9050073\"",
+      "\"10.3390/buildings13030769\"",
+      "\"10.3390/recycling10030118\"",
+      "\"10.3390/su18168425\""
+    ],
+    "primaryVerification": 31,
+    "bounds": "25 accepted records per batch, at most 40 exact-DOI queries per review group",
+    "screenedButNotAccepted": [
+      {
+        "doi": "10.3390/ma14206184",
+        "title": "Retention of Pollutants Elements from Mine Tailings of Lead in Geopolymers for Construction",
+        "url": "https://www.mdpi.com/1996-1944/14/20/6184",
+        "decision": "not-accepted",
+        "reason": "Matched primary title/DOI/cited year not established in the selected indexed publisher results"
+      },
+      {
+        "doi": "10.3390/ma14164580",
+        "title": "Alkali-Activated Mortars with Recycled Fines and Hemp as a Sand",
+        "url": "https://www.mdpi.com/1996-1944/14/16/4580",
+        "decision": "not-accepted",
+        "reason": "Publisher heading truncated; full title not established."
+      },
+      {
+        "doi": "10.3390/ma16062400",
+        "title": "Physico-Mechanical Evaluation of Geopolymer Concrete Activated by Sodium Hydroxide and Silica Fume-Synthesised Sodium Silicate Solution",
+        "url": "https://www.mdpi.com/1996-1944/16/6/2400",
+        "decision": "not-accepted",
+        "reason": "Matched primary title/DOI/cited year not established in the selected indexed publisher results"
+      },
+      {
+        "doi": "10.3390/jcs5040109",
+        "title": "Recent Advances in Geopolymer Technology. A Potential Eco-Friendly Solution in the Construction Materials Industry: A Review",
+        "url": "https://www.mdpi.com/2504-477X/5/4/109",
+        "decision": "not-accepted",
+        "reason": "Matched primary title/DOI/cited year not established in the selected indexed publisher results"
+      },
+      {
+        "doi": "10.3390/ma16165659",
+        "title": "New Experimental Evidence for Drying Shrinkage of Alkali-Activated Slag with Sodium Hydroxide",
+        "url": "https://www.mdpi.com/1996-1944/16/16/5659",
+        "decision": "not-accepted",
+        "reason": "Matched primary title/DOI/cited year not established in the selected indexed publisher results"
+      },
+      {
+        "doi": "10.3390/cryst14100830",
+        "title": "Machine Learning to Predict Workability and Compressive Strength of Low- and High-Calcium Fly Ash–Based Geopolymers",
+        "url": "https://www.mdpi.com/2073-4352/14/10/830",
+        "decision": "verified-reserve",
+        "reason": "Beyond the requested 300 additions"
+      }
+    ],
+    "queryLog": "breadth-800-verification-2026-10-19.json",
+    "limitations": "Indexed access strongly favors MDPI. Selection is topical discovery, not a systematic or publisher-balanced review."
+  },
+  "rights": "Bibliographic facts only; no source abstracts, full papers, tables or figures retained.",
+  "limitations": [
+    "Correction/retraction clearance and independent dataset identity remain unassessed.",
+    "Separate editorial guides do not upgrade metadata records to complete experimental extraction."
+  ],
+  "records": [
+    {
+      "id": "ke-b26-001",
+      "doi": "10.3390/ma16217035",
+      "originalDoi": "10.3390/ma16217035",
+      "title": "Possibilities of Using Geopolymers in Welding Processes and Protection against High Temperatures",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2023,
+      "published": "2023",
+      "journal": "Materials",
+      "type": "Journal article",
+      "topic": "Geopolymer chemistry",
+      "url": "https://doi.org/10.3390/ma16217035",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/16/21/7035",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://www.mdpi.com/1996-1944/16/21/7035",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-001",
+      "datasetFamilyId": null,
+      "scope": "Discovery for geopolymer chemistry. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://www.mdpi.com/1996-1944/16/21/7035",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-002",
+      "doi": "10.3390/ma9060445",
+      "originalDoi": "10.3390/ma9060445",
+      "title": "In Situ Elevated Temperature Testing of Fly Ash Based Geopolymer Composites",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2016,
+      "published": "2016",
+      "journal": "Materials",
+      "type": "Journal article",
+      "topic": "Precursors",
+      "url": "https://doi.org/10.3390/ma9060445",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/9/6/445",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://www.mdpi.com/1996-1944/9/6/445",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-002",
+      "datasetFamilyId": null,
+      "scope": "Discovery for precursors. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://www.mdpi.com/1996-1944/9/6/445",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-003",
+      "doi": "10.3390/ma15020482",
+      "originalDoi": "10.3390/ma15020482",
+      "title": "Fracture Behavior of Long Fiber Reinforced Geopolymer Composites at Different Operating Temperatures",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2022,
+      "published": "2022",
+      "journal": "Materials",
+      "type": "Journal article",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.3390/ma15020482",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/15/2/482",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://www.mdpi.com/1996-1944/15/2/482",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-003",
+      "datasetFamilyId": null,
+      "scope": "Discovery for fibers. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://www.mdpi.com/1996-1944/15/2/482",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-004",
+      "doi": "10.3390/ma13030535",
+      "originalDoi": "10.3390/ma13030535",
+      "title": "Fire Resistance of Alkali Activated Geopolymer Foams Produced from Metakaolin and Na2O2",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2020,
+      "published": "2020",
+      "journal": "Materials",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.3390/ma13030535",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/13/3/535",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://www.mdpi.com/1996-1944/13/3/535",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-004",
+      "datasetFamilyId": null,
+      "scope": "Discovery for foams. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://www.mdpi.com/1996-1944/13/3/535",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-005",
+      "doi": "10.3390/buildings13102444",
+      "originalDoi": "10.3390/buildings13102444",
+      "title": "Thermal Behaviour and Microstructure of Self-Cured High-Strength Plain and Fibrous Geopolymer Concrete Exposed to Various Fire Scenarios",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2023,
+      "published": "2023",
+      "journal": "Buildings",
+      "type": "Journal article",
+      "topic": "Geopolymer chemistry",
+      "url": "https://doi.org/10.3390/buildings13102444",
+      "publisherUrl": "https://www.mdpi.com/2075-5309/13/10/2444",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://doi.org/10.3390/BUILDINGS13102444",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-005",
+      "datasetFamilyId": null,
+      "scope": "Discovery for geopolymer chemistry. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://doi.org/10.3390/BUILDINGS13102444",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-006",
+      "doi": "10.3390/su14031937",
+      "originalDoi": "10.3390/su14031937",
+      "title": "Geopolymer Concrete Performance Study for High-Temperature Thermal Energy Storage (TES) Applications",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2022,
+      "published": "2022",
+      "journal": "Sustainability",
+      "type": "Journal article",
+      "topic": "Geopolymer chemistry",
+      "url": "https://doi.org/10.3390/su14031937",
+      "publisherUrl": "https://www.mdpi.com/2071-1050/14/3/1937",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://www.mdpi.com/2071-1050/14/3/1937",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-006",
+      "datasetFamilyId": null,
+      "scope": "Discovery for geopolymer chemistry. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://www.mdpi.com/2071-1050/14/3/1937",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-007",
+      "doi": "10.3390/ma18174132",
+      "originalDoi": "10.3390/ma18174132",
+      "title": "Study of Structure and Phase Formation During Thermal Treatment of Geopolymer Compositions Based on Mineral Waste",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2025,
+      "published": "2025",
+      "journal": "Materials",
+      "type": "Journal article",
+      "topic": "Precursors",
+      "url": "https://doi.org/10.3390/ma18174132",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/18/17/4132",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://www.mdpi.com/1996-1944/18/17/4132",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-007",
+      "datasetFamilyId": null,
+      "scope": "Discovery for precursors. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://www.mdpi.com/1996-1944/18/17/4132",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-008",
+      "doi": "10.3390/ma12050740",
+      "originalDoi": "10.3390/ma12050740",
+      "title": "Properties of Ambient-Cured Normal and Heavyweight Geopolymer Concrete Exposed to High Temperatures",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2019,
+      "published": "2019",
+      "journal": "Materials",
+      "type": "Journal article",
+      "topic": "Geopolymer chemistry",
+      "url": "https://doi.org/10.3390/ma12050740",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/12/5/740",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://www.mdpi.com/1996-1944/12/5/740",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-008",
+      "datasetFamilyId": null,
+      "scope": "Discovery for geopolymer chemistry. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://www.mdpi.com/1996-1944/12/5/740",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-009",
+      "doi": "10.3390/ma12050796",
+      "originalDoi": "10.3390/ma12050796",
+      "title": "Thermal and Structural Characterization of Geopolymer-Coated Polyurethane Foam—Phase Change Material Capsules/Geopolymer Concrete Composites",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2019,
+      "published": "2019",
+      "journal": "Materials",
+      "type": "Journal article",
+      "topic": "Foams",
+      "url": "https://doi.org/10.3390/ma12050796",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/12/5/796",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://doi.org/10.3390%2FMA12050796",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-009",
+      "datasetFamilyId": null,
+      "scope": "Discovery for foams. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://doi.org/10.3390%2FMA12050796",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-010",
+      "doi": "10.3390/ma18184419",
+      "originalDoi": "10.3390/ma18184419",
+      "title": "Effects of Thermal Activation on Mechanical Performance and Sustainability of Slag-Based Geopolymers",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2025,
+      "published": "2025",
+      "journal": "Materials",
+      "type": "Journal article",
+      "topic": "Geopolymer chemistry",
+      "url": "https://doi.org/10.3390/ma18184419",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/18/18/4419",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://doi.org/10.3390/ma18184419",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-010",
+      "datasetFamilyId": null,
+      "scope": "Discovery for geopolymer chemistry. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://doi.org/10.3390/ma18184419",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-011",
+      "doi": "10.3390/app9153138",
+      "originalDoi": "10.3390/app9153138",
+      "title": "Effect of Curing Conditions on Microstructure and Pore-Structure of Brown Coal Fly Ash Geopolymers",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2019,
+      "published": "2019",
+      "journal": "Applied Sciences",
+      "type": "Journal article",
+      "topic": "Curing",
+      "url": "https://doi.org/10.3390/app9153138",
+      "publisherUrl": "https://www.mdpi.com/2076-3417/9/15/3138",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://www.mdpi.com/2076-3417/9/15/3138",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-011",
+      "datasetFamilyId": null,
+      "scope": "Discovery for curing. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://www.mdpi.com/2076-3417/9/15/3138",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-012",
+      "doi": "10.3390/polym14153191",
+      "originalDoi": "10.3390/polym14153191",
+      "title": "Minimizing the Global Warming Potential with Geopolymer-Based Insulation Material with Miscanthus Fiber",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2022,
+      "published": "2022",
+      "journal": "Polymers",
+      "type": "Review",
+      "topic": "Foams",
+      "url": "https://doi.org/10.3390/polym14153191",
+      "publisherUrl": "https://www.mdpi.com/2073-4360/14/15/3191",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://doi.org/10.3390/polym14153191",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-012",
+      "datasetFamilyId": null,
+      "scope": "Discovery for foams. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://doi.org/10.3390/polym14153191",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-013",
+      "doi": "10.3390/jcs5100269",
+      "originalDoi": "10.3390/jcs5100269",
+      "title": "Thermal, X-ray Diffraction and Oedometric Analyses of Silt-Waste/NaOH-Activated Metakaolin Geopolymer Composite",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2021,
+      "published": "2021",
+      "journal": "Journal of Composites Science",
+      "type": "Journal article",
+      "topic": "Precursors",
+      "url": "https://doi.org/10.3390/jcs5100269",
+      "publisherUrl": "https://www.mdpi.com/2504-477X/5/10/269",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://www.mdpi.com/2504-477X/5/10/269",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-013",
+      "datasetFamilyId": null,
+      "scope": "Discovery for precursors. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://www.mdpi.com/2504-477X/5/10/269",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-014",
+      "doi": "10.3390/min12111367",
+      "originalDoi": "10.3390/min12111367",
+      "title": "Effect of Magnesite Addition and Mechanical Activation on the Synthesis of Fly Ash-Based Geopolymers",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2022,
+      "published": "2022",
+      "journal": "Minerals",
+      "type": "Journal article",
+      "topic": "Precursors",
+      "url": "https://doi.org/10.3390/min12111367",
+      "publisherUrl": "https://www.mdpi.com/2075-163X/12/11/1367",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://www.mdpi.com/2075-163X/12/11/1367",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-014",
+      "datasetFamilyId": null,
+      "scope": "Discovery for precursors. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://www.mdpi.com/2075-163X/12/11/1367",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-015",
+      "doi": "10.3390/polym14102009",
+      "originalDoi": "10.3390/polym14102009",
+      "title": "Determination of the Thermal Parameters of Geopolymers Modified with Iron Powder",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2022,
+      "published": "2022",
+      "journal": "Polymers",
+      "type": "Journal article",
+      "topic": "Geopolymer chemistry",
+      "url": "https://doi.org/10.3390/polym14102009",
+      "publisherUrl": "https://www.mdpi.com/2073-4360/14/10/2009",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://doi.org/10.3390/polym14102009",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-015",
+      "datasetFamilyId": null,
+      "scope": "Discovery for geopolymer chemistry. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://doi.org/10.3390/polym14102009",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-016",
+      "doi": "10.3390/buildings16071387",
+      "originalDoi": "10.3390/buildings16071387",
+      "title": "Mix Proportion Design and Performance Regulation of 3D-Printing Phosphogypsum-Based Geopolymer Paste",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2026,
+      "published": "2026",
+      "journal": "Buildings",
+      "type": "Journal article",
+      "topic": "3D printing",
+      "url": "https://doi.org/10.3390/buildings16071387",
+      "publisherUrl": "https://www.mdpi.com/2075-5309/16/7/1387",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://www.mdpi.com/2075-5309/16/7/1387",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-016",
+      "datasetFamilyId": null,
+      "scope": "Discovery for 3d printing. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://www.mdpi.com/2075-5309/16/7/1387",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-017",
+      "doi": "10.3390/polym18050606",
+      "originalDoi": "10.3390/polym18050606",
+      "title": "Effect of Alkali Activation on Swelling Suppression and Microstructural Development in Geopolymer-Stabilized Bentonite",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2026,
+      "published": "2026",
+      "journal": "Polymers",
+      "type": "Journal article",
+      "topic": "Geopolymer chemistry",
+      "url": "https://doi.org/10.3390/polym18050606",
+      "publisherUrl": "https://www.mdpi.com/2073-4360/18/5/606",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://doi.org/10.3390/polym18050606",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-017",
+      "datasetFamilyId": null,
+      "scope": "Discovery for geopolymer chemistry. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://doi.org/10.3390/polym18050606",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-018",
+      "doi": "10.3390/ma17122992",
+      "originalDoi": "10.3390/ma17122992",
+      "title": "Influence of Residue Soil on the Properties of Fly Ash–Slag-Based Geopolymer Materials for 3D Printing",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2024,
+      "published": "2024",
+      "journal": "Materials",
+      "type": "Journal article",
+      "topic": "3D printing",
+      "url": "https://doi.org/10.3390/ma17122992",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/17/12/2992",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://www.mdpi.com/1996-1944/17/12/2992",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-018",
+      "datasetFamilyId": null,
+      "scope": "Discovery for 3d printing. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://www.mdpi.com/1996-1944/17/12/2992",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-019",
+      "doi": "10.3390/buildings14072068",
+      "originalDoi": "10.3390/buildings14072068",
+      "title": "RETRACTED: A Comparative Study of the Rheological Properties of a Fly Ash-Based Geopolymer Reinforced with PP Fiber for 3D Printing: An Experimental and Numerical Approach",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2024,
+      "published": "2024",
+      "journal": "Buildings",
+      "type": "Journal article",
+      "topic": "Fibers",
+      "url": "https://doi.org/10.3390/buildings14072068",
+      "publisherUrl": "https://www.mdpi.com/2075-5309/14/7/2068",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://doi.org/10.3390/buildings14072068",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-019",
+      "datasetFamilyId": null,
+      "scope": "Discovery for fibers. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://doi.org/10.3390/buildings14072068",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-020",
+      "doi": "10.3390/ma18133181",
+      "originalDoi": "10.3390/ma18133181",
+      "title": "Durability Assessment of Alkali-Activated Geopolymers Matrices for Organic Liquid Waste Immobilization",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2025,
+      "published": "2025",
+      "journal": "Materials",
+      "type": "Journal article",
+      "topic": "Durability",
+      "url": "https://doi.org/10.3390/ma18133181",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/18/13/3181",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://www.mdpi.com/1996-1944/18/13/3181",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-020",
+      "datasetFamilyId": null,
+      "scope": "Discovery for durability. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://www.mdpi.com/1996-1944/18/13/3181",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-021",
+      "doi": "10.3390/ma17061340",
+      "originalDoi": "10.3390/ma17061340",
+      "title": "Mechanical and Microstructural Investigation of Geopolymer Concrete Incorporating Recycled Waste Plastic Aggregate",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2024,
+      "published": "2024",
+      "journal": "Materials",
+      "type": "Journal article",
+      "topic": "Precursors",
+      "url": "https://doi.org/10.3390/ma17061340",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/17/6/1340",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://www.mdpi.com/1996-1944/17/6/1340",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-021",
+      "datasetFamilyId": null,
+      "scope": "Discovery for precursors. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://www.mdpi.com/1996-1944/17/6/1340",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-022",
+      "doi": "10.3390/recycling9050073",
+      "originalDoi": "10.3390/recycling9050073",
+      "title": "Performance Assessment of One-Part Self-Compacted Geopolymer Concrete Containing Recycled Concrete Aggregate: A Critical Comparison Using Artificial Neural Network (ANN) and Linear Regression Models",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2024,
+      "published": "2024",
+      "journal": "Recycling",
+      "type": "Journal article",
+      "topic": "Precursors",
+      "url": "https://doi.org/10.3390/recycling9050073",
+      "publisherUrl": "https://www.mdpi.com/2313-4321/9/5/73",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://doi.org/10.3390/recycling9050073",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-022",
+      "datasetFamilyId": null,
+      "scope": "Discovery for precursors. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://doi.org/10.3390/recycling9050073",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-023",
+      "doi": "10.3390/buildings13030769",
+      "originalDoi": "10.3390/buildings13030769",
+      "title": "Effect of Aggregate on the Performance of Fly-Ash-Based Geopolymer Concrete",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2023,
+      "published": "2023",
+      "journal": "Buildings",
+      "type": "Journal article",
+      "topic": "Precursors",
+      "url": "https://doi.org/10.3390/buildings13030769",
+      "publisherUrl": "https://www.mdpi.com/2075-5309/13/3/769",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://www.mdpi.com/2075-5309/13/3/769",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-023",
+      "datasetFamilyId": null,
+      "scope": "Discovery for precursors. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://www.mdpi.com/2075-5309/13/3/769",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-024",
+      "doi": "10.3390/recycling10030118",
+      "originalDoi": "10.3390/recycling10030118",
+      "title": "Transforming Waste into Sustainable Construction Materials: Resistant Geopolymers from Recycled Sources",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2025,
+      "published": "2025",
+      "journal": "Recycling",
+      "type": "Journal article",
+      "topic": "Precursors",
+      "url": "https://doi.org/10.3390/recycling10030118",
+      "publisherUrl": "https://www.mdpi.com/2313-4321/10/3/118",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://www.mdpi.com/2313-4321/10/3/118",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-024",
+      "datasetFamilyId": null,
+      "scope": "Discovery for precursors. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://www.mdpi.com/2313-4321/10/3/118",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    },
+    {
+      "id": "ke-b26-025",
+      "doi": "10.3390/su18168425",
+      "originalDoi": "10.3390/su18168425",
+      "title": "Integrated Durability Performance of Sustainable Geopolymer Concrete Incorporating Recycled Concrete Aggregates",
+      "authors": "Author list not transcribed; see linked publication record",
+      "year": 2026,
+      "published": "2026",
+      "journal": "Sustainability",
+      "type": "Journal article",
+      "topic": "Durability",
+      "url": "https://doi.org/10.3390/su18168425",
+      "publisherUrl": "https://www.mdpi.com/2071-1050/18/16/8425",
+      "checked": "2026-10-19",
+      "access": "Bibliographic identity checked in indexed publisher record; experimental extraction remains separate",
+      "metadataSource": "https://doi.org/10.3390/su18168425",
+      "metadataProvider": "Indexed publisher record",
+      "verification": "source-checked-ai",
+      "extraction": "unstarted",
+      "editorial": "approved",
+      "workFamilyId": "work-ke-b26-025",
+      "datasetFamilyId": null,
+      "scope": "Discovery for durability. Bibliographic inclusion does not establish independent experimental evidence or numerical performance.",
+      "dateBasis": "Cited journal year observed in publisher citation; first-online date not normalized",
+      "peerReview": {
+        "status": "Journal publication; individual review history not checked",
+        "basis": "Publisher publication identity; no platform peer review"
+      },
+      "sourceStatus": {
+        "state": "not-assessed",
+        "checked": "2026-10-19",
+        "basis": "Publisher identity checked through indexed text. Comprehensive correction/retraction and dataset-overlap checks remain unresolved.",
+        "updates": [],
+        "relations": {},
+        "checks": [
+          {
+            "provider": "Indexed publisher record",
+            "url": "https://doi.org/10.3390/su18168425",
+            "result": "bibliographic-identity-checked",
+            "scope": "Matched publication heading, DOI and cited volume/article/year; not a reference-list-only hit."
+          }
+        ]
+      },
+      "rights": {
+        "basis": "Bibliographic facts and original scope notes only. No abstracts, source tables, figures or raw full text retained; full-text operations assessed separately for editorial guides."
+      },
+      "metadataLocator": "Publication heading and journal citation in indexed publisher article record",
+      "metadataNote": "Metadata only; full authorship remains at the source. Source status and independent dataset identity are unassessed."
+    }
+  ]
+}

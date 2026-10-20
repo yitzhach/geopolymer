@@ -1,5 +1,37 @@
 # Research database and GP Journal
 
+## 19 October 2026 — current 800-publication checkpoint
+
+The owner expanded the request by another 300 papers after the 500 checkpoint.
+`src/knowledge-expansion-800.js` and batches 19–30 contain 300 DOI-deduplicated
+publisher-checked bibliography records (39 reviews, 261 other journal articles).
+All prior 500 IDs/DOIs/titles are preserved. The verification log records 377
+screened candidates, 318 passing primary metadata gates and the selected 300.
+Explicit journal citation years are retained; full first-online dates and most
+author lists are not newly normalized. Indexed publisher access still favors
+MDPI; selection is topical discovery rather than a systematic literature review.
+
+Twenty-three further guides in `src/deep-dive-expansion-800.js` bring the editorial
+total to 49. They cover reaction extent, volume/mass ratio distinctions, ceramic
+casting/restoration, foam assemblies, admixture chemistry/rheology, cure/demolding,
+repair interfaces, waste glass, biomass ash, acoustics and carbon-fabric thermal
+directions. Five bounded source-review audits (A–E) retain locators and holds.
+The plant-fiber early-properties and printing/interlayer papers proved to be
+reviews; their types were corrected and no experimental guides were fabricated.
+
+Publisher erratum `10.3390/ma12091388` is linked from reactive-MgO paper
+`10.3390/ma12030526`; author/contribution/funding reconciliation is incomplete.
+The publication stays discoverable with the existing correction callout and is
+excluded from assistant evidence. Selected guide context retains that hold.
+No source-status clearance is inferred for the rest of the additions.
+
+The new guides remain selected indexed-primary-text AI reviews, with explicit
+limits and no full PDF/visual audit. No raw papers, abstracts, source figures or
+complete tables are retained. Exact original-article CC BY 4.0 evidence was
+observed for the waste-glass paper; other licenses remain unassessed. Recipe and
+pilot counts remain unchanged. HANDOFF.md governs tests, main publication and
+live deployment identity separately.
+
 ## 19 October 2026 — current 500-publication checkpoint
 
 The library contains 500 unique DOI records. Batches 15–18 add 100 bibliographic

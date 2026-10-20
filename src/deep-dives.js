@@ -1,3 +1,4 @@
+import {expansion800DeepDives} from './deep-dive-expansion-800.js';
 import {expansion500DeepDives} from './deep-dive-expansion-500.js';
 import {durabilityDeepDives} from './deep-dive-durability.js';
 import {controlDeepDives} from './deep-dive-controls.js';
@@ -63,3 +64,4 @@ deepDives.push(...ownerPdfDeepDives);
 
 for(const d of deepDives)d.inventory=deepDiveInventories[d.id];
 deepDives.push(...expansion500DeepDives);
+deepDives.push(...expansion800DeepDives);

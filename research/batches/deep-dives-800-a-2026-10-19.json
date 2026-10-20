@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-dives-800-a-2026-10-19",
+  "checked": "2026-10-19",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "review": "Selected indexed primary passages only. No complete PDF, visual, human/domain or independent replication claim.",
+  "sourceAccess": "Session direct-access limits were established earlier. This batch uses indexed publisher/PMC article passages; no raw paper or supplement retained.",
+  "deferred": [],
+  "queries": [
+    {
+      "doi": "10.3390/ma13245784",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Abstract and study-objective passage",
+        "Materials and Methods, solution composition",
+        "NMR/chemical-extraction methods; compression method"
+      ]
+    },
+    {
+      "doi": "10.3390/ma17020367",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Discussion of calcined kaolins and active aluminum",
+        "Preparation passage specifying liquid–solid ratio",
+        "Specimen preparation; mechanical/kinetics discussion"
+      ]
+    },
+    {
+      "doi": "10.3390/ma15238600",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Materials and specimen-preparation passages",
+        "Table 2; MIX-MK discussion",
+        "Application discussion; cured-composition passage"
+      ]
+    },
+    {
+      "doi": "10.3390/coatings11010087",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Abstract versus experimental mixing description",
+        "Experimental mixing passage",
+        "Curing discussion; fire-test temperature–time captions"
+      ]
+    },
+    {
+      "doi": "10.3390/ma16155369",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Study objective; activator-exposure methods",
+        "Geopolymer-paste concentration passage",
+        "Table 2; Conclusions"
+      ]
+    }
+  ],
+  "rights": {
+    "access": "Indexed primary text through session web search",
+    "processing": "Selected factual analysis and original editorial planning",
+    "rawRetention": "No raw paper, abstracts, source tables or figures retained",
+    "aiTransmission": "No external model service; only text exposed by session search",
+    "embedding": "not performed",
+    "display": "Original selected factual notes and conditional calculations, not reconstructed source tables or figures",
+    "export": "Same original public fields as displayed",
+    "license": "Exact full-text license remains unassessed except the waste-glass article with observed primary CC BY 4.0 text."
+  },
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "id": "metakaolin-gel-amount-versus-composition",
+      "doi": "10.3390/ma13245784",
+      "relatedStudy": "/studies/ke-b19-002",
+      "source": "https://www.mdpi.com/1996-1944/13/24/5784",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Abstract and study-objective passage"
+        },
+        {
+          "title": "Activator",
+          "locator": "Materials and Methods, solution composition"
+        },
+        {
+          "title": "Measurements",
+          "locator": "NMR/chemical-extraction methods; compression method"
+        }
+      ],
+      "holds": [
+        "Full mixture ledger, cure history, extraction protocol and uncertainty remain incomplete.",
+        "No fitted strength equation or gel measurement is added to canonical numerical search.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "metakaolin-reactivity-and-liquid-volume",
+      "doi": "10.3390/ma17020367",
+      "relatedStudy": "/studies/ke-b19-004",
+      "source": "https://www.mdpi.com/1996-1944/17/2/367",
+      "evidenceLocators": [
+        {
+          "title": "Materials comparison",
+          "locator": "Discussion of calcined kaolins and active aluminum"
+        },
+        {
+          "title": "Mixture basis",
+          "locator": "Preparation passage specifying liquid–solid ratio"
+        },
+        {
+          "title": "Cure and interpretation",
+          "locator": "Specimen preparation; mechanical/kinetics discussion"
+        }
+      ],
+      "holds": [
+        "Pre-demolding cure, complete solution composition and individual-result uncertainty remain unextracted.",
+        "The reported association is not a universal reactivity ranking or a numeric strength prediction.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "ceramic-waste-artistic-restoration",
+      "doi": "10.3390/ma15238600",
+      "relatedStudy": "/studies/ke-b20-022",
+      "source": "https://www.mdpi.com/1996-1944/15/23/8600",
+      "evidenceLocators": [
+        {
+          "title": "Waste identity",
+          "locator": "Materials and specimen-preparation passages"
+        },
+        {
+          "title": "Formulation objective",
+          "locator": "Table 2; MIX-MK discussion"
+        },
+        {
+          "title": "Application boundary",
+          "locator": "Application discussion; cured-composition passage"
+        }
+      ],
+      "holds": [
+        "Full Table 2 ledger, mixing/cure and substrate-specific bond methods remain unextracted.",
+        "The sacrificial/restoration framing is an application proposal; current supplier equivalence and field conservation performance are unverified.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "aluminum-foam-coating-ratio-conflict",
+      "doi": "10.3390/coatings11010087",
+      "relatedStudy": "/studies/ke-b23-024",
+      "source": "https://www.mdpi.com/2079-6412/11/1/87",
+      "evidenceLocators": [
+        {
+          "title": "Source conflict",
+          "locator": "Abstract versus experimental mixing description"
+        },
+        {
+          "title": "Sequence",
+          "locator": "Experimental mixing passage"
+        },
+        {
+          "title": "Curing and assembly",
+          "locator": "Curing discussion; fire-test temperature–time captions"
+        }
+      ],
+      "holds": [
+        "Activator/binder conflict prevents an executable recipe. Source-family overlap with other Le/Louda foam studies remains unassessed.",
+        "Fire curves and full specimen/uncertainty inventory are not extracted; no certified fire rating or independent replication claim.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "pce-alkali-stability-versus-flow",
+      "doi": "10.3390/ma16155369",
+      "relatedStudy": "/studies/ke-b23-006",
+      "source": "https://www.mdpi.com/1996-1944/16/15/5369",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Study objective; activator-exposure methods"
+        },
+        {
+          "title": "Dose basis",
+          "locator": "Geopolymer-paste concentration passage"
+        },
+        {
+          "title": "Analytical versus fresh response",
+          "locator": "Table 2; Conclusions"
+        }
+      ],
+      "holds": [
+        "Complete rheometer protocol, polymer solids and all time/concentration results remain unextracted.",
+        "The apparent contrast with other PCE studies is conditional on precursor, activator and dose basis; no universal incompatibility claim.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ]
+}

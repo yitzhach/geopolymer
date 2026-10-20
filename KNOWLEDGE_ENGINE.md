@@ -1,5 +1,22 @@
 # Knowledge engine Phase A implementation
 
+## Latest checkpoint — 800 publications, 49 guides
+
+Owner requested another 300 papers after the implemented 500 checkpoint. Batches
+19–30 add 300 primary-checked bibliography records with a frozen prior-500 identity
+regression and idempotent importer checks. The new set has 39 reviews and 261 other
+journal articles. Publication and dataset counts remain distinct. An observed
+MgO erratum is linked and held from assistant evidence pending reconciliation.
+
+23 additional partial editorial guides bring the total to 49. These are selected
+indexed-source notes, calculations and laboratory planning, not complete canonical
+paper extractions. Five bounded source-review audits keep missing methods, ratio
+conflicts, processing factors, cure/test histories and uncertainty visible.
+No new pilot observations or recipes: five partial studies / 62 mixes / 275 result
+cells and 43 recipes / 31 scalable. Existing storage and calculator logic remain.
+OpenAlex is on hold; the daily research draft automation is unchanged. HANDOFF.md
+records the latest verification and owner-authorized main publication status.
+
 ## Current checkpoint — 19 October 2026
 
 500 unique library publications; 100 new bibliography records in batches 15–18.

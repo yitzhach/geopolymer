@@ -1,3 +1,4 @@
+import {knowledgeExpansion800} from './knowledge-expansion-800.js';
 import {knowledgeExpansion500} from './knowledge-expansion-500.js';
 import {knowledgeExpansion400} from './knowledge-expansion-400.js';
 import {knowledgeExpansion300} from './knowledge-expansion-300.js';
@@ -3746,3 +3747,5 @@ knowledgeReferences.push(...knowledgeExpansion300);
 knowledgeReferences.push(...knowledgeExpansion400);
 
 knowledgeReferences.push(...knowledgeExpansion500);
+
+knowledgeReferences.push(...knowledgeExpansion800);

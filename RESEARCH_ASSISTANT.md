@@ -1,5 +1,13 @@
 # Research assistant — working test feature
 
+## Latest catalog — 800 publications
+
+The further 300-record expansion brings the catalog to 800 and editorial guides
+to 49. Structured numeric evidence remains the original five partial pilots.
+The observed reactive-MgO erratum is blocked by the existing source-status gate;
+metadata inclusion and a partial editorial guide do not clear its source status.
+No model, live research provider, prediction or automatic recipe transfer added.
+
 ## 19 October 2026 catalog continuation
 
 The catalog now contains 500 publications and the site has 26 editorial deep dives.

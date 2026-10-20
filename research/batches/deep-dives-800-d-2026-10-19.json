@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-dives-800-d-2026-10-19",
+  "checked": "2026-10-19",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 4,
+  "review": "Selected indexed primary passages only. No complete PDF, visual, human/domain or independent replication claim.",
+  "sourceAccess": "Session direct-access limits were established earlier. This batch uses indexed publisher/PMC article passages; no raw paper or supplement retained.",
+  "deferred": [
+    {
+      "doi": "10.3390/ma15228032",
+      "reason": "Primary text is a review of interlayer/fiber literature, not a new printing experiment; corrected type."
+    }
+  ],
+  "queries": [
+    {
+      "doi": "10.3390/ma13040901",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Study objective and mix series",
+        "Preparation and curing passages",
+        "Strength/microstructure discussion"
+      ]
+    },
+    {
+      "doi": "10.3390/min13040564",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Preparation overview",
+        "Three-day peroxide-series strength discussion",
+        "Foamer-form and reaction discussion"
+      ]
+    },
+    {
+      "doi": "10.3390/app14031207",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Study description",
+        "Figure 11 discussion",
+        "Acoustic and dynamic-mechanical methods"
+      ]
+    },
+    {
+      "doi": "10.3390/app12136624",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "§2.2; Figure 5 description",
+        "Thermal-conductivity equation and unit definitions",
+        "Study objective and thermal interpretation"
+      ]
+    }
+  ],
+  "rights": {
+    "access": "Indexed primary text through session web search",
+    "processing": "Selected factual analysis and original editorial planning",
+    "rawRetention": "No raw paper, abstracts, source tables or figures retained",
+    "aiTransmission": "No external model service; only text exposed by session search",
+    "embedding": "not performed",
+    "display": "Original selected factual notes and conditional calculations, not reconstructed source tables or figures",
+    "export": "Same original public fields as displayed",
+    "license": "Exact full-text license remains unassessed except the waste-glass article with observed primary CC BY 4.0 text."
+  },
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "id": "olive-pine-ash-precursor-boundary",
+      "doi": "10.3390/ma13040901",
+      "relatedStudy": "/studies/ke-b21-013",
+      "source": "https://www.mdpi.com/1996-1944/13/4/901",
+      "evidenceLocators": [
+        {
+          "title": "Replacement design",
+          "locator": "Study objective and mix series"
+        },
+        {
+          "title": "Activator and cure",
+          "locator": "Preparation and curing passages"
+        },
+        {
+          "title": "Unfavorable direction",
+          "locator": "Strength/microstructure discussion"
+        }
+      ],
+      "holds": [
+        "Complete solution/solid ratio, ash lot chemistry and individual uncertainty remain unextracted.",
+        "The initial-heating-plus-later-cure wording needs a fixed age origin; no ambient-only performance or carbon-sequestration benefit is inferred.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "nickel-slag-phosphate-foamer",
+      "doi": "10.3390/min13040564",
+      "relatedStudy": "/studies/ke-b24-006",
+      "source": "https://www.mdpi.com/2075-163X/13/4/564",
+      "evidenceLocators": [
+        {
+          "title": "Materials",
+          "locator": "Preparation overview"
+        },
+        {
+          "title": "Early evidence",
+          "locator": "Three-day peroxide-series strength discussion"
+        },
+        {
+          "title": "Mechanistic interpretation",
+          "locator": "Foamer-form and reaction discussion"
+        }
+      ],
+      "holds": [
+        "Exact acid ratio/concentration, agent/stabilizer doses, cure and uncertainty remain unextracted.",
+        "No complete batch, predicted strength or validated insulation/fire application is supplied.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "acoustic-foam-architecture-versus-material",
+      "doi": "10.3390/app14031207",
+      "relatedStudy": "/studies/ke-b24-007",
+      "source": "https://www.mdpi.com/2076-3417/14/3/1207",
+      "evidenceLocators": [
+        {
+          "title": "Material",
+          "locator": "Study description"
+        },
+        {
+          "title": "Architecture comparison",
+          "locator": "Figure 11 discussion"
+        },
+        {
+          "title": "Measurement scope",
+          "locator": "Acoustic and dynamic-mechanical methods"
+        }
+      ],
+      "holds": [
+        "Complete foam recipe, cure, tube procedure, spectrum values and uncertainty remain unextracted.",
+        "No room-scale acoustic rating, universal absorption improvement or transmission-loss value is inferred.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "carbon-textile-thermal-directions",
+      "doi": "10.3390/app12136624",
+      "relatedStudy": "/studies/ke-b24-013",
+      "source": "https://www.mdpi.com/2076-3417/12/13/6624",
+      "evidenceLocators": [
+        {
+          "title": "Fabrication",
+          "locator": "§2.2; Figure 5 description"
+        },
+        {
+          "title": "Thermal model",
+          "locator": "Thermal-conductivity equation and unit definitions"
+        },
+        {
+          "title": "Architecture scope",
+          "locator": "Study objective and thermal interpretation"
+        }
+      ],
+      "holds": [
+        "Full matrix ledger, bagging/cure protocol, thermal instrument settings and uncertainty remain unextracted.",
+        "No isotropic conductivity, certified insulation category or supplier substitution is inferred from the source framing.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ]
+}

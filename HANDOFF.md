@@ -1,23 +1,39 @@
 # Geopolymer — current handoff
 Updated 19 October 2026; dates use Eastern time.
 
-## Owner expanded target to 800 — 19 October 2026
-- New owner request: add 300 MORE papers after the 500 checkpoint, plus as many
-  substantive deep dives from those additions as accessible evidence supports.
-  Final target is 800, not 700. Push completed tested work to main when done.
-- The 500/+15 milestone below is implemented and locally validated, including all
-  six browser suites. Further 300-paper work is verified metadata preparation only;
-  300 accepted records are staged privately in work/800-accepted-metadata.json.
-- work/800-candidates.json holds 377 screened DOI-deduplicated leads beyond 500;
-  318 met primary metadata gates and 300 were selected. Never treat unverified leads
-  as accepted records. Preserve this file and work/baseline-500.json on resume.
-- Backup continuation prompt successfully updated to the 800 target; same
-  one-time schedule and automation ID as below. Existing daily task unchanged.
-  First combined schedule/prompt update failed; private lookup confirmed no save,
-  and prompt-only retry succeeded. Do not create a duplicate continuation.
-- Process further bibliography as batches 19–30 of 25 accepted records, keeping
-  primary checks, source status, rights and exact identity provenance. At most
-  five full papers per extraction batch. OpenAlex stays on hold.
+## 800-publication release — 19 October 2026
+- Owner requested 300 MORE after the 500 checkpoint, plus additional substantive
+  deep dives, and explicitly authorized pushing completed work to main.
+- Implemented 800 publications and 49 deep dives: +400 publications and +38 guides
+  across both requests. The 500 checkpoint is local commit 625a6db.
+- Twelve bounded 25-record batches (19–30) preserve all 500 prior identities.
+  Screened 377 DOI-deduplicated candidates; 318 passed primary metadata gates;
+  selected 300 (39 reviews / 261 other journal articles), leaving 18 reserves.
+  Audit: research/batches/breadth-800-verification-2026-10-19.json and frozen
+  prior-500 baseline. Metadata discovery is publisher-skewed, not systematic.
+- Twenty-three additional partial editorial guides in five review batches A–E.
+  Source locators, seven-area inventories, conditional calculations and proposed
+  experiments remain distinct. Full PDFs, visuals and supplements were not fully
+  inspected. Two apparent experimental leads proved to be reviews and were excluded
+  from experiment guides. No raw articles, abstracts or source tables are retained.
+- Known update hold: original 10.3390/ma12030526 links erratum
+  10.3390/ma12091388. Correction reconciliation remains pending; the source is
+  excluded from assistant evidence. No corrected numerical measurements inferred.
+- Exact original-article CC BY 4.0 evidence observed for waste-glass paper
+  10.3390/polym13091493. Other new guide licenses remain unassessed; the MgO
+  erratum license does not establish the original article license.
+- Canonical data unchanged: five partial pilots / 62 mixes / 275 observations;
+  43 recipes / 31 scalable. No new numerical extraction or automatic transfer.
+- Validation: 111 Node cases pass; schema validation and 869-route build pass.
+  Five feature browser suites and focused checks of all 38 new guides pass at
+  desktop/mobile widths. Full route sweep is running; final publication pending.
+- An early browser attempt overlapped a test-triggered dist rebuild, interrupting
+  the preview. The final browser runs use the completed stable build.
+- Backup five-hour continuation already targets 800; no duplicate is needed.
+  Existing daily task unchanged. OpenAlex remains on hold.
+- Next research: inspect full PDFs and supplements for selected guides, reconcile
+  the known MgO erratum, and resolve existing hemp/foam/biochar pilot gaps.
+  No additional breadth quota beyond 800 is assumed.
 
 ## 500-publication expansion and fifteen new deep dives — 19 October 2026
 - Owner requested +100 articles and as many substantive source-backed guides as

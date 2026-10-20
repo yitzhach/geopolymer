@@ -1,5 +1,12 @@
 # Recipe database and future formulation advisor
 
+## Latest bibliography checkpoint — 800 publications
+
+The owner's further 300 papers and 23 editorial guides bring the library/guide
+counts to 800/49. Curated recipe totals remain 43 designs / 31 scalable, and the
+canonical pilot remains five partial studies / 62 mixes / 275 cells. Guide dose
+arithmetic and proposed test controls are not additional executable recipes.
+
 ## 19 October 2026 — bibliography and editorial expansion
 
 Library breadth reached 500 publications, with 26 separate editorial deep dives.

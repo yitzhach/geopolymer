@@ -1,5 +1,18 @@
 # Geopolymer Platform — Decisions
 
+## 19 October 2026 — owner expanded the target to 800
+
+Owner requested 300 more publications after the 500 checkpoint, with the same
+source-backed deep-dive work and authorization to push completed tested work to
+main. Added batches 19–30 (25 each), preserving all prior 500 identities. Library:
+800 unique publications. Added 23 partial editorial guides from these 300 papers:
+49 guides total. Two reviewed candidates proved to be literature syntheses and
+were labeled Review instead of being presented as new experiments. A reactive-MgO
+erratum remains a visible review hold and is excluded from assistant evidence.
+No canonical observations, ready-to-run recipes, raw source retention, OpenAlex
+use or changes to the daily draft schedule. HANDOFF.md records exact verification
+and publication status; do not repeat either the +100 or +300 on continuation.
+
 ## 19 October 2026 — 500 publications and fifteen new editorial guides
 
 Owner requested 100 additional articles and as many substantive deep dives from

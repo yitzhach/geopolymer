@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-dives-800-b-2026-10-19",
+  "checked": "2026-10-19",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 4,
+  "review": "Selected indexed primary passages only. No complete PDF, visual, human/domain or independent replication claim.",
+  "sourceAccess": "Session direct-access limits were established earlier. This batch uses indexed publisher/PMC article passages; no raw paper or supplement retained.",
+  "deferred": [
+    {
+      "doi": "10.3390/molecules28124710",
+      "reason": "Primary text is a review; corrected publication type and did not invent an experimental guide."
+    }
+  ],
+  "queries": [
+    {
+      "doi": "10.3390/ma9070586",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Preparation passage",
+        "Mixing passage",
+        "Abstract/conclusions, PCE comparison"
+      ]
+    },
+    {
+      "doi": "10.3390/ma14247614",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Abstract; experimental overview",
+        "Strength-testing description",
+        "Abstract/conclusions; §3.3"
+      ]
+    },
+    {
+      "doi": "10.3390/buildings15193621",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Materials and activator passage",
+        "Study scope and testing overview",
+        "Durability discussion and microstructural interpretation"
+      ]
+    },
+    {
+      "doi": "10.3390/polym14163386",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Materials passage",
+        "Tables 4–5 discussion",
+        "Cure-comparison discussion"
+      ]
+    }
+  ],
+  "rights": {
+    "access": "Indexed primary text through session web search",
+    "processing": "Selected factual analysis and original editorial planning",
+    "rawRetention": "No raw paper, abstracts, source tables or figures retained",
+    "aiTransmission": "No external model service; only text exposed by session search",
+    "embedding": "not performed",
+    "display": "Original selected factual notes and conditional calculations, not reconstructed source tables or figures",
+    "export": "Same original public fields as displayed",
+    "license": "Exact full-text license remains unassessed except the waste-glass article with observed primary CC BY 4.0 text."
+  },
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "id": "ambient-fly-ash-superplasticizer",
+      "doi": "10.3390/ma9070586",
+      "relatedStudy": "/studies/ke-b22-022",
+      "source": "https://www.mdpi.com/1996-1944/9/7/586",
+      "evidenceLocators": [
+        {
+          "title": "System",
+          "locator": "Preparation passage"
+        },
+        {
+          "title": "Processing",
+          "locator": "Mixing passage"
+        },
+        {
+          "title": "Reported result",
+          "locator": "Abstract/conclusions, PCE comparison"
+        }
+      ],
+      "holds": [
+        "Exact solution quantities, SP solids, specimen/test age and uncertainty remain unextracted.",
+        "This source’s favorable PCE result must not override the distinct, unfavorable low-calcium activator-stability study.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "superplasticizer-flow-air-long-term",
+      "doi": "10.3390/ma14247614",
+      "relatedStudy": "/studies/ke-b23-004",
+      "source": "https://www.mdpi.com/1996-1944/14/24/7614",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Abstract; experimental overview"
+        },
+        {
+          "title": "Mechanical chronology",
+          "locator": "Strength-testing description"
+        },
+        {
+          "title": "Tradeoff",
+          "locator": "Abstract/conclusions; §3.3"
+        }
+      ],
+      "holds": [
+        "Complete mix, heating schedule, rheometer settings and replicate/spread audit remain incomplete.",
+        "The selected long-term comparison does not establish chemical stability, environmental suitability or a universal best admixture.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "hpmc-vae-workability-durability",
+      "doi": "10.3390/buildings15193621",
+      "relatedStudy": "/studies/ke-b22-011",
+      "source": "https://www.mdpi.com/2075-5309/15/19/3621",
+      "evidenceLocators": [
+        {
+          "title": "Preparation",
+          "locator": "Materials and activator passage"
+        },
+        {
+          "title": "Responses",
+          "locator": "Study scope and testing overview"
+        },
+        {
+          "title": "Unfavorable direction",
+          "locator": "Durability discussion and microstructural interpretation"
+        }
+      ],
+      "holds": [
+        "Full doses, mixing sequence, cure regimes, exposure concentrations and uncertainty are not extracted.",
+        "No universal HPMC benefit or VAE incompatibility is established, and OPC polymer behavior is not automatically transferred.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "mgo-shrinkage-curing-demolding",
+      "doi": "10.3390/polym14163386",
+      "relatedStudy": "/studies/ke-b23-001",
+      "source": "https://www.mdpi.com/2073-4360/14/16/3386",
+      "evidenceLocators": [
+        {
+          "title": "Activator",
+          "locator": "Materials passage"
+        },
+        {
+          "title": "Timing design",
+          "locator": "Tables 4–5 discussion"
+        },
+        {
+          "title": "Environment",
+          "locator": "Cure-comparison discussion"
+        }
+      ],
+      "holds": [
+        "Full MgO dose matrix, cure temperatures/durations, mixture ledger and uncertainty remain unextracted.",
+        "Selected OPC control strains in the paper are not geopolymer results and are not transferred into this guide.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ]
+}

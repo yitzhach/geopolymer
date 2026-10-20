@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-dives-800-c-2026-10-19",
+  "checked": "2026-10-19",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "review": "Selected indexed primary passages only. No complete PDF, visual, human/domain or independent replication claim.",
+  "sourceAccess": "Session direct-access limits were established earlier. This batch uses indexed publisher/PMC article passages; no raw paper or supplement retained.",
+  "deferred": [],
+  "queries": [
+    {
+      "doi": "10.3390/app10093321",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Activator-preparation passage",
+        "Substrate preparation",
+        "Bond-test passage citing ASTM C882"
+      ]
+    },
+    {
+      "doi": "10.3390/buildings14030652",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Experimental overview",
+        "§2.2; Figure 2",
+        "Interface roughening description",
+        "Results summary"
+      ]
+    },
+    {
+      "doi": "10.3390/app11114886",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Preparation passage",
+        "Foam-preparation passage",
+        "Abstract; thermal-conductivity discussion"
+      ]
+    },
+    {
+      "doi": "10.3390/polym12122994",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Materials and preparation",
+        "Three-step preparation passage",
+        "Study objective and characterization description"
+      ]
+    },
+    {
+      "doi": "10.3390/polym13091493",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "§§2.1–2.2",
+        "§2.2",
+        "Study scope and conclusions"
+      ]
+    }
+  ],
+  "rights": {
+    "access": "Indexed primary text through session web search",
+    "processing": "Selected factual analysis and original editorial planning",
+    "rawRetention": "No raw paper, abstracts, source tables or figures retained",
+    "aiTransmission": "No external model service; only text exposed by session search",
+    "embedding": "not performed",
+    "display": "Original selected factual notes and conditional calculations, not reconstructed source tables or figures",
+    "export": "Same original public fields as displayed",
+    "license": "Exact full-text license remains unassessed except the waste-glass article with observed primary CC BY 4.0 text."
+  },
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "id": "fly-ash-opc-slant-shear-bond",
+      "doi": "10.3390/app10093321",
+      "relatedStudy": "/studies/ke-b22-004",
+      "source": "https://www.mdpi.com/2076-3417/10/9/3321",
+      "evidenceLocators": [
+        {
+          "title": "Activator variables",
+          "locator": "Activator-preparation passage"
+        },
+        {
+          "title": "Substrate history",
+          "locator": "Substrate preparation"
+        },
+        {
+          "title": "Bond method",
+          "locator": "Bond-test passage citing ASTM C882"
+        }
+      ],
+      "holds": [
+        "Complete paste ratio, interface preparation, post-repair cure/test age and uncertainty remain unextracted.",
+        "A source bond value cannot be ranked directly against a pull-off result from a different geometry or failure mode.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "slag-fly-ash-red-mud-interface",
+      "doi": "10.3390/buildings14030652",
+      "relatedStudy": "/studies/ke-b19-016",
+      "source": "https://www.mdpi.com/2075-5309/14/3/652",
+      "evidenceLocators": [
+        {
+          "title": "Study design",
+          "locator": "Experimental overview"
+        },
+        {
+          "title": "Substrate and tests",
+          "locator": "§2.2; Figure 2"
+        },
+        {
+          "title": "Surface preparation",
+          "locator": "Interface roughening description"
+        },
+        {
+          "title": "Reported selection",
+          "locator": "Results summary"
+        }
+      ],
+      "holds": [
+        "Complete ternary mixture/activator ledger, roughness quantification and uncertainty remain unextracted.",
+        "Source selection does not establish universal bond improvement, field durability or supplier-grade equivalence.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "pp-foam-volume-versus-fiber-dose",
+      "doi": "10.3390/app11114886",
+      "relatedStudy": "/studies/ke-b23-015",
+      "source": "https://www.mdpi.com/2076-3417/11/11/4886",
+      "evidenceLocators": [
+        {
+          "title": "Materials and mixing",
+          "locator": "Preparation passage"
+        },
+        {
+          "title": "Foam generation",
+          "locator": "Foam-preparation passage"
+        },
+        {
+          "title": "Design and result",
+          "locator": "Abstract; thermal-conductivity discussion"
+        }
+      ],
+      "holds": [
+        "Activator masses, PP basis, foam-ratio units, cure and full test protocol remain incomplete.",
+        "No thermal values are digitized and no complete foam recipe or scale-up equivalence is supplied.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "metakaolin-foam-thermal-versus-fire",
+      "doi": "10.3390/polym12122994",
+      "relatedStudy": "/studies/ke-b24-008",
+      "source": "https://www.mdpi.com/2073-4360/12/12/2994",
+      "evidenceLocators": [
+        {
+          "title": "System",
+          "locator": "Materials and preparation"
+        },
+        {
+          "title": "Sequence",
+          "locator": "Three-step preparation passage"
+        },
+        {
+          "title": "Evidence scope",
+          "locator": "Study objective and characterization description"
+        }
+      ],
+      "holds": [
+        "Complete batch, cure and exposure program, numerical series and uncertainty remain unextracted.",
+        "Potential overlap with other commercial MK/basalt foam papers is unresolved; no independent replication or fire-rating claim.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "waste-glass-replacement-and-bioassays",
+      "doi": "10.3390/polym13091493",
+      "relatedStudy": "/studies/ke-b20-023",
+      "source": "https://www.mdpi.com/2073-4360/13/9/1493",
+      "evidenceLocators": [
+        {
+          "title": "Mix and basis",
+          "locator": "§§2.1–2.2"
+        },
+        {
+          "title": "Specimens and cure",
+          "locator": "§2.2"
+        },
+        {
+          "title": "Multiple evidence types",
+          "locator": "Study scope and conclusions"
+        }
+      ],
+      "holds": [
+        "Complete assay protocols, solution assay/density and uncertainty remain unextracted; supplements are listed but not inspected.",
+        "Biological results and an environmental framing do not establish universal biocompatibility, regulatory clearance or an LCA benefit.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ]
+}

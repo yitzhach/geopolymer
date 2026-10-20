@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-dives-800-e-2026-10-19",
+  "checked": "2026-10-19",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "review": "Selected indexed primary passages only. No complete PDF, visual, human/domain or independent replication claim.",
+  "sourceAccess": "Session direct-access limits were established earlier. This batch uses indexed publisher/PMC article passages; no raw paper or supplement retained.",
+  "deferred": [],
+  "queries": [
+    {
+      "doi": "10.3390/polym14194214",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Study objective and preparation description",
+        "Synthetic-gel preparation passage",
+        "Spectroscopy/toughening discussion"
+      ]
+    },
+    {
+      "doi": "10.3390/ma17030734",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "§3.1; Table 2 discussion",
+        "Abstract and preparation overview",
+        "Spectral discussion for 2.0% PVA"
+      ]
+    },
+    {
+      "doi": "10.3390/buildings16040707",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Introduction, three underexplored aspects",
+        "Figures 5–6 description",
+        "Table 14 discussion"
+      ]
+    },
+    {
+      "doi": "10.3390/ma17081740",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "Materials/preparation passage",
+        "§2.2",
+        "§2.2, water absorbability",
+        "Porosity discussion"
+      ]
+    },
+    {
+      "doi": "10.3390/ma12030526",
+      "strategy": "Exact DOI/title plus methods, preparation, mixing, cure, result and limitation terms.",
+      "locators": [
+        "§2.2; Table 3",
+        "§2.2",
+        "Publisher notice; erratum DOI 10.3390/ma12091388"
+      ]
+    }
+  ],
+  "rights": {
+    "access": "Indexed primary text through session web search",
+    "processing": "Selected factual analysis and original editorial planning",
+    "rawRetention": "No raw paper, abstracts, source tables or figures retained",
+    "aiTransmission": "No external model service; only text exposed by session search",
+    "embedding": "not performed",
+    "display": "Original selected factual notes and conditional calculations, not reconstructed source tables or figures",
+    "export": "Same original public fields as displayed",
+    "license": "Exact full-text license remains unassessed except the waste-glass article with observed primary CC BY 4.0 text."
+  },
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "id": "organic-slag-model-gel-versus-paste",
+      "doi": "10.3390/polym14194214",
+      "relatedStudy": "/studies/ke-b19-009",
+      "source": "https://www.mdpi.com/2073-4360/14/19/4214",
+      "evidenceLocators": [
+        {
+          "title": "Experimental scope",
+          "locator": "Study objective and preparation description"
+        },
+        {
+          "title": "Model system",
+          "locator": "Synthetic-gel preparation passage"
+        },
+        {
+          "title": "Interpretation",
+          "locator": "Spectroscopy/toughening discussion"
+        }
+      ],
+      "holds": [
+        "Complete polymer series, press/vibration settings, cure, mechanical protocol and uncertainty remain unextracted.",
+        "No synthetic-gel stoichiometry, analytical peak assignment or chemical mechanism is promoted to a verified whole-paste result.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "hydrophilic-polymers-slag-processing",
+      "doi": "10.3390/ma17030734",
+      "relatedStudy": "/studies/ke-b19-015",
+      "source": "https://www.mdpi.com/1996-1944/17/3/734",
+      "evidenceLocators": [
+        {
+          "title": "Matrix screening",
+          "locator": "§3.1; Table 2 discussion"
+        },
+        {
+          "title": "Polymer and process series",
+          "locator": "Abstract and preparation overview"
+        },
+        {
+          "title": "Mechanism limits",
+          "locator": "Spectral discussion for 2.0% PVA"
+        }
+      ],
+      "holds": [
+        "Full Table 2 doses, process pressure/time, cure, analytical uncertainty and complete outcome inventory remain unextracted.",
+        "Possible relation to other slag/polymer work is unresolved; similar mechanisms do not establish independent replication.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "one-part-batch-reproducibility",
+      "doi": "10.3390/buildings16040707",
+      "relatedStudy": "/studies/ke-b19-010",
+      "source": "https://www.mdpi.com/2075-5309/16/4/707",
+      "evidenceLocators": [
+        {
+          "title": "Objective",
+          "locator": "Introduction, three underexplored aspects"
+        },
+        {
+          "title": "Process evidence",
+          "locator": "Figures 5–6 description"
+        },
+        {
+          "title": "Comparison limit",
+          "locator": "Table 14 discussion"
+        }
+      ],
+      "holds": [
+        "Mix masses, solid activator identity, complete cure regimes, batch counts and variance estimates remain unextracted.",
+        "The study’s reproducibility conclusion is limited to its formulations and conditions; no universal reproducibility or tensile conversion rule.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "ceramic-fines-conditioning-and-absorption",
+      "doi": "10.3390/ma17081740",
+      "relatedStudy": "/studies/ke-b20-024",
+      "source": "https://www.mdpi.com/1996-1944/17/8/1740",
+      "evidenceLocators": [
+        {
+          "title": "Material and liquid basis",
+          "locator": "Materials/preparation passage"
+        },
+        {
+          "title": "Geometry and mechanics",
+          "locator": "§2.2"
+        },
+        {
+          "title": "Absorption conditioning",
+          "locator": "§2.2, water absorbability"
+        },
+        {
+          "title": "Selected result",
+          "locator": "Porosity discussion"
+        }
+      ],
+      "holds": [
+        "Complete fines/precursor ledger, activator chemistry, cure and spread definitions remain unextracted.",
+        "An oven-conditioned absorption result is not a direct estimate of field moisture behavior or durability.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "reactive-mgo-dose-and-erratum",
+      "doi": "10.3390/ma12030526",
+      "relatedStudy": "/studies/ke-b23-013",
+      "source": "https://www.mdpi.com/1996-1944/12/3/526",
+      "evidenceLocators": [
+        {
+          "title": "Dose basis",
+          "locator": "§2.2; Table 3"
+        },
+        {
+          "title": "Methods",
+          "locator": "§2.2"
+        },
+        {
+          "title": "Source-status hold",
+          "locator": "Publisher notice; erratum DOI 10.3390/ma12091388"
+        }
+      ],
+      "holds": [
+        "Erratum reconciliation is incomplete. Selected source statements are provisional editorial context, not cleared numerical evidence.",
+        "Full starting geopolymer identity, cure, activity/dose matrix and uncertainty remain unextracted.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ]
+}

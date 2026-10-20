@@ -74,7 +74,7 @@ fs.mkdirSync('.qa', { recursive: true });
     await go('/shop?audience=artists');
     assert.equal(await page.locator('.product-card').count(),3);
     await go('/library?q=coffee');
-    assert.equal(await page.locator('.library-card').count(),11);
+    assert.equal(await page.locator('.library-card').count(),12);
 
     await go('/workspace');
     await page.locator('[name=title]').fill('Foundation QA draft');
@@ -174,7 +174,7 @@ fs.mkdirSync('.qa', { recursive: true });
       assert.ok((await noJS.locator('main').innerText()).length>150,route);
     }
     await noJS.goto(base+'/library');
-    assert.equal(await noJS.locator('.library-card').count(),500);
+    assert.equal(await noJS.locator('.library-card').count(),800);
     await noJS.locator('#site-menu summary').click();
     assert.equal(await noJS.getByRole('link',{name:'GP calculator',exact:true}).isVisible(),true);
     for (const path of ['/missing','/learn/missing','/calculator/extra']) {
@@ -185,6 +185,6 @@ fs.mkdirSync('.qa', { recursive: true });
     await reduced.goto(base+'/'); await reduced.locator('main[data-enhanced="true"]').waitFor();
     assert.equal(await reduced.locator('.hero-enter').count(),0);
     assert.deepEqual(errors,[]);
-    console.log('PASS: 30 routes desktop/mobile and JS-disabled; old hashes, 404s, keyboard/menu, visible content, reduced motion, search, calculator, workspace save/reopen/export and storage failure.');
+    console.log('PASS: all generated routes desktop/mobile and JS-disabled; old hashes, 404s, keyboard/menu, visible content, reduced motion, search, calculator, workspace save/reopen/export and storage failure.');
   } finally { await browser.close(); }
 })().catch(error => { console.error(error); process.exit(1); });

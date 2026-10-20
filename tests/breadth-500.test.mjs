@@ -11,8 +11,8 @@ import {reconcileBatch} from '../src/knowledge-core.js';
 const read=n=>JSON.parse(fs.readFileSync(new URL('../research/batches/'+n,import.meta.url)));
 test('500-publication milestone preserves 400 identities and reconciles four bounded batches idempotently',()=>{
  assert.deepEqual(library.slice(0,400).map(({id,doi,title})=>({id,doi,title})),read('breadth-500-2026-10-19-baseline.json'));
- assert.equal(knowledgeExpansion500.length,100);assert.equal(library.length,500);
- assert.equal(new Set(library.map(p=>p.doi.toLowerCase())).size,500);assert.equal(new Set(library.map(p=>p.id)).size,500);
+ assert.equal(knowledgeExpansion500.length,100);assert.equal(library.length,800);
+ assert.equal(new Set(library.map(p=>p.doi.toLowerCase())).size,800);assert.equal(new Set(library.map(p=>p.id)).size,800);
  let imported=library.slice(0,400);
  for(const n of [15,16,17,18]){
   const a=read(`breadth-${n}-2026-10-19.json`);assert.equal(a.records.length,25);assert.ok(a.strategy.primaryVerification<=40);
