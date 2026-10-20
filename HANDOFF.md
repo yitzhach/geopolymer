@@ -35,12 +35,15 @@ Updated 19 October 2026; dates use Eastern time.
   title. The affected build files were safely refreshed without deleting preview
   paths; targeted identity tests and browser study/export checks pass afterward.
 - Release implementation: 295870e, following 500 checkpoint 625a6db. Push to main
-  is the final release action; do not infer remote CI or live deployment from local
-  checks. GitHub Actions API access via gh returned Forbidden.
+  succeeded at 5bd2d22593b9dd312db0eacd732eb1a98d420045; git ls-remote confirmed
+  that exact main SHA. This publication-status note follows in a documentation
+  commit. Remote CI and live deployment remain unverified; GitHub Actions API
+  access via gh returned Forbidden.
 - An early browser attempt overlapped a test-triggered dist rebuild, interrupting
   the preview. The final browser runs use the completed stable build.
-- Backup five-hour continuation already targets 800; no duplicate is needed.
-  Existing daily task unchanged. OpenAlex remains on hold.
+- The one-time five-hour continuation was paused after successful completion
+  and verified main publication, preventing duplicate additions. Existing daily
+  automation remains unchanged. OpenAlex remains on hold.
 - Next research: inspect full PDFs and supplements for selected guides, reconcile
   the known MgO erratum, and resolve existing hemp/foam/biochar pilot gaps.
   No additional breadth quota beyond 800 is assumed.
