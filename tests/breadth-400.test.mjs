@@ -9,7 +9,7 @@ import {deepDives} from '../src/deep-dives.js';
 const read=n=>JSON.parse(fs.readFileSync(new URL('../research/batches/'+n,import.meta.url)));
 test('four bounded batches preserve 300 identities and add 100 unique metadata records',()=>{
  assert.deepEqual(library.slice(0,300).map(({id,doi,title})=>({id,doi,title})),read('breadth-2026-10-19-300-baseline.json'));
- assert.equal(knowledgeExpansion400.length,100);assert.equal(library.length,400);assert.equal(new Set(library.map(p=>p.doi.toLowerCase())).size,400);
+ assert.equal(knowledgeExpansion400.length,100);assert.equal(library.length,500);assert.equal(new Set(library.map(p=>p.doi.toLowerCase())).size,500);
  let records=library.slice(0,300);
  for(const n of [11,12,13,14]){const a=read(`breadth-${n}-2026-10-19.json`);assert.equal(a.records.length,25);assert.ok(a.strategy.primaryVerification<=40);records=reconcileBatch(records,a.records).records;assert.equal(records.length,a.final);assert.ok(reconcileBatch(records,a.records).events.every(e=>e.status==='unchanged'));}
  for(const p of knowledgeExpansion400){assert.equal(p.extraction,'unstarted');assert.equal(p.datasetFamilyId,null);assert.ok(!p.summary&&!p.abstract&&!p.observations);assert.ok(p.metadataLocator&&p.rights.basis);}

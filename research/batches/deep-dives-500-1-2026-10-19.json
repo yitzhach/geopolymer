@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-dives-500-1-2026-10-19",
+  "checked": "2026-10-19",
+  "bounds": {
+    "fullPapers": 5,
+    "operationCap": 40
+  },
+  "actualReview": "Selected indexed primary text only; no full PDF or visual completeness claim",
+  "sourceAccess": {
+    "publisher": "Four initial MDPI article opens returned 429; no repeat open loops.",
+    "repository": "Two PMC opens returned browser challenge; institutional biochar PDF exceeded web tool size. No bypass attempted.",
+    "workingRoute": "Indexed publisher and PMC article passages; one indexed SFCC publisher staging rendering supplied the cure passage."
+  },
+  "queries": [
+    {
+      "doi": "10.3390/ma12060923",
+      "strategy": "Exact DOI and exact title searches combined with preparation, methods, specimen, mixing, curing, response and limitation terms.",
+      "source": "https://www.mdpi.com/1996-1944/12/6/923",
+      "locators": [
+        "Introduction, four stated contributions",
+        "Discussion/conclusions, passage comparing one hour with ten minutes",
+        "Discussion of development challenges"
+      ]
+    },
+    {
+      "doi": "10.3390/ma15113767",
+      "strategy": "Exact DOI and exact title searches combined with preparation, methods, specimen, mixing, curing, response and limitation terms.",
+      "source": "https://www.mdpi.com/1996-1944/15/11/3767",
+      "locators": [
+        "Experimental design; Table 2",
+        "Surface-modification procedure; reference sample W/S = 0.4",
+        "§§2.3–2.4; surface-energy discussion"
+      ]
+    },
+    {
+      "doi": "10.3390/app112210945",
+      "strategy": "Exact DOI and exact title searches combined with preparation, methods, specimen, mixing, curing, response and limitation terms.",
+      "source": "https://www.mdpi.com/2076-3417/11/22/10945",
+      "locators": [
+        "Preparation passage naming MK, biochar, IBA and activators",
+        "Raw-material chemical analysis and BET methods",
+        "Porosimetry discussion, 28- and 90-day high-biochar comparison"
+      ]
+    },
+    {
+      "doi": "10.3390/ma17122856",
+      "strategy": "Exact DOI and exact title searches combined with preparation, methods, specimen, mixing, curing, response and limitation terms.",
+      "source": "https://www.mdpi.com/1996-1944/17/12/2856",
+      "locators": [
+        "Formulation passage specifying Si:Al:P and acid concentration",
+        "Abstract and formulation description",
+        "Conclusions; §2.3.6, nitrogen adsorption",
+        "Supplementary Materials, Figure S1 description"
+      ]
+    },
+    {
+      "doi": "10.3390/ma16237460",
+      "strategy": "Exact DOI and exact title searches combined with preparation, methods, specimen, mixing, curing, response and limitation terms.",
+      "source": "https://www.mdpi.com/1996-1944/16/23/7460",
+      "locators": [
+        "Table 3, elemental analysis",
+        "Preparation passage; introductory study-temperature list",
+        "Preparation passage; Appendix Tables A1–A4",
+        "§4.4, loading-rate comparison"
+      ]
+    }
+  ],
+  "rights": {
+    "access": "Indexed text through session web search",
+    "processing": "Selected factual analysis and original planning",
+    "rawRetention": "No raw paper or source text retained",
+    "aiTransmission": "Only text exposed through authorized session search; no external model service",
+    "embedding": "not performed",
+    "display": "Original selected factual notes and editorial calculations; no reconstructed full tables or figures",
+    "export": "Same original public fields as displayed",
+    "license": "Only the calcium-hydroxide paper has independently observed exact CC BY 4.0 evidence; other licenses remain unassessed."
+  },
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "id": "ambient-fly-ash-coating-process",
+      "doi": "10.3390/ma12060923",
+      "relatedStudy": "/studies/ke-b15-005",
+      "source": "https://www.mdpi.com/1996-1944/12/6/923",
+      "evidenceLocators": [
+        {
+          "title": "Scope",
+          "locator": "Introduction, four stated contributions"
+        },
+        {
+          "title": "Processing comparison",
+          "locator": "Discussion/conclusions, passage comparing one hour with ten minutes"
+        },
+        {
+          "title": "Practical constraints",
+          "locator": "Discussion of development challenges"
+        }
+      ],
+      "holds": [
+        "Complete mix masses, activator composition, substrate preparation, test protocol and per-condition uncertainty remain unextracted.",
+        "The one-hour recommendation is not established for other ashes, mixer scales, substrates or ambient climates.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "coating-wetting-versus-bond",
+      "doi": "10.3390/ma15113767",
+      "relatedStudy": "/studies/ke-b15-002",
+      "source": "https://www.mdpi.com/1996-1944/15/11/3767",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Experimental design; Table 2"
+        },
+        {
+          "title": "Surface modifications",
+          "locator": "Surface-modification procedure; reference sample W/S = 0.4"
+        },
+        {
+          "title": "Readouts",
+          "locator": "§§2.3–2.4; surface-energy discussion"
+        }
+      ],
+      "holds": [
+        "Modifier solids, exact doses, complete mass ledger and full coating/bond results are not extracted.",
+        "Environmental conclusions need their original functional unit, boundary and service-life assumptions before transfer.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "biochar-bottom-ash-pore-evolution",
+      "doi": "10.3390/app112210945",
+      "relatedStudy": "/studies/ke-b15-003",
+      "source": "https://www.mdpi.com/2076-3417/11/22/10945",
+      "evidenceLocators": [
+        {
+          "title": "Materials",
+          "locator": "Preparation passage naming MK, biochar, IBA and activators"
+        },
+        {
+          "title": "Characterization",
+          "locator": "Raw-material chemical analysis and BET methods"
+        },
+        {
+          "title": "Aging direction",
+          "locator": "Porosimetry discussion, 28- and 90-day high-biochar comparison"
+        }
+      ],
+      "holds": [
+        "Complete ingredient masses, IBA pretreatment, biochar denominator, cure and valid-result counts remain unresolved.",
+        "Porosity changes alone do not establish improved strength, long-term durability or net carbon sequestration.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "phosphate-polymer-rheology",
+      "doi": "10.3390/ma17122856",
+      "relatedStudy": "/studies/ke-b15-014",
+      "source": "https://www.mdpi.com/1996-1944/17/12/2856",
+      "evidenceLocators": [
+        {
+          "title": "Chemistry",
+          "locator": "Formulation passage specifying Si:Al:P and acid concentration"
+        },
+        {
+          "title": "Polymer series",
+          "locator": "Abstract and formulation description"
+        },
+        {
+          "title": "Outcome and conditioning",
+          "locator": "Conclusions; §2.3.6, nitrogen adsorption"
+        },
+        {
+          "title": "Supplement lead",
+          "locator": "Supplementary Materials, Figure S1 description"
+        }
+      ],
+      "holds": [
+        "Full polymer synthesis, dose denominator, casting/cure and complete macro-scale mechanical results remain unextracted.",
+        "The supplement listing is a lead; no supplement or figure values were imported.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "metakaolin-curing-temperature-grade",
+      "doi": "10.3390/ma16237460",
+      "relatedStudy": "/studies/ke-b17-018",
+      "source": "https://www.mdpi.com/1996-1944/16/23/7460",
+      "evidenceLocators": [
+        {
+          "title": "Precursor identity",
+          "locator": "Table 3, elemental analysis"
+        },
+        {
+          "title": "Temperature history",
+          "locator": "Preparation passage; introductory study-temperature list"
+        },
+        {
+          "title": "Specimen history",
+          "locator": "Preparation passage; Appendix Tables A1–A4"
+        },
+        {
+          "title": "Method limitation",
+          "locator": "§4.4, loading-rate comparison"
+        }
+      ],
+      "holds": [
+        "Full mix ledger, final cure/test chronology and complete per-specimen extraction remain pending.",
+        "Different metakaolin grades or loading rates prevent a universal temperature-strength rule; no graph-derived strengths were imported.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ]
+}

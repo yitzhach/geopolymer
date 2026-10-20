@@ -1,5 +1,13 @@
 # Recipe database and future formulation advisor
 
+## 19 October 2026 — bibliography and editorial expansion
+
+Library breadth reached 500 publications, with 26 separate editorial deep dives.
+The latest 100 references and 15 guides do not add executable recipes or canonical
+measurements. Recipe totals remain 43 designs / 31 scalable. Conditional examples
+in guides clarify dose bases and experiment design; they do not populate the
+calculator or imply supplier, cure or performance equivalence.
+
 ## 15 October 2026 — ten hemp, basalt and carbon-textile designs
 
 30 recipes total; 18 scalable. Ten additions represent variants in two studies,

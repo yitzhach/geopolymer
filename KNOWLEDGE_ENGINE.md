@@ -1,5 +1,21 @@
 # Knowledge engine Phase A implementation
 
+## Current checkpoint — 19 October 2026
+
+500 unique library publications; 100 new bibliography records in batches 15–18.
+All prior 400 IDs, DOIs and titles are preserved by a frozen-baseline regression.
+The new set contains 27 reviews and 73 other journal articles; classification
+does not establish dataset independence. Publication identity checks and source
+access limits are in `research/batches/breadth-500-verification-2026-10-19.json`.
+
+26 editorial deep dives, including 15 new partial guides from these 100 additions.
+Five-paper review groups have separate audits `deep-dives-500-1/2/3-2026-10-19`.
+No new canonical pilot observations or recipes: five partial pilot studies,
+62 mixes, 275 result cells, 43 curated recipes / 31 scalable remain the totals.
+The distinction between an editorial guide and an experimental extraction remains
+explicit in the UI and exports. Unknown assays, source conflicts and missing
+denominators block automatic recipe transfer. OpenAlex remains on hold.
+
 ## Audit and architecture
 
 Started from main `a1dd73c`. Recount: 61 library publications, 15 curated literature

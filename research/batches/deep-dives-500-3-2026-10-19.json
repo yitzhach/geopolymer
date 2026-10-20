@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-dives-500-3-2026-10-19",
+  "checked": "2026-10-19",
+  "bounds": {
+    "fullPapers": 5,
+    "operationCap": 40
+  },
+  "actualReview": "Selected indexed primary text only; no full PDF or visual completeness claim",
+  "sourceAccess": {
+    "publisher": "Four initial MDPI article opens returned 429; no repeat open loops.",
+    "repository": "Two PMC opens returned browser challenge; institutional biochar PDF exceeded web tool size. No bypass attempted.",
+    "workingRoute": "Indexed publisher and PMC article passages; one indexed SFCC publisher staging rendering supplied the cure passage."
+  },
+  "queries": [
+    {
+      "doi": "10.3390/ma14164758",
+      "strategy": "Exact DOI and exact title searches combined with preparation, methods, specimen, mixing, curing, response and limitation terms.",
+      "source": "https://www.mdpi.com/1996-1944/14/16/4758",
+      "locators": [
+        "Materials discussion, fly ash/bark-boiler ash correction",
+        "Mixture-development description",
+        "Printability discussion; Table 6, test-method inventory"
+      ]
+    },
+    {
+      "doi": "10.3390/gels8020130",
+      "strategy": "Exact DOI and exact title searches combined with preparation, methods, specimen, mixing, curing, response and limitation terms.",
+      "source": "https://www.mdpi.com/2310-2861/8/2/130",
+      "locators": [
+        "Materials characterization; Figure 1; Table 1",
+        "Abstract and acid-concentration discussion",
+        "Specimen preparation, indexed publisher passage",
+        "Acid-concentration discussion"
+      ]
+    },
+    {
+      "doi": "10.3390/polym14101945",
+      "strategy": "Exact DOI and exact title searches combined with preparation, methods, specimen, mixing, curing, response and limitation terms.",
+      "source": "https://www.mdpi.com/2073-4360/14/10/1945",
+      "locators": [
+        "Experimental mixing passage",
+        "Same experimental mixing passage",
+        "Fire-test procedure",
+        "Conclusions; physical-property summary"
+      ]
+    },
+    {
+      "doi": "10.3390/ma12213485",
+      "strategy": "Exact DOI and exact title searches combined with preparation, methods, specimen, mixing, curing, response and limitation terms.",
+      "source": "https://www.mdpi.com/1996-1944/12/21/3485",
+      "locators": [
+        "Mixture-design description, 18 paste types",
+        "Compression method, DIN EN 196-1 passage",
+        "Setting discussion, l/s 0.49 comparison"
+      ]
+    },
+    {
+      "doi": "10.3390/polym15041017",
+      "strategy": "Exact DOI and exact title searches combined with preparation, methods, specimen, mixing, curing, response and limitation terms.",
+      "source": "https://www.mdpi.com/2073-4360/15/4/1017",
+      "locators": [
+        "Introduction and experimental scope",
+        "Table 2; activator-preparation passage",
+        "Conclusions"
+      ]
+    }
+  ],
+  "rights": {
+    "access": "Indexed text through session web search",
+    "processing": "Selected factual analysis and original planning",
+    "rawRetention": "No raw paper or source text retained",
+    "aiTransmission": "Only text exposed through authorized session search; no external model service",
+    "embedding": "not performed",
+    "display": "Original selected factual notes and editorial calculations; no reconstructed full tables or figures",
+    "export": "Same original public fields as displayed",
+    "license": "Only the calcium-hydroxide paper has independently observed exact CC BY 4.0 evidence; other licenses remain unassessed."
+  },
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "id": "printing-side-stream-process-window",
+      "doi": "10.3390/ma14164758",
+      "relatedStudy": "/studies/ke-b15-015",
+      "source": "https://www.mdpi.com/1996-1944/14/16/4758",
+      "evidenceLocators": [
+        {
+          "title": "Material selection",
+          "locator": "Materials discussion, fly ash/bark-boiler ash correction"
+        },
+        {
+          "title": "Development route",
+          "locator": "Mixture-development description"
+        },
+        {
+          "title": "Process result",
+          "locator": "Printability discussion; Table 6, test-method inventory"
+        }
+      ],
+      "holds": [
+        "Complete source recipe, nozzle dimensions/speed, heating schedule and full failure/result inventory remain unextracted.",
+        "This guide supplies no universal printing window or ready-to-run machine settings.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "sfcc-phosphate-acid-window",
+      "doi": "10.3390/gels8020130",
+      "relatedStudy": "/studies/ke-b16-004",
+      "source": "https://www.mdpi.com/2310-2861/8/2/130",
+      "evidenceLocators": [
+        {
+          "title": "Precursor",
+          "locator": "Materials characterization; Figure 1; Table 1"
+        },
+        {
+          "title": "Experimental variable",
+          "locator": "Abstract and acid-concentration discussion"
+        },
+        {
+          "title": "Cure",
+          "locator": "Specimen preparation, indexed publisher passage"
+        },
+        {
+          "title": "Tradeoff",
+          "locator": "Acid-concentration discussion"
+        }
+      ],
+      "holds": [
+        "Complete solution/solid ratio, ingredient masses, geometry, testing rate and uncertainty remain unextracted.",
+        "Catalyst chemistry and acid activation prevent direct transfer of sodium/potassium geopolymer recipe rules.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "foam-polystyrene-fire-assembly",
+      "doi": "10.3390/polym14101945",
+      "relatedStudy": "/studies/ke-b16-025",
+      "source": "https://www.mdpi.com/2073-4360/14/10/1945",
+      "evidenceLocators": [
+        {
+          "title": "Mixing sequence",
+          "locator": "Experimental mixing passage"
+        },
+        {
+          "title": "Activator caution",
+          "locator": "Same experimental mixing passage"
+        },
+        {
+          "title": "Assembly exposure",
+          "locator": "Fire-test procedure"
+        },
+        {
+          "title": "Reported scope and inconsistency",
+          "locator": "Conclusions; physical-property summary"
+        }
+      ],
+      "holds": [
+        "Activator composition, foamer dose, full cure and uncertainty are unresolved. The printed percentage-density phrase remains a source inconsistency.",
+        "The 1000 s claim cannot be generalized beyond the studied assembly and its failure criterion; no fire certification is implied.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "metakaolin-fly-ash-liquid-definition",
+      "doi": "10.3390/ma12213485",
+      "relatedStudy": "/studies/ke-b15-012",
+      "source": "https://www.mdpi.com/1996-1944/12/21/3485",
+      "evidenceLocators": [
+        {
+          "title": "Design and basis",
+          "locator": "Mixture-design description, 18 paste types"
+        },
+        {
+          "title": "Testing",
+          "locator": "Compression method, DIN EN 196-1 passage"
+        },
+        {
+          "title": "Tradeoff",
+          "locator": "Setting discussion, l/s 0.49 comparison"
+        }
+      ],
+      "holds": [
+        "Full solution assay, mixing/cure history, complete results and specimen-level uncertainty remain unextracted.",
+        "The setting endpoints are selected source-reported values; unlabelled graph strengths are not digitized or added to numerical search.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "masonry-fiber-material-versus-structure",
+      "doi": "10.3390/polym15041017",
+      "relatedStudy": "/studies/ke-b16-018",
+      "source": "https://www.mdpi.com/2073-4360/15/4/1017",
+      "evidenceLocators": [
+        {
+          "title": "Fiber scope",
+          "locator": "Introduction and experimental scope"
+        },
+        {
+          "title": "Activator history",
+          "locator": "Table 2; activator-preparation passage"
+        },
+        {
+          "title": "Recommendation boundary",
+          "locator": "Conclusions"
+        }
+      ],
+      "holds": [
+        "Complete mix factors, fiber doses/geometries, cure/test protocols and uncertainty remain unextracted.",
+        "No bond, structural capacity, conservation compatibility or long-term field claim is imported from the material-level recommendation.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ]
+}

@@ -9,7 +9,7 @@ import {library} from '../src/research-library.js';
 
 test('research leads remain separate from canonical evidence and are discoverable',()=>{
   assert.equal(validateResearchTopics(researchTopics),true);
-  assert.equal(library.length,400);
+  assert.equal(library.length,500);
   assert.ok(search('hempcrete').some(r=>r.href==='/research/hemp-geopolymers'));
   const page=renderPage('/research/hemp-geopolymers');
   assert.equal(page.status,200);

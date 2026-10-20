@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-dives-500-2-2026-10-19",
+  "checked": "2026-10-19",
+  "bounds": {
+    "fullPapers": 5,
+    "operationCap": 40
+  },
+  "actualReview": "Selected indexed primary text only; no full PDF or visual completeness claim",
+  "sourceAccess": {
+    "publisher": "Four initial MDPI article opens returned 429; no repeat open loops.",
+    "repository": "Two PMC opens returned browser challenge; institutional biochar PDF exceeded web tool size. No bypass attempted.",
+    "workingRoute": "Indexed publisher and PMC article passages; one indexed SFCC publisher staging rendering supplied the cure passage."
+  },
+  "queries": [
+    {
+      "doi": "10.3390/eng6120366",
+      "strategy": "Exact DOI and exact title searches combined with preparation, methods, specimen, mixing, curing, response and limitation terms.",
+      "source": "https://www.mdpi.com/2673-4117/6/12/366",
+      "locators": [
+        "Experimental passage, activators mixed before casting",
+        "Mix-design discussion and comparisons",
+        "Setting and compressive-testing methods",
+        "Conclusions, retarder-combination comparison"
+      ]
+    },
+    {
+      "doi": "10.3390/ma17246143",
+      "strategy": "Exact DOI and exact title searches combined with preparation, methods, specimen, mixing, curing, response and limitation terms.",
+      "source": "https://www.mdpi.com/1996-1944/17/24/6143",
+      "locators": [
+        "Materials and Methods, precursor list",
+        "Foaming-method description",
+        "Materials and Methods, XRD and SEM/EDS descriptions",
+        "Results/conclusions comparing foaming agents"
+      ]
+    },
+    {
+      "doi": "10.3390/polym16121685",
+      "strategy": "Exact DOI and exact title searches combined with preparation, methods, specimen, mixing, curing, response and limitation terms.",
+      "source": "https://www.mdpi.com/2073-4360/16/12/1685",
+      "locators": [
+        "Mix-proportion discussion; seven groups",
+        "Preparation and strength-development discussion",
+        "Abstract; stress–strain modeling discussion"
+      ]
+    },
+    {
+      "doi": "10.3390/buildings14030586",
+      "strategy": "Exact DOI and exact title searches combined with preparation, methods, specimen, mixing, curing, response and limitation terms.",
+      "source": "https://www.mdpi.com/2075-5309/14/3/586",
+      "locators": [
+        "Preparation passage naming Q17 and E51; Table 2",
+        "Abstract, combined-modifier result",
+        "Discussion of early shrinkage"
+      ]
+    },
+    {
+      "doi": "10.3390/ma16062305",
+      "strategy": "Exact DOI and exact title searches combined with preparation, methods, specimen, mixing, curing, response and limitation terms.",
+      "source": "https://www.mdpi.com/1996-1944/16/6/2305",
+      "locators": [
+        "§§2.1–2.2; Table 2",
+        "§2.2",
+        "§2.3",
+        "Conclusions (1)–(3)"
+      ]
+    }
+  ],
+  "rights": {
+    "access": "Indexed text through session web search",
+    "processing": "Selected factual analysis and original planning",
+    "rawRetention": "No raw paper or source text retained",
+    "aiTransmission": "Only text exposed through authorized session search; no external model service",
+    "embedding": "not performed",
+    "display": "Original selected factual notes and editorial calculations; no reconstructed full tables or figures",
+    "export": "Same original public fields as displayed",
+    "license": "Only the calcium-hydroxide paper has independently observed exact CC BY 4.0 evidence; other licenses remain unassessed."
+  },
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "id": "starch-borax-retarder-screening",
+      "doi": "10.3390/eng6120366",
+      "relatedStudy": "/studies/ke-b16-013",
+      "source": "https://www.mdpi.com/2673-4117/6/12/366",
+      "evidenceLocators": [
+        {
+          "title": "Activator preparation",
+          "locator": "Experimental passage, activators mixed before casting"
+        },
+        {
+          "title": "Design",
+          "locator": "Mix-design discussion and comparisons"
+        },
+        {
+          "title": "Measurement",
+          "locator": "Setting and compressive-testing methods"
+        },
+        {
+          "title": "Source recommendation",
+          "locator": "Conclusions, retarder-combination comparison"
+        }
+      ],
+      "holds": [
+        "Exact retarder doses, activator ratio basis, complete masses, oven duration and strength-test ages remain unextracted.",
+        "Do not generalize the screened combination to other precursors or adopt the paper’s broad precursor-only effectiveness wording as established universality.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "waste-foam-precursor-foamer",
+      "doi": "10.3390/ma17246143",
+      "relatedStudy": "/studies/ke-b16-014",
+      "source": "https://www.mdpi.com/1996-1944/17/24/6143",
+      "evidenceLocators": [
+        {
+          "title": "Material scope",
+          "locator": "Materials and Methods, precursor list"
+        },
+        {
+          "title": "Foaming routes",
+          "locator": "Foaming-method description"
+        },
+        {
+          "title": "Characterization",
+          "locator": "Materials and Methods, XRD and SEM/EDS descriptions"
+        },
+        {
+          "title": "Thermal direction",
+          "locator": "Results/conclusions comparing foaming agents"
+        }
+      ],
+      "holds": [
+        "Activator composition, full foamer-dose ledger, cure, thermal test protocol and complete result inventory remain unextracted; this is a comparison guide, not a foam recipe.",
+        "A favorable conductivity direction does not establish suitability for a building insulation product or fire rating.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "pva-egc-tension-versus-model",
+      "doi": "10.3390/polym16121685",
+      "relatedStudy": "/studies/ke-b16-012",
+      "source": "https://www.mdpi.com/2073-4360/16/12/1685",
+      "evidenceLocators": [
+        {
+          "title": "Design",
+          "locator": "Mix-proportion discussion; seven groups"
+        },
+        {
+          "title": "Specimen history",
+          "locator": "Preparation and strength-development discussion"
+        },
+        {
+          "title": "Tests and model",
+          "locator": "Abstract; stress–strain modeling discussion"
+        }
+      ],
+      "holds": [
+        "Full ingredient table, PVA dose basis, loading rates, final test ages and spread definitions remain unextracted.",
+        "The abstract and mix discussion use different sand-ratio terminology; no inverse ratio or complete recipe is inferred.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "epoxy-silane-shrinkage-bases",
+      "doi": "10.3390/buildings14030586",
+      "relatedStudy": "/studies/ke-b17-014",
+      "source": "https://www.mdpi.com/2075-5309/14/3/586",
+      "evidenceLocators": [
+        {
+          "title": "Modifier preparation",
+          "locator": "Preparation passage naming Q17 and E51; Table 2"
+        },
+        {
+          "title": "Reported combination",
+          "locator": "Abstract, combined-modifier result"
+        },
+        {
+          "title": "Mechanism boundary",
+          "locator": "Discussion of early shrinkage"
+        }
+      ],
+      "holds": [
+        "Complete Table 2 doses, water/solids balance, cure, measurement time origins and uncertainty remain unextracted.",
+        "The 131.2% statement is retained as a reported claim with an explicit sign check; it is not promoted to a verified expansion measurement.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "calcium-hydroxide-carbonation-tradeoff",
+      "doi": "10.3390/ma16062305",
+      "relatedStudy": "/studies/ke-b17-022",
+      "source": "https://www.mdpi.com/1996-1944/16/6/2305",
+      "evidenceLocators": [
+        {
+          "title": "Mixtures",
+          "locator": "§§2.1–2.2; Table 2"
+        },
+        {
+          "title": "Preparation",
+          "locator": "§2.2"
+        },
+        {
+          "title": "Exposure",
+          "locator": "§2.3"
+        },
+        {
+          "title": "Unfavorable outcome",
+          "locator": "Conclusions (1)–(3)"
+        }
+      ],
+      "holds": [
+        "Source chronology around demolding/continued curing needs reconciliation before an exact total-age assignment.",
+        "Printed equation and explanatory prose conflict; fitted coefficients are not imported as canonical observations. Full individual-result uncertainty remains pending.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ]
+}

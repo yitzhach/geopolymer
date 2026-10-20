@@ -1,5 +1,13 @@
 # Research assistant — working test feature
 
+## 19 October 2026 catalog continuation
+
+The catalog now contains 500 publications and the site has 26 editorial deep dives.
+The 100 new bibliographic records remain metadata-only in the structured evidence
+adapter even where a separate partial editorial guide exists. No new numeric
+pilot observations, AI model, prediction or recipe transfer was introduced.
+Existing correction/status exclusions and deterministic retrieval limits remain.
+
 ## User flow
 
 The fixed Research assistant launcher is available on every enhanced page. Open

@@ -1,5 +1,28 @@
 # Research database and GP Journal
 
+## 19 October 2026 — current 500-publication checkpoint
+
+The library contains 500 unique DOI records. Batches 15–18 add 100 bibliographic
+records in `src/knowledge-expansion-500.js`, with a frozen prior-400 identity list,
+four 25-record manifests and a verification log in `research/batches/`. Twenty-seven
+of the additions are classified as reviews; none imply an independent dataset.
+Publication heading, DOI and cited journal year were checked in indexed publisher
+records; author lists remain at the linked sources unless transcribed previously.
+Selection favors accessible MDPI records and is not a balanced/systematic review.
+
+Fifteen guides in `src/deep-dive-expansion-500.js` expand `/deep-dives` to 26. Each
+links one of the new publications and supplies selected source facts with locators,
+editorial arithmetic, original planning and seven fixed inventory areas. All are
+partial indexed-text reviews, with no visual inspection or complete table/figure
+inventory. Exact licenses remain unassessed except where primary evidence is
+explicitly recorded. No raw papers, copied abstracts, source figures or complete
+source tables are retained or published. No canonical observations or recipes
+were added; the original five pilot extractions remain partial.
+
+The 22 discovery summaries and five GP Journal entries are unchanged. OpenAlex is
+on hold and the existing daily draft schedule is unchanged. HANDOFF.md records
+tests and the owner-authorized push to main separately from deployment verification.
+
 Updated 10 October 2026. This release adds 20 dated journal publications to the
 existing 39 references, plus four original AI-assisted editorial articles. The reviewed PR #3 additions
 bring the current totals to 61 references (22 with discovery summaries) and five

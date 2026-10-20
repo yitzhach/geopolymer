@@ -1,6 +1,68 @@
 # Geopolymer — current handoff
 Updated 19 October 2026; dates use Eastern time.
 
+## Owner expanded target to 800 — 19 October 2026
+- New owner request: add 300 MORE papers after the 500 checkpoint, plus as many
+  substantive deep dives from those additions as accessible evidence supports.
+  Final target is 800, not 700. Push completed tested work to main when done.
+- The 500/+15 milestone below is implemented and locally validated, including all
+  six browser suites. Further 300-paper work is verified metadata preparation only;
+  300 accepted records are staged privately in work/800-accepted-metadata.json.
+- work/800-candidates.json holds 377 screened DOI-deduplicated leads beyond 500;
+  318 met primary metadata gates and 300 were selected. Never treat unverified leads
+  as accepted records. Preserve this file and work/baseline-500.json on resume.
+- Backup continuation prompt successfully updated to the 800 target; same
+  one-time schedule and automation ID as below. Existing daily task unchanged.
+  First combined schedule/prompt update failed; private lookup confirmed no save,
+  and prompt-only retry succeeded. Do not create a duplicate continuation.
+- Process further bibliography as batches 19–30 of 25 accepted records, keeping
+  primary checks, source status, rights and exact identity provenance. At most
+  five full papers per extraction batch. OpenAlex stays on hold.
+
+## 500-publication expansion and fifteen new deep dives — 19 October 2026
+- Owner requested +100 articles and as many substantive source-backed guides as
+  accessible evidence supports, then explicitly authorized pushing to main.
+- Baseline main: 8e580ec7daafc1f3580defe01b9aac8d2da99de2 (PR #24). Working
+  checkout was clean. Added 100 unique metadata records in batches 15–18 (25 each),
+  preserving all prior 400 IDs/DOIs/titles. Total: 500 publications.
+- New module src/knowledge-expansion-500.js; 27 reviews / 73 other journal articles.
+  Exact-DOI verification screened 116 candidates. Publisher-index access favors
+  MDPI; this is not a systematic/publisher-balanced review. Complete authorship is
+  linked where not transcribed. Correction/retraction clearance remains unassessed.
+- Fifteen partial editorial guides in src/deep-dive-expansion-500.js: ambient and
+  modified coatings, biochar/IBA, phosphate polymers, MK temperature/grade,
+  starch/borax retarders, waste foams, PVA tension, epoxy/silane shrinkage,
+  Ca(OH)2 carbonation tradeoffs, side-stream printing, SFCC phosphate binders,
+  foam/polystyrene fire assemblies, MK/FA liquid ratios and masonry fibers.
+  Twenty-six guides total, all with the seven-area inventory and source locators.
+- Source inconsistencies retained: shrinkage reduction 131.2% needs signed baseline;
+  carbonation equation/prose disagree; PVA sand-ratio wording differs; fire-foam
+  percentage labeled density is dimensionally inconsistent. No inferred corrections.
+- Audit: research/batches/breadth-500-verification-2026-10-19.json and frozen
+  prior-400 baseline; three five-paper deep-dives-500 audits. All new guides are
+  selected indexed-text AI reviews, not complete PDF/visual/domain reviews.
+  MDPI opens returned 429; PMC opens returned challenges; institutional biochar
+  PDF exceeded tool size. No access bypass or repeated failed-open loops.
+- No raw papers, abstracts, figures or complete source tables retained. Exact
+  CC BY 4.0 evidence was observed for the calcium-hydroxide paper; other new guide
+  licenses remain unassessed. Original factual notes/planning only.
+- Canonical data unchanged: five partial pilots / 62 mixes / 275 observations;
+  43 recipes / 31 scalable. No automatic calculator transfer or predictions added.
+- Validation: all 108 Node cases, schema validation and 546-route build pass.
+  All six browser suites pass, including the full desktop/mobile, legacy-hash and
+  no-JS route sweep. Its console still says 30 routes, but imported routes.length
+  was 546. Focused checks of all fifteen guides pass at desktop/mobile widths.
+- Publication pending the owner-expanded 800-paper scope. Remote main matches baseline.
+  Shell git works with approved sandbox escalation; GitHub Actions API via gh
+  returned Forbidden. Do not infer remote CI or live identity from local checks.
+- A one-time owner-requested five-hour continuation was created for 20 October
+  2026 04:13 Eastern (08:13 UTC), automation 6ad6dc51ebb881918ae3148cd3c9d7b1.
+  It must check whether the 500/+15 task is complete before adding anything.
+  No usage-reset detection is assumed; existing daily automation is unchanged.
+- Next after release: deepen selected guide inventories from full PDFs and resolve
+  the existing hemp/foam/biochar pilot gaps. OpenAlex stays on hold. No additional
+  breadth quota beyond 500 is assumed.
+
 ## Three owner-PDF durability guides — 19 October 2026
 - Owner uploaded the three deferred MDPI PDFs. Added /deep-dives/fly-ash-slag-efflorescence-moisture,
   /deep-dives/one-part-admixture-compatibility and /deep-dives/metakaolin-slag-potassium-durability

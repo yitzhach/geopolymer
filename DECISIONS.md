@@ -1,5 +1,18 @@
 # Geopolymer Platform — Decisions
 
+## 19 October 2026 — 500 publications and fifteen new editorial guides
+
+Owner requested 100 additional articles and as many substantive deep dives from
+those additions as accessible evidence supports, and explicitly authorized pushing
+to main when finished. Added four batches of 25 unique publisher-checked metadata
+records, preserving all prior 400 identities. Fifteen new partial editorial guides
+bring the total to 26. Keep source facts, conditional arithmetic and proposed
+laboratory planning separate; no new canonical measurements or scalable recipes.
+Indexed access favors MDPI and does not constitute a systematic coverage claim.
+OpenAlex and existing daily automation remain unchanged. A separately requested
+one-time five-hour continuation checks for completion before doing more work.
+See HANDOFF.md for validation and publication status.
+
 Version 0.2 • 24 September 2026 • First prototype.
 
 VERIFIED = sourced fact; ASSUMPTION = unvalidated input; RECOMMENDATION = proposal. See DECISIONS.md for approval status.
