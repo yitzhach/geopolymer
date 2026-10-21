@@ -1,4 +1,26 @@
 # Geopolymer — current handoff
+
+## Further detailed summaries and deep dives — 21 October 2026
+- Added three partial source-backed guides and matching three-paragraph previews
+  within the existing 1,000 papers: calcium hydroxide setting endpoints, joint
+  silicate-modulus/slag effects, and seawater paste strength/free-chloride limits.
+  Current totals: 91 detailed previews / 92 guides; one guide remains recipe-only.
+- All 88 previous previews are preserved exactly. Library card links, study pages,
+  detailed-summary filters, search and export include the new records.
+- Audit: research/batches/reading-followup-2026-10-21.json. Sixteen source operations,
+  three reviewed papers, one deferred shrinkage candidate. Selected primary text
+  only; publisher 429 and PMC browser checks were respected. Seawater CC BY 4.0
+  observed in PMC permissions; other two source licenses remain unassessed.
+- No canonical observations, recipes or bibliography records added. Pilot counts
+  remain 5 studies / 62 mixes / 275 observations, recipes 43 / 31 scalable.
+- Validation: all 119 Node cases, schema and 1,112-route build pass. Reading UI
+  checks pass all 91 summaries at desktop/mobile with and without JavaScript.
+  All six affected study/guide routes pass browser source/outcome/overflow checks
+  in the same four contexts; mobile screenshot inspected. Earlier unchanged routes
+  were not exhaustively re-swept. Source-status and correction holds stay intact.
+- Standing authorization permits pushing this completed batch to main. Remote CI
+  and live deployment are not verified. OpenAlex remains on hold; schedules unchanged.
+
 Updated 20 October 2026; dates use Eastern time.
 
 ## Rich reading previews and further deep dives — 20 October 2026

@@ -1,5 +1,13 @@
 # Geopolymer Platform — Decisions
 
+## 21 October 2026 — another bounded depth batch
+
+Owner requested more detailed summaries and deep dives. Added three linked pairs
+from existing papers, reaching 91 previews / 92 guides with all 1,000 identities
+preserved. Deferred a fourth candidate rather than infer inaccessible outcomes.
+Selected factual passages support the notes; full-paper and numerical extraction
+remain separate. Preserve previous records and publish under standing authorization.
+
 ## 20 October 2026 — source-backed reading previews and fifteen more guides
 
 Owner approved richer previews for the 73 catalog-backed deep dives and further

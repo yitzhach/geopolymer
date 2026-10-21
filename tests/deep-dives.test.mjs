@@ -33,7 +33,7 @@ test('shared template escapes article-specific prose and calculations',()=>{
 });
 
 test('each deep dive resolves its formulation and uses its own glossary',()=>{
- assert.equal(deepDives.length,89);
+ assert.equal(deepDives.length,92);
  for(const d of deepDives){assert.equal(renderPage(d.relatedRecipe||d.relatedStudy).status,200);const page=renderPage('/deep-dives/'+d.id);assert.equal(page.status,200);const escaped=d.glossary.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));assert.ok(page.html.includes(escaped),d.id);assert.ok(search(d.doi).some(r=>r.href==='/deep-dives/'+d.id));}
  const biochar=renderPage('/deep-dives/biochar-replacement-and-exposure').html;
  assert.match(biochar,/age-matched/);assert.doesNotMatch(biochar,/PS\/PH/);

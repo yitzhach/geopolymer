@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-21",
+  "maximumPapers": 5,
+  "reviewedPapers": 3,
+  "operationCap": 40,
+  "operations": 16,
+  "previousPreviews": 88,
+  "addedPreviews": 3,
+  "totalPreviews": 91,
+  "totalGuides": 92,
+  "previousRecordsPreserved": true,
+  "sourceAccess": "Selected indexed publisher passages; accessible PMC seawater article. Publisher HTTP 429 and two PMC browser checks; no bypass or repeated direct retrieval. No raw articles, abstracts, figures or full tables retained.",
+  "queries": [
+    "\"10.3390/ma15010194\" methods results calcium hydroxide",
+    "\"10.3390/ma13163499\" shrinkage results",
+    "\"10.3390/min10010015\" silica modulus results",
+    "\"10.3390/ma13061467\" seawater results",
+    "site.mdpi.com/1996-1944/13/16/3499 \"NaAlO\" \"conclusions\" shrinkage strength",
+    "site.mdpi.com/2075-163X/10/1/15 \"Materials\" \"modulus\" \"slag\" workability",
+    "site.mdpi.com/1996-1944/15/1/194 \"calcium\" \"setting\" \"800\"",
+    "\"Mitigating the Drying Shrinkage\" \"NaAlO2\" \"decreased\" site:mdpi.com/1996-1944/13/16/3499",
+    "\"10.3390/ma13163499\" \"strength\" \"sodium\"",
+    "\"Mitigating the Drying Shrinkage\" \"Materials and Methods\"",
+    "site:pmc.ncbi.nlm.nih.gov/articles/PMC7475871 \"conclusions\" \"reduced\"",
+    "site:pmc.ncbi.nlm.nih.gov/articles/PMC7475871 \"NaAlO\" \"strength\" \"decreased\""
+  ],
+  "deferred": [
+    {
+      "doi": "10.3390/ma13163499",
+      "reason": "Selected primary outcome account insufficient; no guide or findings inferred."
+    }
+  ],
+  "rights": {
+    "basis": "Original selected factual paraphrases and independently authored reading/planning guidance; no reconstructed source tables or figures.",
+    "licenses": "Seawater article: CC BY 4.0 observed at PMC copyright/license section; other exact full-text licenses unassessed.",
+    "rawRetention": "none",
+    "embedding": "none",
+    "canonicalObservationsAdded": 0
+  },
+  "records": [
+    {
+      "doi": "10.3390/ma15010194",
+      "deepDiveId": "calcium-hydroxide-initial-versus-final-set",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and question",
+          "locator": "Study objective; setting-behavior discussion",
+          "source": "https://www.mdpi.com/1996-1944/15/1/194"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation method",
+          "locator": "Materials and experimental preparation",
+          "source": "https://www.mdpi.com/1996-1944/15/1/194"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome",
+          "locator": "Setting-behavior discussion, 2% calcium-hydroxide comparison",
+          "source": "https://www.mdpi.com/1996-1944/15/1/194"
+        }
+      ],
+      "limitations": [
+        "Reconcile the calcium-percentage denominator and full mixture ledger before converting the selected dose into ingredient masses.",
+        "Thermal phase changes are not a measured fire rating or proof of retained load-bearing capacity; heating schedules and mechanical results need separate review.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "doi": "10.3390/min10010015",
+      "deepDiveId": "silicate-modulus-slag-interaction",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and design",
+          "locator": "Study objective and mixture-label explanation",
+          "source": "https://www.mdpi.com/2075-163X/10/1/15"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Measurement method",
+          "locator": "Experimental methods, calorimetry preparation",
+          "source": "https://www.mdpi.com/2075-163X/10/1/15"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome",
+          "locator": "Results and discussion; pore-structure interpretation",
+          "source": "https://www.mdpi.com/2075-163X/10/1/15"
+        }
+      ],
+      "limitations": [
+        "Reconcile modulus basis, total alkali, water and full precursor masses before comparing formulations; a mixture label does not supply a full recipe.",
+        "The selected passages do not establish a universal optimum or a transferable strength\u2013porosity equation; full condition-level results remain to be reviewed.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "doi": "10.3390/ma13061467",
+      "deepDiveId": "seawater-strength-versus-free-chloride",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and comparison",
+          "locator": "Sections 2.1 and 2.2",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7143656/"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Sections 2.1\u20132.2, curing and chloride extraction",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7143656/"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome",
+          "locator": "Section 3.1; abstract reinforcement limitation",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7143656/"
+        }
+      ],
+      "limitations": [
+        "The source reports a silica-modulus value whose reconciliation with the full solution ledger is still required before reproducing the activator.",
+        "Paste strength and extracted chloride do not establish reinforcement corrosion performance or code compliance; evaluate the intended application separately.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ],
+  "operationDefinition": "Sixteen individual web search queries or page opens across five tool calls; tool-call count is five.",
+  "pageOpens": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8746173/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7475871/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7143656/",
+    "https://www.mdpi.com/2075-163X/10/1/15"
+  ]
+}

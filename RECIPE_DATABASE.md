@@ -1,5 +1,12 @@
 # Recipe database and future formulation advisor
 
+## 21 October 2026 — further source-linked reading guidance
+
+Three new summary/guide pairs bring totals to 91 previews and 92 guides. They
+add no ready-to-run formulation: calcium dose basis, full activator chemistry and
+reinforcement suitability require further review. Counts remain 43 recipes /
+31 scalable and 5 partial studies / 62 mixes / 275 observations.
+
 ## 20 October 2026 — summaries and more guides, unchanged formulations
 
 Added richer previews for 88 catalog-backed guides, including 15 new source reviews.

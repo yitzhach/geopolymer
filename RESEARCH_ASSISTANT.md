@@ -1,5 +1,12 @@
 # Research assistant — working test feature
 
+## 21 October 2026 — three further reading previews
+
+Coverage is now 91 catalog-backed detailed previews and 92 partial guides, with
+1,000 bibliography records. These editorial notes add no assistant observations
+or prediction capability. All correction holds and canonical evidence counts
+remain unchanged. Source scope and batch validation are recorded in HANDOFF.md.
+
 ## 20 October 2026 — editorial previews remain separate from numerical evidence
 
 The unchanged 1,000-paper catalog now has 88 detailed reading previews and 89

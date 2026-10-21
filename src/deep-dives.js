@@ -1,3 +1,4 @@
+import {followupDeepDives} from './deep-dive-followup-expansion.js';
 import {readingExpansionDeepDives} from './deep-dive-reading-expansion.js';
 import {expansion1000DeepDives} from './deep-dive-expansion-1000.js';
 import {expansion800DeepDives} from './deep-dive-expansion-800.js';
@@ -70,3 +71,5 @@ deepDives.push(...expansion800DeepDives);
 deepDives.push(...expansion1000DeepDives);
 
 deepDives.push(...readingExpansionDeepDives);
+
+deepDives.push(...followupDeepDives);

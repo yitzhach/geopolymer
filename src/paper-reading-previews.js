@@ -5460,5 +5460,182 @@ export const paperReadingPreviews = [
         "source": "https://www.mdpi.com/2075-163X/14/5/516"
       }
     ]
+  },
+  {
+    "doi": "10.3390/ma15010194",
+    "publicationId": "ke-b29-020",
+    "deepDiveId": "calcium-hydroxide-initial-versus-final-set",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected primary passages and original editorial reading guidance; partial AI-assisted review, not a complete paper or figure inventory.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Does a calcium addition shorten the usable placement window, or mainly shorten the interval before final set? Read this paper to separate those decisions before selecting an accelerator. The study examines calcium hydroxide in metakaolin geopolymers, including setting and phase evolution on heating. Initial set and final set are separate test endpoints. Phase identification concerns reaction products; it does not by itself establish structural performance after heating."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The activator used fumed silica, sodium hydroxide and distilled water, mixed at 25 °C for at least 20 hours before adding metakaolin. Before reproduction or cross-paper comparison, resolve this source-specific gap: Reconcile the calcium-percentage denominator and full mixture ledger before converting the selected dose into ingredient masses."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The source describes 2% calcium hydroxide as less effective for shortening initial set but beneficial for faster final set. Editorial check: compare both endpoints and the interval for each matched condition; no unreviewed setting time is supplied."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-primary-text",
+    "takeaways": [
+      "An accelerator comparison needs separate initial-set and final-set endpoints and a clearly defined calcium dose.",
+      "Record initial set, final set and placement requirements separately.",
+      "Thermal phase changes are not a measured fire rating or proof of retained load-bearing capacity; heating schedules and mechanical results need separate review."
+    ],
+    "limitations": [
+      "Reconcile the calcium-percentage denominator and full mixture ledger before converting the selected dose into ingredient masses.",
+      "Thermal phase changes are not a measured fire rating or proof of retained load-bearing capacity; heating schedules and mechanical results need separate review.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Researchers comparing setting modifiers and laboratory teams planning metakaolin casting or heat-treatment studies.",
+    "links": {
+      "deepDive": "/deep-dives/calcium-hydroxide-initial-versus-final-set",
+      "originalArticle": "https://doi.org/10.3390/ma15010194"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and question",
+        "locator": "Study objective; setting-behavior discussion",
+        "source": "https://www.mdpi.com/1996-1944/15/1/194"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation method",
+        "locator": "Materials and experimental preparation",
+        "source": "https://www.mdpi.com/1996-1944/15/1/194"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome",
+        "locator": "Setting-behavior discussion, 2% calcium-hydroxide comparison",
+        "source": "https://www.mdpi.com/1996-1944/15/1/194"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/min10010015",
+    "publicationId": "ke-b30-023",
+    "deepDiveId": "silicate-modulus-slag-interaction",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected primary passages and original editorial reading guidance; partial AI-assisted review, not a complete paper or figure inventory.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How should a reader compare activator chemistry when the precursor blend also changes? This paper offers a way to frame a two-factor comparison rather than select an activator from a single strength headline. The study varies activator modulus and slag content in fly ash–slag pastes; S7N10 denotes 70% slag and modulus 1.0. Activator modulus denotes SiO2/Na2O. Slag fraction describes the precursor blend; neither quantity is a complete description of solution composition or water content."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Calorimetry was calibrated at 20 °C, and fly ash and slag were stored at 20 °C for 24 hours before testing. Before reproduction or cross-paper comparison, resolve this source-specific gap: Reconcile modulus basis, total alkali, water and full precursor masses before comparing formulations; a mixture label does not supply a full recipe."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Modulus and slag content jointly affected setting and workability. The source associates slag addition with lower total porosity and smaller pores. Editorial basis check only: this reconstructs a precursor split, not activator dosage, water content or a runnable source recipe."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-primary-text",
+    "takeaways": [
+      "Compare activator modulus within each precursor blend before transferring a fresh-property or microstructure conclusion.",
+      "Write precursor fraction and activator modulus as separate experimental variables.",
+      "The selected passages do not establish a universal optimum or a transferable strength–porosity equation; full condition-level results remain to be reviewed."
+    ],
+    "limitations": [
+      "Reconcile modulus basis, total alkali, water and full precursor masses before comparing formulations; a mixture label does not supply a full recipe.",
+      "The selected passages do not establish a universal optimum or a transferable strength–porosity equation; full condition-level results remain to be reviewed.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Formulators comparing fly ash–slag blends and readers assessing workability, setting and pore-structure tradeoffs.",
+    "links": {
+      "deepDive": "/deep-dives/silicate-modulus-slag-interaction",
+      "originalArticle": "https://doi.org/10.3390/min10010015"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and design",
+        "locator": "Study objective and mixture-label explanation",
+        "source": "https://www.mdpi.com/2075-163X/10/1/15"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Measurement method",
+        "locator": "Experimental methods, calorimetry preparation",
+        "source": "https://www.mdpi.com/2075-163X/10/1/15"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome",
+        "locator": "Results and discussion; pore-structure interpretation",
+        "source": "https://www.mdpi.com/2075-163X/10/1/15"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma13061467",
+    "publicationId": "ke-b30-025",
+    "deepDiveId": "seawater-strength-versus-free-chloride",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected primary passages and original editorial reading guidance; partial AI-assisted review, not a complete paper or figure inventory.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Can alternative mixing water be evaluated without reducing suitability to compressive strength alone? Use this paper to distinguish a paste-performance comparison from the additional evidence needed for reinforced applications. Class F fly ash pastes compared pure, tap and seawater using the same activator-to-fly-ash ratio of 0.5. PW, TW and SW identify pure-, tap- and seawater specimens. Free chloride measured in an extraction test is distinct from a direct corrosion measurement on embedded reinforcement."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Sealed 50 mm cubes received 24 hours at 60 °C. Chloride testing extracted 20 g ground paste into 100 mL deionized water. Before reproduction or cross-paper comparison, resolve this source-specific gap: The source reports a silica-modulus value whose reconciliation with the full solution ledger is still required before reproducing the activator."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Seawater paste had the highest 28-day compressive strength in this comparison, but residual free chloride remained a concern for reinforced use. Editorial check: keep extraction liquid-to-solid ratio and sample preparation matched before comparing chloride results; this is not a concrete chloride acceptance threshold."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-primary-text",
+    "takeaways": [
+      "Keep mechanical performance and reinforcement compatibility as separate acceptance questions when evaluating mixing-water alternatives.",
+      "Document salinity, composition and sampling date rather than treating all seawater as interchangeable.",
+      "Paste strength and extracted chloride do not establish reinforcement corrosion performance or code compliance; evaluate the intended application separately."
+    ],
+    "limitations": [
+      "The source reports a silica-modulus value whose reconciliation with the full solution ledger is still required before reproducing the activator.",
+      "Paste strength and extracted chloride do not establish reinforcement corrosion performance or code compliance; evaluate the intended application separately.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Readers evaluating freshwater substitution, chloride testing and the limits of transferring paste results to reinforced concrete.",
+    "links": {
+      "deepDive": "/deep-dives/seawater-strength-versus-free-chloride",
+      "originalArticle": "https://doi.org/10.3390/ma13061467"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and comparison",
+        "locator": "Sections 2.1 and 2.2",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7143656/"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Sections 2.1–2.2, curing and chloride extraction",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7143656/"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome",
+        "locator": "Section 3.1; abstract reinforcement limitation",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7143656/"
+      }
+    ]
   }
 ];

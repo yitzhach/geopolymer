@@ -1,5 +1,15 @@
 # Research database and GP Journal
 
+## 21 October 2026 — 91 detailed previews and 92 guides
+
+Added three partial guides with detailed summaries: calcium setting endpoints,
+activator-modulus/slag interactions, and seawater/free-chloride assessment. Each
+has three paragraphs, takeaways, limits, intended readers and both reading links.
+The 88 earlier previews are unchanged. A bounded source audit records queries,
+access failures and the deferred shrinkage candidate. Seawater CC BY 4.0 observed
+in PMC permissions; other new licenses remain unassessed. No raw source retention
+or canonical numerical ingestion. Validation and publication status: HANDOFF.md.
+
 ## 20 October 2026 — 88 detailed previews and 89 guides
 
 The owner approved 2–3 paragraph reading summaries with takeaways, limitations,

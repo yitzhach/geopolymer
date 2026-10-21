@@ -10,7 +10,7 @@ import {validateReadingPreviews} from '../src/paper-reading-core.js';
 import {researchDatabase} from '../src/research-feeds.js';
 import {renderPage} from '../src/app.js';
 test('every catalog-backed guide has a three-paragraph reading preview and both reading links',()=>{
- assert.equal(library.length,1000);assert.equal(deepDives.length,89);assert.equal(paperReadingPreviews.length,88);
+ assert.equal(library.length,1000);assert.equal(deepDives.length,92);assert.equal(paperReadingPreviews.length,91);
  assert.equal(validateReadingPreviews(paperReadingPreviews,library,deepDives),true);
  const baseline=JSON.parse(fs.readFileSync(new URL('../research/batches/reading-previews-2026-10-20-baseline.json',import.meta.url)));
  assert.equal(baseline.length,73);for(const p of baseline)assert.equal(readingPreviewFor(p.doi).deepDiveId,p.id);
@@ -19,8 +19,8 @@ test('every catalog-backed guide has a three-paragraph reading preview and both 
   const card=libraryResults([p]);for(const text of ['Read paper summary','Key takeaways','Limitations','Who would benefit','Read original article'])assert.ok(card.includes(text));
   assert.ok(card.includes(preview.links.deepDive));assert.ok(renderPage('/studies/'+p.id).html.includes('Paper summary'));
  }
- assert.equal(filterLibrary('','all','all','all','reading').length,88);assert.equal(filterLibrary('','all','all','all','deep-dives').length,88);assert.equal(filterLibrary('','all','all','all','summaries').length,22);
- assert.equal(researchDatabase().records.filter(p=>p.readingPreview).length,88);
+ assert.equal(filterLibrary('','all','all','all','reading').length,91);assert.equal(filterLibrary('','all','all','all','deep-dives').length,91);assert.equal(filterLibrary('','all','all','all','summaries').length,22);
+ assert.equal(researchDatabase().records.filter(p=>p.readingPreview).length,91);
  const plain=library.find(p=>!readingPreviewFor(p.doi));assert.equal(renderReadingPreview(plain),'');
 });
 test('fifteen new guides stay in the existing catalog and preserve important negative/domain results',()=>{
@@ -35,4 +35,19 @@ test('publication gates reject broken provenance, unsafe reading links and hidde
   const ps=structuredClone(paperReadingPreviews);change(ps);assert.throws(()=>validateReadingPreviews(ps,library,deepDives));
  }
  const p=paperReadingPreviews[0],old=p.audience;try{p.audience='<img src=x onerror=alert(1)>';const html=renderReadingPreview({doi:p.doi});assert.ok(!html.includes('<img'));assert.ok(html.includes('&lt;img'));}finally{p.audience=old;}
+});
+
+test('followup guides preserve endpoint, chemistry and chloride boundaries',async()=>{
+ const {followupDeepDives}=await import('../src/deep-dive-followup-expansion.js');
+ assert.equal(followupDeepDives.length,3);
+ for(const d of followupDeepDives){
+  const p=readingPreviewFor(d.doi);assert.equal(p.deepDiveId,d.id);assert.equal(d.inventory.length,7);
+  assert.equal(renderPage('/deep-dives/'+d.id).status,200);assert.ok(p.provenance.every(f=>f.locator&&f.source===d.source));
+ }
+ assert.match(readingPreviewFor('10.3390/ma15010194').paragraphs[2].text,/initial set.*final set/);
+ assert.match(readingPreviewFor('10.3390/min10010015').limitations.join(' '),/universal optimum/);
+ const sea=readingPreviewFor('10.3390/ma13061467');assert.match(sea.paragraphs[2].text,/free chloride/);
+ assert.match(sea.limitations.join(' '),/corrosion performance/);
+ assert.equal(followupDeepDives.find(d=>d.doi===sea.doi).licenseUrl,'https://creativecommons.org/licenses/by/4.0/');
+ assert.equal(readingPreviewFor('10.3390/ma13163499'),null);
 });
