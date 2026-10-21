@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "depth50-05-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 11,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/su15042966\" methods results conclusions",
+    "\"10.3390/ma17102399\" methods results conclusions",
+    "\"10.3390/ma11091521\" methods results conclusions",
+    "\"10.3390/app16031623\" methods results conclusions",
+    "\"10.3390/su17041756\" methods results conclusions",
+    "\"10.3390/su15042966\" abstract results showed found",
+    "\"10.3390/ma17102399\" abstract results showed found",
+    "\"10.3390/ma11091521\" abstract results showed found",
+    "\"10.3390/app16031623\" abstract results showed found",
+    "\"10.3390/su17041756\" abstract results showed found",
+    "\"10.3390/app16031623\" \"corrosion\" \"lower\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/su15042966",
+      "publicationId": "ke-b36-010",
+      "deepDiveId": "sand-stabilization-ckd-activation",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2071-1050/15/4/2966"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental variables and XRD/UCS comparisons",
+          "source": "https://www.mdpi.com/2071-1050/15/4/2966"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results, CKD-content trend",
+          "source": "https://www.mdpi.com/2071-1050/15/4/2966"
+        }
+      ],
+      "limitations": [
+        "Retrieve CKD denominator, CCR identity, compacted density, moisture and age before converting the comparison into a soil recipe.",
+        "A local UCS trend is not a pavement design value. Feedstock assay and compaction state can change the apparent chemistry benefit.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma17102399",
+      "publicationId": "ke-b36-018",
+      "deepDiveId": "diatomite-binder-sand-replacement",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/17/10/2399"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental stage, diatomite introduction routes",
+          "source": "https://www.mdpi.com/1996-1944/17/10/2399"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Discussion, 5% sand replacement",
+          "source": "https://www.mdpi.com/1996-1944/17/10/2399"
+        }
+      ],
+      "limitations": [
+        "Retrieve percentage denominator, measured endpoints and equal-flow water adjustments before attributing the improvement to reactivity.",
+        "Changing aggregate and changing binder are different experiments. The selected directional account does not establish one universal diatomite dose or strength gain.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma11091521",
+      "publicationId": "ke-b36-021",
+      "deepDiveId": "paper-sludge-sr-cs-followup",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/11/9/1521"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Methods and followup-data statement",
+          "source": "https://www.mdpi.com/1996-1944/11/9/1521"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Long-age and gel-composition discussion",
+          "source": "https://www.mdpi.com/1996-1944/11/9/1521"
+        }
+      ],
+      "limitations": [
+        "Separate reused and newly obtained measurements, and retrieve waste loading, leachant and age definitions before claiming an independent dataset.",
+        "Strontium behavior does not establish identical cesium retention. Mechanism interpretation and a leaching result must retain their own material and exposure context.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/app16031623",
+      "publicationId": "ke-b36-022",
+      "deepDiveId": "corrosion-short-term-matrix-comparison",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2076-3417/16/3/1623"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract and electrochemical conditioning method",
+          "source": "https://www.mdpi.com/2076-3417/16/3/1623"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions, composition-dependent response",
+          "source": "https://www.mdpi.com/2076-3417/16/3/1623"
+        }
+      ],
+      "limitations": [
+        "Retrieve electrolyte chemistry, reference electrode, test duration and condition-level currents before assigning a corrosion ranking.",
+        "The selected conclusion is about short-term response, not a verified service-life ranking. No unreviewed current density or initiation time is supplied here.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/su17041756",
+      "publicationId": "ke-b36-025",
+      "deepDiveId": "cs-sr-leaching-test-dependence",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2071-1050/17/4/1756"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, design and leaching program",
+          "source": "https://www.mdpi.com/2071-1050/17/4/1756"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract and accelerated-test discussion",
+          "source": "https://www.mdpi.com/2071-1050/17/4/1756"
+        }
+      ],
+      "limitations": [
+        "Retrieve waste-loading basis, leachant renewal, specimen geometry and duration before comparing cumulative fractions or extrapolating release.",
+        "An aggressive test is not automatically a time-scaled simulation of service. Keep element-specific retention and leachant mechanisms distinct.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

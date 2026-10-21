@@ -1,5 +1,51 @@
 # Geopolymer — current handoff
 
+## Owner-requested fifty more summary/deep-dive pairs — 21 October 2026
+- Added exactly 50 partial editorial guides and 50 matching detailed previews from
+  the existing catalog: 1,000 publications / 161 previews / 162 guides. One older
+  guide remains recipe-only. Previous 111 previews and 112 guides are unchanged,
+  verified by serialized-record SHA-256 hashes; publication identities also match.
+- Each new preview has three labeled paragraphs (118–143 words before lists),
+  takeaways, limits, intended readers and original/deep-dive links. Library cards,
+  study pages, search/filters and JSON export include the added material.
+- Ten five-paper audits (depth50-01 through depth50-10-2026-10-21.json) record 131
+  exact individual queries; each batch uses 10–16 of the allowed 40 operations.
+  depth50-baseline-2026-10-21.json freezes identities and prior-record hashes.
+- Coverage includes sensing/electrical behavior, thermal storage/coatings, wastes,
+  repair bonds, lifecycle assessment, retention/leaching, milling/reactivity,
+  casting shells, coal gangue, ground/pavement systems and reinforcement.
+- Evidence remains selected indexed primary passages, sometimes primary abstract
+  accounts, not full-paper/figure/supplement extraction, human/domain review,
+  comprehensive status clearance or independent experimental replication. Exact
+  full-text licenses unassessed; no raw papers, abstracts, complete source tables
+  or figures retained or reproduced. No separate external model service used.
+- Environmental notes identify modeled impacts and use scenario-planning checks.
+  Carbonate comparison is a synthesis of earlier work; paper-sludge followup notes
+  distinguish reused data. Foundry-sand precursor/aggregate terminology conflict
+  remains explicit. Copper-foam 42.3% is water absorption, not a porosity value.
+- Deferred climate-risk candidate 10.3390/su16188200: accessible primary outcomes
+  insufficient. Replaced with existing paper 10.3390/ma14092213 on sintering and
+  conductivity. No bibliography identity/count changed; no title-derived findings.
+- Canonical corpus unchanged: 5 partial studies / 62 mixes / 275 observations;
+  43 recipes / 31 scalable. No numerical ingestion or ready-to-run source recipes.
+  Existing correction holds and unresolved fire-coating findings remain intact.
+- Validation: all 124 Node cases, schema and 1,182-route production build pass.
+  Existing reading browser checks pass all 161 previews, filters/search/export,
+  native disclosures, source/guide links and correction notice in four contexts.
+  All 100 affected study/guide routes pass desktop/mobile, JS/no-JS checks for
+  outcomes, inventories, source/guide links, overflow and library navigation.
+  Research browser suite also passes. Mobile screenshot inspected.
+- Final page-label refinement distinguishes assessment/synthesis walkthroughs from
+  new laboratory experiments for six guides. All 124 Node cases and build pass
+  again afterward; a focused browser check passes those six plus an experimental
+  control in all four contexts. The earlier 100-route sweep precedes this label
+  refinement. Permanent depth50 browser coverage is included in CI.
+- Unchanged feature suites and older route corpus were not exhaustively re-swept.
+  The production build/static checks cover all 1,182 routes.
+- Standing authorization covers main publication. Remote CI/live deployment are
+  unverified. Existing automations unchanged; OpenAlex remains on hold.
+
+
 ## Owner-requested twenty more summary/deep-dive pairs — 20 October 2026
 - Added exactly 20 partial guides and 20 matching detailed summaries from existing
   library records. Totals: 1,000 publications / 111 detailed previews / 112 guides.

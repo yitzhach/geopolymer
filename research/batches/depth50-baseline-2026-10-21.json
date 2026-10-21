@@ -1,0 +1,1124 @@
+{
+  "checked": "2026-10-21",
+  "publicationCount": 1000,
+  "publicationIdentityHash": "0d8e5583a6e5110c651b54384ca64440df88d162adfe3be16457d04d4ca14c1c",
+  "previousPreviews": [
+    {
+      "doi": "10.3390/ma18030486",
+      "deepDiveId": "biochar-replacement-and-exposure",
+      "sha256": "a4bb9b77b6ae7cc746f132944103522b0bd38e91737cc7ed4f9973bf8aed3df5"
+    },
+    {
+      "doi": "10.3390/polym13050751",
+      "deepDiveId": "basalt-fiber-carbon-textile",
+      "sha256": "35bc54bc3054ec111fbd9f3f81aeabdd5e6197612cc0fad92fdd8c14160de17d"
+    },
+    {
+      "doi": "10.3390/polym18111288",
+      "deepDiveId": "bn-hemp-nanofiber-slag",
+      "sha256": "29ad5bd643207da9d645a0d923d8ea07d4d088f764b0c87ec88f7005ff4bef01"
+    },
+    {
+      "doi": "10.3390/ma17051181",
+      "deepDiveId": "metakaolin-slag-shrinkage-controls",
+      "sha256": "d5390a586044515226db9c7122034da807427ea9a1e172d9badd4a15f5b8bec1"
+    },
+    {
+      "doi": "10.3390/su12198216",
+      "deepDiveId": "metakaolin-water-temperature",
+      "sha256": "0984000d181a55b33d90d7aeda4305bbd6b899ec6c915adafbebe71ac0cc8835"
+    },
+    {
+      "doi": "10.3390/ma13132973",
+      "deepDiveId": "metakaolin-freeze-thaw-design",
+      "sha256": "b23ec359544ee9d0bb690a97a1cdd78c55b7abebcecc6cd944c0ca9a31721d49"
+    },
+    {
+      "doi": "10.3390/ma15051687",
+      "deepDiveId": "carbonate-slag-hydroxide-balance",
+      "sha256": "ae93741b598b26ba4089e46a57a684767aa1366ae673307ea67f1384b7d0032d"
+    },
+    {
+      "doi": "10.3390/ma13235550",
+      "deepDiveId": "fly-ash-slag-efflorescence-moisture",
+      "sha256": "7766c723ad832a1dfe707a3f0e3f0c11bd07fdf990281c67d3197cdc04cb9a92"
+    },
+    {
+      "doi": "10.3390/ma12203410",
+      "deepDiveId": "one-part-admixture-compatibility",
+      "sha256": "cd156167ee0242928da82366c13121a0a8f343c1e6f4645e30c773db69e8c3fb"
+    },
+    {
+      "doi": "10.3390/min14080776",
+      "deepDiveId": "metakaolin-slag-potassium-durability",
+      "sha256": "6ddf2debc155f1f4c29bd403d3c82e3812b97bcf5de1779e407d20422b3c7eae"
+    },
+    {
+      "doi": "10.3390/ma12060923",
+      "deepDiveId": "ambient-fly-ash-coating-process",
+      "sha256": "cfbdd9074872b854f43a09385e5342670385f5fbbe5f2a4dca1455d5198ea9d3"
+    },
+    {
+      "doi": "10.3390/ma15113767",
+      "deepDiveId": "coating-wetting-versus-bond",
+      "sha256": "2d3a2fa19d166f183272d47b6d3225e1bc485afa7bdc5e83085d1151aed8862d"
+    },
+    {
+      "doi": "10.3390/app112210945",
+      "deepDiveId": "biochar-bottom-ash-pore-evolution",
+      "sha256": "152b639c14658c5b2de655204072ac8d640d04fd1394f31394141862e378ff46"
+    },
+    {
+      "doi": "10.3390/ma17122856",
+      "deepDiveId": "phosphate-polymer-rheology",
+      "sha256": "1305a9ee47502434f211f9f6a8e750a7a5865691150f3c9ead3eb752fe827caf"
+    },
+    {
+      "doi": "10.3390/ma16237460",
+      "deepDiveId": "metakaolin-curing-temperature-grade",
+      "sha256": "ca91d2f0c997633e5d35333570cd27cfa00215f48cddc62f02c748877e262c4a"
+    },
+    {
+      "doi": "10.3390/eng6120366",
+      "deepDiveId": "starch-borax-retarder-screening",
+      "sha256": "330b9402245544ae4b61d6b7600a78a233d734de15e999195694784076c82a63"
+    },
+    {
+      "doi": "10.3390/ma17246143",
+      "deepDiveId": "waste-foam-precursor-foamer",
+      "sha256": "dd1163202af3dc22467943b589384d9ee0a1e21147136ef974c1e33a6b3b3440"
+    },
+    {
+      "doi": "10.3390/polym16121685",
+      "deepDiveId": "pva-egc-tension-versus-model",
+      "sha256": "5f938e0abdeb3e65d9f1f3647036755812a15502a282818e0a032047e2626617"
+    },
+    {
+      "doi": "10.3390/buildings14030586",
+      "deepDiveId": "epoxy-silane-shrinkage-bases",
+      "sha256": "8b8202bad81b706801a259f065cea696c0b44f19f369d737acfb3dfb6b511b98"
+    },
+    {
+      "doi": "10.3390/ma16062305",
+      "deepDiveId": "calcium-hydroxide-carbonation-tradeoff",
+      "sha256": "55e2baa865a702278decfb6c631dc5e3630ede16df21b19a2da3a9755d924656"
+    },
+    {
+      "doi": "10.3390/ma14164758",
+      "deepDiveId": "printing-side-stream-process-window",
+      "sha256": "3ee8a7d0b048b41ac1b27b97b669e7e406d5fb38853cdb45635aa580b9057e6a"
+    },
+    {
+      "doi": "10.3390/gels8020130",
+      "deepDiveId": "sfcc-phosphate-acid-window",
+      "sha256": "6fe7650892acace906694975c1cf48af912435e99069daa16bca34ca0ca07326"
+    },
+    {
+      "doi": "10.3390/polym14101945",
+      "deepDiveId": "foam-polystyrene-fire-assembly",
+      "sha256": "6a9674fbe69fbb19db2e6e69bb32e5605d5d6f4633ff34d17c3f75c73a0988c7"
+    },
+    {
+      "doi": "10.3390/ma12213485",
+      "deepDiveId": "metakaolin-fly-ash-liquid-definition",
+      "sha256": "dae1563b68e2e917d89b5d709f592821ec8f180553db342849f589b5936361de"
+    },
+    {
+      "doi": "10.3390/polym15041017",
+      "deepDiveId": "masonry-fiber-material-versus-structure",
+      "sha256": "0958f15cf61d7433605c86fb44471ba553eee8a5fe083da194e45e5477f244fa"
+    },
+    {
+      "doi": "10.3390/ma13245784",
+      "deepDiveId": "metakaolin-gel-amount-versus-composition",
+      "sha256": "7dab6fa8445084a26f6206d5d2af6acf14cbbbb49a9b79bb94f5d39f64f2d4cb"
+    },
+    {
+      "doi": "10.3390/ma17020367",
+      "deepDiveId": "metakaolin-reactivity-and-liquid-volume",
+      "sha256": "65c9a4ce82b5ec2a659236027b2bb2a987de39ab88805f4663065e03c083249a"
+    },
+    {
+      "doi": "10.3390/ma15238600",
+      "deepDiveId": "ceramic-waste-artistic-restoration",
+      "sha256": "ea36873db871e1245d523a3a718682fe8c6458b804adce3354fd7d36e0f38aeb"
+    },
+    {
+      "doi": "10.3390/coatings11010087",
+      "deepDiveId": "aluminum-foam-coating-ratio-conflict",
+      "sha256": "b04f13b7b2bf67bc563504e6cee77a82d7b8eb33557476ee64d13045cf3e0513"
+    },
+    {
+      "doi": "10.3390/ma16155369",
+      "deepDiveId": "pce-alkali-stability-versus-flow",
+      "sha256": "99cc6da730750c9a526512c0e9ab933a1b92673597903b1dbe6f151244bf2711"
+    },
+    {
+      "doi": "10.3390/ma9070586",
+      "deepDiveId": "ambient-fly-ash-superplasticizer",
+      "sha256": "4a234365c08d7f189636dba3e1ab5bdf66fbec1b9bb1a0e6114dfa8184854195"
+    },
+    {
+      "doi": "10.3390/ma14247614",
+      "deepDiveId": "superplasticizer-flow-air-long-term",
+      "sha256": "938316a64c390709e3f4697fabffb4426d0d44d8286c11c006d5410b0e9609e6"
+    },
+    {
+      "doi": "10.3390/buildings15193621",
+      "deepDiveId": "hpmc-vae-workability-durability",
+      "sha256": "a70aafaf22ced429c149b6dea158e4e86b24eed34d0e636ec8f6bac83faf2267"
+    },
+    {
+      "doi": "10.3390/polym14163386",
+      "deepDiveId": "mgo-shrinkage-curing-demolding",
+      "sha256": "5e37b58bc96c8ba1551d96e9d5fbdde601b727e2824cb742223a5854dcb185e1"
+    },
+    {
+      "doi": "10.3390/app10093321",
+      "deepDiveId": "fly-ash-opc-slant-shear-bond",
+      "sha256": "1f9e64fad1824fc1799c74d517e15457d98ab45ece49583b7f72ff90a4b54c9c"
+    },
+    {
+      "doi": "10.3390/buildings14030652",
+      "deepDiveId": "slag-fly-ash-red-mud-interface",
+      "sha256": "9f61b45175c53bdcc3ece67d3d2cdece87c3146aefb5d7216a3ebe177bbaa3bf"
+    },
+    {
+      "doi": "10.3390/app11114886",
+      "deepDiveId": "pp-foam-volume-versus-fiber-dose",
+      "sha256": "04793819ae0e1d111d47694cc8c99708f697e4a0ca3d104d0122c56b5fb05d48"
+    },
+    {
+      "doi": "10.3390/polym12122994",
+      "deepDiveId": "metakaolin-foam-thermal-versus-fire",
+      "sha256": "8a7a7c165e0e9b14d90e9bed576c9a27a632faa5fa3d52fc32926998684d8a9f"
+    },
+    {
+      "doi": "10.3390/polym13091493",
+      "deepDiveId": "waste-glass-replacement-and-bioassays",
+      "sha256": "fbe31bcf1a28919f32762554c351bed03ad65abe6daa571a5b93758cbfe3bd7f"
+    },
+    {
+      "doi": "10.3390/ma13040901",
+      "deepDiveId": "olive-pine-ash-precursor-boundary",
+      "sha256": "5701cacf0901ca7b1d08c9ee9b0a1e5666f6d95436b2f2eede2143a505e242c8"
+    },
+    {
+      "doi": "10.3390/min13040564",
+      "deepDiveId": "nickel-slag-phosphate-foamer",
+      "sha256": "31e0338b6e1c88070626575c5d7c14aaa0815c37348d977dc881717863d00eeb"
+    },
+    {
+      "doi": "10.3390/app14031207",
+      "deepDiveId": "acoustic-foam-architecture-versus-material",
+      "sha256": "79c2ec52c124a1e52f1d595a710697a8c38eeffc0935a7acacd320ac77cdce4a"
+    },
+    {
+      "doi": "10.3390/app12136624",
+      "deepDiveId": "carbon-textile-thermal-directions",
+      "sha256": "a0bcf73d85e6a16ba5629440bf6d869ec150d8dec448e079e420267eebae78e9"
+    },
+    {
+      "doi": "10.3390/polym14194214",
+      "deepDiveId": "organic-slag-model-gel-versus-paste",
+      "sha256": "273305a72d74a81bbcb0c4c71cbfc97d3fd758374a96bdc56011c40f4fbce804"
+    },
+    {
+      "doi": "10.3390/ma17030734",
+      "deepDiveId": "hydrophilic-polymers-slag-processing",
+      "sha256": "85e7d9c103a85c0fe1ec1a28381858025958b76e088d25358be4c3f5b5ae5cce"
+    },
+    {
+      "doi": "10.3390/buildings16040707",
+      "deepDiveId": "one-part-batch-reproducibility",
+      "sha256": "944d3f96e6523aaf1a27bde2600fa3fc13f8c0feebb10ca2e471352e30363d8c"
+    },
+    {
+      "doi": "10.3390/ma17081740",
+      "deepDiveId": "ceramic-fines-conditioning-and-absorption",
+      "sha256": "5e465e84872b5d9b4fae56eed7d466d4fde8f287092365e9e8b9d5457d40d41a"
+    },
+    {
+      "doi": "10.3390/ma12030526",
+      "deepDiveId": "reactive-mgo-dose-and-erratum",
+      "sha256": "36a266bcc66dfe0ac3d086ce59e04913f7d64bfc56406b70dd16834e57b9d52c"
+    },
+    {
+      "doi": "10.3390/ma16206619",
+      "deepDiveId": "tuff-brick-restoration-water-transport",
+      "sha256": "a94a8d0d66e883bbbe83ef17294c79c558b3003f59d7b9b962ca7bbbb085a591"
+    },
+    {
+      "doi": "10.3390/ma18214947",
+      "deepDiveId": "ceramic-brick-metakaolin-ratio-denominators",
+      "sha256": "52068dfa16be83f5fb99a6ea2148f88e9d7f4524944dbdfac057c86067ec4bee"
+    },
+    {
+      "doi": "10.3390/ma16062400",
+      "deepDiveId": "silica-fume-activator-volume-versus-mass",
+      "sha256": "04da075e08263e39e5da33cf8268bf02fbb2f61765dad244121e6d2bdb9a48de"
+    },
+    {
+      "doi": "10.3390/ma17020463",
+      "deepDiveId": "microwave-curing-precursor-energy-boundary",
+      "sha256": "1e8181f9336c5ce1c2074494099d69d5a7f5af6683846ffa08d264f8b30aeedb"
+    },
+    {
+      "doi": "10.3390/min8040162",
+      "deepDiveId": "coating-modulus-setting-adhesion-tradeoff",
+      "sha256": "39d66ff7f7d79949d5794567690f4f29dbe0e595db997b11f0c2d7ba78c1d8b9"
+    },
+    {
+      "doi": "10.3390/ma15062050",
+      "deepDiveId": "mineral-wool-leaching-test-boundaries",
+      "sha256": "9a21a8ffe272669dfe0fef7ddd61e7a6c7ad284edffc0f92b22f847cb8462ae4"
+    },
+    {
+      "doi": "10.3390/ma15113936",
+      "deepDiveId": "walnut-shell-lightweight-water-uptake",
+      "sha256": "21b308c3ed8f2920caefef30c2a934b89e09d5b6bdcf612a24cfcdfd07876afd"
+    },
+    {
+      "doi": "10.3390/polym13071149",
+      "deepDiveId": "crt-glass-coupled-activator-comparisons",
+      "sha256": "08fc87f40f8ba658f66720f457134121c2514827500379b2720b5da53ceda60d"
+    },
+    {
+      "doi": "10.3390/ma16052044",
+      "deepDiveId": "glass-particle-size-foam-density",
+      "sha256": "d0cbda97e84107014917839cec0f01fea30be2a68cfddc0542046882dd08a41b"
+    },
+    {
+      "doi": "10.3390/polym17091155",
+      "deepDiveId": "zeolite-pvac-membrane-lead-mass-balance",
+      "sha256": "57e013cd50caf7e3b14c0e7b84f0dfed2723b0b90dbb922369e01cbf91f21b84"
+    },
+    {
+      "doi": "10.3390/infrastructures5110096",
+      "deepDiveId": "asr-pore-solution-versus-total-alkali",
+      "sha256": "992ed851728a138af068407975615ceafc0f49044612387e0f8cd2522119bc55"
+    },
+    {
+      "doi": "10.3390/ma13225200",
+      "deepDiveId": "slag-softening-inverse-analysis-limits",
+      "sha256": "a276f922c501ad72ad26a35b0b490eb3283da63369d67928d65d58a65612b34b"
+    },
+    {
+      "doi": "10.3390/ma11081445",
+      "deepDiveId": "steel-fiber-fracture-energy-test-boundary",
+      "sha256": "f96c7bcdb45c9112458ee9d134ee0111390f4f1814b222cce15bc04e1097abd7"
+    },
+    {
+      "doi": "10.3390/polym14142920",
+      "deepDiveId": "rice-husk-silicate-extraction-basis",
+      "sha256": "f1ec082771eb7724a04771b5a4c3d3f12188d4e21c0d5566c5994046555e26d3"
+    },
+    {
+      "doi": "10.3390/ma14154160",
+      "deepDiveId": "one-part-activator-dose-long-term-age",
+      "sha256": "50056ca0998517118b0bf23259a9d1d9a7f1c7d3ab1bdc3aa778d190650ede7f"
+    },
+    {
+      "doi": "10.3390/ma14164350",
+      "deepDiveId": "carbon-black-self-sensing-load-levels",
+      "sha256": "d62de8501c88f9b9ef41e8b0fd4c907e4c7a61a0c115470b132278342aab0e9a"
+    },
+    {
+      "doi": "10.3390/ma15207086",
+      "deepDiveId": "thermal-storage-prototype-cycle-boundary",
+      "sha256": "38fd67765de931932c035216659929016a21ae736947ff06c490d7d7bde9fac8"
+    },
+    {
+      "doi": "10.3390/ma12101697",
+      "deepDiveId": "repair-bond-acoustic-emission-boundary",
+      "sha256": "8d16e352bfd2164c5aee009dc271f2ed1b71b61d4aeb370004118c9cd272c502"
+    },
+    {
+      "doi": "10.3390/min12070821",
+      "deepDiveId": "peroxide-sds-foam-pore-definitions",
+      "sha256": "ace608d2d276dbe5bd4cebb97b6df680cda5926982318a19c90e0e7046c7d52b"
+    },
+    {
+      "doi": "10.3390/ma15217486",
+      "deepDiveId": "surfactant-charge-dose-aluminum-foams",
+      "sha256": "676de2e294ac27e4231aa145c46e4edfab1369e10b748277100383c536481459"
+    },
+    {
+      "doi": "10.3390/ma17081798",
+      "deepDiveId": "lightweight-aggregate-absorption-activator-budget",
+      "sha256": "a9854d0041fb15b74630fbdbf32d8cd539f90ec7aa0151a8b5e3703b6e1f02af"
+    },
+    {
+      "doi": "10.3390/ma17112516",
+      "deepDiveId": "diatomite-sag-setting-water-retention",
+      "sha256": "65621133dae97cafbc9c422e189fba87ca5caf9b5ce100a39d8b73ac4101eba5"
+    },
+    {
+      "doi": "10.3390/ma16083010",
+      "deepDiveId": "slag-retarders-hydrate-basis-strength",
+      "sha256": "7cd0a3e51bd14ba363f674d179011b22c4aa7987832f325ead70440779f65e7b"
+    },
+    {
+      "doi": "10.3390/ma16031096",
+      "deepDiveId": "ten-year-fly-ash-age-and-assay-boundaries",
+      "sha256": "7f64c966d14af965c76537100d50c8d43830ea838978ba79f6eb3e1d5f23dd57"
+    },
+    {
+      "doi": "10.3390/ma13153437",
+      "deepDiveId": "bagasse-mixed-alkali-cement-hybrid",
+      "sha256": "ae05a121b42d1db1ece2aa2c09fd24358b44b3fd646969794bc8660e50d822a4"
+    },
+    {
+      "doi": "10.3390/jcs10010022",
+      "deepDiveId": "fly-ash-silica-fume-activator-cost-boundary",
+      "sha256": "5f511090a99bb00145dda3a3d10732602a2bfc66ccda7f50bfe056c55a920055"
+    },
+    {
+      "doi": "10.3390/ma18245648",
+      "deepDiveId": "early-strength-paste-mortar-concrete-scale",
+      "sha256": "ede1ccae8b11ec01a8df27c622370238ae2a4af4b6e556fd3a6f5b02c37fe778"
+    },
+    {
+      "doi": "10.3390/ma15103458",
+      "deepDiveId": "fly-ash-pavement-optimization-exposure-clock",
+      "sha256": "34fd044cfa2e08042c0d444d67e81eb0b3c36e8273e244d8813b1812812193e2"
+    },
+    {
+      "doi": "10.3390/ma15082736",
+      "deepDiveId": "lime-pozzolan-hybrid-age-comparison",
+      "sha256": "1cdd56b691499806975fdf5d0538ed87edf21ec2254b0c39220da58361fecf5a"
+    },
+    {
+      "doi": "10.3390/ma13102395",
+      "deepDiveId": "filler-hot-versus-residual-strength",
+      "sha256": "35c1547e146113499bf6862844666a220f633c501aad9c4496a62057f551265a"
+    },
+    {
+      "doi": "10.3390/app13031804",
+      "deepDiveId": "cork-water-demand-insulation-tradeoff",
+      "sha256": "5993b9af90291cc74897f1c064c885031b025a8aed01a4859d5af501767da310"
+    },
+    {
+      "doi": "10.3390/ma14164599",
+      "deepDiveId": "coir-glass-carbon-fiber-mixing-failure",
+      "sha256": "281308de2451bcce2aa7b4c8cf1936661e63c082918d0048391a2dff456f6f40"
+    },
+    {
+      "doi": "10.3390/ma9060461",
+      "deepDiveId": "epoxy-geopolymer-co-reticulation-timing",
+      "sha256": "f70ed5f7348825dd3182add33ee8c2bbe93b046dc40d2b23f9365c5814e335d1"
+    },
+    {
+      "doi": "10.3390/ma17061249",
+      "deepDiveId": "steel-slag-red-mud-calcium-coupled-effects",
+      "sha256": "9cfb38ffbf30de998e2b02818fb68ac5eb341d2706166089b053e3e3a3d1f870"
+    },
+    {
+      "doi": "10.3390/min13020186",
+      "deepDiveId": "seashell-limestone-replacement-versus-dilution",
+      "sha256": "39beaa7620777cc121c8c763cf5b40f89f62e513d5bdcf4ae7be954e0fed87e5"
+    },
+    {
+      "doi": "10.3390/ma14112911",
+      "deepDiveId": "one-part-waste-sand-water-demand",
+      "sha256": "9ba661fd8ccea3fb7493c7af9426062c4f1deb4b3764d4974822c15a05ce8a9a"
+    },
+    {
+      "doi": "10.3390/ma13163644",
+      "deepDiveId": "rap-geopolymer-grout-versus-composite",
+      "sha256": "17a6615430e5a9377a80905c7b72fb4736cb014c534770facd3d5d02fbc218fe"
+    },
+    {
+      "doi": "10.3390/ma18040915",
+      "deepDiveId": "ceramsite-treatment-shrinkage-model-domain",
+      "sha256": "8ba2ae16f6a3124db434abc4ac9c0ca5949a82fdba7a49c8206feeee2557ca5e"
+    },
+    {
+      "doi": "10.3390/coatings15060734",
+      "deepDiveId": "activator-corrosion-electrochemical-boundary",
+      "sha256": "9903a915eda853f5e2bd9aba5cee6b0b0e06b0d7f6511c150efb28f460d6b249"
+    },
+    {
+      "doi": "10.3390/min14050516",
+      "deepDiveId": "foam-nmr-acquisition-time-versus-kinetics",
+      "sha256": "8ed1e62e42c918bc8a708e2fa3b1efd85fe9c979e41bdaacc22a84d359307fe0"
+    },
+    {
+      "doi": "10.3390/ma15010194",
+      "deepDiveId": "calcium-hydroxide-initial-versus-final-set",
+      "sha256": "ef574fe6e02a395136dc3100c2867b795eebb84dac0ec09329c926aef59e4a50"
+    },
+    {
+      "doi": "10.3390/min10010015",
+      "deepDiveId": "silicate-modulus-slag-interaction",
+      "sha256": "f32c77f5e93aa9e4ea2b2503983d4a789a79fd53cd2a8f3618b3f1ddc5c9c92b"
+    },
+    {
+      "doi": "10.3390/ma13061467",
+      "deepDiveId": "seawater-strength-versus-free-chloride",
+      "sha256": "818af7d11d6ca60ce9cec9ce15ec232076d1e4064f7a4d4bec2eff61839c4f22"
+    },
+    {
+      "doi": "10.3390/ma17174338",
+      "deepDiveId": "wollastonite-metakaolin-phase-estimation",
+      "sha256": "6e71e075d19d98bf5693586740130bdf55d8f104dc1a6c18ea8860ccbf7bdc9b"
+    },
+    {
+      "doi": "10.3390/app14020553",
+      "deepDiveId": "limestone-fly-ash-slag-mixture-design",
+      "sha256": "1a814c4bd786bb8f1844f1157f804266b9d2e933c37d4719885e8574b6d8e337"
+    },
+    {
+      "doi": "10.3390/ma17225610",
+      "deepDiveId": "kaolin-granite-residue-consistency-cure",
+      "sha256": "13da0c9c7bd4e3b3bbcf66e6a220065b0756004cb7559c66ce4186ecbbdc4375"
+    },
+    {
+      "doi": "10.3390/gels10110700",
+      "deepDiveId": "tailings-slag-setting-modulus-window",
+      "sha256": "309c54c450a4eb3ff78a499b84504131049e51a2bd53163618aabfb169a8627d"
+    },
+    {
+      "doi": "10.3390/ma18112557",
+      "deepDiveId": "pcm-thermal-conductivity-direction",
+      "sha256": "9ce5d3f103833c2e12a6d4458ba56aaee275cfe74f023580bb5d3eca7814659a"
+    },
+    {
+      "doi": "10.3390/gels8030145",
+      "deepDiveId": "coal-gangue-compression-flexure-modulus",
+      "sha256": "c2f11e0951ebc879a08e61cf5431320e145e60e69388df0beea9a0766dc14a1a"
+    },
+    {
+      "doi": "10.3390/polym15030518",
+      "deepDiveId": "slag-resistivity-alkali-confounding",
+      "sha256": "fffa302784c3f88b68c25afd7cf25309eaa761e27ec9bc0d9befc0d6e2a279f3"
+    },
+    {
+      "doi": "10.3390/ma13163499",
+      "deepDiveId": "sodium-aluminate-shrinkage-reaction-tradeoff",
+      "sha256": "f7a22fd40a261aeb40b6bf2ad247c9abd35d1f794bdec18e975710ea4a390331"
+    },
+    {
+      "doi": "10.3390/min12111342",
+      "deepDiveId": "metakaolin-quantitative-phase-water-strength",
+      "sha256": "cb1f88cfe6e05f1b4f20a4abaa93976e695f40cb790a4c1d0962f025e41ff29e"
+    },
+    {
+      "doi": "10.3390/ma18051005",
+      "deepDiveId": "sea-sand-shrinkage-water-loss-clock",
+      "sha256": "9a7550d7779b1f2db8566bbed2a964a3690d98b44c0c474fbabeff2f3c643a2d"
+    },
+    {
+      "doi": "10.3390/inorganics7120141",
+      "deepDiveId": "zeolite-binder-porosity-strength-selection",
+      "sha256": "20c86747fa7f56b0ac05ee5206856562f1a5b31aa9bef59244dbd2a8322bd325"
+    },
+    {
+      "doi": "10.3390/ma9060462",
+      "deepDiveId": "shrinkage-admixture-retardation-incompatibility",
+      "sha256": "c5cfaa471e8f2c3f7cf559510830ba6add644dc9651817aab4d2445a5616b8b4"
+    },
+    {
+      "doi": "10.3390/app8122358",
+      "deepDiveId": "ceramsite-hollow-block-placement-tradeoff",
+      "sha256": "252d79042d9884c9de67a1a76eff9dcb1eb9da9844c7b8684303712a7156f5d5"
+    },
+    {
+      "doi": "10.3390/ma17194910",
+      "deepDiveId": "carbonated-wollastonite-alkali-reduction-limit",
+      "sha256": "56c1685789f1b197fe7dc745ef1ba4045d1772b09ca6c837da238072a934d9e0"
+    },
+    {
+      "doi": "10.3390/polym16020211",
+      "deepDiveId": "metakaolin-thermal-scan-chemorheology-domain",
+      "sha256": "149b9d6987101f3c9829261c6d95fc11f990686934b83c106c35adc9df42a40c"
+    },
+    {
+      "doi": "10.3390/min11020197",
+      "deepDiveId": "unfired-ceramic-activation-cure-comparison",
+      "sha256": "2e4cb4b508b9113bb73d4c8704451d147330567a862974fa48fa633e8cc4b646"
+    },
+    {
+      "doi": "10.3390/polym14010063",
+      "deepDiveId": "fly-ash-source-setting-alkali-equivalent",
+      "sha256": "cb1c4a3d4f7710f5e3cdc67171f730be2ca594e035ac4d66a33670588c2fd56c"
+    },
+    {
+      "doi": "10.3390/app12189085",
+      "deepDiveId": "thermally-modified-clay-multi-parameter-synthesis",
+      "sha256": "fedae368b5a51670a276ffc279521481bbc3009505acb3c599cdfd996faf11e2"
+    },
+    {
+      "doi": "10.3390/ma15134628",
+      "deepDiveId": "clay-stabilization-activation-optimum",
+      "sha256": "c9638d0ce85628f21a1b32a13ad7e588a69bbe7e9d1582852b1130f65456e1df"
+    },
+    {
+      "doi": "10.3390/ma12101616",
+      "deepDiveId": "graphite-self-sensing-stress-frequency-domain",
+      "sha256": "44f1a4c63ec27695f41c01b6a8f3133c589e3fb5b68fcd703209aa599cd01a9d"
+    }
+  ],
+  "previousGuides": [
+    {
+      "id": "ggbs-taguchi-mortar",
+      "doi": "10.1080/13287982.2024.2375468",
+      "sha256": "3af9176ec8617efb49b81d5f3b02ef83183e00190faae5fb16affd422a5ff3ba"
+    },
+    {
+      "id": "biochar-replacement-and-exposure",
+      "doi": "10.3390/ma18030486",
+      "sha256": "4bf9fadd30a212dad3c67b3806e405be5697822097b6a9fd3bd3ea9a3a8603e0"
+    },
+    {
+      "id": "basalt-fiber-carbon-textile",
+      "doi": "10.3390/polym13050751",
+      "sha256": "11442c5caf71699996be3c65be3193a9b07a27128912c9638d0587e1d53d33c1"
+    },
+    {
+      "id": "bn-hemp-nanofiber-slag",
+      "doi": "10.3390/polym18111288",
+      "sha256": "47e315cd15c1abc8a1ba9ccd3a80863ff78d46ef5f2735ea676e266eda034a62"
+    },
+    {
+      "id": "metakaolin-slag-shrinkage-controls",
+      "doi": "10.3390/ma17051181",
+      "sha256": "aca43c2420691c57a2c52fa9c0186d95fb34b3c6b52f2acf4c69672257791cc6"
+    },
+    {
+      "id": "metakaolin-water-temperature",
+      "doi": "10.3390/su12198216",
+      "sha256": "a21e9a15329a4db48162929c9071c17e10f46c13a04c0d78311efc3e9793df61"
+    },
+    {
+      "id": "metakaolin-freeze-thaw-design",
+      "doi": "10.3390/ma13132973",
+      "sha256": "e801f592d0cd96fe681880068f81dbc0980a26dbd760f2edef1b2b1d887ac86c"
+    },
+    {
+      "id": "carbonate-slag-hydroxide-balance",
+      "doi": "10.3390/ma15051687",
+      "sha256": "8c78a4961e531d2651f4163b3f256edb050cb111c031a4868b5f10016290e149"
+    },
+    {
+      "id": "fly-ash-slag-efflorescence-moisture",
+      "doi": "10.3390/ma13235550",
+      "sha256": "3555928d0c01d79e6be0f4885af230833a72ee9d742f71cf6325184655a6150e"
+    },
+    {
+      "id": "one-part-admixture-compatibility",
+      "doi": "10.3390/ma12203410",
+      "sha256": "4a9c65b0ec1136a042555bbbce18404f12840933bbedc308f62661580e466d72"
+    },
+    {
+      "id": "metakaolin-slag-potassium-durability",
+      "doi": "10.3390/min14080776",
+      "sha256": "15579e65d06a6ea4b80befd59bb001a8fdc7dc72ae87becabb9668643239ad53"
+    },
+    {
+      "id": "ambient-fly-ash-coating-process",
+      "doi": "10.3390/ma12060923",
+      "sha256": "1f64bca61b20af1fd38dde5d7f92662c527ac0060dd0cd890a725f863e0b118c"
+    },
+    {
+      "id": "coating-wetting-versus-bond",
+      "doi": "10.3390/ma15113767",
+      "sha256": "ef8e07845d3f2cb1673b328aabcd463f99400e93795b94c83e9c04c8acdc77f6"
+    },
+    {
+      "id": "biochar-bottom-ash-pore-evolution",
+      "doi": "10.3390/app112210945",
+      "sha256": "0d9c8a6d8d0c6f594e3bbcf9626f10361ed2f2a8fe475f54d907a509963d442b"
+    },
+    {
+      "id": "phosphate-polymer-rheology",
+      "doi": "10.3390/ma17122856",
+      "sha256": "7dc49cb0a398b25bb0826b202f628339cfee4f9aecb38704e156a85eabdf06d4"
+    },
+    {
+      "id": "metakaolin-curing-temperature-grade",
+      "doi": "10.3390/ma16237460",
+      "sha256": "f2b01d13edab97e2474ad10df41b0c03576ce56e95da4a31c848ee4be72dc4d6"
+    },
+    {
+      "id": "starch-borax-retarder-screening",
+      "doi": "10.3390/eng6120366",
+      "sha256": "aa8e420b5d60726e7e862e9893961580e4f342a9b7bae7e3866a8021c47ad8b4"
+    },
+    {
+      "id": "waste-foam-precursor-foamer",
+      "doi": "10.3390/ma17246143",
+      "sha256": "b613b41632a4aa1ef8f0280eb0072d0e8fcba4825457755714aa6089457d0a26"
+    },
+    {
+      "id": "pva-egc-tension-versus-model",
+      "doi": "10.3390/polym16121685",
+      "sha256": "19c742e622c5760df4861b77a4e37e2b8225962a912eb11ad55b483aa32d6921"
+    },
+    {
+      "id": "epoxy-silane-shrinkage-bases",
+      "doi": "10.3390/buildings14030586",
+      "sha256": "90e52b6c1ffc1217f7a4fe099a1c448a9e82fd94eec11aff6c88f6cf5b4ab70e"
+    },
+    {
+      "id": "calcium-hydroxide-carbonation-tradeoff",
+      "doi": "10.3390/ma16062305",
+      "sha256": "fd048611f81406e85f3ba7ab99356808bddc8ab0fa6773f4c37a13667db807e4"
+    },
+    {
+      "id": "printing-side-stream-process-window",
+      "doi": "10.3390/ma14164758",
+      "sha256": "cb063c3b54d7cad213dc5fe2c828fe3b2743e418da9461cc0a9907764a151cb6"
+    },
+    {
+      "id": "sfcc-phosphate-acid-window",
+      "doi": "10.3390/gels8020130",
+      "sha256": "33f988e6e1806f2492a78b770b1dd542377f487f46dca7063d6c37b5cc37446a"
+    },
+    {
+      "id": "foam-polystyrene-fire-assembly",
+      "doi": "10.3390/polym14101945",
+      "sha256": "874d4a3a0d501a12683e79e994b63402173bccdc08d315e51b97c1f16b82dbc7"
+    },
+    {
+      "id": "metakaolin-fly-ash-liquid-definition",
+      "doi": "10.3390/ma12213485",
+      "sha256": "5e2ea57e129ccee22fb43d6b67a2c5397b1415c6b2bab650fdb38113a4d6bccd"
+    },
+    {
+      "id": "masonry-fiber-material-versus-structure",
+      "doi": "10.3390/polym15041017",
+      "sha256": "4e22db681b4674a85947199f92fd1c2ef9bfbd541929e22e121e79185fb27c64"
+    },
+    {
+      "id": "metakaolin-gel-amount-versus-composition",
+      "doi": "10.3390/ma13245784",
+      "sha256": "163f2dc3c70e20d31358889d28e305a9b973087f64888c644e3fce388dd95448"
+    },
+    {
+      "id": "metakaolin-reactivity-and-liquid-volume",
+      "doi": "10.3390/ma17020367",
+      "sha256": "42d311509ad72647372b5e437ca12f5f53f90d0084c232af4eb47843cc242157"
+    },
+    {
+      "id": "ceramic-waste-artistic-restoration",
+      "doi": "10.3390/ma15238600",
+      "sha256": "df4e4912cd57abf2a74094fab71034d314f02587ade08b52938c4025635c7f5e"
+    },
+    {
+      "id": "aluminum-foam-coating-ratio-conflict",
+      "doi": "10.3390/coatings11010087",
+      "sha256": "d4a003b483e58bbc7477606a5f15f19cdbe2c596708635bfb9530101c61f3004"
+    },
+    {
+      "id": "pce-alkali-stability-versus-flow",
+      "doi": "10.3390/ma16155369",
+      "sha256": "6139b4a8e99b6dc571db05cbb0bdba1586936a50a27e616a3d0a8d9b195d205f"
+    },
+    {
+      "id": "ambient-fly-ash-superplasticizer",
+      "doi": "10.3390/ma9070586",
+      "sha256": "2fe4ead8d084594b3031c83e9ae0e1a069f48b8e18735cbf8d183363cc6fb476"
+    },
+    {
+      "id": "superplasticizer-flow-air-long-term",
+      "doi": "10.3390/ma14247614",
+      "sha256": "81b71b77608668c52750ac42a8cf20fd440fed668f19895a2d6e729c5ae01532"
+    },
+    {
+      "id": "hpmc-vae-workability-durability",
+      "doi": "10.3390/buildings15193621",
+      "sha256": "63a561e7fa3b816a3d57de3cc28eb92a633e9582f4e8cf4f966a580366999b33"
+    },
+    {
+      "id": "mgo-shrinkage-curing-demolding",
+      "doi": "10.3390/polym14163386",
+      "sha256": "568433ea585bd6adaa8e3bc86e558638f47030e57653557cd3a6b961f9b01fa7"
+    },
+    {
+      "id": "fly-ash-opc-slant-shear-bond",
+      "doi": "10.3390/app10093321",
+      "sha256": "0f111538a39ebeb6d96a4b6ec1ab58542f9d79853f6b727d8eb1800dc205331a"
+    },
+    {
+      "id": "slag-fly-ash-red-mud-interface",
+      "doi": "10.3390/buildings14030652",
+      "sha256": "e14fa0778b1044de5cc6a457af65a519e043b4a51b6220f933cf03adf9207ea7"
+    },
+    {
+      "id": "pp-foam-volume-versus-fiber-dose",
+      "doi": "10.3390/app11114886",
+      "sha256": "741325764f8b328b20d66e530579c3f6280191b82daf6744b83849330d8f2cb2"
+    },
+    {
+      "id": "metakaolin-foam-thermal-versus-fire",
+      "doi": "10.3390/polym12122994",
+      "sha256": "173b1326fc6bd18e5a31fe7079ec545a12ad44bda464e7ab3146af2e0c0ea2b4"
+    },
+    {
+      "id": "waste-glass-replacement-and-bioassays",
+      "doi": "10.3390/polym13091493",
+      "sha256": "146b622f91ff17aff44ce26a68c7802aadb4688462a239f2863fcdd9922a58d6"
+    },
+    {
+      "id": "olive-pine-ash-precursor-boundary",
+      "doi": "10.3390/ma13040901",
+      "sha256": "0a1535484a2709aabdf3e7e692f914f94573122fb9cb8b25529014bc7c08d3c0"
+    },
+    {
+      "id": "nickel-slag-phosphate-foamer",
+      "doi": "10.3390/min13040564",
+      "sha256": "27a91d6f4e919988bcc45c12e8f9bea2e2f232b4f20f62229c7009598d1a99a8"
+    },
+    {
+      "id": "acoustic-foam-architecture-versus-material",
+      "doi": "10.3390/app14031207",
+      "sha256": "f1017d40379f268a8cf55e47494b5fbcf610efa6603e1d28e37284c5f7c99168"
+    },
+    {
+      "id": "carbon-textile-thermal-directions",
+      "doi": "10.3390/app12136624",
+      "sha256": "50e2091bf4ace7fc3f89c1337ab66341de73480605f7886dab7aca6ee6392fe3"
+    },
+    {
+      "id": "organic-slag-model-gel-versus-paste",
+      "doi": "10.3390/polym14194214",
+      "sha256": "7f215479be33c9b55931c32efeb95be32ad8f2b32de2c83db67b3339e7b8a974"
+    },
+    {
+      "id": "hydrophilic-polymers-slag-processing",
+      "doi": "10.3390/ma17030734",
+      "sha256": "9d29adf11dc5da4e71029272108d43ceedd68727bd37e65307aaf5e977343440"
+    },
+    {
+      "id": "one-part-batch-reproducibility",
+      "doi": "10.3390/buildings16040707",
+      "sha256": "df8afb6d4040b00d405cea39604d3e62d252be566c8970458513a0f920e8a7c8"
+    },
+    {
+      "id": "ceramic-fines-conditioning-and-absorption",
+      "doi": "10.3390/ma17081740",
+      "sha256": "05fea56722dc4b6bb61ffb988d8f6f03b674f4221367b8fd84b315fb5c7184b3"
+    },
+    {
+      "id": "reactive-mgo-dose-and-erratum",
+      "doi": "10.3390/ma12030526",
+      "sha256": "bad9b97b3d6ff787e4d2bee81711c5d550dda2a82e5b5708cf1c2b442fdc2302"
+    },
+    {
+      "id": "tuff-brick-restoration-water-transport",
+      "doi": "10.3390/ma16206619",
+      "sha256": "39e90eb951da3123c26121999af9ef16c21cbb347f440641da9ec8a0951f418d"
+    },
+    {
+      "id": "ceramic-brick-metakaolin-ratio-denominators",
+      "doi": "10.3390/ma18214947",
+      "sha256": "2451dc26e6de231c450f512715ba8b0a2b16837b6546f6278552b54d45599440"
+    },
+    {
+      "id": "silica-fume-activator-volume-versus-mass",
+      "doi": "10.3390/ma16062400",
+      "sha256": "733714952f82bbca5ca505c026d712c9256d765ea292eb3109bd10b25a0b5a03"
+    },
+    {
+      "id": "microwave-curing-precursor-energy-boundary",
+      "doi": "10.3390/ma17020463",
+      "sha256": "cf5ff9ec911c968a068aa7077e74c36cb747e7a01be1dc343203f317ffef5bd3"
+    },
+    {
+      "id": "coating-modulus-setting-adhesion-tradeoff",
+      "doi": "10.3390/min8040162",
+      "sha256": "a44c34faf142030387f2e81d14b6af879f9b4659819ee2fd630e076528c31a88"
+    },
+    {
+      "id": "mineral-wool-leaching-test-boundaries",
+      "doi": "10.3390/ma15062050",
+      "sha256": "2cebc7f1dbc95e8ed59481611a9e4d677283905839a905678e925469e59f8ef6"
+    },
+    {
+      "id": "walnut-shell-lightweight-water-uptake",
+      "doi": "10.3390/ma15113936",
+      "sha256": "ed704205cc58728d494ed79d3b0e35c647eadc2b31d0bb73dbdfc9ba6169c0ca"
+    },
+    {
+      "id": "crt-glass-coupled-activator-comparisons",
+      "doi": "10.3390/polym13071149",
+      "sha256": "3c0d45a47b54b158b5ed3a07019c62f09cd96b09457f3d788118b9028811e1e5"
+    },
+    {
+      "id": "glass-particle-size-foam-density",
+      "doi": "10.3390/ma16052044",
+      "sha256": "446a40a81ce23e8b2dc1f390b5c85bc1846684e8660407061c4d062246d98125"
+    },
+    {
+      "id": "zeolite-pvac-membrane-lead-mass-balance",
+      "doi": "10.3390/polym17091155",
+      "sha256": "7c5fdda967b8f11821fb55cc604b263623e2d34e79501c63a790af87a09311f9"
+    },
+    {
+      "id": "asr-pore-solution-versus-total-alkali",
+      "doi": "10.3390/infrastructures5110096",
+      "sha256": "1e9e96c0ceaa8ec757ba721b75dbea0e4f1e1846ea0f4ca9e67b7d336ea7ce14"
+    },
+    {
+      "id": "slag-softening-inverse-analysis-limits",
+      "doi": "10.3390/ma13225200",
+      "sha256": "702ec6fb7d5f304266e47f00fbdf77e36374fbe4e75b059f444f05898af3b32e"
+    },
+    {
+      "id": "steel-fiber-fracture-energy-test-boundary",
+      "doi": "10.3390/ma11081445",
+      "sha256": "676035aa5855a73c7e71f05414690d8d8176cb7ff871879e507ca3a19df14f74"
+    },
+    {
+      "id": "rice-husk-silicate-extraction-basis",
+      "doi": "10.3390/polym14142920",
+      "sha256": "ad6e10d26dcff7b713bb48e7a0c940b8507ba0f396fa53ce59808a1244a26a46"
+    },
+    {
+      "id": "one-part-activator-dose-long-term-age",
+      "doi": "10.3390/ma14154160",
+      "sha256": "7424ce8eca4d1a2e34c8ce5a99b7047360488512888d6495a4287af1ccc9d783"
+    },
+    {
+      "id": "carbon-black-self-sensing-load-levels",
+      "doi": "10.3390/ma14164350",
+      "sha256": "7e604473f8c8bc252da18ce3e5ee7f468814a3705ffc4ecd5a91398b8a476c29"
+    },
+    {
+      "id": "thermal-storage-prototype-cycle-boundary",
+      "doi": "10.3390/ma15207086",
+      "sha256": "90b569189af94578ba8053d551222869b91a5d938e22b2f988bf1511c67a9d25"
+    },
+    {
+      "id": "repair-bond-acoustic-emission-boundary",
+      "doi": "10.3390/ma12101697",
+      "sha256": "1dbfb4e7f2298d123ee7458f65a27cf9debcf9559b2bc1c542bdca05edcba972"
+    },
+    {
+      "id": "peroxide-sds-foam-pore-definitions",
+      "doi": "10.3390/min12070821",
+      "sha256": "c60bd2c41bd437611a101ffb141367c518c915536750df0cf674948b52560373"
+    },
+    {
+      "id": "surfactant-charge-dose-aluminum-foams",
+      "doi": "10.3390/ma15217486",
+      "sha256": "efdc014d64659c97954d80a394705a9180d5c38c7ed161800a26c44cb83593ed"
+    },
+    {
+      "id": "lightweight-aggregate-absorption-activator-budget",
+      "doi": "10.3390/ma17081798",
+      "sha256": "e79629ff0020faaa4654456b217d7b139777f127b954ae2ae8e0ba2b6a8465b5"
+    },
+    {
+      "id": "diatomite-sag-setting-water-retention",
+      "doi": "10.3390/ma17112516",
+      "sha256": "4e9761ba37abb42f2ff24d57d4fb4054770e6ef2f6d3d9c8e8967b1f98655f91"
+    },
+    {
+      "id": "slag-retarders-hydrate-basis-strength",
+      "doi": "10.3390/ma16083010",
+      "sha256": "b7ba4ac5fe2e760e66550c38f55b840414aa7312e0ba5438da8fde0d466f8d99"
+    },
+    {
+      "id": "ten-year-fly-ash-age-and-assay-boundaries",
+      "doi": "10.3390/ma16031096",
+      "sha256": "b2fa86326888b3a29bc2e2638c872f8fd1e9c9b4dcdda76155245623475515c3"
+    },
+    {
+      "id": "bagasse-mixed-alkali-cement-hybrid",
+      "doi": "10.3390/ma13153437",
+      "sha256": "71fbb862d4eb456174a60d89105b132f3149b3180e3e454822e743f99dd4d52a"
+    },
+    {
+      "id": "fly-ash-silica-fume-activator-cost-boundary",
+      "doi": "10.3390/jcs10010022",
+      "sha256": "4cd714fdd31a371ef835e34a6bb41e1ef0a06e02391fac1719cefa6bc6eca6c8"
+    },
+    {
+      "id": "early-strength-paste-mortar-concrete-scale",
+      "doi": "10.3390/ma18245648",
+      "sha256": "13ed15a4e6140304a1c9b0c86bac61e6d189b186a35251a66f6b3aaa7d21fdf8"
+    },
+    {
+      "id": "fly-ash-pavement-optimization-exposure-clock",
+      "doi": "10.3390/ma15103458",
+      "sha256": "7dbc8242b308f7edfc7263b4c66d7454adab81fd179f59381927cb0462b48aaa"
+    },
+    {
+      "id": "lime-pozzolan-hybrid-age-comparison",
+      "doi": "10.3390/ma15082736",
+      "sha256": "6887c159c7cac366dc68548b9f2da2468a5bb88e04bb7d60fc25280befc0dfc5"
+    },
+    {
+      "id": "filler-hot-versus-residual-strength",
+      "doi": "10.3390/ma13102395",
+      "sha256": "a952861659fc2db721d798edc51db90a6c9d24abec8d90cde11980da2967b218"
+    },
+    {
+      "id": "cork-water-demand-insulation-tradeoff",
+      "doi": "10.3390/app13031804",
+      "sha256": "8eb9c1030cf89b34c6b1a7550ab299dd8f43066632761b18ca7e6403dfc297fd"
+    },
+    {
+      "id": "coir-glass-carbon-fiber-mixing-failure",
+      "doi": "10.3390/ma14164599",
+      "sha256": "83a573b0b8699485d71a494a94c77cd90162548e7e632d0f3315f03c445b0628"
+    },
+    {
+      "id": "epoxy-geopolymer-co-reticulation-timing",
+      "doi": "10.3390/ma9060461",
+      "sha256": "8cd2266eeef90f4a00b29805222d89da4ac52533bb5ca3b8c1c9cfea67fa681d"
+    },
+    {
+      "id": "steel-slag-red-mud-calcium-coupled-effects",
+      "doi": "10.3390/ma17061249",
+      "sha256": "c10eec776398d4e0ece7a5df11711539059bf1936d953fa487233befbe9cf77e"
+    },
+    {
+      "id": "seashell-limestone-replacement-versus-dilution",
+      "doi": "10.3390/min13020186",
+      "sha256": "23f1993d2180ba8d228e2ecce2d4e03737424638e8b021760a7c2cbd9fa7f4b1"
+    },
+    {
+      "id": "one-part-waste-sand-water-demand",
+      "doi": "10.3390/ma14112911",
+      "sha256": "4d34c58b7286f8bdb635f3cfb1865f39d96331e4df1ef3639acd1c891942773f"
+    },
+    {
+      "id": "rap-geopolymer-grout-versus-composite",
+      "doi": "10.3390/ma13163644",
+      "sha256": "cc76394c0edb3b83de20751c524e2da54b426c140d7f36b50d11effc0c6e82f2"
+    },
+    {
+      "id": "ceramsite-treatment-shrinkage-model-domain",
+      "doi": "10.3390/ma18040915",
+      "sha256": "b7f89b7b4bd9fcc4e86c2df1dbbeb4feccf510841e5b15053100ccf9f3944da0"
+    },
+    {
+      "id": "activator-corrosion-electrochemical-boundary",
+      "doi": "10.3390/coatings15060734",
+      "sha256": "b766100f9556425d37deabcd5d72258006e9568ae31533eee8682d8ee6571dbd"
+    },
+    {
+      "id": "foam-nmr-acquisition-time-versus-kinetics",
+      "doi": "10.3390/min14050516",
+      "sha256": "104d97a4c6088a3bd88dcf74b3389eba419f20180110334784d12881cb52e640"
+    },
+    {
+      "id": "calcium-hydroxide-initial-versus-final-set",
+      "doi": "10.3390/ma15010194",
+      "sha256": "d34c7196416bdfd7aae304bbe4efd5a9d58880c4ad6a5cabe02cd21ef22a5b19"
+    },
+    {
+      "id": "silicate-modulus-slag-interaction",
+      "doi": "10.3390/min10010015",
+      "sha256": "eb31bcf2c5fba8d7d4c1cc29ab8da06dd5835596d906b1f3b63cd228ebb7b4fe"
+    },
+    {
+      "id": "seawater-strength-versus-free-chloride",
+      "doi": "10.3390/ma13061467",
+      "sha256": "a709678dd51c211811a1960b986818947973e1509c9e2b0e33c36934d04f47a5"
+    },
+    {
+      "id": "wollastonite-metakaolin-phase-estimation",
+      "doi": "10.3390/ma17174338",
+      "sha256": "0f2dbcef2b30db610dd91d6252c941eed8c2aadd505ee240e0ad7a5731075863"
+    },
+    {
+      "id": "limestone-fly-ash-slag-mixture-design",
+      "doi": "10.3390/app14020553",
+      "sha256": "23d78bc45cfe236555f8d1972ecd20c8f32fd891310cbaf734adcbfaae3ab25b"
+    },
+    {
+      "id": "kaolin-granite-residue-consistency-cure",
+      "doi": "10.3390/ma17225610",
+      "sha256": "d8aa59cbd6dd5aeb3b321cc76a0469693085034fa9c47399e7a4162d3fe56524"
+    },
+    {
+      "id": "tailings-slag-setting-modulus-window",
+      "doi": "10.3390/gels10110700",
+      "sha256": "f36598254314792f4d4f3ab622c6b6d36039bcfd262e418c08d895ff51a5abe2"
+    },
+    {
+      "id": "pcm-thermal-conductivity-direction",
+      "doi": "10.3390/ma18112557",
+      "sha256": "8194861d04c354acdcd8d1c35d3d322b11a6b50bc2fdbbe53db024e5e4c7ef9a"
+    },
+    {
+      "id": "coal-gangue-compression-flexure-modulus",
+      "doi": "10.3390/gels8030145",
+      "sha256": "b19325b13ab9be6b1762d385b30b0f67ae64db90f3c581cebd45c986cd9a19ec"
+    },
+    {
+      "id": "slag-resistivity-alkali-confounding",
+      "doi": "10.3390/polym15030518",
+      "sha256": "7b60007b7e1be7267ea627d571e751d54de065e3f3301a535ecec5690e92797e"
+    },
+    {
+      "id": "sodium-aluminate-shrinkage-reaction-tradeoff",
+      "doi": "10.3390/ma13163499",
+      "sha256": "b6d637866a93eb99d3fd8397c9b27f6095f6f165afdd612967542308721961c6"
+    },
+    {
+      "id": "metakaolin-quantitative-phase-water-strength",
+      "doi": "10.3390/min12111342",
+      "sha256": "3ba3200d58ae871fc1f435324425609ce1a0622c616a3de0fe280cb84a74163a"
+    },
+    {
+      "id": "sea-sand-shrinkage-water-loss-clock",
+      "doi": "10.3390/ma18051005",
+      "sha256": "ec8cb26f38aa429a6daf1ec8716ac969c18ce1deba7616f7e50808f72c94a006"
+    },
+    {
+      "id": "zeolite-binder-porosity-strength-selection",
+      "doi": "10.3390/inorganics7120141",
+      "sha256": "1c45f4a1406f5a1929cb7b078c81a2d151e031b08334ea0af2097e3a3c90fd0f"
+    },
+    {
+      "id": "shrinkage-admixture-retardation-incompatibility",
+      "doi": "10.3390/ma9060462",
+      "sha256": "a59a0b37bb823fe832b700d57361a2848f84d03039d78346e5a127e4c3576b61"
+    },
+    {
+      "id": "ceramsite-hollow-block-placement-tradeoff",
+      "doi": "10.3390/app8122358",
+      "sha256": "15c7fbb3a7c5e699541ff2b06b912154d801057a924450e37133b2a9fe0ed7d6"
+    },
+    {
+      "id": "carbonated-wollastonite-alkali-reduction-limit",
+      "doi": "10.3390/ma17194910",
+      "sha256": "74c7b498c6881f4445f71db6e9408a24a8b3685245011cecbb080f19f15d0347"
+    },
+    {
+      "id": "metakaolin-thermal-scan-chemorheology-domain",
+      "doi": "10.3390/polym16020211",
+      "sha256": "efdf0452f30a16e14bdede5a2cbb2ba38f47edac25025b10e1b701414f9d1d15"
+    },
+    {
+      "id": "unfired-ceramic-activation-cure-comparison",
+      "doi": "10.3390/min11020197",
+      "sha256": "0d056dd7c23406abe3962520e395b38abd24d939d30baac7fac7214e54097fd7"
+    },
+    {
+      "id": "fly-ash-source-setting-alkali-equivalent",
+      "doi": "10.3390/polym14010063",
+      "sha256": "595505cc16750a45458b157f8ee5bc9b2100af0b0dab811d6359147c39c2f13f"
+    },
+    {
+      "id": "thermally-modified-clay-multi-parameter-synthesis",
+      "doi": "10.3390/app12189085",
+      "sha256": "07d7b1b37f9d1b80def2bdc8f14389685f978c4692662fb9633219ed5644f3ad"
+    },
+    {
+      "id": "clay-stabilization-activation-optimum",
+      "doi": "10.3390/ma15134628",
+      "sha256": "25fd744ad677716678ce38cf52999358499073db01ba6a6ab04d6b449fe2bcb5"
+    },
+    {
+      "id": "graphite-self-sensing-stress-frequency-domain",
+      "doi": "10.3390/ma12101616",
+      "sha256": "d9d88c915e75aa636a50fd045400d0b6bfcbfd166cd3b40dac39dfe14fbac32d"
+    }
+  ]
+}

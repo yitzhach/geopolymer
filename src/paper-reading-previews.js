@@ -6817,5 +6817,2955 @@ export const paperReadingPreviews = [
         "source": "https://www.mdpi.com/1996-1944/12/10/1616"
       }
     ]
+  },
+  {
+    "doi": "10.3390/ma18040750",
+    "publicationId": "ke-b34-022",
+    "deepDiveId": "graphite-resistance-capacitance-comparison",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Which electrical readout is useful when the binder matrix changes, and does a sensing benefit require greater stiffness? The study compares graphite-filled geopolymer and cement composites under compression. Electrical response depends on specimen conditioning, excitation and geometry; a fitted descriptor and an independently validated sensing function are different evidence."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Resistance- and capacitance-based sensing were compared during compressive loading. Source-specific detail still to reconcile: Retrieve graphite basis, electrode arrangement, excitation settings and load range before comparing sensitivity across binders."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The alkali-activated materials were less stiff but provided better sensing in this comparison; resistance-based sensing performed better than capacitance-based sensing. Editorial reading check: Keep stiffness, electrical sensitivity and usable stress range as separate acceptance criteria; a sensing advantage does not establish greater load capacity."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "Pair both electrical readouts with the same loading and conditioning history.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Keep stiffness, electrical sensitivity and usable stress range as separate acceptance criteria; a sensing advantage does not establish greater load capacity."
+    ],
+    "limitations": [
+      "Retrieve graphite basis, electrode arrangement, excitation settings and load range before comparing sensitivity across binders.",
+      "Keep stiffness, electrical sensitivity and usable stress range as separate acceptance criteria; a sensing advantage does not establish greater load capacity.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers evaluating electrical monitoring, functional composites and the limits of translating laboratory signals into service performance.",
+    "links": {
+      "deepDive": "/deep-dives/graphite-resistance-capacitance-comparison",
+      "originalArticle": "https://doi.org/10.3390/ma18040750"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/1996-1944/18/4/750"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Indexed primary account of compression and electrical readouts",
+        "source": "https://www.mdpi.com/1996-1944/18/4/750"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract and discussion, matrix stiffness and sensing comparisons",
+        "source": "https://www.mdpi.com/1996-1944/18/4/750"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma15103543",
+    "publicationId": "ke-b35-003",
+    "deepDiveId": "cnt-impedance-equivalent-circuit",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "What does impedance fitting reveal about a conductive composite, and which parts of a sensor claim remain untested? A metakaolin/CRT-glass geopolymer was reinforced with ultra-long multi-walled carbon nanotubes. Electrical response depends on specimen conditioning, excitation and geometry; a fitted descriptor and an independently validated sensing function are different evidence."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "In-house nanotubes were produced by catalytic CVD; impedance spectra were described using series resistance, parallel resistance and capacitance. Source-specific detail still to reconcile: Reconcile nanotube mass denominator, dispersion procedure, specimen counts, moisture and frequency range before using the reported improvement."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The source reports more than threefold conductivity growth with 1% nanotube mass content; the CNT-free material had the lowest capacitance. Editorial reading check: Equivalent-circuit components are fitted electrical descriptors. They do not establish an independently calibrated field sensor or a universal nanotube benefit."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Record circuit assumptions and compare fits using matched electrode and moisture conditions.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Equivalent-circuit components are fitted electrical descriptors. They do not establish an independently calibrated field sensor or a universal nanotube benefit."
+    ],
+    "limitations": [
+      "Reconcile nanotube mass denominator, dispersion procedure, specimen counts, moisture and frequency range before using the reported improvement.",
+      "Equivalent-circuit components are fitted electrical descriptors. They do not establish an independently calibrated field sensor or a universal nanotube benefit.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers evaluating electrical monitoring, functional composites and the limits of translating laboratory signals into service performance.",
+    "links": {
+      "deepDive": "/deep-dives/cnt-impedance-equivalent-circuit",
+      "originalArticle": "https://doi.org/10.3390/ma15103543"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/1996-1944/15/10/3543"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Synthesis and averaged equivalent-circuit discussion",
+        "source": "https://www.mdpi.com/1996-1944/15/10/3543"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Primary material overview; capacitance comparison, Figure 5 discussion",
+        "source": "https://www.mdpi.com/1996-1944/15/10/3543"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/min11070732",
+    "publicationId": "ke-b35-004",
+    "deepDiveId": "copper-slag-foam-connected-pores",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "What does a connected pore network imply for an insulation board, and which performance measurements must be checked separately? Copper slag, potassium hydroxide solution and aluminum powder were used for foam boards. Heat transport, heat capacity, mechanical retention and application suitability are different endpoints and require their own explicit test boundaries."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Slag was dried for 24 hours at 100 °C, ground and sieved to at most 60 µm; viscosity and setting tests guided foaming conditions. Source-specific detail still to reconcile: Retrieve water-absorption basis, board composition and conditioning before relating water uptake to pore connectivity, strength or conductivity."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The paper reports 42.3% water absorption and interprets this high uptake as evidence of an interconnected cell structure. Editorial reading check: Water absorption is not a direct porosity percentage or insulation rating. Keep mass uptake, pore accessibility and heat transport linked to their own test methods."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Pair pore-connectivity measurements with board strength and thermal tests.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Water absorption is not a direct porosity percentage or insulation rating. Keep mass uptake, pore accessibility and heat transport linked to their own test methods."
+    ],
+    "limitations": [
+      "Retrieve water-absorption basis, board composition and conditioning before relating water uptake to pore connectivity, strength or conductivity.",
+      "Water absorption is not a direct porosity percentage or insulation rating. Keep mass uptake, pore accessibility and heat transport linked to their own test methods.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers developing insulation, heat-storage or protective coatings and evaluating thermal performance together with mechanical constraints.",
+    "links": {
+      "deepDive": "/deep-dives/copper-slag-foam-connected-pores",
+      "originalArticle": "https://doi.org/10.3390/min11070732"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2075-163X/11/7/732"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Materials and paste-preparation passages",
+        "source": "https://www.mdpi.com/2075-163X/11/7/732"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Water-absorption discussion and selected material evaluation",
+        "source": "https://www.mdpi.com/2075-163X/11/7/732"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/en18123107",
+    "publicationId": "ke-b35-005",
+    "deepDiveId": "brick-waste-tes-phase-diagram-domain",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How can phase-diagram screening help select heat-storage binders without replacing physical heat-exposure tests? The study develops brick-waste inorganic polymers for high-temperature sensible thermal energy storage. Heat transport, heat capacity, mechanical retention and application suitability are different endpoints and require their own explicit test boundaries."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Sodium and potassium hydroxide compositions were screened using ternary phase diagrams with liquidus temperatures above 700 °C, then selected materials were tested thermally and mechanically. Source-specific detail still to reconcile: Retrieve each selected composition, dehydration assumption and heating history before transferring the thermodynamic screen to a new waste source."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Potassium systems WB-K4 and WB-PS1-PH1-K5 were selected for elevated-temperature exposure based on the study comparisons. Editorial reading check: A predicted liquidus boundary is not an operating-temperature certification; repeated cycling, heat transport and retained strength require their own evidence."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Compare thermodynamic predictions with matched heated specimens and repeated cycles.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "A predicted liquidus boundary is not an operating-temperature certification; repeated cycling, heat transport and retained strength require their own evidence."
+    ],
+    "limitations": [
+      "Retrieve each selected composition, dehydration assumption and heating history before transferring the thermodynamic screen to a new waste source.",
+      "A predicted liquidus boundary is not an operating-temperature certification; repeated cycling, heat transport and retained strength require their own evidence.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers developing insulation, heat-storage or protective coatings and evaluating thermal performance together with mechanical constraints.",
+    "links": {
+      "deepDive": "/deep-dives/brick-waste-tes-phase-diagram-domain",
+      "originalArticle": "https://doi.org/10.3390/en18123107"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/1996-1073/18/12/3107"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Composition screening and selected thermal-exposure program",
+        "source": "https://www.mdpi.com/1996-1073/18/12/3107"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Results, Figure 5b selection of potassium systems",
+        "source": "https://www.mdpi.com/1996-1073/18/12/3107"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma18071552",
+    "publicationId": "ke-b35-006",
+    "deepDiveId": "ladle-slag-soda-residue-setting",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How does the activator level change both placement time and strength in a relatively low-strength waste-derived binder? Ladle-furnace slag and soda residue were investigated as geopolymer feedstocks. Activator concentration, solution mass, oxide equivalent and liquid/solid ratio are different quantities; each needs a defined denominator and water contribution."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The study varied soda-residue content and Na2O equivalent while evaluating setting, compression and environmental impact. Source-specific detail still to reconcile: Reconcile Na2O denominator, solution modulus, residue fraction and condition-level pairing before joining the setting and maximum-strength results."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Increasing Na2O equivalent from 6% to 12% shortened initial set from 115 to 56 minutes; maximum reported 28-day compression reached 12.0 MPa. Editorial reading check: The fastest set and highest strength must not be combined into an invented recipe. Keep source condition identities and environmental system boundaries attached."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Select a practical setting window before ranking the mechanical comparisons.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "The fastest set and highest strength must not be combined into an invented recipe. Keep source condition identities and environmental system boundaries attached."
+    ],
+    "limitations": [
+      "Reconcile Na2O denominator, solution modulus, residue fraction and condition-level pairing before joining the setting and maximum-strength results.",
+      "The fastest set and highest strength must not be combined into an invented recipe. Keep source condition identities and environmental system boundaries attached.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Formulators comparing activator chemistry, fresh behavior and strength with explicit ingredient and curing definitions.",
+    "links": {
+      "deepDive": "/deep-dives/ladle-slag-soda-residue-setting",
+      "originalArticle": "https://doi.org/10.3390/ma18071552"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/1996-1944/18/7/1552"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Experimental variables and setting tests",
+        "source": "https://www.mdpi.com/1996-1944/18/7/1552"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Setting discussion, Figure 6a; strength summary",
+        "source": "https://www.mdpi.com/1996-1944/18/7/1552"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/min11060593",
+    "publicationId": "ke-b35-007",
+    "deepDiveId": "industrial-side-stream-qualification",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Which feedstock properties need to be screened before several industrial residues can be treated as interchangeable binder ingredients? The study characterizes industrial side streams and prepares residue-based composites without pretreatment. A waste-source label does not establish lot composition or reactivity. Precursor replacement, filler addition and aggregate substitution describe different material roles."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Particle size, BET, microscopy, elemental/mineral analyses, thermal analysis and leaching tests supported material assessment. Source-specific detail still to reconcile: Retrieve each composite formulation, age, residue source and leaching protocol before attributing a result to a single side stream."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The OPC reference had the highest reported compression and flexure, 50 and 6.0 MPa respectively, in the compared composite set. Editorial reading check: A successful demonstration is not lot qualification or universal waste compatibility. Lower strength than the reference can still require a separate application assessment."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Create a lot-specific characterization and leaching record before blend trials.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "A successful demonstration is not lot qualification or universal waste compatibility. Lower strength than the reference can still require a separate application assessment."
+    ],
+    "limitations": [
+      "Retrieve each composite formulation, age, residue source and leaching protocol before attributing a result to a single side stream.",
+      "A successful demonstration is not lot qualification or universal waste compatibility. Lower strength than the reference can still require a separate application assessment.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers evaluating waste-derived feedstocks, material substitution and the controls needed before reproducing a laboratory comparison.",
+    "links": {
+      "deepDive": "/deep-dives/industrial-side-stream-qualification",
+      "originalArticle": "https://doi.org/10.3390/min11060593"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2075-163X/11/6/593"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Characterization and composite-development overview",
+        "source": "https://www.mdpi.com/2075-163X/11/6/593"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Mechanical-property discussion, reference comparison",
+        "source": "https://www.mdpi.com/2075-163X/11/6/593"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma18163853",
+    "publicationId": "ke-b35-010",
+    "deepDiveId": "metal-chamotte-thermal-effusivity",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Does a filler improve heat exchange while preserving useful mechanical behavior after heating? Waste metal and chamotte fillers were studied in metakaolinite-based geopolymer composites for energy storage. Heat transport, heat capacity, mechanical retention and application suitability are different endpoints and require their own explicit test boundaries."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Thermal and mechanical comparisons included high-temperature exposure and a chamotte-brick reference. Source-specific detail still to reconcile: Retrieve filler fraction, reference conditioning, exposure duration and exact tested condition before pairing thermal and residual-strength extrema."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Optimized composites had thermal effusivity more than 50% above chamotte brick; selected heated composites retained compression around 20 MPa after 1100 °C exposure. Editorial reading check: Effusivity measures heat exchange behavior, not storage capacity alone. A single exposure result does not establish thermal-cycling durability or a service rating."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "Track heat transport, storage capacity and residual strength as separate endpoints.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Effusivity measures heat exchange behavior, not storage capacity alone. A single exposure result does not establish thermal-cycling durability or a service rating."
+    ],
+    "limitations": [
+      "Retrieve filler fraction, reference conditioning, exposure duration and exact tested condition before pairing thermal and residual-strength extrema.",
+      "Effusivity measures heat exchange behavior, not storage capacity alone. A single exposure result does not establish thermal-cycling durability or a service rating.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers developing insulation, heat-storage or protective coatings and evaluating thermal performance together with mechanical constraints.",
+    "links": {
+      "deepDive": "/deep-dives/metal-chamotte-thermal-effusivity",
+      "originalArticle": "https://doi.org/10.3390/ma18163853"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/1996-1944/18/16/3853"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Analytical/testing overview and elevated-temperature comparison",
+        "source": "https://www.mdpi.com/1996-1944/18/16/3853"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract and thermal/mechanical discussion",
+        "source": "https://www.mdpi.com/1996-1944/18/16/3853"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma15093189",
+    "publicationId": "ke-b35-011",
+    "deepDiveId": "diabase-mud-hybrid-activation",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Can a silica-rich quarry waste work in a hybrid binder, and which changes accompany an activator comparison? The paper studies geopolymerization of quarry diabase mud through three hybrid cases. A waste-source label does not establish lot composition or reactivity. Precursor replacement, filler addition and aggregate substitution describe different material roles."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Selected cases varied sodium-silicate/NaOH proportion and molarity; some included CEM I and different ambient conditions. Source-specific detail still to reconcile: Reconcile ratio basis, CEM I contribution, test age and curing before converting the selected comparison into a waste-only formulation."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "At a matched 10 M condition, the source identifies the 30:70 sodium-silicate/NaOH ratio as giving the highest strengths in the compared cases. Editorial reading check: Hybrid cases are distinct systems. A ratio ranking at one molarity is not an optimum across all ages, cement additions or diabase sources."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Keep each hybrid case and its activator ledger separate.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Hybrid cases are distinct systems. A ratio ranking at one molarity is not an optimum across all ages, cement additions or diabase sources."
+    ],
+    "limitations": [
+      "Reconcile ratio basis, CEM I contribution, test age and curing before converting the selected comparison into a waste-only formulation.",
+      "Hybrid cases are distinct systems. A ratio ranking at one molarity is not an optimum across all ages, cement additions or diabase sources.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers evaluating waste-derived feedstocks, material substitution and the controls needed before reproducing a laboratory comparison.",
+    "links": {
+      "deepDive": "/deep-dives/diabase-mud-hybrid-activation",
+      "originalArticle": "https://doi.org/10.3390/ma15093189"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/1996-1944/15/9/3189"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Three-case experimental design",
+        "source": "https://www.mdpi.com/1996-1944/15/9/3189"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Discussion, equivalent-10 M comparison",
+        "source": "https://www.mdpi.com/1996-1944/15/9/3189"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/polym13213747",
+    "publicationId": "ke-b35-013",
+    "deepDiveId": "rha-coating-response-surface",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "What does a response-surface optimum establish for a fire-retardant coating, and which test definitions control its meaning? The study examines rice-husk-ash/alkaline-solution ratio and NaOH concentration in coatings. Heat transport, heat capacity, mechanical retention and application suitability are different endpoints and require their own explicit test boundaries."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Response-surface modeling evaluated the source thermal responses TAE and TT300 alongside material characterization. Source-specific detail still to reconcile: Retrieve the exact TAE and TT300 definitions, coating thickness, substrate and ratio denominator before interpreting or reproducing the optimum."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The reported modeled optimum for those responses used RHA/AA of 0.30 and NaOH concentration of 6 M. Editorial reading check: A fitted optimum belongs to the measured design domain and response definitions. It is not a universal fire classification or an independently validated protection time."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Verify coating geometry and thermal response definitions before selecting an optimization target.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "A fitted optimum belongs to the measured design domain and response definitions. It is not a universal fire classification or an independently validated protection time."
+    ],
+    "limitations": [
+      "Retrieve the exact TAE and TT300 definitions, coating thickness, substrate and ratio denominator before interpreting or reproducing the optimum.",
+      "A fitted optimum belongs to the measured design domain and response definitions. It is not a universal fire classification or an independently validated protection time.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers developing insulation, heat-storage or protective coatings and evaluating thermal performance together with mechanical constraints.",
+    "links": {
+      "deepDive": "/deep-dives/rha-coating-response-surface",
+      "originalArticle": "https://doi.org/10.3390/polym13213747"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2073-4360/13/21/3747"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Response-surface design and thermal-response definitions",
+        "source": "https://www.mdpi.com/2073-4360/13/21/3747"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Primary optimization account, TAE/TT300",
+        "source": "https://www.mdpi.com/2073-4360/13/21/3747"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma8095294",
+    "publicationId": "ke-b35-016",
+    "deepDiveId": "potassium-coating-successive-fire",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Can a protective coating remain useful after repeated severe heating, and how far can a small-scale test support that claim? A ferronickel-slag potassium geopolymer coating was investigated for tunnel passive fire protection. Heat transport, heat capacity, mechanical retention and application suitability are different endpoints and require their own explicit test boundaries."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The material used alumina-doped slag and underwent successive severe thermal loading in small-scale tests referencing the RWS temperature-time curve. Source-specific detail still to reconcile: Retrieve coat thickness, substrate, cycle count, cooling and temperature criteria before assigning a protection duration or comparison with a building standard."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The authors conclude that the designed material provided strong fire resistance in the small-scale passive-protection tests. Editorial reading check: This is a qualitative source conclusion at the tested scale. Full-scale fire certification and repeat-event service suitability remain separate questions."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Retain the complete heating and cooling history for every repeat exposure.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "This is a qualitative source conclusion at the tested scale. Full-scale fire certification and repeat-event service suitability remain separate questions."
+    ],
+    "limitations": [
+      "Retrieve coat thickness, substrate, cycle count, cooling and temperature criteria before assigning a protection duration or comparison with a building standard.",
+      "This is a qualitative source conclusion at the tested scale. Full-scale fire certification and repeat-event service suitability remain separate questions.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers developing insulation, heat-storage or protective coatings and evaluating thermal performance together with mechanical constraints.",
+    "links": {
+      "deepDive": "/deep-dives/potassium-coating-successive-fire",
+      "originalArticle": "https://doi.org/10.3390/ma8095294"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/1996-1944/8/9/5294"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Synthesis overview and successive-fire testing",
+        "source": "https://www.mdpi.com/1996-1944/8/9/5294"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Conclusions, small-scale passive protection",
+        "source": "https://www.mdpi.com/1996-1944/8/9/5294"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/app12063116",
+    "publicationId": "ke-b35-017",
+    "deepDiveId": "marine-hybrid-cure-short-exposure",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How much can a few months of marine conditioning say about a self-compacting binder intended for marine service? The study examines hybrid-curable self-compacting geopolymer concrete under marine-related conditioning. An exposure result belongs to a specific conditioning history. Chemical resistance, electrochemical response and predicted service life describe different levels of evidence."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Compression and modulus were evaluated during exposure, including wet–dry cycling that simulated harsher marine conditions. Source-specific detail still to reconcile: Retrieve the cure sequence, solution composition, wet/dry durations and baseline age before treating exposure time as total specimen age."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Compression increased slightly, about 6%, after two months of marine exposure and then stabilized at three months; long-term investigation was still needed. Editorial reading check: Early strength stability is not corrosion clearance or long-term chloride durability. Separate marine conditioning benefits from a whole-service-life prediction."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Record cure age and exposure duration as different clocks.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Early strength stability is not corrosion clearance or long-term chloride durability. Separate marine conditioning benefits from a whole-service-life prediction."
+    ],
+    "limitations": [
+      "Retrieve the cure sequence, solution composition, wet/dry durations and baseline age before treating exposure time as total specimen age.",
+      "Early strength stability is not corrosion clearance or long-term chloride durability. Separate marine conditioning benefits from a whole-service-life prediction.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers evaluating aggressive exposure and corrosion, with attention to conditioning, mechanical endpoints and the limits of service-life inference.",
+    "links": {
+      "deepDive": "/deep-dives/marine-hybrid-cure-short-exposure",
+      "originalArticle": "https://doi.org/10.3390/app12063116"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2076-3417/12/6/3116"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Conditioning and mechanical comparison",
+        "source": "https://www.mdpi.com/2076-3417/12/6/3116"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Results, two- and three-month strength development",
+        "source": "https://www.mdpi.com/2076-3417/12/6/3116"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma14010056",
+    "publicationId": "ke-b35-018",
+    "deepDiveId": "repair-bond-zone-surface-interlock",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Which parts of a repair bond come from interface chemistry and which depend on preparing the old substrate? Fly-ash geopolymer repair material was joined to ordinary Portland cement concrete. A bond test imposes a particular stress state. Failure in the repair material, substrate and interface provides different information about the bonded system."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Composite prisms of 50 × 50 × 125 mm were examined with slant-shear tests and interface microscopy; specimens were protected against moisture loss. Source-specific detail still to reconcile: Retrieve interface angle, preparation roughness, substrate age and bond-area convention before comparing slant-shear values with tensile adhesion."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The source links bonding to both geopolymerization at the interface and mineral interlocking, with surface preparation affecting the result. Editorial reading check: Interface micrographs support an interpretation but do not isolate chemistry from roughness. Different bond-test stress states should not be pooled as one strength."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Record surface preparation and failure location alongside every bond result.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Interface micrographs support an interpretation but do not isolate chemistry from roughness. Different bond-test stress states should not be pooled as one strength."
+    ],
+    "limitations": [
+      "Retrieve interface angle, preparation roughness, substrate age and bond-area convention before comparing slant-shear values with tensile adhesion.",
+      "Interface micrographs support an interpretation but do not isolate chemistry from roughness. Different bond-test stress states should not be pooled as one strength.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers and repair designers comparing interface tests, substrate preparation and failure locations in repair systems.",
+    "links": {
+      "deepDive": "/deep-dives/repair-bond-zone-surface-interlock",
+      "originalArticle": "https://doi.org/10.3390/ma14010056"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/1996-1944/14/1/56"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Composite specimen and slant-shear methods",
+        "source": "https://www.mdpi.com/1996-1944/14/1/56"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Bond-zone discussion and Figure 8 interpretation",
+        "source": "https://www.mdpi.com/1996-1944/14/1/56"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma18102272",
+    "publicationId": "ke-b35-020",
+    "deepDiveId": "slag-repair-matrix-failure",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "What does a pull-out test mean when the repair layer fails before the interface separates? The paper evaluates alkali-activated slag mortar for repairing old OPC concrete. A bond test imposes a particular stress state. Failure in the repair material, substrate and interface provides different information about the bonded system."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Repair adhesion was assessed with pull-out testing and discussion of the contact zone. Source-specific detail still to reconcile: Retrieve specimen geometry, loading definition, repair composition and cure before quoting a numerical interface capacity."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The authors report rupture in the repair matrix, interpreting it as limited mortar mechanical resistance despite excellent adhesion to the old concrete. Editorial reading check: Cohesive repair failure does not measure the ultimate interface strength. Distinguish observed failure load from an independently determined adhesion limit."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Classify interface, repair and substrate failures before ranking repair candidates.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Cohesive repair failure does not measure the ultimate interface strength. Distinguish observed failure load from an independently determined adhesion limit."
+    ],
+    "limitations": [
+      "Retrieve specimen geometry, loading definition, repair composition and cure before quoting a numerical interface capacity.",
+      "Cohesive repair failure does not measure the ultimate interface strength. Distinguish observed failure load from an independently determined adhesion limit.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers and repair designers comparing interface tests, substrate preparation and failure locations in repair systems.",
+    "links": {
+      "deepDive": "/deep-dives/slag-repair-matrix-failure",
+      "originalArticle": "https://doi.org/10.3390/ma18102272"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/1996-1944/18/10/2272"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Methods and discussion, pull-out comparison",
+        "source": "https://www.mdpi.com/1996-1944/18/10/2272"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Conclusions, failure within the repair layer",
+        "source": "https://www.mdpi.com/1996-1944/18/10/2272"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/c11030055",
+    "publicationId": "ke-b35-021",
+    "deepDiveId": "lca-carbon-uncertainty-activators",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Which input assumptions dominate an environmental comparison, and what does correlation within a modeled inventory establish? The study compares geopolymer and conventional concrete through life-cycle assessment with uncertainty analysis. LCA is a scenario-based environmental assessment. Functional unit, allocation and lifecycle boundary define what is being compared; an impact category is not a direct laboratory measurement."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The analysis covers eighteen midpoint impact categories and examines ingredient relationships with carbon footprint. Source-specific detail still to reconcile: Retrieve functional unit, allocation, energy mix, transport and uncertainty distributions before transferring the modeled relationships to a local supply chain."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Sodium silicate and sodium hydroxide showed carbon-footprint correlations of r = 0.80 and r = 0.52 respectively in the modeled set. Editorial reading check: Inventory correlation is not a universal ingredient emission factor or causal marginal effect. Compare equal service requirements and disclose scenario assumptions."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Audit activator production and scenario uncertainty before claiming a carbon reduction.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Inventory correlation is not a universal ingredient emission factor or causal marginal effect. Compare equal service requirements and disclose scenario assumptions."
+    ],
+    "limitations": [
+      "Retrieve functional unit, allocation, energy mix, transport and uncertainty distributions before transferring the modeled relationships to a local supply chain.",
+      "Inventory correlation is not a universal ingredient emission factor or causal marginal effect. Compare equal service requirements and disclose scenario assumptions.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers assessing environmental claims, life-cycle assumptions and the functional equivalence of alternative binder systems.",
+    "links": {
+      "deepDive": "/deep-dives/lca-carbon-uncertainty-activators",
+      "originalArticle": "https://doi.org/10.3390/c11030055"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2311-5629/11/3/55"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "LCA impact-category and inventory analysis",
+        "source": "https://www.mdpi.com/2311-5629/11/3/55"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Results, ingredient/carbon correlation discussion",
+        "source": "https://www.mdpi.com/2311-5629/11/3/55"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma14237375",
+    "publicationId": "ke-b35-022",
+    "deepDiveId": "fly-ash-lca-strength-sensitivity",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Do the variables that increase strength also dominate carbon emissions, and how does the answer depend on the selected design? Fly-ash geopolymer and OPC concretes were compared at different strength grades. LCA is a scenario-based environmental assessment. Functional unit, allocation and lifecycle boundary define what is being compared; an impact category is not a direct laboratory measurement."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "LCA was combined with MANOVA and gray relational analysis of solution/fly-ash ratio, NaOH concentration and silicate/hydroxide ratio. Source-specific detail still to reconcile: Retrieve allocation, curing energy, functional unit and the exact comparison condition before applying the headline reduction."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The source reports a 62.73% CO2 reduction in its comparison and identifies solution/fly-ash ratio as the strongest studied emissions driver. Editorial reading check: A modeled reduction and factor ranking are bounded by the source inventory. They do not show that every stronger geopolymer automatically has a lower footprint."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "Compare strength-qualified mixtures using one explicit environmental boundary.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "A modeled reduction and factor ranking are bounded by the source inventory. They do not show that every stronger geopolymer automatically has a lower footprint."
+    ],
+    "limitations": [
+      "Retrieve allocation, curing energy, functional unit and the exact comparison condition before applying the headline reduction.",
+      "A modeled reduction and factor ranking are bounded by the source inventory. They do not show that every stronger geopolymer automatically has a lower footprint.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers assessing environmental claims, life-cycle assumptions and the functional equivalence of alternative binder systems.",
+    "links": {
+      "deepDive": "/deep-dives/fly-ash-lca-strength-sensitivity",
+      "originalArticle": "https://doi.org/10.3390/ma14237375"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/1996-1944/14/23/7375"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Abstract, LCA and statistical sensitivity methods",
+        "source": "https://www.mdpi.com/1996-1944/14/23/7375"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract and impact-correlation results",
+        "source": "https://www.mdpi.com/1996-1944/14/23/7375"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/su132011167",
+    "publicationId": "ke-b35-023",
+    "deepDiveId": "cenosphere-lca-density-strength",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How should lower density be valued when a lightweight binder also has lower strength? Fly-ash and cenosphere geopolymers were evaluated mechanically and with cradle-to-grave LCA. LCA is a scenario-based environmental assessment. Functional unit, allocation and lifecycle boundary define what is being compared; an impact category is not a direct laboratory measurement."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Inventories were scaled to one cubic metre and included waste and transport scenarios. Source-specific detail still to reconcile: Retrieve application requirement, allocation rules and transport distances before treating equal volumes as functionally equivalent products."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "At 28 days, compression was 64.56 MPa for fly ash and 19.09 MPa for cenospheres; the cenosphere material had about three-quarters the bulk density. Editorial reading check: A lower-density material can need a different section or function. Environmental comparisons should retain the mechanical tradeoff rather than compare volume alone."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Report density and strength together before selecting an LCA functional unit.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "A lower-density material can need a different section or function. Environmental comparisons should retain the mechanical tradeoff rather than compare volume alone."
+    ],
+    "limitations": [
+      "Retrieve application requirement, allocation rules and transport distances before treating equal volumes as functionally equivalent products.",
+      "A lower-density material can need a different section or function. Environmental comparisons should retain the mechanical tradeoff rather than compare volume alone.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers assessing environmental claims, life-cycle assumptions and the functional equivalence of alternative binder systems.",
+    "links": {
+      "deepDive": "/deep-dives/cenosphere-lca-density-strength",
+      "originalArticle": "https://doi.org/10.3390/su132011167"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2071-1050/13/20/11167"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "LCA scope and production/transport scenarios",
+        "source": "https://www.mdpi.com/2071-1050/13/20/11167"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Primary mechanical comparison at 28 days",
+        "source": "https://www.mdpi.com/2071-1050/13/20/11167"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/app122111205",
+    "publicationId": "ke-b36-002",
+    "deepDiveId": "foam-coating-application-method",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Can a mix that forms a foam also be applied reliably to a vertical surface? The study explores additive application of foamed geopolymers to existing structures. Heat transport, heat capacity, mechanical retention and application suitability are different endpoints and require their own explicit test boundaries."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Cup-gun air spraying and manual coating application were investigated with material particle-size and composition characterization. Source-specific detail still to reconcile: Retrieve pressure, nozzle, coating thickness, substrate and mix age before interpreting a failed or successful application."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The authors consider air spraying potentially applicable, but the medium-pressure Mix 2 attempt was less satisfactory than other application attempts. Editorial reading check: Potential spray applicability is not a demonstrated adhesion life or fire rating. Application failure can arise from equipment and rheology as well as binder chemistry."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Record application settings and retained coverage alongside the material formulation.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Potential spray applicability is not a demonstrated adhesion life or fire rating. Application failure can arise from equipment and rheology as well as binder chemistry."
+    ],
+    "limitations": [
+      "Retrieve pressure, nozzle, coating thickness, substrate and mix age before interpreting a failed or successful application.",
+      "Potential spray applicability is not a demonstrated adhesion life or fire rating. Application failure can arise from equipment and rheology as well as binder chemistry.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers developing insulation, heat-storage or protective coatings and evaluating thermal performance together with mechanical constraints.",
+    "links": {
+      "deepDive": "/deep-dives/foam-coating-application-method",
+      "originalArticle": "https://doi.org/10.3390/app122111205"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2076-3417/12/21/11205"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Application procedure and material characterization",
+        "source": "https://www.mdpi.com/2076-3417/12/21/11205"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Results, Mix 2 application comparison and conclusions",
+        "source": "https://www.mdpi.com/2076-3417/12/21/11205"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/su14094942",
+    "publicationId": "ke-b36-003",
+    "deepDiveId": "ambient-heat-cure-lca-flow",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How should fresh workability, curing demand and environmental burden be weighed in the same mixture comparison? Ambient- and heat-cured geopolymer composites were optimized and assessed environmentally. LCA is a scenario-based environmental assessment. Functional unit, allocation and lifecycle boundary define what is being compared; an impact category is not a direct laboratory measurement."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The environmental analysis used the CML 2016 method; mortar flow was compared across NaOH molarity. Source-specific detail still to reconcile: Retrieve all precursor constituents, water definitions, cure schedule and inventory boundaries before assigning a net environmental advantage."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Lower NaOH molarity generally produced higher flowability in the studied mixes. Editorial reading check: A fresh-flow trend does not settle cured strength or curing-energy tradeoffs. Keep modeled burdens and physical measurements attached to their own methods."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Compare the entire placement-and-curing route, not molarity alone.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "A fresh-flow trend does not settle cured strength or curing-energy tradeoffs. Keep modeled burdens and physical measurements attached to their own methods."
+    ],
+    "limitations": [
+      "Retrieve all precursor constituents, water definitions, cure schedule and inventory boundaries before assigning a net environmental advantage.",
+      "A fresh-flow trend does not settle cured strength or curing-energy tradeoffs. Keep modeled burdens and physical measurements attached to their own methods.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers assessing environmental claims, life-cycle assumptions and the functional equivalence of alternative binder systems.",
+    "links": {
+      "deepDive": "/deep-dives/ambient-heat-cure-lca-flow",
+      "originalArticle": "https://doi.org/10.3390/su14094942"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2071-1050/14/9/4942"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "LCA methods and fresh-property comparisons",
+        "source": "https://www.mdpi.com/2071-1050/14/9/4942"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Discussion, molarity/flow trend",
+        "source": "https://www.mdpi.com/2071-1050/14/9/4942"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/su15097718",
+    "publicationId": "ke-b36-004",
+    "deepDiveId": "brown-coal-brick-lca-boundary",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Which environmental categories improve when brown-coal fly ash replaces a conventional brick route? The study compares brown-coal fly-ash geopolymer bricks with Portland-cement bricks. LCA is a scenario-based environmental assessment. Functional unit, allocation and lifecycle boundary define what is being compared; an impact category is not a direct laboratory measurement."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "LCA spans source acquisition, transport, manufacture, distribution, use and end of life. Source-specific detail still to reconcile: Retrieve brick performance, functional unit, allocation and regional inventories before transferring category-specific benefits."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The authors report reductions in ozone, water and metal depletion, while raw-material manufacture and use remained important burdens. Editorial reading check: An improvement in selected impact categories is not an all-category environmental superiority claim. Equivalent service performance and end-of-life assumptions still matter."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "List category tradeoffs and dominant lifecycle stages before reporting an overall preference.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "An improvement in selected impact categories is not an all-category environmental superiority claim. Equivalent service performance and end-of-life assumptions still matter."
+    ],
+    "limitations": [
+      "Retrieve brick performance, functional unit, allocation and regional inventories before transferring category-specific benefits.",
+      "An improvement in selected impact categories is not an all-category environmental superiority claim. Equivalent service performance and end-of-life assumptions still matter.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers assessing environmental claims, life-cycle assumptions and the functional equivalence of alternative binder systems.",
+    "links": {
+      "deepDive": "/deep-dives/brown-coal-brick-lca-boundary",
+      "originalArticle": "https://doi.org/10.3390/su15097718"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2071-1050/15/9/7718"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Abstract, lifecycle boundary",
+        "source": "https://www.mdpi.com/2071-1050/15/9/7718"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract, impact-category and dominant-stage findings",
+        "source": "https://www.mdpi.com/2071-1050/15/9/7718"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma18133150",
+    "publicationId": "ke-b36-005",
+    "deepDiveId": "lightweight-aggregate-thermal-domain",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How far can lowering thermal conductivity be taken without losing the mechanical function required of a composite? The paper evaluates geopolymer concrete containing lightweight aggregates. Heat transport, heat capacity, mechanical retention and application suitability are different endpoints and require their own explicit test boundaries."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Thermal and microstructural characterization was combined with compression testing referencing EN 196-1. Source-specific detail still to reconcile: Retrieve aggregate fraction, density, moisture and measurement temperature before pairing the lowest conductivity with a mechanical result."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "A selected composite reached reported conductivity of 0.1708 W/(m·K), over 76% below the source base material. Editorial reading check: The best conductivity need not belong to the strongest mix. An insulation improvement alone does not demonstrate whole-building energy savings or structural adequacy."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Keep conductivity, density and strength linked to the same named composition.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "The best conductivity need not belong to the strongest mix. An insulation improvement alone does not demonstrate whole-building energy savings or structural adequacy."
+    ],
+    "limitations": [
+      "Retrieve aggregate fraction, density, moisture and measurement temperature before pairing the lowest conductivity with a mechanical result.",
+      "The best conductivity need not belong to the strongest mix. An insulation improvement alone does not demonstrate whole-building energy savings or structural adequacy.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers developing insulation, heat-storage or protective coatings and evaluating thermal performance together with mechanical constraints.",
+    "links": {
+      "deepDive": "/deep-dives/lightweight-aggregate-thermal-domain",
+      "originalArticle": "https://doi.org/10.3390/ma18133150"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/1996-1944/18/13/3150"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Mechanical and thermal testing descriptions",
+        "source": "https://www.mdpi.com/1996-1944/18/13/3150"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Conclusions, selected conductivity comparison",
+        "source": "https://www.mdpi.com/1996-1944/18/13/3150"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/su15042966",
+    "publicationId": "ke-b36-010",
+    "deepDiveId": "sand-stabilization-ckd-activation",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Which waste-derived binder changes improve compacted sand, and how much of the response depends on calcium chemistry? Sand was stabilized using waste feedstocks and natural pozzolan with CKD and alternative activation routes. Ground material, binder chemistry, water and placement state interact. Laboratory strength, slurry rheology and a theoretical diffusion model are separate forms of evidence."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Unconfined compression and mineralogical analysis compared CKD content and NaOH/CCR-activated systems. Source-specific detail still to reconcile: Retrieve CKD denominator, CCR identity, compacted density, moisture and age before converting the comparison into a soil recipe."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Increasing CKD from 10% to 20% generally increased UCS; the authors identify CKD as integral to the tested stabilization system. Editorial reading check: A local UCS trend is not a pavement design value. Feedstock assay and compaction state can change the apparent chemistry benefit."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Match moisture and dry density before comparing stabilizer chemistry.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "A local UCS trend is not a pavement design value. Feedstock assay and compaction state can change the apparent chemistry benefit."
+    ],
+    "limitations": [
+      "Retrieve CKD denominator, CCR identity, compacted density, moisture and age before converting the comparison into a soil recipe.",
+      "A local UCS trend is not a pavement design value. Feedstock assay and compaction state can change the apparent chemistry benefit.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers developing stabilization or grouting materials and assessing compaction, ground conditions and the limits of laboratory/model transfer.",
+    "links": {
+      "deepDive": "/deep-dives/sand-stabilization-ckd-activation",
+      "originalArticle": "https://doi.org/10.3390/su15042966"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2071-1050/15/4/2966"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Experimental variables and XRD/UCS comparisons",
+        "source": "https://www.mdpi.com/2071-1050/15/4/2966"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Results, CKD-content trend",
+        "source": "https://www.mdpi.com/2071-1050/15/4/2966"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma17102399",
+    "publicationId": "ke-b36-018",
+    "deepDiveId": "diatomite-binder-sand-replacement",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Does an additive help because of its chemistry or because it changes which ingredient is displaced? Diatomite was studied in fly-ash- and metakaolin-based geopolymers. A waste-source label does not establish lot composition or reactivity. Precursor replacement, filler addition and aggregate substitution describe different material roles."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The study compared introduction routes, including 5% diatomite partially replacing sand without changing binder amount. Source-specific detail still to reconcile: Retrieve percentage denominator, measured endpoints and equal-flow water adjustments before attributing the improvement to reactivity."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The sand-replacement route was more beneficial and improved the reported geopolymer parameters relative to the alternative introduction approach. Editorial reading check: Changing aggregate and changing binder are different experiments. The selected directional account does not establish one universal diatomite dose or strength gain."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "State the displaced ingredient explicitly for every diatomite comparison.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Changing aggregate and changing binder are different experiments. The selected directional account does not establish one universal diatomite dose or strength gain."
+    ],
+    "limitations": [
+      "Retrieve percentage denominator, measured endpoints and equal-flow water adjustments before attributing the improvement to reactivity.",
+      "Changing aggregate and changing binder are different experiments. The selected directional account does not establish one universal diatomite dose or strength gain.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers evaluating waste-derived feedstocks, material substitution and the controls needed before reproducing a laboratory comparison.",
+    "links": {
+      "deepDive": "/deep-dives/diatomite-binder-sand-replacement",
+      "originalArticle": "https://doi.org/10.3390/ma17102399"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/1996-1944/17/10/2399"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Experimental stage, diatomite introduction routes",
+        "source": "https://www.mdpi.com/1996-1944/17/10/2399"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Discussion, 5% sand replacement",
+        "source": "https://www.mdpi.com/1996-1944/17/10/2399"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma11091521",
+    "publicationId": "ke-b36-021",
+    "deepDiveId": "paper-sludge-sr-cs-followup",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How should a long-age followup be read when it includes results already reported in earlier papers? Paper-sludge-ash geopolymer immobilization of strontium and cesium was studied with seawater mixing. Retention concerns an element and a defined leaching exposure. Mechanical strength, chemical release and regulatory acceptance are separate endpoints."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The paper reuses earlier test results and adds new 52-week data, with dissolution and microanalytical examinations. Source-specific detail still to reconcile: Separate reused and newly obtained measurements, and retrieve waste loading, leachant and age definitions before claiming an independent dataset."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The authors discuss stable strontium immobilization and interpret mixed sodium/calcium aluminosilicate gels from the compositional analyses. Editorial reading check: Strontium behavior does not establish identical cesium retention. Mechanism interpretation and a leaching result must retain their own material and exposure context."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Tag reused measurements separately from new long-age observations.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Strontium behavior does not establish identical cesium retention. Mechanism interpretation and a leaching result must retain their own material and exposure context."
+    ],
+    "limitations": [
+      "Separate reused and newly obtained measurements, and retrieve waste loading, leachant and age definitions before claiming an independent dataset.",
+      "Strontium behavior does not establish identical cesium retention. Mechanism interpretation and a leaching result must retain their own material and exposure context.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers assessing waste-form retention, leaching methods and the relationship between chemical containment and mechanical integrity.",
+    "links": {
+      "deepDive": "/deep-dives/paper-sludge-sr-cs-followup",
+      "originalArticle": "https://doi.org/10.3390/ma11091521"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/1996-1944/11/9/1521"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Methods and followup-data statement",
+        "source": "https://www.mdpi.com/1996-1944/11/9/1521"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Long-age and gel-composition discussion",
+        "source": "https://www.mdpi.com/1996-1944/11/9/1521"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/app16031623",
+    "publicationId": "ke-b36-022",
+    "deepDiveId": "corrosion-short-term-matrix-comparison",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "What does a brief electrochemical comparison establish about a reinforced binder intended for long service? Three geopolymer binders were compared with cementitious paste and an aggregate-containing cementitious composite. An exposure result belongs to a specific conditioning history. Chemical resistance, electrochemical response and predicted service life describe different levels of evidence."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "OCP and linear-polarization techniques were used; samples were immersed in electrolyte for 24 hours at 23 °C before electrochemical testing. Source-specific detail still to reconcile: Retrieve electrolyte chemistry, reference electrode, test duration and condition-level currents before assigning a corrosion ranking."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The authors conclude that matrix composition governs the short-term thermodynamic and kinetic response of the embedded steel. Editorial reading check: The selected conclusion is about short-term response, not a verified service-life ranking. No unreviewed current density or initiation time is supplied here."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Keep conditioning and measurement duration explicit when comparing corrosion indicators.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "The selected conclusion is about short-term response, not a verified service-life ranking. No unreviewed current density or initiation time is supplied here."
+    ],
+    "limitations": [
+      "Retrieve electrolyte chemistry, reference electrode, test duration and condition-level currents before assigning a corrosion ranking.",
+      "The selected conclusion is about short-term response, not a verified service-life ranking. No unreviewed current density or initiation time is supplied here.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers evaluating aggressive exposure and corrosion, with attention to conditioning, mechanical endpoints and the limits of service-life inference.",
+    "links": {
+      "deepDive": "/deep-dives/corrosion-short-term-matrix-comparison",
+      "originalArticle": "https://doi.org/10.3390/app16031623"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2076-3417/16/3/1623"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Abstract and electrochemical conditioning method",
+        "source": "https://www.mdpi.com/2076-3417/16/3/1623"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Conclusions, composition-dependent response",
+        "source": "https://www.mdpi.com/2076-3417/16/3/1623"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/su17041756",
+    "publicationId": "ke-b36-025",
+    "deepDiveId": "cs-sr-leaching-test-dependence",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Can one leaching test identify the best waste form under every exposure? A nitrate-based Cs/Sr waste stream was immobilized in metakaolin- and slag-based alkali-activated matrices. Retention concerns an element and a defined leaching exposure. Mechanical strength, chemical release and regulatory acceptance are separate endpoints."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Design of experiments varied water/binder, precursor and waste loading; deionized-water and ammonium-nitrate leaching were compared. Source-specific detail still to reconcile: Retrieve waste-loading basis, leachant renewal, specimen geometry and duration before comparing cumulative fractions or extrapolating release."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Metakaolin performed best for combined Cs/Sr retention in deionized water; the paper cautions that accelerated leachant chemistry affects interpretation. Editorial reading check: An aggressive test is not automatically a time-scaled simulation of service. Keep element-specific retention and leachant mechanisms distinct."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "Compare Cs and Sr release separately under each explicitly defined exposure.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "An aggressive test is not automatically a time-scaled simulation of service. Keep element-specific retention and leachant mechanisms distinct."
+    ],
+    "limitations": [
+      "Retrieve waste-loading basis, leachant renewal, specimen geometry and duration before comparing cumulative fractions or extrapolating release.",
+      "An aggressive test is not automatically a time-scaled simulation of service. Keep element-specific retention and leachant mechanisms distinct.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers assessing waste-form retention, leaching methods and the relationship between chemical containment and mechanical integrity.",
+    "links": {
+      "deepDive": "/deep-dives/cs-sr-leaching-test-dependence",
+      "originalArticle": "https://doi.org/10.3390/su17041756"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2071-1050/17/4/1756"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Abstract, design and leaching program",
+        "source": "https://www.mdpi.com/2071-1050/17/4/1756"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract and accelerated-test discussion",
+        "source": "https://www.mdpi.com/2071-1050/17/4/1756"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma14092213",
+    "publicationId": "ke-b35-009",
+    "deepDiveId": "sintering-electrical-phase-link",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How does a sintering treatment alter electrical behavior, and which changes accompany that treatment? Kaolin-, fly-ash- and slag-based geopolymers were examined after sintering. Electrical response depends on specimen conditioning, excitation and geometry; a fitted descriptor and an independently validated sensing function are different evidence."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Microscopy and synchrotron micro-XRF supported analysis of phases, element distribution and conductivity at 900 °C. Source-specific detail still to reconcile: Retrieve unsintered references, heat program, specimen geometry and measurement temperature before using a conductivity increase as a causal phase effect."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Electrical conductivity increased after 900 °C sintering; the authors associate the change with denser microstructure and conductive pathways. Editorial reading check: Sintering changes density and phases together. A hot-processed material must not be treated as equivalent to an ambient-cured binder with the same precursor label."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "Record thermal processing and test temperature separately for electrical comparisons.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Sintering changes density and phases together. A hot-processed material must not be treated as equivalent to an ambient-cured binder with the same precursor label."
+    ],
+    "limitations": [
+      "Retrieve unsintered references, heat program, specimen geometry and measurement temperature before using a conductivity increase as a causal phase effect.",
+      "Sintering changes density and phases together. A hot-processed material must not be treated as equivalent to an ambient-cured binder with the same precursor label.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers evaluating electrical monitoring, functional composites and the limits of translating laboratory signals into service performance.",
+    "links": {
+      "deepDive": "/deep-dives/sintering-electrical-phase-link",
+      "originalArticle": "https://doi.org/10.3390/ma14092213"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/1996-1944/14/9/2213"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Microstructural/elemental analysis and 900 °C treatment",
+        "source": "https://www.mdpi.com/1996-1944/14/9/2213"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract and electrical-conductivity discussion",
+        "source": "https://www.mdpi.com/1996-1944/14/9/2213"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/app11094054",
+    "publicationId": "ke-b37-004",
+    "deepDiveId": "steel-quench-synthetic-pore-solution",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Does steel microstructure affect corrosion even when the surrounding synthetic solution is held as the comparison environment? Thermomechanically treated carbon steel was examined in synthetic fly-ash geopolymer pore solution containing 0.6 M NaCl. An exposure result belongs to a specific conditioning history. Chemical resistance, electrochemical response and predicted service life describe different levels of evidence."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Water-quenched, oil-quenched and as-received steels were compared electrochemically and by surface analysis. Source-specific detail still to reconcile: Retrieve solution preparation, pH, surface finish, exposure duration and reference electrode before comparing current densities."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Quenched specimens had higher corrosion currents than as-received steel; martensitic microstructure was associated with enhanced corrosion kinetics. Editorial reading check: Synthetic pore solution is not a full reinforced composite. Transport, interfacial defects and cover conditions remain outside this direct comparison."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Control steel treatment and surface state when testing binder-related corrosion claims.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Synthetic pore solution is not a full reinforced composite. Transport, interfacial defects and cover conditions remain outside this direct comparison."
+    ],
+    "limitations": [
+      "Retrieve solution preparation, pH, surface finish, exposure duration and reference electrode before comparing current densities.",
+      "Synthetic pore solution is not a full reinforced composite. Transport, interfacial defects and cover conditions remain outside this direct comparison.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers evaluating aggressive exposure and corrosion, with attention to conditioning, mechanical endpoints and the limits of service-life inference.",
+    "links": {
+      "deepDive": "/deep-dives/steel-quench-synthetic-pore-solution",
+      "originalArticle": "https://doi.org/10.3390/app11094054"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2076-3417/11/9/4054"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Experimental treatments and synthetic-solution scope",
+        "source": "https://www.mdpi.com/2076-3417/11/9/4054"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Results, quenched versus as-received currents",
+        "source": "https://www.mdpi.com/2076-3417/11/9/4054"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/polym14020262",
+    "publicationId": "ke-b37-008",
+    "deepDiveId": "radiation-attenuation-fit-domain",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Which parts of a radiation-shielding comparison come from measured material behavior and which from fitting an empirical model? The study examines geopolymer mechanical and radiation-absorption properties. Electrical response depends on specimen conditioning, excitation and geometry; a fitted descriptor and an independently validated sensing function are different evidence."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Least-squares polynomial fitting related ingredient quantities to the measured radiation response. Source-specific detail still to reconcile: Retrieve radiation energy, thickness, density and test geometry before transferring attenuation coefficients or the fitted optimum."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Attenuation depended on raw-material type, while changing aggregation had no significant effect on radiation absorption in the reported comparison. Editorial reading check: An empirical fit does not validate shielding across energies or geometries. Radiation and structural acceptance must be assessed separately."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "Keep model calibration data separate from independent shielding validation.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "An empirical fit does not validate shielding across energies or geometries. Radiation and structural acceptance must be assessed separately."
+    ],
+    "limitations": [
+      "Retrieve radiation energy, thickness, density and test geometry before transferring attenuation coefficients or the fitted optimum.",
+      "An empirical fit does not validate shielding across energies or geometries. Radiation and structural acceptance must be assessed separately.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers evaluating electrical monitoring, functional composites and the limits of translating laboratory signals into service performance.",
+    "links": {
+      "deepDive": "/deep-dives/radiation-attenuation-fit-domain",
+      "originalArticle": "https://doi.org/10.3390/polym14020262"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2073-4360/14/2/262"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Mathematical-model methods",
+        "source": "https://www.mdpi.com/2073-4360/14/2/262"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract, attenuation and aggregation findings",
+        "source": "https://www.mdpi.com/2073-4360/14/2/262"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/min11070700",
+    "publicationId": "ke-b37-011",
+    "deepDiveId": "dolomite-fly-ash-milling",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How can a carbonate addition and mechanical activation combine to change a fly-ash binder? Natural dolomite was blended with fly ash and mechanically activated before geopolymerization. Processing changes particle size, phases and reaction conditions together. Reactivity screening, author mechanism interpretation and measured strength should remain distinguishable."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The work assessed milled blends through surface-area, phase and mechanical comparisons. Source-specific detail still to reconcile: Retrieve milling energy/time, carbonate fraction, NaOH basis and matching reference before assigning strength gains to dolomite chemistry alone."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Selected dolomite-containing systems showed increased N–A–S–H gel and corresponding strength; the source discusses reaction and synergistic contributions. Editorial reading check: Grinding and composition are coupled variables. A proposed synergistic contribution is an interpretation, not a transferable additive strength increment."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Compare equally milled references before isolating the carbonate contribution.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Grinding and composition are coupled variables. A proposed synergistic contribution is an interpretation, not a transferable additive strength increment."
+    ],
+    "limitations": [
+      "Retrieve milling energy/time, carbonate fraction, NaOH basis and matching reference before assigning strength gains to dolomite chemistry alone.",
+      "Grinding and composition are coupled variables. A proposed synergistic contribution is an interpretation, not a transferable additive strength increment.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers comparing precursor processing, reactivity and activator choices, including the limits of drawing causal conclusions from coupled changes.",
+    "links": {
+      "deepDive": "/deep-dives/dolomite-fly-ash-milling",
+      "originalArticle": "https://doi.org/10.3390/min11070700"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2075-163X/11/7/700"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Materials, BET and mechanically activated blends",
+        "source": "https://www.mdpi.com/2075-163X/11/7/700"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Discussion, selected GFA10D systems",
+        "source": "https://www.mdpi.com/2075-163X/11/7/700"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/min13040490",
+    "publicationId": "ke-b37-014",
+    "deepDiveId": "attrition-ball-milling-granulometry",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Does the mill type determine performance when particle sizes and curing conditions also differ? Continuous attrition and ball-milled fly ashes were used for alkali-activated materials. Processing changes particle size, phases and reaction conditions together. Reactivity screening, author mechanism interpretation and measured strength should remain distinguishable."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The study compared strength, density and structural characteristics of activated milled ashes. Source-specific detail still to reconcile: Retrieve particle-size distribution, energy input, cure and error definitions before treating mill rankings as statistically distinct."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Attrition-milled samples generally ranked highest in compression except at 14 days, but selected ball-milled results agreed within measurement error. Editorial reading check: Overlapping uncertainty and different cure histories limit mill-to-mill claims. Match resulting powder properties as well as equipment names."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Retain particle-size distributions and uncertainty with each milling comparison.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Overlapping uncertainty and different cure histories limit mill-to-mill claims. Match resulting powder properties as well as equipment names."
+    ],
+    "limitations": [
+      "Retrieve particle-size distribution, energy input, cure and error definitions before treating mill rankings as statistically distinct.",
+      "Overlapping uncertainty and different cure histories limit mill-to-mill claims. Match resulting powder properties as well as equipment names.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers comparing precursor processing, reactivity and activator choices, including the limits of drawing causal conclusions from coupled changes.",
+    "links": {
+      "deepDive": "/deep-dives/attrition-ball-milling-granulometry",
+      "originalArticle": "https://doi.org/10.3390/min13040490"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2075-163X/13/4/490"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Experimental milling and characterization overview",
+        "source": "https://www.mdpi.com/2075-163X/13/4/490"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Compressive-strength discussion, Figure 9",
+        "source": "https://www.mdpi.com/2075-163X/13/4/490"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/app8030365",
+    "publicationId": "ke-b37-015",
+    "deepDiveId": "ground-fly-ash-bond-dissolution",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "What changes when milling modifies a fly ash, and how should spectroscopic evidence be connected to performance? The paper examines size reduction of fly ash by grinding and subsequent geopolymer chemistry. Processing changes particle size, phases and reaction conditions together. Reactivity screening, author mechanism interpretation and measured strength should remain distinguishable."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "BET, XRD and FTIR were used; selected infrared bands were deconvoluted with Gaussian peak shapes. Source-specific detail still to reconcile: Retrieve grinding history, solution chemistry and fitted spectral assumptions before attributing a mechanical change to one chemical mechanism."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The authors interpret grinding as weakening Si–O/Al–O bonding and accelerating dissolution and development of reaction products. Editorial reading check: Band interpretation is not a direct reacted-mass measurement. Grinding energy and particle-size effects also belong in any practical comparison."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Pair spectroscopy with dissolution or mechanical measurements on the same powder lot.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Band interpretation is not a direct reacted-mass measurement. Grinding energy and particle-size effects also belong in any practical comparison."
+    ],
+    "limitations": [
+      "Retrieve grinding history, solution chemistry and fitted spectral assumptions before attributing a mechanical change to one chemical mechanism.",
+      "Band interpretation is not a direct reacted-mass measurement. Grinding energy and particle-size effects also belong in any practical comparison.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers comparing precursor processing, reactivity and activator choices, including the limits of drawing causal conclusions from coupled changes.",
+    "links": {
+      "deepDive": "/deep-dives/ground-fly-ash-bond-dissolution",
+      "originalArticle": "https://doi.org/10.3390/app8030365"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2076-3417/8/3/365"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Characterization methods, BET/XRD/FTIR",
+        "source": "https://www.mdpi.com/2076-3417/8/3/365"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Discussion, grinding and bond-dissolution interpretation",
+        "source": "https://www.mdpi.com/2076-3417/8/3/365"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/min14070726",
+    "publicationId": "ke-b37-016",
+    "deepDiveId": "carbonate-comparison-shared-datasets",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "When a paper compares earlier results, how should its synthesis be used without counting the same experiments twice? The article compares mechanically activated fly ash with alkaline-earth carbonate additions using previously published strength results. Processing changes particle size, phases and reaction conditions together. Reactivity screening, author mechanism interpretation and measured strength should remain distinguishable."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The comparative analysis discusses carbonate reactivity, including magnesium carbonate reacting with NaOH. Source-specific detail still to reconcile: Trace each strength series to its original paper and reconcile activation conditions before pooling or ranking observations."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Magnesium carbonate showed high reactivity and formed hydrotalcite in the described reaction comparison. Editorial reading check: This guide concerns a comparative synthesis, not an entirely new independent strength dataset. Reaction products alone do not settle binder performance."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Link reused series to original experimental work families before aggregation.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "This guide concerns a comparative synthesis, not an entirely new independent strength dataset. Reaction products alone do not settle binder performance."
+    ],
+    "limitations": [
+      "Trace each strength series to its original paper and reconcile activation conditions before pooling or ranking observations.",
+      "This guide concerns a comparative synthesis, not an entirely new independent strength dataset. Reaction products alone do not settle binder performance.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers comparing precursor processing, reactivity and activator choices, including the limits of drawing causal conclusions from coupled changes.",
+    "links": {
+      "deepDive": "/deep-dives/carbonate-comparison-shared-datasets",
+      "originalArticle": "https://doi.org/10.3390/min14070726"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2075-163X/14/7/726"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Introduction, comparative-analysis scope; carbonate reaction methods",
+        "source": "https://www.mdpi.com/2075-163X/14/7/726"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Results, magnesium-carbonate/hydrotalcite account",
+        "source": "https://www.mdpi.com/2075-163X/14/7/726"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/buildings13030693",
+    "publicationId": "ke-b37-017",
+    "deepDiveId": "precursor-reactivity-screen",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Can a preliminary chemistry test reliably replace a full formulation trial? A proposed reactivity screen was evaluated for alkali-activated-material precursors. Processing changes particle size, phases and reaction conditions together. Reactivity screening, author mechanism interpretation and measured strength should remain distinguishable."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "BFS, silica fume and metakaolin pastes with NaOH or NaOH/sodium-silicate activation supported structural comparisons. Source-specific detail still to reconcile: Retrieve SCBAM/SCBAMH preparation definitions, screening conditions and acceptance criteria before applying the labels to another source lot."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The authors classify BFS, MK and SCBAM as reactive, while SF and SCBAMH did not show adequate reactivity under the screening approach. Editorial reading check: A screen classifies response under its test conditions; it is not a universal exclusion rule or guaranteed strength prediction for blended binders."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Validate screening rankings against separately designed formulation tests.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "A screen classifies response under its test conditions; it is not a universal exclusion rule or guaranteed strength prediction for blended binders."
+    ],
+    "limitations": [
+      "Retrieve SCBAM/SCBAMH preparation definitions, screening conditions and acceptance criteria before applying the labels to another source lot.",
+      "A screen classifies response under its test conditions; it is not a universal exclusion rule or guaranteed strength prediction for blended binders.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers comparing precursor processing, reactivity and activator choices, including the limits of drawing causal conclusions from coupled changes.",
+    "links": {
+      "deepDive": "/deep-dives/precursor-reactivity-screen",
+      "originalArticle": "https://doi.org/10.3390/buildings13030693"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2075-5309/13/3/693"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Methods, structural comparison pastes",
+        "source": "https://www.mdpi.com/2075-5309/13/3/693"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Conclusions, precursor classifications",
+        "source": "https://www.mdpi.com/2075-5309/13/3/693"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/min8080337",
+    "publicationId": "ke-b37-020",
+    "deepDiveId": "sanitaryware-calcium-assisted-activation",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How can blending make ceramic sanitaryware reactive at room temperature, and which calcium additions belong to each comparison? Ceramic sanitaryware was blended with fly ash or blast-furnace slag. A waste-source label does not establish lot composition or reactivity. Precursor replacement, filler addition and aggregate substitution describe different material roles."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "FA/BFS fractions up to 50 wt% were evaluated; 4 wt% Ca(OH)2 was added to FA blends and slag blends were studied with and without it. Source-specific detail still to reconcile: Reconcile calcium-addition denominator, solution chemistry, ceramic grinding and condition-specific cure before matching the two blend families."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Partial replacement with FA or BFS enabled activation at 20 °C in the reported systems. Editorial reading check: FA plus added lime and calcium-rich slag are not identical calcium controls. Do not import numerical strengths from cited prior studies into this dataset."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "Separate added lime from precursor calcium when interpreting ambient activation.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "FA plus added lime and calcium-rich slag are not identical calcium controls. Do not import numerical strengths from cited prior studies into this dataset."
+    ],
+    "limitations": [
+      "Reconcile calcium-addition denominator, solution chemistry, ceramic grinding and condition-specific cure before matching the two blend families.",
+      "FA plus added lime and calcium-rich slag are not identical calcium controls. Do not import numerical strengths from cited prior studies into this dataset.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers evaluating waste-derived feedstocks, material substitution and the controls needed before reproducing a laboratory comparison.",
+    "links": {
+      "deepDive": "/deep-dives/sanitaryware-calcium-assisted-activation",
+      "originalArticle": "https://doi.org/10.3390/min8080337"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2075-163X/8/8/337"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Abstract, blend and calcium-addition design",
+        "source": "https://www.mdpi.com/2075-163X/8/8/337"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract, ambient activation finding",
+        "source": "https://www.mdpi.com/2075-163X/8/8/337"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/app13085166",
+    "publicationId": "ke-b38-001",
+    "deepDiveId": "foundry-sand-precursor-versus-aggregate",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Does a foundry-sand result describe aggregate reuse or replacement of a reactive precursor? Foundry sands were investigated in fired ceramics and room-temperature geopolymers. A waste-source label does not establish lot composition or reactivity. Precursor replacement, filler addition and aggregate substitution describe different material roles."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Geopolymer mixtures substituted foundry sand for metakaolin at 30, 50 and 70 wt%, while ceramic formulations used a different sand-replacement design. Source-specific detail still to reconcile: Retrieve the exact displaced ingredient, water/activator balance and performance criteria before applying a replacement percentage."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The paper describes acceptable geopolymer properties only up to 30% substitution; the ceramic route tolerated larger replacement in its comparisons. Editorial reading check: The primary design identifies precursor replacement, despite broader sand-replacement wording in the conclusions. Keep that terminology conflict visible when using the result."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Label precursor and aggregate substitution as different experiments.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "The primary design identifies precursor replacement, despite broader sand-replacement wording in the conclusions. Keep that terminology conflict visible when using the result."
+    ],
+    "limitations": [
+      "Retrieve the exact displaced ingredient, water/activator balance and performance criteria before applying a replacement percentage.",
+      "The primary design identifies precursor replacement, despite broader sand-replacement wording in the conclusions. Keep that terminology conflict visible when using the result.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers evaluating waste-derived feedstocks, material substitution and the controls needed before reproducing a laboratory comparison.",
+    "links": {
+      "deepDive": "/deep-dives/foundry-sand-precursor-versus-aggregate",
+      "originalArticle": "https://doi.org/10.3390/app13085166"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2076-3417/13/8/5166"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Abstract, separate ceramic/geopolymer designs",
+        "source": "https://www.mdpi.com/2076-3417/13/8/5166"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Conclusions, geopolymer replacement limit",
+        "source": "https://www.mdpi.com/2076-3417/13/8/5166"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/app10134577",
+    "publicationId": "ke-b38-002",
+    "deepDiveId": "casting-shell-recycled-geopolymer",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Can recycled shell materials improve a mould while preserving the flow paths needed during casting? Recycled shell powder and sand were used with geopolymer technology in ceramic investment-casting moulds. A waste-source label does not establish lot composition or reactivity. Precursor replacement, filler addition and aggregate substitution describe different material roles."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Replacement layers were compared using green/fired strength and a pressure-drop permeability apparatus. Source-specific detail still to reconcile: Retrieve layer count, shell thickness, firing cycle and pressure-test convention before comparing permeability or casting performance."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The geopolymer shells showed higher green/fired strength and better permeability than the original zircon/mullite shell in the tested comparison. Editorial reading check: Shorter pressure-drop time is apparatus- and geometry-dependent. It does not by itself quantify defect-free casting yield or a universal material permeability."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "Keep layer architecture and shell thickness attached to strength and permeability readings.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Shorter pressure-drop time is apparatus- and geometry-dependent. It does not by itself quantify defect-free casting yield or a universal material permeability."
+    ],
+    "limitations": [
+      "Retrieve layer count, shell thickness, firing cycle and pressure-test convention before comparing permeability or casting performance.",
+      "Shorter pressure-drop time is apparatus- and geometry-dependent. It does not by itself quantify defect-free casting yield or a universal material permeability.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers evaluating waste-derived feedstocks, material substitution and the controls needed before reproducing a laboratory comparison.",
+    "links": {
+      "deepDive": "/deep-dives/casting-shell-recycled-geopolymer",
+      "originalArticle": "https://doi.org/10.3390/app10134577"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2076-3417/10/13/4577"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Mould-layer and permeability-test methods",
+        "source": "https://www.mdpi.com/2076-3417/10/13/4577"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract and pressure-drop results",
+        "source": "https://www.mdpi.com/2076-3417/10/13/4577"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/su132313455",
+    "publicationId": "ke-b38-004",
+    "deepDiveId": "one-part-waste-immobilization-strength",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "What can a waste addition do to strength even when fresh behavior seems comparable? Hazardous wastes were incorporated into one-part blast-furnace-slag geopolymers. Retention concerns an element and a defined leaching exposure. Mechanical strength, chemical release and regulatory acceptance are separate endpoints."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The study compared fresh properties, calorimetry, compression and leaching across waste-containing pastes. Source-specific detail still to reconcile: Retrieve PG identity, loading, age, formulation pairing and leach-test method before interpreting the range as one treatment effect."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "PG-containing conditions showed pronounced strength reduction across the reported 67-to-19 MPa range, associated with calcium sulfate in the waste. Editorial reading check: Similar flow or calorimetry does not establish equal cured performance. Waste retention must be interpreted with element-specific release and mechanical integrity."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Set independent mechanical and leaching acceptance criteria for each waste form.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Similar flow or calorimetry does not establish equal cured performance. Waste retention must be interpreted with element-specific release and mechanical integrity."
+    ],
+    "limitations": [
+      "Retrieve PG identity, loading, age, formulation pairing and leach-test method before interpreting the range as one treatment effect.",
+      "Similar flow or calorimetry does not establish equal cured performance. Waste retention must be interpreted with element-specific release and mechanical integrity.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers assessing waste-form retention, leaching methods and the relationship between chemical containment and mechanical integrity.",
+    "links": {
+      "deepDive": "/deep-dives/one-part-waste-immobilization-strength",
+      "originalArticle": "https://doi.org/10.3390/su132313455"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2071-1050/13/23/13455"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Fresh/mechanical/leaching comparison",
+        "source": "https://www.mdpi.com/2071-1050/13/23/13455"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Discussion, PG-containing specimens",
+        "source": "https://www.mdpi.com/2071-1050/13/23/13455"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/buildings12111932",
+    "publicationId": "ke-b38-005",
+    "deepDiveId": "coal-gangue-mortar-local-optimum",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Why can increasing alkali help only up to a local optimum? Composite-activated coal gangue was used in geopolymer mortar with slag variations. Processing changes particle size, phases and reaction conditions together. Reactivity screening, author mechanism interpretation and measured strength should remain distinguishable."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Alkali content of 11–14%, water/binder of 0.45–0.60 and slag content were varied; flexure and compression were assessed. Source-specific detail still to reconcile: Retrieve the alkali denominator, slag pairing, activation treatment and test age before treating 12% as a general dosage."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The authors identify an inflection around 12% alkali content for flexural and compressive behavior. Editorial reading check: An optimum belongs to the tested factor space. Changing slag, gangue processing or water can move the apparent best activator level."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Keep interacting factor levels attached to the reported optimum.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "An optimum belongs to the tested factor space. Changing slag, gangue processing or water can move the apparent best activator level."
+    ],
+    "limitations": [
+      "Retrieve the alkali denominator, slag pairing, activation treatment and test age before treating 12% as a general dosage.",
+      "An optimum belongs to the tested factor space. Changing slag, gangue processing or water can move the apparent best activator level.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers comparing precursor processing, reactivity and activator choices, including the limits of drawing causal conclusions from coupled changes.",
+    "links": {
+      "deepDive": "/deep-dives/coal-gangue-mortar-local-optimum",
+      "originalArticle": "https://doi.org/10.3390/buildings12111932"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2075-5309/12/11/1932"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Experimental variable ranges",
+        "source": "https://www.mdpi.com/2075-5309/12/11/1932"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Results, alkali-content inflection",
+        "source": "https://www.mdpi.com/2075-5309/12/11/1932"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/polym14235091",
+    "publicationId": "ke-b38-006",
+    "deepDiveId": "corundum-powder-filler-densification",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Does recycled corundum strengthen a binder through reaction or through a denser structure? Fine recycled corundum from erosion testing was studied in metakaolin geopolymers. A waste-source label does not establish lot composition or reactivity. Precursor replacement, filler addition and aggregate substitution describe different material roles."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The source distinguishes replacement/addition routes and examines compression, chemical stability and microstructure. Source-specific detail still to reconcile: Reconcile whether each percentage is replacement or filler addition before comparing the reported strengthening conditions."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Corundum did not significantly change matrix reticulation but increased densification; selected 10 wt% and 20 wt% introduction routes improved compression. Editorial reading check: A denser filler-containing matrix does not demonstrate a new reactive binder contribution. Earlier coarse-grit results belong to a separate experiment."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "Track filler role, particle size and displaced material for every condition.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "A denser filler-containing matrix does not demonstrate a new reactive binder contribution. Earlier coarse-grit results belong to a separate experiment."
+    ],
+    "limitations": [
+      "Reconcile whether each percentage is replacement or filler addition before comparing the reported strengthening conditions.",
+      "A denser filler-containing matrix does not demonstrate a new reactive binder contribution. Earlier coarse-grit results belong to a separate experiment.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers evaluating waste-derived feedstocks, material substitution and the controls needed before reproducing a laboratory comparison.",
+    "links": {
+      "deepDive": "/deep-dives/corundum-powder-filler-densification",
+      "originalArticle": "https://doi.org/10.3390/polym14235091"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2073-4360/14/23/5091"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Formulation routes and chemical/mechanical characterization",
+        "source": "https://www.mdpi.com/2073-4360/14/23/5091"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract and microscopy/compressive-strength discussion",
+        "source": "https://www.mdpi.com/2073-4360/14/23/5091"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/en13102504",
+    "publicationId": "ke-b38-008",
+    "deepDiveId": "coal-gangue-overactivation-temperature",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Can thermal treatment destroy part of the reactivity it is intended to create? Mechanical and thermal activation of coal gangue were compared before geopolymer synthesis. Processing changes particle size, phases and reaction conditions together. Reactivity screening, author mechanism interpretation and measured strength should remain distinguishable."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Thermally activated gangue was mixed with modified sodium silicate; source cylinders were 50 mm diameter and 100 mm high. Source-specific detail still to reconcile: Retrieve dwell time, grinding, solution composition and cure before interpreting temperature as the only changed factor."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The source reports reduced favorable amorphous structure at 900 °C and declining compression across selected 700, 800 and 900 °C activation conditions. Editorial reading check: Activation temperature and subsequent curing temperature are different process variables. A local overheating penalty is not a universal calcination threshold for all gangue."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "Record calcination and specimen-curing histories on separate process timelines.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Activation temperature and subsequent curing temperature are different process variables. A local overheating penalty is not a universal calcination threshold for all gangue."
+    ],
+    "limitations": [
+      "Retrieve dwell time, grinding, solution composition and cure before interpreting temperature as the only changed factor.",
+      "Activation temperature and subsequent curing temperature are different process variables. A local overheating penalty is not a universal calcination threshold for all gangue.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers comparing precursor processing, reactivity and activator choices, including the limits of drawing causal conclusions from coupled changes.",
+    "links": {
+      "deepDive": "/deep-dives/coal-gangue-overactivation-temperature",
+      "originalArticle": "https://doi.org/10.3390/en13102504"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/1996-1073/13/10/2504"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Abstract and specimen-preparation description",
+        "source": "https://www.mdpi.com/1996-1073/13/10/2504"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract, activation-temperature trend",
+        "source": "https://www.mdpi.com/1996-1073/13/10/2504"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma17225433",
+    "publicationId": "ke-b38-009",
+    "deepDiveId": "coal-waste-grout-diffusion-model",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How can measured slurry behavior support a fissure-diffusion model without establishing field performance? Coal-based solid-waste geopolymer grout was studied for basic rheology and diffusion. Ground material, binder chemistry, water and placement state interact. Laboratory strength, slurry rheology and a theoretical diffusion model are separate forms of evidence."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Flow and setting tests were combined with bleeding measurement on 100 mL slurry after two hours and theoretical fissure-diffusion analysis. Source-specific detail still to reconcile: Retrieve constitutive assumptions, fissure geometry, pressure conditions and validation data before applying the model to a grouting job."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The authors state that their model describes slurry diffusion along inclined fissure aquifers within the studied framework. Editorial reading check: A theoretical or fitted diffusion relation does not establish penetration in heterogeneous ground. Field geometry and water flow need separate validation."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Compare measured rheology with the explicit assumptions of the diffusion model.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "A theoretical or fitted diffusion relation does not establish penetration in heterogeneous ground. Field geometry and water flow need separate validation."
+    ],
+    "limitations": [
+      "Retrieve constitutive assumptions, fissure geometry, pressure conditions and validation data before applying the model to a grouting job.",
+      "A theoretical or fitted diffusion relation does not establish penetration in heterogeneous ground. Field geometry and water flow need separate validation.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers developing stabilization or grouting materials and assessing compaction, ground conditions and the limits of laboratory/model transfer.",
+    "links": {
+      "deepDive": "/deep-dives/coal-waste-grout-diffusion-model",
+      "originalArticle": "https://doi.org/10.3390/ma17225433"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/1996-1944/17/22/5433"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Methods, flow/setting/bleeding and model scope",
+        "source": "https://www.mdpi.com/1996-1944/17/22/5433"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Discussion, theoretical diffusion-model applicability",
+        "source": "https://www.mdpi.com/1996-1944/17/22/5433"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/polym13234160",
+    "publicationId": "ke-b38-010",
+    "deepDiveId": "gangue-slag-wet-dry-flexure",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Will a compressive durability ranking hide greater damage in flexure? Coal-gangue–slag geopolymers were compared under wetting–drying cycles. An exposure result belongs to a specific conditioning history. Chemical resistance, electrochemical response and predicted service life describe different levels of evidence."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Source prisms were 40 × 40 × 160 mm; compression, flexure and microstructural examinations assessed exposure effects. Source-specific detail still to reconcile: Retrieve SS/SH definitions, wet/dry solutions, temperature and age origin before treating cycles as an elapsed service duration."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Wetting–drying affected flexure more strongly than compression; some SS specimens broke along cracks by 20 cycles. Editorial reading check: Different mechanical endpoints can rank systems differently. Cycle damage is not a direct prediction of field lifetime without an exposure model."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Retain flexure, compression and visible cracking for each cycle group.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Different mechanical endpoints can rank systems differently. Cycle damage is not a direct prediction of field lifetime without an exposure model."
+    ],
+    "limitations": [
+      "Retrieve SS/SH definitions, wet/dry solutions, temperature and age origin before treating cycles as an elapsed service duration.",
+      "Different mechanical endpoints can rank systems differently. Cycle damage is not a direct prediction of field lifetime without an exposure model.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers evaluating aggressive exposure and corrosion, with attention to conditioning, mechanical endpoints and the limits of service-life inference.",
+    "links": {
+      "deepDive": "/deep-dives/gangue-slag-wet-dry-flexure",
+      "originalArticle": "https://doi.org/10.3390/polym13234160"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2073-4360/13/23/4160"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Specimen preparation and cycle testing",
+        "source": "https://www.mdpi.com/2073-4360/13/23/4160"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Conclusions and observed damage at 20 cycles",
+        "source": "https://www.mdpi.com/2073-4360/13/23/4160"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma14112935",
+    "publicationId": "ke-b38-012",
+    "deepDiveId": "fly-ash-process-liquid-ratio",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Which process variables accompany a high-strength fly-ash mortar result? The study varies liquid/solid ratio, silicate/hydroxide mass ratio and curing temperature in Class F fly-ash composites. Activator concentration, solution mass, oxide equivalent and liquid/solid ratio are different quantities; each needs a defined denominator and water contribution."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Microstructure was assessed at 28 days using SEM/EDX, XRD and thermal analysis alongside mechanical testing. Source-specific detail still to reconcile: Retrieve L/S definition, solution water, test age and selected curing temperature before reproducing the headline composition."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The reported maximum compression was 60.1 MPa at L/S 0.2 and sodium-silicate/NaOH ratio 2. Editorial reading check: A solution-ratio pair is not a complete batch ledger. Maximum compression alone does not establish best flexure, cost or ambient-cure performance."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "Reconcile liquid and solid definitions before attempting mass normalization.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "A solution-ratio pair is not a complete batch ledger. Maximum compression alone does not establish best flexure, cost or ambient-cure performance."
+    ],
+    "limitations": [
+      "Retrieve L/S definition, solution water, test age and selected curing temperature before reproducing the headline composition.",
+      "A solution-ratio pair is not a complete batch ledger. Maximum compression alone does not establish best flexure, cost or ambient-cure performance.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Formulators comparing activator chemistry, fresh behavior and strength with explicit ingredient and curing definitions.",
+    "links": {
+      "deepDive": "/deep-dives/fly-ash-process-liquid-ratio",
+      "originalArticle": "https://doi.org/10.3390/ma14112935"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/1996-1944/14/11/2935"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Study design and 28-day characterization program",
+        "source": "https://www.mdpi.com/1996-1944/14/11/2935"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract, selected maximum-strength condition",
+        "source": "https://www.mdpi.com/1996-1944/14/11/2935"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma14185204",
+    "publicationId": "ke-b38-013",
+    "deepDiveId": "volcanic-ash-limestone-modulus",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Can a silicate addition improve every precursor blend, or can a hydroxide-only system perform better? Binary volcanic-ash/limestone mortar was studied with silica-modulus and curing-temperature variations. Activator concentration, solution mass, oxide equivalent and liquid/solid ratio are different quantities; each needs a defined denominator and water contribution."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Microscopy compared 10 M NaOH alone, modulus 0, with combined hydroxide/silicate at modulus 0.89. Source-specific detail still to reconcile: Retrieve liquid content, total alkali, cure and exact blend pairing before treating this ranking as an isolated silica effect."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The source identifies the hydroxide-only comparison as the best and the modulus-0.89 comparison as the worst compression case in the discussed set. Editorial reading check: An activator ranking in a volcanic-ash blend is not a universal silicate penalty. Maintain the source formulation and thermal boundary."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Compare solution chemistry on a reconciled water and alkali basis.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "An activator ranking in a volcanic-ash blend is not a universal silicate penalty. Maintain the source formulation and thermal boundary."
+    ],
+    "limitations": [
+      "Retrieve liquid content, total alkali, cure and exact blend pairing before treating this ranking as an isolated silica effect.",
+      "An activator ranking in a volcanic-ash blend is not a universal silicate penalty. Maintain the source formulation and thermal boundary.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Formulators comparing activator chemistry, fresh behavior and strength with explicit ingredient and curing definitions.",
+    "links": {
+      "deepDive": "/deep-dives/volcanic-ash-limestone-modulus",
+      "originalArticle": "https://doi.org/10.3390/ma14185204"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/1996-1944/14/18/5204"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Study design; selected microscopy comparisons",
+        "source": "https://www.mdpi.com/1996-1944/14/18/5204"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Results, Figures 9–10 comparison account",
+        "source": "https://www.mdpi.com/1996-1944/14/18/5204"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/polym15143077",
+    "publicationId": "ke-b38-016",
+    "deepDiveId": "hydrophobic-aggregate-asphalt-conditioning",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Which part of an artificial aggregate treatment improves water resistance, and what does the curing state change? Geopolymer artificial aggregates with rice ash and asphalt coating were developed for asphalt substitution. An exposure result belongs to a specific conditioning history. Chemical resistance, electrochemical response and predicted service life describe different levels of evidence."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The study examined hydrophobic behavior, strength/absorption and Marshall-related asphalt testing. Source-specific detail still to reconcile: Retrieve aggregate age, coating amount, saturation protocol and substitution basis before transferring a water-resistance result."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Asphalt coating improved hydrophobic character; the authors note that incomplete density development and internal saturation can affect strength and softening results. Editorial reading check: Aggregate water response is not a demonstrated long-term pavement-life gain. Maturity and retained moisture can confound an apparent treatment effect."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "Compare coated and uncoated aggregates at matched maturity and saturation.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Aggregate water response is not a demonstrated long-term pavement-life gain. Maturity and retained moisture can confound an apparent treatment effect."
+    ],
+    "limitations": [
+      "Retrieve aggregate age, coating amount, saturation protocol and substitution basis before transferring a water-resistance result.",
+      "Aggregate water response is not a demonstrated long-term pavement-life gain. Maturity and retained moisture can confound an apparent treatment effect.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers evaluating aggressive exposure and corrosion, with attention to conditioning, mechanical endpoints and the limits of service-life inference.",
+    "links": {
+      "deepDive": "/deep-dives/hydrophobic-aggregate-asphalt-conditioning",
+      "originalArticle": "https://doi.org/10.3390/polym15143077"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2073-4360/15/14/3077"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Materials and methods; conditioning discussion",
+        "source": "https://www.mdpi.com/2073-4360/15/14/3077"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract and limitations on density/strength interpretation",
+        "source": "https://www.mdpi.com/2073-4360/15/14/3077"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/infrastructures7090117",
+    "publicationId": "ke-b38-018",
+    "deepDiveId": "recycled-aggregate-base-compaction",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How should a stabilized recycled aggregate be ranked when binder chemistry and compaction both control strength? High-calcium fly-ash geopolymer was used to stabilize recycled concrete aggregate for pavement base. Ground material, binder chemistry, water and placement state interact. Laboratory strength, slurry rheology and a theoretical diffusion model are separate forms of evidence."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The study compared binder proportions and compaction-related mechanical behavior. Source-specific detail still to reconcile: Retrieve binder content, ratio denominator, activator, optimum moisture and test density before using the selected ratio in a pavement formulation."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The highest UCS was reported at a fly-ash/cement-kiln-dust ratio of 50:50 in the compared specimens. Editorial reading check: A binder ratio is not total stabilizer dosage or a pavement design approval. Check cyclic, moisture and durability requirements separately."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "Match compaction state before comparing binder-ratio UCS results.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "A binder ratio is not total stabilizer dosage or a pavement design approval. Check cyclic, moisture and durability requirements separately."
+    ],
+    "limitations": [
+      "Retrieve binder content, ratio denominator, activator, optimum moisture and test density before using the selected ratio in a pavement formulation.",
+      "A binder ratio is not total stabilizer dosage or a pavement design approval. Check cyclic, moisture and durability requirements separately.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers developing stabilization or grouting materials and assessing compaction, ground conditions and the limits of laboratory/model transfer.",
+    "links": {
+      "deepDive": "/deep-dives/recycled-aggregate-base-compaction",
+      "originalArticle": "https://doi.org/10.3390/infrastructures7090117"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2412-3811/7/9/117"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Experimental mix and compaction comparisons",
+        "source": "https://www.mdpi.com/2412-3811/7/9/117"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract, selected FA/CKD ratio",
+        "source": "https://www.mdpi.com/2412-3811/7/9/117"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma18040778",
+    "publicationId": "ke-b38-019",
+    "deepDiveId": "minibars-alignment-flexural-domain",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How does reinforcement amount affect flexure when bars are arranged in a specific orientation? Fly-ash geopolymer was reinforced with 60 mm alkali-resistant glass-fiber MiniBars in unidirectional composites. Reinforcement amount requires a mass or volume basis. Alignment, length, matrix and loading direction constrain the meaning of a measured mechanical response."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Reinforcement fractions of 0, 12.5, 25, 50 and 75 vol% were examined with mechanical and fracture observations. Source-specific detail still to reconcile: Retrieve volume accounting, bar resin, orientation and specimen geometry before comparing this reinforcement with randomly dispersed fibers."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The authors report a strong fitted association between MiniBars quantity and flexural strength, with R2 of 0.958 in the studied compositions. Editorial reading check: A regression across aligned high-volume reinforcement is not a universal fiber-dose model. Independent testing and other loading directions remain necessary."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Document bar orientation and composite volume basis with each flexural result.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "A regression across aligned high-volume reinforcement is not a universal fiber-dose model. Independent testing and other loading directions remain necessary."
+    ],
+    "limitations": [
+      "Retrieve volume accounting, bar resin, orientation and specimen geometry before comparing this reinforcement with randomly dispersed fibers.",
+      "A regression across aligned high-volume reinforcement is not a universal fiber-dose model. Independent testing and other loading directions remain necessary.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers studying reinforcement geometry, flexural response and the limits of transferring one fiber system to another.",
+    "links": {
+      "deepDive": "/deep-dives/minibars-alignment-flexural-domain",
+      "originalArticle": "https://doi.org/10.3390/ma18040778"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/1996-1944/18/4/778"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Abstract, bar length/orientation and volume fractions",
+        "source": "https://www.mdpi.com/1996-1944/18/4/778"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Flexural-strength regression discussion",
+        "source": "https://www.mdpi.com/1996-1944/18/4/778"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/polym14061140",
+    "publicationId": "ke-b38-023",
+    "deepDiveId": "bagasse-ash-dielectric-strength-tradeoff",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Can a waste ash be selected from dielectric behavior without also checking its mechanical penalty? Sugarcane-bagasse ash was incorporated into fly-ash geopolymer composites. Electrical response depends on specimen conditioning, excitation and geometry; a fitted descriptor and an independently validated sensing function are different evidence."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The study characterized ash chemistry, workability, compression and frequency-dependent dielectric response. Source-specific detail still to reconcile: Retrieve SCBA mass denominator, treatment, electrode geometry, moisture and frequency before pairing dielectric and strength comparisons."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "At 28 days, compression fell from 47.8 MPa without SCBA to 32.7 MPa at 40 wt% SCBA; dielectric constants decreased with increasing frequency. Editorial reading check: A dielectric constant depends on measurement conditions and electrode effects. An ash-utilization benefit does not remove the need for a strength acceptance requirement."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Keep dielectric frequency and mechanical condition identities paired.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "A dielectric constant depends on measurement conditions and electrode effects. An ash-utilization benefit does not remove the need for a strength acceptance requirement."
+    ],
+    "limitations": [
+      "Retrieve SCBA mass denominator, treatment, electrode geometry, moisture and frequency before pairing dielectric and strength comparisons.",
+      "A dielectric constant depends on measurement conditions and electrode effects. An ash-utilization benefit does not remove the need for a strength acceptance requirement.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Researchers evaluating electrical monitoring, functional composites and the limits of translating laboratory signals into service performance.",
+    "links": {
+      "deepDive": "/deep-dives/bagasse-ash-dielectric-strength-tradeoff",
+      "originalArticle": "https://doi.org/10.3390/polym14061140"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2073-4360/14/6/1140"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Material and electrical/mechanical testing descriptions",
+        "source": "https://www.mdpi.com/2073-4360/14/6/1140"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Results, 28-day SCBA comparison and dielectric frequency response",
+        "source": "https://www.mdpi.com/2073-4360/14/6/1140"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/cryst11101167",
+    "publicationId": "ke-b38-025",
+    "deepDiveId": "dry-powder-reagents-freeze-thaw",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Does a dry-mixed ambient-cured formulation retain durability across every activator level? High-calcium industrial-waste mortars with powdered reagents were characterized for strength, fracture and durability. An exposure result belongs to a specific conditioning history. Chemical resistance, electrochemical response and predicted service life describe different levels of evidence."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Ambient-cured mixtures with and without air entrainment underwent mechanical, microstructural and freeze–thaw evaluation. Source-specific detail still to reconcile: Retrieve activator denominator, saturation, cycle standard and full mix identity before equating visible integrity with long-term durability."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The lower 8% activator conditions showed superficial damage after 50 cycles, while other tested conditions showed no deterioration in that comparison. Editorial reading check: No visible damage at one exposure count is not an unlimited durability guarantee. Air entrainment and activator chemistry require condition-matched comparisons."
+      }
+    ],
+    "findingsCoverage": "selected-findings-or-author-interpretation-from-indexed-primary-text",
+    "takeaways": [
+      "Record saturation and air-entrainment condition with each cycle result.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "No visible damage at one exposure count is not an unlimited durability guarantee. Air entrainment and activator chemistry require condition-matched comparisons."
+    ],
+    "limitations": [
+      "Retrieve activator denominator, saturation, cycle standard and full mix identity before equating visible integrity with long-term durability.",
+      "No visible damage at one exposure count is not an unlimited durability guarantee. Air entrainment and activator chemistry require condition-matched comparisons.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers evaluating aggressive exposure and corrosion, with attention to conditioning, mechanical endpoints and the limits of service-life inference.",
+    "links": {
+      "deepDive": "/deep-dives/dry-powder-reagents-freeze-thaw",
+      "originalArticle": "https://doi.org/10.3390/cryst11101167"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2073-4352/11/10/1167"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Experimental overview, dry mixing and durability tests",
+        "source": "https://www.mdpi.com/2073-4352/11/10/1167"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Freeze–thaw results, 50-cycle observations",
+        "source": "https://www.mdpi.com/2073-4352/11/10/1167"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/su14052652",
+    "publicationId": "ke-b33-009",
+    "deepDiveId": "silica-fume-acid-sulfate-tradeoffs",
+    "edited": "2026-10-21",
+    "sourceChecked": "2026-10-21",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review, not complete full-text, visual, human/domain, source-status or independent dataset verification.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Can an additive that improves compression and acid resistance still produce a different sulfate response? Silica fume replaced 3–9 wt% of high-calcium fly ash in alkali-activated mortar. An exposure result belongs to a specific conditioning history. Chemical resistance, electrochemical response and predicted service life describe different levels of evidence."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Source liquid/binder and sand/binder ratios were 0.60 and 2.75; sulfuric acid, magnesium sulfate and sodium sulfate exposures were evaluated. Source-specific detail still to reconcile: Retrieve replacement denominator, cure, solution concentration and exposure age before comparing acid loss, sulfate expansion and residual strength."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Six percent SF was the selected strength optimum; more SF reduced acid weight loss but increased sodium-sulfate expansion in the reported comparisons. Editorial reading check: Different aggressive solutions measure different failure modes. One chemical-resistance ranking must not be generalized to every sulfate or acid environment."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "Define exposure-specific acceptance criteria instead of a single chemical-resistance score.",
+      "Keep the reported finding tied to its named condition, method and reference.",
+      "Different aggressive solutions measure different failure modes. One chemical-resistance ranking must not be generalized to every sulfate or acid environment."
+    ],
+    "limitations": [
+      "Retrieve replacement denominator, cure, solution concentration and exposure age before comparing acid loss, sulfate expansion and residual strength.",
+      "Different aggressive solutions measure different failure modes. One chemical-resistance ranking must not be generalized to every sulfate or acid environment.",
+      "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+    ],
+    "audience": "Readers evaluating aggressive exposure and corrosion, with attention to conditioning, mechanical endpoints and the limits of service-life inference.",
+    "links": {
+      "deepDive": "/deep-dives/silica-fume-acid-sulfate-tradeoffs",
+      "originalArticle": "https://doi.org/10.3390/su14052652"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research scope",
+        "locator": "Indexed primary study objective",
+        "source": "https://www.mdpi.com/2071-1050/14/5/2652"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Abstract, mixture constants and exposure program",
+        "source": "https://www.mdpi.com/2071-1050/14/5/2652"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract, strength and contrasting exposure effects",
+        "source": "https://www.mdpi.com/2071-1050/14/5/2652"
+      }
+    ]
   }
 ];

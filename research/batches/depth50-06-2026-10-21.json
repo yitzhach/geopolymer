@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "depth50-06-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 16,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/su16188200\" methods results conclusions",
+    "\"10.3390/app11094054\" methods results conclusions",
+    "\"10.3390/polym14020262\" methods results conclusions",
+    "\"10.3390/min11070700\" methods results conclusions",
+    "\"10.3390/min13040490\" methods results conclusions",
+    "\"10.3390/su16188200\" abstract results showed found",
+    "\"10.3390/app11094054\" abstract results showed found",
+    "\"10.3390/polym14020262\" abstract results showed found",
+    "\"10.3390/min11070700\" abstract results showed found",
+    "\"10.3390/min13040490\" abstract results showed found",
+    "\"Influence of Climate Change\" \"8200\" \"probability\"",
+    "\"10.3390/min11070700\" \"strength\" \"dolomite\"",
+    "\"10.3390/su16188200\" \"RCP\" \"increase\"",
+    "\"10.3390/min11070700\" \"increased\" \"strength\"",
+    "\"10.3390/ma14092213\" abstract results sintering",
+    "\"10.3390/ma14092213\" \"conductivity\" \"increased\""
+  ],
+  "deferred": [
+    {
+      "doi": "10.3390/su16188200",
+      "reason": "Primary outcome account insufficient in accessible indexed results; replaced by existing-library sintering/conductivity paper, not summarized from title."
+    }
+  ],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/ma14092213",
+      "publicationId": "ke-b35-009",
+      "deepDiveId": "sintering-electrical-phase-link",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/14/9/2213"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Microstructural/elemental analysis and 900 °C treatment",
+          "source": "https://www.mdpi.com/1996-1944/14/9/2213"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract and electrical-conductivity discussion",
+          "source": "https://www.mdpi.com/1996-1944/14/9/2213"
+        }
+      ],
+      "limitations": [
+        "Retrieve unsintered references, heat program, specimen geometry and measurement temperature before using a conductivity increase as a causal phase effect.",
+        "Sintering changes density and phases together. A hot-processed material must not be treated as equivalent to an ambient-cured binder with the same precursor label.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/app11094054",
+      "publicationId": "ke-b37-004",
+      "deepDiveId": "steel-quench-synthetic-pore-solution",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2076-3417/11/9/4054"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental treatments and synthetic-solution scope",
+          "source": "https://www.mdpi.com/2076-3417/11/9/4054"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results, quenched versus as-received currents",
+          "source": "https://www.mdpi.com/2076-3417/11/9/4054"
+        }
+      ],
+      "limitations": [
+        "Retrieve solution preparation, pH, surface finish, exposure duration and reference electrode before comparing current densities.",
+        "Synthetic pore solution is not a full reinforced composite. Transport, interfacial defects and cover conditions remain outside this direct comparison.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/polym14020262",
+      "publicationId": "ke-b37-008",
+      "deepDiveId": "radiation-attenuation-fit-domain",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2073-4360/14/2/262"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Mathematical-model methods",
+          "source": "https://www.mdpi.com/2073-4360/14/2/262"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, attenuation and aggregation findings",
+          "source": "https://www.mdpi.com/2073-4360/14/2/262"
+        }
+      ],
+      "limitations": [
+        "Retrieve radiation energy, thickness, density and test geometry before transferring attenuation coefficients or the fitted optimum.",
+        "An empirical fit does not validate shielding across energies or geometries. Radiation and structural acceptance must be assessed separately.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/min11070700",
+      "publicationId": "ke-b37-011",
+      "deepDiveId": "dolomite-fly-ash-milling",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-163X/11/7/700"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Materials, BET and mechanically activated blends",
+          "source": "https://www.mdpi.com/2075-163X/11/7/700"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Discussion, selected GFA10D systems",
+          "source": "https://www.mdpi.com/2075-163X/11/7/700"
+        }
+      ],
+      "limitations": [
+        "Retrieve milling energy/time, carbonate fraction, NaOH basis and matching reference before assigning strength gains to dolomite chemistry alone.",
+        "Grinding and composition are coupled variables. A proposed synergistic contribution is an interpretation, not a transferable additive strength increment.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/min13040490",
+      "publicationId": "ke-b37-014",
+      "deepDiveId": "attrition-ball-milling-granulometry",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-163X/13/4/490"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental milling and characterization overview",
+          "source": "https://www.mdpi.com/2075-163X/13/4/490"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Compressive-strength discussion, Figure 9",
+          "source": "https://www.mdpi.com/2075-163X/13/4/490"
+        }
+      ],
+      "limitations": [
+        "Retrieve particle-size distribution, energy input, cure and error definitions before treating mill rankings as statistically distinct.",
+        "Overlapping uncertainty and different cure histories limit mill-to-mill claims. Match resulting powder properties as well as equipment names.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "depth50-09-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 10,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/ma17225433\" methods results conclusions",
+    "\"10.3390/polym13234160\" methods results conclusions",
+    "\"10.3390/ma14112935\" methods results conclusions",
+    "\"10.3390/ma14185204\" methods results conclusions",
+    "\"10.3390/polym15143077\" methods results conclusions",
+    "\"10.3390/ma17225433\" abstract results showed found",
+    "\"10.3390/polym13234160\" abstract results showed found",
+    "\"10.3390/ma14112935\" abstract results showed found",
+    "\"10.3390/ma14185204\" abstract results showed found",
+    "\"10.3390/polym15143077\" abstract results showed found"
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/ma17225433",
+      "publicationId": "ke-b38-009",
+      "deepDiveId": "coal-waste-grout-diffusion-model",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/17/22/5433"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Methods, flow/setting/bleeding and model scope",
+          "source": "https://www.mdpi.com/1996-1944/17/22/5433"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Discussion, theoretical diffusion-model applicability",
+          "source": "https://www.mdpi.com/1996-1944/17/22/5433"
+        }
+      ],
+      "limitations": [
+        "Retrieve constitutive assumptions, fissure geometry, pressure conditions and validation data before applying the model to a grouting job.",
+        "A theoretical or fitted diffusion relation does not establish penetration in heterogeneous ground. Field geometry and water flow need separate validation.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/polym13234160",
+      "publicationId": "ke-b38-010",
+      "deepDiveId": "gangue-slag-wet-dry-flexure",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2073-4360/13/23/4160"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Specimen preparation and cycle testing",
+          "source": "https://www.mdpi.com/2073-4360/13/23/4160"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions and observed damage at 20 cycles",
+          "source": "https://www.mdpi.com/2073-4360/13/23/4160"
+        }
+      ],
+      "limitations": [
+        "Retrieve SS/SH definitions, wet/dry solutions, temperature and age origin before treating cycles as an elapsed service duration.",
+        "Different mechanical endpoints can rank systems differently. Cycle damage is not a direct prediction of field lifetime without an exposure model.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma14112935",
+      "publicationId": "ke-b38-012",
+      "deepDiveId": "fly-ash-process-liquid-ratio",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/14/11/2935"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Study design and 28-day characterization program",
+          "source": "https://www.mdpi.com/1996-1944/14/11/2935"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, selected maximum-strength condition",
+          "source": "https://www.mdpi.com/1996-1944/14/11/2935"
+        }
+      ],
+      "limitations": [
+        "Retrieve L/S definition, solution water, test age and selected curing temperature before reproducing the headline composition.",
+        "A solution-ratio pair is not a complete batch ledger. Maximum compression alone does not establish best flexure, cost or ambient-cure performance.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma14185204",
+      "publicationId": "ke-b38-013",
+      "deepDiveId": "volcanic-ash-limestone-modulus",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/14/18/5204"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Study design; selected microscopy comparisons",
+          "source": "https://www.mdpi.com/1996-1944/14/18/5204"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results, Figures 9–10 comparison account",
+          "source": "https://www.mdpi.com/1996-1944/14/18/5204"
+        }
+      ],
+      "limitations": [
+        "Retrieve liquid content, total alkali, cure and exact blend pairing before treating this ranking as an isolated silica effect.",
+        "An activator ranking in a volcanic-ash blend is not a universal silicate penalty. Maintain the source formulation and thermal boundary.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/polym15143077",
+      "publicationId": "ke-b38-016",
+      "deepDiveId": "hydrophobic-aggregate-asphalt-conditioning",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2073-4360/15/14/3077"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Materials and methods; conditioning discussion",
+          "source": "https://www.mdpi.com/2073-4360/15/14/3077"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract and limitations on density/strength interpretation",
+          "source": "https://www.mdpi.com/2073-4360/15/14/3077"
+        }
+      ],
+      "limitations": [
+        "Retrieve aggregate age, coating amount, saturation protocol and substitution basis before transferring a water-resistance result.",
+        "Aggregate water response is not a demonstrated long-term pavement-life gain. Maturity and retained moisture can confound an apparent treatment effect.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

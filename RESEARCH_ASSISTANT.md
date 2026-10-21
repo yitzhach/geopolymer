@@ -1,5 +1,14 @@
 # Research assistant — working test feature
 
+## 21 October 2026 — 161 reading previews, unchanged numerical corpus
+
+Fifty further summary/guide pairs bring totals to 161 catalog-backed previews and
+162 partial guides. The same 1,000 publication identities and existing correction
+holds are preserved. Modeled impacts, reused experiments, author interpretations
+and proposed checks are labeled as such. None adds assistant measurements or
+clears sources for numerical prediction. Pilot evidence remains five partial
+studies / 62 mixes / 275 observations.
+
 ## 20 October 2026 — depth expansion to 111 previews
 
 Twenty more linked summary/guide pairs bring coverage to 111 catalog-backed

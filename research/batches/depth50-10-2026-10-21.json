@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "depth50-10-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 13,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/infrastructures7090117\" methods results conclusions",
+    "\"10.3390/ma18040778\" methods results conclusions",
+    "\"10.3390/polym14061140\" methods results conclusions",
+    "\"10.3390/cryst11101167\" methods results conclusions",
+    "\"10.3390/su14052652\" methods results conclusions",
+    "\"10.3390/infrastructures7090117\" abstract results showed found",
+    "\"10.3390/ma18040778\" abstract results showed found",
+    "\"10.3390/polym14061140\" abstract results showed found",
+    "\"10.3390/cryst11101167\" abstract results showed found",
+    "\"10.3390/su14052652\" abstract results showed found",
+    "\"Influences of Silica Fume on Compressive Strength and Chemical Resistances\" \"results\"",
+    "\"10.3390/polym14061140\" \"dielectric\" \"decreased\"",
+    "\"10.3390/ma18040778\" \"flexural\" \"weight\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/infrastructures7090117",
+      "publicationId": "ke-b38-018",
+      "deepDiveId": "recycled-aggregate-base-compaction",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2412-3811/7/9/117"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental mix and compaction comparisons",
+          "source": "https://www.mdpi.com/2412-3811/7/9/117"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, selected FA/CKD ratio",
+          "source": "https://www.mdpi.com/2412-3811/7/9/117"
+        }
+      ],
+      "limitations": [
+        "Retrieve binder content, ratio denominator, activator, optimum moisture and test density before using the selected ratio in a pavement formulation.",
+        "A binder ratio is not total stabilizer dosage or a pavement design approval. Check cyclic, moisture and durability requirements separately.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma18040778",
+      "publicationId": "ke-b38-019",
+      "deepDiveId": "minibars-alignment-flexural-domain",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/18/4/778"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, bar length/orientation and volume fractions",
+          "source": "https://www.mdpi.com/1996-1944/18/4/778"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Flexural-strength regression discussion",
+          "source": "https://www.mdpi.com/1996-1944/18/4/778"
+        }
+      ],
+      "limitations": [
+        "Retrieve volume accounting, bar resin, orientation and specimen geometry before comparing this reinforcement with randomly dispersed fibers.",
+        "A regression across aligned high-volume reinforcement is not a universal fiber-dose model. Independent testing and other loading directions remain necessary.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/polym14061140",
+      "publicationId": "ke-b38-023",
+      "deepDiveId": "bagasse-ash-dielectric-strength-tradeoff",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2073-4360/14/6/1140"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Material and electrical/mechanical testing descriptions",
+          "source": "https://www.mdpi.com/2073-4360/14/6/1140"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results, 28-day SCBA comparison and dielectric frequency response",
+          "source": "https://www.mdpi.com/2073-4360/14/6/1140"
+        }
+      ],
+      "limitations": [
+        "Retrieve SCBA mass denominator, treatment, electrode geometry, moisture and frequency before pairing dielectric and strength comparisons.",
+        "A dielectric constant depends on measurement conditions and electrode effects. An ash-utilization benefit does not remove the need for a strength acceptance requirement.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/cryst11101167",
+      "publicationId": "ke-b38-025",
+      "deepDiveId": "dry-powder-reagents-freeze-thaw",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2073-4352/11/10/1167"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental overview, dry mixing and durability tests",
+          "source": "https://www.mdpi.com/2073-4352/11/10/1167"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Freeze–thaw results, 50-cycle observations",
+          "source": "https://www.mdpi.com/2073-4352/11/10/1167"
+        }
+      ],
+      "limitations": [
+        "Retrieve activator denominator, saturation, cycle standard and full mix identity before equating visible integrity with long-term durability.",
+        "No visible damage at one exposure count is not an unlimited durability guarantee. Air entrainment and activator chemistry require condition-matched comparisons.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/su14052652",
+      "publicationId": "ke-b33-009",
+      "deepDiveId": "silica-fume-acid-sulfate-tradeoffs",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2071-1050/14/5/2652"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, mixture constants and exposure program",
+          "source": "https://www.mdpi.com/2071-1050/14/5/2652"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, strength and contrasting exposure effects",
+          "source": "https://www.mdpi.com/2071-1050/14/5/2652"
+        }
+      ],
+      "limitations": [
+        "Retrieve replacement denominator, cure, solution concentration and exposure age before comparing acid loss, sulfate expansion and residual strength.",
+        "Different aggressive solutions measure different failure modes. One chemical-resistance ranking must not be generalized to every sulfate or acid environment.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

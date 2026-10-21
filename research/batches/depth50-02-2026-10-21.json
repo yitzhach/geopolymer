@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "id": "depth50-02-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 15,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/min11060593\" methods results conclusions",
+    "\"10.3390/ma18163853\" methods results conclusions",
+    "\"10.3390/ma15093189\" methods results conclusions",
+    "\"10.3390/polym13213747\" methods results conclusions",
+    "\"10.3390/ma8095294\" methods results conclusions",
+    "\"10.3390/min11060593\" abstract results showed found",
+    "\"10.3390/ma18163853\" abstract results showed found",
+    "\"10.3390/ma15093189\" abstract results showed found",
+    "\"10.3390/polym13213747\" abstract results showed found",
+    "\"10.3390/ma8095294\" abstract results showed found",
+    "\"10.3390/ma8095294\" \"successive\" \"temperature\"",
+    "\"10.3390/polym13213747\" \"temperature\" \"optimum\"",
+    "\"10.3390/ma8095294\" \"three\" \"fire\"",
+    "\"10.3390/min11060593\" \"reference\" \"OPC\"",
+    "\"10.3390/ma8095294\" \"alumina\" \"RWS\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/min11060593",
+      "publicationId": "ke-b35-007",
+      "deepDiveId": "industrial-side-stream-qualification",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-163X/11/6/593"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Characterization and composite-development overview",
+          "source": "https://www.mdpi.com/2075-163X/11/6/593"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Mechanical-property discussion, reference comparison",
+          "source": "https://www.mdpi.com/2075-163X/11/6/593"
+        }
+      ],
+      "limitations": [
+        "Retrieve each composite formulation, age, residue source and leaching protocol before attributing a result to a single side stream.",
+        "A successful demonstration is not lot qualification or universal waste compatibility. Lower strength than the reference can still require a separate application assessment.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma18163853",
+      "publicationId": "ke-b35-010",
+      "deepDiveId": "metal-chamotte-thermal-effusivity",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/18/16/3853"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Analytical/testing overview and elevated-temperature comparison",
+          "source": "https://www.mdpi.com/1996-1944/18/16/3853"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract and thermal/mechanical discussion",
+          "source": "https://www.mdpi.com/1996-1944/18/16/3853"
+        }
+      ],
+      "limitations": [
+        "Retrieve filler fraction, reference conditioning, exposure duration and exact tested condition before pairing thermal and residual-strength extrema.",
+        "Effusivity measures heat exchange behavior, not storage capacity alone. A single exposure result does not establish thermal-cycling durability or a service rating.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma15093189",
+      "publicationId": "ke-b35-011",
+      "deepDiveId": "diabase-mud-hybrid-activation",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/15/9/3189"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Three-case experimental design",
+          "source": "https://www.mdpi.com/1996-1944/15/9/3189"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Discussion, equivalent-10 M comparison",
+          "source": "https://www.mdpi.com/1996-1944/15/9/3189"
+        }
+      ],
+      "limitations": [
+        "Reconcile ratio basis, CEM I contribution, test age and curing before converting the selected comparison into a waste-only formulation.",
+        "Hybrid cases are distinct systems. A ratio ranking at one molarity is not an optimum across all ages, cement additions or diabase sources.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/polym13213747",
+      "publicationId": "ke-b35-013",
+      "deepDiveId": "rha-coating-response-surface",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2073-4360/13/21/3747"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Response-surface design and thermal-response definitions",
+          "source": "https://www.mdpi.com/2073-4360/13/21/3747"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Primary optimization account, TAE/TT300",
+          "source": "https://www.mdpi.com/2073-4360/13/21/3747"
+        }
+      ],
+      "limitations": [
+        "Retrieve the exact TAE and TT300 definitions, coating thickness, substrate and ratio denominator before interpreting or reproducing the optimum.",
+        "A fitted optimum belongs to the measured design domain and response definitions. It is not a universal fire classification or an independently validated protection time.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma8095294",
+      "publicationId": "ke-b35-016",
+      "deepDiveId": "potassium-coating-successive-fire",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/8/9/5294"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Synthesis overview and successive-fire testing",
+          "source": "https://www.mdpi.com/1996-1944/8/9/5294"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions, small-scale passive protection",
+          "source": "https://www.mdpi.com/1996-1944/8/9/5294"
+        }
+      ],
+      "limitations": [
+        "Retrieve coat thickness, substrate, cycle count, cooling and temperature criteria before assigning a protection duration or comparison with a building standard.",
+        "This is a qualitative source conclusion at the tested scale. Full-scale fire certification and repeat-event service suitability remain separate questions.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

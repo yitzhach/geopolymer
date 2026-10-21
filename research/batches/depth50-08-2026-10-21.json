@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "depth50-08-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 14,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/app10134577\" methods results conclusions",
+    "\"10.3390/su132313455\" methods results conclusions",
+    "\"10.3390/buildings12111932\" methods results conclusions",
+    "\"10.3390/polym14235091\" methods results conclusions",
+    "\"10.3390/en13102504\" methods results conclusions",
+    "\"10.3390/app10134577\" abstract results showed found",
+    "\"10.3390/su132313455\" abstract results showed found",
+    "\"10.3390/buildings12111932\" abstract results showed found",
+    "\"10.3390/polym14235091\" abstract results showed found",
+    "\"10.3390/en13102504\" abstract results showed found",
+    "\"10.3390/buildings12111932\" \"strength\" \"optimum\"",
+    "\"Experimental Study on the Characteristics of Activated Coal Gangue\" \"temperature\"",
+    "\"10.3390/polym14235091\" \"compressive strength\" \"20\"",
+    "\"10.3390/buildings12111932\" \"12%\" \"alkali\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/app10134577",
+      "publicationId": "ke-b38-002",
+      "deepDiveId": "casting-shell-recycled-geopolymer",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2076-3417/10/13/4577"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Mould-layer and permeability-test methods",
+          "source": "https://www.mdpi.com/2076-3417/10/13/4577"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract and pressure-drop results",
+          "source": "https://www.mdpi.com/2076-3417/10/13/4577"
+        }
+      ],
+      "limitations": [
+        "Retrieve layer count, shell thickness, firing cycle and pressure-test convention before comparing permeability or casting performance.",
+        "Shorter pressure-drop time is apparatus- and geometry-dependent. It does not by itself quantify defect-free casting yield or a universal material permeability.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/su132313455",
+      "publicationId": "ke-b38-004",
+      "deepDiveId": "one-part-waste-immobilization-strength",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2071-1050/13/23/13455"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Fresh/mechanical/leaching comparison",
+          "source": "https://www.mdpi.com/2071-1050/13/23/13455"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Discussion, PG-containing specimens",
+          "source": "https://www.mdpi.com/2071-1050/13/23/13455"
+        }
+      ],
+      "limitations": [
+        "Retrieve PG identity, loading, age, formulation pairing and leach-test method before interpreting the range as one treatment effect.",
+        "Similar flow or calorimetry does not establish equal cured performance. Waste retention must be interpreted with element-specific release and mechanical integrity.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/buildings12111932",
+      "publicationId": "ke-b38-005",
+      "deepDiveId": "coal-gangue-mortar-local-optimum",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-5309/12/11/1932"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental variable ranges",
+          "source": "https://www.mdpi.com/2075-5309/12/11/1932"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results, alkali-content inflection",
+          "source": "https://www.mdpi.com/2075-5309/12/11/1932"
+        }
+      ],
+      "limitations": [
+        "Retrieve the alkali denominator, slag pairing, activation treatment and test age before treating 12% as a general dosage.",
+        "An optimum belongs to the tested factor space. Changing slag, gangue processing or water can move the apparent best activator level.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/polym14235091",
+      "publicationId": "ke-b38-006",
+      "deepDiveId": "corundum-powder-filler-densification",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2073-4360/14/23/5091"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Formulation routes and chemical/mechanical characterization",
+          "source": "https://www.mdpi.com/2073-4360/14/23/5091"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract and microscopy/compressive-strength discussion",
+          "source": "https://www.mdpi.com/2073-4360/14/23/5091"
+        }
+      ],
+      "limitations": [
+        "Reconcile whether each percentage is replacement or filler addition before comparing the reported strengthening conditions.",
+        "A denser filler-containing matrix does not demonstrate a new reactive binder contribution. Earlier coarse-grit results belong to a separate experiment.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/en13102504",
+      "publicationId": "ke-b38-008",
+      "deepDiveId": "coal-gangue-overactivation-temperature",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1073/13/10/2504"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract and specimen-preparation description",
+          "source": "https://www.mdpi.com/1996-1073/13/10/2504"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, activation-temperature trend",
+          "source": "https://www.mdpi.com/1996-1073/13/10/2504"
+        }
+      ],
+      "limitations": [
+        "Retrieve dwell time, grinding, solution composition and cure before interpreting temperature as the only changed factor.",
+        "Activation temperature and subsequent curing temperature are different process variables. A local overheating penalty is not a universal calcination threshold for all gangue.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

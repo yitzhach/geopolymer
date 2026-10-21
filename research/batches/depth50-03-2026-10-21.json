@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "id": "depth50-03-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 12,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/app12063116\" methods results conclusions",
+    "\"10.3390/ma14010056\" methods results conclusions",
+    "\"10.3390/ma18102272\" methods results conclusions",
+    "\"10.3390/c11030055\" methods results conclusions",
+    "\"10.3390/ma14237375\" methods results conclusions",
+    "\"10.3390/app12063116\" abstract results showed found",
+    "\"10.3390/ma14010056\" abstract results showed found",
+    "\"10.3390/ma18102272\" abstract results showed found",
+    "\"10.3390/c11030055\" abstract results showed found",
+    "\"10.3390/ma14237375\" abstract results showed found",
+    "\"Characterisation at the Bonding Zone\" \"results\"",
+    "\"10.3390/ma18102272\" \"conclusions\" \"adhesion\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/app12063116",
+      "publicationId": "ke-b35-017",
+      "deepDiveId": "marine-hybrid-cure-short-exposure",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2076-3417/12/6/3116"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Conditioning and mechanical comparison",
+          "source": "https://www.mdpi.com/2076-3417/12/6/3116"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results, two- and three-month strength development",
+          "source": "https://www.mdpi.com/2076-3417/12/6/3116"
+        }
+      ],
+      "limitations": [
+        "Retrieve the cure sequence, solution composition, wet/dry durations and baseline age before treating exposure time as total specimen age.",
+        "Early strength stability is not corrosion clearance or long-term chloride durability. Separate marine conditioning benefits from a whole-service-life prediction.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma14010056",
+      "publicationId": "ke-b35-018",
+      "deepDiveId": "repair-bond-zone-surface-interlock",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/14/1/56"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Composite specimen and slant-shear methods",
+          "source": "https://www.mdpi.com/1996-1944/14/1/56"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Bond-zone discussion and Figure 8 interpretation",
+          "source": "https://www.mdpi.com/1996-1944/14/1/56"
+        }
+      ],
+      "limitations": [
+        "Retrieve interface angle, preparation roughness, substrate age and bond-area convention before comparing slant-shear values with tensile adhesion.",
+        "Interface micrographs support an interpretation but do not isolate chemistry from roughness. Different bond-test stress states should not be pooled as one strength.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma18102272",
+      "publicationId": "ke-b35-020",
+      "deepDiveId": "slag-repair-matrix-failure",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/18/10/2272"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Methods and discussion, pull-out comparison",
+          "source": "https://www.mdpi.com/1996-1944/18/10/2272"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions, failure within the repair layer",
+          "source": "https://www.mdpi.com/1996-1944/18/10/2272"
+        }
+      ],
+      "limitations": [
+        "Retrieve specimen geometry, loading definition, repair composition and cure before quoting a numerical interface capacity.",
+        "Cohesive repair failure does not measure the ultimate interface strength. Distinguish observed failure load from an independently determined adhesion limit.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/c11030055",
+      "publicationId": "ke-b35-021",
+      "deepDiveId": "lca-carbon-uncertainty-activators",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2311-5629/11/3/55"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "LCA impact-category and inventory analysis",
+          "source": "https://www.mdpi.com/2311-5629/11/3/55"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results, ingredient/carbon correlation discussion",
+          "source": "https://www.mdpi.com/2311-5629/11/3/55"
+        }
+      ],
+      "limitations": [
+        "Retrieve functional unit, allocation, energy mix, transport and uncertainty distributions before transferring the modeled relationships to a local supply chain.",
+        "Inventory correlation is not a universal ingredient emission factor or causal marginal effect. Compare equal service requirements and disclose scenario assumptions.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma14237375",
+      "publicationId": "ke-b35-022",
+      "deepDiveId": "fly-ash-lca-strength-sensitivity",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/14/23/7375"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, LCA and statistical sensitivity methods",
+          "source": "https://www.mdpi.com/1996-1944/14/23/7375"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract and impact-correlation results",
+          "source": "https://www.mdpi.com/1996-1944/14/23/7375"
+        }
+      ],
+      "limitations": [
+        "Retrieve allocation, curing energy, functional unit and the exact comparison condition before applying the headline reduction.",
+        "A modeled reduction and factor ranking are bounded by the source inventory. They do not show that every stronger geopolymer automatically has a lower footprint.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "id": "depth50-01-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 15,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/ma18040750\" methods results conclusions",
+    "\"10.3390/ma15103543\" methods results conclusions",
+    "\"10.3390/min11070732\" methods results conclusions",
+    "\"10.3390/en18123107\" methods results conclusions",
+    "\"10.3390/ma18071552\" methods results conclusions",
+    "\"10.3390/ma18040750\" abstract results showed found",
+    "\"10.3390/ma15103543\" abstract results showed found",
+    "\"10.3390/min11070732\" abstract results showed found",
+    "\"10.3390/en18123107\" abstract results showed found",
+    "\"10.3390/ma18071552\" abstract results showed found",
+    "\"10.3390/ma15103543\" \"conclusions\" \"CNT\"",
+    "\"10.3390/en18123107\" \"WB\" \"potassium\"",
+    "\"10.3390/ma15103543\" \"resistance\" \"capacitance\" \"CNT\"",
+    "\"10.3390/ma15103543\" \"Materials\" \"nanotubes\"",
+    "\"10.3390/min11070732\" \"42.3\" porosity absorption"
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/ma18040750",
+      "publicationId": "ke-b34-022",
+      "deepDiveId": "graphite-resistance-capacitance-comparison",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/18/4/750"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Indexed primary account of compression and electrical readouts",
+          "source": "https://www.mdpi.com/1996-1944/18/4/750"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract and discussion, matrix stiffness and sensing comparisons",
+          "source": "https://www.mdpi.com/1996-1944/18/4/750"
+        }
+      ],
+      "limitations": [
+        "Retrieve graphite basis, electrode arrangement, excitation settings and load range before comparing sensitivity across binders.",
+        "Keep stiffness, electrical sensitivity and usable stress range as separate acceptance criteria; a sensing advantage does not establish greater load capacity.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma15103543",
+      "publicationId": "ke-b35-003",
+      "deepDiveId": "cnt-impedance-equivalent-circuit",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/15/10/3543"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Synthesis and averaged equivalent-circuit discussion",
+          "source": "https://www.mdpi.com/1996-1944/15/10/3543"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Primary material overview; capacitance comparison, Figure 5 discussion",
+          "source": "https://www.mdpi.com/1996-1944/15/10/3543"
+        }
+      ],
+      "limitations": [
+        "Reconcile nanotube mass denominator, dispersion procedure, specimen counts, moisture and frequency range before using the reported improvement.",
+        "Equivalent-circuit components are fitted electrical descriptors. They do not establish an independently calibrated field sensor or a universal nanotube benefit.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/min11070732",
+      "publicationId": "ke-b35-004",
+      "deepDiveId": "copper-slag-foam-connected-pores",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-163X/11/7/732"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Materials and paste-preparation passages",
+          "source": "https://www.mdpi.com/2075-163X/11/7/732"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Water-absorption discussion and selected material evaluation",
+          "source": "https://www.mdpi.com/2075-163X/11/7/732"
+        }
+      ],
+      "limitations": [
+        "Retrieve water-absorption basis, board composition and conditioning before relating water uptake to pore connectivity, strength or conductivity.",
+        "Water absorption is not a direct porosity percentage or insulation rating. Keep mass uptake, pore accessibility and heat transport linked to their own test methods.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/en18123107",
+      "publicationId": "ke-b35-005",
+      "deepDiveId": "brick-waste-tes-phase-diagram-domain",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1073/18/12/3107"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Composition screening and selected thermal-exposure program",
+          "source": "https://www.mdpi.com/1996-1073/18/12/3107"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results, Figure 5b selection of potassium systems",
+          "source": "https://www.mdpi.com/1996-1073/18/12/3107"
+        }
+      ],
+      "limitations": [
+        "Retrieve each selected composition, dehydration assumption and heating history before transferring the thermodynamic screen to a new waste source.",
+        "A predicted liquidus boundary is not an operating-temperature certification; repeated cycling, heat transport and retained strength require their own evidence.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma18071552",
+      "publicationId": "ke-b35-006",
+      "deepDiveId": "ladle-slag-soda-residue-setting",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/18/7/1552"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental variables and setting tests",
+          "source": "https://www.mdpi.com/1996-1944/18/7/1552"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Setting discussion, Figure 6a; strength summary",
+          "source": "https://www.mdpi.com/1996-1944/18/7/1552"
+        }
+      ],
+      "limitations": [
+        "Reconcile Na2O denominator, solution modulus, residue fraction and condition-level pairing before joining the setting and maximum-strength results.",
+        "The fastest set and highest strength must not be combined into an invented recipe. Keep source condition identities and environmental system boundaries attached.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

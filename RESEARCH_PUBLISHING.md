@@ -1,5 +1,35 @@
 # Research database and GP Journal
 
+## 21 October 2026 — fifty more reading summaries and deep dives
+
+The unchanged 1,000-paper library now has 161 detailed previews and 162 partial
+guides. Fifty added pairs cover electrical sensing, thermal storage and coatings,
+waste feedstocks, repair bonds, environmental assessment, immobilization, milling,
+reactivity, casting shells, coal gangue, soil/pavement systems and reinforcement.
+Each has three labeled paragraphs (118–143 words before lists), takeaways,
+limitations, intended readers and original/deep-dive links.
+
+Ten five-paper audits, depth50-01 through depth50-10-2026-10-21.json, preserve 131
+individual source-search queries. Selected primary passages and primary summaries
+support the notes; no complete PDF, figure, supplement, domain/human review or
+comprehensive source-status clearance is claimed. Exact full-text licenses remain
+unassessed. Only original selected factual paraphrases and independent editorial
+planning are published; no raw papers, abstracts, full tables or figures retained.
+
+Assessment and literature-comparison guides use corresponding page headings and
+walkthroughs. Environmental impacts are labeled modeled comparisons, with scenario rather than
+laboratory-repeat planning. The carbonate comparison reuses earlier experimental
+results and is not counted as a new independent dataset. Paper-sludge followup
+notes distinguish reused data from new long-age observations. Foundry-sand notes
+retain a precursor/aggregate terminology conflict. Copper-foam water absorption
+is explicitly distinguished from a porosity percentage. A climate-risk candidate
+was deferred for insufficient accessible outcomes and replaced by an existing
+sintering/conductivity paper. No metadata records were silently added or deleted.
+
+No canonical observations or recipes were added. Previous 111 previews and 112
+guides remain identical; hashes and the publication-identity baseline are retained
+in depth50-baseline-2026-10-21.json. Validation/publication status: HANDOFF.md.
+
 ## 20 October 2026 — twenty further detailed summaries and guides
 
 Coverage is now 111 detailed reading previews and 112 partial editorial guides

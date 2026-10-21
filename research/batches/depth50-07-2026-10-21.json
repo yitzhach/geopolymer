@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "id": "depth50-07-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 12,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/app8030365\" methods results conclusions",
+    "\"10.3390/min14070726\" methods results conclusions",
+    "\"10.3390/buildings13030693\" methods results conclusions",
+    "\"10.3390/min8080337\" methods results conclusions",
+    "\"10.3390/app13085166\" methods results conclusions",
+    "\"10.3390/app8030365\" abstract results showed found",
+    "\"10.3390/min14070726\" abstract results showed found",
+    "\"10.3390/buildings13030693\" abstract results showed found",
+    "\"10.3390/min8080337\" abstract results showed found",
+    "\"10.3390/app13085166\" abstract results showed found",
+    "\"10.3390/app8030365\" \"strength\" \"grinding\"",
+    "\"10.3390/buildings13030693\" \"reactivity\" \"results\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/app8030365",
+      "publicationId": "ke-b37-015",
+      "deepDiveId": "ground-fly-ash-bond-dissolution",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2076-3417/8/3/365"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Characterization methods, BET/XRD/FTIR",
+          "source": "https://www.mdpi.com/2076-3417/8/3/365"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Discussion, grinding and bond-dissolution interpretation",
+          "source": "https://www.mdpi.com/2076-3417/8/3/365"
+        }
+      ],
+      "limitations": [
+        "Retrieve grinding history, solution chemistry and fitted spectral assumptions before attributing a mechanical change to one chemical mechanism.",
+        "Band interpretation is not a direct reacted-mass measurement. Grinding energy and particle-size effects also belong in any practical comparison.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/min14070726",
+      "publicationId": "ke-b37-016",
+      "deepDiveId": "carbonate-comparison-shared-datasets",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-163X/14/7/726"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Introduction, comparative-analysis scope; carbonate reaction methods",
+          "source": "https://www.mdpi.com/2075-163X/14/7/726"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results, magnesium-carbonate/hydrotalcite account",
+          "source": "https://www.mdpi.com/2075-163X/14/7/726"
+        }
+      ],
+      "limitations": [
+        "Trace each strength series to its original paper and reconcile activation conditions before pooling or ranking observations.",
+        "This guide concerns a comparative synthesis, not an entirely new independent strength dataset. Reaction products alone do not settle binder performance.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/buildings13030693",
+      "publicationId": "ke-b37-017",
+      "deepDiveId": "precursor-reactivity-screen",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-5309/13/3/693"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Methods, structural comparison pastes",
+          "source": "https://www.mdpi.com/2075-5309/13/3/693"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions, precursor classifications",
+          "source": "https://www.mdpi.com/2075-5309/13/3/693"
+        }
+      ],
+      "limitations": [
+        "Retrieve SCBAM/SCBAMH preparation definitions, screening conditions and acceptance criteria before applying the labels to another source lot.",
+        "A screen classifies response under its test conditions; it is not a universal exclusion rule or guaranteed strength prediction for blended binders.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/min8080337",
+      "publicationId": "ke-b37-020",
+      "deepDiveId": "sanitaryware-calcium-assisted-activation",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-163X/8/8/337"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, blend and calcium-addition design",
+          "source": "https://www.mdpi.com/2075-163X/8/8/337"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, ambient activation finding",
+          "source": "https://www.mdpi.com/2075-163X/8/8/337"
+        }
+      ],
+      "limitations": [
+        "Reconcile calcium-addition denominator, solution chemistry, ceramic grinding and condition-specific cure before matching the two blend families.",
+        "FA plus added lime and calcium-rich slag are not identical calcium controls. Do not import numerical strengths from cited prior studies into this dataset.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/app13085166",
+      "publicationId": "ke-b38-001",
+      "deepDiveId": "foundry-sand-precursor-versus-aggregate",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2076-3417/13/8/5166"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, separate ceramic/geopolymer designs",
+          "source": "https://www.mdpi.com/2076-3417/13/8/5166"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions, geopolymer replacement limit",
+          "source": "https://www.mdpi.com/2076-3417/13/8/5166"
+        }
+      ],
+      "limitations": [
+        "Retrieve the exact displaced ingredient, water/activator balance and performance criteria before applying a replacement percentage.",
+        "The primary design identifies precursor replacement, despite broader sand-replacement wording in the conclusions. Keep that terminology conflict visible when using the result.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

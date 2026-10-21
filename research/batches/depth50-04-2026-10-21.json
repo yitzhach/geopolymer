@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "depth50-04-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 13,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/su132011167\" methods results conclusions",
+    "\"10.3390/app122111205\" methods results conclusions",
+    "\"10.3390/su14094942\" methods results conclusions",
+    "\"10.3390/su15097718\" methods results conclusions",
+    "\"10.3390/ma18133150\" methods results conclusions",
+    "\"10.3390/su132011167\" abstract results showed found",
+    "\"10.3390/app122111205\" abstract results showed found",
+    "\"10.3390/su14094942\" abstract results showed found",
+    "\"10.3390/su15097718\" abstract results showed found",
+    "\"10.3390/ma18133150\" abstract results showed found",
+    "\"Life-Cycle Assessment of Fly Ash and Cenosphere-Based Geopolymer Material\" \"impact\"",
+    "\"Life Cycle Assessment for Geopolymer Concrete Bricks Using Brown Coal Fly Ash\"",
+    "\"10.3390/ma18133150\" \"conductivity\" \"aggregate\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/su132011167",
+      "publicationId": "ke-b35-023",
+      "deepDiveId": "cenosphere-lca-density-strength",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2071-1050/13/20/11167"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "LCA scope and production/transport scenarios",
+          "source": "https://www.mdpi.com/2071-1050/13/20/11167"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Primary mechanical comparison at 28 days",
+          "source": "https://www.mdpi.com/2071-1050/13/20/11167"
+        }
+      ],
+      "limitations": [
+        "Retrieve application requirement, allocation rules and transport distances before treating equal volumes as functionally equivalent products.",
+        "A lower-density material can need a different section or function. Environmental comparisons should retain the mechanical tradeoff rather than compare volume alone.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/app122111205",
+      "publicationId": "ke-b36-002",
+      "deepDiveId": "foam-coating-application-method",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2076-3417/12/21/11205"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Application procedure and material characterization",
+          "source": "https://www.mdpi.com/2076-3417/12/21/11205"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results, Mix 2 application comparison and conclusions",
+          "source": "https://www.mdpi.com/2076-3417/12/21/11205"
+        }
+      ],
+      "limitations": [
+        "Retrieve pressure, nozzle, coating thickness, substrate and mix age before interpreting a failed or successful application.",
+        "Potential spray applicability is not a demonstrated adhesion life or fire rating. Application failure can arise from equipment and rheology as well as binder chemistry.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/su14094942",
+      "publicationId": "ke-b36-003",
+      "deepDiveId": "ambient-heat-cure-lca-flow",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2071-1050/14/9/4942"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "LCA methods and fresh-property comparisons",
+          "source": "https://www.mdpi.com/2071-1050/14/9/4942"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Discussion, molarity/flow trend",
+          "source": "https://www.mdpi.com/2071-1050/14/9/4942"
+        }
+      ],
+      "limitations": [
+        "Retrieve all precursor constituents, water definitions, cure schedule and inventory boundaries before assigning a net environmental advantage.",
+        "A fresh-flow trend does not settle cured strength or curing-energy tradeoffs. Keep modeled burdens and physical measurements attached to their own methods.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/su15097718",
+      "publicationId": "ke-b36-004",
+      "deepDiveId": "brown-coal-brick-lca-boundary",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2071-1050/15/9/7718"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, lifecycle boundary",
+          "source": "https://www.mdpi.com/2071-1050/15/9/7718"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, impact-category and dominant-stage findings",
+          "source": "https://www.mdpi.com/2071-1050/15/9/7718"
+        }
+      ],
+      "limitations": [
+        "Retrieve brick performance, functional unit, allocation and regional inventories before transferring category-specific benefits.",
+        "An improvement in selected impact categories is not an all-category environmental superiority claim. Equivalent service performance and end-of-life assumptions still matter.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma18133150",
+      "publicationId": "ke-b36-005",
+      "deepDiveId": "lightweight-aggregate-thermal-domain",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/18/13/3150"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Mechanical and thermal testing descriptions",
+          "source": "https://www.mdpi.com/1996-1944/18/13/3150"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions, selected conductivity comparison",
+          "source": "https://www.mdpi.com/1996-1944/18/13/3150"
+        }
+      ],
+      "limitations": [
+        "Retrieve aggregate fraction, density, moisture and measurement temperature before pairing the lowest conductivity with a mechanical result.",
+        "The best conductivity need not belong to the strongest mix. An insulation improvement alone does not demonstrate whole-building energy savings or structural adequacy.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}
