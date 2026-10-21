@@ -4,9 +4,10 @@ const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'
 export const deepDiveIndex=()=>`<section class="page-intro"><p class="eyebrow">RESEARCH / DEEP DIVES</p><h1>Inside the experiment.</h1><p class="lede">Materials, ratios, reported procedures and the checks needed to turn a paper into a reproducible experiment.</p><p><a href="/deep-dives.json" download>Download deep-dive notes (JSON)</a></p></section><div class="grid two">${deepDives.map(d=>`<article class="record"><h2><a href="/deep-dives/${esc(d.id)}">${esc(d.title)}</a></h2><p>${esc(d.summary)}</p><p>Partial source review · replication gaps shown</p></article>`).join('')}</div>`;
 export function deepDivePage(d){
  const assessment=d.evidenceKind?.startsWith('life-cycle'),synthesis=d.evidenceKind==='comparative-synthesis-of-prior-experiments';
- const analytical=assessment||synthesis;
- const eyebrow=assessment?'ASSESSMENT DEEP DIVE':synthesis?'LITERATURE COMPARISON':'EXPERIMENT DEEP DIVE';
- const walkthrough=assessment?'Assessment walkthrough':synthesis?'Evidence review walkthrough':'Experimental walkthrough';
+ const model=d.evidenceKind==='numerical-model-calibrated-on-prior-experiments';
+ const analytical=assessment||synthesis||model;
+ const eyebrow=model?'MODELING DEEP DIVE':assessment?'ASSESSMENT DEEP DIVE':synthesis?'LITERATURE COMPARISON':'EXPERIMENT DEEP DIVE';
+ const walkthrough=model?'Model review walkthrough':assessment?'Assessment walkthrough':synthesis?'Evidence review walkthrough':'Experimental walkthrough';
  const planning=analytical?'Original assessment and evidence-review guidance.':'Original laboratory planning guidance.';
  const planningScope=analytical?'These steps organise a new assessment or evidence review; they are not additional methods reported by the authors. Resolve the holds before transferring conclusions.':'These steps organise a new experiment; they are not additional procedures reported by the authors. Resolve the holds below before running a reproduction.';
 

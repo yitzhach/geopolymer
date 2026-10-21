@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "depth100-04-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 15,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/su15054523\" methods results conclusions",
+    "\"10.3390/min13020232\" methods results conclusions",
+    "\"10.3390/min15030297\" methods results conclusions",
+    "\"10.3390/ma9080633\" methods results conclusions",
+    "\"10.3390/buildings16153136\" methods results conclusions",
+    "\"10.3390/su15054523\" abstract results showed",
+    "\"10.3390/min13020232\" abstract results showed",
+    "\"10.3390/min15030297\" abstract results showed",
+    "\"10.3390/ma9080633\" abstract results showed",
+    "\"10.3390/buildings16153136\" abstract results showed",
+    "\"10.3390/su15054523\" \"strength\" \"optimum\"",
+    "\"10.3390/min13020232\" \"POFA\" \"strength\"",
+    "\"10.3390/ma9080633\" \"strontium\" \"cesium\"",
+    "\"Utilization of Palm Oil Fuel Ash\" \"tailings\" \"compressive\"",
+    "\"10.3390/su141710948\" abstract results recycled"
+  ],
+  "deferred": [
+    {
+      "doi": "10.3390/min13020232",
+      "reason": "Returned quantitative benefits belonged to cited prior studies; replaced with existing RCA/ultrafine-slag paper."
+    }
+  ],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/su15054523",
+      "publicationId": "ke-b31-016",
+      "deepDiveId": "lithium-slag-tailings-cure",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2071-1050/15/5/4523"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental proportions and curing design",
+          "source": "https://www.mdpi.com/2071-1050/15/5/4523"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions, selected curing-temperature optimum",
+          "source": "https://www.mdpi.com/2071-1050/15/5/4523"
+        }
+      ],
+      "limitations": [
+        "Retrieve the chosen ratio, activation treatment, temperature duration and testing age before reproducing the optimum.",
+        "A preferred cure temperature is not a complete recipe or proof that all tailings react. Quartz-rich fractions and processing energy remain important constraints.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/su141710948",
+      "publicationId": "ke-b34-009",
+      "deepDiveId": "recycled-aggregate-ultrafine-slag-durability",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2071-1050/14/17/10948"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, material and exposure scope",
+          "source": "https://www.mdpi.com/2071-1050/14/17/10948"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, ultrafine-slag mitigation finding",
+          "source": "https://www.mdpi.com/2071-1050/14/17/10948"
+        }
+      ],
+      "limitations": [
+        "Retrieve RCA absorption, preconditioning, UFS dose, activator and each exposure protocol before assigning a transferable durability benefit.",
+        "A reported mitigation direction does not establish equal resistance to every chemical or full service-life equivalence with natural aggregate concrete.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/min15030297",
+      "publicationId": "ke-b31-020",
+      "deepDiveId": "algae-sludge-sorbent-metal-selectivity",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-163X/15/3/297"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Primary synthesis and adsorption-study description",
+          "source": "https://www.mdpi.com/2075-163X/15/3/297"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "FTIR/sorption discussion",
+          "source": "https://www.mdpi.com/2075-163X/15/3/297"
+        }
+      ],
+      "limitations": [
+        "Retrieve pH, initial concentration, sorbent dose, contact time and leaching blanks before comparing ion-specific capacities.",
+        "A sorption result is not evidence that the waste support releases no contaminants. Regeneration and mixed-ion competition need separate assessment.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma9080633",
+      "publicationId": "ke-b31-021",
+      "deepDiveId": "paper-ash-surrogate-immobilization",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/9/8/633"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Methods, plain and surrogate-containing pastes",
+          "source": "https://www.mdpi.com/1996-1944/9/8/633"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Sr chemical-environment discussion",
+          "source": "https://www.mdpi.com/1996-1944/9/8/633"
+        }
+      ],
+      "limitations": [
+        "Retrieve surrogate versus isotope identity, loading basis, solution chemistry and leach histories before comparing retention efficiency.",
+        "A local chemical-environment resemblance is not complete proof of one binding mechanism or identical Cs behavior. Keep surrogate tests separate from radioactive service claims.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/buildings16153136",
+      "publicationId": "ke-b31-024",
+      "deepDiveId": "biomass-eps-insulation-water",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-5309/16/15/3136"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, multi-property testing",
+          "source": "https://www.mdpi.com/2075-5309/16/15/3136"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, thermal and bulk-water ranges",
+          "source": "https://www.mdpi.com/2075-5309/16/15/3136"
+        }
+      ],
+      "limitations": [
+        "Retrieve biomass/EPS fractions, conditioning, modification and condition-level property pairing before combining extrema.",
+        "Surface contact angle and bulk absorption are different endpoints. A water-repellent surface does not establish a waterproof insulation product.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

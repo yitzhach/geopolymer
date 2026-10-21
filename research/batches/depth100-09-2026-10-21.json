@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "depth100-09-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 11,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/buildings15162974\" methods results conclusions",
+    "\"10.3390/buildings15203792\" methods results conclusions",
+    "\"10.3390/buildings14071986\" methods results conclusions",
+    "\"10.3390/polym15163440\" methods results conclusions",
+    "\"10.3390/pr14101607\" methods results conclusions",
+    "\"10.3390/buildings15162974\" abstract results showed",
+    "\"10.3390/buildings15203792\" abstract results showed",
+    "\"10.3390/buildings14071986\" abstract results showed",
+    "\"10.3390/polym15163440\" abstract results showed",
+    "\"10.3390/pr14101607\" abstract results showed",
+    "\"10.3390/buildings15203792\" \"60\" \"strength\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/buildings15162974",
+      "publicationId": "ke-b33-006",
+      "deepDiveId": "high-ambient-cure-precursor-response",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-5309/15/16/2974"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Curing and source-system comparisons",
+          "source": "https://www.mdpi.com/2075-5309/15/16/2974"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Discussion, matched 3-day strength comparisons",
+          "source": "https://www.mdpi.com/2075-5309/15/16/2974"
+        }
+      ],
+      "limitations": [
+        "Retrieve PMGP/FAGP definitions and actual warm-ambient/heat schedules. The publisher also notes republication for a minor Data Availability Statement correction.",
+        "Different precursor responses prevent a universal cure substitution rule. The administrative republication notice does not supply a numerical correction or clear unresolved methods.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/buildings15203792",
+      "publicationId": "ke-b33-007",
+      "deepDiveId": "sustained-thermal-egc-response",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-5309/15/20/3792"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, sustained thermal conditioning",
+          "source": "https://www.mdpi.com/2075-5309/15/20/3792"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Discussion, matrix/interface and high-rate interpretation",
+          "source": "https://www.mdpi.com/2075-5309/15/20/3792"
+        }
+      ],
+      "limitations": [
+        "Retrieve exposure duration, fiber identity, moisture and matched reference age before treating temperature as the only changed factor.",
+        "A moderate sustained environment is not a fire exposure. Matrix maturation and interface changes must remain separate from a universal thermal-durability claim.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/buildings14071986",
+      "publicationId": "ke-b33-008",
+      "deepDiveId": "pva-crack-dic-splitting",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-5309/14/7/1986"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract and real-time imaging method",
+          "source": "https://www.mdpi.com/2075-5309/14/7/1986"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, cracking/strain response",
+          "source": "https://www.mdpi.com/2075-5309/14/7/1986"
+        }
+      ],
+      "limitations": [
+        "Retrieve fiber fraction, specimen geometry, camera rate, surface preparation and DIC settings before comparing cracking times.",
+        "A splitting-load imaging result is not an unrestricted direct-tension constitutive model. Crack timing and measurement uncertainty need explicit interpretation.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/polym15163440",
+      "publicationId": "ke-b33-010",
+      "deepDiveId": "fiber-panel-experiment-model-slip",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2073-4360/15/16/3440"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, test/simulation scope",
+          "source": "https://www.mdpi.com/2073-4360/15/16/3440"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Discussion, observed interface slippage",
+          "source": "https://www.mdpi.com/2073-4360/15/16/3440"
+        }
+      ],
+      "limitations": [
+        "Retrieve panel support, bond assumptions, material calibration and validation scope before transferring the numerical result to another assembly.",
+        "Agreement in one global response does not establish correct interface behavior. Calibration and independent validation must remain distinct from design certification.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/pr14101607",
+      "publicationId": "ke-b33-011",
+      "deepDiveId": "ternary-iron-water-retention-model",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2227-9717/14/10/1607"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, mixture design and modeling",
+          "source": "https://www.mdpi.com/2227-9717/14/10/1607"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, selected composition and performance",
+          "source": "https://www.mdpi.com/2227-9717/14/10/1607"
+        }
+      ],
+      "limitations": [
+        "Retrieve mass basis, retention definition, moisture, specimen geometry and acceptance requirement before using the optimum for a road layer.",
+        "A fitted screening optimum is not a universal subgrade design. Water storage, permeability and mechanical support are different endpoints.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

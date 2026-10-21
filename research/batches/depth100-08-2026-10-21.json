@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "id": "depth100-08-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 15,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/polym14020306\" methods results conclusions",
+    "\"10.3390/jcs6070191\" methods results conclusions",
+    "\"10.3390/coatings16030328\" methods results conclusions",
+    "\"10.3390/su152416934\" methods results conclusions",
+    "\"10.3390/buildings16152982\" methods results conclusions",
+    "\"10.3390/polym14020306\" abstract results showed",
+    "\"10.3390/jcs6070191\" abstract results showed",
+    "\"10.3390/coatings16030328\" abstract results showed",
+    "\"10.3390/su152416934\" abstract results showed",
+    "\"10.3390/buildings16152982\" abstract results showed",
+    "\"10.3390/polym14020306\" \"optimum\" \"strength\"",
+    "\"10.3390/jcs6070191\" \"strength\" \"brick\"",
+    "\"10.3390/su152416934\" \"aged\" \"strength\"",
+    "\"10.3390/polym14020306\" \"20%\" \"16\"",
+    "\"10.3390/jcs6070191\" \"conclusions\" \"MPa\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/polym14020306",
+      "publicationId": "ke-b32-023",
+      "deepDiveId": "granite-powder-local-molarity",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2073-4360/14/2/306"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract and mechanical test design",
+          "source": "https://www.mdpi.com/2073-4360/14/2/306"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results, selected 16 M/GWP condition",
+          "source": "https://www.mdpi.com/2073-4360/14/2/306"
+        }
+      ],
+      "limitations": [
+        "Retrieve the replacement denominator, total liquid, age and cure before transferring the 20% optimum to another molarity.",
+        "A local maximum in a multivariable design is not a universal granite dose. Activator cost and fresh workability also need condition-matched evaluation.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/jcs6070191",
+      "publicationId": "ke-b32-024",
+      "deepDiveId": "demolition-waste-binder-families",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2504-477X/6/7/191"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, replacement roles and characterization",
+          "source": "https://www.mdpi.com/2504-477X/6/7/191"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, family-level mechanical results",
+          "source": "https://www.mdpi.com/2504-477X/6/7/191"
+        }
+      ],
+      "limitations": [
+        "Retrieve exact waste fractions, activation and test-age pairing before attributing the difference solely to precursor type.",
+        "Family-level values do not isolate one causal ingredient. Prior studies summarized by the article remain separate from these new experiments.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/coatings16030328",
+      "publicationId": "ke-b32-025",
+      "deepDiveId": "granite-soil-bound-water",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2079-6412/16/3/328"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Hydration characterization and age comparisons",
+          "source": "https://www.mdpi.com/2079-6412/16/3/328"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Discussion, strength/bound-water fit",
+          "source": "https://www.mdpi.com/2079-6412/16/3/328"
+        }
+      ],
+      "limitations": [
+        "Retrieve soil processing, blend composition, bound-water method and fit domain before estimating strength from hydration indicators.",
+        "A fitted association does not establish causal or cross-material prediction. Cement-based reference equations are separate evidence.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/su152416934",
+      "publicationId": "ke-b33-003",
+      "deepDiveId": "aged-bof-slag-aggregate",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2071-1050/15/24/16934"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Study design, slag age and aggregate role",
+          "source": "https://www.mdpi.com/2071-1050/15/24/16934"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Mechanical-results discussion",
+          "source": "https://www.mdpi.com/2071-1050/15/24/16934"
+        }
+      ],
+      "limitations": [
+        "Retrieve storage exposure, free lime/magnesia, grading, absorption and cure before attributing the strength difference to age alone.",
+        "Aggregate stabilization and mechanical improvement are different objectives. Aging histories need chemical and physical qualification rather than a single time label.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/buildings16152982",
+      "publicationId": "ke-b33-004",
+      "deepDiveId": "bof-aggregate-steam-carbonation",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-5309/16/15/2982"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract and curing comparison",
+          "source": "https://www.mdpi.com/2075-5309/16/15/2982"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results, curing and 184-day shrinkage",
+          "source": "https://www.mdpi.com/2075-5309/16/15/2982"
+        }
+      ],
+      "limitations": [
+        "Retrieve steam/CO2 durations, temperature, sequencing and shrinkage baseline before comparing selected cure schedules.",
+        "A selected combined schedule does not isolate carbonation chemistry from heat history or moisture. Keep conditioning and environmental cost explicit.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

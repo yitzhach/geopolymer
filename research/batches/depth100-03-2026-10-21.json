@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "depth100-03-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 11,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/gels8120792\" methods results conclusions",
+    "\"10.3390/ma19153251\" methods results conclusions",
+    "\"10.3390/polym18091110\" methods results conclusions",
+    "\"10.3390/ma17071585\" methods results conclusions",
+    "\"10.3390/molecules25184218\" methods results conclusions",
+    "\"10.3390/gels8120792\" abstract results showed",
+    "\"10.3390/ma19153251\" abstract results showed",
+    "\"10.3390/polym18091110\" abstract results showed",
+    "\"10.3390/ma17071585\" abstract results showed",
+    "\"10.3390/molecules25184218\" abstract results showed",
+    "\"10.3390/ma19153251\" \"degradation\" \"rate\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/gels8120792",
+      "publicationId": "ke-b31-010",
+      "deepDiveId": "silt-sediment-modifier-curing",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2310-2861/8/12/792"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, experimental-factor and characterization overview",
+          "source": "https://www.mdpi.com/2310-2861/8/12/792"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, mechanical factors and gel interpretation",
+          "source": "https://www.mdpi.com/2310-2861/8/12/792"
+        }
+      ],
+      "limitations": [
+        "Retrieve modifier identities, mass bases, compaction and cure before choosing a reported favorable combination.",
+        "Gel identification does not establish independent effects of each factor. A sediment-specific result needs local composition and physical-state checks.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma19153251",
+      "publicationId": "ke-b31-012",
+      "deepDiveId": "bismuth-tungstate-photocatalysis",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/19/15/3251"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Synthesis and scavenger-test passages",
+          "source": "https://www.mdpi.com/1996-1944/19/15/3251"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Photocatalytic results, selected 300-minute response",
+          "source": "https://www.mdpi.com/1996-1944/19/15/3251"
+        }
+      ],
+      "limitations": [
+        "Retrieve catalyst loading, pollutant concentration, light spectrum/power and dark controls before comparing removal percentages.",
+        "Loss of the parent compound is not automatically full mineralization or safe effluent. Adsorption, photolysis and catalyst reuse need separate evaluation.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/polym18091110",
+      "publicationId": "ke-b31-013",
+      "deepDiveId": "zno-functionalization-texture",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2073-4360/18/9/1110"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Materials/characterization overview",
+          "source": "https://www.mdpi.com/2073-4360/18/9/1110"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract and structural/porosity discussion",
+          "source": "https://www.mdpi.com/2073-4360/18/9/1110"
+        }
+      ],
+      "limitations": [
+        "Retrieve ZnO loading, introduction sequence and photocatalysis controls before equating textural change with catalytic improvement.",
+        "Phase persistence and catalytic performance are different findings. Denser structure or partial pore blocking can change access to active sites.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma17071585",
+      "publicationId": "ke-b31-014",
+      "deepDiveId": "biox-microsphere-adsorption-degradation",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/17/7/1585"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, catalyst loading and separate test stages",
+          "source": "https://www.mdpi.com/1996-1944/17/7/1585"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract and Figure 12 adsorption/degradation account",
+          "source": "https://www.mdpi.com/1996-1944/17/7/1585"
+        }
+      ],
+      "limitations": [
+        "Retrieve the exact catalyst condition, gas concentration, chamber and light/dark sequence before assigning the reported percentage.",
+        "An adsorption percentage must not be relabeled as chemical degradation or mineralization. Saturation and release during reuse also require testing.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/molecules25184218",
+      "publicationId": "ke-b31-015",
+      "deepDiveId": "carbon-geopolymer-dielectric-window",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1420-3049/25/18/4218"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, composition and frequency window",
+          "source": "https://www.mdpi.com/1420-3049/25/18/4218"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, dielectric and magnetic comparisons",
+          "source": "https://www.mdpi.com/1420-3049/25/18/4218"
+        }
+      ],
+      "limitations": [
+        "Retrieve density, pore size, carbon purity and specimen geometry before comparing permittivity or absorption claims.",
+        "A dielectric response in one measured range is not demonstrated ultra-wideband attenuation in every absorber geometry. Separate loss properties from device-level performance.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

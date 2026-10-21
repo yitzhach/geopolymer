@@ -1,5 +1,14 @@
 # Research assistant — working test feature
 
+## 21 October 2026 — another fifty editorial pairs
+
+Coverage is now 211 catalog-backed detailed previews and 212 partial guides with
+the same 1,000 papers. The second fifty-paper batch preserves prior editorial
+records, correction holds and the canonical corpus: five partial studies / 62
+mixes / 275 observations. Unresolved units, model reuse and source-version limits
+are explicit. Editorial expansion creates no new numerical predictions or source
+clearance for the assistant.
+
 ## 21 October 2026 — 161 reading previews, unchanged numerical corpus
 
 Fifty further summary/guide pairs bring totals to 161 catalog-backed previews and

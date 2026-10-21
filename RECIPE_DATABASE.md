@@ -1,5 +1,13 @@
 # Recipe database and future formulation advisor
 
+## 21 October 2026 — depth grows to 211 previews and 212 guides
+
+Another fifty summary/guide pairs retain source-specific material roles, dose
+bases, cure/exposure clocks, failure modes, unresolved units and model boundaries.
+No incomplete mixture ledger is made into a runnable formulation. Counts remain
+43 recipes / 31 scalable and five studies / 62 mixes / 275 observations. Modeling
+and environmental guides use evidence/scenario review rather than new lab claims.
+
 ## 21 October 2026 — fifty further guides without recipe ingestion
 
 Coverage reaches 161 detailed previews and 162 partial guides. The fifty additions

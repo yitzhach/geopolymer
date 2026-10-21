@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "depth100-05-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 13,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/su15129846\" methods results conclusions",
+    "\"10.3390/min14080763\" methods results conclusions",
+    "\"10.3390/ma16176054\" methods results conclusions",
+    "\"10.3390/buildings13030586\" methods results conclusions",
+    "\"10.3390/polym18121470\" methods results conclusions",
+    "\"10.3390/su15129846\" abstract results showed",
+    "\"10.3390/min14080763\" abstract results showed",
+    "\"10.3390/ma16176054\" abstract results showed",
+    "\"10.3390/buildings13030586\" abstract results showed",
+    "\"10.3390/polym18121470\" abstract results showed",
+    "\"10.3390/su15129846\" \"temperature\" \"strength\"",
+    "\"10.3390/min14080763\" \"lead\" \"leaching\"",
+    "\"10.3390/ma16176054\" \"glass\" \"strength\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/su15129846",
+      "publicationId": "ke-b31-025",
+      "deepDiveId": "petroleum-ash-heated-mortar",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2071-1050/15/12/9846"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Materials and thermal/mechanical study scope",
+          "source": "https://www.mdpi.com/2071-1050/15/12/9846"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results, high-temperature strength loss",
+          "source": "https://www.mdpi.com/2071-1050/15/12/9846"
+        }
+      ],
+      "limitations": [
+        "Retrieve ash processing, exposure duration, cooling and reference age before interpreting 400 °C as a general failure threshold.",
+        "Residual strength after a defined exposure is not a hot-load capacity or fire rating. Different precursor and moisture conditions can change damage onset.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/min14080763",
+      "publicationId": "ke-b32-001",
+      "deepDiveId": "lead-diatomite-leach-boundary",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-163X/14/8/763"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Methods, water and acid leaching",
+          "source": "https://www.mdpi.com/2075-163X/14/8/763"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Leaching discussion, source release/efficiency account",
+          "source": "https://www.mdpi.com/2075-163X/14/8/763"
+        }
+      ],
+      "limitations": [
+        "Retrieve loading, extraction ratio, duration, reporting basis and exact acceptance framework before interpreting the concentration as compliance.",
+        "A retained fraction is exposure-specific and does not establish zero release or indefinite waste-form stability. Keep water and acid protocols explicit.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma16176054",
+      "publicationId": "ke-b32-003",
+      "deepDiveId": "glass-lightweight-gangue-metakaolin",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/16/17/6054"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Study design and foam characterization",
+          "source": "https://www.mdpi.com/1996-1944/16/17/6054"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Primary strength-comparison account",
+          "source": "https://www.mdpi.com/1996-1944/16/17/6054"
+        }
+      ],
+      "limitations": [
+        "Retrieve glass dose, foaming agent, density, cure and reference compositions before comparing the percentage gains.",
+        "Relative gains from different starting strengths are not equal absolute improvements. Density and pore changes can accompany any chemistry contribution.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/buildings13030586",
+      "publicationId": "ke-b32-006",
+      "deepDiveId": "coarse-glass-interface-porosity",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-5309/13/3/586"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, coarse-aggregate comparison",
+          "source": "https://www.mdpi.com/2075-5309/13/3/586"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract and ITZ interpretation",
+          "source": "https://www.mdpi.com/2075-5309/13/3/586"
+        }
+      ],
+      "limitations": [
+        "Retrieve replacement basis, grading, conditioning and chloride-test method before comparing binder families or glass fractions.",
+        "Coarse glass behavior does not transfer directly to fine glass powder or reactive glass precursor. Preserve the aggregate role and test method.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/polym18121470",
+      "publicationId": "ke-b32-008",
+      "deepDiveId": "tire-textile-recycled-aggregate",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2073-4360/18/12/1470"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, mixture and test schedule",
+          "source": "https://www.mdpi.com/2073-4360/18/12/1470"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, age-dependent rankings and fiber contribution",
+          "source": "https://www.mdpi.com/2073-4360/18/12/1470"
+        }
+      ],
+      "limitations": [
+        "Retrieve fiber dose, aggregate replacement basis, moisture and matched controls before assigning a standalone fiber benefit.",
+        "A ranking at one age can reverse later. Aggregate porosity and fiber dispersion need their own controls rather than pooling both waste series.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

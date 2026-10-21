@@ -1,5 +1,36 @@
 # Research database and GP Journal
 
+## 21 October 2026 — another fifty summaries and guides, 211/212 total
+
+The second fifty-paper depth batch adds original three-paragraph previews, key
+takeaways, limitations, intended readers and original/deep-dive links for another
+50 papers already in the 1,000-record library. Totals are 211 previews and 212
+partial guides; one older guide remains recipe-only. The three paragraphs total
+106–142 words before lists. All prior 161 previews and 162 guides remain identical.
+
+Ten five-paper audits, depth100-01 through depth100-10-2026-10-21.json, preserve 137
+queries and per-source locators. Selected indexed primary passages and primary
+summary accounts support the notes; there is no complete PDF, figure, supplement,
+human/domain, comprehensive status or independent replication review. Exact full
+text licenses remain unassessed. No raw papers, abstracts, complete source tables
+or figures are retained or reproduced; only original selected factual notes and
+independent editorial guidance are published.
+
+Coverage includes granules, shrinkage, sediments, sludge, photocatalysis,
+immobilization, lightweight materials, recycled glass, antibacterial response,
+catalysts, textiles/fibers, cure, repair and calibrated models. Adsorption remains
+distinct from degradation, surface contact angle from bulk uptake, and granule
+crushing from concrete compression. A primary clay summary reports strength in a
+force unit; the maximum is not corrected or normalized here. The high-ambient
+curing article's Data Availability Statement republication notice is retained.
+The numerical slab study is labeled modeling with an evidence-review walkthrough;
+its parameter sweep is not counted as additional physical tests.
+
+Candidates polym18121514, min13020232 and buildings16020327 were deferred because
+accessible findings were inadequate or quantitative benefits were prior-work
+citations. Existing LECA, RCA/UFS and pavement-tile papers replace them. No catalog
+records or canonical observations/recipes were added. Validation: HANDOFF.md.
+
 ## 21 October 2026 — fifty more reading summaries and deep dives
 
 The unchanged 1,000-paper library now has 161 detailed previews and 162 partial

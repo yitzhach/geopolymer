@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "depth100-01-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 13,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/ma19102026\" methods results conclusions",
+    "\"10.3390/polym18121514\" methods results conclusions",
+    "\"10.3390/ma19020433\" methods results conclusions",
+    "\"10.3390/gels11050339\" methods results conclusions",
+    "\"10.3390/su152216101\" methods results conclusions",
+    "\"10.3390/ma19102026\" abstract results showed",
+    "\"10.3390/polym18121514\" abstract results showed",
+    "\"10.3390/ma19020433\" abstract results showed",
+    "\"10.3390/gels11050339\" abstract results showed",
+    "\"10.3390/su152216101\" abstract results showed",
+    "\"10.3390/polym18121514\" \"strength\" \"optimum\"",
+    "\"Durability and Microstructure of Fly Ash/Silica Fume-Modified Geopolymer Concrete\" \"results\"",
+    "\"10.3390/jcs9020069\" abstract results LECA"
+  ],
+  "deferred": [
+    {
+      "doi": "10.3390/polym18121514",
+      "reason": "Insufficient accessible primary outcomes; replaced with existing LECA paper."
+    }
+  ],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/ma19102026",
+      "publicationId": "ke-b30-014",
+      "deepDiveId": "basalt-fly-ash-granule-activator",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/19/10/2026"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Activation-method description",
+          "source": "https://www.mdpi.com/1996-1944/19/10/2026"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions, activator and precursor-quality comparisons",
+          "source": "https://www.mdpi.com/1996-1944/19/10/2026"
+        }
+      ],
+      "limitations": [
+        "Retrieve total liquid, oxide equivalents, granulation and carbonation conditions before assigning the benefit to alkalinity alone.",
+        "A solution mixing ratio is not total activator dosage. Aggregate crushing, absorption and carbonation response must remain condition-linked.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/jcs9020069",
+      "publicationId": "ke-b33-023",
+      "deepDiveId": "leca-geopolymer-strength-thermal",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2504-477X/9/2/69"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Primary study overview, thermal and vapor characterization",
+          "source": "https://www.mdpi.com/2504-477X/9/2/69"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Discussion, 50% LECA source condition",
+          "source": "https://www.mdpi.com/2504-477X/9/2/69"
+        }
+      ],
+      "limitations": [
+        "Reconcile the 50% denominator, test age, moisture and uncertainty definition before comparing this strength with another lightweight system.",
+        "A favorable mechanical result does not establish the best insulation or vapor behavior. Do not substitute strengths quoted from prior studies for this experiment.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma19020433",
+      "publicationId": "ke-b29-019",
+      "deepDiveId": "untreated-dredged-sediment-calcium",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/19/2/433"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, precursor treatment and comparison scope",
+          "source": "https://www.mdpi.com/1996-1944/19/2/433"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, 90-day strength and calcium-dependent development",
+          "source": "https://www.mdpi.com/1996-1944/19/2/433"
+        }
+      ],
+      "limitations": [
+        "Retrieve sediment composition, activation ledger and age-specific condition identities before comparing early and late rankings.",
+        "Untreated does not mean chemically interchangeable or environmentally cleared. A low-strength binder demonstration is not a structural-concrete qualification.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/gels11050339",
+      "publicationId": "ke-b30-003",
+      "deepDiveId": "tannery-gel-cement-hydration",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2310-2861/11/5/339"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental program and paste-flow methods",
+          "source": "https://www.mdpi.com/2310-2861/11/5/339"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions, flow/setting and hydration effects",
+          "source": "https://www.mdpi.com/2310-2861/11/5/339"
+        }
+      ],
+      "limitations": [
+        "Retrieve SD and AE definitions, organic content and cement replacement basis before normalizing ingredient quantities.",
+        "This is a cement-containing system, not a cement-free geopolymer result. Longer set and lower reaction rate must be considered alongside strength.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/su152216101",
+      "publicationId": "ke-b30-005",
+      "deepDiveId": "aasc-autogenous-shrinkage-admixtures",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2071-1050/15/22/16101"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Methods and conclusions, shrinkage-related characterization",
+          "source": "https://www.mdpi.com/2071-1050/15/22/16101"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions, selected mitigation directions",
+          "source": "https://www.mdpi.com/2071-1050/15/22/16101"
+        }
+      ],
+      "limitations": [
+        "Retrieve dose denominators, sealing, zero-time definition and water contributions before comparing strain reductions.",
+        "Autogenous shrinkage is not drying shrinkage or direct crack resistance. Chemistry changes can alter reaction progress and strength at the same time.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

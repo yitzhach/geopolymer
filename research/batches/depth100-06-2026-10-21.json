@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "id": "depth100-06-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 15,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/ma14010214\" methods results conclusions",
+    "\"10.3390/app14083439\" methods results conclusions",
+    "\"10.3390/ma18235275\" methods results conclusions",
+    "\"10.3390/polym13172970\" methods results conclusions",
+    "\"10.3390/molecules25122839\" methods results conclusions",
+    "\"10.3390/ma14010214\" abstract results showed",
+    "\"10.3390/app14083439\" abstract results showed",
+    "\"10.3390/ma18235275\" abstract results showed",
+    "\"10.3390/polym13172970\" abstract results showed",
+    "\"10.3390/molecules25122839\" abstract results showed",
+    "\"10.3390/ma14010214\" \"leaching\" \"boron\"",
+    "\"10.3390/app14083439\" \"glass\" \"strength\"",
+    "\"10.3390/ma18235275\" \"granulation\" \"PM\"",
+    "\"10.3390/molecules25122839\" \"conversion\" \"potassium\"",
+    "\"The Synthesis and Characterization of Geopolymers Based on Metakaolin and on Automotive Glass Waste\" \"results\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/ma14010214",
+      "publicationId": "ke-b32-009",
+      "deepDiveId": "boron-metal-retention-permeability",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/14/1/214"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Materials and metal/boron comparison",
+          "source": "https://www.mdpi.com/1996-1944/14/1/214"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Leaching discussion, permeability tradeoff",
+          "source": "https://www.mdpi.com/1996-1944/14/1/214"
+        }
+      ],
+      "limitations": [
+        "Retrieve boron basis, metal salt, loading, cure and extraction protocol before comparing release across ions.",
+        "More proposed binding sites do not guarantee lower measured release. Chemical affinity and transport through the matrix must both be evaluated.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/app14083439",
+      "publicationId": "ke-b32-010",
+      "deepDiveId": "automotive-glass-organic-leaching",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2076-3417/14/8/3439"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Primary study purpose and glass-waste characterization",
+          "source": "https://www.mdpi.com/2076-3417/14/8/3439"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Discussion/conclusions, aggregate potential and optimization limit",
+          "source": "https://www.mdpi.com/2076-3417/14/8/3439"
+        }
+      ],
+      "limitations": [
+        "Retrieve protective-film residues, washing, size fractions and organic-leach methods before generalizing the aggregate finding.",
+        "Automotive glass includes source-specific attached materials. A potential use conclusion does not establish optimal dosage or complete environmental clearance.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma18235275",
+      "publicationId": "ke-b32-012",
+      "deepDiveId": "granulate-crushing-test-basis",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/18/23/5275"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Granulation-method account",
+          "source": "https://www.mdpi.com/1996-1944/18/23/5275"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, labeled granulate-series crushing results",
+          "source": "https://www.mdpi.com/1996-1944/18/23/5275"
+        }
+      ],
+      "limitations": [
+        "Retrieve PM/PK/CFA/SD feedstock definitions, grading, loading convention and age before comparing the selected strengths.",
+        "Granule crushing, bulk aggregate behavior and concrete specimen compression are different tests. Source series labels are not complete recipes.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/polym13172970",
+      "publicationId": "ke-b32-013",
+      "deepDiveId": "glass-fine-aggregate-antibacterial",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2073-4360/13/17/2970"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Primary methods overview",
+          "source": "https://www.mdpi.com/2073-4360/13/17/2970"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions, organism-dependent 28-day activity",
+          "source": "https://www.mdpi.com/2073-4360/13/17/2970"
+        }
+      ],
+      "limitations": [
+        "Retrieve organism strains, assay geometry, pH controls, contact time and glass fraction before comparing antibacterial response.",
+        "One assay is not universal antimicrobial performance. Surface alkalinity, durability and release mechanisms remain separate questions.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/molecules25122839",
+      "publicationId": "ke-b32-014",
+      "deepDiveId": "na-k-biodiesel-catalyst-texture",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1420-3049/25/12/2839"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Methods, pore characterization and Na/K comparison",
+          "source": "https://www.mdpi.com/1420-3049/25/12/2839"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Discussion, target-ratio and texture differences",
+          "source": "https://www.mdpi.com/1420-3049/25/12/2839"
+        }
+      ],
+      "limitations": [
+        "Retrieve catalyst activation, particle size, methanol/oil conditions, base leaching and reuse before inferring catalytic conversion from texture.",
+        "A surface-area advantage is not a biodiesel-yield measurement. Dissolved catalysis and heterogeneous reuse need explicit controls.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

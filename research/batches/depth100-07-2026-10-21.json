@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "depth100-07-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 13,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/buildings16020327\" methods results conclusions",
+    "\"10.3390/app10082865\" methods results conclusions",
+    "\"10.3390/ma18010103\" methods results conclusions",
+    "\"10.3390/jcs6100292\" methods results conclusions",
+    "\"10.3390/polym12091924\" methods results conclusions",
+    "\"10.3390/buildings16020327\" abstract results showed",
+    "\"10.3390/app10082865\" abstract results showed",
+    "\"10.3390/ma18010103\" abstract results showed",
+    "\"10.3390/jcs6100292\" abstract results showed",
+    "\"10.3390/polym12091924\" abstract results showed",
+    "\"10.3390/buildings16020327\" \"strength\" \"thermal\"",
+    "\"Thermomechanical Performance of Ambient-Cured Fly Ash Geopolymers\" \"results\"",
+    "\"10.3390/ma18020257\" abstract results tiles"
+  ],
+  "deferred": [
+    {
+      "doi": "10.3390/buildings16020327",
+      "reason": "Accessible material established design but insufficient results; replaced with existing pavement-tile case study."
+    }
+  ],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/ma18020257",
+      "publicationId": "ke-b34-020",
+      "deepDiveId": "pavement-tiles-case-lca",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/18/2/257"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Case-study testing and LCA functional-unit passages",
+          "source": "https://www.mdpi.com/1996-1944/18/2/257"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "LCA result discussion",
+          "source": "https://www.mdpi.com/1996-1944/18/2/257"
+        }
+      ],
+      "limitations": [
+        "Retrieve the cement/hybrid contribution, inventory allocation, tile performance and avoided-product assumptions before comparing cases.",
+        "A favorable modeled avoidance result is not a measured emissions reduction. Keep the two residue technologies and their functional requirements distinct.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/app10082865",
+      "publicationId": "ke-b32-019",
+      "deepDiveId": "basalt-fabric-cracking-debond",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2076-3417/10/8/2865"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Mechanical test and masonry bond descriptions",
+          "source": "https://www.mdpi.com/2076-3417/10/8/2865"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, tensile response interpretation",
+          "source": "https://www.mdpi.com/2076-3417/10/8/2865"
+        }
+      ],
+      "limitations": [
+        "Retrieve fabric orientation, matrix thickness, grip and bond length before comparing the three response stages or substrate performance.",
+        "A tensile curve does not replace a debonding test. Textile, matrix and substrate failures need separate interpretation.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma18010103",
+      "publicationId": "ke-b32-020",
+      "deepDiveId": "ceramic-waste-brick-processing",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/18/1/103"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Processing-variable discussion",
+          "source": "https://www.mdpi.com/1996-1944/18/1/103"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results, selected optimization-factor condition",
+          "source": "https://www.mdpi.com/1996-1944/18/1/103"
+        }
+      ],
+      "limitations": [
+        "Retrieve the MPa/kg index definition, forming/cure schedule and applicable product tests before quoting this as compressive strength.",
+        "A mass-normalized optimization index is not a stress value or proof of all-standard compliance. Preserve the exact metric rather than converting its unit silently.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/jcs6100292",
+      "publicationId": "ke-b32-021",
+      "deepDiveId": "hybrid-basalt-fiber-length",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2504-477X/6/10/292"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental/analytical hybrid-fiber comparison",
+          "source": "https://www.mdpi.com/2504-477X/6/10/292"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results, HBF compression and model error",
+          "source": "https://www.mdpi.com/2504-477X/6/10/292"
+        }
+      ],
+      "limitations": [
+        "Retrieve the length pair, fiber weight basis, mix workability and prediction-domain definition before applying the coefficient.",
+        "A qualitative trend match does not establish accurate prediction. Fiber combinations and fresh-property penalties remain part of the design.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/polym12091924",
+      "publicationId": "ke-b32-022",
+      "deepDiveId": "marble-waste-ready-mix-scale",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2073-4360/12/9/1924"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, laboratory and plant-scale scope",
+          "source": "https://www.mdpi.com/2073-4360/12/9/1924"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, practical workability account",
+          "source": "https://www.mdpi.com/2073-4360/12/9/1924"
+        }
+      ],
+      "limitations": [
+        "Retrieve marble assay, reactive co-binders, plant mixing sequence and temperature range before treating marble as the sole reactive precursor.",
+        "A plant demonstration does not qualify every marble-waste source or establish code compliance. Keep scale-specific placement and material controls visible.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

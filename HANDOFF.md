@@ -1,5 +1,51 @@
 # Geopolymer — current handoff
 
+## Second fifty-paper summary/deep-dive expansion — 21 October 2026
+- Added exactly 50 more linked editorial summaries and partial guides within the
+  existing library. Totals: 1,000 publications / 211 detailed previews / 212 guides;
+  one older guide is recipe-only. All 161 previous previews and 162 previous guides
+  are identical by serialized-record SHA-256 checks. Publication identities match.
+- New summaries use three labeled paragraphs (106–142 words before lists), key
+  takeaways, limitations, intended readers and original/deep-dive reading links.
+  Cards, study pages, library search/filtering and JSON exports include the pairs.
+- Modules/audits use depth100 as the second fifty-paper batch identifier. Ten
+  five-paper audits (depth100-01 through depth100-10-2026-10-21.json) retain 137
+  exact individual queries, 11–17 per batch, below the 40-operation cap. Baseline
+  hashes are in depth100-baseline-2026-10-21.json.
+- Sources remain selected indexed primary passages, sometimes primary summary
+  accounts. No complete PDF/figure/supplement inventory, human/domain review,
+  comprehensive source-status clearance or independent replication claim. Exact
+  full-text licenses unassessed; no raw articles, abstracts, complete source tables
+  or figures retained/reproduced. No separate external model service used.
+- Three candidates deferred: polym18121514, min13020232, buildings16020327, due to
+  insufficient accessible own findings (including prior-work-only numerical hits).
+  Existing LECA (jcs9020069), RCA/UFS (su141710948), and pavement-tile case study
+  (ma18020257) replace them. No publication record added or deleted.
+- Selected useful limits: formaldehyde adsorption is not degradation; glass-mortar
+  antibacterial behavior is organism-specific; contact angle is not bulk uptake;
+  granule crushing is not concrete compression; ingredient roles stay distinct.
+- Metakaolin/clay source summary uses kN for a headline strength maximum. No
+  numerical correction or conversion is inferred; trend and unit hold are visible.
+  The high-ambient curing source's minor Data Availability Statement republication
+  notice is recorded. Existing correction holds and unresolved fire findings stay.
+- Calibrated CSC slab paper is labeled modeling; numerical parameter sweeps are not
+  new physical tests. The renderer now has a modeling label/walkthrough in addition
+  to existing assessment/synthesis and experimental branches. Pavement-tile LCA is
+  explicitly modeled and keeps hybrid constituents/functional-equivalence holds.
+- Canonical evidence unchanged: 5 partial studies / 62 mixes / 275 observations;
+  43 recipes / 31 scalable. No observation, prediction or executable recipe added.
+- All 127 Node cases, schema and 1,232-route build pass. Reading browser suite
+  passes all 211 summaries, filters/search, export, native disclosures, links and
+  correction notice on desktop/mobile with and without JavaScript. All 100 affected
+  study/guide routes pass outcome, inventory, overflow, source-link and navigation
+  checks in all four contexts. Existing research browser checks pass. Final mobile
+  screenshot inspected; new browser suite is included in CI. Older unchanged route
+  corpus and unrelated feature suites were not exhaustively re-swept; static build
+  checks cover all 1,232 routes.
+- Standing authorization covers main publication. Remote CI/live deployment remain
+  unverified. Automations unchanged; OpenAlex stays on hold.
+
+
 ## Owner-requested fifty more summary/deep-dive pairs — 21 October 2026
 - Added exactly 50 partial editorial guides and 50 matching detailed previews from
   the existing catalog: 1,000 publications / 161 previews / 162 guides. One older

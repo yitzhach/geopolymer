@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "depth100-02-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 17,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/buildings16142798\" methods results conclusions",
+    "\"10.3390/gels12030200\" methods results conclusions",
+    "\"10.3390/ma18245493\" methods results conclusions",
+    "\"10.3390/eng6090230\" methods results conclusions",
+    "\"10.3390/molecules27154805\" methods results conclusions",
+    "\"10.3390/buildings16142798\" abstract results showed",
+    "\"10.3390/gels12030200\" abstract results showed",
+    "\"10.3390/ma18245493\" abstract results showed",
+    "\"10.3390/eng6090230\" abstract results showed",
+    "\"10.3390/molecules27154805\" abstract results showed",
+    "\"10.3390/buildings16142798\" \"SAP\" \"shrinkage\"",
+    "\"10.3390/gels12030200\" \"radiological\" \"results\"",
+    "\"10.3390/ma18245493\" \"increased\" \"shrinkage\"",
+    "\"Experimental Study on the Mechanical Properties and Microstructure of Metakaolin-Based Geopolymer Modified Clay\" \"strength\"",
+    "\"Shrinkage-Mitigation Mechanism and Prediction Model\" \"SAP\" \"reduced\"",
+    "\"Alkali-Activated Materials from Diverse Solid Precursors\" \"strength\"",
+    "\"Influence of Alkaline Electrolyzed Water\" \"shrinkage\" \"results\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/buildings16142798",
+      "publicationId": "ke-b30-012",
+      "deepDiveId": "sap-internal-curing-model-scope",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-5309/16/14/2798"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental/model organization and internal-curing account",
+          "source": "https://www.mdpi.com/2075-5309/16/14/2798"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Internal-water interpretation; Figure 19 model comparison",
+          "source": "https://www.mdpi.com/2075-5309/16/14/2798"
+        }
+      ],
+      "limitations": [
+        "Retrieve SAP uptake, extra-water accounting, dosage and calibration/validation split before applying the fitted relation.",
+        "Agreement with source observations does not prove prediction for another polymer or water history. Keep the physical intervention separate from model validation.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/gels12030200",
+      "publicationId": "ke-b30-017",
+      "deepDiveId": "wood-ash-metakaolin-property-domain",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2310-2861/12/3/200"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, precursor/activator program",
+          "source": "https://www.mdpi.com/2310-2861/12/3/200"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Mechanical discussion, selected AWAMK comparison",
+          "source": "https://www.mdpi.com/2310-2861/12/3/200"
+        }
+      ],
+      "limitations": [
+        "Retrieve precursor fractions, water-glass volume convention, cure and radiological test definitions before ranking overall suitability.",
+        "A strength comparison is not a radiological clearance. Unknown activity concentrations and material-specific acceptance criteria remain separate from mechanical performance.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma18245493",
+      "publicationId": "ke-b30-018",
+      "deepDiveId": "electrolyzed-water-activation-medium",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/18/24/5493"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, reference-water and alkali comparison",
+          "source": "https://www.mdpi.com/1996-1944/18/24/5493"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Microstructure discussion, AEW versus ordinary-water systems",
+          "source": "https://www.mdpi.com/1996-1944/18/24/5493"
+        }
+      ],
+      "limitations": [
+        "Retrieve water chemistry, generation conditions, alkali definition and condition-specific strength/shrinkage results before assigning a numerical benefit.",
+        "A denser observed structure is not a complete durability or energy-efficiency result. Water treatment and activator contributions must be reconciled independently.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/eng6090230",
+      "publicationId": "ke-b30-024",
+      "deepDiveId": "slag-fly-ash-early-stiffening",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2673-4117/6/9/230"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, ratio and curing design",
+          "source": "https://www.mdpi.com/2673-4117/6/9/230"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, flow-loss and curing comparisons",
+          "source": "https://www.mdpi.com/2673-4117/6/9/230"
+        }
+      ],
+      "limitations": [
+        "Retrieve AL/SC mass basis, total liquid, ash fineness and strength ages before isolating a calcium effect.",
+        "Fast stiffening and early strength are different placement constraints. Changing cure can alter the practical value of a higher activator fraction.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/molecules27154805",
+      "publicationId": "ke-b31-009",
+      "deepDiveId": "metakaolin-clay-strength-unit-hold",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1420-3049/27/15/4805"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, dosage and UCS schedule",
+          "source": "https://www.mdpi.com/1420-3049/27/15/4805"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, direction and unresolved maximum-strength unit",
+          "source": "https://www.mdpi.com/1420-3049/27/15/4805"
+        }
+      ],
+      "limitations": [
+        "The primary summary labels a maximum strength with kN; inspect the full stress/load calculation and specimen geometry before assigning a stress value.",
+        "A plausible unit correction must not be silently inferred. Preserve the qualitative trend while the numerical maximum remains unresolved.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

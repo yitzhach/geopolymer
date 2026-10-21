@@ -1,5 +1,16 @@
 # Geopolymer Platform — Decisions
 
+## 21 October 2026 — second owner-requested fifty-paper depth expansion
+
+Added another 50 linked summary/guide pairs from existing catalog records, bringing
+coverage to 211 previews and 212 guides. All prior 161 previews and 162 guides are
+preserved by serialized-record hash checks, and all 1,000 publication identities
+are unchanged. Ten five-paper depth100 audits retain 137 source queries. Three
+candidates were deferred for inadequate accessible findings and replaced by other
+existing papers. An unresolved strength-unit conflict and an administrative
+republication notice remain visible. The calibrated numerical study is explicitly
+labeled modeling rather than a new experiment. Publish under standing authority.
+
 ## 21 October 2026 — owner-requested fifty-paper depth expansion
 
 Owner requested fifty more detailed summaries and fifty deep dives. Added exactly

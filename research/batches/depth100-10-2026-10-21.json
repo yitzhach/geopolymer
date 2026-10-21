@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "depth100-10-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 14,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/su12125002\" methods results conclusions",
+    "\"10.3390/polym14050917\" methods results conclusions",
+    "\"10.3390/infrastructures10090241\" methods results conclusions",
+    "\"10.3390/buildings16091721\" methods results conclusions",
+    "\"10.3390/buildings12112010\" methods results conclusions",
+    "\"10.3390/su12125002\" abstract results showed",
+    "\"10.3390/polym14050917\" abstract results showed",
+    "\"10.3390/infrastructures10090241\" abstract results showed",
+    "\"10.3390/buildings16091721\" abstract results showed",
+    "\"10.3390/buildings12112010\" abstract results showed",
+    "\"10.3390/su12125002\" \"expansion\" \"strength\"",
+    "\"10.3390/polym14050917\" \"waste\" \"acid\" \"results\"",
+    "\"10.3390/infrastructures10090241\" \"CW\" \"CR\"",
+    "\"10.3390/buildings16091721\" \"MgO\" \"CaO\" \"CSA\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/su12125002",
+      "publicationId": "ke-b33-012",
+      "deepDiveId": "bof-stabilization-autoclave",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2071-1050/12/12/5002"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Primary autoclave-expansion treatment account",
+          "source": "https://www.mdpi.com/2071-1050/12/12/5002"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results, post-treatment mechanical response",
+          "source": "https://www.mdpi.com/2071-1050/12/12/5002"
+        }
+      ],
+      "limitations": [
+        "Retrieve autoclave protocol, source mix, control age and expansion results before treating post-treatment strength as proof of stable aggregate.",
+        "An accelerated treatment is not a neutral observation of ambient service. Strength gain and expansion compliance must be evaluated separately.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/polym14050917",
+      "publicationId": "ke-b33-013",
+      "deepDiveId": "recycled-geopolymer-acid-heat",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2073-4360/14/5/917"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, thermal and acid program",
+          "source": "https://www.mdpi.com/2073-4360/14/5/917"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, source/reference comparison",
+          "source": "https://www.mdpi.com/2073-4360/14/5/917"
+        }
+      ],
+      "limitations": [
+        "Retrieve replacement fraction, acid identity, time, heating/cooling and test age before comparing residual strength across exposure types.",
+        "Similar losses do not mean undamaged material. Acid stability and thermal resistance have different acceptance criteria and must retain their own controls.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/infrastructures10090241",
+      "publicationId": "ke-b33-014",
+      "deepDiveId": "industrial-fine-aggregate-material-roles",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2412-3811/10/9/241"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, aggregate types and volume basis",
+          "source": "https://www.mdpi.com/2412-3811/10/9/241"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results, sand-replacement strength ranking",
+          "source": "https://www.mdpi.com/2412-3811/10/9/241"
+        }
+      ],
+      "limitations": [
+        "Keep the sand-replacement series separate from any silica-fume-replacement experiment in the same paper; retrieve grading, dose and cure before pooling outcomes.",
+        "A recycled material can fill different functional roles. Do not assign a binder-substitution penalty to its aggregate series or call one ranking universal.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/buildings16091721",
+      "publicationId": "ke-b33-015",
+      "deepDiveId": "expansive-agent-crack-repair",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-5309/16/9/1721"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, additive comparison and repair aperture scope",
+          "source": "https://www.mdpi.com/2075-5309/16/9/1721"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, selected MgO workability/shrinkage response",
+          "source": "https://www.mdpi.com/2075-5309/16/9/1721"
+        }
+      ],
+      "limitations": [
+        "Retrieve additive denominator, moisture, expansion restraint and crack preparation before comparing repair performance or selecting a dosage.",
+        "Free shrinkage and actual crack sealing are different measurements. Excess expansion and long-term exposure need their own controls.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/buildings12112010",
+      "publicationId": "ke-b33-016",
+      "deepDiveId": "csc-slab-model-evidence-boundary",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-5309/12/11/2010"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, material-model development and comparison scope",
+          "source": "https://www.mdpi.com/2075-5309/12/11/2010"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, calibrated agreement and numerical empirical relation",
+          "source": "https://www.mdpi.com/2075-5309/12/11/2010"
+        }
+      ],
+      "limitations": [
+        "Trace calibration and comparison datasets, boundary assumptions and model domain before assigning independent predictive accuracy.",
+        "A parametric simulation is not a set of new blast tests. Keep reused experiments, fit agreement and extrapolated numerical conditions distinguishable.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}
