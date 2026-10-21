@@ -5867,7 +5867,7 @@ export const depth50DeepDives = [
     "source": "https://www.mdpi.com/1996-1944/14/18/5204",
     "sourceLabel": "Read the source article",
     "license": "Original editorial factual notes and independent planning guidance from indexed primary text. Exact full-text license/version not independently established in this batch; no raw paper, figures or complete tables retained or reproduced.",
-    "accessNote": "Partial AI review of indexed primary article text, not a complete PDF or visual review. These guides use selected indexed primary passages exposed by session search. No complete PDF, figure or supplementary-asset review was performed. Source locators identify the inspected passages; unknowns remain unresolved. No human/domain review or independent replication is claimed. Environmental results are modeled inventory comparisons; any mechanical results retain their separate test basis.",
+    "accessNote": "Partial AI review of indexed primary article text, not a complete PDF or visual review. These guides use selected indexed primary passages exposed by session search. No complete PDF, figure or supplementary-asset review was performed. Source locators identify the inspected passages; unknowns remain unresolved. No human/domain review or independent replication is claimed.",
     "highlights": [
       "Compare solution chemistry on a reconciled water and alkali basis.",
       "Can a silicate addition improve every precursor blend, or can a hydroxide-only system perform better?",
@@ -5891,7 +5891,7 @@ export const depth50DeepDives = [
       }
     ],
     "arithmetic": {
-      "intro": "These checks plan an environmental comparison. Scenario arithmetic is editorial and supplies no new emissions factors, measured observations or executable recipes.",
+      "intro": "These checks clarify the study’s definitions or plan a new comparison. Conditional and proposed examples are not additional published measurements or executable recipes.",
       "rows": [
         [
           "Editorial interpretation check",
@@ -5899,14 +5899,14 @@ export const depth50DeepDives = [
           "An activator ranking in a volcanic-ash blend is not a universal silicate penalty. Maintain the source formulation and thermal boundary."
         ],
         [
-          "Proposed scenario coverage",
-          "3 sourcing scenarios × 3 explicitly defined energy scenarios = 9 combinations before uncertainty analysis",
-          "Proposed scenario arithmetic only. These are not additional published simulations; retain a justified functional unit, allocation and service requirement."
+          "Proposed repeat planning",
+          "3 conditions × 3 independent batches = 9 batches before specimen allocation",
+          "Proposed planning arithmetic only. Choose endpoints, controls, replicate requirements and acceptance criteria independently; this is not the source sample count or a ready-to-run recipe."
         ]
       ],
       "notes": [
-        "Retrieve the complete inventory, functional unit and allocation assumptions before recomputing source impacts.",
-        "Separate source results from new scenario calculations; uncertainty settings must not be inferred from ingredient correlations."
+        "Obtain the full source mass ledger, concentration basis and material identity before scaling. Unknown quantities stay unknown.",
+        "Do not assign an unreported strength, optimum or uncertainty to any calculated or proposed variant."
       ]
     },
     "checklist": [
@@ -5931,12 +5931,12 @@ export const depth50DeepDives = [
         "An activator ranking in a volcanic-ash blend is not a universal silicate penalty. Maintain the source formulation and thermal boundary."
       ],
       [
-        "Check scenario robustness",
-        "Reconcile inventories independently and test sourcing, energy, allocation and functional-equivalence assumptions. Keep source results and newly modeled scenarios separate."
+        "Prepare independent comparisons",
+        "Predefine specimen counts, test ages, controls and independent repeat batches. Randomize practical run order and retain failed batches and missing readings with reasons."
       ],
       [
         "Review before transfer",
-        "Resolve inventory and equivalence holds with qualified life-cycle assessment review. Do not treat modeled impacts as measured emissions."
+        "Resolve the holds with the full methods and qualified laboratory review. Keep source observations, calculated quantities and new measurements separate; this guide does not populate a ready-to-run calculator recipe."
       ]
     ],
     "holds": [
@@ -5962,13 +5962,13 @@ export const depth50DeepDives = [
         "area": "Mix ledger",
         "state": "ambiguous",
         "locator": "Indexed primary study objective",
-        "note": "Ingredient and process inventories, allocation and functional-unit reconciliation remain incomplete. Proposed scenario arithmetic does not supply the missing source inventory."
+        "note": "Full solution composition, component masses and denominator reconciliation are incomplete. Conditional arithmetic is not a completed batch."
       },
       {
         "area": "Results",
         "state": "partial",
         "locator": "Results, Figures 9–10 comparison account",
-        "note": "Selected modeled environmental and/or mechanical comparisons only; no independent emissions measurements or complete lifecycle inventory ingested."
+        "note": "Selected source statements and limitations retained; no full outcome inventory or numerical ingestion."
       },
       {
         "area": "Figures",
@@ -5989,7 +5989,7 @@ export const depth50DeepDives = [
         "note": "Valid specimen counts, repeat batches, spread definitions and per-condition uncertainty are not fully audited."
       }
     ],
-    "evidenceKind": "life-cycle-assessment-with-source-specific-mechanical-comparisons"
+    "evidenceKind": "experimental-study"
   },
   {
     "id": "hydrophobic-aggregate-asphalt-conditioning",

@@ -1,5 +1,17 @@
 # Potassium literature designs — 9 October 2026
 
+## 21 October 2026 — linked deep-dive recipe review
+
+The catalog now contains 48 conditions / 36 with scalable mass proportions.
+Five new conditions link to water-source paste (three), carbonate slag C4M1
+and MK/ash FA10.49 guides. New strengths are limited to the water-source
+28-day compression means; no curves or numerical maxima are inferred for the
+two reference conditions. Original masses, derived splits, conditioning and
+remaining gaps travel to the calculator/notebook. All 212 guides link their
+mix-design review; 193 still need full extraction. See HANDOFF.md for counts
+and research/batches/mix-design-*.json for exact operations and rights evidence.
+
+
 Five records in src/literature-mixes.js, rendered at /formulations and individual
 /formulations/<id> paths. Authors, evidence type, source locator, strength age,
 curing, geometry and missing information travel with each record. These are source

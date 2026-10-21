@@ -5,7 +5,7 @@ const base=process.env.BASE_URL||'http://localhost:4173';
 (async()=>{const browser=await chromium.launch({headless:true,...(process.env.PLAYWRIGHT_EXECUTABLE_PATH?{executablePath:process.env.PLAYWRIGHT_EXECUTABLE_PATH}:{})});try{
 fs.mkdirSync('.qa',{recursive:true});const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));let accept=true;page.on('dialog',d=>accept?d.accept():d.dismiss());
 const go=async path=>{await page.goto(base+path);await page.locator('main[data-enhanced=true]').waitFor();};
-await go('/formulations');assert.equal(await page.locator('#recipe-cards > a').count(),43);
+await go('/formulations');assert.equal(await page.locator('#recipe-cards > a').count(),48);
 assert.match(await page.locator('#novel-recipes').innerText(),/PVA fibers/);
 await page.locator('a[href="#novel-recipes"]').click();await page.waitForFunction(()=>document.querySelector('#novel-heading').getBoundingClientRect().top>=document.querySelector('header').getBoundingClientRect().bottom);
 await page.locator('#recipe-query').scrollIntoViewIfNeeded();
@@ -16,10 +16,10 @@ await page.locator('#recipe-focus').selectOption('');await page.locator('#recipe
 await page.locator('#recipe-query').fill('');await page.locator('#recipe-collection').selectOption('');
 await page.locator('#recipe-query').fill('KASIL 2040');assert.equal(await page.locator('#recipe-cards > a').count(),1);
 await page.locator('#recipe-query').fill('no-recipe-xyz');assert.match(await page.locator('#recipe-count').innerText(),/0 recipes/);
-await page.locator('#recipe-query').fill('');await page.locator('#recipe-activation').selectOption('sodium');assert.equal(await page.locator('#recipe-cards > a').count(),31);
+await page.locator('#recipe-query').fill('');await page.locator('#recipe-activation').selectOption('sodium');assert.equal(await page.locator('#recipe-cards > a').count(),35);
 await page.locator('[name=target]').fill('15');await page.locator('[name=ageHours]').selectOption('4');await page.locator('#requirements-form button').click();assert.match(await page.locator('#requirements-result').innerText(),/rapid dry-blend/);
 await page.locator('[name=property]').selectOption('shear');assert.equal(await page.locator('#requirements-download').isDisabled(),true);await page.locator('#requirements-form button').click();assert.match(await page.locator('#requirements-result').innerText(),/No matching measurements/);
-const [catalogDownload]=await Promise.all([page.waitForEvent('download'),page.locator('#catalog-download').click()]);const catalog=JSON.parse(fs.readFileSync(await catalogDownload.path(),'utf8'));assert.equal(catalog.records.length,43);
+const [catalogDownload]=await Promise.all([page.waitForEvent('download'),page.locator('#catalog-download').click()]);const catalog=JSON.parse(fs.readFileSync(await catalogDownload.path(),'utf8'));assert.equal(catalog.records.length,48);
 await go('/formulations/saccani-mh1');assert.match(await page.locator('main').innerText(),/29.6 ± 2.8/);assert.equal(await page.locator('#biochar-physical tbody tr').count(),5);assert.equal(await page.locator('#biochar-exposed tbody tr').count(),5);assert.match(await page.locator('#biochar-exposed tr[aria-current=true]').innerText(),/29.8 ± 2.1/);assert.match(await page.locator('main').innerText(),/excluded from ordinary strength matching/);assert.match(await page.locator('#mix-preview').innerText(),/Prepared hardwood biochar\s+5.6/);
 await go('/formulations/le-matrix-6mm-100');assert.equal(await page.locator('#source-comparison tbody tr').count(),11);assert.match(await page.locator('#source-comparison tr[aria-current=true]').innerText(),/75.24 ± 4.01/);
 await go('/formulations/le-matrix-6mm-050');assert.match(await page.locator('main').innerText(),/77.01 ± 3.13/);

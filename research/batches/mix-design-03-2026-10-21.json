@@ -1,0 +1,171 @@
+{
+  "id": "mix-design-03",
+  "date": "2026-10-21",
+  "task": "Mix design and best-result interpretation for every deep dive",
+  "reviewer": "AI source/text review; no human/domain verification",
+  "records": [
+    {
+      "id": "one-part-admixture-compatibility",
+      "doi": "10.3390/ma12203410",
+      "source": "https://www.mdpi.com/1996-1944/12/20/3410",
+      "status": "partial-source-design",
+      "recipeIds": [],
+      "protocolComplete": false,
+      "inventory": "Partial; full figures, tables, methods and supplements not enumerated"
+    },
+    {
+      "id": "metakaolin-slag-potassium-durability",
+      "doi": "10.3390/min14080776",
+      "source": "https://www.mdpi.com/2075-163X/14/8/776",
+      "status": "partial-source-design",
+      "recipeIds": [],
+      "protocolComplete": false,
+      "inventory": "Partial; full figures, tables, methods and supplements not enumerated"
+    },
+    {
+      "id": "ambient-fly-ash-coating-process",
+      "doi": "10.3390/ma12060923",
+      "source": "https://www.mdpi.com/1996-1944/12/6/923",
+      "status": "partial-source-design",
+      "recipeIds": [],
+      "protocolComplete": false,
+      "inventory": "Partial; full figures, tables, methods and supplements not enumerated"
+    },
+    {
+      "id": "starch-borax-retarder-screening",
+      "doi": "10.3390/eng6120366",
+      "source": "https://www.mdpi.com/2673-4117/6/12/366",
+      "status": "partial-source-design",
+      "recipeIds": [],
+      "protocolComplete": false,
+      "inventory": "Partial; full figures, tables, methods and supplements not enumerated"
+    },
+    {
+      "id": "metakaolin-curing-temperature-grade",
+      "doi": "10.3390/ma16237460",
+      "source": "https://www.mdpi.com/1996-1944/16/23/7460",
+      "status": "partial-source-design",
+      "recipeIds": [],
+      "protocolComplete": false,
+      "inventory": "Partial; full figures, tables, methods and supplements not enumerated"
+    }
+  ],
+  "operations": [
+    {
+      "kind": "open",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6829244/",
+      "result": "Not separately surfaced in combined search/open response; no direct-access success claimed"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma12203410\" \"PC1\" \"Table 2\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/min14080776\" \"Table\" \"55\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma12060923\" \"Table 2\" \"mix\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/eng6120366\" \"Table 2\" \"borax\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma16237460\" \"Table 2\" \"mix\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma12203410\" \"Table 4\" \"0.5\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/eng6120366\" \"starch\" \"1%\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/min14080776\" \"Table 3\" \"9.1\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma12203410\" \"Table 5\" \"Fly Ash\" \"Slag\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma12203410\" \"50%\" \"50%\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/min14080776\" \"9.1\" \"13.7\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma12060923\" \"3.1.\" \"sodium\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma12203410\" \"ratio of\" \"fly ash\" \"slag\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/min14080776\" \"Table 2\" \"Mix\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma12060923\" \"mass\" \"NaOH\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/eng6120366\" \"Table 2\" \"0.5\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    },
+    {
+      "kind": "search",
+      "query": "\"Ambient Cured Fly Ash Geopolymer Coatings for Concrete\" \"1.25\" \"2.5\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    },
+    {
+      "kind": "search",
+      "query": "\"Ambient Cured Fly Ash Geopolymer Coatings for Concrete\" \"molar\" \"mixing\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    },
+    {
+      "kind": "search",
+      "query": "\"Influence of Curing Temperature on the Strength\" \"Table 4\" \"NaOH\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    },
+    {
+      "kind": "search",
+      "query": "\"Innovative Retarders for Controlling\" \"starch and borax\" \"1\" \"2\"",
+      "provider": "Session web search; primary results and earlier guide facts; secondary-only findings not promoted"
+    }
+  ],
+  "operationCount": 21,
+  "notes": [
+    "Five partial factual designs, no new recipe-catalog records. Reproduction still requires condition-specific full ledgers/protocols; source gaps are extraction gaps, not proof the paper omitted a value.",
+    "AN control ledger split from FA/slag = 1.0. Combined PC1/sucrose dose not inferred from single-additive Table 5. Three-day strength and initial-set endpoints retained.",
+    "MK/GGBFS reported percentages sum to 99.9% (editorial sum); no normalization or silent double-counting of water.",
+    "Coating 28-day humidity arms remain separate. MK temperature high-temperature liquid loss and specimen exclusions retained.",
+    "Exact full-text license/version remains unassessed for this partial-note batch. Original factual paraphrases, selected inputs only; no raw source, abstract, whole tables or figures copied."
+  ],
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "rawSourceRetained": false
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "volcanic-ash-limestone-modulus",
+    "doi": "10.3390/ma14185204",
+    "checked": "2026-10-21",
+    "beforeSha256": "c905ebc31195d6287de1339048e5c113e99acfb75cb3f4b9eff45536e7852179",
+    "afterSha256": "bb75d3b55b36d84d812e3f527df8a77373ecf569e629ee4c554860381321ecc2",
+    "reason": "Overbroad /lca/ slug matching misclassified volcanic as life-cycle analysis. Source is a physical volcanic-ash/limestone experiment. Restore experimental interpretation and planning without changing its reported facts or preview.",
+    "source": "https://www.mdpi.com/1996-1944/14/18/5204",
+    "locator": "Study objective and experimental modulus/curing comparison"
+  }
+]

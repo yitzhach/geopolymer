@@ -21,7 +21,7 @@ const base=process.env.BASE_URL||'http://localhost:4173';
       assert.equal(await summary.locator('a[href="'+p.links.deepDive+'"]').count(),1);
       assert.equal(await summary.locator('a[href="'+p.links.originalArticle+'"]').count(),1);
      }else{
-      if(d.evidenceKind){assert.match(await page.locator('#walkthrough').innerText(),/Original assessment and evidence-review guidance/);assert.doesNotMatch(await page.locator('#walkthrough').innerText(),/These steps organise a new experiment/);}
+      if(d.evidenceKind&&d.evidenceKind!=='experimental-study'){assert.match(await page.locator('#walkthrough').innerText(),/Original assessment and evidence-review guidance/);assert.doesNotMatch(await page.locator('#walkthrough').innerText(),/These steps organise a new experiment/);}
       assert.equal(await page.locator('#inventory tbody tr').count(),7);assert.ok(await page.locator('main a[href="'+d.source+'"]').count());}
     }
    }

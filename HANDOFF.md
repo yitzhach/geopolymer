@@ -1,5 +1,52 @@
 # Geopolymer — current handoff
 
+## Active owner task — mix designs for all 212 deep dives (21 October 2026)
+- Previous fifty-pair batch is complete and pushed: main e7e9748bb3d1d88d02351c3be56933d4dcc362cc.
+- NEW task is in progress, not complete. Owner requests source-backed mix designs,
+  reproduction procedures and goal-specific best-result explanations for ALL guides.
+- Added #mix-design to every guide, index links, JSON audit, exact-DOI formulation
+  links, highlighted comparisons and calculated 1,000 g examples where source
+  mass proportions close. Section coverage is not complete-protocol coverage.
+- Five new catalog records: PW/TW/SW water-source conditions, C4M1 carbonate slag,
+  FA10.49 MK/ash reference. Total 48 recipes / 36 scalable (scalable = proportions,
+  not complete procedures). Canonical pilot unchanged (5 studies/62 mixes/275 cells).
+- Source work covers 16 guides: six linked to recipes with gaps, ten partial designs,
+  193 pending full recipe extraction, one correction hold, two no-independent-mix
+  studies. No protocol is marked complete. Next review must continue the 193 queue. The five-source next-pass scout
+  is research/batches/mix-design-scout-04-2026-10-21.json (20 requests). It
+  records unresolved ledgers and two browser-challenged primary URLs; no recipes
+  or completed extractions claimed from that scan.
+- src/deep-dive-mix-designs.js supplies the queue and selection notes; exact-DOI
+  join only. src/deep-dive-mix-ui.js renders sections. New source quantities are in
+  src/seawater-recipes.js and src/deep-dive-reference-recipes.js; do not duplicate
+  a competing recipe catalog. Source performances never populate own measurements.
+- Reuse audit covers three prior curated sources; mix-design-01/02/03 cover 3/5/5
+  papers with 33/26/21 exact recorded operations. All are partial AI/text checks,
+  not complete inventories, visual/human/domain review or independent replication.
+  No raw articles, abstracts, full source tables or figures retained/reproduced.
+- Publisher 429 and PMC browser challenges logged. RAP PMC and MK/FA PMC methods
+  accessible in selected requests; use indexed primary passages only where useful.
+  Do not repeat blocked direct fetches or bypass controls. No OpenAlex.
+- Scientific holds: CT water/binder denominator; RAP §4.1 vs Table 4 blend conflict;
+  MK shrinkage wt% versus molar headings; mixed-alkali water accounting; combined
+  PC1/sucrose doses; retarder solution water. Never fill these with guessed amounts.
+- Volcanic ash was mislabeled by /lca/ matching “volcanic”; corrected to physical
+  experimental-study. Exact hash exception in editorial-corrections audit preserves
+  all other frozen guide/preview records. Existing MgO correction hold remains.
+- All 134 Node tests and 1,237-route build pass; schema unchanged and valid.
+  All 212 guide sections passed desktop/mobile with JS and no JS; catalog scaling,
+  filtering, export, transfer and notebook checks pass. All 100 depth50 routes pass
+  in four contexts, including corrected volcanic classification. Mobile ingredient
+  table and selection callout inspected. Final focused checks pass all 19
+  reviewed/held/model guides in four contexts, including collapsed comparison
+  lists, scaling and export attribution. Standing push-to-main authorization;
+  This checkpoint publishes the verified feature and initial designs; continue
+  full source extraction. Remote CI and live deployment remain unverified.
+- Own one-time backup 6ad6dc51ebb881918ae3148cd3c9d7b1 enabled for 18:21:55 UTC
+  (2:21:55 pm New York) today, “Continue deep-dive mix designs”. Existing daily
+  automation unchanged. Keep exact schedule; update prompt progress, pause only
+  if task completed. It is a backup, not a usage-reset detector.
+
 ## Second fifty-paper summary/deep-dive expansion — 21 October 2026
 - Added exactly 50 more linked editorial summaries and partial guides within the
   existing library. Totals: 1,000 publications / 211 detailed previews / 212 guides;

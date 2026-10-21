@@ -1,0 +1,217 @@
+{
+  "id": "mix-design-01",
+  "date": "2026-10-21",
+  "task": "Mix design and best-result interpretation for every deep dive",
+  "reviewer": "AI source/text review; no human/domain verification",
+  "records": [
+    {
+      "id": "seawater-strength-versus-free-chloride",
+      "doi": "10.3390/ma13061467",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7143656/",
+      "status": "source-mix-with-gaps",
+      "recipeIds": [
+        "seawater-pw",
+        "seawater-tw",
+        "seawater-sw"
+      ],
+      "protocolComplete": false,
+      "inventory": "Partial; full figures, tables, methods and supplements not enumerated"
+    },
+    {
+      "id": "one-part-waste-sand-water-demand",
+      "doi": "10.3390/ma14112911",
+      "source": "https://www.mdpi.com/1996-1944/14/11/2911",
+      "status": "partial-source-design",
+      "recipeIds": [],
+      "protocolComplete": false,
+      "inventory": "Partial; full figures, tables, methods and supplements not enumerated"
+    },
+    {
+      "id": "rap-geopolymer-grout-versus-composite",
+      "doi": "10.3390/ma13163644",
+      "source": "https://www.mdpi.com/1996-1944/13/16/3644",
+      "status": "partial-source-design",
+      "recipeIds": [],
+      "protocolComplete": false,
+      "inventory": "Partial; full figures, tables, methods and supplements not enumerated"
+    }
+  ],
+  "operations": [
+    {
+      "kind": "open",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7143656/",
+      "result": "Browser challenge"
+    },
+    {
+      "kind": "open",
+      "url": "https://www.mdpi.com/1996-1944/14/11/2911",
+      "result": "429"
+    },
+    {
+      "kind": "open",
+      "url": "https://www.mdpi.com/1996-1944/13/16/3644",
+      "result": "429"
+    },
+    {
+      "kind": "open",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7475826/",
+      "result": "Primary text accessible; CC BY 4.0 at copyright heading"
+    },
+    {
+      "kind": "open",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8198906/",
+      "result": "Browser challenge"
+    },
+    {
+      "kind": "open",
+      "url": "https://www.mdpi.com/1996-1944/13/6/1467",
+      "result": "429"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma14112911\" \"Table\" \"water\" \"metasilicate\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma13163644\" \"108\" \"mix\" grout",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma13061467\" \"1197\" \"598\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma13061467\" \"License\" \"4.0\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "site:mdpi.com/1996-1944/14/11/2911 \"Table 1\" \"0.4\" \"10\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "site:mdpi.com/1996-1944/14/11/2911 \"mixtures\" \"sand\" \"metasilicate\" \"Table 1\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "site:mdpi.com/1996-1944/13/16/3644 \"sodium\" \"silicate\" \"hydroxide\" \"ratio\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "site:mdpi.com/1996-1944/13/6/1467 \"51.16\" \"54.22\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma13061467\" \"1197\" \"598\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma13163644\" \"Table 4\" \"108\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma14112911\" \"metasilicate\" \"ratio\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "site:mdpi.com/1996-1944/13/6/1467 \"1:1\" \"9 M\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "site:mdpi.com/1996-1944/13/6/1467 \"54.22\" \"51.16\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "site:mdpi.com/1996-1944/14/11/2911 \"86\" \"79\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Mechanical Properties, Microstructure, and Chloride Content\" \"54.22\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Mechanical Properties, Microstructure, and Chloride Content\" \"9 M\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Waste-Based One-Part Alkali Activated Materials\" \"86 MPa\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Waste-Based One-Part Alkali Activated Materials\" \"Table 1\" \"Composition\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Waste-Based One-Part Alkali Activated Materials\" \"mixing\" \"5\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Mechanical Properties, Microstructure, and Chloride Content\" \"1:1\" \"9\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Waste-Based One-Part Alkali Activated Materials\" \"10 wt\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Waste-Based One-Part Alkali Activated Materials\" \"sodium\" \"10\" \"sand\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Waste-Based One-Part Alkali Activated Materials\" \"2.2.\" \"mixing\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"A Preliminary Characterisation\" \"liquid-to-solid\" \"water\" \"Geosil\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Waste-Based One-Part Alkali Activated Materials\" \"Table 1\" \"W/B\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Waste-Based One-Part Alkali Activated Materials\" \"procedure\" \"minutes\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Waste-Based One-Part Alkali Activated Materials\" \"binder\" \"water\" \"mass\" \"mixing\"",
+      "provider": "Session web search; selected primary results only"
+    }
+  ],
+  "operationCount": 33,
+  "notes": [
+    "Three new seawater-study conditions use reported 1197 g ash + 598 g activator, split 1:1 by mass (299 g solution entries derived). Target 0.5 ratio and rounding preserved. Partial protocol only; 28-day endpoint remains distinct from heat cure and chloride tests.",
+    "SW CC BY 4.0 primary permissions statement previously observed in followup guide source review on the same date; no new successful direct retrieval or visual check claimed.",
+    "CT selected factual ledger only, not entire source table; exact full-text rights not independently established. No raw article or table retained. Water/binder denominator unresolved; do not guess 33 versus 36.3 g.",
+    "RAP primary CC BY 4.0 observed. Table 4 row D conflicts with §4.1 blend attribution. No invented activator solution mass or grout-to-composite strength transfer.",
+    "No repeated direct request after a provider block; indexed searches are not full-text/visual verification. Unrelated search hits excluded."
+  ],
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "rawSourceRetained": false
+}

@@ -1,5 +1,17 @@
 # Geopolymer Platform — Decisions
 
+## 21 October 2026 — separate recipe proportions from reproducible protocols
+
+The deep-dive recipe audit joins formulations by exact DOI, preserves unknown
+quantities and labels every protocol partial until source methods are reconciled.
+A closed as-supplied mass ledger may support a proportional example without
+claiming reproducibility or performance prediction. Goal-specific selections
+retain source endpoint, age and scope; qualitative reference conditions must
+have an explicit basis rather than an invented numerical rank. Analytical or
+model studies do not become independent experimental batches. Scientific
+classification corrections require a documented, exact hash exception.
+
+
 ## 21 October 2026 — second owner-requested fifty-paper depth expansion
 
 Added another 50 linked summary/guide pairs from existing catalog records, bringing

@@ -6,7 +6,12 @@ test('second fifty-paper batch preserves all 161 previews, 162 guides and catalo
  assert.equal(hash(library.map(p=>({id:p.id,doi:p.doi,title:p.title}))),baseline.publicationIdentityHash);
  assert.equal(baseline.previousPreviews.length,161);assert.equal(baseline.previousGuides.length,162);
  for(const p of baseline.previousPreviews)assert.equal(hash(readingPreviewFor(p.doi)),p.sha256,p.doi);
- for(const d of baseline.previousGuides)assert.equal(hash(deepDives.find(x=>x.id===d.id)),d.sha256,d.id);
+ for(const d of baseline.previousGuides){
+  // A documented scientific classification correction is the sole exception to frozen editorial hashes.
+  const corrections=JSON.parse(fs.readFileSync(new URL('../research/batches/editorial-corrections-2026-10-21.json',import.meta.url)));
+  const c=corrections.find(c=>c.id===d.id&&c.beforeSha256===d.sha256);
+  assert.equal(hash(deepDives.find(x=>x.id===d.id)),c?c.afterSha256:d.sha256,d.id);
+ }
  assert.equal(paperReadingPreviews.length,211);assert.equal(deepDives.length,212);
  for(const d of depth100DeepDives){
   assert.ok(!baseline.previousGuides.some(p=>p.doi===d.doi));const p=readingPreviewFor(d.doi);assert.equal(p.deepDiveId,d.id);

@@ -1,5 +1,21 @@
 # Recipe database and future formulation advisor
 
+## 21 October 2026 — mix designs inside the deep dives
+
+All 212 guides now expose a mix-design section and source-review status. Six
+guides link exact-DOI formulation records, with goal-specific comparisons and
+calculated 1,000 g examples where the ingredient mass ledger closes. Ten more
+have partial source designs; 193 still need full recipe extraction, one is on a
+correction hold, and two have no independent physical experiment. No complete
+protocol is claimed. Five added catalog conditions bring totals to 48 / 36
+scalable. Scaling solution masses is distinct from verifying all preparation,
+curing and test details. Water-source conditions are one dataset; the C4M1 and
+FA10.49 reference conditions have no numeric strength assigned. Canonical pilot
+counts stay 5 / 62 / 275. Mix selection explains endpoint, age, tradeoffs,
+uncertainty and mechanisms that remain interpretations. See HANDOFF.md and
+mix-design batch audits for the unfinished review queue and release checks.
+
+
 ## 21 October 2026 — depth grows to 211 previews and 212 guides
 
 Another fifty summary/guide pairs retain source-specific material roles, dose

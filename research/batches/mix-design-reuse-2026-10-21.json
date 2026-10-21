@@ -1,0 +1,66 @@
+{
+  "id": "mix-design-reuse",
+  "date": "2026-10-21",
+  "task": "Mix design and best-result interpretation for every deep dive",
+  "reviewer": "AI source/text review; no human/domain verification",
+  "records": [
+    {
+      "id": "ggbs-taguchi-mortar",
+      "doi": "10.1080/13287982.2024.2375468",
+      "source": "https://digital.library.adelaide.edu.au/server/api/core/bitstreams/f9cdc382-4b62-414d-8035-1b16b5e1aa17/content",
+      "status": "source-mix-with-gaps",
+      "recipeIds": [
+        "alameri-t2m9"
+      ],
+      "protocolComplete": false,
+      "inventory": "Partial; full figures, tables, methods and supplements not enumerated"
+    },
+    {
+      "id": "biochar-replacement-and-exposure",
+      "doi": "10.3390/ma18030486",
+      "source": "https://cris.unibo.it/retrieve/18a88cc9-e847-4171-b93c-8b7d2c5eae67/materials-18-00486.pdf",
+      "status": "source-mix-with-gaps",
+      "recipeIds": [
+        "saccani-mh0",
+        "saccani-mh1",
+        "saccani-mh2",
+        "saccani-mh5",
+        "saccani-mh8"
+      ],
+      "protocolComplete": false,
+      "inventory": "Partial; full figures, tables, methods and supplements not enumerated"
+    },
+    {
+      "id": "basalt-fiber-carbon-textile",
+      "doi": "10.3390/polym13050751",
+      "source": "https://pdfs.semanticscholar.org/9828/de233e60ca20ada95dd8648c207ba4c8dbe1.pdf",
+      "status": "source-mix-with-gaps",
+      "recipeIds": [
+        "le-matrix-control",
+        "le-matrix-6mm-025",
+        "le-matrix-6mm-050",
+        "le-matrix-6mm-075",
+        "le-matrix-6mm-100",
+        "le-matrix-12mm-025",
+        "le-matrix-12mm-050",
+        "le-matrix-12mm-075",
+        "le-matrix-24mm-025",
+        "le-matrix-24mm-050",
+        "le-matrix-24mm-075",
+        "le-textile-control",
+        "le-textile-6mm-050"
+      ],
+      "protocolComplete": false,
+      "inventory": "Partial; full figures, tables, methods and supplements not enumerated"
+    }
+  ],
+  "operations": [],
+  "operationCount": 0,
+  "notes": [
+    "Reuse exact-DOI curated recipe records and source limits, not new full-text extraction. Existing rights and source attribution retained.",
+    "Mass scaling is distinct from complete protocol; selected endpoint, age, matrix scope and uncertainty retained."
+  ],
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "rawSourceRetained": false
+}

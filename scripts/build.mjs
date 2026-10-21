@@ -1,3 +1,4 @@
+import {deepDiveMixDesigns,validateMixDesigns,mixDesignExport} from '../src/deep-dive-mix-designs.js';
 import {paperReadingPreviews} from '../src/paper-reading-previews.js';
 import {validateReadingPreviews} from '../src/paper-reading-core.js';
 import {library} from '../src/research-library.js';
@@ -23,6 +24,7 @@ if(pilot.assets.some(a=>a.operations.publicDisplay.decision!=='allowed'||a.opera
 const shell = await readFile('index.html', 'utf8');
 validateResearchTopics(researchTopics);
 validateDeepDives(deepDives);
+validateMixDesigns(deepDiveMixDesigns,deepDives);
 validateReadingPreviews(paperReadingPreviews,library,deepDives);
 await rm('dist', { recursive: true, force: true });
 await mkdir('dist');
@@ -106,3 +108,5 @@ await writeFile('dist/build-info.json', JSON.stringify({ commit, builtAt: new Da
 console.log(`Pre-rendered ${routes.length} routes, 404, metadata and crawl files in dist/`);
 
 await writeFile('dist/deep-dives.json',JSON.stringify({format:'geopolymer-deep-dives-v1',notice:'Editorial analysis: reported facts, conditional arithmetic and proposed experiments are separate. Partial AI review; not verified numerical evidence.',articles:deepDives},null,2)+'\n');
+
+await writeFile('dist/deep-dive-mix-designs.json',JSON.stringify(mixDesignExport(),null,2)+'\n');

@@ -1,0 +1,133 @@
+{
+  "id": "mix-design-scout-04",
+  "date": "2026-10-21",
+  "review": "Candidate scan, not a completed recipe extraction",
+  "records": [
+    {
+      "id": "ambient-fly-ash-superplasticizer",
+      "doi": "10.3390/ma9070586",
+      "source": "https://www.mdpi.com/1996-1944/9/7/586",
+      "state": "source-review-needed",
+      "nextCheck": "PCE_1 is 1.0 wt% of FA, source supports workability without final-strength penalty; full activator/free-water/aggregate ledger still not found. Do not guess it from nearby biochar source using same Reoflux brand."
+    },
+    {
+      "id": "superplasticizer-flow-air-long-term",
+      "doi": "10.3390/ma14247614",
+      "source": "https://www.mdpi.com/1996-1944/14/24/7614",
+      "state": "source-review-needed",
+      "nextCheck": "NF 2% of FA: separate flow, air and 7/28/90-day strength under 20 versus 70 °C histories; water-glass specification is not a complete batch."
+    },
+    {
+      "id": "ceramic-waste-artistic-restoration",
+      "doi": "10.3390/ma15238600",
+      "source": "https://www.mdpi.com/1996-1944/15/23/8600",
+      "state": "source-review-needed",
+      "nextCheck": "Primary indexed Table 2 contains MIX-MK mass entries; reconcile NaOH as solid versus solution, concentration and silicate water before catalog transfer. Table 5 compares RPdry/MIX/Gy but age and ± type remain unresolved; do not assign 28 days."
+    },
+    {
+      "id": "aluminum-foam-coating-ratio-conflict",
+      "doi": "10.3390/coatings11010087",
+      "source": "https://www.mdpi.com/2079-6412/11/1/87",
+      "state": "source-review-needed",
+      "nextCheck": "Abstract activator/binder 0.45 conflicts with methods five-to-four (0.8). Preserve conflict; no solution mass inferred."
+    },
+    {
+      "id": "hpmc-vae-workability-durability",
+      "doi": "10.3390/buildings15193621",
+      "source": "https://www.mdpi.com/2075-5309/15/19/3621",
+      "state": "source-review-needed",
+      "nextCheck": "Need exact HPMC/VAE dose and wet-batch ledger plus curing/exposure-specific comparison; primary headline alone is insufficient."
+    }
+  ],
+  "operations": [
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma9070586\" \"Table\" \"mix\""
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma14247614\" \"Table 2\" \"mixture\""
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma15238600\" \"MIX-MK\" \"Table\""
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/coatings11010087\" \"Table\" \"0.8\""
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/buildings15193621\" \"Table 2\" \"HPMC\""
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma9070586\" \"2.2.\" \"sodium\""
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma14247614\" \"Table 1\" \"water\""
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/coatings11010087\" \"five\" \"four\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Superplasticizer Addition to Carbon Fly Ash\" \"2.2.\" \"mixture\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Superplasticizer Addition to Carbon Fly Ash\" \"80\" \"20\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Development of Geopolymer-Based Materials with Ceramic Waste\" \"10 M\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Influence of HPMC and VAE\" \"Table 3\" \"0.1\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Development of Geopolymer-Based Materials with Ceramic Waste\" \"hydroxide\" \"solution\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Development of Geopolymer-Based Materials with Ceramic Waste\" \"2.2.\" \"mixer\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Superplasticizer Addition to Carbon Fly Ash\" \"NaOH\" \"g\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Superplasticizer Addition to Carbon Fly Ash\" \"liquid/solid\""
+    },
+    {
+      "kind": "open",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5456875/",
+      "result": "Combined search/open request did not separately surface open result; no success claimed"
+    },
+    {
+      "kind": "open",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5456875/",
+      "result": "Separate request returned browser challenge; no bypass or further direct request"
+    },
+    {
+      "kind": "open",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9735710/",
+      "result": "Combined search/open request did not separately surface open result; no success claimed"
+    },
+    {
+      "kind": "open",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9735710/",
+      "result": "Separate request returned browser challenge; no bypass or further direct request"
+    }
+  ],
+  "operationCount": 20,
+  "newRecipes": 0,
+  "newCanonicalObservations": 0,
+  "rights": "Exact source rights/version not reconciled in this scout. Original factual notes only; no raw papers, abstracts, full tables or figures retained.",
+  "reviewer": "AI; no visual/human/domain verification"
+}

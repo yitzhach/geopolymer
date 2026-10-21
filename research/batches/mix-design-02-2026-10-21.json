@@ -1,0 +1,202 @@
+{
+  "id": "mix-design-02",
+  "date": "2026-10-21",
+  "task": "Mix design and best-result interpretation for every deep dive",
+  "reviewer": "AI source/text review; no human/domain verification",
+  "records": [
+    {
+      "id": "carbonate-slag-hydroxide-balance",
+      "doi": "10.3390/ma15051687",
+      "source": "https://www.mdpi.com/1996-1944/15/5/1687",
+      "status": "source-mix-with-gaps",
+      "recipeIds": [
+        "xie-c4m1"
+      ],
+      "protocolComplete": false,
+      "inventory": "Partial; full figures, tables, methods and supplements not enumerated"
+    },
+    {
+      "id": "metakaolin-fly-ash-liquid-definition",
+      "doi": "10.3390/ma12213485",
+      "source": "https://www.mdpi.com/1996-1944/12/21/3485",
+      "status": "source-mix-with-gaps",
+      "recipeIds": [
+        "vogt-fa10-49"
+      ],
+      "protocolComplete": false,
+      "inventory": "Partial; full figures, tables, methods and supplements not enumerated"
+    },
+    {
+      "id": "metakaolin-water-temperature",
+      "doi": "10.3390/su12198216",
+      "source": "https://www.mdpi.com/2071-1050/12/19/8216",
+      "status": "partial-source-design",
+      "recipeIds": [],
+      "protocolComplete": false,
+      "inventory": "Partial; full figures, tables, methods and supplements not enumerated"
+    },
+    {
+      "id": "fly-ash-slag-efflorescence-moisture",
+      "doi": "10.3390/ma13235550",
+      "source": "https://www.mdpi.com/1996-1944/13/23/5550",
+      "status": "partial-source-design",
+      "recipeIds": [],
+      "protocolComplete": false,
+      "inventory": "Partial; full figures, tables, methods and supplements not enumerated"
+    },
+    {
+      "id": "metakaolin-slag-shrinkage-controls",
+      "doi": "10.3390/ma17051181",
+      "source": "https://www.mdpi.com/1996-1944/17/5/1181",
+      "status": "partial-source-design",
+      "recipeIds": [],
+      "protocolComplete": false,
+      "inventory": "Partial; full figures, tables, methods and supplements not enumerated"
+    }
+  ],
+  "operations": [
+    {
+      "kind": "open",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8911503/",
+      "result": "Browser challenge"
+    },
+    {
+      "kind": "open",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6862292/",
+      "result": "Primary methods and CC BY 4.0 copyright heading accessible"
+    },
+    {
+      "kind": "open",
+      "url": "https://www.mdpi.com/2071-1050/12/19/8216",
+      "result": "Primary identity shown; requested methods still need followup"
+    },
+    {
+      "kind": "find",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6862292/",
+      "pattern": "3.3."
+    },
+    {
+      "kind": "find",
+      "url": "https://www.mdpi.com/2071-1050/12/19/8216",
+      "pattern": "Table 1"
+    },
+    {
+      "kind": "open",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6862292/",
+      "line": 270,
+      "result": "Followup returned browser challenge; no bypass"
+    },
+    {
+      "kind": "open",
+      "url": "https://www.mdpi.com/2071-1050/12/19/8216",
+      "line": 140,
+      "result": "429; stopped direct access"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma15051687\" \"Table 2\" \"C4M1\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/su12198216\" \"MK0.6\" \"Table\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma13235550\" \"0.50\" \"mixed\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma12213485\" \"potassium\" \"Table 3\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma17051181\" \"Table 2\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma15051687\" \"C4M1\" \"strength\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/su12198216\" \"MK0.6\" \"strength\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Reactivity and Microstructure\" \"3.3.\" \"strength\" \"FA20\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Properties and Microstructure of Na2CO3\" \"4 min\" \"40\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Properties and Microstructure of Na2CO3\" \"C4M1\" \"45.5\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"The Impact of the Amount of Water Used\" \"license\" \"4.0\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Reactivity and Microstructure of Metakaolin Based Geopolymers\" \"strength\" \"FA10.49\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Reactivity and Microstructure of Metakaolin Based Geopolymers\" \"highest\" \"strength\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Properties and Microstructure of Na2CO3-Activated Binders\" \"dry\" \"4 min\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Properties and Microstructure of Na2CO3-Activated Binders\" \"compressive\" \"C4M1\" \"C1M4\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Properties and Microstructure of Na2CO3-Activated Binders\" \"creativecommons.org/licenses/by/4.0\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Properties and Microstructure of Na2CO3-Activated Binders\" \"strength\" \"C4M1\" \"higher\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"Properties and Microstructure of Na2CO3-Activated Binders\" \"loading\" \"three\"",
+      "provider": "Session web search; selected primary results only"
+    },
+    {
+      "kind": "search",
+      "query": "\"A Study on the Shrinkage and Compressive Strength\" \"Table 3\" \"6 M\"",
+      "provider": "Session web search; selected primary results only"
+    }
+  ],
+  "operationCount": 26,
+  "notes": [
+    "Two added reference conditions have complete as-supplied proportions but partial protocols; no numerical strength is assigned or inferred from plots. They are comparison conditions, not numeric best recipes.",
+    "Carbonate CC BY 4.0 statement observed in indexed primary PMC result. FA10.49 primary text license and §§2.1/2.3/2.5 reviewed; no visual QA claimed.",
+    "MK water-temperature, efflorescence and shrinkage designs remain partial editorial factual records; exact full-text rights unassessed, no full tables or protected text copied.",
+    "MK shrinkage source Table 2 wt% headings conflict with guide molar-ratio interpretation; explicit hold added without silently changing chemistry.",
+    "Missing steps remain not yet extracted, not asserted absent from the papers. No complete inventory, human/domain review or independent replication."
+  ],
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "rawSourceRetained": false
+}
