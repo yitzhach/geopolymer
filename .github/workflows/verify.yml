@@ -22,6 +22,7 @@ jobs:
           node tests/literature-browser.cjs
           node tests/research-browser.cjs
           node tests/reading-browser.cjs
+          node tests/depth20-browser.cjs
           node tests/assistant-browser.cjs
           node tests/knowledge-browser.cjs
       - uses: actions/upload-artifact@v4

@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "depth20-1-2026-10-20",
+  "checked": "2026-10-20",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operationDefinition": "Individual search queries attributed to this five-paper batch, including shared-call queries; no direct page opens in this batch.",
+  "operations": 12,
+  "queries": [
+    "\"10.3390/ma17174338\" materials methods results conclusions",
+    "\"10.3390/app14020553\" materials methods results conclusions",
+    "\"10.3390/ma17225610\" materials methods results conclusions",
+    "\"10.3390/gels10110700\" materials methods results conclusions",
+    "\"10.3390/ma18112557\" materials methods results conclusions",
+    "site:mdpi.com/1996-1944/17/17/4338 \"NaOH\" \"cured\" \"wollastonite\"",
+    "site:mdpi.com/1996-1944/17/22/5610 \"strength\" \"calcined\" \"curing\"",
+    "site:mdpi.com/2310-2861/10/11/700 \"slag\" \"temperature\" \"strength\"",
+    "site:mdpi.com/1996-1944/18/11/2557 \"PCM\" \"conductivity\" \"decreased\"",
+    "\"10.3390/ma17174338\" \"sodium\" \"mixture\"",
+    "\"10.3390/gels10110700\" \"slag\" \"setting\"",
+    "\"10.3390/ma18112557\" \"Materials and Methods\" \"fly ash\""
+  ],
+  "review": "Selected indexed primary article passages. Original question/reader guidance and proposed checks are editorial. This is not full-paper extraction, visual inspection, status clearance or independent replication.",
+  "rights": {
+    "access": "Primary publisher/PMC passages exposed by session web search; no access-control bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw articles, abstracts, full source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement articles or reconstructed source tables.",
+    "export": "Same original public editorial fields as displayed.",
+    "license": "Exact full-text license/version unassessed; no source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/ma17174338",
+      "publicationId": "ke-b28-011",
+      "deepDiveId": "wollastonite-metakaolin-phase-estimation",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Study objective",
+          "source": "https://www.mdpi.com/1996-1944/17/17/4338"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Materials and methods, synthesis ratios",
+          "source": "https://www.mdpi.com/1996-1944/17/17/4338"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions, MATCH! phase estimate",
+          "source": "https://www.mdpi.com/1996-1944/17/17/4338"
+        }
+      ],
+      "limitations": [
+        "Reconcile whether the reported molar target includes wollastonite contributions and retrieve all solution masses before reproducing the mixture.",
+        "Phase estimates depend on the analysis model; complete diffraction treatment, uncertainty and mechanical comparisons remain unreviewed.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "doi": "10.3390/app14020553",
+      "publicationId": "ke-b28-012",
+      "deepDiveId": "limestone-fly-ash-slag-mixture-design",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Study design",
+          "source": "https://www.mdpi.com/2076-3417/14/2/553"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental program, mixture-design comparisons",
+          "source": "https://www.mdpi.com/2076-3417/14/2/553"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results and discussion, setting and workability",
+          "source": "https://www.mdpi.com/2076-3417/14/2/553"
+        }
+      ],
+      "limitations": [
+        "Retrieve the activator composition, total liquid and exact blend constraints before attributing a response to limestone alone.",
+        "The selected trends describe the source mixtures; they do not establish a universally suitable limestone replacement or a ready-to-use casting window.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "doi": "10.3390/ma17225610",
+      "publicationId": "ke-b28-014",
+      "deepDiveId": "kaolin-granite-residue-consistency-cure",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Study objective",
+          "source": "https://www.mdpi.com/1996-1944/17/22/5610"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Materials and methods, residue calcination and consistency target",
+          "source": "https://www.mdpi.com/1996-1944/17/22/5610"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results summary, RCFC and curing conditions A/B",
+          "source": "https://www.mdpi.com/1996-1944/17/22/5610"
+        }
+      ],
+      "limitations": [
+        "Reconcile the definitions of curing conditions A and B, test age and water/binder denominator before making an age-matched strength comparison.",
+        "Values from cited prior studies are not results of this residue experiment; material processing and equal-flow water adjustments limit transfer.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "doi": "10.3390/gels10110700",
+      "publicationId": "ke-b29-018",
+      "deepDiveId": "tailings-slag-setting-modulus-window",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Study design",
+          "source": "https://www.mdpi.com/2310-2861/10/11/700"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, experimental methods summary",
+          "source": "https://www.mdpi.com/2310-2861/10/11/700"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, selected modulus/initial-set comparisons",
+          "source": "https://www.mdpi.com/2310-2861/10/11/700"
+        }
+      ],
+      "limitations": [
+        "Retrieve the complete condition pairing, temperature and modulus convention before attributing the full setting difference to a single controlled factor.",
+        "The selected abstract-level account does not establish robustness during pumping, large-volume mixing or independent field trials.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "doi": "10.3390/ma18112557",
+      "publicationId": "ke-b29-022",
+      "deepDiveId": "pcm-thermal-conductivity-direction",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Materials and methods, raw materials",
+          "source": "https://www.mdpi.com/1996-1944/18/11/2557"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Thermal measurement methods",
+          "source": "https://www.mdpi.com/1996-1944/18/11/2557"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Thermal-property discussion, GR42/PX25 comparisons",
+          "source": "https://www.mdpi.com/1996-1944/18/11/2557"
+        }
+      ],
+      "limitations": [
+        "Retrieve PCM dosage, reference composition, measurement temperature and phase state before comparing conductivity changes across materials.",
+        "This is a cement-containing composite; neither a conductivity change nor the geopolymer label establishes improved latent storage or whole-building energy savings.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ]
+}

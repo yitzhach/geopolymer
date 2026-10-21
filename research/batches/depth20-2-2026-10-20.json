@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "depth20-2-2026-10-20",
+  "checked": "2026-10-20",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operationDefinition": "Individual search queries attributed to this five-paper batch, including shared-call queries; no direct page opens in this batch.",
+  "operations": 11,
+  "queries": [
+    "\"10.3390/gels8030145\" materials methods results conclusions",
+    "\"10.3390/polym15030518\" materials methods results conclusions",
+    "\"10.3390/ma13163499\" materials methods results conclusions",
+    "\"10.3390/min12111342\" materials methods results conclusions",
+    "\"10.3390/ma18051005\" materials methods results conclusions",
+    "\"10.3390/ma13163499\" \"reduced\" \"strength\"",
+    "\"10.3390/min12111342\" \"amorphous\" \"strength\"",
+    "\"10.3390/ma18051005\" \"shrinkage\" \"increased\"",
+    "\"10.3390/polym15030518\" \"materials\" \"alkali\" \"threshold\"",
+    "\"10.3390/gels8030145\" \"coal gangue\" \"temperature\"",
+    "\"10.3390/ma13163499\" \"20%\" \"Na2O\""
+  ],
+  "review": "Selected indexed primary article passages. Original question/reader guidance and proposed checks are editorial. This is not full-paper extraction, visual inspection, status clearance or independent replication.",
+  "rights": {
+    "access": "Primary publisher/PMC passages exposed by session web search; no access-control bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw articles, abstracts, full source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement articles or reconstructed source tables.",
+    "export": "Same original public editorial fields as displayed.",
+    "license": "Exact full-text license/version unassessed; no source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/gels8030145",
+      "publicationId": "ke-b30-001",
+      "deepDiveId": "coal-gangue-compression-flexure-modulus",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Study objective",
+          "source": "https://www.mdpi.com/2310-2861/8/3/145"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental design; characterization overview",
+          "source": "https://www.mdpi.com/2310-2861/8/3/145"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Discussion, activator modulus and mechanical response",
+          "source": "https://www.mdpi.com/2310-2861/8/3/145"
+        }
+      ],
+      "limitations": [
+        "Retrieve precursor blend, grinding history, modulus basis and total liquid before selecting a source formulation.",
+        "The reviewed qualitative failure interpretation does not supply a transferable fracture-energy value or an optimum across different gangue sources.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "doi": "10.3390/polym15030518",
+      "publicationId": "ke-b30-002",
+      "deepDiveId": "slag-resistivity-alkali-confounding",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Study objective",
+          "source": "https://www.mdpi.com/2073-4360/15/3/518"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Section 2.1, materials and mix proportions",
+          "source": "https://www.mdpi.com/2073-4360/15/3/518"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Resistivity discussion; conclusions",
+          "source": "https://www.mdpi.com/2073-4360/15/3/518"
+        }
+      ],
+      "limitations": [
+        "Reconcile all tested alkali labels, solution water and electrical measurement settings before assigning a numerical threshold or comparing traces.",
+        "The selected account does not validate a universal resistivity-to-strength conversion across activator compositions.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "doi": "10.3390/ma13163499",
+      "publicationId": "ke-b30-004",
+      "deepDiveId": "sodium-aluminate-shrinkage-reaction-tradeoff",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Introduction and experimental design",
+          "source": "https://www.mdpi.com/1996-1944/13/16/3499"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Section 2.1, substitution and alkali series",
+          "source": "https://www.mdpi.com/1996-1944/13/16/3499"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions, hydration/pore/phase interpretation",
+          "source": "https://www.mdpi.com/1996-1944/13/16/3499"
+        }
+      ],
+      "limitations": [
+        "Reconcile the activator-substitution denominator and Na2O definition before calculating ingredient masses; separate the two experimental series.",
+        "The selected outcome is an author mechanism interpretation; full strain curves, strength penalties and uncertainty still require extraction.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "doi": "10.3390/min12111342",
+      "publicationId": "ke-b30-006",
+      "deepDiveId": "metakaolin-quantitative-phase-water-strength",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Study objective",
+          "source": "https://www.mdpi.com/2075-163X/12/11/1342"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Materials and methods; 28-day phase analysis",
+          "source": "https://www.mdpi.com/2075-163X/12/11/1342"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, source strength range and bound-water association",
+          "source": "https://www.mdpi.com/2075-163X/12/11/1342"
+        }
+      ],
+      "limitations": [
+        "Retrieve the uncertainty definition, replicate counts, activation ledger and quantitative phase model before normalizing the reported strength range.",
+        "Prior-study strength values cited in the introduction are separate datasets; this association does not establish a general strength prediction equation.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "doi": "10.3390/ma18051005",
+      "publicationId": "ke-b30-008",
+      "deepDiveId": "sea-sand-shrinkage-water-loss-clock",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Experimental design",
+          "source": "https://www.mdpi.com/1996-1944/18/5/1005"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Materials and methods, length/mass measurement schedule",
+          "source": "https://www.mdpi.com/1996-1944/18/5/1005"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Discussion and conclusions, sand and alkali effects",
+          "source": "https://www.mdpi.com/1996-1944/18/5/1005"
+        }
+      ],
+      "limitations": [
+        "Retrieve the exact drying exposure, initial-age definition and alkali denominator before comparing strain histories with another experiment.",
+        "The selected directional account does not establish a monotonic alkali benefit, reinforced durability or an aggregate-independent shrinkage rule.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ]
+}

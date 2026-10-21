@@ -1,5 +1,15 @@
 # Geopolymer Platform — Decisions
 
+## 20 October 2026 — owner-requested twenty-paper depth expansion
+
+Owner requested 20 more summary/deep-dive pairs. Added exactly 20 within the
+existing 1,000-paper catalog, bringing detailed previews to 111 and guides to 112.
+Four five-paper audits retain source queries and explicit coverage limits. All
+91 previous previews are preserved verbatim; publication identities are unchanged.
+The earlier deferred sodium-aluminate paper now has a selected primary outcome
+account, but dosage and strength holds remain. No canonical measurements or ready
+recipes were inferred. Publish tested work under the standing main authorization.
+
 ## 21 October 2026 — another bounded depth batch
 
 Owner requested more detailed summaries and deep dives. Added three linked pairs

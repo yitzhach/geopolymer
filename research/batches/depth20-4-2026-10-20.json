@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "depth20-4-2026-10-20",
+  "checked": "2026-10-20",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operationDefinition": "Individual search queries attributed to this five-paper batch, including shared-call queries; no direct page opens in this batch.",
+  "operations": 14,
+  "queries": [
+    "\"10.3390/min11020197\" materials methods results conclusions",
+    "\"10.3390/polym14010063\" materials methods results conclusions",
+    "\"10.3390/app12189085\" materials methods results conclusions",
+    "\"10.3390/ma15134628\" materials methods results conclusions",
+    "\"10.3390/ma12101616\" materials methods results conclusions",
+    "\"10.3390/min11020197\" \"strength\" \"28\"",
+    "\"10.3390/ma12101616\" \"graphite\" \"percolation\"",
+    "\"10.3390/ma15134628\" \"strength\" \"increased\"",
+    "\"10.3390/min11020197\" \"conclusions\" \"water\"",
+    "\"10.3390/ma12101616\" \"threshold\" \"10\"",
+    "\"10.3390/app12189085\" \"compressive\" \"strength\" \"temperature\"",
+    "\"10.3390/polym14010063\" \"strength\" \"shrinkage\" \"slag\"",
+    "\"Alkali-Activated Metakaolin and Fly Ash as Unfired Ceramic Bonding Systems\" \"conclusions\" \"strength\"",
+    "\"10.3390/polym14010063\" \"Results\" \"alkali-equivalent\""
+  ],
+  "review": "Selected indexed primary article passages. Original question/reader guidance and proposed checks are editorial. This is not full-paper extraction, visual inspection, status clearance or independent replication.",
+  "rights": {
+    "access": "Primary publisher/PMC passages exposed by session web search; no access-control bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw articles, abstracts, full source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement articles or reconstructed source tables.",
+    "export": "Same original public editorial fields as displayed.",
+    "license": "Exact full-text license/version unassessed; no source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/min11020197",
+      "publicationId": "ke-b30-016",
+      "deepDiveId": "unfired-ceramic-activation-cure-comparison",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Abstract, precursor scope",
+          "source": "https://www.mdpi.com/2075-163X/11/2/197"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, activation/cure and test schedule",
+          "source": "https://www.mdpi.com/2075-163X/11/2/197"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, 5 M MK comparison",
+          "source": "https://www.mdpi.com/2075-163X/11/2/197"
+        }
+      ],
+      "limitations": [
+        "Retrieve the exact hydrothermal program, reporting age and mixture identity before treating the two strengths as an isolated temperature effect.",
+        "Unfired refers to the binder route; metakaolin still required calcination, and environmental savings need a defined process boundary.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "doi": "10.3390/polym14010063",
+      "publicationId": "ke-b30-019",
+      "deepDiveId": "fly-ash-source-setting-alkali-equivalent",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Materials and methods, three ash sources",
+          "source": "https://www.mdpi.com/2073-4360/14/1/63"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Setting comparison, Figure 4 discussion",
+          "source": "https://www.mdpi.com/2073-4360/14/1/63"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results, AE and source-dependent setting",
+          "source": "https://www.mdpi.com/2073-4360/14/1/63"
+        }
+      ],
+      "limitations": [
+        "Retrieve the exact AE denominator, water contribution and blend pairing before converting the selected percentages into chemical masses.",
+        "The selected setting trends do not establish that the fastest-setting ash is the best structural binder or that source differences vanish after activation.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "doi": "10.3390/app12189085",
+      "publicationId": "ke-b30-020",
+      "deepDiveId": "thermally-modified-clay-multi-parameter-synthesis",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Study objective",
+          "source": "https://www.mdpi.com/2076-3417/12/18/9085"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Methods, physical-property characterization",
+          "source": "https://www.mdpi.com/2076-3417/12/18/9085"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, developed-mortar performance summary",
+          "source": "https://www.mdpi.com/2076-3417/12/18/9085"
+        }
+      ],
+      "limitations": [
+        "Retrieve condition-level identities, age and uncertainty definition before pairing strength with the lowest density, porosity or absorption.",
+        "Multiple varied synthesis parameters prevent treating the headline performance as a universal clay treatment or a single-factor causal effect.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "doi": "10.3390/ma15134628",
+      "publicationId": "ke-b30-021",
+      "deepDiveId": "clay-stabilization-activation-optimum",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Materials and study comparison",
+          "source": "https://www.mdpi.com/1996-1944/15/13/4628"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Methods, static compaction and curing schedule",
+          "source": "https://www.mdpi.com/1996-1944/15/13/4628"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results and discussion, activation and M+ response",
+          "source": "https://www.mdpi.com/1996-1944/15/13/4628"
+        }
+      ],
+      "limitations": [
+        "Retrieve the definition of M+, moisture content, target density and source clay classification before designing a matched compaction comparison.",
+        "The optimum is local to the tested soil and activator domain; the selected account supplies neither a universal alkali dose nor a pavement design strength.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "doi": "10.3390/ma12101616",
+      "publicationId": "ke-b35-002",
+      "deepDiveId": "graphite-self-sensing-stress-frequency-domain",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Abstract, filler dose basis",
+          "source": "https://www.mdpi.com/1996-1944/12/10/1616"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, measurement and loading program",
+          "source": "https://www.mdpi.com/1996-1944/12/10/1616"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract, selected optimum and operating limits",
+          "source": "https://www.mdpi.com/1996-1944/12/10/1616"
+        }
+      ],
+      "limitations": [
+        "Retrieve electrode layout, moisture conditioning, frequency and load cycle before comparing sensing response or a percolation threshold.",
+        "The low-stress sensing result does not establish reliable structural monitoring at failure, under cyclic service or across different electrical frequencies.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ]
+}

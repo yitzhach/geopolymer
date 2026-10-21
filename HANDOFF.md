@@ -1,5 +1,41 @@
 # Geopolymer — current handoff
 
+## Owner-requested twenty more summary/deep-dive pairs — 20 October 2026
+- Added exactly 20 partial guides and 20 matching detailed summaries from existing
+  library records. Totals: 1,000 publications / 111 detailed previews / 112 guides.
+  One older guide remains recipe-only. All 91 prior previews are preserved verbatim;
+  all prior guide identities and all publication IDs/DOIs/titles are preserved.
+- Each new preview has three paragraphs (135–162 words before lists), takeaways,
+  limitations, intended readers and both original/deep-dive reading links. Cards,
+  study pages, library search/filters and JSON export include the additions.
+- Coverage spans wollastonite, limestone, kaolin/granite residues, tailings/slag,
+  PCMs, coal gangue, electrical hydration monitoring, sodium aluminate, quantitative
+  mineralogy, marine sand shrinkage, adsorbent binders, SRA incompatibility, hollow
+  blocks, chemorheology, unfired ceramics, clay synthesis/stabilization and graphite.
+- Four five-paper audits: depth20-1 through depth20-4-2026-10-20.json; 48 exact
+  individual search queries total, 12/11/11/14 per batch, each below the 40 cap.
+  depth20-baseline-2026-10-20.json freezes prior relationships and paper identities.
+- Selected indexed primary passages only, including some primary abstract-level
+  accounts. No complete PDF, figures, supplements, domain/human review, independent
+  dataset determination or comprehensive status clearance claimed. Exact full-text
+  licenses remain unassessed; only original factual notes/planning are published.
+  No raw articles, abstracts, complete source tables or figures retained.
+- The earlier deferred sodium-aluminate paper now has a selected primary outcome
+  account, supporting a partial guide. Dose and strength-penalty holds remain;
+  correction holds elsewhere and unresolved aluminum fire findings are preserved.
+- Canonical data unchanged: 5 partial studies / 62 mixes / 275 observations;
+  43 recipes / 31 scalable. No bibliography additions or runnable recipes.
+- Validation: all 121 Node cases pass; schema validates and 1,132 routes build.
+  New depth20 browser suite passes all 40 affected routes in desktop/mobile and
+  JS/no-JS contexts, including source outcomes, inventories, overflow and links.
+  Existing reading and research suites pass all 111 previews, filter/search, export,
+  native disclosures, correction notices and navigation. Mobile screenshot inspected.
+  New browser coverage is included in CI; unchanged feature suites and the complete
+  older route corpus were not exhaustively rerun in this data-only expansion.
+- Standing authorization covers main publication. Remote CI/live deployment remain
+  unverified. Daily and backup automations are unchanged; OpenAlex stays on hold.
+
+
 ## Further detailed summaries and deep dives — 21 October 2026
 - Added three partial source-backed guides and matching three-paragraph previews
   within the existing 1,000 papers: calcium hydroxide setting endpoints, joint

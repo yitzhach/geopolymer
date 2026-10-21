@@ -1,5 +1,13 @@
 # Research assistant — working test feature
 
+## 20 October 2026 — depth expansion to 111 previews
+
+Twenty more linked summary/guide pairs bring coverage to 111 catalog-backed
+previews and 112 partial guides. Source findings, author interpretations and
+proposed planning checks remain distinct. The experimental assistant corpus stays
+at five partial studies / 62 mixes / 275 observations. No prediction capability,
+correction clearance or automatic formulation ingestion follows from the guides.
+
 ## 21 October 2026 — three further reading previews
 
 Coverage is now 91 catalog-backed detailed previews and 92 partial guides, with

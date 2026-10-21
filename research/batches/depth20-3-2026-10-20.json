@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "depth20-3-2026-10-20",
+  "checked": "2026-10-20",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operationDefinition": "Individual search queries attributed to this five-paper batch, including shared-call queries; no direct page opens in this batch.",
+  "operations": 11,
+  "queries": [
+    "\"10.3390/inorganics7120141\" materials methods results conclusions",
+    "\"10.3390/ma9060462\" materials methods results conclusions",
+    "\"10.3390/app8122358\" materials methods results conclusions",
+    "\"10.3390/ma17194910\" materials methods results conclusions",
+    "\"10.3390/polym16020211\" materials methods results conclusions",
+    "\"10.3390/inorganics7120141\" \"curing\" \"8 M\"",
+    "\"10.3390/ma9060462\" \"SRA\" \"shrinkage\"",
+    "\"10.3390/app8122358\" \"strength\" \"shrinkage\"",
+    "\"10.3390/ma17194910\" \"carbonation\" \"NaOH\"",
+    "\"10.3390/app8122358\" \"M1.2N8\" \"strength\"",
+    "\"10.3390/ma17194910\" \"results\" \"lower\""
+  ],
+  "review": "Selected indexed primary article passages. Original question/reader guidance and proposed checks are editorial. This is not full-paper extraction, visual inspection, status clearance or independent replication.",
+  "rights": {
+    "access": "Primary publisher/PMC passages exposed by session web search; no access-control bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw articles, abstracts, full source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement articles or reconstructed source tables.",
+    "export": "Same original public editorial fields as displayed.",
+    "license": "Exact full-text license/version unassessed; no source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/inorganics7120141",
+      "publicationId": "ke-b30-009",
+      "deepDiveId": "zeolite-binder-porosity-strength-selection",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Study objective",
+          "source": "https://www.mdpi.com/2304-6740/7/12/141"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Materials and methods; comparison series",
+          "source": "https://www.mdpi.com/2304-6740/7/12/141"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Discussion and conclusions, room-cured binder selection",
+          "source": "https://www.mdpi.com/2304-6740/7/12/141"
+        }
+      ],
+      "limitations": [
+        "Retrieve the full curing definitions, alkali species and solution/solid basis before converting molarity into a binder recipe.",
+        "The preferred binder condition is not proof of optimal methane/CO2 separation, cyclic adsorption durability or industrial granule performance.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "doi": "10.3390/ma9060462",
+      "publicationId": "ke-b30-010",
+      "deepDiveId": "shrinkage-admixture-retardation-incompatibility",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Abstract, chemical scope",
+          "source": "https://www.mdpi.com/1996-1944/9/6/462"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract; experimental characterization overview",
+          "source": "https://www.mdpi.com/1996-1944/9/6/462"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract and conclusions, incompatibility finding",
+          "source": "https://www.mdpi.com/1996-1944/9/6/462"
+        }
+      ],
+      "limitations": [
+        "Retrieve the dosage denominator, product composition, drying exposure and test-age pairing before attempting a mass conversion or strength-retention calculation.",
+        "This finding concerns the tested chemistry and slag system; it cannot be generalized to every commercial SRA or treated as an acceptable structural tradeoff.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "doi": "10.3390/app8122358",
+      "publicationId": "ke-b30-011",
+      "deepDiveId": "ceramsite-hollow-block-placement-tradeoff",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Study design",
+          "source": "https://www.mdpi.com/2076-3417/8/12/2358"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Section 3.2, formulation selection",
+          "source": "https://www.mdpi.com/2076-3417/8/12/2358"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Section 3.2, finished block performance and classification",
+          "source": "https://www.mdpi.com/2076-3417/8/12/2358"
+        }
+      ],
+      "limitations": [
+        "Retrieve specimen conditioning, loading area convention and exact standard edition before comparing block strength with cubes or another masonry standard.",
+        "The source classification is jurisdiction- and test-specific; masonry shear, tension and assembly performance remain separate questions.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "doi": "10.3390/ma17194910",
+      "publicationId": "ke-b30-013",
+      "deepDiveId": "carbonated-wollastonite-alkali-reduction-limit",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Abstract, study system",
+          "source": "https://www.mdpi.com/1996-1944/17/19/4910"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract, comparative characterization",
+          "source": "https://www.mdpi.com/1996-1944/17/19/4910"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract and conclusions, alkalinity boundary",
+          "source": "https://www.mdpi.com/1996-1944/17/19/4910"
+        }
+      ],
+      "limitations": [
+        "Reconcile the source replacement convention and NaOH dose basis before assigning masses to the reported reduction boundary.",
+        "The chemistry result does not quantify net carbon savings after pretreatment, or establish mechanical equivalence and field durability.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "doi": "10.3390/polym16020211",
+      "publicationId": "ke-b30-015",
+      "deepDiveId": "metakaolin-thermal-scan-chemorheology-domain",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research question",
+          "locator": "Study objective",
+          "source": "https://www.mdpi.com/2073-4360/16/2/211"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Method overview, paired DSC/DMA and deconvolution",
+          "source": "https://www.mdpi.com/2073-4360/16/2/211"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions, model agreement and proposed application",
+          "source": "https://www.mdpi.com/2073-4360/16/2/211"
+        }
+      ],
+      "limitations": [
+        "Retrieve activation composition, scan rates, isothermal holds and fitted parameters before applying the model to a new thermal history.",
+        "Agreement with the fitted experiment does not establish transfer to a different metakaolin, printer geometry or independent validation dataset.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ]
+}

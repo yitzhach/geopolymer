@@ -5637,5 +5637,1185 @@ export const paperReadingPreviews = [
         "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7143656/"
       }
     ]
+  },
+  {
+    "doi": "10.3390/ma17174338",
+    "publicationId": "ke-b28-011",
+    "deepDiveId": "wollastonite-metakaolin-phase-estimation",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "What does adding wollastonite change in the binder network, and what does the phase-analysis result actually establish? Read this comparison when deciding which chemical evidence is needed before a mechanical performance trial. The paper studies hybrid wollastonite–metakaolin binders and the resulting phase assemblage. Terms used in this comparison: MATCH! is the phase-analysis software named by the source. An amorphous-phase estimate is distinct from an independently measured reacted fraction."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Sodium silicate, sodium hydroxide and metakaolin were proportioned using a reported Si/Al/Na molar target of 1.6/1/1, then combined with the metakaolin–wollastonite mixture. Before reproduction or comparison, resolve this source-specific gap: Reconcile whether the reported molar target includes wollastonite contributions and retrieve all solution masses before reproducing the mixture."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The source reports an amorphous-phase estimate increasing from 58% to 88% using MATCH!; this is a phase-analysis result, not a strength measurement. Editorial check: percentage-point difference is not relative percentage growth and does not measure additional reacted binder."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-text",
+    "takeaways": [
+      "Read this comparison when deciding which chemical evidence is needed before a mechanical performance trial.",
+      "Retrieve the reference phases, amorphous quantification procedure and fit diagnostics.",
+      "Phase estimates depend on the analysis model; complete diffraction treatment, uncertainty and mechanical comparisons remain unreviewed."
+    ],
+    "limitations": [
+      "Reconcile whether the reported molar target includes wollastonite contributions and retrieve all solution masses before reproducing the mixture.",
+      "Phase estimates depend on the analysis model; complete diffraction treatment, uncertainty and mechanical comparisons remain unreviewed.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Materials researchers comparing calcium-bearing additions to metakaolin and readers interpreting diffraction-derived phase fractions.",
+    "links": {
+      "deepDive": "/deep-dives/wollastonite-metakaolin-phase-estimation",
+      "originalArticle": "https://doi.org/10.3390/ma17174338"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Study objective",
+        "source": "https://www.mdpi.com/1996-1944/17/17/4338"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Materials and methods, synthesis ratios",
+        "source": "https://www.mdpi.com/1996-1944/17/17/4338"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Conclusions, MATCH! phase estimate",
+        "source": "https://www.mdpi.com/1996-1944/17/17/4338"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/app14020553",
+    "publicationId": "ke-b28-012",
+    "deepDiveId": "limestone-fly-ash-slag-mixture-design",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How does a limestone-containing blend change the time available for placement? This paper is useful for reading a mixture-design study in which changing one component necessarily changes the shares of the others. The study compares FA, BFS and LP in geopolymer mortar using ten mixture-design proportions. Terms used in this comparison: FA, BFS and LP denote fly ash, blast-furnace slag and limestone powder. A mixture design compares constrained fractions rather than independent ingredient additions."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Mechanical properties, workability and setting were evaluated across the selected blend compositions. Before reproduction or comparison, resolve this source-specific gap: Retrieve the activator composition, total liquid and exact blend constraints before attributing a response to limestone alone."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The paper reports lower setting time and workability as FA and BFS proportions increased, while LP increased setting time within the studied blend domain. Editorial check: every fraction change needs a named displaced component; a mixture-design trend is conditional on that balance."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-text",
+    "takeaways": [
+      "This paper is useful for reading a mixture-design study in which changing one component necessarily changes the shares of the others.",
+      "Identify the fixed total and the component displaced by each limestone change.",
+      "The selected trends describe the source mixtures; they do not establish a universally suitable limestone replacement or a ready-to-use casting window."
+    ],
+    "limitations": [
+      "Retrieve the activator composition, total liquid and exact blend constraints before attributing a response to limestone alone.",
+      "The selected trends describe the source mixtures; they do not establish a universally suitable limestone replacement or a ready-to-use casting window.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Mortar formulators comparing limestone fillers, slag and fly ash under workability constraints.",
+    "links": {
+      "deepDive": "/deep-dives/limestone-fly-ash-slag-mixture-design",
+      "originalArticle": "https://doi.org/10.3390/app14020553"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Study design",
+        "source": "https://www.mdpi.com/2076-3417/14/2/553"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Experimental program, mixture-design comparisons",
+        "source": "https://www.mdpi.com/2076-3417/14/2/553"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Results and discussion, setting and workability",
+        "source": "https://www.mdpi.com/2076-3417/14/2/553"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma17225610",
+    "publicationId": "ke-b28-014",
+    "deepDiveId": "kaolin-granite-residue-consistency-cure",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Can residue-based mortar be compared fairly when the water required for equal consistency changes? Read this paper to inspect the coupling between precursor processing, workability adjustment and curing. The study develops geopolymer mortar compositions from kaolin and granite residues. Terms used in this comparison: RCFC denotes the calcined fine kaolin residue in the source. Equal flow is a test target; it does not imply equal water content."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Fine kaolin residue was calcined at 650 °C for two hours. Mixture designs targeted a 260 mm consistency index under ASTM C1437-15. Before reproduction or comparison, resolve this source-specific gap: Reconcile the definitions of curing conditions A and B, test age and water/binder denominator before making an age-matched strength comparison."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Room-temperature pre-cured RCFC compositions had reported water/binder demand above 40%; curing conditions A and B reached 6 and 7 MPa, respectively. Editorial check: the arithmetic compares the two reported conditions only; the unresolved cure definitions prevent treating it as an isolated temperature effect."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-text",
+    "takeaways": [
+      "Read this paper to inspect the coupling between precursor processing, workability adjustment and curing.",
+      "Retain both the consistency target and the actual water required for every composition.",
+      "Values from cited prior studies are not results of this residue experiment; material processing and equal-flow water adjustments limit transfer."
+    ],
+    "limitations": [
+      "Reconcile the definitions of curing conditions A and B, test age and water/binder denominator before making an age-matched strength comparison.",
+      "Values from cited prior studies are not results of this residue experiment; material processing and equal-flow water adjustments limit transfer.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Readers assessing quarry residues, calcination and low-strength mortar development.",
+    "links": {
+      "deepDive": "/deep-dives/kaolin-granite-residue-consistency-cure",
+      "originalArticle": "https://doi.org/10.3390/ma17225610"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Study objective",
+        "source": "https://www.mdpi.com/1996-1944/17/22/5610"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Materials and methods, residue calcination and consistency target",
+        "source": "https://www.mdpi.com/1996-1944/17/22/5610"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Results summary, RCFC and curing conditions A/B",
+        "source": "https://www.mdpi.com/1996-1944/17/22/5610"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/gels10110700",
+    "publicationId": "ke-b29-018",
+    "deepDiveId": "tailings-slag-setting-modulus-window",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How much can the placement window move when activator chemistry changes? This study is useful for readers comparing very rapid setting with longer working times in waste-derived binders. Iron ore tailings–slag binders were studied while varying tailings content, alkali content, liquid/solid ratio and activator modulus. Terms used in this comparison: IOT and BFS denote iron ore tailings and blast-furnace slag. Initial setting time is a specific test endpoint, distinct from strength or a site placement allowance."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Setting was tested with a manual Vicat apparatus; SEM and isothermal calorimetry supported the interpretation. Before reproduction or comparison, resolve this source-specific gap: Retrieve the complete condition pairing, temperature and modulus convention before attributing the full setting difference to a single controlled factor."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Initial set was around three minutes at modulus 0.8 and increased to 108 minutes at modulus 2 in the reported comparisons. Editorial check: this describes the span of selected source endpoints, not an interpolation rule or guaranteed placement time."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "This study is useful for readers comparing very rapid setting with longer working times in waste-derived binders.",
+      "Measure mixing, transport, placement and test clocks separately before selecting a setting target.",
+      "The selected abstract-level account does not establish robustness during pumping, large-volume mixing or independent field trials."
+    ],
+    "limitations": [
+      "Retrieve the complete condition pairing, temperature and modulus convention before attributing the full setting difference to a single controlled factor.",
+      "The selected abstract-level account does not establish robustness during pumping, large-volume mixing or independent field trials.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Laboratory teams screening rapid-set grouts and readers assessing activator-modulus controls.",
+    "links": {
+      "deepDive": "/deep-dives/tailings-slag-setting-modulus-window",
+      "originalArticle": "https://doi.org/10.3390/gels10110700"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Study design",
+        "source": "https://www.mdpi.com/2310-2861/10/11/700"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Abstract, experimental methods summary",
+        "source": "https://www.mdpi.com/2310-2861/10/11/700"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract, selected modulus/initial-set comparisons",
+        "source": "https://www.mdpi.com/2310-2861/10/11/700"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma18112557",
+    "publicationId": "ke-b29-022",
+    "deepDiveId": "pcm-thermal-conductivity-direction",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Will a phase-change additive improve insulation, heat storage or heat transfer? This paper helps readers separate those objectives and examine why two organic additives need not shift conductivity in the same direction. The geopolymer concrete included Class F fly ash, quartz sand, high-alumina cement and ash-derived microspheres. Terms used in this comparison: PCM denotes phase-change material. Thermal conductivity describes heat transport; heat capacity and latent heat describe different storage behavior."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The study compared organic PCM variants and used a pulsed method for thermal-conductivity measurement. Before reproduction or comparison, resolve this source-specific gap: Retrieve PCM dosage, reference composition, measurement temperature and phase state before comparing conductivity changes across materials."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "GR42 reduced conductivity by 4.6%, whereas PX25 increased it by 13.2%; the source discusses changes in composite structure and thermal pathways. Editorial check: the two relative changes have opposite signs; do not interpret their difference as a measured absolute conductivity."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-text",
+    "takeaways": [
+      "This paper helps readers separate those objectives and examine why two organic additives need not shift conductivity in the same direction.",
+      "Predefine whether the application needs insulation, rapid heat exchange or latent storage.",
+      "This is a cement-containing composite; neither a conductivity change nor the geopolymer label establishes improved latent storage or whole-building energy savings."
+    ],
+    "limitations": [
+      "Retrieve PCM dosage, reference composition, measurement temperature and phase state before comparing conductivity changes across materials.",
+      "This is a cement-containing composite; neither a conductivity change nor the geopolymer label establishes improved latent storage or whole-building energy savings.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Readers selecting thermal-storage composites and researchers comparing phase-change additive compatibility.",
+    "links": {
+      "deepDive": "/deep-dives/pcm-thermal-conductivity-direction",
+      "originalArticle": "https://doi.org/10.3390/ma18112557"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Materials and methods, raw materials",
+        "source": "https://www.mdpi.com/1996-1944/18/11/2557"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Thermal measurement methods",
+        "source": "https://www.mdpi.com/1996-1944/18/11/2557"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Thermal-property discussion, GR42/PX25 comparisons",
+        "source": "https://www.mdpi.com/1996-1944/18/11/2557"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/gels8030145",
+    "publicationId": "ke-b30-001",
+    "deepDiveId": "coal-gangue-compression-flexure-modulus",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Is a higher-strength formulation also the one with the preferred failure response? This paper is useful for comparing compressive and flexural behavior while tracking activator composition. The study examines ultrafine coal-gangue geopolymer gels and their compressive and flexural properties. Terms used in this comparison: Activator modulus reflects the silicate/alkali balance. A qualitative toughness interpretation is distinct from a complete fracture-energy characterization."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Thirty-one ratio experiments combined orthogonal design and conventional comparisons; microscopy and spectroscopic methods supported the analysis. Before reproduction or comparison, resolve this source-specific gap: Retrieve precursor blend, grinding history, modulus basis and total liquid before selecting a source formulation."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The authors characterize higher-modulus systems as more brittle and lower-modulus systems as tougher within the studied formulations. Proposed planning arithmetic: compare matched compression and flexure specimens; no source sample count or mechanical result is inferred."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-text",
+    "takeaways": [
+      "This paper is useful for comparing compressive and flexural behavior while tracking activator composition.",
+      "Retain compression, flexure and observed failure mode for the same named source condition.",
+      "The reviewed qualitative failure interpretation does not supply a transferable fracture-energy value or an optimum across different gangue sources."
+    ],
+    "limitations": [
+      "Retrieve precursor blend, grinding history, modulus basis and total liquid before selecting a source formulation.",
+      "The reviewed qualitative failure interpretation does not supply a transferable fracture-energy value or an optimum across different gangue sources.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Readers developing coal-gangue binders and researchers separating strength from brittleness.",
+    "links": {
+      "deepDive": "/deep-dives/coal-gangue-compression-flexure-modulus",
+      "originalArticle": "https://doi.org/10.3390/gels8030145"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Study objective",
+        "source": "https://www.mdpi.com/2310-2861/8/3/145"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Experimental design; characterization overview",
+        "source": "https://www.mdpi.com/2310-2861/8/3/145"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Discussion, activator modulus and mechanical response",
+        "source": "https://www.mdpi.com/2310-2861/8/3/145"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/polym15030518",
+    "publicationId": "ke-b30-002",
+    "deepDiveId": "slag-resistivity-alkali-confounding",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Can electrical resistivity stand in for reaction progress when the activator itself changes? Read this paper before comparing electrical traces from mixtures with different pore-solution chemistry. The study follows early-age hydration, setting and strength in sodium-silicate-activated slag. Terms used in this comparison: Bulk resistivity contains contributions from pore liquid and solid structure. Alkali equivalent here uses Na2O mass relative to slag mass."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The reported water/solid ratio was 0.35; alkali levels of 4–8 wt% were defined as Na2O in the sodium silicate per slag mass. Before reproduction or comparison, resolve this source-specific gap: Reconcile all tested alkali labels, solution water and electrical measurement settings before assigning a numerical threshold or comparing traces."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The authors report an alkali-dependent threshold and caution that changing pore-liquid conductivity complicates cross-mixture resistivity interpretation. Editorial check: Na2O equivalent is not sodium-silicate solution mass or NaOH molarity; reconcile the solution composition separately."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-text",
+    "takeaways": [
+      "Read this paper before comparing electrical traces from mixtures with different pore-solution chemistry.",
+      "Include pore-solution chemistry and matched temperature when interpreting bulk resistivity.",
+      "The selected account does not validate a universal resistivity-to-strength conversion across activator compositions."
+    ],
+    "limitations": [
+      "Reconcile all tested alkali labels, solution water and electrical measurement settings before assigning a numerical threshold or comparing traces.",
+      "The selected account does not validate a universal resistivity-to-strength conversion across activator compositions.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Researchers developing non-destructive hydration monitoring and readers evaluating early-age electrical measurements.",
+    "links": {
+      "deepDive": "/deep-dives/slag-resistivity-alkali-confounding",
+      "originalArticle": "https://doi.org/10.3390/polym15030518"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Study objective",
+        "source": "https://www.mdpi.com/2073-4360/15/3/518"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Section 2.1, materials and mix proportions",
+        "source": "https://www.mdpi.com/2073-4360/15/3/518"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Resistivity discussion; conclusions",
+        "source": "https://www.mdpi.com/2073-4360/15/3/518"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma13163499",
+    "publicationId": "ke-b30-004",
+    "deepDiveId": "sodium-aluminate-shrinkage-reaction-tradeoff",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How should a shrinkage improvement be interpreted when the activator also changes reaction kinetics? This paper connects length-change behavior with phase and pore-structure evidence and warrants a separate strength check. The study examines sodium aluminate partially substituting sodium silicate in alkali-activated slag. Terms used in this comparison: NaAlO2 is sodium aluminate. Drying and autogenous shrinkage describe different boundary conditions and need separate measurement histories."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The design includes substitution levels of 20–80% and an alkali-content series at a fixed 20% substitution, with XRD and pore-structure characterization. Before reproduction or comparison, resolve this source-specific gap: Reconcile the activator-substitution denominator and Na2O definition before calculating ingredient masses; separate the two experimental series."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The authors link reduced shrinkage to slower hydration and changed pores and phases, including increased hydrotalcite and tetranatrolite. Editorial check: compare a named point within one series; do not combine the best values from different conditions into an invented formulation."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-text",
+    "takeaways": [
+      "This paper connects length-change behavior with phase and pore-structure evidence and warrants a separate strength check.",
+      "Retain sealed/autogenous and drying exposure definitions with each length-change record.",
+      "The selected outcome is an author mechanism interpretation; full strain curves, strength penalties and uncertainty still require extraction."
+    ],
+    "limitations": [
+      "Reconcile the activator-substitution denominator and Na2O definition before calculating ingredient masses; separate the two experimental series.",
+      "The selected outcome is an author mechanism interpretation; full strain curves, strength penalties and uncertainty still require extraction.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Readers investigating slag shrinkage mitigation and alternative activator combinations.",
+    "links": {
+      "deepDive": "/deep-dives/sodium-aluminate-shrinkage-reaction-tradeoff",
+      "originalArticle": "https://doi.org/10.3390/ma13163499"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Introduction and experimental design",
+        "source": "https://www.mdpi.com/1996-1944/13/16/3499"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Section 2.1, substitution and alkali series",
+        "source": "https://www.mdpi.com/1996-1944/13/16/3499"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Conclusions, hydration/pore/phase interpretation",
+        "source": "https://www.mdpi.com/1996-1944/13/16/3499"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/min12111342",
+    "publicationId": "ke-b30-006",
+    "deepDiveId": "metakaolin-quantitative-phase-water-strength",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "What can quantitative mineral analysis explain about an alkali-activated metakaolin? Read this study when comparing retained phases and bound water, while checking that correlations are kept within the tested materials. The study examines mineral chemistry and quantitative phase composition of alkali-activated metakaolins. Terms used in this comparison: Quantitative XRD and Rietveld analysis estimate phase composition. Bound-water associations differ from a validated causal strength model."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Quantitative diffraction analysis was supported by FTIR; the paper discusses metakaolins activated for 28 days. Before reproduction or comparison, resolve this source-specific gap: Retrieve the uncertainty definition, replicate counts, activation ledger and quantitative phase model before normalizing the reported strength range."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Reported compressive strengths of 6.42 ± 0.33 to 9.97 ± 0.50 MPa were positively associated with water bound in hydrosodalite and thermonatrite. Editorial check: this is the span of reported means, not an uncertainty interval, paired treatment effect or independent validation."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "Read this study when comparing retained phases and bound water, while checking that correlations are kept within the tested materials.",
+      "Distinguish this experiment from strength examples cited from other papers.",
+      "Prior-study strength values cited in the introduction are separate datasets; this association does not establish a general strength prediction equation."
+    ],
+    "limitations": [
+      "Retrieve the uncertainty definition, replicate counts, activation ledger and quantitative phase model before normalizing the reported strength range.",
+      "Prior-study strength values cited in the introduction are separate datasets; this association does not establish a general strength prediction equation.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Readers interpreting metakaolin mineralogy, phase quantification and water-associated mechanical behavior.",
+    "links": {
+      "deepDive": "/deep-dives/metakaolin-quantitative-phase-water-strength",
+      "originalArticle": "https://doi.org/10.3390/min12111342"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Study objective",
+        "source": "https://www.mdpi.com/2075-163X/12/11/1342"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Materials and methods; 28-day phase analysis",
+        "source": "https://www.mdpi.com/2075-163X/12/11/1342"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract, source strength range and bound-water association",
+        "source": "https://www.mdpi.com/2075-163X/12/11/1342"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma18051005",
+    "publicationId": "ke-b30-008",
+    "deepDiveId": "sea-sand-shrinkage-water-loss-clock",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How do sand treatment and alkali level affect dimensional stability over time? Use this paper to compare water demand and mass loss alongside the shrinkage curve, rather than rank mixtures from a single age. The study compares sand type and alkali equivalent in a seawater–slag system, including desalinated sea sand. Terms used in this comparison: Alkali equivalent requires a stated mass basis. Drying shrinkage and mass loss are related readouts but measure different quantities."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Length-change specimens were 25 × 25 × 280 mm; initial length and mass were followed at ages through 180 days. Before reproduction or comparison, resolve this source-specific gap: Retrieve the exact drying exposure, initial-age definition and alkali denominator before comparing strain histories with another experiment."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The authors associate fine desalinated sand with greater water demand and drying shrinkage, while a moderate alkali increase improved strength and reduced shrinkage. Editorial check: retain sign convention and actual gauge length; mold length alone is not enough to reconstruct source strain."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-text",
+    "takeaways": [
+      "Use this paper to compare water demand and mass loss alongside the shrinkage curve, rather than rank mixtures from a single age.",
+      "Use the same age origin and exposure record for shrinkage and water-loss comparisons.",
+      "The selected directional account does not establish a monotonic alkali benefit, reinforced durability or an aggregate-independent shrinkage rule."
+    ],
+    "limitations": [
+      "Retrieve the exact drying exposure, initial-age definition and alkali denominator before comparing strain histories with another experiment.",
+      "The selected directional account does not establish a monotonic alkali benefit, reinforced durability or an aggregate-independent shrinkage rule.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Readers assessing marine aggregates, slag binders and long-duration shrinkage tests.",
+    "links": {
+      "deepDive": "/deep-dives/sea-sand-shrinkage-water-loss-clock",
+      "originalArticle": "https://doi.org/10.3390/ma18051005"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Experimental design",
+        "source": "https://www.mdpi.com/1996-1944/18/5/1005"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Materials and methods, length/mass measurement schedule",
+        "source": "https://www.mdpi.com/1996-1944/18/5/1005"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Discussion and conclusions, sand and alkali effects",
+        "source": "https://www.mdpi.com/1996-1944/18/5/1005"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/inorganics7120141",
+    "publicationId": "ke-b30-009",
+    "deepDiveId": "zeolite-binder-porosity-strength-selection",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How should a binder be chosen when it must support an adsorbent rather than maximize strength alone? This paper is useful for reading a multi-property selection in which porosity and zeolite-like structure matter. The study develops alkali-activated metakaolin as a zeolite-like binder for adsorbents. Terms used in this comparison: AAB denotes alkali-activated binder. Room curing and solution molarity are separate variables; porosity alone does not measure gas-separation capacity."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Activation solutions of 6, 8 and 10 M were compared with curing variants; XRD, FTIR, SEM and compression supported evaluation. Before reproduction or comparison, resolve this source-specific gap: Retrieve the full curing definitions, alkali species and solution/solid basis before converting molarity into a binder recipe."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The authors favor 8 M with room curing using combined structural and mechanical evidence, although room-cured strength increased further at 10 M. Proposed planning arithmetic: record structure, strength and adsorption separately rather than choosing by a single strength maximum."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-text",
+    "takeaways": [
+      "This paper is useful for reading a multi-property selection in which porosity and zeolite-like structure matter.",
+      "Predefine mechanical handling, pore accessibility and adsorption compatibility requirements.",
+      "The preferred binder condition is not proof of optimal methane/CO2 separation, cyclic adsorption durability or industrial granule performance."
+    ],
+    "limitations": [
+      "Retrieve the full curing definitions, alkali species and solution/solid basis before converting molarity into a binder recipe.",
+      "The preferred binder condition is not proof of optimal methane/CO2 separation, cyclic adsorption durability or industrial granule performance.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Readers developing granulated adsorbents and metakaolin binders for gas-separation materials.",
+    "links": {
+      "deepDive": "/deep-dives/zeolite-binder-porosity-strength-selection",
+      "originalArticle": "https://doi.org/10.3390/inorganics7120141"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Study objective",
+        "source": "https://www.mdpi.com/2304-6740/7/12/141"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Materials and methods; comparison series",
+        "source": "https://www.mdpi.com/2304-6740/7/12/141"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Discussion and conclusions, room-cured binder selection",
+        "source": "https://www.mdpi.com/2304-6740/7/12/141"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma9060462",
+    "publicationId": "ke-b30-010",
+    "deepDiveId": "shrinkage-admixture-retardation-incompatibility",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Is lower drying shrinkage enough to justify an admixture? This paper provides a negative compatibility example and helps readers check whether a desired deformation change accompanies delayed reaction and weak early material. The study evaluates a 2-methyl-2,4-pentanediol-based SRA in waterglass-activated slag mortar. Terms used in this comparison: SRA denotes shrinkage-reducing admixture. A reduced strain reading can accompany delayed hydration and must be interpreted with age-matched mechanical results."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Selected SRA dosages of 0.25%, 0.50% and 1.0% were compared using shrinkage, strength, calorimetry and microstructure measurements. Before reproduction or comparison, resolve this source-specific gap: Retrieve the dosage denominator, product composition, drying exposure and test-age pairing before attempting a mass conversion or strength-retention calculation."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "At 1.0%, drying shrinkage fell by more than 80% but early strength fell strongly; the authors attribute the response to hydration retardation and incompatibility. Editorial check: this conditional ratio does not resolve the early-strength penalty, absolute strain or uncertainty."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "This paper provides a negative compatibility example and helps readers check whether a desired deformation change accompanies delayed reaction and weak early material.",
+      "Evaluate early handling strength alongside shrinkage before accepting an admixture.",
+      "This finding concerns the tested chemistry and slag system; it cannot be generalized to every commercial SRA or treated as an acceptable structural tradeoff."
+    ],
+    "limitations": [
+      "Retrieve the dosage denominator, product composition, drying exposure and test-age pairing before attempting a mass conversion or strength-retention calculation.",
+      "This finding concerns the tested chemistry and slag system; it cannot be generalized to every commercial SRA or treated as an acceptable structural tradeoff.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Researchers screening shrinkage-reducing agents in slag and readers evaluating admixture transfer from conventional cement.",
+    "links": {
+      "deepDive": "/deep-dives/shrinkage-admixture-retardation-incompatibility",
+      "originalArticle": "https://doi.org/10.3390/ma9060462"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Abstract, chemical scope",
+        "source": "https://www.mdpi.com/1996-1944/9/6/462"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Abstract; experimental characterization overview",
+        "source": "https://www.mdpi.com/1996-1944/9/6/462"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract and conclusions, incompatibility finding",
+        "source": "https://www.mdpi.com/1996-1944/9/6/462"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/app8122358",
+    "publicationId": "ke-b30-011",
+    "deepDiveId": "ceramsite-hollow-block-placement-tradeoff",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Why might a study select a mix other than its strongest laboratory candidate? Read this paper to see how placement time, specimen scale and block requirements affect a practical formulation choice. Fourteen trial slag-concrete mixes used pottery sand and ceramsite while varying water/slag, sand ratio, silicate modulus and Na2O content. Terms used in this comparison: AASCHB denotes alkali-activated slag concrete hollow block. A material cube and a hollow block have different geometries and reporting bases."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The selected M1.2N8 was compared with faster-setting M1.2N6 before producing and testing hollow blocks. Before reproduction or comparison, resolve this source-specific gap: Retrieve specimen conditioning, loading area convention and exact standard edition before comparing block strength with cubes or another masonry standard."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "M1.2N8 provided longer setting time with a strength/shrinkage tradeoff. Finished blocks averaged 17.2 MPa compression and were classified MU15 under the cited Chinese standard. Editorial check: keep each result with its geometry and loading-area convention; do not transfer the cube result to a masonry-unit rating."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-text",
+    "takeaways": [
+      "Read this paper to see how placement time, specimen scale and block requirements affect a practical formulation choice.",
+      "Record the practical time needed to fill and consolidate block molds when ranking candidates.",
+      "The source classification is jurisdiction- and test-specific; masonry shear, tension and assembly performance remain separate questions."
+    ],
+    "limitations": [
+      "Retrieve specimen conditioning, loading area convention and exact standard edition before comparing block strength with cubes or another masonry standard.",
+      "The source classification is jurisdiction- and test-specific; masonry shear, tension and assembly performance remain separate questions.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Readers developing lightweight masonry units and comparing material-cube results with finished-block performance.",
+    "links": {
+      "deepDive": "/deep-dives/ceramsite-hollow-block-placement-tradeoff",
+      "originalArticle": "https://doi.org/10.3390/app8122358"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Study design",
+        "source": "https://www.mdpi.com/2076-3417/8/12/2358"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Section 3.2, formulation selection",
+        "source": "https://www.mdpi.com/2076-3417/8/12/2358"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Section 3.2, finished block performance and classification",
+        "source": "https://www.mdpi.com/2076-3417/8/12/2358"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma17194910",
+    "publicationId": "ke-b30-013",
+    "deepDiveId": "carbonated-wollastonite-alkali-reduction-limit",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Can a calcium–silicon mineral reduce activator demand without removing the alkalinity needed for reaction? This paper frames that chemistry question and distinguishes raw mineral use from a carbonation pretreatment. Metakaolin and raw or carbonated wollastonite were activated with NaOH without sodium silicate. Terms used in this comparison: AAM-W and AAM-CW distinguish raw and carbonated wollastonite systems. A lower activator demand is not by itself a measured whole-process environmental benefit."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The binding networks were compared using TGA, FTIR and XRD across the selected substitution conditions. Before reproduction or comparison, resolve this source-specific gap: Reconcile the source replacement convention and NaOH dose basis before assigning masses to the reported reduction boundary."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The authors report that NaOH reduction could not exceed 50% in the tested systems; further reduction left insufficient alkalinity, while carbonation promoted silicon/calcium availability. Editorial check: the reference dose and chemical basis must be known; the source boundary is not a universal minimum-alkali rule."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "This paper frames that chemistry question and distinguishes raw mineral use from a carbonation pretreatment.",
+      "Track carbonation inputs and characterize raw and treated mineral lots separately.",
+      "The chemistry result does not quantify net carbon savings after pretreatment, or establish mechanical equivalence and field durability."
+    ],
+    "limitations": [
+      "Reconcile the source replacement convention and NaOH dose basis before assigning masses to the reported reduction boundary.",
+      "The chemistry result does not quantify net carbon savings after pretreatment, or establish mechanical equivalence and field durability.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Readers evaluating wollastonite activation and reduced-silicate or reduced-alkali binder strategies.",
+    "links": {
+      "deepDive": "/deep-dives/carbonated-wollastonite-alkali-reduction-limit",
+      "originalArticle": "https://doi.org/10.3390/ma17194910"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Abstract, study system",
+        "source": "https://www.mdpi.com/1996-1944/17/19/4910"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Abstract, comparative characterization",
+        "source": "https://www.mdpi.com/1996-1944/17/19/4910"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract and conclusions, alkalinity boundary",
+        "source": "https://www.mdpi.com/1996-1944/17/19/4910"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/polym16020211",
+    "publicationId": "ke-b30-015",
+    "deepDiveId": "metakaolin-thermal-scan-chemorheology-domain",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Can a reaction model help define a processing window? This paper is useful for readers connecting heat-flow events with viscoelastic change while checking the thermal program under which the relation was established. The study examines alumina-rich alkali-activated metakaolin under isothermal and dynamic thermal scans. Terms used in this comparison: DSC measures thermal events and DMA follows mechanical response. Deconvolution allocates overlapping signals according to a model, with assumptions that require checking."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "DSC thermogram deconvolution was paired with DMA under matching temperature conditions to construct a chemorheological model. Before reproduction or comparison, resolve this source-specific gap: Retrieve activation composition, scan rates, isothermal holds and fitted parameters before applying the model to a new thermal history."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The authors describe agreement with their experimental observations and suggest possible guidance for 3D printing; this is not independent printing validation. Editorial check: retain the source fit domain and test new process conditions independently; no printing success rate is inferred."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-text",
+    "takeaways": [
+      "This paper is useful for readers connecting heat-flow events with viscoelastic change while checking the thermal program under which the relation was established.",
+      "Pair thermal and mechanical signals using the same temperature history and age origin.",
+      "Agreement with the fitted experiment does not establish transfer to a different metakaolin, printer geometry or independent validation dataset."
+    ],
+    "limitations": [
+      "Retrieve activation composition, scan rates, isothermal holds and fitted parameters before applying the model to a new thermal history.",
+      "Agreement with the fitted experiment does not establish transfer to a different metakaolin, printer geometry or independent validation dataset.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Researchers assessing metakaolin processing kinetics and exploratory 3D-printing window models.",
+    "links": {
+      "deepDive": "/deep-dives/metakaolin-thermal-scan-chemorheology-domain",
+      "originalArticle": "https://doi.org/10.3390/polym16020211"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Study objective",
+        "source": "https://www.mdpi.com/2073-4360/16/2/211"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Method overview, paired DSC/DMA and deconvolution",
+        "source": "https://www.mdpi.com/2073-4360/16/2/211"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Conclusions, model agreement and proposed application",
+        "source": "https://www.mdpi.com/2073-4360/16/2/211"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/min11020197",
+    "publicationId": "ke-b30-016",
+    "deepDiveId": "unfired-ceramic-activation-cure-comparison",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How much does activation route matter when comparing metakaolin with fly ash? This paper helps readers keep precursor identity, activator choice and curing environment attached to each mechanical result. Metakaolin from kaolin calcined at 550 °C and coal fly ash were studied as unfired bonding systems. Terms used in this comparison: MK and FA denote metakaolin and fly ash. Hydrothermal activation and laboratory hydration are different processing routes, not interchangeable test ages."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "NaOH and water-glass activation were compared under laboratory, hydration-box and hydrothermal conditions; compression was tested at 2, 28 and 56 days. Before reproduction or comparison, resolve this source-specific gap: Retrieve the exact hydrothermal program, reporting age and mixture identity before treating the two strengths as an isolated temperature effect."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "For 5 M NaOH metakaolin, the source reports 11.2 MPa after hydrothermal activation versus 5.5 MPa under laboratory conditions. Editorial check: this is the difference between named source conditions, not a cure multiplier validated for other precursors or recipes."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "This paper helps readers keep precursor identity, activator choice and curing environment attached to each mechanical result.",
+      "Retain precursor processing, activator and cure condition with every strength comparison.",
+      "Unfired refers to the binder route; metakaolin still required calcination, and environmental savings need a defined process boundary."
+    ],
+    "limitations": [
+      "Retrieve the exact hydrothermal program, reporting age and mixture identity before treating the two strengths as an isolated temperature effect.",
+      "Unfired refers to the binder route; metakaolin still required calcination, and environmental savings need a defined process boundary.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Readers studying unfired ceramic bonding and low-temperature binder development.",
+    "links": {
+      "deepDive": "/deep-dives/unfired-ceramic-activation-cure-comparison",
+      "originalArticle": "https://doi.org/10.3390/min11020197"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Abstract, precursor scope",
+        "source": "https://www.mdpi.com/2075-163X/11/2/197"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Abstract, activation/cure and test schedule",
+        "source": "https://www.mdpi.com/2075-163X/11/2/197"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract, 5 M MK comparison",
+        "source": "https://www.mdpi.com/2075-163X/11/2/197"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/polym14010063",
+    "publicationId": "ke-b30-019",
+    "deepDiveId": "fly-ash-source-setting-alkali-equivalent",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Can equal nominal activator settings overcome differences between fly ashes? This study is useful for readers comparing source variability while separating setting behavior from eventual strength. The experiment compares three fly ashes with activator and slag-replacement variations. Terms used in this comparison: AE denotes the source alkali-equivalent variable. A shared nominal dosage does not ensure identical pore solution, reactivity or water demand."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "The source evaluates setting and mechanical behavior while varying alkali equivalent; the reported comparison includes AE levels of 3% and 8%. Before reproduction or comparison, resolve this source-specific gap: Retrieve the exact AE denominator, water contribution and blend pairing before converting the selected percentages into chemical masses."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The 8% AE setting time was shorter than at 3%; fly ash C also set more slowly than the other ashes in the reported source comparison. Editorial check: this difference is not five percentage points of NaOH solution or a molarity change; the AE definition must be reconciled."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-text",
+    "takeaways": [
+      "This study is useful for readers comparing source variability while separating setting behavior from eventual strength.",
+      "Record each ash assay and processing history rather than pooling all fly ash results.",
+      "The selected setting trends do not establish that the fastest-setting ash is the best structural binder or that source differences vanish after activation."
+    ],
+    "limitations": [
+      "Retrieve the exact AE denominator, water contribution and blend pairing before converting the selected percentages into chemical masses.",
+      "The selected setting trends do not establish that the fastest-setting ash is the best structural binder or that source differences vanish after activation.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Formulators screening fly ash sources, slag replacement and alkali-equivalent definitions.",
+    "links": {
+      "deepDive": "/deep-dives/fly-ash-source-setting-alkali-equivalent",
+      "originalArticle": "https://doi.org/10.3390/polym14010063"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Materials and methods, three ash sources",
+        "source": "https://www.mdpi.com/2073-4360/14/1/63"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Setting comparison, Figure 4 discussion",
+        "source": "https://www.mdpi.com/2073-4360/14/1/63"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Results, AE and source-dependent setting",
+        "source": "https://www.mdpi.com/2073-4360/14/1/63"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/app12189085",
+    "publicationId": "ke-b30-020",
+    "deepDiveId": "thermally-modified-clay-multi-parameter-synthesis",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "Which synthesis choices need to stay attached to a clay-binder strength claim? Read this study to compare precursor processing, solution chemistry and cure as a combined design problem. The study varies solid/liquid ratio, NaOH molarity, silicon availability and curing for thermally modified clay binders. Terms used in this comparison: Open porosity concerns connected pores accessible to the test fluid. It is distinct from total void content and does not by itself quantify permeability."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Water absorption and open porosity were assessed by water-immersion Archimedes measurements after 28 days, alongside mechanical and diffraction analysis. Before reproduction or comparison, resolve this source-specific gap: Retrieve condition-level identities, age and uncertainty definition before pairing strength with the lowest density, porosity or absorption."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The developed mortars reached reported strength above 28.2 ± 0.1 MPa; reported property extrema should not be assumed to belong to one identical formulation. Proposed planning arithmetic: define the factors and their interactions before adding independent replication or selecting an optimum."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "Read this study to compare precursor processing, solution chemistry and cure as a combined design problem.",
+      "Verify whether reported best strength and lowest porosity refer to the same specimen series.",
+      "Multiple varied synthesis parameters prevent treating the headline performance as a universal clay treatment or a single-factor causal effect."
+    ],
+    "limitations": [
+      "Retrieve condition-level identities, age and uncertainty definition before pairing strength with the lowest density, porosity or absorption.",
+      "Multiple varied synthesis parameters prevent treating the headline performance as a universal clay treatment or a single-factor causal effect.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Readers developing binders from local clays and comparing porosity, water uptake and mechanical performance.",
+    "links": {
+      "deepDive": "/deep-dives/thermally-modified-clay-multi-parameter-synthesis",
+      "originalArticle": "https://doi.org/10.3390/app12189085"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Study objective",
+        "source": "https://www.mdpi.com/2076-3417/12/18/9085"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Methods, physical-property characterization",
+        "source": "https://www.mdpi.com/2076-3417/12/18/9085"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract, developed-mortar performance summary",
+        "source": "https://www.mdpi.com/2076-3417/12/18/9085"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma15134628",
+    "publicationId": "ke-b30-021",
+    "deepDiveId": "clay-stabilization-activation-optimum",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "When does adding more alkali stop helping stabilized soil? This paper offers a comparison between activated and unactivated fly ash and helps readers keep compaction and curing attached to the strength result. Clay stabilized with Class F fly ash was compared with clay using alkali-activated fly ash. Terms used in this comparison: UCS denotes unconfined compressive strength. Compacted soil performance depends on density and moisture as well as binder chemistry."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Samples were statically compacted and tested after conventional 1-, 7- and 28-day curing periods. Before reproduction or comparison, resolve this source-specific gap: Retrieve the definition of M+, moisture content, target density and source clay classification before designing a matched compaction comparison."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "Activation increased stabilized-soil compressive strength. Strength rose with the source M+ variable to an optimum and then decreased as M+ increased further. Proposed planning arithmetic: equalize and record density and moisture, then retain failure and missing-data records for each group."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-text",
+    "takeaways": [
+      "This paper offers a comparison between activated and unactivated fly ash and helps readers keep compaction and curing attached to the strength result.",
+      "Compare activation routes at explicitly recorded moisture and dry-density conditions.",
+      "The optimum is local to the tested soil and activator domain; the selected account supplies neither a universal alkali dose nor a pavement design strength."
+    ],
+    "limitations": [
+      "Retrieve the definition of M+, moisture content, target density and source clay classification before designing a matched compaction comparison.",
+      "The optimum is local to the tested soil and activator domain; the selected account supplies neither a universal alkali dose nor a pavement design strength.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Geotechnical readers comparing fly ash stabilization and alkali-activated soil binders.",
+    "links": {
+      "deepDive": "/deep-dives/clay-stabilization-activation-optimum",
+      "originalArticle": "https://doi.org/10.3390/ma15134628"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Materials and study comparison",
+        "source": "https://www.mdpi.com/1996-1944/15/13/4628"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Methods, static compaction and curing schedule",
+        "source": "https://www.mdpi.com/1996-1944/15/13/4628"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Results and discussion, activation and M+ response",
+        "source": "https://www.mdpi.com/1996-1944/15/13/4628"
+      }
+    ]
+  },
+  {
+    "doi": "10.3390/ma12101616",
+    "publicationId": "ke-b35-002",
+    "deepDiveId": "graphite-self-sensing-stress-frequency-domain",
+    "edited": "2026-10-20",
+    "sourceChecked": "2026-10-20",
+    "coverage": "Selected indexed primary passages and original editorial reading guidance. Partial AI-assisted review; complete methods, figures and outcome inventories remain unreviewed.",
+    "sourceStatus": "not-assessed",
+    "paragraphs": [
+      {
+        "heading": "Research question and scope",
+        "text": "How much conductive filler improves sensing before it damages mechanical performance? This paper is useful for readers evaluating a sensing optimum together with the stress range and electrical frequency used to establish it. Graphite additions of 1–30% of slag mass were investigated in alkali-activated slag mortar. Terms used in this comparison: Percolation concerns the formation of connected conductive pathways. Electrical improvement, sensing response and mechanical strength are separate acceptance criteria."
+      },
+      {
+        "heading": "Materials and methods",
+        "text": "Resistivity, capacitance and mechanical behavior were studied; selected mixtures underwent compressive self-sensing tests. Before reproduction or comparison, resolve this source-specific gap: Retrieve electrode layout, moisture conditioning, frequency and load cycle before comparing sensing response or a percolation threshold."
+      },
+      {
+        "heading": "Main findings and interpretation",
+        "text": "The best sensing was reported at 10 wt% graphite only up to 6 MPa compression; higher filler loadings impaired mechanical properties without further low-frequency electrical benefit. Editorial check: this is addition relative to slag, not 10% of final wet composite mass; it does not specify the activator or sensor calibration."
+      }
+    ],
+    "findingsCoverage": "selected-findings-from-indexed-primary-summary",
+    "takeaways": [
+      "This paper is useful for readers evaluating a sensing optimum together with the stress range and electrical frequency used to establish it.",
+      "Record load range, frequency, moisture and electrode geometry with every sensitivity comparison.",
+      "The low-stress sensing result does not establish reliable structural monitoring at failure, under cyclic service or across different electrical frequencies."
+    ],
+    "limitations": [
+      "Retrieve electrode layout, moisture conditioning, frequency and load cycle before comparing sensing response or a percolation threshold.",
+      "The low-stress sensing result does not establish reliable structural monitoring at failure, under cyclic service or across different electrical frequencies.",
+      "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+    ],
+    "audience": "Readers developing self-sensing mortars and assessing conductive-filler performance limits.",
+    "links": {
+      "deepDive": "/deep-dives/graphite-self-sensing-stress-frequency-domain",
+      "originalArticle": "https://doi.org/10.3390/ma12101616"
+    },
+    "provenance": [
+      {
+        "guideFactIndex": 0,
+        "title": "Material and research question",
+        "locator": "Abstract, filler dose basis",
+        "source": "https://www.mdpi.com/1996-1944/12/10/1616"
+      },
+      {
+        "guideFactIndex": 1,
+        "title": "Preparation and measurement",
+        "locator": "Abstract, measurement and loading program",
+        "source": "https://www.mdpi.com/1996-1944/12/10/1616"
+      },
+      {
+        "guideFactIndex": 2,
+        "title": "Selected outcome and boundary",
+        "locator": "Abstract, selected optimum and operating limits",
+        "source": "https://www.mdpi.com/1996-1944/12/10/1616"
+      }
+    ]
   }
 ];

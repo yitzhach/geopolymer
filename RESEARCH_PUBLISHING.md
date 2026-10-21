@@ -1,5 +1,23 @@
 # Research database and GP Journal
 
+## 20 October 2026 — twenty further detailed summaries and guides
+
+Coverage is now 111 detailed reading previews and 112 partial editorial guides
+within the unchanged 1,000-paper library. The additional twenty cover residue and
+clay binders, wollastonite, shrinkage, activator effects, thermal storage, adsorbent
+binders, hollow blocks, chemorheology, soil stabilization and graphite sensing.
+Each has three original paragraphs (135–162 words before lists), takeaways,
+limitations, intended readers, original-paper and deep-dive links.
+
+Four five-paper audits (depth20-1 through depth20-4) record 48 exact source queries
+in total. Selected indexed primary passages support the notes; there was no full
+PDF, figure, supplement, independent dataset or comprehensive status review.
+Exact full-text licenses remain unassessed; no protected source expression, raw
+articles, abstracts, whole tables or figures are retained or reproduced. Outcomes
+from cited prior experiments remain separate. No new canonical observations,
+recipes or bibliography records. All previous 91 previews remain unchanged.
+Validation and release status are recorded in HANDOFF.md.
+
 ## 21 October 2026 — 91 detailed previews and 92 guides
 
 Added three partial guides with detailed summaries: calcium setting endpoints,

@@ -1,5 +1,12 @@
 # Recipe database and future formulation advisor
 
+## 20 October 2026 — twenty further guides, unchanged formulations
+
+Added twenty summary/guide pairs, reaching 111 previews and 112 guides. Examples
+preserve solution, dose, test-age, geometry, moisture and operating-domain limits.
+Source facts and proposed arithmetic do not create executable recipes. Counts
+remain 43 recipes / 31 scalable, and 5 studies / 62 mixes / 275 observations.
+
 ## 21 October 2026 — further source-linked reading guidance
 
 Three new summary/guide pairs bring totals to 91 previews and 92 guides. They
