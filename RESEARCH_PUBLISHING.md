@@ -1,5 +1,15 @@
 # Research database and GP Journal
 
+## 21 October 2026 — mix-design continuation 04
+
+Five existing guides gain selected condition ledgers and methods, with conflicting
+source ratios, geometry, cure/yield and solution identities held explicitly.
+See `mix-design-04-2026-10-21.json` (five papers, 31 operations) and HANDOFF.md.
+No bibliography, summary, guide, canonical observation or formulation added.
+Coverage remains 262 partial guides; 15 now have partial source designs and 236
+still await full extraction. Neither section coverage nor partial methods imply
+a complete reproduction protocol. No raw source retained; daily automation unchanged.
+
 ## 21 October 2026 — another fifty summaries and guides, 211/212 total
 
 The second fifty-paper depth batch adds original three-paragraph previews, key

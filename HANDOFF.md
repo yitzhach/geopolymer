@@ -1,5 +1,51 @@
 # Geopolymer — current handoff
 
+## Mix-design continuation 04 — 21 October 2026
+- Resumed the unfinished owner task from verified local/remote main
+  `f0dbfdc98c420c7d15f570ecfb479d1e4603a34b`. Both preceding fifty-paper batches
+  were already published; neither was repeated. Workspace was initially clean.
+- Five scout-04 guides now have selected condition ledgers, methods, comparisons
+  and explicit reproduction holds in `src/mix-design-review-04.js`, joined through
+  the existing mix-design packets. Canonical catalog unchanged: 48 conditions /
+  36 proportional scalers; pilots unchanged: 5 partial studies / 62 mixes /
+  275 observations. No competing catalog, new summary or new guide.
+- Carabba: distinct paste/mortar ledgers and PCE/FA denominator; commercial SP
+  dose/solution-water accounting still needs reconciliation. Anaszewicz: mortar
+  quantities, separate paste rheology, age/cure arms and replicates; stated per-m³
+  yield is inconsistent with 247.06 kg summed ingredients, and activator split
+  basis is unresolved. Neither is silently normalized into a calculator recipe.
+- Ceramic study: solid NaOH pellets confirmed, selected MIX/RPdry ledgers and
+  silicate assay extracted. Source conflicts remain: narrative l/s versus Table 2,
+  50-mm casting versus 40-mm testing, staged heated cure versus stated room-cure
+  test age. Reported compression comparisons retain unknown ± type; no reconciled
+  age-specific optimum. MIX's water absorption remains a separate limitation.
+- Foam coating retains 0.45 versus 0.8 activator/binder conflict. HPMC/VAE notes
+  retain additive/binder doses and 1:1-volume waterglass dilution, with the final
+  solution ledger and exposure-specific outcomes unresolved. No inferred water
+  fractions, solution masses, causal mechanisms or numerical optima.
+- Audit `mix-design-04-2026-10-21.json`: five papers / 31 actual operations.
+  Existing failed-access scout read first; challenged PMC pages not reopened.
+  Publisher ceramic open returned HTTP 429, with no retry or bypass. Selected
+  indexed primary text only; no full inventories, raw sources or whole tables
+  retained. Ceramic primary CC BY 4.0 notice observed; no blanket rights upgrade.
+- Current 262-guide statuses: 8 source-mix-with-gaps, 15 partial-source-design,
+  **236 source-review-needed**, 1 correction hold, 2 without independent physical
+  experiments. Every packet remains protocolComplete false. Section coverage is
+  not completion. `mix-design-queue-05-2026-10-21.json` lists the next five pending
+  guides with their existing gaps; it is an offline queue, not a source review.
+- All 138 individual Node cases pass outside sandbox, schema passes (1000/5/62/275)
+  and build emits 1,287 routes. Focused browser sweep passes all 26 reviewed,
+  held/model/linked guide states on desktop/mobile with JS and no JS, including
+  source links, disclosures, existing scaling and 262-record JSON. Existing recipe
+  catalog browser suite passes scaling, invalidation, exports, transfer, partial
+  blocking and notebook source preservation. New ceramic desktop/mobile screenshots
+  inspected. Release is this mix-design checkpoint; compare HEAD with remote main
+  before resuming. Remote CI and live deployment remain unverified.
+- OpenAlex stays on hold. Existing daily automation unchanged; no schedules added
+  or modified. The one-time backup is not a usage-reset detector. Continue bounded
+  source reviews toward all guides, and revisit partial records; do not re-add
+  the completed summaries or treat this checkpoint as the finished owner task.
+
 ## Third fifty-paper summary/deep-dive expansion — 21 October 2026
 - Latest owner request: add 50 more detailed summaries and 50 more deep dives,
   then push to main. Baseline main: 5b4969bd1be506a21d80927805dedf29c70a00ab.

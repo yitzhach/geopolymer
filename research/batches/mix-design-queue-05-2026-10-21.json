@@ -1,0 +1,88 @@
+{
+  "id": "mix-design-queue-05",
+  "date": "2026-10-21",
+  "review": "Offline continuation queue only; not new source evidence. Read prior failed-access records before requests.",
+  "records": [
+    {
+      "id": "bn-hemp-nanofiber-slag",
+      "doi": "10.3390/polym18111288",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13259237/",
+      "title": "Boron Nitride-Modified Hemp Nanofiber Reinforced Slag-Based Geopolymer Composites: Mechanical, Microstructural and Fire Resistance Performance",
+      "state": "source-review-needed",
+      "nextChecks": [
+        "Complete condition-specific ingredient quantities and their mass/volume denominators have not been extracted for a reproducible batch.",
+        "Activator identity, concentration, solution-water contribution and any additive quantities need condition-level reconciliation.",
+        "Preparation, material grades, specimen geometry, curing, test age and comparison results need a full protocol check.",
+        "Unresolved: slag:sand mass ratio, precise “solid” basis, addition/dispersion details, complete chemical modification charges. Furnace ramp/cooling are now located in §2.4.4.",
+        "Source conflict: abstract suggests improved residual strength; §3.2.4 describes lower strength with increasing reinforcement. Resolve by mix, temperature and cure before recommending a dose.",
+        "Preliminary optimization and G0 have different matrices (§5); do not pool their strengths.",
+        "Tables, figures, supplements and status review remain incomplete. No graph points, canonical measurements or scalable formulation added."
+      ]
+    },
+    {
+      "id": "metakaolin-freeze-thaw-design",
+      "doi": "10.3390/ma13132973",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7372425/",
+      "title": "Compositional Dependence of Pore Structure, Strengthand Freezing-Thawing Resistance of Metakaolin-Based Geopolymers",
+      "state": "source-review-needed",
+      "nextChecks": [
+        "Complete condition-specific ingredient quantities and their mass/volume denominators have not been extracted for a reproducible batch.",
+        "Activator identity, concentration, solution-water contribution and any additive quantities need condition-level reconciliation.",
+        "Preparation, material grades, specimen geometry, curing, test age and comparison results need a full protocol check.",
+        "Table 2 units and the exact binder/water accounting require resolution before a reproducible weighing sheet can be issued.",
+        "Complete numerical outcomes, figure inventory and uncertainty audit remain incomplete. No graph points or new canonical observations added.",
+        "Laboratory durability is conditional on saturation and temperature history; field lifetime is not established."
+      ]
+    },
+    {
+      "id": "coating-wetting-versus-bond",
+      "doi": "10.3390/ma15113767",
+      "source": "https://www.mdpi.com/1996-1944/15/11/3767",
+      "title": "Green Protective Geopolymer Coatings: Interface Characterization, Modification and Life-Cycle Analysis",
+      "state": "source-review-needed",
+      "nextChecks": [
+        "Complete condition-specific ingredient quantities and their mass/volume denominators have not been extracted for a reproducible batch.",
+        "Activator identity, concentration, solution-water contribution and any additive quantities need condition-level reconciliation.",
+        "Preparation, material grades, specimen geometry, curing, test age and comparison results need a full protocol check.",
+        "Modifier solids, exact doses, complete mass ledger and full coating/bond results are not extracted.",
+        "Environmental conclusions need their original functional unit, boundary and service-life assumptions before transfer.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "biochar-bottom-ash-pore-evolution",
+      "doi": "10.3390/app112210945",
+      "source": "https://www.mdpi.com/2076-3417/11/22/10945",
+      "title": "Synthesis and Characterization of Biochar-Based Geopolymer Materials",
+      "state": "source-review-needed",
+      "nextChecks": [
+        "Complete condition-specific ingredient quantities and their mass/volume denominators have not been extracted for a reproducible batch.",
+        "Activator identity, concentration, solution-water contribution and any additive quantities need condition-level reconciliation.",
+        "Preparation, material grades, specimen geometry, curing, test age and comparison results need a full protocol check.",
+        "Complete ingredient masses, IBA pretreatment, biochar denominator, cure and valid-result counts remain unresolved.",
+        "Porosity changes alone do not establish improved strength, long-term durability or net carbon sequestration.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "phosphate-polymer-rheology",
+      "doi": "10.3390/ma17122856",
+      "source": "https://www.mdpi.com/1996-1944/17/12/2856",
+      "title": "Effect of Water-Soluble Polymers on the Rheology and Microstructure of Polymer-Modified Geopolymer Glass-Ceramics",
+      "state": "source-review-needed",
+      "nextChecks": [
+        "Complete condition-specific ingredient quantities and their mass/volume denominators have not been extracted for a reproducible batch.",
+        "Activator identity, concentration, solution-water contribution and any additive quantities need condition-level reconciliation.",
+        "Preparation, material grades, specimen geometry, curing, test age and comparison results need a full protocol check.",
+        "Full polymer synthesis, dose denominator, casting/cure and complete macro-scale mechanical results remain unextracted.",
+        "The supplement listing is a lead; no supplement or figure values were imported.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ],
+  "operations": [],
+  "operationCount": 0,
+  "newRecipes": 0,
+  "newCanonicalObservations": 0,
+  "rawSourceRetained": false
+}

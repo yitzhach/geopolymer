@@ -1,5 +1,6 @@
 import {deepDives} from './deep-dives.js';
 import {literatureMixes} from './literature-mixes.js';
+import {mixDesignReview04} from './mix-design-review-04.js';
 const doiOf=r=>(r.doi||r.url?.match(/10\.\d+\/[^?# ]+/)?.[0]||'').toLowerCase();
 const criterion=(property,ageHours)=>({property,ageHours});
 const selections={
@@ -67,6 +68,7 @@ const make=d=>{
  };
 };
 const partialReviews={
+ ...mixDesignReview04,
 "one-part-admixture-compatibility":{
   "title": "AN-PC1-S is a placement-time candidate, with a strength penalty against AN",
   "notes": "At three days, AN-PC1-S reports 37.5 MPa versus AN 44.6 MPa; initial set is 407 versus 169 min. It exceeds the paired borax combination in the source comparison but is not the maximum-strength option.",

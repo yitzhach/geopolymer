@@ -1,0 +1,215 @@
+{
+  "id": "mix-design-04",
+  "date": "2026-10-21",
+  "task": "Continue condition-level mix design extraction; no complete reproduction protocol claimed",
+  "baseline": "f0dbfdc98c420c7d15f570ecfb479d1e4603a34b",
+  "reviewer": "AI selected indexed primary text; no visual/human/domain verification",
+  "records": [
+    {
+      "id": "ambient-fly-ash-superplasticizer",
+      "doi": "10.3390/ma9070586",
+      "source": "https://www.mdpi.com/1996-1944/9/7/586",
+      "status": "partial-source-design",
+      "recipeIds": [],
+      "protocolComplete": false,
+      "locator": "§§2.2–2.3; conclusions / PCE_1",
+      "inventory": "Selected conditions only; no full tables/figures/supplements inventory",
+      "nextChecks": [
+        "Commercial SP as-supplied versus active-solids dose and water contribution need confirmation before catalog transfer.",
+        "Loading/replicate protocol and full material specifications unresolved; paste quantities must not replace mortar quantities."
+      ]
+    },
+    {
+      "id": "superplasticizer-flow-air-long-term",
+      "doi": "10.3390/ma14247614",
+      "source": "https://www.mdpi.com/1996-1944/14/24/7614",
+      "status": "partial-source-design",
+      "recipeIds": [],
+      "protocolComplete": false,
+      "locator": "§§2.1–2.8; conclusions",
+      "inventory": "Selected conditions only; no full tables/figures/supplements inventory",
+      "nextChecks": [
+        "Source calls these quantities per 1 m³ despite a 247.06 kg total; yield/unit discrepancy is unresolved.",
+        "Activator split basis, commercial SP identity/solids, moisture corrections and post-heating storage unresolved; no scalable catalog transfer."
+      ]
+    },
+    {
+      "id": "ceramic-waste-artistic-restoration",
+      "doi": "10.3390/ma15238600",
+      "source": "https://www.mdpi.com/1996-1944/15/23/8600",
+      "status": "partial-source-design",
+      "recipeIds": [],
+      "protocolComplete": false,
+      "locator": "§§2.1–2.3; Tables 1–2, 5",
+      "inventory": "Selected conditions only; no full tables/figures/supplements inventory",
+      "nextChecks": [
+        "Neat-MK narrative l/s 1.4 conflicts with Table 2 wet activator/MK 62.5/37.5; do not force reconciliation.",
+        "Casting 50-mm cubes versus testing 40-mm cubes; stated 28 days at room temperature versus staged heated cure. Resolve geometry/age before assigning a numerical endpoint or scalable recipe."
+      ]
+    },
+    {
+      "id": "aluminum-foam-coating-ratio-conflict",
+      "doi": "10.3390/coatings11010087",
+      "source": "https://www.mdpi.com/2079-6412/11/1/87",
+      "status": "partial-source-design",
+      "recipeIds": [],
+      "protocolComplete": false,
+      "locator": "Abstract; preparation methods; conclusions",
+      "inventory": "Selected conditions only; no full tables/figures/supplements inventory",
+      "nextChecks": [
+        "Activator ratio remains contradictory; no solution mass inferred and no calculator transfer.",
+        "Complete condition ledger, substrate preparation, curing chronology, specimens and loading need reconciliation. Indexed primary review only; no complete source-status or figure audit."
+      ]
+    },
+    {
+      "id": "hpmc-vae-workability-durability",
+      "doi": "10.3390/buildings15193621",
+      "source": "https://www.mdpi.com/2075-5309/15/19/3621",
+      "status": "partial-source-design",
+      "recipeIds": [],
+      "protocolComplete": false,
+      "locator": "§§2.1–2.3; Table 3; Figure 3 (not reviewed)",
+      "inventory": "Selected conditions only; no full tables/figures/supplements inventory",
+      "nextChecks": [
+        "WG:NH ratio mass/volume basis and diluted-versus-industrial WG identity need reconciliation; do not infer solution masses or final water fraction from 34.8% industrial solids.",
+        "Specimens, loading, test ages and exposure-specific comparison results remain incomplete; no scaling or acid/sulfate equivalence inferred."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "kind": "search",
+      "query": "\"Superplasticizer Addition to Carbon Fly Ash Geopolymers\" \"Table 2\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Effect of Various Types of Superplasticisers on Consistency\" \"Preparation\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Development of Geopolymer-Based Materials with Ceramic Waste\" \"NaOH\" \"solution\" \"8\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Influence of HPMC and VAE on the Properties\" \"Table 3\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Development of Geopolymer-Based Materials with Ceramic Waste\" \"Materials and Methods\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Development of Geopolymer-Based Materials with Ceramic Waste\" \"30 min\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Development of Geopolymer-Based Materials with Ceramic Waste\" \"license\" \"4.0\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Superplasticizer Addition to Carbon Fly Ash Geopolymers\" \"mixture\" \"8 M\""
+    },
+    {
+      "kind": "search",
+      "query": "site:mdpi.com/1996-1944/15/23/8600 \"days\" \"specimens\""
+    },
+    {
+      "kind": "search",
+      "query": "site:mdpi.com/1996-1944/15/23/8600 \"silicate\" \"modulus\""
+    },
+    {
+      "kind": "search",
+      "query": "site:mdpi.com/1996-1944/15/23/8600 \"mixing\" \"curing\""
+    },
+    {
+      "kind": "search",
+      "query": "site:mdpi.com/2075-5309/15/19/3621 \"Table 3\" \"HPMC\""
+    },
+    {
+      "kind": "open",
+      "url": "https://www.mdpi.com/1996-1944/15/23/8600",
+      "result": "HTTP 429; no retry/bypass. Previously challenged PMC URLs not reopened."
+    },
+    {
+      "kind": "search",
+      "query": "\"Development of Geopolymer-Based Materials with Ceramic Waste\" \"NaOH pellets\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Development of Geopolymer-Based Materials with Ceramic Waste\" \"37.5\" \"55.3\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Development of Geopolymer-Based Materials with Ceramic Waste\" \"11\" \"20.9\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Effect of Various Types of Superplasticisers\" \"450\""
+    },
+    {
+      "kind": "search",
+      "query": "\"PMC9735710\" \"pellets\""
+    },
+    {
+      "kind": "search",
+      "query": "\"PMC9735710\" \"Table 2\""
+    },
+    {
+      "kind": "search",
+      "query": "\"PMC9735710\" \"days\""
+    },
+    {
+      "kind": "search",
+      "query": "\"ma14247614\" \"2.2\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Development of Geopolymer-Based Materials with Ceramic Waste\" \"NaOH\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Effect of Various Types of Superplasticisers\" \"2.3. Production\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Influence of HPMC and VAE\" \"2.2.\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Research of Curing Time\" \"five\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Effect of Various Types of Superplasticisers on Consistency\" \"160 kg\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Superplasticizer Addition to Carbon Fly Ash Geopolymers\" \"2.2. Geopolymer\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Research of Curing Time and Temperature-Dependent Strengths\" \"Preparation\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Development of Geopolymer-Based Materials with Ceramic Waste\" \"2.3.\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Superplasticizer Addition to Carbon Fly Ash Geopolymers\" \"2.4.\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Research of Curing Time and Temperature-Dependent Strengths\" \"2.1.\""
+    }
+  ],
+  "operationCount": 31,
+  "previousAccessRecords": "mix-design-scout-04-2026-10-21.json read before requests; no repeated challenged PMC direct opens",
+  "rawSourceRetained": false,
+  "rights": "Original selected factual paraphrases only; no raw source or complete tables retained. Primary ceramic publisher CC BY 4.0 notice observed. Other exact version rights not newly reconciled; no rights upgrade to catalog.",
+  "newRecipes": 0,
+  "newCanonicalObservations": 0,
+  "openAlex": "On hold; unused",
+  "automation": "Existing daily automation unchanged",
+  "remaining": "236 source-review-needed; 15 partial-source-design; 8 source-mix-with-gaps; 1 correction hold; 2 no-independent-mix. All 262 remain protocolComplete false."
+}

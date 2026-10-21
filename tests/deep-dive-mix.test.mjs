@@ -62,3 +62,24 @@ test('source-review batches are bounded with exact identities and operations',as
   assert.equal(a.rawSourceRetained,false);assert.equal(a.newCanonicalObservations,0);added+=n;
  }assert.equal(added,16);
 });
+test('scout continuation keeps condition identities and source conflicts out of recipe scaling',async()=>{
+ const fs=await import('node:fs/promises');
+ const audit=JSON.parse(await fs.readFile(new URL('../research/batches/mix-design-04-2026-10-21.json',import.meta.url)));
+ assert.equal(audit.records.length,5);assert.equal(audit.operationCount,31);assert.equal(audit.operations.length,31);
+ assert.equal(audit.rawSourceRetained,false);assert.equal(audit.newRecipes,0);assert.equal(audit.newCanonicalObservations,0);
+ for(const r of audit.records){const p=mixDesignFor(r.id),html=deepDiveMixSection(deepDives.find(d=>d.id===r.id));
+  assert.equal(p.doi,r.doi);assert.equal(p.status,'partial-source-design');assert.equal(p.protocolComplete,false);
+  assert.deepEqual(p.recipeIds,[]);assert.ok(p.partialReview.ledger.length>=2);assert.equal(p.partialReview.locator,r.locator);
+  assert.doesNotMatch(html,/Calculated 1,000 g/);assert.ok(p.missing.length>=2);
+ }
+ const ceramic=mixDesignFor('ceramic-waste-artistic-restoration');
+ assert.match(ceramic.partialReview.ledger[0][1],/NaOH pellets 5.2/);
+ assert.match(ceramic.missing.join(' '),/50-mm.*40-mm/);assert.match(ceramic.missing.join(' '),/1.4.*62.5\/37.5/);
+ const sp=mixDesignFor('ambient-fly-ash-superplasticizer').partialReview;
+ assert.match(sp.ledger[0][1],/65.7/);assert.match(sp.ledger[1][1],/23.8/);assert.match(sp.ledger[2][1],/of FA/);
+ assert.match(mixDesignFor('superplasticizer-flow-air-long-term').missing.join(' '),/247.06 kg/);
+ assert.match(mixDesignFor('aluminum-foam-coating-ratio-conflict').partialReview.ledger[0][1],/0.45.*0.8/);
+ assert.match(mixDesignFor('hpmc-vae-workability-durability').partialReview.ledger[2][1],/1:1 by volume/);
+ assert.equal(deepDiveMixDesigns.filter(p=>p.status==='source-review-needed').length,236);
+ assert.equal(deepDiveMixDesigns.filter(p=>p.status==='partial-source-design').length,15);
+});
