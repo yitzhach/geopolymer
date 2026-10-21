@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-21",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-14",
+    "through": "2026-10-21"
+  },
+  "researchUpdates": [
+    {
+      "id": "research-iron-ore-tailings-construction-review",
+      "year": 2026,
+      "published": "2026-10-18",
+      "checked": "2026-10-21",
+      "added": "2026-10-21",
+      "dateBasis": "Publisher-listed publication date",
+      "title": "Iron Ore Tailings in Construction Materials: A Systematic Review of Composition and Water Absorption Performance",
+      "doi": "10.3390/ma19204385",
+      "journal": "Materials",
+      "topic": "Waste & biomass",
+      "type": "Review article",
+      "publicationStatus": "Published; version of record",
+      "authors": "R. N. Silva and coauthors; complete names not independently verified from accessible publisher metadata",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/19/20/4385",
+      "url": "https://doi.org/10.3390/ma19204385",
+      "summary": "A systematic review maps how iron-ore tailings are used across construction materials, including geopolymer and alkali-activated matrices, with particular attention to composition and water absorption.",
+      "highlights": [
+        "The review separates tailings used as aggregate, filler, raw material or supplementary cementitious material instead of treating every incorporation route as equivalent.",
+        "Cross-study water-absorption comparisons are limited by varied matrices, test ages, production methods and incomplete reporting of statistical variability."
+      ],
+      "access": "Review-level synthesis, not independent experimental replication. The detailed water-absorption subset is modest and heterogeneous, some ages are missing, and tailings chemistry and potentially toxic elements require source-specific assessment.",
+      "summaryBasis": "Primary publisher article page and metadata; cited studies and supplements not individually audited",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    }
+  ],
+  "journalArticle": {
+    "id": "tailings-content-is-not-a-material-identity",
+    "date": "2026-10-21",
+    "category": "Research briefing",
+    "topic": "Waste & biomass",
+    "title": "Tailings content is not a material identity",
+    "summary": "A new systematic review shows why tailings role, chemistry and test conditions must accompany any replacement percentage.",
+    "sources": [
+      "research-iron-ore-tailings-construction-review"
+    ],
+    "paragraphs": [
+      "Iron-ore tailings appear as aggregate, filler, precursor-like raw material and supplementary cementitious material across different matrices. A single percentage cannot describe those distinct functions.",
+      "For the formulation database, tailings records should preserve mineralogy, particle size, processing, functional role, matrix, curing and water-absorption age. This review organizes prior evidence; it does not validate a universal tailings recipe or independently reproduce the underlying experiments."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "DOI absent from current main catalog modules through the 1000-publication expansion and from the complete open daily draft PR #5 diff.",
+    "dates": "The accessible MDPI recent-article listing gives 18 October 2026. A publisher PDF search snippet displayed 19 October; the version-notes page returned a rate limit. The earlier explicit publisher listing is retained and the discrepancy should be checked before integration.",
+    "authors": "R. N. Silva is visible in publisher search metadata; complete author names were not independently exposed and are not inferred.",
+    "corrections": "No substantive geopolymer/AAM correction or retraction newly publisher-dated 14–21 October was confirmed in targeted searches; not comprehensive status clearance.",
+    "verification": "One unique record, two original highlights and one valid briefing source reference. No full-paper, supplement, figure or underlying-study audit.",
+    "integration": "Review-only staging on existing PR. Preserve stable IDs; resolve the date metadata discrepancy and run rights, application, build and browser checks before any separately authorized publication."
+  }
+}
