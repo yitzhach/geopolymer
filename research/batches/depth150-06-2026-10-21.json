@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "id": "depth150-06-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 8,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/ma17205045\" chloride sulfate results",
+    "\"10.3390/app112211026\" natural fibers results",
+    "\"10.3390/app112110443\" fiber compression flexural results",
+    "\"10.3390/app14219787\" glass flax results",
+    "\"10.3390/su12010118\" flax basalt results",
+    "\"10.3390/app14219787\" \"strength\" \"hybrid\" \"increase\"",
+    "\"10.3390/ma17205045\" \"semi\" \"strength\" \"results\"",
+    "\"10.3390/app112211026\" \"fibers\" \"cotton\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/ma17205045",
+      "publicationId": "ke-b10-014",
+      "deepDiveId": "chloride-sulfate-immersion-gradient",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/17/20/5045"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract; immersion program",
+          "source": "https://www.mdpi.com/1996-1944/17/20/5045"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results / 120-day mechanical response and capillary migration",
+          "source": "https://www.mdpi.com/1996-1944/17/20/5045"
+        }
+      ],
+      "limitations": [
+        "Retrieve salt concentrations, solution renewal, cure and which zone was sampled before comparing damage.",
+        "Compression alone can miss exposure-sensitive flexural damage; a wick-effect interpretation must retain the actual moisture gradient.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/app112211026",
+      "publicationId": "ke-b11-013",
+      "deepDiveId": "natural-fiber-source-toughness",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2076-3417/11/22/11026"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Comparative experimental scope; fresh/cured characterization",
+          "source": "https://www.mdpi.com/2076-3417/11/22/11026"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Mechanical behavior discussion; water-absorption comparison",
+          "source": "https://www.mdpi.com/2076-3417/11/22/11026"
+        }
+      ],
+      "limitations": [
+        "Retrieve fiber identities, dimensions, dose denominator, pretreatment and specimen loading before selecting a source.",
+        "A tougher short-term response does not establish long-term fiber survival or a general water-transport benefit for every plant source.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/app112110443",
+      "publicationId": "ke-b11-014",
+      "deepDiveId": "fiber-hybrid-cement-system-boundary",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2076-3417/11/21/10443"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental reinforcement and binder comparison",
+          "source": "https://www.mdpi.com/2076-3417/11/21/10443"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results and conclusions / carbon-fiber hybrid condition",
+          "source": "https://www.mdpi.com/2076-3417/11/21/10443"
+        }
+      ],
+      "limitations": [
+        "Reconcile fiber dose denominator, hybrid cement fraction, age and cure before applying this selection.",
+        "Discrete fibers and basalt mesh are different reinforcement geometries; hybrid-binder results must not be relabeled as cement-free geopolymer performance.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/app14219787",
+      "publicationId": "ke-b11-017",
+      "deepDiveId": "glass-flax-hybrid-reference",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2076-3417/14/21/9787"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Materials and hybrid-composite characterization",
+          "source": "https://www.mdpi.com/2076-3417/14/21/9787"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract; reference-relative compression comparison",
+          "source": "https://www.mdpi.com/2076-3417/14/21/9787"
+        }
+      ],
+      "limitations": [
+        "Retrieve individual and total fiber fractions, lengths, conditioning, test age and reference mix before reproducing the gain.",
+        "The approximate relative increase is tied to the named reference; long-term alkali stability and statistical uncertainty need separate evidence.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/su12010118",
+      "publicationId": "ke-b11-018",
+      "deepDiveId": "flax-basalt-nonwoven-thermal",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2071-1050/12/1/118"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Reinforcement architecture; DSC/TGA methods",
+          "source": "https://www.mdpi.com/2071-1050/12/1/118"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Thermal-analysis discussion / Figure 8",
+          "source": "https://www.mdpi.com/2071-1050/12/1/118"
+        }
+      ],
+      "limitations": [
+        "Retrieve fabric architecture, fiber mass/volume, density, loading direction and thermal ramp before transferring the results.",
+        "A calorimetry event does not establish retained strength, a service-temperature limit or equivalent behavior to chopped reinforcement.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

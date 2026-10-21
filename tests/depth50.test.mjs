@@ -8,7 +8,7 @@ test('fifty linked additions preserve all previous previews, guides and publicat
  assert.equal(baseline.previousPreviews.length,111);assert.equal(baseline.previousGuides.length,112);
  for(const p of baseline.previousPreviews)assert.equal(hash(readingPreviewFor(p.doi)),p.sha256,p.doi);
  for(const d of baseline.previousGuides)assert.equal(hash(deepDives.find(x=>x.id===d.id)),d.sha256,d.id);
- assert.equal(paperReadingPreviews.length,211);assert.equal(deepDives.length,212);
+ assert.equal(paperReadingPreviews.length,261);assert.equal(deepDives.length,262);
  for(const d of depth50DeepDives){
   assert.ok(!baseline.previousGuides.some(p=>p.doi===d.doi));const p=readingPreviewFor(d.doi);assert.equal(p.deepDiveId,d.id);
   assert.equal(p.paragraphs.length,3);assert.ok(p.paragraphs.reduce((n,x)=>n+x.text.split(/\s+/).length,0)>=110);

@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "id": "depth150-01-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 12,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/ma15082944\" strength shrinkage results",
+    "\"10.3390/ma15010211\" sodium potassium strength results",
+    "\"10.3390/ma14185396\" acid silica fume results",
+    "\"10.3390/ma12060902\" printing borax results",
+    "\"10.3390/ma15082957\" orthogonal results optimum",
+    "\"10.3390/ma14185396\" \"conclusions\" acid resistance",
+    "\"10.3390/ma12060902\" \"potassium\" \"bond\"",
+    "\"10.3390/ma15082944\" \"Na2O\" strength",
+    "\"Mechanical Properties and Microstructural Characterization of Metakaolin Geopolymers Based on Orthogonal Tests\" \"results\" \"modulus\"",
+    "\"Effect of Silica Fume on Metakaolin\" \"reduced\" \"erosion\"",
+    "\"Effect of Slag on the Strength and Shrinkage\" \"increasing\"",
+    "\"Effect of Silica Fume on Metakaolin Geopolymers\" \"significantly\" \"resistance\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/ma15082944",
+      "publicationId": "ke-2944",
+      "deepDiveId": "slag-mk-strength-volume-tradeoff",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://doi.org/10.3390/ma15082944"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental design; strength and shrinkage methods",
+          "source": "https://doi.org/10.3390/ma15082944"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract; strength and volume-stability results",
+          "source": "https://doi.org/10.3390/ma15082944"
+        }
+      ],
+      "limitations": [
+        "Retrieve water accounting, Na₂O denominator, sealing, test geometry and the matching source condition before scaling.",
+        "A strength maximum does not establish a minimum-shrinkage mix; keep drying and autogenous responses separate.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma15010211",
+      "publicationId": "ke-211",
+      "deepDiveId": "na-k-silicate-age-ranking",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://doi.org/10.3390/ma15010211"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Mechanical testing program",
+          "source": "https://doi.org/10.3390/ma15010211"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract; mechanical results at 3, 7 and 28 days",
+          "source": "https://doi.org/10.3390/ma15010211"
+        }
+      ],
+      "limitations": [
+        "Reconcile silicate solids, modulus, solution water, precursor proportions and curing before comparing Na/K chemistry alone.",
+        "Do not apply the reported flexure/compression proportions as a universal conversion or transfer the 28-day ranking to early strength.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma14185396",
+      "publicationId": "ke-5396",
+      "deepDiveId": "silica-fume-acid-strength-compromise",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://doi.org/10.3390/ma14185396"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Mix design; acid-exposure and characterization methods",
+          "source": "https://doi.org/10.3390/ma14185396"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions; Table 4 / strength development",
+          "source": "https://doi.org/10.3390/ma14185396"
+        }
+      ],
+      "limitations": [
+        "Retrieve acid pH, renewal/control, exposure duration and comparison age before interpreting residual performance.",
+        "The shared acid container limits conclusions about cracks and individual leaching intensity; acid resistance is not interchangeable with unexposed strength.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma12060902",
+      "publicationId": "ke-902",
+      "deepDiveId": "printing-na-k-workability-bond",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://doi.org/10.3390/ma12060902"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Mixture optimization; printing and interlayer-tension methods",
+          "source": "https://doi.org/10.3390/ma12060902"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Workability comparison; interlayer bond program",
+          "source": "https://doi.org/10.3390/ma12060902"
+        }
+      ],
+      "limitations": [
+        "Retrieve nozzle geometry, layer interval, dose bases, direction and material water ledger before transferring the printable formulation.",
+        "Visual extrudability, directional compression and interlayer tension are different endpoints; printer settings and admixture adjustments are confounders.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma15082957",
+      "publicationId": "ke-2957",
+      "deepDiveId": "orthogonal-mk-confirmatory-maxima",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://doi.org/10.3390/ma15082957"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental orthogonal design; mechanical methods",
+          "source": "https://doi.org/10.3390/ma15082957"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "§3.1 / test-matrix maxima; abstract / optimized values",
+          "source": "https://doi.org/10.3390/ma15082957"
+        }
+      ],
+      "limitations": [
+        "Resolve duplicated activator wording in the abstract, exact source mix IDs and the optimized-versus-screening protocol before recipe transfer.",
+        "An orthogonal optimum is specific to factors and levels tested; concentration effects are not identical for Na and K systems.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

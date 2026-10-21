@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "depth150-04-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 14,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/polym13060985\" results coating",
+    "\"10.3390/su18104714\" calcium efflorescence results",
+    "\"10.3390/polym15071639\" moss results",
+    "\"10.3390/su16177243\" rice husk solid activator results",
+    "\"10.3390/ma18112536\" hemp results thermal",
+    "\"10.3390/polym13060985\" \"results\" \"silicone\"",
+    "\"10.3390/su18104714\" \"results\" \"CH\"",
+    "\"Mosses on Geopolymers\" \"results\" \"moss\" \"strength\"",
+    "\"Rice Husk Ash/Silicone Rubber-Based Binary Blended\" \"optimum\"",
+    "\"Calcium Hydroxide Modification of Metakaolin\" \"CH10\" \"results\"",
+    "\"Physical Structural Mechanical and Thermal Insulation\" \"mixtures\"",
+    "\"10.3390/su16177243\" \"microwave\" \"thermal\"",
+    "\"Calcium Hydroxide Modification of Metakaolin Geopolymers\" \"conclusions\" \"water\"",
+    "\"Calcium Hydroxide Modification of Metakaolin Geopolymers\" \"10%\" \"corrosion\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/polym13060985",
+      "publicationId": "ke-b07-019",
+      "deepDiveId": "rha-silicone-coating-multiresponse",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8004628/"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Response-surface design and coating characterization",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8004628/"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions / selected composition and surface observations",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8004628/"
+        }
+      ],
+      "limitations": [
+        "Reconcile ratio mass bases, coating/substrate geometry, exposure and model validation before preparing the source condition.",
+        "A fitted optimum and equilibrium-temperature test are not a certified building fire rating or proof of lifetime moisture protection.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/su18104714",
+      "publicationId": "ke-b08-017",
+      "deepDiveId": "calcium-mk-water-corrosion-flow",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2071-1050/18/10/4714"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "§2.2 / mixtures and methods",
+          "source": "https://www.mdpi.com/2071-1050/18/10/4714"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract; water-curing, efflorescence and electrochemical results",
+          "source": "https://www.mdpi.com/2071-1050/18/10/4714"
+        }
+      ],
+      "limitations": [
+        "Retrieve additive denominator, wet solution masses, exposure durations and corrosion-test setup before selecting a dose.",
+        "The authors attribute gains to calcium-containing gel formation; laboratory electrochemical improvement is not a service-life guarantee or a universal maximum-dose recommendation.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/polym15071639",
+      "publicationId": "ke-b08-021",
+      "deepDiveId": "wood-ash-moss-biological-boundary",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2073-4360/15/7/1639"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Chemical, mechanical and biological test program",
+          "source": "https://www.mdpi.com/2073-4360/15/7/1639"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions; moss-growth observations",
+          "source": "https://www.mdpi.com/2073-4360/15/7/1639"
+        }
+      ],
+      "limitations": [
+        "Retrieve organisms, inoculation, environmental duration, surface treatment and ash dose before making an outdoor-performance comparison.",
+        "A preliminary biological screen does not establish all-organism resistance or long-term weathering. Wood ash is not pyrolyzed biochar.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/su16177243",
+      "publicationId": "ke-b09-008",
+      "deepDiveId": "rha-solid-activator-processing",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2071-1050/16/17/7243"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Activator synthesis and comparator program",
+          "source": "https://www.mdpi.com/2071-1050/16/17/7243"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract; thermal/microwave processing comparison",
+          "source": "https://www.mdpi.com/2071-1050/16/17/7243"
+        }
+      ],
+      "limitations": [
+        "Retrieve NaOH/RHA masses, chemical yield, test age, energy boundary and exact benchmark before transferring the claimed replacement.",
+        "Activator feedstock and precursor replacement are different roles; faster treatment alone does not prove a full lifecycle saving at scale.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma18112536",
+      "publicationId": "ke-b09-011",
+      "deepDiveId": "hemp-substitution-insulation-endpoint",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/18/11/2536"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Materials and mixture program; thermal/mechanical characterization",
+          "source": "https://www.mdpi.com/1996-1944/18/11/2536"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract / fiber-content and conductivity comparison",
+          "source": "https://www.mdpi.com/1996-1944/18/11/2536"
+        }
+      ],
+      "limitations": [
+        "Retrieve the 20% denominator, moisture, density, thermal method, fiber treatment and cure before interpreting an equivalent batch.",
+        "Conductivity is conditioning-dependent; interface explanations and mechanical performance require their own comparisons rather than an assumed insulation-strength conversion.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

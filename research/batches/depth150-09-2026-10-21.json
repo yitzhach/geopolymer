@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "depth150-09-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 11,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/buildings13051285\" chloride gypsum results",
+    "\"10.3390/ma17112509\" compaction molarity results",
+    "\"10.3390/ma17091944\" recycled freeze thaw results",
+    "\"10.3390/min12091140\" sulfate freeze thaw results",
+    "\"10.3390/buildings14030592\" MgO carbonate results",
+    "\"10.3390/ma17112509\" \"results\" \"GGBS\" \"12\"",
+    "\"10.3390/min12091140\" \"strength\" \"resistance\" \"results\"",
+    "\"10.3390/ma17091944\" \"recycled\" \"absorption\"",
+    "\"Experimental Study on MgO-Na2CO3 Combined Excitation\" \"SS\" \"strength\"",
+    "\"Sulfate and Freeze-Thaw Resistance of Porous Geopolymer\" \"sulfate\" \"loss\"",
+    "\"10.3390/buildings14030592\" \"conclusions\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/buildings13051285",
+      "publicationId": "ke-b14-007",
+      "deepDiveId": "chloride-gypsum-quicklime-slag",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-5309/13/5/1285"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract; mortar and paste characterization program",
+          "source": "https://www.mdpi.com/2075-5309/13/5/1285"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results / gypsum-specific early-strength comparison",
+          "source": "https://www.mdpi.com/2075-5309/13/5/1285"
+        }
+      ],
+      "limitations": [
+        "Retrieve additive denominators, quicklime quantity, solution water and matched-age controls before weighing the selected condition.",
+        "A chloride-containing laboratory strength gain does not establish reinforcement compatibility; salt binding and corrosion exposure require separate measurements.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma17112509",
+      "publicationId": "ke-b14-008",
+      "deepDiveId": "static-compaction-molarity-blocks",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/17/11/2509"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract; static-compaction fabrication and test program",
+          "source": "https://www.mdpi.com/1996-1944/17/11/2509"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions / concentration and precursor selection",
+          "source": "https://www.mdpi.com/1996-1944/17/11/2509"
+        }
+      ],
+      "limitations": [
+        "Retrieve compaction pressure, moisture, activator quantity, density and cure duration before reproducing a block.",
+        "Molarity alone is not alkali dosage, and a compacted product is not equivalent to a freely cast paste or mortar.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma17091944",
+      "publicationId": "ke-b14-009",
+      "deepDiveId": "freeze-thaw-recycled-geopolymer-aggregate",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/17/9/1944"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract; freeze–thaw and aggregate-production methods",
+          "source": "https://www.mdpi.com/1996-1944/17/9/1944"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results / aggregate physical classification",
+          "source": "https://www.mdpi.com/1996-1944/17/9/1944"
+        }
+      ],
+      "limitations": [
+        "Retrieve the cited standard, cycle count, parent damage, grading and all classification requirements before qualifying a recycled product.",
+        "Meeting selected aggregate metrics is not proof of new-concrete durability or identical performance after additional recycling.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/min12091140",
+      "publicationId": "ke-b14-011",
+      "deepDiveId": "waste-clay-salt-slag-durability",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-163X/12/9/1140"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Durability methods / saturated prisms and sulfate exposure",
+          "source": "https://www.mdpi.com/2075-163X/12/9/1140"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract; §§3.5–3.6 / freeze–thaw and sulfate results",
+          "source": "https://www.mdpi.com/2075-163X/12/9/1140"
+        }
+      ],
+      "limitations": [
+        "Retrieve salt-cake chemistry, porosity, exact cycles, dose basis and sulfate concentration before selecting a material.",
+        "Similar density or appearance does not establish equal durability; mass change and strength loss are different indicators.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/buildings14030592",
+      "publicationId": "ke-b14-012",
+      "deepDiveId": "mgo-carbonate-steel-slag-fines",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-5309/14/3/592"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract; materials and mechanical/phase methods",
+          "source": "https://www.mdpi.com/2075-5309/14/3/592"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract; early-strength and reaction-mechanism discussion",
+          "source": "https://www.mdpi.com/2075-5309/14/3/592"
+        }
+      ],
+      "limitations": [
+        "Retrieve active-MgO characterization, additive denominators, water and each control mix before calculating a batch.",
+        "SS means steel slag here, not sodium silicate. Microstructural correlation does not isolate every component’s causal contribution.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

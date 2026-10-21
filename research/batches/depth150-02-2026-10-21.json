@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "depth150-02-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 11,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/su14063141\" strength results",
+    "\"10.3390/ma14226962\" shrinkage results",
+    "\"10.3390/ma15010202\" phosphate tailings results",
+    "\"10.3390/su151813556\" results calcined clay",
+    "\"10.3390/ma14030511\" hemp fiber strength results",
+    "\"10.3390/ma15010202\" \"results\" phosphate",
+    "\"10.3390/ma14226962\" \"metakaolin\" \"reduced\"",
+    "\"10.3390/su151813556\" \"strength\" \"28\"",
+    "\"10.3390/ma15010202\" \"H3PO4\" \"room\"",
+    "\"10.3390/ma14226962\" \"autogenous\" \"metakaolin\" \"decrease\"",
+    "\"10.3390/ma14030511\" \"volume\" \"Brazilian\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/su14063141",
+      "publicationId": "ke-014",
+      "deepDiveId": "high-water-waste-form-acceptance",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://doi.org/10.3390/su14063141"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Study objective; specimen characterization methods",
+          "source": "https://doi.org/10.3390/su14063141"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract; waste-form mechanical acceptance discussion",
+          "source": "https://doi.org/10.3390/su14063141"
+        }
+      ],
+      "limitations": [
+        "Reconcile binder/water definition, waste loading, conditioning and each measured recipe before applying a regulatory criterion.",
+        "Meeting a study-specific mechanical target does not establish leach resistance, universal waste acceptance or structural-concrete suitability.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma14226962",
+      "publicationId": "ke-015",
+      "deepDiveId": "mk-slag-activator-shrinkage-interaction",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://doi.org/10.3390/ma14226962"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental design; fresh, mechanical and shrinkage methods",
+          "source": "https://doi.org/10.3390/ma14226962"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract; §3.2; shrinkage results",
+          "source": "https://doi.org/10.3390/ma14226962"
+        }
+      ],
+      "limitations": [
+        "Retrieve metakaolin replacement basis, activator solids/water, sealing and shrinkage zero-time before harmonizing results.",
+        "The source links strength changes to reaction-product formation; this interpretation is not an isolated causal experiment or a universal replacement rule.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma15010202",
+      "publicationId": "ke-018",
+      "deepDiveId": "phosphate-tailings-phase-evidence",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://doi.org/10.3390/ma15010202"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract; formulation and phase-analysis program",
+          "source": "https://doi.org/10.3390/ma15010202"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract; XRD/TG-DTA interpretation",
+          "source": "https://doi.org/10.3390/ma15010202"
+        }
+      ],
+      "limitations": [
+        "Retrieve acid concentration, liquid quantity, temperature program and named sample identities before reconstructing a batch.",
+        "Phase identification does not establish compression, leach compliance or long-term containment; this acid chemistry must not enter an alkaline recipe model.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/su151813556",
+      "publicationId": "ke-b02-025",
+      "deepDiveId": "low-reactivity-clay-heat-evolution",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2071-1050/15/18/13556"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Study objective; isothermal calorimetry method",
+          "source": "https://www.mdpi.com/2071-1050/15/18/13556"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions / heat-evolution comparison",
+          "source": "https://www.mdpi.com/2071-1050/15/18/13556"
+        }
+      ],
+      "limitations": [
+        "Retrieve clay calcination/mineralogy, replacement percentages, activator water and matched-age mechanical series before choosing a formulation.",
+        "A low-reactivity clay is not interchangeable with a commercial MK grade; heat-flow and mechanical acceptance are separate outcomes.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma14030511",
+      "publicationId": "ke-b05-004",
+      "deepDiveId": "hemp-red-mud-brazilian-failure",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/33494326/"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract; mechanical testing and fracture microscopy",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/33494326/"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract; failure-mechanism and strength discussion",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/33494326/"
+        }
+      ],
+      "limitations": [
+        "Retrieve fiber volume basis, length, pretreatment, cure and actual tensile geometry before reproducing the comparison.",
+        "Brazilian splitting is not direct tension; improved post-cracking behavior does not establish long-term alkali stability or another hemp-source equivalence.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

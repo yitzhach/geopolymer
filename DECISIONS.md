@@ -1,5 +1,15 @@
 # Geopolymer Platform — Decisions
 
+## 21 October 2026 — preserve the existing corpus while adding reading depth
+
+Add summary/guide pairs to existing DOI identities without adding duplicate
+publications. Freeze prior full editorial records and canonical/recipe data by
+hashes; retain partial-review and source-status limits in previews and exports.
+A guide that joins curated formulations but lacks a reviewed selection links
+those records and abstains from claiming a best variant. Source-specific ages,
+control types, mixture roles and test modes remain part of each selected finding.
+
+
 ## 21 October 2026 — separate recipe proportions from reproducible protocols
 
 The deep-dive recipe audit joins formulations by exact DOI, preserves unknown

@@ -12,7 +12,7 @@ test('second fifty-paper batch preserves all 161 previews, 162 guides and catalo
   const c=corrections.find(c=>c.id===d.id&&c.beforeSha256===d.sha256);
   assert.equal(hash(deepDives.find(x=>x.id===d.id)),c?c.afterSha256:d.sha256,d.id);
  }
- assert.equal(paperReadingPreviews.length,211);assert.equal(deepDives.length,212);
+ assert.equal(paperReadingPreviews.length,261);assert.equal(deepDives.length,262);
  for(const d of depth100DeepDives){
   assert.ok(!baseline.previousGuides.some(p=>p.doi===d.doi));const p=readingPreviewFor(d.doi);assert.equal(p.deepDiveId,d.id);
   assert.equal(p.paragraphs.length,3);assert.ok(p.paragraphs.reduce((n,x)=>n+x.text.split(/\s+/).length,0)>=100);

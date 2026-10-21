@@ -1,3 +1,4 @@
+import {depth150DeepDives} from './deep-dive-depth150-expansion.js';
 import {depth100DeepDives} from './deep-dive-depth100-expansion.js';
 import {depth50DeepDives} from './deep-dive-depth50-expansion.js';
 import {depth20DeepDives} from './deep-dive-depth20-expansion.js';
@@ -82,3 +83,5 @@ deepDives.push(...depth20DeepDives);
 deepDives.push(...depth50DeepDives);
 
 deepDives.push(...depth100DeepDives);
+
+deepDives.push(...depth150DeepDives);

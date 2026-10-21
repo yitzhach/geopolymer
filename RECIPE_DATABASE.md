@@ -1,5 +1,17 @@
 # Recipe database and future formulation advisor
 
+## 21 October 2026 — fifty additional guides, unchanged recipe evidence
+
+Counts are 261 detailed previews / 262 partial guides, with 48 formulation
+records / 36 proportional scalers unchanged. Two new guides link prior curated
+formulations by exact DOI; a linked formulation does not imply a newly verified
+best variant or complete protocol. All guides expose mix-design review status.
+The full recipe-extraction task remains unfinished: eight guides with source
+mixes and gaps, ten partial designs, 241 pending source review, one correction
+hold and two without independent physical experiments. Canonical pilots remain
+five partial studies / 62 mixes / 275 observations.
+
+
 ## 21 October 2026 — mix designs inside the deep dives
 
 All 212 guides now expose a mix-design section and source-review status. Six

@@ -8,10 +8,10 @@ const base=process.env.BASE_URL||'http://localhost:4173';
   for(const javaScriptEnabled of [true,false])for(const width of [1440,390]){
    const page=await browser.newPage({javaScriptEnabled,viewport:{width,height:1000}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
    await page.goto(base+'/library');if(javaScriptEnabled)await page.locator('main[data-enhanced=true]').waitFor();
-   assert.equal(await page.locator('.paper-reading-summary').count(),211);
+   assert.equal(await page.locator('.paper-reading-summary').count(),261);
    const target=paperReadingPreviews.find(p=>p.doi==='10.3390/app13031804');
    if(javaScriptEnabled){
-    await page.locator('#lib-scope').selectOption('reading');assert.equal(await page.locator('.library-card').count(),211);
+    await page.locator('#lib-scope').selectOption('reading');assert.equal(await page.locator('.library-card').count(),261);
     await page.locator('#lib-query').fill('acquisition');assert.ok(await page.locator('.library-card a[href="/deep-dives/foam-nmr-acquisition-time-versus-kinetics"]').count());
     await page.locator('#lib-query').fill(target.doi);assert.equal(await page.locator('.library-card').count(),1);
    }
@@ -26,7 +26,7 @@ const base=process.env.BASE_URL||'http://localhost:4173';
    assert.match(await page.locator('.paper-reading-summary').innerText(),/Correction linked; review pending/);
    assert.deepEqual(errors,[]);await page.close();
   }
-  const page=await browser.newPage();const response=await page.request.get(base+'/research-library.json');const exported=await response.json();assert.equal(exported.records.length,1000);assert.equal(exported.records.filter(p=>p.readingPreview).length,211);
-  console.log('PASS reading summaries: all 211 previews, filters and summary search, expandable paragraphs/bullets, source and guide links, correction hold, export, desktop/mobile and no-JavaScript.');
+  const page=await browser.newPage();const response=await page.request.get(base+'/research-library.json');const exported=await response.json();assert.equal(exported.records.length,1000);assert.equal(exported.records.filter(p=>p.readingPreview).length,261);
+  console.log('PASS reading summaries: all 261 previews, filters and summary search, expandable paragraphs/bullets, source and guide links, correction hold, export, desktop/mobile and no-JavaScript.');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exit(1);});

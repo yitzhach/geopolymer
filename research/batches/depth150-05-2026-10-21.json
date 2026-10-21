@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "depth150-05-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 14,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/ma17061298\" thermal shrinkage results",
+    "\"10.3390/constrmater2010001\" biochar results",
+    "\"10.3390/polym14040703\" foams results",
+    "\"10.3390/ma16134667\" thermochemical results",
+    "\"10.3390/ma19102004\" orthogonal results",
+    "\"The Effect of Biochar on the Properties of Alkali-Activated Slag Pastes\" \"shrinkage\" \"reduced\"",
+    "\"Thermal Properties and Drying Shrinkage Performance of Palm\" \"results\"",
+    "\"Evaluation of Thermochemical Treatments for Rice Husk Ash Valorisation\" \"strength\"",
+    "\"Thermal Properties and Drying Shrinkage Performance\" \"results\" \"decreased\"",
+    "\"Evaluation of Thermochemical Treatments for Rice Husk Ash Valorisation\" \"best\"",
+    "\"Optimization of Mix Proportion and Performance Study of Metakaolin-Slag\" \"results\" \"shrinkage\"",
+    "\"Mechanical and Thermal Properties of Geopolymer Foams\" \"density\" \"conductivity\"",
+    "\"Thermal Properties and Drying Shrinkage Performance of Palm Kernel\" \"PKSA\"",
+    "\"10.3390/ma17061298\" \"0.6\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/ma17061298",
+      "publicationId": "ke-b09-013",
+      "deepDiveId": "palm-rice-ash-fire-shrinkage",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/17/6/1298"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract; mixture screening / Table 4",
+          "source": "https://www.mdpi.com/1996-1944/17/6/1298"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract / thermal and shrinkage comparisons",
+          "source": "https://www.mdpi.com/1996-1944/17/6/1298"
+        }
+      ],
+      "limitations": [
+        "Retrieve specimen thickness, flame protocol, shrinkage definition/units and conditioning before using the unusual percentage values in design.",
+        "A source flame-retardant response is not a structural fire rating; ash and aggregate proportions affect different acceptance endpoints.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/constrmater2010001",
+      "publicationId": "ke-b09-017",
+      "deepDiveId": "biochar-slag-activator-shrinkage",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://scholarship.miami.edu/esploro/outputs/journalArticle/The-Effect-of-Biochar-on-the/991031714223202976"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental scope; shrinkage and characterization methods",
+          "source": "https://scholarship.miami.edu/esploro/outputs/journalArticle/The-Effect-of-Biochar-on-the/991031714223202976"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions; autogenous shrinkage and TGA discussion",
+          "source": "https://scholarship.miami.edu/esploro/outputs/journalArticle/The-Effect-of-Biochar-on-the/991031714223202976"
+        }
+      ],
+      "limitations": [
+        "Retrieve char preparation, saturation, dose, water contribution and shrinkage time origin before proposing an internal-curing batch.",
+        "Do not import the introduction’s cited Portland-paste strength gains as this study’s observations; mechanism and measured outcome remain separate.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/polym14040703",
+      "publicationId": "ke-b09-018",
+      "deepDiveId": "aluminum-waste-foam-process-identity",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8878777/"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract; preparation and thermal-property program",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8878777/"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results / FF.UBC comparison with REF-1 and REF-2",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8878777/"
+        }
+      ],
+      "limitations": [
+        "Retrieve neutralization, reactive metal/salt content, gas evolution, dose and curing before any batch transfer.",
+        "Different process wastes carry different chemistry; favorable insulation and strength do not establish universal handling equivalence or leach compliance.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma16134667",
+      "publicationId": "ke-b09-020",
+      "deepDiveId": "rha-silica-extraction-four-routes",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/16/13/4667"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract; thermochemical treatment and gravimetric methods",
+          "source": "https://www.mdpi.com/1996-1944/16/13/4667"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract; mechanical-treatment comparison",
+          "source": "https://www.mdpi.com/1996-1944/16/13/4667"
+        }
+      ],
+      "limitations": [
+        "Retrieve ash particle size, NaOH/RHA/water masses, reaction time and mortar cure before selecting a treatment.",
+        "A dissolved-silica result is not a direct measure of precursor reactivity or a demonstrated industrial energy saving.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma19102004",
+      "publicationId": "ke-b10-011",
+      "deepDiveId": "orthogonal-mk-slag-multiple-indicators",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/19/10/2004"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract; orthogonal experimental design",
+          "source": "https://www.mdpi.com/1996-1944/19/10/2004"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions / multi-indicator selection",
+          "source": "https://www.mdpi.com/1996-1944/19/10/2004"
+        }
+      ],
+      "limitations": [
+        "Reconcile every denominator, source material and confirmation test before converting the selected ratios into ingredient weights.",
+        "The selected compromise is not a universal numerical optimum; compressive-to-flexural ratio, workability and shrinkage must retain their own weights.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

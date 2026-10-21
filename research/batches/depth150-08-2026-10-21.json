@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "depth150-08-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 10,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/ma13040841\" foam goaf results",
+    "\"10.3390/eng3010005\" adhesion results",
+    "\"10.3390/app13052997\" shrinkage efflorescence results",
+    "\"10.3390/ma17153647\" efflorescence test results",
+    "\"10.3390/pr10091818\" repair durability results",
+    "\"10.3390/ma17153647\" \"conclusions\" \"leaching\"",
+    "\"10.3390/ma13040841\" \"cement\" \"foaming\"",
+    "\"10.3390/eng3010005\" \"pull-off\" \"cohesive\"",
+    "\"A Performance-Based Test for Mitigating\" \"correlation\"",
+    "\"Preparation and Performance of a Low-Carbon Foam\" \"cement clinker\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/ma13040841",
+      "publicationId": "ke-b12-012",
+      "deepDiveId": "goaf-foam-support-failure",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/13/4/841"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract; preparation and uniaxial-test program",
+          "source": "https://www.mdpi.com/1996-1944/13/4/841"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Mechanical results; environmental comparison",
+          "source": "https://www.mdpi.com/1996-1944/13/4/841"
+        }
+      ],
+      "limitations": [
+        "Retrieve condition-specific masses, foam density, cure and ground support requirements; reconcile unusual phase-attribution wording before using the XRD interpretation.",
+        "A laboratory low-strength fill result does not qualify a mine support system or validate modeled environmental savings at another production site.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/eng3010005",
+      "publicationId": "ke-b13-007",
+      "deepDiveId": "pull-off-coating-failure-location",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2673-4117/3/1/5"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract; pull-off and fracture-surface methods",
+          "source": "https://www.mdpi.com/2673-4117/3/1/5"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract; substrate-relative adhesion results",
+          "source": "https://www.mdpi.com/2673-4117/3/1/5"
+        }
+      ],
+      "limitations": [
+        "Retrieve substrate preparation, dolly geometry, adhesive, coating thickness and test age before comparing numerical bond values.",
+        "Cohesive substrate or coating failure is not the same observation as pure interface separation; steel and concrete results must retain their own substrate.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/app13052997",
+      "publicationId": "ke-b14-001",
+      "deepDiveId": "recycled-powder-slag-efflorescence",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2076-3417/13/5/2997"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental shrinkage and rapid-efflorescence methods",
+          "source": "https://www.mdpi.com/2076-3417/13/5/2997"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions / named RP-S45 and RP-S0 comparison",
+          "source": "https://www.mdpi.com/2076-3417/13/5/2997"
+        }
+      ],
+      "limitations": [
+        "Decode source mix labels, recycled-fines chemistry, activator basis and exposure schedule before turning the relative reductions into a proposed recipe.",
+        "The percentage gains use a specific zero-slag reference; they do not imply zero shrinkage, universal recycled-powder quality or service-life equivalence.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma17153647",
+      "publicationId": "ke-b14-003",
+      "deepDiveId": "efflorescence-leaching-two-screens",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/17/15/3647"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Performance-test method; cylinder/water-contact program",
+          "source": "https://www.mdpi.com/1996-1944/17/15/3647"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Discussion / complementary tests and interpretation of released ions",
+          "source": "https://www.mdpi.com/1996-1944/17/15/3647"
+        }
+      ],
+      "limitations": [
+        "Retrieve leaching duration, liquid/solid ratio, solution renewal, normalization and acceptance criteria before adopting the proposed screen.",
+        "A short visual test does not exclude later deposits; the source’s ion-mobility explanation remains a hypothesis rather than proof of service performance.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/pr10091818",
+      "publicationId": "ke-b14-006",
+      "deepDiveId": "repair-mk-cement-activator-durability",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2227-9717/10/9/1818"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract; orthogonal and durability test program",
+          "source": "https://www.mdpi.com/2227-9717/10/9/1818"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions / selected ratios",
+          "source": "https://www.mdpi.com/2227-9717/10/9/1818"
+        }
+      ],
+      "limitations": [
+        "Reconcile activator/solids versus cementitious-material wording, solution masses, substrate and exposure duration before recipe transfer.",
+        "This is not a cement-free binder result; bond, free-material strength and aggressive-exposure resistance must keep their separate methods.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

@@ -24,7 +24,7 @@ const base=process.env.BASE_URL||'http://localhost:4173';
   if(javaScriptEnabled){await page.locator('#mix-mass').fill('2000');await page.locator('#mix-scale').click();assert.match(await page.locator('#mix-status').innerText(),/updated/);}
   assert.deepEqual(errors,[]);await page.close();
  }
- const response=await (await browser.newPage()).request.get(base+'/deep-dive-mix-designs.json');assert.equal(response.status(),200);const data=await response.json();assert.equal(data.records.length,212);assert.ok(data.records.every(p=>p.protocolComplete===false));
+ const response=await (await browser.newPage()).request.get(base+'/deep-dive-mix-designs.json');assert.equal(response.status(),200);const data=await response.json();assert.equal(data.records.length,262);assert.ok(data.records.every(p=>p.protocolComplete===false));
  console.log('Mix-design sections: '+guides.length+' guides, desktop/mobile, JS/no-JS, source links, disclosure, scaling and JSON passed.');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exit(1);});

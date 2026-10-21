@@ -25,6 +25,7 @@ jobs:
           node tests/depth20-browser.cjs
           node tests/depth50-browser.cjs
           node tests/depth100-browser.cjs
+          node tests/depth150-browser.cjs
           node tests/deep-dive-mix-browser.cjs
           node tests/assistant-browser.cjs
           node tests/knowledge-browser.cjs

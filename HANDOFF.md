@@ -1,6 +1,52 @@
 # Geopolymer — current handoff
 
-## Active owner task — mix designs for all 212 deep dives (21 October 2026)
+## Third fifty-paper summary/deep-dive expansion — 21 October 2026
+- Latest owner request: add 50 more detailed summaries and 50 more deep dives,
+  then push to main. Baseline main: 5b4969bd1be506a21d80927805dedf29c70a00ab.
+- Exactly 50 pairs added from existing, previously uncovered library papers.
+  Totals: 1,000 publications / 261 detailed previews / 262 partial editorial guides.
+  One older guide is recipe-only. All previous 211 preview and 212 guide records
+  are identical by SHA-256 checks; all publication identities and canonical pilot/
+  recipe data hashes are preserved. See depth150-baseline-2026-10-21.json.
+- New previews have three labeled paragraphs (116–138 words), key takeaways,
+  limitations, intended readers, original/deep-dive links and three fact locators.
+  They render in library disclosures, study pages, filters/search and JSON export.
+- Ten five-paper audits, depth150-01 through depth150-10, record 113 exact search
+  queries, 8–14 per batch, under the 40-operation cap. No direct source-page opens.
+  Evidence is selected indexed primary text, including primary summary accounts;
+  no complete article/figure/supplement inventory, comprehensive status clearance,
+  visual/human/domain review or independent replication is claimed. Exact source
+  licenses remain unassessed for these editorial notes. No raw papers, abstracts,
+  full source tables or figures retained/reproduced; OpenAlex not used.
+- Preserve source-specific distinctions: slag strength versus shrinkage; test-matrix
+  versus optimized strength; water-rich waste-form acceptance criteria; acid versus
+  alkaline activation; coir compression versus flexural dose; hybrid cement matrix;
+  32-week flax conditioning ambiguity; sound insulation versus absorption; steel
+  slag abbreviation SS; grid adhesion versus pull-off; exposure/cure/test ages.
+- Two guides automatically join prior curated formulations by exact DOI (silica
+  fume and printing). No best variant is fabricated when a guide has no reviewed
+  selection. Shared UI now states that curated source formulations are linked.
+  All 262 guides retain their mix-design sections. Recipe extraction remains a
+  separate unfinished task; current statuses: eight source-mix-with-gaps, ten
+  partial-source-design, 241 source-review-needed, one source-hold and two without
+  independent physical batches. Counts remain 48 recipes / 36 proportional scalers;
+  five partial studies / 62 mixes / 275 observations. No new recipe or canonical
+  numerical observation added in this summary/deep-dive batch.
+- All 137 Node tests, schema and 1,287-route build pass. All 100 affected study/
+  guide routes pass in desktop/mobile with JS and no JS. Library checks pass all
+  261 summaries, filters/search, disclosures, source/deep-dive links and export.
+  Existing research navigation and 21 linked/held/model mix-design guide states
+  pass in four contexts. Final desktop/mobile screenshots inspected. The new
+  browser suite is included in CI; unchanged unrelated feature suites were not
+  exhaustively re-swept. Main publication is authorized; remote CI/live deployment
+  verification remains separate.
+- Existing daily automation and one-time mix-design continuation schedule retained.
+  Its historical numeric prompt is superseded by this handoff's counts; continue
+  the unfinished source-extraction queue after the completed fifty-pair batch.
+  Remote CI/live deployment unverified. Standing owner authorization covers push.
+
+
+## Active owner task — mix designs for all 262 deep dives (21 October 2026)
 - Previous fifty-pair batch is complete and pushed: main e7e9748bb3d1d88d02351c3be56933d4dcc362cc.
 - NEW task is in progress, not complete. Owner requests source-backed mix designs,
   reproduction procedures and goal-specific best-result explanations for ALL guides.
@@ -10,9 +56,10 @@
 - Five new catalog records: PW/TW/SW water-source conditions, C4M1 carbonate slag,
   FA10.49 MK/ash reference. Total 48 recipes / 36 scalable (scalable = proportions,
   not complete procedures). Canonical pilot unchanged (5 studies/62 mixes/275 cells).
-- Source work covers 16 guides: six linked to recipes with gaps, ten partial designs,
-  193 pending full recipe extraction, one correction hold, two no-independent-mix
-  studies. No protocol is marked complete. Next review must continue the 193 queue. The five-source next-pass scout
+- Dedicated source work covered 16 guides; the new summary batch adds two exact-DOI
+  recipe links. Eight guides now link recipes with gaps, ten have partial designs,
+  241 need full recipe extraction, one has a correction hold and two have no
+  independent batch. No protocol is complete. Continue the 241-record queue. The five-source next-pass scout
   is research/batches/mix-design-scout-04-2026-10-21.json (20 requests). It
   records unresolved ledgers and two browser-challenged primary URLs; no recipes
   or completed extractions claimed from that scan.

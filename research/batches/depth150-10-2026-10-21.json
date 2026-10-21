@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "depth150-10-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 11,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/jcs4020045\" freeze thaw leach results",
+    "\"10.3390/min13040475\" polymer shrinkage results",
+    "\"10.3390/ma16103871\" weak alkaline results",
+    "\"10.3390/coatings13101731\" thickness adhesion results",
+    "\"10.3390/coatings12111695\" aluminum coating results",
+    "\"Properties of Alkali-Activated Slag Cement Activated by Weakly\" \"results\"",
+    "\"Thickness, Adhesion and Microscopic Analysis\" \"conclusions\"",
+    "\"Research on Reducing Shrinkage Behavior\" \"best\"",
+    "\"Research on Reducing Shrinkage Behavior of Ground Granulated\" \"conclusions\"",
+    "\"Thickness, Adhesion and Microscopic Analysis\" \"cracks\" \"layers\"",
+    "\"Manufacture and Characterization of Geopolymer Coatings\" \"adhesion\" \"M\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/jcs4020045",
+      "publicationId": "ke-b14-013",
+      "deepDiveId": "potassium-concrete-freeze-leach",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2504-477X/4/2/45"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Freeze–thaw Procedure A; water-sampling methods",
+          "source": "https://www.mdpi.com/2504-477X/4/2/45"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract; 300-cycle modulus and mass comparison",
+          "source": "https://www.mdpi.com/2504-477X/4/2/45"
+        }
+      ],
+      "limitations": [
+        "Retrieve saturation, cure, cycle temperatures, aggregate and element-specific release before qualifying an application.",
+        "Small mass loss does not mean no internal damage or universal leach compliance; K activation is not a guarantee of chemical containment.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/min13040475",
+      "publicationId": "ke-b14-014",
+      "deepDiveId": "polymer-slag-shrinkage-dose",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2075-163X/13/4/475"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental additive design; deformation and cracking methods",
+          "source": "https://www.mdpi.com/2075-163X/13/4/475"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Discussion / high-dose voids and shrinkage response",
+          "source": "https://www.mdpi.com/2075-163X/13/4/475"
+        }
+      ],
+      "limitations": [
+        "Retrieve dose denominator, polymer grade, preconditioning, solution water and shrinkage reference time before forming a batch.",
+        "Sodium tetraborate is not a polymer; proposed internal-curing mechanisms and measured shrinkage need to remain distinguishable.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma16103871",
+      "publicationId": "ke-b14-018",
+      "deepDiveId": "weak-alkali-slag-setting-factor",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/16/10/3871"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract; composite-activator experimental scope",
+          "source": "https://www.mdpi.com/1996-1944/16/10/3871"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract and conclusions / setting-time factor",
+          "source": "https://www.mdpi.com/1996-1944/16/10/3871"
+        }
+      ],
+      "limitations": [
+        "Retrieve individual activator quantities, alkali-equivalent definition, water and matched-age strength before reproducing the selection.",
+        "The label weakly alkaline does not specify the pH of the combined system, and modeled cost/energy comparisons require their own boundary checks.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/coatings13101731",
+      "publicationId": "ke-b15-001",
+      "deepDiveId": "multilayer-coating-cure-sequence",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2079-6412/13/10/1731"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract; grid-test and microscopy methods",
+          "source": "https://www.mdpi.com/2079-6412/13/10/1731"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Surface comparison discussion; conclusions",
+          "source": "https://www.mdpi.com/2079-6412/13/10/1731"
+        }
+      ],
+      "limitations": [
+        "Retrieve acid-modified suspension composition, per-layer thickness, substrate preparation and curing schedule before application.",
+        "These phosphate-modified suspensions are not an interchangeable alkaline paste; a grid classification is not a pull-off strength in MPa.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/coatings12111695",
+      "publicationId": "ke-b15-004",
+      "deepDiveId": "aluminum-suspension-grid-cracking",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2079-6412/12/11/1695"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "§4.3 / grid adhesion; thermal/microscopic methods",
+          "source": "https://www.mdpi.com/2079-6412/12/11/1695"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results / grid ratings and 400 °C cracking",
+          "source": "https://www.mdpi.com/2079-6412/12/11/1695"
+        }
+      ],
+      "limitations": [
+        "Retrieve suspension chemistry, thickness, alloy preparation, thermal history and standard version before reproducing a coating.",
+        "Grid ratings are categorical, not MPa. Retained adhesion does not establish an intact corrosion barrier or unchanged thermal-protection function.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

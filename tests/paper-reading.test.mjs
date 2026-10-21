@@ -10,7 +10,7 @@ import {validateReadingPreviews} from '../src/paper-reading-core.js';
 import {researchDatabase} from '../src/research-feeds.js';
 import {renderPage} from '../src/app.js';
 test('every catalog-backed guide has a three-paragraph reading preview and both reading links',()=>{
- assert.equal(library.length,1000);assert.equal(deepDives.length,212);assert.equal(paperReadingPreviews.length,211);
+ assert.equal(library.length,1000);assert.equal(deepDives.length,262);assert.equal(paperReadingPreviews.length,261);
  assert.equal(validateReadingPreviews(paperReadingPreviews,library,deepDives),true);
  const baseline=JSON.parse(fs.readFileSync(new URL('../research/batches/reading-previews-2026-10-20-baseline.json',import.meta.url)));
  assert.equal(baseline.length,73);for(const p of baseline)assert.equal(readingPreviewFor(p.doi).deepDiveId,p.id);
@@ -19,8 +19,8 @@ test('every catalog-backed guide has a three-paragraph reading preview and both 
   const card=libraryResults([p]);for(const text of ['Read paper summary','Key takeaways','Limitations','Who would benefit','Read original article'])assert.ok(card.includes(text));
   assert.ok(card.includes(preview.links.deepDive));assert.ok(renderPage('/studies/'+p.id).html.includes('Paper summary'));
  }
- assert.equal(filterLibrary('','all','all','all','reading').length,211);assert.equal(filterLibrary('','all','all','all','deep-dives').length,211);assert.equal(filterLibrary('','all','all','all','summaries').length,22);
- assert.equal(researchDatabase().records.filter(p=>p.readingPreview).length,211);
+ assert.equal(filterLibrary('','all','all','all','reading').length,261);assert.equal(filterLibrary('','all','all','all','deep-dives').length,261);assert.equal(filterLibrary('','all','all','all','summaries').length,22);
+ assert.equal(researchDatabase().records.filter(p=>p.readingPreview).length,261);
  const plain=library.find(p=>!readingPreviewFor(p.doi));assert.equal(renderReadingPreview(plain),'');
 });
 test('fifteen new guides stay in the existing catalog and preserve important negative/domain results',()=>{

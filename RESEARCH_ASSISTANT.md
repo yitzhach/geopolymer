@@ -1,5 +1,16 @@
 # Research assistant — working test feature
 
+## 21 October 2026 — third fifty-pair editorial expansion
+
+The library retains 1,000 references and now has 261 detailed reading previews
+and 262 partial guides. Fifty additions retain methods, findings, original links,
+limitations and reader guidance without creating canonical numeric evidence. All
+211 prior previews and 212 prior guides are frozen by record hashes. Ten bounded
+five-paper audits retain 113 exact primary-search queries. Source review remains
+partial AI/text review, not complete PDF, visual, human/domain or status clearance.
+See HANDOFF.md and depth150 audits for scientific boundaries and release checks.
+
+
 ## 21 October 2026 — another fifty editorial pairs
 
 Coverage is now 211 catalog-backed detailed previews and 212 partial guides with

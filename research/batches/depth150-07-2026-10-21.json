@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "id": "depth150-07-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 8,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/ma12091459\" nano silica flax durability results",
+    "\"10.3390/ma15031008\" foam permeability results",
+    "\"10.3390/ma13143215\" sound silica fume results",
+    "\"10.3390/ma13071750\" fireproofing results",
+    "\"10.3390/ma13132919\" hybrid foams results",
+    "\"K2O-Metakaolin-Based Geopolymer Foams\" \"permeability\" \"results\"",
+    "\"Fabrication and Fireproofing Performance\" \"results\" \"CFA\"",
+    "\"10.3390/ma12091459\" \"32 weeks\" curing"
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/ma12091459",
+      "publicationId": "ke-b11-019",
+      "deepDiveId": "nanosilica-flax-aging-loss",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/12/9/1459"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract; durability and flexural-test scope",
+          "source": "https://www.mdpi.com/1996-1944/12/9/1459"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions / 32-week source comparison",
+          "source": "https://www.mdpi.com/1996-1944/12/9/1459"
+        }
+      ],
+      "limitations": [
+        "Resolve the storage-versus-cycling wording, dose denominator, control age, test geometry and uncertainty before reproducing the exposure.",
+        "A densified-matrix interpretation does not prove every fiber is protected or establish a general service life.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma15031008",
+      "publicationId": "ke-b12-008",
+      "deepDiveId": "potassium-foam-connectivity-permeability",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/15/3/1008"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract; tube manufacturing and permeability methods",
+          "source": "https://www.mdpi.com/1996-1944/15/3/1008"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions / inert-filler pore structure and transport",
+          "source": "https://www.mdpi.com/1996-1944/15/3/1008"
+        }
+      ],
+      "limitations": [
+        "Retrieve foamer quantity, filler dose, viscosity, pressure model and closed/open porosity before selecting a tube formulation.",
+        "Total porosity, connected transport and insulation are different properties; fitted permeability is specific to gas and boundary conditions.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma13143215",
+      "publicationId": "ke-b12-009",
+      "deepDiveId": "silica-fume-foam-sound-activator",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/13/14/3215"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental scope; impedance-tube methods",
+          "source": "https://www.mdpi.com/1996-1944/13/14/3215"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract / activator-specific porosity and sound-insulation outcomes",
+          "source": "https://www.mdpi.com/1996-1944/13/14/3215"
+        }
+      ],
+      "limitations": [
+        "Retrieve silica-fume denominator, reference porosity, specimen thickness and frequency averaging before reproducing the comparison.",
+        "Do not combine the best porosity and sound value into one fictional mix or confuse transmission insulation with acoustic absorption.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma13071750",
+      "publicationId": "ke-b12-010",
+      "deepDiveId": "cfa-mk-foam-conductivity-fire",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/13/7/1750"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Fabrication and property-test program",
+          "source": "https://www.mdpi.com/1996-1944/13/7/1750"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results / Figure 4; post-fire characterization",
+          "source": "https://www.mdpi.com/1996-1944/13/7/1750"
+        }
+      ],
+      "limitations": [
+        "Retrieve CFA dose basis, density/moisture, conductivity temperature, full cure and fire-exposure geometry before interpreting equivalent protection.",
+        "A post-fire crystalline surface is not proof of intact structural capacity; thermal transport and residual mechanics need separate evidence.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma13132919",
+      "publicationId": "ke-b12-011",
+      "deepDiveId": "hybrid-fly-ash-foam-density-domain",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/13/13/2919"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Hybrid synthesis; mechanical/thermal and scale comparison",
+          "source": "https://www.mdpi.com/1996-1944/13/13/2919"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results / density-dependent compression and conductivity",
+          "source": "https://www.mdpi.com/1996-1944/13/13/2919"
+        }
+      ],
+      "limitations": [
+        "Retrieve organic-component identity, foamer dose, conditioning and scale-specific geometry before choosing a formulation.",
+        "Range endpoints are not one mix; a hybrid organic component also changes the relevant thermal and application boundaries.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}

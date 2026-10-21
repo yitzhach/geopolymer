@@ -8,12 +8,12 @@ import {renderPage} from '../src/app.js';
 const clone=x=>structuredClone(x);
 test('all guides expose source-specific recipe readiness, never a blanket complete protocol',()=>{
  assert.equal(validateMixDesigns(deepDiveMixDesigns,deepDives),true);
- assert.equal(deepDiveMixDesigns.length,212);
+ assert.equal(deepDiveMixDesigns.length,262);
  for(const d of deepDives){const p=mixDesignFor(d.id),html=renderPage('/deep-dives/'+d.id).html;
   assert.equal(p.protocolComplete,false);assert.match(html,/id="mix-design"/);assert.match(html,/href="#mix-design"/);assert.match(html,/What must be resolved before reproduction/);
   assert.ok(p.reportedConstraints.every(f=>f.source===d.source&&f.locator));
  }
- assert.equal(mixDesignExport().records.length,212);
+ assert.equal(mixDesignExport().records.length,262);
  assert.equal(mixDesignFor('not-a-guide'),null);
 });
 test('selection endpoints and examples preserve exact solution masses, age and scope',()=>{

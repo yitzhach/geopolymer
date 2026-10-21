@@ -14,7 +14,7 @@ test('twenty depth additions preserve previous papers, previews and guide identi
  assert.equal(baseline.previousPreviews.length,91);assert.equal(baseline.previousGuideIds.length,92);
  for(const p of baseline.previousPreviews)assert.equal(readingPreviewFor(p.doi).deepDiveId,p.deepDiveId);
  for(const id of baseline.previousGuideIds)assert.ok(deepDives.some(d=>d.id===id));
- assert.equal(paperReadingPreviews.length,211);assert.equal(deepDives.length,212);
+ assert.equal(paperReadingPreviews.length,261);assert.equal(deepDives.length,262);
  for(const d of depth20DeepDives){
   assert.ok(!baseline.previousGuideIds.includes(d.id));const p=readingPreviewFor(d.doi);assert.equal(p.deepDiveId,d.id);
   assert.equal(p.paragraphs.length,3);assert.ok(p.paragraphs.reduce((n,x)=>n+x.text.split(/\s+/).length,0)>=120);

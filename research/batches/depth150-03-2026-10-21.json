@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "depth150-03-2026-10-21",
+  "checked": "2026-10-21",
+  "bounds": {
+    "maximumPapers": 5,
+    "operationCap": 40
+  },
+  "reviewedSourcePapers": 5,
+  "operations": 14,
+  "operationDefinition": "Individual session web-search queries allocated to this five-paper batch; shared calls can include other batches. No direct page opens.",
+  "queries": [
+    "\"10.3390/app12115478\" coir results",
+    "\"10.3390/ma16227243\" zeolite efflorescence results",
+    "\"10.3390/app10165610\" biomass ash results",
+    "\"10.3390/ma18194434\" MgO biochar results",
+    "\"10.3390/jcs8110450\" jute results",
+    "\"Effect of Coir Fiber Reinforcement\" \"results\" \"strength\"",
+    "\"One-Part Alkali-Activated Pastes and Mortars Prepared\" \"results\"",
+    "\"Compressive Strength and CO2 Mineralization\" \"results\" biochar",
+    "\"Effect of Coir Fiber Reinforcement on Properties of Metakaolin-Based Geopolymer Composite\" \"flexural\"",
+    "\"One-Part Alkali-Activated Pastes and Mortars Prepared with Metakaolin and Biomass Ash\" \"strength\" \"low\"",
+    "\"Mechanical Properties of Natural Jute Fiber-Reinforced Geopolymer Concrete\" \"optimum\"",
+    "\"Microstructure and Efflorescence Resistance\" \"strength\" \"5A\"",
+    "\"Effect of Coir Fiber Reinforcement on Properties\" \"increased\" \"strength\"",
+    "\"Microstructure and Efflorescence Resistance\" \"Na+\" \"decreased\""
+  ],
+  "deferred": [],
+  "review": "Selected indexed primary passages, including primary abstract-level accounts. No complete PDF, visual, supplement, human/domain, full status or independent-dataset review claimed.",
+  "rights": {
+    "access": "Primary publisher/PMC passages through session web search; no access bypass.",
+    "processing": "Selected factual paraphrases and independent editorial guidance.",
+    "rawRetention": "No raw papers, abstracts, complete source tables or figures retained.",
+    "aiTransmission": "No separate external model service; analysis of session-exposed passages only.",
+    "embedding": "none",
+    "display": "Original selected factual notes and independent planning, not replacement papers or reconstructed source tables.",
+    "export": "Same permitted original editorial fields as displayed.",
+    "license": "Exact full-text license/version remains unassessed. No protected source expression or assets reproduced."
+  },
+  "newBibliographyRecords": 0,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "records": [
+    {
+      "doi": "10.3390/app12115478",
+      "publicationId": "ke-b05-019",
+      "deepDiveId": "coir-compression-flexure-different-doses",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2076-3417/12/11/5478"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Study scope and characterization methods",
+          "source": "https://www.mdpi.com/2076-3417/12/11/5478"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions / compressive and flexural dose comparisons",
+          "source": "https://www.mdpi.com/2076-3417/12/11/5478"
+        }
+      ],
+      "limitations": [
+        "Retrieve fiber mass denominator, pretreatment, test age and geometry before using either selected condition.",
+        "The cited coir/polymer strengths in the introduction are different materials; do not import them as this geopolymer’s results.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma16227243",
+      "publicationId": "ke-b06-013",
+      "deepDiveId": "zeolite-efflorescence-ion-exchange",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/16/22/7243"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental characterization; efflorescence imaging",
+          "source": "https://www.mdpi.com/1996-1944/16/22/7243"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract; leachate/efflorescence comparison",
+          "source": "https://www.mdpi.com/1996-1944/16/22/7243"
+        }
+      ],
+      "limitations": [
+        "Retrieve zeolite thermal modification, dose denominator, reference sample and wetting/exposure schedule before reproducing the result.",
+        "Cation exchange is the authors’ interpretation; lower surface deposits do not by themselves establish lower bulk damage or reinforced-service performance.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/app10165610",
+      "publicationId": "ke-b06-014",
+      "deepDiveId": "biomass-ash-one-part-source-transfer",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2076-3417/10/16/5610"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Formulation labels; dissolution and reference methods",
+          "source": "https://www.mdpi.com/2076-3417/10/16/5610"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Results and conclusions / mortar strength and ash heating",
+          "source": "https://www.mdpi.com/2076-3417/10/16/5610"
+        }
+      ],
+      "limitations": [
+        "Retrieve ash chemistry, heating schedule, complete solid/solution ledger and result ages before calculating a batch.",
+        "Biomass ash supplies source-specific alkali and phases; it is not interchangeable with biochar or another ash source.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/ma18194434",
+      "publicationId": "ke-b07-001",
+      "deepDiveId": "copper-slag-biochar-carbon-capture",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/1996-1944/18/19/4434"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Abstract / formulation and measurement scope",
+          "source": "https://www.mdpi.com/1996-1944/18/19/4434"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Abstract; MgO reference comparison and biochar response",
+          "source": "https://www.mdpi.com/1996-1944/18/19/4434"
+        }
+      ],
+      "limitations": [
+        "Retrieve percentage denominators, exact early test age, carbon-accounting boundary and matched reference before recipe selection.",
+        "Mineralized CO₂ is not a full net-negative lifecycle result; char feedstocks and capture/retention measurements must remain distinguishable.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    },
+    {
+      "doi": "10.3390/jcs8110450",
+      "publicationId": "ke-b07-014",
+      "deepDiveId": "jute-length-volume-fracture-selection",
+      "provenance": [
+        {
+          "guideFactIndex": 0,
+          "title": "Material and research scope",
+          "locator": "Indexed primary study objective",
+          "source": "https://www.mdpi.com/2504-477X/8/11/450"
+        },
+        {
+          "guideFactIndex": 1,
+          "title": "Preparation and measurement",
+          "locator": "Experimental scope; control and specimen comparisons",
+          "source": "https://www.mdpi.com/2504-477X/8/11/450"
+        },
+        {
+          "guideFactIndex": 2,
+          "title": "Selected outcome and boundary",
+          "locator": "Conclusions / selected length and volume fraction",
+          "source": "https://www.mdpi.com/2504-477X/8/11/450"
+        }
+      ],
+      "limitations": [
+        "Retrieve fracture-test mode, exact ages, activator system, fiber preparation and specimen geometry before transferring the selection.",
+        "Aggressive-exposure durability, shrinkage and thermal/acoustic performance were identified as future work rather than measured benefits of this condition.",
+        "Selected primary passages only: complete outcome inventories, figures, supplements, sample uncertainty and source-status checks remain incomplete."
+      ]
+    }
+  ]
+}
