@@ -1,0 +1,137 @@
+{
+  "id": "depth200-02",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "library-12",
+      "doi": "10.3390/su17020468",
+      "deepDiveId": "acid-wastewater-mortar-comparison",
+      "source": "https://doi.org/10.3390/su17020468",
+      "locator": "§§2.1–2.4; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Exact waterglass grade/assay and all free-water contributions need confirmation.",
+        "Matched exposure conditioning, loading and independent-batch details incomplete."
+      ]
+    },
+    {
+      "publicationId": "library-13",
+      "doi": "10.3390/ma18163864",
+      "deepDiveId": "eogo-metakaolin-dose-dispersion",
+      "source": "https://doi.org/10.3390/ma18163864",
+      "locator": "§§2.1–2.3; Table 3; selected results",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full additive/stock-solution masses, dose denominator and water fractions unresolved.",
+        "Condition-specific strength, loading rate and uncertainty still need extraction."
+      ]
+    },
+    {
+      "publicationId": "library-14",
+      "doi": "10.3390/jne6030034",
+      "deepDiveId": "metakaolin-lot-thermal-reproducibility",
+      "source": "https://doi.org/10.3390/jne6030034",
+      "locator": "§2 methods; §6 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full source masses, specimen/test ages and thermal boundary conditions unresolved.",
+        "Reported BET unit convention and tracer percentage need reconciliation before reuse."
+      ]
+    },
+    {
+      "publicationId": "library-15",
+      "doi": "10.3390/buildings15101650",
+      "deepDiveId": "cement-mk-shrinkage-compromise",
+      "source": "https://doi.org/10.3390/buildings15101650",
+      "locator": "§§2.1–2.3; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full condition ledger, activator concentration basis and numerical shrinkage clocks need reconciliation.",
+        "No carbon advantage or isolated gel mechanism inferred."
+      ]
+    },
+    {
+      "publicationId": "library-23",
+      "doi": "10.3390/polym17172358",
+      "deepDiveId": "phosphate-al-p-series-ledger",
+      "source": "https://doi.org/10.3390/polym17172358",
+      "locator": "§§2.1–2.3; Table 3; results",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Confirm acid table entries are as-supplied 85% stock before scaling; no pure-acid conversion.",
+        "Mix settings, loading rate and full numerical outcome map remain incomplete."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "index": 5,
+      "batch": 2,
+      "kind": "search",
+      "query": "\"Degradation Potential of Metakaolin-Based Geopolymer Composites Immersed in Real and Simulated Acidic Environments\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 6,
+      "batch": 2,
+      "kind": "search",
+      "query": "\"Effects of EOGO in Metakaolin-Based Geopolymer\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 7,
+      "batch": 2,
+      "kind": "search",
+      "query": "\"Characterization and Selection of Metakaolin for Reproducible Geopolymer Matrices: A Thermal Evolution Approach\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 8,
+      "batch": 2,
+      "kind": "search",
+      "query": "\"Improving Drying Shrinkage Performance of Metakaolin-Based Geopolymers by Adding Cement\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 9,
+      "batch": 2,
+      "kind": "search",
+      "query": "\"Structural Study of Metakaolin-Phosphate Geopolymers Prepared with Wide Range of Al/P Molar Ratios\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 6,
+      "batch": 2,
+      "kind": "search",
+      "query": "\"Effects of EOGO in Metakaolin-Based Geopolymer\" \"Conclusions\" \"0.1\""
+    },
+    {
+      "index": 5,
+      "batch": 2,
+      "kind": "search",
+      "query": "\"Degradation Potential of Metakaolin-Based Geopolymer Composites Immersed in Real and Simulated Acidic Environments\" \"Creative Commons\" \"4.0\""
+    }
+  ],
+  "operationCount": 7,
+  "deferred": [],
+  "newBibliographyRecords": 0,
+  "newRecipes": 1,
+  "newCanonicalObservations": 0,
+  "rawSourceRetained": false,
+  "rights": "Original selected factual notes and independent editorial guidance only; exact full-text version/license not newly cleared. No raw articles, abstracts, whole tables, figures or supplements retained. Primary publisher ©2025 author CC BY 4.0 notice observed for 10.3390/su17020468; one closed as-supplied ledger integrated into existing recipe catalog, still partial protocol.",
+  "reviewer": "AI selected indexed primary text; no full PDF/visual, human/domain, comprehensive status or independent replication review",
+  "openAlex": "On hold; unused",
+  "recipeIds": [
+    "acid-wastewater-mk-control"
+  ]
+}

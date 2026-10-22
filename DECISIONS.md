@@ -1,5 +1,15 @@
 # Geopolymer Platform — Decisions
 
+## 21 October 2026 — one source-linked dataset for summaries and guides
+
+Apply SUMMARY_DEEP_DIVE_STANDARD.md to future additions. Detailed summaries and
+guides share the eight-field mix-data contract and exact-DOI recipe catalog.
+Keep original paragraphs and old scientific records immutable; add reviewed
+dataset context alongside them. Every unknown has a visible state/reason.
+One closed as-supplied ledger may scale while its full protocol stays partial.
+Analytical syntheses, proprietary formulas, source conflicts and failed results
+must not acquire fabricated recipes or silently disappear from comparisons.
+
 ## 21 October 2026 — preserve the existing corpus while adding reading depth
 
 Add summary/guide pairs to existing DOI identities without adding duplicate

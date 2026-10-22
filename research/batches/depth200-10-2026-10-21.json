@@ -1,0 +1,155 @@
+{
+  "id": "depth200-10",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "ke-b16-021",
+      "doi": "10.3390/ma15124085",
+      "deepDiveId": "pas-prefoam-volume-thermal",
+      "source": "https://doi.org/10.3390/ma15124085",
+      "locator": "§§2.1–2.4 / Table 2; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Base mass ledger, foam density, test age chronology and condition mapping unresolved.",
+        "Do not use PAS characterization as a supplier specification or infer gram doses from foam volume."
+      ]
+    },
+    {
+      "publicationId": "ke-b16-022",
+      "doi": "10.3390/polym15153254",
+      "deepDiveId": "aerogel-resin-peroxide-insulation",
+      "source": "https://doi.org/10.3390/polym15153254",
+      "locator": "§2.1; Table 3; §§3.3–4",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Complete precursor/stock masses, modifier basis, cure and replicate protocols unresolved.",
+        "Do not assign the optimized sample's conductivity to every orthogonal-array mixture."
+      ]
+    },
+    {
+      "publicationId": "ke-b16-023",
+      "doi": "10.3390/polym13213621",
+      "deepDiveId": "leucite-ceramic-processing-chain",
+      "source": "https://doi.org/10.3390/polym13213621",
+      "locator": "§§2.1–2.2; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full hydroxide/silicate masses, ratio meaning and firing condition mapping unresolved.",
+        "Preserve stock-assay notation and don't infer water from a modulus label."
+      ]
+    },
+    {
+      "publicationId": "ke-b17-001",
+      "doi": "10.3390/su17156898",
+      "deepDiveId": "wood-mineral-foam-hybrid-insulation",
+      "source": "https://doi.org/10.3390/su17156898",
+      "locator": "§§2.1–2.2; §6 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full recipe, wood moisture, stock/free-water ledger and testing ages unresolved.",
+        "No embodied-carbon claim inferred from local sourcing or low conductivity."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "index": 45,
+      "batch": 10,
+      "kind": "search",
+      "query": "\"Preparation of Fly Ash-Ladle Furnace Slag Blended Geopolymer Foam via Pre-Foaming Method with Polyoxyethylene Alkyether Sulphate Incorporation\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 46,
+      "batch": 10,
+      "kind": "search",
+      "query": "\"On Thermal Insulation Properties of Various Foaming Materials Modified Fly Ash Based Geopolymers\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 47,
+      "batch": 10,
+      "kind": "search",
+      "query": "\"Using Geopolymer Technology on Synthesizing Leucite Ceramics\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 48,
+      "batch": 10,
+      "kind": "search",
+      "query": "\"Thermally Aerated Geopolymers as Lightweight Construction Material\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 49,
+      "batch": 10,
+      "kind": "search",
+      "query": "\"Low-Carbon Insulating Geopolymer Binders: Thermal Properties\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 46,
+      "batch": 10,
+      "kind": "search",
+      "query": "\"10.3390/polym15153254\" \"2.2.\" \"resin\""
+    },
+    {
+      "index": 47,
+      "batch": 10,
+      "kind": "search",
+      "query": "\"10.3390/polym13213621\" \"Conclusions\""
+    },
+    {
+      "index": 48,
+      "batch": 10,
+      "kind": "search",
+      "query": "\"10.3390/app10196697\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 46,
+      "batch": 10,
+      "kind": "search",
+      "query": "\"On Thermal Insulation Properties of Various Foaming Materials Modified Fly Ash Based Geopolymers\" \"Sample\" \"preparation\""
+    },
+    {
+      "index": 46,
+      "batch": 10,
+      "kind": "search",
+      "query": "\"On Thermal Insulation Properties of Various Foaming Materials Modified Fly Ash Based Geopolymers\" \"Table 2\""
+    },
+    {
+      "index": 46,
+      "batch": 10,
+      "kind": "search",
+      "query": "\"On Thermal Insulation Properties of Various Foaming Materials Modified Fly Ash Based Geopolymers\" \"Table 3\""
+    }
+  ],
+  "operationCount": 11,
+  "deferred": [
+    {
+      "index": 48,
+      "paper": {
+        "id": "ke-b16-024",
+        "title": "Thermally Aerated Geopolymers as Lightweight Construction Material",
+        "doi": "10.3390/app10196697",
+        "year": 2020,
+        "journal": "Applied Sciences"
+      },
+      "reason": "Two searches returned no usable primary text; no guide inferred from title."
+    }
+  ],
+  "newBibliographyRecords": 0,
+  "newRecipes": 0,
+  "newCanonicalObservations": 0,
+  "rawSourceRetained": false,
+  "rights": "Original selected factual notes and independent editorial guidance only; exact full-text version/license not newly cleared. No raw articles, abstracts, whole tables, figures or supplements retained.",
+  "reviewer": "AI selected indexed primary text; no full PDF/visual, human/domain, comprehensive status or independent replication review",
+  "openAlex": "On hold; unused"
+}

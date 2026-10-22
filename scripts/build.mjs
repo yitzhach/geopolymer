@@ -1,4 +1,4 @@
-import {deepDiveMixDesigns,validateMixDesigns,mixDesignExport} from '../src/deep-dive-mix-designs.js';
+import {deepDiveMixDesigns,validateMixDesigns,mixDesignExport,mixDesignFor} from '../src/deep-dive-mix-designs.js';
 import {paperReadingPreviews} from '../src/paper-reading-previews.js';
 import {validateReadingPreviews} from '../src/paper-reading-core.js';
 import {library} from '../src/research-library.js';
@@ -107,6 +107,6 @@ try { commit = execFileSync('git', ['rev-parse', 'HEAD'], { encoding: 'utf8' }).
 await writeFile('dist/build-info.json', JSON.stringify({ commit, builtAt: new Date().toISOString(), routes: routes.length, foundation: 1 }) + '\n');
 console.log(`Pre-rendered ${routes.length} routes, 404, metadata and crawl files in dist/`);
 
-await writeFile('dist/deep-dives.json',JSON.stringify({format:'geopolymer-deep-dives-v1',notice:'Editorial analysis: reported facts, conditional arithmetic and proposed experiments are separate. Partial AI review; not verified numerical evidence.',articles:deepDives},null,2)+'\n');
+await writeFile('dist/deep-dives.json',JSON.stringify({format:'geopolymer-deep-dives-v1',notice:'Editorial analysis: reported facts, conditional arithmetic and proposed experiments are separate. Partial AI review; not verified numerical evidence.',articles:deepDives.map(d=>({...d,mixData:mixDesignFor(d.id).dataSet}))},null,2)+'\n');
 
 await writeFile('dist/deep-dive-mix-designs.json',JSON.stringify(mixDesignExport(),null,2)+'\n');

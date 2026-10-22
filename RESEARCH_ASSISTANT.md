@@ -1,5 +1,16 @@
 # Research assistant — working test feature
 
+## 21 October 2026 — shared mix data and another fifty guides
+
+Coverage is 1000 publications / 311 detailed summaries / 312 partial guides.
+All share source-linked mix-data fields and searchable ingredient/method context.
+This does not promote editorial notes or model outputs into canonical assistant
+measurements. Prior 262 guide and 261 preview records remain identical. Catalog
+49/37 scalers; one added stock-mass ledger has explicit missing assays/protocol.
+Canonical pilots remain 5/62/275; source/correction holds stay active. Follow
+SUMMARY_DEEP_DIVE_STANDARD.md for future editorial work and HANDOFF.md for QA,
+release and the unfinished extraction queue. Daily automation is unchanged.
+
 ## 21 October 2026 — third fifty-pair editorial expansion
 
 The library retains 1,000 references and now has 261 detailed reading previews

@@ -1,0 +1,122 @@
+{
+  "id": "depth200-05",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "research-pumice-thermal",
+      "doi": "10.3390/ma19183819",
+      "deepDiveId": "pumice-volume-replacement-thermal",
+      "source": "https://doi.org/10.3390/ma19183819",
+      "locator": "§§2.1–2.4 / Table 3; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full condition masses, absorbed water and activator split unresolved.",
+        "Silicate assay and stated molar modulus need reconciliation; no field fire rating."
+      ]
+    },
+    {
+      "publicationId": "research-cao-onepart",
+      "doi": "10.3390/molecules31173132",
+      "deepDiveId": "cao-onepart-negative-control",
+      "source": "https://doi.org/10.3390/molecules31173132",
+      "locator": "§2.1 results; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full recipe, CaO basis, cure and specimen method need extraction.",
+        "Retain strength conflict and avoid treating oxide addition as a universal benefit."
+      ]
+    },
+    {
+      "publicationId": "ke-b14-016",
+      "doi": "10.3390/ma18204766",
+      "deepDiveId": "lithium-slag-shrinkage-model-hold",
+      "source": "https://doi.org/10.3390/ma18204766",
+      "locator": "§§2.1–2.2 / Tables 2–3; §5 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Reconcile water accounting, activator assay/target and contradictory percentage comparison.",
+        "No numerical shrinkage optimum or fully scalable mortar inferred."
+      ]
+    },
+    {
+      "publicationId": "ke-b14-019",
+      "doi": "10.3390/buildings13030675",
+      "deepDiveId": "salt-gypsum-slag-concrete",
+      "source": "https://doi.org/10.3390/buildings13030675",
+      "locator": "§2.2 / Table 3; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Complete named-condition activator balance, cure and test methods unresolved.",
+        "Separate source baseline from the reported 4% NaCl/10% gypsum strength condition."
+      ]
+    },
+    {
+      "publicationId": "ke-b14-020",
+      "doi": "10.3390/ma18173987",
+      "deepDiveId": "nitrite-cold-mortar-ratio-conflict",
+      "source": "https://doi.org/10.3390/ma18173987",
+      "locator": "§§2.1–2.2 / Table 2; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Resolve ratio, liquid/binder wording and NaOH solution identity before scaling.",
+        "Oxide-equivalent pellet chemistry must not become stock-solution water content."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "index": 20,
+      "batch": 5,
+      "kind": "search",
+      "query": "\"High-Temperature Performance of Metakaolin-Based Geopolymer Recycled Mortar with Pumice Powder\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 21,
+      "batch": 5,
+      "kind": "search",
+      "query": "\"Effect of Calcium Oxide on the Mechanical and Structural Properties of Metakaolin-Based One-Part Geopolymer\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 22,
+      "batch": 5,
+      "kind": "search",
+      "query": "\"Research on Shrinkage in Lithium Slag Geopolymer Mortar: Effects of Mix Proportions and a Shrinkage Prediction Model\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 23,
+      "batch": 5,
+      "kind": "search",
+      "query": "\"Compound Effects of Sodium Chloride and Gypsum on the Compressive Strength and Sulfate Resistance of Slag-Based Geopolymer Concrete\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 24,
+      "batch": 5,
+      "kind": "search",
+      "query": "\"Mitigating Strength Loss in Geopolymers in Low-Temperature Environments by Sodium Nitrite Addition\" \"Materials\" \"Methods\""
+    }
+  ],
+  "operationCount": 5,
+  "deferred": [],
+  "newBibliographyRecords": 0,
+  "newRecipes": 0,
+  "newCanonicalObservations": 0,
+  "rawSourceRetained": false,
+  "rights": "Original selected factual notes and independent editorial guidance only; exact full-text version/license not newly cleared. No raw articles, abstracts, whole tables, figures or supplements retained.",
+  "reviewer": "AI selected indexed primary text; no full PDF/visual, human/domain, comprehensive status or independent replication review",
+  "openAlex": "On hold; unused"
+}

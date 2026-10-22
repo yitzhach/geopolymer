@@ -1,0 +1,140 @@
+{
+  "id": "depth200-09",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "ke-b16-015",
+      "doi": "10.3390/cryst12030386",
+      "deepDiveId": "multifunctional-foam-stabilizer-bases",
+      "source": "https://doi.org/10.3390/cryst12030386",
+      "locator": "§2.2; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full matrix mass ledger, stage-specific S:F mapping and thermal endpoints unresolved.",
+        "No unsupported best recipe assembled from separate experimental stages."
+      ]
+    },
+    {
+      "publicationId": "ke-b16-016",
+      "doi": "10.3390/buildings15101723",
+      "deepDiveId": "recycled-concrete-hybrid-fiber-map",
+      "source": "https://doi.org/10.3390/buildings15101723",
+      "locator": "§§2.1–2.2 / Table 4; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full solution/water/SP masses, aggregate replacement basis and test ages unresolved.",
+        "Reconcile source NaOH physical-form/concentration wording before recipe transfer."
+      ]
+    },
+    {
+      "publicationId": "ke-b16-017",
+      "doi": "10.3390/ma18204811",
+      "deepDiveId": "electrical-cure-voltage-specimen",
+      "source": "https://doi.org/10.3390/ma18204811",
+      "locator": "§§2.1–2.2 / Table 3; electrical-cure screening",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full masses, fiber dose and voltage/current/temperature-time histories unresolved.",
+        "Do not infer energy savings, electric field or a strength optimum from voltage alone."
+      ]
+    },
+    {
+      "publicationId": "ke-b16-019",
+      "doi": "10.3390/polym17081072",
+      "deepDiveId": "sediment-fiber-tension-compression",
+      "source": "https://doi.org/10.3390/polym17081072",
+      "locator": "§§2.1–2.2 / Table 4; fiber discussion",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full ratio units, fiber denominator, sand/sediment identity and ages unresolved.",
+        "No grams inferred by equating unlike fiber densities or % labels."
+      ]
+    },
+    {
+      "publicationId": "ke-b16-020",
+      "doi": "10.3390/buildings16081520",
+      "deepDiveId": "geopolymer-aggregate-cement-ecc",
+      "source": "https://doi.org/10.3390/buildings16081520",
+      "locator": "§§2.1.1–2.1.5; §5 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full aggregate water and ECC matrix quantities, cure and test ages unresolved.",
+        "Carbon/cost indices are modeled assessments, not measured environmental savings."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "index": 40,
+      "batch": 9,
+      "kind": "search",
+      "query": "\"Development of Geopolymer Foams for Multifunctional Applications\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 41,
+      "batch": 9,
+      "kind": "search",
+      "query": "\"Experimental Investigation on the Mechanical Properties of Geopolymer Recycled Aggregate Concrete Reinforced with Steel-Polypropylene Hybrid Fiber\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 42,
+      "batch": 9,
+      "kind": "search",
+      "query": "\"Electrical Curing of Metakaolin- and GBFS-Based Geopolymers: A Sustainable Technology Aligned with the European Green Deal\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 43,
+      "batch": 9,
+      "kind": "search",
+      "query": "\"Study on the Influence and Mechanism of Steel, Polyvinyl Alcohol, and Polyethylene Fibers on Slag–Yellow River Sediment Geopolymers\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 44,
+      "batch": 9,
+      "kind": "search",
+      "query": "\"Experimental Study on the Mechanical Properties of Steel-PE Hybrid Fiber Reinforced Engineering Cementitious Composites Containing Geopolymer Aggregates\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 43,
+      "batch": 9,
+      "kind": "search",
+      "query": "\"10.3390/polym17081072\" \"0.5\" \"Conclusions\""
+    },
+    {
+      "index": 43,
+      "batch": 9,
+      "kind": "search",
+      "query": "\"Study on the Influence and Mechanism of Steel, Polyvinyl Alcohol, and Polyethylene Fibers on Slag–Yellow River Sediment Geopolymers\" \"Conclusions\""
+    },
+    {
+      "index": 43,
+      "batch": 9,
+      "kind": "search",
+      "query": "\"Study on the Influence and Mechanism of Steel, Polyvinyl Alcohol, and Polyethylene Fibers on Slag–Yellow River Sediment Geopolymers\" \"Table 4\""
+    }
+  ],
+  "operationCount": 8,
+  "deferred": [],
+  "newBibliographyRecords": 0,
+  "newRecipes": 0,
+  "newCanonicalObservations": 0,
+  "rawSourceRetained": false,
+  "rights": "Original selected factual notes and independent editorial guidance only; exact full-text version/license not newly cleared. No raw articles, abstracts, whole tables, figures or supplements retained.",
+  "reviewer": "AI selected indexed primary text; no full PDF/visual, human/domain, comprehensive status or independent replication review",
+  "openAlex": "On hold; unused"
+}

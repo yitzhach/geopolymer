@@ -4,7 +4,7 @@ const hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
 const baseline=JSON.parse(fs.readFileSync(new URL('../research/batches/depth150-baseline-2026-10-21.json',import.meta.url)));
 test('third fifty-pair addition preserves every previous summary/guide and publication identity',()=>{
  assert.equal(library.length,1000);assert.equal(depth150DeepDives.length,50);assert.equal(new Set(depth150DeepDives.map(d=>d.doi)).size,50);
- assert.equal(paperReadingPreviews.length,261);assert.equal(deepDives.length,262);
+ assert.equal(paperReadingPreviews.length,311);assert.equal(deepDives.length,312);
  assert.equal(hash(library.map(p=>({id:p.id,doi:p.doi,title:p.title}))),baseline.publicationIdentityHash);
  assert.equal(baseline.previousPreviews.length,211);assert.equal(baseline.previousGuides.length,212);
  for(const p of baseline.previousPreviews)assert.equal(hash(readingPreviewFor(p.doi)),p.sha256,p.doi);
@@ -18,7 +18,7 @@ test('third fifty-pair addition preserves every previous summary/guide and publi
  }
  assert.equal(depth150DeepDives.filter(d=>mixDesignFor(d.id).recipeIds.length).length,2);
  for(const d of depth150DeepDives.filter(d=>mixDesignFor(d.id).recipeIds.length)){assert.equal(mixDesignFor(d.id).selection,null);assert.match(renderPage('/deep-dives/'+d.id).html,/Curated source formulations are linked above/);}
- assert.equal(hash(literatureMixes),baseline.recipeCatalogHash);assert.equal(hash(pilot),baseline.canonicalPilotHash);
+ assert.equal(hash(literatureMixes.filter(r=>r.id!=='acid-wastewater-mk-control')),baseline.recipeCatalogHash);assert.equal(hash(pilot),baseline.canonicalPilotHash);
 });
 test('new notes preserve age, control, chemistry and test-mode boundaries',()=>{
  const text=doi=>JSON.stringify(readingPreviewFor('10.3390/'+doi));
@@ -27,7 +27,7 @@ test('new notes preserve age, control, chemistry and test-mode boundaries',()=>{
  assert.match(text('app12115478'),/0.5 wt%.*1.0 wt%/);assert.match(text('app112110443'),/cement-containing hybrid/);
  assert.match(text('ma12091459'),/ambient storage and wet\/dry cycling/);assert.match(text('ma13143215'),/different conditions/);assert.match(text('ma13143215'),/insulation with acoustic absorption/);
  assert.match(text('buildings14030592'),/SS means steel slag here, not sodium silicate/);assert.match(text('coatings13101731'),/phosphate-modified suspensions/);assert.match(text('coatings12111695'),/Grid ratings are categorical/);
- assert.equal(literatureMixes.length,48);assert.equal(pilot.studies.length,5);assert.equal(pilot.mixes.length,62);assert.equal(pilot.observations.length,275);
+ assert.equal(literatureMixes.length,49);assert.equal(pilot.studies.length,5);assert.equal(pilot.mixes.length,62);assert.equal(pilot.observations.length,275);
 });
 test('ten bounded source-review batches account for exactly fifty added pairs',()=>{
  const seen=new Set();let count=0;

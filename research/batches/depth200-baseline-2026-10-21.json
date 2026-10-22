@@ -1,0 +1,2364 @@
+{
+  "baseline": "7ed23d77a3a6af881760660e805e2d440471ad36",
+  "publicationIdentityHash": "0d8e5583a6e5110c651b54384ca64440df88d162adfe3be16457d04d4ca14c1c",
+  "previousGuides": [
+    {
+      "id": "ggbs-taguchi-mortar",
+      "doi": "10.1080/13287982.2024.2375468",
+      "sha256": "3af9176ec8617efb49b81d5f3b02ef83183e00190faae5fb16affd422a5ff3ba"
+    },
+    {
+      "id": "biochar-replacement-and-exposure",
+      "doi": "10.3390/ma18030486",
+      "sha256": "4bf9fadd30a212dad3c67b3806e405be5697822097b6a9fd3bd3ea9a3a8603e0"
+    },
+    {
+      "id": "basalt-fiber-carbon-textile",
+      "doi": "10.3390/polym13050751",
+      "sha256": "11442c5caf71699996be3c65be3193a9b07a27128912c9638d0587e1d53d33c1"
+    },
+    {
+      "id": "bn-hemp-nanofiber-slag",
+      "doi": "10.3390/polym18111288",
+      "sha256": "47e315cd15c1abc8a1ba9ccd3a80863ff78d46ef5f2735ea676e266eda034a62"
+    },
+    {
+      "id": "metakaolin-slag-shrinkage-controls",
+      "doi": "10.3390/ma17051181",
+      "sha256": "aca43c2420691c57a2c52fa9c0186d95fb34b3c6b52f2acf4c69672257791cc6"
+    },
+    {
+      "id": "metakaolin-water-temperature",
+      "doi": "10.3390/su12198216",
+      "sha256": "a21e9a15329a4db48162929c9071c17e10f46c13a04c0d78311efc3e9793df61"
+    },
+    {
+      "id": "metakaolin-freeze-thaw-design",
+      "doi": "10.3390/ma13132973",
+      "sha256": "e801f592d0cd96fe681880068f81dbc0980a26dbd760f2edef1b2b1d887ac86c"
+    },
+    {
+      "id": "carbonate-slag-hydroxide-balance",
+      "doi": "10.3390/ma15051687",
+      "sha256": "8c78a4961e531d2651f4163b3f256edb050cb111c031a4868b5f10016290e149"
+    },
+    {
+      "id": "fly-ash-slag-efflorescence-moisture",
+      "doi": "10.3390/ma13235550",
+      "sha256": "3555928d0c01d79e6be0f4885af230833a72ee9d742f71cf6325184655a6150e"
+    },
+    {
+      "id": "one-part-admixture-compatibility",
+      "doi": "10.3390/ma12203410",
+      "sha256": "4a9c65b0ec1136a042555bbbce18404f12840933bbedc308f62661580e466d72"
+    },
+    {
+      "id": "metakaolin-slag-potassium-durability",
+      "doi": "10.3390/min14080776",
+      "sha256": "15579e65d06a6ea4b80befd59bb001a8fdc7dc72ae87becabb9668643239ad53"
+    },
+    {
+      "id": "ambient-fly-ash-coating-process",
+      "doi": "10.3390/ma12060923",
+      "sha256": "1f64bca61b20af1fd38dde5d7f92662c527ac0060dd0cd890a725f863e0b118c"
+    },
+    {
+      "id": "coating-wetting-versus-bond",
+      "doi": "10.3390/ma15113767",
+      "sha256": "ef8e07845d3f2cb1673b328aabcd463f99400e93795b94c83e9c04c8acdc77f6"
+    },
+    {
+      "id": "biochar-bottom-ash-pore-evolution",
+      "doi": "10.3390/app112210945",
+      "sha256": "0d9c8a6d8d0c6f594e3bbcf9626f10361ed2f2a8fe475f54d907a509963d442b"
+    },
+    {
+      "id": "phosphate-polymer-rheology",
+      "doi": "10.3390/ma17122856",
+      "sha256": "7dc49cb0a398b25bb0826b202f628339cfee4f9aecb38704e156a85eabdf06d4"
+    },
+    {
+      "id": "metakaolin-curing-temperature-grade",
+      "doi": "10.3390/ma16237460",
+      "sha256": "f2b01d13edab97e2474ad10df41b0c03576ce56e95da4a31c848ee4be72dc4d6"
+    },
+    {
+      "id": "starch-borax-retarder-screening",
+      "doi": "10.3390/eng6120366",
+      "sha256": "aa8e420b5d60726e7e862e9893961580e4f342a9b7bae7e3866a8021c47ad8b4"
+    },
+    {
+      "id": "waste-foam-precursor-foamer",
+      "doi": "10.3390/ma17246143",
+      "sha256": "b613b41632a4aa1ef8f0280eb0072d0e8fcba4825457755714aa6089457d0a26"
+    },
+    {
+      "id": "pva-egc-tension-versus-model",
+      "doi": "10.3390/polym16121685",
+      "sha256": "19c742e622c5760df4861b77a4e37e2b8225962a912eb11ad55b483aa32d6921"
+    },
+    {
+      "id": "epoxy-silane-shrinkage-bases",
+      "doi": "10.3390/buildings14030586",
+      "sha256": "90e52b6c1ffc1217f7a4fe099a1c448a9e82fd94eec11aff6c88f6cf5b4ab70e"
+    },
+    {
+      "id": "calcium-hydroxide-carbonation-tradeoff",
+      "doi": "10.3390/ma16062305",
+      "sha256": "fd048611f81406e85f3ba7ab99356808bddc8ab0fa6773f4c37a13667db807e4"
+    },
+    {
+      "id": "printing-side-stream-process-window",
+      "doi": "10.3390/ma14164758",
+      "sha256": "cb063c3b54d7cad213dc5fe2c828fe3b2743e418da9461cc0a9907764a151cb6"
+    },
+    {
+      "id": "sfcc-phosphate-acid-window",
+      "doi": "10.3390/gels8020130",
+      "sha256": "33f988e6e1806f2492a78b770b1dd542377f487f46dca7063d6c37b5cc37446a"
+    },
+    {
+      "id": "foam-polystyrene-fire-assembly",
+      "doi": "10.3390/polym14101945",
+      "sha256": "874d4a3a0d501a12683e79e994b63402173bccdc08d315e51b97c1f16b82dbc7"
+    },
+    {
+      "id": "metakaolin-fly-ash-liquid-definition",
+      "doi": "10.3390/ma12213485",
+      "sha256": "5e2ea57e129ccee22fb43d6b67a2c5397b1415c6b2bab650fdb38113a4d6bccd"
+    },
+    {
+      "id": "masonry-fiber-material-versus-structure",
+      "doi": "10.3390/polym15041017",
+      "sha256": "4e22db681b4674a85947199f92fd1c2ef9bfbd541929e22e121e79185fb27c64"
+    },
+    {
+      "id": "metakaolin-gel-amount-versus-composition",
+      "doi": "10.3390/ma13245784",
+      "sha256": "163f2dc3c70e20d31358889d28e305a9b973087f64888c644e3fce388dd95448"
+    },
+    {
+      "id": "metakaolin-reactivity-and-liquid-volume",
+      "doi": "10.3390/ma17020367",
+      "sha256": "42d311509ad72647372b5e437ca12f5f53f90d0084c232af4eb47843cc242157"
+    },
+    {
+      "id": "ceramic-waste-artistic-restoration",
+      "doi": "10.3390/ma15238600",
+      "sha256": "df4e4912cd57abf2a74094fab71034d314f02587ade08b52938c4025635c7f5e"
+    },
+    {
+      "id": "aluminum-foam-coating-ratio-conflict",
+      "doi": "10.3390/coatings11010087",
+      "sha256": "d4a003b483e58bbc7477606a5f15f19cdbe2c596708635bfb9530101c61f3004"
+    },
+    {
+      "id": "pce-alkali-stability-versus-flow",
+      "doi": "10.3390/ma16155369",
+      "sha256": "6139b4a8e99b6dc571db05cbb0bdba1586936a50a27e616a3d0a8d9b195d205f"
+    },
+    {
+      "id": "ambient-fly-ash-superplasticizer",
+      "doi": "10.3390/ma9070586",
+      "sha256": "2fe4ead8d084594b3031c83e9ae0e1a069f48b8e18735cbf8d183363cc6fb476"
+    },
+    {
+      "id": "superplasticizer-flow-air-long-term",
+      "doi": "10.3390/ma14247614",
+      "sha256": "81b71b77608668c52750ac42a8cf20fd440fed668f19895a2d6e729c5ae01532"
+    },
+    {
+      "id": "hpmc-vae-workability-durability",
+      "doi": "10.3390/buildings15193621",
+      "sha256": "63a561e7fa3b816a3d57de3cc28eb92a633e9582f4e8cf4f966a580366999b33"
+    },
+    {
+      "id": "mgo-shrinkage-curing-demolding",
+      "doi": "10.3390/polym14163386",
+      "sha256": "568433ea585bd6adaa8e3bc86e558638f47030e57653557cd3a6b961f9b01fa7"
+    },
+    {
+      "id": "fly-ash-opc-slant-shear-bond",
+      "doi": "10.3390/app10093321",
+      "sha256": "0f111538a39ebeb6d96a4b6ec1ab58542f9d79853f6b727d8eb1800dc205331a"
+    },
+    {
+      "id": "slag-fly-ash-red-mud-interface",
+      "doi": "10.3390/buildings14030652",
+      "sha256": "e14fa0778b1044de5cc6a457af65a519e043b4a51b6220f933cf03adf9207ea7"
+    },
+    {
+      "id": "pp-foam-volume-versus-fiber-dose",
+      "doi": "10.3390/app11114886",
+      "sha256": "741325764f8b328b20d66e530579c3f6280191b82daf6744b83849330d8f2cb2"
+    },
+    {
+      "id": "metakaolin-foam-thermal-versus-fire",
+      "doi": "10.3390/polym12122994",
+      "sha256": "173b1326fc6bd18e5a31fe7079ec545a12ad44bda464e7ab3146af2e0c0ea2b4"
+    },
+    {
+      "id": "waste-glass-replacement-and-bioassays",
+      "doi": "10.3390/polym13091493",
+      "sha256": "146b622f91ff17aff44ce26a68c7802aadb4688462a239f2863fcdd9922a58d6"
+    },
+    {
+      "id": "olive-pine-ash-precursor-boundary",
+      "doi": "10.3390/ma13040901",
+      "sha256": "0a1535484a2709aabdf3e7e692f914f94573122fb9cb8b25529014bc7c08d3c0"
+    },
+    {
+      "id": "nickel-slag-phosphate-foamer",
+      "doi": "10.3390/min13040564",
+      "sha256": "27a91d6f4e919988bcc45c12e8f9bea2e2f232b4f20f62229c7009598d1a99a8"
+    },
+    {
+      "id": "acoustic-foam-architecture-versus-material",
+      "doi": "10.3390/app14031207",
+      "sha256": "f1017d40379f268a8cf55e47494b5fbcf610efa6603e1d28e37284c5f7c99168"
+    },
+    {
+      "id": "carbon-textile-thermal-directions",
+      "doi": "10.3390/app12136624",
+      "sha256": "50e2091bf4ace7fc3f89c1337ab66341de73480605f7886dab7aca6ee6392fe3"
+    },
+    {
+      "id": "organic-slag-model-gel-versus-paste",
+      "doi": "10.3390/polym14194214",
+      "sha256": "7f215479be33c9b55931c32efeb95be32ad8f2b32de2c83db67b3339e7b8a974"
+    },
+    {
+      "id": "hydrophilic-polymers-slag-processing",
+      "doi": "10.3390/ma17030734",
+      "sha256": "9d29adf11dc5da4e71029272108d43ceedd68727bd37e65307aaf5e977343440"
+    },
+    {
+      "id": "one-part-batch-reproducibility",
+      "doi": "10.3390/buildings16040707",
+      "sha256": "df8afb6d4040b00d405cea39604d3e62d252be566c8970458513a0f920e8a7c8"
+    },
+    {
+      "id": "ceramic-fines-conditioning-and-absorption",
+      "doi": "10.3390/ma17081740",
+      "sha256": "05fea56722dc4b6bb61ffb988d8f6f03b674f4221367b8fd84b315fb5c7184b3"
+    },
+    {
+      "id": "reactive-mgo-dose-and-erratum",
+      "doi": "10.3390/ma12030526",
+      "sha256": "bad9b97b3d6ff787e4d2bee81711c5d550dda2a82e5b5708cf1c2b442fdc2302"
+    },
+    {
+      "id": "tuff-brick-restoration-water-transport",
+      "doi": "10.3390/ma16206619",
+      "sha256": "39e90eb951da3123c26121999af9ef16c21cbb347f440641da9ec8a0951f418d"
+    },
+    {
+      "id": "ceramic-brick-metakaolin-ratio-denominators",
+      "doi": "10.3390/ma18214947",
+      "sha256": "2451dc26e6de231c450f512715ba8b0a2b16837b6546f6278552b54d45599440"
+    },
+    {
+      "id": "silica-fume-activator-volume-versus-mass",
+      "doi": "10.3390/ma16062400",
+      "sha256": "733714952f82bbca5ca505c026d712c9256d765ea292eb3109bd10b25a0b5a03"
+    },
+    {
+      "id": "microwave-curing-precursor-energy-boundary",
+      "doi": "10.3390/ma17020463",
+      "sha256": "cf5ff9ec911c968a068aa7077e74c36cb747e7a01be1dc343203f317ffef5bd3"
+    },
+    {
+      "id": "coating-modulus-setting-adhesion-tradeoff",
+      "doi": "10.3390/min8040162",
+      "sha256": "a44c34faf142030387f2e81d14b6af879f9b4659819ee2fd630e076528c31a88"
+    },
+    {
+      "id": "mineral-wool-leaching-test-boundaries",
+      "doi": "10.3390/ma15062050",
+      "sha256": "2cebc7f1dbc95e8ed59481611a9e4d677283905839a905678e925469e59f8ef6"
+    },
+    {
+      "id": "walnut-shell-lightweight-water-uptake",
+      "doi": "10.3390/ma15113936",
+      "sha256": "ed704205cc58728d494ed79d3b0e35c647eadc2b31d0bb73dbdfc9ba6169c0ca"
+    },
+    {
+      "id": "crt-glass-coupled-activator-comparisons",
+      "doi": "10.3390/polym13071149",
+      "sha256": "3c0d45a47b54b158b5ed3a07019c62f09cd96b09457f3d788118b9028811e1e5"
+    },
+    {
+      "id": "glass-particle-size-foam-density",
+      "doi": "10.3390/ma16052044",
+      "sha256": "446a40a81ce23e8b2dc1f390b5c85bc1846684e8660407061c4d062246d98125"
+    },
+    {
+      "id": "zeolite-pvac-membrane-lead-mass-balance",
+      "doi": "10.3390/polym17091155",
+      "sha256": "7c5fdda967b8f11821fb55cc604b263623e2d34e79501c63a790af87a09311f9"
+    },
+    {
+      "id": "asr-pore-solution-versus-total-alkali",
+      "doi": "10.3390/infrastructures5110096",
+      "sha256": "1e9e96c0ceaa8ec757ba721b75dbea0e4f1e1846ea0f4ca9e67b7d336ea7ce14"
+    },
+    {
+      "id": "slag-softening-inverse-analysis-limits",
+      "doi": "10.3390/ma13225200",
+      "sha256": "702ec6fb7d5f304266e47f00fbdf77e36374fbe4e75b059f444f05898af3b32e"
+    },
+    {
+      "id": "steel-fiber-fracture-energy-test-boundary",
+      "doi": "10.3390/ma11081445",
+      "sha256": "676035aa5855a73c7e71f05414690d8d8176cb7ff871879e507ca3a19df14f74"
+    },
+    {
+      "id": "rice-husk-silicate-extraction-basis",
+      "doi": "10.3390/polym14142920",
+      "sha256": "ad6e10d26dcff7b713bb48e7a0c940b8507ba0f396fa53ce59808a1244a26a46"
+    },
+    {
+      "id": "one-part-activator-dose-long-term-age",
+      "doi": "10.3390/ma14154160",
+      "sha256": "7424ce8eca4d1a2e34c8ce5a99b7047360488512888d6495a4287af1ccc9d783"
+    },
+    {
+      "id": "carbon-black-self-sensing-load-levels",
+      "doi": "10.3390/ma14164350",
+      "sha256": "7e604473f8c8bc252da18ce3e5ee7f468814a3705ffc4ecd5a91398b8a476c29"
+    },
+    {
+      "id": "thermal-storage-prototype-cycle-boundary",
+      "doi": "10.3390/ma15207086",
+      "sha256": "90b569189af94578ba8053d551222869b91a5d938e22b2f988bf1511c67a9d25"
+    },
+    {
+      "id": "repair-bond-acoustic-emission-boundary",
+      "doi": "10.3390/ma12101697",
+      "sha256": "1dbfb4e7f2298d123ee7458f65a27cf9debcf9559b2bc1c542bdca05edcba972"
+    },
+    {
+      "id": "peroxide-sds-foam-pore-definitions",
+      "doi": "10.3390/min12070821",
+      "sha256": "c60bd2c41bd437611a101ffb141367c518c915536750df0cf674948b52560373"
+    },
+    {
+      "id": "surfactant-charge-dose-aluminum-foams",
+      "doi": "10.3390/ma15217486",
+      "sha256": "efdc014d64659c97954d80a394705a9180d5c38c7ed161800a26c44cb83593ed"
+    },
+    {
+      "id": "lightweight-aggregate-absorption-activator-budget",
+      "doi": "10.3390/ma17081798",
+      "sha256": "e79629ff0020faaa4654456b217d7b139777f127b954ae2ae8e0ba2b6a8465b5"
+    },
+    {
+      "id": "diatomite-sag-setting-water-retention",
+      "doi": "10.3390/ma17112516",
+      "sha256": "4e9761ba37abb42f2ff24d57d4fb4054770e6ef2f6d3d9c8e8967b1f98655f91"
+    },
+    {
+      "id": "slag-retarders-hydrate-basis-strength",
+      "doi": "10.3390/ma16083010",
+      "sha256": "b7ba4ac5fe2e760e66550c38f55b840414aa7312e0ba5438da8fde0d466f8d99"
+    },
+    {
+      "id": "ten-year-fly-ash-age-and-assay-boundaries",
+      "doi": "10.3390/ma16031096",
+      "sha256": "b2fa86326888b3a29bc2e2638c872f8fd1e9c9b4dcdda76155245623475515c3"
+    },
+    {
+      "id": "bagasse-mixed-alkali-cement-hybrid",
+      "doi": "10.3390/ma13153437",
+      "sha256": "71fbb862d4eb456174a60d89105b132f3149b3180e3e454822e743f99dd4d52a"
+    },
+    {
+      "id": "fly-ash-silica-fume-activator-cost-boundary",
+      "doi": "10.3390/jcs10010022",
+      "sha256": "4cd714fdd31a371ef835e34a6bb41e1ef0a06e02391fac1719cefa6bc6eca6c8"
+    },
+    {
+      "id": "early-strength-paste-mortar-concrete-scale",
+      "doi": "10.3390/ma18245648",
+      "sha256": "13ed15a4e6140304a1c9b0c86bac61e6d189b186a35251a66f6b3aaa7d21fdf8"
+    },
+    {
+      "id": "fly-ash-pavement-optimization-exposure-clock",
+      "doi": "10.3390/ma15103458",
+      "sha256": "7dbc8242b308f7edfc7263b4c66d7454adab81fd179f59381927cb0462b48aaa"
+    },
+    {
+      "id": "lime-pozzolan-hybrid-age-comparison",
+      "doi": "10.3390/ma15082736",
+      "sha256": "6887c159c7cac366dc68548b9f2da2468a5bb88e04bb7d60fc25280befc0dfc5"
+    },
+    {
+      "id": "filler-hot-versus-residual-strength",
+      "doi": "10.3390/ma13102395",
+      "sha256": "a952861659fc2db721d798edc51db90a6c9d24abec8d90cde11980da2967b218"
+    },
+    {
+      "id": "cork-water-demand-insulation-tradeoff",
+      "doi": "10.3390/app13031804",
+      "sha256": "8eb9c1030cf89b34c6b1a7550ab299dd8f43066632761b18ca7e6403dfc297fd"
+    },
+    {
+      "id": "coir-glass-carbon-fiber-mixing-failure",
+      "doi": "10.3390/ma14164599",
+      "sha256": "83a573b0b8699485d71a494a94c77cd90162548e7e632d0f3315f03c445b0628"
+    },
+    {
+      "id": "epoxy-geopolymer-co-reticulation-timing",
+      "doi": "10.3390/ma9060461",
+      "sha256": "8cd2266eeef90f4a00b29805222d89da4ac52533bb5ca3b8c1c9cfea67fa681d"
+    },
+    {
+      "id": "steel-slag-red-mud-calcium-coupled-effects",
+      "doi": "10.3390/ma17061249",
+      "sha256": "c10eec776398d4e0ece7a5df11711539059bf1936d953fa487233befbe9cf77e"
+    },
+    {
+      "id": "seashell-limestone-replacement-versus-dilution",
+      "doi": "10.3390/min13020186",
+      "sha256": "23f1993d2180ba8d228e2ecce2d4e03737424638e8b021760a7c2cbd9fa7f4b1"
+    },
+    {
+      "id": "one-part-waste-sand-water-demand",
+      "doi": "10.3390/ma14112911",
+      "sha256": "4d34c58b7286f8bdb635f3cfb1865f39d96331e4df1ef3639acd1c891942773f"
+    },
+    {
+      "id": "rap-geopolymer-grout-versus-composite",
+      "doi": "10.3390/ma13163644",
+      "sha256": "cc76394c0edb3b83de20751c524e2da54b426c140d7f36b50d11effc0c6e82f2"
+    },
+    {
+      "id": "ceramsite-treatment-shrinkage-model-domain",
+      "doi": "10.3390/ma18040915",
+      "sha256": "b7f89b7b4bd9fcc4e86c2df1dbbeb4feccf510841e5b15053100ccf9f3944da0"
+    },
+    {
+      "id": "activator-corrosion-electrochemical-boundary",
+      "doi": "10.3390/coatings15060734",
+      "sha256": "b766100f9556425d37deabcd5d72258006e9568ae31533eee8682d8ee6571dbd"
+    },
+    {
+      "id": "foam-nmr-acquisition-time-versus-kinetics",
+      "doi": "10.3390/min14050516",
+      "sha256": "104d97a4c6088a3bd88dcf74b3389eba419f20180110334784d12881cb52e640"
+    },
+    {
+      "id": "calcium-hydroxide-initial-versus-final-set",
+      "doi": "10.3390/ma15010194",
+      "sha256": "d34c7196416bdfd7aae304bbe4efd5a9d58880c4ad6a5cabe02cd21ef22a5b19"
+    },
+    {
+      "id": "silicate-modulus-slag-interaction",
+      "doi": "10.3390/min10010015",
+      "sha256": "eb31bcf2c5fba8d7d4c1cc29ab8da06dd5835596d906b1f3b63cd228ebb7b4fe"
+    },
+    {
+      "id": "seawater-strength-versus-free-chloride",
+      "doi": "10.3390/ma13061467",
+      "sha256": "a709678dd51c211811a1960b986818947973e1509c9e2b0e33c36934d04f47a5"
+    },
+    {
+      "id": "wollastonite-metakaolin-phase-estimation",
+      "doi": "10.3390/ma17174338",
+      "sha256": "0f2dbcef2b30db610dd91d6252c941eed8c2aadd505ee240e0ad7a5731075863"
+    },
+    {
+      "id": "limestone-fly-ash-slag-mixture-design",
+      "doi": "10.3390/app14020553",
+      "sha256": "23d78bc45cfe236555f8d1972ecd20c8f32fd891310cbaf734adcbfaae3ab25b"
+    },
+    {
+      "id": "kaolin-granite-residue-consistency-cure",
+      "doi": "10.3390/ma17225610",
+      "sha256": "d8aa59cbd6dd5aeb3b321cc76a0469693085034fa9c47399e7a4162d3fe56524"
+    },
+    {
+      "id": "tailings-slag-setting-modulus-window",
+      "doi": "10.3390/gels10110700",
+      "sha256": "f36598254314792f4d4f3ab622c6b6d36039bcfd262e418c08d895ff51a5abe2"
+    },
+    {
+      "id": "pcm-thermal-conductivity-direction",
+      "doi": "10.3390/ma18112557",
+      "sha256": "8194861d04c354acdcd8d1c35d3d322b11a6b50bc2fdbbe53db024e5e4c7ef9a"
+    },
+    {
+      "id": "coal-gangue-compression-flexure-modulus",
+      "doi": "10.3390/gels8030145",
+      "sha256": "b19325b13ab9be6b1762d385b30b0f67ae64db90f3c581cebd45c986cd9a19ec"
+    },
+    {
+      "id": "slag-resistivity-alkali-confounding",
+      "doi": "10.3390/polym15030518",
+      "sha256": "7b60007b7e1be7267ea627d571e751d54de065e3f3301a535ecec5690e92797e"
+    },
+    {
+      "id": "sodium-aluminate-shrinkage-reaction-tradeoff",
+      "doi": "10.3390/ma13163499",
+      "sha256": "b6d637866a93eb99d3fd8397c9b27f6095f6f165afdd612967542308721961c6"
+    },
+    {
+      "id": "metakaolin-quantitative-phase-water-strength",
+      "doi": "10.3390/min12111342",
+      "sha256": "3ba3200d58ae871fc1f435324425609ce1a0622c616a3de0fe280cb84a74163a"
+    },
+    {
+      "id": "sea-sand-shrinkage-water-loss-clock",
+      "doi": "10.3390/ma18051005",
+      "sha256": "ec8cb26f38aa429a6daf1ec8716ac969c18ce1deba7616f7e50808f72c94a006"
+    },
+    {
+      "id": "zeolite-binder-porosity-strength-selection",
+      "doi": "10.3390/inorganics7120141",
+      "sha256": "1c45f4a1406f5a1929cb7b078c81a2d151e031b08334ea0af2097e3a3c90fd0f"
+    },
+    {
+      "id": "shrinkage-admixture-retardation-incompatibility",
+      "doi": "10.3390/ma9060462",
+      "sha256": "a59a0b37bb823fe832b700d57361a2848f84d03039d78346e5a127e4c3576b61"
+    },
+    {
+      "id": "ceramsite-hollow-block-placement-tradeoff",
+      "doi": "10.3390/app8122358",
+      "sha256": "15c7fbb3a7c5e699541ff2b06b912154d801057a924450e37133b2a9fe0ed7d6"
+    },
+    {
+      "id": "carbonated-wollastonite-alkali-reduction-limit",
+      "doi": "10.3390/ma17194910",
+      "sha256": "74c7b498c6881f4445f71db6e9408a24a8b3685245011cecbb080f19f15d0347"
+    },
+    {
+      "id": "metakaolin-thermal-scan-chemorheology-domain",
+      "doi": "10.3390/polym16020211",
+      "sha256": "efdf0452f30a16e14bdede5a2cbb2ba38f47edac25025b10e1b701414f9d1d15"
+    },
+    {
+      "id": "unfired-ceramic-activation-cure-comparison",
+      "doi": "10.3390/min11020197",
+      "sha256": "0d056dd7c23406abe3962520e395b38abd24d939d30baac7fac7214e54097fd7"
+    },
+    {
+      "id": "fly-ash-source-setting-alkali-equivalent",
+      "doi": "10.3390/polym14010063",
+      "sha256": "595505cc16750a45458b157f8ee5bc9b2100af0b0dab811d6359147c39c2f13f"
+    },
+    {
+      "id": "thermally-modified-clay-multi-parameter-synthesis",
+      "doi": "10.3390/app12189085",
+      "sha256": "07d7b1b37f9d1b80def2bdc8f14389685f978c4692662fb9633219ed5644f3ad"
+    },
+    {
+      "id": "clay-stabilization-activation-optimum",
+      "doi": "10.3390/ma15134628",
+      "sha256": "25fd744ad677716678ce38cf52999358499073db01ba6a6ab04d6b449fe2bcb5"
+    },
+    {
+      "id": "graphite-self-sensing-stress-frequency-domain",
+      "doi": "10.3390/ma12101616",
+      "sha256": "d9d88c915e75aa636a50fd045400d0b6bfcbfd166cd3b40dac39dfe14fbac32d"
+    },
+    {
+      "id": "graphite-resistance-capacitance-comparison",
+      "doi": "10.3390/ma18040750",
+      "sha256": "e11c37c252e475e5ea295b65404372d956d35943660e07fe5f8aadae61e4a084"
+    },
+    {
+      "id": "cnt-impedance-equivalent-circuit",
+      "doi": "10.3390/ma15103543",
+      "sha256": "55ee777aa91bc8428a0e4700bb855382054a35e6bced9558a065d14b1e01c8c6"
+    },
+    {
+      "id": "copper-slag-foam-connected-pores",
+      "doi": "10.3390/min11070732",
+      "sha256": "8113e077344a4d013eb1c0ddd9983416087c52ac2e1e355fae0c55312c6d3875"
+    },
+    {
+      "id": "brick-waste-tes-phase-diagram-domain",
+      "doi": "10.3390/en18123107",
+      "sha256": "2b380f96052aada267569f77fe5962c0b4d5c813f64666b61719d4438cc07767"
+    },
+    {
+      "id": "ladle-slag-soda-residue-setting",
+      "doi": "10.3390/ma18071552",
+      "sha256": "d7a6c327bce0d6c70beea5bceb4b38920891790161ff7f2284f853f800d46cf3"
+    },
+    {
+      "id": "industrial-side-stream-qualification",
+      "doi": "10.3390/min11060593",
+      "sha256": "8c7ba1d371700e7d794c1f4a141f88cb18838cbb5f4eb23cfa8935a7982a4105"
+    },
+    {
+      "id": "metal-chamotte-thermal-effusivity",
+      "doi": "10.3390/ma18163853",
+      "sha256": "47ea852aa4111f30baf8d093fa572e13e2a368ac725e6ac1b4f68237b8ad4027"
+    },
+    {
+      "id": "diabase-mud-hybrid-activation",
+      "doi": "10.3390/ma15093189",
+      "sha256": "fdc2e6b976ee617e750a47f885627fa71714d036ec5e1faaf003f8fea3a67bcf"
+    },
+    {
+      "id": "rha-coating-response-surface",
+      "doi": "10.3390/polym13213747",
+      "sha256": "04a6b1bf6628b3c974d423888e6be0eb678a7d6cceaf61a3fa1479a75039329f"
+    },
+    {
+      "id": "potassium-coating-successive-fire",
+      "doi": "10.3390/ma8095294",
+      "sha256": "7457d19be8ee5dc13f93d1eeca2b5e5c6b4fa82f3e0aa3e12a8134a1ebcc3118"
+    },
+    {
+      "id": "marine-hybrid-cure-short-exposure",
+      "doi": "10.3390/app12063116",
+      "sha256": "f5e2706162dd3f8495a88d5969eaa9b2069ebb394c7a0f074b9539eba9135e49"
+    },
+    {
+      "id": "repair-bond-zone-surface-interlock",
+      "doi": "10.3390/ma14010056",
+      "sha256": "054894d90a8d2956890211cd46a5aec77595585cc0af3dca8149fddc7ac4f1de"
+    },
+    {
+      "id": "slag-repair-matrix-failure",
+      "doi": "10.3390/ma18102272",
+      "sha256": "cd658bf8fbf93b7c5fc6065e64e950af56ddbc29f60203aab1942673bcb381e2"
+    },
+    {
+      "id": "lca-carbon-uncertainty-activators",
+      "doi": "10.3390/c11030055",
+      "sha256": "cc9d1df6f29bfe06412df258f8b69965da4dd9faabd21cb0effaf1236c98d804"
+    },
+    {
+      "id": "fly-ash-lca-strength-sensitivity",
+      "doi": "10.3390/ma14237375",
+      "sha256": "68de1f602669aac7282a836a7e31e46618a316e669c96860748a27f95272f3a4"
+    },
+    {
+      "id": "cenosphere-lca-density-strength",
+      "doi": "10.3390/su132011167",
+      "sha256": "431a3768f5212cd1c733fc89695a9146c24d59663cc2d4811e49ec9d0058cc7e"
+    },
+    {
+      "id": "foam-coating-application-method",
+      "doi": "10.3390/app122111205",
+      "sha256": "df2556b83d4dc6e41905f507caa615968e1d2ebfc3029894f6332e5317ea0b5a"
+    },
+    {
+      "id": "ambient-heat-cure-lca-flow",
+      "doi": "10.3390/su14094942",
+      "sha256": "896589cfa175405d8ea504b953208290e7d5041c2a1a1a1bb842bf27fa7e78d6"
+    },
+    {
+      "id": "brown-coal-brick-lca-boundary",
+      "doi": "10.3390/su15097718",
+      "sha256": "d2351408428c4b4ac0f4c237bc50decfbb1ef60bf997dd4a200c83174a5c8af1"
+    },
+    {
+      "id": "lightweight-aggregate-thermal-domain",
+      "doi": "10.3390/ma18133150",
+      "sha256": "3dd05ef56f2676eca09e789dc844793e6560b767e5eee1f5054dc53050840dbf"
+    },
+    {
+      "id": "sand-stabilization-ckd-activation",
+      "doi": "10.3390/su15042966",
+      "sha256": "20103c075ca4ea3c4df11fad8cc79727c951ebc9e83b0f537bc448d5346c554c"
+    },
+    {
+      "id": "diatomite-binder-sand-replacement",
+      "doi": "10.3390/ma17102399",
+      "sha256": "0e70547098745a66e0d45eee17306116c92336702c975a8fae038d24fd55d889"
+    },
+    {
+      "id": "paper-sludge-sr-cs-followup",
+      "doi": "10.3390/ma11091521",
+      "sha256": "357c7251bf0c763dc4f4a7e426e7f073db9692b54f7fe224b5b7ae14429d5913"
+    },
+    {
+      "id": "corrosion-short-term-matrix-comparison",
+      "doi": "10.3390/app16031623",
+      "sha256": "e95d5d021f3db90842dd7a7c65149edcd2e89841f89de0e341191b23bc982f69"
+    },
+    {
+      "id": "cs-sr-leaching-test-dependence",
+      "doi": "10.3390/su17041756",
+      "sha256": "e98e13ffa984e32a1a5627862ef6f7e24387a0e6e471efc6fe66b46582ee01e7"
+    },
+    {
+      "id": "sintering-electrical-phase-link",
+      "doi": "10.3390/ma14092213",
+      "sha256": "01a346373ce2fd3efc943c58873b5418116ad316c3475b0159cd1ae3a889cd16"
+    },
+    {
+      "id": "steel-quench-synthetic-pore-solution",
+      "doi": "10.3390/app11094054",
+      "sha256": "7e190bfc32beec633587b4612cf0793698dbe1a8b0ed887652f22a98da6e60a4"
+    },
+    {
+      "id": "radiation-attenuation-fit-domain",
+      "doi": "10.3390/polym14020262",
+      "sha256": "6c9c0d09c58b3fd8e21085b22e2b5e3cdd49b20ac73acbc8e9493afde9784611"
+    },
+    {
+      "id": "dolomite-fly-ash-milling",
+      "doi": "10.3390/min11070700",
+      "sha256": "cfa7d34c2469293bf99debedbf07456e4828f173f40f55e320eb57ef77041c60"
+    },
+    {
+      "id": "attrition-ball-milling-granulometry",
+      "doi": "10.3390/min13040490",
+      "sha256": "7844cfb82011f4e3e9e93616b3af6a6e4de6220620831d27393a64ec53bcdb1d"
+    },
+    {
+      "id": "ground-fly-ash-bond-dissolution",
+      "doi": "10.3390/app8030365",
+      "sha256": "0c32aadb1222c8656f97a083de23e385997d46f45401d107eec71d30cc2da92e"
+    },
+    {
+      "id": "carbonate-comparison-shared-datasets",
+      "doi": "10.3390/min14070726",
+      "sha256": "5de4558cdb9d3c0c084b72308793b6eadb08f2a44f1a085c658ecaf1b7b9b52d"
+    },
+    {
+      "id": "precursor-reactivity-screen",
+      "doi": "10.3390/buildings13030693",
+      "sha256": "ea84ec01b6c480fec052ab759c891604800ab34ff37ac5eb9163e3aa6057380e"
+    },
+    {
+      "id": "sanitaryware-calcium-assisted-activation",
+      "doi": "10.3390/min8080337",
+      "sha256": "21a67ea1eb97bb20e48e3a6cc2719ec827990e7d64fdb54d81039a1905f323d6"
+    },
+    {
+      "id": "foundry-sand-precursor-versus-aggregate",
+      "doi": "10.3390/app13085166",
+      "sha256": "ba4121a172c3ed1a67b75dc2fc834be27bbe0483ef3fd4743c494740270932bf"
+    },
+    {
+      "id": "casting-shell-recycled-geopolymer",
+      "doi": "10.3390/app10134577",
+      "sha256": "8c62c43394ed0362d445ec8a11510c21f4683565957c3b5430a8c6b079124e84"
+    },
+    {
+      "id": "one-part-waste-immobilization-strength",
+      "doi": "10.3390/su132313455",
+      "sha256": "d3c2f7872d3e24846037cbaf58d6bc2eebc44e9fbd9d8ee84f933480c77862fc"
+    },
+    {
+      "id": "coal-gangue-mortar-local-optimum",
+      "doi": "10.3390/buildings12111932",
+      "sha256": "c47199071baf6c267d231aa178b46c53dd71a371cc4b20b9cbcc1dcca1915fe8"
+    },
+    {
+      "id": "corundum-powder-filler-densification",
+      "doi": "10.3390/polym14235091",
+      "sha256": "14a7a406ef2a2dccdf7a7292163147efdad1e0f24f965d3632787e33ea2da079"
+    },
+    {
+      "id": "coal-gangue-overactivation-temperature",
+      "doi": "10.3390/en13102504",
+      "sha256": "d3e062900e072619267803dc83034c7348d118f760bd9710e7a0b956a29a7556"
+    },
+    {
+      "id": "coal-waste-grout-diffusion-model",
+      "doi": "10.3390/ma17225433",
+      "sha256": "7f416bc1dc8fc2e888c492cb96d208dc8ba4c5bee5cecf53dab9b05bcd4d532b"
+    },
+    {
+      "id": "gangue-slag-wet-dry-flexure",
+      "doi": "10.3390/polym13234160",
+      "sha256": "0814808234fc75b2c4cde605eef32977776f594818139d63d2a7f803fba87e60"
+    },
+    {
+      "id": "fly-ash-process-liquid-ratio",
+      "doi": "10.3390/ma14112935",
+      "sha256": "bb7c3f0ea7e039c7a146096f689a1fefedfa2d04883ff3954b9f018312969258"
+    },
+    {
+      "id": "volcanic-ash-limestone-modulus",
+      "doi": "10.3390/ma14185204",
+      "sha256": "bb75d3b55b36d84d812e3f527df8a77373ecf569e629ee4c554860381321ecc2"
+    },
+    {
+      "id": "hydrophobic-aggregate-asphalt-conditioning",
+      "doi": "10.3390/polym15143077",
+      "sha256": "316020cdc3bd3a52caac2a6f31f51d7bc0c3629d9da57a188a48f793e3a7cc2f"
+    },
+    {
+      "id": "recycled-aggregate-base-compaction",
+      "doi": "10.3390/infrastructures7090117",
+      "sha256": "4d6f50d407ad3226e31f29a22494fb980df729cc26c086a959ed2e43950ed4eb"
+    },
+    {
+      "id": "minibars-alignment-flexural-domain",
+      "doi": "10.3390/ma18040778",
+      "sha256": "12d33b9a588986a70883656e34094386764b858acb7ff0f50f4cd07355836cd9"
+    },
+    {
+      "id": "bagasse-ash-dielectric-strength-tradeoff",
+      "doi": "10.3390/polym14061140",
+      "sha256": "4974972097f98287becda8c4a2325327b00d19e58f023829061430737011ccfb"
+    },
+    {
+      "id": "dry-powder-reagents-freeze-thaw",
+      "doi": "10.3390/cryst11101167",
+      "sha256": "fd6b8396f9fba40605a00832b932542d56e8546d26c1a594ff301ec24d3dadc6"
+    },
+    {
+      "id": "silica-fume-acid-sulfate-tradeoffs",
+      "doi": "10.3390/su14052652",
+      "sha256": "6ce461e176ca805ef532614b0fa27cb26ba36b1677921176dd75fe5728a734f6"
+    },
+    {
+      "id": "basalt-fly-ash-granule-activator",
+      "doi": "10.3390/ma19102026",
+      "sha256": "d61e9a6533e58483fdf2d56cafb661ff4b0ba9ad2f91b0bf9759224724b4f944"
+    },
+    {
+      "id": "leca-geopolymer-strength-thermal",
+      "doi": "10.3390/jcs9020069",
+      "sha256": "435d147e18f077bba56cf31c50d334b99c7149d5206031d0883578d5d7204682"
+    },
+    {
+      "id": "untreated-dredged-sediment-calcium",
+      "doi": "10.3390/ma19020433",
+      "sha256": "da0836be19f52694c80ef6a013880d5c9c82b43521b1ebda373422a52d3b13bf"
+    },
+    {
+      "id": "tannery-gel-cement-hydration",
+      "doi": "10.3390/gels11050339",
+      "sha256": "f7caa745953340b0618966ea227ea15e185c7b2a3aea8e3f6da15f53a604e941"
+    },
+    {
+      "id": "aasc-autogenous-shrinkage-admixtures",
+      "doi": "10.3390/su152216101",
+      "sha256": "d3fda4ce718c16d1825956072a33b0b80cf2f2748ef5989c3afb79362150a1c9"
+    },
+    {
+      "id": "sap-internal-curing-model-scope",
+      "doi": "10.3390/buildings16142798",
+      "sha256": "5967b211cc7da777db60372fae8bbf9a4521e9ce5e54d86a76ec1e33f3de8261"
+    },
+    {
+      "id": "wood-ash-metakaolin-property-domain",
+      "doi": "10.3390/gels12030200",
+      "sha256": "977efc6ef21459d486d8957498f35778ef92cdc10156bfc480d86705ceaff42f"
+    },
+    {
+      "id": "electrolyzed-water-activation-medium",
+      "doi": "10.3390/ma18245493",
+      "sha256": "a290eaa75fab50fb92713e19e670b0130182ab1dda91f96acbac5d0b6a3fe097"
+    },
+    {
+      "id": "slag-fly-ash-early-stiffening",
+      "doi": "10.3390/eng6090230",
+      "sha256": "1026e355fd5e7b036bab756da5949eeac45e29d40f9c97f984a01a322e516b08"
+    },
+    {
+      "id": "metakaolin-clay-strength-unit-hold",
+      "doi": "10.3390/molecules27154805",
+      "sha256": "439343b46a6756d3648ff126520cfce8092eb7b841a42caa99f943f423ed369e"
+    },
+    {
+      "id": "silt-sediment-modifier-curing",
+      "doi": "10.3390/gels8120792",
+      "sha256": "4074f058ca96c18b18accf64b27bfca77a234374ae468d13f960d2f21665df0f"
+    },
+    {
+      "id": "bismuth-tungstate-photocatalysis",
+      "doi": "10.3390/ma19153251",
+      "sha256": "5b4d400d26b0be239738dbaf0721a81e9df37ef5bbbbd941a3767f145a3343fe"
+    },
+    {
+      "id": "zno-functionalization-texture",
+      "doi": "10.3390/polym18091110",
+      "sha256": "c82773d74067352d607fb2b7e34435fc9efe3c93b47ee779b3e94aba4a0af05a"
+    },
+    {
+      "id": "biox-microsphere-adsorption-degradation",
+      "doi": "10.3390/ma17071585",
+      "sha256": "f13b9ae02220e05715c945d726b659f8b3d8dc60605745f205741f15f1993d2b"
+    },
+    {
+      "id": "carbon-geopolymer-dielectric-window",
+      "doi": "10.3390/molecules25184218",
+      "sha256": "130cb0ad4577b133f9ebfc110e4495708cbbc28d54d594d192aae013b609756b"
+    },
+    {
+      "id": "lithium-slag-tailings-cure",
+      "doi": "10.3390/su15054523",
+      "sha256": "52ed2aec5a86e5de67384737f59beef8fbd95f2c9482a300c80b09a6e28915a2"
+    },
+    {
+      "id": "recycled-aggregate-ultrafine-slag-durability",
+      "doi": "10.3390/su141710948",
+      "sha256": "940a684909634bd9dd50289888d7cfd04782eb535d1c5a99e454312314ee7886"
+    },
+    {
+      "id": "algae-sludge-sorbent-metal-selectivity",
+      "doi": "10.3390/min15030297",
+      "sha256": "1c99f392454d013092df3919e293129d971142231736bce3f9e0fbc4f6ca2516"
+    },
+    {
+      "id": "paper-ash-surrogate-immobilization",
+      "doi": "10.3390/ma9080633",
+      "sha256": "967cea5980efbf688c3a7b44a96bcd4a71ae0ec267d4db9e48022ffba295f6ce"
+    },
+    {
+      "id": "biomass-eps-insulation-water",
+      "doi": "10.3390/buildings16153136",
+      "sha256": "0dab47ade0b83bf08c6b2563edbee93575bdfdfc7c88647cae3d1260dd83f462"
+    },
+    {
+      "id": "petroleum-ash-heated-mortar",
+      "doi": "10.3390/su15129846",
+      "sha256": "843b61a439aec0acc42099ea87373dd5afcbb16593f03f3014239b7cf2c478e9"
+    },
+    {
+      "id": "lead-diatomite-leach-boundary",
+      "doi": "10.3390/min14080763",
+      "sha256": "521c120f6608288780cbde624e2696a9f087fb78386f5c0a1cbc34110b46350d"
+    },
+    {
+      "id": "glass-lightweight-gangue-metakaolin",
+      "doi": "10.3390/ma16176054",
+      "sha256": "b50919bf21e414c443e5b2cdc05ced0ba107135bfe7588f36b5dd67afc8de3f6"
+    },
+    {
+      "id": "coarse-glass-interface-porosity",
+      "doi": "10.3390/buildings13030586",
+      "sha256": "6886e010b7cf2c28c8779e4031f91273e2b80e8ba798a833ff47f0bd0ee6c483"
+    },
+    {
+      "id": "tire-textile-recycled-aggregate",
+      "doi": "10.3390/polym18121470",
+      "sha256": "ee75a192d63ab72b6d1cca2d1539345d0d509ad4dd043c36ca8ede035a238b59"
+    },
+    {
+      "id": "boron-metal-retention-permeability",
+      "doi": "10.3390/ma14010214",
+      "sha256": "15d36b42195425fafd9a81d0e35c36aef9b189b3523fca86fb4be26ee6bb3c21"
+    },
+    {
+      "id": "automotive-glass-organic-leaching",
+      "doi": "10.3390/app14083439",
+      "sha256": "9aebb7c0df8641d281aded7cecbea187fa39e6e9bca8cacbe939863d2d681787"
+    },
+    {
+      "id": "granulate-crushing-test-basis",
+      "doi": "10.3390/ma18235275",
+      "sha256": "ee1d2c06c4be9900b73f7ef168d9ea37cb4d58925a32488f28e40eeae9fd27da"
+    },
+    {
+      "id": "glass-fine-aggregate-antibacterial",
+      "doi": "10.3390/polym13172970",
+      "sha256": "3d6209f1b579101f12a1cbc408d5537165294b50f6626e4b83dacd08c5b9132b"
+    },
+    {
+      "id": "na-k-biodiesel-catalyst-texture",
+      "doi": "10.3390/molecules25122839",
+      "sha256": "8dc1f46ed59f0c667627c29fe6746cbf0962dc2c70501ff94ca8555180ca12de"
+    },
+    {
+      "id": "pavement-tiles-case-lca",
+      "doi": "10.3390/ma18020257",
+      "sha256": "020f200f4c8433863ef33bb67129f34458def5fe2938c103f9b9864451a54bad"
+    },
+    {
+      "id": "basalt-fabric-cracking-debond",
+      "doi": "10.3390/app10082865",
+      "sha256": "ad2dc1aecb894a608f13d1e768f59b1d6f74d95a7db0639738746aff84323fb2"
+    },
+    {
+      "id": "ceramic-waste-brick-processing",
+      "doi": "10.3390/ma18010103",
+      "sha256": "b1a947d035bca650fc54950cae99e31299b49d03a0e4f16dad88833ca1063ea1"
+    },
+    {
+      "id": "hybrid-basalt-fiber-length",
+      "doi": "10.3390/jcs6100292",
+      "sha256": "063fe1a64e4339eb5248f052c5bc4311574902e85fff548157ba321a2bf571b6"
+    },
+    {
+      "id": "marble-waste-ready-mix-scale",
+      "doi": "10.3390/polym12091924",
+      "sha256": "c7d0a08f12273f0d5708b98458a340e6abc656ae8c2754d76a14dc070a09d05b"
+    },
+    {
+      "id": "granite-powder-local-molarity",
+      "doi": "10.3390/polym14020306",
+      "sha256": "0b88c1d69ce70e7e11b10e20f88582daf3139d200f17fa667bced5474937e80b"
+    },
+    {
+      "id": "demolition-waste-binder-families",
+      "doi": "10.3390/jcs6070191",
+      "sha256": "4071483a1524e117d158d19992986c77d1c7e3c19bf8b9198f5db94288319ceb"
+    },
+    {
+      "id": "granite-soil-bound-water",
+      "doi": "10.3390/coatings16030328",
+      "sha256": "c5b0dedaf0dd6c61abb902fd3331ea772f99fb438ef12aa1e7b1ca2613cea63a"
+    },
+    {
+      "id": "aged-bof-slag-aggregate",
+      "doi": "10.3390/su152416934",
+      "sha256": "04f8d8b3aef0d19cf809342b10c0a4e95965f881abdb4a9fef9c8b0c1898c2bc"
+    },
+    {
+      "id": "bof-aggregate-steam-carbonation",
+      "doi": "10.3390/buildings16152982",
+      "sha256": "99827db3b92ce6ef873f2eea78676a1349bbaa9165abef600cf952299a4c5917"
+    },
+    {
+      "id": "high-ambient-cure-precursor-response",
+      "doi": "10.3390/buildings15162974",
+      "sha256": "49c06eb2fc3cf6151c1e5ca36a19fcf8dd1d507eca24b9dae1edafeee6b1e0bd"
+    },
+    {
+      "id": "sustained-thermal-egc-response",
+      "doi": "10.3390/buildings15203792",
+      "sha256": "3caac123900701fa6e4fcf2a025f6dbacf1f6fb1a473a8f62c9ef64eb1cbb821"
+    },
+    {
+      "id": "pva-crack-dic-splitting",
+      "doi": "10.3390/buildings14071986",
+      "sha256": "797dce921310c9b54e7798ea7fd74cddffbdaa5a658a6c18d9b2dff51b739b05"
+    },
+    {
+      "id": "fiber-panel-experiment-model-slip",
+      "doi": "10.3390/polym15163440",
+      "sha256": "c17fdb0149f153d509d21a12350e973a784427d5a6817c897195e931d1b64d94"
+    },
+    {
+      "id": "ternary-iron-water-retention-model",
+      "doi": "10.3390/pr14101607",
+      "sha256": "1909251eb80d21abb1edbea14c4538da524ca34c89806e3b72552e2f8b01895a"
+    },
+    {
+      "id": "bof-stabilization-autoclave",
+      "doi": "10.3390/su12125002",
+      "sha256": "6a8c34002f981bd34a69517efaf9b9d9e5f5d6d6fc24c20524c4c0f73483b4d1"
+    },
+    {
+      "id": "recycled-geopolymer-acid-heat",
+      "doi": "10.3390/polym14050917",
+      "sha256": "7805c75b7f55742c368a98bdc5454a43bda977eca6743fa92fa32b8a4dacbc39"
+    },
+    {
+      "id": "industrial-fine-aggregate-material-roles",
+      "doi": "10.3390/infrastructures10090241",
+      "sha256": "eb42cbf34ab3f2a4130b7c5fb5248eb7f1d52e9effa6c7202ff3d7a78f9ee329"
+    },
+    {
+      "id": "expansive-agent-crack-repair",
+      "doi": "10.3390/buildings16091721",
+      "sha256": "035ccb5b15e1c601b08aec86aa7ea8819feb78a74dd1b5b3e0c3ecc8c3f6b6e2"
+    },
+    {
+      "id": "csc-slab-model-evidence-boundary",
+      "doi": "10.3390/buildings12112010",
+      "sha256": "fe17e2aab90847eee626916478e0b97f78d6a0c72668e102cb197408efb7de0f"
+    },
+    {
+      "id": "slag-mk-strength-volume-tradeoff",
+      "doi": "10.3390/ma15082944",
+      "sha256": "955dc63b99dac4b819cd281d5cd862e88be77361852a079c35f553833b5730de"
+    },
+    {
+      "id": "na-k-silicate-age-ranking",
+      "doi": "10.3390/ma15010211",
+      "sha256": "7c174604645328f5d967966f70130c4e860469ec2863ea61b890444396a5195a"
+    },
+    {
+      "id": "silica-fume-acid-strength-compromise",
+      "doi": "10.3390/ma14185396",
+      "sha256": "fb40cbc1ad035195961b87b053303aa4fa795ead38e26e248e731dfadea904ba"
+    },
+    {
+      "id": "printing-na-k-workability-bond",
+      "doi": "10.3390/ma12060902",
+      "sha256": "387aef5383930cfdc2e5002b55088751ed708d930fecf3fcf8607a015ec320d9"
+    },
+    {
+      "id": "orthogonal-mk-confirmatory-maxima",
+      "doi": "10.3390/ma15082957",
+      "sha256": "9b8f33bfc8bce9fd7f393273de02d46e788bfb2a8ebf4fd624932a10adb5bc9f"
+    },
+    {
+      "id": "high-water-waste-form-acceptance",
+      "doi": "10.3390/su14063141",
+      "sha256": "a34c1f2cc2b9a4d09a2c58f0fbf99869900f054d15748a709ef967696153657e"
+    },
+    {
+      "id": "mk-slag-activator-shrinkage-interaction",
+      "doi": "10.3390/ma14226962",
+      "sha256": "7bf540ef778ea3764ce1bf451eb406db1d6725f5bc075a3810b7963ec6c0b83e"
+    },
+    {
+      "id": "phosphate-tailings-phase-evidence",
+      "doi": "10.3390/ma15010202",
+      "sha256": "57eb18804beef2dfa65807c4f1dbb1953137a0b52752d9eb3962f162d79b441d"
+    },
+    {
+      "id": "low-reactivity-clay-heat-evolution",
+      "doi": "10.3390/su151813556",
+      "sha256": "e56d47246ac7c4b87d99ff55b22d6a161a2c6df373c99ff417e08bbbabace4fb"
+    },
+    {
+      "id": "hemp-red-mud-brazilian-failure",
+      "doi": "10.3390/ma14030511",
+      "sha256": "11ff341e50269863f3f5ef0e597813a755c84327acbce2c1fa9ac43b186f0982"
+    },
+    {
+      "id": "coir-compression-flexure-different-doses",
+      "doi": "10.3390/app12115478",
+      "sha256": "3a9bf4e109a3dadc5eb07f8ab80fbf3213f7090cdadca1004d19191e336a6a8a"
+    },
+    {
+      "id": "zeolite-efflorescence-ion-exchange",
+      "doi": "10.3390/ma16227243",
+      "sha256": "22ad0318845e8c293b2a549226e13d875ad2c553ae9e17bab6c9baadb8489b02"
+    },
+    {
+      "id": "biomass-ash-one-part-source-transfer",
+      "doi": "10.3390/app10165610",
+      "sha256": "eb9854e1ba5f3fc282dce703da085e081f79bfdc93e47082b61519df76777009"
+    },
+    {
+      "id": "copper-slag-biochar-carbon-capture",
+      "doi": "10.3390/ma18194434",
+      "sha256": "3a27bf5bbf71fb442b4365e99a4f7ce543f22afe9b5d3035175b7523dedf4f86"
+    },
+    {
+      "id": "jute-length-volume-fracture-selection",
+      "doi": "10.3390/jcs8110450",
+      "sha256": "3ebae88511a0db04315bd16026ab927de238882471ff8d6accb82608462fea67"
+    },
+    {
+      "id": "rha-silicone-coating-multiresponse",
+      "doi": "10.3390/polym13060985",
+      "sha256": "4b02c2113f649f87d5b9f13d037b6b587bb76cbbb0c7387964b250b0c84c5c3a"
+    },
+    {
+      "id": "calcium-mk-water-corrosion-flow",
+      "doi": "10.3390/su18104714",
+      "sha256": "fbde4e6e245356ea6e2081b2d8906e1264d4c6102c749f4e7f882ef90c839dd2"
+    },
+    {
+      "id": "wood-ash-moss-biological-boundary",
+      "doi": "10.3390/polym15071639",
+      "sha256": "9d6eb8a10210cb16b2ec1c1d38f582a462d13b0b1ac0db50570645e94c852d05"
+    },
+    {
+      "id": "rha-solid-activator-processing",
+      "doi": "10.3390/su16177243",
+      "sha256": "ba0d923f7ae81bbe0d86e8a1e19b46b4af749bcdf45a669293ea00dd1f43046b"
+    },
+    {
+      "id": "hemp-substitution-insulation-endpoint",
+      "doi": "10.3390/ma18112536",
+      "sha256": "d69fd3414b50425d7984eadd572ae19e4da12700d99ffd4928d4badfa357d04d"
+    },
+    {
+      "id": "palm-rice-ash-fire-shrinkage",
+      "doi": "10.3390/ma17061298",
+      "sha256": "6b461bc6bcbb8cf94e50c03ea0153a18971af1dd4fb021eff0d0b06c666336e0"
+    },
+    {
+      "id": "biochar-slag-activator-shrinkage",
+      "doi": "10.3390/constrmater2010001",
+      "sha256": "01f519471596d806776edf0c3ed56da2b86be30073c8ff191ff743e57001192c"
+    },
+    {
+      "id": "aluminum-waste-foam-process-identity",
+      "doi": "10.3390/polym14040703",
+      "sha256": "753b3544d28b72535a0bf388e363ba9a82ad804b89aea64e5a3cbfd78e3ca11a"
+    },
+    {
+      "id": "rha-silica-extraction-four-routes",
+      "doi": "10.3390/ma16134667",
+      "sha256": "bc159ceb6bf41eb4fb3e21054e4b8cb8808fa9bb3c38599cc72c202e16d429d4"
+    },
+    {
+      "id": "orthogonal-mk-slag-multiple-indicators",
+      "doi": "10.3390/ma19102004",
+      "sha256": "e7aeac9792649eb70a6ff8739339f2d97891f6aa014323c90255f6cbd2e20b55"
+    },
+    {
+      "id": "chloride-sulfate-immersion-gradient",
+      "doi": "10.3390/ma17205045",
+      "sha256": "0fbd9dae040bc6055631bc4fd0e2f4971459591271a8e922f620fd040334d58f"
+    },
+    {
+      "id": "natural-fiber-source-toughness",
+      "doi": "10.3390/app112211026",
+      "sha256": "eea8ac44924696a665386f787d08505067df02d24ffe01e5ae27257709d184a0"
+    },
+    {
+      "id": "fiber-hybrid-cement-system-boundary",
+      "doi": "10.3390/app112110443",
+      "sha256": "65bdacab202a46ec02cb12ebc653b70afe7708a657bc0cbc8b586470cb8e5d6d"
+    },
+    {
+      "id": "glass-flax-hybrid-reference",
+      "doi": "10.3390/app14219787",
+      "sha256": "20768da636b751929cfbb838683e8ca32433e59cbdd4df3ba5e25e5f24c88ec2"
+    },
+    {
+      "id": "flax-basalt-nonwoven-thermal",
+      "doi": "10.3390/su12010118",
+      "sha256": "9e2b05ae374f1a11c8c6b40e236e9837b7d52aa697370ef3941ce11c272af0cd"
+    },
+    {
+      "id": "nanosilica-flax-aging-loss",
+      "doi": "10.3390/ma12091459",
+      "sha256": "e3062920ed2860d9134a4d4a21641e4b2727927703cf5a95cd15fafa396b1ea2"
+    },
+    {
+      "id": "potassium-foam-connectivity-permeability",
+      "doi": "10.3390/ma15031008",
+      "sha256": "37ea7d3a35f450c32e56b654a20509676a9086c75f9eec7e5ee05f215446670e"
+    },
+    {
+      "id": "silica-fume-foam-sound-activator",
+      "doi": "10.3390/ma13143215",
+      "sha256": "99858fa92fef52921d233ac3a5a10be75df1874514412b1feda61cba696d7a8e"
+    },
+    {
+      "id": "cfa-mk-foam-conductivity-fire",
+      "doi": "10.3390/ma13071750",
+      "sha256": "a132d6e7a434c30acf10da8971c1887353480fa01eb562a9e9336bccf59982f2"
+    },
+    {
+      "id": "hybrid-fly-ash-foam-density-domain",
+      "doi": "10.3390/ma13132919",
+      "sha256": "b2cb6f4f756d276f9b0ebaab3b972a54f1492bbb2cc292d370210bd357b57e31"
+    },
+    {
+      "id": "goaf-foam-support-failure",
+      "doi": "10.3390/ma13040841",
+      "sha256": "26079ee26b2e05d978652e16a3bf555bc1fa1d18facd339d2e6d61bc6884fdcd"
+    },
+    {
+      "id": "pull-off-coating-failure-location",
+      "doi": "10.3390/eng3010005",
+      "sha256": "bf9a0a8c09e8a29e8f8eb144460b89cd50f671a282ab28fa91183942730ed0c4"
+    },
+    {
+      "id": "recycled-powder-slag-efflorescence",
+      "doi": "10.3390/app13052997",
+      "sha256": "dc98ab9db128f29fb43dc473bba0cb20a2a730b79acb651e237f20f623a24c28"
+    },
+    {
+      "id": "efflorescence-leaching-two-screens",
+      "doi": "10.3390/ma17153647",
+      "sha256": "f95f58f391bb8792c0e2bf5e7b40797e7309e31d5ea629ce38ba35d7c601f8f9"
+    },
+    {
+      "id": "repair-mk-cement-activator-durability",
+      "doi": "10.3390/pr10091818",
+      "sha256": "9af944aaf61e1857c6e7d0275882f1a0da14ecd281103bf690ba6c063cc4e19f"
+    },
+    {
+      "id": "chloride-gypsum-quicklime-slag",
+      "doi": "10.3390/buildings13051285",
+      "sha256": "4d317cb407b6b2b9bd0afc0a2e5b37b90622b8fc810aa7ee41f754bc4061db5f"
+    },
+    {
+      "id": "static-compaction-molarity-blocks",
+      "doi": "10.3390/ma17112509",
+      "sha256": "6d7125824205bd5d294d693ab71e4b3d31471ea7e49da824c34fb593b85483ea"
+    },
+    {
+      "id": "freeze-thaw-recycled-geopolymer-aggregate",
+      "doi": "10.3390/ma17091944",
+      "sha256": "4fbb08ecf86584be92d924ad790d4ab75d0f4a4f97b5faf2087fcdba51a8c1d6"
+    },
+    {
+      "id": "waste-clay-salt-slag-durability",
+      "doi": "10.3390/min12091140",
+      "sha256": "301ebdceaf4a9428b5b2307bfd36ccf071b388b2855b25e99270a06b7b931199"
+    },
+    {
+      "id": "mgo-carbonate-steel-slag-fines",
+      "doi": "10.3390/buildings14030592",
+      "sha256": "99a886968d467f05fceec7deaca51e8c74df594f229062aeff3ac6c8aa4d873d"
+    },
+    {
+      "id": "potassium-concrete-freeze-leach",
+      "doi": "10.3390/jcs4020045",
+      "sha256": "bac900ee3c604ee302fe9b8cc8825b940a71d9d9936083a02c736b56324bb668"
+    },
+    {
+      "id": "polymer-slag-shrinkage-dose",
+      "doi": "10.3390/min13040475",
+      "sha256": "817b29e4f78616fa91b849e9bfceaa6f5b815b9f647bc060d08be4619971a49a"
+    },
+    {
+      "id": "weak-alkali-slag-setting-factor",
+      "doi": "10.3390/ma16103871",
+      "sha256": "d007a488886b757d52ef1577d7a91c01077d621c07e722210e2e83b6ab18adcf"
+    },
+    {
+      "id": "multilayer-coating-cure-sequence",
+      "doi": "10.3390/coatings13101731",
+      "sha256": "deee2dd7a71943b9453c141547a5e19320abb9d8cff9862c9fc738b34497e1f6"
+    },
+    {
+      "id": "aluminum-suspension-grid-cracking",
+      "doi": "10.3390/coatings12111695",
+      "sha256": "f5cd443c9925a4cfd8b2784600a2ab20ea4625265621ab1bb19eea7b6f0f6c3d"
+    }
+  ],
+  "previousPreviews": [
+    {
+      "doi": "10.3390/ma18030486",
+      "sha256": "a4bb9b77b6ae7cc746f132944103522b0bd38e91737cc7ed4f9973bf8aed3df5"
+    },
+    {
+      "doi": "10.3390/polym13050751",
+      "sha256": "35bc54bc3054ec111fbd9f3f81aeabdd5e6197612cc0fad92fdd8c14160de17d"
+    },
+    {
+      "doi": "10.3390/polym18111288",
+      "sha256": "29ad5bd643207da9d645a0d923d8ea07d4d088f764b0c87ec88f7005ff4bef01"
+    },
+    {
+      "doi": "10.3390/ma17051181",
+      "sha256": "d5390a586044515226db9c7122034da807427ea9a1e172d9badd4a15f5b8bec1"
+    },
+    {
+      "doi": "10.3390/su12198216",
+      "sha256": "0984000d181a55b33d90d7aeda4305bbd6b899ec6c915adafbebe71ac0cc8835"
+    },
+    {
+      "doi": "10.3390/ma13132973",
+      "sha256": "b23ec359544ee9d0bb690a97a1cdd78c55b7abebcecc6cd944c0ca9a31721d49"
+    },
+    {
+      "doi": "10.3390/ma15051687",
+      "sha256": "ae93741b598b26ba4089e46a57a684767aa1366ae673307ea67f1384b7d0032d"
+    },
+    {
+      "doi": "10.3390/ma13235550",
+      "sha256": "7766c723ad832a1dfe707a3f0e3f0c11bd07fdf990281c67d3197cdc04cb9a92"
+    },
+    {
+      "doi": "10.3390/ma12203410",
+      "sha256": "cd156167ee0242928da82366c13121a0a8f343c1e6f4645e30c773db69e8c3fb"
+    },
+    {
+      "doi": "10.3390/min14080776",
+      "sha256": "6ddf2debc155f1f4c29bd403d3c82e3812b97bcf5de1779e407d20422b3c7eae"
+    },
+    {
+      "doi": "10.3390/ma12060923",
+      "sha256": "cfbdd9074872b854f43a09385e5342670385f5fbbe5f2a4dca1455d5198ea9d3"
+    },
+    {
+      "doi": "10.3390/ma15113767",
+      "sha256": "2d3a2fa19d166f183272d47b6d3225e1bc485afa7bdc5e83085d1151aed8862d"
+    },
+    {
+      "doi": "10.3390/app112210945",
+      "sha256": "152b639c14658c5b2de655204072ac8d640d04fd1394f31394141862e378ff46"
+    },
+    {
+      "doi": "10.3390/ma17122856",
+      "sha256": "1305a9ee47502434f211f9f6a8e750a7a5865691150f3c9ead3eb752fe827caf"
+    },
+    {
+      "doi": "10.3390/ma16237460",
+      "sha256": "ca91d2f0c997633e5d35333570cd27cfa00215f48cddc62f02c748877e262c4a"
+    },
+    {
+      "doi": "10.3390/eng6120366",
+      "sha256": "330b9402245544ae4b61d6b7600a78a233d734de15e999195694784076c82a63"
+    },
+    {
+      "doi": "10.3390/ma17246143",
+      "sha256": "dd1163202af3dc22467943b589384d9ee0a1e21147136ef974c1e33a6b3b3440"
+    },
+    {
+      "doi": "10.3390/polym16121685",
+      "sha256": "5f938e0abdeb3e65d9f1f3647036755812a15502a282818e0a032047e2626617"
+    },
+    {
+      "doi": "10.3390/buildings14030586",
+      "sha256": "8b8202bad81b706801a259f065cea696c0b44f19f369d737acfb3dfb6b511b98"
+    },
+    {
+      "doi": "10.3390/ma16062305",
+      "sha256": "55e2baa865a702278decfb6c631dc5e3630ede16df21b19a2da3a9755d924656"
+    },
+    {
+      "doi": "10.3390/ma14164758",
+      "sha256": "3ee8a7d0b048b41ac1b27b97b669e7e406d5fb38853cdb45635aa580b9057e6a"
+    },
+    {
+      "doi": "10.3390/gels8020130",
+      "sha256": "6fe7650892acace906694975c1cf48af912435e99069daa16bca34ca0ca07326"
+    },
+    {
+      "doi": "10.3390/polym14101945",
+      "sha256": "6a9674fbe69fbb19db2e6e69bb32e5605d5d6f4633ff34d17c3f75c73a0988c7"
+    },
+    {
+      "doi": "10.3390/ma12213485",
+      "sha256": "dae1563b68e2e917d89b5d709f592821ec8f180553db342849f589b5936361de"
+    },
+    {
+      "doi": "10.3390/polym15041017",
+      "sha256": "0958f15cf61d7433605c86fb44471ba553eee8a5fe083da194e45e5477f244fa"
+    },
+    {
+      "doi": "10.3390/ma13245784",
+      "sha256": "7dab6fa8445084a26f6206d5d2af6acf14cbbbb49a9b79bb94f5d39f64f2d4cb"
+    },
+    {
+      "doi": "10.3390/ma17020367",
+      "sha256": "65c9a4ce82b5ec2a659236027b2bb2a987de39ab88805f4663065e03c083249a"
+    },
+    {
+      "doi": "10.3390/ma15238600",
+      "sha256": "ea36873db871e1245d523a3a718682fe8c6458b804adce3354fd7d36e0f38aeb"
+    },
+    {
+      "doi": "10.3390/coatings11010087",
+      "sha256": "b04f13b7b2bf67bc563504e6cee77a82d7b8eb33557476ee64d13045cf3e0513"
+    },
+    {
+      "doi": "10.3390/ma16155369",
+      "sha256": "99cc6da730750c9a526512c0e9ab933a1b92673597903b1dbe6f151244bf2711"
+    },
+    {
+      "doi": "10.3390/ma9070586",
+      "sha256": "4a234365c08d7f189636dba3e1ab5bdf66fbec1b9bb1a0e6114dfa8184854195"
+    },
+    {
+      "doi": "10.3390/ma14247614",
+      "sha256": "938316a64c390709e3f4697fabffb4426d0d44d8286c11c006d5410b0e9609e6"
+    },
+    {
+      "doi": "10.3390/buildings15193621",
+      "sha256": "a70aafaf22ced429c149b6dea158e4e86b24eed34d0e636ec8f6bac83faf2267"
+    },
+    {
+      "doi": "10.3390/polym14163386",
+      "sha256": "5e37b58bc96c8ba1551d96e9d5fbdde601b727e2824cb742223a5854dcb185e1"
+    },
+    {
+      "doi": "10.3390/app10093321",
+      "sha256": "1f9e64fad1824fc1799c74d517e15457d98ab45ece49583b7f72ff90a4b54c9c"
+    },
+    {
+      "doi": "10.3390/buildings14030652",
+      "sha256": "9f61b45175c53bdcc3ece67d3d2cdece87c3146aefb5d7216a3ebe177bbaa3bf"
+    },
+    {
+      "doi": "10.3390/app11114886",
+      "sha256": "04793819ae0e1d111d47694cc8c99708f697e4a0ca3d104d0122c56b5fb05d48"
+    },
+    {
+      "doi": "10.3390/polym12122994",
+      "sha256": "8a7a7c165e0e9b14d90e9bed576c9a27a632faa5fa3d52fc32926998684d8a9f"
+    },
+    {
+      "doi": "10.3390/polym13091493",
+      "sha256": "fbe31bcf1a28919f32762554c351bed03ad65abe6daa571a5b93758cbfe3bd7f"
+    },
+    {
+      "doi": "10.3390/ma13040901",
+      "sha256": "5701cacf0901ca7b1d08c9ee9b0a1e5666f6d95436b2f2eede2143a505e242c8"
+    },
+    {
+      "doi": "10.3390/min13040564",
+      "sha256": "31e0338b6e1c88070626575c5d7c14aaa0815c37348d977dc881717863d00eeb"
+    },
+    {
+      "doi": "10.3390/app14031207",
+      "sha256": "79c2ec52c124a1e52f1d595a710697a8c38eeffc0935a7acacd320ac77cdce4a"
+    },
+    {
+      "doi": "10.3390/app12136624",
+      "sha256": "a0bcf73d85e6a16ba5629440bf6d869ec150d8dec448e079e420267eebae78e9"
+    },
+    {
+      "doi": "10.3390/polym14194214",
+      "sha256": "273305a72d74a81bbcb0c4c71cbfc97d3fd758374a96bdc56011c40f4fbce804"
+    },
+    {
+      "doi": "10.3390/ma17030734",
+      "sha256": "85e7d9c103a85c0fe1ec1a28381858025958b76e088d25358be4c3f5b5ae5cce"
+    },
+    {
+      "doi": "10.3390/buildings16040707",
+      "sha256": "944d3f96e6523aaf1a27bde2600fa3fc13f8c0feebb10ca2e471352e30363d8c"
+    },
+    {
+      "doi": "10.3390/ma17081740",
+      "sha256": "5e465e84872b5d9b4fae56eed7d466d4fde8f287092365e9e8b9d5457d40d41a"
+    },
+    {
+      "doi": "10.3390/ma12030526",
+      "sha256": "36a266bcc66dfe0ac3d086ce59e04913f7d64bfc56406b70dd16834e57b9d52c"
+    },
+    {
+      "doi": "10.3390/ma16206619",
+      "sha256": "a94a8d0d66e883bbbe83ef17294c79c558b3003f59d7b9b962ca7bbbb085a591"
+    },
+    {
+      "doi": "10.3390/ma18214947",
+      "sha256": "52068dfa16be83f5fb99a6ea2148f88e9d7f4524944dbdfac057c86067ec4bee"
+    },
+    {
+      "doi": "10.3390/ma16062400",
+      "sha256": "04da075e08263e39e5da33cf8268bf02fbb2f61765dad244121e6d2bdb9a48de"
+    },
+    {
+      "doi": "10.3390/ma17020463",
+      "sha256": "1e8181f9336c5ce1c2074494099d69d5a7f5af6683846ffa08d264f8b30aeedb"
+    },
+    {
+      "doi": "10.3390/min8040162",
+      "sha256": "39d66ff7f7d79949d5794567690f4f29dbe0e595db997b11f0c2d7ba78c1d8b9"
+    },
+    {
+      "doi": "10.3390/ma15062050",
+      "sha256": "9a21a8ffe272669dfe0fef7ddd61e7a6c7ad284edffc0f92b22f847cb8462ae4"
+    },
+    {
+      "doi": "10.3390/ma15113936",
+      "sha256": "21b308c3ed8f2920caefef30c2a934b89e09d5b6bdcf612a24cfcdfd07876afd"
+    },
+    {
+      "doi": "10.3390/polym13071149",
+      "sha256": "08fc87f40f8ba658f66720f457134121c2514827500379b2720b5da53ceda60d"
+    },
+    {
+      "doi": "10.3390/ma16052044",
+      "sha256": "d0cbda97e84107014917839cec0f01fea30be2a68cfddc0542046882dd08a41b"
+    },
+    {
+      "doi": "10.3390/polym17091155",
+      "sha256": "57e013cd50caf7e3b14c0e7b84f0dfed2723b0b90dbb922369e01cbf91f21b84"
+    },
+    {
+      "doi": "10.3390/infrastructures5110096",
+      "sha256": "992ed851728a138af068407975615ceafc0f49044612387e0f8cd2522119bc55"
+    },
+    {
+      "doi": "10.3390/ma13225200",
+      "sha256": "a276f922c501ad72ad26a35b0b490eb3283da63369d67928d65d58a65612b34b"
+    },
+    {
+      "doi": "10.3390/ma11081445",
+      "sha256": "f96c7bcdb45c9112458ee9d134ee0111390f4f1814b222cce15bc04e1097abd7"
+    },
+    {
+      "doi": "10.3390/polym14142920",
+      "sha256": "f1ec082771eb7724a04771b5a4c3d3f12188d4e21c0d5566c5994046555e26d3"
+    },
+    {
+      "doi": "10.3390/ma14154160",
+      "sha256": "50056ca0998517118b0bf23259a9d1d9a7f1c7d3ab1bdc3aa778d190650ede7f"
+    },
+    {
+      "doi": "10.3390/ma14164350",
+      "sha256": "d62de8501c88f9b9ef41e8b0fd4c907e4c7a61a0c115470b132278342aab0e9a"
+    },
+    {
+      "doi": "10.3390/ma15207086",
+      "sha256": "38fd67765de931932c035216659929016a21ae736947ff06c490d7d7bde9fac8"
+    },
+    {
+      "doi": "10.3390/ma12101697",
+      "sha256": "8d16e352bfd2164c5aee009dc271f2ed1b71b61d4aeb370004118c9cd272c502"
+    },
+    {
+      "doi": "10.3390/min12070821",
+      "sha256": "ace608d2d276dbe5bd4cebb97b6df680cda5926982318a19c90e0e7046c7d52b"
+    },
+    {
+      "doi": "10.3390/ma15217486",
+      "sha256": "676de2e294ac27e4231aa145c46e4edfab1369e10b748277100383c536481459"
+    },
+    {
+      "doi": "10.3390/ma17081798",
+      "sha256": "a9854d0041fb15b74630fbdbf32d8cd539f90ec7aa0151a8b5e3703b6e1f02af"
+    },
+    {
+      "doi": "10.3390/ma17112516",
+      "sha256": "65621133dae97cafbc9c422e189fba87ca5caf9b5ce100a39d8b73ac4101eba5"
+    },
+    {
+      "doi": "10.3390/ma16083010",
+      "sha256": "7cd0a3e51bd14ba363f674d179011b22c4aa7987832f325ead70440779f65e7b"
+    },
+    {
+      "doi": "10.3390/ma16031096",
+      "sha256": "7f64c966d14af965c76537100d50c8d43830ea838978ba79f6eb3e1d5f23dd57"
+    },
+    {
+      "doi": "10.3390/ma13153437",
+      "sha256": "ae05a121b42d1db1ece2aa2c09fd24358b44b3fd646969794bc8660e50d822a4"
+    },
+    {
+      "doi": "10.3390/jcs10010022",
+      "sha256": "5f511090a99bb00145dda3a3d10732602a2bfc66ccda7f50bfe056c55a920055"
+    },
+    {
+      "doi": "10.3390/ma18245648",
+      "sha256": "ede1ccae8b11ec01a8df27c622370238ae2a4af4b6e556fd3a6f5b02c37fe778"
+    },
+    {
+      "doi": "10.3390/ma15103458",
+      "sha256": "34fd044cfa2e08042c0d444d67e81eb0b3c36e8273e244d8813b1812812193e2"
+    },
+    {
+      "doi": "10.3390/ma15082736",
+      "sha256": "1cdd56b691499806975fdf5d0538ed87edf21ec2254b0c39220da58361fecf5a"
+    },
+    {
+      "doi": "10.3390/ma13102395",
+      "sha256": "35c1547e146113499bf6862844666a220f633c501aad9c4496a62057f551265a"
+    },
+    {
+      "doi": "10.3390/app13031804",
+      "sha256": "5993b9af90291cc74897f1c064c885031b025a8aed01a4859d5af501767da310"
+    },
+    {
+      "doi": "10.3390/ma14164599",
+      "sha256": "281308de2451bcce2aa7b4c8cf1936661e63c082918d0048391a2dff456f6f40"
+    },
+    {
+      "doi": "10.3390/ma9060461",
+      "sha256": "f70ed5f7348825dd3182add33ee8c2bbe93b046dc40d2b23f9365c5814e335d1"
+    },
+    {
+      "doi": "10.3390/ma17061249",
+      "sha256": "9cfb38ffbf30de998e2b02818fb68ac5eb341d2706166089b053e3e3a3d1f870"
+    },
+    {
+      "doi": "10.3390/min13020186",
+      "sha256": "39beaa7620777cc121c8c763cf5b40f89f62e513d5bdcf4ae7be954e0fed87e5"
+    },
+    {
+      "doi": "10.3390/ma14112911",
+      "sha256": "9ba661fd8ccea3fb7493c7af9426062c4f1deb4b3764d4974822c15a05ce8a9a"
+    },
+    {
+      "doi": "10.3390/ma13163644",
+      "sha256": "17a6615430e5a9377a80905c7b72fb4736cb014c534770facd3d5d02fbc218fe"
+    },
+    {
+      "doi": "10.3390/ma18040915",
+      "sha256": "8ba2ae16f6a3124db434abc4ac9c0ca5949a82fdba7a49c8206feeee2557ca5e"
+    },
+    {
+      "doi": "10.3390/coatings15060734",
+      "sha256": "9903a915eda853f5e2bd9aba5cee6b0b0e06b0d7f6511c150efb28f460d6b249"
+    },
+    {
+      "doi": "10.3390/min14050516",
+      "sha256": "8ed1e62e42c918bc8a708e2fa3b1efd85fe9c979e41bdaacc22a84d359307fe0"
+    },
+    {
+      "doi": "10.3390/ma15010194",
+      "sha256": "ef574fe6e02a395136dc3100c2867b795eebb84dac0ec09329c926aef59e4a50"
+    },
+    {
+      "doi": "10.3390/min10010015",
+      "sha256": "f32c77f5e93aa9e4ea2b2503983d4a789a79fd53cd2a8f3618b3f1ddc5c9c92b"
+    },
+    {
+      "doi": "10.3390/ma13061467",
+      "sha256": "818af7d11d6ca60ce9cec9ce15ec232076d1e4064f7a4d4bec2eff61839c4f22"
+    },
+    {
+      "doi": "10.3390/ma17174338",
+      "sha256": "6e71e075d19d98bf5693586740130bdf55d8f104dc1a6c18ea8860ccbf7bdc9b"
+    },
+    {
+      "doi": "10.3390/app14020553",
+      "sha256": "1a814c4bd786bb8f1844f1157f804266b9d2e933c37d4719885e8574b6d8e337"
+    },
+    {
+      "doi": "10.3390/ma17225610",
+      "sha256": "13da0c9c7bd4e3b3bbcf66e6a220065b0756004cb7559c66ce4186ecbbdc4375"
+    },
+    {
+      "doi": "10.3390/gels10110700",
+      "sha256": "309c54c450a4eb3ff78a499b84504131049e51a2bd53163618aabfb169a8627d"
+    },
+    {
+      "doi": "10.3390/ma18112557",
+      "sha256": "9ce5d3f103833c2e12a6d4458ba56aaee275cfe74f023580bb5d3eca7814659a"
+    },
+    {
+      "doi": "10.3390/gels8030145",
+      "sha256": "c2f11e0951ebc879a08e61cf5431320e145e60e69388df0beea9a0766dc14a1a"
+    },
+    {
+      "doi": "10.3390/polym15030518",
+      "sha256": "fffa302784c3f88b68c25afd7cf25309eaa761e27ec9bc0d9befc0d6e2a279f3"
+    },
+    {
+      "doi": "10.3390/ma13163499",
+      "sha256": "f7a22fd40a261aeb40b6bf2ad247c9abd35d1f794bdec18e975710ea4a390331"
+    },
+    {
+      "doi": "10.3390/min12111342",
+      "sha256": "cb1f88cfe6e05f1b4f20a4abaa93976e695f40cb790a4c1d0962f025e41ff29e"
+    },
+    {
+      "doi": "10.3390/ma18051005",
+      "sha256": "9a7550d7779b1f2db8566bbed2a964a3690d98b44c0c474fbabeff2f3c643a2d"
+    },
+    {
+      "doi": "10.3390/inorganics7120141",
+      "sha256": "20c86747fa7f56b0ac05ee5206856562f1a5b31aa9bef59244dbd2a8322bd325"
+    },
+    {
+      "doi": "10.3390/ma9060462",
+      "sha256": "c5cfaa471e8f2c3f7cf559510830ba6add644dc9651817aab4d2445a5616b8b4"
+    },
+    {
+      "doi": "10.3390/app8122358",
+      "sha256": "252d79042d9884c9de67a1a76eff9dcb1eb9da9844c7b8684303712a7156f5d5"
+    },
+    {
+      "doi": "10.3390/ma17194910",
+      "sha256": "56c1685789f1b197fe7dc745ef1ba4045d1772b09ca6c837da238072a934d9e0"
+    },
+    {
+      "doi": "10.3390/polym16020211",
+      "sha256": "149b9d6987101f3c9829261c6d95fc11f990686934b83c106c35adc9df42a40c"
+    },
+    {
+      "doi": "10.3390/min11020197",
+      "sha256": "2e4cb4b508b9113bb73d4c8704451d147330567a862974fa48fa633e8cc4b646"
+    },
+    {
+      "doi": "10.3390/polym14010063",
+      "sha256": "cb1c4a3d4f7710f5e3cdc67171f730be2ca594e035ac4d66a33670588c2fd56c"
+    },
+    {
+      "doi": "10.3390/app12189085",
+      "sha256": "fedae368b5a51670a276ffc279521481bbc3009505acb3c599cdfd996faf11e2"
+    },
+    {
+      "doi": "10.3390/ma15134628",
+      "sha256": "c9638d0ce85628f21a1b32a13ad7e588a69bbe7e9d1582852b1130f65456e1df"
+    },
+    {
+      "doi": "10.3390/ma12101616",
+      "sha256": "44f1a4c63ec27695f41c01b6a8f3133c589e3fb5b68fcd703209aa599cd01a9d"
+    },
+    {
+      "doi": "10.3390/ma18040750",
+      "sha256": "b74736176b0a4dbc4a8b5e7ae86a55139c9b3d550933f2c411006d8c1aa98747"
+    },
+    {
+      "doi": "10.3390/ma15103543",
+      "sha256": "052300da193bab982a7b2841d52fc8800cfba28c9a58c76b5df1fc4c34399d32"
+    },
+    {
+      "doi": "10.3390/min11070732",
+      "sha256": "27723dae3191a0f69158e87b1abd8191d40a8c262281e12b6a2fbcf6542a21ad"
+    },
+    {
+      "doi": "10.3390/en18123107",
+      "sha256": "abb45274e46541a64d6a3f3f66af3b4f9416e4d1ed5309278964af76d1550f55"
+    },
+    {
+      "doi": "10.3390/ma18071552",
+      "sha256": "e4fd1d50784cd9c722cc5fe3441a208c7564133b502727de93db683ccef95d70"
+    },
+    {
+      "doi": "10.3390/min11060593",
+      "sha256": "3fc6996765e54858258707fd768b762d7d7e17984b25a5629d07105021396769"
+    },
+    {
+      "doi": "10.3390/ma18163853",
+      "sha256": "e6ca891478637a373c40cfb60dd9c5c448fbfa2cfded88841ad63482f58eb6ff"
+    },
+    {
+      "doi": "10.3390/ma15093189",
+      "sha256": "7de03295cdfb6e4ab4b519bc3a988a839b71421d0c32d79c2b85afcbff60c141"
+    },
+    {
+      "doi": "10.3390/polym13213747",
+      "sha256": "974e06c0760a34206c209e4a0353575ecb01201e789d77e718ef84713ab6a710"
+    },
+    {
+      "doi": "10.3390/ma8095294",
+      "sha256": "9a1a307feef431ebb3a5fdd6686ebc85efe3121736ad84df909b9f34ee9ffdfa"
+    },
+    {
+      "doi": "10.3390/app12063116",
+      "sha256": "fc078436cf719b585186db8834149e290a509b31cc52d1557aa9dff979a9247d"
+    },
+    {
+      "doi": "10.3390/ma14010056",
+      "sha256": "c5e5948340946e9264d29f5e0448d5b5bf0a4180da6032a7f1e21bd445f48ccc"
+    },
+    {
+      "doi": "10.3390/ma18102272",
+      "sha256": "78425466961bc279fce2dbf954c078a6e43a65949d30dd39983221c74f83361b"
+    },
+    {
+      "doi": "10.3390/c11030055",
+      "sha256": "ed12fc96b86d4c0c9a554078913ee37ee1a67bd520d4e0af3912c8b142c435ce"
+    },
+    {
+      "doi": "10.3390/ma14237375",
+      "sha256": "830a6406e0c86c2728088d6af4120a7a7d6565fc15f78e2875ad129150f99bca"
+    },
+    {
+      "doi": "10.3390/su132011167",
+      "sha256": "d93899b7d6c058bf6e64dd6b3974e05a177e6be2244bbaea9c687164d905e239"
+    },
+    {
+      "doi": "10.3390/app122111205",
+      "sha256": "9039395ff088e7377056e11cf4f2fa2ee1cc5ef91a6c2d1741687b6029d38b1b"
+    },
+    {
+      "doi": "10.3390/su14094942",
+      "sha256": "8f134724523945c0f42355df2aa81539fb1ce73f579dce87169943e00aa5d6ef"
+    },
+    {
+      "doi": "10.3390/su15097718",
+      "sha256": "e97ef2e0de501b42442a940f1c32e11c9f19fc333d3a00db582da40eeb908a54"
+    },
+    {
+      "doi": "10.3390/ma18133150",
+      "sha256": "02ccc4a53421d5b6c6af36f1794c491038a1934a3cfecb81c453388fc4856696"
+    },
+    {
+      "doi": "10.3390/su15042966",
+      "sha256": "3235bbff61339cc3c5652f1903e19875bff57e86fb69df05742d24539416d1f9"
+    },
+    {
+      "doi": "10.3390/ma17102399",
+      "sha256": "2b0d3c4cc674bfdb32cb7566fc61cff92e86b1dd20ecd578f082819ca4a4889e"
+    },
+    {
+      "doi": "10.3390/ma11091521",
+      "sha256": "5a8fe91e6b537632dbe8cc0d75686e3df6373d14593f2711ae1469e44ebda931"
+    },
+    {
+      "doi": "10.3390/app16031623",
+      "sha256": "25cffe17850cef38075ce30da77e8b1865ae02768d56614d685156fed4ea83c3"
+    },
+    {
+      "doi": "10.3390/su17041756",
+      "sha256": "25c9d2dc86cec86cfe3450bf8b72e6c3d32e50706887dfd4140a35f2f4b11e07"
+    },
+    {
+      "doi": "10.3390/ma14092213",
+      "sha256": "be74a5ad1fd7a0ee371e214749a8371fa63ac3e2e45b9ce13b94045893620d22"
+    },
+    {
+      "doi": "10.3390/app11094054",
+      "sha256": "cec083b312a295d187f3aa555ac888167b7cc78474c8618c44ac65c530b7513b"
+    },
+    {
+      "doi": "10.3390/polym14020262",
+      "sha256": "05c8a6cee86b339800b370f6438df93a551fae8d8d9ba143edde8b234b5d844a"
+    },
+    {
+      "doi": "10.3390/min11070700",
+      "sha256": "cc6faed3c715535db494d47251c1f253632d81b9d8653c8c7f265e611c653b2e"
+    },
+    {
+      "doi": "10.3390/min13040490",
+      "sha256": "dee93cbf80edba5fd1992769e6a4119ad0a5eefbe1544d4fbf3eb1e3230bc5d4"
+    },
+    {
+      "doi": "10.3390/app8030365",
+      "sha256": "1a72c22df10bdd40ee83ecea2d50f03493c01497d77ef11184c371877a42d815"
+    },
+    {
+      "doi": "10.3390/min14070726",
+      "sha256": "90d29eab666cf1a723418ec0e23661b4c84e4e1e3e10daff59b39195f21c10c4"
+    },
+    {
+      "doi": "10.3390/buildings13030693",
+      "sha256": "5012e0a7f3dcdfc7c2f0109438bce4f3a25210c8eabb200f0dbd8aea7c5dbbfc"
+    },
+    {
+      "doi": "10.3390/min8080337",
+      "sha256": "326ad6dc8a0b9359ddfe6162a7217bef911ebf6bc6091d4775dc1503211eb56a"
+    },
+    {
+      "doi": "10.3390/app13085166",
+      "sha256": "b01bdd7d33b35b06ebcf0f98d214f9d12f4b8d1052ba7ee6e0eadb830f2d991c"
+    },
+    {
+      "doi": "10.3390/app10134577",
+      "sha256": "c5ef2cfa4e1d01b24f32c1c68588f6b879d91e5faf9ae87ade8064b1066b53c9"
+    },
+    {
+      "doi": "10.3390/su132313455",
+      "sha256": "81074b39c6a31270b8c554a0f74925d7ca329ced289f0f3062dc6fb852af2ebc"
+    },
+    {
+      "doi": "10.3390/buildings12111932",
+      "sha256": "93a9dcd27dafbae298030731c6bdf7adfe04a428469594b536240a1826814b47"
+    },
+    {
+      "doi": "10.3390/polym14235091",
+      "sha256": "f1970771487e96de2acdb906998930112b61f6449bc9ac852ffef901d72ad613"
+    },
+    {
+      "doi": "10.3390/en13102504",
+      "sha256": "16a90bceb65eede06891f2cec5ad48c6b441e899fc4eb611a6056e2c4f0160d5"
+    },
+    {
+      "doi": "10.3390/ma17225433",
+      "sha256": "118ae2e899618b49c76a472c83be08c784f9e82d902da157aca0c279b4b0a6a8"
+    },
+    {
+      "doi": "10.3390/polym13234160",
+      "sha256": "5d9b475168a3aebdf1ed397bac675340811c455ac6caf2441fa2f6b9e4a54f52"
+    },
+    {
+      "doi": "10.3390/ma14112935",
+      "sha256": "1e37078d542f9b34ed02e3159ac762ba64ec9940746783923b846c7a630a7402"
+    },
+    {
+      "doi": "10.3390/ma14185204",
+      "sha256": "db18e1c02c7b234fb44826e167d5223a9983376957f245fe43535abca927779c"
+    },
+    {
+      "doi": "10.3390/polym15143077",
+      "sha256": "4ec4cb12fc06e459da9d7071edcb99d052ee8421c1d4d0370fed12f5cffe2d59"
+    },
+    {
+      "doi": "10.3390/infrastructures7090117",
+      "sha256": "478a14a8c14aa60b25ef2d037b84850e23c9b110798012ffd6591498db2ae407"
+    },
+    {
+      "doi": "10.3390/ma18040778",
+      "sha256": "0f3f19d37c355263b8d699ed7849bb8ae551ceecd8bfca7aa2c85a0fb420b177"
+    },
+    {
+      "doi": "10.3390/polym14061140",
+      "sha256": "0230cc7650beab00ec653c3ccd9cdede4d9e403e38fe96e3e631184423d1483b"
+    },
+    {
+      "doi": "10.3390/cryst11101167",
+      "sha256": "8ebc3b7ce67a51b891ecc45d9ed66b8f91b14741324cc1574ed5202bc3a03ab1"
+    },
+    {
+      "doi": "10.3390/su14052652",
+      "sha256": "de1ff1ee9141b86517466f0443e0eeec77f6edea7f721d5a33f6ee16f10816e4"
+    },
+    {
+      "doi": "10.3390/ma19102026",
+      "sha256": "0f0e448e5719a7d4fd49e1d95143cd289de3224a609ec574802e4f236fd6d754"
+    },
+    {
+      "doi": "10.3390/jcs9020069",
+      "sha256": "d8a0cb709de4eaa938e0eeb349e28ba25426a80d324f195e6b013b77a916fe63"
+    },
+    {
+      "doi": "10.3390/ma19020433",
+      "sha256": "b5b266d9e082901ccfe684040ed3636d26bb030892e60e9d86b2a71cb40d77ce"
+    },
+    {
+      "doi": "10.3390/gels11050339",
+      "sha256": "4ec3b80d653195640feda9b0e63e2de8bd9282aeb281dd93d2e3264ee0f6573a"
+    },
+    {
+      "doi": "10.3390/su152216101",
+      "sha256": "a488a67fb92df6a6a718663ac2715714ff79d4e370274d1b3e9b2b6d29facd27"
+    },
+    {
+      "doi": "10.3390/buildings16142798",
+      "sha256": "fc262d6641701905a1d3630fc9c2a98e27172e45795dbfd10a6c2221ecaf3906"
+    },
+    {
+      "doi": "10.3390/gels12030200",
+      "sha256": "5547030214c0c668f923f19fdb1c28f986a9dc69b012046326c7aba0aa7e7023"
+    },
+    {
+      "doi": "10.3390/ma18245493",
+      "sha256": "e49672c8644f327e6638434c4f0576e239306b14181fa5815d30bcee6a4e6f4b"
+    },
+    {
+      "doi": "10.3390/eng6090230",
+      "sha256": "beb1fba286709161baf48a67e0354219aba56776ccf2c082102ac49339de7f7e"
+    },
+    {
+      "doi": "10.3390/molecules27154805",
+      "sha256": "39a071a157e804e494126e3c13b80c4d4780d5d9b57fa0bf0c1fb4b77bc807cc"
+    },
+    {
+      "doi": "10.3390/gels8120792",
+      "sha256": "3a76c030081c52ca38dfa109db470acb1717108d1ebc89854e5ddb7e17ba22cc"
+    },
+    {
+      "doi": "10.3390/ma19153251",
+      "sha256": "f4f74655e3226307e4ddb0ab1e73ec5300b53d337023c699b632a11d2a22a1e4"
+    },
+    {
+      "doi": "10.3390/polym18091110",
+      "sha256": "2843f389aecde63499f4023a1a969920be3085c8e2350c49a81164492f21e363"
+    },
+    {
+      "doi": "10.3390/ma17071585",
+      "sha256": "071f89b12bfc22b3b796012444d36b06e97ca6109ed468b91a0628c1063b02ff"
+    },
+    {
+      "doi": "10.3390/molecules25184218",
+      "sha256": "ae471c90f5f01e195d09a24327a374420f3c37a88710f49de33b494a6607f1e4"
+    },
+    {
+      "doi": "10.3390/su15054523",
+      "sha256": "296b6f30371af705fbc495dfc497c1fe1b74466f3f7784a319e5f315b361000a"
+    },
+    {
+      "doi": "10.3390/su141710948",
+      "sha256": "cc146a4ab7d3ca0f76c9baaaed4653ec0b19c975942bd16db6717252313e0189"
+    },
+    {
+      "doi": "10.3390/min15030297",
+      "sha256": "8883dbe71c0f660cac2b1f4cc867120037ce9a261cbb6b0d176fa6a621a00d05"
+    },
+    {
+      "doi": "10.3390/ma9080633",
+      "sha256": "704868de20b216cd4a314d54c04156bc4cc7057eccb8f24b52c1557cdc962c12"
+    },
+    {
+      "doi": "10.3390/buildings16153136",
+      "sha256": "f010e7bb1f333c0f8788507e0887944231d868ba4102d1bc118c04435096fb8f"
+    },
+    {
+      "doi": "10.3390/su15129846",
+      "sha256": "da579ae4b178b3cf97f1b26822dd6068a54dd63c802df96d80a221f1b575190e"
+    },
+    {
+      "doi": "10.3390/min14080763",
+      "sha256": "401fdd13d8fadad69346662631dcb20772a549d4e127ecbb63bd99e99076d1b0"
+    },
+    {
+      "doi": "10.3390/ma16176054",
+      "sha256": "fd5a3a72f8d945235e813698c164cf6d78b49d2023c9d5339d0a2775d8c0766a"
+    },
+    {
+      "doi": "10.3390/buildings13030586",
+      "sha256": "40f594cb22c098b01fb24b0fdc23884cdb94fc4a03278cbe357e649221549f02"
+    },
+    {
+      "doi": "10.3390/polym18121470",
+      "sha256": "c02be9a91b4fca2b794b566d84702a7230a13ab7345ffcc382dedaa1ac3c7de2"
+    },
+    {
+      "doi": "10.3390/ma14010214",
+      "sha256": "fac1e5ecd4a9b4d32ccb6869eff253c26943d7e3d3a687522b357ba06b428477"
+    },
+    {
+      "doi": "10.3390/app14083439",
+      "sha256": "a3172f49efe117d39a5fe114a75a96106fb92f3ab35597ff357f89586bc64d6f"
+    },
+    {
+      "doi": "10.3390/ma18235275",
+      "sha256": "8cb15a8a0913cc416270937aa0a3407fd0d49eb7567e295bc91542de6bcf3daf"
+    },
+    {
+      "doi": "10.3390/polym13172970",
+      "sha256": "8760fb0a253bd754efcee6cf786d1662a59be3cb8e629569906725a228592151"
+    },
+    {
+      "doi": "10.3390/molecules25122839",
+      "sha256": "25d70f62ee39f7c26588f1405562fcb50d1c7592de73a305524bb4827eb67bb2"
+    },
+    {
+      "doi": "10.3390/ma18020257",
+      "sha256": "3101e51d5bb7cb6fd4f1f2dbe0a814b5d77dee7989192765a046a8127b1f1359"
+    },
+    {
+      "doi": "10.3390/app10082865",
+      "sha256": "70bc27eada2ff42ce5ea4715884d2fd1bc8479534d39e58baa39076b307b5908"
+    },
+    {
+      "doi": "10.3390/ma18010103",
+      "sha256": "c959e111b210e19e518e1dd66b63265949f7be5035ff40987aef1e481ccf4df4"
+    },
+    {
+      "doi": "10.3390/jcs6100292",
+      "sha256": "e9f3b81c07e26cd718abd9fe1dd4b503a0c3e622538a0d714caaa0e0153b1dab"
+    },
+    {
+      "doi": "10.3390/polym12091924",
+      "sha256": "0cfca16f315fbb55ad8a2be888f730777c1e2693a7df419bd2bd03e6eec4923e"
+    },
+    {
+      "doi": "10.3390/polym14020306",
+      "sha256": "36d71dc61e617539d7a0a76740b1af15751c0b3fcf119b031395c785e5ce3937"
+    },
+    {
+      "doi": "10.3390/jcs6070191",
+      "sha256": "90db3caaa87212bd8c930d6b9251888881a4ae4960c4132fd3fa99bef6b395aa"
+    },
+    {
+      "doi": "10.3390/coatings16030328",
+      "sha256": "e1119c32062dfb42fb62f9672013081f1437bf1963a2b0c6c9cee57bdc162e8f"
+    },
+    {
+      "doi": "10.3390/su152416934",
+      "sha256": "f6fac4d3f1547580d22e701e18d78e20357e899180bb301e19c5943dd77423e7"
+    },
+    {
+      "doi": "10.3390/buildings16152982",
+      "sha256": "4c86aefd5d561a05b922d750d74730ab252dc1ac53d9eb957f94832e609b15f5"
+    },
+    {
+      "doi": "10.3390/buildings15162974",
+      "sha256": "4390a161d58a41f72bdafce0852fdf4eacf196642abf78fe4d86ec18ee5c8f12"
+    },
+    {
+      "doi": "10.3390/buildings15203792",
+      "sha256": "be6908351e8efd90b7d0e8c2d692b2a6db5a0e2db43acf4615bbb32f3b8110fe"
+    },
+    {
+      "doi": "10.3390/buildings14071986",
+      "sha256": "4598569adeac706086442367507af3b4693add6eeee39104489aa182df03c514"
+    },
+    {
+      "doi": "10.3390/polym15163440",
+      "sha256": "ab462e1ab39225a8b9d1c291fdce14ba5c36e8a200e2e808ec725e0b9b6aaf56"
+    },
+    {
+      "doi": "10.3390/pr14101607",
+      "sha256": "13f472afe5f79b7c4fdaa344a3b49b994b4092ef7e09207f190afa0eea608526"
+    },
+    {
+      "doi": "10.3390/su12125002",
+      "sha256": "57ace1afd2fa64f7381e2b686d8cb32bec7205d99214ed237f487d687d6f95d4"
+    },
+    {
+      "doi": "10.3390/polym14050917",
+      "sha256": "1a98255387326e68b9fb049d1d90c5d6a2576d33eb19c0011a39bdda787c5e8d"
+    },
+    {
+      "doi": "10.3390/infrastructures10090241",
+      "sha256": "fa8a53d6f86b0dfca0f2efd35e7caae7724f44c577215526ca0c83667a9308f4"
+    },
+    {
+      "doi": "10.3390/buildings16091721",
+      "sha256": "1911908d74a6338a98a010ad1b3add86ed1678a2ab1ca4b42cf399a19151871a"
+    },
+    {
+      "doi": "10.3390/buildings12112010",
+      "sha256": "5a28a16452c90b89e5c011a73ca0e82035098e9d4fab63c067185266e749a442"
+    },
+    {
+      "doi": "10.3390/ma15082944",
+      "sha256": "2faac860b19fd9445b903e8e5b554d364c4eca6c1019adb3aa610ed02242882a"
+    },
+    {
+      "doi": "10.3390/ma15010211",
+      "sha256": "5a085ae7a5c67fa63240562c5658c4f76d8d2e0456b351581a8839e7f7e0d3fc"
+    },
+    {
+      "doi": "10.3390/ma14185396",
+      "sha256": "326dc54a666635a34d8d038b71e9df30f0eae745e0412e715826c678ab44a601"
+    },
+    {
+      "doi": "10.3390/ma12060902",
+      "sha256": "c733ba660452bd9a3e08b368fb339b7731f65b2bd7a0f671f327390b02461be9"
+    },
+    {
+      "doi": "10.3390/ma15082957",
+      "sha256": "eb0a9c154a47edac7082e85119d36445513100504d29ef24a08f4a5f8ab03271"
+    },
+    {
+      "doi": "10.3390/su14063141",
+      "sha256": "aefabc5c816a25f9783e5f5b53358a5c6148da2e70f979449ee165cebaa6bb40"
+    },
+    {
+      "doi": "10.3390/ma14226962",
+      "sha256": "1230500fc9f350a8236cdc98b80462bb78cbe393f5efccdb361ac590da4d84e4"
+    },
+    {
+      "doi": "10.3390/ma15010202",
+      "sha256": "990ac293ff2204fe79c38c0b2f29b25a60a3395ee2e9dd78fb8ccf804dd5b719"
+    },
+    {
+      "doi": "10.3390/su151813556",
+      "sha256": "1a524528bc02536cef2abc8448efcb27f7d0a206f3b241427cd9f537ab4bac1f"
+    },
+    {
+      "doi": "10.3390/ma14030511",
+      "sha256": "92bb21147e4587fb63a35520836ce826b74aba2e1b4b0ad1b69be1da19f49e16"
+    },
+    {
+      "doi": "10.3390/app12115478",
+      "sha256": "1633981cf2e6afd0c0a6ad3c353d948e66b3a9311b7937ca0b8fc8bcb9059820"
+    },
+    {
+      "doi": "10.3390/ma16227243",
+      "sha256": "0e443aeca19fcc5d19fe0dd789683a666f48c939d1491bc5aeedcbea37d8a748"
+    },
+    {
+      "doi": "10.3390/app10165610",
+      "sha256": "08bda470e95a787276f32c6c342787baae942b37d2163c6978b2cb40aa0be91b"
+    },
+    {
+      "doi": "10.3390/ma18194434",
+      "sha256": "028d9df1ded075851d08ae3554a8672a6d6b3cc3b447b63f33b1cc0968c6b5c5"
+    },
+    {
+      "doi": "10.3390/jcs8110450",
+      "sha256": "2267c3aa4c9095634611673286611a84c8b21eb61058da630e167d0f14d007bd"
+    },
+    {
+      "doi": "10.3390/polym13060985",
+      "sha256": "9b9e735df8cedc91b01c43096cecce4a773c1a3a0b13379052229bb7919bbde0"
+    },
+    {
+      "doi": "10.3390/su18104714",
+      "sha256": "5780cc7ce0433e1dcd507691d5e4b1d678b3b5d935a8e63ce911aa76f0228d11"
+    },
+    {
+      "doi": "10.3390/polym15071639",
+      "sha256": "20c62be9461625bef9da620c6c0f6d49f1a975d92b59f30ba1ba2640fc1849ec"
+    },
+    {
+      "doi": "10.3390/su16177243",
+      "sha256": "a593769eda46144b43aded762637eebbffdc906e50b10a7aed08a21ff2253c85"
+    },
+    {
+      "doi": "10.3390/ma18112536",
+      "sha256": "7037c3fb57c6673f2862d06031e51cfb3ad0712ea15eb0c8ca2bfefa00b6df9e"
+    },
+    {
+      "doi": "10.3390/ma17061298",
+      "sha256": "f87f5f13636a392ce67ee2af4dba13f734de5b88601b2ee09895cce55a8a846c"
+    },
+    {
+      "doi": "10.3390/constrmater2010001",
+      "sha256": "bba7f0b3e54eac9668e0a6683e9bb57e49c6a49b84955fa7616af5c7b3086b69"
+    },
+    {
+      "doi": "10.3390/polym14040703",
+      "sha256": "36d5f85e7c7c79569bb9b71c41a463874b20679258d55cf468e8636cbcb515af"
+    },
+    {
+      "doi": "10.3390/ma16134667",
+      "sha256": "7a2c6fcb01fa2ddcbf5a619752c16b7dac6c7fe3d0c365f365ffa2fdf1b4fba3"
+    },
+    {
+      "doi": "10.3390/ma19102004",
+      "sha256": "6021f14e95e60af886e6892f116bc7cbb82c441ee10a0ce3403c2f76b49982be"
+    },
+    {
+      "doi": "10.3390/ma17205045",
+      "sha256": "3c6476d2248ea5085d8e36fae1f07e6ea0dcc943601767084d7df65fd050041a"
+    },
+    {
+      "doi": "10.3390/app112211026",
+      "sha256": "2d6cfe5d7878800c2e6fddd2f133db66dad47dfa1ff95c3dec57feb9a2ce7e9c"
+    },
+    {
+      "doi": "10.3390/app112110443",
+      "sha256": "acc56763599caad9a913ace2dd9cdfcb9edbf21c3cb99c9a23143175f609e3d0"
+    },
+    {
+      "doi": "10.3390/app14219787",
+      "sha256": "0dae867206db63db1e562657bef987bb269fc4e9a82862a48267f616b032e4a0"
+    },
+    {
+      "doi": "10.3390/su12010118",
+      "sha256": "ef1dba6304f33a452c1f9ae37c6c98d0ecb6b160f69e99dea03bd851ea48af64"
+    },
+    {
+      "doi": "10.3390/ma12091459",
+      "sha256": "d7fdda184c69bc992d7376456647e2d1d4e63afeae264af8d04d116edc4acdb3"
+    },
+    {
+      "doi": "10.3390/ma15031008",
+      "sha256": "ac6153319514171e7d07b8b2760e5c9ba74088a7b03fa86637cf8742e955ccad"
+    },
+    {
+      "doi": "10.3390/ma13143215",
+      "sha256": "1bfbd9103f48f585fbe30415b5beb1f090d5bcdfa75db979c8b5081b274b1332"
+    },
+    {
+      "doi": "10.3390/ma13071750",
+      "sha256": "8d653d50287f03ab8f521ff05a5f7a41ec38ae7af343cc967157ce342adda9be"
+    },
+    {
+      "doi": "10.3390/ma13132919",
+      "sha256": "acbec0b8ead5b141a9e97a6b9a0b787551d72f9b5c4f961732d2adff95ca741a"
+    },
+    {
+      "doi": "10.3390/ma13040841",
+      "sha256": "23e14d6f93465c562d90a24f49ace4e25ca91af79e209b2d06625c0436003475"
+    },
+    {
+      "doi": "10.3390/eng3010005",
+      "sha256": "cca3c67a8f373884651240b17923652a03bd578005f06d40932eff3c9d43ccc8"
+    },
+    {
+      "doi": "10.3390/app13052997",
+      "sha256": "3819343dcf57eb7e2771eebc6494f9ef9bd01512a699dfacd82d6ee7ad774fa4"
+    },
+    {
+      "doi": "10.3390/ma17153647",
+      "sha256": "128be9fa820a1669777f9a34f8387a04ab624a34af0eafba17bc92b5126a38a6"
+    },
+    {
+      "doi": "10.3390/pr10091818",
+      "sha256": "104a2ac07d59898c34b629ab9141d1f2b69d08f052a175da294e732483f4fdbb"
+    },
+    {
+      "doi": "10.3390/buildings13051285",
+      "sha256": "079ff44f81efb4a1819683c79dde2a3686084fe5ebbb8c57d2535c11d977e71e"
+    },
+    {
+      "doi": "10.3390/ma17112509",
+      "sha256": "cc2555e4aabd013245b4a3a497203c6172dde4e04e34557c1aad8fd971b6062f"
+    },
+    {
+      "doi": "10.3390/ma17091944",
+      "sha256": "63bdb71b15fc96eca5805b2a258ee5995f9675703c6efb58599c9008046603b4"
+    },
+    {
+      "doi": "10.3390/min12091140",
+      "sha256": "e6be955b7544eac58f3e3e58f851f8c7a5c305e7f60f4f867eafbacadc30acaa"
+    },
+    {
+      "doi": "10.3390/buildings14030592",
+      "sha256": "3babb23ab7adabcb19ab33b8583f3d209d24fbf8a68eda859aeef27ecba96077"
+    },
+    {
+      "doi": "10.3390/jcs4020045",
+      "sha256": "3c068a400c51ef7f1ba050467f1a637805aef4d0618affe3fac76e638b79efab"
+    },
+    {
+      "doi": "10.3390/min13040475",
+      "sha256": "e70936651abce7802acd649235206a44f107288e4d32beea99610cde4404f467"
+    },
+    {
+      "doi": "10.3390/ma16103871",
+      "sha256": "ac3d057e40be3eb15a2d2a2d22ba934a04c366416416984012a99aa70540514b"
+    },
+    {
+      "doi": "10.3390/coatings13101731",
+      "sha256": "2be72768e702a9c24ece74bee95b1cc4f6b338ab103fe8e425c44fd434250c97"
+    },
+    {
+      "doi": "10.3390/coatings12111695",
+      "sha256": "56e0b9a1974e0634326e2c987a0c1f51949d7978ad5a2fbc772ac1f107de1b5a"
+    }
+  ],
+  "recipeCatalogHash": "079761128a81a7bf537a23d7fbba9e0418cecbb3f577da80bd68ba80a8fa0b9e",
+  "canonicalPilotHash": "04347b1e549f4dcf88d185fab5964b72edc67a10cd904e3ee0b2362b30e82387"
+}

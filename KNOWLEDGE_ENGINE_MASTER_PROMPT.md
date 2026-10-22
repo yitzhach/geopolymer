@@ -24,6 +24,12 @@ Preserve current URLs and IDs, the distinction between /library discovery record
 
 Read HANDOFF.md, this file, DECISIONS.md, RESEARCH_PUBLISHING.md, RESEARCH_ASSISTANT.md and RECIPE_DATABASE.md. Read README.md, PLATFORM_ROADMAP.md, SUPPLIER_DATA.md, LITERATURE_MIXES.md, PYRAMENT_RESEARCH.md and EXPERIMENT_NOTEBOOK.md as their features are touched. Follow applicable AGENTS.md instructions.
 
+For every detailed summary and deep dive, also apply `SUMMARY_DEEP_DIVE_STANDARD.md`:
+source-linked materials, quantities/bases, preparation, curing, specimens/tests,
+outcomes, goal-qualified comparisons and limitations, with explicit unknowns.
+Use the shared mix-data contract and exact-DOI catalog; section coverage is not
+completed scientific extraction or a reproduction protocol.
+
 Inspect catalog modules, schema contracts, assistant-core, routes, build scripts, tests, CI and Cloudflare configuration. Recount actual publications and formulations; the planning baseline is 61 references and 15 literature formulations, not a hardcoded future count. Record discrepancies without silently deleting existing records.
 
 Produce a brief architecture audit and implement Phase A below. Do not spend the session merely rewriting the plan. Inspect the existing daily research automation before adding or changing any schedule. Draft generation and public publication are separate actions.

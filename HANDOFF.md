@@ -1,5 +1,77 @@
 # Geopolymer — current handoff
 
+## Fifty more guides and universal mix-data standard — 21 October 2026
+- Owner requested the latest mix dataset for all deep dives where possible,
+  another 50 deep dives, and a standard for every future summary/deep dive.
+  Baseline: `7ed23d77a3a6af881760660e805e2d440471ad36`; initial workspace clean.
+- Exactly 50 new deep dives and matching three-paragraph summaries from existing
+  uncovered publications: **1000 papers / 311 detailed summaries / 312 guides**.
+  The preceding 262 guides and 261 summaries are unchanged by record SHA-256.
+  Publication identities and canonical pilots remain unchanged; baseline hashes
+  in depth200-baseline-2026-10-21.json. New summaries have 144–171 words before
+  lists, takeaways, limits, readers, original/guide links and source locators.
+- `mix-data-v1` now exposes eight fields on **every** guide and detailed summary:
+  materials, ingredient quantities/bases, preparation, curing, specimens/tests,
+  results, goal-qualified comparisons and limitations. Each has an explicit state,
+  source and locator. Missing values stay pending, held or not applicable; this
+  is universal field coverage, not universal recipe extraction. Both public JSON
+  exports join the same dataset. Ingredient/method search uses the shared fields.
+- `SUMMARY_DEEP_DIVE_STANDARD.md` is required by AGENTS.md. The shared builder,
+  renderer and build validator live in `src/mix-data-contract.js`. Tests reject
+  missing fields/provenance, source identity changes, invalid states and false
+  complete-protocol claims. Summaries reuse the guide dataset rather than
+  maintaining a separate recipe. Original paragraphs remain immutable.
+- Source notes in `src/depth200-source-notes.js` feed the new guides and partial
+  mix reviews. One guide is explicitly a synthesis/model of 80 earlier mixtures;
+  it has no newly invented physical batch. Two experimental guides still lack
+  actual condition quantities and are excluded from the weights/ratios filter.
+- Eleven bounded depth200 audits cover the 50 new papers: **80 search operations**,
+  ≤5 reviewed papers and ≤40 operations per batch. The thermal-aeration candidate
+  lacked usable primary text and was deferred; a recycled-gypsum source replaces
+  it in its own one-paper batch. No direct source opens, raw papers, abstracts,
+  complete tables/figures or supplements retained. Selected indexed primary AI
+  review only; no complete PDF/visual/human/domain/comprehensive status clearance.
+- One source-backed catalog extension: `acid-wastewater-mk-control`, 400 g MK /
+  1350 g river sand / 425 g potassium waterglass as supplied. Primary publisher
+  author CC BY 4.0 notice observed and recorded. Grade/assay, aggregate moisture,
+  exact cure environment, loading rate and full reproduction remain unresolved.
+  No inferred chemical/water fractions or numeric strength entered. Catalog now
+  **49 conditions / 37 proportional scalers**; old 48 records preserved by hash.
+- Five older queue-06 sources checked in mix-design-06 audit (nine searches):
+  four gained partial ledgers/methods. Calcium-hydroxide carbonation remains
+  pending full recipe extraction; a related MgO paper was rejected as a different
+  source. Existing failed-access notes checked first; no access bypass/retry loop.
+- Keep these source limits visible: adhesion versus hardness; MTOS bonding
+  penalty; nominal granite activator/energy errors; oxide versus atomic ratios;
+  liquid/solid labels conflicting with explicit masses; nitrite activator ratio
+  reversed between table/narrative; proprietary carbon-laminate matrix; differing
+  shrinkage clocks; failed underwater hardening; aggregate versus cement ECC;
+  fired leucite versus room-cured binder; model predictions versus measurements.
+- Explorer: **79 guides with weights/ratios** (8 with scalable conditions,
+  71 partial), 229 without an extracted quantity ledger, 1 correction hold and
+  3 without independent physical experiments. Packet review states: 9 source-mix
+  with gaps / 72 partial / **227 source-review-needed** / 1 hold / 3 no-independent.
+  Every protocolComplete remains false. The unfinished task is source extraction,
+  not adding more section headings. Continue pending and partial records; offline
+  queue-07 lists the next five. Queue-06 is historical, including one still-pending
+  calcium-hydroxide recipe; check its identity-only result before repeating access.
+- Original library/research-update publications lacked study pages. Added 22
+  reading-only study routes using their stable library IDs and existing metadata,
+  without adding canonical publications or implying numerical extractions.
+  Build now emits **1360 routes** including the 50 guides and one recipe route.
+- All **148 Node cases**, schema and 1360-route build pass. Full 312-guide
+  browser sweep passes desktop/mobile with and without JavaScript, including
+  all eight dataset fields, source links, native disclosures, scaling and JSON.
+  New cohort: all 100 guide/study routes pass in those four contexts. All 311
+  summaries, explorer filters/comparisons and literature catalog/scaling/export
+  browser suites pass. New cohort browser suite included in CI; existing suites
+  account for nested native dataset disclosures and additional source links.
+  Research navigation, library filters, article routes, database export and
+  RSS/JSON browser checks also pass. Remote main reverified at the baseline
+  before release; commit/push verification follows the owner’s standing authorization.
+- Canonical pilots stay **5 partial studies / 62 mixes / 275 observations**.
+  OpenAlex on hold, daily automation unchanged; no schedules added or modified.
+
 ## Searchable deep-dive mix explorer — 21 October 2026
 - Owner requested organization by mix availability, clear materials/weights/ratios,
   fast search and cross-study comparisons. Baseline local/remote main verified

@@ -1,5 +1,20 @@
 # Recipe database and future formulation advisor
 
+## 21 October 2026 — shared dataset and one closed source ledger
+
+The eight-field mix-data standard now appears on all 312 guides and 311 detailed
+summaries. Seventy-nine guides have weights/ratios, including eight linked to
+scalable proportions; pending quantities, source conflicts and model-only inputs
+remain distinct. All protocols remain partial. Four older guides and the fifty
+new guides gain selected source context without invented batches.
+
+The catalog adds `acid-wastewater-mk-control`: 400 g MK, 1350 g sand and 425 g
+potassium waterglass solution, as supplied. Primary CC BY 4.0 notice observed.
+Missing assays/grades, moisture and procedure details are not inferred; no
+numerical strength added. Catalog 49 records / 37 scalers, prior 48 preserved.
+SUMMARY_DEEP_DIVE_STANDARD.md is the future editorial contract. HANDOFF.md governs
+the remaining extraction queue and release evidence; canonical pilots stay 5/62/275.
+
 ## 21 October 2026 — deep-dive ingredient search and comparisons
 
 `/deep-dives` groups 7 guides with scalable proportions and 21 with partial

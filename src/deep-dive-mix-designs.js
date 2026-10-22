@@ -2,6 +2,9 @@ import {deepDives} from './deep-dives.js';
 import {literatureMixes} from './literature-mixes.js';
 import {mixDesignReview04} from './mix-design-review-04.js';
 import {mixDesignReview05} from './mix-design-review-05.js';
+import {mixDesignReview06} from './mix-design-review-06.js';
+import {depth200MixReviews} from './deep-dive-depth200-expansion.js';
+import {buildMixDataSet,validateMixDataSet} from './mix-data-contract.js';
 const doiOf=r=>(r.doi||r.url?.match(/10\.\d+\/[^?# ]+/)?.[0]||'').toLowerCase();
 const criterion=(property,ageHours)=>({property,ageHours});
 const selections={
@@ -69,6 +72,8 @@ const make=d=>{
  };
 };
 const partialReviews={
+ ...mixDesignReview06,
+ ...depth200MixReviews,
  ...mixDesignReview04,
  ...mixDesignReview05,
 "one-part-admixture-compatibility":{
@@ -254,7 +259,7 @@ const partialReviews={
   gaps:['Complete liquid ledger and mixing procedure unresolved; no scaling.','§4.1 blend attribution conflicts with Table 4; use named table rows provisionally and reconcile before replication.']
  }
 };
-export const deepDiveMixDesigns=deepDives.map(d=>{const p=make(d),review=partialReviews[d.id];return review?{...p,status:'partial-source-design',reviewBasis:'Selected primary methods and comparison rows reviewed by AI; ingredient ledger and protocol remain partial.',partialReview:review,missing:[...review.gaps,...d.holds]}:p;});
+export const deepDiveMixDesigns=deepDives.map(d=>{const p=make(d),review=partialReviews[d.id];const packet=review?{...p,status:p.recipeIds.length?'source-mix-with-gaps':'partial-source-design',reviewBasis:'Selected primary methods and comparison rows reviewed by AI; ingredient ledger and protocol remain partial.',partialReview:review,missing:[...review.gaps,...d.holds]}:p;return {...packet,dataSet:buildMixDataSet(packet,d,relatedMixes(d))};});
 export const mixDesignFor=id=>deepDiveMixDesigns.find(p=>p.guideId===id)||null;
 export function mixVariant(id){return literatureMixes.find(r=>r.id===id)||null;}
 export function proportionalExample(r,total=1000){
@@ -269,6 +274,7 @@ export function validateMixDesigns(records,guides){
  for(const p of records){const d=guides.find(d=>d.id===p.guideId);if(!d||d.doi!==p.doi||seen.has(p.guideId))throw Error('Mix design identity mismatch.');seen.add(p.guideId);
   if(!['source-hold','no-independent-mix','source-mix-with-gaps','source-review-needed','partial-source-design'].includes(p.status))throw Error('Invalid mix-design status.');
   if(p.protocolComplete!==false)throw Error('No complete protocol has been verified in this audit.');
+  validateMixDataSet(p.dataSet,d);
   if(!p.missing.length||!/^https:\/\//.test(p.source))throw Error('Missing protocol limits or source.');
   for(const id of p.recipeIds){const r=mixVariant(id);if(!r||doiOf(r)!==p.doi.toLowerCase())throw Error('Recipe/source mismatch.');}
   if(p.selection)for(const c of p.selection.choices){const r=mixVariant(c.recipeId);if(!p.recipeIds.includes(c.recipeId)||(!c.criterion?!c.basis:!r?.results.some(x=>x.property===c.criterion.property&&x.ageHours===c.criterion.ageHours)))throw Error('Unsupported selection endpoint.');}

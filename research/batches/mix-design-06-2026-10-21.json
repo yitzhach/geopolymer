@@ -1,0 +1,102 @@
+{
+  "id": "mix-design-06",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "id": "waste-foam-precursor-foamer",
+      "title": "Geopolymer Foam with Low Thermal Conductivity Based on Industrial Waste",
+      "doi": "10.3390/ma17246143",
+      "source": "https://www.mdpi.com/1996-1944/17/24/6143",
+      "status": "partial-source-design",
+      "protocolComplete": false,
+      "recipeIds": [],
+      "locator": "§§2.1–2.3, 3.6; conclusions"
+    },
+    {
+      "id": "pva-egc-tension-versus-model",
+      "title": "Mechanical Properties and Stress–Strain Relationship of PVA-Fiber-Reinforced Engineered Geopolymer Composite",
+      "doi": "10.3390/polym16121685",
+      "source": "https://www.mdpi.com/2073-4360/16/12/1685",
+      "status": "partial-source-design",
+      "protocolComplete": false,
+      "recipeIds": [],
+      "locator": "§§2.1–2.3 / Table 4"
+    },
+    {
+      "id": "epoxy-silane-shrinkage-bases",
+      "title": "Enhancing Volumetric Stability of Metakaolin-Based Geopolymer Composites with Organic Modifiers WER and SCA",
+      "doi": "10.3390/buildings14030586",
+      "source": "https://www.mdpi.com/2075-5309/14/3/586",
+      "status": "partial-source-design",
+      "protocolComplete": false,
+      "recipeIds": [],
+      "locator": "§§2.1–2.3 / Table 2; §4 conclusions"
+    },
+    {
+      "id": "calcium-hydroxide-carbonation-tradeoff",
+      "title": "Modification Effect of Ca(OH)2 on the Carbonation Resistance of Fly Ash-Metakaolin-Based Geopolymer",
+      "doi": "10.3390/ma16062305",
+      "source": "https://www.mdpi.com/1996-1944/16/6/2305",
+      "status": "source-review-needed",
+      "protocolComplete": false,
+      "recipeIds": [],
+      "locator": "Primary abstract only; recipe extraction still pending"
+    },
+    {
+      "id": "printing-side-stream-process-window",
+      "title": "Printing Parameter Requirements for 3D Printable Geopolymer Materials Prepared from Industrial Side Streams",
+      "doi": "10.3390/ma14164758",
+      "source": "https://www.mdpi.com/1996-1944/14/16/4758",
+      "status": "partial-source-design",
+      "protocolComplete": false,
+      "recipeIds": [],
+      "locator": "§§2.1–2.2 / Tables 2–3; §4 conclusions"
+    }
+  ],
+  "operations": [
+    {
+      "kind": "search",
+      "query": "\"Geopolymer Foam with Low Thermal Conductivity Based on Industrial Waste\" \"Materials\" \"Methods\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Mechanical Properties and Stress–Strain Relationship of PVA-Fiber-Reinforced Engineered Geopolymer Composite\" \"Materials\" \"Methods\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Enhancing Volumetric Stability of Metakaolin-Based Geopolymer Composites with Organic Modifiers WER and SCA\" \"Materials\" \"Methods\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Modification Effect of Ca(OH)2 on the Carbonation Resistance of Fly Ash-Metakaolin-Based Geopolymer\" \"Materials\" \"Methods\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Printing Parameter Requirements for 3D Printable Geopolymer Materials Prepared from Industrial Side Streams\" \"Materials\" \"Methods\""
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma17246143\" \"3.6\" \"hydrogen\""
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma16062305\" \"Table 2\""
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma14164758\" \"Table 3\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Modification Effect of Ca(OH)2\" \"Carbonation\""
+    }
+  ],
+  "operationCount": 9,
+  "rawSourceRetained": false,
+  "newRecipes": 0,
+  "newCanonicalObservations": 0,
+  "access": "Prior failed-access records checked; no direct page opens or access bypass. A related MgO source surfaced for the Ca(OH)2 query and was rejected as a different DOI.",
+  "rights": "Original brief selected factual notes only. Exact version/license not newly cleared; no raw source or full tables retained.",
+  "reviewer": "AI indexed primary text, partial review; no independent validation",
+  "unfinished": "Ca(OH)2 primary identity/outcome confirmed but no ingredient quantities reconciled; remains pending."
+}

@@ -21,7 +21,7 @@ test('500-publication milestone preserves 400 identities and reconciles four bou
   assert.ok(reconcileBatch(imported,a.records).events.every(e=>e.status==='unchanged'));
  }
  for(const p of knowledgeExpansion500){assert.equal(p.extraction,'unstarted');assert.equal(p.datasetFamilyId,null);assert.ok(!p.summary&&!p.abstract&&!p.observations);assert.match(p.metadataSource,/^https:/);assert.ok(p.metadataLocator&&p.rights.basis);assert.equal(filterLibrary(p.doi).length,1);assert.equal(renderPage('/studies/'+p.id).status,200);}
- assert.equal(pilot.studies.length,5);assert.equal(pilot.mixes.length,62);assert.equal(pilot.observations.length,275);assert.equal(literatureMixes.length,48);
+ assert.equal(pilot.studies.length,5);assert.equal(pilot.mixes.length,62);assert.equal(pilot.observations.length,275);assert.equal(literatureMixes.length,49);
 });
 test('fifteen editorial guides resolve exclusively to the new sources without becoming executable recipes',()=>{
  assert.equal(expansion500DeepDives.length,15);

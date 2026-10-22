@@ -1,0 +1,44 @@
+{
+  "id": "depth200-11",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "ke-b17-002",
+      "doi": "10.3390/inorganics11070298",
+      "deepDiveId": "recycled-gypsum-shrinkage-components",
+      "source": "https://doi.org/10.3390/inorganics11070298",
+      "locator": "§§3.1–3.3 / Table 2; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Resolve activator reversal, full masses and water-content definition before weighing.",
+        "No automatic total-shrinkage benefit or universal gypsum dose recommended."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "index": 48,
+      "batch": 11,
+      "kind": "search",
+      "query": "\"The Mechanical Properties of Geopolymers from Different Raw Materials and the Effect of Recycled Gypsum\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 48,
+      "batch": 11,
+      "kind": "search",
+      "query": "\"The Mechanical Properties of Geopolymers from Different Raw Materials and the Effect of Recycled Gypsum\" \"Materials\" \"Table 2\""
+    }
+  ],
+  "operationCount": 2,
+  "deferred": [],
+  "newBibliographyRecords": 0,
+  "newRecipes": 0,
+  "newCanonicalObservations": 0,
+  "rawSourceRetained": false,
+  "rights": "Original selected factual notes and independent editorial guidance only; exact full-text version/license not newly cleared. No raw articles, abstracts, whole tables, figures or supplements retained.",
+  "reviewer": "AI selected indexed primary text; no full PDF/visual, human/domain, comprehensive status or independent replication review",
+  "openAlex": "On hold; unused"
+}

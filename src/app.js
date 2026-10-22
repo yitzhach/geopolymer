@@ -2,13 +2,13 @@ import {attachDeepDiveExplorer} from './deep-dive-explorer.js';
 import {deepDives} from './deep-dives.js';
 import {deepDiveIndex,deepDivePage} from './deep-dive-ui.js';
 import {knowledgeReferences} from './knowledge-references.js';
-import {knowledgePage,studyPage,attachKnowledge} from './knowledge-ui.js';
+import {knowledgePage,studyPage,libraryStudyPage,attachKnowledge} from './knowledge-ui.js';
 import { journalArticles } from './journal-data.js';
 import { journalPage,journalDetail,attachJournal } from './journal.js';
 import {literatureMixes} from './literature-mixes.js';
 import {mixCards,mixDetail,attachMix} from './literature-ui.js';
 import { calculatorPage, attachCalculator } from "./gp-calculator.js";
-import { libraryPage, attachLibrary } from "./research-library.js";
+import { library, libraryPage, attachLibrary } from "./research-library.js";
 import {researchTopics} from './research-topics.js';
 import {researchTopicPage} from './research-topic-ui.js';
 import { platformPage, attachPlatform } from "./platform.js";
@@ -372,7 +372,7 @@ export function renderPage(url = "/") {
     ) + link("/search", "Search the platform", "button");
   switch (area) {
     case "knowledge": html=knowledgePage(); title="Experimental evidence search"; break;
-    case "studies": {const p=knowledgeReferences.find(p=>p.id===id); html=p?studyPage(p):notFound();title=p?.title||"Study not found";break;}
+    case "studies": {const p=knowledgeReferences.find(p=>p.id===id),fallback=!p&&library.find(p=>p.id===id); html=p?studyPage(p):fallback?libraryStudyPage(fallback):notFound();title=(p||fallback)?.title||"Study not found";break;}
     case "calculator": html=calculatorPage(); title="GP calculator"; break;
     case "library": html=libraryPage(); title="Research Library"; break;
     case "journal": { const article=journalArticles.find(p=>p.id===id); html=id?(article?journalDetail(article):notFound()):journalPage(); title=article?.title||"GP Journal · Magazine & podcast"; break; }

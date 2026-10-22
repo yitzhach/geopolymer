@@ -1,0 +1,152 @@
+{
+  "id": "depth200-01",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "library-1",
+      "doi": "10.3390/coatings16070752",
+      "deepDiveId": "mtos-hydrophobic-coating-dose",
+      "source": "https://doi.org/10.3390/coatings16070752",
+      "locator": "§§2.1–2.7; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full precursor/activator masses and active modifier water accounting unresolved.",
+        "Do not treat 8% as a universal optimum or isolate the proposed chemical mechanism."
+      ]
+    },
+    {
+      "publicationId": "library-2",
+      "doi": "10.3390/coatings16070825",
+      "deepDiveId": "mk-coating-activator-window",
+      "source": "https://doi.org/10.3390/coatings16070825",
+      "locator": "§2.2.1 / Table 4; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full mass ledger, silicate assay and result uncertainty unresolved.",
+        "Long-term durability and finer ratio increments remain untested here."
+      ]
+    },
+    {
+      "publicationId": "library-3",
+      "doi": "10.3390/su18104754",
+      "deepDiveId": "granite-microwave-foam-ledger",
+      "source": "https://doi.org/10.3390/su18104754",
+      "locator": "§§2.1–2.2; §5 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "560 g NaOH in one liter water does not establish final-volume 14 M stock; source concentration remains unverified.",
+        "Full activator split, thermal history and energy units unresolved; no scalable recipe."
+      ]
+    },
+    {
+      "publicationId": "library-4",
+      "doi": "10.3390/ceramics9070071",
+      "deepDiveId": "fayalite-phosphate-foam-balance",
+      "source": "https://doi.org/10.3390/ceramics9070071",
+      "locator": "§2 methods; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full gas-former/water ledger, curing and numerical condition mapping unresolved.",
+        "Thermal stability is not a rated fire assembly or complete source protocol."
+      ]
+    },
+    {
+      "publicationId": "library-5",
+      "doi": "10.3390/ma19010012",
+      "deepDiveId": "foam-weathering-insulation-loss",
+      "source": "https://doi.org/10.3390/ma19010012",
+      "locator": "§§2.1–2.4; carbonation findings",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full masses, additive dose denominators and disputed activator ratio unresolved.",
+        "No cross-exposure lifetime prediction or complete reproduction protocol."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "index": 0,
+      "batch": 1,
+      "kind": "search",
+      "query": "\"Preparation and Anti-Corrosion Properties of Hydrophobic Geopolymer Coatings\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 1,
+      "batch": 1,
+      "kind": "search",
+      "query": "\"Activator-to-Binder Ratio–Driven Microstructural and Interfacial Performance Optimization of Metakaolin-Based Geopolymer Coatings\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 2,
+      "batch": 1,
+      "kind": "search",
+      "query": "\"Rapidly Synthesized Microwave-Sintered Geopolymer Foam Utilizing Granite Waste: A Sustainable Approach for High-Performance Construction Materials\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 3,
+      "batch": 1,
+      "kind": "search",
+      "query": "\"Phosphate-Activated Fayalite-Based Geopolymer Foam\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 4,
+      "batch": 1,
+      "kind": "search",
+      "query": "\"Thermal Insulation and Compressive Strength of Lightweight Geopolymer Foam Concrete Exposed to Accelerated Weathering by Carbonation, Salt Fog and UV Light\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 0,
+      "batch": 1,
+      "kind": "search",
+      "query": "\"Preparation and Anti-Corrosion Properties of Hydrophobic Geopolymer Coatings\" \"Conclusions\" \"Table 2\""
+    },
+    {
+      "index": 1,
+      "batch": 1,
+      "kind": "search",
+      "query": "\"Activator-to-Binder Ratio–Driven Microstructural and Interfacial Performance Optimization of Metakaolin-Based Geopolymer Coatings\" \"Conclusions\" \"Table 2\""
+    },
+    {
+      "index": 2,
+      "batch": 1,
+      "kind": "search",
+      "query": "\"Rapidly Synthesized Microwave-Sintered Geopolymer Foam Utilizing Granite Waste: A Sustainable Approach for High-Performance Construction Materials\" \"Conclusions\" \"Table 2\""
+    },
+    {
+      "index": 3,
+      "batch": 1,
+      "kind": "search",
+      "query": "\"Phosphate-Activated Fayalite-Based Geopolymer Foam\" \"Conclusions\" \"Table 2\""
+    },
+    {
+      "index": 4,
+      "batch": 1,
+      "kind": "search",
+      "query": "\"Thermal Insulation and Compressive Strength of Lightweight Geopolymer Foam Concrete Exposed to Accelerated Weathering by Carbonation, Salt Fog and UV Light\" \"Conclusions\" \"Table 2\""
+    }
+  ],
+  "operationCount": 10,
+  "deferred": [],
+  "newBibliographyRecords": 0,
+  "newRecipes": 0,
+  "newCanonicalObservations": 0,
+  "rawSourceRetained": false,
+  "rights": "Original selected factual notes and independent editorial guidance only; exact full-text version/license not newly cleared. No raw articles, abstracts, whole tables, figures or supplements retained.",
+  "reviewer": "AI selected indexed primary text; no full PDF/visual, human/domain, comprehensive status or independent replication review",
+  "openAlex": "On hold; unused"
+}

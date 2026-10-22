@@ -7,10 +7,10 @@ const materialRules=[['fly-ash','Fly ash',/fly ash|\bFA\b/i],['slag','Slag',/sla
 export const mixMaterials=materialRules.map(([id,label])=>({id,label}));
 export const deepDiveEntries=deepDives.map(guide=>{
  const packet=mixDesignFor(guide.id),recipes=packet.recipeIds.map(mixVariant);
- const readiness=packet.status==='source-hold'?'hold':packet.status==='no-independent-mix'?'analysis':recipes.some(r=>r.scalable)?'scalable':recipes.length||packet.partialReview?'partial':'pending';
- const ledgerText=[...recipes.flatMap(r=>r.ingredients.map(x=>x.name)),...(packet.partialReview?.ledger||[]).flat()].join(' ');
+ const readiness=packet.status==='source-hold'?'hold':packet.status==='no-independent-mix'?'analysis':recipes.some(r=>r.scalable)?'scalable':recipes.length||(packet.partialReview&&packet.partialReview.hasQuantities!==false)?'partial':'pending';
+ const ledgerText=[...recipes.flatMap(r=>r.ingredients.map(x=>x.name)),packet.partialReview?.materials||'',...(packet.partialReview?.ledger||[]).flat()].join(' ');
  const materials=materialRules.filter(([, ,re])=>re.test(ledgerText)).map(([id])=>id);
- const search=[guide.title,guide.sourceTitle,guide.doi,guide.citation,guide.summary,ledgerText,...recipes.map(r=>[r.title,r.basis,r.preparation,r.curing,r.method,r.summary].join(' ')),packet.partialReview?.notes,packet.partialReview?.testing].join(' ').toLowerCase();
+ const search=[guide.title,guide.sourceTitle,guide.doi,guide.citation,guide.summary,ledgerText,...recipes.map(r=>[r.title,r.basis,r.preparation,r.curing,r.method,r.summary].join(' ')),packet.partialReview?.notes,packet.partialReview?.testing,...packet.dataSet.fields.map(f=>[f.text,...f.rows.flat()].join(' '))].join(' ').toLowerCase();
  return {id:guide.id,guide,packet,recipes,readiness,materials,search};
 });
 export function filterDeepDives({query='',readiness='',material=''}={}){

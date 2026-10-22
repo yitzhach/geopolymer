@@ -1,0 +1,134 @@
+{
+  "id": "depth200-04",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "research-tensile-curing",
+      "doi": "10.3390/civileng7040066",
+      "deepDiveId": "egc-thermal-cure-tensile-clock",
+      "source": "https://doi.org/10.3390/civileng7040066",
+      "locator": "§§2.1–2.3; Table 3; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": false,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Complete source blend, activator, water and fiber ledger remains unresolved.",
+        "Extract group-specific replicate counts and uncertainty before selecting a cure optimum."
+      ]
+    },
+    {
+      "publicationId": "research-ceramic-activator",
+      "doi": "10.3390/buildings16193834",
+      "deepDiveId": "ceramic-dry-activator-screening",
+      "source": "https://doi.org/10.3390/buildings16193834",
+      "locator": "§§2.1–2.4; §5 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Complete condition-specific dry-activator and mortar masses, water and cure unresolved.",
+        "Taguchi main effects do not establish a globally optimized practical mortar."
+      ]
+    },
+    {
+      "publicationId": "research-volcanic-graphene",
+      "doi": "10.3390/polym18192322",
+      "deepDiveId": "volcanic-graphene-ratio-conflict",
+      "source": "https://doi.org/10.3390/polym18192322",
+      "locator": "§§2.1–2.3 / Table 1; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "L/S labels conflict with masses for several reference mixes; reconcile before scaling.",
+        "Complete specimen/testing and graphene-dispersion protocols remain partial."
+      ]
+    },
+    {
+      "publicationId": "research-red-mud-composites",
+      "doi": "10.3390/polym18182271",
+      "deepDiveId": "red-mud-egc-strength-ductility",
+      "source": "https://doi.org/10.3390/polym18182271",
+      "locator": "§§2.1–2.3 / Table 2; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Ten named mix ledgers, solution masses and retarder denominator not fully extracted.",
+        "Do not select a universal winner from compression alone."
+      ]
+    },
+    {
+      "publicationId": "research-brick-thermal",
+      "doi": "10.3390/ma19183890",
+      "deepDiveId": "brick-mk-waste-thermal-tradeoff",
+      "source": "https://doi.org/10.3390/ma19183890",
+      "locator": "§§2.1–2.3; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Complete solids/solution/water masses, curing and thermal-exposure mapping unresolved.",
+        "No source recipe scaling or isolated Si/Al mechanism claimed."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "index": 15,
+      "batch": 4,
+      "kind": "search",
+      "query": "\"The Preparation of the Engineered Geopolymer Composites and Their Tensile Strain Capacity Research\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 16,
+      "batch": 4,
+      "kind": "search",
+      "query": "\"Ceramic Waste Powder-Derived Dry Activator for Sustainable One-Part Fly Ash-Based Geopolymer Mortars\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 17,
+      "batch": 4,
+      "kind": "search",
+      "query": "\"Sustainable Graphene-Reinforced Geopolymer Composites Derived from Recycled Volcanic Ash: Matrix Optimization, Characterization, and Photoluminescent Proof-of-Concept\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 18,
+      "batch": 4,
+      "kind": "search",
+      "query": "\"A Study on the Mechanical Properties of Engineered Geopolymer Composites Based on Red Mud, Fly Ash, and Slag\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 19,
+      "batch": 4,
+      "kind": "search",
+      "query": "\"High-Temperature Behavior and Mechanical Performance of Ceramic Brick and Metakaolin Waste Based-Geopolymer Binder\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 15,
+      "batch": 4,
+      "kind": "search",
+      "query": "\"10.3390/civileng7040066\" \"2.2\""
+    },
+    {
+      "index": 16,
+      "batch": 4,
+      "kind": "search",
+      "query": "\"10.3390/buildings16193834\" \"2.4.\""
+    }
+  ],
+  "operationCount": 7,
+  "deferred": [],
+  "newBibliographyRecords": 0,
+  "newRecipes": 0,
+  "newCanonicalObservations": 0,
+  "rawSourceRetained": false,
+  "rights": "Original selected factual notes and independent editorial guidance only; exact full-text version/license not newly cleared. No raw articles, abstracts, whole tables, figures or supplements retained.",
+  "reviewer": "AI selected indexed primary text; no full PDF/visual, human/domain, comprehensive status or independent replication review",
+  "openAlex": "On hold; unused"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "depth200-06",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "ke-b15-006",
+      "doi": "10.3390/su12103967",
+      "deepDiveId": "bof-radiative-coating-layers",
+      "source": "https://doi.org/10.3390/su12103967",
+      "locator": "§§2.1–2.2 / Tables 2–4; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Reconcile liquid/powder wording, complete layer recipes, thickness and exposure conditions.",
+        "No climate-independent cooling guarantee or isolated interface mechanism."
+      ]
+    },
+    {
+      "publicationId": "ke-b15-008",
+      "doi": "10.3390/min13080999",
+      "deepDiveId": "waste-form-rheology-vicat-clock",
+      "source": "https://doi.org/10.3390/min13080999",
+      "locator": "§§2.1–2.3 / Tables 1–2; §5 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full simulated-waste composition, solution masses and all mortar proportions unresolved.",
+        "No radioactive retention/safety or complete process acceptance inferred from rheology."
+      ]
+    },
+    {
+      "publicationId": "ke-b15-009",
+      "doi": "10.3390/min13070857",
+      "deepDiveId": "pozzolan-cure-mixed-alkali-mortar",
+      "source": "https://doi.org/10.3390/min13070857",
+      "locator": "§§2.1–2.2 / Table 5; strength/durability discussion",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full condition masses, absorbed water and stock identity unresolved.",
+        "Mechanical test clocks and solution renewal details need condition-level reconciliation."
+      ]
+    },
+    {
+      "publicationId": "ke-b15-011",
+      "doi": "10.3390/coatings7120233",
+      "deepDiveId": "titania-mk-liquid-dependent-gains",
+      "source": "https://doi.org/10.3390/coatings7120233",
+      "locator": "§§2.1–2.3 / Table 2; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full solution/free-water masses and additive denominator need confirmation.",
+        "Loading rate, uncertainty and complete condition results still partial."
+      ]
+    },
+    {
+      "publicationId": "ke-b15-016",
+      "doi": "10.3390/min8090411",
+      "deepDiveId": "soil-flyash-onepart-acid-aging",
+      "source": "https://doi.org/10.3390/min8090411",
+      "locator": "§§2.3–2.5; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Water denominator, moisture, cure environment and leaching limits unresolved.",
+        "Do not convert UCS of compacted soil into structural mortar strength."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "index": 25,
+      "batch": 6,
+      "kind": "search",
+      "query": "\"Utilization of Basic Oxygen Furnace Slag in Geopolymeric Coating for Passive Radiative Cooling Application\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 26,
+      "batch": 6,
+      "kind": "search",
+      "query": "\"Rheology, Setting, Heat of Reaction, and Compressive Strength of a Geopolymer Radioactive Waste Form\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 27,
+      "batch": 6,
+      "kind": "search",
+      "query": "\"Strength Development and Durability of Metakaolin Geopolymer Mortars Containing Pozzolans under Different Curing Conditions\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 28,
+      "batch": 6,
+      "kind": "search",
+      "query": "\"Metakaolin-Based Geopolymer with Added TiO2 Particles: Physicomechanical Characteristics\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 29,
+      "batch": 6,
+      "kind": "search",
+      "query": "\"Chemical Stability and Leaching Behavior of One-Part Geopolymer from Soil and Coal Fly Ash Mixtures\" \"Materials\" \"Methods\""
+    }
+  ],
+  "operationCount": 5,
+  "deferred": [],
+  "newBibliographyRecords": 0,
+  "newRecipes": 0,
+  "newCanonicalObservations": 0,
+  "rawSourceRetained": false,
+  "rights": "Original selected factual notes and independent editorial guidance only; exact full-text version/license not newly cleared. No raw articles, abstracts, whole tables, figures or supplements retained.",
+  "reviewer": "AI selected indexed primary text; no full PDF/visual, human/domain, comprehensive status or independent replication review",
+  "openAlex": "On hold; unused"
+}

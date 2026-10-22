@@ -1,5 +1,22 @@
 # Research database and GP Journal
 
+## 21 October 2026 — universal mix data and fifty further reading guides
+
+All 312 deep dives and 311 detailed summaries expose the shared eight-field
+`mix-data-v1` dataset, with source/locator and explicit pending/held states.
+SUMMARY_DEEP_DIVE_STANDARD.md governs future additions and is required by
+AGENTS.md. Fifty new pairs use existing library identities, with eleven bounded
+audits and 80 search operations; no prior guides or paragraphs changed. Four
+older sources also gain partial mix ledgers through a five-paper/nine-query
+review. No raw sources, complete tables or figures retained; no complete protocol.
+
+One rights-recorded closed mass ledger extends the existing recipe catalog to
+49/37 scalable, preserving the previous 48 records. Its CC BY 4.0 evidence is
+recorded; remaining grade/method gaps remain visible. The other new notes retain
+partial license/version review. The ANN synthesis is not a new physical dataset.
+Canonical pilot counts stay 5/62/275 and bibliography stays 1000. HANDOFF.md records
+remaining source extraction, exact counts, tests and publication status.
+
 ## 21 October 2026 — searchable deep-dive mix designs
 
 Deep dives now group guides by ingredient-ledger readiness and support search,

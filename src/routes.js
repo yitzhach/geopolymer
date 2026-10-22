@@ -10,6 +10,7 @@ export const routes = [
   '/deep-dives', ...deepDives.map(d=>'/deep-dives/'+d.id),
   ...researchTopics.map(t=>'/research/'+t.id),
   '/knowledge', ...knowledgeReferences.map(p=>'/studies/'+p.id),
+  ...[...new Set(deepDives.map(d=>d.relatedStudy).filter(path=>path&&!knowledgeReferences.some(p=>path==='/studies/'+p.id)))],
   '/', '/learn', '/learn/beginners', '/learn/educators', '/artists',
   '/materials', '/research', '/discover', '/library', '/formulations',
   '/shop', '/tools', '/calculator', '/workspace', '/supply', '/review',

@@ -1,0 +1,82 @@
+{
+  "id": "mix-design-queue-07",
+  "date": "2026-10-21",
+  "review": "Offline queue only. Read mix-design-06 and prior failed-access records before requests; not new primary evidence.",
+  "records": [
+    {
+      "id": "calcium-hydroxide-carbonation-tradeoff",
+      "doi": "10.3390/ma16062305",
+      "source": "https://www.mdpi.com/1996-1944/16/6/2305",
+      "title": "Modification Effect of Ca(OH)2 on the Carbonation Resistance of Fly Ash-Metakaolin-Based Geopolymer",
+      "nextChecks": [
+        "Complete condition-specific ingredient quantities and their mass/volume denominators have not been extracted for a reproducible batch.",
+        "Activator identity, concentration, solution-water contribution and any additive quantities need condition-level reconciliation.",
+        "Preparation, material grades, specimen geometry, curing, test age and comparison results need a full protocol check.",
+        "Source chronology around demolding/continued curing needs reconciliation before an exact total-age assignment.",
+        "Printed equation and explanatory prose conflict; fitted coefficients are not imported as canonical observations. Full individual-result uncertainty remains pending.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "sfcc-phosphate-acid-window",
+      "doi": "10.3390/gels8020130",
+      "source": "https://www.mdpi.com/2310-2861/8/2/130",
+      "title": "Structure and Properties of Phosphate-Based Geopolymer Synthesized with the Spent Fluid Catalytic-Cracking (SFCC) Catalyst",
+      "nextChecks": [
+        "Complete condition-specific ingredient quantities and their mass/volume denominators have not been extracted for a reproducible batch.",
+        "Activator identity, concentration, solution-water contribution and any additive quantities need condition-level reconciliation.",
+        "Preparation, material grades, specimen geometry, curing, test age and comparison results need a full protocol check.",
+        "Complete solution/solid ratio, ingredient masses, geometry, testing rate and uncertainty remain unextracted.",
+        "Catalyst chemistry and acid activation prevent direct transfer of sodium/potassium geopolymer recipe rules.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "foam-polystyrene-fire-assembly",
+      "doi": "10.3390/polym14101945",
+      "source": "https://www.mdpi.com/2073-4360/14/10/1945",
+      "title": "Fire Resistance of Geopolymer Foams Layered on Polystyrene Boards",
+      "nextChecks": [
+        "Complete condition-specific ingredient quantities and their mass/volume denominators have not been extracted for a reproducible batch.",
+        "Activator identity, concentration, solution-water contribution and any additive quantities need condition-level reconciliation.",
+        "Preparation, material grades, specimen geometry, curing, test age and comparison results need a full protocol check.",
+        "Activator composition, foamer dose, full cure and uncertainty are unresolved. The printed percentage-density phrase remains a source inconsistency.",
+        "The 1000 s claim cannot be generalized beyond the studied assembly and its failure criterion; no fire certification is implied.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "masonry-fiber-material-versus-structure",
+      "doi": "10.3390/polym15041017",
+      "source": "https://www.mdpi.com/2073-4360/15/4/1017",
+      "title": "Enhancing the Mechanical Properties of Historical Masonry Using Fiber-Reinforced Geopolymers",
+      "nextChecks": [
+        "Complete condition-specific ingredient quantities and their mass/volume denominators have not been extracted for a reproducible batch.",
+        "Activator identity, concentration, solution-water contribution and any additive quantities need condition-level reconciliation.",
+        "Preparation, material grades, specimen geometry, curing, test age and comparison results need a full protocol check.",
+        "Complete mix factors, fiber doses/geometries, cure/test protocols and uncertainty remain unextracted.",
+        "No bond, structural capacity, conservation compatibility or long-term field claim is imported from the material-level recommendation.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "metakaolin-gel-amount-versus-composition",
+      "doi": "10.3390/ma13245784",
+      "source": "https://www.mdpi.com/1996-1944/13/24/5784",
+      "title": "Quantitative Correlation between the Degree of Reaction and Compressive Strength of Metakaolin-Based Geopolymers",
+      "nextChecks": [
+        "Complete condition-specific ingredient quantities and their mass/volume denominators have not been extracted for a reproducible batch.",
+        "Activator identity, concentration, solution-water contribution and any additive quantities need condition-level reconciliation.",
+        "Preparation, material grades, specimen geometry, curing, test age and comparison results need a full protocol check.",
+        "Full mixture ledger, cure history, extraction protocol and uncertainty remain incomplete.",
+        "No fitted strength equation or gel measurement is added to canonical numerical search.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ],
+  "operations": [],
+  "operationCount": 0,
+  "rawSourceRetained": false,
+  "newRecipes": 0,
+  "newCanonicalObservations": 0
+}

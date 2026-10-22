@@ -1,5 +1,7 @@
 // Original reading previews adapted from reviewed editorial notes. No new canonical measurements.
+import {depth200ReadingPreviews} from './deep-dive-depth200-expansion.js';
 export const paperReadingPreviews = [
+ ...depth200ReadingPreviews,
   {
     "doi": "10.3390/ma18030486",
     "publicationId": "ke-b27-020",

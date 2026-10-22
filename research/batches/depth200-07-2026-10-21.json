@@ -1,0 +1,122 @@
+{
+  "id": "depth200-07",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "ke-b15-018",
+      "doi": "10.3390/ma15176099",
+      "deepDiveId": "cnt-sic-mk-source-dependent",
+      "source": "https://doi.org/10.3390/ma15176099",
+      "locator": "§§2.5–2.6 / Table 4; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Reconcile hydroxide physical form/assay and complete source quantities before scaling.",
+        "Compression ages, geometry and loading conditions remain unextracted."
+      ]
+    },
+    {
+      "publicationId": "ke-b15-019",
+      "doi": "10.3390/ma15165634",
+      "deepDiveId": "nash-ratio-flow-set-model",
+      "source": "https://doi.org/10.3390/ma15165634",
+      "locator": "§§2.1–2.3 / Table 2; §6 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full mass ledger, demolding clock and independent validation boundary unresolved.",
+        "No modeled output promoted to canonical measurement or ready recipe."
+      ]
+    },
+    {
+      "publicationId": "ke-b15-021",
+      "doi": "10.3390/en13102639",
+      "deepDiveId": "fa-slag-ambient-rheology-sequence",
+      "source": "https://doi.org/10.3390/en13102639",
+      "locator": "§§2.1–2.2 / Tables 3–4; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full mass ledger, water accounting and demolding/loading details unresolved.",
+        "Do not isolate slag chemistry from particle density and adjusted component amounts."
+      ]
+    },
+    {
+      "publicationId": "ke-b15-023",
+      "doi": "10.3390/buildings16010037",
+      "deepDiveId": "ambient-onepart-fivepercent-ash",
+      "source": "https://doi.org/10.3390/buildings16010037",
+      "locator": "§§2.1–2.3 / Table 2; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Activator dose basis, sand and complete water ledger unresolved.",
+        "Statements about XRF/crystalline phases and contradictory pore trends need reconciliation."
+      ]
+    },
+    {
+      "publicationId": "ke-b15-024",
+      "doi": "10.3390/polym18162014",
+      "deepDiveId": "tire-pozzolan-coating-hybrid",
+      "source": "https://doi.org/10.3390/polym18162014",
+      "locator": "§§2.1–2.2; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Complete hybrid matrix, activator/water, PP and aggregate basis unresolved.",
+        "Uncoated controls also receive NaOH pretreatment; do not compare with untreated rubber literature."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "index": 30,
+      "batch": 7,
+      "kind": "search",
+      "query": "\"Evaluation of CNTs and SiC Whiskers Effect on the Rheology and Mechanical Performance of Metakaolin-Based Geopolymers\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 31,
+      "batch": 7,
+      "kind": "search",
+      "query": "\"Experimental Characterization and Multi-Factor Modelling to Achieve Desired Flow, Set and Strength of N-A-S-H Geopolymers\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 32,
+      "batch": 7,
+      "kind": "search",
+      "query": "\"Rheology and Mechanical Properties of Fly Ash-Based Geopolymer Mortars with Ground Granulated Blast Furnace Slag Addition\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 33,
+      "batch": 7,
+      "kind": "search",
+      "query": "\"Experimental Investigations of One-Part Geopolymer Mortar: Fresh, Hardened, and Durability Properties Using Locally Available Industrial Waste\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 34,
+      "batch": 7,
+      "kind": "search",
+      "query": "\"The Effect of Natural Pozzolanic Coated Waste Tire Aggregates on the Mechanical, Transport and Durability Properties of Fiber-Reinforced and One-Part Hybrid Geopolymer Composites\" \"Materials\" \"Methods\""
+    }
+  ],
+  "operationCount": 5,
+  "deferred": [],
+  "newBibliographyRecords": 0,
+  "newRecipes": 0,
+  "newCanonicalObservations": 0,
+  "rawSourceRetained": false,
+  "rights": "Original selected factual notes and independent editorial guidance only; exact full-text version/license not newly cleared. No raw articles, abstracts, whole tables, figures or supplements retained.",
+  "reviewer": "AI selected indexed primary text; no full PDF/visual, human/domain, comprehensive status or independent replication review",
+  "openAlex": "On hold; unused"
+}

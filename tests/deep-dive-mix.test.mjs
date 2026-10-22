@@ -8,12 +8,12 @@ import {renderPage} from '../src/app.js';
 const clone=x=>structuredClone(x);
 test('all guides expose source-specific recipe readiness, never a blanket complete protocol',()=>{
  assert.equal(validateMixDesigns(deepDiveMixDesigns,deepDives),true);
- assert.equal(deepDiveMixDesigns.length,262);
+ assert.equal(deepDiveMixDesigns.length,312);
  for(const d of deepDives){const p=mixDesignFor(d.id),html=renderPage('/deep-dives/'+d.id).html;
   assert.equal(p.protocolComplete,false);assert.match(html,/id="mix-design"/);assert.match(html,/href="#mix-design"/);assert.match(html,/What must be resolved before reproduction/);
   assert.ok(p.reportedConstraints.every(f=>f.source===d.source&&f.locator));
  }
- assert.equal(mixDesignExport().records.length,262);
+ assert.equal(mixDesignExport().records.length,312);
  assert.equal(mixDesignFor('not-a-guide'),null);
 });
 test('selection endpoints and examples preserve exact solution masses, age and scope',()=>{
@@ -32,7 +32,7 @@ test('water-source series scales the reported ledger without inventing dry chemi
  assert.match(sw.basis,/598\/2 = 299 g each \(derived\)/);assert.match(sw.limitations,/Free-chloride/);
  assert.deepEqual(['pw','tw','sw'].map(s=>mixVariant('seawater-'+s).results[0].value),[51.16,49.62,54.22]);
  const p=mixProject(sw.id,1000);assert.ok(Math.abs(p.recipe.rows.reduce((s,r)=>s+r.mass,0)-1000)<1e-9);
- assert.match(p.study.results,/672 hours/);assert.equal(literatureMixes.length,48);
+ assert.match(p.study.results,/672 hours/);assert.equal(literatureMixes.length,49);
 });
 test('partial liquid definitions, correction hold and model inputs cannot become scalable recipes',()=>{
  for(const id of ['one-part-waste-sand-water-demand','rap-geopolymer-grout-versus-composite']){const p=mixDesignFor(id),html=deepDiveMixSection(deepDives.find(d=>d.id===id));assert.equal(p.status,'partial-source-design');assert.equal(p.recipeIds.length,0);assert.match(html,/unresolved/i);assert.doesNotMatch(html,/Calculated 1,000 g/);}
@@ -80,6 +80,6 @@ test('scout continuation keeps condition identities and source conflicts out of 
  assert.match(mixDesignFor('superplasticizer-flow-air-long-term').missing.join(' '),/247.06 kg/);
  assert.match(mixDesignFor('aluminum-foam-coating-ratio-conflict').partialReview.ledger[0][1],/0.45.*0.8/);
  assert.match(mixDesignFor('hpmc-vae-workability-durability').partialReview.ledger[2][1],/1:1 by volume/);
- assert.equal(deepDiveMixDesigns.filter(p=>p.status==='source-review-needed').length,231);
- assert.equal(deepDiveMixDesigns.filter(p=>p.status==='partial-source-design').length,20);
+ assert.equal(deepDiveMixDesigns.filter(p=>p.status==='source-review-needed').length,227);
+ assert.equal(deepDiveMixDesigns.filter(p=>p.status==='partial-source-design').length,72);
 });

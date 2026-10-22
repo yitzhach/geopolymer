@@ -6,7 +6,7 @@ import {selectRecipes,planRequirements,catalogExport,testAges} from '../src/reci
 import {mixDetail,sourceComparison} from '../src/literature-ui.js';
 import {newTrial} from '../src/experiment-notebook.js';
 test('mass-proportion source records scale without altering source results or notebook measurements',()=>{
- assert.equal(recipeAdditions.length,11);assert.equal(literatureMixes.length,48);assert.equal(new Set(literatureMixes.map(m=>m.id)).size,48);
+ assert.equal(recipeAdditions.length,11);assert.equal(literatureMixes.length,49);assert.equal(new Set(literatureMixes.map(m=>m.id)).size,49);
  const before=JSON.stringify(literatureMixes);
  for(const m of recipeAdditions){const p=mixProject(m.id,2000);assert.ok(Math.abs(p.recipe.rows.reduce((s,r)=>s+r.mass,0)-2000)<1e-8);assert.ok(m.url.startsWith('https://'));assert.ok(m.locator);assert.ok(m.method);assert.ok(m.curing);assert.equal(newTrial(p).results.length,0);}
  assert.equal(JSON.stringify(literatureMixes),before);
@@ -24,7 +24,7 @@ test('catalog filters and export preserve references and unknown results',()=>{
  assert.equal(selectRecipes({query:'xyz-no-match'}).length,0);assert.ok(selectRecipes({activation:'sodium'}).every(m=>m.activation==='sodium'));
  assert.equal(selectRecipes({query:'KASIL 2040'}).length,1);
  const k=literatureMixes.find(m=>m.id==='bong-k-ka20-25');assert.equal(k.strength,null);assert.deepEqual(k.results,[]);assert.doesNotMatch(mixDetail(k),/null MPa/);assert.match(mixDetail(k),/Not recorded/);
- assert.equal(JSON.parse(JSON.stringify(catalogExport())).records.length,48);
+ assert.equal(JSON.parse(JSON.stringify(catalogExport())).records.length,49);
 });
 
 test('novel collection preserves dosage bases, age boundaries and non-scalable partial recipes',()=>{

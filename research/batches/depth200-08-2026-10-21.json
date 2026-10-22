@@ -1,0 +1,164 @@
+{
+  "id": "depth200-08",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "ke-b16-002",
+      "doi": "10.3390/min13121480",
+      "deepDiveId": "phosphate-clay-insulation-ratios",
+      "source": "https://doi.org/10.3390/min13121480",
+      "locator": "§§2.1–2.2; §5 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Exact acid/free-water masses, test ages and uncertainty mapping unresolved.",
+        "No inferred pure-acid dose, water fraction or complete reproduction protocol."
+      ]
+    },
+    {
+      "publicationId": "ke-b16-006",
+      "doi": "10.3390/ma18214886",
+      "deepDiveId": "am-mixtures-leaching-context",
+      "source": "https://doi.org/10.3390/ma18214886",
+      "locator": "§§2.2–2.3 / Tables 2–3; §3.1",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Baucis grade/assay, ambiguous Mixture I entry and all water contributions need reconciliation.",
+        "Possible shared formulation families are not independent replications; no blanket environmental approval."
+      ]
+    },
+    {
+      "publicationId": "ke-b16-007",
+      "doi": "10.3390/ma19173632",
+      "deepDiveId": "printed-truss-material-assembly",
+      "source": "https://doi.org/10.3390/ma19173632",
+      "locator": "§§2.2–2.4 / Tables 1–5; §3.1",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Resolve precursor/activator specifications and ratio basis before scaling.",
+        "Two beams do not establish a structural design value, universal strength or standardized fire rating."
+      ]
+    },
+    {
+      "publicationId": "ke-b16-009",
+      "doi": "10.3390/app15073449",
+      "deepDiveId": "underwater-printing-water-anisotropy",
+      "source": "https://doi.org/10.3390/app15073449",
+      "locator": "§§2.2–2.3 / Table 4; results and §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Complete named mix masses, activator/free-water accounting and cure clocks unresolved.",
+        "No inferred cast-to-print equivalence or underwater load-bearing recipe."
+      ]
+    },
+    {
+      "publicationId": "ke-b16-011",
+      "doi": "10.3390/ma16062348",
+      "deepDiveId": "onepart-ann-optimization-evidence",
+      "source": "https://doi.org/10.3390/ma16062348",
+      "locator": "Abstract; §4 results; model methodology",
+      "protocolComplete": false,
+      "quantitiesAvailable": false,
+      "evidenceKind": "comparative-synthesis-of-prior-experiments",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "No new independent mix or preparation protocol in this analysis.",
+        "Trace exact input rows, original experiments, activator identities and validation split before recipe use."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "index": 35,
+      "batch": 8,
+      "kind": "search",
+      "query": "\"Development of Geopolymers from Phosphate By-Products for Thermal Insulation Applications\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 36,
+      "batch": 8,
+      "kind": "search",
+      "query": "\"Geopolymer Materials for Additive Manufacturing: Chemical Stability, Leaching Behaviour, and Radiological Safety\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 37,
+      "batch": 8,
+      "kind": "search",
+      "query": "\"3D-Printed Geopolymer Composite Truss Beam: Experimental Verification of Manufacturing and Load-Bearing Capacity in Four-Point Bending\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 38,
+      "batch": 8,
+      "kind": "search",
+      "query": "\"Shaping and Characterization of Additively Manufactured Geopolymer Materials for Underwater Applications\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 39,
+      "batch": 8,
+      "kind": "search",
+      "query": "\"Optimization of Fly Ash—Slag One-Part Geopolymers with Improved Properties\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 36,
+      "batch": 8,
+      "kind": "search",
+      "query": "\"10.3390/ma18214886\" \"Table 2\" \"1.00\""
+    },
+    {
+      "index": 37,
+      "batch": 8,
+      "kind": "search",
+      "query": "\"10.3390/ma19173632\" \"Table 1\" \"metakaolin\""
+    },
+    {
+      "index": 38,
+      "batch": 8,
+      "kind": "search",
+      "query": "\"10.3390/app15073449\" \"Table 4\" \"21\""
+    },
+    {
+      "index": 36,
+      "batch": 8,
+      "kind": "search",
+      "query": "\"Geopolymer Materials for Additive Manufacturing: Chemical Stability, Leaching Behaviour, and Radiological Safety\" \"Mixture I\" \"1.00\""
+    },
+    {
+      "index": 37,
+      "batch": 8,
+      "kind": "search",
+      "query": "\"3D-Printed Geopolymer Composite Truss Beam: Experimental Verification of Manufacturing and Load-Bearing Capacity in Four-Point Bending\" \"Composition\" \"Baucis\""
+    },
+    {
+      "index": 37,
+      "batch": 8,
+      "kind": "search",
+      "query": "\"3D-Printed Geopolymer Composite Truss Beam: Experimental Verification of Manufacturing and Load-Bearing Capacity in Four-Point Bending\" \"Table 1\""
+    },
+    {
+      "index": 38,
+      "batch": 8,
+      "kind": "search",
+      "query": "\"Shaping and Characterization of Additively Manufactured Geopolymer Materials for Underwater Applications\" \"Table 4\""
+    }
+  ],
+  "operationCount": 12,
+  "deferred": [],
+  "newBibliographyRecords": 0,
+  "newRecipes": 0,
+  "newCanonicalObservations": 0,
+  "rawSourceRetained": false,
+  "rights": "Original selected factual notes and independent editorial guidance only; exact full-text version/license not newly cleared. No raw articles, abstracts, whole tables, figures or supplements retained.",
+  "reviewer": "AI selected indexed primary text; no full PDF/visual, human/domain, comprehensive status or independent replication review",
+  "openAlex": "On hold; unused"
+}

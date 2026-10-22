@@ -4,9 +4,9 @@ const base=process.env.BASE_URL||'http://localhost:4173';
  for(const width of [1440,390])for(const javaScriptEnabled of [true,false]){
   const p=await browser.newPage({viewport:{width,height:1000},javaScriptEnabled}),errors=[];p.on('pageerror',e=>errors.push(e.message));
   assert.equal((await p.goto(base+'/deep-dives')).status(),200);if(javaScriptEnabled)await p.locator('main[data-enhanced=true]').waitFor();
-  assert.equal(await p.locator('[data-dive-id]').count(),262);
+  assert.equal(await p.locator('[data-dive-id]').count(),312);
   if(javaScriptEnabled){
-   await p.selectOption('#dive-readiness','with');assert.match(await p.locator('#dive-count').innerText(),/28 of 262/);assert.equal(await p.locator('[data-dive-id]:visible').count(),28);
+   await p.selectOption('#dive-readiness','with');assert.match(await p.locator('#dive-count').innerText(),/79 of 312/);assert.equal(await p.locator('[data-dive-id]:visible').count(),79);
    await p.selectOption('#dive-material','potassium');assert.ok(await p.locator('[data-dive-id]:visible').count()>0);
    const first=p.locator('[data-dive-id]:visible').first();await first.locator('.dive-compare').click();assert.match(await p.locator('#dive-compare-status').innerText(),/1 of 4/);
    await p.click('#dive-reset');await p.fill('#dive-query','26.9 PBDI');assert.equal(await p.locator('[data-dive-id]:visible').count(),1);

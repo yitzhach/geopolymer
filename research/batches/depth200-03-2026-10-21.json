@@ -1,0 +1,140 @@
+{
+  "id": "depth200-03",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "library-25",
+      "doi": "10.3390/ma18092093",
+      "deepDiveId": "xrd-strength-screening-boundary",
+      "source": "https://doi.org/10.3390/ma18092093",
+      "locator": "Abstract; Experimental Details; §3.2.2 / XRD",
+      "protocolComplete": false,
+      "quantitiesAvailable": false,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Complete ingredient ledger, activator identity, cure and age-specific result mapping unresolved.",
+        "Do not convert an analytical correlation into a measured strength or independent recipe."
+      ]
+    },
+    {
+      "publicationId": "library-32",
+      "doi": "10.3390/ma17225581",
+      "deepDiveId": "copper-slag-print-cast-ledger",
+      "source": "https://doi.org/10.3390/ma17225581",
+      "locator": "§§2.1–2.2; printed-versus-cast results",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Liquid ratio basis, all additional water and source test ages need reconciliation.",
+        "Full mixing time, grade assays, geometry and numerical directional results unresolved."
+      ]
+    },
+    {
+      "publicationId": "library-34",
+      "doi": "10.3390/ceramics7040087",
+      "deepDiveId": "printing-filler-xanthan-rheology",
+      "source": "https://doi.org/10.3390/ceramics7040087",
+      "locator": "§§2.1–2.3 / Table 3; §4 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full base-binder mass ledger, additive denominator and variable final mixing chronology unresolved.",
+        "Match nozzle, stress history and mechanical test context before selecting a winner."
+      ]
+    },
+    {
+      "publicationId": "research-pp-impact",
+      "doi": "10.3390/ma19204263",
+      "deepDiveId": "pp-fiber-impact-static-tradeoff",
+      "source": "https://doi.org/10.3390/ma19204263",
+      "locator": "§§2.1–2.5; §5 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Full activator/aggregate masses, dose-volume conversion and exact dynamic conditions unresolved.",
+        "CT/SEM observations support interpretation, not an isolated fiber-bridging mechanism."
+      ]
+    },
+    {
+      "publicationId": "research-nickel-carbon",
+      "doi": "10.3390/polym18192448",
+      "deepDiveId": "nickel-carbon-laminate-proprietary",
+      "source": "https://doi.org/10.3390/polym18192448",
+      "locator": "§§2.1–2.3; §5 conclusions",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "evidenceKind": "experimental-study",
+      "inventory": "Selected source methods/conditions only; complete visual/supplement inventory unfinished",
+      "holds": [
+        "Request disclosed or authorized matrix ratios before attempting reproduction; no inferred ledger.",
+        "Reinforcement estimates and lay-up-specific tensile results cannot transfer to mortar compression."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "index": 10,
+      "batch": 3,
+      "kind": "search",
+      "query": "\"Using XRD to Assess the Strength of Fly-Ash- and Metakaolin-Based Geopolymers\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 11,
+      "batch": 3,
+      "kind": "search",
+      "query": "\"Upscaling of Copper Slag-Based Geopolymer to 3D Printing Technology\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 12,
+      "batch": 3,
+      "kind": "search",
+      "query": "\"Advanced Refinement of Geopolymer Composites for Enhanced 3D Printing via In-Depth Rheological Insights\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 13,
+      "batch": 3,
+      "kind": "search",
+      "query": "\"Dynamic Compressive Behavior and Internal Damage Evolution of Polypropylene Fiber-Reinforced Alkali-Activated Slag Geopolymer Mortar\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 14,
+      "batch": 3,
+      "kind": "search",
+      "query": "\"Geopolymer-Derived Aluminosilicate Matrix Composites Reinforced with Continuous Nickel-Coated Carbon Fibers: Tensile Properties and Thermo-Oxidative Behavior\" \"Materials\" \"Methods\""
+    },
+    {
+      "index": 10,
+      "batch": 3,
+      "kind": "search",
+      "query": "\"10.3390/ma18092093\" \"Experimental Details\""
+    },
+    {
+      "index": 11,
+      "batch": 3,
+      "kind": "search",
+      "query": "\"10.3390/ma17225581\" \"Conclusions\""
+    },
+    {
+      "index": 10,
+      "batch": 3,
+      "kind": "search",
+      "query": "\"Using XRD to Assess the Strength\" \"metakaolin\" \"silicate\""
+    }
+  ],
+  "operationCount": 8,
+  "deferred": [],
+  "newBibliographyRecords": 0,
+  "newRecipes": 0,
+  "newCanonicalObservations": 0,
+  "rawSourceRetained": false,
+  "rights": "Original selected factual notes and independent editorial guidance only; exact full-text version/license not newly cleared. No raw articles, abstracts, whole tables, figures or supplements retained.",
+  "reviewer": "AI selected indexed primary text; no full PDF/visual, human/domain, comprehensive status or independent replication review",
+  "openAlex": "On hold; unused"
+}

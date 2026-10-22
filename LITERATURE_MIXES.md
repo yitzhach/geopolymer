@@ -1,5 +1,14 @@
 # Potassium literature designs — 9 October 2026
 
+## 21 October 2026 — acid/wastewater control ledger
+
+Catalog 49 conditions / 37 proportional scalers. One primary-rights-recorded
+batch adds 400 g MK, 1350 g river sand and 425 g potassium waterglass as supplied.
+No solution-water or chemical assay inferred; grades/moisture/protocol remain
+partial. Prior 48 records are unchanged. All 312 deep dives and 311 summaries
+expose a shared source-linked mix dataset; see SUMMARY_DEEP_DIVE_STANDARD.md.
+Seventy-nine guides contain weights/ratios; no complete protocol claimed.
+
 ## 21 October 2026 — linked deep-dive recipe review
 
 The catalog now contains 48 conditions / 36 with scalable mass proportions.

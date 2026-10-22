@@ -5,15 +5,15 @@ import {deepDiveEntries,filterDeepDives,entryLedger,comparisonHTML,sharedMateria
 import {mixDesignFor} from '../src/deep-dive-mix-designs.js';
 import {renderPage} from '../src/app.js';
 test('deep dive readiness separates proportion scaling, partial inputs and source holds',()=>{
- assert.equal(deepDiveEntries.length,262);
- assert.equal(filterDeepDives({readiness:'with'}).length,28);
- assert.equal(filterDeepDives({readiness:'without'}).length,234);
- assert.equal(filterDeepDives({readiness:'scalable'}).length,7);
- assert.equal(filterDeepDives({readiness:'partial'}).length,21);
+ assert.equal(deepDiveEntries.length,312);
+ assert.equal(filterDeepDives({readiness:'with'}).length,79);
+ assert.equal(filterDeepDives({readiness:'without'}).length,233);
+ assert.equal(filterDeepDives({readiness:'scalable'}).length,8);
+ assert.equal(filterDeepDives({readiness:'partial'}).length,71);
  assert.equal(filterDeepDives({readiness:'hold'})[0].packet.doi,'10.3390/ma12030526');
- assert.equal(filterDeepDives({readiness:'analysis'}).length,2);
+ assert.equal(filterDeepDives({readiness:'analysis'}).length,3);
  assert.ok(filterDeepDives({readiness:'with'}).every(e=>e.recipes.length||e.packet.partialReview));
- const html=renderPage('/deep-dives').html;assert.equal((html.match(/data-dive-id=/g)||[]).length,262);
+ const html=renderPage('/deep-dives').html;assert.equal((html.match(/data-dive-id=/g)||[]).length,312);
  assert.match(html,/id="dive-material"/);assert.match(html,/id="dive-group-pending"/);
 });
 test('ingredient and dose searches use recorded ledgers without inferring missing recipes',()=>{
