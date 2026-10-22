@@ -1,0 +1,130 @@
+{
+  "id": "depth250-01",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "ke-b15-013",
+      "doi": "10.3390/ma17061386",
+      "deepDiveId": "solid-refractory-sr1-versus-sr4",
+      "source": "https://doi.org/10.3390/ma17061386",
+      "locator": "§2.2/Table 3; curing; §3.2",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Confirm activator grades, milling settings, exposure ramps and loading protocol.",
+        "The complete variant inventory and uncertainty remain unextracted."
+      ]
+    },
+    {
+      "publicationId": "ke-b15-017",
+      "doi": "10.3390/polym18162023",
+      "deepDiveId": "onepart-fiber-curing-abrasion",
+      "source": "https://doi.org/10.3390/polym18162023",
+      "locator": "Abstract; Tables 8–10; conclusions",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full precursor, dry activator, sand and water masses unresolved.",
+        "Curing chronology and independent-batch uncertainty need review."
+      ]
+    },
+    {
+      "publicationId": "ke-b15-020",
+      "doi": "10.3390/polym18121479",
+      "deepDiveId": "printing-rheology-review-transfer",
+      "source": "https://doi.org/10.3390/polym18121479",
+      "locator": "Abstract; comparative tables",
+      "quantitiesAvailable": false,
+      "protocolComplete": false,
+      "evidenceKind": "comparative-synthesis-of-prior-experiments",
+      "holds": [
+        "Original experiments must be traced before assigning quantities.",
+        "No new independent physical experiment is claimed."
+      ]
+    },
+    {
+      "publicationId": "ke-b15-022",
+      "doi": "10.3390/ma16031012",
+      "deepDiveId": "gf-sbs-asphalt-fatigue-aging",
+      "source": "https://doi.org/10.3390/ma16031012",
+      "locator": "§§2.1.1–2.1.2; §4",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "GF precursor masses, stock assay and modifier denominators unresolved.",
+        "Crosslinker dose basis and full aging/loading protocols pending."
+      ]
+    },
+    {
+      "publicationId": "ke-b16-003",
+      "doi": "10.3390/polym17081046",
+      "deepDiveId": "pva-nanosilica-rheology-model-scope",
+      "source": "https://doi.org/10.3390/polym17081046",
+      "locator": "§2; Table 4; §3",
+      "quantitiesAvailable": false,
+      "protocolComplete": false,
+      "evidenceKind": "numerical-model-calibrated-on-prior-experiments",
+      "holds": [
+        "Trace original data and resolve whether any measurements are new.",
+        "Dose denominators and full liquid/aggregate ledger pending."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma17061386\" materials mixing curing results"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/polym18162023\" mix proportions results"
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/polym18121479\" mix proportions results"
+    },
+    {
+      "kind": "search",
+      "query": "site:mdpi.com/1996-1944/17/6/1386 \"Table\" \"SR1\" \"water\""
+    },
+    {
+      "kind": "search",
+      "query": "site:mdpi.com/2073-4360/18/16/2023 \"Mix\" \"fiber\" \"28\""
+    },
+    {
+      "kind": "search",
+      "query": "site:mdpi.com/1996-1944/16/3/1012 \"geopolymer\" \"content\" \"results\""
+    },
+    {
+      "kind": "search",
+      "query": "site:mdpi.com/2073-4360/17/8/1046 \"mixture\" \"PVA\" \"SiO2\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Fiber-Reinforced One-Part Geopolymer Mortars\" \"70\" \"Table 4\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Temperature and Aging Effects\" \"Geopolymer-Modified Asphalt\" \"content\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Advanced Solid Geopolymer\" \"SR1\" \"Table 3\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Fiber-Reinforced One-Part Geopolymer Mortars\" \"0.8\" \"heat\" \"MgO\""
+    }
+  ],
+  "operationCount": 11,
+  "deferred": [],
+  "access": "Indexed primary text only; no direct opens in this batch.",
+  "priorAccess": "Existing batch/failed-access records checked; previous thermal-aeration candidate excluded without repeat requests.",
+  "rawSourceRetained": false,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "rights": "Original selected factual paraphrases only; no raw source, abstract or complete table/figure retained. Full version/license review remains incomplete except explicit article-specific notices. No comprehensive status, human/domain or replication clearance."
+}

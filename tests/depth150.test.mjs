@@ -4,7 +4,7 @@ const hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
 const baseline=JSON.parse(fs.readFileSync(new URL('../research/batches/depth150-baseline-2026-10-21.json',import.meta.url)));
 test('third fifty-pair addition preserves every previous summary/guide and publication identity',()=>{
  assert.equal(library.length,1000);assert.equal(depth150DeepDives.length,50);assert.equal(new Set(depth150DeepDives.map(d=>d.doi)).size,50);
- assert.equal(paperReadingPreviews.length,311);assert.equal(deepDives.length,312);
+ assert.equal(paperReadingPreviews.length,361);assert.equal(deepDives.length,362);
  assert.equal(hash(library.map(p=>({id:p.id,doi:p.doi,title:p.title}))),baseline.publicationIdentityHash);
  assert.equal(baseline.previousPreviews.length,211);assert.equal(baseline.previousGuides.length,212);
  for(const p of baseline.previousPreviews)assert.equal(hash(readingPreviewFor(p.doi)),p.sha256,p.doi);

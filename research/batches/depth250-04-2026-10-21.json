@@ -1,0 +1,134 @@
+{
+  "id": "depth250-04",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "ke-b17-015",
+      "doi": "10.3390/ma18163892",
+      "deepDiveId": "mk-water-exposure-slag-amphibolite",
+      "source": "https://doi.org/10.3390/ma18163892",
+      "locator": "§§2.1–2.2/Table 1; Abstract",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Reconcile activator narrative/table and full stock identity before scaling.",
+        "Exact cure, loading rate and independent batches unresolved."
+      ]
+    },
+    {
+      "publicationId": "ke-b17-016",
+      "doi": "10.3390/su18020762",
+      "deepDiveId": "ambient-clay-fa-bricks-screening",
+      "source": "https://doi.org/10.3390/su18020762",
+      "locator": "Abstract; pilot/main-testing methods",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Exact selected condition masses and silicate stock unresolved.",
+        "Cube and brick ages/uncertainty must remain distinct."
+      ]
+    },
+    {
+      "publicationId": "ke-b17-019",
+      "doi": "10.3390/ma14123316",
+      "deepDiveId": "mk-coarse-aggregate-size-effect",
+      "source": "https://doi.org/10.3390/ma14123316",
+      "locator": "§§2.3, 3.2–3.3; Table 4; §5",
+      "quantitiesAvailable": false,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Actual ingredient masses unresolved; aggregate sizes alone are not a mix ledger.",
+        "PMC direct open returned browser challenge; no repeat or bypass."
+      ]
+    },
+    {
+      "publicationId": "ke-b17-020",
+      "doi": "10.3390/ma17071491",
+      "deepDiveId": "carbonated-fa-slag-gel-products",
+      "source": "https://doi.org/10.3390/ma17071491",
+      "locator": "§2.1/Table 2; Abstract",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full stock assays and numerical mechanical comparison pending.",
+        "No maximum-strength recipe selected."
+      ]
+    },
+    {
+      "publicationId": "ke-b17-021",
+      "doi": "10.3390/ma14040785",
+      "deepDiveId": "soda-residue-fa-acid-sulfate",
+      "source": "https://doi.org/10.3390/ma14040785",
+      "locator": "Summary; methods/Table 3",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Complete activator, solution-water and cure ledger unresolved.",
+        "No independent uncertainty or universal optimum claimed."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "kind": "search",
+      "query": "\"Assessment of Durability and Degradation Resistance of Geopolymer Composites in Water\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Eco-Efficient Geopolymer Bricks Without Firing\" \"mixture\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Effect of Size of Coarse Aggregate\" \"Metakaolin\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Compositions and Microstructures of Carbonated Geopolymers\" \"mix\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Eco-Efficient Geopolymer Bricks Without Firing and Mechanical Pressing\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Resistance of Soda Residue–Fly Ash Based Geopolymer Mortar\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Assessment of Durability and Degradation Resistance\" \"Conclusions\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Effect of Size of Coarse Aggregate\" \"Table 3\" \"metakaolin\""
+    },
+    {
+      "kind": "open",
+      "query": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12387252/"
+    },
+    {
+      "kind": "open",
+      "query": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8232638/"
+    },
+    {
+      "kind": "search",
+      "query": "\"Eco-Efficient Geopolymer Bricks Without Firing\" \"10 M\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Effect of Size of Coarse Aggregate\" \"decreased\" \"MKGP\""
+    }
+  ],
+  "operationCount": 12,
+  "deferred": [],
+  "access": "One PMC source opened; second returned browser challenge. No retry/bypass.",
+  "priorAccess": "Existing batch/failed-access records checked; previous thermal-aeration candidate excluded without repeat requests.",
+  "rawSourceRetained": false,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "rights": "Original selected factual paraphrases only; no raw source, abstract or complete table/figure retained. Full version/license review remains incomplete except explicit article-specific notices. No comprehensive status, human/domain or replication clearance."
+}

@@ -3,7 +3,7 @@ import {mixProject} from '../src/literature-mixes.js';
 import {library} from '../src/research-library.js';import {deepDives} from '../src/deep-dives.js';import {paperReadingPreviews} from '../src/paper-reading-previews.js';import {depth200DeepDives,depth200ReadingPreviews} from '../src/deep-dive-depth200-expansion.js';import {deepDiveMixDesigns,mixDesignFor,proportionalExample} from '../src/deep-dive-mix-designs.js';import {mixDataFields,validateMixDataSet} from '../src/mix-data-contract.js';import {literatureMixes} from '../src/literature-mixes.js';import {pilot} from '../src/knowledge-pilot.js';import {readingPreviewFor,renderReadingPreview} from '../src/paper-reading-ui.js';import {researchDatabase} from '../src/research-feeds.js';import {renderPage} from '../src/app.js';
 const hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');const baseline=JSON.parse(fs.readFileSync(new URL('../research/batches/depth200-baseline-2026-10-21.json',import.meta.url)));
 test('fifty new source-backed guides preserve all prior editorial and scientific records',()=>{
- assert.equal(depth200DeepDives.length,50);assert.equal(depth200ReadingPreviews.length,50);assert.equal(deepDives.length,312);assert.equal(paperReadingPreviews.length,311);assert.equal(library.length,1000);
+ assert.equal(depth200DeepDives.length,50);assert.equal(depth200ReadingPreviews.length,50);assert.equal(deepDives.length,362);assert.equal(paperReadingPreviews.length,361);assert.equal(library.length,1000);
  assert.equal(new Set(depth200DeepDives.map(d=>d.doi)).size,50);
  for(const d of baseline.previousGuides)assert.equal(hash(deepDives.find(x=>x.id===d.id)),d.sha256,d.id);
  for(const p of baseline.previousPreviews)assert.equal(hash(readingPreviewFor(p.doi)),p.sha256,p.doi);
@@ -14,7 +14,7 @@ test('fifty new source-backed guides preserve all prior editorial and scientific
 test('all guides and detailed summaries expose the same source-linked eight-field dataset',()=>{
  for(const d of deepDives){const p=mixDesignFor(d.id);assert.ok(validateMixDataSet(p.dataSet,d));assert.deepEqual(p.dataSet.fields.map(f=>f.id),mixDataFields);assert.match(renderPage('/deep-dives/'+d.id).html,/class="mix-data-set"/);}
  for(const p of paperReadingPreviews){const source=library.find(s=>s.doi===p.doi);assert.match(renderReadingPreview(source),/class="mix-data-set"/);}
- assert.equal(researchDatabase().records.filter(p=>p.mixData?.version==='mix-data-v1').length,311);
+ assert.equal(researchDatabase().records.filter(p=>p.mixData?.version==='mix-data-v1').length,361);
  const legacy=deepDiveMixDesigns.find(p=>p.status==='source-review-needed');assert.equal(legacy.dataSet.fields.find(f=>f.id==='ingredients').state,'pending');
  const hold=deepDiveMixDesigns.find(p=>p.status==='source-hold');assert.ok(hold.dataSet.fields.every(f=>f.state==='held'));
 });
@@ -30,7 +30,7 @@ test('new ledgers retain ratio conflicts, proprietary limits, failed hardening a
  assert.match(p('underwater-printing-water-anisotropy').partialReview.notes,/49 days/);
  assert.equal(p('onepart-ann-optimization-evidence').status,'no-independent-mix');assert.deepEqual(p('onepart-ann-optimization-evidence').recipeIds,[]);
  for(const id of ['xrd-strength-screening-boundary','egc-thermal-cure-tensile-clock'])assert.equal(p(id).dataSet.fields.find(f=>f.id==='ingredients').state,'pending');
- assert.equal(p('calcium-hydroxide-carbonation-tradeoff').status,'source-review-needed');
+ assert.equal(p('calcium-hydroxide-carbonation-tradeoff').status,'partial-source-design');
 });
 test('bounded primary review manifests cover fifty guides and record deferred access without raw retention',()=>{
  let operations=0;const seen=new Set();for(let b=1;b<=11;b++){const a=JSON.parse(fs.readFileSync(new URL(`../research/batches/depth200-${String(b).padStart(2,'0')}-2026-10-21.json`,import.meta.url)));assert.ok(a.records.length<=5);assert.ok(a.operationCount<=40);assert.equal(a.operationCount,a.operations.length);assert.equal(a.rawSourceRetained,false);assert.equal(a.newCanonicalObservations,0);assert.equal(a.newRecipes,b===2?1:0);operations+=a.operationCount;for(const r of a.records){assert.ok(!seen.has(r.doi));seen.add(r.doi);assert.equal(mixDesignFor(r.deepDiveId).doi,r.doi);}}

@@ -1,0 +1,82 @@
+{
+  "id": "mix-design-queue-08",
+  "date": "2026-10-21",
+  "review": "Offline queue only; read existing failed-access notes and mix-design-07 before requests.",
+  "records": [
+    {
+      "id": "masonry-fiber-material-versus-structure",
+      "doi": "10.3390/polym15041017",
+      "source": "https://www.mdpi.com/2073-4360/15/4/1017",
+      "title": "Enhancing the Mechanical Properties of Historical Masonry Using Fiber-Reinforced Geopolymers",
+      "nextChecks": [
+        "Complete condition-specific ingredient quantities and their mass/volume denominators have not been extracted for a reproducible batch.",
+        "Activator identity, concentration, solution-water contribution and any additive quantities need condition-level reconciliation.",
+        "Preparation, material grades, specimen geometry, curing, test age and comparison results need a full protocol check.",
+        "Complete mix factors, fiber doses/geometries, cure/test protocols and uncertainty remain unextracted.",
+        "No bond, structural capacity, conservation compatibility or long-term field claim is imported from the material-level recommendation.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "metakaolin-reactivity-and-liquid-volume",
+      "doi": "10.3390/ma17020367",
+      "source": "https://www.mdpi.com/1996-1944/17/2/367",
+      "title": "Mechanical Properties and Reaction Kinetics of Alkali-Activated Metakaolin",
+      "nextChecks": [
+        "Complete condition-specific ingredient quantities and their mass/volume denominators have not been extracted for a reproducible batch.",
+        "Activator identity, concentration, solution-water contribution and any additive quantities need condition-level reconciliation.",
+        "Preparation, material grades, specimen geometry, curing, test age and comparison results need a full protocol check.",
+        "Pre-demolding cure, complete solution composition and individual-result uncertainty remain unextracted.",
+        "The reported association is not a universal reactivity ranking or a numeric strength prediction.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "pce-alkali-stability-versus-flow",
+      "doi": "10.3390/ma16155369",
+      "source": "https://www.mdpi.com/1996-1944/16/15/5369",
+      "title": "Investigations on Stability of Polycarboxylate Superplasticizers in Alkaline Activators for Geopolymer Binders",
+      "nextChecks": [
+        "Complete condition-specific ingredient quantities and their mass/volume denominators have not been extracted for a reproducible batch.",
+        "Activator identity, concentration, solution-water contribution and any additive quantities need condition-level reconciliation.",
+        "Preparation, material grades, specimen geometry, curing, test age and comparison results need a full protocol check.",
+        "Complete rheometer protocol, polymer solids and all time/concentration results remain unextracted.",
+        "The apparent contrast with other PCE studies is conditional on precursor, activator and dose basis; no universal incompatibility claim.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "mgo-shrinkage-curing-demolding",
+      "doi": "10.3390/polym14163386",
+      "source": "https://www.mdpi.com/2073-4360/14/16/3386",
+      "title": "The Length Change Ratio of Ground Granulated Blast Furnace Slag-Based Geopolymer Blended with Magnesium Oxide Cured in Various Environments",
+      "nextChecks": [
+        "Complete condition-specific ingredient quantities and their mass/volume denominators have not been extracted for a reproducible batch.",
+        "Activator identity, concentration, solution-water contribution and any additive quantities need condition-level reconciliation.",
+        "Preparation, material grades, specimen geometry, curing, test age and comparison results need a full protocol check.",
+        "Full MgO dose matrix, cure temperatures/durations, mixture ledger and uncertainty remain unextracted.",
+        "Selected OPC control strains in the paper are not geopolymer results and are not transferred into this guide.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    },
+    {
+      "id": "fly-ash-opc-slant-shear-bond",
+      "doi": "10.3390/app10093321",
+      "source": "https://www.mdpi.com/2076-3417/10/9/3321",
+      "title": "Bonding Strength Characteristics of FA-Based Geopolymer Paste as a Repair Material When Applied on OPC Substrate",
+      "nextChecks": [
+        "Complete condition-specific ingredient quantities and their mass/volume denominators have not been extracted for a reproducible batch.",
+        "Activator identity, concentration, solution-water contribution and any additive quantities need condition-level reconciliation.",
+        "Preparation, material grades, specimen geometry, curing, test age and comparison results need a full protocol check.",
+        "Complete paste ratio, interface preparation, post-repair cure/test age and uncertainty remain unextracted.",
+        "A source bond value cannot be ranked directly against a pull-off result from a different geometry or failure mode.",
+        "Selected indexed passages only. Complete tables, figures, supplements, status notices and per-condition uncertainty have not been inventoried; no canonical observations or recipes were added."
+      ]
+    }
+  ],
+  "operations": [],
+  "operationCount": 0,
+  "rawSourceRetained": false,
+  "newRecipes": 0,
+  "newCanonicalObservations": 0
+}

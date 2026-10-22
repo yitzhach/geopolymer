@@ -1,0 +1,122 @@
+{
+  "id": "depth250-05",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "ke-b17-023",
+      "doi": "10.3390/buildings15081262",
+      "deepDiveId": "road-composite-gangue-fiber-nanosilica",
+      "source": "https://doi.org/10.3390/buildings15081262",
+      "locator": "Tables 3–8",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Solution chemistry/stock masses, test age and independent batches unresolved.",
+        "Do not describe climatic mass loss as standardized service-life durability."
+      ]
+    },
+    {
+      "publicationId": "ke-b17-024",
+      "doi": "10.3390/ma15176125",
+      "deepDiveId": "mk-early-polymerization-water-clock",
+      "source": "https://doi.org/10.3390/ma15176125",
+      "locator": "§2/Table 3; equation 1; conclusion",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Exact chemical grades, early sampling chronology and uncertainty pending.",
+        "Do not substitute water/precursor for the source water/binder definition."
+      ]
+    },
+    {
+      "publicationId": "ke-b17-025",
+      "doi": "10.3390/molecules31040620",
+      "deepDiveId": "co2-wellcement-review-qualification",
+      "source": "https://doi.org/10.3390/molecules31040620",
+      "locator": "Abstract; review scope",
+      "quantitiesAvailable": false,
+      "protocolComplete": false,
+      "evidenceKind": "comparative-synthesis-of-prior-experiments",
+      "holds": [
+        "Original primary conditions and exposure bases must be traced.",
+        "No independent experiment or scalable batch claimed."
+      ]
+    },
+    {
+      "publicationId": "ke-b18-001",
+      "doi": "10.3390/app9091953",
+      "deepDiveId": "pva-silica-fire-structural-boundaries",
+      "source": "https://doi.org/10.3390/app9091953",
+      "locator": "Study objective; thermal results",
+      "quantitiesAvailable": false,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Actual tested doses and full ingredient ledger not extracted.",
+        "Thermal state, ages, replicate counts and condition-specific benefits pending."
+      ]
+    },
+    {
+      "publicationId": "ke-b18-002",
+      "doi": "10.3390/su151914291",
+      "deepDiveId": "slag-block-carbonation-functional-choice",
+      "source": "https://doi.org/10.3390/su151914291",
+      "locator": "§§3.2–3.3; Abstract; conclusions",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Complete aggregate/stock ledger and source assay inconsistency unresolved.",
+        "Pressure conditioning and replication details incomplete."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "kind": "search",
+      "query": "\"An Investigation of Key Mechanical and Physical Characteristics\" \"mix\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Early-Stage Geopolymerization Process of Metakaolin-Based\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"CO2–Binder Reaction Mechanisms in Geopolymer Wellbore Cements\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Effect of PVA/SiO2 NPs Additive\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Performance of Alkali-Activated Slag Concrete Masonry Blocks\" \"mix\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Effect of PVA/SiO2 NPs Additive\" \"Conclusions\""
+    },
+    {
+      "kind": "search",
+      "query": "\"An Investigation of Key Mechanical and Physical Characteristics\" \"Conclusions\""
+    },
+    {
+      "kind": "search",
+      "query": "\"An Investigation of Key Mechanical and Physical Characteristics\" \"slag\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Effect of PVA/SiO2 NPs Additive\" \"0.5\""
+    }
+  ],
+  "operationCount": 9,
+  "deferred": [],
+  "access": "Indexed primary text only; no direct opens in this batch.",
+  "priorAccess": "Existing batch/failed-access records checked; previous thermal-aeration candidate excluded without repeat requests.",
+  "rawSourceRetained": false,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "rights": "Original selected factual paraphrases only; no raw source, abstract or complete table/figure retained. Full version/license review remains incomplete except explicit article-specific notices. No comprehensive status, human/domain or replication clearance."
+}

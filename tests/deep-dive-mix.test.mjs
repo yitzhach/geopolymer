@@ -8,12 +8,12 @@ import {renderPage} from '../src/app.js';
 const clone=x=>structuredClone(x);
 test('all guides expose source-specific recipe readiness, never a blanket complete protocol',()=>{
  assert.equal(validateMixDesigns(deepDiveMixDesigns,deepDives),true);
- assert.equal(deepDiveMixDesigns.length,312);
+ assert.equal(deepDiveMixDesigns.length,362);
  for(const d of deepDives){const p=mixDesignFor(d.id),html=renderPage('/deep-dives/'+d.id).html;
   assert.equal(p.protocolComplete,false);assert.match(html,/id="mix-design"/);assert.match(html,/href="#mix-design"/);assert.match(html,/What must be resolved before reproduction/);
   assert.ok(p.reportedConstraints.every(f=>f.source===d.source&&f.locator));
  }
- assert.equal(mixDesignExport().records.length,312);
+ assert.equal(mixDesignExport().records.length,362);
  assert.equal(mixDesignFor('not-a-guide'),null);
 });
 test('selection endpoints and examples preserve exact solution masses, age and scope',()=>{
@@ -80,6 +80,6 @@ test('scout continuation keeps condition identities and source conflicts out of 
  assert.match(mixDesignFor('superplasticizer-flow-air-long-term').missing.join(' '),/247.06 kg/);
  assert.match(mixDesignFor('aluminum-foam-coating-ratio-conflict').partialReview.ledger[0][1],/0.45.*0.8/);
  assert.match(mixDesignFor('hpmc-vae-workability-durability').partialReview.ledger[2][1],/1:1 by volume/);
- assert.equal(deepDiveMixDesigns.filter(p=>p.status==='source-review-needed').length,227);
- assert.equal(deepDiveMixDesigns.filter(p=>p.status==='partial-source-design').length,72);
+ assert.equal(deepDiveMixDesigns.filter(p=>p.status==='source-review-needed').length,223);
+ assert.equal(deepDiveMixDesigns.filter(p=>p.status==='partial-source-design').length,123);
 });

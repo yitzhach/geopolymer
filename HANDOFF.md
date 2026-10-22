@@ -1,5 +1,78 @@
 # Geopolymer — current handoff
 
+## Another fifty guides under mix-data-v1 — 21 October 2026
+- Owner repeated the request after c5ad30a; interpreted as another 50 beyond that
+  completed batch. Baseline local/remote main verified at
+  `c5ad30a429bc9964510ba3d1c783108c4b4a75b4`; workspace initially clean.
+- Added 50 distinct guides and matching detailed summaries from existing library
+  records: **1000 papers / 361 summaries / 362 guides**. All previous 312 guide
+  objects and 311 summaries preserved by SHA-256; bibliography identities,
+  49-condition / 37-scaler catalog and canonical pilots **5/62/275** unchanged.
+  Frozen checks: depth250-baseline-2026-10-21.json.
+- New notes: src/depth250-source-notes.js; integration:
+  src/deep-dive-depth250-expansion.js. Every guide/summary uses the existing shared
+  eight-field mix-data-v1 dataset and exact-DOI catalog. Source quantities remain
+  original grams, percentages, oxide/atomic ratios or named conditions with gaps.
+  No competing catalog, newly scalable recipe or complete protocol is claimed.
+- Eleven bounded audits cover 50 accepted and two deferred candidates, **125
+  operations**. Each batch includes at most five accepted plus deferred papers
+  and at most 40 operations. Batch 4 opened one PMC article; another PMC open
+  returned a browser challenge. Batch 6 publisher opens returned 429. Batch 10
+  PMC opens returned browser challenges. No direct retry/bypass; raw sources,
+  abstracts and complete tables/figures not retained. Indexed primary factual
+  notes only elsewhere; comprehensive version/status/rights and human/domain or
+  independent replication review remain incomplete. The aquatic-source primary
+  CC BY 4.0 notice was observed and recorded; full license review is not blanket.
+- MgO carbonation and heap-fly-ash candidates were deferred for insufficient
+  usable findings/ledger; original mineral-pozzolan and granite/silica papers
+  replace them in separate batch 11. No duplicate guides for deferred sources.
+- Three additions are explicitly literature reviews/models, not newly claimed
+  physical datasets: printing rheology, PVA/nanosilica model and CO2 well-cement
+  review. Stock concentrations/atomic stock ratios and analytical suspensions
+  alone do not count as mix quantities. **37** new guides have weights/ratios;
+  ten new experimental guides keep quantity fields pending.
+- Existing queue-07 review: five papers / **11 search operations**. Four gain
+  selected partial reviews; three gain quantities/ratios. SFCC acid molarity is
+  not a batch ledger and remains excluded from with-quantities filter. Historical
+  masonry ledger remains pending. Existing failures/mix-design-06 checked first;
+  no direct opens or access bypass. New offline queue-08 lists next five; inspect
+  its prior checks before repeating requests. Queue-07 is historical.
+- Keep source boundaries: SR4 failed strength development; phosphate 14 M barely
+  hardened; stearate foam failed under microwave treatment; NMR mixture 1 excluded
+  for poor consolidation. Do not combine a complete S19 ledger with S20 fire
+  assembly results. Keep NaOH-column solution identity unresolved in MW modulus
+  recipe; planetary-mill printed 200 mm balls/500 mL jar is inconsistent; acid
+  leaching fractions printed with cm need dimensional review; glass-crucible
+  salt-loss duration alternates hours/days. Pumice's compression maximum differs
+  from its energy/water-resistance choice. Granite GWS60 compression exceeds
+  GWS70 despite the latter's favored microstructure narrative; anomalous source
+  elemental values and peak-based mechanism claims remain held, not corrected.
+- Explorer now **119 with weights/ratios**: 8 scalable-guide / 111 partial;
+  236 without a quantity ledger, 1 correction hold, 6 analyses. Packet states:
+  9 source-mix-with-gaps / 123 partial / **223 source-review-needed** / 1 hold /
+  6 no-independent-mix. Every protocolComplete remains false. Continue actual
+  extraction in pending and partial guides; section coverage is not completion.
+- Comparisons now show the recorded curing field separately from testing.
+  Stock-only disclosures are labeled batch quantities pending; no misleading
+  weights/ratios label for those notes.
+- SUMMARY_DEEP_DIVE_STANDARD.md remains mandatory through AGENTS.md, with an
+  added future-review checklist covering condition identity, stock-only notes,
+  failures/uncertainty, bounded replacements and frozen preservation checks.
+- All **153 Node cases**, schema and **1410-route build** pass. Reading and
+  explorer browser suites pass. All 100 new guide/study routes and the four
+  updated older study pages pass desktop/mobile with and without JavaScript;
+  disclosures, source/guide links and overflow checked. Full 362-guide sweeps
+  pass all four layouts, including both enhanced configurations. Research
+  navigation, database exports and RSS/JSON checks pass. Mobile screenshot
+  visually reviewed. Comparisons verify separate source curing/test values.
+  Initial QA caught a mobile overflow from a bare rights URL; display fixed,
+  source URL retained in metadata. Other runs were interrupted when Node build
+  tests rebuilt dist under the local server; final browser sweeps restarted
+  only after all build-writing tests completed. Only completed reruns count.
+- OpenAlex on hold. Existing daily automation unchanged. All release checks
+  passed; publication to main follows the owner's standing authorization.
+  Remote main reverified at the baseline before the final publication gate.
+
 ## Fifty more guides and universal mix-data standard — 21 October 2026
 - Owner requested the latest mix dataset for all deep dives where possible,
   another 50 deep dives, and a standard for every future summary/deep dive.

@@ -1,0 +1,104 @@
+{
+  "id": "mix-design-07",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "id": "calcium-hydroxide-carbonation-tradeoff",
+      "doi": "10.3390/ma16062305",
+      "source": "https://www.mdpi.com/1996-1944/16/6/2305",
+      "status": "partial-source-design",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "locator": "Methods/Table 2; carbonation-depth results"
+    },
+    {
+      "id": "sfcc-phosphate-acid-window",
+      "doi": "10.3390/gels8020130",
+      "source": "https://www.mdpi.com/2310-2861/8/2/130",
+      "status": "partial-source-design",
+      "protocolComplete": false,
+      "quantitiesAvailable": false,
+      "locator": "Abstract; §3/Figure 2; preparation Table 2"
+    },
+    {
+      "id": "foam-polystyrene-fire-assembly",
+      "doi": "10.3390/polym14101945",
+      "source": "https://www.mdpi.com/2073-4360/14/10/1945",
+      "status": "partial-source-design",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "locator": "§2.2/Table 2; porosimetry Table 3; fire assembly and conclusions"
+    },
+    {
+      "id": "masonry-fiber-material-versus-structure",
+      "doi": "10.3390/polym15041017",
+      "source": "https://www.mdpi.com/2073-4360/15/4/1017",
+      "status": "source-review-needed",
+      "protocolComplete": false,
+      "quantitiesAvailable": false,
+      "locator": "Primary identity/fiber types only; no usable ledger extracted"
+    },
+    {
+      "id": "metakaolin-gel-amount-versus-composition",
+      "doi": "10.3390/ma13245784",
+      "source": "https://www.mdpi.com/1996-1944/13/24/5784",
+      "status": "partial-source-design",
+      "protocolComplete": false,
+      "quantitiesAvailable": true,
+      "locator": "Table 1; §3.1.2/Figures 3–4"
+    }
+  ],
+  "operations": [
+    {
+      "kind": "search",
+      "query": "\"Modification Effect of Ca(OH)2\" \"Table 1\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Structure and Properties of Phosphate-Based Geopolymer\" \"SFCC\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Fire Resistance of Geopolymer Foams Layered on Polystyrene Boards\" \"composition\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Enhancing the Mechanical Properties of Historical Masonry\" \"geopolymers\" \"mix\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Modification Effect of Ca(OH)2\" \"mix\" \"content\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Structure and Properties of Phosphate-Based Geopolymer\" \"mol/L\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Enhancing the Mechanical Properties of Historical Masonry\" \"Table 2\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Quantitative Correlation between the Degree of Reaction and Compressive Strength\" \"mix\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Enhancing the Mechanical Properties of Historical Masonry\" \"0.5\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Structure and Properties of Phosphate-Based Geopolymer\" \"Acid Volume\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Modification Effect of Ca(OH)2\" \"NaOH\""
+    }
+  ],
+  "operationCount": 11,
+  "rawSourceRetained": false,
+  "newRecipes": 0,
+  "newCanonicalObservations": 0,
+  "access": "Existing failed-access and mix-design-06 records read first. Indexed primary search only; no direct opens, repeated challenges or access bypass. Ca(OH)2 identity confirmed separately from MgO source.",
+  "rights": "Original selected factual notes; no raw source or complete tables/figures retained. Exact source version/license not newly cleared.",
+  "unfinished": "Masonry ledger remains pending; SFCC concentration is not a batch quantity and is excluded from with-quantities filter."
+}

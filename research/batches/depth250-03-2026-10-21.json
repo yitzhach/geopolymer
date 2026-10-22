@@ -1,0 +1,126 @@
+{
+  "id": "depth250-03",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "ke-b17-009",
+      "doi": "10.3390/su13116128",
+      "deepDiveId": "cacl2-wellcement-hpht-acoustics",
+      "source": "https://doi.org/10.3390/su13116128",
+      "locator": "Conclusions; morphology; Figure 10",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full fly ash, activator and water ledger unresolved.",
+        "No reconciled maximum, pressure protocol or uncertainty extracted."
+      ]
+    },
+    {
+      "publicationId": "ke-b17-010",
+      "doi": "10.3390/app13042615",
+      "deepDiveId": "glass-frit-chloride-containment-ramp",
+      "source": "https://doi.org/10.3390/app13042615",
+      "locator": "§2.1; §4",
+      "quantitiesAvailable": false,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full platelet/frit/solution masses and initial cure unresolved.",
+        "No post-exposure mechanical service-life qualification."
+      ]
+    },
+    {
+      "publicationId": "ke-b17-011",
+      "doi": "10.3390/gels10010019",
+      "deepDiveId": "ashslag-foam-stearate-microwave-failure",
+      "source": "https://doi.org/10.3390/gels10010019",
+      "locator": "§4.2/Table 6; Abstract",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Waterglass grade and exact microwave temperature history need review.",
+        "Full numeric/uncertainty inventory unresolved."
+      ]
+    },
+    {
+      "publicationId": "ke-b17-012",
+      "doi": "10.3390/buildings15214012",
+      "deepDiveId": "fa-ggbs-acid-strength-compromise",
+      "source": "https://doi.org/10.3390/buildings15214012",
+      "locator": "§§2.1–2.2; Abstract",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full binder/aggregate/solution masses and curing RH unresolved.",
+        "No combined optimum across strength and both acid exposures extracted."
+      ]
+    },
+    {
+      "publicationId": "ke-b17-013",
+      "doi": "10.3390/jcs9010044",
+      "deepDiveId": "nash-acid-oxide-ratio-boundaries",
+      "source": "https://doi.org/10.3390/jcs9010044",
+      "locator": "Abstract; concluding points 2–4",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full material/solution masses, exposure protocol and uncertainty pending.",
+        "Do not treat oxide ratios as solution mass ratios."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "kind": "search",
+      "query": "\"Reducing the Waiting-On-Cement Time\" \"CaCl2\" \"2%\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Self-Healing Glass/Metakaolin-Based\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Study on the Curing and Foaming of Surfactant-Modified\" \"concentration\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Experimental Study on Acid Resistance\" \"10.3390/buildings15214012\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Refining Oxide Ratios in N-A-S-H\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Experimental Study on Acid Resistance of Geopolymer Concrete Incorporating\" \"mix\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Self-Healing Glass/Metakaolin-Based\" \"650\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Self-Healing Glass/Metakaolin-Based\" \"conclusions\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Reducing the Waiting-On-Cement Time\" \"3%\" \"70\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Study on the Curing and Foaming of Surfactant-Modified\" \"Table 6\""
+    }
+  ],
+  "operationCount": 10,
+  "deferred": [],
+  "access": "Indexed primary text only; no direct opens in this batch.",
+  "priorAccess": "Existing batch/failed-access records checked; previous thermal-aeration candidate excluded without repeat requests.",
+  "rawSourceRetained": false,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "rights": "Original selected factual paraphrases only; no raw source, abstract or complete table/figure retained. Full version/license review remains incomplete except explicit article-specific notices. No comprehensive status, human/domain or replication clearance."
+}

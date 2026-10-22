@@ -1,0 +1,150 @@
+{
+  "id": "depth250-02",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "ke-b17-004",
+      "doi": "10.3390/en15093363",
+      "deepDiveId": "coal-gangue-foam-thermal-retention",
+      "source": "https://doi.org/10.3390/en15093363",
+      "locator": "Methods/Table 3; Abstract; thermal results",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Complete liquid and precursor masses and percentage bases unresolved.",
+        "Thermal ramps, test state, replicate uncertainty pending."
+      ]
+    },
+    {
+      "publicationId": "ke-b17-005",
+      "doi": "10.3390/ma12030461",
+      "deepDiveId": "molten-kcl-leucite-processing",
+      "source": "https://doi.org/10.3390/ma12030461",
+      "locator": "Abstract; §§2.2–2.4",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full geopolymer liquid/solid ledger and monolith salt geometry unresolved.",
+        "Salt removal, firing ramps, loading rate and uncertainty need review."
+      ]
+    },
+    {
+      "publicationId": "ke-b17-006",
+      "doi": "10.3390/ma18102388",
+      "deepDiveId": "steel-slag-bacl2-precoating",
+      "source": "https://doi.org/10.3390/ma18102388",
+      "locator": "Abstract; §3.5; §4",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Exact S 40 GF 51 masses, activator assay and Ba Cl 2 dosage bases unresolved.",
+        "Full ages, geometry and uncertainty remain pending."
+      ]
+    },
+    {
+      "publicationId": "ke-b17-007",
+      "doi": "10.3390/ma19071469",
+      "deepDiveId": "cs-adsorbent-solidification-oxide-window",
+      "source": "https://doi.org/10.3390/ma19071469",
+      "locator": "Abstract/highlights; RSM validation",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Ingredient masses, adsorbent loading and solution assay unresolved.",
+        "Leaching units, age and uncertainty need reconciliation."
+      ]
+    },
+    {
+      "publicationId": "ke-b17-008",
+      "doi": "10.3390/jcs10050238",
+      "deepDiveId": "silt-dual-alkali-void-control",
+      "source": "https://doi.org/10.3390/jcs10050238",
+      "locator": "Mechanical results; supplementary Table S 1",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full liquid masses, silt basis and specimen preparation pending.",
+        "Quoted strength age and replicate uncertainty must be resolved before numerical pooling."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "kind": "search",
+      "query": "\"Mechanical Response of Geopolymer Foams to Heating\" \"mixtures\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Synthesis of Monolithic Potassium Geopolymer Ceramics\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Comprehensive Study on Design Optimization and Retardation\" \"proportions\""
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/en15093363\" \"Materials\""
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma18102388\" \"0.3\" \"BaCl\""
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/ma19071469\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/jcs10050238\" \"NaOH\""
+    },
+    {
+      "kind": "search",
+      "query": "site:mdpi.com/1996-1073/15/9/3363 \"2.2\" \"hydrogen\""
+    },
+    {
+      "kind": "search",
+      "query": "site:mdpi.com/1996-1944/18/10/2388 \"Conclusions\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "site:mdpi.com/1996-1944/19/7/1469 \"Conclusions\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "site:mdpi.com/2504-477X/10/5/238 \"Conclusions\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Mechanical Response of Geopolymer Foams to Heating\" \"hydrogen peroxide\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Comprehensive Study on Design Optimization and Retardation\" \"3.5\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Optimization Design of Metakaolin-Based Geopolymer Solidification\" \"optimal\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Mechanical Strength Analysis of Silt-Filled\" \"50%\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Comprehensive Study on Design Optimization and Retardation\" \"Conclusions\""
+    }
+  ],
+  "operationCount": 16,
+  "deferred": [],
+  "access": "Indexed primary text only; no direct opens in this batch.",
+  "priorAccess": "Existing batch/failed-access records checked; previous thermal-aeration candidate excluded without repeat requests.",
+  "rawSourceRetained": false,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "rights": "Original selected factual paraphrases only; no raw source, abstract or complete table/figure retained. Full version/license review remains incomplete except explicit article-specific notices. No comprehensive status, human/domain or replication clearance."
+}

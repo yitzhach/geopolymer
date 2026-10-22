@@ -1,5 +1,10 @@
 # Research database and GP Journal
 
+## 21 October 2026 — depth250 continuation
+
+Another fifty source-linked guides/summaries bring totals to 362/361, with all prior records and scientific datasets preserved. Eleven bounded depth250 audits record 125 operations for 50 accepted/two deferred candidates; mix-design-07 records five older papers/11 searches. Original factual notes only; source/access gaps, ten new missing quantity ledgers and three non-independent analyses remain explicit. No new catalog or canonical observations. See HANDOFF.md for exact QA and remaining extraction.
+
+
 ## 21 October 2026 — universal mix data and fifty further reading guides
 
 All 312 deep dives and 311 detailed summaries expose the shared eight-field

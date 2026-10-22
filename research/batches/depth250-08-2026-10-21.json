@@ -1,0 +1,113 @@
+{
+  "id": "depth250-08",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "ke-b19-007",
+      "doi": "10.3390/min11050486",
+      "deepDiveId": "lowgrade-mk-zeolite-dual-objective",
+      "source": "https://doi.org/10.3390/min11050486",
+      "locator": "§4 conclusions",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Percentage basis, activator/liquid ledger and cure conditions pending.",
+        "Do not reuse 75/25 commercial MK prior work as a different original condition."
+      ]
+    },
+    {
+      "publicationId": "ke-b19-008",
+      "doi": "10.3390/ma17143515",
+      "deepDiveId": "fgt-flyash-hazard-strength-boundary",
+      "source": "https://doi.org/10.3390/ma17143515",
+      "locator": "Abstract; waste classification discussion",
+      "quantitiesAvailable": false,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full ash fractions and solution masses pending.",
+        "Retain monolith/crushed leaching distinction and no unverified compliance claim."
+      ]
+    },
+    {
+      "publicationId": "ke-b19-011",
+      "doi": "10.3390/su18062685",
+      "deepDiveId": "calcined-pumice-multiobjective",
+      "source": "https://doi.org/10.3390/su18062685",
+      "locator": "Abstract; experimental design; conclusions",
+      "quantitiesAvailable": false,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full activator/sand/water ledger and exact test age pending.",
+        "No quantified energy advantage without the source assessment basis."
+      ]
+    },
+    {
+      "publicationId": "ke-b19-012",
+      "doi": "10.3390/su11215935",
+      "deepDiveId": "slag-alkali-statistical-null",
+      "source": "https://doi.org/10.3390/su11215935",
+      "locator": "Tables 2/4; correlation discussion",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full masses, water definition and stock chemistry pending.",
+        "No global optimum from the partially reviewed design."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "kind": "search",
+      "query": "\"Combined Influence of Low-Grade Metakaolins and Natural Zeolite\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Geopolymer Materials from Fly Ash\" \"10.3390/ma17143515\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Sustainable Geopolymer Synthesis from Calcined Pumice\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Statistical Evaluation of Mechanical Properties of Slag Based\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Study on Mechanical Properties of Heap Deposited Fly Ash\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Combined Influence of Low-Grade Metakaolins\" \"Conclusions\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Sustainable Geopolymer Synthesis from Calcined Pumice\" \"Conclusions\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Statistical Evaluation of Mechanical Properties of Slag Based\" \"Table 2\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Study on Mechanical Properties of Heap Deposited Fly Ash\" \"Conclusions\""
+    }
+  ],
+  "operationCount": 9,
+  "deferred": [
+    {
+      "doi": "10.3390/buildings12111780",
+      "reason": "Primary identity/objective found; insufficient accessible findings and quantities after bounded search; no new guide."
+    }
+  ],
+  "access": "Indexed primary text only; no direct opens in this batch.",
+  "priorAccess": "Existing batch/failed-access records checked; previous thermal-aeration candidate excluded without repeat requests.",
+  "rawSourceRetained": false,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "rights": "Original selected factual paraphrases only; no raw source, abstract or complete table/figure retained. Full version/license review remains incomplete except explicit article-specific notices. No comprehensive status, human/domain or replication clearance."
+}

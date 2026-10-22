@@ -77,3 +77,17 @@ comparisons and exports. Test missing-field, cross-source identity, held-source
 and model boundaries. Record exact counts, tests and remaining extraction work
 in HANDOFF.md. Publication follows the owner's existing authorization; automated
 schema checks do not establish scientific validity or complete extraction.
+
+Review checklist for future batches:
+
+- Name a source condition or control for each ledger. Do not attach one variant’s
+  outcome to another variant’s more complete ingredient row.
+- Set `hasQuantities:false` for stock-concentration-only notes and analytical
+  suspensions. An assay, molarity or test solution is not an experimental batch.
+- Preserve failed setting/consolidation, excluded results, numerical optima versus
+  tested conditions, unequal ages and endpoint-specific uncertainty.
+- Record actual source check dates, failed access and deferred candidates. If a
+  candidate lacks useful findings, defer it and review its replacement separately
+  so the five-paper bound still includes deferred papers.
+- Freeze the previous guide/summary records and publication/catalog/pilot hashes
+  before an expansion. Verify preservation; update only documented corrections.

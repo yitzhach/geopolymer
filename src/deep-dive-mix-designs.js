@@ -1,3 +1,5 @@
+import {mixDesignReview07} from './mix-design-review-07.js';
+import {depth250MixReviews} from './deep-dive-depth250-expansion.js';
 import {deepDives} from './deep-dives.js';
 import {literatureMixes} from './literature-mixes.js';
 import {mixDesignReview04} from './mix-design-review-04.js';
@@ -72,6 +74,8 @@ const make=d=>{
  };
 };
 const partialReviews={
+ ...mixDesignReview07,
+ ...depth250MixReviews,
  ...mixDesignReview06,
  ...depth200MixReviews,
  ...mixDesignReview04,

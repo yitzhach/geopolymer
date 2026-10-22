@@ -1,0 +1,118 @@
+{
+  "id": "depth250-09",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "ke-b19-014",
+      "doi": "10.3390/min11010060",
+      "deepDiveId": "lowalkali-fa-slag-cure-model",
+      "source": "https://doi.org/10.3390/min11010060",
+      "locator": "Experimental design; conclusions",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full liquid/solid/sand ledger and curing sealing pending.",
+        "No matched multi-goal best selected from partial source."
+      ]
+    },
+    {
+      "publicationId": "ke-b19-017",
+      "doi": "10.3390/ma19071438",
+      "deepDiveId": "tailings-gangue-slag-rsm",
+      "source": "https://doi.org/10.3390/ma19071438",
+      "locator": "§6; mortar method",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Exact activator percentage bases, preactivation and curing need review.",
+        "Mechanism network claim and model optimum are not independent verification."
+      ]
+    },
+    {
+      "publicationId": "ke-b19-018",
+      "doi": "10.3390/ma19153170",
+      "deepDiveId": "heat-assisted-pavement-layer-lab",
+      "source": "https://doi.org/10.3390/ma19153170",
+      "locator": "Study scope; Table 6",
+      "quantitiesAvailable": false,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full ingredient and layer thickness ledger pending.",
+        "No recipe optimum from a single configuration; uncertainty and test age pending."
+      ]
+    },
+    {
+      "publicationId": "ke-b19-019",
+      "doi": "10.3390/app13148353",
+      "deepDiveId": "slag-grout-water-compression-flexure",
+      "source": "https://doi.org/10.3390/app13148353",
+      "locator": "Mechanical results; discussion",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full solution/slag/admixture ledger and flow properties pending.",
+        "No pooled strength rank or complete field protocol."
+      ]
+    },
+    {
+      "publicationId": "ke-b19-020",
+      "doi": "10.3390/ma13051134",
+      "deepDiveId": "aircooled-slag-milling-activation",
+      "source": "https://doi.org/10.3390/ma13051134",
+      "locator": "§2; Abstract",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Activator masses, assay and milling ball specification pending.",
+        "Source version notes show updates; comprehensive status review not complete."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "kind": "search",
+      "query": "\"Development of Low-Alkali, Fly Ash/Slag Geopolymers\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Optimizing the Composition of Solid Sodium Silicate-Activated\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Laboratory Performance of Heat-Assisted Fly Ash-Based\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Mechanical Properties of Slag-Based Geopolymer Grouting\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Geopolymer Based on Mechanically Activated Air-cooled Blast Furnace Slag\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Optimizing the Composition of Solid Sodium Silicate-Activated\" \"Conclusions\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Laboratory Performance of Heat-Assisted Fly Ash-Based\" \"Table 2\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Development of Low-Alkali, Fly Ash/Slag Geopolymers\" \"Conclusions\""
+    }
+  ],
+  "operationCount": 8,
+  "deferred": [],
+  "access": "Indexed primary text only; no direct opens in this batch.",
+  "priorAccess": "Existing batch/failed-access records checked; previous thermal-aeration candidate excluded without repeat requests.",
+  "rawSourceRetained": false,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "rights": "Original selected factual paraphrases only; no raw source, abstract or complete table/figure retained. Full version/license review remains incomplete except explicit article-specific notices. No comprehensive status, human/domain or replication clearance."
+}

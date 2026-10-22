@@ -1,0 +1,133 @@
+{
+  "id": "depth250-06",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "ke-b18-003",
+      "doi": "10.3390/ma10040396",
+      "deepDiveId": "glass-fiber-sand-acid-brittleness",
+      "source": "https://doi.org/10.3390/ma10040396",
+      "locator": "Abstract; fracture discussion; leaching methods; Supplement S 1",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Activator/water/fiber denominator and curing chronology pending.",
+        "No source figure digitization or independent statistical comparison."
+      ]
+    },
+    {
+      "publicationId": "ke-b18-005",
+      "doi": "10.3390/ceramics2010014",
+      "deepDiveId": "ice-templated-oxide-carrier-porosity",
+      "source": "https://doi.org/10.3390/ceramics2010014",
+      "locator": "Abstract; materials/methods",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full geopolymer/oxide/water ledger and gas-test lineage pending.",
+        "Publisher open 429; no repeat."
+      ]
+    },
+    {
+      "publicationId": "ke-b18-006",
+      "doi": "10.3390/nano15131051",
+      "deepDiveId": "sediment-slag-frost-admixtures",
+      "source": "https://doi.org/10.3390/nano15131051",
+      "locator": "Abstract; §4.1",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Actual sediment/slag/activator and fiber quantities pending.",
+        "Matched-age uncycled control and uncertainty need condition-level extraction."
+      ]
+    },
+    {
+      "publicationId": "ke-b18-007",
+      "doi": "10.3390/buildings16071288",
+      "deepDiveId": "cf-flyash-sand-freeze-thaw",
+      "source": "https://doi.org/10.3390/buildings16071288",
+      "locator": "Abstract; freeze–thaw protocol; Table 4",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Class C/F fractions and full solution/water ledger unresolved.",
+        "No extrapolation from 60 cycles to field service life."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "kind": "search",
+      "query": "\"The Brittleness and Chemical Stability of Optimized Geopolymer Composites\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Tuning the Carbonation Resistance\" \"Reactive MgO\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Ice-Templated Geopolymer\" \"Fe/Mn\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Study on the Influence and Mechanism of Mineral Admixtures and Fibers\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Freeze–Thaw Resistance of Class C/Class F\" \"ratios\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Tuning the Carbonation Resistance\" \"MgO\" \"10%\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Ice-Templated Geopolymer\" \"wt\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Study on the Influence and Mechanism of Mineral Admixtures and Fibers\" \"20%\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Tuning the Carbonation Resistance\" \"0%\" \"MgO\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Study on the Influence and Mechanism of Mineral Admixtures and Fibers\" \"cycles\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Ice-Templated Geopolymer\" \"porosity\" \"strength\""
+    },
+    {
+      "kind": "open",
+      "query": "https://www.mdpi.com/2504-477X/9/10/549"
+    },
+    {
+      "kind": "open",
+      "query": "https://www.mdpi.com/2571-6131/2/1/14"
+    },
+    {
+      "kind": "search",
+      "query": "\"Tuning the Carbonation Resistance of Metakaolin\" \"dosage\""
+    }
+  ],
+  "operationCount": 14,
+  "deferred": [
+    {
+      "doi": "10.3390/jcs9100549",
+      "reason": "Indexed methods/interpretation found but no useful reconciled dose or outcome; publisher429, not retried; no new guide."
+    }
+  ],
+  "access": "Two publisher opens returned429; no retry or bypass.",
+  "priorAccess": "Existing batch/failed-access records checked; previous thermal-aeration candidate excluded without repeat requests.",
+  "rawSourceRetained": false,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "rights": "Original selected factual paraphrases only; no raw source, abstract or complete table/figure retained. Full version/license review remains incomplete except explicit article-specific notices. No comprehensive status, human/domain or replication clearance."
+}

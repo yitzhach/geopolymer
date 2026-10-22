@@ -1,0 +1,60 @@
+{
+  "id": "depth250-11",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "ke-b20-003",
+      "doi": "10.3390/min11121344",
+      "deepDiveId": "middle-atlas-pozzolan-mk-addition",
+      "source": "https://doi.org/10.3390/min11121344",
+      "locator": "Abstract; preparation and mechanical results",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Complete liquid/solid ledger, calcination accounting and dose basis pending.",
+        "Full curing and replicate uncertainty unresolved."
+      ]
+    },
+    {
+      "publicationId": "ke-b20-004",
+      "doi": "10.3390/ma19050886",
+      "deepDiveId": "granite-reactive-silica-conflicted-optimum",
+      "source": "https://doi.org/10.3390/ma19050886",
+      "locator": "Abstract; §4; conclusions",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Complete ingredient ledger, stock assays and calcination conditions unresolved.",
+        "Do not infer causal silica benefit or a universal optimum from contradictory narratives."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "kind": "search",
+      "query": "\"Geopolymer Materials Based on Natural Pozzolans from the Moroccan Middle Atlas\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Role of Reactive Silica Addition in Enhancing Geopolymerization Efficiency\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Role of Reactive Silica Addition\" \"Conclusions\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Role of Reactive Silica Addition\" \"Table 2\""
+    }
+  ],
+  "operationCount": 4,
+  "deferred": [],
+  "access": "Indexed primary text only; no direct opens in this batch.",
+  "priorAccess": "Existing batch/failed-access records checked; previous thermal-aeration candidate excluded without repeat requests.",
+  "rawSourceRetained": false,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "rights": "Original selected factual paraphrases only; no raw source, abstract or complete table/figure retained. Full version/license review remains incomplete except explicit article-specific notices. No comprehensive status, human/domain or replication clearance."
+}

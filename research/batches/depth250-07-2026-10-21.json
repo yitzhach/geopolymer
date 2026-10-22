@@ -1,0 +1,150 @@
+{
+  "id": "depth250-07",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "ke-b18-008",
+      "doi": "10.3390/molecules27206881",
+      "deepDiveId": "biomass-onepart-boiler-tradeoff",
+      "source": "https://doi.org/10.3390/molecules27206881",
+      "locator": "Tables 1–3; §3.1; Abstract",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full mortar masses and W/B denominator pending; merged cells not filled by assumption.",
+        "Full cure/uncertainty and source rights review incomplete."
+      ]
+    },
+    {
+      "publicationId": "ke-b19-001",
+      "doi": "10.3390/ma15103732",
+      "deepDiveId": "fa-mk-activator-microstructure",
+      "source": "https://doi.org/10.3390/ma15103732",
+      "locator": "Conclusions; mix-design discussion",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Complete solution/solid ledger, concentration conventions and test ages unresolved.",
+        "No digital graph values imported."
+      ]
+    },
+    {
+      "publicationId": "ke-b19-003",
+      "doi": "10.3390/app132413062",
+      "deepDiveId": "mk-strength-development-activator-scope",
+      "source": "https://doi.org/10.3390/app132413062",
+      "locator": "Study scope; conclusions",
+      "quantitiesAvailable": false,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Actual composition values and complete ledger remain pending.",
+        "No early-age interpolation or well-service qualification."
+      ]
+    },
+    {
+      "publicationId": "ke-b19-005",
+      "doi": "10.3390/min14100974",
+      "deepDiveId": "mk-grade-parametrization-confounding",
+      "source": "https://doi.org/10.3390/min14100974",
+      "locator": "Tables 2/4; §4",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full masses/stock assays and loading protocol pending.",
+        "The model is restricted by preparation conditions and sample family."
+      ]
+    },
+    {
+      "publicationId": "ke-b19-006",
+      "doi": "10.3390/app13042179",
+      "deepDiveId": "mk-modulus-age-loading-boundaries",
+      "source": "https://doi.org/10.3390/app13042179",
+      "locator": "Mechanical-test methods/Table 6; strain-cycle discussion",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Resolve NaOH column identity, stock assay and water balance before scaling.",
+        "Different secant intervals, ages and one-specimen claims do not establish precision or independent replication."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "kind": "search",
+      "query": "\"Valorization of Fly Ashes and Sands Wastes from Biomass Boilers\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Strength and Microstructure of Geopolymer Based on Fly Ash and Metakaolin\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Strength Development of Metakaolin-Based Alkali-Activated Cement\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Parametrization of Geopolymer Compressive Strength Obtained\" \"mix\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Parametrization of Geopolymer Compressive Strength Obtained from Metakaolin Properties\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Time Evolution of the Modulus of Elasticity of Metakaolin-Based\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Valorization of Fly Ashes and Sands Wastes\" \"Table 2\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Strength Development of Metakaolin-Based Alkali-Activated Cement\" \"Si/Al\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Strength Development of Metakaolin-Based Alkali-Activated Cement\" \"2.0\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Time Evolution of the Modulus of Elasticity\" \"geopolymer\" \"Table 2\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Parametrization of Geopolymer Compressive Strength\" \"Table 2\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Valorization of Fly Ashes and Sands Wastes\" \"conclusions\""
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/app132413062\" \"Abstract\""
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/app13042179\" \"Materials\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Strength Development of Metakaolin-Based Alkali-Activated Cement\" \"NaOH\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Time Evolution of the Modulus of Elasticity of Metakaolin-Based Geopolymer\" \"composition\""
+    }
+  ],
+  "operationCount": 16,
+  "deferred": [],
+  "access": "Indexed primary text only; no direct opens in this batch.",
+  "priorAccess": "Existing batch/failed-access records checked; previous thermal-aeration candidate excluded without repeat requests.",
+  "rawSourceRetained": false,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "rights": "Original selected factual paraphrases only; no raw source, abstract or complete table/figure retained. Full version/license review remains incomplete except explicit article-specific notices. No comprehensive status, human/domain or replication clearance."
+}

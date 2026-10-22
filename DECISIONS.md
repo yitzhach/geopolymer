@@ -1,5 +1,10 @@
 # Geopolymer Platform — Decisions
 
+## 21 October 2026 — depth250 continuation
+
+Retain the shared mix-data-v1 contract for the next fifty guide/summary pairs. Stock concentration alone is not batch quantity; a more complete control ledger cannot inherit another condition’s outcome. Preserve the existing catalog, publication identities, prior editorial hashes and pilots. Add review checklist to the required future-content standard. The target of all-guide extraction remains unfinished.
+
+
 ## 21 October 2026 — one source-linked dataset for summaries and guides
 
 Apply SUMMARY_DEEP_DIVE_STANDARD.md to future additions. Detailed summaries and

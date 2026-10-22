@@ -1,0 +1,150 @@
+{
+  "id": "depth250-10",
+  "date": "2026-10-21",
+  "records": [
+    {
+      "publicationId": "ke-b19-023",
+      "doi": "10.3390/su16010440",
+      "deepDiveId": "zeolite-slag-lca-cost-choice",
+      "source": "https://doi.org/10.3390/su16010440",
+      "locator": "§§2.2–2.6; §4",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Reconciled ratio/solution mass ledger and supplementary LCA inventory pending.",
+        "Laboratory scenario does not establish current US production cost."
+      ]
+    },
+    {
+      "publicationId": "ke-b19-024",
+      "doi": "10.3390/polym15051241",
+      "deepDiveId": "uncalcined-gangue-calcium-rsm",
+      "source": "https://doi.org/10.3390/polym15051241",
+      "locator": "Methods; ANOVA; optimization discussion",
+      "quantitiesAvailable": false,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full factor levels, masses and validation conditions pending.",
+        "PMC open gave browser challenge; no direct retry or bypass."
+      ]
+    },
+    {
+      "publicationId": "ke-b19-025",
+      "doi": "10.3390/gels8060333",
+      "deepDiveId": "naoh-thermal-treatment-phase-choice",
+      "source": "https://doi.org/10.3390/gels8060333",
+      "locator": "Thermal results; conclusions",
+      "quantitiesAvailable": false,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Actual molarity series, liquid masses and exposure ramps pending.",
+        "PMC open gave browser challenge; no direct retry."
+      ]
+    },
+    {
+      "publicationId": "ke-b20-001",
+      "doi": "10.3390/ma17081839",
+      "deepDiveId": "industrial-kaolin-alkali-characterization",
+      "source": "https://doi.org/10.3390/ma17081839",
+      "locator": "§§2.1–2.4; §4",
+      "quantitiesAvailable": false,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full solution/solid masses and Si/K versus Si/Na basis need reconciliation.",
+        "Mechanical results are not fabricated from future applications."
+      ]
+    },
+    {
+      "publicationId": "ke-b20-002",
+      "doi": "10.3390/buildings14030787",
+      "deepDiveId": "calcined-gangue-activator-window",
+      "source": "https://doi.org/10.3390/buildings14030787",
+      "locator": "§§2.2–2.3; §4",
+      "quantitiesAvailable": true,
+      "protocolComplete": false,
+      "evidenceKind": "experimental-study",
+      "holds": [
+        "Full as-supplied batch ledger, calcination duration and age origin pending.",
+        "No universal modulus, optimum or stock water fraction inferred."
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "kind": "search",
+      "query": "\"Engineering and Life Cycle Assessment\" \"Zeolite-Based Geopolymer\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Investigation on the Effect of Calcium\" \"Uncalcined Coal Gangue\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Heat Treatment of Geopolymer Samples Obtained\" \"Concentration\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Preparation of Geopolymeric Materials from Industrial Kaolins\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Geopolymerization of Coal Gangue via Alkali-Activation\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Engineering and Life Cycle Assessment\" \"Zeolite-Based Geopolymer\" \"Conclusions\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Investigation on the Effect of Calcium\" \"Uncalcined\" \"optimal\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Preparation of Geopolymeric Materials from Industrial Kaolins\" \"Conclusions\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Engineering and Life Cycle Assessment\" \"Zeolite-Based Geopolymer\" \"slag\" \"80\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Investigation on the Effect of Calcium\" \"Uncalcined\" \"Table 2\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Heat Treatment of Geopolymer Samples Obtained\" \"2 M\" \"ratio\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Preparation of Geopolymeric Materials from Industrial Kaolins\" \"Table 1\""
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/su16010440\" \"Abstract\""
+    },
+    {
+      "kind": "search",
+      "query": "\"10.3390/polym15051241\" \"Abstract\""
+    },
+    {
+      "kind": "open",
+      "query": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10006894/"
+    },
+    {
+      "kind": "open",
+      "query": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9222481/"
+    }
+  ],
+  "operationCount": 16,
+  "deferred": [],
+  "access": "Two PMC opens returned browser challenge; no retry or bypass.",
+  "priorAccess": "Existing batch/failed-access records checked; previous thermal-aeration candidate excluded without repeat requests.",
+  "rawSourceRetained": false,
+  "newCanonicalObservations": 0,
+  "newRecipes": 0,
+  "rights": "Original selected factual paraphrases only; no raw source, abstract or complete table/figure retained. Full version/license review remains incomplete except explicit article-specific notices. No comprehensive status, human/domain or replication clearance."
+}

@@ -1,5 +1,10 @@
 # Recipe database and future formulation advisor
 
+## 21 October 2026 — depth250 continuation
+
+The next fifty-guide batch adds selected condition weights/ratios without adding recipes: canonical catalog remains 49 conditions/37 proportional scalers. Explorer now has 119 guides with quantities (8 scalable-guide/111 partial); unquantified stock-only notes remain pending. Existing exact-DOI catalog remains the only scalable recipe source. No complete reproduction protocol claimed.
+
+
 ## 21 October 2026 — shared dataset and one closed source ledger
 
 The eight-field mix-data standard now appears on all 312 guides and 311 detailed
