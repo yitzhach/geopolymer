@@ -1,3 +1,4 @@
+import {attachDeepDiveExplorer} from './deep-dive-explorer.js';
 import {deepDives} from './deep-dives.js';
 import {deepDiveIndex,deepDivePage} from './deep-dive-ui.js';
 import {knowledgeReferences} from './knowledge-references.js';
@@ -453,6 +454,7 @@ export async function enhancePage() {
   if (["knowledge","studies"].includes(area)) attachKnowledge();
   if (area === "journal") attachJournal();
   if (area === "formulations") attachMix();
+  if (area === "deep-dives") attachDeepDiveExplorer();
   document.querySelectorAll('nav a').forEach(a => {
     if (a.pathname.replace(/\/$/, '') === location.pathname.replace(/\/$/, ''))
       a.setAttribute('aria-current', 'page');

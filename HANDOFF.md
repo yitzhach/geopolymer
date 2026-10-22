@@ -1,5 +1,55 @@
 # Geopolymer — current handoff
 
+## Searchable deep-dive mix explorer — 21 October 2026
+- Owner requested organization by mix availability, clear materials/weights/ratios,
+  fast search and cross-study comparisons. Baseline local/remote main verified
+  `98603d06e7502ae42aa15fa2d373ceaff7cbb235`; workspace initially clean.
+- `/deep-dives` now groups all 262 guides: 7 with at least one scalable mass
+  ledger, 21 with partial weights/ratios, 231 without an extracted ledger,
+  1 correction hold and 2 without an independent experiment. “With weights or
+  ratios” includes 28 guides; none has a fully verified reproduction protocol.
+- Search covers recorded ingredient names/quantities, titles, DOI, source basis,
+  curing and reviewed outcomes. Material filters describe extracted ledgers only,
+  not guesses from article titles. Clear filters and empty results supported.
+  URL parameters `q`, `mix`, `material` preserve filters; `compare` preserves up
+  to four selected guide IDs for shareable comparisons across filter changes.
+- Cards expand existing exact-DOI catalog conditions and partial ledgers. Original
+  basis stays visible; calculated 100 g **total wet batch** examples appear only
+  for existing scalable records, with solution masses as supplied. This is a view
+  over the existing catalog, not a competing recipe database or chemical conversion.
+- Comparisons show overlapping recorded material categories, ingredient ledgers,
+  source-specific outcomes/tradeoffs, forms, preparation, curing, test ages/methods,
+  sources and gaps. No pooled strength ranking, causal inference or universal
+  winner. Existing reviewed best-condition rationale is reused with its limits.
+- Five queue-05 sources gain selected partial ledgers/methods in
+  `src/mix-design-review-05.js`. Acid PBDI example: source masses 20.0 g MK,
+  26.9 g 9 M phosphoric-acid stock and 0.704 g dried polymer; percent basis is
+  acidic polymer solution, not MK. No inferred stock water fraction. Frost ledger
+  preserves unresolved table units/sand basis; coating keeps blank NaOH cell and
+  modifier denominator unresolved; biochar volume/weight bases and 30/28-day
+  conflict retained; hemp fiber denominator includes fiber in total mix mass.
+- `mix-design-05-2026-10-21.json`: five papers / 15 search operations, no direct
+  opens. Prior failed-access records checked, no bypass/retry of challenged pages.
+  Selected primary-indexed factual paraphrases only; full inventories and exact
+  rights/version review incomplete; no raw sources or complete tables retained.
+- Scientific counts unchanged: 1000 papers / 261 previews / 262 guides; catalog
+  48 conditions / 36 proportional scalers; pilots 5 partial studies / 62 mixes /
+  275 observations. Packet statuses now 8 source-mix-with-gaps / 20 partial /
+  231 source-review-needed / 1 hold / 2 no-independent-mix. All protocolComplete
+  flags remain false. Queue-05 is historical; its five entries are now partially
+  reviewed. Queue-06 lists the next five pending guides with their existing gaps;
+  it is an offline queue, not new source evidence. Continue pending/partial
+  records, not section scaffolding.
+- 142 individual Node cases, schema and 1,287-route build pass. Explorer browser
+  suite passes availability/material filtering, ingredient/dose search, ledgers,
+  comparison selection across filters/reload, URL sharing, four-guide limit,
+  empty/reset states, desktop/mobile and no-JS disclosures. Focused mix browser
+  sweep passes all 31 reviewed/linked/held states in four contexts, source links,
+  disclosure, scaling and JSON. Desktop/mobile screenshots inspected. New explorer
+  browser suite added to CI. Release is this checkpoint; verify HEAD against
+  remote main before resuming. Remote CI/live deployment remain unverified.
+- Existing daily automation unchanged; OpenAlex on hold. No schedules changed.
+
 ## Mix-design continuation 04 — 21 October 2026
 - Resumed the unfinished owner task from verified local/remote main
   `f0dbfdc98c420c7d15f570ecfb479d1e4603a34b`. Both preceding fifty-paper batches

@@ -1221,3 +1221,10 @@ body { padding-bottom:78px; }
 
 /* Keep the novel-recipes heading visible below the sticky site navigation. */
 #novel-recipes { scroll-margin-top: 7rem; }
+
+/* Deep-dive ingredient explorer: preserve disclosure readability on narrow screens. */
+#deep-dive-explorer .dive-compare[aria-pressed="true"] { background:var(--ink);color:white; }
+#deep-dive-explorer details { margin:1rem 0; }
+#deep-dive-explorer summary { cursor:pointer;overflow-wrap:anywhere; }
+#deep-dive-explorer .record { min-width:0; }
+#dive-comparison { scroll-margin-top:6rem; }

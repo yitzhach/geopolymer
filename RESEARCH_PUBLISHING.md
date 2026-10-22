@@ -1,5 +1,17 @@
 # Research database and GP Journal
 
+## 21 October 2026 — searchable deep-dive mix designs
+
+Deep dives now group guides by ingredient-ledger readiness and support search,
+material filters and shareable four-guide comparisons. Existing exact-DOI recipes
+provide original bases and calculated wet-batch gram examples; partial source
+ledgers keep unknowns and conflicts visible. Five further primary-text reviews
+add selected ingredient quantities/methods (mix-design-05 audit, 15 searches).
+No raw sources, complete tables, canonical observations or new recipes added.
+Twenty-eight guides now have recorded weights/ratios, including seven with
+scalable conditions; 231 remain pending full extraction. No complete protocol
+or cross-study performance ranking claimed. See HANDOFF.md for QA and counts.
+
 ## 21 October 2026 — mix-design continuation 04
 
 Five existing guides gain selected condition ledgers and methods, with conflicting

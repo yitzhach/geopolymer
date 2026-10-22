@@ -80,6 +80,6 @@ test('scout continuation keeps condition identities and source conflicts out of 
  assert.match(mixDesignFor('superplasticizer-flow-air-long-term').missing.join(' '),/247.06 kg/);
  assert.match(mixDesignFor('aluminum-foam-coating-ratio-conflict').partialReview.ledger[0][1],/0.45.*0.8/);
  assert.match(mixDesignFor('hpmc-vae-workability-durability').partialReview.ledger[2][1],/1:1 by volume/);
- assert.equal(deepDiveMixDesigns.filter(p=>p.status==='source-review-needed').length,236);
- assert.equal(deepDiveMixDesigns.filter(p=>p.status==='partial-source-design').length,15);
+ assert.equal(deepDiveMixDesigns.filter(p=>p.status==='source-review-needed').length,231);
+ assert.equal(deepDiveMixDesigns.filter(p=>p.status==='partial-source-design').length,20);
 });

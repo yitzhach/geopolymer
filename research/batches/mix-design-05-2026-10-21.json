@@ -1,0 +1,148 @@
+{
+  "id": "mix-design-05",
+  "date": "2026-10-21",
+  "reviewer": "AI selected indexed primary text; no visual/human/domain verification",
+  "records": [
+    {
+      "id": "bn-hemp-nanofiber-slag",
+      "doi": "10.3390/polym18111288",
+      "source": "https://www.mdpi.com/2073-4360/18/11/1288",
+      "status": "partial-source-design",
+      "protocolComplete": false,
+      "recipeIds": [],
+      "locator": "§§2.3.1–2.3.2; conclusions",
+      "nextChecks": [
+        "Resolve full source masses, solid definition and solution ratio basis before scaling.",
+        "Keep prior source conflicts and heat-exposure protocol holds; mechanisms are author interpretations, not isolated effects."
+      ],
+      "inventory": "Selected ledgers/methods only; full inventory incomplete"
+    },
+    {
+      "id": "metakaolin-freeze-thaw-design",
+      "doi": "10.3390/ma13132973",
+      "source": "https://www.mdpi.com/1996-1944/13/13/2973",
+      "status": "partial-source-design",
+      "protocolComplete": false,
+      "recipeIds": [],
+      "locator": "§§2.1–2.2; Table 2 / MKG-2, MKG-4; conclusions",
+      "nextChecks": [
+        "Table units, sand mass and binder/water accounting unresolved; quantities are not grams or a scalable batch.",
+        "Source oxide-equivalent pellet composition is not an as-supplied water fraction. Do not convert it into added water."
+      ],
+      "inventory": "Selected ledgers/methods only; full inventory incomplete"
+    },
+    {
+      "id": "coating-wetting-versus-bond",
+      "doi": "10.3390/ma15113767",
+      "source": "https://www.mdpi.com/1996-1944/15/11/3767",
+      "status": "partial-source-design",
+      "protocolComplete": false,
+      "recipeIds": [],
+      "locator": "§§2.1–2.3, 2.6; Table 2 / Reference-S0.4",
+      "nextChecks": [
+        "Reconcile activator identity and blank table cells before issuing complete weights or scaling.",
+        "Modifier solids, exact dose denominator and matched substrate results remain unresolved. No LCA/service-life transfer."
+      ],
+      "inventory": "Selected ledgers/methods only; full inventory incomplete"
+    },
+    {
+      "id": "biochar-bottom-ash-pore-evolution",
+      "doi": "10.3390/app112210945",
+      "source": "https://www.mdpi.com/2076-3417/11/22/10945",
+      "status": "partial-source-design",
+      "protocolComplete": false,
+      "recipeIds": [],
+      "locator": "§§2.2–2.3.1, 3.2; Table 1 series identities",
+      "nextChecks": [
+        "Volume-percent addition denominator, exact solution/free-water ledger and IBA processing unresolved; no grams inferred from bulk density.",
+        "Resolve age discrepancy and specimen/result inventory before reproduction or success ranking."
+      ],
+      "inventory": "Selected ledgers/methods only; full inventory incomplete"
+    },
+    {
+      "id": "phosphate-polymer-rheology",
+      "doi": "10.3390/ma17122856",
+      "source": "https://www.mdpi.com/1996-1944/17/12/2856",
+      "status": "partial-source-design",
+      "protocolComplete": false,
+      "recipeIds": [],
+      "locator": "§§2.1–2.2 / PBDI example; conclusions",
+      "nextChecks": [
+        "Heating/cooling ramps, full polymer synthesis and micromechanical test protocol remain unreviewed.",
+        "No inferred stock water fraction or acid-to-sodium substitution. Original example masses do not establish a complete reproduction protocol."
+      ],
+      "inventory": "Selected ledgers/methods only; full inventory incomplete"
+    }
+  ],
+  "operations": [
+    {
+      "kind": "search",
+      "query": "\"Boron Nitride-Modified Hemp Nanofiber\" \"2.3.\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Compositional Dependence of Pore Structure\" \"Table 2\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Green Protective Geopolymer Coatings\" \"2.1.\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Synthesis and Characterization of Biochar-Based Geopolymer Materials\" \"2.2.\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Effect of Water-Soluble Polymers on the Rheology\" \"2.2.\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Compositional Dependence of Pore Structure\" \"2.2.\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Boron Nitride-Modified Hemp Nanofiber\" \"Table 2\" \"sand\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Green Protective Geopolymer Coatings\" \"MSO\" \"wt\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Compositional Dependence of Pore Structure\" \"Mix Proportions\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Effect of Water-Soluble Polymers on the Rheology\" \"Materials and Methods\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Boron Nitride-Modified Hemp Nanofiber\" \"Table 2\" \"0.8\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Effect of Water-Soluble Polymers on the Rheology\" \"Synthesis\" \"9M\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Synthesis and Characterization of Biochar-Based Geopolymer Materials\" \"Table 1\" \"50\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Boron Nitride-Modified Hemp Nanofiber\" \"Mix proportions\""
+    },
+    {
+      "kind": "search",
+      "query": "\"Effect of Water-Soluble Polymers on the Rheology\" \"2.3\" \"metakaolin\""
+    }
+  ],
+  "operationCount": 15,
+  "rawSourceRetained": false,
+  "newRecipes": 0,
+  "newCanonicalObservations": 0,
+  "newBibliographyRecords": 0,
+  "rights": "Original brief factual paraphrases and selected condition inputs only. Exact full-text versions/licenses not newly cleared. No raw papers, abstracts, complete tables, figures or supplement copies retained.",
+  "access": "Prior mix-design failed-access records and hemp continuation read first. No direct opens, no repeated challenged requests or access bypass.",
+  "openAlex": "On hold; unused",
+  "automation": "Unchanged"
+}

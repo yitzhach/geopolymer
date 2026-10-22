@@ -1,5 +1,17 @@
 # Recipe database and future formulation advisor
 
+## 21 October 2026 — deep-dive ingredient search and comparisons
+
+`/deep-dives` groups 7 guides with scalable proportions and 21 with partial
+weights/ratios, with pending, correction-held and non-experimental guides separate.
+Ingredient/quantity search, material filters and shareable four-guide comparisons
+reuse exact-DOI catalog links and source ledgers. Gram examples use total wet
+batch mass; source stock solutions and percentage denominators remain explicit.
+Overlaps are descriptive; no cross-study strength leaderboard or causal benefit
+is inferred. Five further partial primary reviews retain unknown units, dose
+bases and method conflicts. Catalog stays 48 conditions / 36 scalers, pilots
+5/62/275; no complete reproduction protocol. Latest evidence/QA: HANDOFF.md.
+
 ## 21 October 2026 — fifty additional guides, unchanged recipe evidence
 
 Counts are 261 detailed previews / 262 partial guides, with 48 formulation
