@@ -92,7 +92,7 @@ const numberInText=(value,text)=>numbersIn(text).some(n=>Math.abs(n-value)<1e-9)
 const ageInText=(days,text)=>{const t=normalizeText(text);return numberInText(days,t)||numberInText(days*24,t)||Object.entries(WORDS).some(([w,n])=>n===days&&new RegExp('\\b'+w+'\\b').test(t));};
 // Whole-name match: "AN" must not match inside "AN-PC1-S", and "D" must not match inside "and".
 const esc=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
-export const containsName=(text,name)=>{const n=normalizeText(name);return !!n&&new RegExp('(?<![a-z0-9.\\-])'+esc(n)+'(?![a-z0-9\\-]|\\.[a-z0-9])').test(normalizeText(text));};
+export const containsName=(text,name)=>{const n=normalizeText(name);return !!n&&new RegExp('(?<![a-z0-9.\\-])'+esc(n)+'(?:e?s)?(?![a-z0-9\\-]|\\.[a-z0-9])').test(normalizeText(text));};
 const mentions=(text,names)=>names.filter(Boolean).some(n=>containsName(text,n));
 const inCorpus=(corpus,names)=>corpus.some(c=>mentions(c,names));
 const isNum=v=>typeof v==='number'&&Number.isFinite(v);
@@ -109,6 +109,8 @@ export function validateSheet(sheet,ctx={}){
  if(ctx.guide){if(ctx.guide.id!==sheet.guideId)err('guideId','does not match the guide');if(String(ctx.guide.doi).toLowerCase()!==String(sheet.doi).toLowerCase())err('doi',`must equal the guide DOI ${ctx.guide.doi}`);}
  else if(ctx.guides)err('guideId',`unknown deep-dive guide "${sheet.guideId}"`);
  if(ctx.coveredDois?.has(String(sheet.doi).toLowerCase()))err('doi','already structured in the formulation catalog or knowledge pilot; extend those records instead');
+ if(ctx.status==='source-hold')err('guideId','this guide is on a correction hold; do not write a sheet until the hold is resolved');
+ if(ctx.status==='no-independent-mix')err('guideId','this guide reviews or models other experiments; it has no physical mixes of its own');
  if(sheet.basis==='source-text'){for(const k of ['sourceUrl','accessed','audit'])if(typeof sheet[k]!=='string'||!sheet[k].trim())err(k,'required for source-text sheets');}
  const corpus=sheet.basis==='review-note'&&Array.isArray(ctx.corpus)?ctx.corpus.map(normalizeText):null;
  const grounded=(path,text,{required=true}={})=>{
@@ -156,9 +158,12 @@ export function validateSheet(sheet,ctx={}){
   for(const k of ['quantities','parameters'])if(!Array.isArray(m[k]))err(`${p}.${k}`,'must be an array');
   (m.quantities||[]).forEach((q,j)=>{const qp=`${p}.quantities[${j}]`,mat=materialById.get(q.material);
    if(!mat)err(qp+'.material',`unknown material id "${q.material}"`);
-   if(!UNITS.includes(q.unit))err(qp+'.unit',`must be one of ${UNITS.join(', ')}`);
-   if(!BASES[q.basis])err(qp+'.basis',`must be one of ${Object.keys(BASES).join(', ')}`);
-   else if(!BASIS_UNITS[q.basis].includes(q.unit))err(qp+'.unit',`"${q.unit}" does not fit basis "${q.basis}"`);
+   const optional=q.value===null&&q.unit===undefined&&q.basis===undefined; // an unknown amount may leave unit and basis out
+   if(!optional){
+    if(!UNITS.includes(q.unit))err(qp+'.unit',`must be one of ${UNITS.join(', ')}`);
+    if(!BASES[q.basis])err(qp+'.basis',`must be one of ${Object.keys(BASES).join(', ')}`);
+    else if(!BASIS_UNITS[q.basis].includes(q.unit))err(qp+'.unit',`"${q.unit}" does not fit basis "${q.basis}"`);
+   }
    if(['binder-as-defined','volume','other'].includes(q.basis)&&!q.basisNote)err(qp+'.basisNote','explain this basis');
    if(q.value===null){if(!q.missing)err(qp+'.missing','null value needs a reason');}
    else if(!isNum(q.value)||q.value<0)err(qp+'.value','must be a non-negative number or null');
@@ -185,6 +190,7 @@ export function validateSheet(sheet,ctx={}){
   if(r.qualifier==='range'&&!isNum(r.valueMax))err(p+'.valueMax','a range needs valueMax');
   if(isNum(r.ageDays)&&!ageInText(r.ageDays,r.text+' '+(r.ageText||'')))warn(p+'.ageDays',`age ${r.ageDays} d is not visible in the quoted text — add ageText quoting where the age comes from`);
   if(r.ageText&&!grounded(p+'.ageText',r.ageText))return;
+  if(r.condition!==undefined&&r.condition!==null&&!grounded(p+'.condition',r.condition))return;
   if(mix&&!mentions(r.text,[mix.id,...(mix.aliases||[])]))err(p+'.text',`quoted text must name the mix ("${mix.id}" or an alias) so the value cannot be misattributed`);
  });
  sheet.findings.forEach((f,i)=>{const p=`findings[${i}]`;
@@ -278,14 +284,17 @@ export function pilotRows(pilot,{library=[],guidesByDoi=new Map()}={}){
   const ingredients=m.quantities.filter(q=>!PILOT_PARAMS[q.material]).map(q=>({name:q.material,family:pick(q.material),role:FAMILIES[pick(q.material)]?.role,value:q.value,unit:unitOf(q.unit,q.basis),basis:q.basis,text:q.originalText}));
   const parameters=m.quantities.filter(q=>PILOT_PARAMS[q.material]).map(q=>({key:PILOT_PARAMS[q.material],label:PARAMETERS[PILOT_PARAMS[q.material]].label,value:q.value,unit:PARAMETERS[PILOT_PARAMS[q.material]].unit,text:`${q.material}: ${q.originalText} (${q.basis})`}));
   const results=obs.map(o=>{const t=tests.get(o.testId);return {property:PILOT_PROPERTIES[o.property]||o.property,value:o.value,unit:unitOf(o.unit),ageDays:o.ageDays,qualifier:o.qualifier,spread:o.uncertainty,
-   specimen:t?.geometry||null,method:t?.method||null,context:o.property.startsWith('fresh-spread')?o.property.replace('fresh-spread-','spread '):'',text:o.originalText,locator:o.provenance?.locator||'',cure:t?.cure?.category||null};});
-  const cureTest=pilot.tests.find(t=>t.id===(obs.find(o=>/compression/.test(o.testId))||obs[0])?.testId)?.cure||null;
-  const single=PILOT_BINDERS[m.binder]?.length===1?{[PILOT_BINDERS[m.binder][0]]:100}:null;
-  const shareFromSlag=single||m.slagPercent!==null&&PILOT_BINDERS[m.binder]?.length===2?single||{[PILOT_BINDERS[m.binder][1]]:Math.round(m.slagPercent*10)/10,[PILOT_BINDERS[m.binder][0]]:Math.round((100-m.slagPercent)*10)/10}:null;
+   specimen:t?.geometry||null,method:t?.method||null,context:o.property.startsWith('fresh-spread')?o.property.replace('fresh-spread-','spread '):[/-single$/.test(o.testId)?'single printed layer':'',t?.direction?'loading '+t.direction:''].filter(Boolean).join(', '),text:o.originalText,locator:o.provenance?.locator||'',cure:t?.cure?.category||null};});
+  // One cure per study: its main strength test, so every mix of a paper carries the same regime.
+  const pubTests=pilot.tests.filter(t=>t.publicationId===m.publicationId);
+  const cureTest=(pubTests.find(t=>t.property==='compression')||pubTests.find(t=>t.cure?.category!=='not-applicable')||pubTests[0])?.cure||null;
+  // A one-precursor binder is 100% that precursor; a two-precursor pilot binder records its slag share.
+  const binder=PILOT_BINDERS[m.binder]||[],round1=v=>Math.round(v*10)/10;
+  const binderShares=binder.length===1?{[binder[0]]:100}:binder.length===2&&m.slagPercent!==null?{[binder[1]]:round1(m.slagPercent),[binder[0]]:round1(100-m.slagPercent)}:null;
   const row={id:'pilot:'+m.id,origin:'pilot',evidence:'source-checked',label:m.originalId,control:/^(GP0|S0-10)$/.test(m.originalId),
    paper:{key:doi,doi,title:pub.title||'',year:pub.year||null,guideId:guide?.id||null,studyId:m.publicationId},
    form:PILOT_FORMS[m.publicationId]||'unknown',precursorFamilies:PILOT_BINDERS[m.binder]||[],activator:m.activation==='mixed-na-k'?'mixed':m.activation,
-   ingredients,parameters,shares:precursorShares(ingredients)||shareFromSlag,
+   ingredients,parameters,shares:precursorShares(ingredients)||binderShares,
    cure:cureTest?{category:cureTest.category,temperatureC:cureTest.temperatureC,durationHours:isNum(cureTest.durationDays)?cureTest.durationDays*24:null,sealed:cureTest.sealed,humidityPercent:cureTest.humidityPercent,text:cureTest.durationReason||''}:null,
    results,findings:[],gaps:[],locator:m.provenance?.locator||'',
    links:{study:'/studies/'+m.publicationId,guide:guide?'/deep-dives/'+guide.id:null,recipe:null,source:pub.url||(doi?'https://doi.org/'+doi:null)}};
@@ -314,13 +323,13 @@ export function sheetRows(sheet,{guide,studyId=null,title='',year=null}={}){
   const cure=cures.get(m.cure);
   const base=m.baseMix?sheet.mixes.find(x=>x.id===m.baseMix):null,own=new Set(m.quantities.map(q=>q.material));
   const quantities=[...(base?base.quantities.filter(q=>!own.has(q.material)).map(q=>({...q,inherited:base.id,inheritText:m.baseText})):[]),...m.quantities];
-  const ingredients=quantities.map(q=>{const mat=mats.get(q.material);return {name:mat.name,family:mat.family,role:mat.role,value:q.value,unit:q.unit,basis:q.basis,basisNote:q.basisNote||'',text:q.text,missing:q.missing||'',inherited:q.inherited||null,inheritText:q.inheritText||''};});
+  const ingredients=quantities.map(q=>{const mat=mats.get(q.material);return {name:mat.name,family:mat.family,role:mat.role,value:q.value,unit:q.unit||'',basis:q.basis||'',basisNote:q.basisNote||'',text:q.text,missing:q.missing||'',inherited:q.inherited||null,inheritText:q.inheritText||''};});
   return finishRow({id:`sheet:${sheet.guideId}:${m.id}`,origin:'sheet',evidence:sheet.basis==='review-note'?'review-note':'source-checked',label:m.id,aliases:m.aliases||[],control:m.control,
    paper:{key:doi,doi,title:title||guide?.sourceTitle||'',year,guideId:sheet.guideId,studyId},
    form:m.form,precursorFamilies:[],activator:'unknown',ingredients,
-   parameters:m.parameters.map(x=>({key:x.key,label:PARAMETERS[x.key].label,value:x.value,unit:PARAMETERS[x.key].unit,text:x.text})),
+   parameters:[...(base?base.parameters.filter(x=>!m.parameters.some(y=>y.key===x.key)):[]),...m.parameters].map(x=>({key:x.key,label:PARAMETERS[x.key].label,value:x.value,unit:x.basisNote?`${PARAMETERS[x.key].unit.replace(/^(mass|molar|atomic) /,'')} (${x.basisNote})`:PARAMETERS[x.key].unit,text:x.text})),
    cure:cure?{category:cure.category,temperatureC:cure.temperatureC??null,durationHours:isNum(cure.duration)?(cure.durationUnit==='d'?cure.duration*24:cure.duration):null,sealed:cure.sealed??null,humidityPercent:cure.humidityPercent??null,text:cure.text}:null,
-   results:sheet.results.filter(r=>r.mix===m.id).map(r=>{const t=tests.get(r.test);return {property:t.property,propertyNote:t.propertyNote||'',value:r.value,valueMax:r.valueMax??null,unit:t.unit,ageDays:r.ageDays??null,ageNote:r.ageNote||'',qualifier:r.qualifier||'reported',spread:r.spread??null,specimen:t.specimen||null,method:t.method||null,context:r.context||'',text:r.text,locator:r.locator||''};}),
+   results:sheet.results.filter(r=>r.mix===m.id).map(r=>{const t=tests.get(r.test);return {property:t.property,propertyNote:t.propertyNote||'',value:r.value,valueMax:r.valueMax??null,unit:t.unit,ageDays:r.ageDays??null,ageNote:r.ageNote||'',qualifier:r.qualifier||'reported',spread:r.spread??null,specimen:t.specimen||null,method:t.method||null,context:r.condition||'',text:r.text,locator:r.locator||''};}),
    findings:sheet.findings.filter(f=>f.mix===m.id).map(f=>({goal:f.goal,text:f.text})),notes:(sheet.notes||[]).filter(n=>n.mix===m.id).map(n=>({kind:n.kind,text:n.text})),gaps:[...(m.missing||[]),...sheet.gaps],locator:sheet.locator||'',scope:sheet.scope,
    links:{study:studyId?'/studies/'+studyId:null,guide:'/deep-dives/'+sheet.guideId,recipe:null,source:guide?.source||'https://doi.org/'+sheet.doi}});
  });
@@ -378,14 +387,17 @@ export function filterRows(rows,{q='',precursor='',activator='',cure='',form='',
  });
 }
 const fmt=v=>isNum(v)?String(Math.round(v*1000)/1000):'—';
-const cureText=c=>!c?'unknown':[CURE_CATEGORIES[c.category]||c.category,isNum(c.temperatureC)?c.temperatureC+' °C':'',isNum(c.durationHours)?c.durationHours+' h':'',c.sealed===true?'sealed':c.sealed===false?'unsealed':''].filter(Boolean).join(' · ');
-export function shareText(r){return r.shares?Object.entries(r.shares).map(([f,v])=>`${FAMILIES[f]?.label.split(' (')[0]||f} ${v}%`).join(' / '):r.precursors.map(f=>FAMILIES[f]?.label.split(' (')[0]||f).join(' + ')||'—';}
+export const familyLabel=f=>FAMILIES[f]?.label.split(' (')[0]||f;
+export const systemLabel=r=>r.precursors.map(familyLabel).join(' + ');
+export const hoursText=h=>h%24===0&&h>=48?h/24+' d':h+' h';
+const cureText=c=>!c?'unknown':[CURE_CATEGORIES[c.category]?.split(' (')[0]||c.category,isNum(c.temperatureC)?c.temperatureC+' °C':'',isNum(c.durationHours)?hoursText(c.durationHours):'',c.sealed===true?'sealed':c.sealed===false?'unsealed':''].filter(Boolean).join(' · ');
+export function shareText(r){return r.shares?Object.entries(r.shares).map(([f,v])=>`${familyLabel(f)} ${v}%`).join(' / '):r.precursors.map(familyLabel).join(' + ')||'—';}
 // Attribute-aligned comparison. Status per row: same | different | unknown (any cell missing).
 export function compareRows(rows){
  const attrs=[
   ['Paper',r=>r.paper.title?(r.paper.title+(r.paper.year?` (${r.paper.year})`:'')):r.paper.key],
-  ['Form',r=>r.form],['Precursors',r=>r.precursorSystem==='unknown'?null:r.precursorSystem],['Precursor shares',r=>r.shares?shareText(r):null],
-  ['Activator',r=>r.activator==='unknown'?null:r.activator],['Fibers',r=>r.fibers.length?r.fibers.join(', '):'none listed'],
+  ['Form',r=>r.form==='unknown'?null:r.form],['Precursors',r=>r.precursors.length?systemLabel(r):null],['Precursor shares',r=>r.shares?shareText(r):null],
+  ['Activator',r=>r.activator==='unknown'?null:r.activator],['Fibers',r=>r.fibers.length?r.fibers.map(familyLabel).join(', '):'none listed'],
   ['Cure',r=>r.cure&&r.cure.category!=='unknown'?cureText(r.cure):null],
  ];
  const paramKeys=[...new Set(rows.flatMap(r=>r.parameters.map(p=>p.key)))];
@@ -402,7 +414,7 @@ export function similarMixes(target,rows,limit=5){
  const scored=rows.filter(r=>r.id!==target.id).map(r=>{
   const why=[],a=new Set(target.precursors),b=new Set(r.precursors),inter=[...a].filter(x=>b.has(x)),union=new Set([...a,...b]);
   let score=0,weight=0;
-  if(union.size){score+=3*inter.length/union.size;weight+=3;if(inter.length)why.push('shares '+inter.join(' + '));}
+  if(union.size){score+=3*inter.length/union.size;weight+=3;if(inter.length)why.push('shares '+inter.map(familyLabel).join(' + '));}
   if(target.activator!=='unknown'&&r.activator!=='unknown'){weight+=2;if(target.activator===r.activator){score+=2;why.push(r.activator+' activator');}}
   if(target.cure?.category&&r.cure?.category&&target.cure.category!=='unknown'&&r.cure.category!=='unknown'){weight+=1;if(target.cure.category===r.cure.category){score+=1;why.push(r.cure.category+' cure');}}
   weight+=1;if(target.form===r.form){score+=1;why.push(r.form);}

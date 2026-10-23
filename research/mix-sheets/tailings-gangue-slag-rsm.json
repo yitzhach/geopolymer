@@ -1,0 +1,53 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "tailings-gangue-slag-rsm",
+ "doi": "10.3390/ma19071438",
+ "basis": "review-note",
+ "scope": "The response-surface selected blend only, as named in the existing deep-dive review. Other design points of the response-surface study are not transcribed.",
+ "made": "2026-10-23",
+ "madeBy": "AI transcription · mix-sheet skill v1",
+ "materials": [
+  {"id": "tailings", "family": "mine-tailings", "role": "precursor", "name": "tailings", "aliases": ["Iron tailings sand"]},
+  {"id": "gangue", "family": "coal-gangue", "role": "precursor", "name": "gangue", "aliases": ["coal gangue powder"]},
+  {"id": "slag", "family": "slag", "role": "precursor", "name": "slag"},
+  {"id": "silicate", "family": "sodium-silicate-solid", "role": "activator", "name": "solid silicate", "aliases": ["solid sodium silicate"]},
+  {"id": "naoh", "family": "sodium-hydroxide", "role": "activator", "name": "NaOH"},
+  {"id": "sand", "family": "sand", "role": "aggregate", "name": "sand"}
+ ],
+ "mixes": [
+  {
+   "id": "selected blend",
+   "aliases": ["the selected blend"],
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {"material": "tailings", "value": 20, "unit": "wt%", "basis": "precursor-mass", "text": "Reported selected solids: 20% tailings/26% gangue/54% slag"},
+    {"material": "gangue", "value": 26, "unit": "wt%", "basis": "precursor-mass", "text": "Reported selected solids: 20% tailings/26% gangue/54% slag"},
+    {"material": "slag", "value": 54, "unit": "wt%", "basis": "precursor-mass", "text": "Reported selected solids: 20% tailings/26% gangue/54% slag"},
+    {"material": "silicate", "value": 6.23, "unit": "wt%", "basis": "other", "basisNote": "denominator pending in the review", "text": "Activator: 6.41% Na2O equivalent; 6.23% solid silicate plus 6.23% NaOH; denominators pending"},
+    {"material": "naoh", "value": 6.23, "unit": "wt%", "basis": "other", "basisNote": "denominator pending in the review", "text": "Activator: 6.41% Na2O equivalent; 6.23% solid silicate plus 6.23% NaOH; denominators pending"},
+    {"material": "sand", "value": 1350, "unit": "g", "basis": "batch", "text": "Mortar: SSG:sand 1:3 mass; water/binder 0.45; sand 1350 g"}
+   ],
+   "parameters": [
+    {"key": "water/binder", "value": 0.45, "text": "Mortar: SSG:sand 1:3 mass; water/binder 0.45; sand 1350 g"},
+    {"key": "alkali-dose", "value": 6.41, "basisNote": "denominator pending", "text": "Activator: 6.41% Na2O equivalent; 6.23% solid silicate plus 6.23% NaOH; denominators pending"}
+   ]
+  }
+ ],
+ "cures": [],
+ "tests": [
+  {"id": "salt", "property": "other", "propertyNote": "salt erosion coefficient", "unit": "%", "specimen": null, "method": null}
+ ],
+ "results": [
+  {"mix": "selected blend", "test": "salt", "ageDays": null, "ageNote": "exposure clock pending in the review", "value": 92, "qualifier": "greater-than", "text": "The selected blend had reported salt erosion coefficient above 92%", "locator": "§6"}
+ ],
+ "findings": [],
+ "notes": [],
+ "gaps": [
+  "Activator percentage denominators, tailings/gangue preactivation and curing/exposure clocks are pending in the review.",
+  "The notes write the binder as SSG in “SSG:sand 1:3 mass” without defining it, so no sand/binder ratio is entered.",
+  "The blend is a response-surface model selection; the model optimum is not independent verification, and other design points are not transcribed.",
+  "Compression, shrinkage and freeze–thaw results are not given as numbers in the reviewed text."
+ ]
+}

@@ -1,6 +1,6 @@
 // Mix Explorer: pre-rendered table (complete without JavaScript) plus filters, chart,
 // comparison, similar mixes and within-paper best, enhanced from /mixes.json.
-import {FAMILIES,PARAMETERS,PROPERTIES,CURE_CATEGORIES,EVIDENCE,AXES,endpoints,endpointKey,endpointValue,filterRows,compareRows,similarMixes,withinPaperBest,winnerTraits,shareText} from './mix-table.js';
+import {FAMILIES,PARAMETERS,PROPERTIES,CURE_CATEGORIES,EVIDENCE,AXES,endpoints,endpointKey,endpointValue,filterRows,compareRows,similarMixes,withinPaperBest,winnerTraits,shareText,hoursText} from './mix-table.js';
 
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const isNum=v=>typeof v==='number'&&Number.isFinite(v);
@@ -9,14 +9,14 @@ const short=(s,n=70)=>{s=String(s||'');return s.length>n?s.slice(0,n-1).trimEnd(
 const famLabel=f=>FAMILIES[f]?.label.split(' (')[0]||f;
 const cap=s=>s?s[0].toUpperCase()+s.slice(1):s;
 export const DEFAULT_ENDPOINT=endpointKey('compressive-strength',28);
-const cureText=c=>!c||c.category==='unknown'?'Not stated':[CURE_CATEGORIES[c.category]?.split(' (')[0]||c.category,isNum(c.temperatureC)?c.temperatureC+' °C':'',isNum(c.durationHours)?(c.durationHours%24===0&&c.durationHours>=48?c.durationHours/24+' d':c.durationHours+' h'):'',c.sealed===true?'sealed':''].filter(Boolean).join(' · ');
+const cureText=c=>!c||c.category==='unknown'?'Not stated':[CURE_CATEGORIES[c.category]?.split(' (')[0]||c.category,isNum(c.temperatureC)?c.temperatureC+' °C':'',isNum(c.durationHours)?hoursText(c.durationHours):'',c.sealed===true?'sealed':''].filter(Boolean).join(' · ');
 const paramText=r=>r.parameters.map(p=>`${PARAMETERS[p.key]?.label||p.key} ${fmt(p.value)}`).join('; ')||'—';
 const resultCell=(r,key)=>{const v=endpointValue(r,key);return v?`<strong>${fmt(v.value)}</strong> ${esc(v.unit)}${v.count>1?` <small>(1 of ${v.count})</small>`:''}`:'<span class="mx-muted">—</span>';};
 const evidenceBadge=r=>`<span class="mx-evidence ${r.evidence==='review-note'?'note':'checked'}">${r.evidence==='review-note'?'Review note':'Source-checked'}</span>`;
 const paperLine=r=>`${esc(short(r.paper.title,80))}${r.paper.year?` (${esc(r.paper.year)})`:''}`;
 
 function detailHTML(r){
- const ing=r.ingredients.length?`<ul class="mx-list">${r.ingredients.map(i=>`<li><strong>${esc(i.name)}</strong> <small>${esc(famLabel(i.family))}</small> — ${i.value===null||i.value===undefined?`<em>amount not given</em>${i.missing?` (${esc(i.missing)})`:''}`:`${esc(fmt(i.value))} ${esc(i.unit)}`} <small>· ${esc(i.basis)}${i.basisNote?` (${esc(i.basisNote)})`:''}</small>${i.inherited?` <small>· shared with ${esc(i.inherited)}</small>`:''}${r.origin==='sheet'?`<q>${esc(i.text)}</q>`:''}</li>`).join('')}</ul>`:'<p class="mx-muted">No ingredient amounts recorded.</p>';
+ const ing=r.ingredients.length?`<ul class="mx-list">${r.ingredients.map(i=>`<li><strong>${esc(i.name)}</strong> <small>${esc(famLabel(i.family))}</small> — ${i.value===null||i.value===undefined?`<em>amount not given</em>${i.missing?` (${esc(i.missing)})`:''}`:`${esc(fmt(i.value))} ${esc(i.unit)}`}${i.basis?` <small>· ${esc(i.basis)}${i.basisNote?` (${esc(i.basisNote)})`:''}</small>`:''}${i.inherited?` <small>· shared with ${esc(i.inherited)}</small>`:''}${r.origin==='sheet'?`<q>${esc(i.text)}</q>`:''}</li>`).join('')}</ul>`:'<p class="mx-muted">No ingredient amounts recorded.</p>';
  const recipe=r.recipeIngredients?.length?`<p class="small">Gram ledger from the linked recipe: ${r.recipeIngredients.map(i=>`${esc(i.name)} ${esc(fmt(i.value))}`).join(' · ')}${r.basisNote?` (${esc(r.basisNote)})`:''}</p>`:'';
  const params=r.parameters.length?`<ul class="mx-list">${r.parameters.map(p=>`<li><strong>${esc(PARAMETERS[p.key]?.label||p.key)}</strong> ${esc(fmt(p.value))} <small>${esc(p.unit)}</small><q>${esc(p.text)}</q></li>`).join('')}</ul>`:'';
  const results=r.results.length?`<ul class="mx-list">${r.results.map(x=>`<li><strong>${esc(PROPERTIES[x.property]?.label||x.property)}</strong>${x.context?` <small>(${esc(x.context)})</small>`:''}: ${x.qualifier&&x.qualifier!=='reported'?esc(x.qualifier)+' ':''}${esc(fmt(x.value))}${isNum(x.valueMax)?'–'+esc(fmt(x.valueMax)):''} ${esc(x.unit)}${isNum(x.spread)?` ± ${esc(fmt(x.spread))}`:''} · ${x.ageDays===null||x.ageDays===undefined?esc(x.ageNote||'age not applicable'):esc(fmt(x.ageDays))+' d'}${x.specimen?` <small>· ${esc(x.specimen)}</small>`:''}${x.locator?` <small>· ${esc(x.locator)}</small>`:''}${r.origin==='sheet'?`<q>${esc(x.text)}</q>`:''}</li>`).join('')}</ul>`:'<p class="mx-muted">No numeric results recorded for this mix.</p>';

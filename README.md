@@ -112,6 +112,14 @@ See EXPERIMENT_NOTEBOOK.md for storage, validation and limits. Browser integrati
 coverage: `node tests/notebook-browser.cjs` with the same server/setup as the smoke
 suite. Actual QA and publication status are recorded in HANDOFF.md.
 
+## Mix Explorer and mix sheets
+`/mixes` shows one row per mix with materials, design settings, curing and results,
+filters, a chart, a mix-level comparison table, similar mixes and the best mix within each
+paper. Rows come from the knowledge pilot, the formulation catalog and the per-paper sheets
+in `research/mix-sheets/` (contract: MIX_SHEET_STANDARD.md; runbook: the `mix-sheet` skill).
+`npm run mixes -- context|new|check|queue|stats` supports sheet work; the build fails on an
+invalid sheet. Browser coverage: `node tests/mix-explorer-browser.cjs`.
+
 ## Published potassium mix designs
 Open /formulations for five source-linked records. Three Davidovits references
 include gram scaling and calculator JSON/transfer; two journal records retain

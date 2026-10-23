@@ -1,0 +1,62 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "metakaolin-slag-shrinkage-controls",
+ "doi": "10.3390/ma17051181",
+ "basis": "review-note",
+ "scope": "Labelled mixes MK0 and MK100 at 6 M only, covering the A/B ratio and the NaOH setting; NaOH amounts are null. Not covered: the 50/50 MK/GGBFS blend, the 10 M and 14 M NaOH conditions, and all strength and shrinkage numbers (none are in the reviewed text).",
+ "made": "2026-10-23",
+ "madeBy": "AI transcription · mix-sheet skill v1",
+ "materials": [
+  {"id": "mk", "family": "metakaolin", "role": "precursor", "name": "MK", "aliases": ["metakaolin"]},
+  {"id": "ggbfs", "family": "slag", "role": "precursor", "name": "GGBFS", "aliases": ["ground granulated blast-furnace slag"]},
+  {"id": "naoh", "family": "sodium-hydroxide", "role": "activator", "name": "NaOH"},
+  {"id": "silicate", "family": "sodium-silicate-solution", "role": "activator", "name": "sodium silicate"},
+  {"id": "aluminate", "family": "other-activator", "role": "activator", "name": "sodium aluminate"}
+ ],
+ "mixes": [
+  {
+   "id": "MK0",
+   "control": false,
+   "form": "unknown",
+   "cure": "c1",
+   "quantities": [
+    {"material": "naoh", "value": null, "missing": "NaOH amount not given; activator solution masses not extracted", "text": "NaOH: 6, 10 or 14 M"}
+   ],
+   "parameters": [
+    {"key": "activator/precursor", "value": 0.36, "text": "At 6 M, A/B is 0.36 for MK0 and 1.28 for MK100", "basisNote": "basis not stated"},
+    {"key": "hydroxide-molarity", "value": 6, "text": "At 6 M, A/B is 0.36 for MK0 and 1.28 for MK100"}
+   ]
+  },
+  {
+   "id": "MK100",
+   "control": false,
+   "form": "unknown",
+   "cure": "c1",
+   "quantities": [
+    {"material": "naoh", "value": null, "missing": "NaOH amount not given; activator solution masses not extracted", "text": "NaOH: 6, 10 or 14 M"}
+   ],
+   "parameters": [
+    {"key": "activator/precursor", "value": 1.28, "text": "At 6 M, A/B is 0.36 for MK0 and 1.28 for MK100", "basisNote": "basis not stated"},
+    {"key": "hydroxide-molarity", "value": 6, "text": "At 6 M, A/B is 0.36 for MK0 and 1.28 for MK100"}
+   ]
+  }
+ ],
+ "cures": [
+  {"id": "c1", "category": "ambient", "temperatureC": null, "duration": 24, "durationUnit": "h", "sealed": true, "humidityPercent": null, "text": "cast and seal 24 h at room temperature"}
+ ],
+ "tests": [],
+ "results": [],
+ "findings": [],
+ "notes": [],
+ "gaps": [
+  "The MK/GGBFS series (0/100, 50/50, 100/0 wt%) is not stated against MK0 or MK100 in a quote that names them, so no precursor quantities are entered.",
+  "The 50/50 blend and the 10 M and 14 M NaOH conditions have no labels in the reviewed text and are not entered.",
+  "NaOH amounts are null; sodium silicate and sodium aluminate amounts are not given and the activator solution masses were not extracted.",
+  "The A/B basis (solution or solids; mass or molar) is not stated, and A/B is set by a flow target of 110 ± 5% rather than a fixed dose.",
+  "Compressive strength (28 d, ASTM C109/C109M-20) and shrinkage (ASTM C157-75) are described, but the reviewed text gives no numbers, so no tests or results are entered.",
+  "The tradeoff (more MK reduces shrinkage but also strength at low NaOH) is not attributed to a named mix, so no note is entered.",
+  "The cure record holds only the first stage (sealed 24 h at room temperature); the demould stage at 23.2 ± 2 °C and 52 ± 3% RH is not recorded.",
+  "Source ratio headings use wt% while the guide says molar; reconcile before any activator chemistry.",
+  "Full table and figure inventory and uncertainty audit are incomplete; the title-only correction is not comprehensively checked."
+ ]
+}

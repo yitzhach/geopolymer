@@ -1,0 +1,57 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "starch-borax-retarder-screening",
+ "doi": "10.3390/eng6120366",
+ "basis": "review-note",
+ "scope": "Starch plus borax at FA/GGBFS 60:40 only, the one combination the reviewed text labels. Other retarder combinations, the 50:50 and 40:60 comparisons, and all numeric setting and strength values are not transcribed.",
+ "made": "2026-10-22",
+ "madeBy": "AI transcription · mix-sheet skill v1",
+ "materials": [
+  {"id": "fa", "family": "fly-ash", "role": "precursor", "name": "Fly ash", "aliases": ["FA"]},
+  {"id": "ggbfs", "family": "slag", "role": "precursor", "name": "GGBFS", "aliases": ["ground granulated blast-furnace slag"]},
+  {"id": "silicate", "family": "sodium-silicate-solution", "role": "activator", "name": "Sodium silicate solution", "aliases": ["Sodium silicate"]},
+  {"id": "naoh", "family": "sodium-hydroxide", "role": "activator", "name": "NaOH", "detail": "10 M NaOH"},
+  {"id": "starch", "family": "retarder", "role": "additive", "name": "Starch"},
+  {"id": "borax", "family": "retarder", "role": "additive", "name": "Borax"}
+ ],
+ "mixes": [
+  {
+   "id": "Starch plus borax",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {"material": "fa", "value": 60, "unit": "part", "basis": "mass-parts", "text": "Retarder combinations were screened at FA/GGBFS 60:40"},
+    {"material": "ggbfs", "value": 40, "unit": "part", "basis": "mass-parts", "text": "Retarder combinations were screened at FA/GGBFS 60:40"},
+    {"material": "silicate", "value": null, "missing": "solution mass not given; 2:1 ratio basis unresolved", "text": "Activator: Sodium silicate + 10 M NaOH, reported 2:1; ratio basis unresolved"},
+    {"material": "naoh", "value": null, "missing": "NaOH solution mass not given; molarity is in parameters", "text": "Activator: Sodium silicate + 10 M NaOH, reported 2:1; ratio basis unresolved"},
+    {"material": "starch", "value": null, "missing": "exact starch dose basis and total water unresolved", "text": "Starch feed: Prepared with water at 1:1 additive/water; exact dose basis and total water unresolved"},
+    {"material": "borax", "value": null, "missing": "exact borax dose not extracted", "text": "starch solution and powder borax are distinct additions"}
+   ],
+   "parameters": [
+    {"key": "hydroxide-molarity", "value": 10, "text": "Activator: Sodium silicate + 10 M NaOH, reported 2:1; ratio basis unresolved"}
+   ]
+  }
+ ],
+ "cures": [
+  {"id": "c1", "category": "ambient", "temperatureC": null, "duration": null, "durationUnit": null, "sealed": null, "humidityPercent": null, "text": "mortar strength was compared after ambient"},
+  {"id": "c2", "category": "heat", "temperatureC": 60, "duration": null, "durationUnit": null, "sealed": null, "humidityPercent": null, "text": "60°C oven curing"}
+ ],
+ "tests": [],
+ "results": [],
+ "findings": [
+  {"goal": "Placement-time candidate", "mix": "Starch plus borax", "text": "Starch plus borax is a placement-time candidate within the tested precursor blends"}
+ ],
+ "notes": [
+  {"mix": "Starch plus borax", "kind": "observation", "text": "Starch plus borax gave the longest setting time while meeting the study’s mechanical requirements at 60:40. A fixed-dose screening result does not establish the best dose."}
+ ],
+ "gaps": [
+  "Starch and borax doses, the activator ratio basis, complete masses, oven duration and strength-test ages are not extracted (review hold).",
+  "Only the starch plus borax combination is labelled; other retarder combinations are not transcribed as mixes.",
+  "The 50:50 and 40:60 precursor comparisons are not assigned to any mix.",
+  "The reported 2:1 silicate to NaOH ratio has an unresolved basis and is not entered as a parameter; activator masses are not given.",
+  "Ambient and 60 °C oven cures are both reported; the mix is not assigned to one cure, so cure is left null.",
+  "No numeric setting or strength values are in the reviewed text; the longest setting time is qualitative only, so no results are entered.",
+  "The screen used one fixed dose; the result is not generalized to other precursors."
+ ]
+}

@@ -23,7 +23,7 @@
    "quantities": [
     {"material": "ggbs", "value": 80, "unit": "wt%", "basis": "precursor-mass", "text": "D dry binder fractions: 80% GGBS / 20% FA"},
     {"material": "fa", "value": 20, "unit": "wt%", "basis": "precursor-mass", "text": "D dry binder fractions: 80% GGBS / 20% FA"},
-    {"material": "geosil", "value": null, "unit": "g", "basis": "batch", "missing": "solution quantity unresolved", "text": "Activator: Geosil potassium silicate, 45% solids; solution quantity unresolved"}
+    {"material": "geosil", "value": null, "missing": "solution quantity unresolved", "text": "Activator: Geosil potassium silicate, 45% solids; solution quantity unresolved"}
    ],
    "parameters": [
     {"key": "liquid/solid", "value": 0.27, "text": "LS: 0.27 for D; full water/solution denominator unresolved"}
@@ -38,7 +38,8 @@
     {"material": "ggbs", "value": 40, "unit": "wt%", "basis": "precursor-mass", "text": "B (40/20/20/20 GGBS/FA/MK/SF, LS 0.33)"},
     {"material": "fa", "value": 20, "unit": "wt%", "basis": "precursor-mass", "text": "B (40/20/20/20 GGBS/FA/MK/SF, LS 0.33)"},
     {"material": "mk", "value": 20, "unit": "wt%", "basis": "precursor-mass", "text": "B (40/20/20/20 GGBS/FA/MK/SF, LS 0.33)"},
-    {"material": "sf", "value": 20, "unit": "wt%", "basis": "precursor-mass", "text": "B (40/20/20/20 GGBS/FA/MK/SF, LS 0.33)"}
+    {"material": "sf", "value": 20, "unit": "wt%", "basis": "precursor-mass", "text": "B (40/20/20/20 GGBS/FA/MK/SF, LS 0.33)"},
+    {"material": "geosil", "value": null, "missing": "solution quantity unresolved", "text": "Activator: Geosil potassium silicate, 45% solids; solution quantity unresolved"}
    ],
    "parameters": [
     {"key": "liquid/solid", "value": 0.33, "text": "B (40/20/20/20 GGBS/FA/MK/SF, LS 0.33)"}

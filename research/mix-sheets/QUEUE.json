@@ -27,7 +27,8 @@
   {
    "guideId": "pva-egc-tension-versus-model",
    "doi": "10.3390/polym16121685",
-   "why": "fly ash + slag ECC; tension"
+   "why": "fly ash + slag ECC; tension",
+   "skip": "No label: seven unlabelled mixtures described by ranges; no numeric results in the notes."
   },
   {
    "guideId": "hpmc-vae-workability-durability",
@@ -37,27 +38,32 @@
   {
    "guideId": "fa-slag-ambient-rheology-sequence",
    "doi": "10.3390/en13102639",
-   "why": "fly ash + slag; ambient rheology"
+   "why": "fly ash + slag; ambient rheology",
+   "skip": "No label: slag levels 10/30/50 wt% are unlabelled; results are qualitative."
   },
   {
    "guideId": "ambient-onepart-fivepercent-ash",
    "doi": "10.3390/buildings16010037",
-   "why": "slag + 5% fly ash; one-part"
+   "why": "slag + 5% fly ash; one-part",
+   "skip": "No label: the reported candidate and replacement sweep are unlabelled; no numeric results."
   },
   {
    "guideId": "red-mud-egc-strength-ductility",
    "doi": "10.3390/polym18182271",
-   "why": "fly ash + slag ECC; red mud"
+   "why": "fly ash + slag ECC; red mud",
+   "skip": "No label: ten mix ledgers are referenced but not named; binder fractions are ranges."
   },
   {
    "guideId": "recycled-concrete-hybrid-fiber-map",
    "doi": "10.3390/buildings15101723",
-   "why": "fly ash + slag; recycled aggregate, fibers"
+   "why": "fly ash + slag; recycled aggregate, fibers",
+   "skip": "No label: factor levels only (steel, PP, recycled aggregate)."
   },
   {
    "guideId": "pas-prefoam-volume-thermal",
    "doi": "10.3390/ma15124085",
-   "why": "fly ash + slag foam"
+   "why": "fly ash + slag foam",
+   "skip": "No label: volume ratios only."
   },
   {
    "guideId": "fa-ggbs-acid-strength-compromise",
@@ -67,12 +73,14 @@
   {
    "guideId": "carbonated-fa-slag-gel-products",
    "doi": "10.3390/ma17071491",
-   "why": "fly ash + slag; carbonation"
+   "why": "fly ash + slag; carbonation",
+   "skip": "No label: unnamed 100:0/70:30/0:100 series; \"FA alone\" has no composition in the notes."
   },
   {
    "guideId": "lowalkali-fa-slag-cure-model",
    "doi": "10.3390/min11010060",
-   "why": "fly ash + slag; low alkali, curing"
+   "why": "fly ash + slag; low alkali, curing",
+   "skip": "No label: only bare levels (slag 10, 20, 30, 40 wt%)."
   },
   {
    "guideId": "ambient-fly-ash-superplasticizer",
@@ -92,7 +100,8 @@
   {
    "guideId": "metakaolin-slag-potassium-durability",
    "doi": "10.3390/min14080776",
-   "why": "metakaolin + slag; mixed alkali"
+   "why": "metakaolin + slag; mixed alkali",
+   "skip": "No label: four MK/GGBFS blends are unlabelled; the 55 MPa value names no blend."
   },
   {
    "guideId": "one-part-waste-sand-water-demand",
@@ -102,7 +111,8 @@
   {
    "guideId": "aircooled-slag-milling-activation",
    "doi": "10.3390/ma13051134",
-   "why": "slag; milling"
+   "why": "slag; milling",
+   "skip": "No label: 54 unlabelled variants; results describe the activated slag as a class."
   },
   {
    "guideId": "tailings-gangue-slag-rsm",
@@ -122,7 +132,9 @@
   {
    "guideId": "lithium-slag-shrinkage-model-hold",
    "doi": "10.3390/ma18204766",
-   "why": "lithium slag; shrinkage"
+   "why": "lithium slag; shrinkage",
+   "skip": "No label: only ranges."
   }
- ]
+ ],
+ "note": "Skips need the paper itself (source-text mode) to recover mix labels and numbers; the review notes do not name these conditions."
 }

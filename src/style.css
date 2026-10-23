@@ -1290,7 +1290,8 @@ body { padding-bottom:78px; }
 .mx-compare-table{min-width:520px}
 .mx-compare-table thead small{display:block;color:var(--muted);font-weight:400}
 .mx-different>th,.mx-different>td{background:#fff7ec}
-.mx-status{font-size:.75rem;color:var(--muted)}
+.mx-status{font-size:.75rem;color:var(--muted);white-space:nowrap}
+.mx-compare-table th:last-child{white-space:nowrap}
 .mx-different .mx-status{color:#7a4a00;font-weight:600}
 .mx-small-button{padding:6px 10px;font-size:.8rem}
 @media(max-width:760px){

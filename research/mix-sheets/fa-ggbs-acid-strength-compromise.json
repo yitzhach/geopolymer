@@ -1,0 +1,53 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "fa-ggbs-acid-strength-compromise",
+ "doi": "10.3390/buildings15214012",
+ "basis": "review-note",
+ "scope": "Only GPC10 (90% FA / 10% GGBS by binder mass) is covered: it is the one labelled mix in the existing deep-dive review. The other conditions ('30 or 50% GGBS') are unlabelled and not transcribed as mixes. The paper's complete mix table is not covered.",
+ "made": "2026-10-22",
+ "madeBy": "AI transcription · mix-sheet skill v1",
+ "materials": [
+  {"id": "fa", "family": "fly-ash", "role": "precursor", "name": "Fly ash", "aliases": ["FA"]},
+  {"id": "ggbs", "family": "slag", "role": "precursor", "name": "GGBS"},
+  {"id": "sand", "family": "sand", "role": "aggregate", "name": "river sand"},
+  {"id": "granite", "family": "other-aggregate", "role": "aggregate", "name": "granite"},
+  {"id": "activator", "family": "other-activator", "role": "activator", "name": "sodium activator"},
+  {"id": "naoh", "family": "sodium-hydroxide", "role": "activator", "name": "NaOH"},
+  {"id": "silicate", "family": "other-activator", "role": "activator", "name": "silicate/NaOH solution"},
+  {"id": "snf", "family": "superplasticizer", "role": "additive", "name": "SNF"}
+ ],
+ "mixes": [
+  {
+   "id": "GPC10",
+   "control": false,
+   "form": "concrete",
+   "cure": "c1",
+   "quantities": [
+    {"material": "fa", "value": 90, "unit": "wt%", "basis": "precursor-mass", "text": "GPC10: 90% FA/10% GGBS by binder mass"},
+    {"material": "ggbs", "value": 10, "unit": "wt%", "basis": "precursor-mass", "text": "GPC10: 90% FA/10% GGBS by binder mass"},
+    {"material": "snf", "value": 2, "unit": "wt%", "basis": "binder-as-defined", "basisNote": "authors' binder as written; whether it includes the activator is not stated", "text": "SNF 2% binder"},
+    {"material": "naoh", "value": null, "missing": "solution mass not given; molarity is a design setting", "text": "12 M NaOH"}
+   ],
+   "parameters": [
+    {"key": "hydroxide-molarity", "value": 12, "text": "12 M NaOH"},
+    {"key": "silicate/hydroxide", "value": 2.5, "text": "silicate/NaOH solution 2.5:1 mass"}
+   ]
+  }
+ ],
+ "cures": [
+  {"id": "c1", "category": "ambient", "temperatureC": null, "duration": null, "durationUnit": null, "sealed": null, "humidityPercent": null, "text": "Ambient curing; 7, 14, 28-day strength ages."}
+ ],
+ "tests": [],
+ "results": [],
+ "findings": [],
+ "notes": [],
+ "gaps": [
+  "Other conditions: 30 or 50% GGBS are unlabelled in the reviewed notes, so they are not transcribed as mixes and have no quantities.",
+  "Activator (12 M NaOH; silicate/NaOH solution 2.5:1 mass), SNF 2% binder and the ambient curing line are paper-wide statements. They are attached to GPC10 only because it is the one labelled mix; the notes do not say they apply to GPC10 or to the other conditions.",
+  "Full binder, aggregate and solution masses are unresolved; no batch, per-m3 or water amounts are recorded.",
+  "Curing temperature, curing duration and curing RH are not stated; 7, 14 and 28 days are strength test ages, not curing durations.",
+  "Compression, tension and flexure tests and the 28-day acid exposures are named without numbers, so no tests or results are recorded.",
+  "Qualitative only: fly-ash-rich mixes resisted acid better and higher slag increased early strength. No mix is named, so no finding or note is recorded.",
+  "No combined optimum across strength and both acid exposures was extracted; acid exposure duration is separate from initial curing age."
+ ]
+}

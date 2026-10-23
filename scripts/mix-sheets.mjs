@@ -28,7 +28,7 @@ else if(command==='new'){
  if(await access(path).then(()=>true,()=>false))fail(`${path} already exists; edit it instead.`);
  const skeleton={format:SHEET_FORMAT,guideId:ctx.guide.id,doi:ctx.guide.doi,basis:'review-note',
   scope:'Mixes named in the existing deep-dive review only; not the paper’s complete mix table.',made:today,madeBy:SHEET_TOOL,
-  materials:[],mixes:[],cures:[],tests:[],results:[],findings:[],gaps:[]};
+  materials:[],mixes:[],cures:[],tests:[],results:[],findings:[],notes:[],gaps:[]};
  await writeFile(path,JSON.stringify(skeleton,null,1)+'\n');
  console.log(`Wrote ${path}. Next: npm run mixes -- context ${ctx.guide.id}`);
 }
@@ -47,7 +47,10 @@ else if(command==='check'){
   if(flag('--audit')&&!errors.length){
    console.log('   ATTRIBUTION CHECK — confirm each value belongs to this mix in its quote:');
    for(const r of sheet.results)console.log(`   · ${r.mix} | ${r.test} | ${r.value}${r.ageDays!==null&&r.ageDays!==undefined?` @ ${r.ageDays} d`:''} ← "${r.text}"`);
-   for(const m of sheet.mixes)for(const q of m.quantities)console.log(`   · ${m.id} | ${q.material} = ${q.value} ${q.unit} (${q.basis}) ← "${q.text}"`);
+   for(const m of sheet.mixes){for(const q of m.quantities)console.log(`   · ${m.id} | ${q.material} = ${q.value} ${q.unit||''} (${q.basis||'basis not given'}) ← "${q.text}"`);for(const x of m.parameters)console.log(`   · ${m.id} | ${x.key} = ${x.value}${x.basisNote?` (${x.basisNote})`:''} ← "${x.text}"`);}
+   for(const c of sheet.cures)console.log(`   · cure ${c.id} | ${c.category} ${c.temperatureC??'—'} °C ${c.duration??'—'} ${c.durationUnit||''} sealed=${c.sealed??'—'} ← "${c.text}"`);
+   for(const f of sheet.findings)console.log(`   · finding ${f.mix} | ${f.goal} ← "${f.text}"`);
+   for(const n of sheet.notes||[])console.log(`   · ${n.kind} ${n.mix} ← "${n.text}"`);
   }
  }
  console.log(bad?`\n${bad} sheet(s) need fixes.`:`\nAll ${files.length} sheet(s) pass.`);

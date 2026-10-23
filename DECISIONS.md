@@ -1,5 +1,23 @@
 # Geopolymer Platform — Decisions
 
+## 23 October 2026 — one row per mix, and a template a smaller model can run
+
+Owner approved building toward overlapping-mix discovery and asked for a template a
+lower-cost model can run. Mixes, not papers, become the unit of comparison: a derived
+mix table compiles the knowledge pilot, the formulation catalog and new per-paper mix
+sheets at build time (`/mixes`, `dist/mixes.json`). No competing catalog: pilot rows stay
+canonical and absorb matching recipes; sheets type the deep dives' existing reviewed
+notes and carry the label "From review note" until re-checked against the paper.
+Safety comes from deterministic checks rather than model judgment: every quote must
+exist in the guide's reviewed notes, every number must appear in its quote, every name
+must be a whole name from the notes, and a result's quote must name its mix. Cross-paper
+views never pool or rank; "best" is computed only within a paper for properties with a
+defined direction; lines join only same-paper series that differ in the charted setting.
+Two test rounds by a smaller model produced valid sheets with no invented values; most
+skips came from notes that never name their mixes, so numeric density now depends on a
+bounded source-text mode with a second reviewer. HANDOFF.md became a short current-state
+file; its history is archived verbatim.
+
 ## 21 October 2026 — depth250 continuation
 
 Retain the shared mix-data-v1 contract for the next fifty guide/summary pairs. Stock concentration alone is not batch quantity; a more complete control ledger cannot inherit another condition’s outcome. Preserve the existing catalog, publication identities, prior editorial hashes and pilots. Add review checklist to the required future-content standard. The target of all-guide extraction remains unfinished.

@@ -45,7 +45,7 @@ export async function readSheet(path){
 }
 export function checkSheet(sheet,{covered=coveredDois()}={}){
  const ctx=guideContext(sheet?.guideId);
- const result=validateSheet(sheet,{guide:ctx?.guide,guides:true,corpus:ctx?.corpus,library,coveredDois:covered});
+ const result=validateSheet(sheet,{guide:ctx?.guide,guides:true,corpus:ctx?.corpus,library,coveredDois:covered,status:ctx?.packet?.status});
  return {...result,ctx};
 }
 // Loads, validates and compiles every sheet. Throws with all errors so a bad sheet can never reach the site.

@@ -1,0 +1,68 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "one-part-waste-sand-water-demand",
+ "doi": "10.3390/ma14112911",
+ "basis": "review-note",
+ "scope": "28-day compression of the CT, W and CA mortars as quoted in the review notes. Not covered: the MCT0.33 ledger amounts and its highest-strength statement, water, the W/B ratios, and binder, sand and activator amounts.",
+ "made": "2026-10-23",
+ "madeBy": "AI transcription · mix-sheet skill v1",
+ "materials": [
+  {"id": "bfs", "family": "slag", "role": "precursor", "name": "BFS", "aliases": ["blast-furnace slag"]},
+  {"id": "metasilicate", "family": "sodium-silicate-solid", "role": "activator", "name": "Sodium metasilicate powder", "aliases": ["solid sodium metasilicate"]},
+  {"id": "ct-sand", "family": "sand", "role": "aggregate", "name": "CT waste sand"},
+  {"id": "ca-sand", "family": "sand", "role": "aggregate", "name": "CA"},
+  {"id": "commercial-sand", "family": "sand", "role": "aggregate", "name": "commercial sand"},
+  {"id": "water", "family": "water", "role": "water", "name": "Water"}
+ ],
+ "mixes": [
+  {
+   "id": "CT",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [],
+   "parameters": []
+  },
+  {
+   "id": "W",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [],
+   "parameters": []
+  },
+  {
+   "id": "CA",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [],
+   "parameters": []
+  }
+ ],
+ "cures": [
+  {"id": "c1", "category": "ambient", "temperatureC": null, "duration": null, "durationUnit": null, "sealed": null, "humidityPercent": null, "text": "room-temperature-cured mortars"}
+ ],
+ "tests": [
+  {"id": "comp", "property": "compressive-strength", "unit": "MPa", "specimen": null, "method": null, "text": "28-day mortar compression; specimen and loading protocol still need extraction."}
+ ],
+ "results": [
+  {"mix": "CT", "test": "comp", "ageDays": 28, "value": 86, "text": "CT 86 MPa exceeds W 79 and CA 70 MPa", "ageText": "28-day mortar compression", "locator": "§§2.1–2.2 / Table 1 / MCT0.33; Table 6 / this-work rows"},
+  {"mix": "W", "test": "comp", "ageDays": 28, "value": 79, "text": "CT 86 MPa exceeds W 79 and CA 70 MPa", "ageText": "28-day mortar compression", "locator": "§§2.1–2.2 / Table 1 / MCT0.33; Table 6 / this-work rows"},
+  {"mix": "CA", "test": "comp", "ageDays": 28, "value": 70, "text": "CT 86 MPa exceeds W 79 and CA 70 MPa", "ageText": "28-day mortar compression", "locator": "§§2.1–2.2 / Table 1 / MCT0.33; Table 6 / this-work rows"}
+ ],
+ "findings": [],
+ "notes": [
+  {"mix": "CT", "kind": "observation", "text": "CT 86 MPa exceeds W 79 and CA 70 MPa, but their W/B ratios differ (0.33 / 0.29 / 0.35)."}
+ ],
+ "gaps": [
+  "The ledger amounts (BFS 100 g, sodium metasilicate powder 10 g, CT waste sand 200 g) sit under the MCT0.33 locator, but the quoted lines name no mix, so they are not attached to any mix.",
+  "Water is unresolved: the W/B 0.33 denominator must be reconciled before weighing, so no water mass or water/binder value is entered.",
+  "The W/B ratios 0.33 / 0.29 / 0.35 are not assigned to CT, W or CA because the sentence does not state the order.",
+  "MCT0.33 is named as the highest 28-day compression of this study's mortars, but no number is given for it and the reviewed text does not say it is the CT mortar, so it is not entered as a mix and its finding is not entered.",
+  "Binder, sand and activator amounts for the CT, W and CA mortars are not given in the reviewed text.",
+  "Specimen geometry, loading protocol and curing duration are not given; the cure record holds only the room-temperature regime.",
+  "The 79 MPa sentence names commercial-sand mortar rather than W, so the W label rests on the matching value and no alias is entered.",
+  "Selected indexed passages only; complete tables, figures, supplements and per-condition uncertainty are not inventoried."
+ ]
+}

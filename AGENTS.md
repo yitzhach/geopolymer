@@ -10,3 +10,8 @@ shared `mix-data-v1` dataset, with source quantities when available and explicit
 pending/held/not-applicable states otherwise. Use the existing exact-DOI recipe
 catalog and never fabricate masses or complete-protocol status to fill fields.
 
+Mix sheets (`research/mix-sheets/`) follow `MIX_SHEET_STANDARD.md`; use the `mix-sheet`
+skill (`.claude/skills/mix-sheet/SKILL.md`). Review-note mode opens no source, so the
+master prompt's research procedures apply only to source-text mode. Every sheet must
+pass `npm run mixes -- check`.
+

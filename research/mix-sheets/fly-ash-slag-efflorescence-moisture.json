@@ -1,0 +1,68 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "fly-ash-slag-efflorescence-moisture",
+ "doi": "10.3390/ma13235550",
+ "basis": "review-note",
+ "scope": "The two pastes NHFS and NSFS named in the existing deep-dive review, with the study-wide precursor split, liquid/solid ratio and cure. Part-level graph values and the covered/exposed/control arms are not transcribed beyond the one text-stated exposed value.",
+ "made": "2026-10-23",
+ "madeBy": "AI transcription · mix-sheet skill v1",
+ "materials": [
+  {"id": "fa", "family": "fly-ash", "role": "precursor", "name": "Class F fly ash", "aliases": ["fly ash"]},
+  {"id": "slag", "family": "slag", "role": "precursor", "name": "slag", "aliases": ["granulated blast-furnace slag"]},
+  {"id": "naoh", "family": "sodium-hydroxide", "role": "activator", "name": "NaOH", "detail": "8 mol/L NaOH from 96% pellets"},
+  {"id": "ss", "family": "sodium-silicate-solution", "role": "activator", "name": "Sodium silicate", "detail": "Sodium silicate: commercial solution (SiO₂ 32.6 wt%, Na₂O 10.4 wt%) plus NaOH to molar SiO₂/Na₂O 1.2"}
+ ],
+ "mixes": [
+  {
+   "id": "NHFS",
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {"material": "fa", "value": 80, "unit": "wt%", "basis": "precursor-mass", "text": "Class F fly ash / slag: 80/20 wt% of precursor"},
+    {"material": "slag", "value": 20, "unit": "wt%", "basis": "precursor-mass", "text": "Class F fly ash / slag: 80/20 wt% of precursor"},
+    {"material": "naoh", "value": null, "missing": "solution mass not given; only the 0.50 L/S ratio", "text": "8 mol/L NaOH from 96% pellets"}
+   ],
+   "parameters": [
+    {"key": "liquid/solid", "value": 0.5, "text": "80 wt% fly ash + 20 wt% slag dry-mixed, then activator at L/S 0.50"},
+    {"key": "hydroxide-molarity", "value": 8, "text": "8 mol/L NaOH from 96% pellets"}
+   ]
+  },
+  {
+   "id": "NSFS",
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {"material": "fa", "value": 80, "unit": "wt%", "basis": "precursor-mass", "text": "Class F fly ash / slag: 80/20 wt% of precursor"},
+    {"material": "slag", "value": 20, "unit": "wt%", "basis": "precursor-mass", "text": "Class F fly ash / slag: 80/20 wt% of precursor"},
+    {"material": "ss", "value": null, "missing": "solution mass not given; only the 0.50 L/S ratio", "text": "Sodium silicate: commercial solution (SiO₂ 32.6 wt%, Na₂O 10.4 wt%) plus NaOH to molar SiO₂/Na₂O 1.2"},
+    {"material": "naoh", "value": null, "missing": "NaOH added to the silicate solution; amount not given", "text": "Sodium silicate: commercial solution (SiO₂ 32.6 wt%, Na₂O 10.4 wt%) plus NaOH to molar SiO₂/Na₂O 1.2"}
+   ],
+   "parameters": [
+    {"key": "liquid/solid", "value": 0.5, "text": "80 wt% fly ash + 20 wt% slag dry-mixed, then activator at L/S 0.50"},
+    {"key": "activator-modulus", "value": 1.2, "text": "Sodium silicate: commercial solution (SiO₂ 32.6 wt%, Na₂O 10.4 wt%) plus NaOH to molar SiO₂/Na₂O 1.2"}
+   ]
+  }
+ ],
+ "cures": [
+  {"id": "c1", "category": "moist", "temperatureC": 20, "duration": 28, "durationUnit": "d", "sealed": null, "humidityPercent": null, "text": "Cure 20 ± 1 °C, RH ≥ 95%; demold at 24 h; cure to 28 days."}
+ ],
+ "tests": [
+  {"id": "comp", "property": "compressive-strength", "unit": "MPa", "specimen": "32 mm slices (Parts 1–3, top to bottom) of cylinders; cylinder size conflicts between §2.2 and §2.3", "method": "three replicates per part", "text": "Three 32 mm slices (Parts 1–3, top to bottom). Strength: three replicates per part."}
+ ],
+ "results": [
+  {"mix": "NHFS", "test": "comp", "ageDays": null, "ageNote": "after the 28-day cure plus a 28-day exposure; total age not stated in the notes", "value": 24.7, "condition": "Exposed NHFS Part 3 (bottom)", "text": "Exposed NHFS Part 3 (bottom) fell to 24.7 MPa", "locator": "§3.2.1; §4"}
+ ],
+ "findings": [],
+ "notes": [
+  {"mix": "NHFS", "kind": "failure", "text": "Exposed NHFS Part 3 (bottom) fell to 24.7 MPa against a 32.2–34.5 MPa control range."}
+ ],
+ "gaps": [
+  "Specimen geometry conflict in the source: 100 × 200 mm cylinders (§2.2) versus 50 × 100 mm (Figure 3, §2.3); resolve before any batch sheet.",
+  "The 32.2–34.5 MPa control range is not attributed to one paste in the notes, so it is not entered as a result.",
+  "Part-level strength, absorption and pH values are graph-only and not digitized; NSFS has no text-stated strength.",
+  "Activator solution masses and total water differ between NHFS and NSFS and are not given; the two pastes are matched on OH⁻ concentration, not composition.",
+  "Mixing time, speed and consolidation are not stated in the inspected methods."
+ ]
+}

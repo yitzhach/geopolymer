@@ -1,6 +1,6 @@
 # Mix sheet standard
 
-Version `mix-sheet-v1` · 22 October 2026. Applies to every file in `research/mix-sheets/`.
+Version `mix-sheet-v1` (rules revised 23 October 2026 after two test runs by a smaller model). Applies to every file in `research/mix-sheets/`.
 The step-by-step runbook is `.claude/skills/mix-sheet/SKILL.md`.
 
 ## Purpose
@@ -42,10 +42,10 @@ One JSON file per deep dive, named `<guideId>.json`. All arrays are required (us
  "basis": "review-note", "scope": "<which mixes this sheet covers and which it does not>",
  "made": "YYYY-MM-DD", "madeBy": "AI transcription · mix-sheet skill v1",
  "materials": [{"id","family","role","name","aliases?","detail?"}],
- "mixes": [{"id","aliases?","control","form","cure","baseMix?","baseText?","quantities":[],"parameters":[],"missing?"}],
+ "mixes": [{"id","aliases?","control","form","cure","baseMix?","baseText?","quantities":[],"parameters":[],"missing?":[]}],
  "cures": [{"id","category","temperatureC","duration","durationUnit","sealed","humidityPercent","text"}],
  "tests": [{"id","property","unit","specimen","method","text?","propertyNote?"}],
- "results": [{"mix","test","value","ageDays","ageNote?","ageText?","qualifier?","valueMax?","spread?","text","locator?"}],
+ "results": [{"mix","test","value","ageDays","ageNote?","ageText?","condition?","qualifier?","valueMax?","spread?","text","locator?"}],
  "findings": [{"goal","mix","text"}],
  "notes": [{"mix","kind","text"}],
  "gaps": ["<what is still missing>"]
@@ -53,11 +53,16 @@ One JSON file per deep dive, named `<guideId>.json`. All arrays are required (us
 ```
 
 - **quantity**: `{"material","value","unit","basis","basisNote?","missing?","text"}`. `value` is a
-  number or `null`; `null` needs `missing`.
-- **parameter**: `{"key","value","text"}` for design settings that are not ingredient amounts
-  (molarity, modulus, liquid/solid, water/binder, silicate/hydroxide, alkali dose, Si/Al …).
-- **baseMix/baseText**: a variant may inherit its base mix's quantities when `baseText` quotes the
-  sentence that says the base proportions are shared. One level only; own quantities override.
+  number or `null`; `null` needs `missing` and may omit `unit` and `basis`. Listing a named
+  activator with `null` tells the site its family (sodium, potassium) without inventing an amount.
+- **parameter**: `{"key","value","basisNote?","text"}` for design settings that are not ingredient
+  amounts (molarity, modulus, liquid/solid, water/binder, silicate/hydroxide, alkali dose, Si/Al …).
+  `basisNote` records an unstated mass/volume/molar basis.
+- **baseMix/baseText**: a variant inherits its base mix's quantities and parameters when
+  `baseText` quotes either a sentence saying the base proportions are shared, or the single design
+  table whose labelled variants only add an ingredient (then a gap records that reading). One
+  level only; the variant's own entries override.
+- **condition**: a quoted sub-condition of a result (exposure arm, slice, direction, cure arm).
 - **findings**: only when the notes state that a mix is best or selected *for a goal*.
 - **notes**: `failure`, `tradeoff` or `observation` statements about one mix (failed setting,
   poor penetration, a strength penalty). Failures matter as much as successes.
@@ -70,18 +75,22 @@ Closed vocabularies live in `src/mix-table.js`: `FAMILIES` (material family → 
 
 1. **Quote, never compose.** Every `text` is an exact fragment of the allowed source text.
    Whitespace, case, dashes, quotes and `×` are normalized; nothing else is.
-2. **Every number appears in its own quote.** `value`, `valueMax`, `spread`, `temperatureC`,
-   `duration` and `humidityPercent` must each appear in the quoted `text`.
+2. **Every number appears in its own quote.** Quantity and parameter values, `valueMax`,
+   `spread`, `temperatureC`, `duration` and `humidityPercent` must each appear in the quoted
+   `text`. Ranges and bounds ("15–25 °C", "RH ≥ 95%") stay `null`; the quote keeps them.
 3. **Unknown stays unknown.** Use `null` plus a reason. Never `0`, never an estimate, never a
    value converted or calculated by you. The compiler computes precursor shares; you do not.
 4. **Names are grounded.** A mix id (or alias), and a material name (or alias), must appear in
-   the allowed text as a whole name. Do not invent labels such as "Mix 2" or "GPC30".
+   the allowed text as a whole name. A label names one specific condition; group phrases and
+   bare levels ("higher-MK mortar", "10, 30, 50 wt% slag") are not labels. A paper with no label
+   is skipped in review-note mode. Do not invent labels such as "Mix 2" or "GPC30".
 5. **Attribution is explicit.** A result's quote must name its mix. When a sentence compares two
    mixes, re-read it to confirm each number belongs to the mix you assigned.
 6. **Keep conditions separate.** Curing, test age and exposure time are different clocks. A
    fresh test (flow, setting) has `ageDays: null` with `ageNote`. Grout, paste, mortar and
    composite results are different forms.
-7. **No duplicate coverage.** A DOI already structured in the catalog or pilot gets no sheet.
+7. **No duplicate coverage, no held sources.** A DOI already structured in the catalog or pilot
+   gets no sheet; neither does a guide on a correction hold or one without its own physical mixes.
 8. **Partial is normal.** `scope` says which mixes are covered; `gaps` says what is missing.
 9. **No model names** in any repository file; use the tool label above.
 
@@ -91,9 +100,10 @@ Closed vocabularies live in `src/mix-table.js`: `FAMILIES` (material family → 
 identity and file name, closed vocabularies, unit–basis fit, property units, grounded quotes,
 numbers inside quotes, grounded mix/material names, mix named in each result quote,
 `null` with a reason, base-mix rules, cure category versus temperature, duplicate ids and
-duplicate DOI coverage. Warnings flag likely problems (unused materials, unnamed material in a
-quantity quote, age not visible in the quote). `--audit` prints every value beside its quote for
-the attribution check that software cannot do.
+duplicate DOI coverage, correction holds and model-only guides. Warnings flag likely problems
+(unused materials, unnamed material in a quantity quote, age not visible in the quote). Once a
+sheet passes, `--audit` prints every quantity, parameter, result, cure, finding and note beside
+its quote for the attribution check that software cannot do.
 
 ## What the compiler derives (and labels as derived)
 

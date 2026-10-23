@@ -1,0 +1,125 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "hpmc-vae-workability-durability",
+ "doi": "10.3390/buildings15193621",
+ "basis": "review-note",
+ "scope": "The reference (zero additive) and the labelled HPMC mixes X0.2, X0.4, X0.6 and VAE mixes V2, V4, V6, with the Table 3 design as the shared base. Cure-arm assignment and all numeric endpoints are not transcribed.",
+ "made": "2026-10-22",
+ "madeBy": "AI transcription · mix-sheet skill v1",
+ "materials": [
+  {"id": "hpmc", "family": "viscosity-modifier", "role": "additive", "name": "HPMC", "aliases": ["hydroxypropyl methylcellulose"]},
+  {"id": "vae", "family": "polymer", "role": "additive", "name": "VAE"},
+  {"id": "fa", "family": "fly-ash", "role": "precursor", "name": "FA"},
+  {"id": "bfs", "family": "slag", "role": "precursor", "name": "BFS"},
+  {"id": "sand", "family": "sand", "role": "aggregate", "name": "river sand"},
+  {"id": "wg", "family": "sodium-silicate-solution", "role": "activator", "name": "water glass", "aliases": ["WG"]},
+  {"id": "naoh", "family": "sodium-hydroxide", "role": "activator", "name": "NaOH", "detail": "NaOH 10 mol/L"}
+ ],
+ "mixes": [
+  {
+   "id": "reference",
+   "control": true,
+   "form": "unknown",
+   "cure": null,
+   "quantities": [
+    {"material": "fa", "value": 0.5, "unit": "ratio", "basis": "precursor-mass", "text": "Table 3, binder basis: FA 0.5; BFS 0.5; river sand 2; AAS/binder 0.5; WG:NH 3:1"},
+    {"material": "bfs", "value": 0.5, "unit": "ratio", "basis": "precursor-mass", "text": "Table 3, binder basis: FA 0.5; BFS 0.5; river sand 2; AAS/binder 0.5; WG:NH 3:1"},
+    {"material": "sand", "value": 2, "unit": "ratio", "basis": "precursor-mass", "text": "Table 3, binder basis: FA 0.5; BFS 0.5; river sand 2; AAS/binder 0.5; WG:NH 3:1"},
+    {"material": "wg", "value": null, "missing": "diluted water glass mass not given", "text": "Stock solutions: NaOH 10 mol/L; industrial WG diluted 1:1 by volume with water; prepare one day ahead"},
+    {"material": "naoh", "value": null, "missing": "NaOH solution mass not given", "text": "Stock solutions: NaOH 10 mol/L; industrial WG diluted 1:1 by volume with water; prepare one day ahead"}
+   ],
+   "parameters": [
+    {"key": "activator/precursor", "value": 0.5, "text": "Table 3, binder basis: FA 0.5; BFS 0.5; river sand 2; AAS/binder 0.5; WG:NH 3:1"},
+    {"key": "silicate/hydroxide", "value": 3, "basisNote": "mass or volume basis not stated", "text": "Table 3, binder basis: FA 0.5; BFS 0.5; river sand 2; AAS/binder 0.5; WG:NH 3:1"},
+    {"key": "hydroxide-molarity", "value": 10, "text": "Stock solutions: NaOH 10 mol/L; industrial WG diluted 1:1 by volume with water; prepare one day ahead"}
+   ]
+  },
+  {
+   "id": "X0.2",
+   "control": false,
+   "form": "unknown",
+   "cure": null,
+   "quantities": [
+    {"material": "hpmc", "value": 0.2, "unit": "wt%", "basis": "binder-as-defined", "basisNote": "additive/binder as stated in the reviewed text, binder as the authors define it", "text": "HPMC X0.2/X0.4/X0.6 = 0.2/0.4/0.6%"}
+   ],
+   "parameters": [],
+   "baseMix": "reference",
+   "baseText": "Table 3, binder basis: FA 0.5; BFS 0.5; river sand 2; AAS/binder 0.5; WG:NH 3:1"
+  },
+  {
+   "id": "X0.4",
+   "control": false,
+   "form": "unknown",
+   "cure": null,
+   "quantities": [
+    {"material": "hpmc", "value": 0.4, "unit": "wt%", "basis": "binder-as-defined", "basisNote": "additive/binder as stated in the reviewed text, binder as the authors define it", "text": "HPMC X0.2/X0.4/X0.6 = 0.2/0.4/0.6%"}
+   ],
+   "parameters": [],
+   "baseMix": "reference",
+   "baseText": "Table 3, binder basis: FA 0.5; BFS 0.5; river sand 2; AAS/binder 0.5; WG:NH 3:1"
+  },
+  {
+   "id": "X0.6",
+   "control": false,
+   "form": "unknown",
+   "cure": null,
+   "quantities": [
+    {"material": "hpmc", "value": 0.6, "unit": "wt%", "basis": "binder-as-defined", "basisNote": "additive/binder as stated in the reviewed text, binder as the authors define it", "text": "HPMC X0.2/X0.4/X0.6 = 0.2/0.4/0.6%"}
+   ],
+   "parameters": [],
+   "baseMix": "reference",
+   "baseText": "Table 3, binder basis: FA 0.5; BFS 0.5; river sand 2; AAS/binder 0.5; WG:NH 3:1"
+  },
+  {
+   "id": "V2",
+   "control": false,
+   "form": "unknown",
+   "cure": null,
+   "quantities": [
+    {"material": "vae", "value": 2, "unit": "wt%", "basis": "binder-as-defined", "basisNote": "additive/binder as stated in the reviewed text, binder as the authors define it", "text": "VAE V2/V4/V6 = 2/4/6%"}
+   ],
+   "parameters": [],
+   "baseMix": "reference",
+   "baseText": "Table 3, binder basis: FA 0.5; BFS 0.5; river sand 2; AAS/binder 0.5; WG:NH 3:1"
+  },
+  {
+   "id": "V4",
+   "control": false,
+   "form": "unknown",
+   "cure": null,
+   "quantities": [
+    {"material": "vae", "value": 4, "unit": "wt%", "basis": "binder-as-defined", "basisNote": "additive/binder as stated in the reviewed text, binder as the authors define it", "text": "VAE V2/V4/V6 = 2/4/6%"}
+   ],
+   "parameters": [],
+   "baseMix": "reference",
+   "baseText": "Table 3, binder basis: FA 0.5; BFS 0.5; river sand 2; AAS/binder 0.5; WG:NH 3:1"
+  },
+  {
+   "id": "V6",
+   "control": false,
+   "form": "unknown",
+   "cure": null,
+   "quantities": [
+    {"material": "vae", "value": 6, "unit": "wt%", "basis": "binder-as-defined", "basisNote": "additive/binder as stated in the reviewed text, binder as the authors define it", "text": "VAE V2/V4/V6 = 2/4/6%"}
+   ],
+   "parameters": [],
+   "baseMix": "reference",
+   "baseText": "Table 3, binder basis: FA 0.5; BFS 0.5; river sand 2; AAS/binder 0.5; WG:NH 3:1"
+  }
+ ],
+ "cures": [
+  {"id": "c1", "category": "moist", "temperatureC": 20, "duration": null, "durationUnit": null, "sealed": null, "humidityPercent": null, "text": "E1 about 20 °C/RH≥90%"},
+  {"id": "c2", "category": "ambient", "temperatureC": null, "duration": null, "durationUnit": null, "sealed": null, "humidityPercent": null, "text": "E2 15–25 °C/RH30–55%"},
+  {"id": "c3", "category": "ambient", "temperatureC": null, "duration": null, "durationUnit": null, "sealed": true, "humidityPercent": null, "text": "E3 double-film sealed under E2 conditions"}
+ ],
+ "tests": [],
+ "results": [],
+ "findings": [],
+ "notes": [],
+ "gaps": [
+  "Variants inherit the design table as the base; confirm against Table 3. The WG:NH ratio basis (mass or volume) and the diluted-versus-industrial WG identity need reconciliation.",
+  "Cure arms E1, E2 and E3 are recorded, but the reviewed text does not say which arm each mix used, so cure is left null.",
+  "Full doses, mixing sequence, exposure concentrations and uncertainty are not extracted; no workability, strength or durability results are entered.",
+  "The HPMC-versus-VAE durability direction is a series-level statement with no single mix to attribute it to, so it is not entered as a note."
+ ]
+}

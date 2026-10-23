@@ -1,5 +1,13 @@
 # Recipe database and future formulation advisor
 
+## 23 October 2026 — mix table and Mix Explorer
+
+The catalog's 49 conditions now also appear as rows in the derived mix table (`/mixes`),
+alongside the knowledge pilot and nine new review-note mix sheets: 128 rows from 29
+papers. Six recipes that describe pilot mixes merge into those rows and keep their
+`/formulations` links and gram ledgers. Catalog counts and records are unchanged; curing
+classes shown for recipes are parsed from their curing notes and displayed beside them.
+
 ## 21 October 2026 — depth250 continuation
 
 The next fifty-guide batch adds selected condition weights/ratios without adding recipes: canonical catalog remains 49 conditions/37 proportional scalers. Explorer now has 119 guides with quantities (8 scalable-guide/111 partial); unquantified stock-only notes remain pending. Existing exact-DOI catalog remains the only scalable recipe source. No complete reproduction protocol claimed.
