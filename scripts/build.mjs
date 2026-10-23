@@ -14,6 +14,9 @@ import {journalArticles} from '../src/journal-data.js';
 import { cp, mkdir, rm, readFile, writeFile } from 'node:fs/promises';
 import { execFileSync } from 'node:child_process';
 import { renderPage } from '../src/app.js';
+import {buildMixTable} from './lib/mix-sheets.mjs';
+import {mixExplorerPage} from '../src/mix-explorer-ui.js';
+import {mixTableIndex} from '../src/mix-index.js';
 import { routes } from '../src/routes.js';
 import { papers, products } from '../src/data.js';
 import { siteOrigin, contentUpdated } from '../site.config.mjs';
@@ -22,6 +25,10 @@ const plain = html => html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
 // src/ is public: refuse to build if a private/unassessed asset enters it.
 if(pilot.assets.some(a=>a.operations.publicDisplay.decision!=='allowed'||a.operations.export.decision!=='allowed'))throw new Error('Restricted evidence must stay outside public src/; resolve rights before build');
 const shell = await readFile('index.html', 'utf8');
+// Mix sheets are validated and compiled before any page renders; a bad sheet stops the build.
+const mixTable = await buildMixTable({generated: contentUpdated});
+for (const r of mixTable.rows) if (r.paper.guideId && r.paper.key) mixTableIndex.guides.set(r.paper.guideId, r.paper.key);
+mixTableIndex.page = mixExplorerPage(mixTable);
 validateResearchTopics(researchTopics);
 validateDeepDives(deepDives);
 validateMixDesigns(deepDiveMixDesigns,deepDives);
@@ -110,3 +117,5 @@ console.log(`Pre-rendered ${routes.length} routes, 404, metadata and crawl files
 await writeFile('dist/deep-dives.json',JSON.stringify({format:'geopolymer-deep-dives-v1',notice:'Editorial analysis: reported facts, conditional arithmetic and proposed experiments are separate. Partial AI review; not verified numerical evidence.',articles:deepDives.map(d=>({...d,mixData:mixDesignFor(d.id).dataSet}))},null,2)+'\n');
 
 await writeFile('dist/deep-dive-mix-designs.json',JSON.stringify(mixDesignExport(),null,2)+'\n');
+
+await writeFile('dist/mixes.json',JSON.stringify(mixTable)+'\n');

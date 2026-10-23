@@ -1,0 +1,76 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "rap-geopolymer-grout-versus-composite",
+ "doi": "10.3390/ma13163644",
+ "basis": "review-note",
+ "scope": "Grouts D and B named in the existing deep-dive review only; the paper screens twenty grouts and sixteen composite mixtures that are not transcribed here.",
+ "made": "2026-10-22",
+ "madeBy": "AI transcription · mix-sheet skill v1",
+ "materials": [
+  {"id": "ggbs", "family": "slag", "role": "precursor", "name": "GGBS"},
+  {"id": "fa", "family": "fly-ash", "role": "precursor", "name": "FA"},
+  {"id": "mk", "family": "metakaolin", "role": "precursor", "name": "MK"},
+  {"id": "sf", "family": "silica-fume", "role": "precursor", "name": "SF"},
+  {"id": "geosil", "family": "potassium-silicate-solution", "role": "activator", "name": "Geosil potassium silicate", "detail": "Activator: Geosil potassium silicate, 45% solids; solution quantity unresolved"}
+ ],
+ "mixes": [
+  {
+   "id": "D",
+   "aliases": ["Grout D"],
+   "control": false,
+   "form": "grout",
+   "cure": "c1",
+   "quantities": [
+    {"material": "ggbs", "value": 80, "unit": "wt%", "basis": "precursor-mass", "text": "D dry binder fractions: 80% GGBS / 20% FA"},
+    {"material": "fa", "value": 20, "unit": "wt%", "basis": "precursor-mass", "text": "D dry binder fractions: 80% GGBS / 20% FA"},
+    {"material": "geosil", "value": null, "unit": "g", "basis": "batch", "missing": "solution quantity unresolved", "text": "Activator: Geosil potassium silicate, 45% solids; solution quantity unresolved"}
+   ],
+   "parameters": [
+    {"key": "liquid/solid", "value": 0.27, "text": "LS: 0.27 for D; full water/solution denominator unresolved"}
+   ]
+  },
+  {
+   "id": "B",
+   "control": false,
+   "form": "grout",
+   "cure": "c1",
+   "quantities": [
+    {"material": "ggbs", "value": 40, "unit": "wt%", "basis": "precursor-mass", "text": "B (40/20/20/20 GGBS/FA/MK/SF, LS 0.33)"},
+    {"material": "fa", "value": 20, "unit": "wt%", "basis": "precursor-mass", "text": "B (40/20/20/20 GGBS/FA/MK/SF, LS 0.33)"},
+    {"material": "mk", "value": 20, "unit": "wt%", "basis": "precursor-mass", "text": "B (40/20/20/20 GGBS/FA/MK/SF, LS 0.33)"},
+    {"material": "sf", "value": 20, "unit": "wt%", "basis": "precursor-mass", "text": "B (40/20/20/20 GGBS/FA/MK/SF, LS 0.33)"}
+   ],
+   "parameters": [
+    {"key": "liquid/solid", "value": 0.33, "text": "B (40/20/20/20 GGBS/FA/MK/SF, LS 0.33)"}
+   ]
+  }
+ ],
+ "cures": [
+  {"id": "c1", "category": "ambient", "temperatureC": 20, "duration": 28, "durationUnit": "d", "sealed": true, "humidityPercent": null, "text": "Grout: 50 mm cubes, 28 days, polyethylene covered at 20 °C"}
+ ],
+ "tests": [
+  {"id": "comp", "property": "compressive-strength", "unit": "MPa", "specimen": "50 mm grout cubes", "method": "reported BS EN 1015:11:1999", "text": "Grout: 50 mm cubes, 28 days, polyethylene covered at 20 °C, reported BS EN 1015:11:1999."},
+  {"id": "flow", "property": "flow-time", "unit": "s", "specimen": null, "method": null},
+  {"id": "set", "property": "setting-time", "unit": "min", "specimen": null, "method": null}
+ ],
+ "results": [
+  {"mix": "D", "test": "comp", "ageDays": 28, "value": 108, "text": "D (80/20 GGBS/FA, LS 0.27) reaches 108 MPa", "ageText": "Grout: 50 mm cubes, 28 days", "locator": "Table 4"},
+  {"mix": "D", "test": "flow", "ageDays": null, "ageNote": "fresh grout test", "value": 608.6, "text": "D (80/20 GGBS/FA, LS 0.27) reaches 108 MPa, but flow takes 608.6 s and set 13 min", "locator": "Table 4"},
+  {"mix": "D", "test": "set", "ageDays": null, "ageNote": "fresh grout test", "value": 13, "text": "D (80/20 GGBS/FA, LS 0.27) reaches 108 MPa, but flow takes 608.6 s and set 13 min", "locator": "Table 4"},
+  {"mix": "B", "test": "comp", "ageDays": 28, "value": 67, "text": "B (40/20/20/20 GGBS/FA/MK/SF, LS 0.33) gives 67 MPa", "ageText": "Grout: 50 mm cubes, 28 days", "locator": "Table 4"},
+  {"mix": "B", "test": "flow", "ageDays": null, "ageNote": "fresh grout test", "value": 32.6, "text": "B (40/20/20/20 GGBS/FA/MK/SF, LS 0.33) gives 67 MPa, 32.6 s flow and 65 min set", "locator": "Table 4"},
+  {"mix": "B", "test": "set", "ageDays": null, "ageNote": "fresh grout test", "value": 65, "text": "B (40/20/20/20 GGBS/FA/MK/SF, LS 0.33) gives 67 MPa, 32.6 s flow and 65 min set", "locator": "Table 4"}
+ ],
+ "findings": [
+  {"goal": "Highest grout compressive strength", "mix": "D", "text": "Grout D for strength"},
+  {"goal": "Penetration into the asphalt skeleton and longer working time", "mix": "B", "text": "evaluate B when penetration and working time matter"}
+ ],
+ "notes": [
+  {"mix": "D", "kind": "failure", "text": "D failed adequate penetration at 54/62 vol% RAP"}
+ ],
+ "gaps": [
+  "Activator solution mass, water and mixing procedure are unresolved; no scaling.",
+  "The review flags a §4.1 blend attribution that conflicts with Table 4; these rows follow the named table rows provisionally.",
+  "The other eighteen screened grouts and the sixteen composite (SFC) mixtures are not transcribed; grout strength is not composite strength."
+ ]
+}

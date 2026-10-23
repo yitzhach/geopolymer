@@ -1,4 +1,5 @@
 import {attachDeepDiveExplorer} from './deep-dive-explorer.js';
+import {mixTableIndex} from './mix-index.js';
 import {deepDives} from './deep-dives.js';
 import {deepDiveIndex,deepDivePage} from './deep-dive-ui.js';
 import {knowledgeReferences} from './knowledge-references.js';
@@ -387,6 +388,8 @@ export function renderPage(url = "/") {
       title = item?.title || "Materials";
       break;
     }
+    // The build registers the full table page; this description stands in wherever the compiled table is absent.
+    case "mixes": html=mixTableIndex.page||intro("RESEARCH / MIX EXPLORER","Compare mixes across papers.","Every row is one mix: its materials, design settings, curing and reported results, with the source text behind each number.")+`<section class="section"><p>The Mix Explorer joins the knowledge pilot, the formulation catalog and per-paper mix sheets into one table. Filter by precursor, activator, cure and form; chart a result against a design setting; line up to six mixes side by side; and find similar mixes from other papers.</p><p>${link("/mixes.json","Download the mix table (JSON)","button secondary")} ${link("/deep-dives","Experiment deep dives")}</p></section>`; title="Mix Explorer"; break;
     case "deep-dives": { const d=deepDives.find(x=>x.id===id); html=id?(d?deepDivePage(d):notFound()):deepDiveIndex(); title=id?(d?.title||"Deep dive not found"):"Research deep dives"; break; }
     case "research": {
       const topic = researchTopics.find(t=>t.id===id);
@@ -455,6 +458,7 @@ export async function enhancePage() {
   if (area === "journal") attachJournal();
   if (area === "formulations") attachMix();
   if (area === "deep-dives") attachDeepDiveExplorer();
+  if (area === "mixes") await import('./mix-explorer-ui.js').then(m => m.attachMixExplorer());
   document.querySelectorAll('nav a').forEach(a => {
     if (a.pathname.replace(/\/$/, '') === location.pathname.replace(/\/$/, ''))
       a.setAttribute('aria-current', 'page');

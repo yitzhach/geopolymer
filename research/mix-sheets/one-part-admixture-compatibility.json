@@ -1,0 +1,93 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "one-part-admixture-compatibility",
+ "doi": "10.3390/ma12203410",
+ "basis": "review-note",
+ "scope": "Mixes named in the existing deep-dive review only (AN and GD bases plus two combined-admixture variants); the paper reports 18 mixes and graph-only series that are not transcribed here.",
+ "made": "2026-10-22",
+ "madeBy": "AI transcription · mix-sheet skill v1",
+ "materials": [
+  {"id": "fa", "family": "fly-ash", "role": "precursor", "name": "Fly ash", "aliases": ["Class F fly ash"]},
+  {"id": "slag", "family": "slag", "role": "precursor", "name": "slag", "aliases": ["GGBS"]},
+  {"id": "an", "family": "sodium-silicate-solid", "role": "activator", "name": "Anhydrous sodium metasilicate", "aliases": ["AN"]},
+  {"id": "gd", "family": "sodium-silicate-solid", "role": "activator", "name": "GD Grade sodium silicate powder", "aliases": ["GD"]},
+  {"id": "water", "family": "water", "role": "water", "name": "tap water"},
+  {"id": "pc1", "family": "superplasticizer", "role": "additive", "name": "PC1", "aliases": ["modified polycarboxylate SPs"]},
+  {"id": "sucrose", "family": "retarder", "role": "additive", "name": "sucrose"},
+  {"id": "borax", "family": "retarder", "role": "additive", "name": "anhydrous borax"}
+ ],
+ "mixes": [
+  {
+   "id": "AN",
+   "control": true,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {"material": "fa", "value": 0.5, "unit": "part", "basis": "mass-parts", "text": "AN control precursor: Fly ash 0.500 + slag 0.500 mass parts"},
+    {"material": "slag", "value": 0.5, "unit": "part", "basis": "mass-parts", "text": "AN control precursor: Fly ash 0.500 + slag 0.500 mass parts"},
+    {"material": "an", "value": 0.1, "unit": "part", "basis": "mass-parts", "text": "AN solid activator: Anhydrous sodium metasilicate 0.100 part"},
+    {"material": "water", "value": 0.4, "unit": "part", "basis": "mass-parts", "text": "AN added tap water: 0.400 part"}
+   ],
+   "parameters": []
+  },
+  {
+   "id": "AN-PC1-S",
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "baseMix": "AN",
+   "baseText": "Per precursor mass: fly ash/slag 1.0; activator 0.10; water 0.400 (AN) or 0.379 (GD); one admixture 0.010. W/GP-solids 0.367 in all 18 mixes.",
+   "quantities": [
+    {"material": "pc1", "value": null, "unit": "part", "basis": "mass-parts", "missing": "combined PC1/sucrose doses are not restated", "text": "Combined PC1/sucrose doses: Not reconciled from the combined-admixture series; do not copy a single-additive row"},
+    {"material": "sucrose", "value": null, "unit": "part", "basis": "mass-parts", "missing": "combined PC1/sucrose doses are not restated", "text": "Combined PC1/sucrose doses: Not reconciled from the combined-admixture series; do not copy a single-additive row"}
+   ],
+   "parameters": []
+  },
+  {
+   "id": "AN-PC1-B",
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "baseMix": "AN",
+   "baseText": "Per precursor mass: fly ash/slag 1.0; activator 0.10; water 0.400 (AN) or 0.379 (GD); one admixture 0.010. W/GP-solids 0.367 in all 18 mixes.",
+   "quantities": [
+    {"material": "pc1", "value": null, "unit": "part", "basis": "mass-parts", "missing": "combined-admixture doses are not restated in §4.3", "text": "Combined-admixture doses are not restated in §4.3; confirm they match the single-admixture 0.010 ratio before reproducing."},
+    {"material": "borax", "value": null, "unit": "part", "basis": "mass-parts", "missing": "combined-admixture doses are not restated in §4.3", "text": "Combined-admixture doses are not restated in §4.3; confirm they match the single-admixture 0.010 ratio before reproducing."}
+   ],
+   "parameters": []
+  },
+  {
+   "id": "GD",
+   "control": true,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {"material": "gd", "value": 0.1, "unit": "ratio", "basis": "precursor-mass", "text": "Per precursor mass: fly ash/slag 1.0; activator 0.10; water 0.400 (AN) or 0.379 (GD)"},
+    {"material": "water", "value": 0.379, "unit": "ratio", "basis": "precursor-mass", "text": "Per precursor mass: fly ash/slag 1.0; activator 0.10; water 0.400 (AN) or 0.379 (GD)"}
+   ],
+   "parameters": []
+  }
+ ],
+ "cures": [
+  {"id": "c1", "category": "heat", "temperatureC": 60, "duration": 24, "durationUnit": "h", "sealed": true, "humidityPercent": null, "text": "Sealed 60 °C/24 h, cool/demold, store 23 ± 3 °C"}
+ ],
+ "tests": [
+  {"id": "comp", "property": "compressive-strength", "unit": "MPa", "specimen": "25 mm cubes", "method": "AS 1012.9, 20 ± 2 MPa/min", "text": "six 25 mm cubes, three-day compression at 20 ± 2 MPa/min, AS 1012.9"},
+  {"id": "set", "property": "initial-setting-time", "unit": "min", "specimen": null, "method": "Vicat, AS/NZS 2350.4, timed from water addition", "text": "Vicat setting AS/NZS 2350.4 from water addition"}
+ ],
+ "results": [
+  {"mix": "AN", "test": "comp", "ageDays": 3, "value": 44.6, "text": "At three days, AN-PC1-S reports 37.5 MPa versus AN 44.6 MPa", "locator": "Table 7"},
+  {"mix": "AN-PC1-S", "test": "comp", "ageDays": 3, "value": 37.5, "text": "At three days, AN-PC1-S reports 37.5 MPa versus AN 44.6 MPa", "locator": "Table 7"},
+  {"mix": "AN-PC1-B", "test": "comp", "ageDays": 3, "value": 32.8, "text": "AN-PC1-B: 32.8 MPa", "ageText": "Compression at 3 days", "locator": "§4.3; Table 7"},
+  {"mix": "AN", "test": "set", "ageDays": null, "ageNote": "setting test timed from water addition", "value": 169, "text": "AN-PC1-S: initial set 407 min vs 169 for AN", "locator": "§4.3; Table 7"},
+  {"mix": "AN-PC1-S", "test": "set", "ageDays": null, "ageNote": "setting test timed from water addition", "value": 407, "text": "AN-PC1-S: initial set 407 min vs 169 for AN", "locator": "§4.3; Table 7"}
+ ],
+ "findings": [
+  {"goal": "Longer setting (placement) time, accepting a strength penalty", "mix": "AN-PC1-S", "text": "AN-PC1-S is a placement-time candidate, with a strength penalty against AN"}
+ ],
+ "gaps": [
+  "Combined PC1/sucrose and PC1/borax doses are not restated; only the shared base proportions are inherited from AN.",
+  "GD-series results and the single-admixture series (Figures 1–4) are not transcribed; graph-only values were not digitized.",
+  "The fly ash/slag split is restated only for the AN control; GD precursor amounts are not listed here."
+ ]
+}

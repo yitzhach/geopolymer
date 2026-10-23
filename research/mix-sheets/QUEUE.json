@@ -1,0 +1,128 @@
+{
+ "name": "fly-ash-slag-pilot",
+ "created": "2026-10-22",
+ "mode": "review-note",
+ "rule": "One sheet per guide, in order. A sheet is done when research/mix-sheets/<guideId>.json passes npm run mixes -- check. If the context has no usable mix data, set skip to a one-line reason instead of forcing a sheet.",
+ "entries": [
+  {
+   "guideId": "one-part-admixture-compatibility",
+   "doi": "10.3390/ma12203410",
+   "why": "worked example 1"
+  },
+  {
+   "guideId": "rap-geopolymer-grout-versus-composite",
+   "doi": "10.3390/ma13163644",
+   "why": "worked example 2"
+  },
+  {
+   "guideId": "fly-ash-slag-efflorescence-moisture",
+   "doi": "10.3390/ma13235550",
+   "why": "fly ash + slag; moisture/efflorescence"
+  },
+  {
+   "guideId": "starch-borax-retarder-screening",
+   "doi": "10.3390/eng6120366",
+   "why": "fly ash + slag; retarders"
+  },
+  {
+   "guideId": "pva-egc-tension-versus-model",
+   "doi": "10.3390/polym16121685",
+   "why": "fly ash + slag ECC; tension"
+  },
+  {
+   "guideId": "hpmc-vae-workability-durability",
+   "doi": "10.3390/buildings15193621",
+   "why": "fly ash + slag; admixtures"
+  },
+  {
+   "guideId": "fa-slag-ambient-rheology-sequence",
+   "doi": "10.3390/en13102639",
+   "why": "fly ash + slag; ambient rheology"
+  },
+  {
+   "guideId": "ambient-onepart-fivepercent-ash",
+   "doi": "10.3390/buildings16010037",
+   "why": "slag + 5% fly ash; one-part"
+  },
+  {
+   "guideId": "red-mud-egc-strength-ductility",
+   "doi": "10.3390/polym18182271",
+   "why": "fly ash + slag ECC; red mud"
+  },
+  {
+   "guideId": "recycled-concrete-hybrid-fiber-map",
+   "doi": "10.3390/buildings15101723",
+   "why": "fly ash + slag; recycled aggregate, fibers"
+  },
+  {
+   "guideId": "pas-prefoam-volume-thermal",
+   "doi": "10.3390/ma15124085",
+   "why": "fly ash + slag foam"
+  },
+  {
+   "guideId": "fa-ggbs-acid-strength-compromise",
+   "doi": "10.3390/buildings15214012",
+   "why": "fly ash + slag concrete; acid"
+  },
+  {
+   "guideId": "carbonated-fa-slag-gel-products",
+   "doi": "10.3390/ma17071491",
+   "why": "fly ash + slag; carbonation"
+  },
+  {
+   "guideId": "lowalkali-fa-slag-cure-model",
+   "doi": "10.3390/min11010060",
+   "why": "fly ash + slag; low alkali, curing"
+  },
+  {
+   "guideId": "ambient-fly-ash-superplasticizer",
+   "doi": "10.3390/ma9070586",
+   "why": "fly ash; superplasticizer, ambient"
+  },
+  {
+   "guideId": "superplasticizer-flow-air-long-term",
+   "doi": "10.3390/ma14247614",
+   "why": "fly ash; superplasticizer"
+  },
+  {
+   "guideId": "metakaolin-slag-shrinkage-controls",
+   "doi": "10.3390/ma17051181",
+   "why": "metakaolin + slag; shrinkage"
+  },
+  {
+   "guideId": "metakaolin-slag-potassium-durability",
+   "doi": "10.3390/min14080776",
+   "why": "metakaolin + slag; mixed alkali"
+  },
+  {
+   "guideId": "one-part-waste-sand-water-demand",
+   "doi": "10.3390/ma14112911",
+   "why": "slag one-part mortar; waste sand"
+  },
+  {
+   "guideId": "aircooled-slag-milling-activation",
+   "doi": "10.3390/ma13051134",
+   "why": "slag; milling"
+  },
+  {
+   "guideId": "tailings-gangue-slag-rsm",
+   "doi": "10.3390/ma19071438",
+   "why": "slag + tailings; response surface"
+  },
+  {
+   "guideId": "biomass-onepart-boiler-tradeoff",
+   "doi": "10.3390/molecules27206881",
+   "why": "slag one-part; biomass ash"
+  },
+  {
+   "guideId": "road-composite-gangue-fiber-nanosilica",
+   "doi": "10.3390/buildings15081262",
+   "why": "fly ash road composite"
+  },
+  {
+   "guideId": "lithium-slag-shrinkage-model-hold",
+   "doi": "10.3390/ma18204766",
+   "why": "lithium slag; shrinkage"
+  }
+ ]
+}
