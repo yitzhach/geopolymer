@@ -1,0 +1,80 @@
+{
+  "lane": "B",
+  "date": "2026-10-24",
+  "session": 2,
+  "focus": "metakaolin-based geopolymer pastes, mortars and coatings",
+  "access_note": "Still blocked in this session: mdpi.com, pmc.ncbi.nlm.nih.gov, doaj.org and doi.org failed to connect (curl exit 000) and WebFetch cannot resolve them. Every record below comes from search results or summaries. Licence and mix-table fields are unknown or not checked unless stated.",
+  "queries": [
+    "metakaolin geopolymer paste rheology setting time mix design table open access 2024 10.3390",
+    "metakaolin geopolymer mortar sodium hydroxide sodium silicate mix proportions table Scientific Reports 2024 2025",
+    "metakaolin geopolymer coating mortar protective coating mix composition table open access 2025",
+    "metakaolin geopolymer fibre reinforced mortar mix proportions table 10.3390 Materials Polymers open access",
+    "metakaolin geopolymer foam or lightweight mortar mix design table open access journal 2024"
+  ],
+  "candidates": [
+    {
+      "doi": "10.3389/fmats.2026.1759190",
+      "title": null,
+      "year": 2026,
+      "journal": "Frontiers in Materials",
+      "url": "https://public-pages-files-2025.frontiersin.org/journals/materials/articles/10.3389/fmats.2026.1759190/pdf",
+      "licence": "CC BY (search summary only, not seen on the page)",
+      "openAccess": null,
+      "mixTable": "not checked (summary reports an optimum mix, not the table)",
+      "precursors": ["metakaolin", "silica fume"],
+      "topic": "superplasticizers in metakaolin geopolymers",
+      "query": "metakaolin geopolymer paste rheology setting time mix design table open access 2024 10.3390",
+      "checked": "2026-10-24",
+      "notes": "DOI taken from the PDF URL, which the search returned. Title not captured. Summary gave silicate modulus 0.9, liquid-to-solid 0.75 and 15% silica fume for the optimum mix; these are unverified. Outside the 2024 window the query named, but within the lane's scope."
+    }
+  ],
+  "unresolved": [
+    {
+      "doi": null,
+      "title": "Research on mix design and mechanical performances of MK-GGBFS based geopolymer pastes using central composite design method",
+      "year": 2024,
+      "journal": "Scientific Reports (per search summary)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11032377/",
+      "reason": "DOI not seen on a readable page; article page blocked",
+      "notes": "Metakaolin-slag paste design by central composite design. Search summary gave the DOI 10.1038/s41598-024-59872-0, which appears in no result text, so it is not recorded as a DOI. Slag is a co-binder. Licence and table not checked.",
+      "query": "metakaolin geopolymer paste rheology setting time mix design table open access 2024 10.3390",
+      "checked": "2026-10-24"
+    },
+    {
+      "doi": null,
+      "title": null,
+      "year": 2024,
+      "journal": "Materials (MDPI, per URL path 17/13)",
+      "url": "https://www.mdpi.com/1996-1944/17/13/3167",
+      "reason": "DOI not seen; article page blocked",
+      "notes": "Lightweight foamed geopolymer from metakaolin with fly ash or silica fume and a bio-based foaming agent. Summary reports effects of foam content on density and strength. Table not seen.",
+      "query": "metakaolin geopolymer foam or lightweight mortar mix design table open access journal 2024",
+      "checked": "2026-10-24"
+    },
+    {
+      "doi": null,
+      "title": "Investigation of the Mechanical Properties and Durability of Fiber-Reinforced Geopolymer Mortars Containing Metakaolin and Glass Powder",
+      "year": 2025,
+      "journal": "Infrastructures (MDPI, per URL path 10/2)",
+      "url": "https://www.mdpi.com/2412-3811/10/2/25",
+      "reason": "DOI not seen; article page blocked",
+      "notes": "Polypropylene-fibre mortars. Summary reports 13 mixtures and calls the binder slag-based, which conflicts with the title. Resolve from the paper before use.",
+      "query": "metakaolin geopolymer fibre reinforced mortar mix proportions table 10.3390 Materials Polymers open access",
+      "checked": "2026-10-24"
+    },
+    {
+      "doi": null,
+      "title": "Enhancing Metakaolin-Based Geopolymer Mortar With Eggshell Powder and Fibers for Improved Sustainability",
+      "year": 2025,
+      "journal": "Buildings (per search summary)",
+      "url": "https://gcris.yyu.edu.tr/entities/publication/ed5276c8-2951-4484-9afc-9acc108a8b31",
+      "reason": "DOI and licence not seen; publisher page not opened",
+      "notes": "Eggshell powder substitutes part of the metakaolin; polypropylene fibres at 0.1% and 0.2% by volume, per summary. Repository record only.",
+      "query": "metakaolin geopolymer fibre reinforced mortar mix proportions table 10.3390 Materials Polymers open access",
+      "checked": "2026-10-24"
+    }
+  ],
+  "excluded": [
+    {"doi": "10.3390/su16146255", "reason": "duplicate", "notes": "Library entry for mdpi.com/2071-1050/16/14/6255 found by URL; DOI derived from URL pattern, not seen on a page."}
+  ]
+}
