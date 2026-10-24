@@ -30,18 +30,21 @@ them only when you need the evidence behind a specific earlier batch.
 - One row per mix, compiled at build time by `scripts/lib/mix-sheets.mjs` → `src/mix-table.js`
   from the knowledge pilot, the formulation catalog and `research/mix-sheets/*.json`. Output:
   `dist/mixes.json` and `/mixes`. Pilot rows absorb matching catalog recipes (6 merged).
-- Counts: **138 rows from 33 papers; 101 with numeric results; 33 rows from 13 mix sheets**
+- Counts: **143 rows from 37 papers; 101 with numeric results; 38 rows from 17 mix sheets**
   (`npm run mixes -- stats`).
 - Sheets so far (review-note mode): one-part-admixture-compatibility, rap-geopolymer-grout-
   versus-composite, fly-ash-slag-efflorescence-moisture (worked examples), hpmc-vae-
   workability-durability, starch-borax-retarder-screening, one-part-waste-sand-water-demand,
   metakaolin-slag-shrinkage-controls, fa-ggbs-acid-strength-compromise, tailings-gangue-slag-rsm;
   added 24 Oct: ambient-fly-ash-superplasticizer, superplasticizer-flow-air-long-term,
-  biomass-onepart-boiler-tradeoff, road-composite-gangue-fiber-nanosilica.
+  biomass-onepart-boiler-tradeoff, road-composite-gangue-fiber-nanosilica; tandem lane A (PR #25):
+  metakaolin-water-temperature, metakaolin-freeze-thaw-design, coating-wetting-versus-bond,
+  phosphate-polymer-rheology.
 - The fly-ash/slag pilot queue is finished (13 done, 11 skipped with reasons) and archived as
   `research/mix-sheets/_QUEUE-fly-ash-slag-pilot.json`. New queue `QUEUE.json`
   ("partial-designs-round-2"): the 99 remaining partial-design guides that are not sheeted,
-  skipped or already structured. `npm run mixes -- queue --next 5`.
+  skipped or already structured; 10 worked by PR #25 (4 sheets, 6 skips).
+  `npm run mixes -- queue --next 5`.
 - Template test: drafts by a smaller, lower-cost model (two rounds) passed the checker with no
   invented values; its feedback produced skill v1.1. All committed sheets were reviewed by the
   primary agent before import. Review-note mode yields mostly compositions: the notes rarely
@@ -56,6 +59,15 @@ them only when you need the evidence behind a specific earlier batch.
 candidates → `research/tandem/candidates/`, (C) mix-table locators for skipped guides →
 `research/tandem/locators/`, (D) DOI link health → `research/tandem/link-checks/`. Review and
 merge their PRs; lanes B–D are leads, not site data.
+
+- 24 Oct review: merged #25 (lane A; review fix: freeze-thaw cure duration 28 d, not the 2 d
+  demold age), #26, #28, #29 (lane B: 7 ambient fly-ash/slag + 12 metakaolin candidates in
+  `research/tandem/candidates/`). #26 and the #29 entry are search-snippet leads only: titles,
+  licences and two MDPI DOIs (derived from article URLs) are unresolved — resolve before any
+  enters the library. Closed #27 (lane C): every attempt failed.
+- **Network blocker:** this cloud environment's policy denies `doi.org`, `mdpi.com`,
+  `api.crossref.org`, PMC and DOAJ (CONNECT 403). Lanes C/D and source-text mode cannot run until
+  the owner allows those hosts (environment settings → Network access).
 
 ## Site speed (24 Oct)
 
