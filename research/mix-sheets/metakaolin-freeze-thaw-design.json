@@ -44,7 +44,7 @@
   }
  ],
  "cures": [
-  {"id": "c1", "category": "moist", "temperatureC": 20, "duration": 2, "durationUnit": "d", "sealed": null, "humidityPercent": 90, "text": "Cure 20±1°C, 90% RH; demold at 2 days, continue to 28 days."}
+  {"id": "c1", "category": "moist", "temperatureC": 20, "duration": 28, "durationUnit": "d", "sealed": null, "humidityPercent": 90, "text": "Cure 20±1°C, 90% RH; demold at 2 days, continue to 28 days."}
  ],
  "tests": [],
  "results": [],
