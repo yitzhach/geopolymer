@@ -1,0 +1,67 @@
+{
+  "lane": "C",
+  "date": "2026-10-24",
+  "queue": "research/mix-sheets/_QUEUE-fly-ash-slag-pilot.json",
+  "locators": [
+    {
+      "guideId": "pva-egc-tension-versus-model",
+      "doi": "10.3390/polym16121685",
+      "url": null,
+      "attemptedUrl": "https://doi.org/10.3390/polym16121685",
+      "licence": "unknown",
+      "mixTable": "not checked",
+      "labels": null,
+      "resultsTable": "not checked",
+      "access": "failed: network policy denied doi.org (CONNECT 403); direct mdpi.com test also failed; landing page not opened",
+      "checked": "2026-10-24"
+    },
+    {
+      "guideId": "fa-slag-ambient-rheology-sequence",
+      "doi": "10.3390/en13102639",
+      "url": null,
+      "attemptedUrl": "https://doi.org/10.3390/en13102639",
+      "licence": "unknown",
+      "mixTable": "not checked",
+      "labels": null,
+      "resultsTable": "not checked",
+      "access": "failed: network policy denied doi.org (CONNECT 403); direct mdpi.com test also failed; landing page not opened",
+      "checked": "2026-10-24"
+    },
+    {
+      "guideId": "ambient-onepart-fivepercent-ash",
+      "doi": "10.3390/buildings16010037",
+      "url": null,
+      "attemptedUrl": "https://doi.org/10.3390/buildings16010037",
+      "licence": "unknown",
+      "mixTable": "not checked",
+      "labels": null,
+      "resultsTable": "not checked",
+      "access": "failed: network policy denied doi.org (CONNECT 403); direct mdpi.com test also failed; landing page not opened",
+      "checked": "2026-10-24"
+    },
+    {
+      "guideId": "red-mud-egc-strength-ductility",
+      "doi": "10.3390/polym18182271",
+      "url": null,
+      "attemptedUrl": "https://doi.org/10.3390/polym18182271",
+      "licence": "unknown",
+      "mixTable": "not checked",
+      "labels": null,
+      "resultsTable": "not checked",
+      "access": "failed: network policy denied doi.org (CONNECT 403); direct mdpi.com test also failed; landing page not opened",
+      "checked": "2026-10-24"
+    },
+    {
+      "guideId": "recycled-concrete-hybrid-fiber-map",
+      "doi": "10.3390/buildings15101723",
+      "url": null,
+      "attemptedUrl": "https://doi.org/10.3390/buildings15101723",
+      "licence": "unknown",
+      "mixTable": "not checked",
+      "labels": null,
+      "resultsTable": "not checked",
+      "access": "failed: network policy denied doi.org (CONNECT 403); direct mdpi.com test also failed; landing page not opened",
+      "checked": "2026-10-24"
+    }
+  ]
+}
