@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-17",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-10",
+    "through": "2026-10-17"
+  },
+  "researchUpdates": [
+    {
+      "year": 2026,
+      "dateBasis": "Publisher-listed publication date",
+      "type": "Research article",
+      "publicationStatus": "Early-access accepted article; citable, not final Version of Record",
+      "published": "2026-10-15",
+      "checked": "2026-10-17",
+      "added": "2026-10-17",
+      "journal": "Scientific Reports",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
+      "summaryBasis": "Primary publisher metadata and article-level text; full methods not audited",
+      "id": "research-ml-90d-tensile",
+      "title": "Machine learning-based prediction of 90-day tensile strength in geopolymer concrete under varying input-variable scenarios",
+      "doi": "10.1038/s41598-026-76055-1",
+      "topic": "Data & prediction",
+      "publisherUrl": "https://www.nature.com/articles/s41598-026-76055-1",
+      "authors": "Parnian Mehravar, Hossein Bahrami and Hamidreza Ghazvinian",
+      "summary": "Four machine-learning approaches are compared across eleven input-variable scenarios for predicting one reported endpoint: 90-day tensile strength of geopolymer concrete.",
+      "highlights": [
+        "The scenario design tests how prediction changes when different subsets of mixture and processing descriptors are available.",
+        "The target is specifically 90-day tensile strength; it is not evidence for compressive, flexural or shear performance."
+      ],
+      "access": "Publisher-accessible early-version evidence. Model performance is dataset-specific and still requires independent external validation, uncertainty reporting and checks against new precursor sources and laboratories.",
+      "url": "https://doi.org/10.1038/s41598-026-76055-1"
+    },
+    {
+      "year": 2026,
+      "dateBasis": "Publisher-listed publication date",
+      "type": "Review article",
+      "publicationStatus": "Published; version of record",
+      "published": "2026-10-15",
+      "checked": "2026-10-17",
+      "added": "2026-10-17",
+      "journal": "Buildings",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
+      "summaryBasis": "Primary publisher metadata and article-level review text; cited studies not individually audited",
+      "id": "research-multisource-precursor-compatibility",
+      "title": "Precursor Compatibility in Multi-Source Alkali-Activated Materials: Coupled Dissolution, Elemental Competition, and Phase Selection",
+      "doi": "10.3390/buildings16204074",
+      "topic": "Mix design & chemistry",
+      "publisherUrl": "https://www.mdpi.com/2075-5309/16/20/4074",
+      "authors": "Rui Wang, Xiaodong Li, Zhenzhen Jiao, Huanming Zhang, Guofeng Xue, Zhixiong Lu, Yiqi Wang, Qi Zhang and Ruyi Yan",
+      "summary": "This review organizes multi-precursor alkali activation around interacting dissolution rates, competition among released species and the resulting selection of reaction products.",
+      "highlights": [
+        "Compatibility is framed as a conditional window controlled by source chemistry and activation conditions, not as a permanent label attached to a waste stream.",
+        "The review connects precursor interactions to phase development, offering a stronger screening logic than comparing bulk oxide totals alone."
+      ],
+      "access": "Review-level synthesis rather than new experimental replication. Its organizing framework does not replace source-specific characterization, mixture trials, durability testing or local availability and safety assessments.",
+      "url": "https://doi.org/10.3390/buildings16204074"
+    },
+    {
+      "year": 2026,
+      "dateBasis": "Publisher-listed publication date",
+      "type": "Research article",
+      "publicationStatus": "Early-access accepted article; citable, not final Version of Record",
+      "published": "2026-10-14",
+      "checked": "2026-10-17",
+      "added": "2026-10-17",
+      "journal": "Scientific Reports",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
+      "summaryBasis": "Primary publisher metadata and indexed article-level text; full methods not audited",
+      "id": "research-redmud-flyash-black-cotton-soil",
+      "title": "Waste-to-resource geopolymer technology: mechanical, durability, and microstructural performance of red Mud–fly ash-stabilized black cotton soil",
+      "doi": "10.1038/s41598-026-75018-w",
+      "topic": "Soil stabilization",
+      "publisherUrl": "https://www.nature.com/articles/s41598-026-75018-w",
+      "authors": "Rohit Raj, Brahmdeo Yadav, Sumit Kumar and Ashok Kumar Yadav",
+      "summary": "Red mud and fly ash are assessed as an alkali-activated stabilizing system for expansive black cotton soil using mechanical, durability and microstructural observations.",
+      "highlights": [
+        "The study evaluates a soil-treatment application, so binder behavior is interpreted within a mineral-rich soil matrix rather than as standalone concrete.",
+        "Combining performance tests with microstructural observations helps relate stabilization behavior to the tested red-mud, fly-ash and soil system."
+      ],
+      "access": "Publisher-accessible early-version evidence. Results remain tied to the sampled soil, residue chemistry, activator, curing and laboratory protocols; they do not establish field service life or independent replication.",
+      "url": "https://doi.org/10.1038/s41598-026-75018-w"
+    },
+    {
+      "year": 2026,
+      "dateBasis": "Publisher-listed online date",
+      "type": "Review article",
+      "publicationStatus": "Journal pre-proof; peer-reviewed and accepted, not final Version of Record",
+      "published": "2026-10-13",
+      "checked": "2026-10-17",
+      "added": "2026-10-17",
+      "journal": "Cleaner Environmental Systems",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
+      "summaryBasis": "Primary publisher metadata and indexed abstract-level text; cited studies not individually audited",
+      "id": "research-geopolymer-ml-lca-deployment",
+      "title": "Machine Learning and Life Cycle Assessment for Geopolymer Construction Materials: From Precursor Variability to Scalable Low-Carbon Deployment",
+      "doi": "10.1016/j.cesys.2026.100492",
+      "topic": "Life cycle & data",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S2666789426000795",
+      "authors": "Justin Kinda, Tégawendé Justin Zaida, Etienne Malbila and Fati Zoma",
+      "summary": "This critical review examines how machine learning, life-cycle assessment and multi-objective decision methods can be connected when designing geopolymer construction materials under variable precursor supply.",
+      "highlights": [
+        "The review treats precursor variability and deployment scale as constraints that must travel with model predictions and environmental comparisons.",
+        "It links performance prediction with life-cycle objectives instead of assuming that a mechanically acceptable mixture is automatically the lowest-impact option."
+      ],
+      "access": "Pre-proof review evidence. The proposed integration is a synthesis, not a validated universal workflow; life-cycle conclusions depend on geography, system boundary, inventory quality and energy and transport assumptions.",
+      "url": "https://doi.org/10.1016/j.cesys.2026.100492"
+    },
+    {
+      "year": 2026,
+      "dateBasis": "Publisher-listed online date",
+      "type": "Research article",
+      "publicationStatus": "Available online; publisher record",
+      "published": "2026-10-15",
+      "checked": "2026-10-17",
+      "added": "2026-10-17",
+      "journal": "Journal of Intelligent Construction",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
+      "summaryBasis": "Primary publisher metadata and indexed abstract-level text; full methods and author list not independently verified",
+      "id": "research-fiber-gpc-interpretable-ml",
+      "title": "Interpretable machine learning and experimental validation for predicting the mechanical performance of geopolymer concrete with and without fiber reinforcement",
+      "doi": "10.26599/JIC.2026.9180141",
+      "topic": "Data & prediction",
+      "publisherUrl": "https://www.sciopen.com/article/10.26599/JIC.2026.9180141",
+      "authors": "Not independently verified from accessible publisher metadata",
+      "summary": "An interpretable machine-learning workflow compares mechanical-property prediction for geopolymer concrete datasets with and without fiber reinforcement and includes experimental validation.",
+      "highlights": [
+        "Separating fiber-reinforced from unreinforced cases makes reinforcement state an explicit model-domain boundary.",
+        "The work addresses compressive strength, elastic modulus and flexural strength as distinct targets rather than treating one property as a proxy for the others."
+      ],
+      "access": "Publisher abstract-level evidence only. The accessible record did not expose a verifiable author list or full validation design; reported model behavior should not be generalized across laboratories, fibers, precursors or untested properties.",
+      "url": "https://doi.org/10.26599/JIC.2026.9180141"
+    }
+  ],
+  "journalArticle": {
+    "id": "prediction-needs-a-domain-boundary",
+    "date": "2026-10-17",
+    "category": "Research briefing",
+    "topic": "Evidence & prediction",
+    "title": "A prediction needs a domain boundary",
+    "summary": "New studies on machine learning, precursor compatibility and deployment show that useful digital guidance begins by stating where a result applies.",
+    "sources": [
+      "research-ml-90d-tensile",
+      "research-multisource-precursor-compatibility",
+      "research-redmud-flyash-black-cotton-soil",
+      "research-geopolymer-ml-lca-deployment",
+      "research-fiber-gpc-interpretable-ml"
+    ],
+    "paragraphs": [
+      "Three of this week’s records use or review machine learning, but none supports a property-agnostic predictor. Tensile strength, compressive strength, elastic modulus and flexural strength remain separate endpoints, and reinforcement state changes the model domain.",
+      "The chemistry review adds the material-side boundary: multi-source precursors interact through dissolution, elemental competition and phase selection. A model trained on one set of residues cannot treat a new source as equivalent merely because its broad material label matches.",
+      "For a formulation advisor, each prediction should therefore carry its target property, age, reinforcement state, precursor provenance, curing regime, application and validation domain. Life-cycle claims also need geography and system boundaries. These records guide database design; they do not independently replicate one another or validate user mixtures."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "All five DOIs are absent from the current main-branch catalog and all records staged in open daily research draft PR #5. Existing draft files and stable IDs are preserved.",
+    "dates": "Publisher publication or online dates place all five records in 10–17 October 2026. No future issue date was used.",
+    "corrections": "No new substantive geopolymer/AAM correction or retraction with a publisher-verified publication or online date in the seven-day window was confirmed.",
+    "verification": "Validated required fields, five unique IDs and DOIs, exactly two original highlights per record, date-window membership and briefing source references. One publisher record did not expose a verifiable author list; that limitation is explicit rather than inferred.",
+    "integration": "After editorial review, append approved records to src/research-updates.js and the briefing to src/journal-data.js, preserving IDs. Run application tests, production build and browser CI before any separately authorized publication."
+  }
+}
