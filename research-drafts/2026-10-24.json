@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-24",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-17",
+    "through": "2026-10-24"
+  },
+  "researchUpdates": [
+    {
+      "id": "research-ambient-flyash-slag-multiresponse-optimization",
+      "year": 2026,
+      "published": "2026-10-17",
+      "checked": "2026-10-24",
+      "added": "2026-10-24",
+      "dateBasis": "Publisher publication date",
+      "title": "Performance-driven mix design and multi-response optimization of ambient-cured fly ash-GGBFS based geopolymer concrete",
+      "doi": "10.1007/s44290-026-00663-z",
+      "journal": "Discover Civil Engineering",
+      "topic": "Mix design & chemistry",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "authors": "Md Ruhul Amin, Mohd Shariq, Abdul Baqi and Mohd Asif Ansari",
+      "publisherUrl": "https://link.springer.com/article/10.1007/s44290-026-00663-z",
+      "url": "https://doi.org/10.1007/s44290-026-00663-z",
+      "summary": "An 18-mixture factorial experiment evaluates ambient-cured fly-ash/slag geopolymer concrete across slag replacement, alkaline-liquid-to-binder ratio and two predefined mixture levels, then applies response-surface optimization to fresh and mechanical responses.",
+      "highlights": [
+        "The experiment measures slump plus 7- and 28-day compressive and splitting-tensile strengths, allowing the workability and strength objectives to be optimized together within the tested factor ranges.",
+        "The selected optima occur at the upper tested slag level, so the fitted response surfaces support interpolation within this design space rather than proving that still-higher slag fractions would continue the same trend."
+      ],
+      "access": "Single laboratory program, not independent replication. The optimized settings depend on the tested materials, fixed activator conditions and chosen constraints. Modulus of rupture was estimated from a prior relationship rather than directly measured here and must not be treated as a flexural test result.",
+      "summaryBasis": "Primary publisher metadata, full article text and author information; no figures, tables, supplementary files or data were reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    }
+  ],
+  "journalArticle": {
+    "id": "an-optimum-needs-edges",
+    "date": "2026-10-24",
+    "category": "Research briefing",
+    "topic": "Mix design & chemistry",
+    "title": "An optimum needs edges",
+    "summary": "A useful optimization result records not only its selected mixture, but also the tested bounds and which responses were actually measured.",
+    "sources": [
+      "research-ambient-flyash-slag-multiresponse-optimization"
+    ],
+    "paragraphs": [
+      "The new study combines workability, compressive strength and splitting-tensile strength in a constrained response-surface search. That is more informative than optimizing one outcome alone, but the result remains tied to eighteen mixtures, two predefined design levels and fixed activator choices.",
+      "For the formulation database, every optimized recipe should retain its factor ranges, constraints, curing regime and response type. A boundary optimum is not evidence that moving beyond the boundary will improve performance, and an estimated modulus of rupture is not a measured flexural-strength result."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "DOI absent from current main code search and all nine earlier JSON files in open daily research draft PR #5. The existing draft PR was updated rather than creating another.",
+    "dates": "Springer lists publication and version-of-record dates of 17 October 2026. The publisher date, not an issue assignment or crawl date, is used.",
+    "authors": "Md Ruhul Amin, Mohd Shariq, Abdul Baqi and Mohd Asif Ansari are listed in the publisher author and contribution metadata.",
+    "corrections": "No substantive geopolymer/AAM correction or retraction newly publisher-dated 17–24 October 2026 was verified. Older retractions surfaced but fall outside this update window.",
+    "verification": "One unique record, exactly two original highlights and one valid briefing source reference. Compression, splitting tension and estimated flexural response remain explicitly separated.",
+    "integration": "Review-only staging on existing PR. Preserve the stable ID and existing content; run rights, application, build and browser checks before any separately authorized publication.",
+    "excluded": "An October 23 X-ray-CT geopolymer-foam article was not added because its DOI and full author metadata could not be verified from accessible primary-publisher metadata. Older papers and records already staged on prior days were excluded."
+  }
+}
