@@ -1,0 +1,45 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "metakaolin-water-temperature",
+ "doi": "10.3390/su12198216",
+ "basis": "review-note",
+ "scope": "Only the M0.6 reference mix, whose mass parts the review notes state; MK1.0/MK1.4, the 5/15/25/35 °C conditions and all age-specific results are not transcribed.",
+ "made": "2026-10-24",
+ "madeBy": "AI transcription · mix-sheet skill v1",
+ "materials": [
+  {"id": "mk", "family": "metakaolin", "role": "precursor", "name": "Waste metakaolin", "aliases": ["MK"]},
+  {"id": "naoh", "family": "sodium-hydroxide", "role": "activator", "name": "10 M NaOH stock solution", "aliases": ["10 M NaOH"]},
+  {"id": "water", "family": "water", "role": "water", "name": "distilled water"}
+ ],
+ "mixes": [
+  {
+   "id": "M0.6",
+   "aliases": ["MK0.6"],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {"material": "mk", "value": 1.0, "unit": "part", "basis": "mass-parts", "text": "Waste metakaolin: 1.00 mass part"},
+    {"material": "naoh", "value": 0.25, "unit": "part", "basis": "mass-parts", "text": "10 M NaOH stock solution: 0.25 mass part"},
+    {"material": "water", "value": 0.15, "unit": "part", "basis": "mass-parts", "text": "Added distilled water, M0.6: 0.15 mass part; separate from solution water"}
+   ],
+   "parameters": [
+    {"key": "hydroxide-molarity", "value": 10, "text": "10 M NaOH stock solution: 0.25 mass part"}
+   ],
+   "missing": ["NaOH stock water content", "initial paste temperature (5/15/25/35 °C) for this mix"]
+  }
+ ],
+ "cures": [
+  {"id": "c1", "category": "heat", "temperatureC": 80, "duration": 24, "durationUnit": "h", "sealed": true, "humidityPercent": null, "text": "plastic-covered, immediately cured 80°C for 24 h; subsequent room-temperature storage"}
+ ],
+ "tests": [],
+ "results": [],
+ "findings": [],
+ "notes": [],
+ "gaps": [
+  "M0.6 is the only labelled mix with stated amounts; MK1.0 and MK1.4 are named but their added-water masses are not given as labelled quantities.",
+  "Resolve M versus MK naming and temperature-specific sample identity (review gap).",
+  "No age-specific compression results are extracted in the notes, so no results are entered.",
+  "NaOH stock water content and density are unknown; added water is separate from stock-solution water."
+ ]
+}

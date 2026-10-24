@@ -1,0 +1,42 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "coating-wetting-versus-bond",
+ "doi": "10.3390/ma15113767",
+ "basis": "review-note",
+ "scope": "Only Reference-S0.4, the one mix whose Table 2 weights the review notes list; precursor-replacement, W/S, modulus and surface-modifier variants and all coating/bond results are not transcribed.",
+ "made": "2026-10-24",
+ "madeBy": "AI transcription · mix-sheet skill v1",
+ "materials": [
+  {"id": "slag", "family": "slag", "role": "precursor", "name": "Slag"},
+  {"id": "wg", "family": "sodium-silicate-solution", "role": "activator", "name": "sodium silicate"},
+  {"id": "water", "family": "water", "role": "water", "name": "water"}
+ ],
+ "mixes": [
+  {
+   "id": "Reference-S0.4",
+   "control": true,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {"material": "slag", "value": 300, "unit": "g", "basis": "batch", "text": "Reference-S0.4, Table 2: Slag 300 g; sodium silicate 168 g; water 36 g"},
+    {"material": "wg", "value": 168, "unit": "g", "basis": "batch", "text": "Reference-S0.4, Table 2: Slag 300 g; sodium silicate 168 g; water 36 g"},
+    {"material": "water", "value": 36, "unit": "g", "basis": "batch", "text": "Reference-S0.4, Table 2: Slag 300 g; sodium silicate 168 g; water 36 g"}
+   ],
+   "parameters": [],
+   "missing": ["NaOH amount (indexed table cell is blank)", "activator identity needs reconciliation"]
+  }
+ ],
+ "cures": [
+  {"id": "c1", "category": "moist", "temperatureC": 23, "duration": 28, "durationUnit": "d", "sealed": null, "humidityPercent": 95, "text": "23±0.5 °C/RH95±5%, 28 d except age sweep"}
+ ],
+ "tests": [],
+ "results": [],
+ "findings": [],
+ "notes": [],
+ "gaps": [
+  "The indexed NaOH cell for Reference-S0.4 is blank and the activator identity needs reconciliation, so the listed weights are not a complete recipe.",
+  "Mixed-in modifiers (PTB / SY 1–9%) and coated MSO / OSA (1% of coating mass) are variants without their own labels; they are not transcribed.",
+  "No bond, contact-angle or strength values are in the notes, so no results are entered.",
+  "The 28 d cure applies except in the age sweep; the notes do not say which mixes were in the sweep, so the cure is attached to the reference only."
+ ]
+}

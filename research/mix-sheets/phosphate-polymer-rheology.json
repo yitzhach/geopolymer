@@ -1,0 +1,92 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "phosphate-polymer-rheology",
+ "doi": "10.3390/ma17122856",
+ "basis": "review-note",
+ "scope": "Only the §2.2 PGP + PBDI example, the one mix whose actual masses the review notes list; other polymer types and loadings, and all rheology results, are not transcribed. Acid-activated system.",
+ "made": "2026-10-24",
+ "madeBy": "AI transcription · mix-sheet skill v1",
+ "materials": [
+  {
+   "id": "mk",
+   "family": "metakaolin",
+   "role": "precursor",
+   "name": "metakaolin",
+   "aliases": [
+    "MK"
+   ]
+  },
+  {
+   "id": "acid",
+   "family": "phosphoric-acid",
+   "role": "activator",
+   "name": "9 M phosphoric acid STOCK SOLUTION",
+   "aliases": [
+    "9 M phosphoric acid"
+   ]
+  },
+  {
+   "id": "pbdi",
+   "family": "polymer",
+   "role": "additive",
+   "name": "PBDI"
+  }
+ ],
+ "mixes": [
+  {
+   "id": "PGP + PBDI example",
+   "aliases": [
+    "PBDI 2.5 wt% example"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 20.0,
+     "unit": "g",
+     "basis": "batch",
+     "text": "§2.2 PGP + PBDI example: Calcined PowerPozz metakaolin 20.0 g; 9 M phosphoric acid STOCK SOLUTION 26.9 g; dried PBDI 0.704 g"
+    },
+    {
+     "material": "acid",
+     "value": 26.9,
+     "unit": "g",
+     "basis": "batch",
+     "text": "§2.2 PGP + PBDI example: Calcined PowerPozz metakaolin 20.0 g; 9 M phosphoric acid STOCK SOLUTION 26.9 g; dried PBDI 0.704 g"
+    },
+    {
+     "material": "pbdi",
+     "value": 0.704,
+     "unit": "g",
+     "basis": "batch",
+     "text": "§2.2 PGP + PBDI example: Calcined PowerPozz metakaolin 20.0 g; 9 M phosphoric acid STOCK SOLUTION 26.9 g; dried PBDI 0.704 g"
+    }
+   ],
+   "parameters": []
+  }
+ ],
+ "cures": [
+  {
+   "id": "c1",
+   "category": "heat",
+   "temperatureC": 80,
+   "duration": 24,
+   "durationUnit": "h",
+   "sealed": true,
+   "humidityPercent": null,
+   "text": "Sealed 76×76×3 mm PTFE-lined mold; 80 °C/24 h, 200 °C/3 h, cool to 50 °C/demold, steel bag 260 °C/3 h."
+  }
+ ],
+ "tests": [],
+ "results": [],
+ "findings": [],
+ "notes": [],
+ "gaps": [
+  "The reported 2.5 wt% PBDI target is relative to the acidic polymer solution, not to metakaolin; the explicit masses are kept instead of a percentage.",
+  "The 9 M figure is phosphoric acid molarity (acid activation, outside the alkaline recipe-transfer model); no hydroxide-molarity parameter is entered for it.",
+  "No stock water fraction or acid-to-sodium substitution is inferred from the stock-solution mass.",
+  "Other rigid (0.1, 0.25, 0.5 wt%) and semi-flexible loadings are unlabelled levels and are not transcribed; no rheology or nanoindentation values are in the notes."
+ ]
+}

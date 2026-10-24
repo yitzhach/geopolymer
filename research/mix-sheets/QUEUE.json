@@ -7,7 +7,8 @@
   {
    "guideId": "bn-hemp-nanofiber-slag",
    "doi": "10.3390/polym18111288",
-   "why": "partial design; BN-modified hemp nanofibers: dose accounting and a replication plan"
+   "why": "partial design; BN-modified hemp nanofibers: dose accounting and a replication plan",
+   "skip": "No mix label with its own composition in the notes: only dose levels (0–4 wt%) and a bare \"G0\" mentioned in a hold; masses and slag:sand ratio unresolved."
   },
   {
    "guideId": "metakaolin-water-temperature",
@@ -22,7 +23,8 @@
   {
    "guideId": "ambient-fly-ash-coating-process",
    "doi": "10.3390/ma12060923",
-   "why": "partial design; Ambient fly-ash coatings: mixing time belongs in the formulation"
+   "why": "partial design; Ambient fly-ash coatings: mixing time belongs in the formulation",
+   "skip": "No labelled mix in the notes; masses, activator composition and results are all pending extraction."
   },
   {
    "guideId": "coating-wetting-versus-bond",
@@ -32,7 +34,8 @@
   {
    "guideId": "biochar-bottom-ash-pore-evolution",
    "doi": "10.3390/app112210945",
-   "why": "partial design; Biochar and bottom ash: pore size and total porosity can move in different directions"
+   "why": "partial design; Biochar and bottom ash: pore size and total porosity can move in different directions",
+   "skip": "Only series and bare dose levels (20–70 vol% biochar) are named; no label for one specific condition and no masses."
   },
   {
    "guideId": "phosphate-polymer-rheology",
@@ -42,17 +45,20 @@
   {
    "guideId": "metakaolin-curing-temperature-grade",
    "doi": "10.3390/ma16237460",
-   "why": "partial design; Metakaolin curing temperature: compare the grade and the test rate"
+   "why": "partial design; Metakaolin curing temperature: compare the grade and the test rate",
+   "skip": "No mix label in the notes: MKW/MKB are materials and 10–50 °C are bare levels; recipe ledger not extracted."
   },
   {
    "guideId": "waste-foam-precursor-foamer",
    "doi": "10.3390/ma17246143",
-   "why": "partial design; Waste-based foams: compare precursor and foaming route together"
+   "why": "partial design; Waste-based foams: compare precursor and foaming route together",
+   "skip": "No labelled mix in the notes; precursor/foamer doses and results are unextracted."
   },
   {
    "guideId": "epoxy-silane-shrinkage-bases",
    "doi": "10.3390/buildings14030586",
-   "why": "partial design; Epoxy and silane modifiers: check shrinkage sign and percentage basis"
+   "why": "partial design; Epoxy and silane modifiers: check shrinkage sign and percentage basis",
+   "skip": "No label for one specific condition (WER/SCA doses are generic phrases; combined-result percentages are unnamed and sign-held)."
   },
   {
    "guideId": "calcium-hydroxide-carbonation-tradeoff",
