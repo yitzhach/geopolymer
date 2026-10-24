@@ -1,5 +1,3 @@
-import { library } from './research-library.js';
-import { products } from './data.js';
 
 export const ASSISTANT_KEY = 'gp-research-assistant-v1';
 export const emptyResearch = () => ({ version: 1, folders: ['General research'], clips: [] });
@@ -21,6 +19,8 @@ function ranked(items, query, context, describe, limit=4) {
 // Provider boundary: a future server-side provider must return this same structured
 // response. No credential, remote call, generated claim or web-search claim here.
 export async function answerResearch({ excerpt = '', question = '', history = [] }) {
+  // The catalog loads on the first question, not with every page.
+  const [{ library }, { products }] = await Promise.all([import('./research-library.js'), import('./data.js')]);
   const previous = history.filter(m=>m.role==='user').slice(-2).map(m=>m.text).join(' ');
   const context = excerpt + ' ' + previous;
   const shopping = /\b(buy|purchase|shop|product|products|kit|kits|supplies)\b/i.test(question);

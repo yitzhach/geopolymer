@@ -1,140 +1,503 @@
 {
- "name": "fly-ash-slag-pilot",
- "created": "2026-10-22",
+ "name": "partial-designs-round-2",
+ "created": "2026-10-24",
  "mode": "review-note",
- "rule": "One sheet per guide, in order. A sheet is done when research/mix-sheets/<guideId>.json passes npm run mixes -- check. If the context has no usable mix data, set skip to a one-line reason instead of forcing a sheet.",
+ "rule": "One sheet per guide, in order. A sheet is done when research/mix-sheets/<guideId>.json passes npm run mixes -- check. If the context has no usable mix data, set skip to a one-line reason instead of forcing a sheet. Entries: every guide whose mix status is partial-source-design, not already sheeted, skipped in the pilot queue, or covered by the knowledge pilot/catalog. The finished pilot queue is archived as _QUEUE-fly-ash-slag-pilot.json.",
  "entries": [
   {
-   "guideId": "one-part-admixture-compatibility",
-   "doi": "10.3390/ma12203410",
-   "why": "worked example 1"
+   "guideId": "bn-hemp-nanofiber-slag",
+   "doi": "10.3390/polym18111288",
+   "why": "partial design; BN-modified hemp nanofibers: dose accounting and a replication plan"
   },
   {
-   "guideId": "rap-geopolymer-grout-versus-composite",
-   "doi": "10.3390/ma13163644",
-   "why": "worked example 2"
+   "guideId": "metakaolin-water-temperature",
+   "doi": "10.3390/su12198216",
+   "why": "partial design; Metakaolin paste: separating added water, dilution and starting temperature"
   },
   {
-   "guideId": "fly-ash-slag-efflorescence-moisture",
-   "doi": "10.3390/ma13235550",
-   "why": "fly ash + slag; moisture/efflorescence"
+   "guideId": "metakaolin-freeze-thaw-design",
+   "doi": "10.3390/ma13132973",
+   "why": "partial design; Metakaolin freeze–thaw: design the exposure before comparing strength"
   },
   {
-   "guideId": "starch-borax-retarder-screening",
-   "doi": "10.3390/eng6120366",
-   "why": "fly ash + slag; retarders"
+   "guideId": "ambient-fly-ash-coating-process",
+   "doi": "10.3390/ma12060923",
+   "why": "partial design; Ambient fly-ash coatings: mixing time belongs in the formulation"
   },
   {
-   "guideId": "pva-egc-tension-versus-model",
-   "doi": "10.3390/polym16121685",
-   "why": "fly ash + slag ECC; tension",
-   "skip": "No label: seven unlabelled mixtures described by ranges; no numeric results in the notes."
+   "guideId": "coating-wetting-versus-bond",
+   "doi": "10.3390/ma15113767",
+   "why": "partial design; Protective coatings: wetting, bond and surface modification answer different questions"
   },
   {
-   "guideId": "hpmc-vae-workability-durability",
-   "doi": "10.3390/buildings15193621",
-   "why": "fly ash + slag; admixtures"
+   "guideId": "biochar-bottom-ash-pore-evolution",
+   "doi": "10.3390/app112210945",
+   "why": "partial design; Biochar and bottom ash: pore size and total porosity can move in different directions"
   },
   {
-   "guideId": "fa-slag-ambient-rheology-sequence",
-   "doi": "10.3390/en13102639",
-   "why": "fly ash + slag; ambient rheology",
-   "skip": "No label: slag levels 10/30/50 wt% are unlabelled; results are qualitative."
+   "guideId": "phosphate-polymer-rheology",
+   "doi": "10.3390/ma17122856",
+   "why": "partial design; Phosphate geopolymers: polymer architecture changes the rheology question"
   },
   {
-   "guideId": "ambient-onepart-fivepercent-ash",
-   "doi": "10.3390/buildings16010037",
-   "why": "slag + 5% fly ash; one-part",
-   "skip": "No label: the reported candidate and replacement sweep are unlabelled; no numeric results."
+   "guideId": "metakaolin-curing-temperature-grade",
+   "doi": "10.3390/ma16237460",
+   "why": "partial design; Metakaolin curing temperature: compare the grade and the test rate"
   },
   {
-   "guideId": "red-mud-egc-strength-ductility",
-   "doi": "10.3390/polym18182271",
-   "why": "fly ash + slag ECC; red mud",
-   "skip": "No label: ten mix ledgers are referenced but not named; binder fractions are ranges."
+   "guideId": "waste-foam-precursor-foamer",
+   "doi": "10.3390/ma17246143",
+   "why": "partial design; Waste-based foams: compare precursor and foaming route together"
   },
   {
-   "guideId": "recycled-concrete-hybrid-fiber-map",
-   "doi": "10.3390/buildings15101723",
-   "why": "fly ash + slag; recycled aggregate, fibers",
-   "skip": "No label: factor levels only (steel, PP, recycled aggregate)."
+   "guideId": "epoxy-silane-shrinkage-bases",
+   "doi": "10.3390/buildings14030586",
+   "why": "partial design; Epoxy and silane modifiers: check shrinkage sign and percentage basis"
   },
   {
-   "guideId": "pas-prefoam-volume-thermal",
-   "doi": "10.3390/ma15124085",
-   "why": "fly ash + slag foam",
-   "skip": "No label: volume ratios only."
+   "guideId": "calcium-hydroxide-carbonation-tradeoff",
+   "doi": "10.3390/ma16062305",
+   "why": "partial design; Calcium hydroxide: less carbonation depth can coexist with strength loss"
   },
   {
-   "guideId": "fa-ggbs-acid-strength-compromise",
-   "doi": "10.3390/buildings15214012",
-   "why": "fly ash + slag concrete; acid"
+   "guideId": "printing-side-stream-process-window",
+   "doi": "10.3390/ma14164758",
+   "why": "partial design; Printing side-stream binders: qualify the machine–material pair"
   },
   {
-   "guideId": "carbonated-fa-slag-gel-products",
-   "doi": "10.3390/ma17071491",
-   "why": "fly ash + slag; carbonation",
-   "skip": "No label: unnamed 100:0/70:30/0:100 series; \"FA alone\" has no composition in the notes."
+   "guideId": "sfcc-phosphate-acid-window",
+   "doi": "10.3390/gels8020130",
+   "why": "partial design; Spent catalyst phosphate binders: higher acid concentration is not always better"
   },
   {
-   "guideId": "lowalkali-fa-slag-cure-model",
-   "doi": "10.3390/min11010060",
-   "why": "fly ash + slag; low alkali, curing",
-   "skip": "No label: only bare levels (slag 10, 20, 30, 40 wt%)."
+   "guideId": "foam-polystyrene-fire-assembly",
+   "doi": "10.3390/polym14101945",
+   "why": "partial design; Foam over polystyrene: test the assembly, not just the paste"
   },
   {
-   "guideId": "ambient-fly-ash-superplasticizer",
-   "doi": "10.3390/ma9070586",
-   "why": "fly ash; superplasticizer, ambient"
+   "guideId": "metakaolin-gel-amount-versus-composition",
+   "doi": "10.3390/ma13245784",
+   "why": "partial design; Metakaolin strength: gel amount and gel composition are different variables"
   },
   {
-   "guideId": "superplasticizer-flow-air-long-term",
-   "doi": "10.3390/ma14247614",
-   "why": "fly ash; superplasticizer"
+   "guideId": "ceramic-waste-artistic-restoration",
+   "doi": "10.3390/ma15238600",
+   "why": "partial design; Ceramic waste for casting and restoration: surface compatibility needs its own test"
   },
   {
-   "guideId": "metakaolin-slag-shrinkage-controls",
-   "doi": "10.3390/ma17051181",
-   "why": "metakaolin + slag; shrinkage"
+   "guideId": "aluminum-foam-coating-ratio-conflict",
+   "doi": "10.3390/coatings11010087",
+   "why": "partial design; Foam on aluminum: resolve the activator-ratio conflict before weighing"
   },
   {
-   "guideId": "metakaolin-slag-potassium-durability",
-   "doi": "10.3390/min14080776",
-   "why": "metakaolin + slag; mixed alkali",
-   "skip": "No label: four MK/GGBFS blends are unlabelled; the 55 MPa value names no blend."
+   "guideId": "mtos-hydrophobic-coating-dose",
+   "doi": "10.3390/coatings16070752",
+   "why": "partial design; Hydrophobic coatings: MTOS dose versus substrate bonding"
   },
   {
-   "guideId": "one-part-waste-sand-water-demand",
-   "doi": "10.3390/ma14112911",
-   "why": "slag one-part mortar; waste sand"
+   "guideId": "mk-coating-activator-window",
+   "doi": "10.3390/coatings16070825",
+   "why": "partial design; Metakaolin coatings: adhesion versus scratch hardness"
   },
   {
-   "guideId": "aircooled-slag-milling-activation",
-   "doi": "10.3390/ma13051134",
-   "why": "slag; milling",
-   "skip": "No label: 54 unlabelled variants; results describe the activated slag as a class."
+   "guideId": "granite-microwave-foam-ledger",
+   "doi": "10.3390/su18104754",
+   "why": "partial design; Granite microwave foam: recipe and energy-accounting holds"
   },
   {
-   "guideId": "tailings-gangue-slag-rsm",
-   "doi": "10.3390/ma19071438",
-   "why": "slag + tailings; response surface"
+   "guideId": "fayalite-phosphate-foam-balance",
+   "doi": "10.3390/ceramics9070071",
+   "why": "partial design; Fayalite phosphate foams: insulation versus compression"
   },
   {
-   "guideId": "biomass-onepart-boiler-tradeoff",
-   "doi": "10.3390/molecules27206881",
-   "why": "slag one-part; biomass ash"
+   "guideId": "foam-weathering-insulation-loss",
+   "doi": "10.3390/ma19010012",
+   "why": "partial design; Foam weathering: insulation loss versus densification"
   },
   {
-   "guideId": "road-composite-gangue-fiber-nanosilica",
-   "doi": "10.3390/buildings15081262",
-   "why": "fly ash road composite"
+   "guideId": "eogo-metakaolin-dose-dispersion",
+   "doi": "10.3390/ma18163864",
+   "why": "partial design; EOGO metakaolin paste: dose, dispersion and flow"
   },
   {
-   "guideId": "lithium-slag-shrinkage-model-hold",
-   "doi": "10.3390/ma18204766",
-   "why": "lithium slag; shrinkage",
-   "skip": "No label: only ranges."
+   "guideId": "metakaolin-lot-thermal-reproducibility",
+   "doi": "10.3390/jne6030034",
+   "why": "partial design; Metakaolin lot changes: thermal monitoring and reproducibility"
+  },
+  {
+   "guideId": "cement-mk-shrinkage-compromise",
+   "doi": "10.3390/buildings15101650",
+   "why": "partial design; Cement in MK binders: drying versus self-drying shrinkage"
+  },
+  {
+   "guideId": "phosphate-al-p-series-ledger",
+   "doi": "10.3390/polym17172358",
+   "why": "partial design; MK phosphate series: use the amorphous-Al basis"
+  },
+  {
+   "guideId": "xrd-strength-screening-boundary",
+   "doi": "10.3390/ma18092093",
+   "why": "partial design; XRD screening: a strength signal is not a mix recipe"
+  },
+  {
+   "guideId": "copper-slag-print-cast-ledger",
+   "doi": "10.3390/ma17225581",
+   "why": "partial design; Copper-slag printing: compare fabrication at the same recipe"
+  },
+  {
+   "guideId": "printing-filler-xanthan-rheology",
+   "doi": "10.3390/ceramics7040087",
+   "why": "partial design; Printing fillers and xanthan: preserve paste and filler dose bases"
+  },
+  {
+   "guideId": "pp-fiber-impact-static-tradeoff",
+   "doi": "10.3390/ma19204263",
+   "why": "partial design; PP-fiber mortar: impact toughness versus flow and static strength"
+  },
+  {
+   "guideId": "nickel-carbon-laminate-proprietary",
+   "doi": "10.3390/polym18192448",
+   "why": "partial design; Nickel-coated carbon laminates: useful tests, proprietary recipe"
+  },
+  {
+   "guideId": "egc-thermal-cure-tensile-clock",
+   "doi": "10.3390/civileng7040066",
+   "why": "partial design; EGC thermal curing: strength and strain follow different clocks"
+  },
+  {
+   "guideId": "ceramic-dry-activator-screening",
+   "doi": "10.3390/buildings16193834",
+   "why": "partial design; Ceramic-derived dry activator: synthesis and mortar are different ledgers"
+  },
+  {
+   "guideId": "volcanic-graphene-ratio-conflict",
+   "doi": "10.3390/polym18192322",
+   "why": "partial design; Volcanic-ash graphene: weigh the reported batch, flag the ratio"
+  },
+  {
+   "guideId": "brick-mk-waste-thermal-tradeoff",
+   "doi": "10.3390/ma19183890",
+   "why": "partial design; Brick/MK waste binders: strength, water resistance and heat"
+  },
+  {
+   "guideId": "pumice-volume-replacement-thermal",
+   "doi": "10.3390/ma19183819",
+   "why": "partial design; Pumice recycled mortar: use volume replacement, preserve moisture history"
+  },
+  {
+   "guideId": "cao-onepart-negative-control",
+   "doi": "10.3390/molecules31173132",
+   "why": "partial design; CaO one-part MK: keep the negative results and changing water"
+  },
+  {
+   "guideId": "salt-gypsum-slag-concrete",
+   "doi": "10.3390/buildings13030675",
+   "why": "partial design; NaCl and gypsum activation: strength is not reinforcement suitability"
+  },
+  {
+   "guideId": "nitrite-cold-mortar-ratio-conflict",
+   "doi": "10.3390/ma18173987",
+   "why": "partial design; Sodium nitrite in cold mortar: preserve the table/narrative conflict"
+  },
+  {
+   "guideId": "bof-radiative-coating-layers",
+   "doi": "10.3390/su12103967",
+   "why": "partial design; BOF cooling coatings: compare layers, not emissivity alone"
+  },
+  {
+   "guideId": "waste-form-rheology-vicat-clock",
+   "doi": "10.3390/min13080999",
+   "why": "partial design; Waste-form binders: rheological set is earlier than Vicat set"
+  },
+  {
+   "guideId": "pozzolan-cure-mixed-alkali-mortar",
+   "doi": "10.3390/min13070857",
+   "why": "partial design; Pozzolan mortars: preserve mixed alkalis and saturation water"
+  },
+  {
+   "guideId": "titania-mk-liquid-dependent-gains",
+   "doi": "10.3390/coatings7120233",
+   "why": "partial design; TiO₂ in MK: the useful dose depends on liquid ratio"
+  },
+  {
+   "guideId": "soil-flyash-onepart-acid-aging",
+   "doi": "10.3390/min8090411",
+   "why": "partial design; Soil/fly-ash one-part binder: acid exposure and continued aging"
+  },
+  {
+   "guideId": "cnt-sic-mk-source-dependent",
+   "doi": "10.3390/ma15176099",
+   "why": "partial design; CNT/SiC whiskers: precursor quality changes the outcome"
+  },
+  {
+   "guideId": "nash-ratio-flow-set-model",
+   "doi": "10.3390/ma15165634",
+   "why": "partial design; N-A-S-H ratios: flow, setting and strength need separate targets"
+  },
+  {
+   "guideId": "tire-pozzolan-coating-hybrid",
+   "doi": "10.3390/polym18162014",
+   "why": "partial design; Coated tire aggregate: pretreatment is part of the design"
+  },
+  {
+   "guideId": "phosphate-clay-insulation-ratios",
+   "doi": "10.3390/min13121480",
+   "why": "partial design; Phosphate-clay insulation: porosity versus load-bearing capacity"
+  },
+  {
+   "guideId": "am-mixtures-leaching-context",
+   "doi": "10.3390/ma18214886",
+   "why": "partial design; AM mixtures: compare leaching on the same mass basis"
+  },
+  {
+   "guideId": "printed-truss-material-assembly",
+   "doi": "10.3390/ma19173632",
+   "why": "partial design; Printed truss beams: a material recipe is not a structural rating"
+  },
+  {
+   "guideId": "underwater-printing-water-anisotropy",
+   "doi": "10.3390/app15073449",
+   "why": "partial design; Underwater printing: shape retention does not prove hardening"
+  },
+  {
+   "guideId": "multifunctional-foam-stabilizer-bases",
+   "doi": "10.3390/cryst12030386",
+   "why": "partial design; Multifunctional foams: separate stabilizer dose and peroxide concentration"
+  },
+  {
+   "guideId": "electrical-cure-voltage-specimen",
+   "doi": "10.3390/ma18204811",
+   "why": "partial design; Electrical curing: voltage alone does not define the condition"
+  },
+  {
+   "guideId": "sediment-fiber-tension-compression",
+   "doi": "10.3390/polym17081072",
+   "why": "partial design; Sediment/slag fibers: splitting gain versus compression loss"
+  },
+  {
+   "guideId": "geopolymer-aggregate-cement-ecc",
+   "doi": "10.3390/buildings16081520",
+   "why": "partial design; Geopolymer aggregates in cement ECC: separate aggregate and matrix recipes"
+  },
+  {
+   "guideId": "aerogel-resin-peroxide-insulation",
+   "doi": "10.3390/polym15153254",
+   "why": "partial design; Aerogel, resin and peroxide: insulation gain needs a full matrix ledger"
+  },
+  {
+   "guideId": "leucite-ceramic-processing-chain",
+   "doi": "10.3390/polym13213621",
+   "why": "partial design; Leucite ceramics: geopolymer precursor is one processing stage"
+  },
+  {
+   "guideId": "recycled-gypsum-shrinkage-components",
+   "doi": "10.3390/inorganics11070298",
+   "why": "partial design; Recycled gypsum: plastic and drying shrinkage can offset"
+  },
+  {
+   "guideId": "wood-mineral-foam-hybrid-insulation",
+   "doi": "10.3390/su17156898",
+   "why": "partial design; Wood/mineral insulation foams: compare the whole additive system"
+  },
+  {
+   "guideId": "solid-refractory-sr1-versus-sr4",
+   "doi": "10.3390/ma17061386",
+   "why": "partial design; Solid refractory activation: SR1 performance and SR4 failure"
+  },
+  {
+   "guideId": "onepart-fiber-curing-abrasion",
+   "doi": "10.3390/polym18162023",
+   "why": "partial design; One-part fibers: abrasion, flow and curing tradeoffs"
+  },
+  {
+   "guideId": "gf-sbs-asphalt-fatigue-aging",
+   "doi": "10.3390/ma16031012",
+   "why": "partial design; Geopolymer/SBS asphalt: fatigue versus aging sensitivity"
+  },
+  {
+   "guideId": "coal-gangue-foam-thermal-retention",
+   "doi": "10.3390/en15093363",
+   "why": "partial design; Coal-gangue foams: porosity versus thermal strength"
+  },
+  {
+   "guideId": "molten-kcl-leucite-processing",
+   "doi": "10.3390/ma12030461",
+   "why": "partial design; Molten KCl: leucite conversion at reduced firing temperature"
+  },
+  {
+   "guideId": "steel-slag-bacl2-precoating",
+   "doi": "10.3390/ma18102388",
+   "why": "partial design; Steel-slag ternary mortar: BaCl2 mixing order"
+  },
+  {
+   "guideId": "cs-adsorbent-solidification-oxide-window",
+   "doi": "10.3390/ma19071469",
+   "why": "partial design; Cs-loaded adsorbent: oxide-ratio optimization"
+  },
+  {
+   "guideId": "silt-dual-alkali-void-control",
+   "doi": "10.3390/jcs10050238",
+   "why": "partial design; Silt-filled dual-alkali MK: strength and void control"
+  },
+  {
+   "guideId": "cacl2-wellcement-hpht-acoustics",
+   "doi": "10.3390/su13116128",
+   "why": "partial design; CaCl2 well cement: early strength and acoustic response"
+  },
+  {
+   "guideId": "glass-frit-chloride-containment-ramp",
+   "doi": "10.3390/app13042615",
+   "why": "partial design; Glass-frit crucibles: heating-rate dependence"
+  },
+  {
+   "guideId": "ashslag-foam-stearate-microwave-failure",
+   "doi": "10.3390/gels10010019",
+   "why": "partial design; Ash/slag foam: stearate and microwave incompatibility"
+  },
+  {
+   "guideId": "nash-acid-oxide-ratio-boundaries",
+   "doi": "10.3390/jcs9010044",
+   "why": "partial design; N-A-S-H acid resistance: narrow oxide windows"
+  },
+  {
+   "guideId": "mk-water-exposure-slag-amphibolite",
+   "doi": "10.3390/ma18163892",
+   "why": "partial design; MK aquatic composites: slag and amphibolite contrast"
+  },
+  {
+   "guideId": "ambient-clay-fa-bricks-screening",
+   "doi": "10.3390/su18020762",
+   "why": "partial design; Ambient clay/FA bricks: molarity and scale-up"
+  },
+  {
+   "guideId": "mk-coarse-aggregate-size-effect",
+   "doi": "10.3390/ma14123316",
+   "why": "partial design; MK coarse aggregate: size-dependent mechanical loss"
+  },
+  {
+   "guideId": "soda-residue-fa-acid-sulfate",
+   "doi": "10.3390/ma14040785",
+   "why": "partial design; Soda-residue/FA mortar: acid versus sulfate durability"
+  },
+  {
+   "guideId": "mk-early-polymerization-water-clock",
+   "doi": "10.3390/ma15176125",
+   "why": "partial design; Early MK reaction: water and dissolved-silicate clocks"
+  },
+  {
+   "guideId": "pva-silica-fire-structural-boundaries",
+   "doi": "10.3390/app9091953",
+   "why": "partial design; PVA/silica additives: structural and fire-test boundaries"
+  },
+  {
+   "guideId": "slag-block-carbonation-functional-choice",
+   "doi": "10.3390/su151914291",
+   "why": "partial design; Slag masonry blocks: carbonation and functional selection"
+  },
+  {
+   "guideId": "glass-fiber-sand-acid-brittleness",
+   "doi": "10.3390/ma10040396",
+   "why": "partial design; Glass fiber/sand: reinforcement and acid stability"
+  },
+  {
+   "guideId": "ice-templated-oxide-carrier-porosity",
+   "doi": "10.3390/ceramics2010014",
+   "why": "partial design; Ice-templated oxygen carriers: pore architecture"
+  },
+  {
+   "guideId": "sediment-slag-frost-admixtures",
+   "doi": "10.3390/nano15131051",
+   "why": "partial design; Sediment/slag frost: silica fume and fiber roles"
+  },
+  {
+   "guideId": "cf-flyash-sand-freeze-thaw",
+   "doi": "10.3390/buildings16071288",
+   "why": "partial design; ClassC/F mortar: ash-to-sand frost window"
+  },
+  {
+   "guideId": "fa-mk-activator-microstructure",
+   "doi": "10.3390/ma15103732",
+   "why": "partial design; FA/MK paste: blend and alkaline response"
+  },
+  {
+   "guideId": "mk-strength-development-activator-scope",
+   "doi": "10.3390/app132413062",
+   "why": "partial design; MK strength development: activator and age scope"
+  },
+  {
+   "guideId": "mk-grade-parametrization-confounding",
+   "doi": "10.3390/min14100974",
+   "why": "partial design; MK grade selection: characterization versus fitted strength"
+  },
+  {
+   "guideId": "mk-modulus-age-loading-boundaries",
+   "doi": "10.3390/app13042179",
+   "why": "partial design; MK modulus: age and loading-cycle definitions"
+  },
+  {
+   "guideId": "lowgrade-mk-zeolite-dual-objective",
+   "doi": "10.3390/min11050486",
+   "why": "partial design; Low-grade MK/zeolite: adsorption versus compression"
+  },
+  {
+   "guideId": "fgt-flyash-hazard-strength-boundary",
+   "doi": "10.3390/ma17143515",
+   "why": "partial design; FGT ash: weak consolidation and hazardous-waste checks"
+  },
+  {
+   "guideId": "calcined-pumice-multiobjective",
+   "doi": "10.3390/su18062685",
+   "why": "partial design; Calcined pumice: strength maximum versus combined choice"
+  },
+  {
+   "guideId": "slag-alkali-statistical-null",
+   "doi": "10.3390/su11215935",
+   "why": "partial design; Slag activation: statistically weak alkali-strength correlation"
+  },
+  {
+   "guideId": "heat-assisted-pavement-layer-lab",
+   "doi": "10.3390/ma19153170",
+   "why": "partial design; Heat-assisted pavement layer: laboratory scope"
+  },
+  {
+   "guideId": "slag-grout-water-compression-flexure",
+   "doi": "10.3390/app13148353",
+   "why": "partial design; Slag grout: water ratio and mechanical tradeoff"
+  },
+  {
+   "guideId": "zeolite-slag-lca-cost-choice",
+   "doi": "10.3390/su16010440",
+   "why": "partial design; Zeolite/slag: performance, cost and environmental tradeoffs"
+  },
+  {
+   "guideId": "uncalcined-gangue-calcium-rsm",
+   "doi": "10.3390/polym15051241",
+   "why": "partial design; Uncalcined gangue: calcium and response-surface scope"
+  },
+  {
+   "guideId": "naoh-thermal-treatment-phase-choice",
+   "doi": "10.3390/gels8060333",
+   "why": "partial design; NaOH heat treatment: strength versus ceramic conversion"
+  },
+  {
+   "guideId": "industrial-kaolin-alkali-characterization",
+   "doi": "10.3390/ma17081839",
+   "why": "partial design; Industrial kaolins: purity and sodium/potassium activation"
+  },
+  {
+   "guideId": "calcined-gangue-activator-window",
+   "doi": "10.3390/buildings14030787",
+   "why": "partial design; Calcined gangue: activator and liquid-solid window"
+  },
+  {
+   "guideId": "middle-atlas-pozzolan-mk-addition",
+   "doi": "10.3390/min11121344",
+   "why": "partial design; Middle Atlas pozzolan: MK addition and calcination"
+  },
+  {
+   "guideId": "granite-reactive-silica-conflicted-optimum",
+   "doi": "10.3390/ma19050886",
+   "why": "partial design; Granite/reactive silica: strength and conflicting mechanism claims"
   }
- ],
- "note": "Skips need the paper itself (source-text mode) to recover mix labels and numbers; the review notes do not name these conditions."
+ ]
 }

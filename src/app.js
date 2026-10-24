@@ -1,18 +1,17 @@
-import {attachDeepDiveExplorer} from './deep-dive-explorer.js';
 import {mixTableIndex} from './mix-index.js';
 import {deepDives} from './deep-dives.js';
 import {deepDiveIndex,deepDivePage} from './deep-dive-ui.js';
 import {knowledgeReferences} from './knowledge-references.js';
-import {knowledgePage,studyPage,libraryStudyPage,attachKnowledge} from './knowledge-ui.js';
+import {knowledgePage,studyPage,libraryStudyPage} from './knowledge-ui.js';
 import { journalArticles } from './journal-data.js';
-import { journalPage,journalDetail,attachJournal } from './journal.js';
+import { journalPage,journalDetail } from './journal.js';
 import {literatureMixes} from './literature-mixes.js';
-import {mixCards,mixDetail,attachMix} from './literature-ui.js';
-import { calculatorPage, attachCalculator } from "./gp-calculator.js";
-import { library, libraryPage, attachLibrary } from "./research-library.js";
+import {mixCards,mixDetail} from './literature-ui.js';
+import { calculatorPage } from "./gp-calculator.js";
+import { library, libraryPage } from "./research-library.js";
 import {researchTopics} from './research-topics.js';
 import {researchTopicPage} from './research-topic-ui.js';
-import { platformPage, attachPlatform } from "./platform.js";
+import { platformPage } from "./platform.js";
 import {
   materials,
   papers,
@@ -301,7 +300,8 @@ function showResults(q, type) {
         .join("")
     : `<div class="empty"><h2>No matches yet.</h2><p>Try “metakaolin”, “classroom” or “batch”, or select All to widen the search.</p></div>`;
 }
-function attach() {
+// Batch scaler (/tools) and site search (/search); started by enhance.js.
+export function attach() {
   const form = document.querySelector("#scaler");
   if (form) {
     const calculate = () => {
@@ -443,27 +443,3 @@ export function renderPage(url = "/") {
   return { html, title, status: routes.includes(path) ? 200 : 404 };
 }
 
-export async function enhancePage() {
-  const main = document.querySelector("main");
-  const area = location.pathname.split("/").filter(Boolean)[0];
-  // Query-dependent views are progressive enhancements of complete base pages.
-  if (location.search && ["shop", "search"].includes(area))
-    main.innerHTML = renderPage(location.pathname + location.search).html;
-  if (!routes.includes(location.pathname.replace(/\/$/, "") || "/")) return;
-  attach();
-  attachPlatform(area);
-  if (area === "calculator") attachCalculator();
-  if (area === "library") attachLibrary();
-  if (["knowledge","studies"].includes(area)) attachKnowledge();
-  if (area === "journal") attachJournal();
-  if (area === "formulations") attachMix();
-  if (area === "deep-dives") attachDeepDiveExplorer();
-  if (area === "mixes") await import('./mix-explorer-ui.js').then(m => m.attachMixExplorer());
-  document.querySelectorAll('nav a').forEach(a => {
-    if (a.pathname.replace(/\/$/, '') === location.pathname.replace(/\/$/, ''))
-      a.setAttribute('aria-current', 'page');
-  });
-  const { setupMotion } = await import('./motion.js');
-  setupMotion(main);
-  main.dataset.enhanced = "true";
-}

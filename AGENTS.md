@@ -15,3 +15,5 @@ skill (`.claude/skills/mix-sheet/SKILL.md`). Review-note mode opens no source, s
 master prompt's research procedures apply only to source-text mode. Every sheet must
 pass `npm run mixes -- check`.
 
+Lower-cost tandem sessions follow `TANDEM_TASKS.md`: one lane, its own files and a
+`tandem/*` branch ending in a pull request; never push to main.

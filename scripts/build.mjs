@@ -74,7 +74,7 @@ for (const path of [...routes, '/404']) {
   if (product) graph.push({ '@type': 'Product', name: product.title, description: 'Proposed concept; not available to order. ' + product.summary, url });
   const noindex = ['/workspace', '/search', '/404'].includes(path);
   const metadata = `<link rel="alternate" type="application/rss+xml" title="GP Journal" href="${siteOrigin}/journal/feed.xml">${noindex ? '<meta name="robots" content="noindex,follow">' : ''}
-    ${path === '/404' ? '' : `<link rel="canonical" href="${esc(url)}">`}
+    ${path === '/404' ? '<meta name="gp-page" content="not-found">' : `<link rel="canonical" href="${esc(url)}">`}
     <meta property="og:type" content="website">
     <meta property="og:title" content="${esc(title)}">
     <meta property="og:description" content="${esc(description)}">

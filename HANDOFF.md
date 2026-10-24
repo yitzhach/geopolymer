@@ -12,7 +12,7 @@ them only when you need the evidence behind a specific earlier batch.
   `KNOWLEDGE_ENGINE_MASTER_PROMPT.md` for research and `SUMMARY_DEEP_DIVE_STANDARD.md` before
   touching summaries or deep dives.
 
-## Current state — 23 October 2026
+## Current state — 24 October 2026
 
 - Library 1,000 publications · 361 detailed summaries · 362 deep-dive guides (every guide and
   summary exposes `mix-data-v1`). Formulation catalog 49 conditions / 37 proportional scalers.
@@ -23,30 +23,50 @@ them only when you need the evidence behind a specific earlier batch.
   (Foundation verification) passed on that commit.
 - Published to main on 23 October 2026 at the owner's request: the mix table, `/mixes` Mix
   Explorer, mix-sheet standard/skill/queue and nine pilot sheets (branch `claude/mix-table-pilot`
-  merged). Verify the live `build-info.json` commit against main before calling it deployed.
+  merged). Verified 24 October 2026: live `build-info.json` reports `99d7468` (= main then).
 
 ## Mix table
 
 - One row per mix, compiled at build time by `scripts/lib/mix-sheets.mjs` → `src/mix-table.js`
   from the knowledge pilot, the formulation catalog and `research/mix-sheets/*.json`. Output:
   `dist/mixes.json` and `/mixes`. Pilot rows absorb matching catalog recipes (6 merged).
-- Counts: **128 rows from 29 papers; 99 with numeric results; 23 rows from 9 mix sheets**
+- Counts: **138 rows from 33 papers; 101 with numeric results; 33 rows from 13 mix sheets**
   (`npm run mixes -- stats`).
 - Sheets so far (review-note mode): one-part-admixture-compatibility, rap-geopolymer-grout-
   versus-composite, fly-ash-slag-efflorescence-moisture (worked examples), hpmc-vae-
   workability-durability, starch-borax-retarder-screening, one-part-waste-sand-water-demand,
-  metakaolin-slag-shrinkage-controls, fa-ggbs-acid-strength-compromise, tailings-gangue-slag-rsm.
-- Queue `research/mix-sheets/QUEUE.json` (fly-ash/slag pilot): 9 done, 11 skipped with reasons
-  (no labelled mix in the review notes), 4 open: ambient-fly-ash-superplasticizer,
-  superplasticizer-flow-air-long-term, biomass-onepart-boiler-tradeoff,
-  road-composite-gangue-fiber-nanosilica (a smaller model found labels in all four but was
-  stopped by a usage limit before filling them). `npm run mixes -- queue --next 5`.
+  metakaolin-slag-shrinkage-controls, fa-ggbs-acid-strength-compromise, tailings-gangue-slag-rsm;
+  added 24 Oct: ambient-fly-ash-superplasticizer, superplasticizer-flow-air-long-term,
+  biomass-onepart-boiler-tradeoff, road-composite-gangue-fiber-nanosilica.
+- The fly-ash/slag pilot queue is finished (13 done, 11 skipped with reasons) and archived as
+  `research/mix-sheets/_QUEUE-fly-ash-slag-pilot.json`. New queue `QUEUE.json`
+  ("partial-designs-round-2"): the 99 remaining partial-design guides that are not sheeted,
+  skipped or already structured. `npm run mixes -- queue --next 5`.
 - Template test: drafts by a smaller, lower-cost model (two rounds) passed the checker with no
   invented values; its feedback produced skill v1.1. All committed sheets were reviewed by the
   primary agent before import. Review-note mode yields mostly compositions: the notes rarely
   name mixes or give numbers. Numeric density now depends on source-text mode (below).
 - Evidence labels: pilot/catalog rows "Source-checked by AI"; sheet rows "From review note —
   not yet re-checked against the paper". Sheet values never enter `/knowledge` exact search.
+
+## Tandem lanes
+
+`TANDEM_TASKS.md` defines four lanes a lower-cost agent can run in parallel, each on its own
+`tandem/*` branch ending in a pull request: (A) mix sheets from the new queue, (B) new paper
+candidates → `research/tandem/candidates/`, (C) mix-table locators for skipped guides →
+`research/tandem/locators/`, (D) DOI link health → `research/tandem/link-checks/`. Review and
+merge their PRs; lanes B–D are leads, not site data.
+
+## Site speed (24 Oct)
+
+- `src/bootstrap.js` now loads `src/enhance.js`, which imports only the modules a page's tools
+  need. `src/app.js` is the build-time renderer (plus `/tools`, `/search`, `/shop` tools). The
+  research assistant loads the catalog on the first question. The 404 page carries
+  `<meta name="gp-page" content="not-found">`.
+- Measured locally (uncompressed, all requests): home 6.75 → 0.41 MB, `/learn` 6.49 → 0.14 MB,
+  `/mixes` 7.49 → 1.15 MB, `/deep-dives` → 2.8 MB. Still heavy: `/library` (3.5 MB HTML of
+  1,000 cards plus its data, ~9 MB) and `/knowledge`, `/calculator`, `/search` (~6 MB; they
+  need the catalog).
 
 ## Standing rules (carried forward)
 
@@ -77,12 +97,12 @@ them only when you need the evidence behind a specific earlier batch.
 
 ## Next work
 
-1. Finish the 4 open queue entries in review-note mode (`/mix-sheet`); a smaller model can do it.
+1. Start tandem lane A (and B–D if wanted) from `TANDEM_TASKS.md`; review their PRs.
 2. Source-text mode pilot on 5 skipped fly-ash/slag guides (labels + tables), with a second
    reviewer checking every value; extend the skill once the pilot proves the procedure.
 3. Explorer: more axes (activator/precursor, curing hours), CSV export, saved comparisons.
-4. Site speed: bundle scripts per page and paginate the 1,000-card library (see
-   `research/handoffs/history-2026-10-16-to-10-22.md` for the earlier audit context).
+4. Site speed: paginate or lazy-render the 1,000-card `/library` page; split `data.js` so
+   `/tools` and `/shop` stop importing the full catalog.
 
 ## Checks
 
@@ -94,8 +114,7 @@ check`, then browser suites with the dist server (`node scripts/serve.mjs --dist
 
 Paste one of these as the first message of a new session on this repository.
 
-- **Cheap mix-sheet round** (choose a smaller model): *"Use the mix-sheet skill to add the next 4
-  sheets from the queue, then do the finish steps and publish to main."*
+- **Cheap tandem round** (choose a smaller model): use a kickoff prompt from `TANDEM_TASKS.md`.
 - **Next development round** (choose the strongest model): *"Continue yitzhach/geopolymer from
   main. Read HANDOFF.md and follow AGENTS.md. Goal: make the Mix Explorer numerically useful.
   (1) Pilot source-text mode on 5 skipped fly-ash/slag guides from research/mix-sheets/QUEUE.json:
