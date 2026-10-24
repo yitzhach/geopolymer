@@ -1,0 +1,63 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "metakaolin-freeze-thaw-design",
+ "doi": "10.3390/ma13132973",
+ "basis": "review-note",
+ "scope": "Only MKG-2 and MKG-4, the two mixes whose Table 2 quantities the review notes list; MKG-1, MKG-3 and MKG-5 and all strength/mass-loss values are not transcribed.",
+ "made": "2026-10-24",
+ "madeBy": "AI transcription · mix-sheet skill v1",
+ "materials": [
+  {"id": "mk", "family": "metakaolin", "role": "precursor", "name": "Metakaolin", "aliases": ["Metamax MK", "MK"]},
+  {"id": "wg", "family": "sodium-silicate-solution", "role": "activator", "name": "waterglass", "aliases": ["sodium silicate"]},
+  {"id": "naoh", "family": "sodium-hydroxide", "role": "activator", "name": "NaOH"},
+  {"id": "water", "family": "water", "role": "water", "name": "water"},
+  {"id": "sand", "family": "sand", "role": "aggregate", "name": "sand"}
+ ],
+ "mixes": [
+  {
+   "id": "MKG-2",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {"material": "mk", "value": 936, "unit": "ratio", "basis": "other", "basisNote": "Table 2 units unresolved in the review notes; not grams", "text": "Table 2 MKG-2, source quantities; units unresolved: Metakaolin 936; waterglass 993; NaOH 138; water 197"},
+    {"material": "wg", "value": 993, "unit": "ratio", "basis": "other", "basisNote": "Table 2 units unresolved in the review notes; not grams", "text": "Table 2 MKG-2, source quantities; units unresolved: Metakaolin 936; waterglass 993; NaOH 138; water 197"},
+    {"material": "naoh", "value": 138, "unit": "ratio", "basis": "other", "basisNote": "Table 2 units unresolved in the review notes; not grams", "text": "Table 2 MKG-2, source quantities; units unresolved: Metakaolin 936; waterglass 993; NaOH 138; water 197"},
+    {"material": "water", "value": 197, "unit": "ratio", "basis": "other", "basisNote": "Table 2 units unresolved in the review notes; not grams", "text": "Table 2 MKG-2, source quantities; units unresolved: Metakaolin 936; waterglass 993; NaOH 138; water 197"},
+    {"material": "sand", "value": null, "missing": "sand mass not given in the review notes", "text": "Table units, sand mass and binder/water accounting unresolved"}
+   ],
+   "parameters": []
+  },
+  {
+   "id": "MKG-4",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {"material": "mk", "value": 842, "unit": "ratio", "basis": "other", "basisNote": "Table 2 units unresolved in the review notes; not grams", "text": "Table 2 MKG-4, source quantities; units unresolved: Metakaolin 842; waterglass 1251; NaOH 136; water 31"},
+    {"material": "wg", "value": 1251, "unit": "ratio", "basis": "other", "basisNote": "Table 2 units unresolved in the review notes; not grams", "text": "Table 2 MKG-4, source quantities; units unresolved: Metakaolin 842; waterglass 1251; NaOH 136; water 31"},
+    {"material": "naoh", "value": 136, "unit": "ratio", "basis": "other", "basisNote": "Table 2 units unresolved in the review notes; not grams", "text": "Table 2 MKG-4, source quantities; units unresolved: Metakaolin 842; waterglass 1251; NaOH 136; water 31"},
+    {"material": "water", "value": 31, "unit": "ratio", "basis": "other", "basisNote": "Table 2 units unresolved in the review notes; not grams", "text": "Table 2 MKG-4, source quantities; units unresolved: Metakaolin 842; waterglass 1251; NaOH 136; water 31"},
+    {"material": "sand", "value": null, "missing": "sand mass not given in the review notes", "text": "Table units, sand mass and binder/water accounting unresolved"}
+   ],
+   "parameters": []
+  }
+ ],
+ "cures": [
+  {"id": "c1", "category": "moist", "temperatureC": 20, "duration": 2, "durationUnit": "d", "sealed": null, "humidityPercent": 90, "text": "Cure 20±1°C, 90% RH; demold at 2 days, continue to 28 days."}
+ ],
+ "tests": [],
+ "results": [],
+ "findings": [
+  {"goal": "Compression strength candidate", "mix": "MKG-2", "text": "Its compression candidate is MKG-2."},
+  {"goal": "Best frost resistance in the source ranking", "mix": "MKG-4", "text": "The source ranks frost resistance MKG-4 > MKG-5 > MKG-1 > MKG-2 = MKG-3"}
+ ],
+ "notes": [],
+ "gaps": [
+  "Table 2 mass units are unresolved; the numbers are source quantities, not grams or a scalable batch.",
+  "Sand mass and the binder/water accounting are unresolved; the reported water/binder 0.62 and sand/binder 3 are not attached to either mix because the listed water differs widely (197 vs 31).",
+  "Even MKG-4/5 crack in freeze-thaw; higher compression (MKG-2) is not better frost durability.",
+  "No strength, mass-loss or porosity values are in the notes, so no results are entered; MKG-1, MKG-3 and MKG-5 compositions are not given.",
+  "Both mixes use the single stated cure (20±1°C, 90% RH to 28 days); the notes do not say whether it differs by mix."
+ ]
+}
