@@ -1,0 +1,105 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "biomass-onepart-boiler-tradeoff",
+ "doi": "10.3390/molecules27206881",
+ "basis": "review-note",
+ "scope": "Only the CA25_0.37 paste named in the existing deep-dive review; the mortar series (including the 50% ash mortars) is not labelled in the notes and is not covered.",
+ "made": "2026-10-24",
+ "madeBy": "AI transcription · mix-sheet skill v1",
+ "materials": [
+  {
+   "id": "bfs",
+   "family": "slag",
+   "role": "precursor",
+   "name": "Ecocem BFS",
+   "aliases": [
+    "BFS"
+   ]
+  },
+  {
+   "id": "ca",
+   "family": "other-precursor",
+   "role": "precursor",
+   "name": "CA ash",
+   "aliases": [
+    "biomass ash"
+   ]
+  },
+  {
+   "id": "sm",
+   "family": "sodium-silicate-solid",
+   "role": "activator",
+   "name": "solid sodium metasilicate",
+   "aliases": [
+    "SM"
+   ]
+  },
+  {
+   "id": "water",
+   "family": "water",
+   "role": "water",
+   "name": "water"
+  }
+ ],
+ "mixes": [
+  {
+   "id": "CA25_0.37",
+   "control": false,
+   "form": "paste",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "bfs",
+     "value": 75,
+     "unit": "g",
+     "basis": "batch",
+     "text": "CA25_0.37 paste: BFS 75 g; CA ash 25 g; SM 10 g; W/B 0.37; water denominator not reconciled"
+    },
+    {
+     "material": "ca",
+     "value": 25,
+     "unit": "g",
+     "basis": "batch",
+     "text": "CA25_0.37 paste: BFS 75 g; CA ash 25 g; SM 10 g; W/B 0.37; water denominator not reconciled"
+    },
+    {
+     "material": "sm",
+     "value": 10,
+     "unit": "g",
+     "basis": "batch",
+     "text": "CA25_0.37 paste: BFS 75 g; CA ash 25 g; SM 10 g; W/B 0.37; water denominator not reconciled"
+    },
+    {
+     "material": "water",
+     "value": null,
+     "missing": "water mass not given; only W/B 0.37 with an unreconciled denominator",
+     "text": "CA25_0.37 paste: BFS 75 g; CA ash 25 g; SM 10 g; W/B 0.37; water denominator not reconciled"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.37,
+     "basisNote": "water denominator not reconciled",
+     "text": "CA25_0.37 paste: BFS 75 g; CA ash 25 g; SM 10 g; W/B 0.37; water denominator not reconciled"
+    }
+   ],
+   "missing": [
+    "initial cure environment pending",
+    "mixing settings pending"
+   ]
+  }
+ ],
+ "cures": [],
+ "tests": [],
+ "results": [],
+ "findings": [],
+ "notes": [],
+ "gaps": [
+  "The mortar series is not labelled in the notes; the statement that 50% ash still exceeded 30 MPa is not tied to a named mix and is not transcribed as a result.",
+  "The W/B denominator is not reconciled, so the water mass is left unknown.",
+  "Initial cure environment, mixing settings, full mortar masses and uncertainty are pending.",
+  "CT biomass ash conditions are named but not labelled with amounts.",
+  "Boiler-matched waste sands are used only in the mortars, which are not covered."
+ ]
+}

@@ -1,0 +1,170 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "road-composite-gangue-fiber-nanosilica",
+ "doi": "10.3390/buildings15081262",
+ "basis": "review-note",
+ "scope": "The GP composite and the REF control named in the existing deep-dive review, with their source gram ledgers and compressive results.",
+ "made": "2026-10-24",
+ "madeBy": "AI transcription · mix-sheet skill v1",
+ "materials": [
+  {
+   "id": "fa",
+   "family": "fly-ash",
+   "role": "precursor",
+   "name": "Fly ash",
+   "aliases": [
+    "FA"
+   ]
+  },
+  {
+   "id": "cg",
+   "family": "coal-gangue",
+   "role": "precursor",
+   "name": "coal gangue",
+   "aliases": [
+    "gangue"
+   ]
+  },
+  {
+   "id": "cf",
+   "family": "carbon-fiber",
+   "role": "fiber",
+   "name": "carbon fiber"
+  },
+  {
+   "id": "ns",
+   "family": "nano-additive",
+   "role": "additive",
+   "name": "nanosilica"
+  },
+  {
+   "id": "sol",
+   "family": "other-activator",
+   "role": "activator",
+   "name": "10 M solution",
+   "detail": "Full activator identity and mixing order pending."
+  }
+ ],
+ "mixes": [
+  {
+   "id": "REF",
+   "control": true,
+   "form": "composite",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 2344,
+     "unit": "g",
+     "basis": "batch",
+     "text": "REF source grams: FA 2344; 10 M solution 930"
+    },
+    {
+     "material": "sol",
+     "value": 930,
+     "unit": "g",
+     "basis": "batch",
+     "text": "REF source grams: FA 2344; 10 M solution 930"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "activator identity and curing regime pending"
+   ]
+  },
+  {
+   "id": "GP",
+   "control": false,
+   "form": "composite",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 2000,
+     "unit": "g",
+     "basis": "batch",
+     "text": "GP source grams: FA 2000; gangue 320; carbon fiber 16; nanosilica 8; 10 M solution 930"
+    },
+    {
+     "material": "cg",
+     "value": 320,
+     "unit": "g",
+     "basis": "batch",
+     "text": "GP source grams: FA 2000; gangue 320; carbon fiber 16; nanosilica 8; 10 M solution 930"
+    },
+    {
+     "material": "cf",
+     "value": 16,
+     "unit": "g",
+     "basis": "batch",
+     "text": "GP source grams: FA 2000; gangue 320; carbon fiber 16; nanosilica 8; 10 M solution 930"
+    },
+    {
+     "material": "ns",
+     "value": 8,
+     "unit": "g",
+     "basis": "batch",
+     "text": "GP source grams: FA 2000; gangue 320; carbon fiber 16; nanosilica 8; 10 M solution 930"
+    },
+    {
+     "material": "sol",
+     "value": 930,
+     "unit": "g",
+     "basis": "batch",
+     "text": "GP source grams: FA 2000; gangue 320; carbon fiber 16; nanosilica 8; 10 M solution 930"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "activator identity and curing regime pending"
+   ]
+  }
+ ],
+ "cures": [],
+ "tests": [
+  {
+   "id": "comp",
+   "property": "compressive-strength",
+   "unit": "MPa",
+   "specimen": null,
+   "method": null
+  }
+ ],
+ "results": [
+  {
+   "mix": "GP",
+   "test": "comp",
+   "ageDays": null,
+   "ageNote": "initial cure/test age not yet reconciled in the notes",
+   "value": 37.7,
+   "spread": 8.19,
+   "text": "GP showed 37.70 MPa versus 34.90 MPa REF, with reported SD 8.19 and 7.80 MPa",
+   "locator": "Tables 3–8"
+  },
+  {
+   "mix": "REF",
+   "test": "comp",
+   "ageDays": null,
+   "ageNote": "initial cure/test age not yet reconciled in the notes",
+   "value": 34.9,
+   "spread": 7.8,
+   "text": "GP showed 37.70 MPa versus 34.90 MPa REF, with reported SD 8.19 and 7.80 MPa",
+   "locator": "Tables 3–8"
+  }
+ ],
+ "findings": [],
+ "notes": [
+  {
+   "mix": "GP",
+   "kind": "observation",
+   "text": "loss metrics also favored GP slightly. Large spread and bundled additives do not prove statistical superiority or a nanosilica mechanism"
+  }
+ ],
+ "gaps": [
+  "The 10 M solution's identity (NaOH or otherwise), stock masses and mixing order are pending; it is recorded as an unspecified activator.",
+  "Initial cure and test age are not reconciled, so the strength ages are unknown.",
+  "Abrasion and climatic-cycling loss values are not given as numbers in the notes.",
+  "The reported spreads (SD 8.19 and 7.80 MPa) overlap; the comparison does not show statistical superiority.",
+  "Independent batches unresolved."
+ ]
+}

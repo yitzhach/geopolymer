@@ -1,0 +1,436 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "superplasticizer-flow-air-long-term",
+ "doi": "10.3390/ma14247614",
+ "basis": "review-note",
+ "scope": "The four admixture variants M, NF, AP and PC named in the existing deep-dive review, each with the shared source-reported mortar ledger; no numeric results are given in the notes.",
+ "made": "2026-10-24",
+ "madeBy": "AI transcription · mix-sheet skill v1",
+ "materials": [
+  {
+   "id": "fa",
+   "family": "fly-ash",
+   "role": "precursor",
+   "name": "FA"
+  },
+  {
+   "id": "sand",
+   "family": "sand",
+   "role": "aggregate",
+   "name": "Sand"
+  },
+  {
+   "id": "water",
+   "family": "water",
+   "role": "water",
+   "name": "water"
+  },
+  {
+   "id": "act",
+   "family": "other-activator",
+   "role": "activator",
+   "name": "combined activator"
+  },
+  {
+   "id": "naoh",
+   "family": "sodium-hydroxide",
+   "role": "activator",
+   "name": "NaOH solution",
+   "detail": "12 M NaOH solution"
+  },
+  {
+   "id": "ss",
+   "family": "sodium-silicate-solution",
+   "role": "activator",
+   "name": "R140 silicate solution"
+  },
+  {
+   "id": "mel",
+   "family": "superplasticizer",
+   "role": "additive",
+   "name": "melamine",
+   "aliases": [
+    "M"
+   ]
+  },
+  {
+   "id": "nf",
+   "family": "superplasticizer",
+   "role": "additive",
+   "name": "naphthalene",
+   "aliases": [
+    "NF"
+   ]
+  },
+  {
+   "id": "ap",
+   "family": "superplasticizer",
+   "role": "additive",
+   "name": "acrylic-polymer",
+   "aliases": [
+    "AP"
+   ]
+  },
+  {
+   "id": "pce",
+   "family": "superplasticizer",
+   "role": "additive",
+   "name": "polycarboxylic-ether",
+   "aliases": [
+    "PC"
+   ]
+  }
+ ],
+ "mixes": [
+  {
+   "id": "M",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "sand",
+     "value": 160,
+     "unit": "kg",
+     "basis": "batch",
+     "basisNote": "per-1 m³ label conflicts with the 247.06 kg total; yield/unit unresolved",
+     "text": "Source-reported mortar quantities: Sand 160 kg; FA 53 kg; combined activator 27 kg; water 6 kg; admixture 1.06 kg"
+    },
+    {
+     "material": "fa",
+     "value": 53,
+     "unit": "kg",
+     "basis": "batch",
+     "basisNote": "per-1 m³ label conflicts with the 247.06 kg total; yield/unit unresolved",
+     "text": "Source-reported mortar quantities: Sand 160 kg; FA 53 kg; combined activator 27 kg; water 6 kg; admixture 1.06 kg"
+    },
+    {
+     "material": "act",
+     "value": 27,
+     "unit": "kg",
+     "basis": "batch",
+     "basisNote": "per-1 m³ label conflicts with the 247.06 kg total; yield/unit unresolved",
+     "text": "Source-reported mortar quantities: Sand 160 kg; FA 53 kg; combined activator 27 kg; water 6 kg; admixture 1.06 kg"
+    },
+    {
+     "material": "water",
+     "value": 6,
+     "unit": "kg",
+     "basis": "batch",
+     "basisNote": "per-1 m³ label conflicts with the 247.06 kg total; yield/unit unresolved",
+     "text": "Source-reported mortar quantities: Sand 160 kg; FA 53 kg; combined activator 27 kg; water 6 kg; admixture 1.06 kg"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "NaOH share of the combined activator is not split out",
+     "text": "Activator: 12 M NaOH solution : R140 silicate solution = 1:2.5; ratio basis unresolved"
+    },
+    {
+     "material": "ss",
+     "value": null,
+     "missing": "silicate share of the combined activator is not split out",
+     "text": "Activator: 12 M NaOH solution : R140 silicate solution = 1:2.5; ratio basis unresolved"
+    },
+    {
+     "material": "mel",
+     "value": 2,
+     "unit": "wt%",
+     "basis": "precursor-mass",
+     "text": "Admixtures: M, NF, AP or PC, each 2% of FA; separate conditions"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "hydroxide-molarity",
+     "value": 12,
+     "text": "Activator: 12 M NaOH solution : R140 silicate solution = 1:2.5; ratio basis unresolved"
+    },
+    {
+     "key": "silicate/hydroxide",
+     "value": 2.5,
+     "basisNote": "basis not stated",
+     "text": "Activator: 12 M NaOH solution : R140 silicate solution = 1:2.5; ratio basis unresolved"
+    }
+   ],
+   "missing": [
+    "each variant is tested under two curing histories (ambient and 70 °C/24 h); no single cure applies"
+   ]
+  },
+  {
+   "id": "NF",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "sand",
+     "value": 160,
+     "unit": "kg",
+     "basis": "batch",
+     "basisNote": "per-1 m³ label conflicts with the 247.06 kg total; yield/unit unresolved",
+     "text": "Source-reported mortar quantities: Sand 160 kg; FA 53 kg; combined activator 27 kg; water 6 kg; admixture 1.06 kg"
+    },
+    {
+     "material": "fa",
+     "value": 53,
+     "unit": "kg",
+     "basis": "batch",
+     "basisNote": "per-1 m³ label conflicts with the 247.06 kg total; yield/unit unresolved",
+     "text": "Source-reported mortar quantities: Sand 160 kg; FA 53 kg; combined activator 27 kg; water 6 kg; admixture 1.06 kg"
+    },
+    {
+     "material": "act",
+     "value": 27,
+     "unit": "kg",
+     "basis": "batch",
+     "basisNote": "per-1 m³ label conflicts with the 247.06 kg total; yield/unit unresolved",
+     "text": "Source-reported mortar quantities: Sand 160 kg; FA 53 kg; combined activator 27 kg; water 6 kg; admixture 1.06 kg"
+    },
+    {
+     "material": "water",
+     "value": 6,
+     "unit": "kg",
+     "basis": "batch",
+     "basisNote": "per-1 m³ label conflicts with the 247.06 kg total; yield/unit unresolved",
+     "text": "Source-reported mortar quantities: Sand 160 kg; FA 53 kg; combined activator 27 kg; water 6 kg; admixture 1.06 kg"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "NaOH share of the combined activator is not split out",
+     "text": "Activator: 12 M NaOH solution : R140 silicate solution = 1:2.5; ratio basis unresolved"
+    },
+    {
+     "material": "ss",
+     "value": null,
+     "missing": "silicate share of the combined activator is not split out",
+     "text": "Activator: 12 M NaOH solution : R140 silicate solution = 1:2.5; ratio basis unresolved"
+    },
+    {
+     "material": "nf",
+     "value": 2,
+     "unit": "wt%",
+     "basis": "precursor-mass",
+     "text": "Admixtures: M, NF, AP or PC, each 2% of FA; separate conditions"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "hydroxide-molarity",
+     "value": 12,
+     "text": "Activator: 12 M NaOH solution : R140 silicate solution = 1:2.5; ratio basis unresolved"
+    },
+    {
+     "key": "silicate/hydroxide",
+     "value": 2.5,
+     "basisNote": "basis not stated",
+     "text": "Activator: 12 M NaOH solution : R140 silicate solution = 1:2.5; ratio basis unresolved"
+    }
+   ],
+   "missing": [
+    "each variant is tested under two curing histories (ambient and 70 °C/24 h); no single cure applies"
+   ]
+  },
+  {
+   "id": "AP",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "sand",
+     "value": 160,
+     "unit": "kg",
+     "basis": "batch",
+     "basisNote": "per-1 m³ label conflicts with the 247.06 kg total; yield/unit unresolved",
+     "text": "Source-reported mortar quantities: Sand 160 kg; FA 53 kg; combined activator 27 kg; water 6 kg; admixture 1.06 kg"
+    },
+    {
+     "material": "fa",
+     "value": 53,
+     "unit": "kg",
+     "basis": "batch",
+     "basisNote": "per-1 m³ label conflicts with the 247.06 kg total; yield/unit unresolved",
+     "text": "Source-reported mortar quantities: Sand 160 kg; FA 53 kg; combined activator 27 kg; water 6 kg; admixture 1.06 kg"
+    },
+    {
+     "material": "act",
+     "value": 27,
+     "unit": "kg",
+     "basis": "batch",
+     "basisNote": "per-1 m³ label conflicts with the 247.06 kg total; yield/unit unresolved",
+     "text": "Source-reported mortar quantities: Sand 160 kg; FA 53 kg; combined activator 27 kg; water 6 kg; admixture 1.06 kg"
+    },
+    {
+     "material": "water",
+     "value": 6,
+     "unit": "kg",
+     "basis": "batch",
+     "basisNote": "per-1 m³ label conflicts with the 247.06 kg total; yield/unit unresolved",
+     "text": "Source-reported mortar quantities: Sand 160 kg; FA 53 kg; combined activator 27 kg; water 6 kg; admixture 1.06 kg"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "NaOH share of the combined activator is not split out",
+     "text": "Activator: 12 M NaOH solution : R140 silicate solution = 1:2.5; ratio basis unresolved"
+    },
+    {
+     "material": "ss",
+     "value": null,
+     "missing": "silicate share of the combined activator is not split out",
+     "text": "Activator: 12 M NaOH solution : R140 silicate solution = 1:2.5; ratio basis unresolved"
+    },
+    {
+     "material": "ap",
+     "value": 2,
+     "unit": "wt%",
+     "basis": "precursor-mass",
+     "text": "Admixtures: M, NF, AP or PC, each 2% of FA; separate conditions"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "hydroxide-molarity",
+     "value": 12,
+     "text": "Activator: 12 M NaOH solution : R140 silicate solution = 1:2.5; ratio basis unresolved"
+    },
+    {
+     "key": "silicate/hydroxide",
+     "value": 2.5,
+     "basisNote": "basis not stated",
+     "text": "Activator: 12 M NaOH solution : R140 silicate solution = 1:2.5; ratio basis unresolved"
+    }
+   ],
+   "missing": [
+    "each variant is tested under two curing histories (ambient and 70 °C/24 h); no single cure applies"
+   ]
+  },
+  {
+   "id": "PC",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "sand",
+     "value": 160,
+     "unit": "kg",
+     "basis": "batch",
+     "basisNote": "per-1 m³ label conflicts with the 247.06 kg total; yield/unit unresolved",
+     "text": "Source-reported mortar quantities: Sand 160 kg; FA 53 kg; combined activator 27 kg; water 6 kg; admixture 1.06 kg"
+    },
+    {
+     "material": "fa",
+     "value": 53,
+     "unit": "kg",
+     "basis": "batch",
+     "basisNote": "per-1 m³ label conflicts with the 247.06 kg total; yield/unit unresolved",
+     "text": "Source-reported mortar quantities: Sand 160 kg; FA 53 kg; combined activator 27 kg; water 6 kg; admixture 1.06 kg"
+    },
+    {
+     "material": "act",
+     "value": 27,
+     "unit": "kg",
+     "basis": "batch",
+     "basisNote": "per-1 m³ label conflicts with the 247.06 kg total; yield/unit unresolved",
+     "text": "Source-reported mortar quantities: Sand 160 kg; FA 53 kg; combined activator 27 kg; water 6 kg; admixture 1.06 kg"
+    },
+    {
+     "material": "water",
+     "value": 6,
+     "unit": "kg",
+     "basis": "batch",
+     "basisNote": "per-1 m³ label conflicts with the 247.06 kg total; yield/unit unresolved",
+     "text": "Source-reported mortar quantities: Sand 160 kg; FA 53 kg; combined activator 27 kg; water 6 kg; admixture 1.06 kg"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "NaOH share of the combined activator is not split out",
+     "text": "Activator: 12 M NaOH solution : R140 silicate solution = 1:2.5; ratio basis unresolved"
+    },
+    {
+     "material": "ss",
+     "value": null,
+     "missing": "silicate share of the combined activator is not split out",
+     "text": "Activator: 12 M NaOH solution : R140 silicate solution = 1:2.5; ratio basis unresolved"
+    },
+    {
+     "material": "pce",
+     "value": 2,
+     "unit": "wt%",
+     "basis": "precursor-mass",
+     "text": "Admixtures: M, NF, AP or PC, each 2% of FA; separate conditions"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "hydroxide-molarity",
+     "value": 12,
+     "text": "Activator: 12 M NaOH solution : R140 silicate solution = 1:2.5; ratio basis unresolved"
+    },
+    {
+     "key": "silicate/hydroxide",
+     "value": 2.5,
+     "basisNote": "basis not stated",
+     "text": "Activator: 12 M NaOH solution : R140 silicate solution = 1:2.5; ratio basis unresolved"
+    }
+   ],
+   "missing": [
+    "each variant is tested under two curing histories (ambient and 70 °C/24 h); no single cure applies"
+   ]
+  }
+ ],
+ "cures": [
+  {
+   "id": "amb",
+   "category": "ambient",
+   "temperatureC": 20,
+   "duration": null,
+   "durationUnit": null,
+   "sealed": null,
+   "humidityPercent": null,
+   "text": "Ambient about 20 °C versus immediate 70 °C/24 h heating"
+  },
+  {
+   "id": "heat",
+   "category": "heat",
+   "temperatureC": 70,
+   "duration": 24,
+   "durationUnit": "h",
+   "sealed": null,
+   "humidityPercent": null,
+   "text": "Ambient about 20 °C versus immediate 70 °C/24 h heating"
+  }
+ ],
+ "tests": [],
+ "results": [],
+ "findings": [
+  {
+   "goal": "Strength and consistency together",
+   "mix": "AP",
+   "text": "AP is the authors’ strength/consistency candidate"
+  },
+  {
+   "goal": "Largest viscosity reduction",
+   "mix": "NF",
+   "text": "NF maximizes viscosity reduction with an air penalty"
+  }
+ ],
+ "notes": [
+  {
+   "mix": "NF",
+   "kind": "tradeoff",
+   "text": "NF lowers viscosity but entrains more air"
+  }
+ ],
+ "gaps": [
+  "No compressive, flexural, flow, viscosity or air values are given in the review notes; results are not transcribed.",
+  "The source labels the ledger per 1 m³ although it totals 247.06 kg; the amounts are entered as kg per batch with that conflict noted.",
+  "The combined activator is not split into NaOH and silicate masses, and the 1:2.5 ratio basis is unresolved.",
+  "The shared ledger (with admixture 1.06 kg) is attached to all four variants; no admixture-free reference is labelled in the notes.",
+  "Commercial SP identity/solids, moisture corrections and post-heating storage are unresolved."
+ ]
+}

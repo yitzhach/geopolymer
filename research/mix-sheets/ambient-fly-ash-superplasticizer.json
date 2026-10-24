@@ -1,0 +1,82 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "ambient-fly-ash-superplasticizer",
+ "doi": "10.3390/ma9070586",
+ "basis": "review-note",
+ "scope": "Mixes named in the existing deep-dive review only: the paste and mortar references and the PCE_1 mortar variant; the paper's other superplasticizer conditions and all strength/flow values are not transcribed.",
+ "made": "2026-10-24",
+ "madeBy": "AI transcription · mix-sheet skill v1",
+ "materials": [
+  {"id": "fa", "family": "fly-ash", "role": "precursor", "name": "carbon fly ash", "aliases": ["FA"]},
+  {"id": "ss", "family": "sodium-silicate-solution", "role": "activator", "name": "silicate solution"},
+  {"id": "naoh", "family": "sodium-hydroxide", "role": "activator", "name": "NaOH solution", "detail": "8 M NaOH solution"},
+  {"id": "sand", "family": "sand", "role": "aggregate", "name": "sand"},
+  {"id": "water", "family": "water", "role": "water", "name": "added water"},
+  {"id": "pce1", "family": "superplasticizer", "role": "additive", "name": "PCE_1", "aliases": ["PCE"]}
+ ],
+ "mixes": [
+  {
+   "id": "paste-ref",
+   "aliases": ["Paste reference"],
+   "control": true,
+   "form": "paste",
+   "cure": null,
+   "quantities": [
+    {"material": "fa", "value": 65.7, "unit": "wt%", "basis": "total-mass", "text": "Paste reference, wt%: FA 65.7; silicate solution 24.7; 8 M NaOH solution 5.0; added water 4.6"},
+    {"material": "ss", "value": 24.7, "unit": "wt%", "basis": "total-mass", "text": "Paste reference, wt%: FA 65.7; silicate solution 24.7; 8 M NaOH solution 5.0; added water 4.6"},
+    {"material": "naoh", "value": 5.0, "unit": "wt%", "basis": "total-mass", "text": "Paste reference, wt%: FA 65.7; silicate solution 24.7; 8 M NaOH solution 5.0; added water 4.6"},
+    {"material": "water", "value": 4.6, "unit": "wt%", "basis": "total-mass", "text": "Paste reference, wt%: FA 65.7; silicate solution 24.7; 8 M NaOH solution 5.0; added water 4.6"}
+   ],
+   "parameters": [
+    {"key": "hydroxide-molarity", "value": 8, "text": "Paste reference, wt%: FA 65.7; silicate solution 24.7; 8 M NaOH solution 5.0; added water 4.6"}
+   ],
+   "missing": ["paste curing regime and test ages are not stated in the review notes"]
+  },
+  {
+   "id": "mortar-ref",
+   "aliases": ["Mortar reference"],
+   "control": true,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {"material": "fa", "value": 23.8, "unit": "wt%", "basis": "total-mass", "text": "Mortar reference, wt%: FA 23.8; silicate solution 9.0; 8 M NaOH solution 1.8; sand 64.3; added water 1.1"},
+    {"material": "ss", "value": 9.0, "unit": "wt%", "basis": "total-mass", "text": "Mortar reference, wt%: FA 23.8; silicate solution 9.0; 8 M NaOH solution 1.8; sand 64.3; added water 1.1"},
+    {"material": "naoh", "value": 1.8, "unit": "wt%", "basis": "total-mass", "text": "Mortar reference, wt%: FA 23.8; silicate solution 9.0; 8 M NaOH solution 1.8; sand 64.3; added water 1.1"},
+    {"material": "sand", "value": 64.3, "unit": "wt%", "basis": "total-mass", "text": "Mortar reference, wt%: FA 23.8; silicate solution 9.0; 8 M NaOH solution 1.8; sand 64.3; added water 1.1"},
+    {"material": "water", "value": 1.1, "unit": "wt%", "basis": "total-mass", "text": "Mortar reference, wt%: FA 23.8; silicate solution 9.0; 8 M NaOH solution 1.8; sand 64.3; added water 1.1"}
+   ],
+   "parameters": [
+    {"key": "hydroxide-molarity", "value": 8, "text": "Mortar reference, wt%: FA 23.8; silicate solution 9.0; 8 M NaOH solution 1.8; sand 64.3; added water 1.1"}
+   ]
+  },
+  {
+   "id": "PCE_1",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "baseMix": "mortar-ref",
+   "baseText": "PCE_1 addition: 1.0% of FA; separate additive, not 1% of total mortar",
+   "quantities": [
+    {"material": "pce1", "value": 1.0, "unit": "wt%", "basis": "precursor-mass", "text": "PCE_1 addition: 1.0% of FA; separate additive, not 1% of total mortar"}
+   ],
+   "parameters": [],
+   "missing": ["whether 1.0% is commercial product or active polymer solids is unconfirmed"]
+  }
+ ],
+ "cures": [
+  {"id": "c1", "category": "ambient", "temperatureC": 23, "duration": 24, "durationUnit": "h", "sealed": true, "humidityPercent": null, "text": "bagged 23 ± 2 °C, demold 24 h, same conditions another 27 days"}
+ ],
+ "tests": [],
+ "results": [],
+ "findings": [
+  {"goal": "Workability without a final-strength penalty", "mix": "PCE_1", "text": "PCE_1 is a workability candidate; keep paste and mortar ledgers separate"}
+ ],
+ "notes": [],
+ "gaps": [
+  "No strength, flow or setting values are given in the review notes; results are not transcribed.",
+  "The paper's other superplasticizer conditions are not labelled in the notes and are not covered.",
+  "Commercial SP as-supplied versus active-solids dose and its water contribution are unconfirmed.",
+  "The PCE_1 variant is assumed to inherit the mortar reference; the notes give the dose on FA only. Confirm.",
+  "Paste curing regime, specimen/test ages and uncertainty are unextracted."
+ ]
+}
