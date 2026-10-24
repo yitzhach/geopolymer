@@ -1,0 +1,164 @@
+{
+  "lane": "B",
+  "date": "2026-10-24",
+  "focus": "metakaolin-based geopolymer pastes, mortars and coatings",
+  "access_note": "Publisher, PMC and DOAJ hosts (mdpi.com, pmc.ncbi.nlm.nih.gov, doaj.org, doi.org) returned 403 from the egress proxy, so no landing page could be opened in this session. Licence and mix-table fields are therefore 'unknown' or 'not checked' unless stated. Leads are metadata only, from search results.",
+  "queries": [
+    "metakaolin geopolymer mix proportions table open access CC BY kg/m3",
+    "metakaolin-based geopolymer mortar mix design table sodium silicate NaOH ratio open access journal",
+    "geopolymer coating metakaolin paste mix composition table MDPI open access",
+    "metakaolin geopolymer repair mortar mix proportions Materials MDPI 2024 2025",
+    "metakaolin geopolymer paste Scientific Reports mix proportions table Creative Commons",
+    "metakaolin geopolymer Heliyon mix design table kg/m3 open access",
+    "metakaolin-based geopolymer Case Studies in Construction Materials mix proportions table",
+    "mdpi Coatings metakaolin geopolymer coating mix ratio table",
+    "\"metakaolin\" geopolymer 10.1038/s41598-025 silica fume addition technique 12 M NaOH mix",
+    "Open Engineering 2022 metakaolin geopolymer concrete kaolin calcined 700 mix table De Gruyter",
+    "metakaolin geopolymer mortar Case Studies in Construction Materials 2024 Amar potassium silicate GGBS mix design",
+    "one-part metakaolin geopolymer powder mix water glass sodium metasilicate mix composition table 2025 open access article",
+    "metakaolin geopolymer concrete ambient cured Journal of Engineering and Applied Sciences mix design table kg/m3 Nigeria",
+    "metakaolin geopolymer fire resistant coating paste mix table doi 10.3390 coatings OR polymers 2024",
+    "metakaolin geopolymer mortar 10.3390 doi open access 2024 table mix proportions sand binder ratio activator",
+    "metakaolin geopolymer paste sodium silicate sodium hydroxide molar ratio table 10.1016 open access CC BY 4.0 2024 2025"
+  ],
+  "candidates": [
+    {
+      "doi": "10.3390/min14080823",
+      "title": "The Role of Water Content and Binder to Aggregate Ratio on the Performance of Metakaolin-Based Geopolymer Mortars",
+      "year": 2024,
+      "journal": "Minerals",
+      "url": "https://doi.org/10.3390/min14080823",
+      "licence": "CC BY (search summary only, not seen on the article page)",
+      "openAccess": null,
+      "mixTable": "not checked (article page not opened)",
+      "precursors": ["metakaolin"],
+      "topic": "water content and binder-to-aggregate ratio in metakaolin mortars",
+      "query": "metakaolin geopolymer mortar 10.3390 doi open access 2024 table mix proportions sand binder ratio activator",
+      "checked": "2026-10-24",
+      "notes": "Title and DOI taken from a search summary of the citation, not from the page. A repository copy was named in the search results: publikationen.bibliothek.kit.edu/1000174939/155007014."
+    },
+    {
+      "doi": "10.1186/s40069-022-00510-2",
+      "title": null,
+      "year": 2022,
+      "journal": "International Journal of Concrete Structures and Materials",
+      "url": "https://ijcsm.springeropen.com/articles/10.1186/s40069-022-00510-2/tables/2",
+      "licence": "unknown",
+      "openAccess": null,
+      "mixTable": "Table 2 (seen in a search result only: mixing proportions by Si/Al ratio and silica fume addition, reported on a wt% basis; not verified on the page)",
+      "precursors": ["metakaolin", "silica fume"],
+      "topic": "silica fume in metakaolin geopolymers at different Si/Al ratios",
+      "query": "\"metakaolin\" geopolymer 10.1038/s41598-025 silica fume addition technique 12 M NaOH mix",
+      "checked": "2026-10-24",
+      "notes": "Title not captured. Year taken from the DOI string. Confirm the table units and that the specimens are paste or mortar, not concrete."
+    }
+  ],
+  "unresolved": [
+    {
+      "doi": null,
+      "title": "Solid-to-Liquid Ratio Influenced on Adhesion Strength of Metakaolin Geopolymer Coating Paste Added Photocatalyst Materials",
+      "year": 2023,
+      "journal": "Coatings",
+      "url": "https://www.mdpi.com/2079-6412/13/2/236",
+      "reason": "DOI not seen; article page blocked (403)",
+      "notes": "Coating paste with NaOH plus sodium silicate activator and TiO2/ZnO additives. Search summary said the composition table was not visible. Candidate for the next session if mdpi.com is allowed.",
+      "query": "mdpi Coatings metakaolin geopolymer coating mix ratio table",
+      "checked": "2026-10-24"
+    },
+    {
+      "doi": null,
+      "title": null,
+      "year": 2024,
+      "journal": "Coatings",
+      "url": "https://www.mdpi.com/2079-6412/14/1/146",
+      "reason": "DOI not seen; article page blocked (403)",
+      "notes": "Spray-applied fire-resistant geopolymer coating on carbon steel with metakaolin, a potassium activator, silica fume, sand, fibres and aluminium powder. Search snippet said Table 1 lists the compositions but cut off before the values. Not in the repo by DOI pattern or title.",
+      "query": "metakaolin geopolymer fire resistant coating paste mix table doi 10.3390 coatings OR polymers 2024",
+      "checked": "2026-10-24"
+    },
+    {
+      "doi": null,
+      "title": "Influence of silica-fume's addition technique and curing conditions on microstructure, physical and mechanical properties of geopolymer",
+      "year": 2025,
+      "journal": "Scientific Reports",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12586575/",
+      "reason": "DOI not seen on a readable page; article page blocked",
+      "notes": "Silica fume dissolved in 12 M NaOH before mixing with metakaolin. A search summary gave the DOI 10.1038/s41598-025-23157-x, but it did not appear in any result text, so it is not recorded here as a DOI. Mix table and licence not checked. Also listed at doaj.org/article/8eee96290eef47bfbb323549ed5ef8c8.",
+      "query": "\"metakaolin\" geopolymer 10.1038/s41598-025 silica fume addition technique 12 M NaOH mix",
+      "checked": "2026-10-24"
+    },
+    {
+      "doi": null,
+      "title": "The Impact of Molar Proportion of Sodium Hydroxide and Water Amount (title truncated; full title on the landing page)",
+      "year": 2022,
+      "journal": "Advances in Civil Engineering",
+      "url": "https://researchonline.ljmu.ac.uk/id/eprint/18601/",
+      "reason": "DOI not seen on a readable page; article page blocked",
+      "notes": "Slag-dominant mortar (95% slag, 5% metakaolin per search summary), so it may be out of focus. A search summary gave the DOI 10.1155/2022/5910701 for what appears to be the same study; unverified. Also listed at doaj.org/article/0fe2026d0bf34b3980a899514705f8fa.",
+      "query": "metakaolin geopolymer mortar Case Studies in Construction Materials 2024 Amar potassium silicate GGBS mix design",
+      "checked": "2026-10-24"
+    },
+    {
+      "doi": null,
+      "title": "Investigation of the density, ultrasonic pulse velocity and strength properties of metakaolin based geopolymer mortars",
+      "year": null,
+      "journal": "Materials Research Forum",
+      "url": "https://mrforum.com/product/9781644903414-39/",
+      "reason": "DOI and licence not seen; access not checked",
+      "notes": "Metakaolin mortar. Year and access status unknown.",
+      "query": "metakaolin-based geopolymer mortar mix design table sodium silicate NaOH ratio open access journal",
+      "checked": "2026-10-24"
+    },
+    {
+      "doi": null,
+      "title": "Mix design formulation range for metakaolin-based geopolymer synthesis",
+      "year": 2022,
+      "journal": "REM - International Engineering Journal",
+      "url": "https://scielo.br/j/remi/a/6v4XctyWgHyYTysFfDNVpGM",
+      "reason": "DOI and licence not seen; article page blocked",
+      "notes": "Molar oxide ranges for a metakaolin, NaOH and sodium silicate paste per search summary. Not a kg/m3 table. Check whether a labelled table of molar ratios exists.",
+      "query": "metakaolin-based geopolymer mortar mix design table sodium silicate NaOH ratio open access journal",
+      "checked": "2026-10-24"
+    },
+    {
+      "doi": null,
+      "title": null,
+      "year": 2024,
+      "journal": "Case Studies in Construction Materials",
+      "url": "https://doaj.org/article/26bbe14b15bc416586911f5122486316",
+      "reason": "title and DOI not seen; article page blocked",
+      "notes": "Binder of metakaolin, GGBS and potassium silicate, per search summary. Whether it is paste or mortar is not confirmed. Mix table not seen.",
+      "query": "metakaolin-based geopolymer Case Studies in Construction Materials mix proportions table",
+      "checked": "2026-10-24"
+    },
+    {
+      "doi": null,
+      "title": null,
+      "year": null,
+      "journal": null,
+      "url": "https://ejournals.epublishing.ekt.gr/index.php/ta/article/download/37199/29731",
+      "reason": "title, journal, year, licence and table not seen",
+      "notes": "Metakaolin geopolymer mortar for textile-reinforced matrices; compares activator-to-precursor ratio and sand gradation, per search summary. Greek-authored; journal not identified.",
+      "query": "metakaolin geopolymer mortar 10.3390 doi open access 2024 table mix proportions sand binder ratio activator",
+      "checked": "2026-10-24"
+    },
+    {
+      "doi": "10.1051/matecconf/201710101021",
+      "title": null,
+      "year": 2017,
+      "journal": "MATEC Web of Conferences",
+      "url": "https://www.matec-conferences.org/10.1051/matecconf/201710101021",
+      "reason": "metakaolin content not confirmed; mix table not seen",
+      "notes": "Search summary gave CC BY 4.0 and a 10 M NaOH plus sodium silicate activator (ratio 2). Precursor not confirmed as metakaolin. DOI appears in the URL.",
+      "query": "metakaolin geopolymer paste sodium silicate sodium hydroxide molar ratio table 10.1016 open access CC BY 4.0 2024 2025",
+      "checked": "2026-10-24"
+    }
+  ],
+  "excluded": [
+    {"doi": "10.3390/ma16051889", "reason": "duplicate"},
+    {"doi": "10.3390/polym14050868", "reason": "duplicate"},
+    {"doi": "10.3390/molecules25122839", "reason": "duplicate"},
+    {"doi": "10.1007/s42452-022-05167-w", "reason": "duplicate"},
+    {"doi": "10.1007/s40069-013-0045-0", "reason": "not geopolymer"}
+  ]
+}
