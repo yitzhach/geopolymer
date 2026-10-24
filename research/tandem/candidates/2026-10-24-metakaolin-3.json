@@ -1,0 +1,213 @@
+{
+  "lane": "B",
+  "date": "2026-10-24",
+  "focus": "Metakaolin-based geopolymer pastes, mortars and coatings; additional discovery batch",
+  "queries": [
+    "metakaolin geopolymer mortar \"mix\" \"Table\" site:scielo.br",
+    "metakaolin geopolymer \"Table\" \"open access\" \"olivine\"",
+    "metakaolin geopolymer paste coating \"mix proportions\" -site:mdpi.com -site:pmc.ncbi.nlm.nih.gov -site:researchgate.net",
+    "metakaolin geopolymer coating \"Table\" \"mix\" site:scielo.br -SMWS5780",
+    "metakaolin geopolymer paste \"mix proportions\" \"open access\" -site:mdpi.com -site:pmc.ncbi.nlm.nih.gov -site:researchgate.net -site:scielo.br -32571 -05167 -1934627",
+    "metakaolin geopolymer mortar \"Table 2\" site:link.springer.com/article/ \"Open access\" -05167 -00084 -03163 -01721 -01469 -02670 -00063",
+    "metakaolin geopolymer coating \"mix\" \"Table\" site:frontiersin.org"
+  ],
+  "candidates": [
+    {
+      "doi": "10.1590/moan1380",
+      "title": "Effect of curing in an arid climate on the properties of metakaolin-based geopolymer mortar",
+      "year": 2025,
+      "journal": "Cerâmica",
+      "url": "https://www.scielo.br/j/ce/a/fBSzVhn6SdMJL5DZTNgbfpS/?format=html&lang=en",
+      "fullTextUrl": "https://www.scielo.br/j/ce/a/fBSzVhn6SdMJL5DZTNgbfpS/?format=html&lang=en",
+      "licence": "Creative Commons Attribution License (version not captured)",
+      "openAccess": true,
+      "mixTable": "Table II (mix IDs, ingredient quantities in g and kg/m3); Table III (activator molar ratios).",
+      "precursors": [
+        "metakaolin",
+        "silica fume"
+      ],
+      "topic": "Ambient versus solar curing of metakaolin mortars",
+      "query": "metakaolin geopolymer mortar \"mix\" \"Table\" site:scielo.br",
+      "checked": "2026-10-24",
+      "evidenceLevel": "table-rows-inspected",
+      "notes": "Table II header and labelled geopolymer rows inspected, including ME(Na+SF)/MS(Na+SF); OPC rows are controls. Licence statement inspected."
+    },
+    {
+      "doi": "10.1590/s1678-86212025000100845",
+      "title": "Effect of amorphous mineral aggregates on the consolidation of portland cement and geopolymer mortars under alkaline solutions",
+      "year": 2025,
+      "journal": "Ambiente Construído",
+      "url": "https://www.scielo.br/j/ac/a/q4L4DrZHHjn4gXHXchkP6LJ/?ilang=pt_BR&lang=en",
+      "fullTextUrl": "https://www.scielo.br/j/ac/a/q4L4DrZHHjn4gXHXchkP6LJ/?ilang=pt_BR&lang=en",
+      "licence": "Creative Commons Attribution License (version not captured)",
+      "openAccess": true,
+      "mixTable": "Table 4 (8M-A, 12M-A, 8M-B and 12M-B; binder, aggregate and solution quantities in kg/m3; water column labelled kg).",
+      "precursors": [
+        "metakaolin"
+      ],
+      "topic": "Aggregate reactivity in metakaolin geopolymer mortar",
+      "query": "metakaolin geopolymer mortar \"mix\" \"Table\" site:scielo.br",
+      "checked": "2026-10-24",
+      "evidenceLevel": "table-rows-inspected",
+      "notes": "Table 4 rows inspected. The water column's printed unit differs from the other columns and needs checking before extraction. Table 5 concerns Portland-cement controls."
+    },
+    {
+      "doi": "10.1590/gxbe3718",
+      "title": "Mechanical performance of geopolymer mortars from the incorporation of rice husk ash in metakaolin and sodium silicate",
+      "year": 2026,
+      "journal": "Cerâmica",
+      "url": "https://new.scielo.br/j/ce/a/Nqsqg5xLL3Vz5fZQXKNV9qj/?ilang=en&lang=en",
+      "fullTextUrl": "https://new.scielo.br/j/ce/a/Nqsqg5xLL3Vz5fZQXKNV9qj/?ilang=en&lang=en",
+      "licence": "Creative Commons Attribution License (version not captured)",
+      "openAccess": true,
+      "mixTable": "Table II (samples 1–4; metakaolin, rice husk ash, silicate, hydroxide solution and sand in g); Table III (composition and solid/liquid ratios).",
+      "precursors": [
+        "metakaolin",
+        "rice husk ash"
+      ],
+      "topic": "Rice-husk-ash substitution in metakaolin mortar",
+      "query": "metakaolin geopolymer mortar \"mix\" \"Table\" site:scielo.br",
+      "checked": "2026-10-24",
+      "evidenceLevel": "table-rows-inspected",
+      "notes": "Table II and III rows inspected; methods and results identify the molarity variants. Licence statement inspected. Metadata lead only; no quantities transcribed."
+    },
+    {
+      "doi": "10.1007/s40831-022-00557-1",
+      "title": "Preparation and Properties of Geopolymer Matrix Composites Containing Waste Olivine Sands from a Metallurgical Process",
+      "year": 2022,
+      "journal": "Journal of Sustainable Metallurgy",
+      "url": "https://link.springer.com/article/10.1007/s40831-022-00557-1",
+      "fullTextUrl": "https://link.springer.com/article/10.1007/s40831-022-00557-1",
+      "licence": "CC BY 4.0",
+      "openAccess": true,
+      "mixTable": "Table 2 (mix-proportion designs); surrounding methods and discussion identify OB75, OB125, OB150 and starred heat-treated-sand counterparts.",
+      "precursors": [
+        "metakaolin"
+      ],
+      "topic": "Waste-olivine fine aggregate in geopolymer paste composites",
+      "query": "metakaolin geopolymer \"Table\" \"open access\" \"olivine\"",
+      "checked": "2026-10-24",
+      "evidenceLevel": "caption-and-methods",
+      "notes": "Table caption and mix-label discussion inspected; individual Table 2 cells were not exposed by the reader. Olivine sand is an aggregate, not assumed to be a reactive precursor. Licence and year verified on the article page."
+    },
+    {
+      "doi": "10.3389/fmats.2026.1824942",
+      "title": "Mechanical properties and comprehensive evaluation of fly ash-metakaolin geopolymer mortar: combined effect of FA/MK ratio, NaOH concentration and curing condition",
+      "year": 2026,
+      "journal": "Frontiers in Materials",
+      "url": "https://www.frontiersin.org/journals/materials/articles/10.3389/fmats.2026.1824942/full",
+      "fullTextUrl": "https://www.frontiersin.org/journals/materials/articles/10.3389/fmats.2026.1824942/full",
+      "licence": "Creative Commons Attribution License (CC BY; version not captured)",
+      "openAccess": true,
+      "mixTable": "Table 2 (Fx-My-Nz-C specimen IDs; FA/MK, hydroxide/silicate, aggregate/binder and liquid/binder ratios, plus hydroxide molarity).",
+      "precursors": [
+        "metakaolin",
+        "fly ash"
+      ],
+      "topic": "Precursor ratio, activator concentration and mortar curing",
+      "query": "metakaolin geopolymer coating \"mix\" \"Table\" site:frontiersin.org",
+      "checked": "2026-10-24",
+      "evidenceLevel": "table-rows-inspected",
+      "notes": "Table 2 rows and unit/basis footnotes inspected. Includes pure metakaolin and MK-rich blends as well as fly-ash-rich comparators. Licence statement inspected."
+    },
+    {
+      "doi": "10.1007/s42247-026-01506-4",
+      "title": "Acid-activated geopolymer mortars: effects of the L/S ratio and precursor type on mechanical performance and sustainability",
+      "year": 2026,
+      "journal": "Emergent Materials",
+      "url": "https://link.springer.com/article/10.1007/s42247-026-01506-4",
+      "fullTextUrl": "https://link.springer.com/article/10.1007/s42247-026-01506-4",
+      "licence": "CC BY 4.0",
+      "openAccess": true,
+      "mixTable": "Table 6 (batch quantities indexed by liquid/solid ratio); Table 7 (corresponding metakaolin–iron-oxide mortar quantities).",
+      "precursors": [
+        "metakaolin",
+        "iron oxide"
+      ],
+      "topic": "Phosphate-activated metakaolin mortar design",
+      "query": "metakaolin geopolymer mortar \"Table 2\" site:link.springer.com/article/ \"Open access\" -05167 -00084 -03163 -01721 -01469 -02670 -00063",
+      "checked": "2026-10-24",
+      "evidenceLevel": "caption-and-methods",
+      "notes": "Table captions and the L/S-indexed experimental series inspected; individual cells were not exposed by the reader. Phosphoric-acid activation: keep separate from alkaline systems and calculator assumptions. Licence and publication year verified."
+    }
+  ],
+  "excluded": [
+    {
+      "doi": "10.1515/jmbm-2025-0072",
+      "reason": "access failed: publisher page could not be fetched"
+    },
+    {
+      "doi": "10.3389/fbuil.2022.991496",
+      "reason": "access failed: article could not be fetched"
+    },
+    {
+      "doi": "10.3389/fbuil.2026.1934627",
+      "reason": "outside selected focus: slag-dominant ternary paste; metakaolin is a minor co-binder"
+    },
+    {
+      "doi": "10.1155/2019/4212901",
+      "reason": "deferred: one paste recipe is tabulated, but no distinct mix ID verified; specimens subsequently ground for adsorption testing"
+    },
+    {
+      "doi": "10.3389/fbuil.2025.1620385",
+      "reason": "deferred: single GP formulation; fraction/percent header ambiguity and licence not verified within the operation cap"
+    },
+    {
+      "doi": "10.1590/smws5780",
+      "reason": "duplicate: existing candidate in PR #28"
+    },
+    {
+      "doi": "10.1590/0370-44672021750038",
+      "reason": "duplicate: existing lead in PR #28"
+    },
+    {
+      "doi": "10.1007/s42452-022-05167-w",
+      "reason": "duplicate"
+    },
+    {
+      "doi": "10.1617/s11527-025-02670-5",
+      "reason": "duplicate"
+    },
+    {
+      "doi": "10.1007/s40964-026-01721-9",
+      "reason": "duplicate: existing candidate in PR #28"
+    },
+    {
+      "doi": "10.1007/s42860-020-00084-8",
+      "reason": "duplicate: existing candidate in PR #28"
+    },
+    {
+      "doi": "10.1617/s11527-026-03163-9",
+      "reason": "duplicate: existing candidate in PR #28"
+    },
+    {
+      "doi": "10.3389/fmats.2026.1759190",
+      "reason": "duplicate: existing candidate in PR #29"
+    },
+    {
+      "doi": "10.1038/s41598-025-32571-0",
+      "reason": "duplicate: previously recorded deferred lead in PR #28"
+    }
+  ],
+  "unresolved": [
+    {
+      "doi": null,
+      "title": "DEVELOPMENT OF HIGH-PERFORMANCE GEOPOLYMER PASTE UTILIZING LOCALLY NANO-METAKAOLIN",
+      "url": "https://journals.utm.my/jurnalteknologi/article/view/24024",
+      "reason": "Landing page opened but PDF fetch failed; DOI and mix-table locator not verified."
+    }
+  ],
+  "verification": {
+    "baseCommit": "aa7c2d3f3b43a5dfdb73e2d47c6cee8d054bb2ce",
+    "searchFetchOperations": 40,
+    "operationBreakdown": {
+      "searchQueries": 7,
+      "pageOpens": 19,
+      "finds": 12,
+      "clicks": 2
+    },
+    "tableRowsInspected": 4,
+    "captionAndMethodsOnly": 2,
+    "note": "Metadata and short locators only. No full tables, abstracts, source quantities or complete-protocol claims."
+  }
+}
