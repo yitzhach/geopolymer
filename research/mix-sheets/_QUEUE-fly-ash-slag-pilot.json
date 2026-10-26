@@ -51,7 +51,8 @@
    "guideId": "red-mud-egc-strength-ductility",
    "doi": "10.3390/polym18182271",
    "why": "fly ash + slag ECC; red mud",
-   "skip": "No label: ten mix ledgers are referenced but not named; binder fractions are ranges."
+   "skip": "No label: ten mix ledgers are referenced but not named; binder fractions are ranges.",
+   "sheet": "source-text 2026-10-26"
   },
   {
    "guideId": "recycled-concrete-hybrid-fiber-map",
@@ -63,7 +64,8 @@
    "guideId": "pas-prefoam-volume-thermal",
    "doi": "10.3390/ma15124085",
    "why": "fly ash + slag foam",
-   "skip": "No label: volume ratios only."
+   "skip": "No label: volume ratios only.",
+   "sheet": "source-text 2026-10-26"
   },
   {
    "guideId": "fa-ggbs-acid-strength-compromise",
@@ -74,7 +76,8 @@
    "guideId": "carbonated-fa-slag-gel-products",
    "doi": "10.3390/ma17071491",
    "why": "fly ash + slag; carbonation",
-   "skip": "No label: unnamed 100:0/70:30/0:100 series; \"FA alone\" has no composition in the notes."
+   "skip": "No label: unnamed 100:0/70:30/0:100 series; \"FA alone\" has no composition in the notes.",
+   "sheet": "source-text 2026-10-26"
   },
   {
    "guideId": "lowalkali-fa-slag-cure-model",
@@ -112,7 +115,8 @@
    "guideId": "aircooled-slag-milling-activation",
    "doi": "10.3390/ma13051134",
    "why": "slag; milling",
-   "skip": "No label: 54 unlabelled variants; results describe the activated slag as a class."
+   "skip": "No label: 54 unlabelled variants; results describe the activated slag as a class.",
+   "sheet": "source-text 2026-10-26"
   },
   {
    "guideId": "tailings-gangue-slag-rsm",
@@ -133,7 +137,8 @@
    "guideId": "lithium-slag-shrinkage-model-hold",
    "doi": "10.3390/ma18204766",
    "why": "lithium slag; shrinkage",
-   "skip": "No label: only ranges."
+   "skip": "No label: only ranges.",
+   "sheet": "source-text 2026-10-26"
   }
  ],
  "note": "Skips need the paper itself (source-text mode) to recover mix labels and numbers; the review notes do not name these conditions."

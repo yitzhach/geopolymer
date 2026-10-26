@@ -3,7 +3,7 @@ name: mix-sheet
 description: Add or fix mix sheets — typed, source-quoted mix data for the Mix Explorer (/mixes) — by converting a deep dive's already-reviewed notes into research/mix-sheets/<guideId>.json and validating it. Use when asked to continue the mix table, add mix sheets, work the mix-sheet queue, or fix a failing sheet.
 ---
 
-# Mix sheet skill (v1.1, review-note mode)
+# Mix sheet skill (v1.2: review-note mode; source-text mode at the end)
 
 You turn notes that are already reviewed and published on the site into structured mix data.
 You do **not** open papers, search the web or change site code. A checker verifies your work;
@@ -171,6 +171,21 @@ from the context, mixes not covered. Always at least one.
 | warning `age … is not visible` | Add `ageText`. |
 
 The two worked examples pass with 0 and 3 warnings; warnings never block a sheet.
+
+## Source-text mode (v1.2, stronger model only)
+
+Only when the owner has approved it for the batch. Follow "Source-text procedure" in
+`MIX_SHEET_STANDARD.md` and the research access rules (≤5 papers, ≤40 operations, audit file in
+`research/batches/`). Differences from review-note mode:
+
+- `"basis": "source-text"` plus `sourceUrl` (the PMC article), `accessed` and `audit`;
+  `"madeBy": "AI transcription · mix-sheet skill v1 (source-text pilot)"` or later label.
+- Labels are the paper's own mix IDs (Table 2 `G50F50R0`, `RG/L-1.5`, `N-30`); text forms such as
+  `RG/L = 3` may be aliases when a result sentence uses them.
+- `check` cannot ground these quotes in the repository; the grounding check and the second
+  review (standard, steps 6–7) replace it. Keep the queue entry's `skip` and add
+  `"sheet": "source-text <date>"` so the queue shows it was recovered.
+- Expect some papers to yield designs only: results printed only in figures are not read.
 
 ## Finish (once per batch)
 

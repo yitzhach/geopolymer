@@ -1,6 +1,6 @@
 # Mix sheet standard
 
-Version `mix-sheet-v1` (rules revised 23 October 2026 after two test runs by a smaller model). Applies to every file in `research/mix-sheets/`.
+Version `mix-sheet-v1` (rules revised 23 October 2026 after two test runs by a smaller model; source-text procedure added 26 October 2026). Applies to every file in `research/mix-sheets/`.
 The step-by-step runbook is `.claude/skills/mix-sheet/SKILL.md`.
 
 ## Purpose
@@ -93,6 +93,39 @@ Closed vocabularies live in `src/mix-table.js`: `FAMILIES` (material family → 
    gets no sheet; neither does a guide on a correction hold or one without its own physical mixes.
 8. **Partial is normal.** `scope` says which mixes are covered; `gaps` says what is missing.
 9. **No model names** in any repository file; use the tool label above.
+
+## Source-text procedure (pilot, 26 October 2026)
+
+Proven on five skipped fly-ash/slag guides; record in
+`research/batches/source-text-pilot-2026-10-26.json`.
+
+1. **Route.** Look up the DOI in the Europe PMC REST search (`www.ebi.ac.uk/europepmc/webservices/rest/search`,
+   one query for the whole batch) to get the PMC id, open-access flag and licence. Read the paper
+   from `pmc.ncbi.nlm.nih.gov/articles/<PMCID>/`. Publisher pages that refuse automated access
+   (MDPI answers "Access Denied" from its CDN) are not retried or worked around; a paper with no
+   open PMC copy is recorded as access failed and deferred.
+2. **Rights.** Only open-access papers whose licence permits quotation (CC BY in the pilot). The
+   downloaded page and its text extraction stay in the session scratch folder and are deleted at
+   the end; the repository keeps only the short quotes that carry each value.
+3. **Bound.** Every paper opened counts toward the five-paper batch, including one later
+   judged to have no usable numbers; do not swap in a sixth paper.
+4. **Quotes.** Prose: an exact fragment of the paper. Tables: a mechanical join of the table's
+   number, caption, header cells and the row's cells, in the form
+   `Table N (caption): header | header → cell | cell`. A cell that spans several rows or columns
+   in the source is quoted once and marked (`column spanning all ten rows`, `one cell spanning
+   G-0, G-1 and G-2`). In a design matrix whose labels sit under column headers, the quote joins
+   the row cells with that column's header and a gap explains the reading.
+5. **No hand typing.** Generate the sheet from the extracted table cells with a script so values
+   are copied, not retyped. Values read off figures are never entered; text ranges without a mix
+   label stay in `gaps`.
+6. **Grounding check.** Before review, confirm every prose quote occurs verbatim in the
+   extraction and every table-quote cell is a real table cell.
+7. **Second review.** An independent reviewer, given the attribution listing
+   (`check --audit`) and the extraction, checks every value against the row/column or sentence
+   of the source for the right mix, property, age and cure. Fix or remove each disputed value,
+   record the review in the batch audit, then release. AI review is not human/domain review.
+8. **Source contradictions** (row counts that differ from the text, ratio labels that do not
+   match the table, misnamed tables) go into `gaps` verbatim; the sheet never repairs them.
 
 ## What the checker enforces
 

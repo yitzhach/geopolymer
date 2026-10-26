@@ -1,0 +1,2996 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "aircooled-slag-milling-activation",
+ "doi": "10.3390/ma13051134",
+ "basis": "source-text",
+ "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7085006/",
+ "accessed": "2026-10-26",
+ "audit": "research/batches/source-text-pilot-2026-10-26.json",
+ "scope": "All 54 labelled mortars of the Table 2 full-factorial design (27 MCA-ACBFS, 27 GGBFS; w/b 0.45/0.5/0.55 × alkali modulus 1/1.5/2 × SS 10/15/20 wt.%). Strength and slump-flow results are reported only in figures, so no per-mix results are transcribed.",
+ "made": "2026-10-26",
+ "madeBy": "AI transcription · mix-sheet skill v1 (source-text pilot)",
+ "materials": [
+  {
+   "id": "acbfs",
+   "family": "slag",
+   "role": "precursor",
+   "name": "Mechanically activated ACBFS",
+   "aliases": [
+    "MCA-ACBFS",
+    "ACBFS"
+   ],
+   "detail": "The rotation speed was 500 rpm. Ball to powder ratio of 25 and grinding duration of 20 min were used for all grindings."
+  },
+  {
+   "id": "ggbfs",
+   "family": "slag",
+   "role": "precursor",
+   "name": "GGBFS",
+   "detail": "ACBFS and water-cooled GGBFS were used as precursors for this study. Both materials originated from the same source."
+  },
+  {
+   "id": "sand",
+   "family": "sand",
+   "role": "aggregate",
+   "name": "sand"
+  },
+  {
+   "id": "ss",
+   "family": "sodium-silicate-solution",
+   "role": "activator",
+   "name": "liquid sodium silicate",
+   "aliases": [
+    "SS"
+   ],
+   "detail": "The SS had an alkali modulus (AM, mass ratio SiO2/Na2O) of 2.2, with 34.37 wt.% of SiO2, 15.6 wt.% of Na2O and a solid content of 49.97 wt.%."
+  },
+  {
+   "id": "naoh",
+   "family": "sodium-hydroxide",
+   "role": "activator",
+   "name": "sodium hydroxide pellets",
+   "detail": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+  }
+ ],
+ "mixes": [
+  {
+   "id": "A45110",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 10 | A45110"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 10 | A45110"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.45,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 10 | A45110"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 10 | A45110"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A5110",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 10 | A5110"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 10 | A5110"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.5,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 10 | A5110"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 10 | A5110"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A55110",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 10 | A55110"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 10 | A55110"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 10 | A55110"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 10 | A55110"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G45110",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 10 | G45110"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 10 | G45110"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.45,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 10 | G45110"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 10 | G45110"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G5110",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 10 | G5110"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 10 | G5110"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.5,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 10 | G5110"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 10 | G5110"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G55110",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 10 | G55110"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 10 | G55110"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 10 | G55110"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 10 | G55110"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A45115",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 15 | A45115"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 15 | A45115"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.45,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 15 | A45115"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 15 | A45115"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A5115",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 15 | A5115"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 15 | A5115"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.5,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 15 | A5115"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 15 | A5115"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A55115",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 15 | A55115"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 15 | A55115"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 15 | A55115"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 15 | A55115"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G45115",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 15 | G45115"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 15 | G45115"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.45,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 15 | G45115"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 15 | G45115"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G5115",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 15 | G5115"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 15 | G5115"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.5,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 15 | G5115"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 15 | G5115"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G55115",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 15 | G55115"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 15 | G55115"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 15 | G55115"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 15 | G55115"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A45120",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 20 | A45120"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 20,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 20 | A45120"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.45,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 20 | A45120"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 20 | A45120"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A5120",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 20 | A5120"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 20,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 20 | A5120"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.5,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 20 | A5120"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 20 | A5120"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A55120",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 20 | A55120"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 20,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 20 | A55120"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 20 | A55120"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 20 | A55120"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G45120",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 20 | G45120"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 20,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 20 | G45120"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.45,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 20 | G45120"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 20 | G45120"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G5120",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 20 | G5120"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 20,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 20 | G5120"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.5,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 20 | G5120"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 20 | G5120"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G55120",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 20 | G55120"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 20,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 20 | G55120"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 20 | G55120"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 20 | G55120"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A451510",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 10 | A451510"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 10 | A451510"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.45,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 10 | A451510"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.5,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 10 | A451510"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A51510",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 10 | A51510"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 10 | A51510"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.5,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 10 | A51510"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.5,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 10 | A51510"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A551510",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 10 | A551510"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 10 | A551510"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 10 | A551510"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.5,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 10 | A551510"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G451510",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 10 | G451510"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 10 | G451510"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.45,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 10 | G451510"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.5,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 10 | G451510"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G51510",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 10 | G51510"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 10 | G51510"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.5,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 10 | G51510"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.5,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 10 | G51510"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G551510",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 10 | G551510"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 10 | G551510"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 10 | G551510"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.5,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 10 | G551510"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A451515",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 15 | A451515"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 15 | A451515"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.45,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 15 | A451515"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.5,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 15 | A451515"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A51515",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 15 | A51515"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 15 | A51515"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.5,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 15 | A51515"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.5,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 15 | A51515"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A551515",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 15 | A551515"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 15 | A551515"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 15 | A551515"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.5,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 15 | A551515"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G451515",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 15 | G451515"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 15 | G451515"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.45,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 15 | G451515"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.5,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 15 | G451515"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G51515",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 15 | G51515"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 15 | G51515"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.5,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 15 | G51515"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.5,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 15 | G51515"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G551515",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 15 | G551515"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 15 | G551515"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 15 | G551515"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.5,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 15 | G551515"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A451520",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 20 | A451520"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 20,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 20 | A451520"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.45,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 20 | A451520"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.5,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 20 | A451520"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A51520",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 20 | A51520"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 20,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 20 | A51520"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.5,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 20 | A51520"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.5,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 20 | A51520"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A551520",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 20 | A551520"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 20,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 20 | A551520"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 20 | A551520"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.5,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 20 | A551520"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G451520",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 20 | G451520"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 20,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 20 | G451520"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.45,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 20 | G451520"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.5,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 20 | G451520"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G51520",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 20 | G51520"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 20,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 20 | G51520"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.5,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 20 | G51520"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.5,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 20 | G51520"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G551520",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 20 | G551520"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 20,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 20 | G551520"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 20 | G551520"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.5,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 20 | G551520"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A45210",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 10 | A45210"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 10 | A45210"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.45,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 10 | A45210"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 2,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 10 | A45210"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A5210",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 10 | A5210"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 10 | A5210"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.5,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 10 | A5210"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 2,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 10 | A5210"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A55210",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 10 | A55210"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 10 | A55210"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 10 | A55210"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 2,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 10 | A55210"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G45210",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 10 | G45210"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 10 | G45210"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.45,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 10 | G45210"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 2,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 10 | G45210"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G5210",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 10 | G5210"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 10 | G5210"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.5,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 10 | G5210"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 2,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 10 | G5210"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G55210",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 10 | G55210"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 10 | G55210"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 10 | G55210"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 2,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 10 | G55210"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A45215",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 15 | A45215"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 15 | A45215"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.45,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 15 | A45215"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 2,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 15 | A45215"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A5215",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 15 | A5215"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 15 | A5215"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.5,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 15 | A5215"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 2,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 15 | A5215"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A55215",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 15 | A55215"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 15 | A55215"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 15 | A55215"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 2,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 15 | A55215"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G45215",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 15 | G45215"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 15 | G45215"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.45,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 15 | G45215"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 2,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 15 | G45215"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G5215",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 15 | G5215"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 15 | G5215"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.5,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 15 | G5215"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 2,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 15 | G5215"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G55215",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 15 | G55215"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 15 | G55215"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 15 | G55215"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 2,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 15 | G55215"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A45220",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 20 | A45220"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 20,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 20 | A45220"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.45,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 20 | A45220"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 2,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 20 | A45220"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A5220",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 20 | A5220"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 20,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 20 | A5220"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.5,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 20 | A5220"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 2,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 20 | A5220"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "A55220",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "acbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 20 | A55220"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 20,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 20 | A55220"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 20 | A55220"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 2,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 20 | A55220"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G45220",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 20 | G45220"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 20,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 20 | G45220"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.45,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 20 | G45220"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 2,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 20 | G45220"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G5220",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 20 | G5220"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 20,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 20 | G5220"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.5,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 20 | G5220"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 2,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 20 | G5220"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  },
+  {
+   "id": "G55220",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbfs",
+     "value": null,
+     "missing": "sole precursor; mass not tabulated",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 20 | G55220"
+    },
+    {
+     "material": "sand",
+     "value": null,
+     "missing": "sand:slag fixed at 1:1 by mass; batch masses not tabulated",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    },
+    {
+     "material": "ss",
+     "value": 20,
+     "unit": "wt%",
+     "basis": "binder-as-defined",
+     "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 20 | G55220"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "pellet mass used to adjust the modulus is not given",
+     "text": "The AM of the SS was adjusted to reach three different values of 1, 1.5 and 2.0 by addition of sodium hydroxide pellets (98% purity)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 20 | G55220"
+    },
+    {
+     "key": "activator-modulus",
+     "value": 2,
+     "basisNote": "mass ratio SiO2/Na2O, not molar",
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 20 | G55220"
+    },
+    {
+     "key": "sand/binder",
+     "value": 1,
+     "basisNote": "sand to slag mass ratio",
+     "text": "The mass ratio of sand to slag was kept constant at 1:1."
+    }
+   ]
+  }
+ ],
+ "cures": [
+  {
+   "id": "c1",
+   "category": "ambient",
+   "temperatureC": null,
+   "duration": null,
+   "durationUnit": null,
+   "sealed": null,
+   "humidityPercent": null,
+   "text": "After demolding, all samples were stored in plastic boxes exposed to laboratory conditions until testing."
+  }
+ ],
+ "tests": [],
+ "results": [],
+ "findings": [],
+ "notes": [],
+ "gaps": [
+  "Each mix quote joins the Table 2 row cells (alkali modulus, SS wt.%, label) with the column header (precursor, water/binder) that the label sits under; the label codes (e.g. A45110 = ACBFS, w/b 0.45, AM 1, SS 10%) confirm the reading.",
+  "Mortar made with untreated ACBFS did not solidify and has no label ('Mortar, produced using only the not-treated ACBFS as a precursor, did not solidified.').",
+  "Per-mix 7- and 28-day strength and mini-slump flow appear only in Figures 6–9; the text gives group ranges (MCA-ACBFS 20–40 MPa, GGBFS 20–30 MPa at AM 1 and SS 10%) without mix labels.",
+  "The printed mill ball diameter (200 mm in a 500 mL jar) is inconsistent and stays held, as in the deep dive.",
+  "Every value awaits the second-reviewer check recorded in the batch audit before release."
+ ]
+}

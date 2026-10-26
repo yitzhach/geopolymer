@@ -1,0 +1,1707 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "red-mud-egc-strength-ductility",
+ "doi": "10.3390/polym18182271",
+ "basis": "source-text",
+ "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13611231/",
+ "accessed": "2026-10-26",
+ "audit": "research/batches/source-text-pilot-2026-10-26.json",
+ "scope": "All ten mixes of Table 2 (kg/m3) with the fixed design ratios; 28-day compressive strength and elastic modulus (Table 3), tensile strength and ultimate tensile strain (Table 5), and the two flow values stated in the text. First-cracking strength, peak strain, strain energy and crack-pattern data are not transcribed.",
+ "made": "2026-10-26",
+ "madeBy": "AI transcription · mix-sheet skill v1 (source-text pilot)",
+ "materials": [
+  {
+   "id": "ggbs",
+   "family": "slag",
+   "role": "precursor",
+   "name": "ground granulated blast-furnace slag",
+   "aliases": [
+    "GGBS"
+   ]
+  },
+  {
+   "id": "fa",
+   "family": "fly-ash",
+   "role": "precursor",
+   "name": "fly ash",
+   "aliases": [
+    "FA"
+   ]
+  },
+  {
+   "id": "rm",
+   "family": "red-mud",
+   "role": "precursor",
+   "name": "red mud",
+   "aliases": [
+    "RM"
+   ]
+  },
+  {
+   "id": "qs",
+   "family": "sand",
+   "role": "aggregate",
+   "name": "quartz sand",
+   "aliases": [
+    "QS"
+   ],
+   "detail": "Quartz sand with a particle-size range of approximately 101–310 μm was used as the aggregate"
+  },
+  {
+   "id": "act",
+   "family": "other-activator",
+   "role": "activator",
+   "name": "alkaline activator",
+   "aliases": [
+    "Activator"
+   ],
+   "detail": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+  },
+  {
+   "id": "naoh",
+   "family": "sodium-hydroxide",
+   "role": "activator",
+   "name": "sodium hydroxide solution",
+   "detail": "10 mol/L sodium hydroxide solution"
+  },
+  {
+   "id": "wg",
+   "family": "sodium-silicate-solution",
+   "role": "activator",
+   "name": "water glass solution",
+   "detail": "The inherent modulus of the water glass solution (the ratio of SiO2 to Na2O in moles) is 2.25, and the mass fractions of Na2O and SiO2 are 13.75% and 29.99% respectively."
+  },
+  {
+   "id": "water",
+   "family": "water",
+   "role": "water",
+   "name": "water",
+   "aliases": [
+    "Water"
+   ]
+  },
+  {
+   "id": "bacl2",
+   "family": "retarder",
+   "role": "additive",
+   "name": "barium chloride",
+   "aliases": [
+    "BaCl2"
+   ],
+   "detail": "barium chloride (BaCl2) was incorporated as a retarder to regulate the setting time"
+  },
+  {
+   "id": "pe",
+   "family": "other-fiber",
+   "role": "fiber",
+   "name": "PE fibers",
+   "aliases": [
+    "PE Fiber",
+    "UHMWPE"
+   ],
+   "detail": "Ultra-high-molecular-weight polyethylene (UHMWPE, hereafter PE) fibers with a length of 12 mm and a diameter of 24 μm"
+  }
+ ],
+ "mixes": [
+  {
+   "id": "G50F50R0",
+   "control": false,
+   "form": "composite",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbs",
+     "value": 606.9,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G50F50R0 | 606.90 | 606.90 | 0"
+    },
+    {
+     "material": "fa",
+     "value": 606.9,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G50F50R0 | 606.90 | 606.90 | 0"
+    },
+    {
+     "material": "rm",
+     "value": 0,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G50F50R0 | 606.90 | 606.90 | 0"
+    },
+    {
+     "material": "qs",
+     "value": 242.76,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+    },
+    {
+     "material": "act",
+     "value": 485.52,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+    },
+    {
+     "material": "water",
+     "value": 93.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+    },
+    {
+     "material": "bacl2",
+     "value": 12.14,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+    },
+    {
+     "material": "pe",
+     "value": 19.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "material": "wg",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.32,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "alkali-dose",
+     "value": 6.8,
+     "basisNote": "basis not stated (\"alkali content\")",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.2,
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "sand/binder",
+     "value": 0.2,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "hydroxide-molarity",
+     "value": 10,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "key": "silicate/hydroxide",
+     "value": 2,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ]
+  },
+  {
+   "id": "G35F65R0",
+   "control": false,
+   "form": "composite",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbs",
+     "value": 424.83,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G35F65R0 | 424.83 | 788.97 | 0"
+    },
+    {
+     "material": "fa",
+     "value": 788.97,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G35F65R0 | 424.83 | 788.97 | 0"
+    },
+    {
+     "material": "rm",
+     "value": 0,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G35F65R0 | 424.83 | 788.97 | 0"
+    },
+    {
+     "material": "qs",
+     "value": 242.76,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+    },
+    {
+     "material": "act",
+     "value": 485.52,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+    },
+    {
+     "material": "water",
+     "value": 93.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+    },
+    {
+     "material": "bacl2",
+     "value": 12.14,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+    },
+    {
+     "material": "pe",
+     "value": 19.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "material": "wg",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.32,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "alkali-dose",
+     "value": 6.8,
+     "basisNote": "basis not stated (\"alkali content\")",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.2,
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "sand/binder",
+     "value": 0.2,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "hydroxide-molarity",
+     "value": 10,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "key": "silicate/hydroxide",
+     "value": 2,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ]
+  },
+  {
+   "id": "G20F80R0",
+   "control": false,
+   "form": "composite",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbs",
+     "value": 242.76,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G20F80R0 | 242.76 | 971.04 | 0"
+    },
+    {
+     "material": "fa",
+     "value": 971.04,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G20F80R0 | 242.76 | 971.04 | 0"
+    },
+    {
+     "material": "rm",
+     "value": 0,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G20F80R0 | 242.76 | 971.04 | 0"
+    },
+    {
+     "material": "qs",
+     "value": 242.76,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+    },
+    {
+     "material": "act",
+     "value": 485.52,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+    },
+    {
+     "material": "water",
+     "value": 93.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+    },
+    {
+     "material": "bacl2",
+     "value": 12.14,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+    },
+    {
+     "material": "pe",
+     "value": 19.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "material": "wg",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.32,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "alkali-dose",
+     "value": 6.8,
+     "basisNote": "basis not stated (\"alkali content\")",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.2,
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "sand/binder",
+     "value": 0.2,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "hydroxide-molarity",
+     "value": 10,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "key": "silicate/hydroxide",
+     "value": 2,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ]
+  },
+  {
+   "id": "G40F55R5",
+   "control": false,
+   "form": "composite",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbs",
+     "value": 485.52,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G40F55R5 | 485.52 | 667.59 | 60.69"
+    },
+    {
+     "material": "fa",
+     "value": 667.59,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G40F55R5 | 485.52 | 667.59 | 60.69"
+    },
+    {
+     "material": "rm",
+     "value": 60.69,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G40F55R5 | 485.52 | 667.59 | 60.69"
+    },
+    {
+     "material": "qs",
+     "value": 242.76,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+    },
+    {
+     "material": "act",
+     "value": 485.52,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+    },
+    {
+     "material": "water",
+     "value": 93.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+    },
+    {
+     "material": "bacl2",
+     "value": 12.14,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+    },
+    {
+     "material": "pe",
+     "value": 19.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "material": "wg",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.32,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "alkali-dose",
+     "value": 6.8,
+     "basisNote": "basis not stated (\"alkali content\")",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.2,
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "sand/binder",
+     "value": 0.2,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "hydroxide-molarity",
+     "value": 10,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "key": "silicate/hydroxide",
+     "value": 2,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ]
+  },
+  {
+   "id": "G25F70R5",
+   "control": false,
+   "form": "composite",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbs",
+     "value": 303.45,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G25F70R5 | 303.45 | 849.66 | 60.69"
+    },
+    {
+     "material": "fa",
+     "value": 849.66,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G25F70R5 | 303.45 | 849.66 | 60.69"
+    },
+    {
+     "material": "rm",
+     "value": 60.69,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G25F70R5 | 303.45 | 849.66 | 60.69"
+    },
+    {
+     "material": "qs",
+     "value": 242.76,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+    },
+    {
+     "material": "act",
+     "value": 485.52,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+    },
+    {
+     "material": "water",
+     "value": 93.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+    },
+    {
+     "material": "bacl2",
+     "value": 12.14,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+    },
+    {
+     "material": "pe",
+     "value": 19.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "material": "wg",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.32,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "alkali-dose",
+     "value": 6.8,
+     "basisNote": "basis not stated (\"alkali content\")",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.2,
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "sand/binder",
+     "value": 0.2,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "hydroxide-molarity",
+     "value": 10,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "key": "silicate/hydroxide",
+     "value": 2,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ]
+  },
+  {
+   "id": "G30F60R10",
+   "control": false,
+   "form": "composite",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbs",
+     "value": 364.14,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G30F60R10 | 364.14 | 728.28 | 121.38"
+    },
+    {
+     "material": "fa",
+     "value": 728.28,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G30F60R10 | 364.14 | 728.28 | 121.38"
+    },
+    {
+     "material": "rm",
+     "value": 121.38,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G30F60R10 | 364.14 | 728.28 | 121.38"
+    },
+    {
+     "material": "qs",
+     "value": 242.76,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+    },
+    {
+     "material": "act",
+     "value": 485.52,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+    },
+    {
+     "material": "water",
+     "value": 93.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+    },
+    {
+     "material": "bacl2",
+     "value": 12.14,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+    },
+    {
+     "material": "pe",
+     "value": 19.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "material": "wg",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.32,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "alkali-dose",
+     "value": 6.8,
+     "basisNote": "basis not stated (\"alkali content\")",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.2,
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "sand/binder",
+     "value": 0.2,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "hydroxide-molarity",
+     "value": 10,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "key": "silicate/hydroxide",
+     "value": 2,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ]
+  },
+  {
+   "id": "G35F50R15",
+   "control": false,
+   "form": "composite",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbs",
+     "value": 424.83,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G35F50R15 | 424.83 | 606.90 | 182.07"
+    },
+    {
+     "material": "fa",
+     "value": 606.9,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G35F50R15 | 424.83 | 606.90 | 182.07"
+    },
+    {
+     "material": "rm",
+     "value": 182.07,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G35F50R15 | 424.83 | 606.90 | 182.07"
+    },
+    {
+     "material": "qs",
+     "value": 242.76,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+    },
+    {
+     "material": "act",
+     "value": 485.52,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+    },
+    {
+     "material": "water",
+     "value": 93.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+    },
+    {
+     "material": "bacl2",
+     "value": 12.14,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+    },
+    {
+     "material": "pe",
+     "value": 19.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "material": "wg",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.32,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "alkali-dose",
+     "value": 6.8,
+     "basisNote": "basis not stated (\"alkali content\")",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.2,
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "sand/binder",
+     "value": 0.2,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "hydroxide-molarity",
+     "value": 10,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "key": "silicate/hydroxide",
+     "value": 2,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ]
+  },
+  {
+   "id": "G20F65R15",
+   "control": false,
+   "form": "composite",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbs",
+     "value": 242.76,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G20F65R15 | 242.76 | 788.97 | 182.07"
+    },
+    {
+     "material": "fa",
+     "value": 788.97,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G20F65R15 | 242.76 | 788.97 | 182.07"
+    },
+    {
+     "material": "rm",
+     "value": 182.07,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G20F65R15 | 242.76 | 788.97 | 182.07"
+    },
+    {
+     "material": "qs",
+     "value": 242.76,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+    },
+    {
+     "material": "act",
+     "value": 485.52,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+    },
+    {
+     "material": "water",
+     "value": 93.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+    },
+    {
+     "material": "bacl2",
+     "value": 12.14,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+    },
+    {
+     "material": "pe",
+     "value": 19.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "material": "wg",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.32,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "alkali-dose",
+     "value": 6.8,
+     "basisNote": "basis not stated (\"alkali content\")",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.2,
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "sand/binder",
+     "value": 0.2,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "hydroxide-molarity",
+     "value": 10,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "key": "silicate/hydroxide",
+     "value": 2,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ]
+  },
+  {
+   "id": "G25F55R20",
+   "control": false,
+   "form": "composite",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbs",
+     "value": 303.45,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G25F55R20 | 303.45 | 667.59 | 242.76"
+    },
+    {
+     "material": "fa",
+     "value": 667.59,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G25F55R20 | 303.45 | 667.59 | 242.76"
+    },
+    {
+     "material": "rm",
+     "value": 242.76,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G25F55R20 | 303.45 | 667.59 | 242.76"
+    },
+    {
+     "material": "qs",
+     "value": 242.76,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+    },
+    {
+     "material": "act",
+     "value": 485.52,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+    },
+    {
+     "material": "water",
+     "value": 93.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+    },
+    {
+     "material": "bacl2",
+     "value": 12.14,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+    },
+    {
+     "material": "pe",
+     "value": 19.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "material": "wg",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.32,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "alkali-dose",
+     "value": 6.8,
+     "basisNote": "basis not stated (\"alkali content\")",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.2,
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "sand/binder",
+     "value": 0.2,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "hydroxide-molarity",
+     "value": 10,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "key": "silicate/hydroxide",
+     "value": 2,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ]
+  },
+  {
+   "id": "G20F50R30",
+   "control": false,
+   "form": "composite",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ggbs",
+     "value": 242.76,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G20F50R30 | 242.76 | 606.90 | 364.14"
+    },
+    {
+     "material": "fa",
+     "value": 606.9,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G20F50R30 | 242.76 | 606.90 | 364.14"
+    },
+    {
+     "material": "rm",
+     "value": 364.14,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G20F50R30 | 242.76 | 606.90 | 364.14"
+    },
+    {
+     "material": "qs",
+     "value": 242.76,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+    },
+    {
+     "material": "act",
+     "value": 485.52,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+    },
+    {
+     "material": "water",
+     "value": 93.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+    },
+    {
+     "material": "bacl2",
+     "value": 12.14,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+    },
+    {
+     "material": "pe",
+     "value": 19.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "material": "wg",
+     "value": null,
+     "missing": "only the blended activator mass is tabulated; the 1:2 NaOH:water-glass mass split is stated but not converted here",
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.32,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "alkali-dose",
+     "value": 6.8,
+     "basisNote": "basis not stated (\"alkali content\")",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.2,
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "sand/binder",
+     "value": 0.2,
+     "basisNote": "basis not stated",
+     "text": "The proportions of the remaining EGC constituents were kept constant: the water-to-binder ratio was 0.32, the alkali content was 6.8%, the alkali activator modulus was 1.2, the sand-to-binder ratio was 0.2, the PE fiber content was 2 vol.%, and the BaCl2 content was 1%."
+    },
+    {
+     "key": "hydroxide-molarity",
+     "value": 10,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    },
+    {
+     "key": "silicate/hydroxide",
+     "value": 2,
+     "text": "The alkaline activator was prepared by mixing a 10 mol/L sodium hydroxide solution with a water glass solution in a mass ratio of 1:2."
+    }
+   ]
+  }
+ ],
+ "cures": [
+  {
+   "id": "c1",
+   "category": "moist",
+   "temperatureC": 20,
+   "duration": 28,
+   "durationUnit": "d",
+   "sealed": true,
+   "humidityPercent": null,
+   "text": "Immediately after casting, all specimens were sealed with plastic film. After 24 h, they were demolded and transferred to a standard curing room maintained at 20 ± 2 °C and a relative humidity of at least 90%, where they were cured for 28 d prior to testing."
+  }
+ ],
+ "tests": [
+  {
+   "id": "fc",
+   "property": "compressive-strength",
+   "unit": "MPa",
+   "specimen": "φ50 mm × 100 mm cylinders",
+   "method": "ASTM C39/C39M-24"
+  },
+  {
+   "id": "E",
+   "property": "elastic-modulus",
+   "unit": "GPa",
+   "specimen": "φ50 mm × 100 mm cylinders",
+   "method": "ASTM C39/C39M-24; chord between 0.00005 strain and 40% of ultimate load"
+  },
+  {
+   "id": "ftu",
+   "property": "direct-tensile-strength",
+   "unit": "MPa",
+   "specimen": "dog-bone, 80 mm gauge",
+   "method": "JSCE recommendations, 0.5 mm/min"
+  },
+  {
+   "id": "etu",
+   "property": "tensile-strain-capacity",
+   "unit": "%",
+   "specimen": "dog-bone, 80 mm gauge",
+   "method": "JSCE recommendations, 0.5 mm/min"
+  },
+  {
+   "id": "flow",
+   "property": "flow",
+   "unit": "mm",
+   "specimen": "truncated cone",
+   "method": "GB/T 2419-2005"
+  }
+ ],
+ "results": [
+  {
+   "mix": "G50F50R0",
+   "test": "fc",
+   "ageDays": 28,
+   "value": 111.7,
+   "spread": 1.7,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G50F50R0 | 111.7 (1.7) | 0.614 (0.033) | 20.9 (1.4)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G50F50R0",
+   "test": "E",
+   "ageDays": 28,
+   "value": 20.9,
+   "spread": 1.4,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G50F50R0 | 111.7 (1.7) | 0.614 (0.033) | 20.9 (1.4)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G35F65R0",
+   "test": "fc",
+   "ageDays": 28,
+   "value": 93.7,
+   "spread": 3.4,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G35F65R0 | 93.7 (3.4) | 0.597 (0.034) | 17.8 (0.5)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G35F65R0",
+   "test": "E",
+   "ageDays": 28,
+   "value": 17.8,
+   "spread": 0.5,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G35F65R0 | 93.7 (3.4) | 0.597 (0.034) | 17.8 (0.5)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G20F80R0",
+   "test": "fc",
+   "ageDays": 28,
+   "value": 77.0,
+   "spread": 2.4,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G20F80R0 | 77.0 (2.4) | 0.707 (0.033) | 13.4 (0.6)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G20F80R0",
+   "test": "E",
+   "ageDays": 28,
+   "value": 13.4,
+   "spread": 0.6,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G20F80R0 | 77.0 (2.4) | 0.707 (0.033) | 13.4 (0.6)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G40F55R5",
+   "test": "fc",
+   "ageDays": 28,
+   "value": 95.3,
+   "spread": 6.5,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G40F55R5 | 95.3 (6.5) | 0.552 (0.022) | 19.6 (2.3)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G40F55R5",
+   "test": "E",
+   "ageDays": 28,
+   "value": 19.6,
+   "spread": 2.3,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G40F55R5 | 95.3 (6.5) | 0.552 (0.022) | 19.6 (2.3)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G25F70R5",
+   "test": "fc",
+   "ageDays": 28,
+   "value": 85.4,
+   "spread": 1.0,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G25F70R5 | 85.4 (1.0) | 0.752 (0.019) | 15.1 (1.2)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G25F70R5",
+   "test": "E",
+   "ageDays": 28,
+   "value": 15.1,
+   "spread": 1.2,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G25F70R5 | 85.4 (1.0) | 0.752 (0.019) | 15.1 (1.2)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G30F60R10",
+   "test": "fc",
+   "ageDays": 28,
+   "value": 89.0,
+   "spread": 2.9,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G30F60R10 | 89.0 (2.9) | 0.658 (0.016) | 16.2 (1.4)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G30F60R10",
+   "test": "E",
+   "ageDays": 28,
+   "value": 16.2,
+   "spread": 1.4,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G30F60R10 | 89.0 (2.9) | 0.658 (0.016) | 16.2 (1.4)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G35F50R15",
+   "test": "fc",
+   "ageDays": 28,
+   "value": 93.2,
+   "spread": 4.7,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G35F50R15 | 93.2 (4.7) | 0.581 (0.030) | 17.4 (0.2)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G35F50R15",
+   "test": "E",
+   "ageDays": 28,
+   "value": 17.4,
+   "spread": 0.2,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G35F50R15 | 93.2 (4.7) | 0.581 (0.030) | 17.4 (0.2)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G20F65R15",
+   "test": "fc",
+   "ageDays": 28,
+   "value": 66.6,
+   "spread": 6.1,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G20F65R15 | 66.6 (6.1) | 0.678 (0.061) | 12.0 (0.8)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G20F65R15",
+   "test": "E",
+   "ageDays": 28,
+   "value": 12.0,
+   "spread": 0.8,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G20F65R15 | 66.6 (6.1) | 0.678 (0.061) | 12.0 (0.8)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G25F55R20",
+   "test": "fc",
+   "ageDays": 28,
+   "value": 77.3,
+   "spread": 2.9,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G25F55R20 | 77.3 (2.9) | 0.618 (0.010) | 14.7 (0.2)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G25F55R20",
+   "test": "E",
+   "ageDays": 28,
+   "value": 14.7,
+   "spread": 0.2,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G25F55R20 | 77.3 (2.9) | 0.618 (0.010) | 14.7 (0.2)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G20F50R30",
+   "test": "fc",
+   "ageDays": 28,
+   "value": 70.3,
+   "spread": 2.4,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G20F50R30 | 70.3 (2.4) | 0.656 (0.043) | 13.4 (0.7)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G20F50R30",
+   "test": "E",
+   "ageDays": 28,
+   "value": 13.4,
+   "spread": 0.7,
+   "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G20F50R30 | 70.3 (2.4) | 0.656 (0.043) | 13.4 (0.7)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 3 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G50F50R0",
+   "test": "ftu",
+   "ageDays": 28,
+   "value": 10.47,
+   "spread": 0.32,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G50F50R0 | 3.24 (0.16) | 10.47 (0.32) | 5.16 (0.08) | 376.4 (15.0)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G50F50R0",
+   "test": "etu",
+   "ageDays": 28,
+   "value": 5.16,
+   "spread": 0.08,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G50F50R0 | 3.24 (0.16) | 10.47 (0.32) | 5.16 (0.08) | 376.4 (15.0)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G35F65R0",
+   "test": "ftu",
+   "ageDays": 28,
+   "value": 7.88,
+   "spread": 0.22,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G35F65R0 | 3.25 (0.42) | 7.88 (0.22) | 4.97 (0.11) | 286.1 (9.8)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G35F65R0",
+   "test": "etu",
+   "ageDays": 28,
+   "value": 4.97,
+   "spread": 0.11,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G35F65R0 | 3.25 (0.42) | 7.88 (0.22) | 4.97 (0.11) | 286.1 (9.8)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G20F80R0",
+   "test": "ftu",
+   "ageDays": 28,
+   "value": 6.12,
+   "spread": 0.41,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G20F80R0 | 2.52 (0.55) | 6.12 (0.41) | 3.54 (0.81) | 180.8 (44.7)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G20F80R0",
+   "test": "etu",
+   "ageDays": 28,
+   "value": 3.54,
+   "spread": 0.81,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G20F80R0 | 2.52 (0.55) | 6.12 (0.41) | 3.54 (0.81) | 180.8 (44.7)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G40F55R5",
+   "test": "ftu",
+   "ageDays": 28,
+   "value": 9.06,
+   "spread": 0.54,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G40F55R5 | 2.91 (0.24) | 9.06 (0.54) | 6.90 (0.51) | 451.6 (47.4)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G40F55R5",
+   "test": "etu",
+   "ageDays": 28,
+   "value": 6.9,
+   "spread": 0.51,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G40F55R5 | 2.91 (0.24) | 9.06 (0.54) | 6.90 (0.51) | 451.6 (47.4)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G25F70R5",
+   "test": "ftu",
+   "ageDays": 28,
+   "value": 7.19,
+   "spread": 0.32,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G25F70R5 | 1.75 (0.20) | 7.19 (0.32) | 5.56 (0.28) | 270.1 (12.2)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G25F70R5",
+   "test": "etu",
+   "ageDays": 28,
+   "value": 5.56,
+   "spread": 0.28,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G25F70R5 | 1.75 (0.20) | 7.19 (0.32) | 5.56 (0.28) | 270.1 (12.2)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G30F60R10",
+   "test": "ftu",
+   "ageDays": 28,
+   "value": 7.26,
+   "spread": 0.35,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G30F60R10 | 1.64 (0.09) | 7.26 (0.35) | 5.81 (0.31) | 294.7 (17.1)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G30F60R10",
+   "test": "etu",
+   "ageDays": 28,
+   "value": 5.81,
+   "spread": 0.31,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G30F60R10 | 1.64 (0.09) | 7.26 (0.35) | 5.81 (0.31) | 294.7 (17.1)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G35F50R15",
+   "test": "ftu",
+   "ageDays": 28,
+   "value": 7.06,
+   "spread": 0.37,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G35F50R15 | 1.61 (0.28) | 7.06 (0.37) | 5.98 (0.20) | 298.0 (23.2)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G35F50R15",
+   "test": "etu",
+   "ageDays": 28,
+   "value": 5.98,
+   "spread": 0.2,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G35F50R15 | 1.61 (0.28) | 7.06 (0.37) | 5.98 (0.20) | 298.0 (23.2)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G20F65R15",
+   "test": "ftu",
+   "ageDays": 28,
+   "value": 6.38,
+   "spread": 0.39,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G20F65R15 | 2.29 (0.10) | 6.38 (0.39) | 5.58 (0.17) | 242.6 (13.7)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G20F65R15",
+   "test": "etu",
+   "ageDays": 28,
+   "value": 5.58,
+   "spread": 0.17,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G20F65R15 | 2.29 (0.10) | 6.38 (0.39) | 5.58 (0.17) | 242.6 (13.7)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G25F55R20",
+   "test": "ftu",
+   "ageDays": 28,
+   "value": 6.9,
+   "spread": 0.14,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G25F55R20 | 2.50 (0.35) | 6.90 (0.14) | 5.61 (0.27) | 260.4 (16.6)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G25F55R20",
+   "test": "etu",
+   "ageDays": 28,
+   "value": 5.61,
+   "spread": 0.27,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G25F55R20 | 2.50 (0.35) | 6.90 (0.14) | 5.61 (0.27) | 260.4 (16.6)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G20F50R30",
+   "test": "ftu",
+   "ageDays": 28,
+   "value": 5.6,
+   "spread": 0.29,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G20F50R30 | 2.03 (0.16) | 5.60 (0.29) | 5.51 (0.03) | 216.1 (15.3)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G20F50R30",
+   "test": "etu",
+   "ageDays": 28,
+   "value": 5.51,
+   "spread": 0.03,
+   "text": "Table 5 (Tensile parameters of EGC): Mix IDs | σtc (MPa) | σtu (MPa) | εtu (%) | gse (kJ/m3) → G20F50R30 | 2.03 (0.16) | 5.60 (0.29) | 5.51 (0.03) | 216.1 (15.3)",
+   "ageText": "where they were cured for 28 d prior to testing",
+   "locator": "Table 5 (values in parentheses are standard deviations)"
+  },
+  {
+   "mix": "G20F80R0",
+   "test": "flow",
+   "ageDays": null,
+   "ageNote": "fresh test",
+   "value": 166,
+   "text": "Among all mixtures, G20F80R0, which contained no RM, exhibited the highest flow spread of 166 mm, whereas G20F50R30, with the highest RM content, showed the lowest value of only 152.5 mm.",
+   "locator": "§3.1"
+  },
+  {
+   "mix": "G20F50R30",
+   "test": "flow",
+   "ageDays": null,
+   "ageNote": "fresh test",
+   "value": 152.5,
+   "text": "Among all mixtures, G20F80R0, which contained no RM, exhibited the highest flow spread of 166 mm, whereas G20F50R30, with the highest RM content, showed the lowest value of only 152.5 mm.",
+   "locator": "§3.1"
+  }
+ ],
+ "findings": [
+  {
+   "goal": "Highest compressive strength",
+   "mix": "G50F50R0",
+   "text": "G50F50R0 exhibited the highest compressive strength of 111.7 MPa, whereas G20F50R30 showed the lowest value of 70.3 MPa, representing a reduction of 37.1%."
+  }
+ ],
+ "notes": [
+  {
+   "mix": "G20F50R30",
+   "kind": "tradeoff",
+   "text": "G20F50R30 showed the lowest value of 70.3 MPa"
+  }
+ ],
+ "gaps": [
+  "Table quotes are mechanical joins of caption, header cells and row cells (format: 'Table N (caption): header → row'); the shared QS/activator/water/BaCl2/PE columns span all ten rows in the source table.",
+  "The activator is tabulated only as one blended mass; the NaOH and water-glass masses are not split here.",
+  "Water/binder, alkali content and sand/binder bases are not stated (binder may or may not include activator solids); flow values exist in text for two mixes only, the rest are in Figure 5.",
+  "First-cracking strength (σtc), peak compressive strain (εc), strain energy (gse) and crack width/number (Table 4) are not mapped to a vocabulary property and are not transcribed.",
+  "Every value awaits the second-reviewer check recorded in the batch audit before release."
+ ]
+}

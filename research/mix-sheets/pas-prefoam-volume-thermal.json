@@ -1,0 +1,422 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "pas-prefoam-volume-thermal",
+ "doi": "10.3390/ma15124085",
+ "basis": "source-text",
+ "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9228590/",
+ "accessed": "2026-10-26",
+ "audit": "research/batches/source-text-pilot-2026-10-26.json",
+ "scope": "The three Table 2 samples G-0 (unfoamed), G-1 and G-2 (PAS foam:paste 1:1 and 2:1 by volume) with the shared design ratios, and the unheated-state values stated in the text. Values after 200–1000 °C exposure are given only as ranges or in figures and are not transcribed.",
+ "made": "2026-10-26",
+ "madeBy": "AI transcription · mix-sheet skill v1 (source-text pilot)",
+ "materials": [
+  {
+   "id": "fa",
+   "family": "fly-ash",
+   "role": "precursor",
+   "name": "Fly ash",
+   "detail": "The low CaO content demonstrated that the fly ash was Class F fly ash based on ASTM C618."
+  },
+  {
+   "id": "lfs",
+   "family": "steel-slag",
+   "role": "precursor",
+   "name": "ladle furnace slag",
+   "aliases": [
+    "Slag"
+   ]
+  },
+  {
+   "id": "naoh",
+   "family": "sodium-hydroxide",
+   "role": "activator",
+   "name": "Sodium Hydroxide",
+   "detail": "Sodium hydroxide pellets (HmbG®, Sigma-Aldrich, Taufkirchen, Germany) and distilled water were mixed together to prepare a sodium hydroxide solution."
+  },
+  {
+   "id": "ss",
+   "family": "sodium-silicate-solution",
+   "role": "activator",
+   "name": "Sodium Silicate",
+   "detail": "The main constituents of the sodium silicate solution (South Pacific Chemicals Industries Sdn. Bhd., Selangor, Malaysia) were 30.1% SiO2, 9.4% Na2O, and 60.5% H2O."
+  },
+  {
+   "id": "pas",
+   "family": "foaming-agent",
+   "role": "additive",
+   "name": "PAS Foam",
+   "aliases": [
+    "PAS"
+   ],
+   "detail": "Polyoxyethylene alkyether sulphate (PAS) was utilised as a foaming agent to prepare geopolymer foam."
+  }
+ ],
+ "mixes": [
+  {
+   "id": "G-0",
+   "control": true,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 80,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Details of sample preparation): Fly ash:Slag Ratio → 80:20 (one cell spanning G-0, G-1 and G-2)"
+    },
+    {
+     "material": "lfs",
+     "value": 20,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Details of sample preparation): Fly ash:Slag Ratio → 80:20 (one cell spanning G-0, G-1 and G-2)"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "activator mass not given; only 8 M, solid:liquid 3:1 and silicate:hydroxide 1.5:1 are stated",
+     "text": "Table 2 (Details of sample preparation): Sodium Hydroxide Concentration (M) → 8 (one cell spanning G-0, G-1 and G-2)"
+    },
+    {
+     "material": "ss",
+     "value": null,
+     "missing": "activator mass not given; only solid:liquid 3:1 and silicate:hydroxide 1.5:1 are stated",
+     "text": "Table 2 (Details of sample preparation): Sodium Silicate:Sodium Hydroxide Ratio → 1.5:1 (one cell spanning G-0, G-1 and G-2)"
+    },
+    {
+     "material": "pas",
+     "value": 0,
+     "unit": "ratio",
+     "basis": "other",
+     "basisNote": "PAS foam-to-paste ratio by volume ('The foam, PAS and water were measured in volume (ml).'); PAS:water 1:10 by volume",
+     "text": "Table 2 (Details of sample preparation): PAS Foam:Paste Ratio → 0:0 | 1:1 | 2:1"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "hydroxide-molarity",
+     "value": 8,
+     "text": "Table 2 (Details of sample preparation): Sodium Hydroxide Concentration (M) → 8 (one cell spanning G-0, G-1 and G-2)"
+    },
+    {
+     "key": "silicate/hydroxide",
+     "value": 1.5,
+     "basisNote": "basis not stated",
+     "text": "Table 2 (Details of sample preparation): Sodium Silicate:Sodium Hydroxide Ratio → 1.5:1 (one cell spanning G-0, G-1 and G-2)"
+    }
+   ],
+   "missing": [
+    "solid:liquid 3:1 (Table 2) is stated as solid:liquid, so no liquid/solid value is entered"
+   ]
+  },
+  {
+   "id": "G-1",
+   "control": false,
+   "form": "foam",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 80,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Details of sample preparation): Fly ash:Slag Ratio → 80:20 (one cell spanning G-0, G-1 and G-2)"
+    },
+    {
+     "material": "lfs",
+     "value": 20,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Details of sample preparation): Fly ash:Slag Ratio → 80:20 (one cell spanning G-0, G-1 and G-2)"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "activator mass not given; only 8 M, solid:liquid 3:1 and silicate:hydroxide 1.5:1 are stated",
+     "text": "Table 2 (Details of sample preparation): Sodium Hydroxide Concentration (M) → 8 (one cell spanning G-0, G-1 and G-2)"
+    },
+    {
+     "material": "ss",
+     "value": null,
+     "missing": "activator mass not given; only solid:liquid 3:1 and silicate:hydroxide 1.5:1 are stated",
+     "text": "Table 2 (Details of sample preparation): Sodium Silicate:Sodium Hydroxide Ratio → 1.5:1 (one cell spanning G-0, G-1 and G-2)"
+    },
+    {
+     "material": "pas",
+     "value": 1,
+     "unit": "ratio",
+     "basis": "other",
+     "basisNote": "PAS foam-to-paste ratio by volume ('The foam, PAS and water were measured in volume (ml).'); PAS:water 1:10 by volume",
+     "text": "Table 2 (Details of sample preparation): PAS Foam:Paste Ratio → 0:0 | 1:1 | 2:1"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "hydroxide-molarity",
+     "value": 8,
+     "text": "Table 2 (Details of sample preparation): Sodium Hydroxide Concentration (M) → 8 (one cell spanning G-0, G-1 and G-2)"
+    },
+    {
+     "key": "silicate/hydroxide",
+     "value": 1.5,
+     "basisNote": "basis not stated",
+     "text": "Table 2 (Details of sample preparation): Sodium Silicate:Sodium Hydroxide Ratio → 1.5:1 (one cell spanning G-0, G-1 and G-2)"
+    }
+   ],
+   "missing": [
+    "solid:liquid 3:1 (Table 2) is stated as solid:liquid, so no liquid/solid value is entered"
+   ]
+  },
+  {
+   "id": "G-2",
+   "control": false,
+   "form": "foam",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 80,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Details of sample preparation): Fly ash:Slag Ratio → 80:20 (one cell spanning G-0, G-1 and G-2)"
+    },
+    {
+     "material": "lfs",
+     "value": 20,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Details of sample preparation): Fly ash:Slag Ratio → 80:20 (one cell spanning G-0, G-1 and G-2)"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "activator mass not given; only 8 M, solid:liquid 3:1 and silicate:hydroxide 1.5:1 are stated",
+     "text": "Table 2 (Details of sample preparation): Sodium Hydroxide Concentration (M) → 8 (one cell spanning G-0, G-1 and G-2)"
+    },
+    {
+     "material": "ss",
+     "value": null,
+     "missing": "activator mass not given; only solid:liquid 3:1 and silicate:hydroxide 1.5:1 are stated",
+     "text": "Table 2 (Details of sample preparation): Sodium Silicate:Sodium Hydroxide Ratio → 1.5:1 (one cell spanning G-0, G-1 and G-2)"
+    },
+    {
+     "material": "pas",
+     "value": 2,
+     "unit": "ratio",
+     "basis": "other",
+     "basisNote": "PAS foam-to-paste ratio by volume ('The foam, PAS and water were measured in volume (ml).'); PAS:water 1:10 by volume",
+     "text": "Table 2 (Details of sample preparation): PAS Foam:Paste Ratio → 0:0 | 1:1 | 2:1"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "hydroxide-molarity",
+     "value": 8,
+     "text": "Table 2 (Details of sample preparation): Sodium Hydroxide Concentration (M) → 8 (one cell spanning G-0, G-1 and G-2)"
+    },
+    {
+     "key": "silicate/hydroxide",
+     "value": 1.5,
+     "basisNote": "basis not stated",
+     "text": "Table 2 (Details of sample preparation): Sodium Silicate:Sodium Hydroxide Ratio → 1.5:1 (one cell spanning G-0, G-1 and G-2)"
+    }
+   ],
+   "missing": [
+    "solid:liquid 3:1 (Table 2) is stated as solid:liquid, so no liquid/solid value is entered"
+   ]
+  }
+ ],
+ "cures": [
+  {
+   "id": "c1",
+   "category": "heat",
+   "temperatureC": 60,
+   "duration": 1,
+   "durationUnit": "d",
+   "sealed": null,
+   "humidityPercent": null,
+   "text": "The moulded mixture was placed at room temperature for 1 day, and it was further placed in an oven (60 °C) for another 1 day."
+  }
+ ],
+ "tests": [
+  {
+   "id": "fc",
+   "property": "compressive-strength",
+   "unit": "MPa",
+   "specimen": "5 × 5 × 5 cm cubes, three per temperature",
+   "method": "Instron 5569"
+  },
+  {
+   "id": "rho",
+   "property": "density",
+   "unit": "g/cm3",
+   "specimen": "5 cm cubes",
+   "method": "bulk density, BS EN 12390-7"
+  },
+  {
+   "id": "wa",
+   "property": "water-absorption",
+   "unit": "%",
+   "specimen": "5 cm cubes",
+   "method": "ASTM C642"
+  },
+  {
+   "id": "por",
+   "property": "porosity",
+   "unit": "%",
+   "specimen": "5 cm cubes",
+   "method": "apparent porosity, ASTM C642"
+  },
+  {
+   "id": "xct",
+   "property": "porosity",
+   "unit": "%",
+   "specimen": "0.2 × 0.2 × 0.5 cm piece",
+   "method": "total porosity by synchrotron X-ray tomographic microscopy"
+  },
+  {
+   "id": "k",
+   "property": "thermal-conductivity",
+   "unit": "W/(m·K)",
+   "specimen": "5 cm cubes",
+   "method": "KD2 Pro transient line source (ASTM D5334)"
+  }
+ ],
+ "results": [
+  {
+   "mix": "G-0",
+   "test": "rho",
+   "ageDays": null,
+   "ageNote": "unheated reference: tested after 1 d room + 1 d 60 °C cure and room storage before the heating programme ('After 28 ambient-curing days'); total age not stated",
+   "value": 2.09,
+   "text": "G-0 had a bulk density of 2.09 g/cm3, water absorption of 7.4% and apparent porosity of 17.3%.",
+   "locator": "§3.1 / Figure 3"
+  },
+  {
+   "mix": "G-0",
+   "test": "wa",
+   "ageDays": null,
+   "ageNote": "unheated reference: tested after 1 d room + 1 d 60 °C cure and room storage before the heating programme ('After 28 ambient-curing days'); total age not stated",
+   "value": 7.4,
+   "text": "G-0 had a bulk density of 2.09 g/cm3, water absorption of 7.4% and apparent porosity of 17.3%.",
+   "locator": "§3.1 / Figure 3"
+  },
+  {
+   "mix": "G-0",
+   "test": "por",
+   "ageDays": null,
+   "ageNote": "unheated reference: tested after 1 d room + 1 d 60 °C cure and room storage before the heating programme ('After 28 ambient-curing days'); total age not stated",
+   "value": 17.3,
+   "text": "G-0 had a bulk density of 2.09 g/cm3, water absorption of 7.4% and apparent porosity of 17.3%.",
+   "locator": "§3.1 / Figure 3"
+  },
+  {
+   "mix": "G-1",
+   "test": "xct",
+   "ageDays": null,
+   "ageNote": "unheated reference: tested after 1 d room + 1 d 60 °C cure and room storage before the heating programme ('After 28 ambient-curing days'); total age not stated",
+   "value": 14.81,
+   "text": "foamed geopolymer (14.81% for G-1 and 15.94% for G-2) exhibited a greater total porosity than G-0 (10.45%)",
+   "locator": "§3.1 / Figure 4"
+  },
+  {
+   "mix": "G-2",
+   "test": "xct",
+   "ageDays": null,
+   "ageNote": "unheated reference: tested after 1 d room + 1 d 60 °C cure and room storage before the heating programme ('After 28 ambient-curing days'); total age not stated",
+   "value": 15.94,
+   "text": "foamed geopolymer (14.81% for G-1 and 15.94% for G-2) exhibited a greater total porosity than G-0 (10.45%)",
+   "locator": "§3.1 / Figure 4"
+  },
+  {
+   "mix": "G-0",
+   "test": "xct",
+   "ageDays": null,
+   "ageNote": "unheated reference: tested after 1 d room + 1 d 60 °C cure and room storage before the heating programme ('After 28 ambient-curing days'); total age not stated",
+   "value": 10.45,
+   "text": "foamed geopolymer (14.81% for G-1 and 15.94% for G-2) exhibited a greater total porosity than G-0 (10.45%)",
+   "locator": "§3.1 / Figure 4"
+  },
+  {
+   "mix": "G-0",
+   "test": "k",
+   "ageDays": null,
+   "ageNote": "unheated reference: tested after 1 d room + 1 d 60 °C cure and room storage before the heating programme ('After 28 ambient-curing days'); total age not stated",
+   "value": 1.05,
+   "text": "The addition of PAS foam decreased the thermal conductivity of G-0 from 1.05 W/(m∙K) to 0.70–0.81 W/(m∙K)",
+   "locator": "§3.1 / Figure 5"
+  },
+  {
+   "mix": "G-0",
+   "test": "fc",
+   "ageDays": null,
+   "ageNote": "unheated reference: tested after 1 d room + 1 d 60 °C cure and room storage before the heating programme ('After 28 ambient-curing days'); total age not stated",
+   "value": 40.5,
+   "text": "The addition of PAS foam decreased the compressive strength of G-0 from 40.5 MPa to 26.3 MPa (G-1) and 21.5 MPa (G-2)",
+   "locator": "§3.1 / Figure 6a"
+  },
+  {
+   "mix": "G-1",
+   "test": "fc",
+   "ageDays": null,
+   "ageNote": "unheated reference: tested after 1 d room + 1 d 60 °C cure and room storage before the heating programme ('After 28 ambient-curing days'); total age not stated",
+   "value": 26.3,
+   "text": "The addition of PAS foam decreased the compressive strength of G-0 from 40.5 MPa to 26.3 MPa (G-1) and 21.5 MPa (G-2)",
+   "locator": "§3.1 / Figure 6a"
+  },
+  {
+   "mix": "G-2",
+   "test": "fc",
+   "ageDays": null,
+   "ageNote": "unheated reference: tested after 1 d room + 1 d 60 °C cure and room storage before the heating programme ('After 28 ambient-curing days'); total age not stated",
+   "value": 21.5,
+   "text": "The addition of PAS foam decreased the compressive strength of G-0 from 40.5 MPa to 26.3 MPa (G-1) and 21.5 MPa (G-2)",
+   "locator": "§3.1 / Figure 6a"
+  },
+  {
+   "mix": "G-2",
+   "test": "rho",
+   "ageDays": null,
+   "ageNote": "unheated reference: tested after 1 d room + 1 d 60 °C cure and room storage before the heating programme ('After 28 ambient-curing days'); total age not stated",
+   "value": 1.69,
+   "text": "only G-2 (compressive strength of 21.5 MPa, density of 1.69 g/cm3 and thermal conductivity of 0.7 W/(m∙K)) met the RILEM requirements for the application.",
+   "locator": "§3.1"
+  },
+  {
+   "mix": "G-2",
+   "test": "k",
+   "ageDays": null,
+   "ageNote": "unheated reference: tested after 1 d room + 1 d 60 °C cure and room storage before the heating programme ('After 28 ambient-curing days'); total age not stated",
+   "value": 0.7,
+   "text": "only G-2 (compressive strength of 21.5 MPa, density of 1.69 g/cm3 and thermal conductivity of 0.7 W/(m∙K)) met the RILEM requirements for the application.",
+   "locator": "§3.1"
+  }
+ ],
+ "findings": [
+  {
+   "goal": "Meets RILEM structural lightweight criteria (density, strength, conductivity)",
+   "mix": "G-2",
+   "text": "only G-2 (compressive strength of 21.5 MPa, density of 1.69 g/cm3 and thermal conductivity of 0.7 W/(m∙K)) met the RILEM requirements for the application."
+  }
+ ],
+ "notes": [
+  {
+   "mix": "G-0",
+   "kind": "tradeoff",
+   "text": "G-0 lost compressive strength (2.2–8.7%) between 400 °C and 1000 °C, while foamed geopolymer gained compressive strength (4.2–68.6%) at the same temperature exposure."
+  },
+  {
+   "mix": "G-1",
+   "kind": "observation",
+   "text": "An exception occurred in G-1 at 800 °C due to strength loss (4.6%)."
+  }
+ ],
+ "gaps": [
+  "Table quotes are mechanical joins of the Table 2 row label and its cells; shared cells span all three samples in the source.",
+  "No absolute masses: fly ash:slag 80:20, 8 M NaOH, solid:liquid 3:1 and silicate:hydroxide 1.5:1 are ratios with unstated bases; activator mass, water and foam volume per batch are not given.",
+  "G-1 water absorption, apparent porosity, density and thermal conductivity, and all heated-state values, appear only as ranges or in Figures 3–9.",
+  "Cure recorded as heat (60 °C oven day); the first day was at room temperature and samples were stored 28 days at room temperature before heating, so test age is left null.",
+  "Every value awaits the second-reviewer check recorded in the batch audit before release."
+ ]
+}
