@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-27",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-20",
+    "through": "2026-10-27"
+  },
+  "researchUpdates": [
+    {
+      "id": "research-zeolite-phases-toxic-element-immobilization",
+      "year": 2026,
+      "published": "2026-10-27",
+      "checked": "2026-10-27",
+      "added": "2026-10-27",
+      "dateBasis": "Publisher publication date",
+      "title": "Formation of Zeolite Phases in Alkali-Activated Binders and Their Role in the Immobilization of Toxic Elements",
+      "doi": "10.3390/min16111111",
+      "journal": "Minerals",
+      "topic": "Waste immobilization",
+      "type": "Review article",
+      "publicationStatus": "Published; DOI registering at check",
+      "authors": "Violeta Nikolić",
+      "publisherUrl": "https://www.mdpi.com/2075-163X/16/11/1111",
+      "url": "https://doi.org/10.3390/min16111111",
+      "summary": "A critical review connects zeolite-phase formation in alkali-activated binders with mechanisms that can retain potentially toxic elements, organizing evidence around precursor chemistry, activation and curing conditions.",
+      "highlights": [
+        "Zeolite crystallization is treated as a conditional outcome within an alkali-activated matrix, so precursor composition and processing history must accompany any immobilization claim.",
+        "Retention within a reaction product is not automatically equivalent to long-term leach resistance; element identity, speciation, exposure medium, test duration and leaching protocol remain necessary evidence."
+      ],
+      "access": "Publisher-indexed metadata and searchable article excerpts only because direct MDPI article access returned HTTP 429 during review. The record is a synthesis of prior studies, not a new independent immobilization experiment. Individual precursor systems, zeolite assignments, toxic elements and leaching conditions were not fully audited, so no universal retention efficiency or service-life claim is made.",
+      "summaryBasis": "Primary MDPI publisher metadata and indexed article excerpts; no abstract text, publisher highlights, figures, tables or full-paper passages were reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    }
+  ],
+  "journalArticle": {
+    "id": "a-phase-name-is-not-a-leach-test",
+    "date": "2026-10-27",
+    "category": "Research briefing",
+    "topic": "Waste immobilization",
+    "title": "A phase name is not a leach test",
+    "summary": "Zeolite formation can help explain toxic-element retention, but mineral identification alone does not establish durable immobilization.",
+    "sources": [
+      "research-zeolite-phases-toxic-element-immobilization"
+    ],
+    "paragraphs": [
+      "Alkali-activated binders can contain amorphous gels alongside crystalline or semicrystalline zeolite phases. Which phases form depends on the precursor, activator, available silica and alumina, curing temperature and time, so the phase label cannot be separated from the preparation route.",
+      "For the evidence database, pair every immobilization result with the element and oxidation state, phase-identification method, mixture chemistry, curing history and leaching protocol. A structural explanation is valuable, but it should not replace measured release under the exposure conditions relevant to the intended wasteform."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "DOI absent from current-main code search and all thirteen earlier JSON files in open daily research draft PR #5. The existing draft PR was updated rather than creating another.",
+    "dates": "MDPI lists publication on 27 October 2026. The publisher publication date, not the issue assignment or crawl date, is used.",
+    "authors": "Violeta Nikolić is the author exposed in primary publisher metadata. No additional author was inferred.",
+    "corrections": "No substantive geopolymer/AAM correction, corrigendum or retraction newly publisher-dated 20–27 October 2026 was verified in targeted publisher searches.",
+    "verification": "One unique record, exactly two original highlights and one valid briefing source reference. Phase identification, immobilization mechanism and measured leaching performance remain explicitly separated.",
+    "integration": "Review-only staging on existing PR. Preserve the stable ID and existing content; run rights, application, build and browser checks before any separately authorized publication.",
+    "excluded": "Older papers, future-dated issue assignments, adjacent zeolite studies outside alkali-activated binders and records already staged on prior days were excluded. No filler record was added."
+  }
+}
