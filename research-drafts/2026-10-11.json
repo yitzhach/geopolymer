@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-11",
+  "status": "Draft refreshed 2026-10-13 for editorial review; not integrated or published",
+  "window": {
+    "from": "2026-10-06",
+    "through": "2026-10-13"
+  },
+  "researchUpdates": [
+    {
+      "year": 2026,
+      "dateBasis": "Publisher publication date",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "checked": "2026-10-13",
+      "added": "2026-10-11",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
+      "id": "research-basalt-crystallinity",
+      "published": "2026-10-08",
+      "title": "Quantitative Assessment of Precursor Crystallinity on the Reactivity and Strength of Basalt-Based Geopolymers",
+      "doi": "10.3390/pr14193220",
+      "journal": "Processes",
+      "topic": "Mix design & chemistry",
+      "publisherUrl": "https://www.mdpi.com/2227-9717/14/19/3220",
+      "authors": "Haifeng Pang, Jifeng Wu, Tong Shi, Chunming Hou, Xiongfei Wu, Zibo Yan and Miao Deng",
+      "summary": "Controlled heat treatment of basalt glass links increasing crystallinity with reduced reactivity and compressive performance.",
+      "highlights": [
+        "Uses related glass precursors to examine mineral structure while limiting chemical-composition differences.",
+        "The fitted strength relationship describes this dataset; it is not a validated predictor for other binders."
+      ],
+      "summaryBasis": "Indexed primary publisher text, including abstract and selected methods/discussion; direct page returned HTTP 429; no full methods audit",
+      "access": "Crystallinity is semi-quantitative. The plotted zero-strength endpoint is a theoretical failure boundary, not a measured compression result. No independent replication or age-based prediction established.",
+      "url": "https://doi.org/10.3390/pr14193220"
+    },
+    {
+      "year": 2026,
+      "dateBasis": "Publisher publication date",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "checked": "2026-10-13",
+      "added": "2026-10-11",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
+      "id": "research-coal-overburden-aggregate",
+      "published": "2026-10-07",
+      "title": "Investigation of coal mine overburden as a sustainable fine aggregate in alkali-activated concrete",
+      "doi": "10.1007/s44416-026-00119-8",
+      "journal": "Discover Concrete and Cement",
+      "topic": "Waste & biomass",
+      "publisherUrl": "https://link.springer.com/article/10.1007/s44416-026-00119-8",
+      "authors": "Sanchita Nawale and Rahul V. Ralegaonkar",
+      "summary": "Coal-mine overburden replaces natural fine aggregate in a one-part fly ash/slag concrete activated with powdered sodium metasilicate.",
+      "highlights": [
+        "The selected all-overburden fine-aggregate mixture reached a reported 48.99 MPa in compression at 28 days.",
+        "The study also evaluates other mechanical properties and estimates energy and cost within a defined comparison."
+      ],
+      "summaryBasis": "Primary publisher abstract, metadata and selected introductory methods; full methods not audited",
+      "access": "Source-specific laboratory results. Energy and cost estimates depend on local inputs and assessment boundaries; no general environmental qualification or independent replication. Compression is not shear, flexure or bond.",
+      "url": "https://doi.org/10.1007/s44416-026-00119-8"
+    }
+  ],
+  "journalArticle": {
+    "id": "material-history-before-strength-prediction",
+    "date": "2026-10-11",
+    "category": "Research briefing",
+    "topic": "Mix design & chemistry",
+    "title": "Material history belongs beside the mix proportions",
+    "summary": "Two new studies show why a formulation database needs mineral structure and aggregate provenance alongside ingredient weights.",
+    "sources": [
+      "research-basalt-crystallinity",
+      "research-coal-overburden-aggregate"
+    ],
+    "paragraphs": [
+      "Pang and colleagues vary the crystallinity of basalt-derived precursors and report changes in compressive performance. Their fitted relationship remains specific to the tested system; even the plotted zero-strength endpoint represents a failure boundary rather than a measured load.",
+      "Nawale and Ralegaonkar investigate coal-mine overburden as fine aggregate in a one-part binder. Their findings concern a particular waste source and formulation, with energy and cost comparisons bounded by the study assumptions.",
+      "Our editorial takeaway for the recipe database is to record material source, processing history and characterization alongside proportions. A future advisor should distinguish measured results from fitted estimates and ask for missing material information before suggesting a comparison. These studies do not validate user recipes or supply unreported strength timelines."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "Checked all 111 records on current main plus the 50 metadata-only records in open PR #9 (161 proposed unique DOIs total); neither draft DOI is present. PR #5 remains the single open daily research draft and was updated instead of creating a duplicate.",
+    "corrections": "No substantive correction or retraction newly published from 6–13 October 2026 was verified in the publisher search. This targeted search is not exhaustive; previously published retractions are outside this update window.",
+    "integration": "Append researchUpdates to src/research-updates.js and journalArticle to src/journal-data.js after editorial review, preserving IDs and existing content. Run npm test, npm run build and browser CI before any separately authorized release.",
+    "verification": "Refreshed 13 October 2026. Validated required fields, stable IDs, unique DOI/IDs, source references and date window. The two records retain publisher publication dates of 7–8 October. Application integration, npm/build and browser checks were not run because this remains a staged JSON-only draft.",
+    "excluded": "Already cataloged studies were excluded. Several newer-looking publisher listings were not added because an exact publisher online/publication date could not be verified; issue-only, search-crawl and news-post dates were not substituted."
+  }
+}

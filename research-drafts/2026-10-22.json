@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-22",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-15",
+    "through": "2026-10-22"
+  },
+  "researchUpdates": [
+    {
+      "id": "research-rubberized-geopolymer-critical-review",
+      "year": 2026,
+      "published": "2026-10-20",
+      "checked": "2026-10-22",
+      "added": "2026-10-22",
+      "dateBasis": "Publisher-listed publication date",
+      "title": "Rubberized Geopolymer Concrete for Sustainable Construction: A Critical Review of Interface Engineering, Performance Trade-Offs, Durability, and Environmental Assessment",
+      "doi": "10.3390/su182010699",
+      "journal": "Sustainability",
+      "topic": "Waste & biomass",
+      "type": "Review article",
+      "publicationStatus": "Published; version of record",
+      "authors": "Complete author list not independently exposed in accessible publisher metadata; not inferred",
+      "publisherUrl": "https://www.mdpi.com/2071-1050/18/20/10699",
+      "url": "https://doi.org/10.3390/su182010699",
+      "summary": "A critical review organizes evidence on rubberized geopolymer concrete around the rubber–binder interface, mechanical and durability trade-offs, and the boundaries of environmental comparisons.",
+      "highlights": [
+        "Treats rubber particle characteristics and interface engineering as formulation variables rather than assuming a replacement percentage is transferable between mixtures.",
+        "Places mechanical, durability and environmental findings side by side, while the underlying studies differ in precursor systems, rubber processing, curing and test protocols."
+      ],
+      "access": "Review-level synthesis, not independent replication. Cross-study comparisons inherit heterogeneous mixtures, ages, specimen geometries and environmental-system boundaries; they do not establish a universal optimum rubber content.",
+      "summaryBasis": "Primary publisher title, issue listing, DOI metadata and indexed publisher text; no figure, supplement or underlying-study audit",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    },
+    {
+      "id": "research-geopolymer-recycled-aggregate-salt-freeze-thaw",
+      "year": 2026,
+      "published": "2026-10-19",
+      "checked": "2026-10-22",
+      "added": "2026-10-22",
+      "dateBasis": "Publisher online-availability date",
+      "title": "Multi-scale damage of geopolymer recycled coarse aggregate concrete under salt freeze-thaw cycles: Macro properties, micro-mechanism and damage modeling",
+      "doi": "10.1016/j.jobe.2026.117595",
+      "journal": "Journal of Building Engineering",
+      "topic": "Durability",
+      "type": "Research article",
+      "publicationStatus": "Early access; journal pre-proof",
+      "authors": "Tao and coauthors; complete names not independently verified from accessible publisher metadata",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S2352710226024174",
+      "url": "https://doi.org/10.1016/j.jobe.2026.117595",
+      "summary": "The study follows salt freeze–thaw deterioration in geopolymer concrete containing recycled coarse aggregate across bulk performance, microstructural observations and a fitted damage model.",
+      "highlights": [
+        "Connects specimen-scale deterioration with microstructural evidence instead of treating a single mechanical result as the complete damage measure.",
+        "The damage model belongs to the tested materials, exposure protocol and calibration range; it is not automatically predictive for other salts, aggregate sources or field climates."
+      ],
+      "access": "Publisher-indexed abstract-level evidence only; the direct article page was access-restricted. Exact cycle schedule, mixture matrix, test ages, uncertainty and external model validation were not fully audited. No unreported strength age or independent replication is claimed.",
+      "summaryBasis": "Primary publisher article-in-press listing, DOI metadata and indexed preview; no full-paper, figure or supplement audit",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    }
+  ],
+  "journalArticle": {
+    "id": "interfaces-and-exposure-protocols-travel-with-results",
+    "date": "2026-10-22",
+    "category": "Research briefing",
+    "topic": "Durability",
+    "title": "Interfaces and exposure protocols travel with the result",
+    "summary": "Two new papers reinforce that recycled inclusions cannot be separated from their interfaces, conditioning and test environment.",
+    "sources": [
+      "research-rubberized-geopolymer-critical-review",
+      "research-geopolymer-recycled-aggregate-salt-freeze-thaw"
+    ],
+    "paragraphs": [
+      "Rubber and recycled coarse aggregate both introduce interfaces whose behavior depends on particle history, surface condition, binder chemistry and curing. A replacement percentage alone cannot identify the resulting material.",
+      "Durability evidence also travels with its exposure protocol. Salt composition, freeze–thaw cycling, saturation and measured response should remain attached to every result. The review synthesizes earlier work and the freeze–thaw paper calibrates one tested system; neither supplies a universal recipe or validates unreported service-life predictions."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "Both DOIs are absent from current main code search and from every JSON file in open daily research draft PR #5. The existing draft PR was updated instead of creating another.",
+    "dates": "MDPI's issue listing gives 20 October 2026 for DOI 10.3390/su182010699. ScienceDirect lists 19 October 2026 as the online-availability date for DOI 10.1016/j.jobe.2026.117595. Future issue dates were not used.",
+    "authors": "Accessible primary-publisher metadata did not expose complete author lists for either record. Only the visible surname Tao is retained for the second record; no names are guessed.",
+    "corrections": "No substantive geopolymer/AAM correction or retraction newly publisher-dated 15–22 October 2026 was verified in targeted primary-publisher searches; this is not comprehensive status clearance.",
+    "verification": "Two unique records, exactly two original highlights per record and two valid briefing source references. No abstracts, publisher highlights, figures or full papers are reproduced.",
+    "integration": "Review-only staging on existing PR. Preserve stable IDs and existing content, verify author metadata, then run rights, application, build and browser checks before any separately authorized publication.",
+    "excluded": "Broad cement and SCM papers that only cited or briefly mentioned geopolymers were excluded, as were records lacking a verifiable publisher publication or online date."
+  }
+}
