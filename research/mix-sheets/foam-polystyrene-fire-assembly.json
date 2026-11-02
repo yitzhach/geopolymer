@@ -457,7 +457,7 @@
  ],
  "findings": [
   {
-   "goal": "Best overall physical performance (chosen for the fire test)",
+   "goal": "Best performance in physical properties (chosen for the fire test)",
    "mix": "S20",
    "text": "Geopolymer S20 was recognized as the material with the best performance in terms of physical properties."
   }
@@ -475,6 +475,6 @@
   "Density is the MIP bulk density at 0.0015 MPa, printed in g/mL (numerically the same as g/cm3).",
   "Strengths for S21 and S22 are given only as percentages of S19 (12% and 19.2% lower compression); λ for S19 and S21 are only in Figure 7. Specimen geometry for strength and λ is not stated.",
   "Cure: 28 days in moulds 'under heat drying conditions at room temperature' (wording kept); fire-test boards were cured 28 days at RT and tested up to 800 °C; the fire result is in Figure 8 only.",
-  "Second review pending; see the batch audit."
+  "Second review (2 Nov 2026): 0 value errors; see the batch audit."
  ]
 }

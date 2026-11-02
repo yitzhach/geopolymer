@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "batch": "source-text-batch2-2026-11-02",
+  "mode": "source-text (mix-sheet skill v1.2, repository tooling)",
+  "checked": "2026-11-02",
+  "reviewer": "AI transcription by the primary agent; independent AI second review by two lightweight reviewer agents; no human/domain review",
+  "selection": "First five open entries of research/mix-sheets/QUEUE.json, all with open CC BY PMC copies (45 of the 90 open guides have one).",
+  "operations": [
+    "3 Europe PMC searches (open-access lookup for the 90 open guides, 30 DOIs per query)",
+    "5 × (Europe PMC search + fullTextXML) via npm run mixes -- source = 10 operations"
+  ],
+  "operationCount": 13,
+  "failedAccess": [],
+  "retention": "Full text saved only in the OS temp folder (geopolymer-sources/) and deleted after review.",
+  "method": [
+    "Generators read parsed table cells and check the headers and labels they rely on.",
+    "npm run mixes -- ground: 0 of 328 quotes not grounded.",
+    "npm run mixes -- check: all sheets pass."
+  ],
+  "papers": [
+    {
+      "guideId": "calcium-hydroxide-carbonation-tradeoff",
+      "doi": "10.3390/ma16062305",
+      "pmcid": "PMC10056939",
+      "licence": "CC BY (Europe PMC)",
+      "fullText": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10056939/fullTextXML",
+      "generator": "research/mix-sheets/generators/calcium-hydroxide-carbonation-tradeoff.mjs",
+      "mixes": 10,
+      "results": 13
+    },
+    {
+      "guideId": "printing-side-stream-process-window",
+      "doi": "10.3390/ma14164758",
+      "pmcid": "PMC8400012",
+      "licence": "CC BY (Europe PMC)",
+      "fullText": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8400012/fullTextXML",
+      "generator": "research/mix-sheets/generators/printing-side-stream-process-window.mjs",
+      "mixes": 10,
+      "results": 2
+    },
+    {
+      "guideId": "sfcc-phosphate-acid-window",
+      "doi": "10.3390/gels8020130",
+      "pmcid": "PMC8872381",
+      "licence": "CC BY (Europe PMC)",
+      "fullText": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8872381/fullTextXML",
+      "generator": "research/mix-sheets/generators/sfcc-phosphate-acid-window.mjs",
+      "mixes": 6,
+      "results": 3
+    },
+    {
+      "guideId": "foam-polystyrene-fire-assembly",
+      "doi": "10.3390/polym14101945",
+      "pmcid": "PMC9143971",
+      "licence": "CC BY (Europe PMC)",
+      "fullText": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9143971/fullTextXML",
+      "generator": "research/mix-sheets/generators/foam-polystyrene-fire-assembly.mjs",
+      "mixes": 4,
+      "results": 14
+    },
+    {
+      "guideId": "metakaolin-gel-amount-versus-composition",
+      "doi": "10.3390/ma13245784",
+      "pmcid": "PMC7767034",
+      "licence": "CC BY (Europe PMC)",
+      "fullText": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7767034/fullTextXML",
+      "generator": "research/mix-sheets/generators/metakaolin-gel-amount-versus-composition.mjs",
+      "mixes": 7,
+      "results": 4
+    }
+  ],
+  "secondReview": [
+    {
+      "sheets": [
+        "calcium-hydroxide-carbonation-tradeoff",
+        "sfcc-phosphate-acid-window",
+        "metakaolin-gel-amount-versus-composition"
+      ],
+      "linesChecked": 164,
+      "valueErrors": 0,
+      "findings": [
+        "Unit bases on the Ca(OH)2 sheet flagged as inferred; kept: the text calls FA 'mass ratios' and Ca(OH)2 'mass fractions of raw material' (quoted in the material detail).",
+        "Cures record the first stage in the fields; the quoted text carries the later stages, per the standard. No change.",
+        "SFCC test age is not stated; left null as in the sheet."
+      ]
+    },
+    {
+      "sheets": [
+        "printing-side-stream-process-window",
+        "foam-polystyrene-fire-assembly"
+      ],
+      "linesChecked": 114,
+      "valueErrors": 0,
+      "findings": [
+        "All 68 Table 4 cells in the right column, empty cells omitted.",
+        "Foam finding paraphrased 'overall' → reworded to the paper's 'best performance in terms of physical properties'.",
+        "Foam 28-day age comes from the study-wide curing sentence (quoted as ageText). No change.",
+        "Printing cure fields hold the 60 °C first stage; the quote keeps the 48 h room-temperature stage. No change."
+      ]
+    }
+  ],
+  "toolingAdded": [
+    "npm run mixes -- text",
+    "tableQuote key option for rows labelled only by a number (grounding checks the key is in the same row)"
+  ]
+}

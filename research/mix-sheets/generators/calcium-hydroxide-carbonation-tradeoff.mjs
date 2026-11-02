@@ -45,4 +45,4 @@ await save({...sheetHeader(G,'10.3390/ma16062305',src,'All ten Table 2 pastes (n
   'Carbonation coefficients De and pH values are stated per group but have no mix-table property.',
   'Activator mass and the water/binder basis are not stated (modulus 1.2, concentration 36%); Ca(OH)2 is dosed as a mass fraction of raw material.',
   "Cure is recorded as sealed from Table 2's 'Seal curing'; the curing box is 20 °C / 95% RH; the 28-day continued-curing conditions are not restated.",
-  'Second review pending; see the batch audit.']});
+  'Second review (2 Nov 2026): 0 value errors; see the batch audit.']});

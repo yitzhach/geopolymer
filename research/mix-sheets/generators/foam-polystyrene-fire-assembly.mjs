@@ -31,11 +31,11 @@ await save({...sheetHeader(G,'10.3390/polym14101945',src,'The four Table 2 foams
   {id:'ff',property:'flexural-strength',unit:'MPa',specimen:'not stated',method:null},
   {id:'k',property:'thermal-conductivity',unit:'W/(m·K)',specimen:'not stated',method:null}],
  results,
- findings:[{goal:'Best overall physical performance (chosen for the fire test)',mix:'S20',text:'Geopolymer S20 was recognized as the material with the best performance in terms of physical properties.'}],
+ findings:[{goal:'Best performance in physical properties (chosen for the fire test)',mix:'S20',text:'Geopolymer S20 was recognized as the material with the best performance in terms of physical properties.'}],
  notes:[{mix:'S20',kind:'observation',text:'According to Table 2, (Section 2.2), the three specimens were prepared following the S20 composition.'}],
  gaps:['Table quotes follow the standard form; in Table 2 the MK, activator, basalt fibre, sand and aluminium cells span all four rows, and only silica fume varies by row (this resolves the merged-row question in the review notes).',
   'Table 2 ratios are "referred to MK"; the mass basis is not stated, and the text calls the silica-fume levels 5, 10 and 20 wt.%. Activator concentration is given only as pH 11.',
   'Density is the MIP bulk density at 0.0015 MPa, printed in g/mL (numerically the same as g/cm3).',
   'Strengths for S21 and S22 are given only as percentages of S19 (12% and 19.2% lower compression); λ for S19 and S21 are only in Figure 7. Specimen geometry for strength and λ is not stated.',
   "Cure: 28 days in moulds 'under heat drying conditions at room temperature' (wording kept); fire-test boards were cured 28 days at RT and tested up to 800 °C; the fire result is in Figure 8 only.",
-  'Second review pending; see the batch audit.']});
+  'Second review (2 Nov 2026): 0 value errors; see the batch audit.']});

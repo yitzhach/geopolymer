@@ -12,7 +12,7 @@ them only when you need the evidence behind a specific earlier batch.
   `KNOWLEDGE_ENGINE_MASTER_PROMPT.md` for research and `SUMMARY_DEEP_DIVE_STANDARD.md` before
   touching summaries or deep dives.
 
-## Current state — 26 October 2026
+## Current state — 2 November 2026
 
 - Library 1,000 publications · 361 detailed summaries · 362 deep-dive guides (every guide and
   summary exposes `mix-data-v1`). Formulation catalog 49 conditions / 37 proportional scalers.
@@ -30,7 +30,7 @@ them only when you need the evidence behind a specific earlier batch.
 - One row per mix, compiled at build time by `scripts/lib/mix-sheets.mjs` → `src/mix-table.js`
   from the knowledge pilot, the formulation catalog and `research/mix-sheets/*.json`. Output:
   `dist/mixes.json` and `/mixes`. Pilot rows absorb matching catalog recipes (6 merged).
-- Counts: **228 rows from 42 papers; 118 with numeric results; 123 rows from 22 mix sheets**
+- Counts: **265 rows from 47 papers; 141 with numeric results; 160 rows from 27 mix sheets**
   (`npm run mixes -- stats`).
 - Sheets so far (review-note mode): one-part-admixture-compatibility, rap-geopolymer-grout-
   versus-composite, fly-ash-slag-efflorescence-moisture (worked examples), hpmc-vae-
@@ -41,7 +41,9 @@ them only when you need the evidence behind a specific earlier batch.
   metakaolin-water-temperature, metakaolin-freeze-thaw-design, coating-wetting-versus-bond,
   phosphate-polymer-rheology; source-text pilot (26 Oct): red-mud-egc-strength-ductility,
   lithium-slag-shrinkage-model-hold, pas-prefoam-volume-thermal, carbonated-fa-slag-gel-products,
-  aircooled-slag-milling-activation.
+  aircooled-slag-milling-activation; source-text batch 2 (2 Nov): calcium-hydroxide-carbonation-
+  tradeoff, printing-side-stream-process-window, sfcc-phosphate-acid-window,
+  foam-polystyrene-fire-assembly, metakaolin-gel-amount-versus-composition.
 - The fly-ash/slag pilot queue is finished (13 done, 11 skipped with reasons) and archived as
   `research/mix-sheets/_QUEUE-fly-ash-slag-pilot.json`. New queue `QUEUE.json`
   ("partial-designs-round-2"): the 99 remaining partial-design guides that are not sheeted,
@@ -87,6 +89,22 @@ merge their PRs; lanes B–D are leads, not site data.
 - Remaining open-PMC skip: polym16121685 (PMC11207821). The Minerals/Energies/Buildings skips have
   no PMC copy.
 
+## Source-text tooling and batch 2 (2 Nov)
+
+- `npm run mixes -- source | tables | text | quote | ground` (`scripts/lib/source-text.mjs`,
+  tests in `tests/source-text.test.mjs`). `source` reads open CC BY papers through the Europe PMC
+  full-text XML API and saves them outside the repo (OS temp, `geopolymer-sources/`). The PMC
+  website answered rapid page requests with a reCAPTCHA challenge (26 Oct re-read); never scrape
+  it or retry a challenge. Node needs `NODE_USE_ENV_PROXY=1` behind the proxy; `source` sets it.
+- Each source-text sheet has a generator in `research/mix-sheets/generators/` that rebuilds it from
+  table cells; the five pilot sheets were regenerated with identical values.
+- Batch 2 (first five queue entries): 37 new rows, 23 more with numeric results (36 values: carbonation depth, MIP
+  porosity, compressive/flexural strength, density, thermal conductivity, NMR gel fraction).
+  13 source operations; `ground` 0 of 328 quotes ungrounded; two AI reviewers, 278 lines, 0 value
+  errors. Audit: `research/batches/source-text-batch2-2026-11-02.json`.
+- 45 of the 90 open queue guides have an open PMC copy (list in that audit's selection note); the
+  next five are `npm run mixes -- queue --next 5`, skipping any without a copy.
+
 ## Site speed (24 Oct)
 
 - `src/bootstrap.js` now loads `src/enhance.js`, which imports only the modules a page's tools
@@ -128,9 +146,8 @@ merge their PRs; lanes B–D are leads, not site data.
 ## Next work
 
 1. Start tandem lane A (and B–D if wanted) from `TANDEM_TASKS.md`; review their PRs.
-2. Source-text batches over `QUEUE.json` guides with open PMC copies (procedure in the
-   standard); port the extraction and grounding check into `scripts/mix-sheets.mjs` so they are
-   repeatable without ad-hoc scripts.
+2. Next source-text batch: the next five open-PMC guides in `QUEUE.json` (procedure in the
+   standard, tooling above).
 3. Explorer: more axes (activator/precursor, curing hours), CSV export, saved comparisons.
 4. Site speed: paginate or lazy-render the 1,000-card `/library` page; split `data.js` so
    `/tools` and `/shop` stop importing the full catalog.
