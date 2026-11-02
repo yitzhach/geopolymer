@@ -1,0 +1,225 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "am-mixtures-leaching-context",
+ "doi": "10.3390/ma18214886",
+ "basis": "source-text",
+ "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12608164/",
+ "accessed": "2026-11-02",
+ "audit": "research/batches/source-text-batch5-2026-11-02.json",
+ "scope": "Both Table 2 mixtures with component ratios normalized to metakaolin = 1.00. The paper reports leaching (Table 4) and radionuclide activity (Table 5), which have no mix-table property, and no mechanical values.",
+ "made": "2026-11-02",
+ "madeBy": "AI transcription · mix-sheet skill v1 (source-text pilot)",
+ "materials": [
+  {
+   "id": "mk",
+   "family": "metakaolin",
+   "role": "precursor",
+   "name": "Metakaolin",
+   "aliases": [
+    "MT"
+   ]
+  },
+  {
+   "id": "wg",
+   "family": "sodium-silicate-solution",
+   "role": "activator",
+   "name": "Waterglass"
+  },
+  {
+   "id": "silica",
+   "family": "other-additive",
+   "role": "additive",
+   "name": "Silica"
+  },
+  {
+   "id": "graphite",
+   "family": "other-additive",
+   "role": "additive",
+   "name": "Graphite"
+  },
+  {
+   "id": "cf",
+   "family": "carbon-fiber",
+   "role": "fiber",
+   "name": "Carbon fibers"
+  },
+  {
+   "id": "alginate",
+   "family": "viscosity-modifier",
+   "role": "additive",
+   "name": "Alginate"
+  },
+  {
+   "id": "anhydrite",
+   "family": "gypsum",
+   "role": "additive",
+   "name": "Anhydrite"
+  },
+  {
+   "id": "cellulose",
+   "family": "viscosity-modifier",
+   "role": "additive",
+   "name": "Cellulose"
+  },
+  {
+   "id": "sand",
+   "family": "sand",
+   "role": "aggregate",
+   "name": "Sand (<1 mm)",
+   "aliases": [
+    "Sand"
+   ]
+  }
+ ],
+ "mixes": [
+  {
+   "id": "Mixture I",
+   "control": false,
+   "form": "printed",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 1,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Component ratios of the two geopolymer mixtures (normalized to MT = 1.00)): Component | Mixture I (NaOH 16 M) → Metakaolin | 1.00"
+    },
+    {
+     "material": "wg",
+     "value": 0.9,
+     "unit": "part",
+     "basis": "mass-parts",
+     "basisNote": "Table 2 cell reads \"0.90 (NaOH 16 M)\"",
+     "text": "Table 2 (Component ratios of the two geopolymer mixtures (normalized to MT = 1.00)): Component | Mixture I (NaOH 16 M) → Waterglass | 0.90 (NaOH 16 M)"
+    },
+    {
+     "material": "silica",
+     "value": 0.1,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Component ratios of the two geopolymer mixtures (normalized to MT = 1.00)): Component | Mixture I (NaOH 16 M) → Silica | 0.10"
+    },
+    {
+     "material": "graphite",
+     "value": 0.1,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Component ratios of the two geopolymer mixtures (normalized to MT = 1.00)): Component | Mixture I (NaOH 16 M) → Graphite | 0.10"
+    },
+    {
+     "material": "cf",
+     "value": 0.01,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Component ratios of the two geopolymer mixtures (normalized to MT = 1.00)): Component | Mixture I (NaOH 16 M) → Carbon fibers | 0.01"
+    },
+    {
+     "material": "alginate",
+     "value": 0.01,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Component ratios of the two geopolymer mixtures (normalized to MT = 1.00)): Component | Mixture I (NaOH 16 M) → Alginate | 0.01"
+    },
+    {
+     "material": "anhydrite",
+     "value": 0.005,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Component ratios of the two geopolymer mixtures (normalized to MT = 1.00)): Component | Mixture I (NaOH 16 M) → Anhydrite | 0.005"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "curing regime not stated"
+   ]
+  },
+  {
+   "id": "Mixture II",
+   "control": false,
+   "form": "printed",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 1,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Component ratios of the two geopolymer mixtures (normalized to MT = 1.00)): Component | Mixture II (Baucis + Sand) → Metakaolin | 1.00"
+    },
+    {
+     "material": "wg",
+     "value": 0.9,
+     "unit": "part",
+     "basis": "mass-parts",
+     "basisNote": "Table 2 cell reads \"0.90 (Baucis)\"",
+     "text": "Table 2 (Component ratios of the two geopolymer mixtures (normalized to MT = 1.00)): Component | Mixture II (Baucis + Sand) → Waterglass | 0.90 (Baucis)"
+    },
+    {
+     "material": "silica",
+     "value": 0.1,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Component ratios of the two geopolymer mixtures (normalized to MT = 1.00)): Component | Mixture II (Baucis + Sand) → Silica | 0.10"
+    },
+    {
+     "material": "graphite",
+     "value": 0.04,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Component ratios of the two geopolymer mixtures (normalized to MT = 1.00)): Component | Mixture II (Baucis + Sand) → Graphite | 0.04"
+    },
+    {
+     "material": "cf",
+     "value": 0.01,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Component ratios of the two geopolymer mixtures (normalized to MT = 1.00)): Component | Mixture II (Baucis + Sand) → Carbon fibers | 0.01"
+    },
+    {
+     "material": "alginate",
+     "value": 0.01,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Component ratios of the two geopolymer mixtures (normalized to MT = 1.00)): Component | Mixture II (Baucis + Sand) → Alginate | 0.01"
+    },
+    {
+     "material": "anhydrite",
+     "value": 0.01,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Component ratios of the two geopolymer mixtures (normalized to MT = 1.00)): Component | Mixture II (Baucis + Sand) → Anhydrite | 0.01"
+    },
+    {
+     "material": "cellulose",
+     "value": 0.01,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Component ratios of the two geopolymer mixtures (normalized to MT = 1.00)): Component | Mixture II (Baucis + Sand) → Cellulose | 0.01"
+    },
+    {
+     "material": "sand",
+     "value": 1,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 2 (Component ratios of the two geopolymer mixtures (normalized to MT = 1.00)): Component | Mixture II (Baucis + Sand) → Sand (<1 mm) | 1.00"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "curing regime not stated"
+   ]
+  }
+ ],
+ "cures": [],
+ "tests": [],
+ "results": [],
+ "findings": [],
+ "notes": [],
+ "gaps": [
+  "Mixes are columns in Table 2, so each quote pairs a component row with that mixture's column. Ratios are normalized to metakaolin (MT) = 1.00; the mass basis is implied by the normalization but not stated.",
+  "Activator identity kept as printed: Mixture I's waterglass cell reads \"0.90 (NaOH 16 M)\" and Mixture II's \"0.90 (Baucis)\"; the paper does not reconcile whether Mixture I used waterglass, 16 M NaOH or both.",
+  "Leachate concentrations (Table 4, mg/kg) and natural radionuclide activity (Table 5) are not mix-table properties; no curing regime or mechanical results are stated.",
+  "Second review pending; see the batch audit."
+ ]
+}

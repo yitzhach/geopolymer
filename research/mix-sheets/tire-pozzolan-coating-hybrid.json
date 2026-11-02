@@ -1,0 +1,1274 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "tire-pozzolan-coating-hybrid",
+ "doi": "10.3390/polym18162014",
+ "basis": "source-text",
+ "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13516991/",
+ "accessed": "2026-11-02",
+ "audit": "research/batches/source-text-batch5-2026-11-02.json",
+ "scope": "The sixteen Table 5 Taguchi mixes M1–M16 (coating type × tyre-aggregate content × PP fibre) with kg/m3 amounts. Per-mix test results are in figures; the verification results in Table 7 are for optimum mixes not in Table 5.",
+ "made": "2026-11-02",
+ "madeBy": "AI transcription · mix-sheet skill v1 (source-text pilot)",
+ "materials": [
+  {
+   "id": "fa",
+   "family": "fly-ash",
+   "role": "precursor",
+   "name": "Fly ash",
+   "aliases": [
+    "UK",
+    "FA"
+   ],
+   "detail": "The selected fly ash was a low-calcium aluminosilicate."
+  },
+  {
+   "id": "cem",
+   "family": "portland-cement",
+   "role": "precursor",
+   "name": "CEM II/B-S 42.5 N Portland cement",
+   "aliases": [
+    "Cement"
+   ]
+  },
+  {
+   "id": "water",
+   "family": "water",
+   "role": "water",
+   "name": "Water"
+  },
+  {
+   "id": "pce",
+   "family": "superplasticizer",
+   "role": "additive",
+   "name": "PCE"
+  },
+  {
+   "id": "meta",
+   "family": "sodium-silicate-solid",
+   "role": "activator",
+   "name": "Sodium metasilicate",
+   "aliases": [
+    "Alkali Activator",
+    "metasilicate"
+   ],
+   "detail": "Sodium metasilicate (Na2SiO3) powder served as an alkaline activator to initiate geopolymerization."
+  },
+  {
+   "id": "sand",
+   "family": "sand",
+   "role": "aggregate",
+   "name": "Silica Sand"
+  },
+  {
+   "id": "wta",
+   "family": "other-aggregate",
+   "role": "aggregate",
+   "name": "waste tire aggregates",
+   "aliases": [
+    "WTA"
+   ],
+   "detail": "The WTA particles were classified using a 0.5–4 mm sieve and then immersed in a NaOH solution. The NaOH solution was prepared to a concentration of 12 M 24 h before immersion."
+  },
+  {
+   "id": "ppf",
+   "family": "pp-fiber",
+   "role": "fiber",
+   "name": "PP fibers",
+   "aliases": [
+    "PP Fiber"
+   ]
+  },
+  {
+   "id": "pumice",
+   "family": "natural-pozzolan",
+   "role": "additive",
+   "name": "Pumice"
+  },
+  {
+   "id": "perlite",
+   "family": "natural-pozzolan",
+   "role": "additive",
+   "name": "Perlite"
+  },
+  {
+   "id": "diatomite",
+   "family": "natural-pozzolan",
+   "role": "additive",
+   "name": "Diatomite"
+  }
+ ],
+ "mixes": [
+  {
+   "id": "M1",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M1 | Uncoated | 10 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 789.0 | 32.0 | 0.0"
+    },
+    {
+     "material": "cem",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M1 | Uncoated | 10 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 789.0 | 32.0 | 0.0"
+    },
+    {
+     "material": "water",
+     "value": 280,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M1 | Uncoated | 10 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 789.0 | 32.0 | 0.0"
+    },
+    {
+     "material": "pce",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M1 | Uncoated | 10 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 789.0 | 32.0 | 0.0"
+    },
+    {
+     "material": "meta",
+     "value": 120,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M1 | Uncoated | 10 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 789.0 | 32.0 | 0.0"
+    },
+    {
+     "material": "sand",
+     "value": 789,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M1 | Uncoated | 10 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 789.0 | 32.0 | 0.0"
+    },
+    {
+     "material": "wta",
+     "value": 32,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M1 | Uncoated | 10 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 789.0 | 32.0 | 0.0"
+    },
+    {
+     "material": "ppf",
+     "value": 0,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M1 | Uncoated | 10 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 789.0 | 32.0 | 0.0"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "curing regime not found in the paper"
+   ]
+  },
+  {
+   "id": "M2",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M2 | Uncoated | 25 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 688.0 | 84.3 | 4.6"
+    },
+    {
+     "material": "cem",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M2 | Uncoated | 25 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 688.0 | 84.3 | 4.6"
+    },
+    {
+     "material": "water",
+     "value": 280,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M2 | Uncoated | 25 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 688.0 | 84.3 | 4.6"
+    },
+    {
+     "material": "pce",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M2 | Uncoated | 25 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 688.0 | 84.3 | 4.6"
+    },
+    {
+     "material": "meta",
+     "value": 120,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M2 | Uncoated | 25 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 688.0 | 84.3 | 4.6"
+    },
+    {
+     "material": "sand",
+     "value": 688,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M2 | Uncoated | 25 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 688.0 | 84.3 | 4.6"
+    },
+    {
+     "material": "wta",
+     "value": 84.3,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M2 | Uncoated | 25 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 688.0 | 84.3 | 4.6"
+    },
+    {
+     "material": "ppf",
+     "value": 4.6,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M2 | Uncoated | 25 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 688.0 | 84.3 | 4.6"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "curing regime not found in the paper"
+   ]
+  },
+  {
+   "id": "M3",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M3 | Uncoated | 50 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 451.9 | 166.1 | 9.1"
+    },
+    {
+     "material": "cem",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M3 | Uncoated | 50 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 451.9 | 166.1 | 9.1"
+    },
+    {
+     "material": "water",
+     "value": 280,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M3 | Uncoated | 50 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 451.9 | 166.1 | 9.1"
+    },
+    {
+     "material": "pce",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M3 | Uncoated | 50 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 451.9 | 166.1 | 9.1"
+    },
+    {
+     "material": "meta",
+     "value": 120,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M3 | Uncoated | 50 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 451.9 | 166.1 | 9.1"
+    },
+    {
+     "material": "sand",
+     "value": 451.9,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M3 | Uncoated | 50 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 451.9 | 166.1 | 9.1"
+    },
+    {
+     "material": "wta",
+     "value": 166.1,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M3 | Uncoated | 50 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 451.9 | 166.1 | 9.1"
+    },
+    {
+     "material": "ppf",
+     "value": 9.1,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M3 | Uncoated | 50 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 451.9 | 166.1 | 9.1"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "curing regime not found in the paper"
+   ]
+  },
+  {
+   "id": "M4",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M4 | Uncoated | 75 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 219.1 | 241.7 | 18.2"
+    },
+    {
+     "material": "cem",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M4 | Uncoated | 75 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 219.1 | 241.7 | 18.2"
+    },
+    {
+     "material": "water",
+     "value": 280,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M4 | Uncoated | 75 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 219.1 | 241.7 | 18.2"
+    },
+    {
+     "material": "pce",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M4 | Uncoated | 75 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 219.1 | 241.7 | 18.2"
+    },
+    {
+     "material": "meta",
+     "value": 120,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M4 | Uncoated | 75 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 219.1 | 241.7 | 18.2"
+    },
+    {
+     "material": "sand",
+     "value": 219.1,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M4 | Uncoated | 75 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 219.1 | 241.7 | 18.2"
+    },
+    {
+     "material": "wta",
+     "value": 241.7,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M4 | Uncoated | 75 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 219.1 | 241.7 | 18.2"
+    },
+    {
+     "material": "ppf",
+     "value": 18.2,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M4 | Uncoated | 75 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 219.1 | 241.7 | 18.2"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "curing regime not found in the paper"
+   ]
+  },
+  {
+   "id": "M5",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M5 | Pumice | 10 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 825.7 | 37.1 | 4.6"
+    },
+    {
+     "material": "cem",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M5 | Pumice | 10 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 825.7 | 37.1 | 4.6"
+    },
+    {
+     "material": "water",
+     "value": 280,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M5 | Pumice | 10 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 825.7 | 37.1 | 4.6"
+    },
+    {
+     "material": "pce",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M5 | Pumice | 10 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 825.7 | 37.1 | 4.6"
+    },
+    {
+     "material": "meta",
+     "value": 120,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M5 | Pumice | 10 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 825.7 | 37.1 | 4.6"
+    },
+    {
+     "material": "sand",
+     "value": 825.7,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M5 | Pumice | 10 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 825.7 | 37.1 | 4.6"
+    },
+    {
+     "material": "wta",
+     "value": 37.1,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M5 | Pumice | 10 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 825.7 | 37.1 | 4.6"
+    },
+    {
+     "material": "ppf",
+     "value": 4.6,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M5 | Pumice | 10 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 825.7 | 37.1 | 4.6"
+    },
+    {
+     "material": "pumice",
+     "value": null,
+     "missing": "coating mass per m3 not given; the WTA is dry-coated with this pozzolan before mixing",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M5 | Pumice | 10 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 825.7 | 37.1 | 4.6"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "curing regime not found in the paper"
+   ]
+  },
+  {
+   "id": "M6",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M6 | Pumice | 25 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 698.2 | 94.1 | 0.0"
+    },
+    {
+     "material": "cem",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M6 | Pumice | 25 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 698.2 | 94.1 | 0.0"
+    },
+    {
+     "material": "water",
+     "value": 280,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M6 | Pumice | 25 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 698.2 | 94.1 | 0.0"
+    },
+    {
+     "material": "pce",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M6 | Pumice | 25 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 698.2 | 94.1 | 0.0"
+    },
+    {
+     "material": "meta",
+     "value": 120,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M6 | Pumice | 25 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 698.2 | 94.1 | 0.0"
+    },
+    {
+     "material": "sand",
+     "value": 698.2,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M6 | Pumice | 25 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 698.2 | 94.1 | 0.0"
+    },
+    {
+     "material": "wta",
+     "value": 94.1,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M6 | Pumice | 25 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 698.2 | 94.1 | 0.0"
+    },
+    {
+     "material": "ppf",
+     "value": 0,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M6 | Pumice | 25 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 698.2 | 94.1 | 0.0"
+    },
+    {
+     "material": "pumice",
+     "value": null,
+     "missing": "coating mass per m3 not given; the WTA is dry-coated with this pozzolan before mixing",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M6 | Pumice | 25 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 698.2 | 94.1 | 0.0"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "curing regime not found in the paper"
+   ]
+  },
+  {
+   "id": "M7",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M7 | Pumice | 50 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 438.3 | 177.3 | 18.2"
+    },
+    {
+     "material": "cem",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M7 | Pumice | 50 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 438.3 | 177.3 | 18.2"
+    },
+    {
+     "material": "water",
+     "value": 280,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M7 | Pumice | 50 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 438.3 | 177.3 | 18.2"
+    },
+    {
+     "material": "pce",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M7 | Pumice | 50 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 438.3 | 177.3 | 18.2"
+    },
+    {
+     "material": "meta",
+     "value": 120,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M7 | Pumice | 50 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 438.3 | 177.3 | 18.2"
+    },
+    {
+     "material": "sand",
+     "value": 438.3,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M7 | Pumice | 50 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 438.3 | 177.3 | 18.2"
+    },
+    {
+     "material": "wta",
+     "value": 177.3,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M7 | Pumice | 50 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 438.3 | 177.3 | 18.2"
+    },
+    {
+     "material": "ppf",
+     "value": 18.2,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M7 | Pumice | 50 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 438.3 | 177.3 | 18.2"
+    },
+    {
+     "material": "pumice",
+     "value": null,
+     "missing": "coating mass per m3 not given; the WTA is dry-coated with this pozzolan before mixing",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M7 | Pumice | 50 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 438.3 | 177.3 | 18.2"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "curing regime not found in the paper"
+   ]
+  },
+  {
+   "id": "M8",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M8 | Pumice | 75 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 225.9 | 274.1 | 9.1"
+    },
+    {
+     "material": "cem",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M8 | Pumice | 75 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 225.9 | 274.1 | 9.1"
+    },
+    {
+     "material": "water",
+     "value": 280,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M8 | Pumice | 75 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 225.9 | 274.1 | 9.1"
+    },
+    {
+     "material": "pce",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M8 | Pumice | 75 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 225.9 | 274.1 | 9.1"
+    },
+    {
+     "material": "meta",
+     "value": 120,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M8 | Pumice | 75 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 225.9 | 274.1 | 9.1"
+    },
+    {
+     "material": "sand",
+     "value": 225.9,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M8 | Pumice | 75 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 225.9 | 274.1 | 9.1"
+    },
+    {
+     "material": "wta",
+     "value": 274.1,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M8 | Pumice | 75 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 225.9 | 274.1 | 9.1"
+    },
+    {
+     "material": "ppf",
+     "value": 9.1,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M8 | Pumice | 75 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 225.9 | 274.1 | 9.1"
+    },
+    {
+     "material": "pumice",
+     "value": null,
+     "missing": "coating mass per m3 not given; the WTA is dry-coated with this pozzolan before mixing",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M8 | Pumice | 75 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 225.9 | 274.1 | 9.1"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "curing regime not found in the paper"
+   ]
+  },
+  {
+   "id": "M9",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M9 | Perlite | 10 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 813.4 | 43.2 | 9.1"
+    },
+    {
+     "material": "cem",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M9 | Perlite | 10 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 813.4 | 43.2 | 9.1"
+    },
+    {
+     "material": "water",
+     "value": 280,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M9 | Perlite | 10 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 813.4 | 43.2 | 9.1"
+    },
+    {
+     "material": "pce",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M9 | Perlite | 10 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 813.4 | 43.2 | 9.1"
+    },
+    {
+     "material": "meta",
+     "value": 120,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M9 | Perlite | 10 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 813.4 | 43.2 | 9.1"
+    },
+    {
+     "material": "sand",
+     "value": 813.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M9 | Perlite | 10 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 813.4 | 43.2 | 9.1"
+    },
+    {
+     "material": "wta",
+     "value": 43.2,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M9 | Perlite | 10 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 813.4 | 43.2 | 9.1"
+    },
+    {
+     "material": "ppf",
+     "value": 9.1,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M9 | Perlite | 10 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 813.4 | 43.2 | 9.1"
+    },
+    {
+     "material": "perlite",
+     "value": null,
+     "missing": "coating mass per m3 not given; the WTA is dry-coated with this pozzolan before mixing",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M9 | Perlite | 10 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 813.4 | 43.2 | 9.1"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "curing regime not found in the paper"
+   ]
+  },
+  {
+   "id": "M10",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M10 | Perlite | 25 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 657.4 | 104.7 | 18.2"
+    },
+    {
+     "material": "cem",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M10 | Perlite | 25 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 657.4 | 104.7 | 18.2"
+    },
+    {
+     "material": "water",
+     "value": 280,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M10 | Perlite | 25 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 657.4 | 104.7 | 18.2"
+    },
+    {
+     "material": "pce",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M10 | Perlite | 25 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 657.4 | 104.7 | 18.2"
+    },
+    {
+     "material": "meta",
+     "value": 120,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M10 | Perlite | 25 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 657.4 | 104.7 | 18.2"
+    },
+    {
+     "material": "sand",
+     "value": 657.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M10 | Perlite | 25 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 657.4 | 104.7 | 18.2"
+    },
+    {
+     "material": "wta",
+     "value": 104.7,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M10 | Perlite | 25 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 657.4 | 104.7 | 18.2"
+    },
+    {
+     "material": "ppf",
+     "value": 18.2,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M10 | Perlite | 25 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 657.4 | 104.7 | 18.2"
+    },
+    {
+     "material": "perlite",
+     "value": null,
+     "missing": "coating mass per m3 not given; the WTA is dry-coated with this pozzolan before mixing",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M10 | Perlite | 25 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 657.4 | 104.7 | 18.2"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "curing regime not found in the paper"
+   ]
+  },
+  {
+   "id": "M11",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M11 | Perlite | 50 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 465.5 | 222.5 | 0.0"
+    },
+    {
+     "material": "cem",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M11 | Perlite | 50 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 465.5 | 222.5 | 0.0"
+    },
+    {
+     "material": "water",
+     "value": 280,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M11 | Perlite | 50 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 465.5 | 222.5 | 0.0"
+    },
+    {
+     "material": "pce",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M11 | Perlite | 50 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 465.5 | 222.5 | 0.0"
+    },
+    {
+     "material": "meta",
+     "value": 120,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M11 | Perlite | 50 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 465.5 | 222.5 | 0.0"
+    },
+    {
+     "material": "sand",
+     "value": 465.5,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M11 | Perlite | 50 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 465.5 | 222.5 | 0.0"
+    },
+    {
+     "material": "wta",
+     "value": 222.5,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M11 | Perlite | 50 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 465.5 | 222.5 | 0.0"
+    },
+    {
+     "material": "ppf",
+     "value": 0,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M11 | Perlite | 50 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 465.5 | 222.5 | 0.0"
+    },
+    {
+     "material": "perlite",
+     "value": null,
+     "missing": "coating mass per m3 not given; the WTA is dry-coated with this pozzolan before mixing",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M11 | Perlite | 50 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 465.5 | 222.5 | 0.0"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "curing regime not found in the paper"
+   ]
+  },
+  {
+   "id": "M12",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M12 | Perlite | 75 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 229.3 | 328.8 | 4.6"
+    },
+    {
+     "material": "cem",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M12 | Perlite | 75 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 229.3 | 328.8 | 4.6"
+    },
+    {
+     "material": "water",
+     "value": 280,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M12 | Perlite | 75 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 229.3 | 328.8 | 4.6"
+    },
+    {
+     "material": "pce",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M12 | Perlite | 75 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 229.3 | 328.8 | 4.6"
+    },
+    {
+     "material": "meta",
+     "value": 120,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M12 | Perlite | 75 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 229.3 | 328.8 | 4.6"
+    },
+    {
+     "material": "sand",
+     "value": 229.3,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M12 | Perlite | 75 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 229.3 | 328.8 | 4.6"
+    },
+    {
+     "material": "wta",
+     "value": 328.8,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M12 | Perlite | 75 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 229.3 | 328.8 | 4.6"
+    },
+    {
+     "material": "ppf",
+     "value": 4.6,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M12 | Perlite | 75 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 229.3 | 328.8 | 4.6"
+    },
+    {
+     "material": "perlite",
+     "value": null,
+     "missing": "coating mass per m3 not given; the WTA is dry-coated with this pozzolan before mixing",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M12 | Perlite | 75 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 229.3 | 328.8 | 4.6"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "curing regime not found in the paper"
+   ]
+  },
+  {
+   "id": "M13",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M13 | Diatomite | 10 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 788.9 | 38.7 | 18.2"
+    },
+    {
+     "material": "cem",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M13 | Diatomite | 10 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 788.9 | 38.7 | 18.2"
+    },
+    {
+     "material": "water",
+     "value": 280,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M13 | Diatomite | 10 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 788.9 | 38.7 | 18.2"
+    },
+    {
+     "material": "pce",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M13 | Diatomite | 10 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 788.9 | 38.7 | 18.2"
+    },
+    {
+     "material": "meta",
+     "value": 120,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M13 | Diatomite | 10 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 788.9 | 38.7 | 18.2"
+    },
+    {
+     "material": "sand",
+     "value": 788.9,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M13 | Diatomite | 10 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 788.9 | 38.7 | 18.2"
+    },
+    {
+     "material": "wta",
+     "value": 38.7,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M13 | Diatomite | 10 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 788.9 | 38.7 | 18.2"
+    },
+    {
+     "material": "ppf",
+     "value": 18.2,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M13 | Diatomite | 10 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 788.9 | 38.7 | 18.2"
+    },
+    {
+     "material": "diatomite",
+     "value": null,
+     "missing": "coating mass per m3 not given; the WTA is dry-coated with this pozzolan before mixing",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M13 | Diatomite | 10 | 2 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 788.9 | 38.7 | 18.2"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "curing regime not found in the paper"
+   ]
+  },
+  {
+   "id": "M14",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M14 | Diatomite | 25 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 677.8 | 99.7 | 9.1"
+    },
+    {
+     "material": "cem",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M14 | Diatomite | 25 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 677.8 | 99.7 | 9.1"
+    },
+    {
+     "material": "water",
+     "value": 280,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M14 | Diatomite | 25 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 677.8 | 99.7 | 9.1"
+    },
+    {
+     "material": "pce",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M14 | Diatomite | 25 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 677.8 | 99.7 | 9.1"
+    },
+    {
+     "material": "meta",
+     "value": 120,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M14 | Diatomite | 25 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 677.8 | 99.7 | 9.1"
+    },
+    {
+     "material": "sand",
+     "value": 677.8,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M14 | Diatomite | 25 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 677.8 | 99.7 | 9.1"
+    },
+    {
+     "material": "wta",
+     "value": 99.7,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M14 | Diatomite | 25 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 677.8 | 99.7 | 9.1"
+    },
+    {
+     "material": "ppf",
+     "value": 9.1,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M14 | Diatomite | 25 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 677.8 | 99.7 | 9.1"
+    },
+    {
+     "material": "diatomite",
+     "value": null,
+     "missing": "coating mass per m3 not given; the WTA is dry-coated with this pozzolan before mixing",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M14 | Diatomite | 25 | 1 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 677.8 | 99.7 | 9.1"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "curing regime not found in the paper"
+   ]
+  },
+  {
+   "id": "M15",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M15 | Diatomite | 50 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 458.7 | 202.4 | 4.6"
+    },
+    {
+     "material": "cem",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M15 | Diatomite | 50 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 458.7 | 202.4 | 4.6"
+    },
+    {
+     "material": "water",
+     "value": 280,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M15 | Diatomite | 50 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 458.7 | 202.4 | 4.6"
+    },
+    {
+     "material": "pce",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M15 | Diatomite | 50 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 458.7 | 202.4 | 4.6"
+    },
+    {
+     "material": "meta",
+     "value": 120,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M15 | Diatomite | 50 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 458.7 | 202.4 | 4.6"
+    },
+    {
+     "material": "sand",
+     "value": 458.7,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M15 | Diatomite | 50 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 458.7 | 202.4 | 4.6"
+    },
+    {
+     "material": "wta",
+     "value": 202.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M15 | Diatomite | 50 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 458.7 | 202.4 | 4.6"
+    },
+    {
+     "material": "ppf",
+     "value": 4.6,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M15 | Diatomite | 50 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 458.7 | 202.4 | 4.6"
+    },
+    {
+     "material": "diatomite",
+     "value": null,
+     "missing": "coating mass per m3 not given; the WTA is dry-coated with this pozzolan before mixing",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M15 | Diatomite | 50 | 0.5 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 458.7 | 202.4 | 4.6"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "curing regime not found in the paper"
+   ]
+  },
+  {
+   "id": "M16",
+   "control": false,
+   "form": "mortar",
+   "cure": null,
+   "quantities": [
+    {
+     "material": "fa",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M16 | Diatomite | 75 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 232.7 | 308.0 | 0.0"
+    },
+    {
+     "material": "cem",
+     "value": 400,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M16 | Diatomite | 75 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 232.7 | 308.0 | 0.0"
+    },
+    {
+     "material": "water",
+     "value": 280,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M16 | Diatomite | 75 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 232.7 | 308.0 | 0.0"
+    },
+    {
+     "material": "pce",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M16 | Diatomite | 75 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 232.7 | 308.0 | 0.0"
+    },
+    {
+     "material": "meta",
+     "value": 120,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M16 | Diatomite | 75 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 232.7 | 308.0 | 0.0"
+    },
+    {
+     "material": "sand",
+     "value": 232.7,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M16 | Diatomite | 75 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 232.7 | 308.0 | 0.0"
+    },
+    {
+     "material": "wta",
+     "value": 308,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M16 | Diatomite | 75 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 232.7 | 308.0 | 0.0"
+    },
+    {
+     "material": "ppf",
+     "value": 0,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M16 | Diatomite | 75 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 232.7 | 308.0 | 0.0"
+    },
+    {
+     "material": "diatomite",
+     "value": null,
+     "missing": "coating mass per m3 not given; the WTA is dry-coated with this pozzolan before mixing",
+     "text": "Table 5 (Mixing ratios and material quantities): Mix ID | Mixing Ratio (%) Coating Type | Mixing Ratio (%) WTA Content | Mixing Ratio (%) PP Fiber Content | Amounts of Materials (kg/m3) UK | Amounts of Materials (kg/m3) Cement | Amounts of Materials (kg/m3) Water | Amounts of Materials (kg/m3) PCE | Amounts of Materials (kg/m3) Alkali Activator | Amounts of Materials (kg/m3) Silica Sand | Amounts of Materials (kg/m3) WTA | Amounts of Materials (kg/m3) PP Fiber → M16 | Diatomite | 75 | 0 | 400.0 | 400.0 | 280.0 | 40.0 | 120.0 | 232.7 | 308.0 | 0.0"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "curing regime not found in the paper"
+   ]
+  }
+ ],
+ "cures": [],
+ "tests": [],
+ "results": [],
+ "findings": [],
+ "notes": [],
+ "gaps": [
+  "Table quotes follow the standard form. \"UK\" is the fly ash: the text lists the binder as fly ash and CEM II/B-S cement, and \"UK at 400 kg/m3, cement at 400 kg/m3\" (the Turkish abbreviation is not expanded in the paper).",
+  "All WTA, including the uncoated M1–M4, received the same 12 M NaOH soak and 75 °C conditioning; coated series were then dry-coated with pumice, perlite or diatomite (coating mass not given per mix).",
+  "Table 5's reference row is printed with the label \"The\" (apparently truncated) and \"Without WTA\"; it is not transcribed. No curing regime was found.",
+  "Compressive and flexural results, porosity, absorption and durability per mix are only in figures; Table 7 reports two optimum mixes that are not Table 5 rows.",
+  "Second review pending; see the batch audit."
+ ]
+}
