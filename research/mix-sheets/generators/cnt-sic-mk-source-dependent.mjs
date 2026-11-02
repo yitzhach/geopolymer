@@ -19,6 +19,7 @@ await save({...sheetHeader(G,'10.3390/ma15176099',src,'All six Table 4 pastes (t
  cures:[{id:'c1',category:'ambient',temperatureC:23,duration:null,durationUnit:null,sealed:true,humidityPercent:null,text:'Subsequently, all samples were sealed with plastic films and cured at 23 ± 2 °C. The samples were kept at ambient temperature until the day of the tests.'}],
  tests:[],results:[],findings:[],notes:[],
  gaps:['Table quotes follow the standard form; the mix names are Table 4\'s own ("R1 (MK1 + AS)", "R2 + NW", …). "NW" in Table 4 is the SiC whisker addition called SCW in the text; 0.20 g of addition per 100 g MK is from Table 4.',
+  '"HS" (8.9 g) is not defined in the paper; it is read as the NaOH from the methods ("NaOH micro pellets were dissolved in a sodium silicate solution"). The 100.0 g MK is attributed to MK1 for R1 rows and MK2 for R2 rows per the mix names.',
   'Batch masses (100.0 g MK, 120.0 g sodium silicate, 8.9 g NaOH) are stated once for all mixtures in §2.6; the review note\'s question on the NaOH physical form is answered: micro pellets dissolved in the silicate.',
   'Yield stress, viscosity and compressive strength are only in figures; Na2O/SiO2 (Table 4) has no parameter key.',
-  'Second review pending; see the batch audit.']});
+  'Second review (2 Nov 2026): 0 value errors; see the batch audit.']});

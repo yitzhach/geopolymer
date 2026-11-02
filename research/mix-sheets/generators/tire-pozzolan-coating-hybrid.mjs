@@ -24,4 +24,4 @@ await save({...sheetHeader(G,'10.3390/polym18162014',src,'The sixteen Table 5 Ta
   'All WTA, including the uncoated M1–M4, received the same 12 M NaOH soak and 75 °C conditioning; coated series were then dry-coated with pumice, perlite or diatomite (coating mass not given per mix).',
   'Table 5\'s reference row is printed with the label "The" (apparently truncated) and "Without WTA"; it is not transcribed. No curing regime was found.',
   'Compressive and flexural results, porosity, absorption and durability per mix are only in figures; Table 7 reports two optimum mixes that are not Table 5 rows.',
-  'Second review pending; see the batch audit.']});
+  'Second review (2 Nov 2026): 0 value errors; see the batch audit.']});

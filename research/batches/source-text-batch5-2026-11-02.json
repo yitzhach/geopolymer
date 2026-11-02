@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "batch": "source-text-batch5-2026-11-02",
+  "mode": "source-text (mix-sheet skill v1.2, repository tooling)",
+  "checked": "2026-11-02",
+  "reviewer": "AI transcription by the primary agent; independent AI second review by two lightweight reviewer agents; no human/domain review",
+  "selection": "Next five open entries of research/mix-sheets/QUEUE.json with an open CC BY PMC copy. Skipped for lack of a PMC copy (not opened): salt-gypsum-slag-concrete, bof-radiative-coating-layers, waste-form-rheology-vicat-clock, pozzolan-cure-mixed-alkali-mortar, titania-mk-liquid-dependent-gains, soil-flyash-onepart-acid-aging.",
+  "operations": [
+    "5 × (Europe PMC search + fullTextXML) via npm run mixes -- source = 10 operations"
+  ],
+  "operationCount": 10,
+  "failedAccess": [],
+  "retention": "Full text saved only in the OS temp folder (geopolymer-sources/) and deleted after review.",
+  "method": [
+    "Generators read parsed table cells and check the headers and labels they rely on.",
+    "npm run mixes -- ground: 0 of 266 quotes not grounded.",
+    "npm run mixes -- check: all sheets pass."
+  ],
+  "papers": [
+    {
+      "guideId": "nitrite-cold-mortar-ratio-conflict",
+      "doi": "10.3390/ma18173987",
+      "pmcid": "PMC12429701",
+      "licence": "CC BY (Europe PMC)",
+      "fullText": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12429701/fullTextXML",
+      "generator": "research/mix-sheets/generators/nitrite-cold-mortar-ratio-conflict.mjs",
+      "mixes": 5,
+      "results": 8
+    },
+    {
+      "guideId": "cnt-sic-mk-source-dependent",
+      "doi": "10.3390/ma15176099",
+      "pmcid": "PMC9457769",
+      "licence": "CC BY (Europe PMC)",
+      "fullText": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9457769/fullTextXML",
+      "generator": "research/mix-sheets/generators/cnt-sic-mk-source-dependent.mjs",
+      "mixes": 6,
+      "results": 0
+    },
+    {
+      "guideId": "tire-pozzolan-coating-hybrid",
+      "doi": "10.3390/polym18162014",
+      "pmcid": "PMC13516991",
+      "licence": "CC BY (Europe PMC)",
+      "fullText": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13516991/fullTextXML",
+      "generator": "research/mix-sheets/generators/tire-pozzolan-coating-hybrid.mjs",
+      "mixes": 16,
+      "results": 0
+    },
+    {
+      "guideId": "am-mixtures-leaching-context",
+      "doi": "10.3390/ma18214886",
+      "pmcid": "PMC12608164",
+      "licence": "CC BY (Europe PMC)",
+      "fullText": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12608164/fullTextXML",
+      "generator": "research/mix-sheets/generators/am-mixtures-leaching-context.mjs",
+      "mixes": 2,
+      "results": 0
+    },
+    {
+      "guideId": "nash-ratio-flow-set-model",
+      "doi": "10.3390/ma15165634",
+      "pmcid": "PMC9414566",
+      "licence": "CC BY (Europe PMC)",
+      "outcome": "deferred, no sheet: Table 2 (12 mixes) and Table 5 (50 tested mixes with flow, setting and strength) carry no mix labels; rows are identified only by molar ratios (two Table 2 rows identical). Owner decision requested on naming rows by their own ratio values."
+    }
+  ],
+  "secondReview": [
+    {
+      "sheets": [
+        "nitrite-cold-mortar-ratio-conflict",
+        "cnt-sic-mk-source-dependent"
+      ],
+      "linesChecked": 89,
+      "valueErrors": 0,
+      "findings": [
+        "Nitrite locators pointed at a figure → now the §3.3 text; N0–N3 results now carry the quoted −10 °C storage condition; the paper's 44.1/44.18/44.2 MPa inconsistency for C is in gaps.",
+        "CNT 'HS' = NaOH and 'NW' = SiC whiskers are inferences now stated in gaps."
+      ]
+    },
+    {
+      "sheets": [
+        "tire-pozzolan-coating-hybrid",
+        "am-mixtures-leaching-context"
+      ],
+      "linesChecked": 156,
+      "valueErrors": 0,
+      "findings": [
+        "All M1–M16 values in the right column and coating materials match Coating Type.",
+        "Qualifiers ('NaOH 16 M', 'Baucis') already kept in basis notes; 'UK' = fly ash reading already in gaps. No change."
+      ]
+    }
+  ]
+}

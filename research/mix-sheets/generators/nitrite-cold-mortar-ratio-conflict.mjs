@@ -15,7 +15,7 @@ const n0='Sample N0, which did not contain NaNO2 but was subjected to subzero cu
 const n1='Sample N1 demonstrated a significant increase in strength, from 11.2 ± 0.1 MPa at 7 days to 30.4 ± 4.8 MPa at 28 days.';
 const n2='Meanwhile, sample N2 exhibited an average of 38.5 MPa at 28 days.';
 const n3='At the same age, sample N3 achieved 40.7 ± 0.7 MPa under similar curing conditions.';
-const R=(mix,ageDays,value,spread,text,extra={})=>({mix,test:'fc',ageDays,value,...(spread!==null?{spread}:{}),text,locator:'§3 / Figure (compressive strength)',...extra});
+const R=(mix,ageDays,value,spread,text,extra={})=>({mix,test:'fc',ageDays,value,...(spread!==null?{spread}:{}),text,locator:'§3.3 text',...(mix==='C'?{}:{condition:'the N0, N1, N2, and N3 samples were stored at −10 °C'}),...extra});
 await save({...sheetHeader(G,'10.3390/ma18173987',src,'All five Table 2 mortars (ambient control C; N0–N3 stored at −10 °C with 0, 7.6, 15.2 and 22.8 kg/m3 NaNO2) with kg/m3 batches, and the 7- and 28-day compressive strengths stated in the text.',{made:'2026-11-02',audit:'research/batches/source-text-batch5-2026-11-02.json'}),
  materials:[{id:'br',family:'red-mud',role:'precursor',name:'Bauxite Residue',aliases:['bauxite residue']},
   {id:'fa',family:'fly-ash',role:'precursor',name:'Fly Ash'},
@@ -34,5 +34,6 @@ await save({...sheetHeader(G,'10.3390/ma18173987',src,'All five Table 2 mortars 
  gaps:['Table quotes follow the standard form. Both cure entries share the 80 °C / 24 h sealed oven stage; "amb" (C) then ambient storage and "sub" (N0–N3) then storage at −10 °C, per Table 2\'s Curing Method column.',
   'Source conflict kept visible: the text mixes NaOH (16 mol/L) and Na2SiO3 "in a 2:1 weight ratio", but Table 2 gives 101 and 202 kg/m3 (1:2). The binder-to-liquid ratio is stated as 0.45 (binder/liquid), so no liquid/solid value is entered. NaNO2 is dosed as 0–3 wt% of binder.',
   'C strengths are stated as a gain "from … to …" without ages in the sentence; 7 and 28 days come from the test schedule. N3\'s sentence says "At the same age" after the N2 28-day sentence. N2 has no ± and no 7-day value; N3 has no 7-day value in the text.',
+  'The paper gives C\'s 28-day strength as 44.1 ± 2.62 MPa in §3.3 (recorded), 44.18 MPa in the FTIR discussion and 44.2 MPa in the conclusions.',
   'Setting times are only in a figure.',
-  'Second review pending; see the batch audit.']});
+  'Second review (2 Nov 2026): 0 value errors; see the batch audit.']});

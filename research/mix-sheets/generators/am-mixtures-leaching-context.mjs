@@ -20,4 +20,4 @@ await save({...sheetHeader(G,'10.3390/ma18214886',src,'Both Table 2 mixtures wit
  gaps:['Mixes are columns in Table 2, so each quote pairs a component row with that mixture\'s column. Ratios are normalized to metakaolin (MT) = 1.00; the mass basis is implied by the normalization but not stated.',
   'Activator identity kept as printed: Mixture I\'s waterglass cell reads "0.90 (NaOH 16 M)" and Mixture II\'s "0.90 (Baucis)"; the paper does not reconcile whether Mixture I used waterglass, 16 M NaOH or both.',
   'Leachate concentrations (Table 4, mg/kg) and natural radionuclide activity (Table 5) are not mix-table properties; no curing regime or mechanical results are stated.',
-  'Second review pending; see the batch audit.']});
+  'Second review (2 Nov 2026): 0 value errors; see the batch audit.']});
