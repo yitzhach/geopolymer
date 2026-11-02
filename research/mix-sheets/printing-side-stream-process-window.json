@@ -1,0 +1,761 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "printing-side-stream-process-window",
+ "doi": "10.3390/ma14164758",
+ "basis": "source-text",
+ "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8400012/",
+ "accessed": "2026-11-02",
+ "audit": "research/batches/source-text-batch2-2026-11-02.json",
+ "scope": "The ten Table 4 mixtures used for preliminary compression testing (composition in % of the mixture) and the Table 7 mean compressive strengths of 2 n and 3 n. Printed/cast results for geopolymers A and B (Figures 7–11, Table 8) are not mapped to these labels in the paper and are not transcribed.",
+ "made": "2026-11-02",
+ "madeBy": "AI transcription · mix-sheet skill v1 (source-text pilot)",
+ "materials": [
+  {
+   "id": "ash",
+   "family": "biomass-ash",
+   "role": "precursor",
+   "name": "Bark boiler ash",
+   "aliases": [
+    "Ash",
+    "Bark ash"
+   ],
+   "detail": "Bark ash, which is a by-product of the paper and pulp industry, is used as the primary binder ingredient instead of fly ash."
+  },
+  {
+   "id": "cdw",
+   "family": "other-precursor",
+   "role": "precursor",
+   "name": "C&D waste",
+   "aliases": [
+    "C&D Waste"
+   ],
+   "detail": "The C&D waste was employed as a filler and reactive material in this investigation"
+  },
+  {
+   "id": "mk",
+   "family": "metakaolin",
+   "role": "precursor",
+   "name": "Metakaolin",
+   "detail": "Commercial metakaolin (having 47% of Al and Si in a 1:2 ratio) was used as a reactive pozzolan and source of Al and Si."
+  },
+  {
+   "id": "ss",
+   "family": "sodium-silicate-solution",
+   "role": "activator",
+   "name": "sodium silicate solution",
+   "aliases": [
+    "Reagent"
+   ],
+   "detail": "For the alkaline reagent, a sodium silicate solution having a molar ratio of 2.4–2.6 was used (31% SiO2 and 13% Na2O)."
+  },
+  {
+   "id": "water",
+   "family": "water",
+   "role": "water",
+   "name": "Water"
+  },
+  {
+   "id": "sandc",
+   "family": "sand",
+   "role": "aggregate",
+   "name": "Sand c",
+   "detail": "Sand (coarse and fine) was received as the leftover product from mine tailings and used as a filler material with no reactive components."
+  },
+  {
+   "id": "sandf",
+   "family": "sand",
+   "role": "aggregate",
+   "name": "Sand F",
+   "detail": "Sand (coarse and fine) was received as the leftover product from mine tailings and used as a filler material with no reactive components."
+  }
+ ],
+ "mixes": [
+  {
+   "id": "1d",
+   "aliases": [
+    "1 d"
+   ],
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ash",
+     "value": 9,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 1 d | 9 | 28 | 13 | 13 | 23 |  | 14"
+    },
+    {
+     "material": "cdw",
+     "value": 28,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 1 d | 9 | 28 | 13 | 13 | 23 |  | 14"
+    },
+    {
+     "material": "mk",
+     "value": 13,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 1 d | 9 | 28 | 13 | 13 | 23 |  | 14"
+    },
+    {
+     "material": "ss",
+     "value": 13,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 1 d | 9 | 28 | 13 | 13 | 23 |  | 14"
+    },
+    {
+     "material": "water",
+     "value": 23,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 1 d | 9 | 28 | 13 | 13 | 23 |  | 14"
+    },
+    {
+     "material": "sandf",
+     "value": 14,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 1 d | 9 | 28 | 13 | 13 | 23 |  | 14"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "silicate modulus is a range (2.4–2.6), so no single activator-modulus value is entered"
+   ]
+  },
+  {
+   "id": "5p",
+   "aliases": [
+    "5 p"
+   ],
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ash",
+     "value": 13,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 5 p | 13 | 11 |  | 35 | 9 | 15 | 13"
+    },
+    {
+     "material": "cdw",
+     "value": 11,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 5 p | 13 | 11 |  | 35 | 9 | 15 | 13"
+    },
+    {
+     "material": "ss",
+     "value": 35,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 5 p | 13 | 11 |  | 35 | 9 | 15 | 13"
+    },
+    {
+     "material": "water",
+     "value": 9,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 5 p | 13 | 11 |  | 35 | 9 | 15 | 13"
+    },
+    {
+     "material": "sandc",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 5 p | 13 | 11 |  | 35 | 9 | 15 | 13"
+    },
+    {
+     "material": "sandf",
+     "value": 13,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 5 p | 13 | 11 |  | 35 | 9 | 15 | 13"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "silicate modulus is a range (2.4–2.6), so no single activator-modulus value is entered"
+   ]
+  },
+  {
+   "id": "3m",
+   "aliases": [
+    "3 m"
+   ],
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ash",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 m | 15 | 13 | 3 | 21 | 9 | 26 | 13"
+    },
+    {
+     "material": "cdw",
+     "value": 13,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 m | 15 | 13 | 3 | 21 | 9 | 26 | 13"
+    },
+    {
+     "material": "mk",
+     "value": 3,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 m | 15 | 13 | 3 | 21 | 9 | 26 | 13"
+    },
+    {
+     "material": "ss",
+     "value": 21,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 m | 15 | 13 | 3 | 21 | 9 | 26 | 13"
+    },
+    {
+     "material": "water",
+     "value": 9,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 m | 15 | 13 | 3 | 21 | 9 | 26 | 13"
+    },
+    {
+     "material": "sandc",
+     "value": 26,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 m | 15 | 13 | 3 | 21 | 9 | 26 | 13"
+    },
+    {
+     "material": "sandf",
+     "value": 13,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 m | 15 | 13 | 3 | 21 | 9 | 26 | 13"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "silicate modulus is a range (2.4–2.6), so no single activator-modulus value is entered"
+   ]
+  },
+  {
+   "id": "2l",
+   "aliases": [
+    "2 l"
+   ],
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ash",
+     "value": 7,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 2 l | 7 | 10 | 13 | 21 | 10 | 26 | 13"
+    },
+    {
+     "material": "cdw",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 2 l | 7 | 10 | 13 | 21 | 10 | 26 | 13"
+    },
+    {
+     "material": "mk",
+     "value": 13,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 2 l | 7 | 10 | 13 | 21 | 10 | 26 | 13"
+    },
+    {
+     "material": "ss",
+     "value": 21,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 2 l | 7 | 10 | 13 | 21 | 10 | 26 | 13"
+    },
+    {
+     "material": "water",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 2 l | 7 | 10 | 13 | 21 | 10 | 26 | 13"
+    },
+    {
+     "material": "sandc",
+     "value": 26,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 2 l | 7 | 10 | 13 | 21 | 10 | 26 | 13"
+    },
+    {
+     "material": "sandf",
+     "value": 13,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 2 l | 7 | 10 | 13 | 21 | 10 | 26 | 13"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "silicate modulus is a range (2.4–2.6), so no single activator-modulus value is entered"
+   ]
+  },
+  {
+   "id": "3i",
+   "aliases": [
+    "3 i"
+   ],
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ash",
+     "value": 7,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 i | 7 | 9 | 13 | 15 | 16 | 26 | 13"
+    },
+    {
+     "material": "cdw",
+     "value": 9,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 i | 7 | 9 | 13 | 15 | 16 | 26 | 13"
+    },
+    {
+     "material": "mk",
+     "value": 13,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 i | 7 | 9 | 13 | 15 | 16 | 26 | 13"
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 i | 7 | 9 | 13 | 15 | 16 | 26 | 13"
+    },
+    {
+     "material": "water",
+     "value": 16,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 i | 7 | 9 | 13 | 15 | 16 | 26 | 13"
+    },
+    {
+     "material": "sandc",
+     "value": 26,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 i | 7 | 9 | 13 | 15 | 16 | 26 | 13"
+    },
+    {
+     "material": "sandf",
+     "value": 13,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 i | 7 | 9 | 13 | 15 | 16 | 26 | 13"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "silicate modulus is a range (2.4–2.6), so no single activator-modulus value is entered"
+   ]
+  },
+  {
+   "id": "4e",
+   "aliases": [
+    "4 e"
+   ],
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ash",
+     "value": 7,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 4 e | 7 | 10 | 13 | 15 | 16 | 26 | 13"
+    },
+    {
+     "material": "cdw",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 4 e | 7 | 10 | 13 | 15 | 16 | 26 | 13"
+    },
+    {
+     "material": "mk",
+     "value": 13,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 4 e | 7 | 10 | 13 | 15 | 16 | 26 | 13"
+    },
+    {
+     "material": "ss",
+     "value": 15,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 4 e | 7 | 10 | 13 | 15 | 16 | 26 | 13"
+    },
+    {
+     "material": "water",
+     "value": 16,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 4 e | 7 | 10 | 13 | 15 | 16 | 26 | 13"
+    },
+    {
+     "material": "sandc",
+     "value": 26,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 4 e | 7 | 10 | 13 | 15 | 16 | 26 | 13"
+    },
+    {
+     "material": "sandf",
+     "value": 13,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 4 e | 7 | 10 | 13 | 15 | 16 | 26 | 13"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "silicate modulus is a range (2.4–2.6), so no single activator-modulus value is entered"
+   ]
+  },
+  {
+   "id": "4n",
+   "aliases": [
+    "4 n"
+   ],
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ash",
+     "value": 7,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 4 n | 7 | 9.5 | 13 | 22 | 9 | 30 | 9"
+    },
+    {
+     "material": "cdw",
+     "value": 9.5,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 4 n | 7 | 9.5 | 13 | 22 | 9 | 30 | 9"
+    },
+    {
+     "material": "mk",
+     "value": 13,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 4 n | 7 | 9.5 | 13 | 22 | 9 | 30 | 9"
+    },
+    {
+     "material": "ss",
+     "value": 22,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 4 n | 7 | 9.5 | 13 | 22 | 9 | 30 | 9"
+    },
+    {
+     "material": "water",
+     "value": 9,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 4 n | 7 | 9.5 | 13 | 22 | 9 | 30 | 9"
+    },
+    {
+     "material": "sandc",
+     "value": 30,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 4 n | 7 | 9.5 | 13 | 22 | 9 | 30 | 9"
+    },
+    {
+     "material": "sandf",
+     "value": 9,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 4 n | 7 | 9.5 | 13 | 22 | 9 | 30 | 9"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "silicate modulus is a range (2.4–2.6), so no single activator-modulus value is entered"
+   ]
+  },
+  {
+   "id": "3l",
+   "aliases": [
+    "3 l"
+   ],
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ash",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 l | 10 | 10 | 13 | 22 | 6 | 26 | 13"
+    },
+    {
+     "material": "cdw",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 l | 10 | 10 | 13 | 22 | 6 | 26 | 13"
+    },
+    {
+     "material": "mk",
+     "value": 13,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 l | 10 | 10 | 13 | 22 | 6 | 26 | 13"
+    },
+    {
+     "material": "ss",
+     "value": 22,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 l | 10 | 10 | 13 | 22 | 6 | 26 | 13"
+    },
+    {
+     "material": "water",
+     "value": 6,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 l | 10 | 10 | 13 | 22 | 6 | 26 | 13"
+    },
+    {
+     "material": "sandc",
+     "value": 26,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 l | 10 | 10 | 13 | 22 | 6 | 26 | 13"
+    },
+    {
+     "material": "sandf",
+     "value": 13,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 l | 10 | 10 | 13 | 22 | 6 | 26 | 13"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "silicate modulus is a range (2.4–2.6), so no single activator-modulus value is entered"
+   ]
+  },
+  {
+   "id": "2n",
+   "aliases": [
+    "2 n"
+   ],
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ash",
+     "value": 7,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 2 n | 7 | 10 | 13 | 22 | 9 | 30 | 9"
+    },
+    {
+     "material": "cdw",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 2 n | 7 | 10 | 13 | 22 | 9 | 30 | 9"
+    },
+    {
+     "material": "mk",
+     "value": 13,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 2 n | 7 | 10 | 13 | 22 | 9 | 30 | 9"
+    },
+    {
+     "material": "ss",
+     "value": 22,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 2 n | 7 | 10 | 13 | 22 | 9 | 30 | 9"
+    },
+    {
+     "material": "water",
+     "value": 9,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 2 n | 7 | 10 | 13 | 22 | 9 | 30 | 9"
+    },
+    {
+     "material": "sandc",
+     "value": 30,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 2 n | 7 | 10 | 13 | 22 | 9 | 30 | 9"
+    },
+    {
+     "material": "sandf",
+     "value": 9,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 2 n | 7 | 10 | 13 | 22 | 9 | 30 | 9"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "silicate modulus is a range (2.4–2.6), so no single activator-modulus value is entered"
+   ]
+  },
+  {
+   "id": "3n",
+   "aliases": [
+    "3 n"
+   ],
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "ash",
+     "value": 7,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 n | 7 | 10 | 13 | 22 | 6 | 30 | 9"
+    },
+    {
+     "material": "cdw",
+     "value": 10,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 n | 7 | 10 | 13 | 22 | 6 | 30 | 9"
+    },
+    {
+     "material": "mk",
+     "value": 13,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 n | 7 | 10 | 13 | 22 | 6 | 30 | 9"
+    },
+    {
+     "material": "ss",
+     "value": 22,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 n | 7 | 10 | 13 | 22 | 6 | 30 | 9"
+    },
+    {
+     "material": "water",
+     "value": 6,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 n | 7 | 10 | 13 | 22 | 6 | 30 | 9"
+    },
+    {
+     "material": "sandc",
+     "value": 30,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 n | 7 | 10 | 13 | 22 | 6 | 30 | 9"
+    },
+    {
+     "material": "sandf",
+     "value": 9,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 4 (Mixture composition (%) used for preliminary compression testing): Mix | Ash | C&D Waste | Metakaolin | Reagent | Water | Sand c | Sand F → 3 n | 7 | 10 | 13 | 22 | 6 | 30 | 9"
+    }
+   ],
+   "parameters": [],
+   "missing": [
+    "silicate modulus is a range (2.4–2.6), so no single activator-modulus value is entered"
+   ]
+  }
+ ],
+ "cures": [
+  {
+   "id": "c1",
+   "category": "heat",
+   "temperatureC": 60,
+   "duration": 24,
+   "durationUnit": "h",
+   "sealed": null,
+   "humidityPercent": null,
+   "text": "Specimens were formed by casting in cubes of dimensions 50 × 50 × 50 mm and cured for 24 h in an oven at 60 °C and then cured at room temperature for 48 h to attain a maximum compression strength."
+  }
+ ],
+ "tests": [
+  {
+   "id": "fc",
+   "property": "compressive-strength",
+   "unit": "MPa",
+   "specimen": "50 × 50 × 50 mm cubes",
+   "method": "SFS-EN 12390-3"
+  }
+ ],
+ "results": [
+  {
+   "mix": "2n",
+   "test": "fc",
+   "ageDays": null,
+   "ageNote": "preliminary specimens: 24 h at 60 °C, then 48 h at room temperature",
+   "value": 10.932,
+   "text": "Table 7 (Compressive strength results for the materials 2 n and 3 n): Material Sample | Compressive Strength (MPa) (2 n) → Mean value | 10.932",
+   "locator": "Table 7 (mean of ten specimens)"
+  },
+  {
+   "mix": "3n",
+   "test": "fc",
+   "ageDays": null,
+   "ageNote": "preliminary specimens: 24 h at 60 °C, then 48 h at room temperature",
+   "value": 12.024,
+   "text": "Table 7 (Compressive strength results for the materials 2 n and 3 n): Material Sample | Compressive Strength (MPa) (3 n) → Mean value | 12.024",
+   "locator": "Table 7 (mean of ten specimens)"
+  }
+ ],
+ "findings": [
+  {
+   "goal": "Selected for repeat strength testing on the highest preliminary results",
+   "mix": "2n",
+   "text": "Considering the highest compression strength results, an additional ten samples of the materials 2 n and 3 n were tested."
+  },
+  {
+   "goal": "Selected for repeat strength testing on the highest preliminary results",
+   "mix": "3n",
+   "text": "Considering the highest compression strength results, an additional ten samples of the materials 2 n and 3 n were tested."
+  }
+ ],
+ "notes": [],
+ "gaps": [
+  "Table 4 is headed \"Mixture composition (%)\"; rows do not all sum to 100 (e.g. 5 p sums to 96), so the basis is recorded as % of total mix as printed. The Al, Si and \"Curing Min\" columns are not ingredient amounts and are not transcribed.",
+  "Table 3 water-to-silicate and silicate-to-binder entries are ranges or single descriptors that conflict with Table 4; not transcribed (the review-note conflict stays).",
+  "Strength of the other eight mixtures is only in Figure 6; geopolymers A and B (setting, shape stability, 7/28-day cast and extruded strengths, Table 8 densities) are not linked to a Table 4 label.",
+  "Table 7 lists ten single-specimen values per material; only the stated mean is transcribed.",
+  "Second review pending; see the batch audit."
+ ]
+}

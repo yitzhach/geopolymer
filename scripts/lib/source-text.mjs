@@ -85,10 +85,12 @@ export const findTable=(source,number)=>source.tables.find(t=>String(t.number)==
 // ("MCA-ACBFS Water/Binder 0.45"). `rowIndex` may be an array for tables whose mixes are columns:
 // the rows are joined with " ; " (e.g. "Abbreviation | G-1 ; PAS Foam:Paste Ratio | 1:1").
 // Cells that span several rows or columns in the source are named in a trailing [spanning cells: …].
+// `key` (a column index) names the row by that column's header and cell, so a bare row number
+// becomes a label the quote can be attributed to: "Table 2 (caption), Mix No. 2: Na/Al → 0.59".
 export function headerFor(table,i){
  return [...new Set(table.header.map(h=>h[i]).filter(Boolean))].join(' ');
 }
-export function tableQuote(table,rowIndex,{cols,header}={}){
+export function tableQuote(table,rowIndex,{cols,header,key}={}){
  const indexes=[].concat(rowIndex),spanned=[];
  const parts=indexes.map(ri=>{
   const row=table.rows[ri];if(!row)throw new Error(`Table ${table.number} has no row ${ri}`);
@@ -98,7 +100,8 @@ export function tableQuote(table,rowIndex,{cols,header}={}){
   return idx.map(i=>row[i]).join(' | ');
  });
  const idx=cols||table.rows[indexes[0]].map((_,i)=>i),head=header||idx.map(i=>headerFor(table,i));
- return `Table ${table.number} (${table.caption.replace(/\.$/,'')}): ${head.join(' | ')} → ${parts.join(' ; ')}`+(spanned.length?` [spanning cells: ${[...new Set(spanned)].join(', ')}]`:'');
+ const keyed=key===undefined?'':`, ${headerFor(table,key)} ${table.rows[indexes[0]][key]}`;
+ return `Table ${table.number} (${table.caption.replace(/\.$/,'')})${keyed}: ${head.join(' | ')} → ${parts.join(' ; ')}`+(spanned.length?` [spanning cells: ${[...new Set(spanned)].join(', ')}]`:'');
 }
 
 const QUOTE_FIELDS=['text','detail','baseText','ageText','condition'];
@@ -117,18 +120,21 @@ export function groundSheet(sheet,source){
  for(const {path,text} of quotesOf(sheet)){
   if([...skip].some(k=>path.endsWith('.'+k)))continue;
   count++;
-  const tm=text.match(/^Table\s+([A-Z]?\d+[a-z]?)\s*\((.*?)\):\s*(.*?)\s*→\s*(.*?)(?:\s*\[spanning cells:[^\]]*\])?$/);
+  const tm=text.match(/^Table\s+([A-Z]?\d+[a-z]?)\s*\((.*?)\)(?:, ([^:→]+))?:\s*(.*?)\s*→\s*(.*?)(?:\s*\[spanning cells:[^\]]*\])?$/);
   if(tm){
    const table=findTable(source,tm[1]);
    if(!table){problems.push(`${path}: no Table ${tm[1]} in the source`);continue;}
    if(!normalizeText(table.caption).includes(normalizeText(tm[2]).replace(/\.$/,'')))problems.push(`${path}: caption does not match Table ${tm[1]}`);
-   for(const seg of tm[4].split(' ; ')){
-    const cells=seg.split('|').map(normalizeText);
+   // A row key ("Mix No. 2") must be a column header followed by a cell of the same row as the quoted cells.
+   const keyCell=tm[3]?table.header[0].map((_,i)=>headerFor(table,i)).filter(Boolean).map(h=>normalizeText(tm[3]).startsWith(normalizeText(h)+' ')?normalizeText(tm[3]).slice(normalizeText(h).length+1):null).find(v=>v!==null):null;
+   if(tm[3]&&keyCell==null)problems.push(`${path}: row key "${tm[3]}" does not start with a column header of Table ${tm[1]}`);
+   for(const seg of tm[5].split(' ; ')){
+    const cells=[...seg.split('|').map(normalizeText),...(keyCell!=null?[keyCell]:[])];
     const rowsFit=table.rows.some(r=>{const rc=r.map(normalizeText);return cells.every(c=>rc.includes(c));});
-    if(!rowsFit)problems.push(`${path}: cells "${seg.slice(0,80)}" are not all in one row of Table ${tm[1]}`);
+    if(!rowsFit)problems.push(`${path}: cells "${seg.slice(0,80)}"${tm[3]?` with key "${tm[3]}"`:''} are not all in one row of Table ${tm[1]}`);
    }
    const head=new Set([...table.header.flat(),...table.rows.flat()].map(normalizeText).filter(Boolean));
-   const headParts=tm[3].split('|').map(normalizeText).filter(Boolean);
+   const headParts=tm[4].split('|').map(normalizeText).filter(Boolean);
    for(const h of headParts)if(![...head].some(x=>h.includes(x)&&x))problems.push(`${path}: header "${h}" is not a cell of Table ${tm[1]}`);
   }
   else if(!prose.includes(normalizeText(text)))problems.push(`${path}: not found verbatim in the source: "${text.slice(0,90)}"`);

@@ -1,0 +1,529 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "metakaolin-gel-amount-versus-composition",
+ "doi": "10.3390/ma13245784",
+ "basis": "source-text",
+ "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7767034/",
+ "accessed": "2026-11-02",
+ "audit": "research/batches/source-text-batch2-2026-11-02.json",
+ "scope": "All seven Table 1 mixtures (molar design ratios; mixtures 5–7 add calcium hydroxide) and, for the non-calcium mixtures 1–4, the 7-day NMR geopolymer-gel fraction from Table 2. Strengths are plotted only in Figures 3–4 and are not transcribed.",
+ "made": "2026-11-02",
+ "madeBy": "AI transcription · mix-sheet skill v1 (source-text pilot)",
+ "materials": [
+  {
+   "id": "mk",
+   "family": "metakaolin",
+   "role": "precursor",
+   "name": "metakaolin",
+   "detail": "The average particle size of metakaolin is 1.3 µm based on the manufacturer’s data."
+  },
+  {
+   "id": "ss",
+   "family": "sodium-silicate-solution",
+   "role": "activator",
+   "name": "sodium silicate solution",
+   "detail": "sodium silicate solution (29.02 wt % SiO2, 9.00 wt % Na2O and 61.98 wt % H2O, Fisher, Waltham, MA, USA)"
+  },
+  {
+   "id": "naoh",
+   "family": "sodium-hydroxide",
+   "role": "activator",
+   "name": "sodium hydroxide",
+   "detail": "reagent-grade sodium hydroxide (Fisher, Waltham, MA, USA)"
+  },
+  {
+   "id": "caoh2",
+   "family": "calcium-hydroxide",
+   "role": "additive",
+   "name": "calcium hydroxide"
+  }
+ ],
+ "mixes": [
+  {
+   "id": "Mixture 1",
+   "aliases": [
+    "Mixture Number 1",
+    "Mix No. 1"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": null,
+     "missing": "mass not tabulated; the design is given as molar ratios",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor."
+    },
+    {
+     "material": "ss",
+     "value": null,
+     "missing": "activator masses not tabulated; Na/Al and H2O/Na2O are given",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor. The average particle size of metakaolin is 1.3 µm based on the manufacturer’s data. The XRD and XRF results shown separately [28] indicate that the metakaolin is amorphous and contains around 44 wt % of Al2O3 and 53 wt % of SiO2. The activating solution was prepared using a sodium silicate solution (29.02 wt % SiO2, 9.00 wt % Na2O and 61.98 wt % H2O, Fisher, Waltham, MA, USA) and reagent-grade sodium hydroxide (Fisher, Waltham, MA, USA)."
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "activator masses not tabulated; Na/Al and H2O/Na2O are given",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor. The average particle size of metakaolin is 1.3 µm based on the manufacturer’s data. The XRD and XRF results shown separately [28] indicate that the metakaolin is amorphous and contains around 44 wt % of Al2O3 and 53 wt % of SiO2. The activating solution was prepared using a sodium silicate solution (29.02 wt % SiO2, 9.00 wt % Na2O and 61.98 wt % H2O, Fisher, Waltham, MA, USA) and reagent-grade sodium hydroxide (Fisher, Waltham, MA, USA)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Na/Al",
+     "value": 0.54,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 1: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.54 | 1.10 | 20 | 0"
+    },
+    {
+     "key": "Si/Al",
+     "value": 1.1,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 1: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.54 | 1.10 | 20 | 0"
+    },
+    {
+     "key": "H2O/Na2O",
+     "value": 20,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 1: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.54 | 1.10 | 20 | 0"
+    },
+    {
+     "key": "Ca/Si",
+     "value": 0,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 1: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.54 | 1.10 | 20 | 0"
+    }
+   ]
+  },
+  {
+   "id": "Mixture 2",
+   "aliases": [
+    "Mixture Number 2",
+    "Mix No. 2"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": null,
+     "missing": "mass not tabulated; the design is given as molar ratios",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor."
+    },
+    {
+     "material": "ss",
+     "value": null,
+     "missing": "activator masses not tabulated; Na/Al and H2O/Na2O are given",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor. The average particle size of metakaolin is 1.3 µm based on the manufacturer’s data. The XRD and XRF results shown separately [28] indicate that the metakaolin is amorphous and contains around 44 wt % of Al2O3 and 53 wt % of SiO2. The activating solution was prepared using a sodium silicate solution (29.02 wt % SiO2, 9.00 wt % Na2O and 61.98 wt % H2O, Fisher, Waltham, MA, USA) and reagent-grade sodium hydroxide (Fisher, Waltham, MA, USA)."
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "activator masses not tabulated; Na/Al and H2O/Na2O are given",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor. The average particle size of metakaolin is 1.3 µm based on the manufacturer’s data. The XRD and XRF results shown separately [28] indicate that the metakaolin is amorphous and contains around 44 wt % of Al2O3 and 53 wt % of SiO2. The activating solution was prepared using a sodium silicate solution (29.02 wt % SiO2, 9.00 wt % Na2O and 61.98 wt % H2O, Fisher, Waltham, MA, USA) and reagent-grade sodium hydroxide (Fisher, Waltham, MA, USA)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Na/Al",
+     "value": 0.59,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 2: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.59 | 1.20 | 20 | 0"
+    },
+    {
+     "key": "Si/Al",
+     "value": 1.2,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 2: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.59 | 1.20 | 20 | 0"
+    },
+    {
+     "key": "H2O/Na2O",
+     "value": 20,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 2: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.59 | 1.20 | 20 | 0"
+    },
+    {
+     "key": "Ca/Si",
+     "value": 0,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 2: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.59 | 1.20 | 20 | 0"
+    }
+   ]
+  },
+  {
+   "id": "Mixture 3",
+   "aliases": [
+    "Mixture Number 3",
+    "Mix No. 3"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": null,
+     "missing": "mass not tabulated; the design is given as molar ratios",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor."
+    },
+    {
+     "material": "ss",
+     "value": null,
+     "missing": "activator masses not tabulated; Na/Al and H2O/Na2O are given",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor. The average particle size of metakaolin is 1.3 µm based on the manufacturer’s data. The XRD and XRF results shown separately [28] indicate that the metakaolin is amorphous and contains around 44 wt % of Al2O3 and 53 wt % of SiO2. The activating solution was prepared using a sodium silicate solution (29.02 wt % SiO2, 9.00 wt % Na2O and 61.98 wt % H2O, Fisher, Waltham, MA, USA) and reagent-grade sodium hydroxide (Fisher, Waltham, MA, USA)."
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "activator masses not tabulated; Na/Al and H2O/Na2O are given",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor. The average particle size of metakaolin is 1.3 µm based on the manufacturer’s data. The XRD and XRF results shown separately [28] indicate that the metakaolin is amorphous and contains around 44 wt % of Al2O3 and 53 wt % of SiO2. The activating solution was prepared using a sodium silicate solution (29.02 wt % SiO2, 9.00 wt % Na2O and 61.98 wt % H2O, Fisher, Waltham, MA, USA) and reagent-grade sodium hydroxide (Fisher, Waltham, MA, USA)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Na/Al",
+     "value": 0.64,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 3: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.64 | 1.30 | 20 | 0"
+    },
+    {
+     "key": "Si/Al",
+     "value": 1.3,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 3: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.64 | 1.30 | 20 | 0"
+    },
+    {
+     "key": "H2O/Na2O",
+     "value": 20,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 3: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.64 | 1.30 | 20 | 0"
+    },
+    {
+     "key": "Ca/Si",
+     "value": 0,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 3: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.64 | 1.30 | 20 | 0"
+    }
+   ]
+  },
+  {
+   "id": "Mixture 4",
+   "aliases": [
+    "Mixture Number 4",
+    "Mix No. 4"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": null,
+     "missing": "mass not tabulated; the design is given as molar ratios",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor."
+    },
+    {
+     "material": "ss",
+     "value": null,
+     "missing": "activator masses not tabulated; Na/Al and H2O/Na2O are given",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor. The average particle size of metakaolin is 1.3 µm based on the manufacturer’s data. The XRD and XRF results shown separately [28] indicate that the metakaolin is amorphous and contains around 44 wt % of Al2O3 and 53 wt % of SiO2. The activating solution was prepared using a sodium silicate solution (29.02 wt % SiO2, 9.00 wt % Na2O and 61.98 wt % H2O, Fisher, Waltham, MA, USA) and reagent-grade sodium hydroxide (Fisher, Waltham, MA, USA)."
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "activator masses not tabulated; Na/Al and H2O/Na2O are given",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor. The average particle size of metakaolin is 1.3 µm based on the manufacturer’s data. The XRD and XRF results shown separately [28] indicate that the metakaolin is amorphous and contains around 44 wt % of Al2O3 and 53 wt % of SiO2. The activating solution was prepared using a sodium silicate solution (29.02 wt % SiO2, 9.00 wt % Na2O and 61.98 wt % H2O, Fisher, Waltham, MA, USA) and reagent-grade sodium hydroxide (Fisher, Waltham, MA, USA)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Na/Al",
+     "value": 0.74,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 4: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.74 | 1.50 | 20 | 0"
+    },
+    {
+     "key": "Si/Al",
+     "value": 1.5,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 4: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.74 | 1.50 | 20 | 0"
+    },
+    {
+     "key": "H2O/Na2O",
+     "value": 20,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 4: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.74 | 1.50 | 20 | 0"
+    },
+    {
+     "key": "Ca/Si",
+     "value": 0,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 4: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.74 | 1.50 | 20 | 0"
+    }
+   ]
+  },
+  {
+   "id": "Mixture 5",
+   "aliases": [
+    "Mixture Number 5",
+    "Mix No. 5"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": null,
+     "missing": "mass not tabulated; the design is given as molar ratios",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor."
+    },
+    {
+     "material": "ss",
+     "value": null,
+     "missing": "activator masses not tabulated; Na/Al and H2O/Na2O are given",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor. The average particle size of metakaolin is 1.3 µm based on the manufacturer’s data. The XRD and XRF results shown separately [28] indicate that the metakaolin is amorphous and contains around 44 wt % of Al2O3 and 53 wt % of SiO2. The activating solution was prepared using a sodium silicate solution (29.02 wt % SiO2, 9.00 wt % Na2O and 61.98 wt % H2O, Fisher, Waltham, MA, USA) and reagent-grade sodium hydroxide (Fisher, Waltham, MA, USA)."
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "activator masses not tabulated; Na/Al and H2O/Na2O are given",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor. The average particle size of metakaolin is 1.3 µm based on the manufacturer’s data. The XRD and XRF results shown separately [28] indicate that the metakaolin is amorphous and contains around 44 wt % of Al2O3 and 53 wt % of SiO2. The activating solution was prepared using a sodium silicate solution (29.02 wt % SiO2, 9.00 wt % Na2O and 61.98 wt % H2O, Fisher, Waltham, MA, USA) and reagent-grade sodium hydroxide (Fisher, Waltham, MA, USA)."
+    },
+    {
+     "material": "caoh2",
+     "value": null,
+     "missing": "amount given only as the Ca/Si ratio",
+     "text": "For mixtures containing Ca, the desired amount of calcium hydroxide was first mixed with the metakaolin precursor."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Na/Al",
+     "value": 0.74,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 5: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.74 | 1.50 | 20 | 0.05"
+    },
+    {
+     "key": "Si/Al",
+     "value": 1.5,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 5: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.74 | 1.50 | 20 | 0.05"
+    },
+    {
+     "key": "H2O/Na2O",
+     "value": 20,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 5: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.74 | 1.50 | 20 | 0.05"
+    },
+    {
+     "key": "Ca/Si",
+     "value": 0.05,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 5: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.74 | 1.50 | 20 | 0.05"
+    }
+   ]
+  },
+  {
+   "id": "Mixture 6",
+   "aliases": [
+    "Mixture Number 6",
+    "Mix No. 6"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": null,
+     "missing": "mass not tabulated; the design is given as molar ratios",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor."
+    },
+    {
+     "material": "ss",
+     "value": null,
+     "missing": "activator masses not tabulated; Na/Al and H2O/Na2O are given",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor. The average particle size of metakaolin is 1.3 µm based on the manufacturer’s data. The XRD and XRF results shown separately [28] indicate that the metakaolin is amorphous and contains around 44 wt % of Al2O3 and 53 wt % of SiO2. The activating solution was prepared using a sodium silicate solution (29.02 wt % SiO2, 9.00 wt % Na2O and 61.98 wt % H2O, Fisher, Waltham, MA, USA) and reagent-grade sodium hydroxide (Fisher, Waltham, MA, USA)."
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "activator masses not tabulated; Na/Al and H2O/Na2O are given",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor. The average particle size of metakaolin is 1.3 µm based on the manufacturer’s data. The XRD and XRF results shown separately [28] indicate that the metakaolin is amorphous and contains around 44 wt % of Al2O3 and 53 wt % of SiO2. The activating solution was prepared using a sodium silicate solution (29.02 wt % SiO2, 9.00 wt % Na2O and 61.98 wt % H2O, Fisher, Waltham, MA, USA) and reagent-grade sodium hydroxide (Fisher, Waltham, MA, USA)."
+    },
+    {
+     "material": "caoh2",
+     "value": null,
+     "missing": "amount given only as the Ca/Si ratio",
+     "text": "For mixtures containing Ca, the desired amount of calcium hydroxide was first mixed with the metakaolin precursor."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Na/Al",
+     "value": 0.74,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 6: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.74 | 1.50 | 20 | 0.10"
+    },
+    {
+     "key": "Si/Al",
+     "value": 1.5,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 6: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.74 | 1.50 | 20 | 0.10"
+    },
+    {
+     "key": "H2O/Na2O",
+     "value": 20,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 6: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.74 | 1.50 | 20 | 0.10"
+    },
+    {
+     "key": "Ca/Si",
+     "value": 0.1,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 6: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.74 | 1.50 | 20 | 0.10"
+    }
+   ]
+  },
+  {
+   "id": "Mixture 7",
+   "aliases": [
+    "Mixture Number 7",
+    "Mix No. 7"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": null,
+     "missing": "mass not tabulated; the design is given as molar ratios",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor."
+    },
+    {
+     "material": "ss",
+     "value": null,
+     "missing": "activator masses not tabulated; Na/Al and H2O/Na2O are given",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor. The average particle size of metakaolin is 1.3 µm based on the manufacturer’s data. The XRD and XRF results shown separately [28] indicate that the metakaolin is amorphous and contains around 44 wt % of Al2O3 and 53 wt % of SiO2. The activating solution was prepared using a sodium silicate solution (29.02 wt % SiO2, 9.00 wt % Na2O and 61.98 wt % H2O, Fisher, Waltham, MA, USA) and reagent-grade sodium hydroxide (Fisher, Waltham, MA, USA)."
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "activator masses not tabulated; Na/Al and H2O/Na2O are given",
+     "text": "Geopolymer mixtures were synthesized using metakaolin (MetaMax®, BASF, Ludwigshafen, Germany) as the precursor. The average particle size of metakaolin is 1.3 µm based on the manufacturer’s data. The XRD and XRF results shown separately [28] indicate that the metakaolin is amorphous and contains around 44 wt % of Al2O3 and 53 wt % of SiO2. The activating solution was prepared using a sodium silicate solution (29.02 wt % SiO2, 9.00 wt % Na2O and 61.98 wt % H2O, Fisher, Waltham, MA, USA) and reagent-grade sodium hydroxide (Fisher, Waltham, MA, USA)."
+    },
+    {
+     "material": "caoh2",
+     "value": null,
+     "missing": "amount given only as the Ca/Si ratio",
+     "text": "For mixtures containing Ca, the desired amount of calcium hydroxide was first mixed with the metakaolin precursor."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Na/Al",
+     "value": 0.74,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 7: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.74 | 1.50 | 20 | 0.15"
+    },
+    {
+     "key": "Si/Al",
+     "value": 1.5,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 7: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.74 | 1.50 | 20 | 0.15"
+    },
+    {
+     "key": "H2O/Na2O",
+     "value": 20,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 7: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.74 | 1.50 | 20 | 0.15"
+    },
+    {
+     "key": "Ca/Si",
+     "value": 0.15,
+     "basisNote": "molar ratio of the mixture design",
+     "text": "Table 1 (Compositions of mixtures), Mixture Number 7: Na/Al | Si/Al | H2O/Na2O | Ca/Si → 0.74 | 1.50 | 20 | 0.15"
+    }
+   ]
+  }
+ ],
+ "cures": [
+  {
+   "id": "c1",
+   "category": "moist",
+   "temperatureC": 25,
+   "duration": 3,
+   "durationUnit": "h",
+   "sealed": null,
+   "humidityPercent": 100,
+   "text": "Specimens were stored in a curing room at 25 °C and 100% relative humidity for around 3 h and then heated at 60 °C and ambient humidity and pressure for 2 h. After this heat treatment, they were put back in the curing room until around 24 h after mixing, when they were demolded. The demolded specimens were kept in the curing room until testing."
+  }
+ ],
+ "tests": [
+  {
+   "id": "gel",
+   "property": "other",
+   "propertyNote": "Share of the mixture’s Si in geopolymer gel (Si, mol%) by 29Si NMR with chemical extraction — a degree-of-reaction measure",
+   "unit": "mol%",
+   "specimen": "ground paste",
+   "method": "29Si NMR with chemical extraction"
+  }
+ ],
+ "results": [
+  {
+   "mix": "Mixture 1",
+   "test": "gel",
+   "ageDays": 7,
+   "value": 42.3,
+   "text": "Table 2 (Amount and composition of geopolymer gel and unreacted metakaolin in the non-Ca mixtures as determined using NMR), Mix No. 1: Mixture Design Na/Al | Mixture Design Si/Al | Geopolymer Gel Si/Al | Geopolymer Gel Si, mol% → 0.54 | 1.1 | 1.4 | 42.3",
+   "ageText": "All tests were carried out at 7 days after mixing.",
+   "locator": "Table 2"
+  },
+  {
+   "mix": "Mixture 2",
+   "test": "gel",
+   "ageDays": 7,
+   "value": 49.9,
+   "text": "Table 2 (Amount and composition of geopolymer gel and unreacted metakaolin in the non-Ca mixtures as determined using NMR), Mix No. 2: Mixture Design Na/Al | Mixture Design Si/Al | Geopolymer Gel Si/Al | Geopolymer Gel Si, mol% → 0.59 | 1.2 | 1.64 | 49.9",
+   "ageText": "All tests were carried out at 7 days after mixing.",
+   "locator": "Table 2"
+  },
+  {
+   "mix": "Mixture 3",
+   "test": "gel",
+   "ageDays": 7,
+   "value": 54.7,
+   "text": "Table 2 (Amount and composition of geopolymer gel and unreacted metakaolin in the non-Ca mixtures as determined using NMR), Mix No. 3: Mixture Design Na/Al | Mixture Design Si/Al | Geopolymer Gel Si/Al | Geopolymer Gel Si, mol% → 0.64 | 1.3 | 1.77 | 54.7",
+   "ageText": "All tests were carried out at 7 days after mixing.",
+   "locator": "Table 2"
+  },
+  {
+   "mix": "Mixture 4",
+   "test": "gel",
+   "ageDays": 7,
+   "value": 65.1,
+   "text": "Table 2 (Amount and composition of geopolymer gel and unreacted metakaolin in the non-Ca mixtures as determined using NMR), Mix No. 4: Mixture Design Na/Al | Mixture Design Si/Al | Geopolymer Gel Si/Al | Geopolymer Gel Si, mol% → 0.74 | 1.5 | 1.69 | 65.1",
+   "ageText": "All tests were carried out at 7 days after mixing.",
+   "locator": "Table 2"
+  }
+ ],
+ "findings": [],
+ "notes": [
+  {
+   "mix": "Mixture 1",
+   "kind": "failure",
+   "text": "It should be noted that Mixture 1 was excluded in both figures, as the samples were poorly consolidated as a result of extremely low workability."
+  }
+ ],
+ "gaps": [
+  "Table quotes name each row by its key column (\"Mixture Number 4\", \"Mix No. 4\"); the sheet labels the mixtures \"Mixture n\" as the text does.",
+  "No masses are tabulated: the design is given only as molar Na/Al, Si/Al, H2O/Na2O and Ca/Si ratios.",
+  "Compressive strengths (7 days, ASTM C109) are plotted in Figures 3–4 only; the text gives no per-mixture values.",
+  "Gel composition (Si/Al of gel and of unreacted metakaolin) in Table 2 is not transcribed; gel amounts for the calcium mixtures 5–7 are not tabulated.",
+  "Cure: first stage 25 °C / 100% RH for about 3 h, then 2 h at 60 °C, then the curing room until testing at 7 days.",
+  "Second review pending; see the batch audit."
+ ]
+}

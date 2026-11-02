@@ -51,10 +51,13 @@ test('grounding accepts real quotes and rejects altered cells, mixed rows and pa
  const sheet=text=>({mixes:[{quantities:[{text}]}],gaps:['free text is not checked']});
  assert.deepEqual(groundSheet(sheet(tableQuote(t2,0)),s).problems,[]);
  assert.deepEqual(groundSheet(sheet('M1 reached 40.5 MPa.'),s).problems,[]);
+ assert.equal(tableQuote(t2,0,{cols:[1],key:0}),'Table 2 (Mix proportion (kg/m3)), Mix IDs M1: GGBS → 600.5');
+ assert.deepEqual(groundSheet(sheet(tableQuote(t2,0,{cols:[1],key:0})),s).problems,[]);
  const bad=[
   tableQuote(t2,0).replace('600.5','605.5'),            // changed value
   'Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS → M1 | 420', // cells from two different rows
   tableQuote(t2,0).replace('Table 2','Table 4'),          // table that does not exist
+  tableQuote(t2,0,{cols:[1],key:0}).replace('Mix IDs M1','Mix IDs M2'), // key from another row
   'M1 reached about 40 MPa.',                             // paraphrase
  ];
  for(const q of bad)assert.equal(groundSheet(sheet(q),s).problems.length,1,q);

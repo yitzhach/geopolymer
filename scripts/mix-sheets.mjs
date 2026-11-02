@@ -7,6 +7,7 @@
 // Source-text mode (MIX_SHEET_STANDARD.md, "Source-text procedure"); papers stay outside the repository:
 //   source <guideId> [--dir d] [--refresh]   find the open-access copy (Europe PMC full-text XML) and save it parsed to d (default: OS temp)
 //   tables <guideId> [N] [--dir d]      print the saved paper's tables (all, or Table N) with row indexes
+//   text <guideId> [--grep re] [--dir d]  print the saved paper's paragraphs (numbered), optionally only those matching re
 //   quote <guideId> <N> <row> [--cols 0,2,3] [--dir d]   print the standard quote for one table row
 //   ground <guideId> [--dir d]          check every quote of a source-text sheet against the saved paper
 import {writeFile,access,readFile} from 'node:fs/promises';
@@ -73,7 +74,7 @@ else if(command==='queue'){
  console.log(`${done.size} sheet(s) done · ${open.length} open in queue "${queue.name}"\n`);
  for(const e of open.slice(0,n))console.log(`${e.guideId}  (${e.doi})  ${e.why||''}`);
 }
-else if(['source','tables','quote','ground'].includes(command)){
+else if(['source','tables','text','quote','ground'].includes(command)){
  const dir=flag('--dir')&&flag('--dir')!==true?flag('--dir'):join(tmpdir(),'geopolymer-sources');
  const ctx=guideContext(args[0]);
  if(!ctx)fail(`Unknown guide "${args[0]}".`);
@@ -114,6 +115,10 @@ else if(['source','tables','quote','ground'].includes(command)){
    t.rows.forEach((r,i)=>console.log(`${String(i).padStart(7)} | ${r.join(' | ')}`));
    for(const s of t.spans)console.log(`   span: "${s.text}" covers ${s.rowspan} row(s) × ${s.colspan} column(s) from row ${s.row}, column ${s.col}`);
   }
+ }
+ else if(command==='text'){
+  const src=await load(),re=flag('--grep')&&flag('--grep')!==true?new RegExp(flag('--grep'),'i'):null;
+  src.blocks.forEach((b,i)=>{if(!re||re.test(b))console.log(`[${i}] ${b}\n`);});
  }
  else if(command==='quote'){
   const src=await load(),t=findTable(src,args[1]);

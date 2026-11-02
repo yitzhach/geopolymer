@@ -1,0 +1,353 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "sfcc-phosphate-acid-window",
+ "doi": "10.3390/gels8020130",
+ "basis": "source-text",
+ "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8872381/",
+ "accessed": "2026-11-02",
+ "audit": "research/batches/source-text-batch2-2026-11-02.json",
+ "scope": "All six Table 2 specimens (SFCC catalyst with 6–14 mol/L phosphoric acid, and the metakaolin comparison at 12 mol/L) with exact batch amounts, and the three compressive strengths stated in the text. Strengths at 8 and 10 mol/L and for the metakaolin specimen are only in Figure 2.",
+ "made": "2026-11-02",
+ "madeBy": "AI transcription · mix-sheet skill v1 (source-text pilot)",
+ "materials": [
+  {
+   "id": "sfcc",
+   "family": "other-precursor",
+   "role": "precursor",
+   "name": "SFCC catalyst",
+   "aliases": [
+    "SFCC Catalyst"
+   ],
+   "detail": "A pretreatment of ball mill was preformed for 15 min to increase its reactivity."
+  },
+  {
+   "id": "mk",
+   "family": "metakaolin",
+   "role": "precursor",
+   "name": "Metakaolin"
+  },
+  {
+   "id": "acid",
+   "family": "phosphoric-acid",
+   "role": "activator",
+   "name": "phosphoric acid solution",
+   "aliases": [
+    "Acid"
+   ],
+   "detail": "The phosphoric acid (H3PO4, industrial grade) with 85% purity was used the activator in the synthesis."
+  }
+ ],
+ "mixes": [
+  {
+   "id": "No. 1",
+   "aliases": [
+    "6 mol/L"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "sfcc",
+     "value": 50,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 1 | 50 g | 0 g | 40 mL | 6 mol/L [spanning cells: Acid Volume]"
+    },
+    {
+     "material": "mk",
+     "value": 0,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 1 | 50 g | 0 g | 40 mL | 6 mol/L [spanning cells: Acid Volume]"
+    },
+    {
+     "material": "acid",
+     "value": 40,
+     "unit": "mL",
+     "basis": "batch",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 1 | 50 g | 0 g | 40 mL | 6 mol/L [spanning cells: Acid Volume]"
+    },
+    {
+     "material": "acid",
+     "value": 6,
+     "unit": "mol/L",
+     "basis": "own-solution",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 1 | 50 g | 0 g | 40 mL | 6 mol/L [spanning cells: Acid Volume]"
+    }
+   ],
+   "parameters": []
+  },
+  {
+   "id": "No. 2",
+   "aliases": [
+    "8 mol/L"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "sfcc",
+     "value": 50,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 2 | 50 g | 0 g | 40 mL | 8 mol/L [spanning cells: Acid Volume]"
+    },
+    {
+     "material": "mk",
+     "value": 0,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 2 | 50 g | 0 g | 40 mL | 8 mol/L [spanning cells: Acid Volume]"
+    },
+    {
+     "material": "acid",
+     "value": 40,
+     "unit": "mL",
+     "basis": "batch",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 2 | 50 g | 0 g | 40 mL | 8 mol/L [spanning cells: Acid Volume]"
+    },
+    {
+     "material": "acid",
+     "value": 8,
+     "unit": "mol/L",
+     "basis": "own-solution",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 2 | 50 g | 0 g | 40 mL | 8 mol/L [spanning cells: Acid Volume]"
+    }
+   ],
+   "parameters": []
+  },
+  {
+   "id": "No. 3",
+   "aliases": [
+    "10 mol/L"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "sfcc",
+     "value": 50,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 3 | 50 g | 0 g | 40 mL | 10 mol/L [spanning cells: Acid Volume]"
+    },
+    {
+     "material": "mk",
+     "value": 0,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 3 | 50 g | 0 g | 40 mL | 10 mol/L [spanning cells: Acid Volume]"
+    },
+    {
+     "material": "acid",
+     "value": 40,
+     "unit": "mL",
+     "basis": "batch",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 3 | 50 g | 0 g | 40 mL | 10 mol/L [spanning cells: Acid Volume]"
+    },
+    {
+     "material": "acid",
+     "value": 10,
+     "unit": "mol/L",
+     "basis": "own-solution",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 3 | 50 g | 0 g | 40 mL | 10 mol/L [spanning cells: Acid Volume]"
+    }
+   ],
+   "parameters": []
+  },
+  {
+   "id": "No. 4",
+   "aliases": [
+    "12 mol/L"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "sfcc",
+     "value": 50,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 4 | 50 g | 0 g | 40 mL | 12 mol/L [spanning cells: Acid Volume]"
+    },
+    {
+     "material": "mk",
+     "value": 0,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 4 | 50 g | 0 g | 40 mL | 12 mol/L [spanning cells: Acid Volume]"
+    },
+    {
+     "material": "acid",
+     "value": 40,
+     "unit": "mL",
+     "basis": "batch",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 4 | 50 g | 0 g | 40 mL | 12 mol/L [spanning cells: Acid Volume]"
+    },
+    {
+     "material": "acid",
+     "value": 12,
+     "unit": "mol/L",
+     "basis": "own-solution",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 4 | 50 g | 0 g | 40 mL | 12 mol/L [spanning cells: Acid Volume]"
+    }
+   ],
+   "parameters": []
+  },
+  {
+   "id": "No. 5",
+   "aliases": [
+    "14 mol"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "sfcc",
+     "value": 50,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 5 | 50 g | 0 g | 40 mL | 14 mol/L [spanning cells: Acid Volume]"
+    },
+    {
+     "material": "mk",
+     "value": 0,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 5 | 50 g | 0 g | 40 mL | 14 mol/L [spanning cells: Acid Volume]"
+    },
+    {
+     "material": "acid",
+     "value": 40,
+     "unit": "mL",
+     "basis": "batch",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 5 | 50 g | 0 g | 40 mL | 14 mol/L [spanning cells: Acid Volume]"
+    },
+    {
+     "material": "acid",
+     "value": 14,
+     "unit": "mol/L",
+     "basis": "own-solution",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 5 | 50 g | 0 g | 40 mL | 14 mol/L [spanning cells: Acid Volume]"
+    }
+   ],
+   "parameters": []
+  },
+  {
+   "id": "No. 6",
+   "aliases": [
+    "metakaolin-based geopolymer"
+   ],
+   "control": true,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "sfcc",
+     "value": 0,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 6 | 0 g | 50 g | 40 mL | 12 mol/L"
+    },
+    {
+     "material": "mk",
+     "value": 50,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 6 | 0 g | 50 g | 40 mL | 12 mol/L"
+    },
+    {
+     "material": "acid",
+     "value": 40,
+     "unit": "mL",
+     "basis": "batch",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 6 | 0 g | 50 g | 40 mL | 12 mol/L"
+    },
+    {
+     "material": "acid",
+     "value": 12,
+     "unit": "mol/L",
+     "basis": "own-solution",
+     "text": "Table 2 (Preparation regime of phosphate-based geopolymers): Specimen No. | Raw Materials SFCC Catalyst (g) | Raw Materials Metakaolin | Acid Volume | Acid Concentration (mol/L) → 6 | 0 g | 50 g | 40 mL | 12 mol/L"
+    }
+   ],
+   "parameters": []
+  }
+ ],
+ "cures": [
+  {
+   "id": "c1",
+   "category": "heat",
+   "temperatureC": 60,
+   "duration": 6,
+   "durationUnit": "h",
+   "sealed": true,
+   "humidityPercent": null,
+   "text": "After being sealed with polyethylene film, it was first cured at 60 °C for 6 h and continued at room temperature for 7 days."
+  }
+ ],
+ "tests": [
+  {
+   "id": "fc",
+   "property": "compressive-strength",
+   "unit": "MPa",
+   "specimen": "5 cm × 5 cm × 5 cm cubes",
+   "method": null
+  }
+ ],
+ "results": [
+  {
+   "mix": "No. 4",
+   "test": "fc",
+   "ageDays": null,
+   "ageNote": "test age not stated: sealed, 6 h at 60 °C, then 7 days at room temperature",
+   "value": 30.2,
+   "text": "When the phosphoric acid concentration was 12 mol/L, the SFCC catalyst-based geopolymer obtained the highest compressive strength of 30.2 MPa, which is even higher than that of metakaolin-based geopolymer with the same condition.",
+   "locator": "§3 / Figure 2"
+  },
+  {
+   "mix": "No. 1",
+   "test": "fc",
+   "ageDays": null,
+   "ageNote": "test age not stated: sealed, 6 h at 60 °C, then 7 days at room temperature",
+   "value": 9.8,
+   "text": "With the acid concentration decreasing from 12 to 6 mol/L, the compressive strength of geopolymers decreased from 30.2 MPa to 9.8 MPa.",
+   "locator": "§3 / Figure 2"
+  },
+  {
+   "mix": "No. 5",
+   "test": "fc",
+   "ageDays": null,
+   "ageNote": "test age not stated: sealed, 6 h at 60 °C, then 7 days at room temperature",
+   "value": 1.2,
+   "text": "However, at a higher acid concentration of 14 mol, it almost could not condense and harden to form geopolymer, and the compressive strength was only 1.2 MPa.",
+   "locator": "§3 / Figure 2"
+  }
+ ],
+ "findings": [
+  {
+   "goal": "Highest compressive strength",
+   "mix": "No. 4",
+   "text": "When the phosphoric acid concentration was 12 mol/L, the SFCC catalyst-based geopolymer obtained the highest compressive strength of 30.2 MPa, which is even higher than that of metakaolin-based geopolymer with the same condition."
+  }
+ ],
+ "notes": [
+  {
+   "mix": "No. 5",
+   "kind": "failure",
+   "text": "However, at a higher acid concentration of 14 mol, it almost could not condense and harden to form geopolymer, and the compressive strength was only 1.2 MPa."
+  }
+ ],
+ "gaps": [
+  "Table quotes follow the standard form; the 40 mL acid volume is one cell spanning specimens 1–5 in the source (specimen 6 has its own cell).",
+  "Specimen numbers are the paper's labels (Table 2 'Specimen No.'; the text uses 'No. 2', 'No. 4', 'No. 6'); because the strength sentences name acid concentrations, each specimen's concentration is recorded as its alias.",
+  "Strengths at 8 and 10 mol/L and for the metakaolin comparison (No. 6) are only in Figure 2; the text says only that No. 4 exceeds the metakaolin specimen.",
+  "The acid solution was prepared from 85% H3PO4 and deionized water; the acid mass per batch is not given. Test age is not stated.",
+  "Second review pending; see the batch audit."
+ ]
+}
