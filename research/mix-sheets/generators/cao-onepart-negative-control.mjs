@@ -6,7 +6,7 @@ const cols=[[1,'sa'],[2,'mk'],[3,'sf'],[4,'cao']];
 const mixes=t.rows.map((r,i)=>{const text=tableQuote(t,i);
  return {id:r[0],control:r[0]==='GEO-1',form:'paste',cure:'c1',
   quantities:cols.map(([c,m])=>({material:m,value:num(r[c]),unit:'g',basis:'batch',text})),
-  parameters:[{key:'liquid/solid',value:num(r[5]),basisNote:'deionized water to total solids, as printed',text}]};});
+  parameters:[{key:'liquid/solid',value:num(r[5]),basisNote:'Table 2 "Liquid/Solid Ratio"; the text also calls it water-to-binder; basis not stated',text}]};});
 const g1='The CaO-free sample (GEO-1) achieved the highest compressive strengths of approximately 34, 45, and 56 MPa at 3, 7, and 28 days, respectively.';
 const g3='When the CaO dosage reached 5% (GEO-3), the strength reached its minimum at all curing ages, falling to approximately 8, 13, and 17 MPa.';
 const ages='Figure 1 depicts the evolution of compressive strength for metakaolin-based one-part geopolymers with varying CaO dosages after curing for 3, 7 and 28 d.';
@@ -28,5 +28,6 @@ await save({...sheetHeader(G,'10.3390/molecules31173132',src,'All five Table 2 o
  notes:[{mix:'GEO-3',kind:'failure',text:g3}],
  gaps:['Table quotes follow the standard form. CaO replaces the cementitious materials by equal mass in a fixed 100 g batch; water (as liquid/solid) rises with CaO.',
   'Source conflict kept visible: §4 says every CaO sample had 28-day strength below 25 MPa, but §2.1 gives GEO-4 31.3 MPa. GEO-1 28-day strength is "approximately 56 MPa" in §2.1 (recorded) and 56.6 MPa in §4 and the abstract. GEO-5\'s sentence directly follows the GEO-4 28-day sentence and gives no age of its own; 28 d is read from that sequence.',
+  'CaO is recorded under the lime family (calcium-hydroxide / lime), the closest vocabulary entry for calcium oxide.',
   'GEO-2 strengths, and all other ages for GEO-4/GEO-5, are only in Figure 1. Nitrogen-adsorption data (Table 1) are not mix-table properties.',
-  'Second review pending; see the batch audit.']});
+  'Second review (2 Nov 2026): 0 value errors; see the batch audit.']});

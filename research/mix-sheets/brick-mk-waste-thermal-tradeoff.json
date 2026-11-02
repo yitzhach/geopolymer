@@ -73,16 +73,16 @@
      "material": "naoh",
      "value": 14,
      "unit": "wt%",
-     "basis": "binder-as-defined",
-     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, so read as % of precursor mass",
+     "basis": "precursor-mass",
+     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, and AS/P is alkali solution to precursor (powder) per the Table 3 footnote",
      "text": "Table 3 (Geopolymer binder compositions wt.%): Mix No. | Precursor Materials CBW | Precursor Materials MKW | Alkaline Solutions NaOH | Alkaline Solutions Na2SiO3 | Essential Molal Ratios SiO2/Al2O3(Si/Al) | Essential Molal Ratios H2O/Na2O | Essential Molal Ratios Na2O/Al2O3(Na/Al) | Essential Molal Ratios SiO2/Na2O(Si/Na) | Mix Design Parameters SSA1 | Mix Design Parameters AS/P2 | Mix Design Parameters W/S3 → F1 | 100 | 0 | 14.0 | 21.0 | 9.79 (4.89) | 15.45 | 0.68 (0.68) | 14.42 (7.21) | 497.96 | 0.35 | 0.21"
     },
     {
      "material": "ss",
      "value": 21,
      "unit": "wt%",
-     "basis": "binder-as-defined",
-     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, so read as % of precursor mass",
+     "basis": "precursor-mass",
+     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, and AS/P is alkali solution to precursor (powder) per the Table 3 footnote",
      "text": "Table 3 (Geopolymer binder compositions wt.%): Mix No. | Precursor Materials CBW | Precursor Materials MKW | Alkaline Solutions NaOH | Alkaline Solutions Na2SiO3 | Essential Molal Ratios SiO2/Al2O3(Si/Al) | Essential Molal Ratios H2O/Na2O | Essential Molal Ratios Na2O/Al2O3(Na/Al) | Essential Molal Ratios SiO2/Na2O(Si/Na) | Mix Design Parameters SSA1 | Mix Design Parameters AS/P2 | Mix Design Parameters W/S3 → F1 | 100 | 0 | 14.0 | 21.0 | 9.79 (4.89) | 15.45 | 0.68 (0.68) | 14.42 (7.21) | 497.96 | 0.35 | 0.21"
     }
    ],
@@ -155,16 +155,16 @@
      "material": "naoh",
      "value": 18,
      "unit": "wt%",
-     "basis": "binder-as-defined",
-     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, so read as % of precursor mass",
+     "basis": "precursor-mass",
+     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, and AS/P is alkali solution to precursor (powder) per the Table 3 footnote",
      "text": "Table 3 (Geopolymer binder compositions wt.%): Mix No. | Precursor Materials CBW | Precursor Materials MKW | Alkaline Solutions NaOH | Alkaline Solutions Na2SiO3 | Essential Molal Ratios SiO2/Al2O3(Si/Al) | Essential Molal Ratios H2O/Na2O | Essential Molal Ratios Na2O/Al2O3(Na/Al) | Essential Molal Ratios SiO2/Na2O(Si/Na) | Mix Design Parameters SSA1 | Mix Design Parameters AS/P2 | Mix Design Parameters W/S3 → F2 | 75 | 25 | 18.0 | 27.0 | 7.14 (3.57) | 12.90 | 0.78 (0.78) | 9.10 (4.55) | 491.66 | 0.45 | 0.27"
     },
     {
      "material": "ss",
      "value": 27,
      "unit": "wt%",
-     "basis": "binder-as-defined",
-     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, so read as % of precursor mass",
+     "basis": "precursor-mass",
+     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, and AS/P is alkali solution to precursor (powder) per the Table 3 footnote",
      "text": "Table 3 (Geopolymer binder compositions wt.%): Mix No. | Precursor Materials CBW | Precursor Materials MKW | Alkaline Solutions NaOH | Alkaline Solutions Na2SiO3 | Essential Molal Ratios SiO2/Al2O3(Si/Al) | Essential Molal Ratios H2O/Na2O | Essential Molal Ratios Na2O/Al2O3(Na/Al) | Essential Molal Ratios SiO2/Na2O(Si/Na) | Mix Design Parameters SSA1 | Mix Design Parameters AS/P2 | Mix Design Parameters W/S3 → F2 | 75 | 25 | 18.0 | 27.0 | 7.14 (3.57) | 12.90 | 0.78 (0.78) | 9.10 (4.55) | 491.66 | 0.45 | 0.27"
     }
    ],
@@ -237,16 +237,16 @@
      "material": "naoh",
      "value": 22,
      "unit": "wt%",
-     "basis": "binder-as-defined",
-     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, so read as % of precursor mass",
+     "basis": "precursor-mass",
+     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, and AS/P is alkali solution to precursor (powder) per the Table 3 footnote",
      "text": "Table 3 (Geopolymer binder compositions wt.%): Mix No. | Precursor Materials CBW | Precursor Materials MKW | Alkaline Solutions NaOH | Alkaline Solutions Na2SiO3 | Essential Molal Ratios SiO2/Al2O3(Si/Al) | Essential Molal Ratios H2O/Na2O | Essential Molal Ratios Na2O/Al2O3(Na/Al) | Essential Molal Ratios SiO2/Na2O(Si/Na) | Mix Design Parameters SSA1 | Mix Design Parameters AS/P2 | Mix Design Parameters W/S3 → F3 | 50 | 50 | 22.0 | 33.0 | 5.55 (2.77) | 11.67 | 0.85 (0.85) | 6.54 (3.27) | 485.36 | 0.55 | 0.32"
     },
     {
      "material": "ss",
      "value": 33,
      "unit": "wt%",
-     "basis": "binder-as-defined",
-     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, so read as % of precursor mass",
+     "basis": "precursor-mass",
+     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, and AS/P is alkali solution to precursor (powder) per the Table 3 footnote",
      "text": "Table 3 (Geopolymer binder compositions wt.%): Mix No. | Precursor Materials CBW | Precursor Materials MKW | Alkaline Solutions NaOH | Alkaline Solutions Na2SiO3 | Essential Molal Ratios SiO2/Al2O3(Si/Al) | Essential Molal Ratios H2O/Na2O | Essential Molal Ratios Na2O/Al2O3(Na/Al) | Essential Molal Ratios SiO2/Na2O(Si/Na) | Mix Design Parameters SSA1 | Mix Design Parameters AS/P2 | Mix Design Parameters W/S3 → F3 | 50 | 50 | 22.0 | 33.0 | 5.55 (2.77) | 11.67 | 0.85 (0.85) | 6.54 (3.27) | 485.36 | 0.55 | 0.32"
     }
    ],
@@ -319,16 +319,16 @@
      "material": "naoh",
      "value": 28,
      "unit": "wt%",
-     "basis": "binder-as-defined",
-     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, so read as % of precursor mass",
+     "basis": "precursor-mass",
+     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, and AS/P is alkali solution to precursor (powder) per the Table 3 footnote",
      "text": "Table 3 (Geopolymer binder compositions wt.%): Mix No. | Precursor Materials CBW | Precursor Materials MKW | Alkaline Solutions NaOH | Alkaline Solutions Na2SiO3 | Essential Molal Ratios SiO2/Al2O3(Si/Al) | Essential Molal Ratios H2O/Na2O | Essential Molal Ratios Na2O/Al2O3(Na/Al) | Essential Molal Ratios SiO2/Na2O(Si/Na) | Mix Design Parameters SSA1 | Mix Design Parameters AS/P2 | Mix Design Parameters W/S3 → F4 | 25 | 75 | 28.0 | 42.0 | 4.54 (2.27) | 11.27 | 0.93 (0.93) | 4.88 (2.44) | 479.05 | 0.70 | 0.39"
     },
     {
      "material": "ss",
      "value": 42,
      "unit": "wt%",
-     "basis": "binder-as-defined",
-     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, so read as % of precursor mass",
+     "basis": "precursor-mass",
+     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, and AS/P is alkali solution to precursor (powder) per the Table 3 footnote",
      "text": "Table 3 (Geopolymer binder compositions wt.%): Mix No. | Precursor Materials CBW | Precursor Materials MKW | Alkaline Solutions NaOH | Alkaline Solutions Na2SiO3 | Essential Molal Ratios SiO2/Al2O3(Si/Al) | Essential Molal Ratios H2O/Na2O | Essential Molal Ratios Na2O/Al2O3(Na/Al) | Essential Molal Ratios SiO2/Na2O(Si/Na) | Mix Design Parameters SSA1 | Mix Design Parameters AS/P2 | Mix Design Parameters W/S3 → F4 | 25 | 75 | 28.0 | 42.0 | 4.54 (2.27) | 11.27 | 0.93 (0.93) | 4.88 (2.44) | 479.05 | 0.70 | 0.39"
     }
    ],
@@ -401,16 +401,16 @@
      "material": "naoh",
      "value": 32,
      "unit": "wt%",
-     "basis": "binder-as-defined",
-     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, so read as % of precursor mass",
+     "basis": "precursor-mass",
+     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, and AS/P is alkali solution to precursor (powder) per the Table 3 footnote",
      "text": "Table 3 (Geopolymer binder compositions wt.%): Mix No. | Precursor Materials CBW | Precursor Materials MKW | Alkaline Solutions NaOH | Alkaline Solutions Na2SiO3 | Essential Molal Ratios SiO2/Al2O3(Si/Al) | Essential Molal Ratios H2O/Na2O | Essential Molal Ratios Na2O/Al2O3(Na/Al) | Essential Molal Ratios SiO2/Na2O(Si/Na) | Mix Design Parameters SSA1 | Mix Design Parameters AS/P2 | Mix Design Parameters W/S3 → F5 | 0 | 100 | 32.0 | 48.0 | 3.77 (1.89) | 10.76 | 0.95 (0.95) | 3.95 (1.98) | 472.75 | 0.80 | 0.43"
     },
     {
      "material": "ss",
      "value": 48,
      "unit": "wt%",
-     "basis": "binder-as-defined",
-     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, so read as % of precursor mass",
+     "basis": "precursor-mass",
+     "basisNote": "Table 3 \"wt.%\"; NaOH + Na2SiO3 equals AS/P × 100, and AS/P is alkali solution to precursor (powder) per the Table 3 footnote",
      "text": "Table 3 (Geopolymer binder compositions wt.%): Mix No. | Precursor Materials CBW | Precursor Materials MKW | Alkaline Solutions NaOH | Alkaline Solutions Na2SiO3 | Essential Molal Ratios SiO2/Al2O3(Si/Al) | Essential Molal Ratios H2O/Na2O | Essential Molal Ratios Na2O/Al2O3(Na/Al) | Essential Molal Ratios SiO2/Na2O(Si/Na) | Mix Design Parameters SSA1 | Mix Design Parameters AS/P2 | Mix Design Parameters W/S3 → F5 | 0 | 100 | 32.0 | 48.0 | 3.77 (1.89) | 10.76 | 0.95 (0.95) | 3.95 (1.98) | 472.75 | 0.80 | 0.43"
     }
    ],
@@ -750,6 +750,6 @@
   "Table quotes follow the standard form. Oxide ratios with element ratios in brackets (e.g. \"9.79 (4.89)\") are split into SiO2/Al2O3 and Si/Al, and Na2O/Al2O3 and Na/Al. SSA (specific surface area) and Si/Na are not transcribed.",
   "Activator doses are printed as \"wt.%\"; their sum equals AS/P × 100 for every mix, so they are read as % of precursor mass (noted per value). The silicate stock modulus is 3.0; NaOH is 8 M.",
   "Compressive strength of F2–F5, flexural strength of F1–F4, drying shrinkage, softening coefficients and residual strengths after 200–800 °C are only in Figures 7–13; F2–F5 mass change is given only as a range (11.1–17.0%).",
-  "Second review pending; see the batch audit."
+  "Second review (2 Nov 2026): 0 value errors; see the batch audit."
  ]
 }

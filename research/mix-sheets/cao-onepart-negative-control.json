@@ -84,7 +84,7 @@
     {
      "key": "liquid/solid",
      "value": 0.4,
-     "basisNote": "deionized water to total solids, as printed",
+     "basisNote": "Table 2 \"Liquid/Solid Ratio\"; the text also calls it water-to-binder; basis not stated",
      "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-1 | 20.00 | 51.59 | 28.41 | 0.00 | 0.400"
     }
    ]
@@ -128,7 +128,7 @@
     {
      "key": "liquid/solid",
      "value": 0.425,
-     "basisNote": "deionized water to total solids, as printed",
+     "basisNote": "Table 2 \"Liquid/Solid Ratio\"; the text also calls it water-to-binder; basis not stated",
      "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-2 | 19.50 | 50.30 | 27.70 | 2.50 | 0.425"
     }
    ]
@@ -172,7 +172,7 @@
     {
      "key": "liquid/solid",
      "value": 0.45,
-     "basisNote": "deionized water to total solids, as printed",
+     "basisNote": "Table 2 \"Liquid/Solid Ratio\"; the text also calls it water-to-binder; basis not stated",
      "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-3 | 19.00 | 49.01 | 26.99 | 5.00 | 0.450"
     }
    ]
@@ -216,7 +216,7 @@
     {
      "key": "liquid/solid",
      "value": 0.475,
-     "basisNote": "deionized water to total solids, as printed",
+     "basisNote": "Table 2 \"Liquid/Solid Ratio\"; the text also calls it water-to-binder; basis not stated",
      "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-4 | 18.50 | 47.72 | 26.28 | 7.50 | 0.475"
     }
    ]
@@ -260,7 +260,7 @@
     {
      "key": "liquid/solid",
      "value": 0.5,
-     "basisNote": "deionized water to total solids, as printed",
+     "basisNote": "Table 2 \"Liquid/Solid Ratio\"; the text also calls it water-to-binder; basis not stated",
      "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-5 | 18.00 | 46.43 | 25.57 | 10.00 | 0.500"
     }
    ]
@@ -380,7 +380,8 @@
  "gaps": [
   "Table quotes follow the standard form. CaO replaces the cementitious materials by equal mass in a fixed 100 g batch; water (as liquid/solid) rises with CaO.",
   "Source conflict kept visible: §4 says every CaO sample had 28-day strength below 25 MPa, but §2.1 gives GEO-4 31.3 MPa. GEO-1 28-day strength is \"approximately 56 MPa\" in §2.1 (recorded) and 56.6 MPa in §4 and the abstract. GEO-5's sentence directly follows the GEO-4 28-day sentence and gives no age of its own; 28 d is read from that sequence.",
+  "CaO is recorded under the lime family (calcium-hydroxide / lime), the closest vocabulary entry for calcium oxide.",
   "GEO-2 strengths, and all other ages for GEO-4/GEO-5, are only in Figure 1. Nitrogen-adsorption data (Table 1) are not mix-table properties.",
-  "Second review pending; see the batch audit."
+  "Second review (2 Nov 2026): 0 value errors; see the batch audit."
  ]
 }

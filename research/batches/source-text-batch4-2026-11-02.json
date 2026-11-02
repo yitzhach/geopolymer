@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batch": "source-text-batch4-2026-11-02",
+  "mode": "source-text (mix-sheet skill v1.2, repository tooling)",
+  "checked": "2026-11-02",
+  "reviewer": "AI transcription by the primary agent; independent AI second review by two lightweight reviewer agents; no human/domain review",
+  "selection": "Next five open entries of research/mix-sheets/QUEUE.json with an open CC BY PMC copy. Skipped for lack of a PMC copy (not opened): metakaolin-lot-thermal-reproducibility, cement-mk-shrinkage-compromise, printing-filler-xanthan-rheology, nickel-carbon-laminate-proprietary, egc-thermal-cure-tensile-clock, ceramic-dry-activator-screening, volcanic-graphene-ratio-conflict.",
+  "operations": [
+    "5 × (Europe PMC search + fullTextXML) via npm run mixes -- source = 10 operations"
+  ],
+  "operationCount": 10,
+  "failedAccess": [],
+  "retention": "Full text saved only in the OS temp folder (geopolymer-sources/) and deleted after review.",
+  "method": [
+    "Generators read parsed table cells and check the headers and labels they rely on.",
+    "npm run mixes -- ground: 0 of 323 quotes not grounded (one composed condition was caught by ground and replaced with the paper's wording before review).",
+    "npm run mixes -- check: all sheets pass."
+  ],
+  "papers": [
+    {
+      "guideId": "copper-slag-print-cast-ledger",
+      "doi": "10.3390/ma17225581",
+      "pmcid": "PMC11595373",
+      "licence": "CC BY (Europe PMC)",
+      "fullText": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11595373/fullTextXML",
+      "generator": "research/mix-sheets/generators/copper-slag-print-cast-ledger.mjs",
+      "mixes": 2,
+      "results": 5
+    },
+    {
+      "guideId": "pp-fiber-impact-static-tradeoff",
+      "doi": "10.3390/ma19204263",
+      "pmcid": "PMC13707231",
+      "licence": "CC BY (Europe PMC)",
+      "fullText": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13707231/fullTextXML",
+      "generator": "research/mix-sheets/generators/pp-fiber-impact-static-tradeoff.mjs",
+      "mixes": 6,
+      "results": 25
+    },
+    {
+      "guideId": "brick-mk-waste-thermal-tradeoff",
+      "doi": "10.3390/ma19183890",
+      "pmcid": "PMC13608379",
+      "licence": "CC BY (Europe PMC)",
+      "fullText": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13608379/fullTextXML",
+      "generator": "research/mix-sheets/generators/brick-mk-waste-thermal-tradeoff.mjs",
+      "mixes": 5,
+      "results": 24
+    },
+    {
+      "guideId": "pumice-volume-replacement-thermal",
+      "doi": "10.3390/ma19183819",
+      "pmcid": "PMC13608255",
+      "licence": "CC BY (Europe PMC)",
+      "fullText": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13608255/fullTextXML",
+      "generator": "research/mix-sheets/generators/pumice-volume-replacement-thermal.mjs",
+      "mixes": 6,
+      "results": 15
+    },
+    {
+      "guideId": "cao-onepart-negative-control",
+      "doi": "10.3390/molecules31173132",
+      "pmcid": "PMC13567060",
+      "licence": "CC BY (Europe PMC)",
+      "fullText": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13567060/fullTextXML",
+      "generator": "research/mix-sheets/generators/cao-onepart-negative-control.mjs",
+      "mixes": 5,
+      "results": 8
+    }
+  ],
+  "secondReview": [
+    {
+      "sheets": [
+        "copper-slag-print-cast-ledger",
+        "pp-fiber-impact-static-tradeoff",
+        "cao-onepart-negative-control"
+      ],
+      "linesChecked": 113,
+      "valueErrors": 0,
+      "findings": [
+        "All 24 PP-fibre peak stresses on the right mix and impact pressure.",
+        "CaO liquid/solid basis note said 'to total solids' → changed to 'basis not stated' (the text also calls it water-to-binder).",
+        "CaO GEO-5 28-day age read from sentence order and the §2.1/§4 strength conflict are recorded in gaps; GEO-1 uses the §2.1 'approximately 56 MPa' that names the mix (56.6 MPa in §4 noted).",
+        "Copper-slag '% in relation to copper slag' → wt% of precursor mass and 'liquid to precursor' → activator/precursor are vocabulary mappings. No change."
+      ]
+    },
+    {
+      "sheets": [
+        "brick-mk-waste-thermal-tradeoff",
+        "pumice-volume-replacement-thermal"
+      ],
+      "linesChecked": 148,
+      "valueErrors": 0,
+      "findings": [
+        "Brick activator doses recorded as binder-as-defined → changed to precursor-mass (Table 3 footnote: AS/P = alkali solution to precursor powder).",
+        "Mould film recorded as sealed per the skill rule (covered counts as sealed). No change.",
+        "Pumice: all 62 lines confirmed."
+      ]
+    }
+  ]
+}

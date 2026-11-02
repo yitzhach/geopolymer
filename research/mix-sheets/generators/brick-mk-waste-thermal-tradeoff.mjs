@@ -6,7 +6,7 @@ expect(t4.header.at(-1),['Mix No.','AS/P Ratio','Fresh Paste Density, kg/m3','In
 // "9.79 (4.89)" → [9.79, 4.89]: oxide ratio and, in brackets, the element ratio.
 const pair=c=>{const m=String(c).match(/^(\d+(?:\.\d+)?) \((\d+(?:\.\d+)?)\)$/);if(!m)throw new Error(`"${c}" is not "a (b)"`);return [Number(m[1]),Number(m[2])];};
 const mixes=t3.rows.map((r,i)=>{const text=tableQuote(t3,i),[sa,si]=pair(r[5]),[na2,na]=pair(r[7]);
- const act=v=>({value:num(v),unit:'wt%',basis:'binder-as-defined',basisNote:'Table 3 "wt.%"; NaOH + Na2SiO3 equals AS/P × 100, so read as % of precursor mass',text});
+ const act=v=>({value:num(v),unit:'wt%',basis:'precursor-mass',basisNote:'Table 3 "wt.%"; NaOH + Na2SiO3 equals AS/P × 100, and AS/P is alkali solution to precursor (powder) per the Table 3 footnote',text});
  return {id:r[0],control:r[0]==='F1',form:'paste',cure:'c1',
   quantities:[{material:'cbw',value:num(r[1]),unit:'wt%',basis:'precursor-mass',text},{material:'mkw',value:num(r[2]),unit:'wt%',basis:'precursor-mass',text},
    {material:'naoh',...act(r[3])},{material:'ss',...act(r[4])}],
@@ -37,4 +37,4 @@ await save({...sheetHeader(G,'10.3390/ma19183890',src,'All five Table 3 binders 
  gaps:['Table quotes follow the standard form. Oxide ratios with element ratios in brackets (e.g. "9.79 (4.89)") are split into SiO2/Al2O3 and Si/Al, and Na2O/Al2O3 and Na/Al. SSA (specific surface area) and Si/Na are not transcribed.',
   'Activator doses are printed as "wt.%"; their sum equals AS/P × 100 for every mix, so they are read as % of precursor mass (noted per value). The silicate stock modulus is 3.0; NaOH is 8 M.',
   'Compressive strength of F2–F5, flexural strength of F1–F4, drying shrinkage, softening coefficients and residual strengths after 200–800 °C are only in Figures 7–13; F2–F5 mass change is given only as a range (11.1–17.0%).',
-  'Second review pending; see the batch audit.']});
+  'Second review (2 Nov 2026): 0 value errors; see the batch audit.']});
