@@ -1,0 +1,641 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "pumice-volume-replacement-thermal",
+ "doi": "10.3390/ma19183819",
+ "basis": "source-text",
+ "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13608255/",
+ "accessed": "2026-11-02",
+ "audit": "research/batches/source-text-batch4-2026-11-02.json",
+ "scope": "All six Table 3 mortars (pumice powder replacing recycled fine aggregate by volume, 0–100%) with kg/m3 batches; ambient compressive and tensile bond strengths stated for PP0, PP60 and PP70, and residual values after 800 °C for 3 h stated for PP0, PP70, PP90 and PP100.",
+ "made": "2026-11-02",
+ "madeBy": "AI transcription · mix-sheet skill v1 (source-text pilot)",
+ "materials": [
+  {
+   "id": "mk",
+   "family": "metakaolin",
+   "role": "precursor",
+   "name": "Metakaolin",
+   "aliases": [
+    "MK"
+   ]
+  },
+  {
+   "id": "pp",
+   "family": "other-aggregate",
+   "role": "aggregate",
+   "name": "Pumice powder",
+   "aliases": [
+    "PP"
+   ],
+   "detail": "Pumice powder (PP) was an industrial by-product produced by Hebei Runhuabang New Materials Technology Co., Ltd., (Shijiazhuang, China)."
+  },
+  {
+   "id": "rfa",
+   "family": "recycled-aggregate",
+   "role": "aggregate",
+   "name": "RFA",
+   "detail": "The apparent density, water absorption, and fineness modulus of the RFA were 2273 kg/m3, 9.4%, and 2.9, respectively."
+  },
+  {
+   "id": "pw",
+   "family": "water",
+   "role": "water",
+   "name": "Pre-Wetting Water"
+  },
+  {
+   "id": "naoh",
+   "family": "sodium-hydroxide",
+   "role": "activator",
+   "name": "NaOH",
+   "detail": "The NaOH solution had a concentration of 10 mol/L and was prepared 24 h before mixing and allowed to cool to room temperature."
+  },
+  {
+   "id": "ss",
+   "family": "sodium-silicate-solution",
+   "role": "activator",
+   "name": "Na2SiO3",
+   "detail": "The sodium silicate solution contained 21.5 wt.% SiO2, 18.5 wt.% Na2O, and 60 wt.% H2O, corresponding to a silica modulus (Ms = SiO2/Na2O molar ratio) of 1.2."
+  },
+  {
+   "id": "water",
+   "family": "water",
+   "role": "water",
+   "name": "Distilled Water"
+  }
+ ],
+ "mixes": [
+  {
+   "id": "PP0",
+   "control": true,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 520,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP0 | 0% | - | 520.0 | 1237.5 | 116.3 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "rfa",
+     "value": 1237.5,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP0 | 0% | - | 520.0 | 1237.5 | 116.3 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "pw",
+     "value": 116.3,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP0 | 0% | - | 520.0 | 1237.5 | 116.3 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "naoh",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP0 | 0% | - | 520.0 | 1237.5 | 116.3 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "ss",
+     "value": 245,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP0 | 0% | - | 520.0 | 1237.5 | 116.3 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "water",
+     "value": 75,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP0 | 0% | - | 520.0 | 1237.5 | 116.3 | 40.0 | 245.0 | 75.0"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "hydroxide-molarity",
+     "value": 10,
+     "text": "The NaOH solution had a concentration of 10 mol/L and was prepared 24 h before mixing and allowed to cool to room temperature."
+    }
+   ]
+  },
+  {
+   "id": "PP60",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "pp",
+     "value": 813.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP60 | 60% | 813.4 | 520.0 | 495.4 | 46.6 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "mk",
+     "value": 520,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP60 | 60% | 813.4 | 520.0 | 495.4 | 46.6 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "rfa",
+     "value": 495.4,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP60 | 60% | 813.4 | 520.0 | 495.4 | 46.6 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "pw",
+     "value": 46.6,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP60 | 60% | 813.4 | 520.0 | 495.4 | 46.6 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "naoh",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP60 | 60% | 813.4 | 520.0 | 495.4 | 46.6 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "ss",
+     "value": 245,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP60 | 60% | 813.4 | 520.0 | 495.4 | 46.6 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "water",
+     "value": 75,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP60 | 60% | 813.4 | 520.0 | 495.4 | 46.6 | 40.0 | 245.0 | 75.0"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "hydroxide-molarity",
+     "value": 10,
+     "text": "The NaOH solution had a concentration of 10 mol/L and was prepared 24 h before mixing and allowed to cool to room temperature."
+    }
+   ]
+  },
+  {
+   "id": "PP70",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "pp",
+     "value": 948.9,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP70 | 70% | 948.9 | 520.0 | 371.3 | 34.9 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "mk",
+     "value": 520,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP70 | 70% | 948.9 | 520.0 | 371.3 | 34.9 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "rfa",
+     "value": 371.3,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP70 | 70% | 948.9 | 520.0 | 371.3 | 34.9 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "pw",
+     "value": 34.9,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP70 | 70% | 948.9 | 520.0 | 371.3 | 34.9 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "naoh",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP70 | 70% | 948.9 | 520.0 | 371.3 | 34.9 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "ss",
+     "value": 245,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP70 | 70% | 948.9 | 520.0 | 371.3 | 34.9 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "water",
+     "value": 75,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP70 | 70% | 948.9 | 520.0 | 371.3 | 34.9 | 40.0 | 245.0 | 75.0"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "hydroxide-molarity",
+     "value": 10,
+     "text": "The NaOH solution had a concentration of 10 mol/L and was prepared 24 h before mixing and allowed to cool to room temperature."
+    }
+   ]
+  },
+  {
+   "id": "PP80",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "pp",
+     "value": 1084.5,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP80 | 80% | 1084.5 | 520.0 | 247.5 | 23.3 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "mk",
+     "value": 520,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP80 | 80% | 1084.5 | 520.0 | 247.5 | 23.3 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "rfa",
+     "value": 247.5,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP80 | 80% | 1084.5 | 520.0 | 247.5 | 23.3 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "pw",
+     "value": 23.3,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP80 | 80% | 1084.5 | 520.0 | 247.5 | 23.3 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "naoh",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP80 | 80% | 1084.5 | 520.0 | 247.5 | 23.3 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "ss",
+     "value": 245,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP80 | 80% | 1084.5 | 520.0 | 247.5 | 23.3 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "water",
+     "value": 75,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP80 | 80% | 1084.5 | 520.0 | 247.5 | 23.3 | 40.0 | 245.0 | 75.0"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "hydroxide-molarity",
+     "value": 10,
+     "text": "The NaOH solution had a concentration of 10 mol/L and was prepared 24 h before mixing and allowed to cool to room temperature."
+    }
+   ]
+  },
+  {
+   "id": "PP90",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "pp",
+     "value": 1220.1,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP90 | 90% | 1220.1 | 520.0 | 123.8 | 11.6 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "mk",
+     "value": 520,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP90 | 90% | 1220.1 | 520.0 | 123.8 | 11.6 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "rfa",
+     "value": 123.8,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP90 | 90% | 1220.1 | 520.0 | 123.8 | 11.6 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "pw",
+     "value": 11.6,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP90 | 90% | 1220.1 | 520.0 | 123.8 | 11.6 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "naoh",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP90 | 90% | 1220.1 | 520.0 | 123.8 | 11.6 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "ss",
+     "value": 245,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP90 | 90% | 1220.1 | 520.0 | 123.8 | 11.6 | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "water",
+     "value": 75,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP90 | 90% | 1220.1 | 520.0 | 123.8 | 11.6 | 40.0 | 245.0 | 75.0"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "hydroxide-molarity",
+     "value": 10,
+     "text": "The NaOH solution had a concentration of 10 mol/L and was prepared 24 h before mixing and allowed to cool to room temperature."
+    }
+   ]
+  },
+  {
+   "id": "PP100",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "pp",
+     "value": 1355.6,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP100 | 100% | 1355.6 | 520.0 | - | - | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "mk",
+     "value": 520,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP100 | 100% | 1355.6 | 520.0 | - | - | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "naoh",
+     "value": 40,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP100 | 100% | 1355.6 | 520.0 | - | - | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "ss",
+     "value": 245,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP100 | 100% | 1355.6 | 520.0 | - | - | 40.0 | 245.0 | 75.0"
+    },
+    {
+     "material": "water",
+     "value": 75,
+     "unit": "kg/m3",
+     "basis": "per-m3",
+     "text": "Table 3 (Mix proportions of PP-GRM (kg/m3)): Sample | Replacement Rate | PP | MK | RFA | Pre-Wetting Water | Alkali-Activator NaOH | Alkali-Activator Na2SiO3 | Alkali-Activator Distilled Water → PP100 | 100% | 1355.6 | 520.0 | - | - | 40.0 | 245.0 | 75.0"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "hydroxide-molarity",
+     "value": 10,
+     "text": "The NaOH solution had a concentration of 10 mol/L and was prepared 24 h before mixing and allowed to cool to room temperature."
+    }
+   ]
+  }
+ ],
+ "cures": [
+  {
+   "id": "c1",
+   "category": "heat",
+   "temperatureC": 70,
+   "duration": 24,
+   "durationUnit": "h",
+   "sealed": true,
+   "humidityPercent": null,
+   "text": "After casting, the specimens were sealed and cured at 70 °C for 24 h. They were subsequently demoulded and stored under standard curing conditions (20 ± 2 °C, RH ≥ 95%) until an age of 7 days."
+  }
+ ],
+ "tests": [
+  {
+   "id": "fc",
+   "property": "compressive-strength",
+   "unit": "MPa",
+   "specimen": "50 × 50 × 50 mm3 cubes, mean of 3",
+   "method": "JGJ/T 70-2009 (modified)"
+  },
+  {
+   "id": "tb",
+   "property": "bond-strength",
+   "unit": "MPa",
+   "specimen": "40 × 40 × 6 mm plates, epoxy-bonded fixtures",
+   "method": "modified direct-tension test"
+  },
+  {
+   "id": "ret",
+   "property": "strength-retention",
+   "unit": "%",
+   "specimen": "50 mm cubes",
+   "method": "residual / ambient compressive strength"
+  }
+ ],
+ "results": [
+  {
+   "mix": "PP70",
+   "test": "fc",
+   "ageDays": 7,
+   "value": 31.7,
+   "text": "PP70 exhibited the highest compressive strength (31.7 MPa) among the PP-containing mixtures, exceeding that of PP60 (30.1 MPa) by 5.3% and remaining only 1.6% lower than that of PP0 (32.2 MPa).",
+   "ageText": "At 7 days, specimens designated for the ambient reference condition were subjected to the same 50 °C drying treatment as the thermally exposed specimens and tested after cooling.",
+   "condition": "ambient-temperature compressive and tensile bond strengths",
+   "locator": "§3.1 / Figure 3"
+  },
+  {
+   "mix": "PP60",
+   "test": "fc",
+   "ageDays": 7,
+   "value": 30.1,
+   "text": "PP70 exhibited the highest compressive strength (31.7 MPa) among the PP-containing mixtures, exceeding that of PP60 (30.1 MPa) by 5.3% and remaining only 1.6% lower than that of PP0 (32.2 MPa).",
+   "ageText": "At 7 days, specimens designated for the ambient reference condition were subjected to the same 50 °C drying treatment as the thermally exposed specimens and tested after cooling.",
+   "condition": "ambient-temperature compressive and tensile bond strengths",
+   "locator": "§3.1 / Figure 3"
+  },
+  {
+   "mix": "PP0",
+   "test": "fc",
+   "ageDays": 7,
+   "value": 32.2,
+   "text": "PP70 exhibited the highest compressive strength (31.7 MPa) among the PP-containing mixtures, exceeding that of PP60 (30.1 MPa) by 5.3% and remaining only 1.6% lower than that of PP0 (32.2 MPa).",
+   "ageText": "At 7 days, specimens designated for the ambient reference condition were subjected to the same 50 °C drying treatment as the thermally exposed specimens and tested after cooling.",
+   "condition": "ambient-temperature compressive and tensile bond strengths",
+   "locator": "§3.1 / Figure 3"
+  },
+  {
+   "mix": "PP0",
+   "test": "tb",
+   "ageDays": 7,
+   "value": 2.8,
+   "text": "The tensile bond strength decreased from 2.8 MPa for PP0 to 2.5 MPa for both PP60 and PP70.",
+   "ageText": "At 7 days, specimens designated for the ambient reference condition were subjected to the same 50 °C drying treatment as the thermally exposed specimens and tested after cooling.",
+   "condition": "ambient-temperature compressive and tensile bond strengths",
+   "locator": "§3.1 / Figure 3"
+  },
+  {
+   "mix": "PP60",
+   "test": "tb",
+   "ageDays": 7,
+   "value": 2.5,
+   "text": "The tensile bond strength decreased from 2.8 MPa for PP0 to 2.5 MPa for both PP60 and PP70.",
+   "ageText": "At 7 days, specimens designated for the ambient reference condition were subjected to the same 50 °C drying treatment as the thermally exposed specimens and tested after cooling.",
+   "condition": "ambient-temperature compressive and tensile bond strengths",
+   "locator": "§3.1 / Figure 3"
+  },
+  {
+   "mix": "PP70",
+   "test": "tb",
+   "ageDays": 7,
+   "value": 2.5,
+   "text": "The tensile bond strength decreased from 2.8 MPa for PP0 to 2.5 MPa for both PP60 and PP70.",
+   "ageText": "At 7 days, specimens designated for the ambient reference condition were subjected to the same 50 °C drying treatment as the thermally exposed specimens and tested after cooling.",
+   "condition": "ambient-temperature compressive and tensile bond strengths",
+   "locator": "§3.1 / Figure 3"
+  },
+  {
+   "mix": "PP70",
+   "test": "fc",
+   "ageDays": null,
+   "ageNote": "exposed to 800 °C for 3 h at an age of 7 days; specimen age at test not stated",
+   "condition": "After exposure to 800 °C for 3 h",
+   "qualifier": "approximately",
+   "value": 18.8,
+   "text": "After exposure to 800 °C for 3 h, the mean residual compressive strength of PP70 was approximately 18.8 MPa, compared with 17.5 MPa for PP0 and 12.5 MPa for PP100. The corresponding strength-retention ratios were approximately 59.3%, 54.3%, and 48.3%, respectively.",
+   "locator": "§3.2"
+  },
+  {
+   "mix": "PP0",
+   "test": "fc",
+   "ageDays": null,
+   "ageNote": "exposed to 800 °C for 3 h at an age of 7 days; specimen age at test not stated",
+   "condition": "After exposure to 800 °C for 3 h",
+   "qualifier": "approximately",
+   "value": 17.5,
+   "text": "After exposure to 800 °C for 3 h, the mean residual compressive strength of PP70 was approximately 18.8 MPa, compared with 17.5 MPa for PP0 and 12.5 MPa for PP100. The corresponding strength-retention ratios were approximately 59.3%, 54.3%, and 48.3%, respectively.",
+   "locator": "§3.2"
+  },
+  {
+   "mix": "PP100",
+   "test": "fc",
+   "ageDays": null,
+   "ageNote": "exposed to 800 °C for 3 h at an age of 7 days; specimen age at test not stated",
+   "condition": "After exposure to 800 °C for 3 h",
+   "qualifier": "approximately",
+   "value": 12.5,
+   "text": "After exposure to 800 °C for 3 h, the mean residual compressive strength of PP70 was approximately 18.8 MPa, compared with 17.5 MPa for PP0 and 12.5 MPa for PP100. The corresponding strength-retention ratios were approximately 59.3%, 54.3%, and 48.3%, respectively.",
+   "locator": "§3.2"
+  },
+  {
+   "mix": "PP70",
+   "test": "ret",
+   "ageDays": null,
+   "ageNote": "exposed to 800 °C for 3 h at an age of 7 days; specimen age at test not stated",
+   "condition": "After exposure to 800 °C for 3 h",
+   "qualifier": "approximately",
+   "value": 59.3,
+   "text": "After exposure to 800 °C for 3 h, the mean residual compressive strength of PP70 was approximately 18.8 MPa, compared with 17.5 MPa for PP0 and 12.5 MPa for PP100. The corresponding strength-retention ratios were approximately 59.3%, 54.3%, and 48.3%, respectively.",
+   "locator": "§3.2"
+  },
+  {
+   "mix": "PP0",
+   "test": "ret",
+   "ageDays": null,
+   "ageNote": "exposed to 800 °C for 3 h at an age of 7 days; specimen age at test not stated",
+   "condition": "After exposure to 800 °C for 3 h",
+   "qualifier": "approximately",
+   "value": 54.3,
+   "text": "After exposure to 800 °C for 3 h, the mean residual compressive strength of PP70 was approximately 18.8 MPa, compared with 17.5 MPa for PP0 and 12.5 MPa for PP100. The corresponding strength-retention ratios were approximately 59.3%, 54.3%, and 48.3%, respectively.",
+   "locator": "§3.2"
+  },
+  {
+   "mix": "PP100",
+   "test": "ret",
+   "ageDays": null,
+   "ageNote": "exposed to 800 °C for 3 h at an age of 7 days; specimen age at test not stated",
+   "condition": "After exposure to 800 °C for 3 h",
+   "qualifier": "approximately",
+   "value": 48.3,
+   "text": "After exposure to 800 °C for 3 h, the mean residual compressive strength of PP70 was approximately 18.8 MPa, compared with 17.5 MPa for PP0 and 12.5 MPa for PP100. The corresponding strength-retention ratios were approximately 59.3%, 54.3%, and 48.3%, respectively.",
+   "locator": "§3.2"
+  },
+  {
+   "mix": "PP70",
+   "test": "tb",
+   "ageDays": null,
+   "ageNote": "exposed to 800 °C for 3 h at an age of 7 days; specimen age at test not stated",
+   "condition": "Under the most severe condition of 800 °C for 3 h",
+   "qualifier": "approximately",
+   "value": 1.1,
+   "text": "Under the most severe condition of 800 °C for 3 h, PP70 retained approximately 1.1 MPa, while PP90 and PP100 retained only about 0.7 MPa.",
+   "locator": "§3.2"
+  },
+  {
+   "mix": "PP90",
+   "test": "tb",
+   "ageDays": null,
+   "ageNote": "exposed to 800 °C for 3 h at an age of 7 days; specimen age at test not stated",
+   "condition": "Under the most severe condition of 800 °C for 3 h",
+   "qualifier": "approximately",
+   "value": 0.7,
+   "text": "Under the most severe condition of 800 °C for 3 h, PP70 retained approximately 1.1 MPa, while PP90 and PP100 retained only about 0.7 MPa.",
+   "locator": "§3.2"
+  },
+  {
+   "mix": "PP100",
+   "test": "tb",
+   "ageDays": null,
+   "ageNote": "exposed to 800 °C for 3 h at an age of 7 days; specimen age at test not stated",
+   "condition": "Under the most severe condition of 800 °C for 3 h",
+   "qualifier": "approximately",
+   "value": 0.7,
+   "text": "Under the most severe condition of 800 °C for 3 h, PP70 retained approximately 1.1 MPa, while PP90 and PP100 retained only about 0.7 MPa.",
+   "locator": "§3.2"
+  }
+ ],
+ "findings": [
+  {
+   "goal": "Highest compressive strength among pumice-containing mortars",
+   "mix": "PP70",
+   "text": "PP70 exhibited the highest compressive strength (31.7 MPa) among the PP-containing mixtures, exceeding that of PP60 (30.1 MPa) by 5.3% and remaining only 1.6% lower than that of PP0 (32.2 MPa)."
+  }
+ ],
+ "notes": [],
+ "gaps": [
+  "Table quotes follow the standard form; \"PP\" is pumice powder (not polypropylene) and replaces RFA by equal absolute volume. NaOH is the 10 mol/L solution as dosed.",
+  "Ambient values were tested at 7 days after the same 50 °C drying as the heated specimens. Residual values exist for 600–800 °C and 1 or 3 h holds; only those whose sentences name the 800 °C / 3 h condition are transcribed. The PP70 1 h versus 3 h series (30.7→28.2 MPa at 600 °C; 25.0→18.8 MPa at 800 °C; bond 2.4→2.0, 2.2→1.5, 1.9→1.1 MPa) is left in the paper.",
+  "Table 5 carbon intensity is embodied carbon divided by strength; strengths are not back-calculated from it.",
+  "Second review pending; see the batch audit."
+ ]
+}

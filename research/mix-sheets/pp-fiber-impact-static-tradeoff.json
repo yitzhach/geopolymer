@@ -1,0 +1,678 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "pp-fiber-impact-static-tradeoff",
+ "doi": "10.3390/ma19204263",
+ "basis": "source-text",
+ "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13707231/",
+ "accessed": "2026-11-02",
+ "audit": "research/batches/source-text-batch4-2026-11-02.json",
+ "scope": "All six Table 1 mortars (Ctrl and 0.2–1.0 vol% PP fibre) with the shared g/kg batch, the Table 3 split-Hopkinson peak stress of each mortar at four impact pressures, and the control flow. Static strengths are plotted only in Figure 4.",
+ "made": "2026-11-02",
+ "madeBy": "AI transcription · mix-sheet skill v1 (source-text pilot)",
+ "materials": [
+  {
+   "id": "slag",
+   "family": "slag",
+   "role": "precursor",
+   "name": "granulated blast furnace slag",
+   "aliases": [
+    "GBFS",
+    "Slag"
+   ]
+  },
+  {
+   "id": "act",
+   "family": "sodium-silicate-solution",
+   "role": "activator",
+   "name": "Alkali Activator Solution",
+   "detail": "A specific amount of Na2SiO3, NaOH and water was used to prepare the alkali activators, which had a modulus of 1.8 and solid content of 20%."
+  },
+  {
+   "id": "sand",
+   "family": "sand",
+   "role": "aggregate",
+   "name": "River sand",
+   "aliases": [
+    "Sand"
+   ],
+   "detail": "River sand was used as the fine aggregate in this study, with a fineness modulus of 2.36 and an apparent density of 3000 kg/m3."
+  },
+  {
+   "id": "ppf",
+   "family": "pp-fiber",
+   "role": "fiber",
+   "name": "PPFs",
+   "aliases": [
+    "PPF"
+   ],
+   "detail": "PPFs with lengths of 13 mm, diameter of 150 µm and density of 0.91 g/cm3 were used in this research [26]."
+  }
+ ],
+ "mixes": [
+  {
+   "id": "Ctrl",
+   "aliases": [
+    "PPF-0.0%",
+    "PPF-0.0%-1",
+    "PPF-0.0%-2",
+    "PPF-0.0%-3",
+    "PPF-0.0%-4"
+   ],
+   "control": true,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "slag",
+     "value": 322.7,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → Ctrl | 322.7 | 177.3 | 500 | 0.0"
+    },
+    {
+     "material": "act",
+     "value": 177.3,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → Ctrl | 322.7 | 177.3 | 500 | 0.0"
+    },
+    {
+     "material": "sand",
+     "value": 500,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → Ctrl | 322.7 | 177.3 | 500 | 0.0"
+    },
+    {
+     "material": "ppf",
+     "value": 0,
+     "unit": "vol%",
+     "basis": "volume",
+     "basisNote": "PPF volume fraction of the total mixture volume",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → Ctrl | 322.7 | 177.3 | 500 | 0.0"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "basis not stated",
+     "text": "The water-to-binder (w/b) ratio was set at 0.55 for all mortar mixes in this study."
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.8,
+     "text": "A specific amount of Na2SiO3, NaOH and water was used to prepare the alkali activators, which had a modulus of 1.8 and solid content of 20%."
+    }
+   ]
+  },
+  {
+   "id": "PPF-0.2%",
+   "aliases": [
+    "PPF-0.2%-1",
+    "PPF-0.2%-2",
+    "PPF-0.2%-3",
+    "PPF-0.2%-4"
+   ],
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "slag",
+     "value": 322.7,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-0.2% | 322.7 | 177.3 | 500 | 0.2"
+    },
+    {
+     "material": "act",
+     "value": 177.3,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-0.2% | 322.7 | 177.3 | 500 | 0.2"
+    },
+    {
+     "material": "sand",
+     "value": 500,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-0.2% | 322.7 | 177.3 | 500 | 0.2"
+    },
+    {
+     "material": "ppf",
+     "value": 0.2,
+     "unit": "vol%",
+     "basis": "volume",
+     "basisNote": "PPF volume fraction of the total mixture volume",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-0.2% | 322.7 | 177.3 | 500 | 0.2"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "basis not stated",
+     "text": "The water-to-binder (w/b) ratio was set at 0.55 for all mortar mixes in this study."
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.8,
+     "text": "A specific amount of Na2SiO3, NaOH and water was used to prepare the alkali activators, which had a modulus of 1.8 and solid content of 20%."
+    }
+   ]
+  },
+  {
+   "id": "PPF-0.4%",
+   "aliases": [
+    "PPF-0.4%-1",
+    "PPF-0.4%-2",
+    "PPF-0.4%-3",
+    "PPF-0.4%-4"
+   ],
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "slag",
+     "value": 322.7,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-0.4% | 322.7 | 177.3 | 500 | 0.4"
+    },
+    {
+     "material": "act",
+     "value": 177.3,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-0.4% | 322.7 | 177.3 | 500 | 0.4"
+    },
+    {
+     "material": "sand",
+     "value": 500,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-0.4% | 322.7 | 177.3 | 500 | 0.4"
+    },
+    {
+     "material": "ppf",
+     "value": 0.4,
+     "unit": "vol%",
+     "basis": "volume",
+     "basisNote": "PPF volume fraction of the total mixture volume",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-0.4% | 322.7 | 177.3 | 500 | 0.4"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "basis not stated",
+     "text": "The water-to-binder (w/b) ratio was set at 0.55 for all mortar mixes in this study."
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.8,
+     "text": "A specific amount of Na2SiO3, NaOH and water was used to prepare the alkali activators, which had a modulus of 1.8 and solid content of 20%."
+    }
+   ]
+  },
+  {
+   "id": "PPF-0.6%",
+   "aliases": [
+    "PPF-0.6%-1",
+    "PPF-0.6%-2",
+    "PPF-0.6%-3",
+    "PPF-0.6%-4"
+   ],
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "slag",
+     "value": 322.7,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-0.6% | 322.7 | 177.3 | 500 | 0.6"
+    },
+    {
+     "material": "act",
+     "value": 177.3,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-0.6% | 322.7 | 177.3 | 500 | 0.6"
+    },
+    {
+     "material": "sand",
+     "value": 500,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-0.6% | 322.7 | 177.3 | 500 | 0.6"
+    },
+    {
+     "material": "ppf",
+     "value": 0.6,
+     "unit": "vol%",
+     "basis": "volume",
+     "basisNote": "PPF volume fraction of the total mixture volume",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-0.6% | 322.7 | 177.3 | 500 | 0.6"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "basis not stated",
+     "text": "The water-to-binder (w/b) ratio was set at 0.55 for all mortar mixes in this study."
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.8,
+     "text": "A specific amount of Na2SiO3, NaOH and water was used to prepare the alkali activators, which had a modulus of 1.8 and solid content of 20%."
+    }
+   ]
+  },
+  {
+   "id": "PPF-0.8%",
+   "aliases": [
+    "PPF-0.8%-1",
+    "PPF-0.8%-2",
+    "PPF-0.8%-3",
+    "PPF-0.8%-4"
+   ],
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "slag",
+     "value": 322.7,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-0.8% | 322.7 | 177.3 | 500 | 0.8"
+    },
+    {
+     "material": "act",
+     "value": 177.3,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-0.8% | 322.7 | 177.3 | 500 | 0.8"
+    },
+    {
+     "material": "sand",
+     "value": 500,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-0.8% | 322.7 | 177.3 | 500 | 0.8"
+    },
+    {
+     "material": "ppf",
+     "value": 0.8,
+     "unit": "vol%",
+     "basis": "volume",
+     "basisNote": "PPF volume fraction of the total mixture volume",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-0.8% | 322.7 | 177.3 | 500 | 0.8"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "basis not stated",
+     "text": "The water-to-binder (w/b) ratio was set at 0.55 for all mortar mixes in this study."
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.8,
+     "text": "A specific amount of Na2SiO3, NaOH and water was used to prepare the alkali activators, which had a modulus of 1.8 and solid content of 20%."
+    }
+   ]
+  },
+  {
+   "id": "PPF-1.0%",
+   "aliases": [
+    "PPF-1.0%-1",
+    "PPF-1.0%-2",
+    "PPF-1.0%-3",
+    "PPF-1.0%-4"
+   ],
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "slag",
+     "value": 322.7,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-1.0% | 322.7 | 177.3 | 500 | 1.0"
+    },
+    {
+     "material": "act",
+     "value": 177.3,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-1.0% | 322.7 | 177.3 | 500 | 1.0"
+    },
+    {
+     "material": "sand",
+     "value": 500,
+     "unit": "part",
+     "basis": "mass-parts",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-1.0% | 322.7 | 177.3 | 500 | 1.0"
+    },
+    {
+     "material": "ppf",
+     "value": 1,
+     "unit": "vol%",
+     "basis": "volume",
+     "basisNote": "PPF volume fraction of the total mixture volume",
+     "text": "Table 1 (Mix proportions of mortars (g/kg)): Groups | Slag | Alkali Activator Solution | Sand | PPF Vpf (%) → PPF-1.0% | 322.7 | 177.3 | 500 | 1.0"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "water/binder",
+     "value": 0.55,
+     "basisNote": "basis not stated",
+     "text": "The water-to-binder (w/b) ratio was set at 0.55 for all mortar mixes in this study."
+    },
+    {
+     "key": "activator-modulus",
+     "value": 1.8,
+     "text": "A specific amount of Na2SiO3, NaOH and water was used to prepare the alkali activators, which had a modulus of 1.8 and solid content of 20%."
+    }
+   ]
+  }
+ ],
+ "cures": [
+  {
+   "id": "c1",
+   "category": "moist",
+   "temperatureC": 20,
+   "duration": 24,
+   "durationUnit": "h",
+   "sealed": true,
+   "humidityPercent": null,
+   "text": "Subsequently, the mortar, sealed in the molds, is placed in a curing room with a humidity level of no less than 95% and a temperature of (20 ± 2) °C for 24 h. For specimens with uneven surfaces, it is necessary to use a grinding machine for surface treatment before placing the specimens back in the curing room for continued curing."
+  }
+ ],
+ "tests": [
+  {
+   "id": "dyn",
+   "property": "other",
+   "propertyNote": "Dynamic peak stress (split Hopkinson pressure bar) at the stated impact air pressure",
+   "unit": "MPa",
+   "specimen": "cylinders 74 mm diameter × 37 mm",
+   "method": "SHPB"
+  },
+  {
+   "id": "flow",
+   "property": "flow",
+   "unit": "mm",
+   "specimen": "fresh mortar",
+   "method": "GB/T 2419-2024"
+  }
+ ],
+ "results": [
+  {
+   "mix": "Ctrl",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.0%-1 | 0.35",
+   "value": 26.14,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.0%-1 | 0.35 | 26.14",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "Ctrl",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.0%-2 | 0.45",
+   "value": 29.13,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.0%-2 | 0.45 | 29.13",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "Ctrl",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.0%-3 | 0.55",
+   "value": 33.66,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.0%-3 | 0.55 | 33.66",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "Ctrl",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.0%-4 | 0.65",
+   "value": 37.53,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.0%-4 | 0.65 | 37.53",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-0.2%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.2%-1 | 0.35",
+   "value": 28.2,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.2%-1 | 0.35 | 28.20",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-0.2%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.2%-2 | 0.45",
+   "value": 32.64,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.2%-2 | 0.45 | 32.64",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-0.2%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.2%-3 | 0.55",
+   "value": 38.37,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.2%-3 | 0.55 | 38.37",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-0.2%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.2%-4 | 0.65",
+   "value": 43.85,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.2%-4 | 0.65 | 43.85",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-0.4%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.4%-1 | 0.35",
+   "value": 31.99,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.4%-1 | 0.35 | 31.99",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-0.4%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.4%-2 | 0.45",
+   "value": 38.01,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.4%-2 | 0.45 | 38.01",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-0.4%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.4%-3 | 0.55",
+   "value": 40.11,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.4%-3 | 0.55 | 40.11",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-0.4%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.4%-4 | 0.65",
+   "value": 47.56,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.4%-4 | 0.65 | 47.56",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-0.6%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.6%-1 | 0.35",
+   "value": 38.51,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.6%-1 | 0.35 | 38.51",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-0.6%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.6%-2 | 0.45",
+   "value": 43.85,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.6%-2 | 0.45 | 43.85",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-0.6%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.6%-3 | 0.55",
+   "value": 48.67,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.6%-3 | 0.55 | 48.67",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-0.6%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.6%-4 | 0.65",
+   "value": 52.16,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.6%-4 | 0.65 | 52.16",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-0.8%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.8%-1 | 0.35",
+   "value": 43.97,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.8%-1 | 0.35 | 43.97",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-0.8%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.8%-2 | 0.45",
+   "value": 47.16,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.8%-2 | 0.45 | 47.16",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-0.8%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.8%-3 | 0.55",
+   "value": 52.46,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.8%-3 | 0.55 | 52.46",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-0.8%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-0.8%-4 | 0.65",
+   "value": 56.8,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-0.8%-4 | 0.65 | 56.80",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-1.0%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-1.0%-1 | 0.35",
+   "value": 49.19,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-1.0%-1 | 0.35 | 49.19",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-1.0%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-1.0%-2 | 0.45",
+   "value": 56.29,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-1.0%-2 | 0.45 | 56.29",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-1.0%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-1.0%-3 | 0.55",
+   "value": 60.65,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-1.0%-3 | 0.55 | 60.65",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "PPF-1.0%",
+   "test": "dyn",
+   "ageDays": null,
+   "ageNote": "test age not stated (mechanical tests at 3, 7 and 28 days)",
+   "condition": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) → PPF-1.0%-4 | 0.65",
+   "value": 64.15,
+   "text": "Table 3 (Mechanical properties of geopolymer mortar): Sample | Impact Air Pressure (MPa) | Peak Stress/MPa → PPF-1.0%-4 | 0.65 | 64.15",
+   "locator": "Table 3"
+  },
+  {
+   "mix": "Ctrl",
+   "test": "flow",
+   "ageDays": null,
+   "ageNote": "fresh test",
+   "value": 253,
+   "text": "The flowability of the plain mortar (Ctrl) is measured at 253 mm.",
+   "locator": "§3 / Figure 3"
+  }
+ ],
+ "findings": [],
+ "notes": [],
+ "gaps": [
+  "Table 1 is in g/kg of mortar (recorded as mass parts); the activator is one solution (modulus 1.8, 20% solids) made from Na2SiO3, NaOH and water. Fibre is dosed by volume of the total mixture.",
+  "Table 3 names specimens \"PPF-0.0%-1 … PPF-1.0%-4\"; the 0.0% series is the Ctrl mix and the suffix is the impact-pressure index (0.35, 0.45, 0.55, 0.65 MPa), quoted as each result's condition. Strain rate, toughness, peak strain and DIF are not transcribed.",
+  "Static compressive strength at 3, 7 and 28 days is only in Figure 4; flow values other than Ctrl are stated by fibre content without the group label (0.2%: 248 mm; 1.0%: 224 mm).",
+  "Second review pending; see the batch audit."
+ ]
+}

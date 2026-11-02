@@ -1,0 +1,386 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "cao-onepart-negative-control",
+ "doi": "10.3390/molecules31173132",
+ "basis": "source-text",
+ "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13567060/",
+ "accessed": "2026-11-02",
+ "audit": "research/batches/source-text-batch4-2026-11-02.json",
+ "scope": "All five Table 2 one-part pastes (0–10 g CaO replacing cementitious material in a 100 g batch) with exact masses and liquid/solid ratios, and the compressive strengths stated in the text for GEO-1, GEO-3, GEO-4 and GEO-5.",
+ "made": "2026-11-02",
+ "madeBy": "AI transcription · mix-sheet skill v1 (source-text pilot)",
+ "materials": [
+  {
+   "id": "sa",
+   "family": "sodium-silicate-solid",
+   "role": "activator",
+   "name": "solid alkali activator",
+   "aliases": [
+    "Solid Activator"
+   ],
+   "detail": "Sodium hydroxide and quartz powder were uniformly mixed in a mass ratio of 1:1, ground in a planetary ball mill (YXQM-2L, MITR, Changsha, China) at 500 rpm for 10 min, and then transferred to a muffle furnace (KSL-1200X, Kejing, Hefei, China) for calcination at 650 °C for 4 h."
+  },
+  {
+   "id": "mk",
+   "family": "metakaolin",
+   "role": "precursor",
+   "name": "Metakaolin",
+   "detail": "The metakaolin was obtained by calcining kaolin at 700 °C for 12 h in a muffle furnace."
+  },
+  {
+   "id": "sf",
+   "family": "silica-fume",
+   "role": "precursor",
+   "name": "Silica Fume"
+  },
+  {
+   "id": "cao",
+   "family": "calcium-hydroxide",
+   "role": "additive",
+   "name": "CaO",
+   "aliases": [
+    "calcium oxide"
+   ],
+   "detail": "calcium oxide (≥97% purity)"
+  }
+ ],
+ "mixes": [
+  {
+   "id": "GEO-1",
+   "control": true,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "sa",
+     "value": 20,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-1 | 20.00 | 51.59 | 28.41 | 0.00 | 0.400"
+    },
+    {
+     "material": "mk",
+     "value": 51.59,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-1 | 20.00 | 51.59 | 28.41 | 0.00 | 0.400"
+    },
+    {
+     "material": "sf",
+     "value": 28.41,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-1 | 20.00 | 51.59 | 28.41 | 0.00 | 0.400"
+    },
+    {
+     "material": "cao",
+     "value": 0,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-1 | 20.00 | 51.59 | 28.41 | 0.00 | 0.400"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "liquid/solid",
+     "value": 0.4,
+     "basisNote": "deionized water to total solids, as printed",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-1 | 20.00 | 51.59 | 28.41 | 0.00 | 0.400"
+    }
+   ]
+  },
+  {
+   "id": "GEO-2",
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "sa",
+     "value": 19.5,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-2 | 19.50 | 50.30 | 27.70 | 2.50 | 0.425"
+    },
+    {
+     "material": "mk",
+     "value": 50.3,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-2 | 19.50 | 50.30 | 27.70 | 2.50 | 0.425"
+    },
+    {
+     "material": "sf",
+     "value": 27.7,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-2 | 19.50 | 50.30 | 27.70 | 2.50 | 0.425"
+    },
+    {
+     "material": "cao",
+     "value": 2.5,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-2 | 19.50 | 50.30 | 27.70 | 2.50 | 0.425"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "liquid/solid",
+     "value": 0.425,
+     "basisNote": "deionized water to total solids, as printed",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-2 | 19.50 | 50.30 | 27.70 | 2.50 | 0.425"
+    }
+   ]
+  },
+  {
+   "id": "GEO-3",
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "sa",
+     "value": 19,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-3 | 19.00 | 49.01 | 26.99 | 5.00 | 0.450"
+    },
+    {
+     "material": "mk",
+     "value": 49.01,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-3 | 19.00 | 49.01 | 26.99 | 5.00 | 0.450"
+    },
+    {
+     "material": "sf",
+     "value": 26.99,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-3 | 19.00 | 49.01 | 26.99 | 5.00 | 0.450"
+    },
+    {
+     "material": "cao",
+     "value": 5,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-3 | 19.00 | 49.01 | 26.99 | 5.00 | 0.450"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "liquid/solid",
+     "value": 0.45,
+     "basisNote": "deionized water to total solids, as printed",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-3 | 19.00 | 49.01 | 26.99 | 5.00 | 0.450"
+    }
+   ]
+  },
+  {
+   "id": "GEO-4",
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "sa",
+     "value": 18.5,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-4 | 18.50 | 47.72 | 26.28 | 7.50 | 0.475"
+    },
+    {
+     "material": "mk",
+     "value": 47.72,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-4 | 18.50 | 47.72 | 26.28 | 7.50 | 0.475"
+    },
+    {
+     "material": "sf",
+     "value": 26.28,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-4 | 18.50 | 47.72 | 26.28 | 7.50 | 0.475"
+    },
+    {
+     "material": "cao",
+     "value": 7.5,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-4 | 18.50 | 47.72 | 26.28 | 7.50 | 0.475"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "liquid/solid",
+     "value": 0.475,
+     "basisNote": "deionized water to total solids, as printed",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-4 | 18.50 | 47.72 | 26.28 | 7.50 | 0.475"
+    }
+   ]
+  },
+  {
+   "id": "GEO-5",
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "sa",
+     "value": 18,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-5 | 18.00 | 46.43 | 25.57 | 10.00 | 0.500"
+    },
+    {
+     "material": "mk",
+     "value": 46.43,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-5 | 18.00 | 46.43 | 25.57 | 10.00 | 0.500"
+    },
+    {
+     "material": "sf",
+     "value": 25.57,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-5 | 18.00 | 46.43 | 25.57 | 10.00 | 0.500"
+    },
+    {
+     "material": "cao",
+     "value": 10,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-5 | 18.00 | 46.43 | 25.57 | 10.00 | 0.500"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "liquid/solid",
+     "value": 0.5,
+     "basisNote": "deionized water to total solids, as printed",
+     "text": "Table 2 (Mixture formulations for geopolymer preparation): Sample | Solid Activator/g | Metakaolin/g | Silica Fume/g | CaO/g | Liquid/Solid Ratio → GEO-5 | 18.00 | 46.43 | 25.57 | 10.00 | 0.500"
+    }
+   ]
+  }
+ ],
+ "cures": [
+  {
+   "id": "c1",
+   "category": "ambient",
+   "temperatureC": null,
+   "duration": 24,
+   "durationUnit": "h",
+   "sealed": true,
+   "humidityPercent": null,
+   "text": "The samples were demolded after sealed curing for 24 h at room temperature and continued to be cured under the same conditions until the ages of 3, 7 and 28 d for mechanical property tests and microstructural characterizations, respectively."
+  }
+ ],
+ "tests": [
+  {
+   "id": "fc",
+   "property": "compressive-strength",
+   "unit": "MPa",
+   "specimen": "40 mm × 40 mm × 40 mm cubes",
+   "method": "CSS-55500 universal testing machine"
+  }
+ ],
+ "results": [
+  {
+   "mix": "GEO-1",
+   "test": "fc",
+   "ageDays": 3,
+   "value": 34,
+   "text": "The CaO-free sample (GEO-1) achieved the highest compressive strengths of approximately 34, 45, and 56 MPa at 3, 7, and 28 days, respectively.",
+   "locator": "§2.1 / Figure 1",
+   "qualifier": "approximately"
+  },
+  {
+   "mix": "GEO-1",
+   "test": "fc",
+   "ageDays": 7,
+   "value": 45,
+   "text": "The CaO-free sample (GEO-1) achieved the highest compressive strengths of approximately 34, 45, and 56 MPa at 3, 7, and 28 days, respectively.",
+   "locator": "§2.1 / Figure 1",
+   "qualifier": "approximately"
+  },
+  {
+   "mix": "GEO-1",
+   "test": "fc",
+   "ageDays": 28,
+   "value": 56,
+   "text": "The CaO-free sample (GEO-1) achieved the highest compressive strengths of approximately 34, 45, and 56 MPa at 3, 7, and 28 days, respectively.",
+   "locator": "§2.1 / Figure 1",
+   "qualifier": "approximately"
+  },
+  {
+   "mix": "GEO-3",
+   "test": "fc",
+   "ageDays": 3,
+   "value": 8,
+   "text": "When the CaO dosage reached 5% (GEO-3), the strength reached its minimum at all curing ages, falling to approximately 8, 13, and 17 MPa.",
+   "locator": "§2.1 / Figure 1",
+   "qualifier": "approximately",
+   "ageText": "Figure 1 depicts the evolution of compressive strength for metakaolin-based one-part geopolymers with varying CaO dosages after curing for 3, 7 and 28 d."
+  },
+  {
+   "mix": "GEO-3",
+   "test": "fc",
+   "ageDays": 7,
+   "value": 13,
+   "text": "When the CaO dosage reached 5% (GEO-3), the strength reached its minimum at all curing ages, falling to approximately 8, 13, and 17 MPa.",
+   "locator": "§2.1 / Figure 1",
+   "qualifier": "approximately",
+   "ageText": "Figure 1 depicts the evolution of compressive strength for metakaolin-based one-part geopolymers with varying CaO dosages after curing for 3, 7 and 28 d."
+  },
+  {
+   "mix": "GEO-3",
+   "test": "fc",
+   "ageDays": 28,
+   "value": 17,
+   "text": "When the CaO dosage reached 5% (GEO-3), the strength reached its minimum at all curing ages, falling to approximately 8, 13, and 17 MPa.",
+   "locator": "§2.1 / Figure 1",
+   "qualifier": "approximately",
+   "ageText": "Figure 1 depicts the evolution of compressive strength for metakaolin-based one-part geopolymers with varying CaO dosages after curing for 3, 7 and 28 d."
+  },
+  {
+   "mix": "GEO-4",
+   "test": "fc",
+   "ageDays": 28,
+   "value": 31.3,
+   "text": "A noticeable strength increase was observed when the CaO dosage was further elevated to 7.5% (GEO-4), with its 28 d compressive strength rebounding to 31.3 MPa.",
+   "locator": "§2.1 / Figure 1"
+  },
+  {
+   "mix": "GEO-5",
+   "test": "fc",
+   "ageDays": 28,
+   "value": 23.2,
+   "text": "As the CaO dosage reached 10% (GEO-5), the compressive strength exhibited a minor secondary decrease to 23.2 MPa.",
+   "locator": "§2.1 / Figure 1",
+   "ageText": "A noticeable strength increase was observed when the CaO dosage was further elevated to 7.5% (GEO-4), with its 28 d compressive strength rebounding to 31.3 MPa."
+  }
+ ],
+ "findings": [
+  {
+   "goal": "Highest compressive strength",
+   "mix": "GEO-1",
+   "text": "The CaO-free sample (GEO-1) achieved the highest compressive strengths of approximately 34, 45, and 56 MPa at 3, 7, and 28 days, respectively."
+  }
+ ],
+ "notes": [
+  {
+   "mix": "GEO-3",
+   "kind": "failure",
+   "text": "When the CaO dosage reached 5% (GEO-3), the strength reached its minimum at all curing ages, falling to approximately 8, 13, and 17 MPa."
+  }
+ ],
+ "gaps": [
+  "Table quotes follow the standard form. CaO replaces the cementitious materials by equal mass in a fixed 100 g batch; water (as liquid/solid) rises with CaO.",
+  "Source conflict kept visible: §4 says every CaO sample had 28-day strength below 25 MPa, but §2.1 gives GEO-4 31.3 MPa. GEO-1 28-day strength is \"approximately 56 MPa\" in §2.1 (recorded) and 56.6 MPa in §4 and the abstract. GEO-5's sentence directly follows the GEO-4 28-day sentence and gives no age of its own; 28 d is read from that sequence.",
+  "GEO-2 strengths, and all other ages for GEO-4/GEO-5, are only in Figure 1. Nitrogen-adsorption data (Table 1) are not mix-table properties.",
+  "Second review pending; see the batch audit."
+ ]
+}
