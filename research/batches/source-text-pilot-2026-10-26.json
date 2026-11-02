@@ -165,5 +165,22 @@
     "Review-note 'no label' skips are often fully labelled in the paper: 5/5 papers gave mix IDs, 2/5 gave complete batch ledgers with numeric results.",
     "Papers reporting results only in figures yield designs without numbers; figure reading stays out of scope.",
     "Source contradictions (row counts, ratio labels, table numbering) were kept in gaps, never repaired."
-  ]
+  ],
+  "toolingValidation": {
+    "date": "2026-11-02",
+    "purpose": "Re-read the five pilot papers with the new repository tooling (npm run mixes -- source/tables/quote/ground) and regenerate the sheets from committed generators.",
+    "operations": [
+      "Red-mud paper: Europe PMC search + PMC article page twice (first parse failed on script contents; fixed in the parser) = 4 operations.",
+      "Lithium, foam, carbonated and air-cooled papers: Europe PMC search + PMC article page each = 8 operations; the carbonated and air-cooled pages were browser-challenge pages (reCAPTCHA). Not retried; the tooling now refuses challenge pages.",
+      "One Europe PMC fullTextXML request (carbonated paper) to test the API route.",
+      "All five papers: Europe PMC search + fullTextXML via `source` = 10 operations."
+    ],
+    "failedAccess": [
+      {
+        "host": "pmc.ncbi.nlm.nih.gov",
+        "result": "browser challenge after rapid page requests; not retried; route moved to the Europe PMC full-text API"
+      }
+    ],
+    "result": "All five sheets regenerated with identical values (only table-quote text changed to the standard form); `ground` reports 0 of 835 quotes not grounded."
+  }
 }

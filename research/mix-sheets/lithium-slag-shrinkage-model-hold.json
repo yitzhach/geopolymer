@@ -4,7 +4,7 @@
  "doi": "10.3390/ma18204766",
  "basis": "source-text",
  "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12566302/",
- "accessed": "2026-10-26",
+ "accessed": "2026-11-02",
  "audit": "research/batches/source-text-pilot-2026-10-26.json",
  "scope": "All twelve rows of Table 2 (grams per three-prism batch) with the study-wide activator design, and the four 90-day shrinkage strains stated in the text. Curves in Figure 8 and the fitted model are not transcribed.",
  "made": "2026-10-26",
@@ -71,6 +71,9 @@
  "mixes": [
   {
    "id": "RG/L-1.5",
+   "aliases": [
+    "RG/L = 1.5"
+   ],
    "control": false,
    "form": "mortar",
    "cure": "c1",
@@ -128,9 +131,6 @@
      "value": 1.2,
      "text": "The alkali equivalent and modulus of the alkali activator in this experiment were 5% and 1.2, respectively."
     }
-   ],
-   "aliases": [
-    "RG/L = 1.5"
    ]
   },
   {
@@ -257,6 +257,9 @@
   },
   {
    "id": "RG/L-3",
+   "aliases": [
+    "RG/L = 3"
+   ],
    "control": false,
    "form": "mortar",
    "cure": "c1",
@@ -314,13 +317,13 @@
      "value": 1.2,
      "text": "The alkali equivalent and modulus of the alkali activator in this experiment were 5% and 1.2, respectively."
     }
-   ],
-   "aliases": [
-    "RG/L = 3"
    ]
   },
   {
    "id": "RB/S-0.21",
+   "aliases": [
+    "RB/S = 0.21"
+   ],
    "control": false,
    "form": "mortar",
    "cure": "c1",
@@ -378,9 +381,6 @@
      "value": 1.2,
      "text": "The alkali equivalent and modulus of the alkali activator in this experiment were 5% and 1.2, respectively."
     }
-   ],
-   "aliases": [
-    "RB/S = 0.21"
    ]
   },
   {
@@ -507,6 +507,9 @@
   },
   {
    "id": "RB/S-0.39",
+   "aliases": [
+    "RB/S = 0.39"
+   ],
    "control": false,
    "form": "mortar",
    "cure": "c1",
@@ -564,9 +567,6 @@
      "value": 1.2,
      "text": "The alkali equivalent and modulus of the alkali activator in this experiment were 5% and 1.2, respectively."
     }
-   ],
-   "aliases": [
-    "RB/S = 0.39"
    ]
   },
   {
@@ -881,12 +881,12 @@
   }
  ],
  "gaps": [
-  "Table quotes are mechanical joins of caption, header cells and row cells (format: 'Table N (caption): header → row').",
+  "Table quotes follow the standard form (Table N (caption): header → row).",
   "Source inconsistencies kept visible: the text says ten groups but Table 2 lists twelve rows; RG/L-2.5, RB/S-0.33 and RW/B-0.37 have identical masses; the RB/S labels (0.21–0.39) equal sand/binder in Table 2 (e.g. 495/1500 = 0.33), not binder/sand; the RW/B labels equal Table 2 water/(GBFS+LS) (405/1500 = 0.27 … 855/1500 = 0.57), so they exclude the activator solution's water; the text says 'The ratios in Table 3 represent the materials required to make 3 samples' but means Table 2.",
   "Batch basis: the text says the ratios 'in Table 3 represent the materials required to make 3 samples'; Table 3 is the model table, so reading Table 2 as a three-prism batch is inferred.",
   "The activator mass per batch is not tabulated, so water accounting and total liquid are unresolved (the existing correction hold on this guide stays).",
   "The text's water/binder comparison (36.7%) names no mix value and is contradictory (reduction and increase in the same paragraph); not transcribed.",
   "Shrinkage was measured on specimens kept in the 98% RH chamber, so it is recorded as 'other' rather than drying shrinkage.",
-  "Every value awaits the second-reviewer check recorded in the batch audit before release."
+  "Second review (26 Oct 2026): 0 value errors; see the batch audit."
  ]
 }

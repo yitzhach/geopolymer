@@ -4,9 +4,18 @@
 //   check [files…]         validate sheets (default: all); --audit prints value/text pairs for the attribution check
 //   queue [--next N]       list the next queue entries that have no sheet yet
 //   stats                  table counts after compilation
+// Source-text mode (MIX_SHEET_STANDARD.md, "Source-text procedure"); papers stay outside the repository:
+//   source <guideId> [--dir d] [--refresh]   find the open-access copy (Europe PMC full-text XML) and save it parsed to d (default: OS temp)
+//   tables <guideId> [N] [--dir d]      print the saved paper's tables (all, or Table N) with row indexes
+//   quote <guideId> <N> <row> [--cols 0,2,3] [--dir d]   print the standard quote for one table row
+//   ground <guideId> [--dir d]          check every quote of a source-text sheet against the saved paper
 import {writeFile,access,readFile} from 'node:fs/promises';
 import {SHEET_DIR,guideContext,sheetFiles,readSheet,checkSheet,coveredDois,buildMixTable} from './lib/mix-sheets.mjs';
 import {SHEET_FORMAT,SHEET_TOOL} from '../src/mix-table.js';
+import {fetchOpenSource,parseArticle,isChallenge,findTable,tableQuote,groundSheet} from './lib/source-text.mjs';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+import {spawnSync} from 'node:child_process';
 
 const [command,...args]=process.argv.slice(2);
 const flag=name=>{const i=args.indexOf(name);return i<0?null:args[i+1]??true;};
@@ -64,11 +73,68 @@ else if(command==='queue'){
  console.log(`${done.size} sheet(s) done · ${open.length} open in queue "${queue.name}"\n`);
  for(const e of open.slice(0,n))console.log(`${e.guideId}  (${e.doi})  ${e.why||''}`);
 }
+else if(['source','tables','quote','ground'].includes(command)){
+ const dir=flag('--dir')&&flag('--dir')!==true?flag('--dir'):join(tmpdir(),'geopolymer-sources');
+ const ctx=guideContext(args[0]);
+ if(!ctx)fail(`Unknown guide "${args[0]}".`);
+ const file=join(dir,`${ctx.guide.id}.source.json`);
+ const load=async()=>JSON.parse(await readFile(file,'utf8').catch(()=>fail(`No saved paper at ${file}. Run: npm run mixes -- source ${ctx.guide.id}`)));
+ if(command==='source'){
+  // Node's fetch ignores HTTPS_PROXY unless NODE_USE_ENV_PROXY is set at start-up; re-run once with it.
+  if((process.env.HTTPS_PROXY||process.env.https_proxy)&&!process.env.NODE_USE_ENV_PROXY){
+   const r=spawnSync(process.execPath,['--no-warnings',...process.argv.slice(1)],{stdio:'inherit',env:{...process.env,NODE_USE_ENV_PROXY:'1'}});
+   process.exit(r.status??1);
+  }
+  const {mkdir}=await import('node:fs/promises');
+  const htmlFile=file.replace(/\.source\.json$/,'.xml');
+  // A saved page is re-parsed without a new download unless --refresh is given (downloads count toward the batch bound).
+  if(!flag('--refresh')&&await access(htmlFile).then(()=>true,()=>false)){
+   const old=await load(),raw=await readFile(htmlFile,'utf8');
+   if(isChallenge(raw))fail('The saved page is a browser challenge, not the paper. Delete it and use: source <guideId> --refresh (Europe PMC API).');
+   const src=parseArticle(raw);
+   await writeFile(file,JSON.stringify({meta:old.meta,...src}));
+   console.log(`Re-parsed ${htmlFile} (no download).`);
+   for(const t of src.tables.filter(t=>t.number))console.log(`  Table ${t.number}: ${t.caption} — ${t.rows.length} row(s)${t.spans.length?`, ${t.spans.length} spanning cell(s)`:''}`);
+   process.exit(0);
+  }
+  const r=await fetchOpenSource(ctx.guide.doi);
+  for(const l of r.log)console.log(`operation: ${l.action} ${l.url} → ${l.status}`);
+  if(r.error)fail(`Not read: ${r.error}. Record this as failed access/deferral in the batch audit.`);
+  await mkdir(dir,{recursive:true});
+  await writeFile(htmlFile,r.html);
+  await writeFile(file,JSON.stringify({meta:r.meta,...r.source}));
+  console.log(`${r.meta.pmcid} · ${r.meta.license} · ${r.meta.title}\nSaved ${file} (keep it out of the repository; delete after review).`);
+  for(const t of r.source.tables.filter(t=>t.number))console.log(`  Table ${t.number}: ${t.caption} — ${t.rows.length} row(s)${t.spans.length?`, ${t.spans.length} spanning cell(s)`:''}`);
+ }
+ else if(command==='tables'){
+  const src=await load();
+  for(const t of src.tables.filter(t=>t.number&&(!args[1]||args[1].startsWith('--')||String(t.number)===args[1]))){
+   console.log(`\nTable ${t.number}: ${t.caption}`);
+   for(const h of t.header)console.log(`   head | ${h.join(' | ')}`);
+   t.rows.forEach((r,i)=>console.log(`${String(i).padStart(7)} | ${r.join(' | ')}`));
+   for(const s of t.spans)console.log(`   span: "${s.text}" covers ${s.rowspan} row(s) × ${s.colspan} column(s) from row ${s.row}, column ${s.col}`);
+  }
+ }
+ else if(command==='quote'){
+  const src=await load(),t=findTable(src,args[1]);
+  if(!t)fail(`No Table ${args[1]}.`);
+  const cols=flag('--cols')&&flag('--cols')!==true?String(flag('--cols')).split(',').map(Number):undefined;
+  console.log(tableQuote(t,Number(args[2]),{cols}));
+ }
+ else{
+  const src=await load(),{sheet,error}=await readSheet(`${SHEET_DIR}/${ctx.guide.id}.json`);
+  if(error)fail(error);
+  const {count,problems}=groundSheet(sheet,src);
+  for(const p of problems)console.log('   NOT GROUNDED '+p);
+  console.log(`${problems.length?'✗':'✓'} ${count} quote(s) checked against ${src.meta.pmcid}; ${problems.length} not grounded.`);
+  process.exit(problems.length?1:0);
+ }
+}
 else if(command==='stats'){
  const table=await buildMixTable();
  console.log(JSON.stringify(table.counts,null,1));
 }
 else{
- console.log(await readFile(new URL(import.meta.url),'utf8').then(s=>s.split('\n').slice(0,7).join('\n')));
+ console.log(await readFile(new URL(import.meta.url),'utf8').then(s=>s.split('\n').slice(0,13).join('\n')));
  process.exit(command?1:0);
 }

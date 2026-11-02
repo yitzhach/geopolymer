@@ -99,29 +99,35 @@ Closed vocabularies live in `src/mix-table.js`: `FAMILIES` (material family → 
 Proven on five skipped fly-ash/slag guides; record in
 `research/batches/source-text-pilot-2026-10-26.json`.
 
-1. **Route.** Look up the DOI in the Europe PMC REST search (`www.ebi.ac.uk/europepmc/webservices/rest/search`,
-   one query for the whole batch) to get the PMC id, open-access flag and licence. Read the paper
-   from `pmc.ncbi.nlm.nih.gov/articles/<PMCID>/`. Publisher pages that refuse automated access
-   (MDPI answers "Access Denied" from its CDN) are not retried or worked around; a paper with no
-   open PMC copy is recorded as access failed and deferred.
-2. **Rights.** Only open-access papers whose licence permits quotation (CC BY in the pilot). The
-   downloaded page and its text extraction stay in the session scratch folder and are deleted at
-   the end; the repository keeps only the short quotes that carry each value.
+1. **Route.** `npm run mixes -- source <guideId>` looks up the guide's DOI in the Europe PMC
+   REST search and, for an open-access CC BY copy, downloads the full text as JATS XML from the
+   Europe PMC API (two logged operations). It saves the paper outside the repository (OS temp
+   folder, `geopolymer-sources/`) and lists its tables. Re-running it re-parses the saved copy
+   without a download; `--refresh` downloads again. The PMC and publisher websites are not
+   scraped: PMC answered rapid page requests with a browser challenge and MDPI's CDN answers
+   "Access Denied". A challenge, a closed paper or a missing full text stops the command; record
+   it as failed access and defer the paper. Never retry or work around it.
+2. **Rights.** Only open-access papers under a CC BY licence (checked by `source`). The saved
+   paper stays outside the repository and is deleted after review; the repository keeps only the
+   short quotes that carry each value.
 3. **Bound.** Every paper opened counts toward the five-paper batch, including one later
-   judged to have no usable numbers; do not swap in a sixth paper.
-4. **Quotes.** Prose: an exact fragment of the paper. Tables: a mechanical join of the table's
-   number, caption, header cells and the row's cells, in the form
-   `Table N (caption): header | header → cell | cell`. A cell that spans several rows or columns
-   in the source is quoted once and marked (`column spanning all ten rows`, `one cell spanning
-   G-0, G-1 and G-2`). In a design matrix whose labels sit under column headers, the quote joins
-   the row cells with that column's header and a gap explains the reading.
-5. **No hand typing.** Generate the sheet from the extracted table cells with a script so values
-   are copied, not retyped. Values read off figures are never entered; text ranges without a mix
-   label stay in `gaps`.
-6. **Grounding check.** Before review, confirm every prose quote occurs verbatim in the
-   extraction and every table-quote cell is a real table cell.
+   judged to have no usable numbers; do not swap in a sixth paper. Each `source` download is two
+   operations of the batch's forty.
+4. **Quotes.** Prose: an exact fragment of the paper. Tables: built by `npm run mixes -- quote
+   <guideId> <table> <row> [--cols …]` (or `tableQuote` in a generator) in the form
+   `Table N (caption): header | header → cell | cell`. Stacked header rows are joined per column
+   (`MCA-ACBFS Water/Binder 0.45`); cells spanning several rows or columns are named in a trailing
+   `[spanning cells: …]`; where mixes are columns, the quote joins the label row and the design
+   row with ` ; `. `npm run mixes -- tables <guideId>` prints every table with row indexes.
+5. **No hand typing.** Write a generator in `research/mix-sheets/generators/<guideId>.mjs` (see
+   its README) that reads table cells, checks the headers and labels it relies on, and writes the
+   sheet. Values read off figures are never entered; text ranges without a mix label stay in
+   `gaps`.
+6. **Grounding check.** `npm run mixes -- ground <guideId>`: every prose quote must occur in the
+   paper text and every table quote's cells must sit in one row of the named table. It must
+   report 0 not grounded before review.
 7. **Second review.** An independent reviewer, given the attribution listing
-   (`check --audit`) and the extraction, checks every value against the row/column or sentence
+   (`check --audit`) and the saved paper (`tables` output and text), checks every value against the row/column or sentence
    of the source for the right mix, property, age and cure. Fix or remove each disputed value,
    record the review in the batch audit, then release. AI review is not human/domain review.
 8. **Source contradictions** (row counts that differ from the text, ratio labels that do not

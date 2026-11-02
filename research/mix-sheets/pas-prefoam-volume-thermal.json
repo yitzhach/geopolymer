@@ -4,7 +4,7 @@
  "doi": "10.3390/ma15124085",
  "basis": "source-text",
  "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9228590/",
- "accessed": "2026-10-26",
+ "accessed": "2026-11-02",
  "audit": "research/batches/source-text-pilot-2026-10-26.json",
  "scope": "The three Table 2 samples G-0 (unfoamed), G-1 and G-2 (PAS foam:paste 1:1 and 2:1 by volume) with the shared design ratios, and the unheated-state values stated in the text. Values after 200–1000 °C exposure are given only as ranges or in figures and are not transcribed.",
  "made": "2026-10-26",
@@ -63,26 +63,26 @@
      "value": 80,
      "unit": "part",
      "basis": "mass-parts",
-     "text": "Table 2 (Details of sample preparation): Fly ash:Slag Ratio → 80:20 (one cell spanning G-0, G-1 and G-2)"
+     "text": "Table 2 (Details of sample preparation): Category | Unfoamed Geopolymer → Abbreviation | G-0 ; Fly ash:Slag Ratio | 80:20 [spanning cells: Fly ash:Slag Ratio (3 columns)]"
     },
     {
      "material": "lfs",
      "value": 20,
      "unit": "part",
      "basis": "mass-parts",
-     "text": "Table 2 (Details of sample preparation): Fly ash:Slag Ratio → 80:20 (one cell spanning G-0, G-1 and G-2)"
+     "text": "Table 2 (Details of sample preparation): Category | Unfoamed Geopolymer → Abbreviation | G-0 ; Fly ash:Slag Ratio | 80:20 [spanning cells: Fly ash:Slag Ratio (3 columns)]"
     },
     {
      "material": "naoh",
      "value": null,
      "missing": "activator mass not given; only 8 M, solid:liquid 3:1 and silicate:hydroxide 1.5:1 are stated",
-     "text": "Table 2 (Details of sample preparation): Sodium Hydroxide Concentration (M) → 8 (one cell spanning G-0, G-1 and G-2)"
+     "text": "Table 2 (Details of sample preparation): Category | Unfoamed Geopolymer → Abbreviation | G-0 ; Sodium Hydroxide Concentration (M) | 8 [spanning cells: Sodium Hydroxide Concentration (M) (3 columns)]"
     },
     {
      "material": "ss",
      "value": null,
      "missing": "activator mass not given; only solid:liquid 3:1 and silicate:hydroxide 1.5:1 are stated",
-     "text": "Table 2 (Details of sample preparation): Sodium Silicate:Sodium Hydroxide Ratio → 1.5:1 (one cell spanning G-0, G-1 and G-2)"
+     "text": "Table 2 (Details of sample preparation): Category | Unfoamed Geopolymer → Abbreviation | G-0 ; Sodium Silicate:Sodium Hydroxide Ratio | 1.5:1 [spanning cells: Sodium Silicate:Sodium Hydroxide Ratio (3 columns)]"
     },
     {
      "material": "pas",
@@ -90,20 +90,20 @@
      "unit": "ratio",
      "basis": "other",
      "basisNote": "PAS foam-to-paste ratio by volume ('The foam, PAS and water were measured in volume (ml).'); PAS:water 1:10 by volume",
-     "text": "Table 2 (Details of sample preparation): PAS Foam:Paste Ratio → 0:0 | 1:1 | 2:1"
+     "text": "Table 2 (Details of sample preparation): Category | Unfoamed Geopolymer → Abbreviation | G-0 ; PAS Foam:Paste Ratio | 0:0"
     }
    ],
    "parameters": [
     {
      "key": "hydroxide-molarity",
      "value": 8,
-     "text": "Table 2 (Details of sample preparation): Sodium Hydroxide Concentration (M) → 8 (one cell spanning G-0, G-1 and G-2)"
+     "text": "Table 2 (Details of sample preparation): Category | Unfoamed Geopolymer → Abbreviation | G-0 ; Sodium Hydroxide Concentration (M) | 8 [spanning cells: Sodium Hydroxide Concentration (M) (3 columns)]"
     },
     {
      "key": "silicate/hydroxide",
      "value": 1.5,
      "basisNote": "basis not stated",
-     "text": "Table 2 (Details of sample preparation): Sodium Silicate:Sodium Hydroxide Ratio → 1.5:1 (one cell spanning G-0, G-1 and G-2)"
+     "text": "Table 2 (Details of sample preparation): Category | Unfoamed Geopolymer → Abbreviation | G-0 ; Sodium Silicate:Sodium Hydroxide Ratio | 1.5:1 [spanning cells: Sodium Silicate:Sodium Hydroxide Ratio (3 columns)]"
     }
    ],
    "missing": [
@@ -121,26 +121,26 @@
      "value": 80,
      "unit": "part",
      "basis": "mass-parts",
-     "text": "Table 2 (Details of sample preparation): Fly ash:Slag Ratio → 80:20 (one cell spanning G-0, G-1 and G-2)"
+     "text": "Table 2 (Details of sample preparation): Category | Foamed Geopolymer → Abbreviation | G-1 ; Fly ash:Slag Ratio | 80:20 [spanning cells: Fly ash:Slag Ratio (3 columns)]"
     },
     {
      "material": "lfs",
      "value": 20,
      "unit": "part",
      "basis": "mass-parts",
-     "text": "Table 2 (Details of sample preparation): Fly ash:Slag Ratio → 80:20 (one cell spanning G-0, G-1 and G-2)"
+     "text": "Table 2 (Details of sample preparation): Category | Foamed Geopolymer → Abbreviation | G-1 ; Fly ash:Slag Ratio | 80:20 [spanning cells: Fly ash:Slag Ratio (3 columns)]"
     },
     {
      "material": "naoh",
      "value": null,
      "missing": "activator mass not given; only 8 M, solid:liquid 3:1 and silicate:hydroxide 1.5:1 are stated",
-     "text": "Table 2 (Details of sample preparation): Sodium Hydroxide Concentration (M) → 8 (one cell spanning G-0, G-1 and G-2)"
+     "text": "Table 2 (Details of sample preparation): Category | Foamed Geopolymer → Abbreviation | G-1 ; Sodium Hydroxide Concentration (M) | 8 [spanning cells: Sodium Hydroxide Concentration (M) (3 columns)]"
     },
     {
      "material": "ss",
      "value": null,
      "missing": "activator mass not given; only solid:liquid 3:1 and silicate:hydroxide 1.5:1 are stated",
-     "text": "Table 2 (Details of sample preparation): Sodium Silicate:Sodium Hydroxide Ratio → 1.5:1 (one cell spanning G-0, G-1 and G-2)"
+     "text": "Table 2 (Details of sample preparation): Category | Foamed Geopolymer → Abbreviation | G-1 ; Sodium Silicate:Sodium Hydroxide Ratio | 1.5:1 [spanning cells: Sodium Silicate:Sodium Hydroxide Ratio (3 columns)]"
     },
     {
      "material": "pas",
@@ -148,20 +148,20 @@
      "unit": "ratio",
      "basis": "other",
      "basisNote": "PAS foam-to-paste ratio by volume ('The foam, PAS and water were measured in volume (ml).'); PAS:water 1:10 by volume",
-     "text": "Table 2 (Details of sample preparation): PAS Foam:Paste Ratio → 0:0 | 1:1 | 2:1"
+     "text": "Table 2 (Details of sample preparation): Category | Foamed Geopolymer → Abbreviation | G-1 ; PAS Foam:Paste Ratio | 1:1"
     }
    ],
    "parameters": [
     {
      "key": "hydroxide-molarity",
      "value": 8,
-     "text": "Table 2 (Details of sample preparation): Sodium Hydroxide Concentration (M) → 8 (one cell spanning G-0, G-1 and G-2)"
+     "text": "Table 2 (Details of sample preparation): Category | Foamed Geopolymer → Abbreviation | G-1 ; Sodium Hydroxide Concentration (M) | 8 [spanning cells: Sodium Hydroxide Concentration (M) (3 columns)]"
     },
     {
      "key": "silicate/hydroxide",
      "value": 1.5,
      "basisNote": "basis not stated",
-     "text": "Table 2 (Details of sample preparation): Sodium Silicate:Sodium Hydroxide Ratio → 1.5:1 (one cell spanning G-0, G-1 and G-2)"
+     "text": "Table 2 (Details of sample preparation): Category | Foamed Geopolymer → Abbreviation | G-1 ; Sodium Silicate:Sodium Hydroxide Ratio | 1.5:1 [spanning cells: Sodium Silicate:Sodium Hydroxide Ratio (3 columns)]"
     }
    ],
    "missing": [
@@ -179,26 +179,26 @@
      "value": 80,
      "unit": "part",
      "basis": "mass-parts",
-     "text": "Table 2 (Details of sample preparation): Fly ash:Slag Ratio → 80:20 (one cell spanning G-0, G-1 and G-2)"
+     "text": "Table 2 (Details of sample preparation): Category | Foamed Geopolymer → Abbreviation | G-2 ; Fly ash:Slag Ratio | 80:20 [spanning cells: Fly ash:Slag Ratio (3 columns)]"
     },
     {
      "material": "lfs",
      "value": 20,
      "unit": "part",
      "basis": "mass-parts",
-     "text": "Table 2 (Details of sample preparation): Fly ash:Slag Ratio → 80:20 (one cell spanning G-0, G-1 and G-2)"
+     "text": "Table 2 (Details of sample preparation): Category | Foamed Geopolymer → Abbreviation | G-2 ; Fly ash:Slag Ratio | 80:20 [spanning cells: Fly ash:Slag Ratio (3 columns)]"
     },
     {
      "material": "naoh",
      "value": null,
      "missing": "activator mass not given; only 8 M, solid:liquid 3:1 and silicate:hydroxide 1.5:1 are stated",
-     "text": "Table 2 (Details of sample preparation): Sodium Hydroxide Concentration (M) → 8 (one cell spanning G-0, G-1 and G-2)"
+     "text": "Table 2 (Details of sample preparation): Category | Foamed Geopolymer → Abbreviation | G-2 ; Sodium Hydroxide Concentration (M) | 8 [spanning cells: Sodium Hydroxide Concentration (M) (3 columns)]"
     },
     {
      "material": "ss",
      "value": null,
      "missing": "activator mass not given; only solid:liquid 3:1 and silicate:hydroxide 1.5:1 are stated",
-     "text": "Table 2 (Details of sample preparation): Sodium Silicate:Sodium Hydroxide Ratio → 1.5:1 (one cell spanning G-0, G-1 and G-2)"
+     "text": "Table 2 (Details of sample preparation): Category | Foamed Geopolymer → Abbreviation | G-2 ; Sodium Silicate:Sodium Hydroxide Ratio | 1.5:1 [spanning cells: Sodium Silicate:Sodium Hydroxide Ratio (3 columns)]"
     },
     {
      "material": "pas",
@@ -206,20 +206,20 @@
      "unit": "ratio",
      "basis": "other",
      "basisNote": "PAS foam-to-paste ratio by volume ('The foam, PAS and water were measured in volume (ml).'); PAS:water 1:10 by volume",
-     "text": "Table 2 (Details of sample preparation): PAS Foam:Paste Ratio → 0:0 | 1:1 | 2:1"
+     "text": "Table 2 (Details of sample preparation): Category | Foamed Geopolymer → Abbreviation | G-2 ; PAS Foam:Paste Ratio | 2:1"
     }
    ],
    "parameters": [
     {
      "key": "hydroxide-molarity",
      "value": 8,
-     "text": "Table 2 (Details of sample preparation): Sodium Hydroxide Concentration (M) → 8 (one cell spanning G-0, G-1 and G-2)"
+     "text": "Table 2 (Details of sample preparation): Category | Foamed Geopolymer → Abbreviation | G-2 ; Sodium Hydroxide Concentration (M) | 8 [spanning cells: Sodium Hydroxide Concentration (M) (3 columns)]"
     },
     {
      "key": "silicate/hydroxide",
      "value": 1.5,
      "basisNote": "basis not stated",
-     "text": "Table 2 (Details of sample preparation): Sodium Silicate:Sodium Hydroxide Ratio → 1.5:1 (one cell spanning G-0, G-1 and G-2)"
+     "text": "Table 2 (Details of sample preparation): Category | Foamed Geopolymer → Abbreviation | G-2 ; Sodium Silicate:Sodium Hydroxide Ratio | 1.5:1 [spanning cells: Sodium Silicate:Sodium Hydroxide Ratio (3 columns)]"
     }
    ],
    "missing": [
@@ -413,10 +413,10 @@
   }
  ],
  "gaps": [
-  "Table quotes are mechanical joins of the Table 2 row label and its cells; shared cells span all three samples in the source.",
+  "Mixes are columns in Table 2, so each table quote joins the Abbreviation row with the design row; shared values are single cells spanning G-0, G-1 and G-2 in the source.",
   "No absolute masses: fly ash:slag 80:20, 8 M NaOH, solid:liquid 3:1 and silicate:hydroxide 1.5:1 are ratios with unstated bases; activator mass, water and foam volume per batch are not given.",
   "G-1 water absorption, apparent porosity, density and thermal conductivity, and all heated-state values, appear only as ranges or in Figures 3–9.",
   "Cure recorded as heat (60 °C oven day); the first day was at room temperature and samples were stored 28 days at room temperature before heating, so test age is left null.",
-  "Every value awaits the second-reviewer check recorded in the batch audit before release."
+  "Second review (26 Oct 2026): 0 value errors; see the batch audit."
  ]
 }

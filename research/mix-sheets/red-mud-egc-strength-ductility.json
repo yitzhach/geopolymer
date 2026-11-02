@@ -4,7 +4,7 @@
  "doi": "10.3390/polym18182271",
  "basis": "source-text",
  "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13611231/",
- "accessed": "2026-10-26",
+ "accessed": "2026-11-02",
  "audit": "research/batches/source-text-pilot-2026-10-26.json",
  "scope": "All ten mixes of Table 2 (kg/m3) with the fixed design ratios; 28-day compressive strength and elastic modulus (Table 3), tensile strength and ultimate tensile strain (Table 5), and the two flow values stated in the text. First-cracking strength, peak strain, strain energy and crack-pattern data are not transcribed.",
  "made": "2026-10-26",
@@ -114,56 +114,56 @@
      "value": 606.9,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G50F50R0 | 606.90 | 606.90 | 0"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G50F50R0 | 606.90 | 606.90 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "fa",
      "value": 606.9,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G50F50R0 | 606.90 | 606.90 | 0"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G50F50R0 | 606.90 | 606.90 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "rm",
      "value": 0,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G50F50R0 | 606.90 | 606.90 | 0"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G50F50R0 | 606.90 | 606.90 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "qs",
      "value": 242.76,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G50F50R0 | 606.90 | 606.90 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "act",
      "value": 485.52,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G50F50R0 | 606.90 | 606.90 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "water",
      "value": 93.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G50F50R0 | 606.90 | 606.90 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "bacl2",
      "value": 12.14,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G50F50R0 | 606.90 | 606.90 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "pe",
      "value": 19.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G50F50R0 | 606.90 | 606.90 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "naoh",
@@ -225,56 +225,56 @@
      "value": 424.83,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G35F65R0 | 424.83 | 788.97 | 0"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G35F65R0 | 424.83 | 788.97 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "fa",
      "value": 788.97,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G35F65R0 | 424.83 | 788.97 | 0"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G35F65R0 | 424.83 | 788.97 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "rm",
      "value": 0,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G35F65R0 | 424.83 | 788.97 | 0"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G35F65R0 | 424.83 | 788.97 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "qs",
      "value": 242.76,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G35F65R0 | 424.83 | 788.97 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "act",
      "value": 485.52,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G35F65R0 | 424.83 | 788.97 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "water",
      "value": 93.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G35F65R0 | 424.83 | 788.97 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "bacl2",
      "value": 12.14,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G35F65R0 | 424.83 | 788.97 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "pe",
      "value": 19.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G35F65R0 | 424.83 | 788.97 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "naoh",
@@ -336,56 +336,56 @@
      "value": 242.76,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G20F80R0 | 242.76 | 971.04 | 0"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F80R0 | 242.76 | 971.04 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "fa",
      "value": 971.04,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G20F80R0 | 242.76 | 971.04 | 0"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F80R0 | 242.76 | 971.04 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "rm",
      "value": 0,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G20F80R0 | 242.76 | 971.04 | 0"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F80R0 | 242.76 | 971.04 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "qs",
      "value": 242.76,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F80R0 | 242.76 | 971.04 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "act",
      "value": 485.52,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F80R0 | 242.76 | 971.04 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "water",
      "value": 93.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F80R0 | 242.76 | 971.04 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "bacl2",
      "value": 12.14,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F80R0 | 242.76 | 971.04 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "pe",
      "value": 19.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F80R0 | 242.76 | 971.04 | 0 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "naoh",
@@ -447,56 +447,56 @@
      "value": 485.52,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G40F55R5 | 485.52 | 667.59 | 60.69"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G40F55R5 | 485.52 | 667.59 | 60.69 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "fa",
      "value": 667.59,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G40F55R5 | 485.52 | 667.59 | 60.69"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G40F55R5 | 485.52 | 667.59 | 60.69 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "rm",
      "value": 60.69,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G40F55R5 | 485.52 | 667.59 | 60.69"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G40F55R5 | 485.52 | 667.59 | 60.69 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "qs",
      "value": 242.76,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G40F55R5 | 485.52 | 667.59 | 60.69 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "act",
      "value": 485.52,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G40F55R5 | 485.52 | 667.59 | 60.69 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "water",
      "value": 93.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G40F55R5 | 485.52 | 667.59 | 60.69 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "bacl2",
      "value": 12.14,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G40F55R5 | 485.52 | 667.59 | 60.69 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "pe",
      "value": 19.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G40F55R5 | 485.52 | 667.59 | 60.69 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "naoh",
@@ -558,56 +558,56 @@
      "value": 303.45,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G25F70R5 | 303.45 | 849.66 | 60.69"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G25F70R5 | 303.45 | 849.66 | 60.69 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "fa",
      "value": 849.66,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G25F70R5 | 303.45 | 849.66 | 60.69"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G25F70R5 | 303.45 | 849.66 | 60.69 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "rm",
      "value": 60.69,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G25F70R5 | 303.45 | 849.66 | 60.69"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G25F70R5 | 303.45 | 849.66 | 60.69 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "qs",
      "value": 242.76,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G25F70R5 | 303.45 | 849.66 | 60.69 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "act",
      "value": 485.52,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G25F70R5 | 303.45 | 849.66 | 60.69 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "water",
      "value": 93.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G25F70R5 | 303.45 | 849.66 | 60.69 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "bacl2",
      "value": 12.14,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G25F70R5 | 303.45 | 849.66 | 60.69 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "pe",
      "value": 19.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G25F70R5 | 303.45 | 849.66 | 60.69 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "naoh",
@@ -669,56 +669,56 @@
      "value": 364.14,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G30F60R10 | 364.14 | 728.28 | 121.38"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G30F60R10 | 364.14 | 728.28 | 121.38 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "fa",
      "value": 728.28,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G30F60R10 | 364.14 | 728.28 | 121.38"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G30F60R10 | 364.14 | 728.28 | 121.38 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "rm",
      "value": 121.38,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G30F60R10 | 364.14 | 728.28 | 121.38"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G30F60R10 | 364.14 | 728.28 | 121.38 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "qs",
      "value": 242.76,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G30F60R10 | 364.14 | 728.28 | 121.38 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "act",
      "value": 485.52,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G30F60R10 | 364.14 | 728.28 | 121.38 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "water",
      "value": 93.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G30F60R10 | 364.14 | 728.28 | 121.38 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "bacl2",
      "value": 12.14,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G30F60R10 | 364.14 | 728.28 | 121.38 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "pe",
      "value": 19.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G30F60R10 | 364.14 | 728.28 | 121.38 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "naoh",
@@ -780,56 +780,56 @@
      "value": 424.83,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G35F50R15 | 424.83 | 606.90 | 182.07"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G35F50R15 | 424.83 | 606.90 | 182.07 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "fa",
      "value": 606.9,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G35F50R15 | 424.83 | 606.90 | 182.07"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G35F50R15 | 424.83 | 606.90 | 182.07 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "rm",
      "value": 182.07,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G35F50R15 | 424.83 | 606.90 | 182.07"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G35F50R15 | 424.83 | 606.90 | 182.07 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "qs",
      "value": 242.76,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G35F50R15 | 424.83 | 606.90 | 182.07 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "act",
      "value": 485.52,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G35F50R15 | 424.83 | 606.90 | 182.07 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "water",
      "value": 93.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G35F50R15 | 424.83 | 606.90 | 182.07 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "bacl2",
      "value": 12.14,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G35F50R15 | 424.83 | 606.90 | 182.07 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "pe",
      "value": 19.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G35F50R15 | 424.83 | 606.90 | 182.07 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "naoh",
@@ -891,56 +891,56 @@
      "value": 242.76,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G20F65R15 | 242.76 | 788.97 | 182.07"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F65R15 | 242.76 | 788.97 | 182.07 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "fa",
      "value": 788.97,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G20F65R15 | 242.76 | 788.97 | 182.07"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F65R15 | 242.76 | 788.97 | 182.07 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "rm",
      "value": 182.07,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G20F65R15 | 242.76 | 788.97 | 182.07"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F65R15 | 242.76 | 788.97 | 182.07 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "qs",
      "value": 242.76,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F65R15 | 242.76 | 788.97 | 182.07 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "act",
      "value": 485.52,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F65R15 | 242.76 | 788.97 | 182.07 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "water",
      "value": 93.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F65R15 | 242.76 | 788.97 | 182.07 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "bacl2",
      "value": 12.14,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F65R15 | 242.76 | 788.97 | 182.07 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "pe",
      "value": 19.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F65R15 | 242.76 | 788.97 | 182.07 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "naoh",
@@ -1002,56 +1002,56 @@
      "value": 303.45,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G25F55R20 | 303.45 | 667.59 | 242.76"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G25F55R20 | 303.45 | 667.59 | 242.76 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "fa",
      "value": 667.59,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G25F55R20 | 303.45 | 667.59 | 242.76"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G25F55R20 | 303.45 | 667.59 | 242.76 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "rm",
      "value": 242.76,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G25F55R20 | 303.45 | 667.59 | 242.76"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G25F55R20 | 303.45 | 667.59 | 242.76 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "qs",
      "value": 242.76,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G25F55R20 | 303.45 | 667.59 | 242.76 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "act",
      "value": 485.52,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G25F55R20 | 303.45 | 667.59 | 242.76 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "water",
      "value": 93.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G25F55R20 | 303.45 | 667.59 | 242.76 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "bacl2",
      "value": 12.14,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G25F55R20 | 303.45 | 667.59 | 242.76 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "pe",
      "value": 19.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G25F55R20 | 303.45 | 667.59 | 242.76 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "naoh",
@@ -1113,56 +1113,56 @@
      "value": 242.76,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G20F50R30 | 242.76 | 606.90 | 364.14"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F50R30 | 242.76 | 606.90 | 364.14 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "fa",
      "value": 606.9,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G20F50R30 | 242.76 | 606.90 | 364.14"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F50R30 | 242.76 | 606.90 | 364.14 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "rm",
      "value": 364.14,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM → G20F50R30 | 242.76 | 606.90 | 364.14"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F50R30 | 242.76 | 606.90 | 364.14 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "qs",
      "value": 242.76,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: QS = 242.76"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F50R30 | 242.76 | 606.90 | 364.14 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "act",
      "value": 485.52,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Activator = 485.52"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F50R30 | 242.76 | 606.90 | 364.14 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "water",
      "value": 93.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: Water = 93.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F50R30 | 242.76 | 606.90 | 364.14 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "bacl2",
      "value": 12.14,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: BaCl2 = 12.14"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F50R30 | 242.76 | 606.90 | 364.14 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "pe",
      "value": 19.4,
      "unit": "kg/m3",
      "basis": "per-m3",
-     "text": "Table 2. Mix proportion (kg/m3), column spanning all ten rows: PE Fiber = 19.40"
+     "text": "Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS | FA | RM | QS | Activator | Water | BaCl2 | PE Fiber → G20F50R30 | 242.76 | 606.90 | 364.14 | 242.76 | 485.52 | 93.40 | 12.14 | 19.40 [spanning cells: QS, Activator, Water, BaCl2, PE Fiber]"
     },
     {
      "material": "naoh",
@@ -1308,7 +1308,7 @@
    "mix": "G20F80R0",
    "test": "fc",
    "ageDays": 28,
-   "value": 77.0,
+   "value": 77,
    "spread": 2.4,
    "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G20F80R0 | 77.0 (2.4) | 0.707 (0.033) | 13.4 (0.6)",
    "ageText": "where they were cured for 28 d prior to testing",
@@ -1349,7 +1349,7 @@
    "test": "fc",
    "ageDays": 28,
    "value": 85.4,
-   "spread": 1.0,
+   "spread": 1,
    "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G25F70R5 | 85.4 (1.0) | 0.752 (0.019) | 15.1 (1.2)",
    "ageText": "where they were cured for 28 d prior to testing",
    "locator": "Table 3 (values in parentheses are standard deviations)"
@@ -1368,7 +1368,7 @@
    "mix": "G30F60R10",
    "test": "fc",
    "ageDays": 28,
-   "value": 89.0,
+   "value": 89,
    "spread": 2.9,
    "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G30F60R10 | 89.0 (2.9) | 0.658 (0.016) | 16.2 (1.4)",
    "ageText": "where they were cured for 28 d prior to testing",
@@ -1418,7 +1418,7 @@
    "mix": "G20F65R15",
    "test": "E",
    "ageDays": 28,
-   "value": 12.0,
+   "value": 12,
    "spread": 0.8,
    "text": "Table 3 (Axial compressive properties of the EGC mixtures): Mix IDs | fc (MPa) | εc (%) | E (GPa) → G20F65R15 | 66.6 (6.1) | 0.678 (0.061) | 12.0 (0.8)",
    "ageText": "where they were cured for 28 d prior to testing",
@@ -1698,10 +1698,10 @@
   }
  ],
  "gaps": [
-  "Table quotes are mechanical joins of caption, header cells and row cells (format: 'Table N (caption): header → row'); the shared QS/activator/water/BaCl2/PE columns span all ten rows in the source table.",
+  "Table quotes follow the standard form (Table N (caption): header → row); QS, activator, water, BaCl2 and PE fibre are single cells spanning all ten rows in the source.",
   "The activator is tabulated only as one blended mass; the NaOH and water-glass masses are not split here.",
-  "Water/binder, alkali content and sand/binder bases are not stated (binder may or may not include activator solids); flow values exist in text for two mixes only, the rest are in Figure 5.",
+  "Water/binder, alkali content and sand/binder bases are not stated (water/binder 0.32 cannot be reproduced from the Water column alone, so it presumably includes activator water); flow values exist in text for two mixes only, the rest are in Figure 5.",
   "First-cracking strength (σtc), peak compressive strain (εc), strain energy (gse) and crack width/number (Table 4) are not mapped to a vocabulary property and are not transcribed.",
-  "Every value awaits the second-reviewer check recorded in the batch audit before release."
+  "Second review (26 Oct 2026): 0 value errors; see the batch audit."
  ]
 }

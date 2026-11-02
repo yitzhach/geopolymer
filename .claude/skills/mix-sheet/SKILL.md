@@ -182,8 +182,12 @@ Only when the owner has approved it for the batch. Follow "Source-text procedure
   `"madeBy": "AI transcription · mix-sheet skill v1 (source-text pilot)"` or later label.
 - Labels are the paper's own mix IDs (Table 2 `G50F50R0`, `RG/L-1.5`, `N-30`); text forms such as
   `RG/L = 3` may be aliases when a result sentence uses them.
-- `check` cannot ground these quotes in the repository; the grounding check and the second
-  review (standard, steps 6–7) replace it. Keep the queue entry's `skip` and add
+- Commands: `source <guideId>` (fetch and save the paper outside the repo), `tables <guideId> [N]`,
+  `quote <guideId> <N> <row> [--cols …]`, `ground <guideId>`. Write the sheet with a generator in
+  `research/mix-sheets/generators/` (copy a pilot generator; see its README), then run `check
+  --audit` and `ground`, then the second review.
+- `check` cannot ground these quotes in the repository; `ground` and the second review
+  (standard, steps 6–7) replace it. Keep the queue entry's `skip` and add
   `"sheet": "source-text <date>"` so the queue shows it was recovered.
 - Expect some papers to yield designs only: results printed only in figures are not read.
 

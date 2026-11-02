@@ -4,7 +4,7 @@
  "doi": "10.3390/ma13051134",
  "basis": "source-text",
  "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7085006/",
- "accessed": "2026-10-26",
+ "accessed": "2026-11-02",
  "audit": "research/batches/source-text-pilot-2026-10-26.json",
  "scope": "All 54 labelled mortars of the Table 2 full-factorial design (27 MCA-ACBFS, 27 GGBFS; w/b 0.45/0.5/0.55 × alkali modulus 1/1.5/2 × SS 10/15/20 wt.%). Strength and slump-flow results are reported only in figures, so no per-mix results are transcribed.",
  "made": "2026-10-26",
@@ -63,7 +63,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 10 | A45110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 10 | A45110"
     },
     {
      "material": "sand",
@@ -77,7 +77,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 10 | A45110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 10 | A45110"
     },
     {
      "material": "naoh",
@@ -91,13 +91,13 @@
      "key": "water/binder",
      "value": 0.45,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 10 | A45110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 10 | A45110"
     },
     {
      "key": "activator-modulus",
      "value": 1,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 10 | A45110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 10 | A45110"
     },
     {
      "key": "sand/binder",
@@ -117,7 +117,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 10 | A5110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 10 | A5110"
     },
     {
      "material": "sand",
@@ -131,7 +131,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 10 | A5110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 10 | A5110"
     },
     {
      "material": "naoh",
@@ -145,13 +145,13 @@
      "key": "water/binder",
      "value": 0.5,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 10 | A5110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 10 | A5110"
     },
     {
      "key": "activator-modulus",
      "value": 1,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 10 | A5110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 10 | A5110"
     },
     {
      "key": "sand/binder",
@@ -171,7 +171,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 10 | A55110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 10 | A55110"
     },
     {
      "material": "sand",
@@ -185,7 +185,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 10 | A55110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 10 | A55110"
     },
     {
      "material": "naoh",
@@ -199,13 +199,13 @@
      "key": "water/binder",
      "value": 0.55,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 10 | A55110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 10 | A55110"
     },
     {
      "key": "activator-modulus",
      "value": 1,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 10 | A55110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 10 | A55110"
     },
     {
      "key": "sand/binder",
@@ -225,7 +225,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 10 | G45110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 10 | G45110"
     },
     {
      "material": "sand",
@@ -239,7 +239,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 10 | G45110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 10 | G45110"
     },
     {
      "material": "naoh",
@@ -253,13 +253,13 @@
      "key": "water/binder",
      "value": 0.45,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 10 | G45110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 10 | G45110"
     },
     {
      "key": "activator-modulus",
      "value": 1,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 10 | G45110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 10 | G45110"
     },
     {
      "key": "sand/binder",
@@ -279,7 +279,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 10 | G5110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 10 | G5110"
     },
     {
      "material": "sand",
@@ -293,7 +293,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 10 | G5110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 10 | G5110"
     },
     {
      "material": "naoh",
@@ -307,13 +307,13 @@
      "key": "water/binder",
      "value": 0.5,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 10 | G5110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 10 | G5110"
     },
     {
      "key": "activator-modulus",
      "value": 1,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 10 | G5110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 10 | G5110"
     },
     {
      "key": "sand/binder",
@@ -333,7 +333,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 10 | G55110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 10 | G55110"
     },
     {
      "material": "sand",
@@ -347,7 +347,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 10 | G55110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 10 | G55110"
     },
     {
      "material": "naoh",
@@ -361,13 +361,13 @@
      "key": "water/binder",
      "value": 0.55,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 10 | G55110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 10 | G55110"
     },
     {
      "key": "activator-modulus",
      "value": 1,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 10 | G55110"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 10 | G55110"
     },
     {
      "key": "sand/binder",
@@ -387,7 +387,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 15 | A45115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 15 | A45115"
     },
     {
      "material": "sand",
@@ -401,7 +401,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 15 | A45115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 15 | A45115"
     },
     {
      "material": "naoh",
@@ -415,13 +415,13 @@
      "key": "water/binder",
      "value": 0.45,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 15 | A45115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 15 | A45115"
     },
     {
      "key": "activator-modulus",
      "value": 1,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 15 | A45115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 15 | A45115"
     },
     {
      "key": "sand/binder",
@@ -441,7 +441,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 15 | A5115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 15 | A5115"
     },
     {
      "material": "sand",
@@ -455,7 +455,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 15 | A5115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 15 | A5115"
     },
     {
      "material": "naoh",
@@ -469,13 +469,13 @@
      "key": "water/binder",
      "value": 0.5,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 15 | A5115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 15 | A5115"
     },
     {
      "key": "activator-modulus",
      "value": 1,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 15 | A5115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 15 | A5115"
     },
     {
      "key": "sand/binder",
@@ -495,7 +495,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 15 | A55115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 15 | A55115"
     },
     {
      "material": "sand",
@@ -509,7 +509,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 15 | A55115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 15 | A55115"
     },
     {
      "material": "naoh",
@@ -523,13 +523,13 @@
      "key": "water/binder",
      "value": 0.55,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 15 | A55115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 15 | A55115"
     },
     {
      "key": "activator-modulus",
      "value": 1,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 15 | A55115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 15 | A55115"
     },
     {
      "key": "sand/binder",
@@ -549,7 +549,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 15 | G45115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 15 | G45115"
     },
     {
      "material": "sand",
@@ -563,7 +563,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 15 | G45115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 15 | G45115"
     },
     {
      "material": "naoh",
@@ -577,13 +577,13 @@
      "key": "water/binder",
      "value": 0.45,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 15 | G45115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 15 | G45115"
     },
     {
      "key": "activator-modulus",
      "value": 1,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 15 | G45115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 15 | G45115"
     },
     {
      "key": "sand/binder",
@@ -603,7 +603,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 15 | G5115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 15 | G5115"
     },
     {
      "material": "sand",
@@ -617,7 +617,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 15 | G5115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 15 | G5115"
     },
     {
      "material": "naoh",
@@ -631,13 +631,13 @@
      "key": "water/binder",
      "value": 0.5,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 15 | G5115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 15 | G5115"
     },
     {
      "key": "activator-modulus",
      "value": 1,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 15 | G5115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 15 | G5115"
     },
     {
      "key": "sand/binder",
@@ -657,7 +657,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 15 | G55115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 15 | G55115"
     },
     {
      "material": "sand",
@@ -671,7 +671,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 15 | G55115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 15 | G55115"
     },
     {
      "material": "naoh",
@@ -685,13 +685,13 @@
      "key": "water/binder",
      "value": 0.55,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 15 | G55115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 15 | G55115"
     },
     {
      "key": "activator-modulus",
      "value": 1,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 15 | G55115"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 15 | G55115"
     },
     {
      "key": "sand/binder",
@@ -711,7 +711,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 20 | A45120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 20 | A45120"
     },
     {
      "material": "sand",
@@ -725,7 +725,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 20 | A45120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 20 | A45120"
     },
     {
      "material": "naoh",
@@ -739,13 +739,13 @@
      "key": "water/binder",
      "value": 0.45,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 20 | A45120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 20 | A45120"
     },
     {
      "key": "activator-modulus",
      "value": 1,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 20 | A45120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1 | 20 | A45120"
     },
     {
      "key": "sand/binder",
@@ -765,7 +765,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 20 | A5120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 20 | A5120"
     },
     {
      "material": "sand",
@@ -779,7 +779,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 20 | A5120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 20 | A5120"
     },
     {
      "material": "naoh",
@@ -793,13 +793,13 @@
      "key": "water/binder",
      "value": 0.5,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 20 | A5120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 20 | A5120"
     },
     {
      "key": "activator-modulus",
      "value": 1,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 20 | A5120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1 | 20 | A5120"
     },
     {
      "key": "sand/binder",
@@ -819,7 +819,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 20 | A55120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 20 | A55120"
     },
     {
      "material": "sand",
@@ -833,7 +833,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 20 | A55120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 20 | A55120"
     },
     {
      "material": "naoh",
@@ -847,13 +847,13 @@
      "key": "water/binder",
      "value": 0.55,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 20 | A55120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 20 | A55120"
     },
     {
      "key": "activator-modulus",
      "value": 1,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 20 | A55120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1 | 20 | A55120"
     },
     {
      "key": "sand/binder",
@@ -873,7 +873,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 20 | G45120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 20 | G45120"
     },
     {
      "material": "sand",
@@ -887,7 +887,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 20 | G45120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 20 | G45120"
     },
     {
      "material": "naoh",
@@ -901,13 +901,13 @@
      "key": "water/binder",
      "value": 0.45,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 20 | G45120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 20 | G45120"
     },
     {
      "key": "activator-modulus",
      "value": 1,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 20 | G45120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1 | 20 | G45120"
     },
     {
      "key": "sand/binder",
@@ -927,7 +927,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 20 | G5120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 20 | G5120"
     },
     {
      "material": "sand",
@@ -941,7 +941,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 20 | G5120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 20 | G5120"
     },
     {
      "material": "naoh",
@@ -955,13 +955,13 @@
      "key": "water/binder",
      "value": 0.5,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 20 | G5120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 20 | G5120"
     },
     {
      "key": "activator-modulus",
      "value": 1,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 20 | G5120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1 | 20 | G5120"
     },
     {
      "key": "sand/binder",
@@ -981,7 +981,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 20 | G55120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 20 | G55120"
     },
     {
      "material": "sand",
@@ -995,7 +995,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 20 | G55120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 20 | G55120"
     },
     {
      "material": "naoh",
@@ -1009,13 +1009,13 @@
      "key": "water/binder",
      "value": 0.55,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 20 | G55120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 20 | G55120"
     },
     {
      "key": "activator-modulus",
      "value": 1,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 20 | G55120"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1 | 20 | G55120"
     },
     {
      "key": "sand/binder",
@@ -1035,7 +1035,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 10 | A451510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 10 | A451510"
     },
     {
      "material": "sand",
@@ -1049,7 +1049,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 10 | A451510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 10 | A451510"
     },
     {
      "material": "naoh",
@@ -1063,13 +1063,13 @@
      "key": "water/binder",
      "value": 0.45,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 10 | A451510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 10 | A451510"
     },
     {
      "key": "activator-modulus",
      "value": 1.5,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 10 | A451510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 10 | A451510"
     },
     {
      "key": "sand/binder",
@@ -1089,7 +1089,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 10 | A51510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 10 | A51510"
     },
     {
      "material": "sand",
@@ -1103,7 +1103,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 10 | A51510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 10 | A51510"
     },
     {
      "material": "naoh",
@@ -1117,13 +1117,13 @@
      "key": "water/binder",
      "value": 0.5,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 10 | A51510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 10 | A51510"
     },
     {
      "key": "activator-modulus",
      "value": 1.5,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 10 | A51510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 10 | A51510"
     },
     {
      "key": "sand/binder",
@@ -1143,7 +1143,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 10 | A551510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 10 | A551510"
     },
     {
      "material": "sand",
@@ -1157,7 +1157,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 10 | A551510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 10 | A551510"
     },
     {
      "material": "naoh",
@@ -1171,13 +1171,13 @@
      "key": "water/binder",
      "value": 0.55,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 10 | A551510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 10 | A551510"
     },
     {
      "key": "activator-modulus",
      "value": 1.5,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 10 | A551510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 10 | A551510"
     },
     {
      "key": "sand/binder",
@@ -1197,7 +1197,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 10 | G451510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 10 | G451510"
     },
     {
      "material": "sand",
@@ -1211,7 +1211,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 10 | G451510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 10 | G451510"
     },
     {
      "material": "naoh",
@@ -1225,13 +1225,13 @@
      "key": "water/binder",
      "value": 0.45,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 10 | G451510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 10 | G451510"
     },
     {
      "key": "activator-modulus",
      "value": 1.5,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 10 | G451510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 10 | G451510"
     },
     {
      "key": "sand/binder",
@@ -1251,7 +1251,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 10 | G51510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 10 | G51510"
     },
     {
      "material": "sand",
@@ -1265,7 +1265,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 10 | G51510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 10 | G51510"
     },
     {
      "material": "naoh",
@@ -1279,13 +1279,13 @@
      "key": "water/binder",
      "value": 0.5,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 10 | G51510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 10 | G51510"
     },
     {
      "key": "activator-modulus",
      "value": 1.5,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 10 | G51510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 10 | G51510"
     },
     {
      "key": "sand/binder",
@@ -1305,7 +1305,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 10 | G551510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 10 | G551510"
     },
     {
      "material": "sand",
@@ -1319,7 +1319,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 10 | G551510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 10 | G551510"
     },
     {
      "material": "naoh",
@@ -1333,13 +1333,13 @@
      "key": "water/binder",
      "value": 0.55,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 10 | G551510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 10 | G551510"
     },
     {
      "key": "activator-modulus",
      "value": 1.5,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 10 | G551510"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 10 | G551510"
     },
     {
      "key": "sand/binder",
@@ -1359,7 +1359,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 15 | A451515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 15 | A451515"
     },
     {
      "material": "sand",
@@ -1373,7 +1373,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 15 | A451515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 15 | A451515"
     },
     {
      "material": "naoh",
@@ -1387,13 +1387,13 @@
      "key": "water/binder",
      "value": 0.45,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 15 | A451515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 15 | A451515"
     },
     {
      "key": "activator-modulus",
      "value": 1.5,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 15 | A451515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 15 | A451515"
     },
     {
      "key": "sand/binder",
@@ -1413,7 +1413,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 15 | A51515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 15 | A51515"
     },
     {
      "material": "sand",
@@ -1427,7 +1427,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 15 | A51515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 15 | A51515"
     },
     {
      "material": "naoh",
@@ -1441,13 +1441,13 @@
      "key": "water/binder",
      "value": 0.5,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 15 | A51515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 15 | A51515"
     },
     {
      "key": "activator-modulus",
      "value": 1.5,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 15 | A51515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 15 | A51515"
     },
     {
      "key": "sand/binder",
@@ -1467,7 +1467,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 15 | A551515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 15 | A551515"
     },
     {
      "material": "sand",
@@ -1481,7 +1481,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 15 | A551515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 15 | A551515"
     },
     {
      "material": "naoh",
@@ -1495,13 +1495,13 @@
      "key": "water/binder",
      "value": 0.55,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 15 | A551515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 15 | A551515"
     },
     {
      "key": "activator-modulus",
      "value": 1.5,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 15 | A551515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 15 | A551515"
     },
     {
      "key": "sand/binder",
@@ -1521,7 +1521,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 15 | G451515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 15 | G451515"
     },
     {
      "material": "sand",
@@ -1535,7 +1535,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 15 | G451515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 15 | G451515"
     },
     {
      "material": "naoh",
@@ -1549,13 +1549,13 @@
      "key": "water/binder",
      "value": 0.45,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 15 | G451515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 15 | G451515"
     },
     {
      "key": "activator-modulus",
      "value": 1.5,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 15 | G451515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 15 | G451515"
     },
     {
      "key": "sand/binder",
@@ -1575,7 +1575,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 15 | G51515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 15 | G51515"
     },
     {
      "material": "sand",
@@ -1589,7 +1589,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 15 | G51515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 15 | G51515"
     },
     {
      "material": "naoh",
@@ -1603,13 +1603,13 @@
      "key": "water/binder",
      "value": 0.5,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 15 | G51515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 15 | G51515"
     },
     {
      "key": "activator-modulus",
      "value": 1.5,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 15 | G51515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 15 | G51515"
     },
     {
      "key": "sand/binder",
@@ -1629,7 +1629,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 15 | G551515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 15 | G551515"
     },
     {
      "material": "sand",
@@ -1643,7 +1643,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 15 | G551515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 15 | G551515"
     },
     {
      "material": "naoh",
@@ -1657,13 +1657,13 @@
      "key": "water/binder",
      "value": 0.55,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 15 | G551515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 15 | G551515"
     },
     {
      "key": "activator-modulus",
      "value": 1.5,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 15 | G551515"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 15 | G551515"
     },
     {
      "key": "sand/binder",
@@ -1683,7 +1683,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 20 | A451520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 20 | A451520"
     },
     {
      "material": "sand",
@@ -1697,7 +1697,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 20 | A451520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 20 | A451520"
     },
     {
      "material": "naoh",
@@ -1711,13 +1711,13 @@
      "key": "water/binder",
      "value": 0.45,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 20 | A451520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 20 | A451520"
     },
     {
      "key": "activator-modulus",
      "value": 1.5,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 20 | A451520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 1.5 | 20 | A451520"
     },
     {
      "key": "sand/binder",
@@ -1737,7 +1737,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 20 | A51520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 20 | A51520"
     },
     {
      "material": "sand",
@@ -1751,7 +1751,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 20 | A51520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 20 | A51520"
     },
     {
      "material": "naoh",
@@ -1765,13 +1765,13 @@
      "key": "water/binder",
      "value": 0.5,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 20 | A51520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 20 | A51520"
     },
     {
      "key": "activator-modulus",
      "value": 1.5,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 20 | A51520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 1.5 | 20 | A51520"
     },
     {
      "key": "sand/binder",
@@ -1791,7 +1791,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 20 | A551520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 20 | A551520"
     },
     {
      "material": "sand",
@@ -1805,7 +1805,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 20 | A551520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 20 | A551520"
     },
     {
      "material": "naoh",
@@ -1819,13 +1819,13 @@
      "key": "water/binder",
      "value": 0.55,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 20 | A551520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 20 | A551520"
     },
     {
      "key": "activator-modulus",
      "value": 1.5,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 20 | A551520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 1.5 | 20 | A551520"
     },
     {
      "key": "sand/binder",
@@ -1845,7 +1845,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 20 | G451520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 20 | G451520"
     },
     {
      "material": "sand",
@@ -1859,7 +1859,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 20 | G451520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 20 | G451520"
     },
     {
      "material": "naoh",
@@ -1873,13 +1873,13 @@
      "key": "water/binder",
      "value": 0.45,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 20 | G451520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 20 | G451520"
     },
     {
      "key": "activator-modulus",
      "value": 1.5,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 20 | G451520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 1.5 | 20 | G451520"
     },
     {
      "key": "sand/binder",
@@ -1899,7 +1899,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 20 | G51520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 20 | G51520"
     },
     {
      "material": "sand",
@@ -1913,7 +1913,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 20 | G51520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 20 | G51520"
     },
     {
      "material": "naoh",
@@ -1927,13 +1927,13 @@
      "key": "water/binder",
      "value": 0.5,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 20 | G51520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 20 | G51520"
     },
     {
      "key": "activator-modulus",
      "value": 1.5,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 20 | G51520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 1.5 | 20 | G51520"
     },
     {
      "key": "sand/binder",
@@ -1953,7 +1953,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 20 | G551520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 20 | G551520"
     },
     {
      "material": "sand",
@@ -1967,7 +1967,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 20 | G551520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 20 | G551520"
     },
     {
      "material": "naoh",
@@ -1981,13 +1981,13 @@
      "key": "water/binder",
      "value": 0.55,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 20 | G551520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 20 | G551520"
     },
     {
      "key": "activator-modulus",
      "value": 1.5,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 20 | G551520"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 1.5 | 20 | G551520"
     },
     {
      "key": "sand/binder",
@@ -2007,7 +2007,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 10 | A45210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 10 | A45210"
     },
     {
      "material": "sand",
@@ -2021,7 +2021,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 10 | A45210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 10 | A45210"
     },
     {
      "material": "naoh",
@@ -2035,13 +2035,13 @@
      "key": "water/binder",
      "value": 0.45,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 10 | A45210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 10 | A45210"
     },
     {
      "key": "activator-modulus",
      "value": 2,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 10 | A45210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 10 | A45210"
     },
     {
      "key": "sand/binder",
@@ -2061,7 +2061,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 10 | A5210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 10 | A5210"
     },
     {
      "material": "sand",
@@ -2075,7 +2075,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 10 | A5210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 10 | A5210"
     },
     {
      "material": "naoh",
@@ -2089,13 +2089,13 @@
      "key": "water/binder",
      "value": 0.5,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 10 | A5210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 10 | A5210"
     },
     {
      "key": "activator-modulus",
      "value": 2,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 10 | A5210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 10 | A5210"
     },
     {
      "key": "sand/binder",
@@ -2115,7 +2115,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 10 | A55210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 10 | A55210"
     },
     {
      "material": "sand",
@@ -2129,7 +2129,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 10 | A55210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 10 | A55210"
     },
     {
      "material": "naoh",
@@ -2143,13 +2143,13 @@
      "key": "water/binder",
      "value": 0.55,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 10 | A55210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 10 | A55210"
     },
     {
      "key": "activator-modulus",
      "value": 2,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 10 | A55210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 10 | A55210"
     },
     {
      "key": "sand/binder",
@@ -2169,7 +2169,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 10 | G45210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 10 | G45210"
     },
     {
      "material": "sand",
@@ -2183,7 +2183,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 10 | G45210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 10 | G45210"
     },
     {
      "material": "naoh",
@@ -2197,13 +2197,13 @@
      "key": "water/binder",
      "value": 0.45,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 10 | G45210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 10 | G45210"
     },
     {
      "key": "activator-modulus",
      "value": 2,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 10 | G45210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 10 | G45210"
     },
     {
      "key": "sand/binder",
@@ -2223,7 +2223,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 10 | G5210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 10 | G5210"
     },
     {
      "material": "sand",
@@ -2237,7 +2237,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 10 | G5210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 10 | G5210"
     },
     {
      "material": "naoh",
@@ -2251,13 +2251,13 @@
      "key": "water/binder",
      "value": 0.5,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 10 | G5210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 10 | G5210"
     },
     {
      "key": "activator-modulus",
      "value": 2,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 10 | G5210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 10 | G5210"
     },
     {
      "key": "sand/binder",
@@ -2277,7 +2277,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 10 | G55210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 10 | G55210"
     },
     {
      "material": "sand",
@@ -2291,7 +2291,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 10 | G55210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 10 | G55210"
     },
     {
      "material": "naoh",
@@ -2305,13 +2305,13 @@
      "key": "water/binder",
      "value": 0.55,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 10 | G55210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 10 | G55210"
     },
     {
      "key": "activator-modulus",
      "value": 2,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 10 | G55210"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 10 | G55210"
     },
     {
      "key": "sand/binder",
@@ -2331,7 +2331,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 15 | A45215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 15 | A45215"
     },
     {
      "material": "sand",
@@ -2345,7 +2345,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 15 | A45215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 15 | A45215"
     },
     {
      "material": "naoh",
@@ -2359,13 +2359,13 @@
      "key": "water/binder",
      "value": 0.45,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 15 | A45215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 15 | A45215"
     },
     {
      "key": "activator-modulus",
      "value": 2,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 15 | A45215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 15 | A45215"
     },
     {
      "key": "sand/binder",
@@ -2385,7 +2385,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 15 | A5215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 15 | A5215"
     },
     {
      "material": "sand",
@@ -2399,7 +2399,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 15 | A5215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 15 | A5215"
     },
     {
      "material": "naoh",
@@ -2413,13 +2413,13 @@
      "key": "water/binder",
      "value": 0.5,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 15 | A5215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 15 | A5215"
     },
     {
      "key": "activator-modulus",
      "value": 2,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 15 | A5215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 15 | A5215"
     },
     {
      "key": "sand/binder",
@@ -2439,7 +2439,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 15 | A55215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 15 | A55215"
     },
     {
      "material": "sand",
@@ -2453,7 +2453,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 15 | A55215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 15 | A55215"
     },
     {
      "material": "naoh",
@@ -2467,13 +2467,13 @@
      "key": "water/binder",
      "value": 0.55,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 15 | A55215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 15 | A55215"
     },
     {
      "key": "activator-modulus",
      "value": 2,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 15 | A55215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 15 | A55215"
     },
     {
      "key": "sand/binder",
@@ -2493,7 +2493,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 15 | G45215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 15 | G45215"
     },
     {
      "material": "sand",
@@ -2507,7 +2507,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 15 | G45215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 15 | G45215"
     },
     {
      "material": "naoh",
@@ -2521,13 +2521,13 @@
      "key": "water/binder",
      "value": 0.45,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 15 | G45215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 15 | G45215"
     },
     {
      "key": "activator-modulus",
      "value": 2,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 15 | G45215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 15 | G45215"
     },
     {
      "key": "sand/binder",
@@ -2547,7 +2547,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 15 | G5215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 15 | G5215"
     },
     {
      "material": "sand",
@@ -2561,7 +2561,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 15 | G5215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 15 | G5215"
     },
     {
      "material": "naoh",
@@ -2575,13 +2575,13 @@
      "key": "water/binder",
      "value": 0.5,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 15 | G5215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 15 | G5215"
     },
     {
      "key": "activator-modulus",
      "value": 2,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 15 | G5215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 15 | G5215"
     },
     {
      "key": "sand/binder",
@@ -2601,7 +2601,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 15 | G55215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 15 | G55215"
     },
     {
      "material": "sand",
@@ -2615,7 +2615,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 15 | G55215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 15 | G55215"
     },
     {
      "material": "naoh",
@@ -2629,13 +2629,13 @@
      "key": "water/binder",
      "value": 0.55,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 15 | G55215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 15 | G55215"
     },
     {
      "key": "activator-modulus",
      "value": 2,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 15 | G55215"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 15 | G55215"
     },
     {
      "key": "sand/binder",
@@ -2655,7 +2655,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 20 | A45220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 20 | A45220"
     },
     {
      "material": "sand",
@@ -2669,7 +2669,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 20 | A45220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 20 | A45220"
     },
     {
      "material": "naoh",
@@ -2683,13 +2683,13 @@
      "key": "water/binder",
      "value": 0.45,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 20 | A45220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 20 | A45220"
     },
     {
      "key": "activator-modulus",
      "value": 2,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 20 | A45220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.45 → 2 | 20 | A45220"
     },
     {
      "key": "sand/binder",
@@ -2709,7 +2709,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 20 | A5220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 20 | A5220"
     },
     {
      "material": "sand",
@@ -2723,7 +2723,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 20 | A5220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 20 | A5220"
     },
     {
      "material": "naoh",
@@ -2737,13 +2737,13 @@
      "key": "water/binder",
      "value": 0.5,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 20 | A5220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 20 | A5220"
     },
     {
      "key": "activator-modulus",
      "value": 2,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 20 | A5220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.5 → 2 | 20 | A5220"
     },
     {
      "key": "sand/binder",
@@ -2763,7 +2763,7 @@
      "material": "acbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 20 | A55220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 20 | A55220"
     },
     {
      "material": "sand",
@@ -2777,7 +2777,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 20 | A55220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 20 | A55220"
     },
     {
      "material": "naoh",
@@ -2791,13 +2791,13 @@
      "key": "water/binder",
      "value": 0.55,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 20 | A55220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 20 | A55220"
     },
     {
      "key": "activator-modulus",
      "value": 2,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 20 | A55220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | MCA-ACBFS Water/Binder 0.55 → 2 | 20 | A55220"
     },
     {
      "key": "sand/binder",
@@ -2817,7 +2817,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 20 | G45220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 20 | G45220"
     },
     {
      "material": "sand",
@@ -2831,7 +2831,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 20 | G45220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 20 | G45220"
     },
     {
      "material": "naoh",
@@ -2845,13 +2845,13 @@
      "key": "water/binder",
      "value": 0.45,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 20 | G45220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 20 | G45220"
     },
     {
      "key": "activator-modulus",
      "value": 2,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 20 | G45220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.45 → 2 | 20 | G45220"
     },
     {
      "key": "sand/binder",
@@ -2871,7 +2871,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 20 | G5220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 20 | G5220"
     },
     {
      "material": "sand",
@@ -2885,7 +2885,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 20 | G5220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 20 | G5220"
     },
     {
      "material": "naoh",
@@ -2899,13 +2899,13 @@
      "key": "water/binder",
      "value": 0.5,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 20 | G5220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 20 | G5220"
     },
     {
      "key": "activator-modulus",
      "value": 2,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 20 | G5220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.5 → 2 | 20 | G5220"
     },
     {
      "key": "sand/binder",
@@ -2925,7 +2925,7 @@
      "material": "ggbfs",
      "value": null,
      "missing": "sole precursor; mass not tabulated",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 20 | G55220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 20 | G55220"
     },
     {
      "material": "sand",
@@ -2939,7 +2939,7 @@
      "unit": "wt%",
      "basis": "binder-as-defined",
      "basisNote": "SS dose as wt.% of the binder content calculated as a solid material",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 20 | G55220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 20 | G55220"
     },
     {
      "material": "naoh",
@@ -2953,13 +2953,13 @@
      "key": "water/binder",
      "value": 0.55,
      "basisNote": "water in the silicate solution was subtracted from the calculated w/b",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 20 | G55220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 20 | G55220"
     },
     {
      "key": "activator-modulus",
      "value": 2,
      "basisNote": "mass ratio SiO2/Na2O, not molar",
-     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS.): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 20 | G55220"
+     "text": "Table 2 (Mix composition and sample identification. MCA-ACBFS: Mechanically activated ACBFS): Alkali Modulus | SS (wt.%) | GGBFS Water/Binder 0.55 → 2 | 20 | G55220"
     },
     {
      "key": "sand/binder",
@@ -2987,10 +2987,10 @@
  "findings": [],
  "notes": [],
  "gaps": [
-  "Each mix quote joins the Table 2 row cells (alkali modulus, SS wt.%, label) with the column header (precursor, water/binder) that the label sits under; the label codes (e.g. A45110 = ACBFS, w/b 0.45, AM 1, SS 10%) confirm the reading.",
+  "Each mix quote joins the Table 2 row cells (alkali modulus, SS wt.%, label) with the stacked column header (precursor, water/binder) that the label sits under; the generator checks every label code (e.g. A45110 = ACBFS, w/b 0.45, AM 1, SS 10%) against its row and column.",
   "Mortar made with untreated ACBFS did not solidify and has no label ('Mortar, produced using only the not-treated ACBFS as a precursor, did not solidified.').",
   "Per-mix 7- and 28-day strength and mini-slump flow appear only in Figures 6–9; the text gives group ranges (MCA-ACBFS 20–40 MPa, GGBFS 20–30 MPa at AM 1 and SS 10%) without mix labels.",
   "The printed mill ball diameter (200 mm in a 500 mL jar) is inconsistent and stays held, as in the deep dive.",
-  "Every value awaits the second-reviewer check recorded in the batch audit before release."
+  "Second review (26 Oct 2026): 0 value errors; see the batch audit."
  ]
 }
