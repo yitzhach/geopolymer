@@ -1,0 +1,800 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "xrd-strength-screening-boundary",
+ "doi": "10.3390/ma18092093",
+ "basis": "source-text",
+ "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12072858/",
+ "accessed": "2026-11-02",
+ "audit": "research/batches/source-text-batch3-2026-11-02.json",
+ "scope": "All fifteen formulations (three per fly ash, four or five per metakaolin) with their target Si/Al and Na/Al (Table 4) and approximately 48-hour compressive strength (Table 5). Peak shift and zeolite presence are not transcribed.",
+ "made": "2026-11-02",
+ "madeBy": "AI transcription · mix-sheet skill v1 (source-text pilot)",
+ "materials": [
+  {
+   "id": "mk1",
+   "family": "metakaolin",
+   "role": "precursor",
+   "name": "MK1",
+   "aliases": [
+    "MK 1"
+   ],
+   "detail": "The kaolin samples were chosen because they provide a clearer definition of the amorphous hump in their XRD patterns after calcining at 750 °C for 8 h"
+  },
+  {
+   "id": "mk2",
+   "family": "metakaolin",
+   "role": "precursor",
+   "name": "MK2",
+   "aliases": [
+    "MK 2"
+   ]
+  },
+  {
+   "id": "fa1",
+   "family": "fly-ash",
+   "role": "precursor",
+   "name": "FA1",
+   "aliases": [
+    "FA 1"
+   ],
+   "detail": "two fly ash samples (Synergy power station, sampled in 2022 and 2023, Muja, Australia)"
+  },
+  {
+   "id": "fa2",
+   "family": "fly-ash",
+   "role": "precursor",
+   "name": "FA2",
+   "aliases": [
+    "FA 2"
+   ]
+  },
+  {
+   "id": "naoh",
+   "family": "sodium-hydroxide",
+   "role": "activator",
+   "name": "NaOH pellets",
+   "aliases": [
+    "NaOH"
+   ],
+   "detail": "NaOH pellets (≥99 wt.%, Rowe Scientific)"
+  }
+ ],
+ "mixes": [
+  {
+   "id": "FA1 1.2 (1)",
+   "aliases": [
+    "FA 1 / Sample ID 1.2 (1)"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "fa1",
+     "value": null,
+     "missing": "mass not given; the formulation is specified by target molar ratios",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → FA1 | 1.2 | 1.0 | 6.34"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "mass not given; NaOH alone or with silicate or aluminate, per formulation not stated",
+     "text": "This necessitated using NaOH, NaOH + Na silicate, and NaOH + Na aluminate to achieve the targeted range of Si/Al values (Table 4)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Si/Al",
+     "value": 1.2,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → FA1 | 1.2 | 1.0 | 6.34"
+    },
+    {
+     "key": "Na/Al",
+     "value": 1,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → FA1 | 1.2 | 1.0 | 6.34"
+    }
+   ]
+  },
+  {
+   "id": "FA1 2.4 (1)",
+   "aliases": [
+    "FA 1 / Sample ID 2.4 (1)"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "fa1",
+     "value": null,
+     "missing": "mass not given; the formulation is specified by target molar ratios",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → FA1 | 2.4 | 1.0 | 5.48"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "mass not given; NaOH alone or with silicate or aluminate, per formulation not stated",
+     "text": "This necessitated using NaOH, NaOH + Na silicate, and NaOH + Na aluminate to achieve the targeted range of Si/Al values (Table 4)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Si/Al",
+     "value": 2.4,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → FA1 | 2.4 | 1.0 | 5.48"
+    },
+    {
+     "key": "Na/Al",
+     "value": 1,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → FA1 | 2.4 | 1.0 | 5.48"
+    }
+   ]
+  },
+  {
+   "id": "FA1 3 (1)",
+   "aliases": [
+    "FA 1 / Sample ID 3 (1)"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "fa1",
+     "value": null,
+     "missing": "mass not given; the formulation is specified by target molar ratios",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → FA1 | 3.0 | 1.0 | 4.68"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "mass not given; NaOH alone or with silicate or aluminate, per formulation not stated",
+     "text": "This necessitated using NaOH, NaOH + Na silicate, and NaOH + Na aluminate to achieve the targeted range of Si/Al values (Table 4)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Si/Al",
+     "value": 3,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → FA1 | 3.0 | 1.0 | 4.68"
+    },
+    {
+     "key": "Na/Al",
+     "value": 1,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → FA1 | 3.0 | 1.0 | 4.68"
+    }
+   ]
+  },
+  {
+   "id": "FA2 1.6 (1)",
+   "aliases": [
+    "FA 2 / Sample ID 1.6 (1)"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "fa2",
+     "value": null,
+     "missing": "mass not given; the formulation is specified by target molar ratios",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → FA2 | 1.6 | 1.0 | 4.65"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "mass not given; NaOH alone or with silicate or aluminate, per formulation not stated",
+     "text": "This necessitated using NaOH, NaOH + Na silicate, and NaOH + Na aluminate to achieve the targeted range of Si/Al values (Table 4)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Si/Al",
+     "value": 1.6,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → FA2 | 1.6 | 1.0 | 4.65"
+    },
+    {
+     "key": "Na/Al",
+     "value": 1,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → FA2 | 1.6 | 1.0 | 4.65"
+    }
+   ]
+  },
+  {
+   "id": "FA2 2.4 (1)",
+   "aliases": [
+    "FA 2 / Sample ID 2.4 (1)"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "fa2",
+     "value": null,
+     "missing": "mass not given; the formulation is specified by target molar ratios",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → FA2 | 2.4 | 1.0 | 4.27"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "mass not given; NaOH alone or with silicate or aluminate, per formulation not stated",
+     "text": "This necessitated using NaOH, NaOH + Na silicate, and NaOH + Na aluminate to achieve the targeted range of Si/Al values (Table 4)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Si/Al",
+     "value": 2.4,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → FA2 | 2.4 | 1.0 | 4.27"
+    },
+    {
+     "key": "Na/Al",
+     "value": 1,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → FA2 | 2.4 | 1.0 | 4.27"
+    }
+   ]
+  },
+  {
+   "id": "FA2 3 (1)",
+   "aliases": [
+    "FA 2 / Sample ID 3 (1)"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "fa2",
+     "value": null,
+     "missing": "mass not given; the formulation is specified by target molar ratios",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → FA2 | 3.0 | 1.0 | 3.69"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "mass not given; NaOH alone or with silicate or aluminate, per formulation not stated",
+     "text": "This necessitated using NaOH, NaOH + Na silicate, and NaOH + Na aluminate to achieve the targeted range of Si/Al values (Table 4)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Si/Al",
+     "value": 3,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → FA2 | 3.0 | 1.0 | 3.69"
+    },
+    {
+     "key": "Na/Al",
+     "value": 1,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → FA2 | 3.0 | 1.0 | 3.69"
+    }
+   ]
+  },
+  {
+   "id": "MK1 1.8 (1)",
+   "aliases": [
+    "MK 1 / Sample ID 1.8 (1)"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk1",
+     "value": null,
+     "missing": "mass not given; the formulation is specified by target molar ratios",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK1 | 1.8 | 1.0 | 5.02"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "mass not given; NaOH alone or with silicate or aluminate, per formulation not stated",
+     "text": "This necessitated using NaOH, NaOH + Na silicate, and NaOH + Na aluminate to achieve the targeted range of Si/Al values (Table 4)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Si/Al",
+     "value": 1.8,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK1 | 1.8 | 1.0 | 5.02"
+    },
+    {
+     "key": "Na/Al",
+     "value": 1,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK1 | 1.8 | 1.0 | 5.02"
+    }
+   ]
+  },
+  {
+   "id": "MK1 1.6 (0.8)",
+   "aliases": [
+    "MK 1 / Sample ID 1.6 (0.8)"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk1",
+     "value": null,
+     "missing": "mass not given; the formulation is specified by target molar ratios",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK1 | 1.6 | 0.8 | 5.34"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "mass not given; NaOH alone or with silicate or aluminate, per formulation not stated",
+     "text": "This necessitated using NaOH, NaOH + Na silicate, and NaOH + Na aluminate to achieve the targeted range of Si/Al values (Table 4)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Si/Al",
+     "value": 1.6,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK1 | 1.6 | 0.8 | 5.34"
+    },
+    {
+     "key": "Na/Al",
+     "value": 0.8,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK1 | 1.6 | 0.8 | 5.34"
+    }
+   ]
+  },
+  {
+   "id": "MK1 1.2 (0.6)",
+   "aliases": [
+    "MK 1 / Sample ID 1.2 (0.6)"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk1",
+     "value": null,
+     "missing": "mass not given; the formulation is specified by target molar ratios",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK1 | 1.2 | 0.6 | 6.22"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "mass not given; NaOH alone or with silicate or aluminate, per formulation not stated",
+     "text": "This necessitated using NaOH, NaOH + Na silicate, and NaOH + Na aluminate to achieve the targeted range of Si/Al values (Table 4)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Si/Al",
+     "value": 1.2,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK1 | 1.2 | 0.6 | 6.22"
+    },
+    {
+     "key": "Na/Al",
+     "value": 0.6,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK1 | 1.2 | 0.6 | 6.22"
+    }
+   ]
+  },
+  {
+   "id": "MK1 1.7 (0.6)",
+   "aliases": [
+    "MK 1 / Sample ID 1.7 (0.6)"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk1",
+     "value": null,
+     "missing": "mass not given; the formulation is specified by target molar ratios",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK1 | 1.7 | 0.6 | 5.15"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "mass not given; NaOH alone or with silicate or aluminate, per formulation not stated",
+     "text": "This necessitated using NaOH, NaOH + Na silicate, and NaOH + Na aluminate to achieve the targeted range of Si/Al values (Table 4)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Si/Al",
+     "value": 1.7,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK1 | 1.7 | 0.6 | 5.15"
+    },
+    {
+     "key": "Na/Al",
+     "value": 0.6,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK1 | 1.7 | 0.6 | 5.15"
+    }
+   ]
+  },
+  {
+   "id": "MK2 1.2 (0.6)",
+   "aliases": [
+    "MK 2 / Sample ID 1.2 (0.6)"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk2",
+     "value": null,
+     "missing": "mass not given; the formulation is specified by target molar ratios",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK2 | 1.2 | 0.6 | 6.50"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "mass not given; NaOH alone or with silicate or aluminate, per formulation not stated",
+     "text": "This necessitated using NaOH, NaOH + Na silicate, and NaOH + Na aluminate to achieve the targeted range of Si/Al values (Table 4)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Si/Al",
+     "value": 1.2,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK2 | 1.2 | 0.6 | 6.50"
+    },
+    {
+     "key": "Na/Al",
+     "value": 0.6,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK2 | 1.2 | 0.6 | 6.50"
+    }
+   ]
+  },
+  {
+   "id": "MK2 1.4 (0.7)",
+   "aliases": [
+    "MK 2 / Sample ID 1.4 (0.7)"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk2",
+     "value": null,
+     "missing": "mass not given; the formulation is specified by target molar ratios",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK2 | 1.4 | 0.7 | 5.50"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "mass not given; NaOH alone or with silicate or aluminate, per formulation not stated",
+     "text": "This necessitated using NaOH, NaOH + Na silicate, and NaOH + Na aluminate to achieve the targeted range of Si/Al values (Table 4)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Si/Al",
+     "value": 1.4,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK2 | 1.4 | 0.7 | 5.50"
+    },
+    {
+     "key": "Na/Al",
+     "value": 0.7,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK2 | 1.4 | 0.7 | 5.50"
+    }
+   ]
+  },
+  {
+   "id": "MK2 1.6 (0.8)",
+   "aliases": [
+    "MK 2 / Sample ID 1.6 (0.8)"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk2",
+     "value": null,
+     "missing": "mass not given; the formulation is specified by target molar ratios",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK2 | 1.6 | 0.8 | 5.50"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "mass not given; NaOH alone or with silicate or aluminate, per formulation not stated",
+     "text": "This necessitated using NaOH, NaOH + Na silicate, and NaOH + Na aluminate to achieve the targeted range of Si/Al values (Table 4)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Si/Al",
+     "value": 1.6,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK2 | 1.6 | 0.8 | 5.50"
+    },
+    {
+     "key": "Na/Al",
+     "value": 0.8,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK2 | 1.6 | 0.8 | 5.50"
+    }
+   ]
+  },
+  {
+   "id": "MK2 1.8 (0.9)",
+   "aliases": [
+    "MK 2 / Sample ID 1.8 (0.9)"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk2",
+     "value": null,
+     "missing": "mass not given; the formulation is specified by target molar ratios",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK2 | 1.8 | 0.9 | 5.50"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "mass not given; NaOH alone or with silicate or aluminate, per formulation not stated",
+     "text": "This necessitated using NaOH, NaOH + Na silicate, and NaOH + Na aluminate to achieve the targeted range of Si/Al values (Table 4)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Si/Al",
+     "value": 1.8,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK2 | 1.8 | 0.9 | 5.50"
+    },
+    {
+     "key": "Na/Al",
+     "value": 0.9,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK2 | 1.8 | 0.9 | 5.50"
+    }
+   ]
+  },
+  {
+   "id": "MK2 2.0 (1)",
+   "aliases": [
+    "MK 2 / Sample ID 2.0 (1)"
+   ],
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk2",
+     "value": null,
+     "missing": "mass not given; the formulation is specified by target molar ratios",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK2 | 2.0 | 1.0 | 5.62"
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "mass not given; NaOH alone or with silicate or aluminate, per formulation not stated",
+     "text": "This necessitated using NaOH, NaOH + Na silicate, and NaOH + Na aluminate to achieve the targeted range of Si/Al values (Table 4)."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "Si/Al",
+     "value": 2,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK2 | 2.0 | 1.0 | 5.62"
+    },
+    {
+     "key": "Na/Al",
+     "value": 1,
+     "basisNote": "target molar ratio",
+     "text": "Table 4 (Geopolymer formulations showing two fly ash and two metakaolin precursors and target Si/Al, Na/Al, and H/Si): Precursor | Si/Al | Na/Al | H/Si → MK2 | 2.0 | 1.0 | 5.62"
+    }
+   ]
+  }
+ ],
+ "cures": [
+  {
+   "id": "c1",
+   "category": "heat",
+   "temperatureC": 70,
+   "duration": 21,
+   "durationUnit": "h",
+   "sealed": true,
+   "humidityPercent": null,
+   "text": "The vials were sealed prior to placing in an oven for curing at 70 °C for 21 h. After curing, the samples were demoulded and sealed in plastic bags and stored for 24 h."
+  }
+ ],
+ "tests": [
+  {
+   "id": "fc",
+   "property": "compressive-strength",
+   "unit": "MPa",
+   "specimen": "25 mL polypropylene vials",
+   "method": "ASTM C39"
+  }
+ ],
+ "results": [
+  {
+   "mix": "FA1 1.2 (1)",
+   "test": "fc",
+   "ageDays": 2,
+   "value": 43,
+   "spread": 5,
+   "text": "Table 5 (Sample ID is given as two numbers. The first is the Si/Al ratio and the second, in brackets, is the Na/Al ratio. For the strength and peak shift, the number in brackets represents the uncertainty of two standard deviations. A tick in the last column indicates that zeolite was present in the microstructure), FA 1 / Sample ID 1.2 (1): MPa → 43 (5)",
+   "ageText": "Approximately 48 h after mixing, the samples were tested for their compressive strengths based on ASTM C39 [47].",
+   "locator": "Table 5 (bracket = two standard deviations)"
+  },
+  {
+   "mix": "FA1 2.4 (1)",
+   "test": "fc",
+   "ageDays": 2,
+   "value": 7,
+   "spread": 2,
+   "text": "Table 5 (Sample ID is given as two numbers. The first is the Si/Al ratio and the second, in brackets, is the Na/Al ratio. For the strength and peak shift, the number in brackets represents the uncertainty of two standard deviations. A tick in the last column indicates that zeolite was present in the microstructure), FA 1 / Sample ID 2.4 (1): MPa → 7 (2)",
+   "ageText": "Approximately 48 h after mixing, the samples were tested for their compressive strengths based on ASTM C39 [47].",
+   "locator": "Table 5 (bracket = two standard deviations)"
+  },
+  {
+   "mix": "FA1 3 (1)",
+   "test": "fc",
+   "ageDays": 2,
+   "value": 33,
+   "spread": 6,
+   "text": "Table 5 (Sample ID is given as two numbers. The first is the Si/Al ratio and the second, in brackets, is the Na/Al ratio. For the strength and peak shift, the number in brackets represents the uncertainty of two standard deviations. A tick in the last column indicates that zeolite was present in the microstructure), FA 1 / Sample ID 3 (1): MPa → 33 (6)",
+   "ageText": "Approximately 48 h after mixing, the samples were tested for their compressive strengths based on ASTM C39 [47].",
+   "locator": "Table 5 (bracket = two standard deviations)"
+  },
+  {
+   "mix": "FA2 1.6 (1)",
+   "test": "fc",
+   "ageDays": 2,
+   "value": 40,
+   "spread": 3,
+   "text": "Table 5 (Sample ID is given as two numbers. The first is the Si/Al ratio and the second, in brackets, is the Na/Al ratio. For the strength and peak shift, the number in brackets represents the uncertainty of two standard deviations. A tick in the last column indicates that zeolite was present in the microstructure), FA 2 / Sample ID 1.6 (1): MPa → 40 (3)",
+   "ageText": "Approximately 48 h after mixing, the samples were tested for their compressive strengths based on ASTM C39 [47].",
+   "locator": "Table 5 (bracket = two standard deviations)"
+  },
+  {
+   "mix": "FA2 2.4 (1)",
+   "test": "fc",
+   "ageDays": 2,
+   "value": 18,
+   "spread": 4,
+   "text": "Table 5 (Sample ID is given as two numbers. The first is the Si/Al ratio and the second, in brackets, is the Na/Al ratio. For the strength and peak shift, the number in brackets represents the uncertainty of two standard deviations. A tick in the last column indicates that zeolite was present in the microstructure), FA 2 / Sample ID 2.4 (1): MPa → 18 (4)",
+   "ageText": "Approximately 48 h after mixing, the samples were tested for their compressive strengths based on ASTM C39 [47].",
+   "locator": "Table 5 (bracket = two standard deviations)"
+  },
+  {
+   "mix": "FA2 3 (1)",
+   "test": "fc",
+   "ageDays": 2,
+   "value": 70,
+   "spread": 9,
+   "text": "Table 5 (Sample ID is given as two numbers. The first is the Si/Al ratio and the second, in brackets, is the Na/Al ratio. For the strength and peak shift, the number in brackets represents the uncertainty of two standard deviations. A tick in the last column indicates that zeolite was present in the microstructure), FA 2 / Sample ID 3 (1): MPa → 70 (9)",
+   "ageText": "Approximately 48 h after mixing, the samples were tested for their compressive strengths based on ASTM C39 [47].",
+   "locator": "Table 5 (bracket = two standard deviations)"
+  },
+  {
+   "mix": "MK1 1.8 (1)",
+   "test": "fc",
+   "ageDays": 2,
+   "value": 100,
+   "spread": 10,
+   "text": "Table 5 (Sample ID is given as two numbers. The first is the Si/Al ratio and the second, in brackets, is the Na/Al ratio. For the strength and peak shift, the number in brackets represents the uncertainty of two standard deviations. A tick in the last column indicates that zeolite was present in the microstructure), MK 1 / Sample ID 1.8 (1): MPa → 100 (10)",
+   "ageText": "Approximately 48 h after mixing, the samples were tested for their compressive strengths based on ASTM C39 [47].",
+   "locator": "Table 5 (bracket = two standard deviations)"
+  },
+  {
+   "mix": "MK1 1.6 (0.8)",
+   "test": "fc",
+   "ageDays": 2,
+   "value": 76,
+   "spread": 14,
+   "text": "Table 5 (Sample ID is given as two numbers. The first is the Si/Al ratio and the second, in brackets, is the Na/Al ratio. For the strength and peak shift, the number in brackets represents the uncertainty of two standard deviations. A tick in the last column indicates that zeolite was present in the microstructure), MK 1 / Sample ID 1.6 (0.8): MPa → 76 (14)",
+   "ageText": "Approximately 48 h after mixing, the samples were tested for their compressive strengths based on ASTM C39 [47].",
+   "locator": "Table 5 (bracket = two standard deviations)"
+  },
+  {
+   "mix": "MK1 1.2 (0.6)",
+   "test": "fc",
+   "ageDays": 2,
+   "value": 33,
+   "spread": 6,
+   "text": "Table 5 (Sample ID is given as two numbers. The first is the Si/Al ratio and the second, in brackets, is the Na/Al ratio. For the strength and peak shift, the number in brackets represents the uncertainty of two standard deviations. A tick in the last column indicates that zeolite was present in the microstructure), MK 1 / Sample ID 1.2 (0.6): MPa → 33 (6)",
+   "ageText": "Approximately 48 h after mixing, the samples were tested for their compressive strengths based on ASTM C39 [47].",
+   "locator": "Table 5 (bracket = two standard deviations)"
+  },
+  {
+   "mix": "MK1 1.7 (0.6)",
+   "test": "fc",
+   "ageDays": 2,
+   "value": 4,
+   "spread": 1,
+   "text": "Table 5 (Sample ID is given as two numbers. The first is the Si/Al ratio and the second, in brackets, is the Na/Al ratio. For the strength and peak shift, the number in brackets represents the uncertainty of two standard deviations. A tick in the last column indicates that zeolite was present in the microstructure), MK 1 / Sample ID 1.7 (0.6): MPa → 4 (1)",
+   "ageText": "Approximately 48 h after mixing, the samples were tested for their compressive strengths based on ASTM C39 [47].",
+   "locator": "Table 5 (bracket = two standard deviations)"
+  },
+  {
+   "mix": "MK2 1.2 (0.6)",
+   "test": "fc",
+   "ageDays": 2,
+   "value": 3,
+   "spread": 1,
+   "text": "Table 5 (Sample ID is given as two numbers. The first is the Si/Al ratio and the second, in brackets, is the Na/Al ratio. For the strength and peak shift, the number in brackets represents the uncertainty of two standard deviations. A tick in the last column indicates that zeolite was present in the microstructure), MK 2 / Sample ID 1.2 (0.6): MPa → 3 (1)",
+   "ageText": "Approximately 48 h after mixing, the samples were tested for their compressive strengths based on ASTM C39 [47].",
+   "locator": "Table 5 (bracket = two standard deviations)"
+  },
+  {
+   "mix": "MK2 1.4 (0.7)",
+   "test": "fc",
+   "ageDays": 2,
+   "value": 57,
+   "spread": 9,
+   "text": "Table 5 (Sample ID is given as two numbers. The first is the Si/Al ratio and the second, in brackets, is the Na/Al ratio. For the strength and peak shift, the number in brackets represents the uncertainty of two standard deviations. A tick in the last column indicates that zeolite was present in the microstructure), MK 2 / Sample ID 1.4 (0.7): MPa → 57 (9)",
+   "ageText": "Approximately 48 h after mixing, the samples were tested for their compressive strengths based on ASTM C39 [47].",
+   "locator": "Table 5 (bracket = two standard deviations)"
+  },
+  {
+   "mix": "MK2 1.6 (0.8)",
+   "test": "fc",
+   "ageDays": 2,
+   "value": 61,
+   "spread": 8,
+   "text": "Table 5 (Sample ID is given as two numbers. The first is the Si/Al ratio and the second, in brackets, is the Na/Al ratio. For the strength and peak shift, the number in brackets represents the uncertainty of two standard deviations. A tick in the last column indicates that zeolite was present in the microstructure), MK 2 / Sample ID 1.6 (0.8): MPa → 61 (8)",
+   "ageText": "Approximately 48 h after mixing, the samples were tested for their compressive strengths based on ASTM C39 [47].",
+   "locator": "Table 5 (bracket = two standard deviations)"
+  },
+  {
+   "mix": "MK2 1.8 (0.9)",
+   "test": "fc",
+   "ageDays": 2,
+   "value": 55,
+   "spread": 6,
+   "text": "Table 5 (Sample ID is given as two numbers. The first is the Si/Al ratio and the second, in brackets, is the Na/Al ratio. For the strength and peak shift, the number in brackets represents the uncertainty of two standard deviations. A tick in the last column indicates that zeolite was present in the microstructure), MK 2 / Sample ID 1.8 (0.9): MPa → 55 (6)",
+   "ageText": "Approximately 48 h after mixing, the samples were tested for their compressive strengths based on ASTM C39 [47].",
+   "locator": "Table 5 (bracket = two standard deviations)"
+  },
+  {
+   "mix": "MK2 2.0 (1)",
+   "test": "fc",
+   "ageDays": 2,
+   "value": 73,
+   "spread": 9,
+   "text": "Table 5 (Sample ID is given as two numbers. The first is the Si/Al ratio and the second, in brackets, is the Na/Al ratio. For the strength and peak shift, the number in brackets represents the uncertainty of two standard deviations. A tick in the last column indicates that zeolite was present in the microstructure), MK 2 / Sample ID 2.0 (1): MPa → 73 (9)",
+   "ageText": "Approximately 48 h after mixing, the samples were tested for their compressive strengths based on ASTM C39 [47].",
+   "locator": "Table 5 (bracket = two standard deviations)"
+  }
+ ],
+ "findings": [],
+ "notes": [],
+ "gaps": [
+  "Table 5 sample IDs (\"1.2 (1)\" = Si/Al and Na/Al) repeat under precursor group rows, so the sheet labels each formulation \"<precursor> <ID>\" and each strength quote names its group row (\"FA 1 / Sample ID 1.2 (1)\"); the generator joins every Table 5 row to exactly one Table 4 formulation by precursor, Si/Al and Na/Al.",
+  "Ratios are targets computed on the amount and composition of each precursor's amorphous material. No masses are given; the activator (NaOH alone, or with sodium silicate SiO2/Na2O 2.32 or sodium aluminate) is not stated per formulation. H/Si (water) has no parameter key; total H2O was MK 1 29.1%, MK 2 35.0%, FA 1 18.0%, FA 2 15.0 wt.%.",
+  "Strength brackets are two standard deviations, recorded as spread. Peak shift and zeolite presence (Table 5) are not mix-table properties.",
+  "Second review pending; see the batch audit."
+ ]
+}

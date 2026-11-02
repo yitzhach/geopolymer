@@ -1,0 +1,533 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "ceramic-waste-artistic-restoration",
+ "doi": "10.3390/ma15238600",
+ "basis": "source-text",
+ "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9735710/",
+ "accessed": "2026-11-02",
+ "audit": "research/batches/source-text-batch3-2026-11-02.json",
+ "scope": "All six Table 2 samples (neat MK geopolymer and five waste-filled mortars, wt.% of the batch) with their Table 5 density, water absorption and compressive strength.",
+ "made": "2026-11-02",
+ "madeBy": "AI transcription · mix-sheet skill v1 (source-text pilot)",
+ "materials": [
+  {
+   "id": "mk",
+   "family": "metakaolin",
+   "role": "precursor",
+   "name": "Metakaolin",
+   "aliases": [
+    "BASF Matamax® metakaolin"
+   ]
+  },
+  {
+   "id": "naoh",
+   "family": "sodium-hydroxide",
+   "role": "activator",
+   "name": "NaOH",
+   "detail": "NaOH in pellets was dissolved in the sodium silicate solution to prepare the alkaline activating solution."
+  },
+  {
+   "id": "ss",
+   "family": "sodium-silicate-solution",
+   "role": "activator",
+   "name": "Sodium silicate",
+   "detail": "The chemical composition of the alkaline activating solution is Na2O 1.55 SiO2 12.14 H2O."
+  },
+  {
+   "id": "ps",
+   "family": "ceramic-waste",
+   "role": "aggregate",
+   "name": "Pressed burnt and extruded ceramic waste",
+   "aliases": [
+    "PS"
+   ]
+  },
+  {
+   "id": "rp",
+   "family": "ceramic-waste",
+   "role": "aggregate",
+   "name": "Raw pressed",
+   "aliases": [
+    "RP"
+   ],
+   "detail": "RPdry refers to raw pressed ceramic waste annealed at 750 °C for 5 h in air"
+  },
+  {
+   "id": "gy",
+   "family": "gypsum",
+   "role": "aggregate",
+   "name": "Gypsum",
+   "aliases": [
+    "Gy"
+   ]
+  }
+ ],
+ "mixes": [
+  {
+   "id": "MK",
+   "control": true,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 37.5,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | MK → Metakaolin | 37.5"
+    },
+    {
+     "material": "naoh",
+     "value": 7.2,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | MK → NaOH | 7.2"
+    },
+    {
+     "material": "ss",
+     "value": 55.3,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | MK → Sodium silicate | 55.3"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "liquid/solid",
+     "value": 1.4,
+     "text": "BASF Matamax® metakaolin was then incorporated into the activating solution with a liquid-to-solid ratio of 1.4:1 by weight and mixed by a mechanical mixer for 10 min at 800 rpm"
+    }
+   ]
+  },
+  {
+   "id": "PS-MK",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 11,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | PS-MK → Metakaolin | 11"
+    },
+    {
+     "material": "naoh",
+     "value": 5.2,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | PS-MK → NaOH | 5.2"
+    },
+    {
+     "material": "ss",
+     "value": 40,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | PS-MK → Sodium silicate | 40"
+    },
+    {
+     "material": "ps",
+     "value": 43.8,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | PS-MK → Pressed burnt and extruded ceramic waste | 43.8"
+    }
+   ],
+   "parameters": []
+  },
+  {
+   "id": "RP-MK",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 11.8,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | RP-MK → Metakaolin | 11.8"
+    },
+    {
+     "material": "naoh",
+     "value": 5.6,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | RP-MK → NaOH | 5.6"
+    },
+    {
+     "material": "ss",
+     "value": 43,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | RP-MK → Sodium silicate | 43"
+    },
+    {
+     "material": "rp",
+     "value": 39.6,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | RP-MK → Raw pressed | 39.6"
+    }
+   ],
+   "parameters": []
+  },
+  {
+   "id": "RPdry-MK",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 11.6,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | RPdry-MK (1) → Metakaolin | 11.6"
+    },
+    {
+     "material": "naoh",
+     "value": 5.6,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | RPdry-MK (1) → NaOH | 5.6"
+    },
+    {
+     "material": "ss",
+     "value": 42.7,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | RPdry-MK (1) → Sodium silicate | 42.7"
+    },
+    {
+     "material": "rp",
+     "value": 40.1,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | RPdry-MK (1) → Raw pressed | 40.1"
+    }
+   ],
+   "parameters": []
+  },
+  {
+   "id": "Gy-MK",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 15.3,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | Gy-MK → Metakaolin | 15.3"
+    },
+    {
+     "material": "naoh",
+     "value": 7.3,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | Gy-MK → NaOH | 7.3"
+    },
+    {
+     "material": "ss",
+     "value": 56.1,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | Gy-MK → Sodium silicate | 56.1"
+    },
+    {
+     "material": "gy",
+     "value": 21.3,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | Gy-MK → Gypsum | 21.3"
+    }
+   ],
+   "parameters": []
+  },
+  {
+   "id": "MIX-MK",
+   "control": false,
+   "form": "mortar",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 11,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | MIX-MK → Metakaolin | 11"
+    },
+    {
+     "material": "naoh",
+     "value": 5.2,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | MIX-MK → NaOH | 5.2"
+    },
+    {
+     "material": "ss",
+     "value": 40,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | MIX-MK → Sodium silicate | 40"
+    },
+    {
+     "material": "ps",
+     "value": 20.9,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | MIX-MK → Pressed burnt and extruded ceramic waste | 20.9"
+    },
+    {
+     "material": "rp",
+     "value": 16.3,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | MIX-MK → Raw pressed | 16.3"
+    },
+    {
+     "material": "gy",
+     "value": 6.6,
+     "unit": "wt%",
+     "basis": "total-mass",
+     "text": "Table 2 (Mix design of the geopolymeric samples prepared in this work (MK: neat geopolymer; Gy: gypsum waste; RP: raw pressed ceramic waste; PS: porcelain stoneware waste). In the MIX-MK sample, a mixture of all the used waste was used): Materials (wt.%) | MIX-MK → Gypsum | 6.6"
+    }
+   ],
+   "parameters": []
+  }
+ ],
+ "cures": [
+  {
+   "id": "c1",
+   "category": "heat",
+   "temperatureC": 60,
+   "duration": 24,
+   "durationUnit": "h",
+   "sealed": null,
+   "humidityPercent": null,
+   "text": "As soon as prepared, all the specimens were cast in cubic moulds (50 × 50 × 50 mm3) and cured in >95% relative humidity conditions at 60 °C for 24 h. Subsequently, the specimens were kept at room temperature for a further 6 days in >95% relative humidity conditions, and then for a further 21 days in air"
+  }
+ ],
+ "tests": [
+  {
+   "id": "rho",
+   "property": "density",
+   "unit": "kg/m3",
+   "specimen": "cubes",
+   "method": null
+  },
+  {
+   "id": "wa",
+   "property": "water-absorption",
+   "unit": "%",
+   "specimen": "cubes",
+   "method": null
+  },
+  {
+   "id": "fc",
+   "property": "compressive-strength",
+   "unit": "MPa",
+   "specimen": "40 × 40 × 40 mm3 cubes, mean of 5",
+   "method": "EN 196-1"
+  }
+ ],
+ "results": [
+  {
+   "mix": "MK",
+   "test": "rho",
+   "ageDays": null,
+   "ageNote": "age not stated; specimens followed the 28-day curing schedule",
+   "value": 1370,
+   "text": "Table 5 (Physical and mechanical properties of the geopolymer sample (MK) and geopolymeric mortars obtained with porcelain stoneware waste (PS-MK), raw pressed waste (RP-MK), calcined raw pressed waste (RPdry-MK), and gypsum (Gy-MK) as filler, and of the geopolymeric mortar with the mixed filler whose composition is reported in Table 2 (MIX-MK). The calcined raw pressed clay (RPdry) was obtained by annealing as obtained raw pressed clay (RP) in an oven at 750 °C for 5 h): Sample Properties | MK → Density (kg/m3) | 1370",
+   "locator": "Table 5 (± definition not stated)"
+  },
+  {
+   "mix": "PS-MK",
+   "test": "rho",
+   "ageDays": null,
+   "ageNote": "age not stated; specimens followed the 28-day curing schedule",
+   "value": 1773,
+   "spread": 95,
+   "text": "Table 5 (Physical and mechanical properties of the geopolymer sample (MK) and geopolymeric mortars obtained with porcelain stoneware waste (PS-MK), raw pressed waste (RP-MK), calcined raw pressed waste (RPdry-MK), and gypsum (Gy-MK) as filler, and of the geopolymeric mortar with the mixed filler whose composition is reported in Table 2 (MIX-MK). The calcined raw pressed clay (RPdry) was obtained by annealing as obtained raw pressed clay (RP) in an oven at 750 °C for 5 h): Sample Properties | PS-MK → Density (kg/m3) | 1773 ± 95",
+   "locator": "Table 5 (± definition not stated)"
+  },
+  {
+   "mix": "RP-MK",
+   "test": "rho",
+   "ageDays": null,
+   "ageNote": "age not stated; specimens followed the 28-day curing schedule",
+   "value": 1718,
+   "spread": 80,
+   "text": "Table 5 (Physical and mechanical properties of the geopolymer sample (MK) and geopolymeric mortars obtained with porcelain stoneware waste (PS-MK), raw pressed waste (RP-MK), calcined raw pressed waste (RPdry-MK), and gypsum (Gy-MK) as filler, and of the geopolymeric mortar with the mixed filler whose composition is reported in Table 2 (MIX-MK). The calcined raw pressed clay (RPdry) was obtained by annealing as obtained raw pressed clay (RP) in an oven at 750 °C for 5 h): Sample Properties | RP-MK → Density (kg/m3) | 1718 ± 80",
+   "locator": "Table 5 (± definition not stated)"
+  },
+  {
+   "mix": "RPdry-MK",
+   "test": "rho",
+   "ageDays": null,
+   "ageNote": "age not stated; specimens followed the 28-day curing schedule",
+   "value": 1687,
+   "spread": 90,
+   "text": "Table 5 (Physical and mechanical properties of the geopolymer sample (MK) and geopolymeric mortars obtained with porcelain stoneware waste (PS-MK), raw pressed waste (RP-MK), calcined raw pressed waste (RPdry-MK), and gypsum (Gy-MK) as filler, and of the geopolymeric mortar with the mixed filler whose composition is reported in Table 2 (MIX-MK). The calcined raw pressed clay (RPdry) was obtained by annealing as obtained raw pressed clay (RP) in an oven at 750 °C for 5 h): Sample Properties | RPdry-MK → Density (kg/m3) | 1687 ± 90",
+   "locator": "Table 5 (± definition not stated)"
+  },
+  {
+   "mix": "Gy-MK",
+   "test": "rho",
+   "ageDays": null,
+   "ageNote": "age not stated; specimens followed the 28-day curing schedule",
+   "value": 1335,
+   "spread": 99,
+   "text": "Table 5 (Physical and mechanical properties of the geopolymer sample (MK) and geopolymeric mortars obtained with porcelain stoneware waste (PS-MK), raw pressed waste (RP-MK), calcined raw pressed waste (RPdry-MK), and gypsum (Gy-MK) as filler, and of the geopolymeric mortar with the mixed filler whose composition is reported in Table 2 (MIX-MK). The calcined raw pressed clay (RPdry) was obtained by annealing as obtained raw pressed clay (RP) in an oven at 750 °C for 5 h): Sample Properties | Gy-MK → Density (kg/m3) | 1335 ± 99",
+   "locator": "Table 5 (± definition not stated)"
+  },
+  {
+   "mix": "MIX-MK",
+   "test": "rho",
+   "ageDays": null,
+   "ageNote": "age not stated; specimens followed the 28-day curing schedule",
+   "value": 1627,
+   "spread": 77,
+   "text": "Table 5 (Physical and mechanical properties of the geopolymer sample (MK) and geopolymeric mortars obtained with porcelain stoneware waste (PS-MK), raw pressed waste (RP-MK), calcined raw pressed waste (RPdry-MK), and gypsum (Gy-MK) as filler, and of the geopolymeric mortar with the mixed filler whose composition is reported in Table 2 (MIX-MK). The calcined raw pressed clay (RPdry) was obtained by annealing as obtained raw pressed clay (RP) in an oven at 750 °C for 5 h): Sample Properties | MIX-MK → Density (kg/m3) | 1627 ± 77",
+   "locator": "Table 5 (± definition not stated)"
+  },
+  {
+   "mix": "MK",
+   "test": "wa",
+   "ageDays": null,
+   "ageNote": "age not stated; specimens followed the 28-day curing schedule",
+   "value": 18,
+   "spread": 1,
+   "text": "Table 5 (Physical and mechanical properties of the geopolymer sample (MK) and geopolymeric mortars obtained with porcelain stoneware waste (PS-MK), raw pressed waste (RP-MK), calcined raw pressed waste (RPdry-MK), and gypsum (Gy-MK) as filler, and of the geopolymeric mortar with the mixed filler whose composition is reported in Table 2 (MIX-MK). The calcined raw pressed clay (RPdry) was obtained by annealing as obtained raw pressed clay (RP) in an oven at 750 °C for 5 h): Sample Properties | MK → Water absorption (%) | 18 ± 1",
+   "locator": "Table 5 (± definition not stated)"
+  },
+  {
+   "mix": "PS-MK",
+   "test": "wa",
+   "ageDays": null,
+   "ageNote": "age not stated; specimens followed the 28-day curing schedule",
+   "value": 16,
+   "spread": 1,
+   "text": "Table 5 (Physical and mechanical properties of the geopolymer sample (MK) and geopolymeric mortars obtained with porcelain stoneware waste (PS-MK), raw pressed waste (RP-MK), calcined raw pressed waste (RPdry-MK), and gypsum (Gy-MK) as filler, and of the geopolymeric mortar with the mixed filler whose composition is reported in Table 2 (MIX-MK). The calcined raw pressed clay (RPdry) was obtained by annealing as obtained raw pressed clay (RP) in an oven at 750 °C for 5 h): Sample Properties | PS-MK → Water absorption (%) | 16 ± 1",
+   "locator": "Table 5 (± definition not stated)"
+  },
+  {
+   "mix": "RP-MK",
+   "test": "wa",
+   "ageDays": null,
+   "ageNote": "age not stated; specimens followed the 28-day curing schedule",
+   "value": 18,
+   "spread": 1,
+   "text": "Table 5 (Physical and mechanical properties of the geopolymer sample (MK) and geopolymeric mortars obtained with porcelain stoneware waste (PS-MK), raw pressed waste (RP-MK), calcined raw pressed waste (RPdry-MK), and gypsum (Gy-MK) as filler, and of the geopolymeric mortar with the mixed filler whose composition is reported in Table 2 (MIX-MK). The calcined raw pressed clay (RPdry) was obtained by annealing as obtained raw pressed clay (RP) in an oven at 750 °C for 5 h): Sample Properties | RP-MK → Water absorption (%) | 18 ± 1",
+   "locator": "Table 5 (± definition not stated)"
+  },
+  {
+   "mix": "RPdry-MK",
+   "test": "wa",
+   "ageDays": null,
+   "ageNote": "age not stated; specimens followed the 28-day curing schedule",
+   "value": 19,
+   "spread": 1,
+   "text": "Table 5 (Physical and mechanical properties of the geopolymer sample (MK) and geopolymeric mortars obtained with porcelain stoneware waste (PS-MK), raw pressed waste (RP-MK), calcined raw pressed waste (RPdry-MK), and gypsum (Gy-MK) as filler, and of the geopolymeric mortar with the mixed filler whose composition is reported in Table 2 (MIX-MK). The calcined raw pressed clay (RPdry) was obtained by annealing as obtained raw pressed clay (RP) in an oven at 750 °C for 5 h): Sample Properties | RPdry-MK → Water absorption (%) | 19 ± 1",
+   "locator": "Table 5 (± definition not stated)"
+  },
+  {
+   "mix": "Gy-MK",
+   "test": "wa",
+   "ageDays": null,
+   "ageNote": "age not stated; specimens followed the 28-day curing schedule",
+   "value": 25,
+   "qualifier": "greater-than",
+   "text": "Table 5 (Physical and mechanical properties of the geopolymer sample (MK) and geopolymeric mortars obtained with porcelain stoneware waste (PS-MK), raw pressed waste (RP-MK), calcined raw pressed waste (RPdry-MK), and gypsum (Gy-MK) as filler, and of the geopolymeric mortar with the mixed filler whose composition is reported in Table 2 (MIX-MK). The calcined raw pressed clay (RPdry) was obtained by annealing as obtained raw pressed clay (RP) in an oven at 750 °C for 5 h): Sample Properties | Gy-MK → Water absorption (%) | >25",
+   "locator": "Table 5 (± definition not stated)"
+  },
+  {
+   "mix": "MIX-MK",
+   "test": "wa",
+   "ageDays": null,
+   "ageNote": "age not stated; specimens followed the 28-day curing schedule",
+   "value": 25,
+   "qualifier": "greater-than",
+   "text": "Table 5 (Physical and mechanical properties of the geopolymer sample (MK) and geopolymeric mortars obtained with porcelain stoneware waste (PS-MK), raw pressed waste (RP-MK), calcined raw pressed waste (RPdry-MK), and gypsum (Gy-MK) as filler, and of the geopolymeric mortar with the mixed filler whose composition is reported in Table 2 (MIX-MK). The calcined raw pressed clay (RPdry) was obtained by annealing as obtained raw pressed clay (RP) in an oven at 750 °C for 5 h): Sample Properties | MIX-MK → Water absorption (%) | >25",
+   "locator": "Table 5 (± definition not stated)"
+  },
+  {
+   "mix": "MK",
+   "test": "fc",
+   "ageDays": 28,
+   "ageText": "The tests were performed after 28 days of curing at room temperature, and the values reported are the averages of 5 compression strength values.",
+   "value": 25,
+   "spread": 2,
+   "text": "Table 5 (Physical and mechanical properties of the geopolymer sample (MK) and geopolymeric mortars obtained with porcelain stoneware waste (PS-MK), raw pressed waste (RP-MK), calcined raw pressed waste (RPdry-MK), and gypsum (Gy-MK) as filler, and of the geopolymeric mortar with the mixed filler whose composition is reported in Table 2 (MIX-MK). The calcined raw pressed clay (RPdry) was obtained by annealing as obtained raw pressed clay (RP) in an oven at 750 °C for 5 h): Sample Properties | MK → Compressive strength (MPa) | 25 ± 2",
+   "locator": "Table 5 (± definition not stated)"
+  },
+  {
+   "mix": "PS-MK",
+   "test": "fc",
+   "ageDays": 28,
+   "ageText": "The tests were performed after 28 days of curing at room temperature, and the values reported are the averages of 5 compression strength values.",
+   "value": 30,
+   "spread": 1,
+   "text": "Table 5 (Physical and mechanical properties of the geopolymer sample (MK) and geopolymeric mortars obtained with porcelain stoneware waste (PS-MK), raw pressed waste (RP-MK), calcined raw pressed waste (RPdry-MK), and gypsum (Gy-MK) as filler, and of the geopolymeric mortar with the mixed filler whose composition is reported in Table 2 (MIX-MK). The calcined raw pressed clay (RPdry) was obtained by annealing as obtained raw pressed clay (RP) in an oven at 750 °C for 5 h): Sample Properties | PS-MK → Compressive strength (MPa) | 30 ± 1",
+   "locator": "Table 5 (± definition not stated)"
+  },
+  {
+   "mix": "RP-MK",
+   "test": "fc",
+   "ageDays": 28,
+   "ageText": "The tests were performed after 28 days of curing at room temperature, and the values reported are the averages of 5 compression strength values.",
+   "value": 25,
+   "spread": 3,
+   "text": "Table 5 (Physical and mechanical properties of the geopolymer sample (MK) and geopolymeric mortars obtained with porcelain stoneware waste (PS-MK), raw pressed waste (RP-MK), calcined raw pressed waste (RPdry-MK), and gypsum (Gy-MK) as filler, and of the geopolymeric mortar with the mixed filler whose composition is reported in Table 2 (MIX-MK). The calcined raw pressed clay (RPdry) was obtained by annealing as obtained raw pressed clay (RP) in an oven at 750 °C for 5 h): Sample Properties | RP-MK → Compressive strength (MPa) | 25 ± 3",
+   "locator": "Table 5 (± definition not stated)"
+  },
+  {
+   "mix": "RPdry-MK",
+   "test": "fc",
+   "ageDays": 28,
+   "ageText": "The tests were performed after 28 days of curing at room temperature, and the values reported are the averages of 5 compression strength values.",
+   "value": 41,
+   "spread": 3,
+   "text": "Table 5 (Physical and mechanical properties of the geopolymer sample (MK) and geopolymeric mortars obtained with porcelain stoneware waste (PS-MK), raw pressed waste (RP-MK), calcined raw pressed waste (RPdry-MK), and gypsum (Gy-MK) as filler, and of the geopolymeric mortar with the mixed filler whose composition is reported in Table 2 (MIX-MK). The calcined raw pressed clay (RPdry) was obtained by annealing as obtained raw pressed clay (RP) in an oven at 750 °C for 5 h): Sample Properties | RPdry-MK → Compressive strength (MPa) | 41 ± 3",
+   "locator": "Table 5 (± definition not stated)"
+  },
+  {
+   "mix": "Gy-MK",
+   "test": "fc",
+   "ageDays": 28,
+   "ageText": "The tests were performed after 28 days of curing at room temperature, and the values reported are the averages of 5 compression strength values.",
+   "value": 4,
+   "spread": 0.5,
+   "text": "Table 5 (Physical and mechanical properties of the geopolymer sample (MK) and geopolymeric mortars obtained with porcelain stoneware waste (PS-MK), raw pressed waste (RP-MK), calcined raw pressed waste (RPdry-MK), and gypsum (Gy-MK) as filler, and of the geopolymeric mortar with the mixed filler whose composition is reported in Table 2 (MIX-MK). The calcined raw pressed clay (RPdry) was obtained by annealing as obtained raw pressed clay (RP) in an oven at 750 °C for 5 h): Sample Properties | Gy-MK → Compressive strength (MPa) | 4.0 ± 0.5",
+   "locator": "Table 5 (± definition not stated)"
+  },
+  {
+   "mix": "MIX-MK",
+   "test": "fc",
+   "ageDays": 28,
+   "ageText": "The tests were performed after 28 days of curing at room temperature, and the values reported are the averages of 5 compression strength values.",
+   "value": 38,
+   "spread": 2,
+   "text": "Table 5 (Physical and mechanical properties of the geopolymer sample (MK) and geopolymeric mortars obtained with porcelain stoneware waste (PS-MK), raw pressed waste (RP-MK), calcined raw pressed waste (RPdry-MK), and gypsum (Gy-MK) as filler, and of the geopolymeric mortar with the mixed filler whose composition is reported in Table 2 (MIX-MK). The calcined raw pressed clay (RPdry) was obtained by annealing as obtained raw pressed clay (RP) in an oven at 750 °C for 5 h): Sample Properties | MIX-MK → Compressive strength (MPa) | 38 ± 2",
+   "locator": "Table 5 (± definition not stated)"
+  }
+ ],
+ "findings": [],
+ "notes": [
+  {
+   "mix": "Gy-MK",
+   "kind": "tradeoff",
+   "text": "Table 5 (Physical and mechanical properties of the geopolymer sample (MK) and geopolymeric mortars obtained with porcelain stoneware waste (PS-MK), raw pressed waste (RP-MK), calcined raw pressed waste (RPdry-MK), and gypsum (Gy-MK) as filler, and of the geopolymeric mortar with the mixed filler whose composition is reported in Table 2 (MIX-MK). The calcined raw pressed clay (RPdry) was obtained by annealing as obtained raw pressed clay (RP) in an oven at 750 °C for 5 h): Sample Properties | Gy-MK → Compressive strength (MPa) | 4.0 ± 0.5"
+  }
+ ],
+ "gaps": [
+  "Mixes are columns in Tables 2 and 5, so each table quote pairs the row label with that sample's column. RPdry-MK is headed \"RPdry-MK (1)\" in Table 2 (footnote: raw pressed waste annealed at 750 °C for 5 h).",
+  "Table 2 gives wt.% of the whole batch (columns sum to 100); NaOH is pellets dissolved in the silicate solution. The \"±\" in Table 5 is not defined (strength is the mean of 5 specimens).",
+  "Specimens were cast in 50 mm moulds but strength is reported on 40 mm cubes; both stated, not reconciled.",
+  "Density and water-absorption test ages are not stated. Gy-MK and MIX-MK water absorption is printed only as \">25\".",
+  "Second review pending; see the batch audit."
+ ]
+}

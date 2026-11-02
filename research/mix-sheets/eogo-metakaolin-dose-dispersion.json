@@ -1,0 +1,384 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "eogo-metakaolin-dose-dispersion",
+ "doi": "10.3390/ma18163864",
+ "basis": "source-text",
+ "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12387482/",
+ "accessed": "2026-11-02",
+ "audit": "research/batches/source-text-batch3-2026-11-02.json",
+ "scope": "All four Table 3 pastes (control CP and 0.1, 0.5 and 1% EOGO by metakaolin mass) with exact batch masses, and their Table 4 initial and final setting times. Compressive strength, stiffness, voids and flow are reported as percentages, in figures or without mix names and are not transcribed.",
+ "made": "2026-11-02",
+ "madeBy": "AI transcription · mix-sheet skill v1 (source-text pilot)",
+ "materials": [
+  {
+   "id": "mk",
+   "family": "metakaolin",
+   "role": "precursor",
+   "name": "Metakaolin",
+   "aliases": [
+    "MK"
+   ],
+   "detail": "Metakaolin (MK) is a pozzolanic material containing 49.1% silica (SiO2) and 43.2% alumina (Al2O3). The mean particle size of metakaolin is 11 μm."
+  },
+  {
+   "id": "sss",
+   "family": "sodium-silicate-solution",
+   "role": "activator",
+   "name": "sodium silicate (Na2SiO3) solution",
+   "aliases": [
+    "SSS"
+   ]
+  },
+  {
+   "id": "shs",
+   "family": "sodium-hydroxide",
+   "role": "activator",
+   "name": "sodium hydroxide (NaOH) solution",
+   "aliases": [
+    "SHS"
+   ]
+  },
+  {
+   "id": "eogo",
+   "family": "nano-additive",
+   "role": "additive",
+   "name": "Edge-Oxidized Graphene Oxide",
+   "aliases": [
+    "EOGO"
+   ],
+   "detail": "EOGO was procured from Garmor, Inc. (Orlando, FL, USA), and the chemical composition of EOGO is given in Table 2."
+  }
+ ],
+ "mixes": [
+  {
+   "id": "CP",
+   "aliases": [
+    "CS"
+   ],
+   "control": true,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 838,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → CP | 1.4 | 838 | 838 | 335 | 0 | 0"
+    },
+    {
+     "material": "sss",
+     "value": 838,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → CP | 1.4 | 838 | 838 | 335 | 0 | 0"
+    },
+    {
+     "material": "shs",
+     "value": 335,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → CP | 1.4 | 838 | 838 | 335 | 0 | 0"
+    },
+    {
+     "material": "eogo",
+     "value": 0,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → CP | 1.4 | 838 | 838 | 335 | 0 | 0"
+    },
+    {
+     "material": "eogo",
+     "value": 0,
+     "unit": "wt%",
+     "basis": "precursor-mass",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → CP | 1.4 | 838 | 838 | 335 | 0 | 0"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "liquid/solid",
+     "value": 1.4,
+     "basisNote": "liquid = SSS + SHS; binder = metakaolin",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → CP | 1.4 | 838 | 838 | 335 | 0 | 0"
+    }
+   ]
+  },
+  {
+   "id": "MKGO 0.1",
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 838,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → MKGO 0.1 | 1.4 | 838 | 838 | 335 | 0.1 | 0.84"
+    },
+    {
+     "material": "sss",
+     "value": 838,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → MKGO 0.1 | 1.4 | 838 | 838 | 335 | 0.1 | 0.84"
+    },
+    {
+     "material": "shs",
+     "value": 335,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → MKGO 0.1 | 1.4 | 838 | 838 | 335 | 0.1 | 0.84"
+    },
+    {
+     "material": "eogo",
+     "value": 0.84,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → MKGO 0.1 | 1.4 | 838 | 838 | 335 | 0.1 | 0.84"
+    },
+    {
+     "material": "eogo",
+     "value": 0.1,
+     "unit": "wt%",
+     "basis": "precursor-mass",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → MKGO 0.1 | 1.4 | 838 | 838 | 335 | 0.1 | 0.84"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "liquid/solid",
+     "value": 1.4,
+     "basisNote": "liquid = SSS + SHS; binder = metakaolin",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → MKGO 0.1 | 1.4 | 838 | 838 | 335 | 0.1 | 0.84"
+    }
+   ]
+  },
+  {
+   "id": "MKGO 0.5",
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 838,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → MKGO 0.5 | 1.4 | 838 | 838 | 335 | 0.5 | 4.19"
+    },
+    {
+     "material": "sss",
+     "value": 838,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → MKGO 0.5 | 1.4 | 838 | 838 | 335 | 0.5 | 4.19"
+    },
+    {
+     "material": "shs",
+     "value": 335,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → MKGO 0.5 | 1.4 | 838 | 838 | 335 | 0.5 | 4.19"
+    },
+    {
+     "material": "eogo",
+     "value": 4.19,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → MKGO 0.5 | 1.4 | 838 | 838 | 335 | 0.5 | 4.19"
+    },
+    {
+     "material": "eogo",
+     "value": 0.5,
+     "unit": "wt%",
+     "basis": "precursor-mass",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → MKGO 0.5 | 1.4 | 838 | 838 | 335 | 0.5 | 4.19"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "liquid/solid",
+     "value": 1.4,
+     "basisNote": "liquid = SSS + SHS; binder = metakaolin",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → MKGO 0.5 | 1.4 | 838 | 838 | 335 | 0.5 | 4.19"
+    }
+   ]
+  },
+  {
+   "id": "MKGO 1",
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 838,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → MKGO 1 | 1.4 | 838 | 838 | 335 | 1 | 8.38"
+    },
+    {
+     "material": "sss",
+     "value": 838,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → MKGO 1 | 1.4 | 838 | 838 | 335 | 1 | 8.38"
+    },
+    {
+     "material": "shs",
+     "value": 335,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → MKGO 1 | 1.4 | 838 | 838 | 335 | 1 | 8.38"
+    },
+    {
+     "material": "eogo",
+     "value": 8.38,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → MKGO 1 | 1.4 | 838 | 838 | 335 | 1 | 8.38"
+    },
+    {
+     "material": "eogo",
+     "value": 1,
+     "unit": "wt%",
+     "basis": "precursor-mass",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → MKGO 1 | 1.4 | 838 | 838 | 335 | 1 | 8.38"
+    }
+   ],
+   "parameters": [
+    {
+     "key": "liquid/solid",
+     "value": 1.4,
+     "basisNote": "liquid = SSS + SHS; binder = metakaolin",
+     "text": "Table 3 (Composition of metakaolin–EOGO (MKGO) composite mixture): Paste ID | L/B Ratio | Metakaolin (g) | SSS (g) | SHS (g) | EOGO (%) | EOGO (g) → MKGO 1 | 1.4 | 838 | 838 | 335 | 1 | 8.38"
+    }
+   ]
+  }
+ ],
+ "cures": [
+  {
+   "id": "c1",
+   "category": "ambient",
+   "temperatureC": 25,
+   "duration": null,
+   "durationUnit": null,
+   "sealed": null,
+   "humidityPercent": null,
+   "text": "All specimens were cured at a room temperature of 25 °C for 7, 14, and 28 days."
+  }
+ ],
+ "tests": [
+  {
+   "id": "ist",
+   "property": "initial-setting-time",
+   "unit": "min",
+   "specimen": "paste",
+   "method": null
+  },
+  {
+   "id": "fst",
+   "property": "final-setting-time",
+   "unit": "min",
+   "specimen": "paste",
+   "method": null
+  }
+ ],
+ "results": [
+  {
+   "mix": "CP",
+   "test": "ist",
+   "ageDays": null,
+   "ageNote": "fresh paste test",
+   "value": 315,
+   "text": "Table 4 (Initial and final setting times of geopolymer paste): Paste ID | Initial Setting Time (min) | Final Setting Time (min) → CP | 315 | 465",
+   "locator": "Table 4"
+  },
+  {
+   "mix": "CP",
+   "test": "fst",
+   "ageDays": null,
+   "ageNote": "fresh paste test",
+   "value": 465,
+   "text": "Table 4 (Initial and final setting times of geopolymer paste): Paste ID | Initial Setting Time (min) | Final Setting Time (min) → CP | 315 | 465",
+   "locator": "Table 4"
+  },
+  {
+   "mix": "MKGO 0.1",
+   "test": "ist",
+   "ageDays": null,
+   "ageNote": "fresh paste test",
+   "value": 280,
+   "text": "Table 4 (Initial and final setting times of geopolymer paste): Paste ID | Initial Setting Time (min) | Final Setting Time (min) → MKGO 0.1 | 280 | 395",
+   "locator": "Table 4"
+  },
+  {
+   "mix": "MKGO 0.1",
+   "test": "fst",
+   "ageDays": null,
+   "ageNote": "fresh paste test",
+   "value": 395,
+   "text": "Table 4 (Initial and final setting times of geopolymer paste): Paste ID | Initial Setting Time (min) | Final Setting Time (min) → MKGO 0.1 | 280 | 395",
+   "locator": "Table 4"
+  },
+  {
+   "mix": "MKGO 0.5",
+   "test": "ist",
+   "ageDays": null,
+   "ageNote": "fresh paste test",
+   "value": 255,
+   "text": "Table 4 (Initial and final setting times of geopolymer paste): Paste ID | Initial Setting Time (min) | Final Setting Time (min) → MKGO 0.5 | 255 | 345",
+   "locator": "Table 4"
+  },
+  {
+   "mix": "MKGO 0.5",
+   "test": "fst",
+   "ageDays": null,
+   "ageNote": "fresh paste test",
+   "value": 345,
+   "text": "Table 4 (Initial and final setting times of geopolymer paste): Paste ID | Initial Setting Time (min) | Final Setting Time (min) → MKGO 0.5 | 255 | 345",
+   "locator": "Table 4"
+  },
+  {
+   "mix": "MKGO 1",
+   "test": "ist",
+   "ageDays": null,
+   "ageNote": "fresh paste test",
+   "value": 255,
+   "text": "Table 4 (Initial and final setting times of geopolymer paste): Paste ID | Initial Setting Time (min) | Final Setting Time (min) → MKGO 1 | 255 | 325",
+   "locator": "Table 4"
+  },
+  {
+   "mix": "MKGO 1",
+   "test": "fst",
+   "ageDays": null,
+   "ageNote": "fresh paste test",
+   "value": 325,
+   "text": "Table 4 (Initial and final setting times of geopolymer paste): Paste ID | Initial Setting Time (min) | Final Setting Time (min) → MKGO 1 | 255 | 325",
+   "locator": "Table 4"
+  }
+ ],
+ "findings": [
+  {
+   "goal": "Highest compressive strength",
+   "mix": "MKGO 0.1",
+   "text": "The specimen with 0.1% EOGO (MKGO 0.1) showed the highest compressive strength."
+  }
+ ],
+ "notes": [
+  {
+   "mix": "MKGO 0.5",
+   "kind": "failure",
+   "text": "The results for the MKGO 0.5 specimen were not plotted due to problems with cracks occurring during the experiment."
+  }
+ ],
+ "gaps": [
+  "Table quotes follow the standard form. The control is \"CP\" in the tables and \"CS\" in the strength and absorption text; both are recorded as the same mix.",
+  "The NaOH (SHS) and silicate (SSS) solution concentrations are not stated.",
+  "Compressive strength is plotted (Figure 6) and given in the text only as a 14.2% gain for MKGO 0.1 over the control at 28 days; stiffness, voids and toughness (no unit) likewise.",
+  "Flow diameters (407.50, 395.33, 388.33 and 381.67 mm) are listed with \"respectively\" in a sentence that names no pastes; water-absorption values are given as \"rate … mm\" without a defined unit. Neither is transcribed.",
+  "Second review pending; see the batch audit."
+ ]
+}

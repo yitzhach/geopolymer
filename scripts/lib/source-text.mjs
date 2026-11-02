@@ -87,10 +87,14 @@ export const findTable=(source,number)=>source.tables.find(t=>String(t.number)==
 // Cells that span several rows or columns in the source are named in a trailing [spanning cells: …].
 // `key` (a column index) names the row by that column's header and cell, so a bare row number
 // becomes a label the quote can be attributed to: "Table 2 (caption), Mix No. 2: Na/Al → 0.59".
+// `group` (a row index) prefixes the key with a group row's label, for tables whose sample IDs repeat
+// under group rows: "Table 5 (caption), FA 1 / Sample ID 1.2 (1): MPa → 43 (5)".
+// A group row has a label in its first cell and no other cells.
+export const isGroupRow=row=>!!row[0]&&row.slice(1).every(c=>c==='');
 export function headerFor(table,i){
  return [...new Set(table.header.map(h=>h[i]).filter(Boolean))].join(' ');
 }
-export function tableQuote(table,rowIndex,{cols,header,key}={}){
+export function tableQuote(table,rowIndex,{cols,header,key,group}={}){
  const indexes=[].concat(rowIndex),spanned=[];
  const parts=indexes.map(ri=>{
   const row=table.rows[ri];if(!row)throw new Error(`Table ${table.number} has no row ${ri}`);
@@ -100,7 +104,8 @@ export function tableQuote(table,rowIndex,{cols,header,key}={}){
   return idx.map(i=>row[i]).join(' | ');
  });
  const idx=cols||table.rows[indexes[0]].map((_,i)=>i),head=header||idx.map(i=>headerFor(table,i));
- const keyed=key===undefined?'':`, ${headerFor(table,key)} ${table.rows[indexes[0]][key]}`;
+ if(group!==undefined&&!isGroupRow(table.rows[group]||[]))throw new Error(`Table ${table.number} row ${group} is not a group row`);
+ const keyed=key===undefined?'':`, ${group!==undefined?table.rows[group][0]+' / ':''}${headerFor(table,key)} ${table.rows[indexes[0]][key]}`;
  return `Table ${table.number} (${table.caption.replace(/\.$/,'')})${keyed}: ${head.join(' | ')} → ${parts.join(' ; ')}`+(spanned.length?` [spanning cells: ${[...new Set(spanned)].join(', ')}]`:'');
 }
 
@@ -120,17 +125,29 @@ export function groundSheet(sheet,source){
  for(const {path,text} of quotesOf(sheet)){
   if([...skip].some(k=>path.endsWith('.'+k)))continue;
   count++;
-  const tm=text.match(/^Table\s+([A-Z]?\d+[a-z]?)\s*\((.*?)\)(?:, ([^:→]+))?:\s*(.*?)\s*→\s*(.*?)(?:\s*\[spanning cells:[^\]]*\])?$/);
+  // Table quotes: "Table N (caption)[, key]: header → cells". The caption may itself hold "), ", so the
+  // quote is matched against the named table's real caption before the rest is parsed.
+  const nm=text.match(/^Table\s+([A-Z]?\d+[a-z]?)\s*\(/),table=nm&&findTable(source,nm[1]);
+  let tm=null;
+  if(nm&&!table){problems.push(`${path}: no Table ${nm[1]} in the source`);continue;}
+  if(table){
+   const prefix=`Table ${table.number} (${table.caption.replace(/\.$/,'')})`;
+   if(!normalizeText(text).startsWith(normalizeText(prefix))){if(text.includes('→')){problems.push(`${path}: caption does not match Table ${table.number}`);continue;}}
+   else{const rest=text.startsWith(prefix)?text.slice(prefix.length):text.slice(text.indexOf(')',prefix.length-1)+1);
+    const rm=rest.match(/^(?:, ([^:→]+))?:\s*(.*?)\s*→\s*(.*?)(?:\s*\[spanning cells:[^\]]*\])?$/);
+    if(rm)tm=[null,table.number,table.caption,rm[1],rm[2],rm[3]];}
+  }
   if(tm){
-   const table=findTable(source,tm[1]);
-   if(!table){problems.push(`${path}: no Table ${tm[1]} in the source`);continue;}
-   if(!normalizeText(table.caption).includes(normalizeText(tm[2]).replace(/\.$/,'')))problems.push(`${path}: caption does not match Table ${tm[1]}`);
-   // A row key ("Mix No. 2") must be a column header followed by a cell of the same row as the quoted cells.
+   // A row key ("Mix No. 2") must be a column header followed by a cell of the same row as the quoted cells;
+   // a group prefix ("FA 1 / …") must be the nearest group row above that row.
+   let group=null;
+   if(tm[3]&&tm[3].includes(' / ')){group=normalizeText(tm[3].slice(0,tm[3].indexOf(' / ')));tm[3]=tm[3].slice(tm[3].indexOf(' / ')+3);}
+   const groupOf=ri=>{for(let k=ri-1;k>=0;k--)if(isGroupRow(table.rows[k]))return normalizeText(table.rows[k][0]);return null;};
    const keyCell=tm[3]?table.header[0].map((_,i)=>headerFor(table,i)).filter(Boolean).map(h=>normalizeText(tm[3]).startsWith(normalizeText(h)+' ')?normalizeText(tm[3]).slice(normalizeText(h).length+1):null).find(v=>v!==null):null;
    if(tm[3]&&keyCell==null)problems.push(`${path}: row key "${tm[3]}" does not start with a column header of Table ${tm[1]}`);
    for(const seg of tm[5].split(' ; ')){
     const cells=[...seg.split('|').map(normalizeText),...(keyCell!=null?[keyCell]:[])];
-    const rowsFit=table.rows.some(r=>{const rc=r.map(normalizeText);return cells.every(c=>rc.includes(c));});
+    const rowsFit=table.rows.some((r,ri)=>{const rc=r.map(normalizeText);return cells.every(c=>rc.includes(c))&&(group===null||groupOf(ri)===group);});
     if(!rowsFit)problems.push(`${path}: cells "${seg.slice(0,80)}"${tm[3]?` with key "${tm[3]}"`:''} are not all in one row of Table ${tm[1]}`);
    }
    const head=new Set([...table.header.flat(),...table.rows.flat()].map(normalizeText).filter(Boolean));

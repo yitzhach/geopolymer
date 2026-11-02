@@ -12,6 +12,10 @@ const jats=`<?xml version="1.0"?><!DOCTYPE article><article><front><article-meta
 <table-wrap><label>Table 3</label><caption><p>Design.</p></caption><table>
 <tr><th></th><th colspan="2">Slag</th></tr><tr><th>AM</th><th>0.4</th><th>0.5</th></tr>
 <tr><td>1</td><td>S41</td><td>S51</td></tr></table></table-wrap>
+<table-wrap><label>Table 5</label><caption><p>Strength.</p></caption><table>
+<tr><th>Sample ID</th><th>MPa</th></tr><tr><td>FA 1</td><td></td></tr><tr><td>1.2 (1)</td><td>43 (5)</td></tr><tr><td>FA 2</td><td></td></tr><tr><td>1.2 (1)</td><td>40 (3)</td></tr></table></table-wrap>
+<table-wrap><label>Table 4</label><caption><p>Properties of paste (P), mortar (M), and foam (F).</p></caption><table>
+<tr><th>Property</th><th>P</th></tr><tr><td>Density</td><td>1370</td></tr></table></table-wrap>
 <p>M1 reached 40.5 MPa.</p></sec></body></article>`;
 // An HTML page whose script holds "<" characters that are not markup.
 const html=`<!doctype html><html><head><script>if(a<b&&c<d){x="<table>"}</script><style>p<x{}</style></head>
@@ -53,6 +57,14 @@ test('grounding accepts real quotes and rejects altered cells, mixed rows and pa
  assert.deepEqual(groundSheet(sheet('M1 reached 40.5 MPa.'),s).problems,[]);
  assert.equal(tableQuote(t2,0,{cols:[1],key:0}),'Table 2 (Mix proportion (kg/m3)), Mix IDs M1: GGBS → 600.5');
  assert.deepEqual(groundSheet(sheet(tableQuote(t2,0,{cols:[1],key:0})),s).problems,[]);
+ // Group rows: the group must be the nearest group row above the quoted row.
+ const t5=findTable(s,5);
+ assert.equal(tableQuote(t5,3,{cols:[1],key:0,group:2}),'Table 5 (Strength), FA 2 / Sample ID 1.2 (1): MPa → 40 (3)');
+ assert.deepEqual(groundSheet(sheet(tableQuote(t5,3,{cols:[1],key:0,group:2})),s).problems,[]);
+ assert.equal(groundSheet(sheet(tableQuote(t5,3,{cols:[1],key:0,group:2}).replace('FA 2','FA 1')),s).problems.length,1);
+ // A caption that itself contains "), " is not mistaken for a row key.
+ assert.deepEqual(groundSheet(sheet(tableQuote(findTable(s,4),0)),s).problems,[]);
+ assert.equal(groundSheet(sheet(tableQuote(findTable(s,4),0).replace('1370','1371')),s).problems.length,1);
  const bad=[
   tableQuote(t2,0).replace('600.5','605.5'),            // changed value
   'Table 2 (Mix proportion (kg/m3)): Mix IDs | GGBS → M1 | 420', // cells from two different rows

@@ -1,0 +1,242 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "foam-weathering-insulation-loss",
+ "doi": "10.3390/ma19010012",
+ "basis": "source-text",
+ "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12786520/",
+ "accessed": "2026-11-02",
+ "audit": "research/batches/source-text-batch3-2026-11-02.json",
+ "scope": "The single geopolymer foam concrete (GFC) mix with its stated design, the uncarbonated density, porosity, thermal conductivity and compressive strength, and density/porosity after 7 days of carbonation at 25 and 40 °C. Other exposure results are kept as quoted notes.",
+ "made": "2026-11-02",
+ "madeBy": "AI transcription · mix-sheet skill v1 (source-text pilot)",
+ "materials": [
+  {
+   "id": "mk",
+   "family": "metakaolin",
+   "role": "precursor",
+   "name": "Metakaolin",
+   "aliases": [
+    "MK"
+   ],
+   "detail": "Metakaolin (MK) (Metastar 501, Watson Phillips, Naucalpan de Juárez, Mexico) was used as the aluminosilicate precursor."
+  },
+  {
+   "id": "naoh",
+   "family": "sodium-hydroxide",
+   "role": "activator",
+   "name": "8 M NaOH solution",
+   "aliases": [
+    "NaOH"
+   ],
+   "detail": "The alkaline activator was prepared by mixing an 8 M NaOH solution (Macron, Mexico) with sodium silicate (Na2SiO3, 10.6 wt.% Na2O and 26.5 wt.% SiO2; Sigma-Aldrich, St. Louis, MO, USA) at a NaOH/Na2SiO3 ratio of 0.51 wt.%."
+  },
+  {
+   "id": "ss",
+   "family": "sodium-silicate-solution",
+   "role": "activator",
+   "name": "sodium silicate",
+   "aliases": [
+    "Na2SiO3"
+   ],
+   "detail": "The alkaline activator was prepared by mixing an 8 M NaOH solution (Macron, Mexico) with sodium silicate (Na2SiO3, 10.6 wt.% Na2O and 26.5 wt.% SiO2; Sigma-Aldrich, St. Louis, MO, USA) at a NaOH/Na2SiO3 ratio of 0.51 wt.%."
+  },
+  {
+   "id": "h2o2",
+   "family": "foaming-agent",
+   "role": "additive",
+   "name": "H2O2 solution",
+   "detail": "A 30% (v/v) H2O2 solution (J.T. Baker, Radnor, PA, USA) was used as the foaming agent"
+  },
+  {
+   "id": "oil",
+   "family": "other-additive",
+   "role": "additive",
+   "name": "olive oil",
+   "detail": "extra virgin olive oil (Ragasa Industrias, Monterrey, Mexico) served as the surfactant"
+  }
+ ],
+ "mixes": [
+  {
+   "id": "GFC",
+   "control": false,
+   "form": "foam",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": null,
+     "missing": "mass not given; only the solid-to-liquid ratio 1.14",
+     "text": "The activating solution and metakaolin (MK) were mixed at a solid-to-liquid ratio of 1.14. The mixture was poured into a laboratory mixer (Hobar, Troy, OH, USA) and vigorously mixed for two minutes. Subsequently, 3 wt.% of the foaming agent (30% H2O2 solution) was added and homogenized for an additional two minutes [40]. Finally, 1.5 wt.% of surfactant (extra virgin olive oil) was incorporated and mixed for one more minute."
+    },
+    {
+     "material": "naoh",
+     "value": null,
+     "missing": "mass not given; NaOH/Na2SiO3 printed as \"0.51 wt.%\" (basis unresolved)",
+     "text": "The alkaline activator was prepared by mixing an 8 M NaOH solution (Macron, Mexico) with sodium silicate (Na2SiO3, 10.6 wt.% Na2O and 26.5 wt.% SiO2; Sigma-Aldrich, St. Louis, MO, USA) at a NaOH/Na2SiO3 ratio of 0.51 wt.%."
+    },
+    {
+     "material": "ss",
+     "value": null,
+     "missing": "mass not given; NaOH/Na2SiO3 printed as \"0.51 wt.%\" (basis unresolved)",
+     "text": "The alkaline activator was prepared by mixing an 8 M NaOH solution (Macron, Mexico) with sodium silicate (Na2SiO3, 10.6 wt.% Na2O and 26.5 wt.% SiO2; Sigma-Aldrich, St. Louis, MO, USA) at a NaOH/Na2SiO3 ratio of 0.51 wt.%."
+    },
+    {
+     "material": "h2o2",
+     "value": 3,
+     "unit": "wt%",
+     "basis": "other",
+     "basisNote": "\"3 wt.% of the foaming agent\"; reference mass not stated",
+     "text": "The activating solution and metakaolin (MK) were mixed at a solid-to-liquid ratio of 1.14. The mixture was poured into a laboratory mixer (Hobar, Troy, OH, USA) and vigorously mixed for two minutes. Subsequently, 3 wt.% of the foaming agent (30% H2O2 solution) was added and homogenized for an additional two minutes [40]. Finally, 1.5 wt.% of surfactant (extra virgin olive oil) was incorporated and mixed for one more minute."
+    },
+    {
+     "material": "oil",
+     "value": 1.5,
+     "unit": "wt%",
+     "basis": "other",
+     "basisNote": "\"1.5 wt.% of surfactant\"; reference mass not stated",
+     "text": "The activating solution and metakaolin (MK) were mixed at a solid-to-liquid ratio of 1.14. The mixture was poured into a laboratory mixer (Hobar, Troy, OH, USA) and vigorously mixed for two minutes. Subsequently, 3 wt.% of the foaming agent (30% H2O2 solution) was added and homogenized for an additional two minutes [40]. Finally, 1.5 wt.% of surfactant (extra virgin olive oil) was incorporated and mixed for one more minute."
+    }
+   ],
+   "parameters": [
+    {
+     "key": "hydroxide-molarity",
+     "value": 8,
+     "text": "The alkaline activator was prepared by mixing an 8 M NaOH solution (Macron, Mexico) with sodium silicate (Na2SiO3, 10.6 wt.% Na2O and 26.5 wt.% SiO2; Sigma-Aldrich, St. Louis, MO, USA) at a NaOH/Na2SiO3 ratio of 0.51 wt.%."
+    }
+   ],
+   "missing": [
+    "solid-to-liquid 1.14 is stated as solid/liquid, so no liquid/solid value is entered"
+   ]
+  }
+ ],
+ "cures": [
+  {
+   "id": "c1",
+   "category": "ambient",
+   "temperatureC": null,
+   "duration": 24,
+   "durationUnit": "h",
+   "sealed": null,
+   "humidityPercent": null,
+   "text": "The samples were pre-cured at ambient temperature for 24 h, followed by curing at 60 °C for another 24 h."
+  }
+ ],
+ "tests": [
+  {
+   "id": "rho",
+   "property": "density",
+   "unit": "g/cm3",
+   "specimen": "cylinders",
+   "method": "bulk density"
+  },
+  {
+   "id": "por",
+   "property": "porosity",
+   "unit": "%",
+   "specimen": "cylinders",
+   "method": "total porosity from apparent and true density"
+  },
+  {
+   "id": "k",
+   "property": "thermal-conductivity",
+   "unit": "W/(m·K)",
+   "specimen": "cylinders",
+   "method": null
+  },
+  {
+   "id": "fc",
+   "property": "compressive-strength",
+   "unit": "MPa",
+   "specimen": "cylinders",
+   "method": null
+  }
+ ],
+ "results": [
+  {
+   "mix": "GFC",
+   "test": "rho",
+   "ageDays": null,
+   "ageNote": "uncarbonated reference: pre-cured 24 h at ambient temperature, then 24 h at 60 °C; test age not stated",
+   "value": 0.277,
+   "text": "The uncarbonated GFC exhibited a bulk density of 0.277 g/cm3 and a porosity of 87.3%, consistent with values reported in the literature for chemical GFC [45]. After 7 days of carbonation at 25 °C, the samples reached a density of 0.373 g/cm3 and a porosity of 83.30%. At 40 °C, the corresponding values were 0.494 g/cm3 and 78.68%, respectively.",
+   "locator": "§3",
+   "condition": "The uncarbonated GFC"
+  },
+  {
+   "mix": "GFC",
+   "test": "por",
+   "ageDays": null,
+   "ageNote": "uncarbonated reference: pre-cured 24 h at ambient temperature, then 24 h at 60 °C; test age not stated",
+   "value": 87.3,
+   "text": "The uncarbonated GFC exhibited a bulk density of 0.277 g/cm3 and a porosity of 87.3%, consistent with values reported in the literature for chemical GFC [45]. After 7 days of carbonation at 25 °C, the samples reached a density of 0.373 g/cm3 and a porosity of 83.30%. At 40 °C, the corresponding values were 0.494 g/cm3 and 78.68%, respectively.",
+   "locator": "§3",
+   "condition": "The uncarbonated GFC"
+  },
+  {
+   "mix": "GFC",
+   "test": "rho",
+   "ageDays": null,
+   "ageNote": "after 7 days of accelerated carbonation (5% CO2, 60 ± 5% RH); specimen age not stated",
+   "value": 0.373,
+   "text": "The uncarbonated GFC exhibited a bulk density of 0.277 g/cm3 and a porosity of 87.3%, consistent with values reported in the literature for chemical GFC [45]. After 7 days of carbonation at 25 °C, the samples reached a density of 0.373 g/cm3 and a porosity of 83.30%. At 40 °C, the corresponding values were 0.494 g/cm3 and 78.68%, respectively.",
+   "locator": "§3",
+   "condition": "After 7 days of carbonation at 25 °C"
+  },
+  {
+   "mix": "GFC",
+   "test": "por",
+   "ageDays": null,
+   "ageNote": "after 7 days of accelerated carbonation (5% CO2, 60 ± 5% RH); specimen age not stated",
+   "value": 83.3,
+   "text": "The uncarbonated GFC exhibited a bulk density of 0.277 g/cm3 and a porosity of 87.3%, consistent with values reported in the literature for chemical GFC [45]. After 7 days of carbonation at 25 °C, the samples reached a density of 0.373 g/cm3 and a porosity of 83.30%. At 40 °C, the corresponding values were 0.494 g/cm3 and 78.68%, respectively.",
+   "locator": "§3",
+   "condition": "After 7 days of carbonation at 25 °C"
+  },
+  {
+   "mix": "GFC",
+   "test": "rho",
+   "ageDays": null,
+   "ageNote": "after 7 days of accelerated carbonation (5% CO2, 60 ± 5% RH); specimen age not stated",
+   "value": 0.494,
+   "text": "The uncarbonated GFC exhibited a bulk density of 0.277 g/cm3 and a porosity of 87.3%, consistent with values reported in the literature for chemical GFC [45]. After 7 days of carbonation at 25 °C, the samples reached a density of 0.373 g/cm3 and a porosity of 83.30%. At 40 °C, the corresponding values were 0.494 g/cm3 and 78.68%, respectively.",
+   "locator": "§3",
+   "condition": "At 40 °C, the corresponding values"
+  },
+  {
+   "mix": "GFC",
+   "test": "por",
+   "ageDays": null,
+   "ageNote": "after 7 days of accelerated carbonation (5% CO2, 60 ± 5% RH); specimen age not stated",
+   "value": 78.68,
+   "text": "The uncarbonated GFC exhibited a bulk density of 0.277 g/cm3 and a porosity of 87.3%, consistent with values reported in the literature for chemical GFC [45]. After 7 days of carbonation at 25 °C, the samples reached a density of 0.373 g/cm3 and a porosity of 83.30%. At 40 °C, the corresponding values were 0.494 g/cm3 and 78.68%, respectively.",
+   "locator": "§3",
+   "condition": "At 40 °C, the corresponding values"
+  },
+  {
+   "mix": "GFC",
+   "test": "k",
+   "ageDays": null,
+   "ageNote": "uncarbonated reference: pre-cured 24 h at ambient temperature, then 24 h at 60 °C; test age not stated",
+   "value": 0.083,
+   "text": "Uncarbonated GFC exhibited a thermal conductivity of 0.083 W/m·K, comparable to literature values for low-density GFC (~0.088 W/m·K at 0.28 g/cm3) [45].",
+   "locator": "§3"
+  },
+  {
+   "mix": "GFC",
+   "test": "fc",
+   "ageDays": null,
+   "ageNote": "uncarbonated reference: pre-cured 24 h at ambient temperature, then 24 h at 60 °C; test age not stated",
+   "value": 0.878,
+   "text": "Uncarbonated GFC had a strength of 0.878 MPa, typical for ultra-lightweight foams (<1 MPa at ~0.28 g/cm3) [1].",
+   "locator": "§3"
+  }
+ ],
+ "findings": [],
+ "notes": [],
+ "gaps": [
+  "One mix only; \"GFC\" is the paper's name for it. Carbonated, salt-fog and UV values whose sentences do not name GFC are kept as notes rather than results.",
+  "No batch masses; NaOH/Na2SiO3 is printed as \"0.51 wt.%\" (not read as a mass ratio), and the H2O2 and olive-oil percentages have no stated reference mass.",
+  "Test ages are not stated; exposure durations (7 days carbonation, 12 weeks salt fog/UV) are exposure times, not curing ages. Carbonation at 40 °C reached 0.122 W/m·K in the next paragraph (rounded), 0.1217 here.",
+  "Second review pending; see the batch audit."
+ ]
+}

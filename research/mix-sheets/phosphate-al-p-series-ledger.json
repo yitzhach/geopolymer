@@ -1,0 +1,294 @@
+{
+ "format": "mix-sheet-v1",
+ "guideId": "phosphate-al-p-series-ledger",
+ "doi": "10.3390/polym17172358",
+ "basis": "source-text",
+ "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12430963/",
+ "accessed": "2026-11-02",
+ "audit": "research/batches/source-text-batch3-2026-11-02.json",
+ "scope": "All six Table 3 mixtures (300 g metakaolin with 85% H3PO4 and water, labelled by Al/P molar ratio) with exact batch masses, plus the density and porosity values stated in the text. Strengths are plotted only in Figure 1.",
+ "made": "2026-11-02",
+ "madeBy": "AI transcription · mix-sheet skill v1 (source-text pilot)",
+ "materials": [
+  {
+   "id": "mk",
+   "family": "metakaolin",
+   "role": "precursor",
+   "name": "Metakaolin",
+   "aliases": [
+    "MK"
+   ],
+   "detail": "Commercially produced metakaolin (MK) Mefisto L05 by ČLUZ company (Nové Strašecí, Czech Republic) was used as a precursor."
+  },
+  {
+   "id": "acid",
+   "family": "phosphoric-acid",
+   "role": "activator",
+   "name": "H3PO4",
+   "detail": "A set of SAP geopolymers was prepared from MK and an 85% H3PO4 solution (Table 3)."
+  },
+  {
+   "id": "water",
+   "family": "water",
+   "role": "water",
+   "name": "Water",
+   "detail": "The amount of water was adjusted to a consistency of a 160 mm spill (according to EN 1015 standard)."
+  }
+ ],
+ "mixes": [
+  {
+   "id": "P-0.8",
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 300,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of SAP geopolymers (in g)):  | P-0.8 → Metakaolin | 300"
+    },
+    {
+     "material": "acid",
+     "value": 346,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of SAP geopolymers (in g)):  | P-0.8 → H3PO4 | 346"
+    },
+    {
+     "material": "water",
+     "value": 50,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of SAP geopolymers (in g)):  | P-0.8 → Water | 50"
+    }
+   ],
+   "parameters": []
+  },
+  {
+   "id": "P-1",
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 300,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of SAP geopolymers (in g)):  | P-1 → Metakaolin | 300"
+    },
+    {
+     "material": "acid",
+     "value": 277,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of SAP geopolymers (in g)):  | P-1 → H3PO4 | 277"
+    },
+    {
+     "material": "water",
+     "value": 90,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of SAP geopolymers (in g)):  | P-1 → Water | 90"
+    }
+   ],
+   "parameters": []
+  },
+  {
+   "id": "P-1.5",
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 300,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of SAP geopolymers (in g)):  | P-1.5 → Metakaolin | 300"
+    },
+    {
+     "material": "acid",
+     "value": 184,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of SAP geopolymers (in g)):  | P-1.5 → H3PO4 | 184"
+    },
+    {
+     "material": "water",
+     "value": 100,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of SAP geopolymers (in g)):  | P-1.5 → Water | 100"
+    }
+   ],
+   "parameters": []
+  },
+  {
+   "id": "P-2",
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 300,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of SAP geopolymers (in g)):  | P-2 → Metakaolin | 300"
+    },
+    {
+     "material": "acid",
+     "value": 139,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of SAP geopolymers (in g)):  | P-2 → H3PO4 | 139"
+    },
+    {
+     "material": "water",
+     "value": 110,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of SAP geopolymers (in g)):  | P-2 → Water | 110"
+    }
+   ],
+   "parameters": []
+  },
+  {
+   "id": "P-3",
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 300,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of SAP geopolymers (in g)):  | P-3 → Metakaolin | 300"
+    },
+    {
+     "material": "acid",
+     "value": 92,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of SAP geopolymers (in g)):  | P-3 → H3PO4 | 92"
+    },
+    {
+     "material": "water",
+     "value": 130,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of SAP geopolymers (in g)):  | P-3 → Water | 130"
+    }
+   ],
+   "parameters": []
+  },
+  {
+   "id": "P-4",
+   "control": false,
+   "form": "paste",
+   "cure": "c1",
+   "quantities": [
+    {
+     "material": "mk",
+     "value": 300,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of SAP geopolymers (in g)):  | P-4 → Metakaolin | 300"
+    },
+    {
+     "material": "acid",
+     "value": 69,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of SAP geopolymers (in g)):  | P-4 → H3PO4 | 69"
+    },
+    {
+     "material": "water",
+     "value": 140,
+     "unit": "g",
+     "basis": "batch",
+     "text": "Table 3 (Composition of SAP geopolymers (in g)):  | P-4 → Water | 140"
+    }
+   ],
+   "parameters": []
+  }
+ ],
+ "cures": [
+  {
+   "id": "c1",
+   "category": "ambient",
+   "temperatureC": 20,
+   "duration": 24,
+   "durationUnit": "h",
+   "sealed": true,
+   "humidityPercent": null,
+   "text": "The samples were kept for 24 h at lab temperature (20 ± 2 °C) and then cured at 60 °C for another 24 h. The molds with samples were covered by plastic foil in order to eliminate possible quick drying and cracking. Then the samples were demolded and kept in laboratory conditions."
+  }
+ ],
+ "tests": [
+  {
+   "id": "rho",
+   "property": "density",
+   "unit": "kg/m3",
+   "specimen": "20 × 20 × 160 mm3 prisms",
+   "method": "density (not bulk density; Figure 2)"
+  },
+  {
+   "id": "por",
+   "property": "porosity",
+   "unit": "%",
+   "specimen": "20 × 20 × 160 mm3 prisms",
+   "method": "from bulk density and density (Figure 2)"
+  }
+ ],
+ "results": [
+  {
+   "mix": "P-4",
+   "test": "rho",
+   "ageDays": null,
+   "ageNote": "measured after the 7-day strength tests (\"then other analyses were performed\"); exact age not stated",
+   "value": 2552,
+   "text": "The density of the sample with the highest Al/P ratio (P-4), i.e., with the lowest phosphoric acid content, was close to that of the original metakaolin (2552 kg·m−3 vs. 2610 kg·m−3).",
+   "locator": "§3 / Figure 2"
+  },
+  {
+   "mix": "P-0.8",
+   "test": "por",
+   "ageDays": null,
+   "ageNote": "measured after the 7-day strength tests (\"then other analyses were performed\"); exact age not stated",
+   "value": 20,
+   "qualifier": "approximately",
+   "text": "The resulting value of porosity ranged from approximately 20% in P-0.8 to 46% in P-4.",
+   "locator": "§3 / Figure 2"
+  },
+  {
+   "mix": "P-4",
+   "test": "por",
+   "ageDays": null,
+   "ageNote": "measured after the 7-day strength tests (\"then other analyses were performed\"); exact age not stated",
+   "value": 46,
+   "qualifier": "approximately",
+   "text": "The resulting value of porosity ranged from approximately 20% in P-0.8 to 46% in P-4.",
+   "locator": "§3 / Figure 2"
+  }
+ ],
+ "findings": [
+  {
+   "goal": "Highest 7-day compressive strength",
+   "mix": "P-1.5",
+   "text": "The highest compressive strength was achieved in the sample with an Al/P molar ratio of 1.5, while previous studies have often reported an optimum at Al/P = 1."
+  }
+ ],
+ "notes": [],
+ "gaps": [
+  "Mixes are columns in Table 3, so each quote pairs the row (Metakaolin, H3PO4, Water) with that sample's column. The H3PO4 row is the 85% acid solution as dosed.",
+  "Labels give the Al/P molar ratio computed on the metakaolin's amorphous Al2O3 (40.8% by mass), not total XRF aluminium; there is no Al/P parameter key, so the ratio stays in the label.",
+  "Compressive and flexural strengths (7 days) are plotted only in Figure 1; flexural strength decreased with increasing Al/P. Water was adjusted to a 160 mm spill, so acid and water change together.",
+  "Cure fields hold the first stage (24 h at 20 ± 2 °C under foil); the quote keeps the following 24 h at 60 °C.",
+  "Second review pending; see the batch audit."
+ ]
+}
