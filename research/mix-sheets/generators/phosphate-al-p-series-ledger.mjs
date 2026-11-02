@@ -15,7 +15,7 @@ await save({...sheetHeader(G,'10.3390/polym17172358',src,'All six Table 3 mixtur
   {id:'acid',family:'phosphoric-acid',role:'activator',name:'H3PO4',detail:'A set of SAP geopolymers was prepared from MK and an 85% H3PO4 solution (Table 3).'},
   {id:'water',family:'water',role:'water',name:'Water',detail:'The amount of water was adjusted to a consistency of a 160 mm spill (according to EN 1015 standard).'}],
  mixes,
- cures:[{id:'c1',category:'ambient',temperatureC:20,duration:24,durationUnit:'h',sealed:true,humidityPercent:null,text:'The samples were kept for 24 h at lab temperature (20 ± 2 °C) and then cured at 60 °C for another 24 h. The molds with samples were covered by plastic foil in order to eliminate possible quick drying and cracking. Then the samples were demolded and kept in laboratory conditions.'}],
+ cures:[{id:'c1',category:'heat',temperatureC:60,duration:24,durationUnit:'h',sealed:true,humidityPercent:null,text:'The samples were kept for 24 h at lab temperature (20 ± 2 °C) and then cured at 60 °C for another 24 h. The molds with samples were covered by plastic foil in order to eliminate possible quick drying and cracking. Then the samples were demolded and kept in laboratory conditions.'}],
  tests:[{id:'rho',property:'density',unit:'kg/m3',specimen:'20 × 20 × 160 mm3 prisms',method:'density (not bulk density; Figure 2)'},
   {id:'por',property:'porosity',unit:'%',specimen:'20 × 20 × 160 mm3 prisms',method:'from bulk density and density (Figure 2)'}],
  results:[{mix:'P-4',test:'rho',ageDays:null,ageNote:note,value:2552,text:d,locator:'§3 / Figure 2'},
@@ -26,5 +26,5 @@ await save({...sheetHeader(G,'10.3390/polym17172358',src,'All six Table 3 mixtur
  gaps:['Mixes are columns in Table 3, so each quote pairs the row (Metakaolin, H3PO4, Water) with that sample\'s column. The H3PO4 row is the 85% acid solution as dosed.',
   "Labels give the Al/P molar ratio computed on the metakaolin's amorphous Al2O3 (40.8% by mass), not total XRF aluminium; there is no Al/P parameter key, so the ratio stays in the label.",
   'Compressive and flexural strengths (7 days) are plotted only in Figure 1; flexural strength decreased with increasing Al/P. Water was adjusted to a 160 mm spill, so acid and water change together.',
-  'Cure fields hold the first stage (24 h at 20 ± 2 °C under foil); the quote keeps the following 24 h at 60 °C.',
-  'Second review pending; see the batch audit.']});
+  'Cure fields hold the 60 °C/24 h heat stage; the quote keeps the preceding 24 h at 20 ± 2 °C under foil and the later laboratory storage.',
+  'Second review (2 Nov 2026): 0 value errors; see the batch audit.']});

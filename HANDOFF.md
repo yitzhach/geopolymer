@@ -30,7 +30,7 @@ them only when you need the evidence behind a specific earlier batch.
 - One row per mix, compiled at build time by `scripts/lib/mix-sheets.mjs` → `src/mix-table.js`
   from the knowledge pilot, the formulation catalog and `research/mix-sheets/*.json`. Output:
   `dist/mixes.json` and `/mixes`. Pilot rows absorb matching catalog recipes (6 merged).
-- Counts: **265 rows from 47 papers; 141 with numeric results; 160 rows from 27 mix sheets**
+- Counts: **297 rows from 52 papers; 169 with numeric results; 192 rows from 32 mix sheets**
   (`npm run mixes -- stats`).
 - Sheets so far (review-note mode): one-part-admixture-compatibility, rap-geopolymer-grout-
   versus-composite, fly-ash-slag-efflorescence-moisture (worked examples), hpmc-vae-
@@ -43,7 +43,9 @@ them only when you need the evidence behind a specific earlier batch.
   lithium-slag-shrinkage-model-hold, pas-prefoam-volume-thermal, carbonated-fa-slag-gel-products,
   aircooled-slag-milling-activation; source-text batch 2 (2 Nov): calcium-hydroxide-carbonation-
   tradeoff, printing-side-stream-process-window, sfcc-phosphate-acid-window,
-  foam-polystyrene-fire-assembly, metakaolin-gel-amount-versus-composition.
+  foam-polystyrene-fire-assembly, metakaolin-gel-amount-versus-composition; batch 3 (2 Nov):
+  ceramic-waste-artistic-restoration, foam-weathering-insulation-loss, eogo-metakaolin-dose-dispersion,
+  phosphate-al-p-series-ledger, xrd-strength-screening-boundary.
 - The fly-ash/slag pilot queue is finished (13 done, 11 skipped with reasons) and archived as
   `research/mix-sheets/_QUEUE-fly-ash-slag-pilot.json`. New queue `QUEUE.json`
   ("partial-designs-round-2"): the 99 remaining partial-design guides that are not sheeted,
@@ -102,6 +104,11 @@ merge their PRs; lanes B–D are leads, not site data.
   porosity, compressive/flexural strength, density, thermal conductivity, NMR gel fraction).
   13 source operations; `ground` 0 of 328 quotes ungrounded; two AI reviewers, 278 lines, 0 value
   errors. Audit: `research/batches/source-text-batch2-2026-11-02.json`.
+- Batch 3 (next five open-PMC queue guides): 32 new rows, 28 more with numeric results (52 values:
+  strength ± SD, density, water absorption, porosity, setting times, conductivity). 12 operations;
+  `ground` 0 of 237 ungrounded; two AI reviewers, 195 lines, 0 value errors. Cure rule revised: a
+  stage at ≥30 °C before testing is the recorded cure (standard rule 8). Audit:
+  `research/batches/source-text-batch3-2026-11-02.json`.
 - 45 of the 90 open queue guides have an open PMC copy (list in that audit's selection note); the
   next five are `npm run mixes -- queue --next 5`, skipping any without a copy.
 

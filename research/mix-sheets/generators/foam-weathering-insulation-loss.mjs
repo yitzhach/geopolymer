@@ -22,7 +22,7 @@ await save({...sheetHeader(G,'10.3390/ma19010012',src,'The single geopolymer foa
    {material:'oil',value:1.5,unit:'wt%',basis:'other',basisNote:'"1.5 wt.% of surfactant"; reference mass not stated',text:mix}],
   parameters:[{key:'hydroxide-molarity',value:8,text:act}],
   missing:['solid-to-liquid 1.14 is stated as solid/liquid, so no liquid/solid value is entered']}],
- cures:[{id:'c1',category:'ambient',temperatureC:null,duration:24,durationUnit:'h',sealed:null,humidityPercent:null,text:'The samples were pre-cured at ambient temperature for 24 h, followed by curing at 60 °C for another 24 h.'}],
+ cures:[{id:'c1',category:'heat',temperatureC:60,duration:24,durationUnit:'h',sealed:null,humidityPercent:null,text:'The samples were pre-cured at ambient temperature for 24 h, followed by curing at 60 °C for another 24 h.'}],
  tests:[{id:'rho',property:'density',unit:'g/cm3',specimen:'cylinders',method:'bulk density'},{id:'por',property:'porosity',unit:'%',specimen:'cylinders',method:'total porosity from apparent and true density'},
   {id:'k',property:'thermal-conductivity',unit:'W/(m·K)',specimen:'cylinders',method:null},{id:'fc',property:'compressive-strength',unit:'MPa',specimen:'cylinders',method:null}],
  results:[R('rho',0.277,d,{condition:'The uncarbonated GFC'}),R('por',87.3,d,{condition:'The uncarbonated GFC'}),
@@ -34,4 +34,4 @@ await save({...sheetHeader(G,'10.3390/ma19010012',src,'The single geopolymer foa
  gaps:['One mix only; "GFC" is the paper\'s name for it. Carbonated, salt-fog and UV values whose sentences do not name GFC are kept as notes rather than results.',
   'No batch masses; NaOH/Na2SiO3 is printed as "0.51 wt.%" (not read as a mass ratio), and the H2O2 and olive-oil percentages have no stated reference mass.',
   'Test ages are not stated; exposure durations (7 days carbonation, 12 weeks salt fog/UV) are exposure times, not curing ages. Carbonation at 40 °C reached 0.122 W/m·K in the next paragraph (rounded), 0.1217 here.',
-  'Second review pending; see the batch audit.']});
+  'Second review (2 Nov 2026): 0 value errors; see the batch audit.']});

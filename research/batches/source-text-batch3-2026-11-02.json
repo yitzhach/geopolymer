@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "batch": "source-text-batch3-2026-11-02",
+  "mode": "source-text (mix-sheet skill v1.2, repository tooling)",
+  "checked": "2026-11-02",
+  "reviewer": "AI transcription by the primary agent; independent AI second review by two lightweight reviewer agents; no human/domain review",
+  "selection": "Next five open entries of research/mix-sheets/QUEUE.json that have an open CC BY PMC copy. Skipped for lack of a PMC copy (not opened): aluminum-foam-coating-ratio-conflict (10.3390/coatings11010087), mtos-hydrophobic-coating-dose (10.3390/coatings16070752), mk-coating-activator-window (10.3390/coatings16070825), granite-microwave-foam-ledger (10.3390/su18104754), fayalite-phosphate-foam-balance (10.3390/ceramics9070071), and further non-PMC entries between the selected ones.",
+  "operations": [
+    "5 × (Europe PMC search + fullTextXML) via npm run mixes -- source = 10 operations",
+    "1 × re-download of the batch-2 metakaolin paper (search + fullTextXML = 2 operations) to regression-test the reworked grounding parser and apply the revised cure rule to that sheet"
+  ],
+  "operationCount": 12,
+  "failedAccess": [],
+  "retention": "Full text saved only in the OS temp folder (geopolymer-sources/) and deleted after review.",
+  "method": [
+    "Generators read parsed table cells and check the headers and labels they rely on; the XRD generator joins each Table 5 sample to exactly one Table 4 formulation.",
+    "npm run mixes -- ground: 0 of 237 quotes not grounded.",
+    "npm run mixes -- check: all sheets pass."
+  ],
+  "papers": [
+    {
+      "guideId": "ceramic-waste-artistic-restoration",
+      "doi": "10.3390/ma15238600",
+      "pmcid": "PMC9735710",
+      "licence": "CC BY (Europe PMC)",
+      "fullText": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9735710/fullTextXML",
+      "generator": "research/mix-sheets/generators/ceramic-waste-artistic-restoration.mjs",
+      "mixes": 6,
+      "results": 18
+    },
+    {
+      "guideId": "foam-weathering-insulation-loss",
+      "doi": "10.3390/ma19010012",
+      "pmcid": "PMC12786520",
+      "licence": "CC BY (Europe PMC)",
+      "fullText": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12786520/fullTextXML",
+      "generator": "research/mix-sheets/generators/foam-weathering-insulation-loss.mjs",
+      "mixes": 1,
+      "results": 8
+    },
+    {
+      "guideId": "eogo-metakaolin-dose-dispersion",
+      "doi": "10.3390/ma18163864",
+      "pmcid": "PMC12387482",
+      "licence": "CC BY (Europe PMC)",
+      "fullText": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12387482/fullTextXML",
+      "generator": "research/mix-sheets/generators/eogo-metakaolin-dose-dispersion.mjs",
+      "mixes": 4,
+      "results": 8
+    },
+    {
+      "guideId": "phosphate-al-p-series-ledger",
+      "doi": "10.3390/polym17172358",
+      "pmcid": "PMC12430963",
+      "licence": "CC BY (Europe PMC)",
+      "fullText": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12430963/fullTextXML",
+      "generator": "research/mix-sheets/generators/phosphate-al-p-series-ledger.mjs",
+      "mixes": 6,
+      "results": 3
+    },
+    {
+      "guideId": "xrd-strength-screening-boundary",
+      "doi": "10.3390/ma18092093",
+      "pmcid": "PMC12072858",
+      "licence": "CC BY (Europe PMC)",
+      "fullText": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12072858/fullTextXML",
+      "generator": "research/mix-sheets/generators/xrd-strength-screening-boundary.mjs",
+      "mixes": 15,
+      "results": 15
+    }
+  ],
+  "secondReview": [
+    {
+      "sheets": [
+        "ceramic-waste-artistic-restoration",
+        "foam-weathering-insulation-loss",
+        "eogo-metakaolin-dose-dispersion"
+      ],
+      "linesChecked": 96,
+      "valueErrors": 0,
+      "findings": [
+        "EOGO L/B 1.4 recorded as liquid/solid → changed to activator/precursor (binder = metakaolin only).",
+        "EOGO MKGO 0.5 cracking note applied only to the water-absorption test → moved to gaps with that context.",
+        "Foam-weathering cure fields held only the ambient first stage → fixed by the revised cure rule (below).",
+        "Ceramic wt.% basis and undefined ± already recorded in gaps. No change."
+      ]
+    },
+    {
+      "sheets": [
+        "phosphate-al-p-series-ledger",
+        "xrd-strength-screening-boundary"
+      ],
+      "linesChecked": 99,
+      "valueErrors": 0,
+      "findings": [
+        "All 15 XRD formulations joined to the right Table 4 row with the right Table 5 strength and bracket.",
+        "Phosphate cure fields showed 'ambient' although a 60 °C stage follows → cure rule revised: when any stage before testing is ≥30 °C the fields describe that heat stage (standard rule 8, skill cookbook). Applied to phosphate-al-p-series-ledger, foam-weathering-insulation-loss and metakaolin-gel-amount-versus-composition (batch 2); a scan found no other affected sheet (the superplasticizer review-note sheet compares two separate cure arms)."
+      ]
+    }
+  ],
+  "toolingAdded": [
+    "tableQuote group option for sample IDs repeated under group rows; grounding checks the nearest group row",
+    "grounding matches the named table's real caption first, so captions containing '), ' parse correctly"
+  ]
+}

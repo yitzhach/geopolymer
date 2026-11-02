@@ -36,4 +36,4 @@ await save({...sheetHeader(G,'10.3390/ma18092093',src,'All fifteen formulations 
  gaps:['Table 5 sample IDs ("1.2 (1)" = Si/Al and Na/Al) repeat under precursor group rows, so the sheet labels each formulation "<precursor> <ID>" and each strength quote names its group row ("FA 1 / Sample ID 1.2 (1)"); the generator joins every Table 5 row to exactly one Table 4 formulation by precursor, Si/Al and Na/Al.',
   'Ratios are targets computed on the amount and composition of each precursor\'s amorphous material. No masses are given; the activator (NaOH alone, or with sodium silicate SiO2/Na2O 2.32 or sodium aluminate) is not stated per formulation. H/Si (water) has no parameter key; total H2O was MK 1 29.1%, MK 2 35.0%, FA 1 18.0%, FA 2 15.0 wt.%.',
   'Strength brackets are two standard deviations, recorded as spread. Peak shift and zeolite presence (Table 5) are not mix-table properties.',
-  'Second review pending; see the batch audit.']});
+  'Second review (2 Nov 2026): 0 value errors; see the batch audit.']});

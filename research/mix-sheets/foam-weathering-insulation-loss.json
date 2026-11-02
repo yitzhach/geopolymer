@@ -112,8 +112,8 @@
  "cures": [
   {
    "id": "c1",
-   "category": "ambient",
-   "temperatureC": null,
+   "category": "heat",
+   "temperatureC": 60,
    "duration": 24,
    "durationUnit": "h",
    "sealed": null,
@@ -237,6 +237,6 @@
   "One mix only; \"GFC\" is the paper's name for it. Carbonated, salt-fog and UV values whose sentences do not name GFC are kept as notes rather than results.",
   "No batch masses; NaOH/Na2SiO3 is printed as \"0.51 wt.%\" (not read as a mass ratio), and the H2O2 and olive-oil percentages have no stated reference mass.",
   "Test ages are not stated; exposure durations (7 days carbonation, 12 weeks salt fog/UV) are exposure times, not curing ages. Carbonation at 40 °C reached 0.122 W/m·K in the next paragraph (rounded), 0.1217 here.",
-  "Second review pending; see the batch audit."
+  "Second review (2 Nov 2026): 0 value errors; see the batch audit."
  ]
 }

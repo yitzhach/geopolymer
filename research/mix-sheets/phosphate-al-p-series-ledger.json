@@ -220,8 +220,8 @@
  "cures": [
   {
    "id": "c1",
-   "category": "ambient",
-   "temperatureC": 20,
+   "category": "heat",
+   "temperatureC": 60,
    "duration": 24,
    "durationUnit": "h",
    "sealed": true,
@@ -288,7 +288,7 @@
   "Mixes are columns in Table 3, so each quote pairs the row (Metakaolin, H3PO4, Water) with that sample's column. The H3PO4 row is the 85% acid solution as dosed.",
   "Labels give the Al/P molar ratio computed on the metakaolin's amorphous Al2O3 (40.8% by mass), not total XRF aluminium; there is no Al/P parameter key, so the ratio stays in the label.",
   "Compressive and flexural strengths (7 days) are plotted only in Figure 1; flexural strength decreased with increasing Al/P. Water was adjusted to a 160 mm spill, so acid and water change together.",
-  "Cure fields hold the first stage (24 h at 20 ± 2 °C under foil); the quote keeps the following 24 h at 60 °C.",
-  "Second review pending; see the batch audit."
+  "Cure fields hold the 60 °C/24 h heat stage; the quote keeps the preceding 24 h at 20 ± 2 °C under foil and the later laboratory storage.",
+  "Second review (2 Nov 2026): 0 value errors; see the batch audit."
  ]
 }

@@ -130,7 +130,10 @@ Proven on five skipped fly-ash/slag guides; record in
    (`check --audit`) and the saved paper (`tables` output and text), checks every value against the row/column or sentence
    of the source for the right mix, property, age and cure. Fix or remove each disputed value,
    record the review in the batch audit, then release. AI review is not human/domain review.
-8. **Source contradictions** (row counts that differ from the text, ratio labels that do not
+8. **Cure stages.** The cure fields describe the first stage, unless a later stage before testing is
+   at 30 °C or above: then they describe that heat stage (rule revised 2 November 2026 after the
+   batch-3 review). The quoted text always keeps the full sequence.
+9. **Source contradictions** (row counts that differ from the text, ratio labels that do not
    match the table, misnamed tables) go into `gaps` verbatim; the sheet never repairs them.
 
 ## What the checker enforces

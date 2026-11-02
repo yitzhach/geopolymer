@@ -75,7 +75,9 @@ conditions go into `gaps`.
 - category: ≥30 °C → `heat`; steam → `steam`; immersed in water → `water`; fog room or
   ≥90% RH at room temperature → `moist`; room/lab/ambient (<30 °C) → `ambient`; otherwise as
   written (`electric`, `microwave`, `autoclave`, `other`).
-- Numbers: the first curing stage (not demolding). `"24 h"` → 24 + `"h"`; `"28 days"` → 28 +
+- Numbers: the first curing stage (not demolding) — except that when any stage before testing is at
+  30 °C or above, record that heat stage (category `heat`, its temperature and duration) so the cure
+  filter is not misled; the quote keeps the whole sequence. `"24 h"` → 24 + `"h"`; `"28 days"` → 28 +
   `"d"`; `"about 20 °C"` → 20. A range (`15–25 °C`) or a bound (`RH ≥ 95%`, `>90%`) → `null`;
   the quote keeps it. Later stages stay in the quote. Leave `durationUnit` null when `duration` is.
 - Test ages are not curing durations ("7, 14, 28-day strength ages" → no duration).

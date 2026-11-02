@@ -17,7 +17,7 @@ await save({...sheetHeader(G,'10.3390/ma13245784',src,'All seven Table 1 mixture
   {id:'naoh',family:'sodium-hydroxide',role:'activator',name:'sodium hydroxide',detail:'reagent-grade sodium hydroxide (Fisher, Waltham, MA, USA)'},
   {id:'caoh2',family:'calcium-hydroxide',role:'additive',name:'calcium hydroxide'}],
  mixes,
- cures:[{id:'c1',category:'moist',temperatureC:25,duration:3,durationUnit:'h',sealed:null,humidityPercent:100,text:'Specimens were stored in a curing room at 25 °C and 100% relative humidity for around 3 h and then heated at 60 °C and ambient humidity and pressure for 2 h. After this heat treatment, they were put back in the curing room until around 24 h after mixing, when they were demolded. The demolded specimens were kept in the curing room until testing.'}],
+ cures:[{id:'c1',category:'heat',temperatureC:60,duration:2,durationUnit:'h',sealed:null,humidityPercent:null,text:'Specimens were stored in a curing room at 25 °C and 100% relative humidity for around 3 h and then heated at 60 °C and ambient humidity and pressure for 2 h. After this heat treatment, they were put back in the curing room until around 24 h after mixing, when they were demolded. The demolded specimens were kept in the curing room until testing.'}],
  tests:[{id:'gel',property:'other',propertyNote:'Share of the mixture’s Si in geopolymer gel (Si, mol%) by 29Si NMR with chemical extraction — a degree-of-reaction measure',unit:'mol%',specimen:'ground paste',method:'29Si NMR with chemical extraction'}],
  results,
  findings:[],
@@ -26,5 +26,5 @@ await save({...sheetHeader(G,'10.3390/ma13245784',src,'All seven Table 1 mixture
   'No masses are tabulated: the design is given only as molar Na/Al, Si/Al, H2O/Na2O and Ca/Si ratios.',
   'Compressive strengths (7 days, ASTM C109) are plotted in Figures 3–4 only; the text gives no per-mixture values.',
   'Gel composition (Si/Al of gel and of unreacted metakaolin) in Table 2 is not transcribed; gel amounts for the calcium mixtures 5–7 are not tabulated.',
-  'Cure: first stage 25 °C / 100% RH for about 3 h, then 2 h at 60 °C, then the curing room until testing at 7 days.',
+  'Cure fields hold the 2 h at 60 °C heat stage; the quote keeps the preceding ~3 h at 25 °C / 100% RH and the curing room until testing at 7 days.',
   'Second review (2 Nov 2026): 0 value errors; see the batch audit.']});
