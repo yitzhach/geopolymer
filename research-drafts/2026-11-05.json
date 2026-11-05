@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-05",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-29",
+    "through": "2026-11-05"
+  },
+  "researchUpdates": [
+    {
+      "id": "research-geopolymer-phase-change-concrete-thermal-mechanical",
+      "year": 2026,
+      "published": "2026-11-04",
+      "checked": "2026-11-05",
+      "added": "2026-11-05",
+      "dateBasis": "Publisher publication date",
+      "title": "Investigation on mechanical and thermal behavior of geopolymer phase change concrete",
+      "doi": "10.1038/s41598-026-78823-5",
+      "journal": "Scientific Reports",
+      "topic": "Thermal energy storage",
+      "type": "Research article",
+      "publicationStatus": "Published; early-access accepted version",
+      "authors": "Zipeng Qin, Zhengzheng Liu, Xiaoli Zhang, Jia Lin, Liangbin Zhang, Shixing Liu, Ne Yang and Yan Tian",
+      "publisherUrl": "https://www.nature.com/articles/s41598-026-78823-5",
+      "url": "https://doi.org/10.1038/s41598-026-78823-5",
+      "summary": "A comparative phase-change-concrete study varies paraffin-microcapsule replacement in geopolymer and Portland-cement matrices, tracking the trade-off between mechanical response, pore structure and thermal-storage behavior.",
+      "highlights": [
+        "Increasing microcapsule content is treated as a coupled thermal–mechanical design variable: the publisher record reports higher thermal-storage functionality alongside reduced matrix density and compression, not a universal performance gain.",
+        "The comparison is bounded to the reported geopolymer and Portland-cement formulations, replacement levels, curing ages and laboratory thermal tests; it does not establish field cycling, fire response, long-term capsule integrity or independent replication."
+      ],
+      "access": "The primary Scientific Reports page, full author list, article history, early-access notice and accessible methods/results were reviewed. Compression, porosity, thermal conductivity, latent heat and specific heat remain distinct reported outcomes. The study compares defined GPCC and CPCC mixtures at reported curing ages; no unreported-age strength, tensile, flexural, shear, long-term cycling, fire, field or scale-up performance is inferred.",
+      "summaryBasis": "Primary Scientific Reports publisher page and accessible article record; original synthesis only, with no abstract, publisher highlights, figures, tables or full-paper passages reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    },
+    {
+      "id": "research-low-alkalinity-geopolymer-gfrp-rc-beam-strengthening",
+      "year": 2026,
+      "published": "2026-11-01",
+      "checked": "2026-11-05",
+      "added": "2026-11-05",
+      "dateBasis": "Publisher issue publication date",
+      "title": "Flexural behavior of RC beams strengthened with low-alkalinity geopolymer-GFRP system",
+      "doi": "10.1016/j.engstruct.2026.123424",
+      "journal": "Engineering Structures",
+      "topic": "Structural strengthening",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "authors": "Hui-Xiang Wang, Kai-Di Peng and Yu-Lei Bai",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0141029626013386",
+      "url": "https://doi.org/10.1016/j.engstruct.2026.123424",
+      "summary": "A reinforced-concrete beam study evaluates low-alkalinity geopolymer as the matrix for mini-GFRP-bar strengthening layers, combining four-point bending, full-field strain measurement and nonlinear modeling to examine flexural response and debonding.",
+      "highlights": [
+        "The evidence concerns beam flexure and interface behavior; it is not recast as geopolymer compressive strength, generic shear capacity or proof of long-term GFRP durability.",
+        "The low-alkalinity concept addresses a known exposure concern, but the authors explicitly position accelerated aging as later work; present mechanical equivalence does not establish long-term chemical resistance."
+      ],
+      "access": "The primary ScienceDirect record verified the title, DOI, complete three-author list, research-article status and 1 November 2026 issue date. Accessible sections describe four-point bending, pull-off/direct-shear interface tests, digital image correlation and nonlinear finite-element modeling. The study is a structural-system investigation; reported flexural capacity, ductility, stiffness, bond and modeled thresholds are not transferred to other geometries, matrices or exposure durations. Long-term aging is not established.",
+      "summaryBasis": "Primary ScienceDirect publisher page and accessible article sections; original synthesis only, with no abstract, publisher highlights, figures, tables or full-paper passages reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    },
+    {
+      "id": "research-inorganic-retarders-hot-weather-fly-ash-slag-mortar",
+      "year": 2026,
+      "published": "2026-11-01",
+      "checked": "2026-11-05",
+      "added": "2026-11-05",
+      "dateBasis": "Publisher issue publication date",
+      "title": "Effect of inorganic retarders on setting, mechanical properties, and microstructure of fly ash-slag geopolymer mortars under hot-weather conditions",
+      "doi": "10.1016/j.envres.2026.125627",
+      "journal": "Environmental Research",
+      "topic": "Admixtures and hot-weather setting",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "authors": "Yaowen Sun, Xin Wang, Yuxin Cao, Lining Ding, Zhiyuan Chen, Jingyang Zhou and Zhishen Wu",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0013935126019584",
+      "url": "https://doi.org/10.1016/j.envres.2026.125627",
+      "summary": "A fly-ash/slag geopolymer-mortar study compares zinc chloride, sodium sulfate and barium chloride as inorganic retarders across elevated mixing conditions, linking setting response with mechanical testing and microstructural interpretation.",
+      "highlights": [
+        "The three salts are evaluated as chemically different interventions rather than interchangeable delay agents, so a dosage or mechanism from one retarder should not be transferred to another.",
+        "Setting time, compression and microstructural observations are separate evidence types; hot-weather laboratory behavior does not by itself establish field placement, durability, environmental safety or performance with waste-derived salt streams."
+      ],
+      "access": "The primary ScienceDirect record verified the title, DOI, research-article status and 1 November 2026 issue date; the seven-author list was cross-checked against the indexed journal record. Accessible publisher metadata identifies the tested retarder families and a 30–50 °C hot-weather range. Full mixture quantities, all ages, specimen geometry, statistical detail and source purity were not independently audited. No tensile, flexural, shear, field-placement, long-term durability or waste-stream equivalence claim is inferred.",
+      "summaryBasis": "Primary ScienceDirect publisher record plus indexed journal metadata for authors and publication date; original synthesis only, with no abstract, publisher highlights, figures, tables or full-paper passages reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    }
+  ],
+  "journalArticle": {
+    "id": "functional-additions-create-coupled-design-problems",
+    "date": "2026-11-05",
+    "category": "Research briefing",
+    "topic": "Performance trade-offs",
+    "title": "Functional additions create coupled design problems",
+    "summary": "Phase-change capsules, low-alkalinity strengthening matrices and hot-weather retarders each solve a practical constraint while changing another part of the material or structural response.",
+    "sources": [
+      "research-geopolymer-phase-change-concrete-thermal-mechanical",
+      "research-low-alkalinity-geopolymer-gfrp-rc-beam-strengthening",
+      "research-inorganic-retarders-hot-weather-fly-ash-slag-mortar"
+    ],
+    "paragraphs": [
+      "The useful pattern is conditional optimization. Thermal-storage additions can alter pores and compression; lowering matrix alkalinity can protect a reinforcement concept while changing bond and stiffness design; retarding salts can extend placement time through chemistry-specific pathways.",
+      "Reusable records should therefore preserve the targeted constraint, additive identity and purity, dosage basis, temperature, curing, geometry, loading mode and test age. Keep compression, beam flexure, interface tests, setting, thermal storage and microscopy separate until a study directly connects them under the same conditions."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "All three DOIs were absent from current-main code search and from the existing PR #5 body through the 4 November additions. The existing draft PR was updated rather than creating another.",
+    "dates": "Scientific Reports lists 4 November 2026 as publication date. ScienceDirect lists 1 November 2026 for both Engineering Structures and Environmental Research; these current publisher issue dates, not future assignments or crawl dates, are used.",
+    "authors": "Complete author lists were verified from the primary Nature and ScienceDirect pages; the Environmental Research list was cross-checked against its indexed journal record.",
+    "corrections": "No substantive geopolymer/AAM correction, corrigendum or retraction newly publisher-dated 29 October–5 November 2026 was verified. Targeted searches returned older notices outside the window.",
+    "verification": "Three unique DOIs and IDs, exactly two original highlights per record and three valid briefing references. Compression, thermal behavior, beam flexure, interface response, setting and microscopy are kept distinct.",
+    "integration": "Review-only staging on existing draft PR. Preserve stable IDs and existing content; run rights, application, build and browser checks before any separately authorized publication.",
+    "excluded": "Previously staged records, future issue dates, records without an exact publisher date, non-primary listings and notices outside the window were excluded. November-only listings without an exact day were not redated. No filler was added."
+  }
+}
