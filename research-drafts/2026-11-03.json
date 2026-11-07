@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-03",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-27",
+    "through": "2026-11-03"
+  },
+  "researchUpdates": [
+    {
+      "id": "research-red-mud-plastic-nanocarbon-aam-toughening",
+      "year": 2026,
+      "published": "2026-10-31",
+      "checked": "2026-11-03",
+      "added": "2026-11-03",
+      "dateBasis": "Publisher publication date",
+      "title": "Toughening alkali-activated construction materials using nanocarbon composites from red mud-catalyzed plastic waste upcycling",
+      "doi": "10.1038/s41467-026-79066-8",
+      "journal": "Nature Communications",
+      "topic": "Waste-derived reinforcement",
+      "type": "Research article",
+      "publicationStatus": "Published; early-access accepted version",
+      "authors": "Mingyue Yan, Huiyang Bi, Yifan Lu, Zhichun Huang, Chen Sun, Zhongjian Li, Yang Hou, Lecheng Lei and Bin Yang",
+      "publisherUrl": "https://www.nature.com/articles/s41467-026-79066-8",
+      "url": "https://doi.org/10.1038/s41467-026-79066-8",
+      "summary": "A coupled waste-upcycling route uses red mud during plastic pyrolysis to co-produce hydrogen and carbon-nanotube/red-mud composites, then evaluates those composites as low-dose modifiers in alkali-activated construction material.",
+      "highlights": [
+        "The study links nanocarbon yield and structure to binder response, reporting compression and flexure separately rather than treating a single strength metric as a universal toughness result.",
+        "The reported material, energy, carbon and cost comparisons depend on the authors’ process boundaries, selected plastics, red-mud sources and laboratory binder system; they are not independent industrial-scale replication."
+      ],
+      "access": "The primary Nature Communications page, author list, article history, early-access notice and accessible article-level methods/results were reviewed. The work compares red-mud-catalyzed plastic conversion conditions and selected nanocarbon-composite additions in one AAM program. Reported compression, flexure and process-assessment outputs retain their separate test and modeling bases. Long-term field durability, broad feedstock variability, full-scale manufacture and independent replication are not established by this single study.",
+      "summaryBasis": "Primary Nature Communications publisher page and accessible article record; original synthesis only, with no abstract, publisher highlights, figures, tables or full-paper passages reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    },
+    {
+      "id": "research-ternary-geopolymer-grout-cation-balance-transport",
+      "year": 2026,
+      "published": "2026-11-02",
+      "checked": "2026-11-03",
+      "added": "2026-11-03",
+      "dateBasis": "Publisher article publication date",
+      "title": "Nonmonotonic Cation-Balance Regulation of Strength and Transport-Pathway Accessibility in Ternary Geopolymer Grouts",
+      "doi": "10.3390/buildings16214375",
+      "journal": "Buildings",
+      "topic": "Geopolymer grouts",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "authors": "Liang Wang, Yijun Ding and Dongdong Yan",
+      "publisherUrl": "https://www.mdpi.com/2075-5309/16/21/4375",
+      "url": "https://doi.org/10.3390/buildings16214375",
+      "summary": "A ternary geopolymer-grout study examines how changing cation balance affects fresh behavior, structural stability and the accessibility of connected liquid- and gas-transport pathways for possible water-bearing-fracture applications.",
+      "highlights": [
+        "The title and publisher synopsis frame the response as nonmonotonic, so the draft does not reduce the study to a simple more-alkali or more-cation-is-better rule.",
+        "Strength and transport-pathway accessibility are distinct reported response families; neither is used here as a substitute for field watertightness or long-term durability."
+      ],
+      "access": "Primary MDPI issue metadata verified the title, DOI, authors, article type and 2 November publication date. The individual article page was unavailable to the verification environment, so mixture proportions, specimens, ages, numerical results and detailed methods were not audited. This is a metadata-level discovery record and makes no unreported-age, shear, flexural, field-sealing or durability claim.",
+      "summaryBasis": "Primary MDPI issue listing and DOI metadata; metadata-level original synthesis only, with no abstract, publisher highlights, figures, tables or full-paper passages reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    },
+    {
+      "id": "review-mine-tailings-geopolymer-bricks-properties-durability",
+      "year": 2026,
+      "published": "2026-11-02",
+      "checked": "2026-11-03",
+      "added": "2026-11-03",
+      "dateBasis": "Publisher article publication date",
+      "title": "Properties and Durability of Mine Tailings Geopolymer Bricks: A Systematic Review",
+      "doi": "10.3390/buildings16214377",
+      "journal": "Buildings",
+      "topic": "Mine-tailings masonry",
+      "type": "Systematic review",
+      "publicationStatus": "Published; version of record",
+      "authors": "Berenice Zúñiga-Torres and Alonso Zúñiga-Suárez",
+      "publisherUrl": "https://www.mdpi.com/2075-5309/16/21/4377",
+      "url": "https://doi.org/10.3390/buildings16214377",
+      "summary": "This systematic review organizes evidence on mine-tailings geopolymer bricks, covering material properties and durability questions relevant to cement-free, unbaked masonry.",
+      "highlights": [
+        "The review is useful as an evidence map for tailings source, activation, curing and brick performance, but it is not a new physical experiment or independent replication of the included studies.",
+        "Any comparison across tailings systems must retain mineralogy, contaminant content, activator, curing, specimen geometry and exposure protocol; pooled labels alone do not establish equivalent durability."
+      ],
+      "access": "Primary MDPI issue metadata verified the title, DOI, authors, systematic-review label and 2 November publication date. The individual article page and review protocol were unavailable, so search databases, date limits, screening counts, bias appraisal and included-study details were not audited. No universal strength, leaching safety or service-life conclusion is inferred.",
+      "summaryBasis": "Primary MDPI issue listing and DOI metadata; metadata-level original synthesis only, with no abstract, publisher highlights, figures, tables or full-paper passages reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    },
+    {
+      "id": "research-foundry-sand-pp-fiber-slag-geopolymer-mortar",
+      "year": 2026,
+      "published": "2026-11-02",
+      "checked": "2026-11-03",
+      "added": "2026-11-03",
+      "dateBasis": "Publisher article publication date",
+      "title": "Combined Effects of Foundry Sand Replacement and Polypropylene Fiber Content on Slag Geopolymer Mortar Properties",
+      "doi": "10.3390/buildings16214397",
+      "journal": "Buildings",
+      "topic": "Fiber-reinforced mortar",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "authors": "Muhammad Salman Ali, Noman Ahmed Khan, Fasiuddin Aijaz Mohammed, Aamar Danish and Muhammad Usama Salim",
+      "publisherUrl": "https://www.mdpi.com/2075-5309/16/21/4397",
+      "url": "https://doi.org/10.3390/buildings16214397",
+      "summary": "A slag-geopolymer-mortar study varies foundry-sand replacement and polypropylene-fiber content together, targeting the linked constraints of natural-sand demand and brittle response.",
+      "highlights": [
+        "The factorial framing matters: sand replacement changes the granular phase while fibers change crack-bridging behavior, so their effects should not be assigned to one variable without the full design.",
+        "The metadata does not justify transferring any optimum to concrete, other slag chemistry, different activator systems or unreported curing ages."
+      ],
+      "access": "Primary MDPI issue metadata verified the title, DOI, complete author list, article type and 2 November publication date. The individual article page was unavailable, so mixture levels, activator composition, curing, specimen geometry, numerical results and statistics were not audited. Compression, flexure and tension are not conflated, and no value or optimum is reported here.",
+      "summaryBasis": "Primary MDPI issue listing and DOI metadata; metadata-level original synthesis only, with no abstract, publisher highlights, figures, tables or full-paper passages reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    },
+    {
+      "id": "research-dredged-sand-alkali-activated-slag-fly-ash-concrete",
+      "year": 2026,
+      "published": "2026-11-02",
+      "checked": "2026-11-03",
+      "added": "2026-11-03",
+      "dateBasis": "Publisher article publication date",
+      "title": "Basic Mechanical Properties and Microscopic Characteristics of Alkali-Activated Slag/Fly Ash Concrete Incorporating Dredged Sand",
+      "doi": "10.3390/ma19214668",
+      "journal": "Materials",
+      "topic": "Alternative aggregates",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "authors": "Wei Wang, Jinming Yin and Jifeng Yuan",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/19/21/4668",
+      "url": "https://doi.org/10.3390/ma19214668",
+      "summary": "An alkali-activated slag/fly-ash concrete study evaluates ultrafine dredged sand as a fine-aggregate replacement and connects basic mechanical testing with microscopic characterization.",
+      "highlights": [
+        "Dredged sand is treated as a graded replacement variable rather than a generic waste label; its particle characteristics and interaction with the paste are part of the evidence boundary.",
+        "Microscopy can help interpret observed mechanical behavior but does not independently prove causation, field durability or performance at ages and load modes that were not reported."
+      ],
+      "access": "Primary MDPI recent-article metadata verified the title, DOI, authors and 2 November publication date. The individual article page was unavailable, so replacement levels, activator chemistry, curing, ages, specimen geometry, numerical values and microscopic protocols were not audited. No strength value, optimum, durability result or cross-mode inference is included.",
+      "summaryBasis": "Primary MDPI recent-article listing and DOI metadata; metadata-level original synthesis only, with no abstract, publisher highlights, figures, tables or full-paper passages reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    }
+  ],
+  "journalArticle": {
+    "id": "new-waste-streams-expand-the-ledger-not-the-shortcuts",
+    "date": "2026-11-03",
+    "category": "Research briefing",
+    "topic": "Evidence boundaries",
+    "title": "New waste streams expand the ledger, not the shortcuts",
+    "summary": "This week’s records span plastic-derived nanocarbon, mine tailings, foundry sand and dredged sand, but each waste stream changes a different part of the formulation and must retain its own processing and test boundaries.",
+    "sources": [
+      "research-red-mud-plastic-nanocarbon-aam-toughening",
+      "research-ternary-geopolymer-grout-cation-balance-transport",
+      "review-mine-tailings-geopolymer-bricks-properties-durability",
+      "research-foundry-sand-pp-fiber-slag-geopolymer-mortar",
+      "research-dredged-sand-alkali-activated-slag-fly-ash-concrete"
+    ],
+    "paragraphs": [
+      "The common opportunity is not a universal waste-to-geopolymer recipe. Red mud acts in a catalyst and additive pathway, mine tailings can become precursor or aggregate feedstock, and foundry or dredged sands alter the granular skeleton. Those roles govern which chemistry, mass balance and performance tests belong in a reusable record.",
+      "For comparison, preserve feedstock origin and pretreatment, particle grading, precursor fractions, activator composition, curing, specimen geometry, test age and exposure. Keep compression, flexure, tension, transport and microscopy as separate observations, and treat reviews and predictive interpretation as evidence maps rather than new replication."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "All five DOIs were absent from current-main code search and from the existing PR #5 body, which enumerates the earlier daily draft additions. The existing draft PR was updated rather than creating another.",
+    "dates": "Nature Communications lists 31 October 2026 as the publication date. MDPI’s primary issue/recent-article listings date all four MDPI records 2 November 2026. Publisher dates, not crawl, acceptance or future issue-assignment dates, are used.",
+    "authors": "The complete Nature author list was verified on its publisher page. Complete MDPI author lists were verified from the primary issue or recent-article listing.",
+    "corrections": "No substantive geopolymer/AAM correction, corrigendum or retraction newly publisher-dated 27 October–3 November 2026 was verified. Search returned older notices, including a 14 September Scientific Reports retraction, which was excluded from this window.",
+    "verification": "Five unique DOIs and IDs, exactly two original highlights per record and five valid briefing references. The Nature record has article-level review; the four MDPI records remain explicitly metadata-level because individual pages were unavailable.",
+    "integration": "Review-only staging on existing draft PR. Preserve stable IDs and existing content; run rights, application, build and browser checks before any separately authorized publication.",
+    "excluded": "Previously staged records, future issue dates, non-primary listings and notices outside the date window were excluded. Elsevier listings that exposed only issue dates without a distinct online-publication date were not used. No filler was added."
+  }
+}

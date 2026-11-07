@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-07",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-31",
+    "through": "2026-11-07"
+  },
+  "researchUpdates": [
+    {
+      "id": "research-ambient-ggbs-alccofine-silica-modifiers-ml",
+      "year": 2026,
+      "published": "2026-11-06",
+      "checked": "2026-11-07",
+      "added": "2026-11-07",
+      "dateBasis": "Publisher publication date",
+      "title": "Ambient-cured GGBS geopolymer concrete modified with alccofine, silica fume, or nano-silica: experiments and machine learning",
+      "doi": "10.1038/s41598-026-78147-4",
+      "journal": "Scientific Reports",
+      "topic": "Ambient curing and binder modification",
+      "type": "Research article",
+      "publicationStatus": "Published; early-access accepted version",
+      "authors": "Neha Sharma, Rashmi Verma, Nikita Jain, Roohul Abad Khan, Vidhika Tiwari, Seema Seema, Mansha Samreen and Sagar Paruthi",
+      "publisherUrl": "https://www.nature.com/articles/s41598-026-78147-4",
+      "url": "https://doi.org/10.1038/s41598-026-78147-4",
+      "summary": "A laboratory study compares ambient-cured GGBS geopolymer concrete modified with a fixed alccofine fraction and varied silica-fume or nano-silica additions, then evaluates measured mechanical and durability-related responses alongside compressive-strength machine-learning models.",
+      "highlights": [
+        "The experimental comparison keeps compressive, splitting-tensile and flexural strength distinct from sorptivity, chemical exposure, freeze–thaw response and chloride penetrability; improvement in one measure is not treated as proof across all measures.",
+        "The predictive models are fitted to the study dataset and complement rather than independently replicate the physical experiments; the publisher explicitly identifies field-scale validation as still needed."
+      ],
+      "access": "The primary Scientific Reports page verified the exact publication date, DOI, complete eight-author list, early-access status and accessible methods/results. The tested alccofine, silica-fume and nano-silica ranges, curing regimes and reported ages bound the conclusions. No unreported-age strength, shear behavior, field performance, universal durability or independent replication is inferred.",
+      "summaryBasis": "Primary Scientific Reports publisher page and accessible article record; original synthesis only, with no abstract, publisher highlights, figures, tables or full-paper passages reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    },
+    {
+      "id": "research-activator-modulus-geopolymer-structural-supercapacitor",
+      "year": 2026,
+      "published": "2026-11-06",
+      "checked": "2026-11-07",
+      "added": "2026-11-07",
+      "dateBasis": "Publisher online publication date",
+      "title": "Modulus-regulated alkali-activated geopolymers for structural supercapacitors",
+      "doi": "10.1680/jadcr.26.00101",
+      "journal": "Advances in Cement Research",
+      "topic": "Functional geopolymers and energy storage",
+      "type": "Research article",
+      "publicationStatus": "Published online; EarlyCite research article",
+      "authors": "Zhen Zhao, Dan Meng, Xuemin Wu, Longhao Gu and Zhiheng Xu",
+      "publisherUrl": "https://www.emerald.com/jadcr/article-abstract/doi/10.1680/jadcr.26.00101/1407314/Modulus-regulated-alkali-activated-geopolymers-for",
+      "url": "https://doi.org/10.1680/jadcr.26.00101",
+      "summary": "A metakaolin-based geopolymer separator study varies sodium-activator modulus in symmetric structural supercapacitors, examining how pore refinement shifts the balance between compression and electrochemical storage behavior.",
+      "highlights": [
+        "The publisher record reports different modulus settings for the highest measured compression and the highest areal capacitance, making the design problem a trade-off rather than a single optimum.",
+        "Compression and electrochemical measurements characterize the tested separator–electrode assemblies; they do not establish flexural or shear capacity, long-term cycling, full structural service performance or independent replication."
+      ],
+      "access": "The primary Emerald publisher page verified the 6 November 2026 research-article date, DOI and complete five-author list. Accessible publisher text identifies the metakaolin binder, sodium hydroxide–sodium metasilicate activation, modulus range, pore analysis, 28-day compression and symmetric-device electrochemical tests. The full article is paywalled, so mixture details, specimen geometry, all cycling conditions and statistics were not independently audited.",
+      "summaryBasis": "Primary Emerald publisher record and accessible article-level metadata/summary; original synthesis only, with no abstract, publisher highlights, figures, tables or full-paper passages reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    }
+  ],
+  "journalArticle": {
+    "id": "multifunctional-binders-require-more-than-one-optimum",
+    "date": "2026-11-07",
+    "category": "Research briefing",
+    "topic": "Performance trade-offs",
+    "title": "Multifunctional binders require more than one optimum",
+    "summary": "New studies on ambient-cured concrete and structural supercapacitors show why formulation choices must be tied to a named response and test boundary.",
+    "sources": [
+      "research-ambient-ggbs-alccofine-silica-modifiers-ml",
+      "research-activator-modulus-geopolymer-structural-supercapacitor"
+    ],
+    "paragraphs": [
+      "The ambient-cured concrete study connects binder modification with several mechanical and durability-related tests, while its machine-learning work predicts compression within the assembled dataset. The structural-supercapacitor study exposes a sharper conflict: the modulus associated with the highest measured compression is not the one associated with the highest measured capacitance.",
+      "A reusable research record should therefore retain composition, activator modulus, curing, test age, specimen or device configuration and the exact response being optimized. Compression cannot stand in for flexure, shear, durability or electrochemical cycling, and a model trained on the reported experiments is not an independent replication."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "Both DOIs were absent from current-main GitHub code search and from the existing PR #5 body through the 5 November additions. The existing daily draft PR was updated rather than creating another.",
+    "dates": "Scientific Reports and Emerald both list 6 November 2026 as the article publication/online date. Those exact publisher dates are used; future issue assignments, crawl dates and month-only listings were excluded.",
+    "authors": "Complete author lists were verified on the primary Scientific Reports and Emerald publisher pages.",
+    "corrections": "No substantive geopolymer/AAM correction, corrigendum or retraction newly publisher-dated 31 October–7 November 2026 was verified. Targeted searches returned older notices outside the window.",
+    "verification": "Two unique DOIs and stable IDs, exactly two original highlights per record and two valid briefing references. Compression, tensile, flexural, durability-related and electrochemical evidence remain distinct.",
+    "integration": "Review-only staging on existing draft PR. Preserve stable IDs and existing content; run rights, application, build and browser checks before any separately authorized publication.",
+    "excluded": "Previously staged records, future issue dates, records without an exact publisher day, non-primary listings and notices outside the window were excluded. November-only listings without an exact day were not redated. No filler was added."
+  }
+}

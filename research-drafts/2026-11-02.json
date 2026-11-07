@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-02",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-26",
+    "through": "2026-11-02"
+  },
+  "researchUpdates": [
+    {
+      "id": "research-coffee-husk-ash-potassium-causticization",
+      "year": 2026,
+      "published": "2026-10-30",
+      "checked": "2026-11-02",
+      "added": "2026-11-02",
+      "dateBasis": "Publisher publication and version-of-record date",
+      "title": "Carbonate-rich coffee husk ash as an alternative potassium source for metakaolin-based geopolymers",
+      "doi": "10.1007/s41779-026-01454-6",
+      "journal": "Journal of the Australian Ceramic Society",
+      "topic": "Alternative activators",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "authors": "João Claudio Bassan de Moraes, Pamela Rodrigues Passos Severino, Rodolfo Belasco and Thiago Costa Ferreira Gomes",
+      "publisherUrl": "https://link.springer.com/article/10.1007/s41779-026-01454-6",
+      "url": "https://doi.org/10.1007/s41779-026-01454-6",
+      "summary": "A metakaolin study compares KOH, potassium carbonate and laboratory-produced coffee husk ash as potassium sources, using calcium hydroxide to convert soluble carbonate species and restore alkalinity in the ash- and carbonate-based systems.",
+      "highlights": [
+        "Coffee husk ash alone did not harden adequately under the selected low-calcium conditions; pairing it with calcium hydroxide changed the carbonate chemistry and enabled a testable geopolymer matrix.",
+        "The result depends on ash produced by a defined drying, two-stage calcination and milling route, followed by three days of sealed 60 °C curing; it is not evidence that raw or differently burned coffee waste will behave similarly."
+      ],
+      "access": "The primary Springer article, methods, author information and version history were reviewed. Five potassium-source systems were compared at fixed K₂O/metakaolin and water/binder ratios; only three hardened sufficiently for physical and compressive testing, with three cubes per condition. The laboratory ash came from one coffee-husk source and controlled calcination. Compression was measured after the stated thermal cure; no ambient-cured, tensile, flexural, shear, durability, leaching, scale-up or life-cycle result is inferred.",
+      "summaryBasis": "Primary Springer publisher page, full article text, methods, author information and version history; no abstract text, publisher highlights, figures, tables or full-paper passages were reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    }
+  ],
+  "journalArticle": {
+    "id": "biomass-ash-is-an-activator-chemistry-problem",
+    "date": "2026-11-02",
+    "category": "Research briefing",
+    "topic": "Alternative activators",
+    "title": "Biomass ash is an activator-chemistry problem",
+    "summary": "Coffee husk ash can supply potassium, but its carbonate form and processing history determine whether that potassium actually creates a sufficiently alkaline geopolymerization environment.",
+    "sources": [
+      "research-coffee-husk-ash-potassium-causticization"
+    ],
+    "paragraphs": [
+      "The useful idea is not simply to replace commercial KOH with ash by mass. The study first treats the ash as a chemically distinct potassium source: carbonate-rich, hygroscopic and less effective at dissolving metakaolin without a calcium-assisted causticization step.",
+      "For formulation records, preserve the biomass source, combustion schedule, milling, soluble fraction, potassium and carbonate content, calcium dose, K/Ca ratio, water definition and curing history. Those variables are part of the activator identity, not incidental preparation notes."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "The DOI was absent from current-main code search, the existing PR #5 body and all eighteen earlier JSON files in the open daily research draft. The existing draft PR was updated rather than creating another.",
+    "dates": "Springer lists 30 October 2026 as both publication and version-of-record date. The publisher date, not crawl or acceptance date, is used.",
+    "authors": "The complete four-author list was verified from the primary publisher page.",
+    "corrections": "No substantive geopolymer/AAM correction, corrigendum or retraction newly publisher-dated 26 October–2 November 2026 was verified. Older notices returned by search were excluded.",
+    "verification": "One unique DOI and ID, exactly two original highlights and one valid briefing reference. Only reported compression after defined thermal curing is summarized; no tensile, flexural, shear or ambient-cured result is inferred.",
+    "integration": "Review-only staging on existing PR. Preserve stable IDs and existing content; run rights, application, build and browser checks before any separately authorized publication.",
+    "excluded": "Older or previously staged records, future issue assignments, non-primary listings and corrections/retractions outside the date window were excluded. The September-online granite-waste study was not redated from its November issue assignment. No filler record was added."
+  }
+}

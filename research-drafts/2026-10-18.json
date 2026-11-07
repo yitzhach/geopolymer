@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-18",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-11",
+    "through": "2026-10-18"
+  },
+  "researchUpdates": [
+    {
+      "id": "research-water-saturation-impact",
+      "year": 2026,
+      "published": "2026-10-16",
+      "checked": "2026-10-18",
+      "added": "2026-10-18",
+      "dateBasis": "Publisher available-online date",
+      "title": "Effects of water saturation and impact load on the mechanical properties of geopolymer concrete",
+      "doi": "10.26599/MRSE.2026.9520041",
+      "journal": "Materials Reports: Solidwaste and Ecomaterials",
+      "topic": "Durability",
+      "type": "Research article",
+      "publicationStatus": "Just Accepted; early access",
+      "publisherUrl": "https://www.sciopen.com/article/10.26599/MRSE.2026.9520041",
+      "url": "https://doi.org/10.26599/MRSE.2026.9520041",
+      "authors": "Zhihang Wang, Dexian Zhao, Chaojia Liu, Chao Zhang, Mengyang Li and Erlei Bai",
+      "summary": "Concrete immersed for 180 days is compared under static and impact loading, showing that moisture state can change the direction of the measured strength response.",
+      "highlights": [
+        "Saturation reduced static compression, splitting tension and flexure while increasing dynamic compressive strength and stiffness.",
+        "The saturated specimens showed lower dynamic peak strain and pre-peak toughness; impact toughness did not change significantly."
+      ],
+      "access": "Publisher abstract-level evidence; full methods not audited. The immersion period is not an inferred curing age. Results and the fitted dynamic-increase relation are system-specific, not independent replication or a general wet-service qualification.",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note",
+      "summaryBasis": "Primary publisher landing-page metadata and abstract; no full-paper extraction"
+    }
+  ],
+  "journalArticle": {
+    "id": "moisture-state-and-loading-belong-together",
+    "date": "2026-10-18",
+    "category": "Research briefing",
+    "topic": "Durability",
+    "title": "Moisture state and loading belong together",
+    "summary": "A new study cautions against reducing wet-condition performance to one strength label.",
+    "sources": [
+      "research-water-saturation-impact"
+    ],
+    "paragraphs": [
+      "Wang and colleagues report opposite static and dynamic strength trends after saturation. The editorial lesson is to retain moisture conditioning and loading regime beside each measurement.",
+      "A formulation advisor should not translate impact performance into static capacity or combine compression, splitting tension and flexure. These discovery notes support better questions, not validated user mixtures."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "DOI checked case-insensitively against current main research-library, research-updates, knowledge-references, knowledge-expansion and knowledge-expansion-next, plus the complete open PR #5 diff. No match.",
+    "dates": "Publisher landing page gives available online 16 October 2026; acceptance date and issue dates were not used.",
+    "corrections": "Targeted primary-publisher searches did not confirm a substantive geopolymer/AAM correction or retraction newly published in 11–18 October. This is not comprehensive clearance.",
+    "verification": "Metadata, authors, date, status and summary checked at publisher landing page. One record selected; other leads remain unverified or already staged. No full-paper audit or application build claimed.",
+    "integration": "Existing PR #5 remains draft, reports mergeable=false and has a failed Cloudflare preview. This new staging file does not resolve those pre-existing release blockers. Review and integrate approved content with build/browser checks before separately authorized publication."
+  }
+}

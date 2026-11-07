@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-23",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-16",
+    "through": "2026-10-23"
+  },
+  "researchUpdates": [
+    {
+      "id": "research-agrowaste-alkali-activated-corrosion-coating",
+      "year": 2026,
+      "published": "2026-10-23",
+      "checked": "2026-10-23",
+      "added": "2026-10-23",
+      "dateBasis": "Publisher publication date",
+      "title": "Agro-waste alkali-activated coatings functionalised with invasive aquatic weed extracts and spent coffee ground ash: long-term durability in saline, acidic and alkaline media",
+      "doi": "10.1007/s11696-026-05812-3",
+      "journal": "Chemical Papers",
+      "topic": "Coatings & durability",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "authors": "Vignesh Jagajeevan and Vidhya Lakshmi Sivakumar",
+      "publisherUrl": "https://link.springer.com/article/10.1007/s11696-026-05812-3",
+      "url": "https://doi.org/10.1007/s11696-026-05812-3",
+      "summary": "The study develops an alkali-activated steel coating from rice-husk ash, sugarcane-bagasse ash and spent-coffee-ground ash, then evaluates plant-extract functionalization and corrosion behavior across three aggressive immersion media.",
+      "highlights": [
+        "The optimized formulation expresses coffee-ground ash and plant-extract additions relative to total precursor solids, making the reported dosage basis clearer than a stand-alone waste percentage.",
+        "After 90 days of laboratory immersion, the selected coating showed lower reported corrosion-current density than the comparison marine epoxy in salt, strong acid and strong alkali solutions."
+      ],
+      "access": "Single-study laboratory evidence, not independent replication or field service-life validation. The optimized system used a 28-day ambient cure, sodium hydroxide, sodium silicate and ethanol; source-specific ash chemistry, adhesion, scale-up, weathering and lifecycle boundaries require separate evaluation.",
+      "summaryBasis": "Primary publisher metadata, abstract, author information and article notes; subscription full text, figures and supplementary file not audited",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    }
+  ],
+  "journalArticle": {
+    "id": "coffee-ash-is-a-precursor-variable-not-a-label",
+    "date": "2026-10-23",
+    "category": "Research briefing",
+    "topic": "Coatings & durability",
+    "title": "Coffee ash is a precursor variable, not a label",
+    "summary": "A new coating study is useful because it reports coffee-ground ash inside a defined precursor and exposure system rather than treating the waste name as a recipe.",
+    "sources": [
+      "research-agrowaste-alkali-activated-corrosion-coating"
+    ],
+    "paragraphs": [
+      "Spent-coffee-ground ash was combined with rice-husk and bagasse ashes, alkaline activators and a selected plant extract. Its behavior therefore belongs to that multi-component system; the same mass fraction cannot be assumed to work with a different ash, activator or substrate.",
+      "For a formulation database, coffee-derived materials should retain burn history, composition, fineness, precursor fraction, activator details, curing and exposure medium. The reported corrosion comparison is encouraging laboratory evidence, but it does not establish outdoor lifetime, universal adhesion or performance for unburned coffee grounds."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "DOI absent from current main code search and all eight existing JSON files in open daily research draft PR #5. The existing draft PR was updated rather than creating another.",
+    "dates": "Springer lists publication and version-of-record dates of 23 October 2026. The publisher date, not an issue assignment, is used.",
+    "authors": "Vignesh Jagajeevan and Vidhya Lakshmi Sivakumar are listed on the primary publisher page.",
+    "corrections": "No substantive geopolymer/AAM correction or retraction newly publisher-dated 16–23 October 2026 was verified in targeted searches; this is not comprehensive status clearance.",
+    "verification": "One unique record, exactly two original highlights and one valid briefing source reference. No abstract, publisher highlight, figure, supplementary file or full paper is reproduced.",
+    "integration": "Review-only staging on existing PR. Preserve the stable ID, verify rights and run application, build and browser checks before any separately authorized publication.",
+    "excluded": "Previously staged records and papers that only mention geopolymers in references or passing comparisons were excluded. Future issue dates and search-crawl dates were not substituted for publisher publication dates."
+  }
+}
