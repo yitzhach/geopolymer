@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-04",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-28",
+    "through": "2026-11-04"
+  },
+  "researchUpdates": [
+    {
+      "id": "research-photovoltaic-glass-oyster-shell-alkali-activated-binder",
+      "year": 2026,
+      "published": "2026-11-02",
+      "checked": "2026-11-04",
+      "added": "2026-11-04",
+      "dateBasis": "Publisher online publication date",
+      "title": "Novel Alkali-Activated Binder from Photovoltaic Module Glass and Oyster Shells: Insights into Mechanical, Chemical, and Molecular Properties",
+      "doi": "10.1061/JMCEE7.MTENG-24789",
+      "journal": "Journal of Materials in Civil Engineering",
+      "topic": "Waste-derived binders",
+      "type": "Research article",
+      "publicationStatus": "Published online; version of record ahead of future issue assignment",
+      "authors": "Mariana Krogel, William Mateus Kubiaki Levandoski, Giovani Jordi Bruschi, Suéllen Tonatto Ferrazzo, Nilo Cesar Consoli and Eduardo Pavan Korf",
+      "publisherUrl": "https://ascelibrary.org/doi/10.1061/JMCEE7.MTENG-24789",
+      "url": "https://doi.org/10.1061/JMCEE7.MTENG-24789",
+      "summary": "An alkali-activated binder combines processed photovoltaic-module glass with hydrated oyster-shell lime and sodium hydroxide, tracking how alkali content influences cementitious-gel development and measured material properties over time.",
+      "highlights": [
+        "The formulation assigns distinct chemical roles to recycled glass and shell-derived lime; it should not be treated as evidence that unprocessed photovoltaic glass or shells can be substituted directly.",
+        "Mechanical measurements and chemical or molecular characterization are complementary evidence streams. Phase or bond assignments do not independently establish structural-scale performance, durability or field replication."
+      ],
+      "access": "The primary ASCE publisher record verified the title, DOI, complete six-author list, article type and 2 November 2026 online date. Accessible publisher metadata identifies processed photovoltaic glass, hydrated oyster-shell lime and sodium hydroxide and describes time- and alkali-content-dependent evaluation. Full mixture quantities, curing, specimen geometry, test ages, numerical results and future issue pagination were not audited. No unreported-age, tensile, flexural, shear, durability, environmental or scale-up result is inferred.",
+      "summaryBasis": "Primary ASCE publisher record and article metadata; original synthesis only, with no abstract, publisher highlights, figures, tables or full-paper passages reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    },
+    {
+      "id": "research-mswi-fly-bottom-ash-alkali-activated-concrete-leaching",
+      "year": 2026,
+      "published": "2026-11-04",
+      "checked": "2026-11-04",
+      "added": "2026-11-04",
+      "dateBasis": "Publisher article publication date",
+      "title": "Co-Utilization of Municipal Solid Waste Incineration Fly Ash and Bottom Ash in Alkali-Activated Concrete: Engineering Performance and Heavy Metal Leaching Characteristics",
+      "doi": "10.3390/buildings16214409",
+      "journal": "Buildings",
+      "topic": "Waste immobilization",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "authors": "Tingting Li, Jianqiao Zhang, Xiaoping Ji, Peng Li, Hao Wang, Tianyang Gao, Houfu Song and two additional authors not exposed in the accessible publisher listing",
+      "publisherUrl": "https://www.mdpi.com/2075-5309/16/21/4409",
+      "url": "https://doi.org/10.3390/buildings16214409",
+      "summary": "A municipal-solid-waste-incineration study co-uses fly ash in an alkali-activated binder with slag and coal fly ash, while incorporating size-fractionated bottom ash to examine engineering response alongside heavy-metal leaching.",
+      "highlights": [
+        "The record keeps engineering performance and leaching as separate result families: acceptable mechanical behavior cannot substitute for contaminant-release testing, and one leaching protocol cannot establish every service environment.",
+        "Fly ash and bottom ash have different particle, salt and contaminant roles; the reported system depends on source-specific ash chemistry, size fraction, precursor blend, activator, curing and test conditions."
+      ],
+      "access": "Primary MDPI search metadata verified the title, DOI, article type, 4 November 2026 publication date and seven named authors, while indicating two additional authors whose names were not exposed. The individual article page was unavailable, so ash pretreatment, full mixture design, activator chemistry, curing, specimens, ages, leaching standard, analytes, numerical results and statistics were not audited. This metadata-level discovery record makes no unreported-age, shear, flexural, long-term leaching-safety, field or independent-replication claim.",
+      "summaryBasis": "Primary MDPI search listing and DOI metadata; metadata-level original synthesis only, with no abstract, publisher highlights, figures, tables or full-paper passages reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    }
+  ],
+  "journalArticle": {
+    "id": "waste-identity-is-part-of-the-binder-design",
+    "date": "2026-11-04",
+    "category": "Research briefing",
+    "topic": "Waste-derived binders",
+    "title": "Waste identity is part of the binder design",
+    "summary": "Photovoltaic glass, oyster shells and incineration ashes can enter alkali-activated systems, but their processing, chemical role and contaminant burden must remain visible in every formulation and evidence claim.",
+    "sources": [
+      "research-photovoltaic-glass-oyster-shell-alkali-activated-binder",
+      "research-mswi-fly-bottom-ash-alkali-activated-concrete-leaching"
+    ],
+    "paragraphs": [
+      "These studies broaden the feedstock map in different ways. Processed photovoltaic glass supplies a silicate-rich component paired with shell-derived lime, whereas incineration fly ash, bottom ash, slag and coal fly ash form a multi-residue system with both engineering and contaminant-release questions.",
+      "A reusable record therefore needs more than a waste percentage: preserve source, collection stream, pretreatment, particle size, oxide and salt chemistry, precursor role, activator, water definition, curing, test age and leaching method. Keep mechanical response, gel interpretation and contaminant mobility separate until the same experiment directly connects them."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "Both DOIs were absent from current-main code search and from the existing PR #5 body, including the 3 November additions. The existing draft PR was updated rather than creating another.",
+    "dates": "ASCE lists 2 November 2026 as the online publication date; that date is used instead of the later Volume 39 Issue 3 assignment. MDPI lists 4 November 2026 as the article publication date.",
+    "authors": "The complete six-author ASCE list was verified. MDPI exposed seven named authors and indicated two additional authors; the draft preserves that limitation rather than guessing the hidden names.",
+    "corrections": "No substantive geopolymer/AAM correction, corrigendum or retraction newly publisher-dated 28 October–4 November 2026 was verified. Targeted searches returned older notices, including a 14 September Scientific Reports retraction and a 21 May Elsevier corrigendum, which were excluded.",
+    "verification": "Two unique DOIs and IDs, exactly two original highlights per record and two valid briefing references. The ASCE record uses article-level publisher metadata; the MDPI record remains explicitly metadata-level because its individual page was unavailable.",
+    "integration": "Review-only staging on existing draft PR. Preserve stable IDs and existing content; run rights, application, build and browser checks before any separately authorized publication.",
+    "excluded": "Previously staged records, future issue dates, sources without an exact publisher date, non-primary listings and notices outside the date window were excluded. A November-indexed adsorption article lacked a verified exact day on its publisher record and was not added. No filler was created."
+  }
+}

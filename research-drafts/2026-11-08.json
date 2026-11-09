@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-08",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-11-01",
+    "through": "2026-11-08"
+  },
+  "researchUpdates": [
+    {
+      "id": "research-multi-waste-low-carbon-alkali-activated-concrete",
+      "year": 2026,
+      "published": "2026-11-06",
+      "checked": "2026-11-08",
+      "added": "2026-11-08",
+      "dateBasis": "Publisher publication date",
+      "title": "Low-carbon alkali-activated concrete production using multi-waste materials",
+      "doi": "10.1038/s41598-026-79296-2",
+      "journal": "Scientific Reports",
+      "topic": "Waste-derived binders and environmental assessment",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "authors": "Saeeb M. AL-Tam, Amr Riad, Nader Mohammed, Mohamed Ghalla and Osama Youssf",
+      "publisherUrl": "https://www.nature.com/articles/s41598-026-79296-2",
+      "url": "https://doi.org/10.1038/s41598-026-79296-2",
+      "summary": "A ten-mixture laboratory study reduces the slag share in alkali-activated concrete by combining several waste-derived powders, comparing curing regimes and measuring fresh, mechanical, durability-related, microstructural and cradle-to-gate sustainability indicators.",
+      "highlights": [
+        "Different waste substitutions lead different reported responses: the mixtures associated with high compression are not automatically the same mixtures favored for flexure, tension, sulfate exposure or environmental indicators.",
+        "The evidence is bounded to the authors’ feedstocks, ten formulations, curing conditions and laboratory assessments; material variability, long-term field exposure, structural-scale behavior and independent replication remain unresolved."
+      ],
+      "access": "The primary Scientific Reports publisher record verified the exact 6 November 2026 publication and version-of-record date, DOI, complete five-author list and accessible experimental scope. The article distinguishes compression, flexure, tension, shrinkage, transport, sulfate exposure, microscopy and modeled sustainability indicators. No unreported-age strength, shear capacity, universal waste equivalence, field durability or independent replication is inferred.",
+      "summaryBasis": "Primary Scientific Reports publisher page and accessible article record; original synthesis only, with no abstract, publisher highlights, figures, tables or full-paper passages reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    }
+  ],
+  "journalArticle": {
+    "id": "multi-waste-does-not-mean-one-performance-ranking",
+    "date": "2026-11-08",
+    "category": "Research briefing",
+    "topic": "Waste-derived binders",
+    "title": "Multi-waste does not mean one performance ranking",
+    "summary": "A new alkali-activated-concrete study shows why waste identity, curing and the measured response must stay attached to each formulation.",
+    "sources": [
+      "research-multi-waste-low-carbon-alkali-activated-concrete"
+    ],
+    "paragraphs": [
+      "The study’s ten mixtures do not produce a single universal winner. The formulations highlighted for compression differ from those emphasized for flexural or tensile response, sulfate exposure and environmental indicators, while curing also changes the comparison.",
+      "For a reusable formulation record, preserve feedstock source and processing, replacement basis, activator, curing sequence, test age and the specific property measured. Compression cannot substitute for flexure or shear, and laboratory durability and environmental calculations do not independently establish field service life."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "The DOI was absent from current-main GitHub code search and from the existing PR #5 body through the 7 November additions. The existing daily draft PR was updated rather than creating another.",
+    "dates": "Scientific Reports lists both publication and version of record as 6 November 2026. That exact publisher date is used; crawl dates, month-only listings and future issue assignments were excluded.",
+    "authors": "The complete five-author list was verified on the primary Scientific Reports publisher page.",
+    "corrections": "No substantive geopolymer/AAM correction, corrigendum or retraction newly publisher-dated 1–8 November 2026 was verified. Targeted searches returned older notices or corrections outside the subject scope.",
+    "verification": "One unique DOI and stable ID, exactly two original highlights and one valid briefing reference. Compression, flexure, tension, durability-related testing, microscopy and environmental modeling remain distinct.",
+    "integration": "Review-only staging on existing draft PR. Preserve stable IDs and existing content; run rights, application, build and browser checks before any separately authorized publication.",
+    "excluded": "Previously staged records, future issue dates, records without an exact publisher day, non-primary listings and notices outside the window were excluded. An ACS Omega machine-learning paper dated 4 November 2026 in secondary metadata was not added because its primary publisher record could not be accessed and verified. No filler was added."
+  }
+}

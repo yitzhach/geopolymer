@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-30",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-23",
+    "through": "2026-10-30"
+  },
+  "researchUpdates": [
+    {
+      "id": "research-soft-soil-binder-critical-review",
+      "year": 2026,
+      "published": "2026-10-28",
+      "checked": "2026-10-30",
+      "added": "2026-10-30",
+      "dateBasis": "Publisher publication date",
+      "title": "Geopolymer, Alkali-Activated, and Waste-Derived Binders for Soft-Soil Stabilization: A Critical Review",
+      "doi": "10.3390/ma19214546",
+      "journal": "Materials",
+      "topic": "Soil stabilization",
+      "type": "Review article",
+      "publicationStatus": "Published; version of record",
+      "authors": "Rui Jia, Kejin Jiang, Zhuo Li and Xinyue Wang",
+      "publisherUrl": "https://www.mdpi.com/1996-1944/19/21/4546",
+      "url": "https://doi.org/10.3390/ma19214546",
+      "summary": "A critical review organizes geopolymer, alkali-activated and other waste-derived soft-soil binders by precursor, activator, calcium regime, preparation route, curing, engineering response, durability exposure and application scale.",
+      "highlights": [
+        "The review's evidence map makes soil identity and calcium regime first-class variables, helping prevent transfer of a successful binder recipe from one soft soil to another without qualification.",
+        "Its literature collection was iterative rather than a preregistered systematic search, so the review is useful for structured orientation but should not be treated as an exhaustive meta-analysis."
+      ],
+      "access": "Primary publisher metadata and article-level evidence were reviewed. The paper synthesizes heterogeneous laboratory studies with different soils, binders, curing histories and tests; it does not independently replicate their findings or establish one universally superior formulation. Evidence counts and narrative conclusions remain dependent on the authors' iterative selection process.",
+      "summaryBasis": "Primary MDPI publisher page and article-level evidence; no abstract text, publisher highlights, figures, tables or full-paper passages were reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    },
+    {
+      "id": "research-red-mud-ternary-blend-electromechanical",
+      "year": 2026,
+      "published": "2026-10-27",
+      "checked": "2026-10-30",
+      "added": "2026-10-30",
+      "dateBasis": "Publisher online publication date",
+      "title": "Mechanical Properties and Micro-mechanisms of Alkali-Activated Ternary Blended Red Mud Geopolymers",
+      "doi": "10.1007/s11595-026-3350-6",
+      "journal": "Journal of Wuhan University of Technology-Materials Science Edition",
+      "topic": "Red mud binders",
+      "type": "Research article",
+      "publicationStatus": "Published online; version of record",
+      "authors": "Lizhu Qi, Xiaoqiang Dong, Wenwen Cui and Gaole He",
+      "publisherUrl": "https://journal.hep.com.cn/jowuotm/EN/10.1007/s11595-026-3350-6",
+      "url": "https://doi.org/10.1007/s11595-026-3350-6",
+      "summary": "A response-surface study varies slag, silica fume and alkali within a red-mud-rich geopolymer and evaluates age-dependent compression, direct shear-related performance, electrical resistivity, impedance and microstructure.",
+      "highlights": [
+        "The fitted formulation balances several measured responses inside the tested composition space; it is not evidence that the same proportions optimize other red mud sources or activator systems.",
+        "The study reports compression and shear as distinct tests, so neither result should be substituted for flexural or tensile strength."
+      ],
+      "access": "Primary publisher metadata and abstract-level article evidence were reviewed. Exact specimen geometry, replicate counts, uncertainty, model diagnostics and complete curing details were not independently audited. Microstructural observations support interpretation but do not alone prove the proposed reaction sequence, and the response-surface optimum is not independent replication.",
+      "summaryBasis": "Primary journal publisher metadata and indexed article evidence; no abstract text, publisher highlights, figures, tables or full-paper passages were reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    },
+    {
+      "id": "research-steel-furnace-slag-fine-aggregate",
+      "year": 2026,
+      "published": "2026-10-27",
+      "checked": "2026-10-30",
+      "added": "2026-10-30",
+      "dateBasis": "Publisher online publication date",
+      "title": "A Cost-Effective and Low-Carbon Geopolymer Concrete Production by Mitigating Natural Sand Dependency",
+      "doi": "10.1061/JMCEE7.MTENG-24555",
+      "journal": "Journal of Materials in Civil Engineering",
+      "topic": "Aggregates & circularity",
+      "type": "Research article",
+      "publicationStatus": "Published online; version of record",
+      "authors": "Siba Sankar Chanda, Shyamal Guchhait and Suman Roy",
+      "publisherUrl": "https://ascelibrary.org/doi/10.1061/JMCEE7.MTENG-24555",
+      "url": "https://doi.org/10.1061/JMCEE7.MTENG-24555",
+      "summary": "A fly-ash/GGBFS geopolymer concrete replaces part of its natural fine aggregate with crushed steel-furnace slag, then compares workability, mechanical responses, microstructure, modeled performance, cost and embodied carbon.",
+      "highlights": [
+        "The selected replacement level reflects a multi-criterion balance in one 50:50 fly-ash/GGBFS and 12 M activator system, not a universal maximum for steel-slag aggregate.",
+        "The economic and carbon comparison depends on the study's material sourcing, transport, inventory and reference concrete; those boundary conditions should accompany any claimed advantage."
+      ],
+      "access": "Primary ASCE publisher metadata and abstract-level evidence were reviewed. Full mix quantities, aggregate conditioning, expansion risk controls, mechanical test ages, prediction-model validation and life-cycle inventory were not independently audited. The work is one laboratory program and is not field-scale or independent replication.",
+      "summaryBasis": "Primary ASCE publisher metadata and indexed abstract-level evidence; no abstract text, publisher highlights, figures, tables or full-paper passages were reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    },
+    {
+      "id": "research-phosphate-tailings-slag-dolomitization",
+      "year": 2026,
+      "published": "2026-10-28",
+      "checked": "2026-10-30",
+      "added": "2026-10-30",
+      "dateBasis": "Publisher online publication date",
+      "title": "Preparation of a Novel Solid Waste Gel Material Using an Activation System of Alkali-Activated Slag and Phosphorus Tailings for Dolomitization",
+      "doi": "10.1061/JMCEE7.MTENG-23973",
+      "journal": "Journal of Materials in Civil Engineering",
+      "topic": "Waste-derived binders",
+      "type": "Research article",
+      "publicationStatus": "Published online; version of record",
+      "authors": "Xingbiao Tian, Suiyu Zhang, Yuan Liu, Lin Yang, Yang Feng and Yuanyong Zhang",
+      "publisherUrl": "https://ascelibrary.org/doi/10.1061/JMCEE7.MTENG-23973",
+      "url": "https://doi.org/10.1061/JMCEE7.MTENG-23973",
+      "summary": "An alkali-activated slag and phosphate-tailings binder is examined through setting, age-specific compression and complementary diffraction, spectroscopy, thermal and microscopy methods to interpret its calcium–magnesium-rich reaction products.",
+      "highlights": [
+        "Phosphate tailings act as a reactive calcium- and magnesium-bearing component in the proposed system rather than merely as an inert filler.",
+        "Reported 3- and 28-day compression belongs to defined paste compositions and ages; it does not establish flexural, tensile, shear or long-term durability performance."
+      ],
+      "access": "Primary ASCE publisher metadata and abstract-level evidence were reviewed. Full raw-material chemistry, leaching behavior, replicate counts, variability and long-term dimensional or durability performance were not independently audited. Phase assignments combine several characterization methods but do not by themselves establish field performance or universal reaction pathways.",
+      "summaryBasis": "Primary ASCE publisher metadata and indexed abstract-level evidence; no abstract text, publisher highlights, figures, tables or full-paper passages were reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    },
+    {
+      "id": "research-kaolin-flyash-slag-wet-dry",
+      "year": 2026,
+      "published": "2026-10-23",
+      "checked": "2026-10-30",
+      "added": "2026-10-30",
+      "dateBasis": "Publisher online publication date",
+      "title": "Strength and Durability Assessment of Alkali-Activated Fly Ash–GGBFS Binders for Kaolin Clay Stabilization",
+      "doi": "10.1061/JMCEE7.MTENG-24432",
+      "journal": "Journal of Materials in Civil Engineering",
+      "topic": "Soil stabilization",
+      "type": "Research article",
+      "publicationStatus": "Published online; version of record",
+      "authors": "Rupashree Ragini Sahoo, Dilip Kumar Baidya and Debarghya Chakraborty",
+      "publisherUrl": "https://ascelibrary.org/doi/10.1061/JMCEE7.MTENG-24432",
+      "url": "https://doi.org/10.1061/JMCEE7.MTENG-24432",
+      "summary": "Kaolin stabilized with fly ash/GGBFS and sodium hydroxide is tested across precursor dosage, activator molarity and curing age using compaction, unconfined compression, twelve wet–dry cycles, microstructure and response-surface modeling.",
+      "highlights": [
+        "The authors' preferred activator concentration balances strength and practical viability rather than simply selecting the highest tested molarity.",
+        "Unconfined compression and wet–dry mass loss describe a laboratory pavement-base screening program; they do not supply shear, flexural or field service-life evidence."
+      ],
+      "access": "Primary ASCE publisher metadata and abstract-level evidence were reviewed. This study uses laboratory kaolin, Proctor compaction and a fixed wet–dry protocol; natural heterogeneous soils, field construction, traffic loading and longer environmental exposure were not tested. The reported model fit is internal to the experimental design and is not external validation.",
+      "summaryBasis": "Primary ASCE publisher metadata and indexed abstract-level evidence; no abstract text, publisher highlights, figures, tables or full-paper passages were reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    }
+  ],
+  "journalArticle": {
+    "id": "soil-and-waste-binders-need-transfer-boundaries",
+    "date": "2026-10-30",
+    "category": "Research briefing",
+    "topic": "Methods & evidence",
+    "title": "Soil and waste binders need transfer boundaries",
+    "summary": "This week's records reinforce that waste-derived binder performance travels poorly without its source chemistry, soil or aggregate identity, curing and test protocol.",
+    "sources": [
+      "research-soft-soil-binder-critical-review",
+      "research-red-mud-ternary-blend-electromechanical",
+      "research-steel-furnace-slag-fine-aggregate",
+      "research-phosphate-tailings-slag-dolomitization",
+      "research-kaolin-flyash-slag-wet-dry"
+    ],
+    "paragraphs": [
+      "The studies span soft-soil evidence synthesis, red-mud formulation, steel-slag aggregate, phosphate-tailings gel and kaolin stabilization. Similar labels such as geopolymer or alkali-activated conceal large differences in calcium supply, soluble species, grading, moisture demand and reaction environment.",
+      "A useful formulation record should therefore preserve raw-material source and chemistry, preparation and activator details, substrate or aggregate identity, curing age, exposure sequence and the exact response measured. Compression, shear, wet–dry mass loss, electrical response, cost and carbon are complementary—not interchangeable—claims."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "All five DOIs were absent from current-main code search, the existing PR #5 body and all sixteen earlier JSON files in the open daily research draft. The existing draft PR was updated rather than creating another.",
+    "dates": "Publisher online/publication dates of 23, 27 and 28 October 2026 were used. Future February 2027 ASCE issue dates were not used.",
+    "authors": "Complete author lists were verified from primary publisher metadata for all five records.",
+    "corrections": "No substantive geopolymer/AAM correction, corrigendum or retraction newly publisher-dated 23–30 October 2026 was verified in targeted publisher searches.",
+    "verification": "Five unique records, exactly two original highlights per record and five valid briefing references. Compression, shear, flexure, wet–dry loss, electrical properties, cost and carbon remain explicitly separated.",
+    "integration": "Review-only staging on existing PR. Preserve stable IDs and existing content; run rights, application, build and browser checks before any separately authorized publication.",
+    "excluded": "A Taylor & Francis pumice/fibre geopolymer review dated 29 October was excluded because an exact DOI could not be verified for deduplication. Older records, future issue dates, adjacent non-binder studies and records already staged on prior days were also excluded. No filler record was added."
+  }
+}

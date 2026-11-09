@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-31",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-24",
+    "through": "2026-10-31"
+  },
+  "researchUpdates": [
+    {
+      "id": "research-fiber-geopolymer-freeze-salt-resistance",
+      "year": 2026,
+      "published": "2026-10-30",
+      "checked": "2026-10-31",
+      "added": "2026-10-31",
+      "dateBasis": "Publisher publication date",
+      "title": "Research on the mechanical properties and freeze resistance of geopolymer concrete",
+      "doi": "10.1038/s41598-026-75969-0",
+      "journal": "Scientific Reports",
+      "topic": "Freeze–thaw durability",
+      "type": "Research article",
+      "publicationStatus": "Published early-access accepted version; version of record pending",
+      "authors": "Zhiqiang Xing, Haiying Chen, Yongsheng Kang, Peng Wang and Baian Zhang",
+      "publisherUrl": "https://www.nature.com/articles/s41598-026-75969-0",
+      "url": "https://doi.org/10.1038/s41598-026-75969-0",
+      "summary": "A kaolin–slag–fly-ash geopolymer concrete program varies precursor balance and alkaline activation, then adds mixed-length polypropylene fibers and evaluates age-specific compression and flexure alongside rapid freeze–thaw, salt-freeze, pore-structure and damage-model responses.",
+      "highlights": [
+        "Fiber reinforcement is evaluated through both mechanical and exposure-specific measures, allowing retained dynamic modulus and mass change to remain distinct from compression and flexure.",
+        "The preferred formulation belongs to the tested precursor sources, activator settings, fiber lengths and accelerated freezing protocols; it is not a universal cold-region mix design."
+      ],
+      "access": "Primary Nature/Springer publisher metadata and early-access article-level evidence were reviewed. The accepted version remains subject to editorial change. Full raw data, replicate-level uncertainty, field placement and natural winter exposure were not independently audited. Compression and flexure are summarized only at reported ages; no tensile or shear strength is inferred, and the damage equation is not external validation.",
+      "summaryBasis": "Primary Nature/Springer publisher metadata, early-access article evidence, author information and version notice; no abstract text, publisher highlights, figures, tables or full-paper passages were reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    },
+    {
+      "id": "research-accelerated-co2-scgc-lca-ml",
+      "year": 2026,
+      "published": "2026-10-30",
+      "checked": "2026-10-31",
+      "added": "2026-10-31",
+      "dateBasis": "Publisher publication date",
+      "title": "Accelerated CO₂ curing of fly ash–GGBS self-compacting geopolymer concrete: experimental, environmental and explainable machine learning assessment",
+      "doi": "10.1038/s41598-026-77232-y",
+      "journal": "Scientific Reports",
+      "topic": "Carbon curing & modeling",
+      "type": "Research article",
+      "publicationStatus": "Published early-access accepted version; version of record pending",
+      "authors": "Herbert Sinduja Joseph, Siva Shanmukha Anjaneya Babu Padavala, Erick Saavedra Flores, Nelson Maureira-Carsalade, Abraham Mengistu Gashe and Siva Avudaiappan",
+      "publisherUrl": "https://www.nature.com/articles/s41598-026-77232-y",
+      "url": "https://doi.org/10.1038/s41598-026-77232-y",
+      "summary": "Ten fly-ash/GGBS self-compacting geopolymer concretes compare ambient and accelerated CO₂ curing across fresh behavior, age-specific compression, splitting tension and flexure, transport and chemical exposures, microstructure, cradle-to-gate impacts and compressive-strength prediction.",
+      "highlights": [
+        "The study combines measured performance, sequestration-related mass change and cradle-to-gate modeling, but each result retains its own functional unit and experimental or inventory boundary.",
+        "The machine-learning models predict compression within the assembled dataset; their reported fit does not independently validate flexural, tensile, durability or life-cycle outcomes."
+      ],
+      "access": "Primary Nature/Springer publisher metadata and early-access article-level evidence were reviewed. The accepted version remains subject to editorial change. The program contains ten laboratory mixtures, while life-cycle results depend on the selected inventory and boundary and the machine-learning assessment depends on its dataset and validation design. Field curing, long-term carbonation, reinforcement corrosion and external model transfer were not demonstrated.",
+      "summaryBasis": "Primary Nature/Springer publisher metadata, early-access article evidence, author information and version notice; no abstract text, publisher highlights, figures, tables or full-paper passages were reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    }
+  ],
+  "journalArticle": {
+    "id": "one-study-can-have-several-evidence-boundaries",
+    "date": "2026-10-31",
+    "category": "Research briefing",
+    "topic": "Methods & evidence",
+    "title": "One study can have several evidence boundaries",
+    "summary": "Two new multi-method studies show why mechanical, durability, environmental and predictive claims should remain connected but not interchangeable.",
+    "sources": [
+      "research-fiber-geopolymer-freeze-salt-resistance",
+      "research-accelerated-co2-scgc-lca-ml"
+    ],
+    "paragraphs": [
+      "The freeze-resistance study links mixture and fiber choices to mechanical tests, accelerated cycling, salt exposure, pore observations and a damage equation. The carbon-curing study spans fresh behavior, several strength modes, transport and chemical exposures, sequestration indicators, life-cycle inventory and machine-learning prediction.",
+      "For the catalog, record each test age, exposure, response variable and modeling boundary separately. A good compressive result does not establish flexural, tensile, freeze–thaw or environmental performance, and a high predictive fit inside one dataset is not independent experimental replication."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "Both DOIs were absent from current-main code search, the existing PR #5 body and all seventeen earlier JSON files in the open daily research draft. The existing draft PR was updated rather than creating another.",
+    "dates": "Nature/Scientific Reports lists 30 October 2026 for both records. Publisher publication dates, not crawl dates or later version dates, are used.",
+    "authors": "Complete author lists were verified from primary publisher metadata for both records.",
+    "corrections": "No substantive geopolymer/AAM correction, corrigendum or retraction newly publisher-dated 24–31 October 2026 was verified. A September 14 retraction surfaced in search but falls outside the seven-day window and was not restaged.",
+    "verification": "Two unique records, exactly two original highlights per record and two valid briefing references. Compression, flexure, splitting tension, dynamic modulus, mass change, environmental inventory and machine-learning predictions remain explicitly separated.",
+    "integration": "Review-only staging on existing PR. Preserve stable IDs and existing content; run rights, application, build and browser checks before any separately authorized publication.",
+    "excluded": "Older records, previously staged DOIs, adjacent non-binder studies and notices outside the date window were excluded. No filler record was added."
+  }
+}

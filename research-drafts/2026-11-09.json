@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-09",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-11-02",
+    "through": "2026-11-09"
+  },
+  "researchUpdates": [
+    {
+      "id": "research-hybrid-geopolymer-multi-response-sustainability-optimization",
+      "year": 2026,
+      "published": "2026-11-04",
+      "checked": "2026-11-09",
+      "added": "2026-11-09",
+      "dateBasis": "Publisher available-online date",
+      "title": "Multi-Response Design and Sustainability Optimization of Hybrid Geopolymer Binders for Construction Applications",
+      "doi": "10.1016/j.hybadv.2026.100776",
+      "journal": "Hybrid Advances",
+      "topic": "Mix optimization and life-cycle assessment",
+      "type": "Research article",
+      "publicationStatus": "Available online; journal pre-proof",
+      "authors": "Taofiq O. Mohammed, Valerie M. Thomas and Ebenezer O. Fanijo",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S2773207X26001788",
+      "url": "https://doi.org/10.1016/j.hybadv.2026.100776",
+      "summary": "A mixture-design study varies metakaolin, pumice and limestone powder in hybrid geopolymer binders, using multi-response optimization to connect fresh behavior, compression, sorptivity and drying shrinkage with a comparative life-cycle assessment.",
+      "highlights": [
+        "The optimized blend is a compromise across several measured and modeled responses; compression is not treated as a substitute for sorptivity, shrinkage or environmental impact.",
+        "The conclusions remain bounded to the simplex design, constituent sources, curing and assessment assumptions; the fitted optimum is not independent replication or proof of field-scale durability."
+      ],
+      "access": "The primary ScienceDirect record verified the exact 4 November 2026 available-online date, DOI, complete three-author list, research-article classification and journal-preproof status. Accessible publisher metadata identifies the precursor system, augmented simplex design, fresh response, compression, sorptivity, drying shrinkage and life-cycle comparison. Full mixture quantities, all test ages, specimen geometry, inventory sensitivity and statistical detail were not independently audited. No flexural, tensile, shear, field or unreported-age performance is inferred.",
+      "summaryBasis": "Primary ScienceDirect publisher record and accessible article-level metadata; original synthesis only, with no abstract, publisher highlights, figures, tables or full-paper passages reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    },
+    {
+      "id": "research-phosphogypsum-concrete-systematic-review-aam-routes",
+      "year": 2026,
+      "published": "2026-11-07",
+      "checked": "2026-11-09",
+      "added": "2026-11-09",
+      "dateBasis": "Publisher publication date",
+      "title": "Utilization of phosphogypsum in concrete: A systematic review on mechanical properties, durability, microstructure and performance control",
+      "doi": "10.1016/j.conbuildmat.2026.148525",
+      "journal": "Construction and Building Materials",
+      "topic": "Phosphogypsum and alternative binders",
+      "type": "Review article",
+      "publicationStatus": "Published; version of record",
+      "authors": "Luo Xiaobao, Wei Yueping, Chen Guofu, Zhang Xuejian, Wang Hua, Ma Jingyue, Xiang Zhao, Liu Renping and Zhang Xin",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0950061826034380",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2026.148525",
+      "summary": "A systematic review organizes phosphogypsum use in concrete across supplementary-cementitious, alkali-activated/geopolymer, sulfate-rich cement and aggregate routes, comparing how processing and dosage relate to mechanical, durability and microstructural evidence.",
+      "highlights": [
+        "Phosphogypsum is not treated as one interchangeable ingredient: binder role, pretreatment, sulfate chemistry and dosage determine which evidence can be compared.",
+        "Because this is a literature synthesis spanning multiple cementitious systems, it does not constitute an independent experiment or support transferring strength, durability or leaching outcomes between routes."
+      ],
+      "access": "The primary ScienceDirect record verified the 7 November 2026 publisher date, DOI, complete nine-author list and review-article classification. The review includes alkali-activated and geopolymer use as one of several phosphogypsum-concrete pathways. Individual source studies, extraction methods, quality ratings and quantitative synthesis were not independently audited here. No single mixture, curing condition, age, mechanical mode, environmental-safety result or field service life is generalized across the reviewed systems.",
+      "summaryBasis": "Primary ScienceDirect publisher record and accessible review-level metadata; original synthesis only, with no abstract, publisher highlights, figures, tables or full-paper passages reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    }
+  ],
+  "journalArticle": {
+    "id": "optimization-and-review-evidence-need-different-labels",
+    "date": "2026-11-09",
+    "category": "Research briefing",
+    "topic": "Evidence boundaries",
+    "title": "Optimization and review evidence need different labels",
+    "summary": "An experimental mixture-design paper and a broad phosphogypsum review offer different kinds of guidance and should not be read as equivalent validation.",
+    "sources": [
+      "research-hybrid-geopolymer-multi-response-sustainability-optimization",
+      "research-phosphogypsum-concrete-systematic-review-aam-routes"
+    ],
+    "paragraphs": [
+      "The hybrid-binder paper searches a defined metakaolin–pumice–limestone design space and balances fresh response, compression, sorptivity, shrinkage and modeled environmental impacts. Its optimum belongs to that formulation space and assessment boundary.",
+      "The phosphogypsum review instead maps evidence across several binder and aggregate roles, including alkali-activated routes. For reusable records, retain study type, material role, pretreatment, dosage, curing, test age and property. A review is not an independent replication, and compression cannot stand in for flexure, shear, durability or environmental safety."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "Both DOIs were absent from current-main GitHub code search and from the existing PR #5 body through the 8 November additions. The existing daily draft PR was updated rather than creating another.",
+    "dates": "ScienceDirect lists the Hybrid Advances paper as available online 4 November 2026 and the Construction and Building Materials review as dated 7 November 2026. These exact publisher dates are used; future issue assignments, crawl dates and month-only listings were excluded.",
+    "authors": "Complete three- and nine-author lists were verified on the primary ScienceDirect records.",
+    "corrections": "No substantive geopolymer/AAM correction, corrigendum or retraction newly publisher-dated 2–9 November 2026 was verified. Targeted searches returned older notices or corrections outside the subject scope.",
+    "verification": "Two unique DOIs and stable IDs, exactly two original highlights per record and two valid briefing references. Experimental optimization, literature synthesis, compression, transport, shrinkage, other mechanics and environmental modeling remain distinct.",
+    "integration": "Review-only staging on existing draft PR. Preserve stable IDs and existing content; run rights, application, build and browser checks before any separately authorized publication.",
+    "excluded": "Previously staged records, future issue dates, records without an exact publisher day, non-primary listings and notices outside the window were excluded. The ACS Omega machine-learning paper remained excluded because the primary publisher record was inaccessible for direct verification. November-only listings without an exact day were not redated. No filler was added."
+  }
+}

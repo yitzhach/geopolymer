@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-20",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-13",
+    "through": "2026-10-20"
+  },
+  "researchUpdates": [
+    {
+      "id": "research-natural-fiber-rca-impact-reliability",
+      "year": 2026,
+      "published": "2026-10-16",
+      "checked": "2026-10-20",
+      "added": "2026-10-20",
+      "dateBasis": "Publisher publication date",
+      "title": "Machine learning and Weibull-based reliability analysis of impact-resistant geopolymer concrete with construction demolition waste and natural fibers",
+      "doi": "10.1038/s41598-026-74276-y",
+      "journal": "Scientific Reports",
+      "topic": "Fibers & mechanics",
+      "type": "Research article",
+      "publicationStatus": "Early-access accepted article; not final Version of Record",
+      "authors": "G. Murali, Luv Chaudhary, Patchamatla J. Rama Raju, Marzena Kurpińska, Leong Sing Wong, Jarosław Górski, Hakim S. Abdelgader, Shimol Philip and Siva Avudaiappan",
+      "publisherUrl": "https://www.nature.com/articles/s41598-026-74276-y",
+      "url": "https://doi.org/10.1038/s41598-026-74276-y",
+      "summary": "Twenty mixtures combine recycled aggregates and natural fibers with waste-derived binders, linking impact experiments to statistical reliability and machine-learning analysis.",
+      "highlights": [
+        "Increasing recycled aggregate content reduced impact resistance in the tested fiber mixtures.",
+        "Fiber additions moderated impact-result variability; prediction remained tied to the study dataset."
+      ],
+      "access": "Indexed publisher abstract only; direct access unavailable. Full methods, uncertainty and external validation were not audited. No independent replication, field qualification or unreported-age strength is established.",
+      "summaryBasis": "Publisher-indexed abstract and metadata",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    }
+  ],
+  "journalArticle": {
+    "id": "impact-variability-is-not-general-reliability",
+    "date": "2026-10-20",
+    "category": "Research briefing",
+    "topic": "Fibers & mechanics",
+    "title": "Impact variability is not general reliability",
+    "summary": "Keep a model’s endpoint attached to its claims.",
+    "sources": [
+      "research-natural-fiber-rca-impact-reliability"
+    ],
+    "paragraphs": [
+      "This study pairs impact measurements with reliability modelling. Our editorial takeaway: retain the loading protocol and distinguish first cracking from failure.",
+      "Neither reduced variability nor a fitted predictor supplies shear, flexural or field-service evidence. Future formulation advice needs property-specific tests and external validation."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "Case-insensitive DOI check against current main catalog modules, including expansions through 800, and complete open PR #5 diff found no match.",
+    "corrections": "No substantive correction or retraction newly publisher-dated within 13–20 October was verified in targeted searches; not comprehensive status clearance.",
+    "verification": "Original abstract-level text; publisher authors/date/early-access status checked. JSON and remote readback required. No application build claimed.",
+    "integration": "Review-only addition on existing daily draft branch. Existing content and IDs preserved. No merge or deployment authorized; application integration and release checks remain pending."
+  }
+}

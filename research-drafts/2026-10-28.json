@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-28",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-21",
+    "through": "2026-10-28"
+  },
+  "researchUpdates": [
+    {
+      "id": "research-one-part-soft-soil-coupled-durability",
+      "year": 2026,
+      "published": "2026-10-27",
+      "checked": "2026-10-28",
+      "added": "2026-10-28",
+      "dateBasis": "Publisher publication date",
+      "title": "Experimental study on performance and durability of Guangzhou soft soil solidified by a new slag-fly ash based cementitious material",
+      "doi": "10.1038/s41598-026-76808-y",
+      "journal": "Scientific Reports",
+      "topic": "Soil stabilization",
+      "type": "Research article",
+      "publicationStatus": "Published early-access accepted version; version of record pending",
+      "authors": "Jiaming Huang, Zhu Liang, Fei Yang, Houzan Huang, Longfei Wu and Yang Liu",
+      "publisherUrl": "https://www.nature.com/articles/s41598-026-76808-y",
+      "url": "https://doi.org/10.1038/s41598-026-76808-y",
+      "summary": "A one-part slag–fly-ash binder using solid sodium silicate is evaluated for Guangzhou soft clay through 28-day compression and separate wet–dry, freeze–thaw, sulfate and combined exposure programs.",
+      "highlights": [
+        "The reported optimum belongs to a 90:10 slag-to-fly-ash binder, a fixed solid-activator dosage and the tested local clay; the study does not establish the same optimum for other soils or precursor supplies.",
+        "The coupled exposure test is especially useful because it keeps strength loss tied to a defined sequence of sulfate immersion, drying and freezing rather than treating separate durability tests as interchangeable."
+      ],
+      "access": "Primary publisher early-access metadata and article text were reviewed. This is one laboratory program using Guangzhou soft clay and specified cycling protocols; field loading, other soils and long-term natural exposure were not tested. SEM observations were qualitative and do not independently establish phase identity or a definitive damage mechanism. Only reported 28-day compression is summarized; no shear or flexural result is inferred.",
+      "summaryBasis": "Primary Nature/Springer publisher metadata, early-access article text, author information and version notice; no figures, tables, abstract passages or full-paper text were reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    },
+    {
+      "id": "research-carbonated-slag-sustained-grout-rheology",
+      "year": 2026,
+      "published": "2026-10-24",
+      "checked": "2026-10-28",
+      "added": "2026-10-28",
+      "dateBasis": "Publisher publication date",
+      "title": "Carbonation Pretreatment of Slag for Improving the Rheological Behavior and Sustained Grouting Performance of Alkali-Activated Grouting Materials",
+      "doi": "10.3390/buildings16214224",
+      "journal": "Buildings",
+      "topic": "Grouts & rheology",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "authors": "Jichun Xiang, Peibo You, Qingzhe Wang, Yan He, Leping Liu and Xuemin Cui",
+      "publisherUrl": "https://www.mdpi.com/2075-5309/16/21/4224",
+      "url": "https://doi.org/10.3390/buildings16214224",
+      "summary": "An experimental grouting study uses carbonation pretreatment of slag to modify the reaction and flow behavior of an alkali-activated material, focusing on rheology and the ability to sustain grout transport and placement.",
+      "highlights": [
+        "Pretreating the precursor changes the material before activation, so carbonation conditions belong in the mix identity rather than being recorded as an incidental processing note.",
+        "Improved flow retention or grouting duration is an application-specific result; it should not be converted into an unreported compressive, tensile, shear or flexural-strength claim."
+      ],
+      "access": "Publisher-indexed metadata and abstract-level evidence were reviewed because direct MDPI access was rate-limited. Complete pretreatment conditions, mixture quantities, rheometer settings, grouting geometry, replicate counts and statistical uncertainty were not independently audited. The findings remain specific to the tested slag, carbonation process, activator and laboratory grouting setup.",
+      "summaryBasis": "Primary MDPI publisher metadata and indexed abstract-level evidence; no abstract text, publisher highlights, figures, tables or full-paper passages were reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    },
+    {
+      "id": "research-one-part-magnesium-slag-water-binder",
+      "year": 2026,
+      "published": "2026-10-24",
+      "checked": "2026-10-28",
+      "added": "2026-10-28",
+      "dateBasis": "Publisher publication and version-of-record date",
+      "title": "Impact of water-to-binder ratio on the physical, mechanical and durability-related performance of industrial waste-based one-part geopolymer concrete",
+      "doi": "10.1007/s44416-026-00124-x",
+      "journal": "Discover Concrete and Cement",
+      "topic": "Mix design & chemistry",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "authors": "Tuğba Özdemir Mazlum and Nihat Atmaca",
+      "publisherUrl": "https://link.springer.com/article/10.1007/s44416-026-00124-x",
+      "url": "https://doi.org/10.1007/s44416-026-00124-x",
+      "summary": "Five one-part concretes vary only water-to-binder ratio within a magnesium-slag/GGBS system activated by solid sodium metasilicate, then compare workability, 7- and 28-day compression, absorption, thermal residual compression and microstructure.",
+      "highlights": [
+        "The tested middle water-to-binder ratio balanced activator dissolution, compaction and pore formation better than either drier or wetter mixtures in this fixed 30:70 magnesium-slag/GGBS formulation.",
+        "The concrete was heat-cured at 60 °C for 24 hours before sealed storage, so the selected ratio should not be presented as an ambient-cured optimum."
+      ],
+      "access": "Single laboratory study with five water levels and a fixed precursor, activator and aggregate system. Most reported hardened measurements used three specimens, while the high-temperature comparison concerns residual compressive strength after defined heating and cooling. Results do not establish flexural, tensile, field-scale or long-term outdoor performance for the formulation.",
+      "summaryBasis": "Primary Springer publisher page, full article text, methods, author information and version history; no figures, tables or full-paper passages were reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    },
+    {
+      "id": "research-lhs1e-lunar-geopolymer-thermal-curing",
+      "year": 2026,
+      "published": "2026-10-24",
+      "checked": "2026-10-28",
+      "added": "2026-10-28",
+      "dateBasis": "Publisher article date",
+      "title": "Mechanical and microstructural performance of LHS-1E-based geopolymer concrete subjected to thermal curing conditions",
+      "doi": "10.1016/j.conbuildmat.2026.148207",
+      "journal": "Construction and Building Materials",
+      "topic": "Extraterrestrial construction",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "authors": "Rayhan Md Faysal, Scott T. Smith and T. Tafsirojjaman",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S0950061826031168",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2026.148207",
+      "summary": "Ten laboratory mixtures based on LHS-1E lunar highlands regolith simulant examine elevated-temperature curing, sodium-hydroxide versus sodium-silicate-rich activation and basalt-fiber reinforcement using separate compression, tensile and flexural tests.",
+      "highlights": [
+        "Sodium-silicate-rich activation produced the strongest reported compression in this program, while basalt fiber affected tensile and flexural responses differently from compression; those test outcomes must remain separate.",
+        "The proposed south-polar solar-curing context motivates the laboratory schedule but does not demonstrate curing with lunar sunlight, lunar vacuum, radiation or reduced gravity."
+      ],
+      "access": "Publisher-indexed abstract and metadata were reviewed; direct ScienceDirect article access returned HTTP 403. The program used LHS-1E simulant, controlled terrestrial laboratory curing and three specimens per mechanical test. The 93 °C, eight-day schedule and activator findings are formulation-specific and are not independent field or lunar-environment replication.",
+      "summaryBasis": "Primary Elsevier publisher metadata and indexed abstract-level evidence; no abstract text, publisher highlights, figures, tables or full-paper passages were reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    }
+  ],
+  "journalArticle": {
+    "id": "an-optimum-carries-its-boundary-conditions",
+    "date": "2026-10-28",
+    "category": "Research briefing",
+    "topic": "Methods & evidence",
+    "title": "An optimum carries its boundary conditions",
+    "summary": "Four new studies reinforce that a preferred mixture or process is meaningful only with its precursor, curing, specimen and exposure definitions attached.",
+    "sources": [
+      "research-one-part-soft-soil-coupled-durability",
+      "research-carbonated-slag-sustained-grout-rheology",
+      "research-one-part-magnesium-slag-water-binder",
+      "research-lhs1e-lunar-geopolymer-thermal-curing"
+    ],
+    "paragraphs": [
+      "The new records optimize different things: stabilized soil under cycling, grout rheology after precursor pretreatment, water balance in a heat-cured one-part concrete, and activation and fiber choices for a lunar-regolith simulant. Each result depends on a distinct material identity and test program.",
+      "For the formulation database, preserve precursor source and pretreatment, activator form and dose, water definition, curing history, specimen geometry, test age and exposure sequence. Keep compression, tension, flexure, rheology and durability as separate observations; a preferred setting for one response is not automatically the optimum for another."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "All four DOIs were absent from current-main code search and all fourteen earlier JSON files in open daily research draft PR #5. The existing draft PR was updated rather than creating another.",
+    "dates": "Nature lists 27 October 2026; MDPI, Springer and Elsevier list 24 October 2026. Publisher publication/article dates, not future issue assignments or crawl dates, are used.",
+    "authors": "Complete author lists were verified from primary publisher metadata for all four records.",
+    "corrections": "No substantive geopolymer/AAM correction, corrigendum or retraction newly publisher-dated 21–28 October 2026 was verified in targeted publisher searches.",
+    "verification": "Four unique records, exactly two original highlights per record and four valid briefing references. Compression, tension, flexure, rheology, soil stabilization and durability remain explicitly separated.",
+    "integration": "Review-only staging on existing PR. Preserve stable IDs and existing content; run rights, application, build and browser checks before any separately authorized publication.",
+    "excluded": "Older records, future-dated issue assignments, adjacent non-binder studies and records already staged on prior days were excluded. No filler record was added."
+  }
+}

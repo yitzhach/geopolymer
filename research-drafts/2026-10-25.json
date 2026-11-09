@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-25",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-18",
+    "through": "2026-10-25"
+  },
+  "researchUpdates": [
+    {
+      "id": "research-one-part-seawater-seasand-hybrid-pp",
+      "year": 2026,
+      "published": "2026-10-25",
+      "checked": "2026-10-25",
+      "added": "2026-10-25",
+      "dateBasis": "Publisher publication date",
+      "title": "Integrated Performance Assessment of Sustainable One-Part Geopolymer Seawater Sea-Sand Concrete Reinforced with Hybrid Polypropylene Fibers",
+      "doi": "10.3390/su182110834",
+      "journal": "Sustainability",
+      "topic": "Durability",
+      "type": "Research article",
+      "publicationStatus": "Published; version of record",
+      "authors": "Alaa M. Mehriz, Mariam F. Ghazy, Omar H. Khalifa and Eslam Arafa",
+      "publisherUrl": "https://www.mdpi.com/2071-1050/18/21/10834",
+      "url": "https://doi.org/10.3390/su182110834",
+      "summary": "An experimental assessment combines a dry, one-part geopolymer binder with seawater and sea sand, then examines hybrid polypropylene-fiber reinforcement across mechanical, durability and environmental performance.",
+      "highlights": [
+        "The design addresses freshwater and natural-sand substitution together with fiber reinforcement in one formulation, rather than evaluating either change in isolation.",
+        "Its reported performance belongs to the tested binder, marine materials and hybrid-fiber combination; it should not be transferred to other seawater sources, activators or fiber blends without validation."
+      ],
+      "access": "Publisher-indexed abstract and PDF metadata only because the direct article page returned HTTP 429 during review. Full mixture proportions, specimen program, fiber dosages, reported ages, statistical uncertainty and life-cycle boundaries were not independently audited. No strength at an unreported age or independent replication is claimed.",
+      "summaryBasis": "Primary publisher-indexed metadata and PDF search evidence; no abstract text, publisher highlights, figures, tables or full-paper passages were reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    }
+  ],
+  "journalArticle": {
+    "id": "substitution-boundaries-belong-to-the-mixture",
+    "date": "2026-10-25",
+    "category": "Research briefing",
+    "topic": "Durability",
+    "title": "Substitution boundaries belong to the mixture",
+    "summary": "A marine-material geopolymer study shows why water source, aggregate source and fiber system must travel together with performance claims.",
+    "sources": [
+      "research-one-part-seawater-seasand-hybrid-pp"
+    ],
+    "paragraphs": [
+      "Replacing freshwater and natural sand with seawater and sea sand changes ionic exposure and aggregate conditions at the same time that hybrid polypropylene fibers alter cracking behavior. These are coupled variables, not interchangeable sustainability labels.",
+      "For the formulation database, preserve seawater chemistry, sea-sand grading and chloride content, dry-activator composition, fiber types and dosages, curing, test age and response type. This single experimental program does not validate every marine-source material or supply unreported strength timelines."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "DOI absent from the current main-branch catalog and all ten earlier JSON files in open daily research draft PR #5. The existing draft PR was updated rather than creating another.",
+    "dates": "MDPI lists publication on 25 October 2026. That publisher publication date, not the future issue date encoded in the citation, is used.",
+    "authors": "Alaa M. Mehriz, Mariam F. Ghazy, Omar H. Khalifa and Eslam Arafa were verified from publisher-indexed author metadata; the direct MDPI page was rate-limited during review.",
+    "corrections": "No substantive geopolymer/AAM correction or retraction newly publisher-dated 18–25 October 2026 was verified in targeted publisher searches; older 2026 notices fall outside this update window.",
+    "verification": "One unique record, exactly two original highlights and one valid briefing source reference. The note makes no unreported-age strength inference and does not present the study as independent replication.",
+    "integration": "Review-only staging on existing PR. Preserve the stable ID and existing content; run rights, application, build and browser checks before any separately authorized publication.",
+    "excluded": "Older papers, future-dated issue assignments and records already staged on prior days were excluded. No filler records were added."
+  }
+}

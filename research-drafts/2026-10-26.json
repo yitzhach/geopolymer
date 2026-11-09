@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-26",
+  "status": "Editorial draft; not integrated or published",
+  "window": {
+    "from": "2026-10-19",
+    "through": "2026-10-26"
+  },
+  "researchUpdates": [
+    {
+      "id": "research-rilem-interlab-autogenous-deformation",
+      "year": 2026,
+      "published": "2026-10-23",
+      "checked": "2026-10-26",
+      "added": "2026-10-26",
+      "dateBasis": "Publisher publication and version-of-record date",
+      "title": "Autogenous deformation of alkali-activated slag and alkali-activated metakaolin paste and mortar: an interlaboratory study of RILEM TC 294-MPA",
+      "doi": "10.1617/s11527-026-03308-w",
+      "journal": "Materials and Structures",
+      "topic": "Shrinkage & cracking",
+      "type": "RILEM TC report (interlaboratory study)",
+      "publicationStatus": "Published; version of record",
+      "authors": "Zhenming Li, Jiawei Xu, Chen Liu, Yuwei Ma, Yang Lv, Lea Žibret, Vilma Ducman and Guang Ye",
+      "publisherUrl": "https://link.springer.com/article/10.1617/s11527-026-03308-w",
+      "url": "https://doi.org/10.1617/s11527-026-03308-w",
+      "summary": "Five laboratories applied common formulations and corrugated-tube procedures to compare early autogenous deformation in alkali-activated slag and metakaolin pastes and mortars, with aggregate restraint also examined analytically.",
+      "highlights": [
+        "The shared-material program produced comparatively consistent seven-day deformation measurements for the slag paste, while the metakaolin systems showed substantially greater scatter and a two-stage expansion-to-shrinkage response.",
+        "The results make time-zero selection, aggregate restraint and binder family part of the measurement definition; deformation values should not be presented as compressive, tensile or flexural strength."
+      ],
+      "access": "Publisher preview and metadata were reviewed; the complete article is subscription content. The program covers five laboratories, common precursor batches and specified protocols, while sands and commercial activator chemicals were sourced locally within common requirements. Raw spreadsheets are available only on request. Reproducibility of this deformation method does not establish general performance for other mixtures or strength tests.",
+      "summaryBasis": "Primary Springer publisher page, author metadata, abstract, data-availability statement and version history; no figures, tables or full-paper passages were reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    },
+    {
+      "id": "research-aam-cradle-to-gate-recipe-lca",
+      "year": 2026,
+      "published": "2026-10-24",
+      "checked": "2026-10-26",
+      "added": "2026-10-26",
+      "dateBasis": "Publisher publication date",
+      "title": "Comparative Cradle-to-Gate Carbon Footprint Assessment of Selected Cementitious and Alkali-Activated Composites",
+      "doi": "10.3390/buildings16214218",
+      "journal": "Buildings",
+      "topic": "Sustainability & lifecycle",
+      "type": "Research article",
+      "publicationStatus": "Published; DOI registering at check",
+      "authors": "Beata Łaźniewska-Piekarczyk, Patrycja Miera, Mateusz Moskal and Robert Domin",
+      "publisherUrl": "https://www.mdpi.com/2075-5309/16/21/4218",
+      "url": "https://doi.org/10.3390/buildings16214218",
+      "summary": "A recipe-level cradle-to-gate assessment compares six concrete and four mortar systems, including slag-, fly-ash- and blended alkali-activated formulations, across global-warming and additional environmental impact categories under one inventory model.",
+      "highlights": [
+        "The comparison shows that a lower production-stage carbon result does not guarantee lower toxicity, ecotoxicity or resource-related impacts, so environmental screening needs more than a single carbon metric.",
+        "Results are normalized per cubic metre within a specified database and impact method; they do not demonstrate equal strength, durability, service life or environmental performance under another supply chain."
+      ],
+      "access": "The publisher page and indexed full-text metadata were reviewed, but direct MDPI access was intermittently rate-limited. This is a modeled cradle-to-gate comparison using selected recipes, BAFU-2025 inventory data and CML-IA categories. Full-precision impact outputs, complete foreground inventories and provider mappings were not supplied in the accessible manuscript files. No field performance, service-life equivalence or independent replication is claimed.",
+      "summaryBasis": "Primary MDPI publisher metadata and indexed article text, including methods and data-availability statements; no abstract text, publisher highlights, figures, tables or full-paper passages were reproduced",
+      "summaryAuthor": "Geopolymer Platform · AI-assisted discovery note"
+    }
+  ],
+  "journalArticle": {
+    "id": "comparability-is-a-test-condition",
+    "date": "2026-10-26",
+    "category": "Research briefing",
+    "topic": "Methods & evidence",
+    "title": "Comparability is a test condition",
+    "summary": "New deformation and life-cycle studies show that a number becomes reusable only when its measurement or modeling boundary travels with it.",
+    "sources": [
+      "research-rilem-interlab-autogenous-deformation",
+      "research-aam-cradle-to-gate-recipe-lca"
+    ],
+    "paragraphs": [
+      "The interlaboratory study controls precursor batches, target formulations and measurement procedures, yet binder family and locally sourced inputs still affect the observed deformation pattern. The environmental study likewise compares recipes inside one cradle-to-gate model, functional unit and database rather than offering boundary-free material rankings.",
+      "For the platform, store deformation time-zero, specimen form, aggregate ratio and laboratory protocol beside strain results. Store functional unit, system boundary, inventory source, allocation and impact method beside life-cycle results. Neither dataset should be converted into an unmeasured strength claim or a universal environmental score."
+    ]
+  },
+  "reviewNotes": {
+    "deduplication": "Both DOIs were absent from current-main code search and all twelve existing JSON files in open daily research draft PR #5. The existing draft PR was updated rather than creating another.",
+    "dates": "Springer lists publication and version of record on 23 October 2026. MDPI lists publication on 24 October 2026. Publisher dates, not future issue assignments or crawl dates, are used.",
+    "authors": "Complete author lists were verified from the Springer author section and MDPI publisher-indexed article metadata.",
+    "corrections": "No substantive geopolymer/AAM correction, corrigendum or retraction newly publisher-dated 19–26 October 2026 was verified in targeted publisher searches.",
+    "verification": "Two unique records, exactly two original highlights per record and two valid briefing references. Deformation, mechanical strength and modeled environmental impacts remain explicitly separated.",
+    "integration": "Review-only staging on existing PR. Preserve stable IDs and existing content; run rights, application, build and browser checks before any separately authorized publication.",
+    "excluded": "Older papers, future-dated issue assignments, adjacent non-binder studies and records already staged on prior days were excluded. No filler record was added."
+  }
+}
